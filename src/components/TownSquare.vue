@@ -28,67 +28,121 @@
       ></Player>
     </ul>
 
-    <div
-      class="bluffs"
-      v-if="players.length"
-      ref="bluffs"
-      :class="{ closed: !isBluffsOpen }"
-    >
-      <h3>
-        <span v-if="session.isSpectator" style="font-size: 100%"
-          >不在场身份</span
+    <div class="role-side-panel" v-if="hasRolePanel">
+      <div class="role-tabs">
+        <button
+          v-if="hasFabledPanel"
+          type="button"
+          :class="{ active: activeRolePanel === 'fabled' }"
+          @click="setRolePanel('fabled')"
         >
-        <span v-else style="font-size: 100%">恶魔的伪装身份</span>
-        <font-awesome-icon icon="times-circle" @click.stop="toggleBluffs" />
-        <font-awesome-icon icon="plus-circle" @click.stop="toggleBluffs" />
-      </h3>
-      <ul>
-        <li
-          v-for="index in bluffSize"
-          :key="index"
-          @click="openRoleModal(index * -1)"
-          :style="isBluffsOpen ? floatingZoom : ''"
+          传奇角色
+        </button>
+        <button
+          v-if="hasBluffsPanel"
+          type="button"
+          :class="{ active: activeRolePanel === 'bluffs' }"
+          @click="setRolePanel('bluffs')"
         >
-          <Token :role="bluffs[index - 1]"></Token>
-        </li>
-      </ul>
-    </div>
+          {{ session.isSpectator ? "不在场身份" : "恶魔的伪装身份" }}
+        </button>
+      </div>
 
-    <div class="fabled" :class="{ closed: !isFabledOpen }" v-if="fabled.length">
-      <h3>
-        <span>传奇角色</span>
-        <font-awesome-icon icon="times-circle" @click.stop="toggleFabled" />
-        <font-awesome-icon icon="plus-circle" @click.stop="toggleFabled" />
-      </h3>
-      <ul>
-        <li
-          v-for="(role, index) in fabled"
-          v-show="index === 0 || isFabledOpen"
-          :key="index"
-          @click="removeFabled(index)"
-          :style="floatingZoom"
-        >
-          <div
-            class="night-order first"
-            v-if="nightOrder.get(role).first && grimoire.isNightOrder"
+      <div
+        v-if="activeRolePanel === 'fabled'"
+        class="panel-body fabled-panel"
+        :class="{ closed: !isFabledOpen }"
+      >
+        <h3>
+          <span>传奇角色</span>
+          <span class="panel-actions">
+            <button
+              v-if="!session.isSpectator"
+              type="button"
+              class="panel-action"
+              aria-label="添加传奇角色"
+              @click.stop="openFabledModal"
+            >
+              <font-awesome-icon icon="plus-circle" />
+            </button>
+            <button
+              type="button"
+              class="panel-action"
+              :aria-label="isFabledOpen ? '最小化传奇角色' : '放大传奇角色'"
+              @click.stop="toggleFabled"
+            >
+              <font-awesome-icon
+                :icon="isFabledOpen ? 'window-minimize' : 'window-maximize'"
+              />
+            </button>
+          </span>
+        </h3>
+        <ul>
+          <li
+            v-for="(role, index) in fabled"
+            v-show="index === 0 || isFabledOpen"
+            :key="index"
+            @click="removeFabled(index)"
+            :style="floatingZoom"
           >
-            <em>{{ nightOrder.get(role).first }}.</em>
-            <span v-if="role.firstNightReminder">{{
-              role.firstNightReminder
-            }}</span>
-          </div>
-          <div
-            class="night-order other"
-            v-if="nightOrder.get(role).other && grimoire.isNightOrder"
+            <div
+              class="night-order first"
+              v-if="nightOrder.get(role).first && grimoire.isNightOrder"
+            >
+              <em>{{ nightOrder.get(role).first }}.</em>
+              <span v-if="role.firstNightReminder">{{
+                role.firstNightReminder
+              }}</span>
+            </div>
+            <div
+              class="night-order other"
+              v-if="nightOrder.get(role).other && grimoire.isNightOrder"
+            >
+              <em>{{ nightOrder.get(role).other }}.</em>
+              <span v-if="role.otherNightReminder">{{
+                role.otherNightReminder
+              }}</span>
+            </div>
+            <Token :role="role"></Token>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        v-if="activeRolePanel === 'bluffs'"
+        class="panel-body bluffs-panel"
+        ref="bluffs"
+        :class="{ closed: !isBluffsOpen }"
+      >
+        <h3>
+          <span v-if="session.isSpectator">不在场身份</span>
+          <span v-else>恶魔的伪装身份</span>
+          <span class="panel-actions">
+            <button
+              type="button"
+              class="panel-action"
+              :aria-label="
+                isBluffsOpen ? '最小化恶魔伪装身份' : '放大恶魔伪装身份'
+              "
+              @click.stop="toggleBluffs"
+            >
+              <font-awesome-icon
+                :icon="isBluffsOpen ? 'window-minimize' : 'window-maximize'"
+              />
+            </button>
+          </span>
+        </h3>
+        <ul>
+          <li
+            v-for="index in bluffSize"
+            :key="index"
+            @click="openRoleModal(index * -1)"
+            :style="isBluffsOpen ? floatingZoom : ''"
           >
-            <em>{{ nightOrder.get(role).other }}.</em>
-            <span v-if="role.otherNightReminder">{{
-              role.otherNightReminder
-            }}</span>
-          </div>
-          <Token :role="role"></Token>
-        </li>
-      </ul>
+            <Token :role="bluffs[index - 1]"></Token>
+          </li>
+        </ul>
+      </div>
     </div>
     <div v-if="session.isSpectator && isRole.length > 0" class="is-role">
       <font-awesome-icon
@@ -101,10 +155,6 @@
 
     <ReminderModal :player-index="selectedPlayer"></ReminderModal>
     <RoleModal :player-index="selectedPlayer"></RoleModal>
-
-    <div id="version">
-      <span>本地局域网离线版本</span>
-    </div>
   </div>
 </template>
 
@@ -136,8 +186,24 @@ export default {
     },
     floatingZoom: function () {
       const ratio = this.windowWidth / this.windowHeight;
-      const size = ratio > 1 ? 14 : 8;
+      const size = ratio > 1 ? 12 : this.windowWidth < 480 ? 4.8 : 7;
       return "height: " + size + "vh; width: " + size + "vh;";
+    },
+    hasBluffsPanel: function () {
+      return this.players.length > 0 && !this.grimoire.isPublic;
+    },
+    hasFabledPanel: function () {
+      return this.fabled.length > 0;
+    },
+    hasRolePanel: function () {
+      return this.hasFabledPanel || this.hasBluffsPanel;
+    },
+    activeRolePanel: function () {
+      if (this.rolePanel === "fabled" && this.hasFabledPanel) return "fabled";
+      if (this.rolePanel === "bluffs" && this.hasBluffsPanel) return "bluffs";
+      if (this.hasFabledPanel) return "fabled";
+      if (this.hasBluffsPanel) return "bluffs";
+      return "";
     },
     isRole: function () {
       const activeRoles = [];
@@ -162,6 +228,7 @@ export default {
       nominate: -1,
       isBluffsOpen: true,
       isFabledOpen: true,
+      rolePanel: "fabled",
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
     };
@@ -195,6 +262,13 @@ export default {
     },
     toggleFabled() {
       this.isFabledOpen = !this.isFabledOpen;
+    },
+    setRolePanel(panel) {
+      this.rolePanel = panel;
+    },
+    openFabledModal() {
+      if (this.session.isSpectator) return;
+      this.$store.commit("toggleModal", "fabled");
     },
     removeFabled(index) {
       if (this.session.isSpectator) {
@@ -411,7 +485,7 @@ export default {
 #townsquare {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: clamp(44px, 5.5vmin, 64px);
   display: flex;
   align-items: center;
   align-content: center;
@@ -493,16 +567,6 @@ export default {
             left: 100%;
           }
         }
-        .pronouns {
-          left: 110%;
-          right: auto;
-          &:before {
-            border-left-color: transparent;
-            border-right-color: black;
-            left: auto;
-            right: 100%;
-          }
-        }
       } @else {
         // second half of players
         z-index: $i - 1;
@@ -516,6 +580,7 @@ export default {
       .life,
       .token,
       .shroud,
+      .death-toggle,
       .night-order,
       .seat {
         animation-delay: ($i - 1) * 50ms;
@@ -546,19 +611,17 @@ export default {
 }
 
 /***** Demon bluffs / Fabled *******/
-#townsquare > .bluffs,
-#townsquare > .fabled {
+#townsquare > .role-side-panel {
   position: absolute;
-  &.bluffs {
-    bottom: 10px;
-  }
-  &.fabled {
-    top: 10px;
-  }
   left: 10px;
+  bottom: 10px;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: min(440px, calc(100vw - 20px));
+  overflow: hidden;
   background: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  border: 3px solid black;
+  border-radius: 8px;
+  border: 2px solid black;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
   transform-origin: bottom left;
   transform: scale(1);
@@ -566,17 +629,41 @@ export default {
   transition: all 200ms ease-in-out;
   z-index: 50;
 
-  > svg {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    &:hover {
-      color: red;
-    }
+  .role-tabs {
+    display: flex;
+    gap: 2px;
+    padding: 4px 4px 0;
   }
+
+  .role-tabs button {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 3px 8px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    background: rgba(0, 0, 0, 0.35);
+    font: inherit;
+    font-size: 70%;
+    line-height: 1.1;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 0 1px 2px black;
+  }
+
+  .role-tabs button.active {
+    background: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 255, 255, 0.75);
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.25);
+  }
+
+  .panel-body {
+    position: relative;
+  }
+
   h3 {
-    margin: 5px 1vh 0;
+    margin: 3px 0.75vh 0;
     display: flex;
     align-items: center;
     align-content: center;
@@ -587,16 +674,32 @@ export default {
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-    svg {
+    .panel-actions {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35em;
+      margin-left: 0.5em;
+      overflow: visible;
+    }
+    .panel-action {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border: 0;
+      background: transparent;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .panel-actions svg {
       cursor: pointer;
       flex-grow: 0;
-      &.fa-times-circle {
-        margin-left: 0vh;
-      }
-      &.fa-plus-circle {
-        margin-left: 0vh;
-        display: none;
-      }
       &:hover path {
         fill: url(#demon);
         stroke-width: 30px;
@@ -609,21 +712,15 @@ export default {
     align-items: center;
     justify-content: center;
     li {
-      margin: 0 0.5%;
+      margin: 0 0.25%;
       display: inline-block;
       transition: all 250ms;
     }
   }
-  &.closed {
-    svg.fa-times-circle {
-      display: none;
-    }
-    svg.fa-plus-circle {
-      display: block;
-    }
+  .panel-body.closed {
     ul li {
-      width: 0;
-      height: 0;
+      width: 0 !important;
+      height: 0 !important;
       .night-order {
         opacity: 0;
       }
@@ -634,12 +731,34 @@ export default {
   }
 }
 
-#townsquare.public > .bluffs {
-  opacity: 0;
-  transform: scale(0.1);
+@media screen and (max-width: 767.98px) {
+  #townsquare > .role-side-panel {
+    max-width: min(190px, calc(52vw - 10px));
+  }
+
+  #townsquare > .role-side-panel .role-tabs button {
+    min-height: 32px;
+    padding: 5px 6px;
+    font-size: 68%;
+  }
+
+  #townsquare > .role-side-panel ul {
+    max-width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  #townsquare > .role-side-panel h3 {
+    font-size: 112%;
+  }
+
+  #townsquare > .role-side-panel .panel-action {
+    width: 24px;
+    height: 24px;
+  }
 }
 
-.fabled ul li .token:before {
+.fabled-panel ul li .token:before {
   content: " ";
   opacity: 0;
   transition: opacity 250ms;
@@ -774,7 +893,7 @@ export default {
   }
 
   // adjustment for fabled
-  .fabled &.first {
+  .fabled-panel &.first {
     span {
       right: auto;
       left: 40px;
@@ -790,22 +909,8 @@ export default {
   }
 }
 
-#townsquare:not(.spectator) .fabled ul li:hover .token:before {
+#townsquare:not(.spectator) .fabled-panel ul li:hover .token:before {
   opacity: 1;
-}
-
-#version {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background-color: transparent;
-  color: white;
-  padding: 0px;
-}
-
-#version a {
-  color: white;
-  text-decoration: none;
 }
 
 #townsquare > .is-role {

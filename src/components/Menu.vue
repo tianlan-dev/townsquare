@@ -1,34 +1,6 @@
 <template>
   <div id="controls">
     <span
-      v-if="
-        !!session.sessionId &&
-        (!session.isSpectator ||
-          !!session.isHostAllowed ||
-          !!session.isJoinAllowed)
-      "
-    >
-      <button
-        v-if="!session.isSpectator && (!timing || session.timer <= 0)"
-        @click="startTimer"
-        class="timerButton"
-      >
-        开始
-      </button>
-      <button
-        v-if="!session.isSpectator && timing && session.timer > 0"
-        @click="stopTimer"
-        class="timerButton"
-      >
-        停止
-      </button>
-      <span style="font-size: 20px" @click="setTimer">
-        <span>计时 </span>
-        <span :style="lessThanOneMinute">{{ formattedTime }}</span>
-      </span>
-    </span>
-
-    <span
       class="nomlog-summary"
       v-show="session.voteHistory.length && session.sessionId"
       @click="toggleModal('voteHistory')"
@@ -83,10 +55,17 @@
               <template v-if="grimoire.isPublic">显示</template>
               <em>[G]</em>
             </li>
-            <li @click="toggleNight" v-if="!session.isSpectator">
-              <template v-if="!grimoire.isNight">切换至夜晚</template>
-              <template v-if="grimoire.isNight">切换至白天</template>
-              <em>[S]</em>
+            <li
+              @click="previousPhase"
+              v-if="!session.isSpectator"
+              :class="{ disabled: grimoire.phaseIndex <= 0 }"
+            >
+              后退至前一阶段
+              <em>{{ previousPhaseLabel }}</em>
+            </li>
+            <li @click="nextPhase" v-if="!session.isSpectator">
+              前进到下一阶段
+              <em>{{ nextPhaseLabel }}</em>
             </li>
             <li @click="toggleIsReview" v-if="!session.isSpectator">
               复盘视角
@@ -262,7 +241,7 @@
               选择剧本
               <em>[E]</em>
             </li>
-            <li @click="selectEditionsAsk()">
+            <li v-if="edition.id === 'all'" @click="selectEditionsAsk()">
               <small> 选择全角色合集范围 </small>
             </li>
             <li
@@ -427,7 +406,7 @@
         <button @click="distributeGrimoire()">取消</button>
       </div>
     </div>
-    <div v-if="selectingEditions" class="dialog">
+    <div v-if="selectingEditions && edition.id === 'all'" class="dialog">
       <span>
         <b
           >请选择全角色合集的剧本范围（该功能仅对自己生效{{
@@ -483,7 +462,7 @@
 </template>
 
 <script>
-import { mapMutations, mapState } from "vuex";
+import { mapGetters, mapMutations, mapState } from "vuex";
 
 export default {
   computed: {
@@ -495,6 +474,14 @@ export default {
       "selectedEditions",
     ]),
     ...mapState("players", ["players"]),
+    ...mapGetters(["phaseLabelByIndex"]),
+    previousPhaseLabel() {
+      if (this.grimoire.phaseIndex <= 0) return "已是首夜";
+      return this.phaseLabelByIndex(this.grimoire.phaseIndex - 1);
+    },
+    nextPhaseLabel() {
+      return this.phaseLabelByIndex(this.grimoire.phaseIndex + 1);
+    },
     formattedTime() {
       const minutes = Math.floor(this.session.timer / 60);
       const seconds = Math.ceil(this.session.timer % 60);
@@ -585,6 +572,17 @@ export default {
 
       const newName = input[0];
       this.$store.commit("session/setPlayerName", newName);
+      if (
+        this.session.claimedSeat > -1 &&
+        this.players[this.session.claimedSeat]
+      ) {
+        this.$store.commit("players/update", {
+          player: this.players[this.session.claimedSeat],
+          property: "name",
+          value: newName,
+        });
+        this.$store.commit("session/claimSeat", this.session.claimedSeat);
+      }
     },
     async hostSession() {
       if (!this.session.playerName) await this.changeName();
@@ -626,6 +624,7 @@ export default {
       if (sessionId) {
         this.$store.commit("session/clearVoteHistory", []);
         this.$store.commit("session/setSpectator", false);
+        this.$store.commit("setPhaseIndex", 0);
         this.$store.commit("session/setSessionId", sessionId);
         this.$store.commit("players/clear");
         for (let i = 0; i < numPlayers; i++) {
@@ -844,6 +843,7 @@ export default {
       }
     },
     selectEditionsAsk() {
+      if (this.edition.id !== "all") return;
       this.selectingEditions = !this.selectingEditions;
       if (this.selectingEditions)
         this.pendingEditions = { ...this.selectedEditions };
@@ -933,6 +933,7 @@ export default {
 
         this.$store.commit("session/setSpectator", false);
         this.$store.commit("session/setSessionId", "");
+        this.$store.commit("setPhaseIndex", 0);
         this.$store.commit("session/setIsHostAllowed", null);
         this.$store.commit("session/setIsJoinAllowed", null);
 
@@ -1064,8 +1065,15 @@ export default {
       const content = input[0].trim();
       this.$store.commit("session/setBootlegger", content);
     },
-    toggleNight() {
-      this.$store.commit("toggleNight");
+    previousPhase() {
+      if (this.grimoire.phaseIndex <= 0) return;
+      this.$store.commit("previousPhase");
+      if (this.grimoire.isNight) {
+        this.$store.commit("session/setMarkedPlayer", -1);
+      }
+    },
+    nextPhase() {
+      this.$store.commit("nextPhase");
       if (this.grimoire.isNight) {
         this.$store.commit("session/setMarkedPlayer", -1);
       }
@@ -1398,6 +1406,12 @@ export default {
         color: red;
       }
 
+      &.disabled,
+      &.disabled:hover {
+        cursor: default;
+        color: rgba(255, 255, 255, 0.45);
+      }
+
       em {
         flex-grow: 0;
         font-style: normal;
@@ -1428,7 +1442,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px 5px 5px 5px;
   right: 8px;
-  border: white;
+  border: 1px solid white;
   color: white;
   cursor: pointer;
 }

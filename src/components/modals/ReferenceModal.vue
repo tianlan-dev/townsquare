@@ -217,7 +217,7 @@ export default {
       if (
         role.image &&
         this.grimoire.isImageOptIn &&
-        this.isLocalAsset(role.image)
+        this.isAllowedImageUrl(role.image)
       ) {
         return role.image;
       }
@@ -227,11 +227,11 @@ export default {
           ".png",
       );
     },
-    isLocalAsset(url) {
+    isAllowedImageUrl(url) {
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
       try {
-        return (
-          new URL(url, window.location.origin).origin === window.location.origin
+        return ["http:", "https:"].includes(
+          new URL(url, window.location.origin).protocol,
         );
       } catch (e) {
         return false;

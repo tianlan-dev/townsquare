@@ -1,5 +1,16 @@
 <template>
   <li :style="zoom">
+    <button
+      v-if="!session.isSpectator"
+      type="button"
+      class="death-toggle"
+      :class="{ dead: player.isDead }"
+      :title="player.isDead ? '复活玩家' : '标记死亡'"
+      @click="toggleStatus"
+    >
+      <font-awesome-icon :icon="player.isDead ? 'heartbeat' : 'skull'" />
+    </button>
+
     <div
       ref="player"
       class="player"
@@ -14,10 +25,8 @@
         player.role.team,
       ]"
     >
-      <div class="seatNum">{{ players.indexOf(player) + 1 }}</div>
-
-      <div class="shroud" @click="toggleStatus()"></div>
-      <div class="life" @click="toggleStatus()"></div>
+      <div class="shroud"></div>
+      <div class="life"></div>
       <div v-if="player.id" class="avatar">
         <img :src="avatarSrc(player.image)" :class="{ on: player.role.id }" />
       </div>
@@ -189,12 +198,7 @@
         <font-awesome-icon icon="skull" />
       </div>
       <div class="name" @click="checkOverTop()" :class="{ active: isMenuOpen }">
-        <span v-if="player.id">{{ player.name }}</span>
-        <span v-else>空座位</span>
-        <font-awesome-icon icon="venus-mars" v-if="player.pronouns" />
-        <div class="pronouns" v-if="player.pronouns">
-          <span>{{ player.pronouns }}</span>
-        </div>
+        <span>{{ index + 1 }}.{{ player.name || "空座位" }}</span>
       </div>
 
       <transition name="fold">
@@ -210,15 +214,6 @@
             },
           ]"
         >
-          <li
-            @click="changePronouns"
-            v-if="
-              !session.isSpectator ||
-              (session.isSpectator && player.id === session.playerId)
-            "
-          >
-            <font-awesome-icon icon="venus-mars" />改人称代词
-          </li>
           <template v-if="!session.isSpectator">
             <li @click="changeName">
               <font-awesome-icon icon="user-edit" />改名
@@ -474,29 +469,6 @@ export default {
       if (!this.session.isSpectator || !this.session.isReview)
         this.$emit("trigger", ["openRoleModal"]);
     },
-    async changePronouns() {
-      if (this.session.isSpectator && this.player.id !== this.session.playerId)
-        return;
-
-      const input = await this.showInputModal({
-        inputType: "pronouns",
-        inputModal: "input",
-        inputData: {
-          name: ["请输入人称代词"],
-          length: 1,
-          placeholder: [""],
-        },
-      }).catch(() => {
-        return null;
-      });
-      if (input === null) return;
-
-      const pronouns = input[0];
-      //Only update pronouns if not null (prompt was not cancelled)
-      if (pronouns !== null) {
-        this.updatePlayer("pronouns", pronouns, true);
-      }
-    },
     toggleStatus() {
       if (this.grimoire.isPublic) {
         if (!this.player.isDead) {
@@ -619,8 +591,7 @@ export default {
       if (
         this.session.isSpectator &&
         property !== "reminders" &&
-        property !== "stReminders" &&
-        property !== "pronouns"
+        property !== "stReminders"
       )
         return;
       this.$store.commit("players/update", {
@@ -722,6 +693,51 @@ export default {
 }
 
 /***** Player token *****/
+.circle .death-toggle {
+  position: absolute;
+  left: 0;
+  top: -12%;
+  width: 34%;
+  height: 0;
+  padding: 0 0 34%;
+  margin-left: -17%;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: rgba(0, 0, 0, 0.75);
+  color: #eee;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 3;
+  opacity: 0;
+  transition:
+    opacity 200ms,
+    background 200ms,
+    color 200ms;
+
+  svg {
+    position: absolute;
+    inset: 22%;
+    width: 56%;
+    height: 56%;
+    margin: 0;
+  }
+
+  &:hover,
+  &.dead {
+    opacity: 1;
+  }
+
+  &.dead {
+    background: #111;
+    color: #d23a3a;
+  }
+}
+
+.circle li:hover .death-toggle {
+  opacity: 1;
+}
+
 .circle .player {
   margin-bottom: 10px;
 
@@ -737,7 +753,7 @@ export default {
     position: absolute;
     width: 100%;
     height: 45%;
-    cursor: pointer;
+    pointer-events: none;
     transform: rotateX(0deg);
     transform-origin: top center;
     transition: transform 200ms ease-in-out;
@@ -758,10 +774,6 @@ export default {
       transform: perspective(400px) scale(1.5);
       transform-origin: top center;
       transition: all 200ms;
-      pointer-events: none;
-    }
-
-    #townsquare.spectator & {
       pointer-events: none;
     }
 
@@ -794,7 +806,7 @@ export default {
     background-size: 100%;
     border: 3px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+    pointer-events: none;
     transition: transform 200ms ease-in-out;
     transform: perspective(400px) rotateY(180deg);
     backface-visibility: hidden;
@@ -1153,23 +1165,6 @@ li.move:not(.from) .player .overlay svg.move {
   }
 }
 
-// Player Seat Number
-.player .seatNum {
-  position: absolute;
-  top: -5%;
-  left: 8%;
-  font-size: 120%;
-  z-index: 3;
-  font-weight: bold;
-  // -webkit-text-stroke-color: #000;
-  // -webkit-text-stroke-width: 1px;
-  text-shadow:
-    -1px 1px #000,
-    1px 1px #000,
-    -1px 1px #000,
-    -1px -1px #000;
-}
-
 // highlight animation
 @keyframes redToWhite {
   from {
@@ -1213,40 +1208,6 @@ li.move:not(.from) .player .overlay svg.move {
   #townsquare:not(.spectator) &:hover,
   &.active {
     color: red;
-  }
-
-  &:hover .pronouns {
-    opacity: 1;
-    color: white;
-  }
-
-  .pronouns {
-    display: flex;
-    position: absolute;
-    right: 110%;
-    max-width: 250px;
-    z-index: 25;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    border: 3px solid black;
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
-    align-items: center;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 200ms ease-in-out;
-    padding: 0 4px;
-    bottom: -3px;
-
-    &:before {
-      content: " ";
-      border: 10px solid transparent;
-      width: 0;
-      height: 0;
-      border-left-color: black;
-      position: absolute;
-      margin-left: 2px;
-      left: 100%;
-    }
   }
 }
 

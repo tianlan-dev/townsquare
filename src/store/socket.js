@@ -275,6 +275,9 @@ class LiveSession {
       case "stId":
         this._updateStId(params);
         break;
+      case "roomClosed":
+        this._handleRoomClosed();
+        break;
       case "player":
         this._updatePlayer(params);
         break;
@@ -283,6 +286,9 @@ class LiveSession {
         break;
       case "grimoire":
         this._updateGrimoire(params);
+        break;
+      case "clearPlayerInfo":
+        this._clearPlayerInfo();
         break;
       case "claim":
         this._updateSeat(params);
@@ -331,6 +337,10 @@ class LiveSession {
       case "isNight":
         if (!this._isSpectator) return;
         this._store.commit("toggleNight", params);
+        break;
+      case "phaseIndex":
+        if (!this._isSpectator) return;
+        this._store.commit("setPhaseIndex", params);
         break;
       case "isVoteHistoryAllowed":
         if (!this._isSpectator) return;
@@ -584,6 +594,28 @@ class LiveSession {
     }
   }
 
+  async _handleRoomClosed() {
+    if (!this._isSpectator) return;
+    this._store.commit("session/setSessionId", "");
+    this._store.commit("session/setSpectator", false);
+    this._store.commit("setPhaseIndex", 0);
+    this._store.commit("session/setIsHostAllowed", null);
+    this._store.commit("session/setIsJoinAllowed", null);
+    if (this._store.state.session.nomination) {
+      this._store.commit("session/nomination");
+    }
+    this._store.commit("players/clear", true);
+    await this.showInputModal({
+      inputType: "alert",
+      inputModal: "text",
+      inputData: {
+        name: ["房间已被说书人解散。"],
+      },
+    }).catch(() => {
+      return null;
+    });
+  }
+
   /**
    * Publish the current gamestate.
    * Optional param to reduce traffic. (send only player data)
@@ -629,6 +661,7 @@ class LiveSession {
       }
       this._sendDirect(playerId, "gs", {
         gamestate: this._gamestate,
+        phaseIndex: grimoire.phaseIndex,
         isNight: grimoire.isNight,
         isVoteHistoryAllowed: session.isVoteHistoryAllowed,
         isSecretVote: session.isSecretVote,
@@ -684,6 +717,7 @@ class LiveSession {
     const {
       gamestate,
       isLightweight,
+      phaseIndex,
       isNight,
       isVoteHistoryAllowed,
       isSecretVote,
@@ -760,7 +794,11 @@ class LiveSession {
       }
     });
     if (!isLightweight) {
-      this._store.commit("toggleNight", !!isNight);
+      if (phaseIndex !== undefined) {
+        this._store.commit("setPhaseIndex", phaseIndex);
+      } else {
+        this._store.commit("toggleNight", !!isNight);
+      }
       this._store.commit("session/setVoteHistoryAllowed", isVoteHistoryAllowed);
       this._store.commit("session/setSecretVote", isSecretVote);
       this._store.commit("session/setUseOldOrder", isUseOldOrder);
@@ -1268,7 +1306,12 @@ class LiveSession {
   claimSeat(seat) {
     if (!this._isSpectator) return;
     const players = this._store.state.players.players;
-    if (players.length > seat && (seat < 0 || !players[seat].id)) {
+    if (
+      players.length > seat &&
+      (seat < 0 ||
+        !players[seat].id ||
+        players[seat].id === this._store.state.session.playerId)
+    ) {
       // this._send("claim", [seat, this._store.state.session.playerId, this._store.state.session.playerName, this._store.state.session.playerAvatar]);
       this._sendDirect("host", "claim", [
         seat,
@@ -1290,7 +1333,7 @@ class LiveSession {
     if (this._isSpectator) return;
     // const property = "id";
     const players = this._store.state.players.players;
-    if (index >= 0 && players[index].id) return;
+    if (index >= 0 && players[index].id && players[index].id !== value) return;
     // remove previous seat
     const oldIndex = players.findIndex(({ id }) => id === value);
     if (oldIndex >= 0 && oldIndex !== index) {
@@ -1299,16 +1342,16 @@ class LiveSession {
         property: "id",
         value: "",
       });
-      // this._store.commit("players/update", {
-      //   player: players[oldIndex],
-      //   property: "name",
-      //   value: ""
-      // });
-      // this._store.commit("players/update", {
-      //   player: players[oldIndex],
-      //   property: "image",
-      //   value: ""
-      // });
+      this._store.commit("players/update", {
+        player: players[oldIndex],
+        property: "name",
+        value: "",
+      });
+      this._store.commit("players/update", {
+        player: players[oldIndex],
+        property: "image",
+        value: "",
+      });
       if (players[oldIndex].isWraith === true) {
         this._store.commit("players/update", {
           player: players[oldIndex],
@@ -1600,6 +1643,28 @@ class LiveSession {
     }
   }
 
+  clearDistributedPlayerInfo() {
+    if (this._isSpectator) return;
+    const playerIds = new Set(Object.keys(this._players));
+    this._store.state.players.players.forEach(({ id }) => {
+      if (id) playerIds.add(id);
+    });
+    playerIds.delete(this._store.state.session.playerId);
+
+    const message = {};
+    playerIds.forEach((playerId) => {
+      message[playerId] = ["clearPlayerInfo"];
+    });
+    if (Object.keys(message).length) {
+      this._send("direct", message);
+    }
+  }
+
+  _clearPlayerInfo() {
+    if (!this._isSpectator) return;
+    this._store.commit("players/clearKnownInfo");
+  }
+
   /**
    * A player nomination. ST only
    * This also syncs the voting speed to the players.
@@ -1628,10 +1693,11 @@ class LiveSession {
   }
 
   /**
-   * Send the isNight status. ST only
+   * Send the current phase status. ST only
    */
-  setIsNight() {
+  setPhaseIndex() {
     if (this._isSpectator) return;
+    this._send("phaseIndex", this._store.state.grimoire.phaseIndex);
     this._send("isNight", this._store.state.grimoire.isNight);
   }
 
@@ -2172,6 +2238,9 @@ export default (store) => {
           session.distributeGrimoire(payload);
         }
         break;
+      case "session/clearDistributedPlayerInfo":
+        session.clearDistributedPlayerInfo();
+        break;
       case "session/nomination":
       case "session/setNomination":
         session.nomination(payload);
@@ -2194,8 +2263,13 @@ export default (store) => {
       case "session/setVoteHistoryAllowed":
         session.setVoteHistoryAllowed();
         break;
+      case "setPhaseIndex":
+      case "nextPhase":
+      case "previousPhase":
+        session.setPhaseIndex();
+        break;
       case "toggleNight":
-        session.setIsNight();
+        session.setPhaseIndex();
         break;
       case "setEdition":
         session.sendEdition();

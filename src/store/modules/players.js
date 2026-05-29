@@ -158,6 +158,9 @@ const actions = {
     }
     commit("set", players);
     commit("setBluff");
+    if (!rootState.session.isSpectator) {
+      commit("session/clearDistributedPlayerInfo", null, { root: true });
+    }
   },
   realivePlayers({ state, commit }) {
     state.players.forEach((player) => {
@@ -175,6 +178,15 @@ const mutations = {
   },
   set(state, players = []) {
     state.players = players;
+  },
+  clearKnownInfo(state) {
+    state.players = state.players.map((player) => ({
+      ...player,
+      role: {},
+      reminders: [],
+      stReminders: [],
+    }));
+    state.bluffs = [];
   },
   /**
   The update mutation also has a property for isFromSockets

@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <img src="static/apple-icon.png" alt="" class="logo" />
+    <img src="static/botc-logo.png" alt="" class="logo" />
     <div>
       <div class="intro-lines">
         <div>欢迎来到城镇广场。</div>
@@ -104,12 +104,10 @@ export default {
   img.logo {
     position: absolute;
     bottom: 100%;
-    width: 25vh;
+    width: 22vh;
     margin-bottom: 2vh;
     max-width: 192px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px black;
-    border: 3px solid black;
+    filter: drop-shadow(0 0 10px black);
   }
   .footer {
     margin-top: 0.75rem;

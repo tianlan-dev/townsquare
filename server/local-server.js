@@ -18,13 +18,37 @@ fs.mkdirSync(avatarDir, { recursive: true });
 
 const app = express();
 const staticRoot = fs.existsSync(path.join(distDir, "index.html")) ? distDir : publicDir;
+const scriptsDir = path.join(staticRoot, "scripts");
+
+function listScripts() {
+  if (!fs.existsSync(scriptsDir)) return [];
+  return fs.readdirSync(scriptsDir)
+    .filter(file => file.endsWith(".json"))
+    .sort()
+    .map(file => {
+      try {
+        const script = JSON.parse(fs.readFileSync(path.join(scriptsDir, file), "utf8"));
+        const meta = Array.isArray(script)
+          ? script.find(item => item && item.id === "_meta") || {}
+          : {};
+        return {
+          name: meta.name || file.replace(/\.json$/, ""),
+          url: `/scripts/${file}`,
+          logo: meta.logo || ""
+        };
+      } catch (e) {
+        return null;
+      }
+    })
+    .filter(Boolean);
+}
 
 app.get("/health", (req, res) => {
   res.json({ ok: true });
 });
 
-app.get("/dynamic/version.txt", (req, res) => {
-  res.type("text/plain").send("3.2.3\n");
+app.get("/scripts/index.json", (req, res) => {
+  res.json(listScripts());
 });
 
 app.use("/avatars", express.static(avatarDir, { fallthrough: true }));
@@ -80,6 +104,17 @@ function addRoomToLobby(channel) {
 
 function removeRoomFromLobby(channel) {
   broadcastLobby("removeRoom", channel);
+}
+
+function closeRoomClients(room) {
+  room.clients.forEach(socket => {
+    send(socket, "roomClosed");
+    setTimeout(() => {
+      if (socket.readyState === WebSocket.OPEN) {
+        socket.close(1000, "Room closed");
+      }
+    }, 50);
+  });
 }
 
 function safePlayerId(playerId) {
@@ -200,6 +235,7 @@ function attachSession(socket, pathname) {
     if (room.host === socket) {
       room.host = null;
       removeRoomFromLobby(channel);
+      closeRoomClients(room);
     }
     if (!room.host && room.clients.size === 0) rooms.delete(channel);
   });

@@ -75,6 +75,7 @@ const state = () => ({
   inputRejecter: null,
   bootlegger: "",
   timer: 480,
+  isTimerRunning: false,
   startTime: null,
   lastUpdateTime: null,
   interval: null,
@@ -135,6 +136,12 @@ const mutations = {
   },
   distributeGrimoire(state, { val }) {
     state.isGrimoireDistributed = val;
+  },
+  clearDistributedPlayerInfo(state) {
+    state.isRolesDistributed = false;
+    state.isTypesDistributed = false;
+    state.isBluffsDistributed = false;
+    state.isGrimoireDistributed = false;
   },
   setSessionId(state, sessionId) {
     state.sessionId = sessionId
@@ -299,6 +306,7 @@ const mutations = {
   },
   startTimer(state, time) {
     if (time) state.timer = time;
+    state.isTimerRunning = true;
     state.startTime = Date.now();
     state.lastUpdateTime = Date.now(); // Initialize last update time
 
@@ -316,12 +324,14 @@ const mutations = {
 
       if (state.timer <= 0) {
         state.timer = 0;
+        state.isTimerRunning = false;
         clearInterval(state.interval);
       }
     }, 1000);
   },
   stopTimer(state) {
     clearInterval(state.interval);
+    state.isTimerRunning = false;
   },
 };
 

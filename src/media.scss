@@ -9,7 +9,7 @@
     width: 30px;
     height: 30px;
   }
-  .fabled .night-order.first span {
+  .fabled-panel .night-order.first span {
     left: 30px;
   }
 }
@@ -27,11 +27,11 @@
     width: 20px;
     height: 20px;
   }
-  .fabled .night-order.first span {
+  .fabled-panel .night-order.first span {
     left: 20px;
   }
   #townsquare {
-    padding: 10px;
+    padding: clamp(46px, 8vmin, 64px);
   }
 }
 
@@ -62,14 +62,18 @@
 
 // odd aspect ratio
 @media (max-aspect-ratio: 11/7) {
-  .bluffs,
-  .fabled {
-    h3 {
+  .role-side-panel {
+    h3 span {
       max-width: 14vh;
     }
-    ul {
-      flex-direction: column;
-    }
+  }
+
+  .bluffs-panel ul {
+    flex-direction: row;
+  }
+
+  .fabled-panel ul {
+    flex-direction: row;
   }
 
   #townsquare > .is-role {
@@ -85,5 +89,9 @@
     top: 0;
     width: 35%;
     padding-bottom: 35%;
+  }
+
+  .circle li .death-toggle {
+    opacity: 1;
   }
 }

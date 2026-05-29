@@ -59,7 +59,6 @@ const faIcons = [
   "UserEdit",
   "UserFriends",
   "Users",
-  "VenusMars",
   "VolumeUp",
   "VolumeMute",
   "VoteYea",

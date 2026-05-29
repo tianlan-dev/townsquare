@@ -5,12 +5,9 @@ module.exports = (store) => {
     // (document.title = `Blood on the Clocktower ${
     //   isPublic ? "Town Square" : "Grimoire"
     // }`);
-    (document.title = `编程分享：钟楼谜团 ${isPublic ? "" : ""}`);
+    (document.title = `染·钟楼谜团${isPublic ? "" : ""}`);
 
   // initialize data
-  if (localStorage.getItem("lastVersion")) {
-    store.commit("setLastVersion", localStorage.getItem("lastVersion"));
-  }
   if (localStorage.getItem("background")) {
     store.commit("setBackground", localStorage.background);
   }
@@ -72,7 +69,17 @@ module.exports = (store) => {
   }
   if (localStorage.edition !== undefined) {
     // this will initialize state.roles for official editions
-    store.commit("setEdition", JSON.parse(localStorage.edition));
+    const edition = JSON.parse(localStorage.edition);
+    if (edition.id === "custom_ankot") {
+      localStorage.removeItem("edition");
+      localStorage.removeItem("roles");
+      localStorage.removeItem("states");
+      localStorage.removeItem("teamsNames");
+      localStorage.removeItem("firstNight");
+      localStorage.removeItem("otherNight");
+    } else {
+      store.commit("setEdition", edition);
+    }
   }
   if (localStorage.bluffs !== undefined) {
     JSON.parse(localStorage.bluffs).forEach((role, index) => {
@@ -190,13 +197,6 @@ module.exports = (store) => {
         }
         updatePagetitle(state.grimoire.isPublic);
         break;
-      case "setLastVersion":
-        if (payload) {
-          localStorage.setItem("lastVersion", payload);
-        } else {
-          localStorage.removeItem("lastVersion");
-        }
-        break;
       case "setBackground":
         if (payload) {
           localStorage.setItem("background", payload);
@@ -226,7 +226,7 @@ module.exports = (store) => {
         }
         break;
       case "setZoom":
-        if (payload !== 0) {
+        if (payload !== -2) {
           localStorage.setItem("zoom", payload);
         } else {
           localStorage.removeItem("zoom");

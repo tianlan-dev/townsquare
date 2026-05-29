@@ -11,8 +11,6 @@ import jinxesJSON from "../hatred.json";
 
 Vue.use(Vuex);
 
-const LATEST_VERSION_URL = "/dynamic/version.txt";
-
 // helper functions
 const getRolesByEdition = (edition = editionJSON[0]) => {
   if (edition.id === "all") {
@@ -58,6 +56,35 @@ const toggle =
       grimoire[key] = !grimoire[key];
     }
   };
+
+const phaseNames = ["夜晚", "黎明", "白天", "黄昏"];
+
+const normalizePhaseIndex = (phaseIndex) => {
+  const index = Number.parseInt(phaseIndex, 10);
+  return Number.isFinite(index) && index > 0 ? index : 0;
+};
+
+const getPhaseInfo = (phaseIndex = 0) => {
+  const index = normalizePhaseIndex(phaseIndex);
+  const phase = index % phaseNames.length;
+  const day = Math.floor(index / phaseNames.length) + 1;
+  const isFirstNight = index === 0;
+  return {
+    index,
+    day,
+    phase,
+    name: phaseNames[phase],
+    isNight: phase === 0,
+    label: `第${day}天${phaseNames[phase]}${isFirstNight ? "(首夜)" : ""}`,
+  };
+};
+
+const setPhaseIndex = (grimoire, phaseIndex) => {
+  const index = normalizePhaseIndex(phaseIndex);
+  const phase = getPhaseInfo(index);
+  grimoire.phaseIndex = index;
+  grimoire.isNight = phase.isNight;
+};
 
 const clean = (id) => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
 
@@ -107,10 +134,9 @@ export default new Vuex.Store({
   },
   state: {
     version: "3.2.3",
-    latestVersion: "",
-    lastVersion: "",
     grimoire: {
-      isNight: false,
+      phaseIndex: 0,
+      isNight: true,
       isNightOrder: true,
       isPublic: false,
       isMenuOpen: false,
@@ -118,11 +144,10 @@ export default new Vuex.Store({
       isMuted: false,
       isImageOptIn: true,
       isForwardEvilInfo: false,
-      zoom: 0,
+      zoom: -2,
       background: "",
     },
     modals: {
-      version: false,
       edition: false,
       fabled: false,
       gameState: false,
@@ -192,21 +217,44 @@ export default new Vuex.Store({
       return customRoles;
     },
     rolesJSONbyId: () => rolesJSONbyId,
+    phaseInfo: ({ grimoire }) => getPhaseInfo(grimoire.phaseIndex),
+    phaseLabelByIndex: () => (phaseIndex) => getPhaseInfo(phaseIndex).label,
   },
   mutations: {
     setZoom: set("zoom"),
     setBackground: set("background"),
-    setLatestVersion(state, val) {
-      state.latestVersion = val;
-    },
-    setLastVersion(state, val) {
-      state.lastVersion = val;
-    },
     toggleMuted: toggle("isMuted"),
     toggleMenu: toggle("isMenuOpen"),
     toggleNightOrder: toggle("isNightOrder"),
     toggleStatic: toggle("isStatic"),
-    toggleNight: toggle("isNight"),
+    setPhaseIndex({ grimoire }, phaseIndex) {
+      setPhaseIndex(grimoire, phaseIndex);
+    },
+    nextPhase({ grimoire }) {
+      setPhaseIndex(grimoire, normalizePhaseIndex(grimoire.phaseIndex) + 1);
+    },
+    previousPhase({ grimoire }) {
+      setPhaseIndex(grimoire, normalizePhaseIndex(grimoire.phaseIndex) - 1);
+    },
+    toggleNight({ grimoire }, val) {
+      const nextIsNight =
+        val === true || val === false ? val : !grimoire.isNight;
+      const currentIndex = normalizePhaseIndex(grimoire.phaseIndex);
+      if (nextIsNight) {
+        const nightIndex =
+          currentIndex % phaseNames.length === 0
+            ? currentIndex
+            : (Math.floor(currentIndex / phaseNames.length) + 1) *
+              phaseNames.length;
+        setPhaseIndex(grimoire, nightIndex);
+      } else {
+        const dayIndex =
+          currentIndex % phaseNames.length === 0
+            ? currentIndex + 1
+            : currentIndex;
+        setPhaseIndex(grimoire, dayIndex);
+      }
+    },
     toggleGrimoire: toggle("isPublic"),
     toggleImageOptIn: toggle("isImageOptIn"),
     toggleForwardEvilInfo: toggle("isForwardEvilInfo"),
@@ -364,19 +412,6 @@ export default new Vuex.Store({
       state.modals.edition = false;
     },
   },
-  actions: {
-    async checkVersion() {
-      try {
-        const response = await fetch(LATEST_VERSION_URL);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const latestVersion = await response.text();
-        this.commit("setLatestVersion", latestVersion.trim());
-      } catch (e) {
-        return null;
-      }
-    },
-  },
+  actions: {},
   plugins: [persistence, socket],
 });

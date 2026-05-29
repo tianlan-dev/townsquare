@@ -37,15 +37,12 @@
     <VoteHistoryModal />
     <GameStateModal />
     <InputModal ref="input" />
-    <VersionModal />
     <Gradients />
-    <!-- <span id="version">v{{ version }}</span> -->
   </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
-import packageInfo from "../package.json";
 import TownSquare from "./components/TownSquare";
 import TownInfo from "./components/TownInfo";
 import Menu from "./components/Menu";
@@ -61,7 +58,6 @@ import FabledModal from "@/components/modals/FabledModal";
 import VoteHistoryModal from "@/components/modals/VoteHistoryModal";
 import GameStateModal from "@/components/modals/GameStateModal";
 import InputModal from "@/components/modals/InputModal.vue";
-import VersionModal from "./components/modals/VersionModal.vue";
 
 export default {
   components: {
@@ -79,21 +75,13 @@ export default {
     EditionModal,
     RolesModal,
     InputModal,
-    VersionModal,
     Gradients,
   },
   computed: {
     ...mapState(["grimoire", "session", "modals"]),
     ...mapState("players", ["players"]),
   },
-  data() {
-    return {
-      version: packageInfo.version,
-    };
-  },
   async mounted() {
-    this.$store.dispatch("checkVersion");
-
     // Original socket.js logic is now here
     const pathname = window.location.pathname;
     const sessionId = window.location.hash.substr(1);
@@ -210,10 +198,6 @@ export default {
             this.$store.commit("toggleModal", "voteHistory");
           }
           break;
-        case "s":
-          if (this.session.isSpectator) return;
-          this.$refs.menu.toggleNight();
-          break;
         case "t":
           if (this.session.isSpectator) return;
           this.$refs.menu.setTimer();
@@ -324,15 +308,6 @@ ul {
     transition: none !important;
     animation: none !important;
   }
-}
-
-#version {
-  position: absolute;
-  text-align: right;
-  right: 10px;
-  bottom: 10px;
-  font-size: 60%;
-  opacity: 0.5;
 }
 
 .blur-enter-active,

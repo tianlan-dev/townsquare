@@ -13,7 +13,10 @@
     "id": "angel",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["庇护", "不好的事"],
+    "reminders": [
+      "庇护",
+      "不好的事"
+    ],
     "setup": false,
     "name": "天使",
     "team": "fabled",
@@ -33,7 +36,9 @@
     "id": "hellslibrarian",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["不好的事"],
+    "reminders": [
+      "不好的事"
+    ],
     "setup": false,
     "name": "地狱藏书员",
     "team": "fabled",
@@ -43,7 +48,9 @@
     "id": "revolutionary",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["被当作其他"],
+    "reminders": [
+      "被当作其他"
+    ],
     "setup": false,
     "name": "革命者",
     "team": "fabled",
@@ -64,7 +71,9 @@
     "firstNightReminder": "",
     "otherNight": 1,
     "otherNightReminder": "在任何一个夜晚，如果恶魔醒来后所进行的攻击会导致游戏结束，但恶魔还有“无法攻击”的提示标记，恶魔当晚不会被唤醒。",
-    "reminders": ["无法攻击"],
+    "reminders": [
+      "无法攻击"
+    ],
     "setup": false,
     "name": "玩具匠",
     "team": "fabled",
@@ -74,7 +83,9 @@
     "id": "fibbin",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["失去能力"],
+    "reminders": [
+      "失去能力"
+    ],
     "setup": false,
     "name": "骗人精",
     "team": "fabled",
@@ -85,7 +96,10 @@
     "firstNightReminder": "",
     "otherNight": 1,
     "otherNightReminder": "在晚上，分别单独唤醒每一名标记了“访客”和“错误信息”的玩家。向被唤醒的玩家展示“公爵夫人”标记。如果被唤醒的玩家被标记了“访客”，向他们用手指比划一个数字（0，1，2或3），这个数字会等于被标记了“访客”和“错误信息”的玩家中邪恶玩家的数量。如果被唤醒的玩家被标记了“错误信息”，则向他们用手指比划一个错误的数字。让被唤醒的玩家入睡。",
-    "reminders": ["访客", "错误信息"],
+    "reminders": [
+      "访客",
+      "错误信息"
+    ],
     "setup": false,
     "name": "公爵夫人",
     "team": "fabled",
@@ -105,7 +119,9 @@
     "id": "spiritofivory",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["No extra evil"],
+    "reminders": [
+      "No extra evil"
+    ],
     "setup": false,
     "name": "圣洁之魂",
     "team": "fabled",
@@ -127,7 +143,9 @@
     "firstNight": 1,
     "firstNightReminder": "在首个夜晚，分别依次唤醒每个邪恶玩家。如果有善良角色标记了暴风捕手的“不会死亡”提示标记，对邪恶玩家展示“这名玩家是”信息标记，对应的善良角色标记，并指向对应的善良玩家，然后让邪恶玩家重新入睡。如果没有玩家被暴风捕手标记，对邪恶玩家展示“这些角色不在场”信息标记和对应的善良角色标记，然后让邪恶玩家重新入睡。",
     "otherNightReminder": "",
-    "reminders": ["不会死亡"],
+    "reminders": [
+      "不会死亡"
+    ],
     "setup": false,
     "name": "暴风捕手",
     "team": "fabled",
@@ -171,7 +189,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["哎呀！"],
+    "reminders": [
+      "哎呀！"
+    ],
     "setup": false,
     "name": "失败的上帝",
     "team": "fabled",
@@ -204,7 +224,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["哎呀！"],
+    "reminders": [
+      "哎呀！"
+    ],
     "setup": false,
     "name": "失败的上帝",
     "team": "fabled",
@@ -215,7 +237,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["完美"],
+    "reminders": [
+      "完美"
+    ],
     "setup": false,
     "name": "传奇角色",
     "team": "fabled",
@@ -248,7 +272,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["当日死亡"],
+    "reminders": [
+      "当日死亡"
+    ],
     "setup": false,
     "name": "遗忘之门",
     "team": "loric",
@@ -259,7 +285,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["目标"],
+    "reminders": [
+      "目标"
+    ],
     "setup": false,
     "name": "异术士",
     "team": "loric",
@@ -275,45 +303,5 @@
     "name": "印度教教徒",
     "team": "loric",
     "ability": "最先死亡的四名玩家会立刻以相同阵营的旅行者转世重生。"
-  },
-  {
-    "id": "ankothearts",
-    "name": "红心赦令",
-    "team": "fabled",
-    "ability": "所有其他玩家中毒，直到下个黄昏。",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [],
-    "edition": "custom_ankot"
-  },
-  {
-    "id": "ankotspades",
-    "name": "黑桃赦令",
-    "team": "fabled",
-    "ability": "死亡的爪牙与你今晚击杀的爪牙重获能力直到下个黄昏。",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [],
-    "edition": "custom_ankot"
-  },
-  {
-    "id": "ankotdiamonds",
-    "name": "方块赦令",
-    "team": "fabled",
-    "ability": "你要选择一名玩家：他死亡。如果你因此杀死了一名爪牙，刷新其他所有令。",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [],
-    "edition": "custom_ankot"
-  },
-  {
-    "id": "ankotclubs",
-    "name": "梅花赦令",
-    "team": "fabled",
-    "ability": "你要选择一名玩家：他死亡。即使任何原因让他不会死亡。",
-    "firstNight": 0,
-    "otherNight": 0,
-    "reminders": [],
-    "edition": "custom_ankot"
   }
 ]

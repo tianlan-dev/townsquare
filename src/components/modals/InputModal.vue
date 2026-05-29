@@ -197,8 +197,6 @@ export default {
           break;
         case "timer":
           break;
-        case "pronouns":
-          break;
         case "changeNameSt":
           if (
             this.input[0].trim() === "" ||

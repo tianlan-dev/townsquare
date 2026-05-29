@@ -2,22 +2,39 @@
   <Modal class="editions" v-if="modals.edition" @close="closeEdition()">
     <div v-if="!isCustom">
       <h3>选择剧本</h3>
+      <div class="edition-tabs">
+        <button
+          v-for="tab in editionTabs"
+          :key="tab.id"
+          type="button"
+          :class="{ active: activeEditionTab === tab.id }"
+          @click="activeEditionTab = tab.id"
+        >
+          {{ tab.name }}
+        </button>
+      </div>
       <ul class="editions">
         <li
-          v-for="edition in editions"
+          v-for="edition in visibleEditions"
           class="edition"
           :class="['edition-' + edition.id]"
-          :style="{
-            backgroundImage: `url(${require(
-              '../../assets/editions/' + edition.id + '.png',
-            )})`,
-          }"
+          :style="editionBackground(edition)"
           :key="edition.id"
           @click="setHomeEdition(edition)"
         >
           {{ edition.name }}
         </li>
         <li
+          v-for="script in visibleScripts"
+          class="edition edition-script"
+          :key="script.url"
+          :style="scriptBackground(script)"
+          @click="handleURL(script.url)"
+        >
+          {{ script.name }}
+        </li>
+        <li
+          v-if="activeEditionTab === 'custom'"
           class="edition edition-custom"
           @click="isCustom = true"
           :style="{
@@ -30,23 +47,9 @@
     </div>
     <div class="custom" v-else>
       <h3>加载自定义剧本/角色</h3>
-      若想玩自定义剧本，请在
-      本地剧本工具中选择想玩的角色然后上传生成的"custom-list.json"文件，或提供同源本地JSON路径。
-
-      <br />
-      若想玩自定义角色，请查阅关于如何编写自定义角色定义文件的文档。
+      若想玩自定义剧本，请提供JSON路径/互联网URL。
       <br />
       <b>请勿上传未知来源的自定义JSON文件！</b>
-      <h3>剧本：</h3>
-      <ul class="scripts">
-        <li
-          v-for="(script, index) in scripts"
-          :key="index"
-          @click="handleURL(script[1])"
-        >
-          {{ script[0] }}
-        </li>
-      </ul>
       <input
         type="file"
         ref="upload"
@@ -83,21 +86,53 @@ export default {
   data: function () {
     return {
       editions: editionJSON,
-      isCustom: false,
-      scripts: [
-        ["死罪忏悔日", "/scripts/penanceday.json"],
-        ["人人都该诋毁的鲶鱼11.1", "/scripts/catfishing.json"],
-        ["如履薄冰（小剧本）", "/scripts/on-thin-ice.json"],
-        ["逐底竞技（小剧本）", "/scripts/race-to-the-bottom.json"],
-        ["失控造物（小剧本）", "/scripts/frankensteins-mayor.json"],
-        ["永生之境（小剧本）", "/scripts/vigormortis-high-school.json"],
-        ["无上愉悦（小剧本）", "/scripts/no_greater_joy.json"],
-        ["噬脑疑局（小剧本）", "/scripts/a_lleach_of_distrust.json"],
+      activeEditionTab: "official",
+      editionTabs: [
+        {
+          id: "official",
+          name: "官方剧本",
+        },
+        {
+          id: "packs",
+          name: "角色包",
+        },
+        {
+          id: "custom",
+          name: "自定义剧本",
+        },
       ],
+      isCustom: false,
+      scripts: [],
     };
   },
-  computed: mapState(["modals", "selectedEditions"]),
+  computed: {
+    visibleEditions() {
+      if (this.activeEditionTab === "official") {
+        return this.editions.filter((edition) => !edition.isRolePak);
+      }
+      if (this.activeEditionTab === "packs") {
+        return this.editions.filter((edition) => edition.isRolePak);
+      }
+      return [];
+    },
+    visibleScripts() {
+      return this.activeEditionTab === "custom" ? this.scripts : [];
+    },
+    ...mapState(["modals", "selectedEditions"]),
+  },
+  mounted() {
+    this.loadScripts();
+  },
   methods: {
+    async loadScripts() {
+      try {
+        const res = await fetch("/scripts/index.json");
+        if (!res.ok) return;
+        this.scripts = await res.json();
+      } catch (e) {
+        this.scripts = [];
+      }
+    },
     async showInputModal({ inputType, inputModal, inputData }) {
       return new Promise((resolve, reject) => {
         this.$store.commit("session/setInputResolver", resolve);
@@ -148,7 +183,7 @@ export default {
         inputType: "json",
         inputModal: "input",
         inputData: {
-          name: ["输入本机服务器上的custom-script.json路径"],
+          name: ["输入custom-script.json路径或互联网URL"],
           length: 1,
           placeholder: [""],
         },
@@ -163,14 +198,14 @@ export default {
       }
     },
     async handleURL(url) {
-      const localUrl = this.normalizeLocalUrl(url);
-      if (!localUrl) {
+      const scriptUrl = this.normalizeScriptUrl(url);
+      if (!scriptUrl) {
         await this.showInputModal({
           inputType: "alert",
           inputModal: "text",
           inputData: {
             name: [
-              "只允许加载当前本机服务器上的JSON路径。请使用上传、剪贴板或/scripts/xxx.json。",
+              "只允许加载HTTP(S) URL或当前本机服务器上的JSON路径。请使用上传、剪贴板、/scripts/xxx.json或https://...。",
             ],
           },
         }).catch(() => {
@@ -178,7 +213,23 @@ export default {
         });
         return;
       }
-      const res = await fetch(localUrl);
+      let res;
+      try {
+        res = await fetch(scriptUrl);
+      } catch (e) {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: [
+              "读取剧本错误：无法加载该URL。请确认链接可访问且允许跨域读取。",
+            ],
+          },
+        }).catch(() => {
+          return null;
+        });
+        return;
+      }
       if (res && res.json) {
         try {
           const script = await res.json();
@@ -239,8 +290,8 @@ export default {
           });
         }
       }
-      roles = this.localizeExternalImages(roles);
-      meta = this.localizeExternalImages([meta])[0];
+      roles = this.sanitizeImageUrls(roles);
+      meta = this.sanitizeImageUrls([meta])[0];
       this.$store.commit("setCustomRoles", roles);
       this.$store.commit(
         "setEdition",
@@ -261,16 +312,19 @@ export default {
       }
       this.isCustom = false;
     },
-    normalizeLocalUrl(url) {
+    normalizeScriptUrl(url) {
       try {
         const parsed = new URL(url, window.location.origin);
-        if (parsed.origin !== window.location.origin) return "";
-        return `${parsed.pathname}${parsed.search}${parsed.hash}`;
+        if (!["http:", "https:"].includes(parsed.protocol)) return "";
+        if (parsed.origin === window.location.origin) {
+          return `${parsed.pathname}${parsed.search}${parsed.hash}`;
+        }
+        return parsed.href;
       } catch (e) {
         return "";
       }
     },
-    localizeExternalImages(items) {
+    sanitizeImageUrls(items) {
       return items.map((item) => {
         if (!item || typeof item !== "object") return item;
         const image = item.image || item.logo;
@@ -282,8 +336,7 @@ export default {
         } catch (e) {
           return item;
         }
-        const isLocal = parsed.origin === window.location.origin;
-        if (isLocal) return item;
+        if (["http:", "https:"].includes(parsed.protocol)) return item;
         const cleanItem = Object.assign({}, item);
         delete cleanItem.image;
         delete cleanItem.logo;
@@ -339,11 +392,23 @@ export default {
       }
     },
     setHomeEdition(edition) {
-      if (
-        ["tb", "bmr", "snv", "luf", "all", "custom_ankot"].includes(edition.id)
-      )
+      if (["tb", "bmr", "snv", "luf", "all"].includes(edition.id))
         this.$store.commit("setStates", []);
       this.setEdition(edition, this.selectedEditions);
+    },
+    editionBackground(edition) {
+      return {
+        backgroundImage: `url(${require(
+          "../../assets/editions/" + edition.id + ".png",
+        )})`,
+      };
+    },
+    scriptBackground(script) {
+      return {
+        backgroundImage: script.logo
+          ? `url(${script.logo})`
+          : `url(${require("../../assets/editions/custom.png")})`,
+      };
     },
     ...mapMutations(["toggleModal", "setEdition"]),
   },
@@ -351,6 +416,29 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.edition-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 12px;
+
+  button {
+    border: 2px solid #8a7864;
+    background: #111;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    padding: 6px 14px;
+    min-width: 96px;
+
+    &.active,
+    &:hover {
+      color: red;
+      border-color: red;
+    }
+  }
+}
+
 ul.editions .edition {
   font-family: PiratesBay, sans-serif;
   letter-spacing: 1px;
@@ -379,18 +467,6 @@ ul.editions .edition {
   text-align: center;
   input[type="file"] {
     display: none;
-  }
-  .scripts {
-    list-style-type: disc;
-    font-size: 120%;
-    cursor: pointer;
-    display: block;
-    width: 50%;
-    text-align: left;
-    margin: 10px auto;
-    li:hover {
-      color: red;
-    }
   }
 }
 </style>
