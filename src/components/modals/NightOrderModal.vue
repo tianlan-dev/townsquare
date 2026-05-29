@@ -41,7 +41,7 @@
             class="icon"
             v-if="role.id"
             :style="{
-              backgroundImage: `url(${iconUrl(role)})`
+              backgroundImage: `url(${iconUrl(role)})`,
             }"
           ></span>
           <span class="reminder" v-if="role.firstNightReminder">
@@ -60,7 +60,7 @@
             class="icon"
             v-if="role.id"
             :style="{
-              backgroundImage: `url(${iconUrl(role)})`
+              backgroundImage: `url(${iconUrl(role)})`,
             }"
           ></span>
           <span class="name">
@@ -92,10 +92,10 @@ import { mapMutations, mapState } from "vuex";
 
 export default {
   components: {
-    Modal
+    Modal,
   },
   computed: {
-    rolesFirstNight: function() {
+    rolesFirstNight: function () {
       const rolesFirstNight = [];
       // add minion / demon infos to night order sheet
       if (this.players.length > 6) {
@@ -106,10 +106,10 @@ export default {
             name: "爪牙信息",
             firstNight: this.grimoire.isForwardEvilInfo ? 0 : 15,
             team: "minion",
-            players: this.players.filter(p => p.role.team === "minion"),
+            players: this.players.filter((p) => p.role.team === "minion"),
             firstNightReminder:
               "如果爪牙多于一位，让他们互相看清彼此。" +
-              "展示这是恶魔卡片，指向恶魔。（夜间顺序15）"
+              "展示这是恶魔卡片，指向恶魔。（夜间顺序15）",
           },
           {
             id: "evil",
@@ -117,75 +117,117 @@ export default {
             name: "恶魔信息与伪装身份",
             firstNight: this.grimoire.isForwardEvilInfo ? 0 : 21,
             team: "demon",
-            players: this.players.filter(p => p.role.team === "demon"),
+            players: this.players.filter((p) => p.role.team === "demon"),
             firstNightReminder:
               "展示这些是你的爪牙卡片，并指向每个爪牙。" +
-              "展示这些身份不在游戏中卡片，并展示3个不在场的善良身份。（夜间顺序21）"
-          }
+              "展示这些身份不在游戏中卡片，并展示3个不在场的善良身份。（夜间顺序21）",
+          },
         );
       }
-      this.roles.forEach(role => {
-        const players = this.players.filter(p => p.role.id === role.id);
+      this.roles.forEach((role) => {
+        const players = this.players.filter((p) => p.role.id === role.id);
         if (role.firstNight && (role.team !== "traveler" || players.length)) {
-          if(players.length > 0 && !players[0].id) players[0].name = "";
+          if (players.length > 0 && !players[0].id) players[0].name = "";
           rolesFirstNight.push(Object.assign({ players }, role));
         }
       });
       this.fabled
         .filter(({ firstNight }) => firstNight)
-        .forEach(fabled => {
+        .forEach((fabled) => {
           rolesFirstNight.push(Object.assign({ players: [] }, fabled));
         });
       const roles = [...this.roles.values()];
-      const roleIds = [...roles.filter(role => role.firstNight > 0).map(role => role.id), ...this.fabled.filter(role => role.firstNight > 0).map(role => role.id), 'dusk', 'dawn', 'minioninfo', 'demoninfo'];
-      const customOrder = this.firstNight.every(role => roleIds.includes(role)) && roleIds.every(role => this.firstNight.includes(role));
+      const roleIds = [
+        ...roles.filter((role) => role.firstNight > 0).map((role) => role.id),
+        ...this.fabled
+          .filter((role) => role.firstNight > 0)
+          .map((role) => role.id),
+        "dusk",
+        "dawn",
+        "minioninfo",
+        "demoninfo",
+      ];
+      const customOrder =
+        this.firstNight.every((role) => roleIds.includes(role)) &&
+        roleIds.every((role) => this.firstNight.includes(role));
       rolesFirstNight.sort((a, b) => {
-        return customOrder ? this.firstNight.indexOf(a.alias || a.id) -  this.firstNight.indexOf(b.alias || b.id) : a.firstNight - b.firstNight;
+        return customOrder
+          ? this.firstNight.indexOf(a.alias || a.id) -
+              this.firstNight.indexOf(b.alias || b.id)
+          : a.firstNight - b.firstNight;
       });
       return rolesFirstNight;
     },
-    rolesOtherNight: function() {
+    rolesOtherNight: function () {
       const rolesOtherNight = [];
-      this.roles.forEach(role => {
-        const players = this.players.filter(p => p.role.id === role.id);
+      this.roles.forEach((role) => {
+        const players = this.players.filter((p) => p.role.id === role.id);
         if (role.otherNight && (role.team !== "traveler" || players.length)) {
-          if(players.length > 0 && !players[0].id) players[0].name = "";
+          if (players.length > 0 && !players[0].id) players[0].name = "";
           rolesOtherNight.push(Object.assign({ players }, role));
         }
       });
       this.fabled
         .filter(({ otherNight }) => otherNight)
-        .forEach(fabled => {
+        .forEach((fabled) => {
           rolesOtherNight.push(Object.assign({ players: [] }, fabled));
         });
       const roles = [...this.roles.values()];
-      const roleIds = [...roles.filter(role => role.otherNight > 0).map(role => role.id), ...this.fabled.filter(role => role.otherNight > 0).map(role => role.id), 'dusk', 'dawn'];
-      const customOrder = this.otherNight.every(role => roleIds.includes(role)) && roleIds.every(role => this.otherNight.includes(role));
+      const roleIds = [
+        ...roles.filter((role) => role.otherNight > 0).map((role) => role.id),
+        ...this.fabled
+          .filter((role) => role.otherNight > 0)
+          .map((role) => role.id),
+        "dusk",
+        "dawn",
+      ];
+      const customOrder =
+        this.otherNight.every((role) => roleIds.includes(role)) &&
+        roleIds.every((role) => this.otherNight.includes(role));
       rolesOtherNight.sort((a, b) => {
-        return customOrder ? this.otherNight.indexOf(a.id) -  this.otherNight.indexOf(b.id) : a.otherNight - b.otherNight;
+        return customOrder
+          ? this.otherNight.indexOf(a.id) - this.otherNight.indexOf(b.id)
+          : a.otherNight - b.otherNight;
       });
       return rolesOtherNight;
     },
-    ...mapState(["roles", "modals", "edition", "grimoire", "firstNight", "otherNight"]),
-    ...mapState("players", ["players", "fabled"])
+    ...mapState([
+      "roles",
+      "modals",
+      "edition",
+      "grimoire",
+      "firstNight",
+      "otherNight",
+    ]),
+    ...mapState("players", ["players", "fabled"]),
   },
   methods: {
     iconUrl(role) {
-      if (role.image && this.grimoire.isImageOptIn && this.isLocalAsset(role.image)) {
+      if (
+        role.image &&
+        this.grimoire.isImageOptIn &&
+        this.isLocalAsset(role.image)
+      ) {
         return role.image;
       }
-      return require("../../assets/icons/" + (role.imageAlt || role.id.replace(/old1$/, "")) + ".png");
+      return require(
+        "../../assets/icons/" +
+          (role.imageAlt || role.id.replace(/old1$/, "")) +
+          ".png",
+      );
     },
     isLocalAsset(url) {
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
       try {
-        return new URL(url, window.location.origin).origin === window.location.origin;
+        return (
+          new URL(url, window.location.origin).origin === window.location.origin
+        );
       } catch (e) {
         return false;
       }
     },
-    ...mapMutations(["toggleModal"])
-  }
+    ...mapMutations(["toggleModal"]),
+  },
 };
 </script>
 

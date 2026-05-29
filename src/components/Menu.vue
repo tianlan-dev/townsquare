@@ -1,9 +1,28 @@
 <template>
   <div id="controls">
-    <span v-if="!!session.sessionId && (!session.isSpectator || !!session.isHostAllowed || !!session.isJoinAllowed)">
-      <button v-if="!session.isSpectator && (!timing || session.timer <= 0)" @click="startTimer" class="timerButton">开始</button>
-      <button v-if="!session.isSpectator && timing && session.timer > 0" @click="stopTimer" class="timerButton">停止</button>
-      <span style="font-size: 20px;" @click="setTimer">
+    <span
+      v-if="
+        !!session.sessionId &&
+        (!session.isSpectator ||
+          !!session.isHostAllowed ||
+          !!session.isJoinAllowed)
+      "
+    >
+      <button
+        v-if="!session.isSpectator && (!timing || session.timer <= 0)"
+        @click="startTimer"
+        class="timerButton"
+      >
+        开始
+      </button>
+      <button
+        v-if="!session.isSpectator && timing && session.timer > 0"
+        @click="stopTimer"
+        class="timerButton"
+      >
+        停止
+      </button>
+      <span style="font-size: 20px" @click="setTimer">
         <span>计时 </span>
         <span :style="lessThanOneMinute">{{ formattedTime }}</span>
       </span>
@@ -13,11 +32,9 @@
       class="nomlog-summary"
       v-show="session.voteHistory.length && session.sessionId"
       @click="toggleModal('voteHistory')"
-      :title="
-        `${session.voteHistory.length} recent ${
-          session.voteHistory.length == 1 ? 'nomination' : 'nominations'
-        }`
-      "
+      :title="`${session.voteHistory.length} recent ${
+        session.voteHistory.length == 1 ? 'nomination' : 'nominations'
+      }`"
     >
       <font-awesome-icon icon="book-dead" />
       {{ session.voteHistory.length }}
@@ -26,15 +43,18 @@
       class="session"
       :class="{
         spectator: session.isSpectator,
-        reconnecting: session.isReconnecting
+        reconnecting: session.isReconnecting,
       }"
-      v-if="!!session.sessionId && (!session.isSpectator || !!session.isHostAllowed || !!session.isJoinAllowed)"
-      @click="leaveSession"
-      :title="
-        `${session.playerCount} other players in this session${
-          session.ping ? ' (' + session.ping + 'ms latency)' : ''
-        }`
+      v-if="
+        !!session.sessionId &&
+        (!session.isSpectator ||
+          !!session.isHostAllowed ||
+          !!session.isJoinAllowed)
       "
+      @click="leaveSession"
+      :title="`${session.playerCount} other players in this session${
+        session.ping ? ' (' + session.ping + 'ms latency)' : ''
+      }`"
     >
       <!-- <font-awesome-icon icon="broadcast-tower" />
       {{ session.playerCount }} -->
@@ -72,10 +92,7 @@
               复盘视角
               <em>
                 <font-awesome-icon
-                  :icon="[
-                    'fas',
-                    session.isReview ? 'check-square' : 'square'
-                  ]"
+                  :icon="['fas', session.isReview ? 'check-square' : 'square']"
                 />
               </em>
             </li>
@@ -85,7 +102,7 @@
                 <font-awesome-icon
                   :icon="[
                     'fas',
-                    grimoire.isNightOrder ? 'check-square' : 'square'
+                    grimoire.isNightOrder ? 'check-square' : 'square',
                   ]"
                 />
               </em>
@@ -106,15 +123,15 @@
             </li>
             <li @click="setBackground">
               背景图
-              <em><font-awesome-icon icon="image"/></em>
+              <em><font-awesome-icon icon="image" /></em>
             </li>
             <li @click="$emit('trigger', ['uploadAvatar'])">
               上传头像
-              <em><font-awesome-icon icon="user"/></em>
+              <em><font-awesome-icon icon="user" /></em>
             </li>
             <li @click="changeName">
               设置昵称
-              <em><font-awesome-icon icon="user-edit"/></em>
+              <em><font-awesome-icon icon="user-edit" /></em>
             </li>
             <li v-if="!edition.isOfficial" @click="imageOptIn">
               <small>允许自定义图标</small>
@@ -122,7 +139,7 @@
                 ><font-awesome-icon
                   :icon="[
                     'fas',
-                    grimoire.isImageOptIn ? 'check-square' : 'square'
+                    grimoire.isImageOptIn ? 'check-square' : 'square',
                   ]"
               /></em>
             </li>
@@ -140,7 +157,10 @@
               关闭动画
               <em
                 ><font-awesome-icon
-                  :icon="['fas', grimoire.isStatic ? 'check-square' : 'square']"
+                  :icon="[
+                    'fas',
+                    grimoire.isStatic ? 'check-square' : 'square',
+                  ]"
               /></em>
             </li>
             <li v-if="!session.isSpectator" @click="useOldOrderAsk">
@@ -153,13 +173,15 @@
               静音
               <em
                 ><font-awesome-icon
-                  :icon="['fas', grimoire.isMuted ? 'volume-mute' : 'volume-up']"
+                  :icon="[
+                    'fas',
+                    grimoire.isMuted ? 'volume-mute' : 'volume-up',
+                  ]"
               /></em>
             </li>
             <li @click="clearLocalStorage">
               清空储存
-              <em
-                ><font-awesome-icon icon="trash-alt"/></em>
+              <em><font-awesome-icon icon="trash-alt" /></em>
             </li>
           </div>
         </template>
@@ -169,9 +191,7 @@
           <li class="headline" v-if="session.sessionId">
             {{ session.isSpectator ? "玩家" : "说书人" }}
           </li>
-          <li class="headline" v-else>
-            联机
-          </li>
+          <li class="headline" v-else>联机</li>
           <div class="options">
             <template v-if="!session.sessionId">
               <li @click="hostSession">创建房间<em>[H]</em></li>
@@ -184,22 +204,22 @@
               </li>
               <li @click="copySessionUrl">
                 复制链接
-                <em><font-awesome-icon icon="copy"/></em>
+                <em><font-awesome-icon icon="copy" /></em>
               </li>
               <li v-if="!session.isSpectator" @click="distributeAsk">
                 发送角色
-                <em><font-awesome-icon icon="theater-masks"/></em>
+                <em><font-awesome-icon icon="theater-masks" /></em>
               </li>
               <li v-if="!session.isSpectator" @click="distributeTypeAsk">
                 发送角色类型
               </li>
               <li v-if="!session.isSpectator" @click="distributeBluffsAsk">
                 发送伪装身份
-                <em><font-awesome-icon icon="hat-wizard"/></em>
+                <em><font-awesome-icon icon="hat-wizard" /></em>
               </li>
               <li v-if="!session.isSpectator" @click="distributeGrimoireAsk">
                 发送魔典
-                <em><font-awesome-icon icon="book"/></em>
+                <em><font-awesome-icon icon="book" /></em>
               </li>
               <li
                 v-if="session.voteHistory.length || !session.isSpectator"
@@ -220,15 +240,17 @@
           <!-- Users -->
           <li class="headline">玩家</li>
           <div class="options">
-            <li @click="addPlayer" v-if="players.length < 20">添加座位<!--<em>[A]</em>--></li>
+            <li @click="addPlayer" v-if="players.length < 20">
+              添加座位<!--<em>[A]</em>-->
+            </li>
             <li @click="randomizeSeatings" v-if="players.length > 2">
               随机座位
-              <em><font-awesome-icon icon="dice"/></em>
+              <em><font-awesome-icon icon="dice" /></em>
             </li>
             <li @click="clearPlayers" v-if="players.length">
               移除全部
-              <em><font-awesome-icon icon="trash-alt"/></em>
-            </li> 
+              <em><font-awesome-icon icon="trash-alt" /></em>
+            </li>
           </div>
         </template>
 
@@ -241,9 +263,7 @@
               <em>[E]</em>
             </li>
             <li @click="selectEditionsAsk()">
-              <small>
-                选择全角色合集范围
-              </small>
+              <small> 选择全角色合集范围 </small>
             </li>
             <li
               @click="toggleModal('roles')"
@@ -257,13 +277,11 @@
               <em>[F]</em>
             </li>
             <li v-if="!session.isSpectator" @click="customiseBootlegger">
-              <small>
-                自定义私货商人
-              </small>
+              <small> 自定义私货商人 </small>
             </li>
             <li @click="clearRoles" v-if="players.length">
               移除全部
-              <em><font-awesome-icon icon="trash-alt"/></em>
+              <em><font-awesome-icon icon="trash-alt" /></em>
             </li>
           </div>
         </template>
@@ -282,7 +300,7 @@
             </li>
             <li v-if="!session.isSpectator" @click="toggleModal('gameState')">
               游戏状态JSON
-              <em><font-awesome-icon icon="file-code"/></em>
+              <em><font-awesome-icon icon="file-code" /></em>
             </li>
           </div>
         </template>
@@ -293,15 +311,23 @@
       <span>
         <b>请选择想要使用原版顺序的官方角色</b>
       </span>
-      <br>
+      <br />
       <span>
         <label>麻脸巫婆</label>
-        <input type="checkbox" v-model="pendingOldOrder.pithag" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldOrder.pithag"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>教授</label>
-        <input type="checkbox" v-model="pendingOldOrder.professor" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldOrder.professor"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <div>
@@ -313,30 +339,50 @@
       <span>
         <b>请选择想要使用原（旧）版能力的官方角色</b>
       </span>
-      <br>
+      <br />
       <span>
         <label>气球驾驶员</label>
-        <input type="checkbox" v-model="pendingOldRole.balloonist" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldRole.balloonist"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>杂技演员</label>
-        <input type="checkbox" v-model="pendingOldRole.acrobat" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldRole.acrobat"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>小怪宝</label>
-        <input type="checkbox" v-model="pendingOldRole.lilmonsta" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldRole.lilmonsta"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>炼金术士</label>
-        <input type="checkbox" v-model="pendingOldRole.alchemist" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldRole.alchemist"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>半兽人</label>
-        <input type="checkbox" v-model="pendingOldRole.lycanthrope" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingOldRole.lycanthrope"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <div>
@@ -347,7 +393,7 @@
     <div v-if="distributing" class="dialog">
       <span>
         <label>是否同时给恶魔（疯子）发送伪装身份？</label>
-        <input type="checkbox" v-model="isSendingBluff" class="checkbox"/>
+        <input type="checkbox" v-model="isSendingBluff" class="checkbox" />
       </span>
       <div>
         <button @click="distributeRoles(true)">确定</button>
@@ -362,7 +408,9 @@
         <button @click="distributeBluffs('demon')">恶魔</button>
         <button @click="distributeBluffs('lunatic')">疯子</button>
         <button @click="distributeBluffs('snitch')">爪牙（告密者）</button>
-        <button @click="distributeBluffs(role = null, seat = true)">输入座位号</button>
+        <button @click="distributeBluffs((role = null), (seat = true))">
+          输入座位号
+        </button>
         <button @click="distributeBluffs()">取消</button>
       </div>
     </div>
@@ -373,43 +421,57 @@
       <div>
         <button @click="distributeGrimoire('widow')">寡妇</button>
         <button @click="distributeGrimoire('spy')">间谍</button>
-        <button @click="distributeGrimoire(role = null, seat = true)">输入座位号</button>
+        <button @click="distributeGrimoire((role = null), (seat = true))">
+          输入座位号
+        </button>
         <button @click="distributeGrimoire()">取消</button>
       </div>
     </div>
     <div v-if="selectingEditions" class="dialog">
       <span>
-        <b>请选择全角色合集的剧本范围（该功能仅对自己生效{{ !session.isSpectator ? "，请说书人公开通知玩家" : "" }}）</b>
+        <b
+          >请选择全角色合集的剧本范围（该功能仅对自己生效{{
+            !session.isSpectator ? "，请说书人公开通知玩家" : ""
+          }}）</b
+        >
       </span>
-      <br>
+      <br />
       <span>
         <label>暗流涌动</label>
-        <input type="checkbox" v-model="pendingEditions.tb" class="checkbox"/>
+        <input type="checkbox" v-model="pendingEditions.tb" class="checkbox" />
       </span>
       &emsp;
       <span>
         <label>暗月初生</label>
-        <input type="checkbox" v-model="pendingEditions.bmr" class="checkbox"/>
+        <input type="checkbox" v-model="pendingEditions.bmr" class="checkbox" />
       </span>
       &emsp;
       <span>
         <label>梦殒春宵</label>
-        <input type="checkbox" v-model="pendingEditions.snv" class="checkbox"/>
+        <input type="checkbox" v-model="pendingEditions.snv" class="checkbox" />
       </span>
       &emsp;
       <span>
         <label>实验性角色</label>
-        <input type="checkbox" v-model="pendingEditions.exp" class="checkbox"/>
+        <input type="checkbox" v-model="pendingEditions.exp" class="checkbox" />
       </span>
       &emsp;
       <span>
         <label>华灯初上</label>
-        <input type="checkbox" v-model="pendingEditions.hdcs" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingEditions.hdcs"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <span>
         <label>山雨欲来</label>
-        <input type="checkbox" v-model="pendingEditions.syyl" class="checkbox"/>
+        <input
+          type="checkbox"
+          v-model="pendingEditions.syyl"
+          class="checkbox"
+        />
       </span>
       &emsp;
       <div>
@@ -425,18 +487,24 @@ import { mapMutations, mapState } from "vuex";
 
 export default {
   computed: {
-    ...mapState(["grimoire", "session", "edition", "channels", "selectedEditions"]),
+    ...mapState([
+      "grimoire",
+      "session",
+      "edition",
+      "channels",
+      "selectedEditions",
+    ]),
     ...mapState("players", ["players"]),
     formattedTime() {
       const minutes = Math.floor(this.session.timer / 60);
       const seconds = Math.ceil(this.session.timer % 60);
-      return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+      return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
     },
     lessThanOneMinute() {
       return {
-        color: this.session.timer < 60 ? 'red' : 'white'
-      }
-    }
+        color: this.session.timer < 60 ? "red" : "white",
+      };
+    },
   },
   data() {
     return {
@@ -456,19 +524,19 @@ export default {
         snv: true,
         exp: true,
         hdcs: true,
-        syyl: true
+        syyl: true,
       },
       pendingOldOrder: {
         pithag: false,
-        professor: false
+        professor: false,
       },
       pendingOldRole: {
         balloonist: false,
         acrobat: false,
         lilmonsta: false,
         alchemist: false,
-        lycanthrope: false
-      }
+        lycanthrope: false,
+      },
     };
   },
   methods: {
@@ -491,13 +559,13 @@ export default {
         inputData: {
           name: ["输入自定义背景图URL"],
           length: 1,
-          placeholder: [""]
-        }
+          placeholder: [""],
+        },
       }).catch(() => {
         return null;
       });
       if (input === null) return;
-      
+
       const background = input[0];
       this.$store.commit("setBackground", background);
     },
@@ -508,8 +576,8 @@ export default {
         inputData: {
           name: ["输入玩家昵称"],
           length: 1,
-          placeholder: [""]
-        }
+          placeholder: [""],
+        },
       }).catch(() => {
         return null;
       });
@@ -529,13 +597,13 @@ export default {
           inputModal: "text",
           inputData: {
             name: ["网络连接不稳定，请稍等！"],
-          }
+          },
         }).catch(() => {
           return null;
         });
         return;
       }
-      
+
       let sessionPlaceholder = Math.round(Math.random() * 10000);
       while (this.session.rooms.includes(sessionPlaceholder)) {
         sessionPlaceholder = Math.round(Math.random() * 10000);
@@ -546,8 +614,8 @@ export default {
         inputData: {
           name: ["请输入房间号", "请输入玩家人数"],
           length: 2,
-          placeholder: [String(sessionPlaceholder), "12"]
-        }
+          placeholder: [String(sessionPlaceholder), "12"],
+        },
       }).catch(() => {
         return null;
       });
@@ -560,11 +628,11 @@ export default {
         this.$store.commit("session/setSpectator", false);
         this.$store.commit("session/setSessionId", sessionId);
         this.$store.commit("players/clear");
-        for(let i=0; i < numPlayers; i++){
+        for (let i = 0; i < numPlayers; i++) {
           this.addPlayer();
         }
         this.copySessionUrl();
-      };
+      }
     },
     copySessionUrl() {
       const url = window.location.href.split("#")[0];
@@ -579,8 +647,8 @@ export default {
     },
     distributeRoles(confirm) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
       this.distributing = false;
       if (!confirm) return;
       if (this.session.isSpectator) return;
@@ -589,15 +657,18 @@ export default {
         (() => {
           this.$store.commit("session/distributeRoles", false);
         }).bind(this),
-        2000
+        2000,
       );
       if (!this.isSendingBluff) return;
-      this.$store.commit("session/distributeBluffs", {val: true, role: "demonAll"});
+      this.$store.commit("session/distributeBluffs", {
+        val: true,
+        role: "demonAll",
+      });
       setTimeout(
         (() => {
-          this.$store.commit("session/distributeBluffs", {val:false});
+          this.$store.commit("session/distributeBluffs", { val: false });
         }).bind(this),
-        2000
+        2000,
       );
     },
     async distributeTypeAsk() {
@@ -610,8 +681,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要发送角色类型给玩家？"]
-        }
+          name: ["确定要发送角色类型给玩家？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -629,7 +700,7 @@ export default {
         (() => {
           this.$store.commit("session/distributeTypes", false);
         }).bind(this),
-        2000
+        2000,
       );
     },
     distributeBluffsAsk() {
@@ -640,8 +711,8 @@ export default {
     },
     async distributeBluffs(role = null, seat = false) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
       if (!role && !seat) {
         this.distributingBluffs = false;
         return;
@@ -654,15 +725,15 @@ export default {
           inputData: {
             name: ["请输入座位号"],
             length: 1,
-            placeholder: [""]
-          }
+            placeholder: [""],
+          },
         }).catch(() => {
           return null;
         });
         if (input === null) return;
         seatNum = input[0];
       }
-      
+
       var roleText = "";
       switch (role) {
         case "demon":
@@ -675,44 +746,48 @@ export default {
           roleText = "爪牙";
           break;
       }
-      const text = roleText ? roleText : (seatNum + "号位");
+      const text = roleText ? roleText : seatNum + "号位";
       const confirm = await this.showInputModal({
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要发送伪装身份给" + text + "？"]
-        }
+          name: ["确定要发送伪装身份给" + text + "？"],
+        },
       }).catch(() => {
         return null;
       });
       if (confirm === null) return;
       if (confirm === true) {
         if (this.session.isSpectator) return;
-        this.$store.commit("session/distributeBluffs", {val: true, role, seatNum});
+        this.$store.commit("session/distributeBluffs", {
+          val: true,
+          role,
+          seatNum,
+        });
         setTimeout(
           (() => {
-            this.$store.commit("session/distributeBluffs", {val:false});
+            this.$store.commit("session/distributeBluffs", { val: false });
           }).bind(this),
-          2000
+          2000,
         );
         this.distributingBluffs = false;
       }
     },
-    distributeGrimoireAsk(){
+    distributeGrimoireAsk() {
       this.distributing = false;
       this.distributingBluffs = false;
       this.distributingTypes = false;
-      this.distributingGrimoire = !this.distributingGrimoire
+      this.distributingGrimoire = !this.distributingGrimoire;
     },
-    async distributeGrimoire(role = null, seat = false){
+    async distributeGrimoire(role = null, seat = false) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
       if (!role && !seat) {
         this.distributingGrimoire = false;
         return;
       }
-      
+
       let seatNum;
       if (seat) {
         const input = await this.showInputModal({
@@ -721,8 +796,8 @@ export default {
           inputData: {
             name: ["请输入座位号"],
             length: 1,
-            placeholder: [""]
-          }
+            placeholder: [""],
+          },
         }).catch(() => {
           return null;
         });
@@ -739,14 +814,14 @@ export default {
           roleText = "间谍";
           break;
       }
-      const text = roleText ? roleText : (seatNum + "号位");
+      const text = roleText ? roleText : seatNum + "号位";
 
       const confirm = await this.showInputModal({
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要发送魔典给" + text + "？"]
-        }
+          name: ["确定要发送魔典给" + text + "？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -754,39 +829,48 @@ export default {
 
       if (confirm === true) {
         if (this.session.isSpectator) return;
-        this.$store.commit("session/distributeGrimoire", {val: true, role, seatNum});
+        this.$store.commit("session/distributeGrimoire", {
+          val: true,
+          role,
+          seatNum,
+        });
         setTimeout(
           (() => {
-            this.$store.commit("session/distributeGrimoire", {val:false});
+            this.$store.commit("session/distributeGrimoire", { val: false });
           }).bind(this),
-          2000
+          2000,
         );
         this.distributingGrimoire = false;
       }
     },
     selectEditionsAsk() {
       this.selectingEditions = !this.selectingEditions;
-      if (this.selectingEditions) this.pendingEditions = {...this.selectedEditions};
+      if (this.selectingEditions)
+        this.pendingEditions = { ...this.selectedEditions };
     },
     selectEditions(update = false) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
 
       this.selectingEditions = false;
       if (!update) return;
       this.$store.commit("setSelectedEditions", this.pendingEditions);
     },
     async imageOptIn() {
-      const popup = this.grimoire.isImageOptIn ? false : await this.showInputModal({
-        inputType: "confirm",
-        inputModal: "confirm",
-        inputData: {
-          name: ["确定要启用自定义游戏图标吗？木马剧本拥有者可能以此来追踪你的IP地址。"]
-        }
-      }).catch(() => {
-        return null;
-      });
+      const popup = this.grimoire.isImageOptIn
+        ? false
+        : await this.showInputModal({
+            inputType: "confirm",
+            inputModal: "confirm",
+            inputData: {
+              name: [
+                "确定要启用自定义游戏图标吗？木马剧本拥有者可能以此来追踪你的IP地址。",
+              ],
+            },
+          }).catch(() => {
+            return null;
+          });
       if (popup === null) return;
 
       if (this.grimoire.isImageOptIn || popup === true) {
@@ -804,7 +888,7 @@ export default {
           inputModal: "text",
           inputData: {
             name: ["网络连接不稳定，请稍等！"],
-          }
+          },
         }).catch(() => {
           return null;
         });
@@ -816,8 +900,8 @@ export default {
         inputData: {
           name: ["输入房间号/链接"],
           length: 1,
-          placeholder: [""]
-        }
+          placeholder: [""],
+        },
       }).catch(() => {
         return null;
       });
@@ -836,8 +920,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要离开/解散该房间吗？"]
-        }
+          name: ["确定要离开/解散该房间吗？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -851,7 +935,7 @@ export default {
         this.$store.commit("session/setSessionId", "");
         this.$store.commit("session/setIsHostAllowed", null);
         this.$store.commit("session/setIsJoinAllowed", null);
-        
+
         // clear seats and return to intro
         if (this.session.nomination) {
           this.$store.commit("session/nomination");
@@ -880,24 +964,24 @@ export default {
 
         // reset wraith
         this.$store.commit("session/setIsRole", {
-          role: 'wraith',
-          property: 'active',
-          value: false
+          role: "wraith",
+          property: "active",
+          value: false,
         });
         this.$store.commit("session/setIsRole", {
-          role: 'wraith',
-          property: 'using',
+          role: "wraith",
+          property: "using",
           value: false,
-          st: true
+          st: true,
         });
       }
     },
     addPlayer(stImage = null, stName = null) {
       if (this.session.isSpectator) return;
       if (this.players.length >= 20) return;
-      
+
       // setting name to a default value, combining with the seat number
-      this.$store.commit("players/add", {name: "", stImage, stName});
+      this.$store.commit("players/add", { name: "", stImage, stName });
     },
     async randomizeSeatings() {
       if (this.session.isSpectator) return;
@@ -906,8 +990,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要随机分配座位吗？"]
-        }
+          name: ["确定要随机分配座位吗？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -924,8 +1008,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要移除所有座位吗？"]
-        }
+          name: ["确定要移除所有座位吗？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -939,7 +1023,7 @@ export default {
         if (this.session.sessionId) {
           this.$store.commit("players/clear");
         } else {
-          this.$store.commit("players/clear", true)
+          this.$store.commit("players/clear", true);
         }
       }
     },
@@ -950,8 +1034,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定要移除所有玩家角色吗？"]
-        }
+          name: ["确定要移除所有玩家角色吗？"],
+        },
       }).catch(() => {
         return null;
       });
@@ -970,8 +1054,8 @@ export default {
         inputData: {
           name: ["输入私货商人内容"],
           length: 1,
-          placeholder: [""]
-        }
+          placeholder: [""],
+        },
       }).catch(() => {
         return null;
       });
@@ -989,15 +1073,17 @@ export default {
     async toggleIsReview() {
       if (this.isSpectator) return;
 
-      const confirm = this.session.isReview ? false : await this.showInputModal({
-        inputType: "confirm",
-        inputModal: "confirm",
-        inputData: {
-          name: ["是否开启复盘视角？（所有玩家将看到角色）"]
-        }
-      }).catch(() => {
-        return null;
-      });
+      const confirm = this.session.isReview
+        ? false
+        : await this.showInputModal({
+            inputType: "confirm",
+            inputModal: "confirm",
+            inputData: {
+              name: ["是否开启复盘视角？（所有玩家将看到角色）"],
+            },
+          }).catch(() => {
+            return null;
+          });
       if (confirm === null) return;
 
       if (!this.session.isReview && confirm === true) {
@@ -1010,12 +1096,13 @@ export default {
     useOldOrderAsk() {
       this.selectingOldRole = false;
       this.selectingOldOrder = !this.selectingOldOrder;
-      if (this.selectingOldOrder) this.pendingOldOrder = {...this.session.isUseOldOrder};
+      if (this.selectingOldOrder)
+        this.pendingOldOrder = { ...this.session.isUseOldOrder };
     },
     selectOldOrder(update = false) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
       this.selectingOldOrder = false;
       if (!update) return;
       this.$store.commit("session/setUseOldOrder", this.pendingOldOrder);
@@ -1024,16 +1111,18 @@ export default {
     useOldRoleAsk() {
       this.selectingOldOrder = false;
       this.selectingOldRole = !this.selectingOldRole;
-      if (this.selectingOldRole) this.pendingOldRole = {...this.session.isUseOldRole};
+      if (this.selectingOldRole)
+        this.pendingOldRole = { ...this.session.isUseOldRole };
     },
     selectOldRole(update = false) {
       this.$nextTick(() => {
-        document.getElementById('app').focus();
-      })
+        document.getElementById("app").focus();
+      });
       this.selectingOldRole = false;
       if (!update) return;
       this.$store.commit("session/setUseOldRole", this.pendingOldRole);
-      if (localStorage.getItem("roles")) this.$store.commit("setCustomRoles", JSON.parse(localStorage.roles));
+      if (localStorage.getItem("roles"))
+        this.$store.commit("setCustomRoles", JSON.parse(localStorage.roles));
       this.$store.commit("setEdition", this.edition);
     },
     async setTimer() {
@@ -1045,8 +1134,8 @@ export default {
         inputData: {
           name: ["输入时间（分）"],
           length: 1,
-          placeholder: [""]
-        }
+          placeholder: [""],
+        },
       }).catch(() => {
         return null;
       });
@@ -1062,7 +1151,7 @@ export default {
     },
     startTimer(time = null) {
       if (this.session.isSpectator) return;
-      if (typeof time != 'number') time = this.session.timer;
+      if (typeof time != "number") time = this.session.timer;
       this.$store.commit("session/startTimer", time);
       this.timing = true;
     },
@@ -1076,8 +1165,8 @@ export default {
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定清空所有内容吗？（将清除昵称、头像等）"]
-        }
+          name: ["确定清空所有内容吗？（将清除昵称、头像等）"],
+        },
       }).catch(() => {
         return null;
       });
@@ -1090,7 +1179,7 @@ export default {
         inputModal: "text",
         inputData: {
           name: ["清理完成，请刷新网页！"],
-        }
+        },
       }).catch(() => {
         return null;
       });
@@ -1105,9 +1194,9 @@ export default {
       "toggleNightOrder",
       "toggleStatic",
       "setZoom",
-      "toggleModal"
-    ])
-  }
+      "toggleModal",
+    ]),
+  },
 };
 </script>
 
@@ -1130,13 +1219,13 @@ export default {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(54, 54, 54); 
+  background: rgb(54, 54, 54);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(97, 97, 97); 
+  background: rgb(97, 97, 97);
 }
 
 // Controls
@@ -1245,13 +1334,13 @@ export default {
       justify-content: space-between;
       min-height: 30px;
 
-      .wrap{
+      .wrap {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
       }
 
-      .input{
+      .input {
         width: 45px; // Shrink the width significantly
         right: 0px;
         padding: 2px 3px; // Reduce padding
@@ -1267,8 +1356,8 @@ export default {
         appearance: textfield; // Firefox
         &::-webkit-outer-spin-button,
         &::-webkit-inner-spin-button {
-            -webkit-appearance: none; // Chrome, Safari, Edge
-            margin: 0; // Remove margin that might be added by default
+          -webkit-appearance: none; // Chrome, Safari, Edge
+          margin: 0; // Remove margin that might be added by default
         }
       }
 
@@ -1336,7 +1425,7 @@ export default {
 
 .timerButton {
   // opacity: 0.5;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px 5px 5px 5px;
   right: 8px;
   border: white;

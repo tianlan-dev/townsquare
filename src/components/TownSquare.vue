@@ -5,10 +5,14 @@
     :class="{
       public: grimoire.isPublic,
       spectator: session.isSpectator,
-      vote: session.nomination
+      vote: session.nomination,
     }"
   >
-    <audio src="../assets/sounds/countdown.mp3" preload="auto" ref="countdownAudio"></audio>
+    <audio
+      src="../assets/sounds/countdown.mp3"
+      preload="auto"
+      ref="countdownAudio"
+    ></audio>
     <ul class="circle" :class="['size-' + players.length]" :style="orientation">
       <Player
         v-for="(player, index) in players"
@@ -19,7 +23,7 @@
           from: Math.max(swap, move, nominate) === index,
           swap: swap > -1,
           move: move > -1,
-          nominate: nominate > -1
+          nominate: nominate > -1,
         }"
       ></Player>
     </ul>
@@ -31,8 +35,10 @@
       :class="{ closed: !isBluffsOpen }"
     >
       <h3>
-        <span v-if="session.isSpectator" style="font-size: 100%;">不在场身份</span>
-        <span v-else style="font-size: 100%;">恶魔的伪装身份</span>
+        <span v-if="session.isSpectator" style="font-size: 100%"
+          >不在场身份</span
+        >
+        <span v-else style="font-size: 100%">恶魔的伪装身份</span>
         <font-awesome-icon icon="times-circle" @click.stop="toggleBluffs" />
         <font-awesome-icon icon="plus-circle" @click.stop="toggleBluffs" />
       </h3>
@@ -84,9 +90,8 @@
         </li>
       </ul>
     </div>
-    <div v-if="session.isSpectator && isRole.length > 0"
-        class="is-role">
-      <font-awesome-icon 
+    <div v-if="session.isSpectator && isRole.length > 0" class="is-role">
+      <font-awesome-icon
         :icon="['custom', isRole]"
         size="4x"
         :class="{ 'is-using-wraith': session.isRole.wraith.using }"
@@ -115,23 +120,26 @@ export default {
     Player,
     Token,
     RoleModal,
-    ReminderModal
+    ReminderModal,
   },
   computed: {
     ...mapGetters({ nightOrder: "players/nightOrder" }),
     ...mapState(["grimoire", "roles", "session"]),
     ...mapState("players", ["players", "bluffs", "fabled"]),
-    orientation: function(){
+    orientation: function () {
       const ratio = this.windowWidth / this.windowHeight;
-      const unit = this.windowWidth > this.windowHeight ? "height: 100%;" : "height: " + ratio * 100 + "%;";
+      const unit =
+        this.windowWidth > this.windowHeight
+          ? "height: 100%;"
+          : "height: " + ratio * 100 + "%;";
       return unit;
     },
-    floatingZoom: function(){
+    floatingZoom: function () {
       const ratio = this.windowWidth / this.windowHeight;
       const size = ratio > 1 ? 14 : 8;
       return "height: " + size + "vh; width: " + size + "vh;";
     },
-    isRole: function() {
+    isRole: function () {
       const activeRoles = [];
       for (const roleId in this.session.isRole) {
         const roleObject = this.session.isRole[roleId];
@@ -143,7 +151,7 @@ export default {
         return activeRoles.slice(0, 1);
       }
       return activeRoles;
-    }
+    },
   },
   data() {
     return {
@@ -155,7 +163,7 @@ export default {
       isBluffsOpen: true,
       isFabledOpen: true,
       windowWidth: window.innerWidth,
-      windowHeight: window.innerHeight
+      windowHeight: window.innerHeight,
     };
   },
   watch: {
@@ -171,14 +179,14 @@ export default {
             this.$refs.countdownAudio.pause();
             this.$refs.countdownAudio.currentTime = 0;
           }
-        })
-      }
+        });
+      },
     },
   },
-  mounted(){
+  mounted() {
     window.addEventListener("resize", this.handleResize);
   },
-  beforeDestroy(){
+  beforeDestroy() {
     window.removeEventListener("resize", this.handleResize);
   },
   methods: {
@@ -191,8 +199,7 @@ export default {
     removeFabled(index) {
       if (this.session.isSpectator) {
         return;
-        
-      }else{
+      } else {
         this.$store.commit("players/setFabled", { index });
       }
     },
@@ -201,7 +208,7 @@ export default {
         this[method](playerIndex, params);
       }
     },
-    handleResize(){
+    handleResize() {
       this.windowWidth = window.innerWidth;
       this.windowHeight = window.innerHeight;
     },
@@ -231,14 +238,11 @@ export default {
         if (nomination.includes(playerIndex)) {
           // abort vote if removed player is either nominator or nominee
           this.$store.commit("session/nomination");
-        } else if (
-          nomination[0] > playerIndex ||
-          nomination[1] > playerIndex
-        ) {
+        } else if (nomination[0] > playerIndex || nomination[1] > playerIndex) {
           // update nomination array if removed player has lower index
           this.$store.commit("session/setNomination", [
             nomination[0] > playerIndex ? nomination[0] - 1 : nomination[0],
-            nomination[1] > playerIndex ? nomination[1] - 1 : nomination[1]
+            nomination[1] > playerIndex ? nomination[1] - 1 : nomination[1],
           ]);
         }
       }
@@ -253,7 +257,7 @@ export default {
         if (this.session.nomination) {
           // update nomination if one of the involved players is swapped
           const swapTo = this.players.indexOf(to);
-          const updatedNomination = this.session.nomination.map(nom => {
+          const updatedNomination = this.session.nomination.map((nom) => {
             if (nom === this.swap) return swapTo;
             if (nom === swapTo) return this.swap;
             return nom;
@@ -267,7 +271,7 @@ export default {
         }
         this.$store.commit("players/swap", [
           this.swap,
-          this.players.indexOf(to)
+          this.players.indexOf(to),
         ]);
         this.cancel();
       }
@@ -281,7 +285,7 @@ export default {
         if (this.session.nomination) {
           // update nomination if it is affected by the move
           const moveTo = this.players.indexOf(to);
-          const updatedNomination = this.session.nomination.map(nom => {
+          const updatedNomination = this.session.nomination.map((nom) => {
             if (nom === this.move) return moveTo;
             if (nom > this.move && nom <= moveTo) return nom - 1;
             if (nom < this.move && nom >= moveTo) return nom + 1;
@@ -296,7 +300,7 @@ export default {
         }
         this.$store.commit("players/move", [
           this.move,
-          this.players.indexOf(to)
+          this.players.indexOf(to),
         ]);
         this.cancel();
       }
@@ -323,37 +327,80 @@ export default {
       if (this.session.isSpectator) return;
       const player = this.players[playerIndex];
       const vote = player.votes + 1;
-      this.$store.commit("players/update", {player, property: "votes", value: vote});
+      this.$store.commit("players/update", {
+        player,
+        property: "votes",
+        value: vote,
+      });
     },
     subtractVote(playerIndex) {
       if (this.session.isSpectator) return;
       const player = this.players[playerIndex];
       const vote = player.votes - 1;
       if (vote < 1) return;
-      this.$store.commit("players/update", {player, property: "votes", value: vote});
+      this.$store.commit("players/update", {
+        player,
+        property: "votes",
+        value: vote,
+      });
     },
     setStoryTeller(playerIndex) {
       if (this.session.isSpectator) return;
       const player = this.players[playerIndex];
       if (player.id) {
         if (player.id != "host") return;
-        this.$store.commit("players/update", {player, property: "id", value: ""});
-        this.$store.commit("players/update", {player, property: "name", value: ""});
-        this.$store.commit("players/update", {player, property: "isVoteless", value: false});
-        this.$store.commit("players/update", {player, property: "isDead", value: false});
-      }
-      else {
-        this.$store.commit("players/update", {player, property: "id", value: "host"});
-        this.$store.commit("players/update", {player, property: "name", value: "说书人"});
-        this.$store.commit("players/update", {player, property: "isVoteless", value: true});
-        this.$store.commit("players/update", {player, property: "isDead", value: true});
+        this.$store.commit("players/update", {
+          player,
+          property: "id",
+          value: "",
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "name",
+          value: "",
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "isVoteless",
+          value: false,
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "isDead",
+          value: false,
+        });
+      } else {
+        this.$store.commit("players/update", {
+          player,
+          property: "id",
+          value: "host",
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "name",
+          value: "说书人",
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "isVoteless",
+          value: true,
+        });
+        this.$store.commit("players/update", {
+          player,
+          property: "isDead",
+          value: true,
+        });
       }
     },
-    setUsingWraith(){
+    setUsingWraith() {
       const usingWraith = this.session.isRole.wraith.using;
-      this.$store.commit("session/setIsRole", {role: 'wraith', property: 'using', value: !usingWraith});
-    }
-  }
+      this.$store.commit("session/setIsRole", {
+        role: "wraith",
+        property: "using",
+        value: !usingWraith,
+      });
+    },
+  },
 };
 </script>
 
@@ -743,23 +790,22 @@ export default {
   }
 }
 
-
 #townsquare:not(.spectator) .fabled ul li:hover .token:before {
   opacity: 1;
 }
 
 #version {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: transparent;
-    color: white;
-    padding: 0px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
 }
 
 #version a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #townsquare > .is-role {
@@ -773,11 +819,11 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  background: rgba(0, 0, 0, 0.5); 
-  border-radius: 10px; 
-  border: 3px solid black; 
-  opacity: 1; 
+
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 3px solid black;
+  opacity: 1;
   cursor: pointer;
 
   &:hover {
@@ -791,5 +837,4 @@ export default {
     }
   }
 }
-
 </style>

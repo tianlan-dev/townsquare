@@ -2,11 +2,11 @@
   <div>
     <div v-show="cropping" class="overlay">
       <div class="cropper-modal">
-        <input 
+        <input
           v-show="false"
-          type="file" 
-          ref="upload" 
-          accept="image/*" 
+          type="file"
+          ref="upload"
+          accept="image/*"
           @change="onFileChange"
         />
         <div v-if="image" class="canvas">
@@ -27,11 +27,10 @@
   </div>
 </template>
 
-
 <script>
 import { mapState } from "vuex";
-import Cropper from 'cropperjs';
-import 'cropperjs/dist/cropper.css';
+import Cropper from "cropperjs";
+import "cropperjs/dist/cropper.css";
 
 export default {
   data() {
@@ -39,11 +38,11 @@ export default {
       image: null,
       croppedImage: null,
       cropper: null,
-      cropping: false
+      cropping: false,
     };
   },
   computed: {
-    ...mapState(["session"])
+    ...mapState(["session"]),
   },
   methods: {
     async showInputModal({ inputType, inputModal, inputData }) {
@@ -65,7 +64,7 @@ export default {
           inputModal: "text",
           inputData: {
             name: ["头像上传成功！"],
-          }
+          },
         }).catch(() => {
           return null;
         });
@@ -94,36 +93,36 @@ export default {
       this.cropper = new Cropper(this.$refs.image, {
         aspectRatio: 1,
         viewMode: 1,
-        autoCrop: false, 
+        autoCrop: false,
         autoCropArea: 1,
-        dragMode: 'move',
-        rotatable: false
+        dragMode: "move",
+        rotatable: false,
       });
     },
     startCropping() {
-      this.cropper.setDragMode('crop');
+      this.cropper.setDragMode("crop");
     },
     startMoving() {
-      this.cropper.setDragMode('move');
+      this.cropper.setDragMode("move");
       this.cropper.clear();
     },
     cropImage() {
       const canvas = this.cropper.getCroppedCanvas();
-      this.croppedImage = canvas.toDataURL('image/webp');
+      this.croppedImage = canvas.toDataURL("image/webp");
     },
     sendImage() {
       const canvas = this.cropper.getCroppedCanvas();
-      this.croppedImage = canvas.toDataURL('image/webp')
+      this.croppedImage = canvas.toDataURL("image/webp");
       this.$store.commit("session/setPlayerAvatar", this.croppedImage);
       this.closeCropping();
     },
     closeCropping() {
       this.cropping = false;
-      this.$refs.upload.value = '';
+      this.$refs.upload.value = "";
       this.image = null;
       this.croppedImage = null;
       this.cropper = null;
-    }
+    },
   },
 };
 </script>
@@ -173,5 +172,3 @@ img {
   overflow-x: hidden;
 }
 </style>
-
-

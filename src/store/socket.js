@@ -1,6 +1,8 @@
 class LiveSession {
   constructor(store) {
-    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/ws/`;
+    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${
+      window.location.host
+    }/ws/`;
     this._socket = null;
     this._isSpectator = true;
     this._isAlive = true;
@@ -30,20 +32,17 @@ class LiveSession {
       this._wss +
         channel +
         "/" +
-        this._store.state.session.playerId + 
-        (!this._isSpectator ? "/host" : "")
+        this._store.state.session.playerId +
+        (!this._isSpectator ? "/host" : ""),
     );
     if (this._socket === null) {
       this._store.commit("session/setReconnecting", true);
-      this._reconnectTimer = setTimeout(
-        () => this.connect(channel),
-        3 * 1000
-      );
+      this._reconnectTimer = setTimeout(() => this.connect(channel), 3 * 1000);
       return;
     }
     this._socket.addEventListener("message", this._handleMessage.bind(this));
     this._socket.onopen = this._onOpen.bind(this);
-    this._socket.onclose = err => {
+    this._socket.onclose = (err) => {
       this._socket = null;
       clearTimeout(this._pingTimer);
       this._pingTimer = null;
@@ -52,12 +51,12 @@ class LiveSession {
         this._store.commit("session/setReconnecting", true);
         this._reconnectTimer = setTimeout(
           () => this.connect(channel),
-          3 * 1000
+          3 * 1000,
         );
       } else {
         // vacate seat upon leaving the room
         this._store.commit("session/claimSeat", -1);
-        
+
         this._store.commit("session/setSessionId", "");
         this._store.commit("session/setSpectator", false);
         this._store.commit("session/setIsHostAllowed", null);
@@ -89,19 +88,22 @@ class LiveSession {
         }
 
         // reset fabled
-        this._store.commit("players/setFabled", { fabled: [], emptyFabled: true});
+        this._store.commit("players/setFabled", {
+          fabled: [],
+          emptyFabled: true,
+        });
 
         // reset wraith
         this._store.commit("session/setIsRole", {
-          role: 'wraith',
-          property: 'active',
-          value: false
+          role: "wraith",
+          property: "active",
+          value: false,
         });
         this._store.commit("session/setIsRole", {
-          role: 'wraith',
-          property: 'using',
+          role: "wraith",
+          property: "using",
           value: false,
-          st: true
+          st: true,
         });
 
         if (err.reason) {
@@ -110,7 +112,7 @@ class LiveSession {
             inputModal: "text",
             inputData: {
               name: [err.reason],
-            }
+            },
           }).catch(() => {
             return null;
           });
@@ -141,12 +143,12 @@ class LiveSession {
    */
   _sendDirect(playerId, command, params, feedback = false) {
     if (playerId) {
-      this._send("direct", { [playerId]: [command, params]}, feedback);
+      this._send("direct", { [playerId]: [command, params] }, feedback);
     } else {
       this._send(command, params, feedback);
     }
   }
-  
+
   /**
    * Request some server side information.
    * @param playerId player ID or "host"
@@ -181,13 +183,9 @@ class LiveSession {
       this._sendDirect(
         "host",
         "getGamestate",
-        this._store.state.session.playerId
+        this._store.state.session.playerId,
       );
-      this._sendDirect(
-        "host",
-        "getStId",
-        this._store.state.session.playerId
-      )
+      this._sendDirect("host", "getStId", this._store.state.session.playerId);
       this.checkAllowJoin();
     } else {
       if (this._store.state.session.isHostAllowed === true) {
@@ -209,11 +207,11 @@ class LiveSession {
       this._isSpectator
         ? this._store.state.session.playerId
         : Object.keys(this._players).length,
-      "latency"
+      "latency",
     ]);
     clearTimeout(this._pingTimer);
     this._pingTimer = setTimeout(this._ping.bind(this), this._pingInterval);
-    // if (this._store.state.session.sessionId && 
+    // if (this._store.state.session.sessionId &&
     //   !this._isAlive && !this._store.state.session.isReconnecting
     // ) {
     //   this._isAlive = true;
@@ -232,7 +230,7 @@ class LiveSession {
     try {
       [command, params] = JSON.parse(data);
     } catch (err) {
-      console.log("unsupported socket message", data);
+      return;
     }
     switch (command) {
       case "alertPopup":
@@ -304,9 +302,13 @@ class LiveSession {
           // create vote history record
           this._store.commit(
             "session/addHistory",
-            this._store.state.players.players
+            this._store.state.players.players,
           );
-          this._store.commit("session/addVoteSelected", {selected: false, players: this._store.state.players.players, save: true});
+          this._store.commit("session/addVoteSelected", {
+            selected: false,
+            players: this._store.state.players.players,
+            save: true,
+          });
         }
         this._store.commit("session/nomination", { nomination: params });
         break;
@@ -410,13 +412,16 @@ class LiveSession {
     if (!this._store.state.session.playerId) {
       let playerId;
       // 禁止host、_host和player作为playerId
-      while (!playerId || playerId === "host" || playerId === "_host" || playerId === "player" || playerId === "default") {
+      while (
+        !playerId ||
+        playerId === "host" ||
+        playerId === "_host" ||
+        playerId === "player" ||
+        playerId === "default"
+      ) {
         playerId = Math.random().toString(36).substr(2);
       }
-      this._store.commit(
-        "session/setPlayerId",
-        playerId
-      );
+      this._store.commit("session/setPlayerId", playerId);
     }
     this._pings = {};
     this._store.commit("session/setPlayerCount", 0);
@@ -448,17 +453,17 @@ class LiveSession {
   /**
    * Alert any messages from the server
    */
-  async _alertPopup(text){
+  async _alertPopup(text) {
     await this.showInputModal({
       inputType: "alert",
       inputModal: "text",
       inputData: {
         name: [text],
-      }
+      },
     }).catch(() => {
       return null;
     });
-		return;
+    return;
   }
 
   async showInputModal({ inputType, inputModal, inputData }) {
@@ -487,7 +492,7 @@ class LiveSession {
           inputModal: "text",
           inputData: {
             name: ["连接失败，请重新进入房间！"],
-          }
+          },
         }).catch(() => {
           return null;
         });
@@ -496,7 +501,7 @@ class LiveSession {
       }
     }, 6000);
   }
-  
+
   /**
    * @param allow indicator to if hosting the channel is allowed
    */
@@ -513,8 +518,10 @@ class LiveSession {
         inputType: "alert",
         inputModal: "text",
         inputData: {
-          name: [`房间"${this._store.state.session.sessionId}"已经存在说书人！`],
-        }
+          name: [
+            `房间"${this._store.state.session.sessionId}"已经存在说书人！`,
+          ],
+        },
       }).catch(() => {
         return null;
       });
@@ -536,7 +543,7 @@ class LiveSession {
           inputModal: "text",
           inputData: {
             name: ["连接失败，请重新进入房间！"],
-          }
+          },
         }).catch(() => {
           return null;
         });
@@ -559,20 +566,16 @@ class LiveSession {
       this._sendDirect(
         "host",
         "getGamestate",
-        this._store.state.session.playerId
+        this._store.state.session.playerId,
       );
-      this._sendDirect(
-        "host",
-        "getStId",
-        this._store.state.session.playerId
-      );
+      this._sendDirect("host", "getStId", this._store.state.session.playerId);
     } else {
       await this.showInputModal({
         inputType: "alert",
         inputModal: "text",
         inputData: {
           name: [`房间"${this._store.state.session.sessionId}"不存在！`],
-        }
+        },
       }).catch(() => {
         return null;
       });
@@ -589,7 +592,7 @@ class LiveSession {
    */
   sendGamestate(playerId = "", isLightweight = false) {
     if (this._isSpectator) return;
-    this._gamestate = this._store.state.players.players.map(player => ({
+    this._gamestate = this._store.state.players.players.map((player) => ({
       name: player.name,
       id: player.id,
       image: player.image,
@@ -600,23 +603,27 @@ class LiveSession {
       pronouns: player.pronouns,
       ...(player.role && player.role.team === "traveler"
         ? { roleId: player.role.id }
-        : {})
+        : {}),
     }));
     if (isLightweight) {
       this._sendDirect(playerId, "gs", {
         gamestate: this._gamestate,
-        isLightweight
+        isLightweight,
       });
     } else {
-      const { session, grimoire, states, teamsNames, firstNight, otherNight } = this._store.state;
+      const { session, grimoire, states, teamsNames, firstNight, otherNight } =
+        this._store.state;
       const { fabled } = this._store.state.players;
       this.sendEdition(playerId);
       let votes = session.nomination ? Array.from(session.votes) : []; // 调整闭眼投票，只会发送各玩家自己的真实投票情况，其余均为不投票
       if (session.isSecretVote && playerId === "") {
         votes = [];
       } else if (session.isSecretVote && votes.length > 0) {
-        const playerIndex = this._store.state.players.players.findIndex(player => player.id === playerId);
-        for (let i=0; i< votes.length; i++) { // 如果不与playerIndex相同则调整至不投票状态
+        const playerIndex = this._store.state.players.players.findIndex(
+          (player) => player.id === playerId,
+        );
+        for (let i = 0; i < votes.length; i++) {
+          // 如果不与playerIndex相同则调整至不投票状态
           if (i != playerIndex && votes[i] === true) votes[i] = false;
         }
       }
@@ -638,24 +645,30 @@ class LiveSession {
         teamsNames,
         firstNight,
         otherNight,
-        ...(session.nomination ? { votes } : {})
+        ...(session.nomination ? { votes } : {}),
       });
     }
 
     if (this._store.state.session.isReview) {
-      this.distributeGrimoire(playerId ? {playerId} : {all: true});
+      this.distributeGrimoire(playerId ? { playerId } : { all: true });
     }
-  
-    // 场内玩家更新
-    const playerIndex = !playerId ? -1 : this._store.state.players.players.findIndex(player => player.id === playerId);
-    if (!playerId || playerIndex > -1) {
-      const selectedPlayers = !playerId ?  this._store.state.players.players.filter(player => !!player.id) : [this._store.state.players.players[playerIndex]];
 
-      selectedPlayers.forEach(player => {
+    // 场内玩家更新
+    const playerIndex = !playerId
+      ? -1
+      : this._store.state.players.players.findIndex(
+          (player) => player.id === playerId,
+        );
+    if (!playerId || playerIndex > -1) {
+      const selectedPlayers = !playerId
+        ? this._store.state.players.players.filter((player) => !!player.id)
+        : [this._store.state.players.players[playerIndex]];
+
+      selectedPlayers.forEach((player) => {
         this._sendDirect(player.id, "syncPlayersStatus", {
           isSecretVoteless: player.isSecretVoteless,
           isWraith: player.isWraith,
-          isUsingWraith: player.isUsingWraith
+          isUsingWraith: player.isUsingWraith,
         });
       });
     }
@@ -687,7 +700,7 @@ class LiveSession {
       states,
       teamsNames,
       firstNight,
-      otherNight
+      otherNight,
     } = data;
     const players = this._store.state.players.players;
     // adjust number of players
@@ -705,11 +718,22 @@ class LiveSession {
       const player = players[x];
       const { roleId } = state;
       // update relevant properties
-      ["name", "id", "image", "stReminders", "isDead", "isSecretVoteless", "isVoteless", "pronouns", "votes"].forEach(property => {
+      [
+        "name",
+        "id",
+        "image",
+        "stReminders",
+        "isDead",
+        "isSecretVoteless",
+        "isVoteless",
+        "pronouns",
+        "votes",
+      ].forEach((property) => {
         const value = state[property];
         if (player[property] !== value) {
           if (property === "isVoteless") {
-            if (value || !player.isSecretVoteless) this._store.commit("players/update", { player, property, value });
+            if (value || !player.isSecretVoteless)
+              this._store.commit("players/update", { player, property, value });
           } else {
             this._store.commit("players/update", { player, property, value });
           }
@@ -724,14 +748,14 @@ class LiveSession {
           this._store.commit("players/update", {
             player,
             property: "role",
-            value: role
+            value: role,
           });
         }
       } else if (!roleId && player.role.team === "traveler") {
         this._store.commit("players/update", {
           player,
           property: "role",
-          value: {}
+          value: {},
         });
       }
     });
@@ -749,10 +773,13 @@ class LiveSession {
         votingSpeed,
         lockedVote,
         isVoteInProgress,
-        nominatedPlayer
+        nominatedPlayer,
       });
-      this._store.commit("session/setMarkedPlayer", {val: markedPlayer, force: false});
-      this._store.commit("players/setFabled", {fabled});
+      this._store.commit("session/setMarkedPlayer", {
+        val: markedPlayer,
+        force: false,
+      });
+      this._store.commit("players/setFabled", { fabled });
       this._store.commit("setStates", states);
       this._store.commit("setTeamsNames", teamsNames);
       this._store.commit("setFirstNight", firstNight);
@@ -762,7 +789,7 @@ class LiveSession {
 
   sendStId(playerId = "") {
     if (this._isSpectator) return;
-    this._sendDirect(playerId, "stId", this._store.state.session.playerId)
+    this._sendDirect(playerId, "stId", this._store.state.session.playerId);
   }
 
   _updateStId(data) {
@@ -784,7 +811,7 @@ class LiveSession {
     }
     this._sendDirect(playerId, "edition", {
       edition: edition.isOfficial ? { id: edition.id } : edition,
-      ...(roles ? { roles } : {})
+      ...(roles ? { roles } : {}),
     });
   }
 
@@ -811,11 +838,11 @@ class LiveSession {
           inputModal: "text",
           inputData: {
             name: [
-                    `此剧本中有未收录的角色。` + 
-                    `请先加载这些角色！` + 
-                    `这些角色包含：${missing.join("，")}`
-                  ],
-          }
+              `此剧本中有未收录的角色。` +
+                `请先加载这些角色！` +
+                `这些角色包含：${missing.join("，")}`,
+            ],
+          },
         }).catch(() => {
           return null;
         });
@@ -835,7 +862,6 @@ class LiveSession {
     this._sendDirect(playerId, "states", states);
   }
 
-
   /**
    * Update states for custom editions.
    * @param states
@@ -845,7 +871,6 @@ class LiveSession {
     if (!this._isSpectator) return;
     this._store.commit("setStates", states);
   }
-
 
   /**
    * Publish a teams alias update. ST only
@@ -913,10 +938,7 @@ class LiveSession {
   sendFabled() {
     if (this._isSpectator) return;
     const { fabled } = this._store.state.players;
-    this._send(
-      "fabled",
-      fabled
-    );
+    this._send("fabled", fabled);
   }
 
   /**
@@ -927,7 +949,7 @@ class LiveSession {
   _updateFabled(fabled) {
     if (!this._isSpectator) return;
     this._store.commit("players/setFabled", {
-      fabled
+      fabled,
     });
   }
 
@@ -938,19 +960,34 @@ class LiveSession {
    * @param value
    */
   sendPlayer({ player, property, value }) {
-    if (this._isSpectator || property === "reminders" || (property === "stReminders" && !this._store.state.session.isReview)) return;
+    if (
+      this._isSpectator ||
+      property === "reminders" ||
+      (property === "stReminders" && !this._store.state.session.isReview)
+    )
+      return;
     const index = this._store.state.players.players.indexOf(player);
-    const staticProperties = ['isAllowRole'];
+    const staticProperties = ["isAllowRole"];
     if (property === "role") {
-      if (this._store.state.session.isReview || value.team && value.team === "traveler") {
+      if (
+        this._store.state.session.isReview ||
+        (value.team && value.team === "traveler")
+      ) {
         // update local gamestate to remember this player as a traveler
-        if (value.team && value.team === "traveler" && this._gamestate[index]) this._gamestate[index].roleId = value.id;
+        if (value.team && value.team === "traveler" && this._gamestate[index])
+          this._gamestate[index].roleId = value.id;
         this._send("player", {
           index,
           property,
-          value: value.id
+          value: value.id,
         });
-        if (this._store.state.session.isReview && value.team != "traveler" && this._gamestate[index] && this._gamestate[index].roleId) delete this._gamestate[index].roleId;
+        if (
+          this._store.state.session.isReview &&
+          value.team != "traveler" &&
+          this._gamestate[index] &&
+          this._gamestate[index].roleId
+        )
+          delete this._gamestate[index].roleId;
       } else if (this._gamestate[index] && this._gamestate[index].roleId) {
         // player was previously a traveler
         delete this._gamestate[index].roleId;
@@ -959,9 +996,18 @@ class LiveSession {
     } else if (property === "isSecretVoteless") {
       this._sendDirect(player.id, "player", { index, property, value });
     } else if (property === "isWraith") {
-      this._sendDirect(player.id, "isRole", {role: 'wraith', property: 'active', value});
-    } else if (property === 'isUsingWraith') {
-      this._sendDirect(player.id, "isRole", {role: 'wraith', property: 'using', value, st: true});
+      this._sendDirect(player.id, "isRole", {
+        role: "wraith",
+        property: "active",
+        value,
+      });
+    } else if (property === "isUsingWraith") {
+      this._sendDirect(player.id, "isRole", {
+        role: "wraith",
+        property: "using",
+        value,
+        st: true,
+      });
     } else if (!staticProperties.includes(property)) {
       this._send("player", { index, property, value });
     }
@@ -985,7 +1031,7 @@ class LiveSession {
         this._store.commit("players/update", {
           player,
           property: "role",
-          value: {}
+          value: {},
         });
       } else {
         // load role, first from session, the global, then fail gracefully
@@ -996,28 +1042,33 @@ class LiveSession {
         this._store.commit("players/update", {
           player,
           property: "role",
-          value: role
+          value: role,
         });
       }
     } else if (property === "isSecretVoteless") {
       // if (value === true) {
-        this._store.commit("players/update", { player, property, value });
-        // 如果是玩家则同时移除投票标记
-        if (player.id === this._store.state.session.playerId && value) {
-          this._store.commit("players/update", { player, property: 'isVoteless', value });
-        }
+      this._store.commit("players/update", { player, property, value });
+      // 如果是玩家则同时移除投票标记
+      if (player.id === this._store.state.session.playerId && value) {
+        this._store.commit("players/update", {
+          player,
+          property: "isVoteless",
+          value,
+        });
+      }
       // }
     } else if (property === "isVoteless") {
-      if (!player.isSecretVoteless || value) this._store.commit("players/update", { player, property, value });
+      if (!player.isSecretVoteless || value)
+        this._store.commit("players/update", { player, property, value });
     } else {
       // just update the player otherwise
       this._store.commit("players/update", { player, property, value });
     }
   }
 
-  emptyPlayer({id}) {
+  emptyPlayer({ id }) {
     if (id === "") return; //必须指定玩家
-    this._sendDirect(id, "leaveSeat")
+    this._sendDirect(id, "leaveSeat");
   }
 
   _updateLeaveSeat() {
@@ -1055,34 +1106,26 @@ class LiveSession {
       player,
       property: "pronouns",
       value,
-      isFromSockets: true
+      isFromSockets: true,
     });
   }
 
   /**
    * Update a role using status, player only.
    * @param role role to be updated
-   * @param property property in the role set to be 
+   * @param property property in the role set to be
    * @param value value to be updated
    */
-  setIsRole({role, property, value, st}) {
+  setIsRole({ role, property, value, st }) {
     if (st === true) return;
     if (!this._isSpectator) return;
-    if (property !== 'using') return;
+    if (property !== "using") return;
     if (!this._store.state.session.isRole[role]) return;
-    this._sendDirect("host", "usingRole", {role, value, playerId: this._store.state.session.playerId});
-  }
-  
-  /**
-   * Update a role status.
-   * @param role role to be updated
-   * @param property property in the role set to be updated
-   * @param value value to be updated
-   */
-  _updateIsRole({role, property, value, st}) {
-    if (!this._isSpectator && property !== 'using') return;
-    if (this._isSpectator && property === 'using' && !st) return;
-    this._store.commit("session/setIsRole", {role, property, value, st});
+    this._sendDirect("host", "usingRole", {
+      role,
+      value,
+      playerId: this._store.state.session.playerId,
+    });
   }
 
   /**
@@ -1091,28 +1134,42 @@ class LiveSession {
    * @param property property in the role set to be updated
    * @param value value to be updated
    */
-  _updateUsingRole({role, value, playerId}) {
+  _updateIsRole({ role, property, value, st }) {
+    if (!this._isSpectator && property !== "using") return;
+    if (this._isSpectator && property === "using" && !st) return;
+    this._store.commit("session/setIsRole", { role, property, value, st });
+  }
+
+  /**
+   * Update a role status.
+   * @param role role to be updated
+   * @param property property in the role set to be updated
+   * @param value value to be updated
+   */
+  _updateUsingRole({ role, value, playerId }) {
     if (this._isSpectator) return;
-    const index = this._store.state.players.players.findIndex(player => player.id === playerId);
+    const index = this._store.state.players.players.findIndex(
+      (player) => player.id === playerId,
+    );
     if (index === -1) return;
     const player = this._store.state.players.players[index];
-    if (role === 'wraith') {
+    if (role === "wraith") {
       if (player.isWraith) {
         this._store.commit("players/update", {
           player,
-          property: 'isUsingWraith',
-          value
+          property: "isUsingWraith",
+          value,
         });
       } else {
         this._store.commit("players/update", {
           player,
-          property: 'isWraith',
-          value: false
+          property: "isWraith",
+          value: false,
         });
         this._store.commit("players/update", {
           player,
-          property: 'isUsingWraith',
-          value: false
+          property: "isUsingWraith",
+          value: false,
         });
       }
     }
@@ -1125,7 +1182,7 @@ class LiveSession {
   uploadAvatar(image) {
     this._uploadFile("uploadAvatar", this._store.state.session.playerId, image);
   }
-  
+
   /**
    * Confirmation on receiving the uploaded image.
    * @param image
@@ -1141,11 +1198,11 @@ class LiveSession {
       inputModal: "text",
       inputData: {
         name: ["头像上传成功！"],
-      }
+      },
     }).catch(() => {
       return null;
     });
-		return;
+    return;
   }
 
   /**
@@ -1168,7 +1225,7 @@ class LiveSession {
           const pings = Object.values(this._pings);
           this._store.commit(
             "session/setPing",
-            Math.round(pings.reduce((a, b) => a + b, 0) / pings.length)
+            Math.round(pings.reduce((a, b) => a + b, 0) / pings.length),
           );
         }
       }
@@ -1180,7 +1237,7 @@ class LiveSession {
     if (!this._isSpectator || playerIdOrCount) {
       this._store.commit(
         "session/setPlayerCount",
-        this._isSpectator ? playerIdOrCount : Object.keys(this._players).length
+        this._isSpectator ? playerIdOrCount : Object.keys(this._players).length,
       );
     }
   }
@@ -1199,7 +1256,7 @@ class LiveSession {
     delete this._players[playerId];
     this._store.commit(
       "session/setPlayerCount",
-      Object.keys(this._players).length
+      Object.keys(this._players).length,
     );
   }
 
@@ -1213,7 +1270,12 @@ class LiveSession {
     const players = this._store.state.players.players;
     if (players.length > seat && (seat < 0 || !players[seat].id)) {
       // this._send("claim", [seat, this._store.state.session.playerId, this._store.state.session.playerName, this._store.state.session.playerAvatar]);
-      this._sendDirect("host", "claim", [seat, this._store.state.session.playerId, this._store.state.session.playerName, this._store.state.session.playerAvatar]);
+      this._sendDirect("host", "claim", [
+        seat,
+        this._store.state.session.playerId,
+        this._store.state.session.playerName,
+        this._store.state.session.playerAvatar,
+      ]);
     }
   }
 
@@ -1235,7 +1297,7 @@ class LiveSession {
       this._store.commit("players/update", {
         player: players[oldIndex],
         property: "id",
-        value: ""
+        value: "",
       });
       // this._store.commit("players/update", {
       //   player: players[oldIndex],
@@ -1251,21 +1313,21 @@ class LiveSession {
         this._store.commit("players/update", {
           player: players[oldIndex],
           property: "isWraith",
-          value: false
+          value: false,
         });
       }
       if (players[oldIndex].isUsingWraith === true) {
         this._store.commit("players/update", {
           player: players[oldIndex],
           property: "isUsingWraith",
-          value: false
+          value: false,
         });
       }
       if (players[oldIndex].isAllowRole === false) {
         this._store.commit("players/update", {
           player: players[oldIndex],
           property: "isAllowRole",
-          value: true
+          value: true,
         });
       }
     }
@@ -1273,14 +1335,21 @@ class LiveSession {
     if (index >= 0) {
       const player = players[index];
       if (!player) return;
-      this._store.commit("players/update", { player, property: "image", value: image });
-      this._store.commit("players/update", { player, property:"name", value: name});
+      this._store.commit("players/update", {
+        player,
+        property: "image",
+        value: image,
+      });
+      this._store.commit("players/update", {
+        player,
+        property: "name",
+        value: name,
+      });
       this._store.commit("players/update", { player, property: "id", value });
     }
     // update player session list as if this was a ping
     this._handlePing([true, value, 0]);
   }
-
 
   /**
    * Distribute player roles to all seated players in a direct message.
@@ -1293,7 +1362,7 @@ class LiveSession {
       if (player.id && player.role) {
         message[player.id] = [
           "player",
-          { index, property: "role", value: player.role.id }
+          { index, property: "role", value: player.role.id },
         ];
       }
     });
@@ -1313,7 +1382,14 @@ class LiveSession {
       if (player.id && player.role) {
         message[player.id] = [
           "player",
-          { index, property: "role", value: player.role.team === "traveler" ? player.role.id : player.role.team + 's' } //角色类型图标均有s后缀
+          {
+            index,
+            property: "role",
+            value:
+              player.role.team === "traveler"
+                ? player.role.id
+                : player.role.team + "s",
+          }, //角色类型图标均有s后缀
         ];
       }
     });
@@ -1330,7 +1406,7 @@ class LiveSession {
    * @param seatNum is the seat number being sent a bluffs
    * @param playerId is the playerId being sent a bluffs, may or may not be seated.
    */
-  distributeBluffs({all, role, seatNum, playerId}) {
+  distributeBluffs({ all, role, seatNum, playerId }) {
     if (this._isSpectator) return;
     if (!all && !seatNum && !playerId && !role) return;
 
@@ -1343,7 +1419,7 @@ class LiveSession {
       return;
     }
     if (seatNum) {
-      playerId = this._store.state.players.players[seatNum-1].id;
+      playerId = this._store.state.players.players[seatNum - 1].id;
       this._sendDirect(playerId, "bluff", this._store.state.players.bluffs);
       return;
     }
@@ -1363,22 +1439,24 @@ class LiveSession {
     }
 
     const message = {};
-    this._store.state.players.players.forEach(player => {
+    this._store.state.players.players.forEach((player) => {
       if (player.id && player.role && player.role.team == team) {
-        if (team === "demon"){
+        if (team === "demon") {
           let lunatic = false;
-          player.reminders.forEach(reminder => {
+          player.reminders.forEach((reminder) => {
             if (reminder.role === "lunatic") {
               lunatic = true;
               return;
             }
-          })
-          if ((role === "lunatic" && !lunatic) || (role === "demon" && lunatic)) return;
-        } else if ((role === "widow" || role === "spy") && player.role.id != role) return; 
-        message[player.id] = [
-          "bluff",
-          this._store.state.players.bluffs
-        ];
+          });
+          if ((role === "lunatic" && !lunatic) || (role === "demon" && lunatic))
+            return;
+        } else if (
+          (role === "widow" || role === "spy") &&
+          player.role.id != role
+        )
+          return;
+        message[player.id] = ["bluff", this._store.state.players.bluffs];
       }
     });
     if (Object.keys(message).length) {
@@ -1405,14 +1483,15 @@ class LiveSession {
    * @param seatNum is the seat number being sent a grimoire
    * @param playerId is the playerId being sent a grimoire, may or may not be seated.
    */
-  distributeGrimoire({all, role, seatNum, playerId}) {
+  distributeGrimoire({ all, role, seatNum, playerId }) {
     if (this._isSpectator) return;
     if (!all && !seatNum && !playerId && !role) return;
 
-    const fullGrimoire = (!!all || !!playerId) ? false : true;
+    const fullGrimoire = !!all || !!playerId ? false : true;
 
     const message = {};
-    if (!role) { // not specifying a role
+    if (!role) {
+      // not specifying a role
       message.roles = [];
       if (fullGrimoire) {
         message.reminders = [];
@@ -1422,16 +1501,16 @@ class LiveSession {
       }
       this._store.state.players.players.forEach((player, index) => {
         message.roles.push([
-          { index, property: "role", value: player.role.id }
+          { index, property: "role", value: player.role.id },
         ]);
         if (fullGrimoire) {
           message.reminders.push([
-            { index, property: "reminder", value: player.reminders }
+            { index, property: "reminder", value: player.reminders },
           ]);
         }
         if (all) {
           message.stReminders.push([
-            { index, property: "stReminder", value: player.stReminders }
+            { index, property: "stReminder", value: player.stReminders },
           ]);
         }
       });
@@ -1439,7 +1518,7 @@ class LiveSession {
         if (all) this._send("grimoire", message);
         if (playerId) this._sendDirect(playerId, "grimoire", message);
         if (seatNum) {
-          playerId = this._store.state.players.players[seatNum-1].id;
+          playerId = this._store.state.players.players[seatNum - 1].id;
           this._sendDirect(playerId, "grimoire", message);
         }
       }
@@ -1447,14 +1526,14 @@ class LiveSession {
       // send all roles and reminders when requesting full grimoire (i.e. widow or spy)
       this._store.state.players.players.forEach((player) => {
         if (player.id && player.role && player.role.id == role) {
-          message[player.id] = ["grimoire", {roles: [], reminders: []}];
+          message[player.id] = ["grimoire", { roles: [], reminders: [] }];
           this._store.state.players.players.forEach((player2, index) => {
             message[player.id][1].roles.push([
-              { index, property: "role", value: player2.role.id }
+              { index, property: "role", value: player2.role.id },
             ]);
             if (fullGrimoire) {
               message[player.id][1].reminders.push([
-                { index, property: "reminder", value: player2.reminders }
+                { index, property: "reminder", value: player2.reminders },
               ]);
             }
           });
@@ -1466,16 +1545,16 @@ class LiveSession {
     }
 
     // send bluffs
-    this.distributeBluffs({all, role, seatNum, playerId});
+    this.distributeBluffs({ all, role, seatNum, playerId });
   }
 
   /**
    * Update grimoire once received
    * @param payload is the grimoire details.
    */
-  _updateGrimoire(payload){
+  _updateGrimoire(payload) {
     // set roles
-    payload.roles.forEach(grimRole => {
+    payload.roles.forEach((grimRole) => {
       // load role, first from session, the global, then fail gracefully
       const role =
         this._store.state.roles.get(grimRole[0].value) ||
@@ -1486,38 +1565,38 @@ class LiveSession {
       this._store.commit("players/update", {
         player,
         property: "role",
-        value: role
+        value: role,
       });
-    })
-    
+    });
+
     // set reminders
     if (payload.reminders) {
-      payload.reminders.forEach(grimReminder => {
-        if (!grimReminder[0].value.length) return
+      payload.reminders.forEach((grimReminder) => {
+        if (!grimReminder[0].value.length) return;
         const player = this._store.state.players.players[grimReminder[0].index];
         const value = Array.from(player.reminders);
-        grimReminder[0].value.forEach(reminder => {
+        grimReminder[0].value.forEach((reminder) => {
           if (reminder.role === "custom") return;
           value.push(reminder);
         });
         this._store.commit("players/update", {
           player,
           property: "reminders",
-          value
+          value,
         });
-      })
+      });
     }
     // set stReminders
     if (payload.stReminders) {
-      payload.stReminders.forEach(grimReminder => {
-        if (!grimReminder[0].value.length) return
+      payload.stReminders.forEach((grimReminder) => {
+        if (!grimReminder[0].value.length) return;
         const player = this._store.state.players.players[grimReminder[0].index];
         this._store.commit("players/update", {
           player,
           property: "stReminders",
-          value: grimReminder[0].value
+          value: grimReminder[0].value,
         });
-      })
+      });
     }
   }
 
@@ -1563,7 +1642,7 @@ class LiveSession {
     if (this._isSpectator) return;
     this._send(
       "isVoteHistoryAllowed",
-      this._store.state.session.isVoteHistoryAllowed
+      this._store.state.session.isVoteHistoryAllowed,
     );
   }
 
@@ -1608,28 +1687,32 @@ class LiveSession {
       !this._isSpectator
     ) {
       if (
-        this._store.state.players.players[this._store.state.session.nomination[1]].role.team === "traveler" ||
+        this._store.state.players.players[
+          this._store.state.session.nomination[1]
+        ].role.team === "traveler" ||
         !this._store.state.session.isSecretVote
-      ) { // send to everyone if exile or secret vote is off
+      ) {
+        // send to everyone if exile or secret vote is off
         // send vote only if it is your own vote or you are the storyteller
         this._send("vote", [
           index,
           this._store.state.session.votes[index],
-          !this._isSpectator
+          !this._isSpectator,
         ]);
-      } else { // otherwise only send direct messages
+      } else {
+        // otherwise only send direct messages
         if (this._isSpectator) {
           this._sendDirect("host", "vote", [
             index,
             this._store.state.session.votes[index],
-            !this._isSpectator
-          ])
+            !this._isSpectator,
+          ]);
         } else {
           this._sendDirect(player.id, "vote", [
             index,
             this._store.state.session.votes[index],
-            !this._isSpectator
-          ])
+            !this._isSpectator,
+          ]);
         }
       }
     }
@@ -1638,60 +1721,60 @@ class LiveSession {
   /**
    * Send a status change to whether anonymous votes are in progress. ST to players only
    */
-  setSecretVote(isSecretVote){
+  setSecretVote(isSecretVote) {
     if (this._isSpectator) return;
     this._send("secretVote", isSecretVote);
   }
 
-  _handleSecretVote(isSecretVote){
+  _handleSecretVote(isSecretVote) {
     if (!this._isSpectator) return;
     this._store.state.session.isSecretVote = isSecretVote;
   }
 
-  setBootlegger(content){
+  setBootlegger(content) {
     if (this._isSpectator) return;
     this._send("bootlegger", content);
   }
 
-  _handleSetBootlegger(content){
+  _handleSetBootlegger(content) {
     if (!this._isSpectator) return;
     this._store.state.session.bootlegger = content;
   }
 
-  setUseOldOrder(isUseOldOrder){
+  setUseOldOrder(isUseOldOrder) {
     if (this._isSpectator) return;
     this._send("useOldOrder", isUseOldOrder);
   }
 
-  _handleSetUseOldOrder(isUseOldOrder){
+  _handleSetUseOldOrder(isUseOldOrder) {
     if (!this._isSpectator) return;
     this._store.state.session.isUseOldOrder = isUseOldOrder;
   }
 
-  setUseOldRole(isUseOldRole){
+  setUseOldRole(isUseOldRole) {
     if (this._isSpectator) return;
     this._send("useOldRole", isUseOldRole);
   }
 
-  _handleSetUseOldRole(isUseOldRole){
+  _handleSetUseOldRole(isUseOldRole) {
     if (!this._isSpectator) return;
     this._store.state.session.isUseOldRole = isUseOldRole;
   }
 
-  setIsReview(isReview){
+  setIsReview(isReview) {
     if (this._isSpectator) return;
     this._send("isReview", isReview);
   }
 
-  _handleSetIsReview(isReview){
+  _handleSetIsReview(isReview) {
     if (!this._isSpectator) return;
     this._store.state.session.isReview = isReview;
     if (!isReview) {
-      this._store.state.players.players.forEach(player => {
+      this._store.state.players.players.forEach((player) => {
         this._store.commit("players/update", {
           player,
           property: "stReminders",
-          value: []
+          value: [],
         });
       });
     }
@@ -1707,10 +1790,14 @@ class LiveSession {
     // do not reveal vote when anonymous voting is in progress, unless it's ST changing that player's vote
     const voteId = this._store.state.players.players[index].id;
     if (
-      this._isSpectator && voteId != this._store.state.session.playerId && 
-      this._store.state.session.isSecretVote && this._store.state.players.players[this._store.state.session.nomination[1]].role.team != "traveler"
-    ) return;
-    
+      this._isSpectator &&
+      voteId != this._store.state.session.playerId &&
+      this._store.state.session.isSecretVote &&
+      this._store.state.players.players[this._store.state.session.nomination[1]]
+        .role.team != "traveler"
+    )
+      return;
+
     const { session, players } = this._store.state;
     const playerCount = players.players.length;
     const indexAdjusted =
@@ -1740,7 +1827,7 @@ class LiveSession {
   _handleLock([lock, vote]) {
     if (!this._isSpectator) return;
     this._store.commit("session/lockVote", lock);
-    
+
     if (lock > 1) {
       const { lockedVote, nomination } = this._store.state.session;
       const { players } = this._store.state.players;
@@ -1784,28 +1871,31 @@ class LiveSession {
    * Sync seated player status.
    * @param isSecretVoteless boolean says if this player is secretly voteless.
    */
-  _handleSyncPlayerStatus({isSecretVoteless, isWraith, isUsingWraith}) {
+  _handleSyncPlayerStatus({ isSecretVoteless, isWraith, isUsingWraith }) {
     if (!this._isSpectator) return;
     if (this._store.state.session.claimedSeat === -1) return;
 
     if (this._store.state.session.isSecretVote && isSecretVoteless) {
-      this._store.commit("players/update", { 
-        player: this._store.state.players.players[this._store.state.session.claimedSeat],
+      this._store.commit("players/update", {
+        player:
+          this._store.state.players.players[
+            this._store.state.session.claimedSeat
+          ],
         property: "isVoteless",
-        value: isSecretVoteless
-       });
+        value: isSecretVoteless,
+      });
     }
 
     this._store.commit("session/setIsRole", {
-      role: 'wraith',
-      property: 'active',
-      value: isWraith
+      role: "wraith",
+      property: "active",
+      value: isWraith,
     });
     this._store.commit("session/setIsRole", {
-      role: 'wraith',
-      property: 'using',
+      role: "wraith",
+      property: "using",
       value: isUsingWraith,
-      st: true
+      st: true,
     });
   }
 
@@ -1822,7 +1912,7 @@ class LiveSession {
    * Update timer when received.
    * @param payload
    */
-  _handleSetTimer(time){
+  _handleSetTimer(time) {
     this._store.commit("session/setTimer", time);
   }
 
@@ -1838,7 +1928,7 @@ class LiveSession {
   /**
    * Starting timer.
    */
-  _handleStartTimer(payload){
+  _handleStartTimer(payload) {
     this._store.commit("session/startTimer", payload);
   }
 
@@ -1854,14 +1944,16 @@ class LiveSession {
   /**
    * Starting timer.
    */
-  _handleStopTimer(){
+  _handleStopTimer() {
     this._store.commit("session/stopTimer");
   }
 }
 
 class LiveLobby {
   constructor(store) {
-    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/lobby/`;
+    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${
+      window.location.host
+    }/lobby/`;
     this._socket = null;
     this._isSpectator = true;
     this._isAlive = true;
@@ -1879,29 +1971,22 @@ class LiveLobby {
   _open() {
     this.disconnect();
     this._socket = new WebSocket(
-      this._wss + 
-      this._store.state.session.playerId
+      this._wss + this._store.state.session.playerId,
     );
     if (this._socket === null) {
       this._store.commit("session/setReconnecting", true);
-      this._reconnectTimer = setTimeout(
-        () => this.connect(),
-        3 * 1000
-      );
+      this._reconnectTimer = setTimeout(() => this.connect(), 3 * 1000);
       return;
     }
     this._socket.addEventListener("message", this._handleMessage.bind(this));
     this._socket.onopen = this._onOpen.bind(this);
-    this._socket.onclose = err => {
+    this._socket.onclose = (err) => {
       this._socket = null;
       clearTimeout(this._pingTimer);
       this._pingTimer = null;
       if (err.code !== 1000) {
         // connection interrupted, reconnect after 3 seconds
-        this._reconnectTimer = setTimeout(
-          () => this.connect(),
-          3 * 1000
-        );
+        this._reconnectTimer = setTimeout(() => this.connect(), 3 * 1000);
       } else {
         this._store.commit("session/setSessionId", "");
         if (err.reason) {
@@ -1910,7 +1995,7 @@ class LiveLobby {
             inputModal: "text",
             inputData: {
               name: [err.reason],
-            }
+            },
           }).catch(() => {
             return null;
           });
@@ -1941,22 +2026,20 @@ class LiveLobby {
    */
   _sendDirect(playerId, command, params, feedback = false) {
     if (playerId) {
-      this._send("direct", { [playerId]: [command, params]}, feedback);
+      this._send("direct", { [playerId]: [command, params] }, feedback);
     } else {
       this._send(command, params, feedback);
     }
   }
 
-  _onOpen() {
-    console.log('Welcome!');
-  }
+  _onOpen() {}
 
   _handleMessage({ data }) {
     let command, params;
     try {
       [command, params] = JSON.parse(data);
     } catch (err) {
-      console.log("unsupported socket message", data);
+      return;
     }
     switch (command) {
       case "setRooms":
@@ -1979,13 +2062,16 @@ class LiveLobby {
     if (!this._store.state.session.playerId) {
       let playerId;
       // 禁止host、_host、lobby、player和default作为playerId
-      while (!playerId || playerId === "host" || playerId === "_host" || playerId === "player" || playerId === "default") {
+      while (
+        !playerId ||
+        playerId === "host" ||
+        playerId === "_host" ||
+        playerId === "player" ||
+        playerId === "default"
+      ) {
         playerId = Math.random().toString(36).substr(2);
       }
-      this._store.commit(
-        "session/setPlayerId",
-        playerId
-      );
+      this._store.commit("session/setPlayerId", playerId);
     }
     this._pings = {};
     this._store.commit("session/setPlayerCount", 0);
@@ -2040,12 +2126,13 @@ class LiveLobby {
    */
   removeRoom(params) {
     if (typeof params != "string") return;
-    this._store.state.session.rooms = this._store.state.session.rooms.filter(room => room != params);
+    this._store.state.session.rooms = this._store.state.session.rooms.filter(
+      (room) => room != params,
+    );
   }
 }
 
-export default store => {
-
+export default (store) => {
   // lobby
   const lobby = new LiveLobby(store);
   if (window.location.pathname === "/") lobby.connect();
@@ -2178,7 +2265,7 @@ export default store => {
         break;
       case "session/setIsReview":
         session.setIsReview(payload);
-        if (payload) session.distributeGrimoire({all: true});
+        if (payload) session.distributeGrimoire({ all: true });
         break;
       // case "session/setBootlegger":
       //   session.setBootlegger(payload);

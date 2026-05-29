@@ -15,18 +15,18 @@ const LATEST_VERSION_URL = "/dynamic/version.txt";
 
 // helper functions
 const getRolesByEdition = (edition = editionJSON[0]) => {
-  if (edition.id === 'all') {
+  if (edition.id === "all") {
     return new Map(
       rolesJSON
         .sort((a, b) => b.team.localeCompare(a.team))
-        .map(role => [role.id, role])
+        .map((role) => [role.id, role]),
     );
   }
   return new Map(
     rolesJSON
-      .filter(r => r.edition === edition.id || edition.roles.includes(r.id))
+      .filter((r) => r.edition === edition.id || edition.roles.includes(r.id))
       .sort((a, b) => b.team.localeCompare(a.team))
-      .map(role => [role.id, role])
+      .map((role) => [role.id, role]),
   );
 };
 
@@ -34,35 +34,39 @@ const getTravelersNotInEdition = (edition = editionJSON[0]) => {
   return new Map(
     rolesJSON
       .filter(
-        r =>
+        (r) =>
           r.team === "traveler" &&
           r.edition !== edition.id &&
-          !edition.roles.includes(r.id)
+          !edition.roles.includes(r.id),
       )
-      .map(role => [role.id, role])
+      .map((role) => [role.id, role]),
   );
 };
 
-const set = key => ({ grimoire }, val) => {
-  grimoire[key] = val;
-};
-
-const toggle = key => ({ grimoire }, val) => {
-  if (val === true || val === false) {
+const set =
+  (key) =>
+  ({ grimoire }, val) => {
     grimoire[key] = val;
-  } else {
-    grimoire[key] = !grimoire[key];
-  }
-};
+  };
 
-const clean = id => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
+const toggle =
+  (key) =>
+  ({ grimoire }, val) => {
+    if (val === true || val === false) {
+      grimoire[key] = val;
+    } else {
+      grimoire[key] = !grimoire[key];
+    }
+  };
+
+const clean = (id) => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
 
 // global data maps
 const editionJSONbyId = new Map(
-  editionJSON.map(edition => [edition.id, edition])
+  editionJSON.map((edition) => [edition.id, edition]),
 );
-const rolesJSONbyId = new Map(rolesJSON.map(role => [role.id, role]));
-const fabled = new Map(fabledJSON.map(role => [role.id, role]));
+const rolesJSONbyId = new Map(rolesJSON.map((role) => [role.id, role]));
+const fabled = new Map(fabledJSON.map((role) => [role.id, role]));
 
 // jinxes
 let jinxes = {};
@@ -70,11 +74,11 @@ try {
   jinxes = new Map(
     jinxesJSON.map(({ id, hatred }) => [
       clean(id),
-      new Map(hatred.map(({ id, reason }) => [clean(id), reason]))
-    ])
+      new Map(hatred.map(({ id, reason }) => [clean(id), reason])),
+    ]),
   );
 } catch (e) {
-  console.error("couldn't load jinxes", e);
+  // Keep the app usable if optional jinx data cannot be parsed.
 }
 
 // base definition for custom roles
@@ -93,13 +97,13 @@ const customRole = {
   jinxes: [],
   setup: false,
   team: "townsfolk",
-  isCustom: true
+  isCustom: true,
 };
 
 export default new Vuex.Store({
   modules: {
     players,
-    session
+    session,
   },
   state: {
     version: "3.2.3",
@@ -115,7 +119,7 @@ export default new Vuex.Store({
       isImageOptIn: true,
       isForwardEvilInfo: false,
       zoom: 0,
-      background: ""
+      background: "",
     },
     modals: {
       version: false,
@@ -128,7 +132,7 @@ export default new Vuex.Store({
       role: false,
       roles: false,
       voteHistory: false,
-      input: false
+      input: false,
     },
     edition: editionJSONbyId.get("tb"),
     selectedEditions: {
@@ -137,7 +141,7 @@ export default new Vuex.Store({
       snv: true,
       exp: true,
       hdcs: true,
-      syyl: true
+      syyl: true,
     },
     roles: getRolesByEdition(),
     otherTravelers: getTravelersNotInEdition(),
@@ -148,10 +152,10 @@ export default new Vuex.Store({
       townsfolk: "镇民",
       outsider: "外来者",
       minion: "爪牙",
-      demon: "恶魔"
+      demon: "恶魔",
     },
     firstNight: [],
-    otherNight: []
+    otherNight: [],
   },
   getters: {
     /**
@@ -166,9 +170,9 @@ export default new Vuex.Store({
       const strippedProps = [
         "firstNightReminder",
         "otherNightReminder",
-        "isCustom"
+        "isCustom",
       ];
-      roles.forEach(role => {
+      roles.forEach((role) => {
         if (!role.isCustom) {
           customRoles.push({ id: role.id });
         } else {
@@ -187,7 +191,7 @@ export default new Vuex.Store({
       });
       return customRoles;
     },
-    rolesJSONbyId: () => rolesJSONbyId
+    rolesJSONbyId: () => rolesJSONbyId,
   },
   mutations: {
     setZoom: set("zoom"),
@@ -205,7 +209,7 @@ export default new Vuex.Store({
     toggleNight: toggle("isNight"),
     toggleGrimoire: toggle("isPublic"),
     toggleImageOptIn: toggle("isImageOptIn"),
-    toggleForwardEvilInfo:toggle("isForwardEvilInfo"),
+    toggleForwardEvilInfo: toggle("isForwardEvilInfo"),
     toggleModal({ modals }, name) {
       if (modals.input) this.state.session.isTyping = false;
       if (name) {
@@ -222,13 +226,17 @@ export default new Vuex.Store({
      * @param roles Array of role IDs or full role definitions
      */
     setCustomRoles(state, roles) {
-      const oldRoles = Object.keys(state.session.isUseOldRole).filter(key => state.session.isUseOldRole[key] === true);
-      roles = roles.map(role => {
-        return oldRoles.includes(role.id) ? {...role, id: role.id + 'old1'} : role; // use role if not ticked, add old1 if ticked
-      })
+      const oldRoles = Object.keys(state.session.isUseOldRole).filter(
+        (key) => state.session.isUseOldRole[key] === true,
+      );
+      roles = roles.map((role) => {
+        return oldRoles.includes(role.id)
+          ? { ...role, id: role.id + "old1" }
+          : role; // use role if not ticked, add old1 if ticked
+      });
       const processedRoles = roles
         // replace numerical role object keys with matching key names
-        .map(role => {
+        .map((role) => {
           if (role[0]) {
             const customKeys = Object.keys(customRole);
             const mappedRole = {};
@@ -243,19 +251,19 @@ export default new Vuex.Store({
           }
         })
         // clean up role.id
-        .map(role => {
+        .map((role) => {
           role.id = clean(role.id);
           return role;
         })
         // map existing roles to base definition or pre-populate custom roles to ensure all properties
         .map(
-          role =>
+          (role) =>
             rolesJSONbyId.get(role.id) ||
             state.roles.get(role.id) ||
-            Object.assign({}, customRole, role)
+            Object.assign({}, customRole, role),
         )
         // default empty icons and placeholders, clean up firstNight / otherNight
-        .map(role => {
+        .map((role) => {
           if (rolesJSONbyId.get(role.id)) return role;
           role.imageAlt = // map team to generic icon
             {
@@ -264,43 +272,47 @@ export default new Vuex.Store({
               minion: "minion",
               demon: "evil",
               fabled: /^bootlegger\d+$/.test(role.id) ? "bootlegger" : "fabled", // 直接使用私货商人图标
-              loric: /^bootlegger\d+$/.test(role.id) ? "bootlegger" : "loric"
+              loric: /^bootlegger\d+$/.test(role.id) ? "bootlegger" : "loric",
             }[role.team] || "custom";
           role.firstNight = Math.abs(role.firstNight);
           role.otherNight = Math.abs(role.otherNight);
           return role;
         })
         // filter out roles that don't match an existing role and also don't have name/ability/team
-        .filter(role => role.name && role.ability && role.team)
+        .filter((role) => role.name && role.ability && role.team)
         // sort by team
         .sort((a, b) => b.team.localeCompare(a.team));
       // convert to Map without Fabled
       state.roles = new Map(
         processedRoles
-          .filter(role => role.team !== "fabled" && role.team !== "loric")
-          .map(role => {
+          .filter((role) => role.team !== "fabled" && role.team !== "loric")
+          .map((role) => {
             if (role.team === "traveller") role.team = "traveler";
             return role;
           })
-          .map(role => [role.id, role])
+          .map((role) => [role.id, role]),
       );
       // update Fabled to include custom Fabled from this script
       state.fabled = new Map([
-        ...processedRoles.filter(r => r.team === "fabled" || r.team === "loric").map(r => [r.id, r]),
-        ...fabledJSON.map(role => [role.id, role])
+        ...processedRoles
+          .filter((r) => r.team === "fabled" || r.team === "loric")
+          .map((r) => [r.id, r]),
+        ...fabledJSON.map((role) => [role.id, role]),
       ]);
       // update extraTravelers map to only show travelers not in this script
       state.otherTravelers = new Map(
         rolesJSON
-          .filter(r => r.team === "traveler" && !roles.some(i => i.id === r.id))
-          .map(role => [role.id, role])
+          .filter(
+            (r) => r.team === "traveler" && !roles.some((i) => i.id === r.id),
+          )
+          .map((role) => [role.id, role]),
       );
     },
-    setSelectedEditions(state, selectedEditions){
-      state.selectedEditions = {...selectedEditions};
+    setSelectedEditions(state, selectedEditions) {
+      state.selectedEditions = { ...selectedEditions };
       if (state.edition.id === "all") this.commit("setEdition", state.edition);
     },
-    setStates(state, states){
+    setStates(state, states) {
       state.states = states;
     },
     setTeamsNames(state, names) {
@@ -318,31 +330,39 @@ export default new Vuex.Store({
       if (editionJSONbyId.has(edition.id)) {
         state.edition = editionJSONbyId.get(edition.id);
         state.roles = getRolesByEdition(state.edition);
-        if (state.edition.id === 'all') { //只加载勾选了的剧本
+        if (state.edition.id === "all") {
+          //只加载勾选了的剧本
           state.roles = new Map(
             Array.from(state.roles.entries()).filter((role) => {
               const value = role[1]; //value of the role
               return state.selectedEditions[value.edition];
-            })
-          )
+            }),
+          );
         }
         state.otherTravelers = getTravelersNotInEdition(state.edition);
         const fabled = Array.from(state.fabled.values()).filter((role) => {
           return role.edition === edition.id;
         });
-        if (!state.session.isSpectator) this.commit("players/setFabled", {fabled});
+        if (!state.session.isSpectator)
+          this.commit("players/setFabled", { fabled });
       } else {
         state.edition = edition;
       }
       // 为官方角色增加原顺序选项
-      if (state.roles.get('professor')) {
-        state.roles.get('professor').otherNight = state.session.isUseOldOrder.professor ? 79 : 96;
+      if (state.roles.get("professor")) {
+        state.roles.get("professor").otherNight = state.session.isUseOldOrder
+          .professor
+          ? 79
+          : 96;
       }
-      if (state.roles.get('pithag')) {
-        state.roles.get('pithag').otherNight = state.session.isUseOldOrder.pithag ? 37 : 16;
+      if (state.roles.get("pithag")) {
+        state.roles.get("pithag").otherNight = state.session.isUseOldOrder
+          .pithag
+          ? 37
+          : 16;
       }
       state.modals.edition = false;
-    }
+    },
   },
   actions: {
     async checkVersion() {
@@ -356,7 +376,7 @@ export default new Vuex.Store({
       } catch (e) {
         return null;
       }
-    }
+    },
   },
-  plugins: [persistence, socket]
+  plugins: [persistence, socket],
 });

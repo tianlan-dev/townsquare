@@ -13,16 +13,12 @@
         </div>
         <div>
           点击
-          <span class="button" @click="hostSession()">
-            创建房间
-          </span>
+          <span class="button" @click="hostSession()"> 创建房间 </span>
           <b>[H]</b>开始说书。
         </div>
         <div>
           点击
-          <span class="button" @click="joinSession()">
-            加入房间
-          </span>
+          <span class="button" @click="joinSession()"> 加入房间 </span>
           <b>[J]</b>进入已有的房间。
         </div>
       </div>
@@ -30,7 +26,7 @@
         <span>
           这个项目是免费和开源的，本项目对原版进行了修改。本项目是非官方项目，旨在交流网站构建和应用。该网站为私人项目，仅供测试及展示。
         </span>
-        <br/>
+        <br />
         <span>如有bug反馈、建议、其他需求，请联系本地维护者。</span>
       </div>
     </div>
@@ -51,18 +47,18 @@ import { mapMutations } from "vuex";
 export default {
   data() {
     return {
-      language: window.navigator.userLanguage || window.navigator.language
+      language: window.navigator.userLanguage || window.navigator.language,
     };
   },
   methods: {
     hostSession() {
       this.$emit("trigger", ["hostSession"]);
     },
-    joinSession () {
+    joinSession() {
       this.$emit("trigger", ["joinSession"]);
     },
-    ...mapMutations(["toggleMenu"])
-  }
+    ...mapMutations(["toggleMenu"]),
+  },
 };
 </script>
 
