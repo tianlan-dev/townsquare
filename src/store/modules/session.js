@@ -67,13 +67,7 @@ const state = () => ({
     lycanthrope: false
   },
   isReview: false,
-  isChatOpen: false,
   isTyping: false,
-  messageQueue: [],
-  messageUniqueQueue: [],
-  chatHistory: [],
-  newStMessage: [0],
-  groupChats: [],
   inputType: "",
   inputModal: "",
   inputData: {},
@@ -83,9 +77,7 @@ const state = () => ({
   timer: 480,
   startTime: null,
   lastUpdateTime: null,
-  interval: null,
-  isTalking: false,
-  listeningFrame: null
+  interval: null
 });
 
 const getters = {};
@@ -115,8 +107,6 @@ const mutations = {
   },
   setNomination: set("nomination"),
   setVoteHistoryAllowed: set("isVoteHistoryAllowed"),
-  setListeningFrame: set("listeningFrame"),
-  setChatOpen: set("isChatOpen"),
   setTyping: set("isTyping"),
   setInputType: set("inputType"),
   setInputModal: set("inputModal"),
@@ -244,129 +234,6 @@ const mutations = {
   lockVote(state, lock) {
     state.lockedVote = lock !== undefined ? lock : state.lockedVote + 1;
   },
-  createChatHistory(state, playerId){
-    if (playerId === "") return;
-    if (chatIndex(state, playerId) >= 0) return; // do nothing if it already exists
-    Vue.set(state.chatHistory, state.chatHistory.length, {id: playerId, chat: []});
-  },
-  updateChatSent(state, chatContent){
-    if (state.isSpectator && chatContent.sendingPlayerId != state.playerId) return;
-    this.commit("session/addMessageQueue", {type: "direct", playerId:chatContent.receivingPlayerId, command: "chat", params:chatContent, id: new Date().getTime()})
-  },
-  updateChatReceived(state, {message, playerId}){
-    if (state.isSpectator && playerId != state.stId) return;
-    const playerIndex = chatIndex(state, playerId);
-    const oldMessages = state.chatHistory[playerIndex]["chat"];
-    Vue.set(state.chatHistory, playerIndex, {id: playerId, chat: [...oldMessages, message]})
-  },
-  addMessageQueue(state, {type, playerId, command, params, id}) {
-    state.messageQueue.push({type, playerId, command, params, id});
-  },
-  deleteMessageQueue(state, index) {
-    if (state.messageQueue.length  === 0) return;
-    state.messageQueue.splice(index, 1);
-  },
-  checkUniqueMessage(state, feedback) {
-    if (state.messageUniqueQueue[feedback]) clearTimeout(state.messageUniqueQueue[feedback]);
-    state.messageUniqueQueue[feedback] = setTimeout(() => {
-      delete state.messageUniqueQueue[feedback];
-    }, 1000 * 60 * 3)
-  },
-  setStMessage(state, num) {
-    if (num > 0){
-      const newNum = state.newStMessage[0] += num;
-      Vue.set(state.newStMessage, 0, newNum);
-    } else{
-      const newNum = state.newStMessage[0] = num;
-      Vue.set(state.newStMessage, 0, newNum);
-    }
-  },
-  addGroupChat(state, {chatId, players, playerIds, keep}) {
-    if (state.groupChats.length >= 20) return;
-
-    if (!!playerIds && !players) {
-      players = this.state.players.players.filter(player => playerIds.includes(player.id));
-    }
-
-    const groupIndex = state.groupChats.findIndex(group => group.id === chatId);
-    // 提供id则加入已存在的群聊，否则创建新的群聊
-    if (groupIndex !== -1) {
-      state.groupChats[groupIndex].players = [...state.groupChats[groupIndex].players, ...players];
-      players.forEach(player => {
-        this.commit("players/update", {player, property: "chatGroup", value: chatId});
-      });
-      return;
-    }
-
-    // 最多允许20个群聊（默认名字）
-    const pattern = /^群聊(1[0-9]|20|[1-9])$/;
-    const names = state.groupChats.map(group => group.name);
-    const allSuffixes = names
-      .filter(name => pattern.test(name))
-      .map(name => name.replace(/^群聊/,""))
-      .map(Number);
-    const maxIndex = Math.max(...allSuffixes);
-    const index = maxIndex + 1;
-    let name = "群聊" + index;
-    if (index > 20 || names.includes(name)) {
-      for (let i=1; i<=21; i++) {
-        if (!allSuffixes.includes(i)) {
-          name = "群聊" + i;
-          break;
-        }
-      }
-    }
-    // initialise group chats
-    state.groupChats.push({
-      id: chatId, 
-      name: names.length === 0 ? "群聊1" : name, 
-      keep: keep === undefined ? false : keep,
-      players
-    });
-    players.forEach(player => {
-      this.commit("players/update", {
-        player,
-        property: "chatGroup",
-        value: chatId
-      });
-    });
-  },
-  removeGroupChat(state, {chatId}) {
-    const index = state.groupChats.findIndex(group => group.id === chatId);
-    if (index === -1) return;
-    
-    state.groupChats[index].players.forEach(player => {
-      this.commit("players/update", {player, property: "chatGroup", value: ""});
-    });
-    state.groupChats.splice(index, 1);
-  },
-  removeGroupChatMember(state, {chatId, player, playerId}) {
-    const groupIndex = state.groupChats.findIndex(group => group.id === chatId);
-    if (groupIndex === -1) return;
-
-    if (!!playerId && !player) {
-      const playerArray = this.state.players.players.filter(player => playerId === player.id);
-      if (playerArray.length == 0) return;
-      player = playerArray[0];
-    }
-
-    const playerIndex = state.groupChats[groupIndex].players.findIndex(item => item.id == player.id);
-    if (playerIndex === -1) return;
-    this.commit("players/update", {
-      player: state.groupChats[groupIndex].players[playerIndex], 
-      property: "chatGroup", 
-      value: ""
-    });
-    state.groupChats[groupIndex].players.splice(playerIndex, 1);
-    
-  },
-  toggleGroupKeep(state, chatId) {
-    const index = state.groupChats.findIndex(group => group.id === chatId);
-    if (index === -1) return;
-
-    const group = state.groupChats[index];
-    state.groupChats[index].keep = !group.keep;
-  },
   setPlayerAvatar(state){
     state.playerAvatar = "";
   },
@@ -403,25 +270,8 @@ const mutations = {
   },
   stopTimer(state){
     clearInterval(state.interval);
-  },
-  setTalking(state, {seatNum, isTalking}){
-    if (seatNum < 0 || seatNum >= this.state.players.players.length ) return;
-    if (!this.state.players.players[seatNum].id || this.state.players.players[seatNum].id != state.playerId) return;
-    state.isTalking = isTalking;
-    this.commit("players/setIsTalking", {seatNum, isTalking});
   }
 };
-
-
-function chatIndex(state, playerId) {
-  for (let i = 0; i < state.chatHistory.length; i++) {
-    if (state.chatHistory[i]["id"] === playerId) {
-      return i;
-    }
-  }
-  return -1;
-}
-
 
 export default {
   namespaced: true,

@@ -9,27 +9,19 @@
           marked: session.markedPlayer === index,
           'no-vote': player.isVoteless,
           'vote-yes': session.votes[index],
-          'vote-lock': voteLocked,
-          talking: player.isTalking && player.id
+          'vote-lock': voteLocked
         },
         player.role.team
       ]"
     >
       <div class="seatNum">{{ players.indexOf(player) + 1 }}</div>
-      <div class="newMessage" v-show="player.newMessages > 0">{{ player.newMessages }}</div>
 
       <div class="shroud" @click="toggleStatus()"></div>
       <div class="life" @click="toggleStatus()"></div>
       <div v-if="player.id" class="avatar">
-        <!-- <img :src="`https://botcgrimoire.uk/avatars/${player.image}`" 
-          :class="{ on: player.role.id }"
-        > -->
-        <img :src="`https://botcgrimoire.top/avatars/${player.image}`" 
+        <img :src="avatarSrc(player.image)"
           :class="{ on: player.role.id }"
         >
-        <!-- <img :src="`http://localhost:3000/avatars/${player.image}`" 
-            :class="{ on: player.role.id }"
-        > -->
       </div>
 
       <div
@@ -244,10 +236,6 @@
               <font-awesome-icon :icon="['custom', 'wraith']"/>
               <span>亡魂</span>
             </li>
-            <li @click="openChat(player)">
-                <font-awesome-icon icon="comment" prefix="fa"/>
-              私聊
-            </li>
           </template>
           <li
             @click="claimSeat"
@@ -365,7 +353,6 @@ export default {
     return {
       isMenuOpen: false,
       isSwap: false,
-      newMessages: 0,
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
       menuTop: null,
@@ -399,6 +386,10 @@ export default {
     }
   },
   methods: {
+    avatarSrc(image) {
+      const filename = String(image || "default.webp").split("/").pop();
+      return `/avatars/${filename}`;
+    },
     async showInputModal({ inputType, inputModal, inputData }) {
       return new Promise((resolve, reject) => {
         this.$store.commit("session/setInputResolver", resolve);
@@ -639,12 +630,6 @@ export default {
     setStoryTeller(player) {
       this.isMenuOpen = false;
       this.$emit("trigger", ["setStoryTeller", player]);
-    },
-    openChat(player){
-      // direct message in grimoire
-      this.isMenuOpen = false;
-      if (!player.id) return;
-      this.$emit("trigger", ["openChat"]);
     },
     /**
      * Allow the ST to override a locked vote.
@@ -928,8 +913,7 @@ export default {
   transform: scale(1);
 }
 
-// you voted yes | a locked vote yes | a locked vote no
-#townsquare.vote .player.talking.vote-yes .overlay svg.vote.fa-hand-paper,
+// a locked vote yes | a locked vote no
 #townsquare.vote .player.vote-lock.vote-yes .overlay svg.vote.fa-hand-paper,
 #townsquare.vote .player.vote-lock:not(.vote-yes) .overlay svg.vote.fa-times {
   opacity: 1;
@@ -1071,30 +1055,6 @@ li.move:not(.from) .player .overlay svg.move {
   pointer-events: none;
 }
 
-/****** Session seat glow when talking *****/
-@mixin glow($name, $color) {
-  @keyframes #{$name}-glow {
-    0%, 100% {
-      box-shadow: 0 0 rgba($color, 1);
-      border-color: $color;
-    }
-  }
-
-  .player.talking.#{$name} .token {
-    animation: #{$name}-glow 0.5s infinite;
-  }
-}
-
-@include glow("townsfolk", $townsfolk);
-@include glow("outsider", $outsider);
-@include glow("demon", $demon);
-@include glow("minion", $minion);
-@include glow("traveler", $traveler);
-
-.player.talking .token {
-  animation: townsfolk-glow 0.5s infinite;
-}
-
 /****** Marked icon ******/
 .player .marked {
   position: absolute;
@@ -1158,21 +1118,6 @@ li.move:not(.from) .player .overlay svg.move {
   -1px -1px #000;
 }
 
-// New message bubble
-.player .newMessage {
-  position: absolute;
-  right: 2%;
-  top: 1%;
-  z-index: 3;
-  pointer-events: none;
-  background: rgb(255, 51, 85);
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  font-size: 80%;
-}
-
 // highlight animation
 @keyframes redToWhite {
   from {
@@ -1181,10 +1126,6 @@ li.move:not(.from) .player .overlay svg.move {
   to {
     color: white;
   }
-}
-
-.player.talking .seat {
-  color: $townsfolk;
 }
 
 /***** Player name *****/

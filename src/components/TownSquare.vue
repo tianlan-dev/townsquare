@@ -62,9 +62,6 @@
           @click="removeFabled(index)"
           :style="floatingZoom"
         >
-        <div v-if="index === 0">
-          <div class="newMessage" v-for="(item, position) in session.newStMessage" :key="position" v-show="item > 0">{{ item }}</div>
-        </div>
           <div
             class="night-order first"
             v-if="nightOrder.get(role).first && grimoire.isNightOrder"
@@ -87,13 +84,6 @@
         </li>
       </ul>
     </div>
-    <a v-if="!!session.sessionId && (!session.isSpectator || !!session.isHostAllowed || !!session.isJoinAllowed)"
-    href="https://botcgrimoire.top/donation/" target="_blank"
-    class="donation"
-    >
-      <span>支持</span>
-    </a>
-
     <div v-if="session.isSpectator && isRole.length > 0"
         class="is-role">
       <font-awesome-icon 
@@ -107,42 +97,8 @@
     <ReminderModal :player-index="selectedPlayer"></ReminderModal>
     <RoleModal :player-index="selectedPlayer"></RoleModal>
 
-    <div v-show="session.isChatOpen" :class="{chat: !isChatMin, chatMin: isChatMin}" :style="chatStyle">
-      <div class="title" @click="maximiseChat()">
-        <div v-if="!isChatMin && isInGroup && isShowGroup" class="group" :style="groupStyle">
-          <div v-for="player in inGroupPlayers" :key="player.id">
-            <span>（{{ player.index + 1 }}号）{{ player.name }}</span>
-            <br/>
-          </div>
-        </div>
-        <div>
-          <span ref="chatWith" style="cursor: text; user-select: text; pointer-events: auto;"></span> &nbsp;
-          <span class="newMessage" v-for="(item, position) in session.newStMessage" :key="position" v-show="session.isSpectator && item > 0">{{ item }}</span>
-          <em v-if="isInGroup && !isChatMin">
-            <font-awesome-icon v-if="!isShowGroup" icon="arrow-circle-up" @click="toggleGroups()"/>
-            <font-awesome-icon v-else icon="arrow-circle-down" @click="toggleGroups()"/>
-          </em>
-          <span :class="{close: !isChatMin, open: isChatMin}" @click="toggleChat()">
-            <font-awesome-icon icon="times" :class="{ turnedIcon45: isChatMin}"/>
-          </span>
-        </div>
-      </div>
-      <div ref="chatContent" class="content" @scroll="checkToBottom" >
-        <div v-for="(player, index) in session.chatHistory"  :key="index" v-show="(session.isSpectator && player.id === session.stId) || (!session.isSpectator && player.id === chattingPlayer)">
-          <ul v-for="(content, chatIndex) in player.chat" :key="chatIndex">{{ content }}</ul>
-        </div>
-      </div>
-      <form class="chatbox" @submit.prevent="sendChat">
-        <input type="text" id="message" ref="message" autocomplete="off" class="edit" @focus="typing" @blur="notTyping" v-model="message">
-        <button type="submit" class="send">发送</button>
-      <div class="toBottom" v-if="false">
-          移至底部
-          <font-awesome-icon icon="arrow"/>
-      </div>
-      </form>
-    </div>
     <div id="version">
-      <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024109577号-2</a>
+      <span>本地局域网离线版本</span>
     </div>
   </div>
 </template>
@@ -175,41 +131,6 @@ export default {
       const size = ratio > 1 ? 14 : 8;
       return "height: " + size + "vh; width: " + size + "vh;";
     },
-    chatStyle: function(){
-      if (this.isChatMin) return;
-      const ratio = this.windowWidth / this.windowHeight;
-      const width = ratio < 1 ? '300px' : '25%';
-      const height = ratio < 1 ?
-        (this.isInGroup && this.isShowGroup ? '450px' : '400px') :
-        (this.isInGroup && this.isShowGroup ? 'calc(40% + 10vh)' : '40%');
-      return `width: ${width}; height: ${height};`;
-    },
-    groupStyle: function() {
-      const ratio = this.windowWidth / this.windowHeight;
-      const height = ratio < 1 ? '50px' : '10vh';
-      return `height: ${height};`;
-    },
-    isInGroup: function(){
-      if (this.session.isSpectator) return this.session.groupChats.length > 0 ? true : false;
-      return this.chattingGroup != "";
-    },
-    inGroupPlayers: function(){
-      const group = this.session.isSpectator ? this.session.groupChats :
-      this.session.groupChats.filter(group => group.id === this.chattingGroup);
-      if (group.length === 0) return [];
-
-      const players = [];
-      group[0].players.forEach(player => {
-        const index = this.players.findIndex(player2 => player2.id === player.id);
-        if (index === -1) return;
-        players.push({
-          id: player.id,
-          name: player.name,
-          index
-        });
-      });
-      return players;
-    },
     isRole: function() {
       const activeRoles = [];
       for (const roleId in this.session.isRole) {
@@ -233,26 +154,11 @@ export default {
       nominate: -1,
       isBluffsOpen: true,
       isFabledOpen: true,
-      isChatMin: false,
-      minimising: false,
-      chattingPlayer: "",
-      chattingGroup: "",
-      isShowGroup: false,
-      message: "",
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight
     };
   },
   watch: {
-    "session.chatHistory": {
-      handler() {
-        this.$nextTick(() => {
-          if (this.$refs.chatContent.scrollTop >= -20 && this.isChatOpen && !this.isChatMin) {
-            this.scrollToBottom();
-          }
-        });
-      }
-    },
     "session.isVoteInProgress": {
       handler() {
         this.$nextTick(() => {
@@ -268,20 +174,6 @@ export default {
         })
       }
     },
-    "session.groupChats": {
-      handler() {
-        this.$nextTick(() => {
-          if (this.session.isChatOpen != "" && this.session.isSpectator) {
-            this.openChat(0, false);
-          } else if (this.session.isChatOpen != "" && !this.session.isSpectator) {
-            const index = this.players.findIndex(player => player.id === this.chattingPlayer);
-            if (index === -1) return;
-            this.openChat(index, false);
-          }
-        });
-      },
-      deep: true
-    }
   },
   mounted(){
     window.addEventListener("resize", this.handleResize);
@@ -296,14 +188,9 @@ export default {
     toggleFabled() {
       this.isFabledOpen = !this.isFabledOpen;
     },
-    toggleGroups() {
-      this.isShowGroup = !this.isShowGroup;
-    },
     removeFabled(index) {
       if (this.session.isSpectator) {
-        if (index === 0) {
-          if (this.session.claimedSeat >= 0) this.openChat(0); //open chat box if user is a player
-        }
+        return;
         
       }else{
         this.$store.commit("players/setFabled", { index });
@@ -324,7 +211,6 @@ export default {
         this.$store.commit("session/claimSeat", -1);
       } else {
         this.$store.commit("session/claimSeat", playerIndex);
-        this.$store.commit("session/createChatHistory", this.session.stId);
       }
     },
     openReminderModal(playerIndex) {
@@ -462,130 +348,6 @@ export default {
         this.$store.commit("players/update", {player, property: "isVoteless", value: true});
         this.$store.commit("players/update", {player, property: "isDead", value: true});
       }
-    },
-    openChat(playerIndex, maximise = true){
-      if (maximise) this.maximiseChat();
-      
-      // display player name or ST in the chat title
-      if(this.session.isSpectator){
-        const groupChats = this.session.groupChats;
-        const name = groupChats.length === 0 ? this.fabled[0].name : "群聊"; //if fabled is messed up this may cause issues
-        this.$refs.chatWith.innerText = name;
-        if (maximise) this.$store.commit("session/setStMessage", 0);
-      }else{
-        this.chattingPlayer = this.players[playerIndex].id;
-        this.chattingGroup = this.players[playerIndex].chatGroup;
-        const name = this.chattingGroup === "" ? this.players[playerIndex].name : this.session.groupChats.filter(group => group.id === this.chattingGroup)[0].name;
-        this.$refs.chatWith.innerText = name;
-        if (maximise) this.$store.commit("players/setPlayerMessage", {playerId: this.chattingPlayer, num: 0})
-      }
-
-      this.$nextTick(() => {
-        this.scrollToBottom();
-      });
-    },
-    toggleChat(){
-      if(this.isChatMin){
-        this.maximiseChat();
-      }else{
-        this.minimiseChat();
-      }
-    },
-    maximiseChat(){
-      if(this.minimising){
-        this.minimising = false;
-        return;
-      }
-      if (this.session.isChatOpen && !this.isChatMin) return;
-      this.$store.commit("session/setChatOpen", true);
-      this.isChatMin = false;
-
-      this.$nextTick(() => {
-        this.$refs.message.focus();
-      });
-    },
-    minimiseChat(){
-      this.isChatMin = true;
-      this.minimising = true;
-    },
-    sendChat(){
-      if (this.message === "") return;
-      if (this.session.isSpectator && this.session.claimedSeat < 0) return;
-      if (!this.session.isSpectator) {
-        let seated = false;
-        this.players.forEach(player => {
-          if (player.id === this.chattingPlayer) seated = true;
-        });
-        if (!seated) return;
-      }
-      const sender = this.session.playerName;
-      const sendingPlayerId = this.session.playerId;
-      const message = sender.concat(": ", this.message);
-      if (this.chattingGroup === "") {
-        const receivingPlayerId = this.session.isSpectator ? "host" : this.chattingPlayer;
-        this.$store.commit("session/updateChatSent", {message, sendingPlayerId, receivingPlayerId});
-      } else {
-        const group = this.session.groupChats.filter(group => group.id === this.chattingGroup)[0];
-        const playerIds = group.players.map(player => player.id);
-        playerIds.forEach(id => {
-          this.$store.commit("session/updateChatSent", {message, sendingPlayerId, receivingPlayerId: id});
-        })
-      }
-
-      if (!this.session.isSpectator) {
-        const wraithMessage = `[亡魂][（说书人）${message}]`;
-        const players = this.players.filter(player => player.isWraith && player.isUsingWraith && player.isAllowRole && !!player.id);
-        players.forEach(player => {
-          if (!(player.id === this.chattingPlayer || player.chatGroup === this.chattingGroup)) this.$store.commit("session/updateChatSent", {message: wraithMessage, sendingPlayerId, receivingPlayerId: player.id});
-        });
-        // this.$store.commit("session/setIsRole", {
-        //   role: 'wraith',
-        //   property: 'st',
-        //   value: this.session.isRole.wraith.player + 1
-        // });
-        // 每10次互动会让暴露概率增加1%，最高10%
-        // const prob = Math.min(0.05 + Math.floor(Math.min(this.session.isRole.wraith.st, this.session.isRole.wraith.player) / 10) * 0.01, this.session.isRole.wraith.probMax);
-        // this.$store.commit("session/setIsRole", {
-        //   role: 'wraith',
-        //   property: 'prob',
-        //   value: prob
-        // });
-      }
-
-      this.message = "";
-
-      this.$nextTick(() => {
-        this.scrollToBottom();
-      });
-    },
-    scrollToBottom(){
-      this.$nextTick(() => {
-        this.$refs.chatContent.scrollTop = this.$refs.chatContent.scrollHeight;
-      });
-      this.checkToBottom();
-    },
-    checkToBottom() {
-      if (this.$refs.chatContent.scrollTop >= -20){
-        // 划至最底则删除红点
-        if (!this.session.isSpectator) {
-          this.$store.commit("players/setPlayerMessage", {playerId: this.chattingPlayer, num: 0});
-        } else{
-          this.$store.commit("session/setStMessage", 0);
-        }
-      }
-    },
-    typing(){
-      this.$store.commit("session/setTyping", true);
-      if (this.$refs.chatContent.scrollTop >= -20){
-        if (!this.session.isSpectator) {
-          this.$store.commit("players/setPlayerMessage", {playerId: this.chattingPlayer, num: 0});
-        } else{
-          this.$store.commit("session/setStMessage", 0);
-        }
-      }
-    },
-    notTyping(){
-      this.$store.commit("session/setTyping", false);
     },
     setUsingWraith(){
       const usingWraith = this.session.isRole.wraith.using;
@@ -825,97 +587,6 @@ export default {
   }
 }
 
-#townsquare > .donation {
-  position: absolute;
-  top: calc(50px + 16vh);
-  left: 10px;
-  height: 2rem;
-  width: 4rem;
-  z-index: 50;
-  text-decoration: none;
-
-  // Outer border style
-  border: 2px solid #B67D43; /* A dark, textured border for the outer frame */
-  background-color: rgba(0, 0, 0, 1);
-  padding: 10px 20px;
-  color: inherit;
-  cursor: pointer;
-
-  span {
-    position: absolute;
-    top: 0.05rem;
-    left: 0.7rem;
-    white-space: nowrap;
-    font-size: 1.2rem;
-  }
-
-  box-shadow: 0 0 5px #B67D43; 
-  animation: glow-cycle 605s linear; /* 10m duration */
-  animation-delay: 1s;
-}
-// The keyframe animation for 10 minutes oscillation
-@keyframes glow-cycle {
-  0% { 
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-  
-  0.0826% { // Peak of the 1st pulse
-    box-shadow: 0 0 20px #DAB060;
-    border-color: #DAB060;
-  }
-  
-  0.165% { // End of the 1st pulse
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-  
-  0.247% { // Peak of the 2nd pulse
-    box-shadow: 0 0 20px #DAB060;
-    border-color: #DAB060;
-  }
-  
-  0.33% { // End of the 2nd pulse
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-  
-  0.413% { // Peak of the 3rd pulse
-    box-shadow: 0 0 20px #DAB060;
-    border-color: #DAB060;
-  }
-  
-  0.495% { // End of the 3rd pulse
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-  
-  0.578% { // Peak of the 4th pulse
-    box-shadow: 0 0 20px #DAB060;
-    border-color: #DAB060;
-  }
-  
-  0.66% { // End of the 4th pulse
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-
-  0.743% { // Peak of the 5th pulse
-    box-shadow: 0 0 20px #DAB060;
-    border-color: #DAB060;
-  }
-  
-  0.826% { // End of the 5th pulse, which is 5 seconds in
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-  
-  100% { // The rest of the 10-minute duration is spent here
-    box-shadow: 0 0 5px #B67D43;
-    border-color: #B67D43;
-  }
-}
-
 #townsquare.public > .bluffs {
   opacity: 0;
   transform: scale(0.1);
@@ -928,20 +599,6 @@ export default {
   background-image: url("../assets/icons/x.png");
   z-index: 2;
 }
-
-// New message bubble
-.fabled ul li .newMessage {
-  position: absolute;
-  right: 2%;
-  top: 1%;
-  background: rgb(255, 51, 85);
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  font-size: 80%;
-}
-
 
 /**** Night reminders ****/
 .night-order {
@@ -1086,176 +743,6 @@ export default {
   }
 }
 
-
-/* chat with ST */
-.chatMin {
-    position: absolute;
-    right: 10px;
-    bottom: 0px;
-    transform-origin: bottom right;
-    width: 15%;
-    height: 5%;
-    border-radius: 10px;
-    z-index: 60;
-    display: flex;
-    flex-direction: column;
-}
-
-.chatMin .title {
-    padding: 10px;
-    background-color: #000;
-    user-select: none;
-}
-
-.chatMin .title .open {
-    position: absolute;
-    right: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.chatMin .content {
-    display: none;
-}
-
-.chatMin .chatbox {
-    display: none;
-}
-// New message bubble
-.chatMin .newMessage {
-  position: absolute;
-  left: 40%;
-  bottom: 10%;
-  background: rgb(255, 51, 85);
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  font-size: 80%;
-}
-
-.chat {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    transform-origin: bottom right;
-    background-color: #0000007f;
-    // width: 30%;
-    // height: 40%;
-    border-radius: 10px;
-    border: 3px solid #8a7864;
-    z-index: 60;
-    display: flex;
-    flex-direction: column;
-}
-// New message bubble
-.chat .newMessage {
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
-  background: rgb(255, 51, 85);
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  font-size: 80%;
-}
-
-
-.chat .title {
-    padding: 10px;
-    background-color: #000;
-    user-select: none;
-}
-
-.chat .title em {
-  color: #888;
-  cursor: pointer;
-  font-size: 80%;
-}
-
-.chat .title .group {
-  position: inherit;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.chat .title .close {
-    position: absolute;
-    right: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.chat.alert .title {
-    background-color: #A00;
-}
-
-.chat.alert .title::after {
-    font-size: 70%;
-    font-weight: bold;
-    position: absolute;
-    right: 40px;
-    bottom: 10px;
-}
-
-.chat .content {
-    padding: 5px;
-    font-size: 80%;
-    background-color: #131313;
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.chat .chatbox {
-    padding: 5px;
-    display: flex;
-    height: fit-content;
-    background-color: #131313;
-}
-
-.chat .chatbox .edit {
-    flex: 1;
-    overflow-x: hidden;
-    overflow-y: auto;
-    max-height: 60px;
-    font-size: 70%;
-    border: solid;
-    background-color: #000;
-    color: #fff;
-}
-
-.chat .chatbox .edit:focus {
-    outline: none;
-}
-
-.chat .chatbox .send {
-    background-color: #4a7ec6;
-    color: white;
-    border: solid;
-    border-color: white;
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
-}
-
-.turnedIcon45 {
-  transform: rotate(45deg);
-}
-
-.toBottom {
-  margin: auto;
-  width: 40px;
-  height: 20px;
-  bottom: 30px;
-  z-index: 60;
-  font-size: 70%;
-  display: flex;
-  flex-direction: column;
-}
 
 #townsquare:not(.spectator) .fabled ul li:hover .token:before {
   opacity: 1;

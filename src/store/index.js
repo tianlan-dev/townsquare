@@ -11,7 +11,7 @@ import jinxesJSON from "../hatred.json";
 
 Vue.use(Vuex);
 
-const LATEST_VERSION_URL = 'https://botcgrimoire.top/dynamic/version.txt';
+const LATEST_VERSION_URL = "/dynamic/version.txt";
 
 // helper functions
 const getRolesByEdition = (edition = editionJSON[0]) => {
@@ -67,17 +67,12 @@ const fabled = new Map(fabledJSON.map(role => [role.id, role]));
 // jinxes
 let jinxes = {};
 try {
-  // Note: can't fetch live list due to lack of CORS headers
-  // fetch("https://bloodontheclocktower.com/script/data/hatred.json")
-  //   .then(res => res.json())
-  //   .then(jinxesJSON => {
   jinxes = new Map(
     jinxesJSON.map(({ id, hatred }) => [
       clean(id),
       new Map(hatred.map(({ id, reason }) => [clean(id), reason]))
     ])
   );
-  // });
 } catch (e) {
   console.error("couldn't load jinxes", e);
 }
@@ -120,8 +115,7 @@ export default new Vuex.Store({
       isImageOptIn: true,
       isForwardEvilInfo: false,
       zoom: 0,
-      background: "",
-      audioThreshold: 150
+      background: ""
     },
     modals: {
       version: false,
@@ -134,8 +128,7 @@ export default new Vuex.Store({
       role: false,
       roles: false,
       voteHistory: false,
-      input: false,
-      groupChat: false
+      input: false
     },
     edition: editionJSONbyId.get("tb"),
     selectedEditions: {
@@ -205,7 +198,6 @@ export default new Vuex.Store({
     setLastVersion(state, val) {
       state.lastVersion = val;
     },
-    setAudioThreshold: set("audioThreshold"),
     toggleMuted: toggle("isMuted"),
     toggleMenu: toggle("isMenuOpen"),
     toggleNightOrder: toggle("isNightOrder"),
@@ -361,7 +353,6 @@ export default new Vuex.Store({
         }
         const latestVersion = await response.text();
         this.commit("setLatestVersion", latestVersion.trim());
-        if (this.state.version != this.state.latestVersion || this.state.latestVersion != this.state.lastVersion) this.commit("toggleModal", "version");
       } catch (e) {
         return null;
       }

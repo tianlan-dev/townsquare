@@ -12,10 +12,7 @@ const NEWPLAYER = {
   isSecretVoteless: false,
   isDead: false,
   votes: 1,
-  pronouns: "",
-  newMessages: 0,
-  chatGroup: "",
-  isTalking: false
+  pronouns: ""
 };
 
 const state = () => ({
@@ -104,13 +101,12 @@ const actions = {
         return player;
       });
     } else {
-      players = state.players.map(({ name, id, pronouns, image, chatGroup }) => ({
+      players = state.players.map(({ name, id, pronouns, image }) => ({
         ...NEWPLAYER,
         name,
         id,
         pronouns,
-        image,
-        chatGroup
+        image
       }));
       commit("setFabled", { fabled: [] });
     }
@@ -237,14 +233,14 @@ const mutations = {
     } else if (fabled) {
       const fabledStoryteller = {
         "id": "storyteller",
-        "image": ("https://botcgrimoire.top/avatars/" + stImage),
+        "image": ("/avatars/" + String(stImage).split("/").pop()),
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
         "name": stName,
         "team": "fabled",
-        "ability": "点击和说书人私聊。"
+        "ability": "说书人。"
       };
 
       // 加入自定义私货商人描述
@@ -281,27 +277,8 @@ const mutations = {
   setOtherNight(state, otherNight) {
     state.otherNightOrder = otherNight;
   },
-  setPlayerMessage(state, {playerId, num}) {
-    const playersId = [];
-    state.players.forEach(player => {
-      playersId.push(player["id"]);
-    });
-    const playerIndex = playersId.indexOf(playerId);
-    if (num > 0){
-      state.players[playerIndex].newMessages += num;
-    } else{
-      state.players[playerIndex].newMessages = num;
-    }
-    
-  },
   setImage(state, image) { //image is an url
     state.image = image;
-  },
-  setIsTalking(state, {seatNum, isTalking}) {
-    if (seatNum >= state.players.length) return;
-    if (!state.players[seatNum].id || state.players[seatNum].id != this.state.session.playerId) return;
-    const player = state.players[seatNum];
-    player.isTalking = isTalking;
   }
 };
 

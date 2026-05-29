@@ -28,9 +28,6 @@ module.exports = store => {
   if (localStorage.getItem("zoom")) {
     store.commit("setZoom", parseFloat(localStorage.getItem("zoom")));
   }
-  if (localStorage.getItem("audioThreshold")) {
-    store.commit("setAudioThreshold", localStorage.getItem("audioThreshold"));
-  }
   if (localStorage.getItem("isGrimoire")) {
     store.commit("toggleGrimoire", false);
     updatePagetitle(false);
@@ -137,25 +134,6 @@ module.exports = store => {
     const customBootlegger = JSON.parse(localStorage.getItem("customBootlegger"));
     store.commit("session/setBootlegger", customBootlegger);
   }
-  if (localStorage.getItem("chatHistory")) {
-    const chatHistory = JSON.parse(localStorage.getItem("chatHistory"));
-    chatHistory.forEach(player => {
-      store.commit("session/createChatHistory", player.id);
-      player.chat.forEach(message => {
-        store.commit("session/updateChatReceived", {message, playerId: player.id});
-      })
-    })
-  }
-  if (localStorage.getItem("groupChats")) {
-    const groupChats = JSON.parse(localStorage.getItem("groupChats"));
-    groupChats.forEach(group => {
-      store.commit("session/addGroupChat", {
-        chatId: group.id,
-        playerIds: group.playerIds,
-        keep: group.keep
-      });
-    });
-  }
   if (localStorage.getItem("playerAvatar")) {
     store.commit("session/updatePlayerAvatar", localStorage.getItem("playerAvatar"));
   }
@@ -226,9 +204,6 @@ module.exports = store => {
         } else {
           localStorage.removeItem("zoom");
         }
-        break;
-      case "setAudioThreshold":
-        localStorage.setItem("audioThreshold", payload);
         break;
       case "setSelectedEditions":
         localStorage.setItem("selectedEditions", JSON.stringify(payload));
@@ -367,68 +342,6 @@ module.exports = store => {
       }
       case "session/setBootlegger":
         localStorage.setItem("customBootlegger", JSON.stringify(payload));
-        break;
-      case "session/createChatHistory":
-      case "session/updateChatSent":
-      case "session/updateChatReceived":
-        if (state.session.chatHistory) {
-          localStorage.setItem("chatHistory", JSON.stringify(state.session.chatHistory));
-        } else {
-          localStorage.removeItem("chatHistory");
-        }
-        break;
-      case "session/addGroupChat":
-        {
-          if (!!payload.playerIds && !payload.players) return;
-          const chatId = payload.chatId;
-          const playerIds = payload.players.map(player => player.id);
-          const groupChats = localStorage.groupChats != undefined ? JSON.parse(localStorage.getItem("groupChats")) : [];
-          const chats = groupChats.map(group => group.id);
-          if (chats.includes(chatId)) {
-            const group = groupChats.filter(group => group.id === chatId)[0];
-            playerIds.forEach(id => {
-              if (group.playerIds.includes(id)) return;
-              group.playerIds.push(id);
-            });
-          } else {
-            groupChats.push({
-              id: chatId,
-              playerIds,
-              keep: false
-            });
-          }
-          localStorage.setItem("groupChats", JSON.stringify(groupChats));
-        }
-        break;
-      case "session/removeGroupChat":
-        if (localStorage.groupChats != undefined) {
-          const groupChats = JSON.parse(localStorage.getItem("groupChats"));
-          const newGroupChats = groupChats.filter(group => group.id != payload.chatId);
-          localStorage.setItem("groupChats", JSON.stringify(newGroupChats));
-        }
-        break;
-      case "session/removeGroupChatMember":
-        if (!!payload.playerIds && !payload.players) return;
-        if (localStorage.groupChats != undefined) {
-          const groupChats = JSON.parse(localStorage.getItem("groupChats"));
-          const chatId = payload.chatId;
-          const playerId = payload.player.id;
-          const index = groupChats.findIndex(group => group.id === chatId);
-          if (index === -1) return;
-          
-          groupChats[index].playerIds = groupChats[index].playerIds.filter(player => player != playerId);
-          localStorage.setItem("groupChats", JSON.stringify(groupChats));
-        }
-        break;
-      case "session/toggleGroupKeep":
-        if (localStorage.groupChats != undefined) {
-          const groupChats = JSON.parse(localStorage.getItem("groupChats"));
-          const index = groupChats.findIndex(group => group.id === payload);
-          if (index === -1) return;
-          
-          groupChats[index].keep = !groupChats[index].keep;
-          localStorage.setItem("groupChats", JSON.stringify(groupChats));
-        }
         break;
       case "session/updatePlayerAvatar":
         localStorage.setItem("playerAvatar", payload);

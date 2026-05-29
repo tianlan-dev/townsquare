@@ -6,6 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve --https",
     "build": "vue-cli-service build ./src/main.js",
+    "local": "npm run build && node server/local-server.js",
+    "start:local": "node server/local-server.js",
     "lint": "vue-cli-service lint",
     "lint-ci": "vue-cli-service lint --no-fix --max-warnings=0",
     "postbuild": "node generate-sitemap.js"
@@ -54,6 +56,6 @@
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/limpy01/townsquare"
+    "url": "https://github.com/tianlan-dev/townsquare"
   }
 }

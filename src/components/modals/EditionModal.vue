@@ -31,10 +31,7 @@
     <div class="custom" v-else>
       <h3>加载自定义剧本/角色</h3>
       若想玩自定义剧本，请在
-      <a href="https://clocktower.gstonegames.com/script_tool/" target="_blank"
-        >官方（中文）剧本工具</a
-      >
-      中选择想玩的角色然后上传生成的"custom-list.json"文件或提供包含JSON文件的URL链接。
+      本地剧本工具中选择想玩的角色然后上传生成的"custom-list.json"文件，或提供同源本地JSON路径。
       
       <br />
       若想玩自定义角色，请查阅关于如何编写自定义角色定义文件的文档。
@@ -90,35 +87,35 @@ export default {
       scripts: [
         [
           "死罪忏悔日",
-          "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
+          "/scripts/penanceday.json"
         ],
         [
           "人人都该诋毁的鲶鱼11.1",
-          "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/a312ab93c2f302e0ef83c8b65a4e8e82760fda3a/catfishing.json"
+          "/scripts/catfishing.json"
         ],
         [
           "如履薄冰（小剧本）",
-          "https://gist.githubusercontent.com/bra1n/8dacd9f2abc6f428331ea1213ab153f5/raw/0cacbcaf8ed9bddae0cca25a9ada97e9958d868b/on-thin-ice.json"
+          "/scripts/on-thin-ice.json"
         ],
         [
           "逐底竞技（小剧本）",
-          "https://gist.githubusercontent.com/bra1n/63e1354cb3dc9d4032bcd0623dc48888/raw/5acb0eedcc0a67a64a99c7e0e6271de0b7b2e1b2/race-to-the-bottom.json"
+          "/scripts/race-to-the-bottom.json"
         ],
         [
           "失控造物（小剧本）",
-          "https://gist.githubusercontent.com/bra1n/32c52b422cc01b934a4291eeb81dbcee/raw/5bf770693bbf7aff5e86601c82ca4af3222f4ba6/Frankensteins_Mayor_by_Ted.json"
+          "/scripts/frankensteins-mayor.json"
         ],
         [
           "永生之境（小剧本）",
-          "https://gist.githubusercontent.com/bra1n/1f65bd4a999524719d5dabe98c3c2d27/raw/22bbec6bf56a51a7459e5ae41ed47e41971c5445/VigormortisHighSchool.json"
+          "/scripts/vigormortis-high-school.json"
         ],
         [
           "无上愉悦（小剧本）",
-          "https://botcgrimoire.top/json/no_greater_joy.json"
+          "/scripts/no_greater_joy.json"
         ],
         [
           "噬脑疑局（小剧本）",
-          "https://botcgrimoire.top/json/a_lleach_of_distrust.json"
+          "/scripts/a_lleach_of_distrust.json"
         ]
       ]
     };
@@ -175,7 +172,7 @@ export default {
         inputType: "json",
         inputModal: "input",
         inputData: {
-          name: ["输入custom-script.json文件的URL"],
+          name: ["输入本机服务器上的custom-script.json路径"],
           length: 1,
           placeholder: [""]
         }
@@ -190,7 +187,20 @@ export default {
       }
     },
     async handleURL(url) {
-      const res = await fetch(url);
+      const localUrl = this.normalizeLocalUrl(url);
+      if (!localUrl) {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: ["只允许加载当前本机服务器上的JSON路径。请使用上传、剪贴板或/scripts/xxx.json。"],
+          }
+        }).catch(() => {
+          return null;
+        });
+        return;
+      }
+      const res = await fetch(localUrl);
       if (res && res.json) {
         try {
           const script = await res.json();
@@ -249,6 +259,8 @@ export default {
           });
         }
       }
+      roles = this.localizeExternalImages(roles);
+      meta = this.localizeExternalImages([meta])[0];
       this.$store.commit("setCustomRoles", roles);
       this.$store.commit(
         "setEdition",
@@ -265,6 +277,36 @@ export default {
         this.$store.commit("players/setFabled", { fabled });
       }
       this.isCustom = false;
+    },
+    normalizeLocalUrl(url) {
+      try {
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin !== window.location.origin) return "";
+        return `${parsed.pathname}${parsed.search}${parsed.hash}`;
+      } catch (e) {
+        return "";
+      }
+    },
+    localizeExternalImages(items) {
+      return items.map(item => {
+        if (!item || typeof item !== "object") return item;
+        const image = item.image || item.logo;
+        if (!image || typeof image !== "string") return item;
+        if (image.startsWith("data:") || image.startsWith("blob:")) return item;
+        let parsed;
+        try {
+          parsed = new URL(image, window.location.origin);
+        } catch (e) {
+          return item;
+        }
+        const isLocal =
+          parsed.origin === window.location.origin;
+        if (isLocal) return item;
+        const cleanItem = Object.assign({}, item);
+        delete cleanItem.image;
+        delete cleanItem.logo;
+        return cleanItem;
+      });
     },
     parseStates(roles) {
       if (!roles || !roles.length) return;

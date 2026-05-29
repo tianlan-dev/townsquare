@@ -2,7 +2,6 @@
   <div
     id="app"
     @keyup="keyup"
-    @keydown="keydown"
     tabindex="-1"
     :class="{
       night: grimoire.isNight,
@@ -38,7 +37,6 @@
     <VoteHistoryModal />
     <GameStateModal />
     <InputModal ref="input"/>
-    <GroupChatModal/>
     <VersionModal/>
     <Gradients />
     <!-- <span id="version">v{{ version }}</span> -->
@@ -63,7 +61,6 @@ import FabledModal from "@/components/modals/FabledModal";
 import VoteHistoryModal from "@/components/modals/VoteHistoryModal";
 import GameStateModal from "@/components/modals/GameStateModal";
 import InputModal from "@/components/modals/InputModal.vue";
-import GroupChatModal from "./components/modals/GroupChatModal.vue";
 import VersionModal from "./components/modals/VersionModal.vue";
 
 export default {
@@ -82,7 +79,6 @@ export default {
     EditionModal,
     RolesModal,
     InputModal,
-    GroupChatModal,
     VersionModal,
     Gradients
   },
@@ -210,10 +206,6 @@ export default {
             this.$store.commit("toggleModal", "voteHistory");
           }
           break;
-        case "d":
-          if (this.session.isSpectator) return;
-          this.$store.commit("toggleModal", "groupChat");
-          break;
         case "s":
           if (this.session.isSpectator) return;
           this.$refs.menu.toggleNight();
@@ -228,19 +220,6 @@ export default {
           } else {
             this.$store.commit("toggleModal");
           }
-          break;
-        case "f2":
-          this.$refs.menu.stopListening('keyboard');
-          break;
-      }
-    },
-    keydown({ key, ctrlKey, metaKey }) {
-      if (ctrlKey || metaKey) return;
-      switch (key.toLocaleLowerCase()) {
-        case "f2":
-          if (this.session.claimedSeat < 0) return;
-          if (this.session.listeningFrame) return;
-          this.$refs.menu.startListening('keyboard');
           break;
       }
     },

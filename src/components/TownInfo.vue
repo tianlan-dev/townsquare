@@ -4,11 +4,7 @@
       class="edition"
       :class="['edition-' + edition.id]"
       :style="{
-        backgroundImage: `url(${
-          edition.logo && grimoire.isImageOptIn
-            ? edition.logo
-            : require('../assets/editions/' + edition.id + '.png')
-        })`
+        backgroundImage: `url(${editionLogo})`
       }"
     ></li>
     <li v-if="players.length - teams.traveler < 5">
@@ -106,8 +102,24 @@ export default {
           ).length
       };
     },
+    editionLogo: function() {
+      if (this.edition.logo && this.grimoire.isImageOptIn && this.isLocalAsset(this.edition.logo)) {
+        return this.edition.logo;
+      }
+      return require("../assets/editions/" + this.edition.id + ".png");
+    },
     ...mapState(["edition", "grimoire"]),
     ...mapState("players", ["players"])
+  },
+  methods: {
+    isLocalAsset(url) {
+      if (url.startsWith("data:") || url.startsWith("blob:")) return true;
+      try {
+        return new URL(url, window.location.origin).origin === window.location.origin;
+      } catch (e) {
+        return false;
+      }
+    }
   }
 };
 </script>

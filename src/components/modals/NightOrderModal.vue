@@ -41,13 +41,7 @@
             class="icon"
             v-if="role.id"
             :style="{
-              backgroundImage: `url(${
-                role.image && grimoire.isImageOptIn
-                  ? role.image
-                  : require('../../assets/icons/' +
-                      (role.imageAlt || role.id.replace(/old1$/, '')) +
-                      '.png')
-              })`
+              backgroundImage: `url(${iconUrl(role)})`
             }"
           ></span>
           <span class="reminder" v-if="role.firstNightReminder">
@@ -66,13 +60,7 @@
             class="icon"
             v-if="role.id"
             :style="{
-              backgroundImage: `url(${
-                role.image && grimoire.isImageOptIn
-                  ? role.image
-                  : require('../../assets/icons/' +
-                      (role.imageAlt || role.id.replace(/old1$/, '')) +
-                      '.png')
-              })`
+              backgroundImage: `url(${iconUrl(role)})`
             }"
           ></span>
           <span class="name">
@@ -182,6 +170,20 @@ export default {
     ...mapState("players", ["players", "fabled"])
   },
   methods: {
+    iconUrl(role) {
+      if (role.image && this.grimoire.isImageOptIn && this.isLocalAsset(role.image)) {
+        return role.image;
+      }
+      return require("../../assets/icons/" + (role.imageAlt || role.id.replace(/old1$/, "")) + ".png");
+    },
+    isLocalAsset(url) {
+      if (url.startsWith("data:") || url.startsWith("blob:")) return true;
+      try {
+        return new URL(url, window.location.origin).origin === window.location.origin;
+      } catch (e) {
+        return false;
+      }
+    },
     ...mapMutations(["toggleModal"])
   }
 };

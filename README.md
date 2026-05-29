@@ -3,12 +3,23 @@
 这是一个非官方的线上工具，用来辅助在语音软件中体验染·钟楼谜团。
 这个工具可以帮助说书人和玩家有创建房间、记录进程、投票等，有更好的游戏体验。
 
-[点击链接进入！](https://botcgrimoire.top/)
+## 本地局域网运行
+
+```bash
+npm install
+npm run local
+```
+
+服务默认监听 `0.0.0.0:3000`。本机访问 `http://127.0.0.1:3000`，局域网内其他设备访问这台机器的局域网 IP，例如 `http://10.10.10.97:3000`。
+
+`npm run local` 会先构建前端，再启动同一个本地服务端。这个服务端提供页面、预设剧本 JSON、头像资源、头像上传、版本文件、房间 WebSocket 和大厅 WebSocket；离线局域网使用时不要使用 `npm run serve`。
+
+玩家上传的头像会保存到本机 `local-data/avatars`，该目录不会提交到仓库。`public/avatars` 只用于内置默认头像。
 
 ## 特点
 
 - 免费的城镇广场/魔典！
-- 支持自定义JSON！可以从[英文剧本工具](https://bloodontheclocktower.com/script)或[中文剧本工具](https://clocktower.gstonegames.com/script_tool/)创建JSON文件！
+- 支持自定义JSON！可以上传本地 JSON 文件、从剪切板粘贴，或加载当前本地服务端上的同源 JSON 路径。
 - 实时共享的魔典，可供玩家投票使用！
 - 持续更新所有官方角色，不定时加入原创角色和剧本！
 - 夜间行动顺序和提醒可以帮助说书人和玩家。
@@ -16,7 +27,7 @@
 
 ### 自定义剧本支持
 
-任何从[英文剧本工具](https://bloodontheclocktower.com/script)或[中文剧本工具](https://clocktower.gstonegames.com/script_tool/)生成的JSON剧本文件都被支持，可以上传完整JSON文件或从剪切板粘贴。如果你想继续自定义剧本，可以加入以下`"_meta"`对象对剧本整体做出调整。
+任何符合剧本格式的JSON剧本文件都被支持，可以上传完整JSON文件、从剪切板粘贴，或加载当前本地服务端上的同源 JSON 路径。URL 加载只接受当前服务的相对路径或同源地址，例如 `/scripts/catfishing.json`。如果你想继续自定义剧本，可以加入以下`"_meta"`对象对剧本整体做出调整。
 
 
 ```json
@@ -25,7 +36,7 @@
     "id": "_meta",
     "name": "无上愉悦",
     "author": "作者",
-    "logo": "https://url.to/your/logo.png",
+    "logo": "/scripts/assets/your-logo.png",
     "firstNight": ["dusk","minioninfo","demoninfo","marionette","poisoner","amnesiac","dawn"],
     "otherNight": ["dusk","dawn"],
     "bootlegger": ["私货商人1", "私货商人2"]
@@ -34,11 +45,11 @@
 ```
 
 这些设置可以让剧本的主题更加明确，使用更方便。
-- `"firstNight"`、`"otherNight`和`"bootlegger"`是[英文剧本工具](https://bloodontheclocktower.com/script)支持的关键词，可以直接从中导出无需修改。
+- `"firstNight"`、`"otherNight`和`"bootlegger"`是剧本工具常用关键词。
 - 包含`"firstNight"`会改写魔典内置角色的首夜行动顺序。
 - 包含`"otherNight`会改写魔典内置角色的除首夜外其他夜的行动顺序。
 - 其中`"dusk"`、`"dawn"`、`"minioninfo"`和`"demoninfo"`为魔典内置的关键词，请避免和角色`"id"`重复。
-- `"firstNight"`和`"otherNight`必须正确包括所有当晚行动的角色才能正常生效，请尽量使用[英文剧本工具](https://bloodontheclocktower.com/script)直接导出的结果，如需修改请在使用前核对夜间顺序表。
+- `"firstNight"`和`"otherNight`必须正确包括所有当晚行动的角色才能正常生效，如需修改请在使用前核对夜间顺序表。
 
 ### 原创角色支持
 

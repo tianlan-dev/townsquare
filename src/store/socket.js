@@ -1,7 +1,6 @@
 class LiveSession {
   constructor(store) {
-    this._wss = "wss://ws.botcgrimoire.top:443/ws/";
-    // this._wss = "ws://localhost:8081/"; // uncomment if using local server with NODE_ENV=development
+    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/ws/`;
     this._socket = null;
     this._isSpectator = true;
     this._isAlive = true;
@@ -92,19 +91,6 @@ class LiveSession {
         // reset fabled
         this._store.commit("players/setFabled", { fabled: [], emptyFabled: true});
 
-        // close chat box
-        this._store.commit("session/setChatOpen", false);
-
-        // exit group chat
-        this._store.state.session.groupChats.forEach(group => {
-          this._store.commit("session/removeGroupChat", {chatId: group.id});
-        });
-        
-        // clear messages
-        while (this._store.state.session.messageQueue.length > 0) {
-          this._store.commit("session/deleteMessageQueue", 0);
-        }
-
         // reset wraith
         this._store.commit("session/setIsRole", {
           role: 'wraith',
@@ -186,72 +172,6 @@ class LiveSession {
     }
   }
 
-  _sendQueue() {
-      if (this._store.state.session.messageQueue.length <= 0) return;
-      for (let message of this._store.state.session.messageQueue) {
-        switch (message.type) {
-          case "direct":
-            this._sendDirect(message.playerId, message.command, message.params, message.id);
-            break;
-          case "request":
-            this._request(message.command, message.playerId, message.params, message.id);
-            break;
-          case "uploadFile":
-            this._uploadFile(message.command, message.playerId, message.params, message.id);
-            break;
-          default:
-            this._send(message.command, message.params, message.id);
-        }
-      }
-  }
-
-  _startSendQueue() {
-    this._stopSendQueue();
-    this._sendQueue();
-    this._sendTimer = setInterval(() => {
-      this._sendQueue();
-    }, this._sendInterval);
-  }
-
-  _stopSendQueue() {
-    clearInterval(this._sendTimer);
-    this._sendTimer = null;
-  }
-
-  /**
-   * 
-   * @param id id for identifying and deleting the query
-   */
-  _deleteFromQueue(id) {
-    if (this._store.state.session.messageQueue.length <= 0) return;
-    for (let i=0; i<this._store.state.session.messageQueue.length; i++) {
-      if (this._store.state.session.messageQueue[i].id === id) {
-        this._checkQueue(this._store.state.session.messageQueue[i]);
-        // this._store.state.session.messageQueue.splice(i,1);
-        this._store.commit("session/deleteMessageQueue", i)
-        break;
-      }
-    }
-  }
-
-  /** 
-   * 
-   * @param message check the specific message and perform certain actions before deleting
-   */
-  _checkQueue(message) {
-    switch (message.type) {
-      case "direct": 
-        switch (message.command) {
-          case "chat": {
-            const receivingPlayerId = message.params.receivingPlayerId === "host" ? this._store.state.session.stId : message.params.receivingPlayerId;
-            this._store.commit("session/updateChatReceived", {message: message.params.message, playerId: receivingPlayerId}); // sending out to other players, receivingPlayerId is the recorded chat ID
-          }
-          break;
-        }
-        break;
-    }
-  }
-
   /**
    * Open event handler for socket.
    * @private
@@ -269,9 +189,6 @@ class LiveSession {
         this._store.state.session.playerId
       )
       this.checkAllowJoin();
-      if (this._store.state.session.claimedSeat >= 0 && !this._store.state.session.isListening && !this._store.state.session.isTalking) {
-        this._store.commit("session/setTalking", {seatNum: this._store.state.session.claimedSeat, isTalking: false});
-      }
     } else {
       if (this._store.state.session.isHostAllowed === true) {
         this.sendGamestate();
@@ -311,9 +228,9 @@ class LiveSession {
    * @private
    */
   _handleMessage({ data }) {
-    let command, params, feedback;
+    let command, params;
     try {
-      [command, params, feedback] = JSON.parse(data);
+      [command, params] = JSON.parse(data);
     } catch (err) {
       console.log("unsupported socket message", data);
     }
@@ -371,7 +288,6 @@ class LiveSession {
         break;
       case "claim":
         this._updateSeat(params);
-        this._createChatHistory(params);
         break;
       case "leaveSeat":
         this._updateLeaveSeat();
@@ -381,9 +297,6 @@ class LiveSession {
         break;
       case "pong":
         this._handlePong(params);
-        break;
-      case "feedback":
-        this._deleteFromQueue(params);
         break;
       case "nomination":
         if (!this._isSpectator) return;
@@ -452,18 +365,6 @@ class LiveSession {
       case "usingRole":
         this._updateUsingRole(params);
         break;
-      case "chat":
-        this._handleChat(params, feedback);
-        break;
-      case "addGroupChat":
-        this._handleAddGroupChat(params, feedback);
-        break;
-      case "removeGroupChat":
-        this._handleRemoveGroupChat(feedback);
-        break;
-      case "removeGroupChatMember":
-        this._handleRemoveGroupChatMember(params, feedback);
-        break;
       case "setTimer":
         this._handleSetTimer(params);
         break;
@@ -490,9 +391,6 @@ class LiveSession {
         break;
       case "isReview":
         this._handleSetIsReview(params);
-        break;
-      case "setTalking":
-        this._handleSetTalking(params);
         break;
     }
   }
@@ -524,9 +422,6 @@ class LiveSession {
     this._store.commit("session/setPlayerCount", 0);
     this._store.commit("session/setPing", 0);
     this._isSpectator = this._store.state.session.isSpectator;
-    if (this._store.state.session.claimedSeat >= 0) {
-      this._store.commit("session/setTalking", {seatNum: this._store.state.session.claimedSeat, isTalking: false});
-    }
     this._open(channel);
   }
 
@@ -753,22 +648,12 @@ class LiveSession {
   
     // 场内玩家更新
     const playerIndex = !playerId ? -1 : this._store.state.players.players.findIndex(player => player.id === playerId);
-    const groups = {};
     if (!playerId || playerIndex > -1) {
       const selectedPlayers = !playerId ?  this._store.state.players.players.filter(player => !!player.id) : [this._store.state.players.players[playerIndex]];
-
-      // 群聊
-      const chatIds = [...new Set(selectedPlayers.map(player => player.chatGroup))];
-      const groupChats = this._store.state.session.groupChats.filter(group => chatIds.includes(group.id));
-      groupChats.forEach(group => {
-        const playerIds = group.players.map(player => player.id);
-        groups[group.id] = playerIds;
-      });
 
       selectedPlayers.forEach(player => {
         this._sendDirect(player.id, "syncPlayersStatus", {
           isSecretVoteless: player.isSecretVoteless,
-          groupChatPlayers: groups[player.chatGroup] === undefined ? [] : groups[player.chatGroup],
           isWraith: player.isWraith,
           isUsingWraith: player.isUsingWraith
         });
@@ -1347,11 +1232,6 @@ class LiveSession {
     // remove previous seat
     const oldIndex = players.findIndex(({ id }) => id === value);
     if (oldIndex >= 0 && oldIndex !== index) {
-      if (players[oldIndex].chatGroup != "") {
-        const player = players[oldIndex];
-        const chatId = player.chatGroup;
-        this._store.commit("session/removeGroupChatMember", {chatId, player});
-      }
       this._store.commit("players/update", {
         player: players[oldIndex],
         property: "id",
@@ -1367,13 +1247,6 @@ class LiveSession {
       //   property: "image",
       //   value: ""
       // });
-      if (players[oldIndex].isTalking === true) {
-        this._store.commit("players/update", {
-          player: players[oldIndex],
-          property: "isTalking",
-          value: false
-        });
-      }
       if (players[oldIndex].isWraith === true) {
         this._store.commit("players/update", {
           player: players[oldIndex],
@@ -1408,21 +1281,6 @@ class LiveSession {
     this._handlePing([true, value, 0]);
   }
 
-
-  /**
-   * Create a chat history for a playerID.
-   * @param index seat index (only created when seat claimed but not removed)
-   * @param value playerId to add
-   * @private
-   */
-  _createChatHistory([index]) {
-    if (index < 0) return;
-    const playerId = (this._store.state.players.players[index]).id;
-    if (playerId === "") return;
-    if (this._store.state.session.chatHistory[playerId] != undefined) return;
-    if (this._isSpectator && this._store.state.session.playerId != playerId) return;
-    this._store.commit("session/createChatHistory", playerId );
-  }
 
   /**
    * Distribute player roles to all seated players in a direct message.
@@ -1840,24 +1698,6 @@ class LiveSession {
   }
 
   /**
-   * Set talking status to true to enable glowing animation
-   * Send this update to all clients in the channel
-   */
-  setTalking(payload){
-    if (payload.seatNum < 0 || payload.seatNum >= this._store.state.players.players.length) return;
-    if (!this._store.state.players.players[payload.seatNum].id || this._store.state.players.players[payload.seatNum].id != this._store.state.session.playerId) return;
-    this._send("setTalking", payload);
-  }
-
-  /**
-   * Set talking status to true to enable glowing animation when received
-   */
-  _handleSetTalking(payload){
-    if (payload.seatNum < 0 || payload.seatNum >= this._store.state.players.players.length) return;
-    this._store.state.players.players[payload.seatNum].isTalking = payload.isTalking;
-  }
-
-  /**
    * Handle an incoming vote, but only if it is from ST or unlocked.
    * @param index
    * @param vote
@@ -1941,262 +1781,10 @@ class LiveSession {
   }
 
   /**
-   * Create a group chat. ST only
-   * @param chatId id of the chat group
-   * @param players players within each chat group
-   */
-  sendAddGroupChat({chatId, players, playerIds}) {
-    if (this._isSpectator) return;
-    if (!!playerIds && !players) return;
-
-    const allPlayersId = this._store.state.session.groupChats
-      .filter(group => group.id === chatId)[0].players
-      .map(player => player.id);
-    const newPlayersId = players.map(player => player.id);
-    const oldPlayersId = allPlayersId.filter(id => !newPlayersId.includes(id));
-    
-    newPlayersId.forEach(playerId => {
-      this._store.commit("session/addMessageQueue", {
-        type: "direct",
-        playerId,
-        command: "addGroupChat",
-        params: allPlayersId,
-        id: new Date().getTime()
-      });
-    });
-    oldPlayersId.forEach(playerId => {
-      this._store.commit("session/addMessageQueue", {
-        type: "direct",
-        playerId,
-        command: "addGroupChat",
-        params: newPlayersId,
-        id: new Date().getTime()
-      });
-    });
-  }
-
-  /**
-   * Remove a group chat. ST only
-   * @param playerIds all ids for them to remove group chat.
-   */
-  sendRemoveGroupChat({playerIds}) {
-    if (this._isSpectator) return;
-    if (!playerIds) return;
-    
-    playerIds.forEach(id => {
-      this._store.commit("session/addMessageQueue", {
-        type: "direct",
-        playerId: id,
-        command: "removeGroupChat",
-        // params: chatId, // temporarily removing chatId since every user has their own id
-        id: new Date().getTime()
-      });
-    });
-  }
-
-  /**
-   * Remove members from a group chat. ST only
-   * @param chatId id of the chat group
-   * @param player player within the chat group
-   */
-  sendRemoveGroupChatMember({chatId, player}) {
-    if (this._isSpectator) return;
-    
-    this._store.commit("session/addMessageQueue", {
-      type: "direct",
-      playerId: player.id,
-      command: "removeGroupChat",
-      // params: chatId, // temporarily removing chatId since every user has their own id
-      id: new Date().getTime()
-    });
-    
-    const index = this._store.state.session.groupChats.findIndex(group => group.id === chatId);
-    if (index === -1) return;
-    this._store.state.session.groupChats[index].players.forEach(member => {
-      if (member.id === player.id) return;
-      this._store.commit("session/addMessageQueue", {
-        type: "direct",
-        playerId: member.id,
-        command: "removeGroupChatMember",
-        params: player.id,
-        id: new Date().getTime()
-      });
-    });
-  }
-
-  /**
-   * Update group chat.
-   * @param payload
-   */
-  _handleChat({message, sendingPlayerId, receivingPlayerId}, feedback){
-    if (feedback) {
-      this._request("deleteMessage", this._store.state.session.playerId, ["direct", feedback]);
-      if (this._store.state.session.messageUniqueQueue[feedback]) return;
-      this._store.commit("session/checkUniqueMessage", feedback);
-    }
-    if (this._isSpectator && receivingPlayerId != this._store.state.session.playerId) return;
-    this._store.commit("session/updateChatReceived", {message, playerId: sendingPlayerId});
-    const num = 1;
-    if (!this._isSpectator){
-      this._store.commit("players/setPlayerMessage", {playerId: sendingPlayerId, num});
-    } else{
-      this._store.commit("session/setStMessage", num);
-    }
-
-    if (this._isSpectator) return;
-
-    const players = this._store.state.players.players;
-    const sendingPlayer = players.filter(player => player.id === sendingPlayerId);
-    if (sendingPlayer.length <= 0) return;
-    const chatId = sendingPlayer[0].chatGroup;
-
-    const wraiths = players.filter(player => player.isWraith && player.isUsingWraith && player.isAllowRole && !!player.id);
-    const sendingPlayerIndex = players.findIndex(player => player.id === sendingPlayerId);
-    const wraithMessage = `[亡魂][（${sendingPlayerIndex+1}号）${message}]`;
-    wraiths.forEach(player => {
-      if (!(player.id === sendingPlayerId || (player.chatGroup && player.chatGroup === chatId))) this._store.commit("session/updateChatSent", {message: wraithMessage, sendingPlayerId: this._store.state.session.playerId, receivingPlayerId: player.id});
-    });
-    // 处理暴露
-    const prob = this._store.state.session.isRole.wraith.prob;
-    const rand = Math.random();
-    if (rand < prob && wraiths.length > 0) {
-      const randIndex = Math.floor(Math.random() * wraiths.length);
-      const wraithSpotted = wraiths[randIndex];
-      const indexSpotted = players.findIndex(player => player.id === wraithSpotted.id);
-      const spottedMessage = `[亡魂][亡魂是（${indexSpotted+1}号）${players[indexSpotted].name}]`;
-      this._store.commit("session/updateChatSent", {message: spottedMessage, sendingPlayerId: this._store.state.session.playerId, receivingPlayerId: sendingPlayerId});
-      const indexExposed = players.findIndex(player => player.id === sendingPlayerId);
-      const exposedMessage = `[亡魂][你已被${indexExposed+1}号发现！！]`;
-      this._store.commit("session/updateChatSent", {message: exposedMessage, sendingPlayerId: this._store.state.session.playerId, receivingPlayerId: wraithSpotted.id});
-    }
-
-    if (chatId === "") return;
-
-    const groupChats = this._store.state.session.groupChats;
-    if (groupChats.length === 0) return;
-
-    const group = groupChats.filter(group => group.id === chatId)[0];
-    const sendPlayers = group.players
-      .map(player => player.id)
-      .filter(id => id != sendingPlayerId);
-    sendPlayers.forEach(id => {
-      this._store.commit("session/updateChatSent", {message, sendingPlayerId: this._store.state.session.playerId, receivingPlayerId: id});
-    });
-  }
-  
-  /**
-   * Create a chat group or add new members
-   * @param playerIds list of ids to add to the group chat.
-   */
-  _handleAddGroupChat(playerIds, feedback = false){
-    if (feedback) {
-      this._request("deleteMessage", this._store.state.session.playerId, ["direct", feedback]);
-      if (this._store.state.session.messageUniqueQueue[feedback]) return;
-      this._store.commit("session/checkUniqueMessage", feedback);
-    }
-    if (!this._isSpectator) return;
-
-    const groupChats = this._store.state.session.groupChats;
-    const names = this._store.state.players.players
-      .filter(player => playerIds.includes(player.id))
-      .map(player => {
-        return {
-          index: this._store.state.players.players.findIndex(player2 => player2.id === player.id), 
-          name: player.name
-        }
-      });
-    const sendingPlayerId = this._store.state.session.stId;
-    const receivingPlayerId = this._store.state.session.playerId;
-
-    if (groupChats.length === 0) {
-      let message = "[你已加入群聊！]";
-      this._handleChat({message, sendingPlayerId, receivingPlayerId}, null);
-
-      message = "[群聊中有";
-      for (let i=0; i<names.length; i++) {
-        message += `（${names[i].index+1}号）${names[i].name}`;
-        if (i<names.length-1) message += "、";
-      }
-      message += "]";
-      this._handleChat({message, sendingPlayerId, receivingPlayerId}, null);
-    } else {
-      let message = "[";
-      for (let i=0; i<names.length; i++) {
-        message += `（${names[i].index+1}号）${names[i].name}`;
-        if (i<names.length-1) message += "、";
-      }
-      message += "加入群聊！]";
-      this._handleChat({message, sendingPlayerId, receivingPlayerId}, null);
-    }
-
-    const chatId = groupChats.length === 0 ? Math.random().toString(36).substr(2) : groupChats[0].id;
-    const players = this._store.state.players.players.filter(player => {
-      return playerIds.includes(player.id);
-    });
-    this._store.commit("session/addGroupChat", {chatId, players});
-
-  }
-  
-  /**
-   * Exit the group chat
-   * @param chatId single group chat id to be removed from the list.
-   */
-  _handleRemoveGroupChat(feedback = false){
-    if (feedback) {
-      this._request("deleteMessage", this._store.state.session.playerId, ["direct", feedback]);
-      if (this._store.state.session.messageUniqueQueue[feedback]) return;
-      this._store.commit("session/checkUniqueMessage", feedback);
-    }
-    if (!this._isSpectator) return;
-
-    const groupChats = this._store.state.session.groupChats;
-    if (groupChats.length === 0) return;
-    
-    const sendingPlayerId = this._store.state.session.stId;
-    const receivingPlayerId = this._store.state.session.playerId;
-
-    const message = "[你已退出群聊！]";
-    this._handleChat({message, sendingPlayerId, receivingPlayerId}, null);
-
-    const chatId = groupChats[0].id;
-    this._store.commit("session/removeGroupChat", {chatId});
-
-  }
-  
-  /**
-   * Remove a member (not self) from the group chat
-   * @param playerId single id of player to be removed from the group.
-   */
-  _handleRemoveGroupChatMember(playerId, feedback = false){
-    if (feedback) {
-      this._request("deleteMessage", this._store.state.session.playerId, ["direct", feedback]);
-      if (this._store.state.session.messageUniqueQueue[feedback]) return;
-      this._store.commit("session/checkUniqueMessage", feedback);
-    }
-    if (!this._isSpectator) return;
-
-    const groupChats = this._store.state.session.groupChats;
-    if (groupChats.length === 0) return;
-    const player = groupChats[0].players.filter(player => {return player.id === playerId})[0];
-    const index = groupChats[0].players.findIndex(player2 => player2.id === playerId);
-    
-    const sendingPlayerId = this._store.state.session.stId;
-    const receivingPlayerId = this._store.state.session.playerId;
-
-    const message = `[（${index+1}号）${player.name}退出群聊！]`;
-    this._handleChat({message, sendingPlayerId, receivingPlayerId}, null);
-
-
-    const chatId = groupChats[0].id;
-    this._store.commit("session/removeGroupChatMember", {chatId, player});
-  }
-
-  /**
    * Sync seated player status.
    * @param isSecretVoteless boolean says if this player is secretly voteless.
-   * @param groupChat list of latest player ID in the group chat.
    */
-  _handleSyncPlayerStatus({isSecretVoteless, groupChatPlayers, isWraith, isUsingWraith}) {
+  _handleSyncPlayerStatus({isSecretVoteless, isWraith, isUsingWraith}) {
     if (!this._isSpectator) return;
     if (this._store.state.session.claimedSeat === -1) return;
 
@@ -2206,22 +1794,6 @@ class LiveSession {
         property: "isVoteless",
         value: isSecretVoteless
        });
-    }
-
-    const groupChats = this._store.state.session.groupChats;
-    if (groupChatPlayers.length > 0) {
-      if (groupChats.length > 0) {
-        groupChats[0].players.forEach(player => {
-          if (!groupChatPlayers.includes(player.id)) this._handleRemoveGroupChatMember(player.id);
-        });
-        const inGroupPlayers = groupChats[0].players.map(player => player.id);
-        const addPlayers = groupChatPlayers.filter(id => !inGroupPlayers.includes(id));
-        if (addPlayers.length > 0) this._handleAddGroupChat(addPlayers);
-      } else {
-        this._handleAddGroupChat(groupChatPlayers);
-      }
-    } else {
-      if (groupChats.length > 0) this._handleRemoveGroupChat();
     }
 
     this._store.commit("session/setIsRole", {
@@ -2289,8 +1861,7 @@ class LiveSession {
 
 class LiveLobby {
   constructor(store) {
-    this._wss = "wss://ws.botcgrimoire.top:443/lobby/";
-    // this._wss = "ws://localhost:8082/"; // uncomment if using local server with NODE_ENV=development
+    this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/lobby/`;
     this._socket = null;
     this._isSpectator = true;
     this._isAlive = true;
@@ -2420,9 +1991,6 @@ class LiveLobby {
     this._store.commit("session/setPlayerCount", 0);
     this._store.commit("session/setPing", 0);
     this._isSpectator = this._store.state.session.isSpectator;
-    if (this._store.state.session.claimedSeat >= 0) {
-      this._store.commit("session/setTalking", {seatNum: this._store.state.session.claimedSeat, isTalking: false});
-    }
     this._open();
   }
 
@@ -2587,21 +2155,6 @@ export default store => {
       case "players/empty":
         session.emptyPlayer(payload);
         break;
-      case "session/addGroupChat":
-        session.sendAddGroupChat(payload);
-        break;
-      case "session/removeGroupChat":
-        session.sendRemoveGroupChat(payload);
-        break;
-      case "session/removeGroupChatMember":
-        session.sendRemoveGroupChatMember(payload);
-        break;
-      case "session/addMessageQueue":
-        session._startSendQueue();
-        break;
-      case "session/deleteMessageQueue":
-        if (session._store.state.session.messageQueue.length <= 0) session._stopSendQueue();
-        break;
       case "session/setTimer":
         session.setTimer(payload);
         break;
@@ -2630,9 +2183,6 @@ export default store => {
       // case "session/setBootlegger":
       //   session.setBootlegger(payload);
       //   break;
-      case "session/setTalking":
-        session.setTalking(payload);
-        break;
       case "session/setIsRole":
         session.setIsRole(payload);
         break;

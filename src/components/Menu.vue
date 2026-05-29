@@ -1,20 +1,5 @@
 <template>
   <div id="controls">
-    <span v-if="!!session.sessionId && session.isSpectator && (!!session.isHostAllowed || !!session.isJoinAllowed)">
-      <font-awesome-icon icon="microphone" v-if="microphoneSetting === 'free' && listeningFrame"
-      @click="stopListening(microphoneSetting)"
-      />
-      <font-awesome-icon icon="microphone-slash" v-if="microphoneSetting === 'free' && !listeningFrame"
-      @click="startListening(microphoneSetting)"
-      />
-      <font-awesome-icon icon="keyboard" v-if="microphoneSetting === 'keyboard'" :style="keyboardIcon"/>
-      
-      <select v-show="!isHandHeld" id="microphone" v-model="microphoneSetting" @change="stopListening(microphoneSetting)">
-        <option value="free">自由发言</option>
-        <option value="keyboard">按f2发言</option>
-      </select>
-    </span>
-
     <span v-if="!!session.sessionId && (!session.isSpectator || !!session.isHostAllowed || !!session.isJoinAllowed)">
       <button v-if="!session.isSpectator && (!timing || session.timer <= 0)" @click="startTimer" class="timerButton">开始</button>
       <button v-if="!session.isSpectator && timing && session.timer > 0" @click="stopTimer" class="timerButton">停止</button>
@@ -82,10 +67,6 @@
               <template v-if="!grimoire.isNight">切换至夜晚</template>
               <template v-if="grimoire.isNight">切换至白天</template>
               <em>[S]</em>
-            </li>
-            <li @click="toggleModal('groupChat')" v-if="!session.isSpectator">
-              创建群聊（beta）
-              <em>[D]</em>
             </li>
             <li @click="toggleIsReview" v-if="!session.isSpectator">
               复盘视角
@@ -167,29 +148,6 @@
             </li>
             <li v-if="!session.isSpectator" @click="useOldRoleAsk">
               使用原角色能力
-            </li>
-            <li v-if="!!session.sessionId & session.isSpectator">
-              <div class="wrap">
-                <div @click="startEditingThreshold">
-                  <span>麦克风阈值</span>
-                  <span v-if="!isEditingThreshold">（{{ audioThresholdNumber }}）</span>
-                  <input v-else ref="audioInputNumber" type="number" v-model.number="audioThresholdNumber"
-                  class="input"
-                  @blur="stopEditingThreshold(false)"
-                  @keyup.esc="stopEditingThreshold(false)"
-                  @keyup.enter="stopEditingThreshold(true)"
-                  />
-                </div>
-                <input
-                  type="range"
-                  v-model.number="audioThresholdSlider"
-                  min="0"
-                  max="400"
-                  step="1"
-                  @input="syncAudioThresholdNumber(false)"
-                  @mouseup="syncAudioThresholdNumber(true)"
-                />
-              </div>
             </li>
             <li @click="toggleMuted">
               静音
@@ -322,35 +280,9 @@
               夜间顺序表
               <em>[N]</em>
             </li>
-            <li>
-              <a href="https://botcgrimoire.top/manual" target="_blank">使用说明参考</a>
-            </li>
-            <li @click="toggleModal('version')">
-              更新日志
-            </li>
-            <li @click="toggleModal('gameState')">
+            <li v-if="!session.isSpectator" @click="toggleModal('gameState')">
               游戏状态JSON
               <em><font-awesome-icon icon="file-code"/></em>
-            </li>
-            <!-- <li>
-              <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
-                Join Discord
-              </a>
-              <em>
-                <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
-                  <font-awesome-icon :icon="['fab', 'discord']" />
-                </a>
-              </em>
-            </li> -->
-            <li>
-              <a href="https://github.com/limpy01/townsquare" target="_blank">
-                源代码
-              </a>
-              <em>
-                <a href="https://github.com/limpy01/townsquare" target="_blank">
-                  <font-awesome-icon :icon="['fab', 'github']" />
-                </a>
-              </em>
             </li>
           </div>
         </template>
@@ -490,7 +422,6 @@
 
 <script>
 import { mapMutations, mapState } from "vuex";
-import { nextTick } from 'vue';
 
 export default {
   computed: {
@@ -505,17 +436,6 @@ export default {
       return {
         color: this.session.timer < 60 ? 'red' : 'white'
       }
-    },
-    keyboardIcon() {
-      return {
-        color: this.listeningFrame ? 'red' : 'white'
-      }
-    },
-    isHandHeld() {
-      const deviceType = navigator.userAgent.toLocaleLowerCase();
-      console.log(deviceType);
-      if (/mobile|android|touch|webos|iphone|ipod/i.test(deviceType)) return true;
-      return false;
     }
   },
   data() {
@@ -548,28 +468,8 @@ export default {
         lilmonsta: false,
         alchemist: false,
         lycanthrope: false
-      },
-      recognition: null,
-      microphoneSetting: "free",
-      // 语音检测
-      audioContext: null,
-      audioStream: null,
-      analyser: null,
-      source: null,
-      listeningFrame: null, // also in session.js for global reference
-      audioThresholdNumber: 150,
-      audioThresholdSlider: 150,
-      isEditingThreshold: false
+      }
     };
-  },
-  watch: {
-    'grimoire.audioThreshold': {
-      handler(val) {
-        this.audioThresholdNumber = val;
-        this.audioThresholdSlider = val;
-      },
-      immediate: true
-    }
   },
   methods: {
     async showInputModal({ inputType, inputModal, inputData }) {
@@ -978,19 +878,6 @@ export default {
           this.$store.commit("session/setIsReview", false);
         }
 
-        // close chat box
-        this.$store.commit("session/setChatOpen", false);
-
-        // exit group chat
-        this.session.groupChats.forEach(group => {
-          this.$store.commit("session/removeGroupChat", {chatId: group.id});
-        });
-
-        // clear messages
-        while (this.session.messageQueue.length > 0) {
-          this.$store.commit("session/deleteMessageQueue", 0);
-        }
-
         // reset wraith
         this.$store.commit("session/setIsRole", {
           role: 'wraith',
@@ -1184,110 +1071,12 @@ export default {
       this.$store.commit("session/stopTimer");
       this.timing = false;
     },
-    async initAudio() {
-      // Initialize audioContext and audioStream if not already done
-      if (!this.audioContext) {
-        this.audioContext = new AudioContext();
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        this.audioStream = stream;
-
-        this.source = this.audioContext.createMediaStreamSource(stream);
-        this.analyser = this.audioContext.createAnalyser();
-        this.analyser.fftSize = 256;
-        this.source.connect(this.analyser);
-      }
-    },
-    runAudioDetection() {
-      // Web Audio API 语音检测
-      const dataArray = new Uint8Array(this.analyser.frequencyBinCount);
-      // const SILENCE_THRESHOLD = 120; // Adjust as needed
-      const HUMAN_VOICE_RANGE = { min: 250, max: 400 }; // Adjust based on actual FFT resolution
-
-      // Check for microphone activity
-      const detectSpeechActivity = () => {
-        if (!this.analyser) return;
-        this.analyser.getByteFrequencyData(dataArray);
-
-        // Analyze frequency bins corresponding to the human voice range
-        const sampleRate = this.audioContext.sampleRate;
-        const binCount = this.analyser.frequencyBinCount;
-        const binSize = sampleRate / (2 * binCount);
-        let totalVolume = 0;
-        for (let i = 0; i < binCount; i++) {
-          const frequency = i * binSize;
-          if (frequency >= HUMAN_VOICE_RANGE.min && frequency <= HUMAN_VOICE_RANGE.max) {
-            totalVolume += dataArray[i];
-          }
-        }
-
-        if (totalVolume > this.grimoire.audioThreshold && !this.session.isTalking) {
-          if (!this.session.isTalking) {
-            this.$store.commit("session/setTalking", {seatNum:this.session.claimedSeat, isTalking: true});
-          }
-        } else if (totalVolume <= this.grimoire.audioThreshold && this.session.isTalking) {
-          if (this.session.isTalking) {
-            this.$store.commit("session/setTalking", {seatNum:this.session.claimedSeat, isTalking: false});
-          }
-        }
-
-        this.listeningFrame = requestAnimationFrame(detectSpeechActivity);
-        this.$store.commit("session/setListeningFrame", this.listeningFrame);
-      }
-
-      detectSpeechActivity();
-    },
-    startListening(mode) {
-      if (this.listeningFrame) return;
-      if (mode != this.microphoneSetting) return;
-      
-      this.initAudio().then(() => {
-        this.runAudioDetection();
-      })
-    },
-    stopListening(mode) {
-      if (!this.listeningFrame) return;
-      if (mode != this.microphoneSetting) return;
-
-      if (this.listeningFrame) {
-        cancelAnimationFrame(this.listeningFrame);
-        this.listeningFrame = null;
-        this.$store.commit("session/setListeningFrame", null);
-      }
-      this.$store.commit("session/setTalking", {seatNum:this.session.claimedSeat, isTalking: false});
-    },
-    startEditingThreshold() {
-      this.isEditingThreshold = true;
-      nextTick(() => {
-        if (this.$refs.audioInputNumber) {
-          this.$refs.audioInputNumber.focus();
-          this.$refs.audioInputNumber.select();
-        }
-      })
-    },
-    stopEditingThreshold(save) {
-      this.isEditingThreshold = false;
-      if (!save || !this.audioThresholdNumber) {
-        this.audioThresholdNumber = this.audioThresholdSlider;
-        return;
-      }
-
-      this.audioThresholdNumber = Math.max(0, Math.min(400, Math.round(this.audioThresholdNumber)));
-      this.syncAudioThresholdSlider(save);
-    },
-    syncAudioThresholdSlider(save) {
-      this.audioThresholdSlider = this.audioThresholdNumber;
-      if (save) this.$store.commit("setAudioThreshold", this.audioThresholdNumber);
-    },
-    syncAudioThresholdNumber(save) {
-      this.audioThresholdNumber = this.audioThresholdSlider;
-      if (save) this.$store.commit("setAudioThreshold", this.audioThresholdSlider);
-    },
     async clearLocalStorage() {
       const clear = await this.showInputModal({
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
-          name: ["确定清空所有内容吗？（将清除昵称头像和聊天记录等）"]
+          name: ["确定清空所有内容吗？（将清除昵称、头像等）"]
         }
       }).catch(() => {
         return null;
