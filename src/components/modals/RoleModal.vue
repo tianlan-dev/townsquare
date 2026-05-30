@@ -18,9 +18,9 @@
           (role.team == 'traveler' &&
             (!session.isSpectator || (isShowTraveler && playerIndex < 0)))
         "
-        :class="[role.team]"
         :key="role.id"
-        @click="setRole(role)"
+        @click.stop="setRole(role)"
+        :class="[role.team]"
         :style="tokenWidth"
       >
         <Token :role="role" />
@@ -40,7 +40,7 @@
         "
         :class="[role.team]"
         :key="role.id"
-        @click="setRole(role)"
+        @click.stop="setRole(role)"
         :style="tokenWidth"
       >
         <Token :role="role" />
@@ -51,7 +51,7 @@
         v-for="role in otherTravelers.values()"
         :class="[role.team]"
         :key="role.id"
-        @click="setRole(role)"
+        @click.stop="setRole(role)"
         :style="tokenWidth"
       >
         <Token :role="role" />

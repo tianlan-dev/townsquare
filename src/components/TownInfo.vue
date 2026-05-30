@@ -8,46 +8,12 @@
       }"
     ></div>
     <div class="bottom-right-panel">
-      <div
-        class="timer-controls"
-        v-if="
-          !!session.sessionId &&
-          (!session.isSpectator ||
-            !!session.isHostAllowed ||
-            !!session.isJoinAllowed)
-        "
-      >
-        <button
-          v-if="
-            !session.isSpectator &&
-            (!session.isTimerRunning || session.timer <= 0)
-          "
-          @click="startTimer"
-          class="timerButton"
-        >
-          开始
-        </button>
-        <button
-          v-if="
-            !session.isSpectator && session.isTimerRunning && session.timer > 0
-          "
-          @click="stopTimer"
-          class="timerButton"
-        >
-          停止
-        </button>
-        <span class="timer-text" @click="setTimer">
-          <span>计时 </span>
-          <span :style="lessThanOneMinute">{{ formattedTime }}</span>
-        </span>
-      </div>
       <ul class="info">
         <li v-if="players.length - teams.traveler < 5">请添加更多玩家！</li>
+        <li class="edition-name" v-if="!edition.isOfficial">
+          {{ edition.name }}
+        </li>
         <li>
-          <span class="meta" v-if="!edition.isOfficial">
-            {{ edition.name }}
-            {{ edition.author ? "by " + edition.author : "" }}
-          </span>
           <span>
             {{ players.length }}
             <font-awesome-icon class="players" icon="users" />
@@ -135,76 +101,25 @@ export default {
       };
     },
     editionLogo: function () {
-      if (
-        this.edition.logo &&
-        this.grimoire.isImageOptIn &&
-        this.isAllowedImageUrl(this.edition.logo)
-      ) {
+      if (this.edition.logo && this.shouldUseImageUrl(this.edition.logo)) {
         return this.edition.logo;
       }
       return require("../assets/editions/" + this.edition.id + ".png");
-    },
-    formattedTime() {
-      const minutes = Math.floor(this.session.timer / 60);
-      const seconds = Math.ceil(this.session.timer % 60);
-      return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-    },
-    lessThanOneMinute() {
-      return {
-        color: this.session.timer < 60 ? "red" : "white",
-      };
     },
     ...mapState(["edition", "grimoire", "session"]),
     ...mapState("players", ["players"]),
     ...mapGetters(["phaseInfo"]),
   },
   methods: {
-    async showInputModal({ inputType, inputModal, inputData }) {
-      return new Promise((resolve, reject) => {
-        this.$store.commit("session/setInputResolver", resolve);
-        this.$store.commit("session/setInputRejecter", reject);
-        this.$store.commit("session/setInputType", inputType);
-        this.$store.commit("session/setInputModal", inputModal);
-        this.$store.commit("session/setInputData", inputData);
-        this.$store.commit("toggleModal", "input");
-      });
-    },
-    async setTimer() {
-      if (this.session.isSpectator || !this.session.sessionId) return;
-
-      const input = await this.showInputModal({
-        inputType: "timer",
-        inputModal: "input",
-        inputData: {
-          name: ["输入时间（分）"],
-          length: 1,
-          placeholder: [""],
-        },
-      }).catch(() => {
-        return null;
-      });
-      if (input === null) return;
-
-      const time = input[0];
-      const timeNum = Number(time);
-      if (!timeNum || timeNum <= 0) return;
-      this.stopTimer();
-      this.startTimer(timeNum * 60);
-    },
-    startTimer(time = null) {
-      if (this.session.isSpectator) return;
-      if (typeof time != "number") time = this.session.timer;
-      this.$store.commit("session/startTimer", time);
-    },
-    stopTimer() {
-      if (this.session.isSpectator) return;
-      this.$store.commit("session/stopTimer");
-    },
-    isAllowedImageUrl(url) {
+    shouldUseImageUrl(url) {
+      if (!url || typeof url !== "string") return false;
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
       try {
-        return ["http:", "https:"].includes(
-          new URL(url, window.location.origin).protocol,
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin === window.location.origin) return true;
+        return (
+          this.grimoire.isImageOptIn &&
+          ["http:", "https:"].includes(parsed.protocol)
         );
       } catch (e) {
         return false;
@@ -222,7 +137,7 @@ export default {
   right: 10px;
   bottom: 10px;
   display: flex;
-  width: max-content;
+  width: fit-content;
   max-width: min(220px, calc(100vw - 20px));
   flex-direction: column;
   align-items: flex-end;
@@ -240,38 +155,9 @@ export default {
   }
 }
 
-.timer-controls {
-  box-sizing: border-box;
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 4px;
-  padding: 2px 5px;
-  background: rgba(0, 0, 0, 0.45);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.timer-text {
-  font-size: inherit;
-  white-space: nowrap;
-}
-
-.timerButton {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  border: 1px solid white;
-  color: white;
-  cursor: pointer;
-  font: inherit;
-  line-height: 1.1;
-  padding: 1px 5px;
-}
-
 .info {
   display: flex;
-  width: max-content;
+  width: fit-content;
   min-width: 0;
   max-width: 100%;
   padding: 6px 8px;
@@ -287,11 +173,11 @@ export default {
 
   li {
     font-weight: bold;
-    width: max-content;
+    width: fit-content;
     max-width: 100%;
     filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.7));
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     column-gap: 6px;
     row-gap: 1px;
@@ -308,11 +194,9 @@ export default {
       white-space: nowrap;
     }
 
-    .meta {
+    &.edition-name {
       display: block;
       text-align: right;
-      flex-basis: 100%;
-      width: 100%;
       max-width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -321,7 +205,7 @@ export default {
     }
 
     &.phase {
-      width: 100%;
+      width: fit-content;
     }
 
     svg {
@@ -356,10 +240,8 @@ export default {
 }
 
 @media screen and (max-width: 767.98px) {
-  .info li .meta {
-    white-space: normal;
-    overflow-wrap: anywhere;
-    line-height: 1.05;
+  .info li.edition-name {
+    max-width: min(170px, calc(100vw - 36px));
   }
 }
 

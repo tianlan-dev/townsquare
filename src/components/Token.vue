@@ -50,6 +50,8 @@
 <script>
 import { mapState } from "vuex";
 
+const STORYTELLER_AVATAR_VERSION = "20260529";
+
 export default {
   name: "Token",
   props: {
@@ -88,11 +90,16 @@ export default {
   },
   methods: {
     iconUrl(role) {
-      if (
-        role.image &&
-        this.grimoire.isImageOptIn &&
-        this.isAllowedImageUrl(role.image)
-      ) {
+      if (role.image && this.shouldUseImageUrl(role.image)) {
+        if (
+          role.id === "storyteller" &&
+          role.image.includes("default_storyteller.webp") &&
+          !role.image.includes("v=")
+        ) {
+          return `${role.image}${
+            role.image.includes("?") ? "&" : "?"
+          }v=${STORYTELLER_AVATAR_VERSION}`;
+        }
         return role.image;
       }
       return require(
@@ -101,11 +108,15 @@ export default {
           ".png",
       );
     },
-    isAllowedImageUrl(url) {
+    shouldUseImageUrl(url) {
+      if (!url || typeof url !== "string") return false;
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
       try {
-        return ["http:", "https:"].includes(
-          new URL(url, window.location.origin).protocol,
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin === window.location.origin) return true;
+        return (
+          this.grimoire.isImageOptIn &&
+          ["http:", "https:"].includes(parsed.protocol)
         );
       } catch (e) {
         return false;
@@ -120,6 +131,7 @@ export default {
 
 <style scoped lang="scss">
 .token {
+  position: relative;
   border-radius: 50%;
   width: 100%;
   // background: url("../assets/token.png") center center;
@@ -269,6 +281,12 @@ export default {
 
   &:hover .ability {
     opacity: 1;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .token:hover .ability {
+    opacity: 0;
   }
 }
 </style>

@@ -14,12 +14,12 @@
         <div>
           点击
           <span class="button" @click="hostSession()"> 创建房间 </span>
-          <b>[H]</b>开始说书。
+          开始说书。
         </div>
         <div>
           点击
           <span class="button" @click="joinSession()"> 加入房间 </span>
-          <b>[J]</b>进入已有的房间。
+          进入已有的房间。
         </div>
       </div>
       <div class="footer">
@@ -66,7 +66,7 @@ export default {
 // Intro
 .intro {
   text-align: center;
-  width: 50%;
+  width: min(760px, 72%);
   font-size: 120%;
   position: absolute;
   padding: 10px;
@@ -117,6 +117,20 @@ export default {
   .intro-lines {
     display: grid;
     gap: 0.35rem;
+
+    > div {
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .intro {
+    width: calc(100vw - 36px);
+
+    .intro-lines > div {
+      white-space: normal;
+    }
   }
 }
 </style>

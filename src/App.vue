@@ -7,20 +7,24 @@
       night: grimoire.isNight,
       static: grimoire.isStatic,
     }"
-    :style="{
-      backgroundImage: grimoire.background
-        ? `url('${grimoire.background}')`
-        : '',
-    }"
   >
-    <video
-      id="background"
-      v-if="grimoire.background && grimoire.background.match(/\.(mp4|webm)$/i)"
-      :src="grimoire.background"
-      autoplay
-      loop
-    ></video>
+    <div
+      v-for="(background, index) in phaseBackgrounds"
+      :key="background"
+      class="phase-background"
+      :class="{ active: index === phaseInfo.phase }"
+      :style="{ backgroundImage: `url('${background}')` }"
+    ></div>
     <div class="backdrop"></div>
+    <transition-group name="toast" tag="div" class="presence-notices">
+      <div
+        v-for="notification in notifications"
+        :key="notification.id"
+        class="presence-notice"
+      >
+        {{ notification.text }}
+      </div>
+    </transition-group>
     <transition name="blur">
       <Intro v-if="!players.length" @trigger="handleTrigger($event)"></Intro>
       <TownInfo v-if="players.length && !session.nomination"></TownInfo>
@@ -42,7 +46,7 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapGetters, mapState } from "vuex";
 import TownSquare from "./components/TownSquare";
 import TownInfo from "./components/TownInfo";
 import Menu from "./components/Menu";
@@ -58,6 +62,13 @@ import FabledModal from "@/components/modals/FabledModal";
 import VoteHistoryModal from "@/components/modals/VoteHistoryModal";
 import GameStateModal from "@/components/modals/GameStateModal";
 import InputModal from "@/components/modals/InputModal.vue";
+
+const phaseBackgrounds = [
+  "/backgrounds/night.png",
+  "/backgrounds/dawn.png",
+  "/backgrounds/day.png",
+  "/backgrounds/dusk.png",
+];
 
 export default {
   components: {
@@ -78,10 +89,19 @@ export default {
     Gradients,
   },
   computed: {
-    ...mapState(["grimoire", "session", "modals"]),
+    ...mapState(["grimoire", "session", "modals", "notifications"]),
     ...mapState("players", ["players"]),
+    ...mapGetters(["phaseInfo"]),
+    phaseBackgrounds() {
+      return phaseBackgrounds;
+    },
   },
   async mounted() {
+    phaseBackgrounds.forEach((background) => {
+      const image = new Image();
+      image.src = background;
+    });
+
     // Original socket.js logic is now here
     const pathname = window.location.pathname;
     const sessionId = window.location.hash.substr(1);
@@ -248,7 +268,8 @@ html,
 body {
   font-size: 1.2em;
   line-height: 1.4;
-  background: url("assets/background.jpg") center center;
+  background-color: #07111d;
+  background-position: center center;
   background-size: cover;
   color: white;
   height: 100%;
@@ -294,8 +315,6 @@ ul {
 
 #app {
   height: 100%;
-  background-position: center center;
-  background-size: cover;
   display: flex;
   align-items: center;
   align-content: center;
@@ -308,6 +327,68 @@ ul {
     transition: none !important;
     animation: none !important;
   }
+}
+
+.phase-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 900ms ease-in-out;
+  transform: translateZ(0);
+  will-change: opacity;
+}
+
+.phase-background.active {
+  opacity: 1;
+}
+
+.presence-notices {
+  position: fixed;
+  top: max(14px, env(safe-area-inset-top));
+  left: 50%;
+  z-index: 1000;
+  width: min(520px, calc(100vw - 24px));
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.presence-notice {
+  position: relative;
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  background: rgba(15, 18, 22, 0.88);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  line-height: 1.35;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(6px);
+}
+
+.toast-enter-active,
+.toast-leave-active {
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.toast-enter,
+.toast-leave-to {
+  opacity: 0;
+  transform: translateY(-12px);
+}
+
+.toast-move {
+  transition: transform 220ms ease;
 }
 
 .blur-enter-active,
@@ -406,14 +487,6 @@ ul {
       inset 0 1px 1px #9c0000,
       0 0 10px #000;
   }
-}
-
-/* video background */
-video#background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* Night phase backdrop */

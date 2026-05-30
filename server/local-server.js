@@ -18,7 +18,31 @@ fs.mkdirSync(avatarDir, { recursive: true });
 
 const app = express();
 const staticRoot = fs.existsSync(path.join(distDir, "index.html")) ? distDir : publicDir;
-const scriptsDir = path.join(staticRoot, "scripts");
+const publicScriptsDir = path.join(publicDir, "scripts");
+const staticScriptsDir = path.join(staticRoot, "scripts");
+const scriptsDir = fs.existsSync(publicScriptsDir) ? publicScriptsDir : staticScriptsDir;
+
+function appendVersion(url, filePath) {
+  if (!url || !filePath || !fs.existsSync(filePath)) return url;
+  const separator = url.includes("?") ? "&" : "?";
+  return `${url}${separator}v=${fs.statSync(filePath).mtimeMs.toString(36)}`;
+}
+
+function scriptAssetUrl(value, scriptUrl, scriptFilePath) {
+  if (!value || typeof value !== "string") return "";
+  if (value.startsWith("data:") || value.startsWith("blob:")) return value;
+  try {
+    const parsed = new URL(value, `http://townsquare.local${scriptUrl}`);
+    if (parsed.origin === "http://townsquare.local") {
+      const url = `${parsed.pathname}${parsed.search}${parsed.hash}`;
+      const assetPath = path.resolve(path.dirname(scriptFilePath), `.${parsed.pathname.replace(/^\/scripts/, "")}`);
+      return appendVersion(url, assetPath);
+    }
+    return parsed.href;
+  } catch (e) {
+    return "";
+  }
+}
 
 function listScripts() {
   if (!fs.existsSync(scriptsDir)) return [];
@@ -27,14 +51,16 @@ function listScripts() {
     .sort()
     .map(file => {
       try {
-        const script = JSON.parse(fs.readFileSync(path.join(scriptsDir, file), "utf8"));
+        const scriptFilePath = path.join(scriptsDir, file);
+        const script = JSON.parse(fs.readFileSync(scriptFilePath, "utf8"));
         const meta = Array.isArray(script)
           ? script.find(item => item && item.id === "_meta") || {}
           : {};
+        const url = `/scripts/${file}`;
         return {
           name: meta.name || file.replace(/\.json$/, ""),
-          url: `/scripts/${file}`,
-          logo: meta.logo || ""
+          url,
+          logo: scriptAssetUrl(meta.logo, url, scriptFilePath)
         };
       } catch (e) {
         return null;
@@ -53,6 +79,9 @@ app.get("/scripts/index.json", (req, res) => {
 
 app.use("/avatars", express.static(avatarDir, { fallthrough: true }));
 app.use("/avatars", express.static(path.join(staticRoot, "avatars"), { fallthrough: true }));
+app.use("/backgrounds", express.static(path.join(publicDir, "backgrounds"), { fallthrough: true }));
+app.use("/backgrounds", express.static(path.join(staticRoot, "backgrounds"), { fallthrough: true }));
+app.use("/scripts", express.static(publicScriptsDir, { fallthrough: true }));
 app.use(express.static(staticRoot));
 app.get("*", (req, res) => {
   res.sendFile(path.join(staticRoot, "index.html"));
@@ -68,7 +97,10 @@ function roomFor(channel) {
     rooms.set(channel, {
       channel,
       host: null,
-      clients: new Map()
+      clients: new Map(),
+      presences: new Map(),
+      leaveTimers: new Map(),
+      hostLeaveTimer: null
     });
   }
   return rooms.get(channel);
@@ -86,6 +118,92 @@ function broadcastRoom(room, sender, command, params, feedback = false) {
   sockets.forEach(socket => {
     if (socket !== sender) send(socket, command, params, feedback);
   });
+}
+
+function broadcastRoomAll(room, command, params, feedback = false) {
+  const sockets = new Set(room.clients.values());
+  if (room.host) sockets.add(room.host);
+  sockets.forEach(socket => send(socket, command, params, feedback));
+}
+
+function displayName(name) {
+  const value = String(name || "").trim();
+  return value ? value.substr(0, 40) : "玩家";
+}
+
+function announcePresence(room, socket, action, name) {
+  const playerName = displayName(name);
+  socket.displayName = playerName;
+  broadcastRoomAll(room, "presenceNotice", {
+    action,
+    name: playerName
+  });
+}
+
+function registerPresence(room, socket, name) {
+  const playerName = displayName(name);
+  const pendingLeave = room.leaveTimers.get(socket.playerId);
+  socket.hasJoinedPresence = true;
+  socket.hasLeftPresence = false;
+  socket.displayName = playerName;
+
+  if (pendingLeave) {
+    clearTimeout(pendingLeave);
+    room.leaveTimers.delete(socket.playerId);
+    room.presences.set(socket.playerId, playerName);
+    return;
+  }
+
+  if (room.presences.has(socket.playerId)) {
+    room.presences.set(socket.playerId, playerName);
+    return;
+  }
+
+  room.presences.set(socket.playerId, playerName);
+  announcePresence(room, socket, "join", playerName);
+}
+
+function updatePresence(room, socket, name) {
+  if (!room.presences.has(socket.playerId)) return;
+  const playerName = displayName(name);
+  socket.displayName = playerName;
+  room.presences.set(socket.playerId, playerName);
+}
+
+function unregisterPresence(room, socket, name) {
+  const playerId = socket.playerId;
+  const playerName = name
+    ? displayName(name)
+    : socket.displayName || room.presences.get(playerId);
+  const pendingLeave = room.leaveTimers.get(playerId);
+  if (pendingLeave) {
+    clearTimeout(pendingLeave);
+    room.leaveTimers.delete(playerId);
+  }
+  if (!room.presences.has(playerId)) return;
+  room.presences.delete(playerId);
+  socket.hasJoinedPresence = false;
+  socket.hasLeftPresence = true;
+  if (room.host && room.host.readyState === WebSocket.OPEN) {
+    announcePresence(room, socket, "leave", playerName);
+  }
+}
+
+function schedulePresenceLeave(room, socket) {
+  const playerId = socket.playerId;
+  const playerName = socket.displayName;
+  const timer = setTimeout(() => {
+    room.leaveTimers.delete(playerId);
+    if (room.clients.has(playerId)) return;
+    if (!room.presences.has(playerId)) return;
+    room.presences.delete(playerId);
+    socket.hasJoinedPresence = false;
+    socket.hasLeftPresence = true;
+    if (room.host && room.host.readyState === WebSocket.OPEN) {
+      announcePresence(room, socket, "leave", playerName);
+    }
+  }, 5000);
+  room.leaveTimers.set(playerId, timer);
 }
 
 function activeRooms() {
@@ -115,6 +233,21 @@ function closeRoomClients(room) {
       }
     }, 50);
   });
+}
+
+function scheduleHostLeave(room, socket) {
+  if (room.hostLeaveTimer) clearTimeout(room.hostLeaveTimer);
+  room.hostLeaveTimer = setTimeout(() => {
+    if (room.host && room.host.readyState === WebSocket.OPEN) return;
+    room.hostLeaveTimer = null;
+    room.host = null;
+    removeRoomFromLobby(room.channel);
+    closeRoomClients(room);
+    room.leaveTimers.forEach(timer => clearTimeout(timer));
+    room.leaveTimers.clear();
+    room.presences.clear();
+    if (room.clients.size === 0) rooms.delete(room.channel);
+  }, 5000);
 }
 
 function safePlayerId(playerId) {
@@ -161,7 +294,11 @@ function handleRequest(room, socket, requests) {
     const currentHostOpen = room.host && room.host.readyState === WebSocket.OPEN;
     const allowed = !currentHostOpen || room.host === socket;
     if (allowed) {
-      const wasInactive = !currentHostOpen;
+      const wasInactive = !currentHostOpen && !room.hostLeaveTimer;
+      if (room.hostLeaveTimer) {
+        clearTimeout(room.hostLeaveTimer);
+        room.hostLeaveTimer = null;
+      }
       room.host = socket;
       socket.isHost = true;
       if (wasInactive) addRoomToLobby(room.channel);
@@ -188,6 +325,21 @@ function handleSessionMessage(socket, raw) {
   }
 
   switch (command) {
+    case "presenceJoin":
+      if (!socket.isHost && !socket.hasJoinedPresence) {
+        registerPresence(room, socket, params && params.name);
+      }
+      break;
+    case "presenceUpdate":
+      if (!socket.isHost && socket.hasJoinedPresence) {
+        updatePresence(room, socket, params && params.name);
+      }
+      break;
+    case "presenceLeave":
+      if (!socket.isHost && socket.hasJoinedPresence) {
+        unregisterPresence(room, socket, params && params.name);
+      }
+      break;
     case "direct":
       routeDirect(room, socket, params, feedback);
       break;
@@ -221,23 +373,33 @@ function attachSession(socket, pathname) {
   socket.playerId = playerId;
   socket.room = room;
   socket.isHost = false;
+  socket.hasJoinedPresence = false;
+  socket.hasLeftPresence = false;
+  socket.displayName = "";
 
   room.clients.set(playerId, socket);
   if (wantsHost && (!room.host || room.host.readyState !== WebSocket.OPEN)) {
+    const wasInactive = !room.hostLeaveTimer;
+    if (room.hostLeaveTimer) {
+      clearTimeout(room.hostLeaveTimer);
+      room.hostLeaveTimer = null;
+    }
     room.host = socket;
     socket.isHost = true;
-    addRoomToLobby(channel);
+    if (wasInactive) addRoomToLobby(channel);
   }
 
   socket.on("message", data => handleSessionMessage(socket, data.toString()));
   socket.on("close", () => {
-    if (room.clients.get(playerId) === socket) room.clients.delete(playerId);
+    const wasCurrentClient = room.clients.get(playerId) === socket;
+    if (wasCurrentClient) room.clients.delete(playerId);
     if (room.host === socket) {
       room.host = null;
-      removeRoomFromLobby(channel);
-      closeRoomClients(room);
+      scheduleHostLeave(room, socket);
+    } else if (wasCurrentClient && socket.hasJoinedPresence) {
+      schedulePresenceLeave(room, socket);
     }
-    if (!room.host && room.clients.size === 0) rooms.delete(channel);
+    if (!room.host && !room.hostLeaveTimer && room.clients.size === 0) rooms.delete(channel);
   });
 }
 

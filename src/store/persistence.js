@@ -8,9 +8,7 @@ module.exports = (store) => {
     (document.title = `染·钟楼谜团${isPublic ? "" : ""}`);
 
   // initialize data
-  if (localStorage.getItem("background")) {
-    store.commit("setBackground", localStorage.background);
-  }
+  localStorage.removeItem("background");
   if (localStorage.getItem("muted")) {
     store.commit("toggleMuted", true);
   }
@@ -197,13 +195,6 @@ module.exports = (store) => {
         }
         updatePagetitle(state.grimoire.isPublic);
         break;
-      case "setBackground":
-        if (payload) {
-          localStorage.setItem("background", payload);
-        } else {
-          localStorage.removeItem("background");
-        }
-        break;
       case "toggleMuted":
         if (state.grimoire.isMuted) {
           localStorage.setItem("muted", 1);
@@ -218,6 +209,7 @@ module.exports = (store) => {
           localStorage.removeItem("static");
         }
         break;
+      case "setImageOptIn":
       case "toggleImageOptIn":
         if (state.grimoire.isImageOptIn) {
           localStorage.setItem("imageOptIn", 1);
@@ -237,6 +229,9 @@ module.exports = (store) => {
         break;
       case "setEdition":
         localStorage.setItem("edition", JSON.stringify(payload));
+        if (payload.id === "custom" && payload.imageSource !== "server") {
+          localStorage.removeItem("imageOptIn");
+        }
         if (state.edition.isOfficial) {
           localStorage.removeItem("roles");
         }

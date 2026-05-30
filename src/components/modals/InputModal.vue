@@ -129,8 +129,6 @@ export default {
         return;
       }
       switch (this.session.inputType) {
-        case "background":
-          break;
         case "changeName":
           {
             if (

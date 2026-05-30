@@ -12,6 +12,11 @@ import jinxesJSON from "../hatred.json";
 Vue.use(Vuex);
 
 // helper functions
+const isDesktopViewport = () =>
+  typeof window !== "undefined" &&
+  window.matchMedia &&
+  window.matchMedia("(min-width: 768px)").matches;
+
 const getRolesByEdition = (edition = editionJSON[0]) => {
   if (edition.id === "all") {
     return new Map(
@@ -139,13 +144,12 @@ export default new Vuex.Store({
       isNight: true,
       isNightOrder: true,
       isPublic: false,
-      isMenuOpen: false,
+      isMenuOpen: isDesktopViewport(),
       isStatic: false,
       isMuted: false,
-      isImageOptIn: true,
+      isImageOptIn: false,
       isForwardEvilInfo: false,
       zoom: -2,
-      background: "",
     },
     modals: {
       edition: false,
@@ -181,6 +185,7 @@ export default new Vuex.Store({
     },
     firstNight: [],
     otherNight: [],
+    notifications: [],
   },
   getters: {
     /**
@@ -222,9 +227,11 @@ export default new Vuex.Store({
   },
   mutations: {
     setZoom: set("zoom"),
-    setBackground: set("background"),
     toggleMuted: toggle("isMuted"),
     toggleMenu: toggle("isMenuOpen"),
+    setMenuOpen({ grimoire }, isOpen) {
+      grimoire.isMenuOpen = isOpen;
+    },
     toggleNightOrder: toggle("isNightOrder"),
     toggleStatic: toggle("isStatic"),
     setPhaseIndex({ grimoire }, phaseIndex) {
@@ -256,8 +263,17 @@ export default new Vuex.Store({
       }
     },
     toggleGrimoire: toggle("isPublic"),
+    setImageOptIn: set("isImageOptIn"),
     toggleImageOptIn: toggle("isImageOptIn"),
     toggleForwardEvilInfo: toggle("isForwardEvilInfo"),
+    addNotification(state, notification) {
+      state.notifications.push(notification);
+    },
+    removeNotification(state, id) {
+      state.notifications = state.notifications.filter(
+        (notification) => notification.id !== id,
+      );
+    },
     toggleModal({ modals }, name) {
       if (modals.input) this.state.session.isTyping = false;
       if (name) {
@@ -395,6 +411,9 @@ export default new Vuex.Store({
           this.commit("players/setFabled", { fabled });
       } else {
         state.edition = edition;
+        if (edition.id === "custom" && edition.imageSource !== "server") {
+          state.grimoire.isImageOptIn = false;
+        }
       }
       // 为官方角色增加原顺序选项
       if (state.roles.get("professor")) {

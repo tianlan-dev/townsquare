@@ -236,6 +236,9 @@ class LiveSession {
       case "alertPopup":
         this._alertPopup(params);
         break;
+      case "presenceNotice":
+        this._handlePresenceNotice(params);
+        break;
       case "allowHost":
         this._handleAllowHost(params);
         break;
@@ -453,6 +456,9 @@ class LiveSession {
     clearTimeout(this._store.state.session.hostTimeout);
     if (this._socket) {
       if (this._isSpectator) {
+        this._send("presenceLeave", {
+          name: this._store.state.session.playerName,
+        });
         this._sendDirect("host", "bye", this._store.state.session.playerId);
       }
       this._socket.close(1000);
@@ -474,6 +480,25 @@ class LiveSession {
       return null;
     });
     return;
+  }
+
+  _handlePresenceNotice({ action, name } = {}) {
+    const playerName = String(name || "玩家").trim() || "玩家";
+    const id = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    if (action === "join") {
+      this._store.commit("addNotification", {
+        id,
+        text: `${playerName}加入房间`,
+      });
+    } else if (action === "leave") {
+      this._store.commit("addNotification", {
+        id,
+        text: `${playerName}退出房间`,
+      });
+    } else {
+      return;
+    }
+    setTimeout(() => this._store.commit("removeNotification", id), 3500);
   }
 
   async showInputModal({ inputType, inputModal, inputData }) {
@@ -573,6 +598,9 @@ class LiveSession {
     this._store.commit("session/setIsJoinAllowed", allow ? allow : null);
 
     if (allow) {
+      this._send("presenceJoin", {
+        name: this._store.state.session.playerName,
+      });
       this._sendDirect(
         "host",
         "getGamestate",
@@ -1101,6 +1129,13 @@ class LiveSession {
     } else {
       // just update the player otherwise
       this._store.commit("players/update", { player, property, value });
+      if (
+        property === "name" &&
+        player.id === this._store.state.session.playerId
+      ) {
+        this._store.commit("session/setPlayerName", value);
+        this._send("presenceUpdate", { name: value });
+      }
     }
   }
 
@@ -1336,6 +1371,9 @@ class LiveSession {
     if (index >= 0 && players[index].id && players[index].id !== value) return;
     // remove previous seat
     const oldIndex = players.findIndex(({ id }) => id === value);
+    const existingSeatPlayer = oldIndex >= 0 ? players[oldIndex] : null;
+    const seatName = existingSeatPlayer ? existingSeatPlayer.name : name;
+    const seatImage = existingSeatPlayer ? existingSeatPlayer.image : image;
     if (oldIndex >= 0 && oldIndex !== index) {
       this._store.commit("players/update", {
         player: players[oldIndex],
@@ -1381,12 +1419,12 @@ class LiveSession {
       this._store.commit("players/update", {
         player,
         property: "image",
-        value: image,
+        value: seatImage,
       });
       this._store.commit("players/update", {
         player,
         property: "name",
-        value: name,
+        value: seatName,
       });
       this._store.commit("players/update", { player, property: "id", value });
     }

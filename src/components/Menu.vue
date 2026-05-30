@@ -31,49 +31,155 @@
       <!-- <font-awesome-icon icon="broadcast-tower" />
       {{ session.playerCount }} -->
     </span>
-    <div class="menu" :class="{ open: grimoire.isMenuOpen }">
-      <font-awesome-icon icon="cog" @click="toggleMenu" />
+    <div
+      class="top-timer-controls"
+      v-if="
+        !!session.sessionId &&
+        (!session.isSpectator ||
+          !!session.isHostAllowed ||
+          !!session.isJoinAllowed)
+      "
+    >
+      <button
+        v-if="
+          !session.isSpectator &&
+          (!session.isTimerRunning || session.timer <= 0)
+        "
+        @click="startTimer"
+        class="timerButton"
+      >
+        开始
+      </button>
+      <button
+        v-if="
+          !session.isSpectator && session.isTimerRunning && session.timer > 0
+        "
+        @click="stopTimer"
+        class="timerButton"
+      >
+        停止
+      </button>
+      <span class="timer-text" @click="setTimer">
+        <span>计时 </span>
+        <span :style="lessThanOneMinute">{{ formattedTime }}</span>
+      </span>
+    </div>
+    <div class="menu" :class="{ open: grimoire.isMenuOpen }" @click.stop>
+      <font-awesome-icon icon="cog" @click.stop="toggleMenu" />
       <ul>
         <li class="tabs" :class="tab">
-          <font-awesome-icon icon="book-open" @click="tab = 'grimoire'" />
-          <font-awesome-icon icon="broadcast-tower" @click="tab = 'session'" />
           <font-awesome-icon
-            icon="users"
-            v-if="!session.isSpectator"
-            @click="tab = 'players'"
+            icon="book-open"
+            v-if="!session.isSpectator || !session.sessionId"
+            @click="tab = 'session'"
           />
           <font-awesome-icon icon="theater-masks" @click="tab = 'characters'" />
+          <font-awesome-icon
+            icon="users"
+            v-if="!session.isSpectator || session.sessionId"
+            @click="tab = 'players'"
+          />
           <font-awesome-icon icon="question" @click="tab = 'help'" />
         </li>
 
-        <template v-if="tab === 'grimoire'">
-          <!-- Grimoire -->
-          <li class="headline">魔典</li>
+        <template
+          v-if="
+            tab === 'session' && (!session.isSpectator || !session.sessionId)
+          "
+        >
+          <!-- Session -->
+          <li class="headline" v-if="session.sessionId">
+            {{ session.isSpectator ? "玩家" : "说书人" }}
+          </li>
+          <li class="headline" v-else>联机</li>
           <div class="options">
-            <li @click="toggleGrimoire" v-if="players.length">
-              <template v-if="!grimoire.isPublic">隐藏</template>
-              <template v-if="grimoire.isPublic">显示</template>
-              <em>[G]</em>
+            <template v-if="!session.sessionId">
+              <li @click="hostSession">创建房间</li>
+              <li @click="joinSession">加入房间</li>
+            </template>
+            <template v-else>
+              <li v-if="session.ping">
+                与{{ session.isSpectator ? "说书人" : "玩家" }}延迟
+                <em>{{ session.ping }}ms</em>
+              </li>
+              <li
+                @click="previousPhase"
+                v-if="!session.isSpectator"
+                :class="{ disabled: grimoire.phaseIndex <= 0 }"
+              >
+                后退至前一阶段
+              </li>
+              <li @click="nextPhase" v-if="!session.isSpectator">
+                前进到下一阶段
+              </li>
+              <li @click="toggleIsReview" v-if="!session.isSpectator">
+                复盘视角
+                <em>
+                  <font-awesome-icon
+                    :icon="[
+                      'fas',
+                      session.isReview ? 'check-square' : 'square',
+                    ]"
+                  />
+                </em>
+              </li>
+              <li v-if="!session.isSpectator" @click="distributeAsk">
+                发送角色
+              </li>
+              <li v-if="!session.isSpectator" @click="distributeTypeAsk">
+                发送角色类型
+              </li>
+              <li v-if="!session.isSpectator" @click="distributeBluffsAsk">
+                发送伪装身份
+              </li>
+              <li v-if="!session.isSpectator" @click="distributeGrimoireAsk">
+                发送魔典
+              </li>
+              <li
+                v-if="session.voteHistory.length || !session.isSpectator"
+                @click="toggleModal('voteHistory')"
+              >
+                投票记录
+              </li>
+            </template>
+          </div>
+        </template>
+
+        <template v-if="tab === 'players'">
+          <!-- Users -->
+          <li class="headline">房间和玩家</li>
+          <div class="options">
+            <li v-if="session.sessionId" @click="leaveSession">
+              {{ session.isSpectator ? "退出房间" : "解散房间" }}
             </li>
             <li
-              @click="previousPhase"
-              v-if="!session.isSpectator"
-              :class="{ disabled: grimoire.phaseIndex <= 0 }"
+              @click="addPlayer"
+              v-if="!session.isSpectator && players.length < 20"
             >
-              后退至前一阶段
-              <em>{{ previousPhaseLabel }}</em>
+              添加座位<!--<em>[A]</em>-->
             </li>
-            <li @click="nextPhase" v-if="!session.isSpectator">
-              前进到下一阶段
-              <em>{{ nextPhaseLabel }}</em>
+            <li
+              @click="randomizeSeatings"
+              v-if="!session.isSpectator && players.length > 2"
+            >
+              随机座位
             </li>
-            <li @click="toggleIsReview" v-if="!session.isSpectator">
-              复盘视角
-              <em>
-                <font-awesome-icon
-                  :icon="['fas', session.isReview ? 'check-square' : 'square']"
-                />
-              </em>
+            <li
+              @click="clearPlayers"
+              v-if="!session.isSpectator && players.length"
+            >
+              移除全部座位
+            </li>
+          </div>
+        </template>
+
+        <template v-if="tab === 'characters'">
+          <!-- Characters -->
+          <li class="headline">剧本和角色</li>
+          <div class="options">
+            <li @click="toggleGrimoire" v-if="players.length">
+              <template v-if="!grimoire.isPublic">隐藏角色</template>
+              <template v-if="grimoire.isPublic">显示</template>
             </li>
             <li @click="toggleNightOrder" v-if="players.length">
               夜间顺序
@@ -86,160 +192,8 @@
                 />
               </em>
             </li>
-            <li v-if="players.length">
-              缩放
-              <em>
-                <font-awesome-icon
-                  @click="setZoom(grimoire.zoom - 1)"
-                  icon="search-minus"
-                />
-                {{ Math.round(100 + grimoire.zoom * 10) }}%
-                <font-awesome-icon
-                  @click="setZoom(grimoire.zoom + 1)"
-                  icon="search-plus"
-                />
-              </em>
-            </li>
-            <li @click="setBackground">
-              背景图
-              <em><font-awesome-icon icon="image" /></em>
-            </li>
-            <li @click="$emit('trigger', ['uploadAvatar'])">
-              上传头像
-              <em><font-awesome-icon icon="user" /></em>
-            </li>
-            <li @click="changeName">
-              设置昵称
-              <em><font-awesome-icon icon="user-edit" /></em>
-            </li>
-            <li v-if="!edition.isOfficial" @click="imageOptIn">
-              <small>允许自定义图标</small>
-              <em
-                ><font-awesome-icon
-                  :icon="[
-                    'fas',
-                    grimoire.isImageOptIn ? 'check-square' : 'square',
-                  ]"
-              /></em>
-            </li>
-            <!-- <li v-if="!edition.isOfficial" @click="toggleForwardEvilInfo">
-              <small>提前邪恶互认和信息</small>
-              <em
-                ><font-awesome-icon
-                  :icon="[
-                    'fas',
-                    grimoire.isForwardEvilInfo ? 'check-square' : 'square'
-                  ]"
-              /></em>
-            </li> -->
-            <li @click="toggleStatic">
-              关闭动画
-              <em
-                ><font-awesome-icon
-                  :icon="[
-                    'fas',
-                    grimoire.isStatic ? 'check-square' : 'square',
-                  ]"
-              /></em>
-            </li>
-            <li v-if="!session.isSpectator" @click="useOldOrderAsk">
-              使用原夜间顺序
-            </li>
-            <li v-if="!session.isSpectator" @click="useOldRoleAsk">
-              使用原角色能力
-            </li>
-            <li @click="toggleMuted">
-              静音
-              <em
-                ><font-awesome-icon
-                  :icon="[
-                    'fas',
-                    grimoire.isMuted ? 'volume-mute' : 'volume-up',
-                  ]"
-              /></em>
-            </li>
-            <li @click="clearLocalStorage">
-              清空储存
-              <em><font-awesome-icon icon="trash-alt" /></em>
-            </li>
-          </div>
-        </template>
-
-        <template v-if="tab === 'session'">
-          <!-- Session -->
-          <li class="headline" v-if="session.sessionId">
-            {{ session.isSpectator ? "玩家" : "说书人" }}
-          </li>
-          <li class="headline" v-else>联机</li>
-          <div class="options">
-            <template v-if="!session.sessionId">
-              <li @click="hostSession">创建房间<em>[H]</em></li>
-              <li @click="joinSession">加入房间<em>[J]</em></li>
-            </template>
-            <template v-else>
-              <li v-if="session.ping">
-                与{{ session.isSpectator ? "说书人" : "玩家" }}延迟
-                <em>{{ session.ping }}ms</em>
-              </li>
-              <li @click="copySessionUrl">
-                复制链接
-                <em><font-awesome-icon icon="copy" /></em>
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeAsk">
-                发送角色
-                <em><font-awesome-icon icon="theater-masks" /></em>
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeTypeAsk">
-                发送角色类型
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeBluffsAsk">
-                发送伪装身份
-                <em><font-awesome-icon icon="hat-wizard" /></em>
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeGrimoireAsk">
-                发送魔典
-                <em><font-awesome-icon icon="book" /></em>
-              </li>
-              <li
-                v-if="session.voteHistory.length || !session.isSpectator"
-                @click="toggleModal('voteHistory')"
-              >
-                投票记录<em>[V]</em>
-              </li>
-              <li @click="leaveSession">
-                <span v-if="session.isSpectator">退出房间</span>
-                <span v-if="!session.isSpectator">解散房间</span>
-                <em>{{ session.sessionId }}</em>
-              </li>
-            </template>
-          </div>
-        </template>
-
-        <template v-if="tab === 'players' && !session.isSpectator">
-          <!-- Users -->
-          <li class="headline">玩家</li>
-          <div class="options">
-            <li @click="addPlayer" v-if="players.length < 20">
-              添加座位<!--<em>[A]</em>-->
-            </li>
-            <li @click="randomizeSeatings" v-if="players.length > 2">
-              随机座位
-              <em><font-awesome-icon icon="dice" /></em>
-            </li>
-            <li @click="clearPlayers" v-if="players.length">
-              移除全部
-              <em><font-awesome-icon icon="trash-alt" /></em>
-            </li>
-          </div>
-        </template>
-
-        <template v-if="tab === 'characters'">
-          <!-- Characters -->
-          <li class="headline">角色</li>
-          <div class="options">
             <li v-if="!session.isSpectator" @click="toggleModal('edition')">
               选择剧本
-              <em>[E]</em>
             </li>
             <li v-if="edition.id === 'all'" @click="selectEditionsAsk()">
               <small> 选择全角色合集范围 </small>
@@ -249,37 +203,73 @@
               v-if="!session.isSpectator && players.length > 4"
             >
               配置角色
-              <em>[C]</em>
-            </li>
-            <li v-if="!session.isSpectator" @click="toggleModal('fabled')">
-              添加传奇角色
-              <em>[F]</em>
             </li>
             <li v-if="!session.isSpectator" @click="customiseBootlegger">
               <small> 自定义私货商人 </small>
             </li>
-            <li @click="clearRoles" v-if="players.length">
-              移除全部
-              <em><font-awesome-icon icon="trash-alt" /></em>
+            <li @click="toggleModal('reference')">角色技能表</li>
+            <li @click="toggleModal('nightOrder')">夜间顺序表</li>
+            <li v-if="!session.isSpectator" @click="useOldOrderAsk">
+              使用原夜间顺序
             </li>
+            <li v-if="!session.isSpectator" @click="useOldRoleAsk">
+              使用原角色能力
+            </li>
+            <li @click="clearRoles" v-if="players.length">重置全部角色</li>
           </div>
         </template>
 
         <template v-if="tab === 'help'">
           <!-- Help -->
           <li class="headline">帮助</li>
-          <div>
-            <li @click="toggleModal('reference')">
-              角色技能表
-              <em>[R]</em>
+          <div class="options">
+            <li v-if="session.sessionId" @click="copySessionUrl">复制链接</li>
+            <li v-if="players.length">
+              缩放
+              <em>
+                <font-awesome-icon
+                  @click.stop="setZoom(grimoire.zoom - 1)"
+                  icon="search-minus"
+                />
+                {{ Math.round(100 + grimoire.zoom * 10) }}%
+                <font-awesome-icon
+                  @click.stop="setZoom(grimoire.zoom + 1)"
+                  icon="search-plus"
+                />
+              </em>
             </li>
-            <li @click="toggleModal('nightOrder')">
-              夜间顺序表
-              <em>[N]</em>
+            <li @click="$emit('trigger', ['uploadAvatar'])">上传头像</li>
+            <li @click="changeName">设置昵称</li>
+            <li v-if="isExternalCustomEdition" @click="imageOptIn">
+              <small>允许自定义图标</small>
+              <em>
+                <font-awesome-icon
+                  :icon="[
+                    'fas',
+                    grimoire.isImageOptIn ? 'check-square' : 'square',
+                  ]"
+                />
+              </em>
             </li>
+            <li @click="toggleStatic">
+              关闭动画
+              <em>
+                <font-awesome-icon
+                  :icon="['fas', grimoire.isStatic ? 'check-square' : 'square']"
+                />
+              </em>
+            </li>
+            <li @click="toggleMuted">
+              静音
+              <em>
+                <font-awesome-icon
+                  :icon="['fas', grimoire.isMuted ? 'check-square' : 'square']"
+                />
+              </em>
+            </li>
+            <li @click="clearLocalStorage">清空储存</li>
             <li v-if="!session.isSpectator" @click="toggleModal('gameState')">
               游戏状态JSON
-              <em><font-awesome-icon icon="file-code" /></em>
             </li>
           </div>
         </template>
@@ -492,10 +482,15 @@ export default {
         color: this.session.timer < 60 ? "red" : "white",
       };
     },
+    isExternalCustomEdition() {
+      return (
+        this.edition.id === "custom" && this.edition.imageSource !== "server"
+      );
+    },
   },
   data() {
     return {
-      tab: "grimoire",
+      tab: "session",
       timing: false,
       distributing: false,
       distributingBluffs: false,
@@ -526,7 +521,36 @@ export default {
       },
     };
   },
+  watch: {
+    "session.sessionId"() {
+      this.ensureVisibleTab();
+    },
+    "session.isSpectator"() {
+      this.ensureVisibleTab();
+    },
+  },
+  mounted() {
+    this.ensureVisibleTab();
+    document.addEventListener("click", this.closeMenu);
+  },
+  beforeDestroy() {
+    document.removeEventListener("click", this.closeMenu);
+  },
   methods: {
+    ensureVisibleTab() {
+      if (
+        this.tab === "session" &&
+        this.session.isSpectator &&
+        this.session.sessionId
+      ) {
+        this.tab = "characters";
+      }
+    },
+    closeMenu() {
+      if (this.grimoire.isMenuOpen) {
+        this.setMenuOpen(false);
+      }
+    },
     async showInputModal({ inputType, inputModal, inputData }) {
       return new Promise((resolve, reject) => {
         this.$store.commit("session/setInputResolver", resolve);
@@ -538,23 +562,6 @@ export default {
 
         this.$store.commit("toggleModal", "input");
       });
-    },
-    async setBackground() {
-      const input = await this.showInputModal({
-        inputType: "background",
-        inputModal: "input",
-        inputData: {
-          name: ["输入自定义背景图URL"],
-          length: 1,
-          placeholder: [""],
-        },
-      }).catch(() => {
-        return null;
-      });
-      if (input === null) return;
-
-      const background = input[0];
-      this.$store.commit("setBackground", background);
     },
     async changeName() {
       const input = await this.showInputModal({
@@ -1096,7 +1103,6 @@ export default {
 
       if (!this.session.isReview && confirm === true) {
         this.$store.commit("session/setIsReview", !this.session.isReview);
-        this.$store.dispatch("players/realivePlayers");
       } else if (this.session.isReview) {
         this.$store.commit("session/setIsReview", false);
       }
@@ -1196,6 +1202,8 @@ export default {
     ...mapMutations([
       "toggleGrimoire",
       "toggleMenu",
+      "setMenuOpen",
+      "setImageOptIn",
       "toggleImageOptIn",
       "toggleForwardEvilInfo",
       "toggleMuted",
@@ -1388,10 +1396,9 @@ export default {
             border-right: 0;
           }
         }
-        &.grimoire .fa-book-open,
+        &.session .fa-book-open,
         &.players .fa-users,
         &.characters .fa-theater-masks,
-        &.session .fa-broadcast-tower,
         &.help .fa-question {
           background: linear-gradient(
             to bottom,
@@ -1437,14 +1444,43 @@ export default {
   }
 }
 
+.top-timer-controls {
+  position: absolute;
+  top: 7px;
+  right: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  width: max-content;
+  max-width: calc(100vw - 92px);
+  padding: 3px 6px;
+  box-sizing: border-box;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-family: "Roboto Condensed", Arial, "Noto Sans", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: clamp(12px, 1.2vw, 14px);
+  line-height: 1.15;
+  cursor: pointer;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.timer-text {
+  font-size: inherit;
+}
+
 .timerButton {
-  // opacity: 0.5;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px 5px 5px 5px;
-  right: 8px;
+  border-radius: 5px;
   border: 1px solid white;
   color: white;
   cursor: pointer;
+  font: inherit;
+  line-height: 1.1;
+  padding: 1px 5px;
 }
 
 .dialog {

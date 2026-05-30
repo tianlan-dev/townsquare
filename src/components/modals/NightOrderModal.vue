@@ -203,11 +203,7 @@ export default {
   },
   methods: {
     iconUrl(role) {
-      if (
-        role.image &&
-        this.grimoire.isImageOptIn &&
-        this.isAllowedImageUrl(role.image)
-      ) {
+      if (role.image && this.shouldUseImageUrl(role.image)) {
         return role.image;
       }
       return require(
@@ -216,11 +212,15 @@ export default {
           ".png",
       );
     },
-    isAllowedImageUrl(url) {
+    shouldUseImageUrl(url) {
+      if (!url || typeof url !== "string") return false;
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
       try {
-        return ["http:", "https:"].includes(
-          new URL(url, window.location.origin).protocol,
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin === window.location.origin) return true;
+        return (
+          this.grimoire.isImageOptIn &&
+          ["http:", "https:"].includes(parsed.protocol)
         );
       } catch (e) {
         return false;

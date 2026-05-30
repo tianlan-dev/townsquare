@@ -15,6 +15,8 @@ const NEWPLAYER = {
   pronouns: "",
 };
 
+const STORYTELLER_AVATAR = "default_storyteller.webp?v=20260529";
+
 const state = () => ({
   players: [],
   fabled: [],
@@ -282,7 +284,7 @@ const mutations = {
     if (!stImage)
       stImage =
         this.state.session.playerAvatar === "default.webp"
-          ? "default_storyteller.webp"
+          ? STORYTELLER_AVATAR
           : this.state.session.playerAvatar;
     if (!stName) stName = this.state.session.playerName;
     if (index !== undefined) {

@@ -18,6 +18,8 @@
         v-for="(player, index) in players"
         :key="index"
         :player="player"
+        :is-active-menu="activePlayerMenu === index"
+        @menu-open="activePlayerMenu = index"
         @trigger="handleTrigger(index, $event)"
         :class="{
           from: Math.max(swap, move, nominate) === index,
@@ -82,7 +84,7 @@
             v-for="(role, index) in fabled"
             v-show="index === 0 || isFabledOpen"
             :key="index"
-            @click="removeFabled(index)"
+            @click.stop="removeFabled(index)"
             :style="floatingZoom"
           >
             <div
@@ -136,7 +138,7 @@
           <li
             v-for="index in bluffSize"
             :key="index"
-            @click="openRoleModal(index * -1)"
+            @click.stop="openRoleModal(index * -1)"
             :style="isBluffsOpen ? floatingZoom : ''"
           >
             <Token :role="bluffs[index - 1]"></Token>
@@ -222,6 +224,7 @@ export default {
   data() {
     return {
       selectedPlayer: 0,
+      activePlayerMenu: -1,
       bluffSize: 3,
       swap: -1,
       move: -1,
@@ -252,9 +255,11 @@ export default {
   },
   mounted() {
     window.addEventListener("resize", this.handleResize);
+    document.addEventListener("click", this.closePlayerMenu);
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.handleResize);
+    document.removeEventListener("click", this.closePlayerMenu);
   },
   methods: {
     toggleBluffs() {
@@ -273,9 +278,11 @@ export default {
     removeFabled(index) {
       if (this.session.isSpectator) {
         return;
-      } else {
-        this.$store.commit("players/setFabled", { index });
       }
+      this.$store.commit("players/setFabled", { index });
+    },
+    closePlayerMenu() {
+      this.activePlayerMenu = -1;
     },
     handleTrigger(playerIndex, [method, params]) {
       if (typeof this[method] === "function") {
@@ -580,7 +587,6 @@ export default {
       .life,
       .token,
       .shroud,
-      .death-toggle,
       .night-order,
       .seat {
         animation-delay: ($i - 1) * 50ms;
@@ -618,7 +624,7 @@ export default {
   box-sizing: border-box;
   width: max-content;
   max-width: min(440px, calc(100vw - 20px));
-  overflow: hidden;
+  overflow: visible;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   border: 2px solid black;
@@ -639,11 +645,11 @@ export default {
     flex: 1 1 auto;
     min-width: 0;
     padding: 3px 8px;
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.62);
+    border: 1px solid rgba(255, 255, 255, 0.22);
     border-bottom: 0;
     border-radius: 6px 6px 0 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.22);
     font: inherit;
     font-size: 70%;
     line-height: 1.1;
@@ -653,9 +659,10 @@ export default {
   }
 
   .role-tabs button.active {
-    background: rgba(255, 255, 255, 0.16);
-    border-color: rgba(255, 255, 255, 0.75);
-    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.25);
+    color: white;
+    background: rgba(0, 0, 0, 0.72);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 -2px 8px rgba(255, 255, 255, 0.15);
   }
 
   .panel-body {
@@ -711,6 +718,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: visible;
     li {
       margin: 0 0.25%;
       display: inline-block;
@@ -745,7 +753,7 @@ export default {
   #townsquare > .role-side-panel ul {
     max-width: 100%;
     justify-content: flex-start;
-    overflow-x: auto;
+    overflow: visible;
   }
 
   #townsquare > .role-side-panel h3 {

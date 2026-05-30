@@ -159,7 +159,7 @@ export default {
         reader.addEventListener("load", async () => {
           try {
             const roles = JSON.parse(reader.result);
-            this.parseRoles(roles);
+            this.parseRoles(roles, "", "external");
             this.parseStates(roles);
           } catch (e) {
             await this.showInputModal({
@@ -233,7 +233,11 @@ export default {
       if (res && res.json) {
         try {
           const script = await res.json();
-          this.parseRoles(script);
+          this.parseRoles(
+            script,
+            scriptUrl,
+            this.isServerScriptUrl(scriptUrl) ? "server" : "external",
+          );
           this.parseStates(script);
         } catch (e) {
           await this.showInputModal({
@@ -253,7 +257,7 @@ export default {
       const text = await navigator.clipboard.readText();
       try {
         const roles = JSON.parse(text);
-        this.parseRoles(roles);
+        this.parseRoles(roles, "", "external");
         this.parseStates(roles);
       } catch (e) {
         await this.showInputModal({
@@ -268,7 +272,7 @@ export default {
         return;
       }
     },
-    parseRoles(roles) {
+    parseRoles(roles, sourceUrl = "", imageSource = "external") {
       if (!roles || !roles.length) return;
       roles = roles.map((role) =>
         typeof role === "string" ? { id: role } : role,
@@ -290,12 +294,15 @@ export default {
           });
         }
       }
-      roles = this.sanitizeImageUrls(roles);
-      meta = this.sanitizeImageUrls([meta])[0];
+      roles = this.sanitizeImageUrls(roles, sourceUrl);
+      meta = this.sanitizeImageUrls([meta], sourceUrl)[0];
+      if (imageSource === "external") {
+        this.$store.commit("setImageOptIn", false);
+      }
       this.$store.commit("setCustomRoles", roles);
       this.$store.commit(
         "setEdition",
-        Object.assign({}, meta, { id: "custom" }),
+        Object.assign({}, meta, { id: "custom", imageSource }),
       );
       // check for fabled and set those too, if present
       if (roles.some((role) => this.$store.state.fabled.has(role.id || role))) {
@@ -324,19 +331,44 @@ export default {
         return "";
       }
     },
-    sanitizeImageUrls(items) {
+    isServerScriptUrl(url) {
+      try {
+        const parsed = new URL(url, window.location.origin);
+        return (
+          parsed.origin === window.location.origin &&
+          parsed.pathname.startsWith("/scripts/")
+        );
+      } catch (e) {
+        return false;
+      }
+    },
+    resolveImageUrl(image, sourceUrl = "") {
+      if (!image || typeof image !== "string") return "";
+      if (image.startsWith("data:") || image.startsWith("blob:")) return image;
+      try {
+        const baseUrl = sourceUrl
+          ? new URL(sourceUrl, window.location.origin).href
+          : window.location.origin;
+        return new URL(image, baseUrl).href;
+      } catch (e) {
+        return "";
+      }
+    },
+    sanitizeImageUrls(items, sourceUrl = "") {
       return items.map((item) => {
         if (!item || typeof item !== "object") return item;
         const image = item.image || item.logo;
         if (!image || typeof image !== "string") return item;
         if (image.startsWith("data:") || image.startsWith("blob:")) return item;
-        let parsed;
-        try {
-          parsed = new URL(image, window.location.origin);
-        } catch (e) {
-          return item;
+        const parsed = this.resolveImageUrl(image, sourceUrl);
+        if (!parsed) return item;
+        const protocol = new URL(parsed).protocol;
+        if (["http:", "https:"].includes(protocol)) {
+          const cleanItem = Object.assign({}, item);
+          if (item.image) cleanItem.image = parsed;
+          if (item.logo) cleanItem.logo = parsed;
+          return cleanItem;
         }
-        if (["http:", "https:"].includes(parsed.protocol)) return item;
         const cleanItem = Object.assign({}, item);
         delete cleanItem.image;
         delete cleanItem.logo;
@@ -406,7 +438,7 @@ export default {
     scriptBackground(script) {
       return {
         backgroundImage: script.logo
-          ? `url(${script.logo})`
+          ? `url("${script.logo}")`
           : `url(${require("../../assets/editions/custom.png")})`,
       };
     },
@@ -445,7 +477,7 @@ ul.editions .edition {
   text-align: center;
   padding-top: 15%;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: 82% auto;
   background-repeat: no-repeat;
   height: 200px;
   width: 250px;

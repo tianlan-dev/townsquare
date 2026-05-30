@@ -13,6 +13,7 @@ module.exports = {
   productionSourceMap: false,
   configureWebpack: {
     performance: {
+      hints: false,
       maxAssetSize: 1400 * 1024,
       maxEntrypointSize: 2200 * 1024,
     },

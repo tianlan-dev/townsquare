@@ -5,7 +5,7 @@
       <li
         v-for="role in fabled"
         :key="role.id"
-        @click="setFabled(role)"
+        @click.stop="setFabled(role)"
         :style="tokenWidth"
       >
         <Token :role="role" />

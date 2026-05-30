@@ -16,7 +16,7 @@
           class="icon"
           :style="{
             backgroundImage: `url(${
-              reminder.image && grimoire.isImageOptIn
+              shouldUseImageUrl(reminder.image)
                 ? reminder.image
                 : require(
                     '../../assets/icons/' +
@@ -109,6 +109,20 @@ export default {
     ...mapState("players", ["players"]),
   },
   methods: {
+    shouldUseImageUrl(url) {
+      if (!url || typeof url !== "string") return false;
+      if (url.startsWith("data:") || url.startsWith("blob:")) return true;
+      try {
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin === window.location.origin) return true;
+        return (
+          this.grimoire.isImageOptIn &&
+          ["http:", "https:"].includes(parsed.protocol)
+        );
+      } catch (e) {
+        return false;
+      }
+    },
     async showInputModal({ inputType, inputModal, inputData }) {
       return new Promise((resolve, reject) => {
         this.$store.commit("session/setInputResolver", resolve);

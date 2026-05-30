@@ -197,7 +197,11 @@
       <div class="marked">
         <font-awesome-icon icon="skull" />
       </div>
-      <div class="name" @click="checkOverTop()" :class="{ active: isMenuOpen }">
+      <div
+        class="name"
+        @click.stop="checkOverTop()"
+        :class="{ active: isMenuOpen }"
+      >
         <span>{{ index + 1 }}.{{ player.name || "空座位" }}</span>
       </div>
 
@@ -292,7 +296,7 @@
           class="icon"
           :style="{
             backgroundImage: `url(${
-              reminder.image && grimoire.isImageOptIn
+              shouldUseImageUrl(reminder.image)
                 ? reminder.image
                 : require(
                     '../assets/icons/' +
@@ -330,6 +334,10 @@ export default {
     player: {
       type: Object,
       required: true,
+    },
+    isActiveMenu: {
+      type: Boolean,
+      default: false,
     },
   },
   computed: {
@@ -416,6 +424,11 @@ export default {
       },
       immediate: true,
     },
+    isActiveMenu(value) {
+      if (!value && this.isMenuOpen) {
+        this.isMenuOpen = false;
+      }
+    },
     "player.id": {
       handler() {
         this.$nextTick(() => {
@@ -425,6 +438,20 @@ export default {
     },
   },
   methods: {
+    shouldUseImageUrl(url) {
+      if (!url || typeof url !== "string") return false;
+      if (url.startsWith("data:") || url.startsWith("blob:")) return true;
+      try {
+        const parsed = new URL(url, window.location.origin);
+        if (parsed.origin === window.location.origin) return true;
+        return (
+          this.grimoire.isImageOptIn &&
+          ["http:", "https:"].includes(parsed.protocol)
+        );
+      } catch (e) {
+        return false;
+      }
+    },
     avatarSrc(image) {
       const filename = String(image || "default.webp")
         .split("/")
@@ -569,6 +596,7 @@ export default {
     async checkOverTop(toggle = true) {
       if (toggle) this.isMenuOpen = !this.isMenuOpen;
       if (!this.isMenuOpen) return;
+      this.$emit("menu-open");
 
       await this.$nextTick();
       const position = this.$refs.playerMenu.getBoundingClientRect();
