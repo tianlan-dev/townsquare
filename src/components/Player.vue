@@ -358,7 +358,7 @@ export default {
       const sections = [];
       if (this.player.role.ability) {
         sections.push({
-          label: "角色技能描述",
+          label: "",
           text: this.player.role.ability,
         });
       }

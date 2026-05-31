@@ -13,6 +13,20 @@
       preload="auto"
       ref="countdownAudio"
     ></audio>
+    <button
+      v-if="players.length"
+      type="button"
+      class="murder-scene"
+      :class="{
+        active: murderScene.hasBlood,
+        armed: canToggleMurderScene,
+      }"
+      :tabindex="canToggleMurderScene ? 0 : -1"
+      :aria-label="murderScene.hasBlood ? '取消夜晚血迹' : '标记夜晚死亡'"
+      @click.stop="toggleMurderScene"
+    >
+      <span v-if="murderScene.hasBlood" class="blood-pool"></span>
+    </button>
     <ul class="circle" :class="['size-' + players.length]" :style="orientation">
       <Player
         v-for="(player, index) in players"
@@ -189,6 +203,20 @@ export default {
     hasRolePanel: function () {
       return this.hasFabledPanel || this.hasBluffsPanel;
     },
+    murderScene: function () {
+      return (
+        this.grimoire.murderScene || {
+          hasBlood: false,
+        }
+      );
+    },
+    canToggleMurderScene: function () {
+      return (
+        this.players.length > 0 &&
+        !this.session.isSpectator &&
+        this.phaseInfo.isNight
+      );
+    },
     activeRolePanel: function () {
       if (this.rolePanel === "fabled" && this.hasFabledPanel) return "fabled";
       if (this.rolePanel === "bluffs" && this.hasBluffsPanel) return "bluffs";
@@ -277,7 +305,7 @@ export default {
       const sections = [];
       if (role.ability) {
         sections.push({
-          label: "角色技能描述",
+          label: "",
           text: role.ability,
         });
       }
@@ -300,6 +328,10 @@ export default {
       if (this.session.isSpectator) return;
       this.$store.commit("toggleModal", "fabled");
     },
+    toggleMurderScene() {
+      if (!this.canToggleMurderScene) return;
+      this.$store.commit("toggleMurderScene");
+    },
     removeFabled(index) {
       if (this.session.isSpectator) {
         return;
@@ -320,6 +352,7 @@ export default {
     },
     claimSeat(playerIndex) {
       if (!this.session.isSpectator) return;
+      if (!this.session.isStorytellerOnline) return;
       if (this.session.playerId === this.players[playerIndex].id) {
         this.$store.commit("session/claimSeat", -1);
       } else {
@@ -484,7 +517,7 @@ export default {
         this.$store.commit("players/update", {
           player,
           property: "name",
-          value: "说书人",
+          value: this.session.playerName || "说书人",
         });
         this.$store.commit("players/update", {
           player,
@@ -524,6 +557,39 @@ export default {
   justify-content: center;
   flex-direction: row;
   position: relative;
+}
+
+.murder-scene {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(130px, 24vmin, 260px);
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  appearance: none;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 8;
+
+  &.armed {
+    cursor: crosshair;
+    pointer-events: auto;
+  }
+}
+
+.blood-pool {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 164%;
+  height: 116%;
+  background: url("../assets/blood-splatter.png") center / contain no-repeat;
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.48));
+  opacity: 0.96;
+  transform: translate(-50%, -50%) rotate(-7deg);
 }
 
 .circle {

@@ -214,6 +214,9 @@ export default {
     },
     canVote: function () {
       if (!this.player) return false;
+      if (this.session.isSpectator && !this.session.isStorytellerOnline) {
+        return false;
+      }
       if (this.player.isVoteless && this.nominee.role.team !== "traveler")
         return false;
       const session = this.session;

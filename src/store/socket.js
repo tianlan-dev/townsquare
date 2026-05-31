@@ -72,6 +72,8 @@ class LiveSession {
 
         this._store.commit("session/setSessionId", "");
         this._store.commit("session/setSpectator", false);
+        this._store.commit("session/setStorytellerName", "");
+        this._store.commit("session/setStorytellerOnline", false);
         this._store.commit("session/setIsHostAllowed", null);
         this._store.commit("session/setIsJoinAllowed", null);
         // clear seats and return to intro
@@ -328,6 +330,12 @@ class LiveSession {
       case "stId":
         this._updateStId(params);
         break;
+      case "storytellerName":
+        this._updateStorytellerName(params);
+        break;
+      case "storytellerOnline":
+        this._updateStorytellerOnline(params);
+        break;
       case "roomClosed":
         this._handleRoomClosed(params);
         break;
@@ -394,6 +402,10 @@ class LiveSession {
       case "phaseIndex":
         if (!this._isSpectator) return;
         this._store.commit("setPhaseIndex", params);
+        break;
+      case "murderScene":
+        if (!this._isSpectator) return;
+        this._store.commit("setMurderScene", params);
         break;
       case "isVoteHistoryAllowed":
         if (!this._isSpectator) return;
@@ -814,6 +826,8 @@ class LiveSession {
     this._store.commit("players/clear", true);
     this._store.commit("session/setSessionId", "");
     this._store.commit("session/setSpectator", false);
+    this._store.commit("session/setStorytellerName", "");
+    this._store.commit("session/setStorytellerOnline", false);
     this._store.commit("session/setIsJoinAllowed", null);
     this._pendingJoinHasPassword = false;
   }
@@ -843,6 +857,8 @@ class LiveSession {
     if (!this._isSpectator) return;
     this._store.commit("session/setSessionId", "");
     this._store.commit("session/setSpectator", false);
+    this._store.commit("session/setStorytellerName", "");
+    this._store.commit("session/setStorytellerOnline", false);
     this._store.commit("setPhaseIndex", 0);
     this._store.commit("session/setIsHostAllowed", null);
     this._store.commit("session/setIsJoinAllowed", null);
@@ -908,6 +924,9 @@ class LiveSession {
         gamestate: this._gamestate,
         phaseIndex: grimoire.phaseIndex,
         isNight: grimoire.isNight,
+        murderScene: grimoire.murderScene,
+        storytellerName: session.playerName,
+        isStorytellerOnline: true,
         isVoteHistoryAllowed: session.isVoteHistoryAllowed,
         isSecretVote: session.isSecretVote,
         isUseOldOrder: session.isUseOldOrder,
@@ -964,6 +983,9 @@ class LiveSession {
       isLightweight,
       phaseIndex,
       isNight,
+      murderScene,
+      storytellerName,
+      isStorytellerOnline,
       isVoteHistoryAllowed,
       isSecretVote,
       isUseOldOrder,
@@ -1039,6 +1061,15 @@ class LiveSession {
       }
     });
     if (!isLightweight) {
+      if (storytellerName !== undefined) {
+        this._store.commit("session/setStorytellerName", storytellerName);
+      }
+      if (isStorytellerOnline !== undefined) {
+        this._store.commit("session/setStorytellerOnline", isStorytellerOnline);
+      }
+      if (murderScene !== undefined) {
+        this._store.commit("setMurderScene", murderScene);
+      }
       if (phaseIndex !== undefined) {
         this._store.commit("setPhaseIndex", phaseIndex);
       } else {
@@ -1079,6 +1110,21 @@ class LiveSession {
     if (!this._isSpectator) return;
     // this._store.state.session.stId = data;
     this._store.commit("session/setStId", data);
+  }
+
+  sendStorytellerName() {
+    if (this._isSpectator) return;
+    this._send("storytellerName", this._store.state.session.playerName);
+  }
+
+  _updateStorytellerName(name) {
+    if (!this._isSpectator) return;
+    this._store.commit("session/setStorytellerName", name || "");
+  }
+
+  _updateStorytellerOnline(isOnline) {
+    if (!this._isSpectator) return;
+    this._store.commit("session/setStorytellerOnline", !!isOnline);
   }
 
   /**
@@ -1557,6 +1603,7 @@ class LiveSession {
    */
   claimSeat(seat) {
     if (!this._isSpectator) return;
+    if (!this._store.state.session.isStorytellerOnline) return;
     const players = this._store.state.players.players;
     if (
       players.length > seat &&
@@ -1957,6 +2004,11 @@ class LiveSession {
     this._send("isNight", this._store.state.grimoire.isNight);
   }
 
+  setMurderScene() {
+    if (this._isSpectator) return;
+    this._send("murderScene", this._store.state.grimoire.murderScene);
+  }
+
   /**
    * Send the isVoteHistoryAllowed state. ST only
    */
@@ -2003,6 +2055,9 @@ class LiveSession {
    * @param sync Flag whether to sync this vote with others or not
    */
   vote([index]) {
+    if (this._isSpectator && !this._store.state.session.isStorytellerOnline) {
+      return;
+    }
     const player = this._store.state.players.players[index];
     if (
       this._store.state.session.playerId === player.id ||
@@ -2545,8 +2600,16 @@ export default (store) => {
       case "previousPhase":
         session.setPhaseIndex();
         break;
+      case "session/setPlayerName":
+        session.sendHostHeartbeat();
+        session.sendStorytellerName();
+        break;
       case "toggleNight":
         session.setPhaseIndex();
+        break;
+      case "toggleMurderScene":
+      case "setMurderScene":
+        session.setMurderScene();
         break;
       case "setEdition":
         session.sendEdition();

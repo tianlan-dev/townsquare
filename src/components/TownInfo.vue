@@ -134,6 +134,7 @@ export default {
       return this.session.sessionId || "未加入房间";
     },
     storytellerName() {
+      if (this.session.storytellerName) return this.session.storytellerName;
       const storyteller = this.players.find((player) => player.id === "host");
       if (storyteller && storyteller.name) return storyteller.name;
       if (!this.session.isSpectator) return this.session.playerName || "说书人";

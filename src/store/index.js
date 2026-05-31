@@ -90,7 +90,18 @@ const setPhaseIndex = (grimoire, phaseIndex) => {
   const phase = getPhaseInfo(index);
   grimoire.phaseIndex = index;
   grimoire.isNight = phase.isNight;
+  if (phase.phase === 3 && grimoire.murderScene) {
+    grimoire.murderScene.hasBlood = false;
+  }
 };
+
+const defaultMurderScene = () => ({
+  hasBlood: false,
+});
+
+const normalizeMurderScene = (murderScene = {}) => ({
+  hasBlood: !!murderScene.hasBlood,
+});
 
 const clean = (id) => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
 
@@ -143,6 +154,7 @@ export default new Vuex.Store({
     grimoire: {
       phaseIndex: 0,
       isNight: true,
+      murderScene: defaultMurderScene(),
       isPublic: false,
       isMenuOpen: isDesktopViewport(),
       isStatic: false,
@@ -264,6 +276,16 @@ export default new Vuex.Store({
             : currentIndex;
         setPhaseIndex(grimoire, dayIndex);
       }
+    },
+    toggleMurderScene({ grimoire }) {
+      if (!grimoire.murderScene) {
+        Vue.set(grimoire, "murderScene", defaultMurderScene());
+      }
+      const hasBlood = !grimoire.murderScene.hasBlood;
+      grimoire.murderScene.hasBlood = hasBlood;
+    },
+    setMurderScene({ grimoire }, murderScene) {
+      Vue.set(grimoire, "murderScene", normalizeMurderScene(murderScene));
     },
     toggleGrimoire: toggle("isPublic"),
     setImageOptIn: set("isImageOptIn"),

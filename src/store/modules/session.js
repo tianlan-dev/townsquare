@@ -9,6 +9,7 @@
 import Vue from "vue";
 
 const handleVote = (state, [index, vote]) => {
+  if (state.isSpectator && !state.isStorytellerOnline) return;
   if (!state.nomination) return;
   state.votes = [...state.votes];
   state.votes[index] = vote === undefined ? 0 : vote;
@@ -28,9 +29,11 @@ const state = () => ({
   isClosingRoom: false,
   isLeavingRoom: false,
   isSpectator: false,
+  isStorytellerOnline: false,
   isReconnecting: false,
   playerCount: 0,
   ping: 0,
+  storytellerName: "",
   playerId: "",
   playerName: "",
   playerAvatar: "default.webp",
@@ -110,8 +113,10 @@ const mutations = {
   setClosingRoom: set("isClosingRoom"),
   setLeavingRoom: set("isLeavingRoom"),
   setPlayerId: set("playerId"),
+  setStorytellerName: set("storytellerName"),
   setStId: set("stId"),
   setSpectator: set("isSpectator"),
+  setStorytellerOnline: set("isStorytellerOnline"),
   setReconnecting: set("isReconnecting"),
   setPlayerCount: set("playerCount"),
   setPing: set("ping"),

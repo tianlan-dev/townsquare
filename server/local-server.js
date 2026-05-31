@@ -22,14 +22,12 @@ const staticRoot = fs.existsSync(path.join(distDir, "index.html"))
   : publicDir;
 const publicScriptsDir = path.join(publicDir, "scripts");
 const staticScriptsDir = path.join(staticRoot, "scripts");
-const scriptsDir = fs.existsSync(publicScriptsDir) ? publicScriptsDir : staticScriptsDir;
+const scriptsDir = fs.existsSync(publicScriptsDir)
+  ? publicScriptsDir
+  : staticScriptsDir;
 
 function sendServiceUnavailable(res) {
-  res
-    .status(503)
-    .set("Retry-After", "5")
-    .type("html")
-    .send(`<!doctype html>
+  res.status(503).set("Retry-After", "5").type("html").send(`<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
@@ -64,12 +62,12 @@ function sendServiceUnavailable(res) {
 
 function sendIndex(req, res, next) {
   const indexPath = path.join(staticRoot, "index.html");
-  fs.access(indexPath, fs.constants.R_OK, err => {
+  fs.access(indexPath, fs.constants.R_OK, (err) => {
     if (err) {
       sendServiceUnavailable(res);
       return;
     }
-    res.sendFile(indexPath, sendErr => {
+    res.sendFile(indexPath, (sendErr) => {
       if (!sendErr) return;
       if (sendErr.code === "ENOENT" || sendErr.code === "EISDIR") {
         sendServiceUnavailable(res);
@@ -93,7 +91,10 @@ function scriptAssetUrl(value, scriptUrl, scriptFilePath) {
     const parsed = new URL(value, `http://townsquare.local${scriptUrl}`);
     if (parsed.origin === "http://townsquare.local") {
       const url = `${parsed.pathname}${parsed.search}${parsed.hash}`;
-      const assetPath = path.resolve(path.dirname(scriptFilePath), `.${parsed.pathname.replace(/^\/scripts/, "")}`);
+      const assetPath = path.resolve(
+        path.dirname(scriptFilePath),
+        `.${parsed.pathname.replace(/^\/scripts/, "")}`,
+      );
       return appendVersion(url, assetPath);
     }
     return parsed.href;
@@ -104,21 +105,22 @@ function scriptAssetUrl(value, scriptUrl, scriptFilePath) {
 
 function listScripts() {
   if (!fs.existsSync(scriptsDir)) return [];
-  return fs.readdirSync(scriptsDir)
-    .filter(file => file.endsWith(".json"))
+  return fs
+    .readdirSync(scriptsDir)
+    .filter((file) => file.endsWith(".json"))
     .sort()
-    .map(file => {
+    .map((file) => {
       try {
         const scriptFilePath = path.join(scriptsDir, file);
         const script = JSON.parse(fs.readFileSync(scriptFilePath, "utf8"));
         const meta = Array.isArray(script)
-          ? script.find(item => item && item.id === "_meta") || {}
+          ? script.find((item) => item && item.id === "_meta") || {}
           : {};
         const url = `/scripts/${file}`;
         return {
           name: meta.name || file.replace(/\.json$/, ""),
           url,
-          logo: scriptAssetUrl(meta.logo, url, scriptFilePath)
+          logo: scriptAssetUrl(meta.logo, url, scriptFilePath),
         };
       } catch (e) {
         return null;
@@ -136,9 +138,18 @@ app.get("/scripts/index.json", (req, res) => {
 });
 
 app.use("/avatars", express.static(avatarDir, { fallthrough: true }));
-app.use("/avatars", express.static(path.join(staticRoot, "avatars"), { fallthrough: true }));
-app.use("/backgrounds", express.static(path.join(publicDir, "backgrounds"), { fallthrough: true }));
-app.use("/backgrounds", express.static(path.join(staticRoot, "backgrounds"), { fallthrough: true }));
+app.use(
+  "/avatars",
+  express.static(path.join(staticRoot, "avatars"), { fallthrough: true }),
+);
+app.use(
+  "/backgrounds",
+  express.static(path.join(publicDir, "backgrounds"), { fallthrough: true }),
+);
+app.use(
+  "/backgrounds",
+  express.static(path.join(staticRoot, "backgrounds"), { fallthrough: true }),
+);
 app.use("/scripts", express.static(publicScriptsDir, { fallthrough: true }));
 app.use(express.static(staticRoot));
 app.get("*", sendIndex);
@@ -168,14 +179,19 @@ function roomFor(channel) {
       clients: new Map(),
       members: new Map(),
       createdAt: Date.now(),
-      lastHostHeartbeat: Date.now()
+      lastHostHeartbeat: Date.now(),
     });
   }
   return rooms.get(channel);
 }
 
 function isRoomExpired(room) {
-  return !!room && Date.now() - room.lastHostHeartbeat > ROOM_TTL_MS;
+  return (
+    !!room &&
+    room.clients.size === 0 &&
+    !isHostOnline(room) &&
+    Date.now() - room.lastHostHeartbeat > ROOM_TTL_MS
+  );
 }
 
 function send(socket, command, params, feedback = false) {
@@ -188,7 +204,7 @@ function broadcastRoom(room, sender, command, params, feedback = false) {
   if (!room) return;
   const sockets = new Set(room.clients.values());
   if (room.host) sockets.add(room.host);
-  sockets.forEach(socket => {
+  sockets.forEach((socket) => {
     if (socket !== sender) send(socket, command, params, feedback);
   });
 }
@@ -197,7 +213,7 @@ function broadcastRoomAll(room, command, params, feedback = false) {
   if (!room) return;
   const sockets = new Set(room.clients.values());
   if (room.host) sockets.add(room.host);
-  sockets.forEach(socket => send(socket, command, params, feedback));
+  sockets.forEach((socket) => send(socket, command, params, feedback));
 }
 
 function displayName(name) {
@@ -210,7 +226,7 @@ function announcePresence(room, socket, action, name) {
   socket.displayName = playerName;
   const payload = {
     action,
-    name: playerName
+    name: playerName,
   };
   if (action === "leave") {
     broadcastRoom(room, socket, "presenceNotice", payload);
@@ -255,8 +271,8 @@ function unregisterPresence(room, socket, name) {
 
 function activeRooms() {
   return Array.from(rooms.values())
-    .filter(room => room.hostPlayerId && !isRoomExpired(room))
-    .map(room => room.channel);
+    .filter((room) => room.hostPlayerId && !isRoomExpired(room))
+    .map((room) => room.channel);
 }
 
 function isHostOnline(room) {
@@ -265,8 +281,8 @@ function isHostOnline(room) {
 
 function activeRoomDetails() {
   return Array.from(rooms.values())
-    .filter(room => room.hostPlayerId && !isRoomExpired(room))
-    .map(room => {
+    .filter((room) => room.hostPlayerId && !isRoomExpired(room))
+    .map((room) => {
       const hostOnline = isHostOnline(room);
       return {
         id: room.channel,
@@ -275,13 +291,13 @@ function activeRoomDetails() {
         playerCount: hostOnline ? room.host.roomPlayerCount || null : null,
         hasPassword: !!room.hasPassword,
         createdAt: room.createdAt,
-        lastHostHeartbeat: room.lastHostHeartbeat
+        lastHostHeartbeat: room.lastHostHeartbeat,
       };
     });
 }
 
 function requestHostRoomInfo() {
-  rooms.forEach(room => {
+  rooms.forEach((room) => {
     if (isHostOnline(room)) send(room.host, "roomInfoRequest");
   });
 }
@@ -307,7 +323,7 @@ function sendLobbyRooms(socket, refreshHosts = false) {
 }
 
 function broadcastLobby(command, params) {
-  lobbies.forEach(socket => send(socket, command, params));
+  lobbies.forEach((socket) => send(socket, command, params));
 }
 
 function addRoomToLobby(channel) {
@@ -331,7 +347,7 @@ function closeRoomClients(room, reason = "房间已被说书人解散。") {
     }, 50);
   }
 
-  room.clients.forEach(socket => {
+  room.clients.forEach((socket) => {
     send(socket, "roomClosed", { reason });
     setTimeout(() => {
       if (socket.readyState === WebSocket.OPEN) {
@@ -351,7 +367,7 @@ function closeRoom(room, reason = "房间已被说书人解散。") {
 }
 
 function cleanupExpiredRooms() {
-  Array.from(rooms.values()).forEach(room => {
+  Array.from(rooms.values()).forEach((room) => {
     if (isRoomExpired(room)) {
       closeRoom(room, "房间已过期。");
     }
@@ -404,11 +420,11 @@ function handleRequest(room, socket, requests) {
       send(socket, "allowHost", false);
       return;
     }
-    const currentHostOpen = room.host && room.host.readyState === WebSocket.OPEN;
+    const currentHostOpen =
+      room.host && room.host.readyState === WebSocket.OPEN;
     const sameHostIdentity = room.hostPlayerId === socket.playerId;
     const allowed =
-      !isRoomExpired(room) &&
-      (!room.hostPlayerId || sameHostIdentity);
+      !isRoomExpired(room) && (!room.hostPlayerId || sameHostIdentity);
     if (allowed) {
       const wasNewRoom = !room.hostPlayerId;
       if (currentHostOpen && room.host !== socket && sameHostIdentity) {
@@ -422,6 +438,8 @@ function handleRequest(room, socket, requests) {
       socket.isHost = true;
       updateHostRoomInfo(room, requestParams);
       room.lastHostHeartbeat = Date.now();
+      broadcastRoom(room, socket, "storytellerOnline", true);
+      broadcastRoom(room, socket, "storytellerName", room.hostName || "说书人");
       if (wasNewRoom) addRoomToLobby(room.channel);
       else broadcastLobby("setRoomDetails", activeRoomDetails());
     }
@@ -434,7 +452,7 @@ function handleRequest(room, socket, requests) {
     send(socket, "allowJoin", {
       allowed: hostOnline,
       reason: roomExists ? (hostOnline ? "" : "hostOffline") : "missing",
-      hasPassword: roomExists ? !!room.hasPassword : false
+      hasPassword: roomExists ? !!room.hasPassword : false,
     });
   }
 }
@@ -498,7 +516,10 @@ function handleSessionMessage(socket, raw) {
 
 function attachSession(socket, pathname) {
   const parts = pathname.split("/").filter(Boolean);
-  const channel = (parts[1] || "").toLocaleLowerCase().replace(/[^0-9a-z]/g, "").substr(0, 10);
+  const channel = (parts[1] || "")
+    .toLocaleLowerCase()
+    .replace(/[^0-9a-z]/g, "")
+    .substr(0, 10);
   const playerId = parts[2] || crypto.randomBytes(8).toString("hex");
   const wantsHost = parts[3] === "host";
   if (!channel) {
@@ -524,12 +545,13 @@ function attachSession(socket, pathname) {
     room.clients.set(playerId, socket);
   }
 
-  socket.on("message", data => handleSessionMessage(socket, data.toString()));
+  socket.on("message", (data) => handleSessionMessage(socket, data.toString()));
   socket.on("close", () => {
     if (!room) return;
     const wasCurrentClient = room.clients.get(playerId) === socket;
     if (wasCurrentClient) room.clients.delete(playerId);
     if (room.host === socket) {
+      broadcastRoom(room, socket, "storytellerOnline", false);
       room.host = null;
       broadcastLobby("setRoomDetails", activeRoomDetails());
     }
@@ -540,7 +562,7 @@ function attachLobby(socket) {
   socket.type = "lobby";
   lobbies.add(socket);
   sendLobbyRooms(socket);
-  socket.on("message", data => {
+  socket.on("message", (data) => {
     let command;
     try {
       [command] = JSON.parse(data.toString());
@@ -560,7 +582,7 @@ server.on("upgrade", (req, socket, head) => {
     return;
   }
 
-  wss.handleUpgrade(req, socket, head, ws => {
+  wss.handleUpgrade(req, socket, head, (ws) => {
     if (pathname.startsWith("/ws/")) {
       attachSession(ws, pathname);
     } else {
