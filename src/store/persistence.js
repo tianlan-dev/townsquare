@@ -1,3 +1,9 @@
+const {
+  DEFAULT_PLAYER_AVATARS,
+  isDefaultPlayerAvatar,
+  normalizePlayerGender,
+} = require("../playerAvatars");
+
 module.exports = (store) => {
   if (window.location.pathname != "/") return;
 
@@ -113,6 +119,7 @@ module.exports = (store) => {
       "playerAvatar",
       localStorage.getItem("playerProfileImage"),
     );
+    localStorage.setItem("playerAvatarSource", "uploaded");
     localStorage.removeItem("playerProfileImage");
   }
   if (localStorage.fabled !== undefined) {
@@ -142,6 +149,12 @@ module.exports = (store) => {
   }
   if (localStorage.getItem("playerName")) {
     store.commit("session/setPlayerName", localStorage.getItem("playerName"));
+  }
+  if (localStorage.getItem("playerGender")) {
+    store.commit(
+      "session/setPlayerGender",
+      normalizePlayerGender(localStorage.getItem("playerGender")),
+    );
   }
   if (localStorage.getItem("roomPassword")) {
     store.commit(
@@ -197,18 +210,37 @@ module.exports = (store) => {
     const savedAvatar = localStorage.getItem("playerAvatar");
     if (
       savedAvatar === "default.webp" ||
-      savedAvatar === "default-townsperson.png"
+      savedAvatar === "default-townsperson.png" ||
+      savedAvatar === "default-townsperson.webp"
     ) {
-      localStorage.setItem("playerAvatar", "default-townsperson.webp");
+      localStorage.setItem("playerAvatar", DEFAULT_PLAYER_AVATARS.female);
+      localStorage.setItem("playerAvatarSource", "default");
     }
     store.commit(
       "session/updatePlayerAvatar",
       savedAvatar === "default.webp" ||
-        savedAvatar === "default-townsperson.png"
-        ? "default-townsperson.webp"
+        savedAvatar === "default-townsperson.png" ||
+        savedAvatar === "default-townsperson.webp"
+        ? DEFAULT_PLAYER_AVATARS.female
         : savedAvatar,
     );
   }
+  if (localStorage.getItem("playerAvatarSource")) {
+    store.commit(
+      "session/setPlayerAvatarSource",
+      localStorage.getItem("playerAvatarSource") === "uploaded"
+        ? "uploaded"
+        : "default",
+    );
+  } else if (localStorage.getItem("playerAvatar")) {
+    store.commit(
+      "session/setPlayerAvatarSource",
+      isDefaultPlayerAvatar(localStorage.getItem("playerAvatar"))
+        ? "default"
+        : "uploaded",
+    );
+  }
+  store.dispatch("refreshDefaultPlayerAvatar", { updateSeat: false });
   if (localStorage.getItem("secretVote")) {
     store.commit(
       "session/setSecretVote",
@@ -266,6 +298,7 @@ module.exports = (store) => {
         } else {
           localStorage.removeItem("imageOptIn");
         }
+        store.dispatch("refreshDefaultPlayerAvatar");
         break;
       case "setZoom":
         if (payload !== -2) {
@@ -285,6 +318,7 @@ module.exports = (store) => {
         if (state.edition.isOfficial) {
           localStorage.removeItem("roles");
         }
+        store.dispatch("refreshDefaultPlayerAvatar");
         break;
       case "setCustomRoles":
         if (!payload.length) {
@@ -364,6 +398,19 @@ module.exports = (store) => {
         } else {
           localStorage.removeItem("playerName");
         }
+        break;
+      case "session/setPlayerGender":
+        if (payload) {
+          localStorage.setItem("playerGender", payload);
+        } else {
+          localStorage.removeItem("playerGender");
+        }
+        break;
+      case "session/setPlayerAvatarSource":
+        localStorage.setItem(
+          "playerAvatarSource",
+          payload === "uploaded" ? "uploaded" : "default",
+        );
         break;
       case "session/setRoomPassword":
         if (payload) {

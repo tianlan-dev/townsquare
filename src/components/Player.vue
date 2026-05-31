@@ -259,6 +259,13 @@
               <font-awesome-icon :icon="['custom', 'wraith']" />
               <span>亡魂</span>
             </li>
+            <li
+              v-if="player.id && player.id !== 'host' && session.sessionId"
+              @click="clearAvatar"
+            >
+              <font-awesome-icon icon="image" />
+              清除头像
+            </li>
           </template>
           <li
             @click="claimSeat"
@@ -316,6 +323,7 @@
 <script>
 import Token from "./Token";
 import { mapGetters, mapState } from "vuex";
+import { DEFAULT_PLAYER_AVATARS } from "../playerAvatars";
 // import Vue from "vue";
 
 export default {
@@ -487,7 +495,7 @@ export default {
       }
     },
     avatarSrc(image) {
-      const value = String(image || "default-townsperson.webp");
+      const value = String(image || DEFAULT_PLAYER_AVATARS.female);
       if (value.startsWith("data:") || value.startsWith("blob:")) return value;
       if (value.startsWith("/")) return value;
       if (/^https?:/i.test(value) && this.shouldUseImageUrl(value)) {
@@ -677,6 +685,11 @@ export default {
         player: this.player,
         id: this.player.id,
       });
+    },
+    clearAvatar() {
+      if (this.session.isSpectator) return;
+      this.isMenuOpen = false;
+      this.$emit("trigger", ["clearPlayerAvatar"]);
     },
     async removePlayer() {
       this.isMenuOpen = false;

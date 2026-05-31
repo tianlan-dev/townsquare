@@ -119,28 +119,7 @@ export default {
       this.$store.commit("session/setSpectator", true);
       this.$store.commit("toggleGrimoire", false);
 
-      let finalName = this.session.playerName; // Get existing name if any
-
-      if (!finalName) {
-        const input = await this.showInputModal({
-          inputType: "changeName",
-          inputModal: "input",
-          inputData: {
-            name: ["输入玩家昵称"],
-            length: 1,
-            placeholder: [""],
-          },
-        }).catch(() => {
-          return null;
-        });
-        if (input === null) return;
-
-        finalName = input[0];
-      }
-
-      // Now handle the result
-      if (finalName) {
-        this.$store.commit("session/setPlayerName", finalName);
+      if (await this.ensurePlayerProfile()) {
         this.$store.commit("session/setSessionId", sessionId);
       } else {
         // User cancelled input, so don't join the session
@@ -195,6 +174,33 @@ export default {
 
         this.$store.commit("toggleModal", "input");
       });
+    },
+    async ensurePlayerProfile() {
+      if (this.session.playerName && this.session.playerGender) return true;
+      const input = await this.showInputModal({
+        inputType: "playerProfile",
+        inputModal: "input",
+        inputData: {
+          name: ["输入玩家昵称", "选择性别"],
+          length: 2,
+          placeholder: [
+            this.session.playerName || "",
+            this.session.playerGender || "female",
+          ],
+          types: ["text", "gender"],
+        },
+      }).catch(() => {
+        return null;
+      });
+      if (input === null) return false;
+
+      const [name, gender] = input;
+      this.$store.commit("session/setPlayerName", name);
+      this.$store.commit("session/setPlayerGender", gender);
+      await this.$store.dispatch("refreshDefaultPlayerAvatar", {
+        updateSeat: false,
+      });
+      return true;
     },
     keyup({ key, ctrlKey, metaKey }) {
       if (ctrlKey || metaKey) return;

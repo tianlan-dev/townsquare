@@ -11,7 +11,24 @@
         <template v-if="!isJoinSessionInput">
           <div v-for="n in session.inputData.length" :key="n">
             <label>{{ session.inputData.name[n - 1] }}</label>
+            <div v-if="fieldType(n) === 'gender'" class="gender-options">
+              <button
+                type="button"
+                :class="{ active: input[n - 1] === 'female' }"
+                @click="setGender(n, 'female')"
+              >
+                女
+              </button>
+              <button
+                type="button"
+                :class="{ active: input[n - 1] === 'male' }"
+                @click="setGender(n, 'male')"
+              >
+                男
+              </button>
+            </div>
             <input
+              v-else
               type="text"
               :id="'input-' + n"
               :ref="'input-' + n"
@@ -222,6 +239,14 @@ export default {
     notTyping() {
       this.$store.commit("session/setTyping", false);
     },
+    fieldType(n) {
+      return this.session.inputData.types
+        ? this.session.inputData.types[n - 1]
+        : "text";
+    },
+    setGender(n, gender) {
+      this.$set(this.input, n - 1, gender);
+    },
     confirmInput() {
       const allowEmpty = ["bootlegger", "hostSession"];
       if (
@@ -234,6 +259,7 @@ export default {
       }
       switch (this.session.inputType) {
         case "changeName":
+        case "playerProfile":
           {
             if (
               this.input[0].trim() === "" ||
@@ -244,6 +270,13 @@ export default {
               this.$nextTick(() => {
                 this.$refs["input-1"][0].select();
               });
+              return;
+            }
+            if (
+              this.session.inputType === "playerProfile" &&
+              !["male", "female"].includes(this.input[1])
+            ) {
+              this.warningMessage = "请选择性别！";
               return;
             }
           }
@@ -468,6 +501,22 @@ export default {
 
 .input-box button[type="button"]:hover {
   background-color: darken(#e84b20, 10%);
+}
+
+.gender-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+
+  button {
+    border-radius: 8px;
+    background-color: #333 !important;
+    color: #fff !important;
+
+    &.active {
+      background-color: #0a65dd !important;
+    }
+  }
 }
 
 .warning {

@@ -296,6 +296,7 @@ export default {
       }
       roles = this.sanitizeImageUrls(roles, sourceUrl);
       meta = this.sanitizeImageUrls([meta], sourceUrl)[0];
+      meta = this.sanitizePlayerAvatars(meta, sourceUrl);
       if (imageSource === "external") {
         this.$store.commit("setImageOptIn", false);
       }
@@ -374,6 +375,38 @@ export default {
         delete cleanItem.logo;
         return cleanItem;
       });
+    },
+    sanitizePlayerAvatars(meta, sourceUrl = "") {
+      if (
+        !meta ||
+        typeof meta !== "object" ||
+        !meta.playerAvatars ||
+        typeof meta.playerAvatars !== "object"
+      ) {
+        return meta;
+      }
+      const playerAvatars = {};
+      ["male", "female"].forEach((gender) => {
+        const image = meta.playerAvatars[gender];
+        if (!image || typeof image !== "string") return;
+        if (image.startsWith("data:") || image.startsWith("blob:")) {
+          playerAvatars[gender] = image;
+          return;
+        }
+        const parsed = this.resolveImageUrl(image, sourceUrl);
+        if (!parsed) return;
+        const protocol = new URL(parsed).protocol;
+        if (["http:", "https:"].includes(protocol)) {
+          playerAvatars[gender] = parsed;
+        }
+      });
+      const cleanMeta = Object.assign({}, meta);
+      if (Object.keys(playerAvatars).length) {
+        cleanMeta.playerAvatars = playerAvatars;
+      } else {
+        delete cleanMeta.playerAvatars;
+      }
+      return cleanMeta;
     },
     parseStates(roles) {
       if (!roles || !roles.length) return;

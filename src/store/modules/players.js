@@ -1,3 +1,5 @@
+import { isDefaultPlayerAvatar } from "../../playerAvatars";
+
 const NEWPLAYER = {
   name: "",
   id: "",
@@ -282,11 +284,11 @@ const mutations = {
     { index, fabled, stImage, stName, emptyFabled = false } = {},
   ) {
     if (!stImage)
-      stImage = ["default.webp", "default-townsperson.webp"].includes(
-        this.state.session.playerAvatar,
-      )
-        ? STORYTELLER_AVATAR
-        : this.state.session.playerAvatar;
+      stImage =
+        this.state.session.playerAvatarSource === "default" ||
+        isDefaultPlayerAvatar(this.state.session.playerAvatar)
+          ? STORYTELLER_AVATAR
+          : this.state.session.playerAvatar;
     if (!stName) stName = this.state.session.playerName;
     if (index !== undefined) {
       if (index == 0) return; // do not ever remove the first fabled i.e. storyteller

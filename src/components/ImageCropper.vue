@@ -101,6 +101,7 @@ export default {
     sendImage() {
       const canvas = this.cropper.getCroppedCanvas();
       this.croppedImage = canvas.toDataURL("image/webp");
+      this.$store.commit("session/setPlayerAvatarSource", "uploaded");
       if (this.session.sessionId) {
         this.$store.commit("session/setPlayerAvatar", this.croppedImage);
       } else {

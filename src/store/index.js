@@ -8,6 +8,10 @@ import editionJSON from "../editions.json";
 import rolesJSON from "../roles.json";
 import fabledJSON from "../fabled.json";
 import jinxesJSON from "../hatred.json";
+import {
+  DEFAULT_PLAYER_AVATARS,
+  playerGenderOrDefault,
+} from "../playerAvatars";
 
 Vue.use(Vuex);
 
@@ -102,6 +106,31 @@ const defaultMurderScene = () => ({
 const normalizeMurderScene = (murderScene = {}) => ({
   hasBlood: !!murderScene.hasBlood,
 });
+
+const isAllowedPlayerAvatarUrl = (avatar, isImageOptIn = false) => {
+  if (!avatar || typeof avatar !== "string") return false;
+  if (avatar.startsWith("data:") || avatar.startsWith("blob:")) return true;
+  try {
+    const parsed = new URL(avatar, window.location.origin);
+    if (parsed.origin === window.location.origin) return true;
+    return isImageOptIn && ["http:", "https:"].includes(parsed.protocol);
+  } catch (e) {
+    return false;
+  }
+};
+
+const defaultPlayerAvatarFor = (edition, gender, isImageOptIn = false) => {
+  const playerGender = playerGenderOrDefault(gender);
+  const scriptAvatar =
+    edition &&
+    edition.playerAvatars &&
+    typeof edition.playerAvatars === "object"
+      ? edition.playerAvatars[playerGender]
+      : "";
+  return isAllowedPlayerAvatarUrl(scriptAvatar, isImageOptIn)
+    ? scriptAvatar
+    : DEFAULT_PLAYER_AVATARS[playerGender];
+};
 
 const clean = (id) => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
 
@@ -240,8 +269,44 @@ export default new Vuex.Store({
     rolesJSONbyId: () => rolesJSONbyId,
     phaseInfo: ({ grimoire }) => getPhaseInfo(grimoire.phaseIndex),
     phaseLabelByIndex: () => (phaseIndex) => getPhaseInfo(phaseIndex).label,
+    defaultPlayerAvatar: ({ edition, grimoire, session }) =>
+      defaultPlayerAvatarFor(
+        edition,
+        session.playerGender,
+        grimoire.isImageOptIn,
+      ),
+    defaultPlayerAvatarForGender:
+      ({ edition, grimoire }) =>
+      (gender) =>
+        defaultPlayerAvatarFor(edition, gender, grimoire.isImageOptIn),
   },
   actions: {
+    refreshDefaultPlayerAvatar(
+      { commit, getters, state },
+      { updateSeat = true } = {},
+    ) {
+      if (state.session.playerAvatarSource === "uploaded") return;
+      const avatar = getters.defaultPlayerAvatar;
+      commit("session/setPlayerAvatarSource", "default");
+      commit("session/updatePlayerAvatar", avatar);
+
+      if (
+        !updateSeat ||
+        !state.session.isSpectator ||
+        state.session.claimedSeat < 0
+      ) {
+        return;
+      }
+
+      const player = state.players.players[state.session.claimedSeat];
+      if (!player || player.id !== state.session.playerId) return;
+      commit("players/update", {
+        player,
+        property: "image",
+        value: avatar,
+      });
+      commit("session/claimSeat", state.session.claimedSeat);
+    },
     resetRoomState({ commit, state }, { clearPlayers = true } = {}) {
       commit("session/claimSeat", -1);
       commit("session/setSessionId", "");

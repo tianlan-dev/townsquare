@@ -7,6 +7,7 @@
  */
 
 import Vue from "vue";
+import { DEFAULT_PLAYER_AVATARS } from "../../playerAvatars";
 
 const handleVote = (state, [index, vote]) => {
   if (state.isSpectator && !state.isStorytellerOnline) return;
@@ -36,7 +37,10 @@ const state = () => ({
   storytellerName: "",
   playerId: "",
   playerName: "",
-  playerAvatar: "default-townsperson.webp",
+  playerGender: "",
+  playerAvatar: DEFAULT_PLAYER_AVATARS.female,
+  playerAvatarSource: "default",
+  defaultAvatarRequest: null,
   roomPassword: "",
   pendingJoinPassword: "",
   savedRoomPasswords: {},
@@ -113,6 +117,9 @@ const mutations = {
   setClosingRoom: set("isClosingRoom"),
   setLeavingRoom: set("isLeavingRoom"),
   setPlayerId: set("playerId"),
+  setPlayerGender: set("playerGender"),
+  setPlayerAvatarSource: set("playerAvatarSource"),
+  requestDefaultAvatar: set("defaultAvatarRequest"),
   setStorytellerName: set("storytellerName"),
   setStId: set("stId"),
   setSpectator: set("isSpectator"),
@@ -323,6 +330,7 @@ const mutations = {
   },
   setPlayerAvatar(state) {
     state.playerAvatar = "";
+    state.playerAvatarSource = "uploaded";
   },
   updatePlayerAvatar(state, link) {
     state.playerAvatar = link;

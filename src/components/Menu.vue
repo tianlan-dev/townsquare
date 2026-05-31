@@ -71,7 +71,8 @@
           <li class="headline">菜单</li>
           <div class="options">
             <li @click="$emit('trigger', ['uploadAvatar'])">上传头像</li>
-            <li @click="changeName">设置昵称</li>
+            <li @click="useDefaultAvatar">使用默认头像</li>
+            <li @click="editPlayerProfile">设置昵称/性别</li>
             <li @click="toggleStatic">
               关闭动画
               <em>
@@ -254,7 +255,8 @@
                 </em>
               </li>
               <li @click="$emit('trigger', ['uploadAvatar'])">上传头像</li>
-              <li @click="changeName">设置昵称</li>
+              <li @click="useDefaultAvatar">使用默认头像</li>
+              <li @click="editPlayerProfile">设置昵称/性别</li>
               <li v-if="isExternalCustomEdition" @click="imageOptIn">
                 <small>允许自定义图标</small>
                 <em>
@@ -487,7 +489,7 @@ export default {
       "selectedEditions",
     ]),
     ...mapState("players", ["players"]),
-    ...mapGetters(["phaseLabelByIndex"]),
+    ...mapGetters(["defaultPlayerAvatar", "phaseLabelByIndex"]),
     previousPhaseLabel() {
       if (this.grimoire.phaseIndex <= 0) return "已是首夜";
       return this.phaseLabelByIndex(this.grimoire.phaseIndex - 1);
@@ -595,37 +597,60 @@ export default {
         this.$store.commit("toggleModal", "input");
       });
     },
-    async changeName() {
+    async editPlayerProfile() {
       const input = await this.showInputModal({
-        inputType: "changeName",
+        inputType: "playerProfile",
         inputModal: "input",
         inputData: {
-          name: ["输入玩家昵称"],
-          length: 1,
-          placeholder: [""],
+          name: ["输入玩家昵称", "选择性别"],
+          length: 2,
+          placeholder: [
+            this.session.playerName || "",
+            this.session.playerGender || "female",
+          ],
+          types: ["text", "gender"],
         },
       }).catch(() => {
         return null;
       });
-      if (input === null) return;
+      if (input === null) return false;
 
-      const newName = input[0];
-      this.$store.commit("session/setPlayerName", newName);
+      const [name, gender] = input;
+      this.$store.commit("session/setPlayerName", name);
+      this.$store.commit("session/setPlayerGender", gender);
+      await this.$store.dispatch("refreshDefaultPlayerAvatar", {
+        updateSeat: false,
+      });
       if (
         this.session.claimedSeat > -1 &&
         this.players[this.session.claimedSeat]
       ) {
+        if (this.session.playerAvatarSource !== "uploaded") {
+          this.$store.commit("players/update", {
+            player: this.players[this.session.claimedSeat],
+            property: "image",
+            value: this.defaultPlayerAvatar,
+          });
+        }
         this.$store.commit("players/update", {
           player: this.players[this.session.claimedSeat],
           property: "name",
-          value: newName,
+          value: name,
         });
         this.$store.commit("session/claimSeat", this.session.claimedSeat);
       }
+      return true;
+    },
+    async useDefaultAvatar() {
+      this.$store.commit("session/setPlayerAvatarSource", "default");
+      await this.$store.dispatch("refreshDefaultPlayerAvatar");
+    },
+    async ensurePlayerProfile() {
+      if (this.session.playerName && this.session.playerGender) return true;
+      return this.editPlayerProfile();
     },
     async hostSession() {
-      if (!this.session.playerName) await this.changeName();
-      if (!this.session.playerName) return;
+      if (!(await this.ensurePlayerProfile())) return;
 
       if (this.session.sessionId) return;
       if (this.session.rooms === null) {
@@ -938,8 +963,7 @@ export default {
     },
     async joinSession() {
       if (this.session.sessionId) return this.leaveSession();
-      if (!this.session.playerName) await this.changeName();
-      if (!this.session.playerName) return;
+      if (!(await this.ensurePlayerProfile())) return;
 
       if (this.session.rooms === null) {
         await this.showInputModal({

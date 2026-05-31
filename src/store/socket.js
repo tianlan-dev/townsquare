@@ -397,6 +397,9 @@ class LiveSession {
       case "avatarReceived":
         this._avatarReceived(params);
         break;
+      case "useDefaultAvatar":
+        this._useDefaultAvatar();
+        break;
       case "secretVote":
         this._handleSecretVote(params);
         break;
@@ -1460,7 +1463,26 @@ class LiveSession {
     const linkId = link.split(".")[0];
     if (playerId != linkId) return;
 
+    this._store.commit("session/setPlayerAvatarSource", "uploaded");
     this._store.commit("session/updatePlayerAvatar", link);
+    if (
+      this._isSpectator &&
+      this._store.state.session.claimedSeat > -1 &&
+      this._store.state.players.players[this._store.state.session.claimedSeat]
+    ) {
+      this._store.commit("players/update", {
+        player:
+          this._store.state.players.players[
+            this._store.state.session.claimedSeat
+          ],
+        property: "image",
+        value: link,
+      });
+      this._store.commit(
+        "session/claimSeat",
+        this._store.state.session.claimedSeat,
+      );
+    }
     await this.showInputModal({
       inputType: "alert",
       inputModal: "text",
@@ -1471,6 +1493,18 @@ class LiveSession {
       return null;
     });
     return;
+  }
+
+  requestDefaultAvatar(player) {
+    if (this._isSpectator) return;
+    if (!player || !player.id || player.id === "host") return;
+    this._sendDirect(player.id, "useDefaultAvatar");
+  }
+
+  async _useDefaultAvatar() {
+    if (!this._isSpectator) return;
+    this._store.commit("session/setPlayerAvatarSource", "default");
+    await this._store.dispatch("refreshDefaultPlayerAvatar");
   }
 
   /**
@@ -1568,8 +1602,15 @@ class LiveSession {
     // remove previous seat
     const oldIndex = players.findIndex(({ id }) => id === value);
     const existingSeatPlayer = oldIndex >= 0 ? players[oldIndex] : null;
-    const seatName = existingSeatPlayer ? existingSeatPlayer.name : name;
-    const seatImage = existingSeatPlayer ? existingSeatPlayer.image : image;
+    const isSameSeatRefresh = oldIndex >= 0 && oldIndex === index;
+    const seatName =
+      existingSeatPlayer && !(isSameSeatRefresh && name !== undefined)
+        ? existingSeatPlayer.name
+        : name;
+    const seatImage =
+      existingSeatPlayer && !(isSameSeatRefresh && image !== undefined)
+        ? existingSeatPlayer.image
+        : image;
     if (oldIndex >= 0 && oldIndex !== index) {
       this._store.commit("players/update", {
         player: players[oldIndex],
@@ -2601,6 +2642,9 @@ export default (store) => {
         break;
       case "session/setPlayerAvatar":
         session.uploadAvatar(payload);
+        break;
+      case "session/requestDefaultAvatar":
+        session.requestDefaultAvatar(payload);
         break;
       case "session/setSecretVote":
         session.setSecretVote(payload);

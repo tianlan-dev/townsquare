@@ -387,6 +387,13 @@ export default {
       }
       this.$store.commit("players/remove", playerIndex);
     },
+    clearPlayerAvatar(playerIndex) {
+      if (this.session.isSpectator) return;
+      const player = this.players[playerIndex];
+      if (!player || !player.id || player.id === "host") return;
+      this.$store.commit("session/requestDefaultAvatar", player);
+      this.activePlayerMenu = -1;
+    },
     swapPlayer(from, to) {
       if (this.session.isSpectator || this.session.lockedVote) return;
       if (to === undefined) {
