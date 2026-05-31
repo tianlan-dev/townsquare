@@ -56,7 +56,6 @@
         :class="{ closed: !isFabledOpen }"
       >
         <h3>
-          <span>传奇角色</span>
           <span class="panel-actions">
             <button
               v-if="!session.isSpectator"
@@ -89,10 +88,7 @@
             @click.stop="removeFabled(index)"
             :style="floatingZoom"
           >
-            <div
-              class="night-order current"
-              v-if="currentNightOrder(role) && grimoire.isNightOrder"
-            >
+            <div class="night-order current" v-if="currentNightOrder(role)">
               <em>{{ currentNightOrder(role) }}</em>
             </div>
             <Token :role="roleInfo(role)"></Token>
@@ -107,8 +103,6 @@
         :class="{ closed: !isBluffsOpen }"
       >
         <h3>
-          <span v-if="session.isSpectator">不在场身份</span>
-          <span v-else>恶魔的伪装身份</span>
           <span class="panel-actions">
             <button
               type="button"
@@ -705,7 +699,7 @@ export default {
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
     span {
       flex-grow: 1;
       overflow: hidden;

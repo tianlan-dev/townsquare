@@ -17,10 +17,68 @@ const host = process.env.HOST || "0.0.0.0";
 fs.mkdirSync(avatarDir, { recursive: true });
 
 const app = express();
-const staticRoot = fs.existsSync(path.join(distDir, "index.html")) ? distDir : publicDir;
+const staticRoot = fs.existsSync(path.join(distDir, "index.html"))
+  ? distDir
+  : publicDir;
 const publicScriptsDir = path.join(publicDir, "scripts");
 const staticScriptsDir = path.join(staticRoot, "scripts");
 const scriptsDir = fs.existsSync(publicScriptsDir) ? publicScriptsDir : staticScriptsDir;
+
+function sendServiceUnavailable(res) {
+  res
+    .status(503)
+    .set("Retry-After", "5")
+    .type("html")
+    .send(`<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>城镇广场正在准备中</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #080a0d;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        max-width: 28rem;
+        padding: 1.5rem;
+        text-align: center;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>城镇广场正在准备中</h1>
+      <p>应用正在启动或更新，请稍后刷新页面。</p>
+    </main>
+  </body>
+</html>`);
+}
+
+function sendIndex(req, res, next) {
+  const indexPath = path.join(staticRoot, "index.html");
+  fs.access(indexPath, fs.constants.R_OK, err => {
+    if (err) {
+      sendServiceUnavailable(res);
+      return;
+    }
+    res.sendFile(indexPath, sendErr => {
+      if (!sendErr) return;
+      if (sendErr.code === "ENOENT" || sendErr.code === "EISDIR") {
+        sendServiceUnavailable(res);
+        return;
+      }
+      next(sendErr);
+    });
+  });
+}
 
 function appendVersion(url, filePath) {
   if (!url || !filePath || !fs.existsSync(filePath)) return url;
@@ -83,8 +141,13 @@ app.use("/backgrounds", express.static(path.join(publicDir, "backgrounds"), { fa
 app.use("/backgrounds", express.static(path.join(staticRoot, "backgrounds"), { fallthrough: true }));
 app.use("/scripts", express.static(publicScriptsDir, { fallthrough: true }));
 app.use(express.static(staticRoot));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(staticRoot, "index.html"));
+app.get("*", sendIndex);
+app.use((err, req, res, next) => {
+  if (res.headersSent) {
+    next(err);
+    return;
+  }
+  sendServiceUnavailable(res);
 });
 
 const server = http.createServer(app);

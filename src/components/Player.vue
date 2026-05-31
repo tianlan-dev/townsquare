@@ -31,10 +31,7 @@
         <img :src="avatarSrc(player.image)" :class="{ on: player.role.id }" />
       </div>
 
-      <div
-        class="night-order current"
-        v-if="currentNightOrder && grimoire.isNightOrder"
-      >
+      <div class="night-order current" v-if="currentNightOrder">
         <em>{{ currentNightOrder }}</em>
       </div>
 

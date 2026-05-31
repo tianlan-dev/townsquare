@@ -84,20 +84,44 @@
 
         <template v-if="tab === 'session' && isSessionTabVisible">
           <!-- Session -->
-          <li class="headline">说书人</li>
+          <li class="headline">
+            {{ session.isSpectator ? "玩家" : "说书人" }}
+          </li>
           <div class="options">
-            <li v-if="session.ping">
-              与玩家延迟
-              <em>{{ session.ping }}ms</em>
-            </li>
             <li
+              v-if="!session.isSpectator"
               @click="previousPhase"
               :class="{ disabled: grimoire.phaseIndex <= 0 }"
             >
               后退至前一阶段
             </li>
-            <li @click="nextPhase">前进到下一阶段</li>
-            <li @click="toggleIsReview">
+            <li v-if="!session.isSpectator" @click="nextPhase">
+              前进到下一阶段
+            </li>
+            <li @click="toggleModal('reference')">角色技能表</li>
+            <li @click="toggleModal('nightOrder')">夜间顺序表</li>
+            <li @click="toggleGrimoire" v-if="players.length">
+              <template v-if="!grimoire.isPublic">隐藏角色</template>
+              <template v-if="grimoire.isPublic">显示</template>
+            </li>
+            <li v-if="isOnlineStoryteller && session.ping">
+              与玩家延迟
+              <em>{{ session.ping }}ms</em>
+            </li>
+            <li v-if="isOnlineStoryteller" @click="distributeAsk">发送角色</li>
+            <li v-if="isOnlineStoryteller" @click="distributeTypeAsk">
+              发送角色类型
+            </li>
+            <li v-if="isOnlineStoryteller" @click="distributeBluffsAsk">
+              发送伪装身份
+            </li>
+            <li v-if="isOnlineStoryteller" @click="distributeGrimoireAsk">
+              发送魔典
+            </li>
+            <li v-if="isOnlineStoryteller" @click="toggleModal('voteHistory')">
+              投票记录
+            </li>
+            <li v-if="isOnlineStoryteller" @click="toggleIsReview">
               复盘视角
               <em>
                 <font-awesome-icon
@@ -105,11 +129,6 @@
                 />
               </em>
             </li>
-            <li @click="distributeAsk">发送角色</li>
-            <li @click="distributeTypeAsk">发送角色类型</li>
-            <li @click="distributeBluffsAsk">发送伪装身份</li>
-            <li @click="distributeGrimoireAsk">发送魔典</li>
-            <li @click="toggleModal('voteHistory')">投票记录</li>
           </div>
         </template>
 
@@ -155,21 +174,6 @@
           <!-- Characters -->
           <li class="headline">剧本和角色</li>
           <div class="options">
-            <li @click="toggleGrimoire" v-if="players.length">
-              <template v-if="!grimoire.isPublic">隐藏角色</template>
-              <template v-if="grimoire.isPublic">显示</template>
-            </li>
-            <li @click="toggleNightOrder" v-if="players.length">
-              夜间顺序
-              <em>
-                <font-awesome-icon
-                  :icon="[
-                    'fas',
-                    grimoire.isNightOrder ? 'check-square' : 'square',
-                  ]"
-                />
-              </em>
-            </li>
             <li v-if="!session.isSpectator" @click="toggleModal('edition')">
               选择剧本
             </li>
@@ -185,8 +189,6 @@
             <li v-if="!session.isSpectator" @click="customiseBootlegger">
               <small> 自定义私货商人 </small>
             </li>
-            <li @click="toggleModal('reference')">角色技能表</li>
-            <li @click="toggleModal('nightOrder')">夜间顺序表</li>
             <li v-if="!session.isSpectator" @click="useOldOrderAsk">
               使用原夜间顺序
             </li>
@@ -354,6 +356,7 @@
       <div>
         <button @click="distributeBluffs('demon')">恶魔</button>
         <button @click="distributeBluffs('lunatic')">疯子</button>
+        <button @click="distributeBluffs('minionAll')">所有爪牙</button>
         <button @click="distributeBluffs('snitch')">爪牙（告密者）</button>
         <button @click="distributeBluffs((role = null), (seat = true))">
           输入座位号
@@ -466,10 +469,13 @@ export default {
       );
     },
     isSessionTabVisible() {
-      return !!this.session.sessionId && !this.session.isSpectator;
+      return !this.session.isSpectator || !!this.session.sessionId;
     },
     isPlayersTabVisible() {
       return !this.session.isSpectator || !!this.session.sessionId;
+    },
+    isOnlineStoryteller() {
+      return !!this.session.sessionId && !this.session.isSpectator;
     },
   },
   data() {
@@ -748,8 +754,11 @@ export default {
         case "lunatic":
           roleText = "疯子";
           break;
+        case "minionAll":
+          roleText = "所有爪牙";
+          break;
         case "snitch":
-          roleText = "爪牙";
+          roleText = "爪牙（告密者）";
           break;
       }
       const text = roleText ? roleText : seatNum + "号位";
@@ -909,9 +918,9 @@ export default {
         inputType: "joinSession",
         inputModal: "input",
         inputData: {
-          name: ["输入房间号/链接"],
-          length: 1,
-          placeholder: [""],
+          name: [],
+          length: 0,
+          placeholder: [],
         },
       }).catch(() => {
         return null;
@@ -1258,7 +1267,6 @@ export default {
       "toggleImageOptIn",
       "toggleForwardEvilInfo",
       "toggleMuted",
-      "toggleNightOrder",
       "toggleStatic",
       "setZoom",
       "toggleModal",

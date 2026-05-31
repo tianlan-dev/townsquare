@@ -143,7 +143,6 @@ export default new Vuex.Store({
     grimoire: {
       phaseIndex: 0,
       isNight: true,
-      isNightOrder: true,
       isPublic: false,
       isMenuOpen: isDesktopViewport(),
       isStatic: false,
@@ -237,7 +236,6 @@ export default new Vuex.Store({
     setMenuOpen({ grimoire }, isOpen) {
       grimoire.isMenuOpen = isOpen;
     },
-    toggleNightOrder: toggle("isNightOrder"),
     toggleStatic: toggle("isStatic"),
     setPhaseIndex({ grimoire }, phaseIndex) {
       setPhaseIndex(grimoire, phaseIndex);

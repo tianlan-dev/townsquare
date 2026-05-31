@@ -193,12 +193,6 @@ class LiveSession {
    */
   _onOpen() {
     if (this._isSpectator) {
-      this._sendDirect(
-        "host",
-        "getGamestate",
-        this._store.state.session.playerId,
-      );
-      this._sendDirect("host", "getStId", this._store.state.session.playerId);
       this.checkAllowJoin();
     } else {
       if (this._store.state.session.isHostAllowed === true) {
@@ -294,6 +288,12 @@ class LiveSession {
         break;
       case "passwordResult":
         this._handlePasswordResult(params);
+        break;
+      case "joinCheck":
+        this._handleJoinCheck(params);
+        break;
+      case "joinResult":
+        this._handleJoinResult(params);
         break;
       case "getGamestate":
         this.sendGamestate(params);
@@ -676,11 +676,7 @@ class LiveSession {
 
     if (result.allowed) {
       this._pendingJoinHasPassword = !!result.hasPassword;
-      if (result.hasPassword) {
-        await this._requestPasswordValidation();
-      } else {
-        this._joinAllowedRoom();
-      }
+      await this._requestJoinValidation(result.hasPassword);
     } else {
       await this.showInputModal({
         inputType: "alert",
@@ -700,13 +696,13 @@ class LiveSession {
     }
   }
 
-  async _requestPasswordValidation() {
+  async _requestJoinValidation(needsPassword) {
     const sessionId = this._store.state.session.sessionId;
     let password =
       this._store.state.session.pendingJoinPassword ||
       this._store.state.session.savedRoomPasswords[sessionId] ||
       "";
-    if (!password) {
+    if (needsPassword && !password) {
       const input = await this.showInputModal({
         inputType: "roomPassword",
         inputModal: "input",
@@ -726,12 +722,13 @@ class LiveSession {
       password = input[0] || "";
       this._store.commit("session/setPendingJoinPassword", password);
     }
-    this._sendDirect("host", "passwordCheck", {
+    this._sendDirect("host", "joinCheck", {
       playerId: this._store.state.session.playerId,
       password,
     });
     clearTimeout(this._passwordTimer);
     this._passwordTimer = setTimeout(async () => {
+      this._resetPendingJoin();
       await this.showInputModal({
         inputType: "alert",
         inputModal: "text",
@@ -741,22 +738,30 @@ class LiveSession {
       }).catch(() => {
         return null;
       });
-      this._store.commit("session/setSessionId", "");
-      this._store.commit("session/setSpectator", false);
     }, 3000);
   }
 
   _handlePasswordCheck(params = {}) {
+    this._handleJoinCheck(params);
+  }
+
+  _handleJoinCheck(params = {}) {
     if (this._isSpectator) return;
     const playerId = params.playerId;
     if (!playerId) return;
     const roomPassword = this._store.state.session.roomPassword || "";
-    this._sendDirect(playerId, "passwordResult", {
+    this._sendDirect(playerId, "joinResult", {
       allowed: !roomPassword || params.password === roomPassword,
+      reason:
+        roomPassword && params.password !== roomPassword ? "password" : "",
     });
   }
 
   async _handlePasswordResult(params = {}) {
+    await this._handleJoinResult(params);
+  }
+
+  async _handleJoinResult(params = {}) {
     if (!this._isSpectator) return;
     clearTimeout(this._passwordTimer);
     this._passwordTimer = null;
@@ -772,18 +777,24 @@ class LiveSession {
       this._joinAllowedRoom();
       return;
     }
+    const failedSessionId = this._store.state.session.sessionId;
+    this._resetPendingJoin();
     await this.showInputModal({
       inputType: "alert",
       inputModal: "text",
       inputData: {
-        name: ["房间密码错误！"],
+        name: [
+          params.reason === "password" ? "房间密码错误！" : "无法加入房间。",
+        ],
       },
     }).catch(() => {
       return null;
     });
     this._store.commit("session/setPendingJoinPassword", "");
-    this._store.commit("session/setSessionId", "");
-    this._store.commit("session/setSpectator", false);
+    if (params.reason === "password") {
+      await this._retryPasswordJoin(failedSessionId);
+      return;
+    }
   }
 
   _joinAllowedRoom() {
@@ -797,6 +808,35 @@ class LiveSession {
       this._store.state.session.playerId,
     );
     this._sendDirect("host", "getStId", this._store.state.session.playerId);
+  }
+
+  _resetPendingJoin() {
+    this._store.commit("players/clear", true);
+    this._store.commit("session/setSessionId", "");
+    this._store.commit("session/setSpectator", false);
+    this._store.commit("session/setIsJoinAllowed", null);
+    this._pendingJoinHasPassword = false;
+  }
+
+  async _retryPasswordJoin(sessionId) {
+    if (!sessionId) return;
+    const input = await this.showInputModal({
+      inputType: "roomPassword",
+      inputModal: "input",
+      inputData: {
+        name: ["请输入房间密码"],
+        length: 1,
+        placeholder: [""],
+      },
+    }).catch(() => {
+      return null;
+    });
+    if (input === null) return;
+    this._store.commit("session/setPendingJoinPassword", input[0] || "");
+    this._store.commit("session/clearVoteHistory", []);
+    this._store.commit("session/setSpectator", true);
+    this._store.commit("toggleGrimoire", false);
+    this._store.commit("session/setSessionId", sessionId);
   }
 
   async _handleRoomClosed(params = {}) {
@@ -1690,6 +1730,7 @@ class LiveSession {
         team = "demon";
         break;
       case "snitch":
+      case "minionAll":
       case "widow":
       case "spy":
         team = "minion";

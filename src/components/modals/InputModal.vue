@@ -8,18 +8,20 @@
     <span v-if="!!warningMessage" class="warning">{{ warningMessage }}</span>
     <div v-if="session.inputModal === 'input'">
       <form class="input-box" @submit.prevent="confirmInput">
-        <div v-for="n in session.inputData.length" :key="n">
-          <label>{{ session.inputData.name[n - 1] }}</label>
-          <input
-            type="text"
-            :id="'input-' + n"
-            :ref="'input-' + n"
-            autocomplete="off"
-            @focus="typing"
-            @blur="notTyping"
-            v-model="input[n - 1]"
-          />
-        </div>
+        <template v-if="!isJoinSessionInput">
+          <div v-for="n in session.inputData.length" :key="n">
+            <label>{{ session.inputData.name[n - 1] }}</label>
+            <input
+              type="text"
+              :id="'input-' + n"
+              :ref="'input-' + n"
+              autocomplete="off"
+              @focus="typing"
+              @blur="notTyping"
+              v-model="input[n - 1]"
+            />
+          </div>
+        </template>
         <div v-if="isJoinSessionInput" class="room-list">
           <div class="room-list-header">
             <div class="room-list-title">当前房间</div>
@@ -29,15 +31,20 @@
               :disabled="!canRefreshRooms"
               @click="refreshRoomList"
             >
-              刷新
+              {{ refreshRoomButtonText }}
             </button>
           </div>
           <div v-if="sortedRoomDetails.length" class="room-list-items">
             <div
               v-for="room in sortedRoomDetails"
               :key="room.id"
-              class="room-list-row"
+              class="room-list-row selectable"
               :title="roomTimeTitle(room)"
+              role="button"
+              tabindex="0"
+              @click="selectRoom(room)"
+              @keydown.enter.prevent="selectRoom(room)"
+              @keydown.space.prevent="selectRoom(room)"
               @mouseenter="showRoomInfo(room.id)"
               @mouseleave="hideRoomInfo"
               @touchstart="startRoomInfoPress(room.id, $event)"
@@ -78,7 +85,9 @@
           <div v-else class="room-list-empty">暂无可加入的房间</div>
         </div>
         <div class="input-actions">
-          <button type="submit" class="confirm">确认</button>
+          <button v-if="!isJoinSessionInput" type="submit" class="confirm">
+            确认
+          </button>
           <button type="button" @click="close">取消</button>
         </div>
       </form>
@@ -130,6 +139,17 @@ export default {
     canRefreshRooms() {
       return this.now - this.session.roomListRefreshedAt >= 15 * 1000;
     },
+    refreshRoomCooldownSeconds() {
+      if (this.canRefreshRooms) return 0;
+      return Math.ceil(
+        (15 * 1000 - (this.now - this.session.roomListRefreshedAt)) / 1000,
+      );
+    },
+    refreshRoomButtonText() {
+      return this.canRefreshRooms
+        ? "刷新"
+        : `${this.refreshRoomCooldownSeconds}秒后刷新`;
+    },
   },
   data() {
     return {
@@ -166,7 +186,11 @@ export default {
       if (isOpen) {
         if (this.session.inputModal === "input") {
           this.$nextTick(() => {
-            this.$refs["input-1"][0].select();
+            if (this.isJoinSessionInput) {
+              this.refreshRoomList();
+            } else {
+              this.$refs["input-1"][0].select();
+            }
           });
         } else if (this.session.inputModal === "confirm") {
           this.$nextTick(() => {
@@ -184,7 +208,7 @@ export default {
     window.addEventListener("resize", this.handleResize);
     this.relativeTimer = setInterval(() => {
       this.now = Date.now();
-    }, 60 * 1000);
+    }, 1000);
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.handleResize);
@@ -252,21 +276,7 @@ export default {
           }
           break;
         case "joinSession":
-          {
-            const sessionId = this.normalizedSessionId(this.input[0]);
-            if (!this.session.rooms.includes(sessionId)) {
-              this.warningMessage = `房间"${sessionId}"不存在！`;
-              return;
-            }
-            const room = this.session.roomDetails.find(
-              (detail) => detail.id === sessionId,
-            );
-            if (room && !room.hostOnline) {
-              this.warningMessage = "说书人暂时离开，稍后再试。";
-              return;
-            }
-          }
-          break;
+          return;
         case "seatNum":
           {
             let seatNum = Number(this.input[0]);
@@ -362,6 +372,17 @@ export default {
       this.$store.commit("session/setRoomListRefreshedAt", Date.now());
       this.now = Date.now();
       this.$store.commit("session/requestRoomListRefresh");
+    },
+    selectRoom(room) {
+      if (!room) return;
+      if (!room.hostOnline) {
+        this.warningMessage = "说书人暂时离开，稍后再试。";
+        return;
+      }
+      if (this.session.inputResolver) {
+        this.session.inputResolver([room.id]);
+      }
+      this.close();
     },
     showRoomInfo(roomId) {
       this.activeRoomInfoId = roomId;
@@ -506,6 +527,16 @@ export default {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.08);
   text-align: left;
+}
+
+.room-list-row.selectable {
+  cursor: pointer;
+}
+
+.room-list-row.selectable:focus,
+.room-list-row.selectable:hover {
+  background: rgba(255, 255, 255, 0.14);
+  outline: none;
 }
 
 .room-list-main {
