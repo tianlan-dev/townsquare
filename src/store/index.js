@@ -241,6 +241,55 @@ export default new Vuex.Store({
     phaseInfo: ({ grimoire }) => getPhaseInfo(grimoire.phaseIndex),
     phaseLabelByIndex: () => (phaseIndex) => getPhaseInfo(phaseIndex).label,
   },
+  actions: {
+    resetRoomState({ commit, state }, { clearPlayers = true } = {}) {
+      commit("session/claimSeat", -1);
+      commit("session/setSessionId", "");
+      commit("session/setSpectator", false);
+      commit("session/setStorytellerName", "");
+      commit("session/setStorytellerOnline", false);
+      commit("session/setStId", "");
+      commit("session/setIsHostAllowed", null);
+      commit("session/setIsJoinAllowed", null);
+      commit("session/setPendingJoinPassword", "");
+      commit("session/setRoomPassword", "");
+      commit("session/setClosingRoom", false);
+      commit("session/setLeavingRoom", false);
+      commit("session/setReconnecting", false);
+      commit("session/clearVoteHistory", []);
+      commit("session/setPlayerVotes", 1);
+      commit("session/setSecretVote", false);
+      commit("session/setIsReview", false);
+      commit("session/setBootlegger", "");
+      commit("session/stopTimer");
+      commit("setPhaseIndex", 0);
+      commit("setMurderScene", defaultMurderScene());
+
+      if (state.session.nomination) {
+        commit("session/nomination");
+      }
+
+      commit("session/setIsRole", {
+        role: "wraith",
+        property: "active",
+        value: false,
+      });
+      commit("session/setIsRole", {
+        role: "wraith",
+        property: "using",
+        value: false,
+        st: true,
+      });
+
+      commit("players/setFabled", {
+        fabled: [],
+        emptyFabled: true,
+      });
+      if (clearPlayers) {
+        commit("players/clear", true);
+      }
+    },
+  },
   mutations: {
     setZoom: set("zoom"),
     toggleMuted: toggle("isMuted"),
@@ -469,6 +518,5 @@ export default new Vuex.Store({
       state.modals.edition = false;
     },
   },
-  actions: {},
   plugins: [persistence, socket],
 });

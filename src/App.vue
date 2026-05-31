@@ -199,11 +199,13 @@ export default {
     keyup({ key, ctrlKey, metaKey }) {
       if (ctrlKey || metaKey) return;
       if (this.session.isTyping && key != "Escape") return;
+      const isInRoom = !!this.session.sessionId;
       switch (key.toLocaleLowerCase()) {
         case "m":
           this.$store.commit("toggleMenu");
           break;
         case "g":
+          if (!isInRoom) return;
           this.$store.commit("toggleGrimoire");
           break;
         // case "a":
@@ -216,29 +218,36 @@ export default {
           this.$refs.menu.joinSession();
           break;
         case "r":
+          if (!isInRoom) return;
           this.$store.commit("toggleModal", "reference");
           break;
         case "n":
+          if (!isInRoom) return;
           this.$store.commit("toggleModal", "nightOrder");
           break;
         case "e":
+          if (!isInRoom) return;
           if (this.session.isSpectator) return;
           this.$store.commit("toggleModal", "edition");
           break;
         case "c":
+          if (!isInRoom) return;
           if (this.session.isSpectator) return;
           this.$store.commit("toggleModal", "roles");
           break;
         case "f":
+          if (!isInRoom) return;
           if (this.session.isSpectator) return;
           this.$store.commit("toggleModal", "fabled");
           break;
         case "v":
+          if (!isInRoom) return;
           if (this.session.voteHistory.length || !this.session.isSpectator) {
             this.$store.commit("toggleModal", "voteHistory");
           }
           break;
         case "t":
+          if (!isInRoom) return;
           if (this.session.isSpectator) return;
           this.$refs.menu.setTimer();
           break;

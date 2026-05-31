@@ -178,6 +178,7 @@ function roomFor(channel) {
       host: null,
       clients: new Map(),
       members: new Map(),
+      pendingSeatVacates: new Map(),
       createdAt: Date.now(),
       lastHostHeartbeat: Date.now(),
     });
@@ -188,7 +189,6 @@ function roomFor(channel) {
 function isRoomExpired(room) {
   return (
     !!room &&
-    room.clients.size === 0 &&
     !isHostOnline(room) &&
     Date.now() - room.lastHostHeartbeat > ROOM_TTL_MS
   );
@@ -264,9 +264,24 @@ function unregisterPresence(room, socket, name) {
     : socket.displayName || room.members.get(playerId);
   if (!room.members.has(playerId)) return;
   room.members.delete(playerId);
+  if (isHostOnline(room)) {
+    send(room.host, "claim", [-1, playerId, playerName, ""]);
+    send(room.host, "bye", playerId);
+  } else {
+    room.pendingSeatVacates.set(playerId, playerName);
+  }
   socket.hasJoinedPresence = false;
   socket.hasLeftPresence = true;
   announcePresence(room, socket, "leave", playerName);
+}
+
+function flushPendingSeatVacates(room) {
+  if (!isHostOnline(room)) return;
+  room.pendingSeatVacates.forEach((playerName, playerId) => {
+    send(room.host, "claim", [-1, playerId, playerName, ""]);
+    send(room.host, "bye", playerId);
+  });
+  room.pendingSeatVacates.clear();
 }
 
 function activeRooms() {
@@ -440,6 +455,7 @@ function handleRequest(room, socket, requests) {
       room.lastHostHeartbeat = Date.now();
       broadcastRoom(room, socket, "storytellerOnline", true);
       broadcastRoom(room, socket, "storytellerName", room.hostName || "说书人");
+      flushPendingSeatVacates(room);
       if (wasNewRoom) addRoomToLobby(room.channel);
       else broadcastLobby("setRoomDetails", activeRoomDetails());
     }

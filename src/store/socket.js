@@ -67,59 +67,7 @@ class LiveSession {
           3 * 1000,
         );
       } else if (shouldReset) {
-        // vacate seat upon leaving the room
-        this._store.commit("session/claimSeat", -1);
-
-        this._store.commit("session/setSessionId", "");
-        this._store.commit("session/setSpectator", false);
-        this._store.commit("session/setStorytellerName", "");
-        this._store.commit("session/setStorytellerOnline", false);
-        this._store.commit("session/setIsHostAllowed", null);
-        this._store.commit("session/setIsJoinAllowed", null);
-        // clear seats and return to intro
-        if (this._store.state.session.nomination) {
-          this._store.commit("session/nomination");
-        }
-        // this._store.commit("players/clear", true);
-
-        // clear customBootlegger
-        if (this._store.state.session.bootlegger) {
-          this._store.commit("session/setBootlegger", "");
-        }
-
-        // reset allowed votes
-        if (this._store.state.session.playerVotes > 1) {
-          this._store.commit("session/setPlayerVotes", 1);
-        }
-
-        // reset secret vote
-        if (this._store.state.session.isSecretVote) {
-          this._store.commit("session/setSecretVote", false);
-        }
-
-        // reset review
-        if (this._store.state.session.isReview) {
-          this._store.commit("session/setIsReview", false);
-        }
-
-        // reset fabled
-        this._store.commit("players/setFabled", {
-          fabled: [],
-          emptyFabled: true,
-        });
-
-        // reset wraith
-        this._store.commit("session/setIsRole", {
-          role: "wraith",
-          property: "active",
-          value: false,
-        });
-        this._store.commit("session/setIsRole", {
-          role: "wraith",
-          property: "using",
-          value: false,
-          st: true,
-        });
+        this._store.dispatch("resetRoomState");
 
         if (err.reason) {
           this.showInputModal({
@@ -197,12 +145,7 @@ class LiveSession {
     if (this._isSpectator) {
       this.checkAllowJoin();
     } else {
-      if (this._store.state.session.isHostAllowed === true) {
-        this._startHostHeartbeat();
-        this.sendGamestate();
-      } else {
-        this.checkAllowHost();
-      }
+      this.checkAllowHost();
     }
     this._ping();
   }
@@ -595,7 +538,7 @@ class LiveSession {
    * Send request to server to check if hosting channel is allowed (no existing hosts).
    */
   async checkAllowHost() {
-    if (this._store.state.session.isHostAllowed === true) return;
+    clearTimeout(this._store.state.session.hostTimeout);
     this._request(
       "checkAllowHost",
       this._store.state.session.playerId,
@@ -622,8 +565,7 @@ class LiveSession {
    * @param allow indicator to if hosting the channel is allowed
    */
   async _handleAllowHost(allow) {
-    if (this._store.state.session.isHostAllowed === true) return;
-    clearInterval(this._store.state.session.hostTimeout);
+    clearTimeout(this._store.state.session.hostTimeout);
     this._store.state.session.hostTimeout = null;
     this._store.commit("session/setIsHostAllowed", allow ? allow : null);
 
@@ -854,18 +796,8 @@ class LiveSession {
   }
 
   async _handleRoomClosed(params = {}) {
-    if (!this._isSpectator) return;
-    this._store.commit("session/setSessionId", "");
-    this._store.commit("session/setSpectator", false);
-    this._store.commit("session/setStorytellerName", "");
-    this._store.commit("session/setStorytellerOnline", false);
-    this._store.commit("setPhaseIndex", 0);
-    this._store.commit("session/setIsHostAllowed", null);
-    this._store.commit("session/setIsJoinAllowed", null);
-    if (this._store.state.session.nomination) {
-      this._store.commit("session/nomination");
-    }
-    this._store.commit("players/clear", true);
+    this.disconnect(false);
+    this._store.dispatch("resetRoomState");
     await this.showInputModal({
       inputType: "alert",
       inputModal: "text",

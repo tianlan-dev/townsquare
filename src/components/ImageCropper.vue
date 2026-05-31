@@ -58,18 +58,6 @@ export default {
       });
     },
     async uploadAvatar() {
-      if (!this.session.sessionId) {
-        await this.showInputModal({
-          inputType: "alert",
-          inputModal: "text",
-          inputData: {
-            name: ["头像上传成功！"],
-          },
-        }).catch(() => {
-          return null;
-        });
-        return;
-      }
       this.$refs.upload.click();
     },
     onFileChange(event) {
@@ -113,7 +101,11 @@ export default {
     sendImage() {
       const canvas = this.cropper.getCroppedCanvas();
       this.croppedImage = canvas.toDataURL("image/webp");
-      this.$store.commit("session/setPlayerAvatar", this.croppedImage);
+      if (this.session.sessionId) {
+        this.$store.commit("session/setPlayerAvatar", this.croppedImage);
+      } else {
+        this.$store.commit("session/updatePlayerAvatar", this.croppedImage);
+      }
       this.closeCropping();
     },
     closeCropping() {

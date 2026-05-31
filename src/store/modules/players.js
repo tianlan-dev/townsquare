@@ -282,10 +282,11 @@ const mutations = {
     { index, fabled, stImage, stName, emptyFabled = false } = {},
   ) {
     if (!stImage)
-      stImage =
-        this.state.session.playerAvatar === "default.webp"
-          ? STORYTELLER_AVATAR
-          : this.state.session.playerAvatar;
+      stImage = ["default.webp", "default-townsperson.webp"].includes(
+        this.state.session.playerAvatar,
+      )
+        ? STORYTELLER_AVATAR
+        : this.state.session.playerAvatar;
     if (!stName) stName = this.state.session.playerName;
     if (index !== undefined) {
       if (index == 0) return; // do not ever remove the first fabled i.e. storyteller

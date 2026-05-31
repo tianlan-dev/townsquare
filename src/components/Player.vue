@@ -101,7 +101,12 @@
           title="Nominate this player"
         />
         <div
-          v-if="!player.id && session.isSpectator && !session.isReview"
+          v-if="
+            !player.id &&
+            session.isSpectator &&
+            !session.isReview &&
+            session.isStorytellerOnline
+          "
           class="sitDown"
           :style="font"
         >
@@ -257,7 +262,7 @@
           </template>
           <li
             @click="claimSeat"
-            v-if="session.isSpectator"
+            v-if="session.isSpectator && session.isStorytellerOnline"
             :class="{ disabled: player.id && player.id !== session.playerId }"
           >
             <font-awesome-icon icon="chair" />
@@ -482,9 +487,13 @@ export default {
       }
     },
     avatarSrc(image) {
-      const filename = String(image || "default.webp")
-        .split("/")
-        .pop();
+      const value = String(image || "default-townsperson.webp");
+      if (value.startsWith("data:") || value.startsWith("blob:")) return value;
+      if (value.startsWith("/")) return value;
+      if (/^https?:/i.test(value) && this.shouldUseImageUrl(value)) {
+        return value;
+      }
+      const filename = value.split("/").pop();
       return `/avatars/${filename}`;
     },
     async showInputModal({ inputType, inputModal, inputData }) {
@@ -645,12 +654,15 @@ export default {
       this.checkOverTop(false);
     },
     updatePlayer(property, value, closeMenu = false) {
+      const isLocalReminder =
+        property === "reminders" || property === "stReminders";
       if (
         this.session.isSpectator &&
-        property !== "reminders" &&
-        property !== "stReminders"
+        !this.session.isStorytellerOnline &&
+        !isLocalReminder
       )
         return;
+      if (this.session.isSpectator && !isLocalReminder) return;
       this.$store.commit("players/update", {
         player: this.player,
         property,

@@ -1,6 +1,27 @@
 module.exports = (store) => {
   if (window.location.pathname != "/") return;
 
+  const roomStorageKeys = [
+    "players",
+    "bluffs",
+    "fabled",
+    "session",
+    "roomPassword",
+    "stId",
+    "claimedSeat",
+    "playerVotes",
+    "votes",
+    "votesSelected",
+    "customBootlegger",
+    "secretVote",
+    "isReview",
+    "isRole",
+    "phaseIndex",
+  ];
+  const removeRoomStorage = () => {
+    roomStorageKeys.forEach((key) => localStorage.removeItem(key));
+  };
+
   const updatePagetitle = (isPublic) =>
     // (document.title = `Blood on the Clocktower ${
     //   isPublic ? "Town Square" : "Grimoire"
@@ -173,9 +194,19 @@ module.exports = (store) => {
     store.commit("session/setBootlegger", customBootlegger);
   }
   if (localStorage.getItem("playerAvatar")) {
+    const savedAvatar = localStorage.getItem("playerAvatar");
+    if (
+      savedAvatar === "default.webp" ||
+      savedAvatar === "default-townsperson.png"
+    ) {
+      localStorage.setItem("playerAvatar", "default-townsperson.webp");
+    }
     store.commit(
       "session/updatePlayerAvatar",
-      localStorage.getItem("playerAvatar"),
+      savedAvatar === "default.webp" ||
+        savedAvatar === "default-townsperson.png"
+        ? "default-townsperson.webp"
+        : savedAvatar,
     );
   }
   if (localStorage.getItem("secretVote")) {
@@ -195,6 +226,13 @@ module.exports = (store) => {
         st: true,
       });
     }
+  }
+  if (localStorage.getItem("phaseIndex")) {
+    store.commit("setPhaseIndex", Number(localStorage.getItem("phaseIndex")));
+  }
+  if (!store.state.session.sessionId) {
+    store.dispatch("resetRoomState");
+    removeRoomStorage();
   }
   // listen to mutations
   store.subscribe(({ type, payload }, state) => {
@@ -275,7 +313,11 @@ module.exports = (store) => {
         );
         break;
       case "players/setFabled":
-        localStorage.setItem("fabled", JSON.stringify(state.players.fabled));
+        if (state.players.fabled.length) {
+          localStorage.setItem("fabled", JSON.stringify(state.players.fabled));
+        } else {
+          localStorage.removeItem("fabled");
+        }
         break;
       case "players/add":
       case "players/update":
@@ -306,7 +348,7 @@ module.exports = (store) => {
             JSON.stringify([state.session.isSpectator, payload]),
           );
         } else {
-          localStorage.removeItem("session");
+          removeRoomStorage();
         }
         break;
       case "session/setPlayerId":
@@ -338,7 +380,11 @@ module.exports = (store) => {
         );
         break;
       case "session/setStId":
-        localStorage.setItem("stId", payload);
+        if (payload) {
+          localStorage.setItem("stId", payload);
+        } else {
+          localStorage.removeItem("stId");
+        }
         break;
       case "session/claimSeat":
         if (payload >= 0) {
@@ -348,7 +394,11 @@ module.exports = (store) => {
         }
         break;
       case "session/setPlayerVotes":
-        localStorage.setItem("playerVotes", JSON.stringify(payload));
+        if (payload !== 1) {
+          localStorage.setItem("playerVotes", JSON.stringify(payload));
+        } else {
+          localStorage.removeItem("playerVotes");
+        }
         break;
       case "session/addVotes": {
         if (payload.save) {
@@ -397,13 +447,21 @@ module.exports = (store) => {
         break;
       }
       case "session/setBootlegger":
-        localStorage.setItem("customBootlegger", JSON.stringify(payload));
+        if (payload) {
+          localStorage.setItem("customBootlegger", JSON.stringify(payload));
+        } else {
+          localStorage.removeItem("customBootlegger");
+        }
         break;
       case "session/updatePlayerAvatar":
         localStorage.setItem("playerAvatar", payload);
         break;
       case "session/setSecretVote":
-        localStorage.setItem("secretVote", JSON.stringify(payload));
+        if (payload) {
+          localStorage.setItem("secretVote", JSON.stringify(payload));
+        } else {
+          localStorage.removeItem("secretVote");
+        }
         break;
       case "session/setUseOldOrder":
         if (payload)
@@ -414,7 +472,11 @@ module.exports = (store) => {
           localStorage.setItem("useOldRole", JSON.stringify(payload));
         break;
       case "session/setIsReview":
-        localStorage.setItem("isReview", JSON.stringify(payload));
+        if (payload) {
+          localStorage.setItem("isReview", JSON.stringify(payload));
+        } else {
+          localStorage.removeItem("isReview");
+        }
         break;
       case "session/setIsRole":
         {
@@ -443,6 +505,12 @@ module.exports = (store) => {
             localStorage.setItem("isRole", JSON.stringify(isRole));
           }
         }
+        break;
+      case "setPhaseIndex":
+      case "nextPhase":
+      case "previousPhase":
+      case "toggleNight":
+        localStorage.setItem("phaseIndex", state.grimoire.phaseIndex);
         break;
     }
   });

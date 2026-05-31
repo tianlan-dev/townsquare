@@ -17,7 +17,7 @@ const handleVote = (state, [index, vote]) => {
 
 const state = () => ({
   sessionId: "",
-  StId: null,
+  stId: null,
   rooms: null,
   roomDetails: [],
   roomListRefreshKey: 0,
@@ -36,7 +36,7 @@ const state = () => ({
   storytellerName: "",
   playerId: "",
   playerName: "",
-  playerAvatar: "default.webp",
+  playerAvatar: "default-townsperson.webp",
   roomPassword: "",
   pendingJoinPassword: "",
   savedRoomPasswords: {},
