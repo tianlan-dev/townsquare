@@ -4,6 +4,10 @@
     "name": "三军听令v0.7",
     "author": "吃蛋挞的折棒",
     "logo": "/scripts/assets/san-jun-ting-ling-v0.7/_meta-b9ed4de6.png",
+    "playerAvatars": {
+      "male": "/scripts/assets/san-jun-ting-ling-v0.7/player-avatar-male.png",
+      "female": "/scripts/assets/san-jun-ting-ling-v0.7/player-avatar-female.png"
+    },
     "A jinxed": "相克",
     "status": [
       {

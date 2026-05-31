@@ -5,7 +5,11 @@
     "author": "Zets",
     "id": "_meta",
     "townsfolkName": "镇民",
-    "name": "夜半狂欢"
+    "name": "夜半狂欢",
+    "playerAvatars": {
+      "male": "/scripts/assets/ye-ban-kuang-huan/player-avatar-male.png",
+      "female": "/scripts/assets/ye-ban-kuang-huan/player-avatar-female.png"
+    }
   },
   {
     "ability": "如果你表现得很有趣，当天你不能被流放。",

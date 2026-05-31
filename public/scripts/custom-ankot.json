@@ -2,7 +2,11 @@
   {
     "id": "_meta",
     "name": "诡异童话",
-    "logo": "/scripts/assets/custom-ankot/_meta-f3ecfc4f.png"
+    "logo": "/scripts/assets/custom-ankot/_meta-f3ecfc4f.png",
+    "playerAvatars": {
+      "male": "/scripts/assets/custom-ankot/player-avatar-male.png",
+      "female": "/scripts/assets/custom-ankot/player-avatar-female.png"
+    }
   },
   {
     "id": "ankothearts",

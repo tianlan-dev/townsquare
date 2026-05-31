@@ -3,7 +3,11 @@
     "id": "_meta",
     "name": "指鹅为鸭",
     "author": "647",
-    "logo": "/scripts/assets/zhi-e-wei-ya/_meta-logo-ed8c82bc.png"
+    "logo": "/scripts/assets/zhi-e-wei-ya/_meta-logo-ed8c82bc.png",
+    "playerAvatars": {
+      "male": "/scripts/assets/zhi-e-wei-ya/player-avatar-male.png",
+      "female": "/scripts/assets/zhi-e-wei-ya/player-avatar-female.png"
+    }
   },
   {
     "id": "7_goosegooseduck",
