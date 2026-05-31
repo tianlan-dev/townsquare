@@ -7,12 +7,39 @@
         backgroundImage: `url(${editionLogo})`,
       }"
     ></div>
-    <div class="bottom-right-panel">
+    <div
+      ref="infoPanel"
+      class="bottom-right-panel"
+      @mouseenter="showInfoTooltip"
+      @mouseleave="hideInfoTooltip"
+      @touchstart="startInfoLongPress"
+      @touchmove="cancelInfoLongPress"
+      @touchend="endInfoLongPress"
+      @touchcancel="cancelInfoLongPress"
+    >
+      <transition name="info-tooltip">
+        <div v-if="isInfoTooltipOpen" class="info-tooltip">
+          <div>
+            <span>剧本：</span>
+            <strong>{{ edition.name || "未知剧本" }}</strong>
+          </div>
+          <div>
+            <span>房间号：</span>
+            <strong>{{ roomLabel }}</strong>
+          </div>
+          <div>
+            <span>说书人：</span>
+            <strong>{{ storytellerName }}</strong>
+          </div>
+        </div>
+      </transition>
       <ul class="info">
-        <li v-if="players.length - teams.traveler < 5">请添加更多玩家！</li>
-        <li class="edition-name" v-if="!edition.isOfficial">
-          {{ edition.name }}
+        <li class="phase">
+          <span>
+            {{ phaseInfo.label }}
+          </span>
         </li>
+        <li v-if="players.length - teams.traveler < 5">请添加更多玩家！</li>
         <li>
           <span>
             {{ players.length }}
@@ -61,18 +88,6 @@
             />
           </span>
         </li>
-        <li class="phase">
-          <span>
-            {{ phaseInfo.label }}
-          </span>
-        </li>
-        <li>
-          <span> 房间号： </span>
-          <span v-if="$store.state.session.sessionId">
-            {{ this.$store.state.session.sessionId }}
-          </span>
-          <span v-else> 未加入房间 </span>
-        </li>
         <li v-if="$store.state.session.isReview">复盘视角</li>
       </ul>
     </div>
@@ -84,6 +99,15 @@ import gameJSON from "./../game";
 import { mapGetters, mapState } from "vuex";
 
 export default {
+  data() {
+    return {
+      isInfoTooltipOpen: false,
+      infoLongPressTimer: null,
+      infoTouchStartX: 0,
+      infoTouchStartY: 0,
+      infoTooltipOpenedAt: 0,
+    };
+  },
   computed: {
     teams: function () {
       const { players } = this.$store.state.players;
@@ -106,11 +130,82 @@ export default {
       }
       return require("../assets/editions/" + this.edition.id + ".png");
     },
+    roomLabel() {
+      return this.session.sessionId || "未加入房间";
+    },
+    storytellerName() {
+      const storyteller = this.players.find((player) => player.id === "host");
+      if (storyteller && storyteller.name) return storyteller.name;
+      if (!this.session.isSpectator) return this.session.playerName || "说书人";
+      return "说书人";
+    },
     ...mapState(["edition", "grimoire", "session"]),
     ...mapState("players", ["players"]),
     ...mapGetters(["phaseInfo"]),
   },
+  mounted() {
+    document.addEventListener("touchstart", this.handleOutsideTouch, true);
+  },
+  beforeDestroy() {
+    document.removeEventListener("touchstart", this.handleOutsideTouch, true);
+    this.cancelInfoLongPress();
+  },
   methods: {
+    isTouchPreviewMode() {
+      return (
+        window.matchMedia &&
+        window.matchMedia("(hover: none), (pointer: coarse)").matches
+      );
+    },
+    showInfoTooltip() {
+      if (this.isTouchPreviewMode()) return;
+      this.isInfoTooltipOpen = true;
+      this.infoTooltipOpenedAt = Date.now();
+    },
+    hideInfoTooltip() {
+      this.isInfoTooltipOpen = false;
+    },
+    startInfoLongPress(event) {
+      if (!this.isTouchPreviewMode() || event.touches.length !== 1) return;
+      const touch = event.touches[0];
+      this.infoTouchStartX = touch.clientX;
+      this.infoTouchStartY = touch.clientY;
+      this.cancelInfoLongPress();
+      this.infoLongPressTimer = window.setTimeout(() => {
+        this.infoLongPressTimer = null;
+        this.isInfoTooltipOpen = true;
+        this.infoTooltipOpenedAt = Date.now();
+      }, 450);
+    },
+    cancelInfoLongPress(event) {
+      if (event && event.touches && event.touches.length === 1) {
+        const touch = event.touches[0];
+        const distanceX = Math.abs(touch.clientX - this.infoTouchStartX);
+        const distanceY = Math.abs(touch.clientY - this.infoTouchStartY);
+        if (distanceX <= 10 && distanceY <= 10) return;
+      }
+      if (this.infoLongPressTimer) {
+        window.clearTimeout(this.infoLongPressTimer);
+        this.infoLongPressTimer = null;
+      }
+    },
+    endInfoLongPress(event) {
+      if (this.infoLongPressTimer) {
+        window.clearTimeout(this.infoLongPressTimer);
+        this.infoLongPressTimer = null;
+      } else if (this.isInfoTooltipOpen && this.isTouchPreviewMode()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    },
+    handleOutsideTouch(event) {
+      if (!this.isInfoTooltipOpen) return;
+      if (Date.now() - this.infoTooltipOpenedAt < 500) return;
+      if (this.$refs.infoPanel && this.$refs.infoPanel.contains(event.target)) {
+        return;
+      }
+      this.hideInfoTooltip();
+    },
     shouldUseImageUrl(url) {
       if (!url || typeof url !== "string") return false;
       if (url.startsWith("data:") || url.startsWith("blob:")) return true;
@@ -147,6 +242,57 @@ export default {
   font-size: clamp(12px, 1.2vw, 14px);
   line-height: 1.15;
   z-index: 75;
+}
+
+.info-tooltip {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  width: max-content;
+  max-width: min(280px, calc(100vw - 20px));
+  padding: 8px 10px;
+  color: #fff;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+  text-shadow:
+    0 1px 1px black,
+    0 -1px 1px black,
+    1px 0 1px black,
+    -1px 0 1px black;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  span {
+    color: rgba(255, 255, 255, 0.68);
+  }
+
+  strong {
+    max-width: min(190px, calc(100vw - 92px));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+}
+
+.info-tooltip-enter-active,
+.info-tooltip-leave-active {
+  transition: opacity 140ms ease;
+}
+
+.info-tooltip-enter,
+.info-tooltip-leave-to {
+  opacity: 0;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -194,16 +340,6 @@ export default {
       white-space: nowrap;
     }
 
-    &.edition-name {
-      display: block;
-      text-align: right;
-      max-width: 100%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      font-weight: normal;
-      white-space: nowrap;
-    }
-
     &.phase {
       width: fit-content;
     }
@@ -236,12 +372,6 @@ export default {
     .traveler {
       color: $traveler;
     }
-  }
-}
-
-@media screen and (max-width: 767.98px) {
-  .info li.edition-name {
-    max-width: min(170px, calc(100vw - 36px));
   }
 }
 

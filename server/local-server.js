@@ -91,19 +91,28 @@ const server = http.createServer(app);
 const wss = new WebSocket.Server({ noServer: true });
 const rooms = new Map();
 const lobbies = new Set();
+const ROOM_TTL_MS = 60 * 60 * 1000;
+const ROOM_CLEANUP_MS = 60 * 1000;
 
 function roomFor(channel) {
   if (!rooms.has(channel)) {
     rooms.set(channel, {
       channel,
+      hostPlayerId: null,
+      hostName: "",
+      hasPassword: false,
       host: null,
       clients: new Map(),
-      presences: new Map(),
-      leaveTimers: new Map(),
-      hostLeaveTimer: null
+      members: new Map(),
+      createdAt: Date.now(),
+      lastHostHeartbeat: Date.now()
     });
   }
   return rooms.get(channel);
+}
+
+function isRoomExpired(room) {
+  return !!room && Date.now() - room.lastHostHeartbeat > ROOM_TTL_MS;
 }
 
 function send(socket, command, params, feedback = false) {
@@ -113,6 +122,7 @@ function send(socket, command, params, feedback = false) {
 }
 
 function broadcastRoom(room, sender, command, params, feedback = false) {
+  if (!room) return;
   const sockets = new Set(room.clients.values());
   if (room.host) sockets.add(room.host);
   sockets.forEach(socket => {
@@ -121,6 +131,7 @@ function broadcastRoom(room, sender, command, params, feedback = false) {
 }
 
 function broadcastRoomAll(room, command, params, feedback = false) {
+  if (!room) return;
   const sockets = new Set(room.clients.values());
   if (room.host) sockets.add(room.host);
   sockets.forEach(socket => send(socket, command, params, feedback));
@@ -134,82 +145,102 @@ function displayName(name) {
 function announcePresence(room, socket, action, name) {
   const playerName = displayName(name);
   socket.displayName = playerName;
-  broadcastRoomAll(room, "presenceNotice", {
+  const payload = {
     action,
     name: playerName
-  });
+  };
+  if (action === "leave") {
+    broadcastRoom(room, socket, "presenceNotice", payload);
+  } else {
+    broadcastRoomAll(room, "presenceNotice", payload);
+  }
 }
 
 function registerPresence(room, socket, name) {
   const playerName = displayName(name);
-  const pendingLeave = room.leaveTimers.get(socket.playerId);
   socket.hasJoinedPresence = true;
   socket.hasLeftPresence = false;
   socket.displayName = playerName;
 
-  if (pendingLeave) {
-    clearTimeout(pendingLeave);
-    room.leaveTimers.delete(socket.playerId);
-    room.presences.set(socket.playerId, playerName);
+  if (room.members.has(socket.playerId)) {
+    room.members.set(socket.playerId, playerName);
     return;
   }
 
-  if (room.presences.has(socket.playerId)) {
-    room.presences.set(socket.playerId, playerName);
-    return;
-  }
-
-  room.presences.set(socket.playerId, playerName);
+  room.members.set(socket.playerId, playerName);
   announcePresence(room, socket, "join", playerName);
 }
 
 function updatePresence(room, socket, name) {
-  if (!room.presences.has(socket.playerId)) return;
+  if (!room.members.has(socket.playerId)) return;
   const playerName = displayName(name);
   socket.displayName = playerName;
-  room.presences.set(socket.playerId, playerName);
+  room.members.set(socket.playerId, playerName);
 }
 
 function unregisterPresence(room, socket, name) {
   const playerId = socket.playerId;
   const playerName = name
     ? displayName(name)
-    : socket.displayName || room.presences.get(playerId);
-  const pendingLeave = room.leaveTimers.get(playerId);
-  if (pendingLeave) {
-    clearTimeout(pendingLeave);
-    room.leaveTimers.delete(playerId);
-  }
-  if (!room.presences.has(playerId)) return;
-  room.presences.delete(playerId);
+    : socket.displayName || room.members.get(playerId);
+  if (!room.members.has(playerId)) return;
+  room.members.delete(playerId);
   socket.hasJoinedPresence = false;
   socket.hasLeftPresence = true;
-  if (room.host && room.host.readyState === WebSocket.OPEN) {
-    announcePresence(room, socket, "leave", playerName);
-  }
-}
-
-function schedulePresenceLeave(room, socket) {
-  const playerId = socket.playerId;
-  const playerName = socket.displayName;
-  const timer = setTimeout(() => {
-    room.leaveTimers.delete(playerId);
-    if (room.clients.has(playerId)) return;
-    if (!room.presences.has(playerId)) return;
-    room.presences.delete(playerId);
-    socket.hasJoinedPresence = false;
-    socket.hasLeftPresence = true;
-    if (room.host && room.host.readyState === WebSocket.OPEN) {
-      announcePresence(room, socket, "leave", playerName);
-    }
-  }, 5000);
-  room.leaveTimers.set(playerId, timer);
+  announcePresence(room, socket, "leave", playerName);
 }
 
 function activeRooms() {
   return Array.from(rooms.values())
-    .filter(room => room.host && room.host.readyState === WebSocket.OPEN)
+    .filter(room => room.hostPlayerId && !isRoomExpired(room))
     .map(room => room.channel);
+}
+
+function isHostOnline(room) {
+  return !!(room.host && room.host.readyState === WebSocket.OPEN);
+}
+
+function activeRoomDetails() {
+  return Array.from(rooms.values())
+    .filter(room => room.hostPlayerId && !isRoomExpired(room))
+    .map(room => {
+      const hostOnline = isHostOnline(room);
+      return {
+        id: room.channel,
+        hostName: room.hostName || "说书人",
+        hostOnline,
+        playerCount: hostOnline ? room.host.roomPlayerCount || null : null,
+        hasPassword: !!room.hasPassword,
+        createdAt: room.createdAt,
+        lastHostHeartbeat: room.lastHostHeartbeat
+      };
+    });
+}
+
+function requestHostRoomInfo() {
+  rooms.forEach(room => {
+    if (isHostOnline(room)) send(room.host, "roomInfoRequest");
+  });
+}
+
+function updateHostRoomInfo(room, params = {}) {
+  if (!room || typeof params !== "object" || params === null) return;
+  if (params.name !== undefined) room.hostName = displayName(params.name);
+  const playerCount = Number(params.playerCount);
+  if (Number.isInteger(playerCount) && playerCount > 0) {
+    room.host.roomPlayerCount = playerCount;
+  }
+  room.hasPassword = !!params.hasPassword;
+}
+
+function sendLobbyRooms(socket, refreshHosts = false) {
+  if (refreshHosts) {
+    requestHostRoomInfo();
+    setTimeout(() => sendLobbyRooms(socket), 150);
+    return;
+  }
+  send(socket, "setRooms", activeRooms());
+  send(socket, "setRoomDetails", activeRoomDetails());
 }
 
 function broadcastLobby(command, params) {
@@ -218,15 +249,27 @@ function broadcastLobby(command, params) {
 
 function addRoomToLobby(channel) {
   broadcastLobby("addRoom", channel);
+  broadcastLobby("setRoomDetails", activeRoomDetails());
 }
 
 function removeRoomFromLobby(channel) {
   broadcastLobby("removeRoom", channel);
+  broadcastLobby("setRoomDetails", activeRoomDetails());
 }
 
-function closeRoomClients(room) {
+function closeRoomClients(room, reason = "房间已被说书人解散。") {
+  const hostSocket = room.host;
+  if (hostSocket && hostSocket.readyState === WebSocket.OPEN) {
+    send(hostSocket, "roomClosed", { reason });
+    setTimeout(() => {
+      if (hostSocket.readyState === WebSocket.OPEN) {
+        hostSocket.close(1000, "Room closed");
+      }
+    }, 50);
+  }
+
   room.clients.forEach(socket => {
-    send(socket, "roomClosed");
+    send(socket, "roomClosed", { reason });
     setTimeout(() => {
       if (socket.readyState === WebSocket.OPEN) {
         socket.close(1000, "Room closed");
@@ -235,19 +278,21 @@ function closeRoomClients(room) {
   });
 }
 
-function scheduleHostLeave(room, socket) {
-  if (room.hostLeaveTimer) clearTimeout(room.hostLeaveTimer);
-  room.hostLeaveTimer = setTimeout(() => {
-    if (room.host && room.host.readyState === WebSocket.OPEN) return;
-    room.hostLeaveTimer = null;
-    room.host = null;
-    removeRoomFromLobby(room.channel);
-    closeRoomClients(room);
-    room.leaveTimers.forEach(timer => clearTimeout(timer));
-    room.leaveTimers.clear();
-    room.presences.clear();
-    if (room.clients.size === 0) rooms.delete(room.channel);
-  }, 5000);
+function closeRoom(room, reason = "房间已被说书人解散。") {
+  const channel = room.channel;
+  closeRoomClients(room, reason);
+  room.members.clear();
+  room.host = null;
+  rooms.delete(channel);
+  removeRoomFromLobby(channel);
+}
+
+function cleanupExpiredRooms() {
+  Array.from(rooms.values()).forEach(room => {
+    if (isRoomExpired(room)) {
+      closeRoom(room, "房间已过期。");
+    }
+  });
 }
 
 function safePlayerId(playerId) {
@@ -277,6 +322,7 @@ function handleUpload(socket, params) {
 }
 
 function routeDirect(room, sender, messages, feedback = false) {
+  if (!room) return;
   if (!messages || typeof messages !== "object") return;
   Object.entries(messages).forEach(([target, payload]) => {
     if (!Array.isArray(payload)) return;
@@ -291,24 +337,42 @@ function handleRequest(room, socket, requests) {
   if (!requests || typeof requests !== "object") return;
 
   if (requests.checkAllowHost) {
+    if (!room) {
+      send(socket, "allowHost", false);
+      return;
+    }
     const currentHostOpen = room.host && room.host.readyState === WebSocket.OPEN;
-    const allowed = !currentHostOpen || room.host === socket;
+    const sameHostIdentity = room.hostPlayerId === socket.playerId;
+    const allowed =
+      !isRoomExpired(room) &&
+      (!room.hostPlayerId || sameHostIdentity);
     if (allowed) {
-      const wasInactive = !currentHostOpen && !room.hostLeaveTimer;
-      if (room.hostLeaveTimer) {
-        clearTimeout(room.hostLeaveTimer);
-        room.hostLeaveTimer = null;
+      const wasNewRoom = !room.hostPlayerId;
+      if (currentHostOpen && room.host !== socket && sameHostIdentity) {
+        room.host.close(1000);
       }
+      room.hostPlayerId = socket.playerId;
+      const [, requestParams] = Array.isArray(requests.checkAllowHost)
+        ? requests.checkAllowHost
+        : [];
       room.host = socket;
       socket.isHost = true;
-      if (wasInactive) addRoomToLobby(room.channel);
+      updateHostRoomInfo(room, requestParams);
+      room.lastHostHeartbeat = Date.now();
+      if (wasNewRoom) addRoomToLobby(room.channel);
+      else broadcastLobby("setRoomDetails", activeRoomDetails());
     }
     send(socket, "allowHost", allowed);
   }
 
   if (requests.checkAllowJoin) {
-    const allowed = !!(room.host && room.host.readyState === WebSocket.OPEN);
-    send(socket, "allowJoin", allowed);
+    const roomExists = !!room && !!room.hostPlayerId && !isRoomExpired(room);
+    const hostOnline = roomExists && isHostOnline(room);
+    send(socket, "allowJoin", {
+      allowed: hostOnline,
+      reason: roomExists ? (hostOnline ? "" : "hostOffline") : "missing",
+      hasPassword: roomExists ? !!room.hasPassword : false
+    });
   }
 }
 
@@ -325,32 +389,44 @@ function handleSessionMessage(socket, raw) {
   }
 
   switch (command) {
+    case "request":
+      handleRequest(room, socket, params);
+      break;
     case "presenceJoin":
-      if (!socket.isHost && !socket.hasJoinedPresence) {
+      if (room && !socket.isHost && !socket.hasJoinedPresence) {
         registerPresence(room, socket, params && params.name);
       }
       break;
     case "presenceUpdate":
-      if (!socket.isHost && socket.hasJoinedPresence) {
+      if (room && !socket.isHost && socket.hasJoinedPresence) {
         updatePresence(room, socket, params && params.name);
       }
       break;
     case "presenceLeave":
-      if (!socket.isHost && socket.hasJoinedPresence) {
+      if (room && !socket.isHost && socket.hasJoinedPresence) {
         unregisterPresence(room, socket, params && params.name);
+      }
+      break;
+    case "closeRoom":
+      if (room && socket.isHost) {
+        closeRoom(room);
+      }
+      break;
+    case "hostHeartbeat":
+      if (room && socket.isHost) {
+        updateHostRoomInfo(room, params);
+        room.lastHostHeartbeat = Date.now();
+        broadcastLobby("setRoomDetails", activeRoomDetails());
       }
       break;
     case "direct":
       routeDirect(room, socket, params, feedback);
       break;
-    case "request":
-      handleRequest(room, socket, params);
-      break;
     case "uploadFile":
-      handleUpload(socket, params);
+      if (room) handleUpload(socket, params);
       break;
     default:
-      broadcastRoom(room, socket, command, params, feedback);
+      if (room) broadcastRoom(room, socket, command, params, feedback);
       break;
   }
 
@@ -367,7 +443,11 @@ function attachSession(socket, pathname) {
     return;
   }
 
-  const room = roomFor(channel);
+  const existingRoom = rooms.get(channel);
+  if (existingRoom && isRoomExpired(existingRoom)) {
+    closeRoom(existingRoom, "房间已过期。");
+  }
+  const room = wantsHost ? roomFor(channel) : rooms.get(channel);
   socket.type = "session";
   socket.channel = channel;
   socket.playerId = playerId;
@@ -377,36 +457,36 @@ function attachSession(socket, pathname) {
   socket.hasLeftPresence = false;
   socket.displayName = "";
 
-  room.clients.set(playerId, socket);
-  if (wantsHost && (!room.host || room.host.readyState !== WebSocket.OPEN)) {
-    const wasInactive = !room.hostLeaveTimer;
-    if (room.hostLeaveTimer) {
-      clearTimeout(room.hostLeaveTimer);
-      room.hostLeaveTimer = null;
-    }
-    room.host = socket;
-    socket.isHost = true;
-    if (wasInactive) addRoomToLobby(channel);
+  if (!wantsHost && room) {
+    room.clients.set(playerId, socket);
   }
 
   socket.on("message", data => handleSessionMessage(socket, data.toString()));
   socket.on("close", () => {
+    if (!room) return;
     const wasCurrentClient = room.clients.get(playerId) === socket;
     if (wasCurrentClient) room.clients.delete(playerId);
     if (room.host === socket) {
       room.host = null;
-      scheduleHostLeave(room, socket);
-    } else if (wasCurrentClient && socket.hasJoinedPresence) {
-      schedulePresenceLeave(room, socket);
+      broadcastLobby("setRoomDetails", activeRoomDetails());
     }
-    if (!room.host && !room.hostLeaveTimer && room.clients.size === 0) rooms.delete(channel);
   });
 }
 
 function attachLobby(socket) {
   socket.type = "lobby";
   lobbies.add(socket);
-  send(socket, "setRooms", activeRooms());
+  sendLobbyRooms(socket);
+  socket.on("message", data => {
+    let command;
+    try {
+      [command] = JSON.parse(data.toString());
+    } catch (e) {
+      return;
+    }
+    if (command === "refreshRooms") sendLobbyRooms(socket);
+    if (command === "refreshRoomsLive") sendLobbyRooms(socket, true);
+  });
   socket.on("close", () => lobbies.delete(socket));
 }
 
@@ -425,6 +505,8 @@ server.on("upgrade", (req, socket, head) => {
     }
   });
 });
+
+setInterval(cleanupExpiredRooms, ROOM_CLEANUP_MS);
 
 server.listen(port, host, () => {
   console.log(`Townsquare local server listening on http://${host}:${port}`);

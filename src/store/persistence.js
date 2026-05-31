@@ -122,6 +122,18 @@ module.exports = (store) => {
   if (localStorage.getItem("playerName")) {
     store.commit("session/setPlayerName", localStorage.getItem("playerName"));
   }
+  if (localStorage.getItem("roomPassword")) {
+    store.commit(
+      "session/setRoomPassword",
+      localStorage.getItem("roomPassword"),
+    );
+  }
+  if (localStorage.getItem("savedRoomPasswords")) {
+    store.commit(
+      "session/setSavedRoomPasswords",
+      JSON.parse(localStorage.getItem("savedRoomPasswords")),
+    );
+  }
   if (localStorage.getItem("stId")) {
     store.commit("session/setStId", localStorage.getItem("stId"));
   }
@@ -310,6 +322,20 @@ module.exports = (store) => {
         } else {
           localStorage.removeItem("playerName");
         }
+        break;
+      case "session/setRoomPassword":
+        if (payload) {
+          localStorage.setItem("roomPassword", payload);
+        } else {
+          localStorage.removeItem("roomPassword");
+        }
+        break;
+      case "session/setSavedRoomPasswords":
+      case "session/setSavedRoomPassword":
+        localStorage.setItem(
+          "savedRoomPasswords",
+          JSON.stringify(state.session.savedRoomPasswords),
+        );
         break;
       case "session/setStId":
         localStorage.setItem("stId", payload);

@@ -41,6 +41,7 @@
     <VoteHistoryModal />
     <GameStateModal />
     <InputModal ref="input" />
+    <MobileRoleInfoPanel />
     <Gradients />
   </div>
 </template>
@@ -62,6 +63,7 @@ import FabledModal from "@/components/modals/FabledModal";
 import VoteHistoryModal from "@/components/modals/VoteHistoryModal";
 import GameStateModal from "@/components/modals/GameStateModal";
 import InputModal from "@/components/modals/InputModal.vue";
+import MobileRoleInfoPanel from "@/components/MobileRoleInfoPanel.vue";
 
 const phaseBackgrounds = [
   "/backgrounds/night.png",
@@ -69,6 +71,7 @@ const phaseBackgrounds = [
   "/backgrounds/day.png",
   "/backgrounds/dusk.png",
 ];
+const touchLongPressQuery = "(hover: none), (pointer: coarse)";
 
 export default {
   components: {
@@ -86,6 +89,7 @@ export default {
     EditionModal,
     RolesModal,
     InputModal,
+    MobileRoleInfoPanel,
     Gradients,
   },
   computed: {
@@ -97,6 +101,10 @@ export default {
     },
   },
   async mounted() {
+    document.addEventListener("contextmenu", this.preventNativeLongPress);
+    document.addEventListener("selectstart", this.preventNativeLongPress);
+    document.addEventListener("dragstart", this.preventNativeLongPress);
+
     phaseBackgrounds.forEach((background) => {
       const image = new Image();
       image.src = background;
@@ -163,7 +171,19 @@ export default {
     // You would also call your socket connection setup here if needed
     // this.setupSocketConnection();
   },
+  beforeDestroy() {
+    document.removeEventListener("contextmenu", this.preventNativeLongPress);
+    document.removeEventListener("selectstart", this.preventNativeLongPress);
+    document.removeEventListener("dragstart", this.preventNativeLongPress);
+  },
   methods: {
+    preventNativeLongPress(event) {
+      const isTouchDevice =
+        window.matchMedia && window.matchMedia(touchLongPressQuery).matches;
+      if (isTouchDevice) {
+        event.preventDefault();
+      }
+    },
     async showInputModal({ inputType, inputModal, inputData }) {
       return new Promise((resolve, reject) => {
         this.$store.commit("session/setInputResolver", resolve);
@@ -279,6 +299,41 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
+}
+
+@media (hover: none), (pointer: coarse) {
+  html,
+  body,
+  #app,
+  #app * {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+html,
+body,
+#app,
+#app * {
+  user-select: none;
+}
+
+#app input,
+#app textarea,
+#app [contenteditable="true"] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+html.mobile-role-info-open .token .ability,
+html.suppress-token-ability-tooltip .token .ability,
+.mobile-role-info-trigger.token .ability,
+.mobile-role-info-trigger .token .ability {
+  display: none !important;
+  opacity: 0 !important;
 }
 
 @import "media";

@@ -19,6 +19,7 @@
             (!session.isSpectator || (isShowTraveler && playerIndex < 0)))
         "
         :key="role.id"
+        v-mobile-long-press-role="role"
         @click.stop="setRole(role)"
         :class="[role.team]"
         :style="tokenWidth"
@@ -40,6 +41,7 @@
         "
         :class="[role.team]"
         :key="role.id"
+        v-mobile-long-press-role="role"
         @click.stop="setRole(role)"
         :style="tokenWidth"
       >
@@ -51,6 +53,7 @@
         v-for="role in otherTravelers.values()"
         :class="[role.team]"
         :key="role.id"
+        v-mobile-long-press-role="role"
         @click.stop="setRole(role)"
         :style="tokenWidth"
       >

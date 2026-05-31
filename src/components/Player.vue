@@ -32,26 +32,16 @@
       </div>
 
       <div
-        class="night-order first"
-        v-if="nightOrder.get(player).first && grimoire.isNightOrder"
+        class="night-order current"
+        v-if="currentNightOrder && grimoire.isNightOrder"
       >
-        <em>{{ nightOrder.get(player).first }}.</em>
-        <span v-if="player.role.firstNightReminder">{{
-          player.role.firstNightReminder
-        }}</span>
-      </div>
-      <div
-        class="night-order other"
-        v-if="nightOrder.get(player).other && grimoire.isNightOrder"
-      >
-        <em>{{ nightOrder.get(player).other }}.</em>
-        <span v-if="player.role.otherNightReminder">{{
-          player.role.otherNightReminder
-        }}</span>
+        <em>{{ currentNightOrder }}</em>
       </div>
 
       <Token
-        :role="player.role"
+        class="seat-token"
+        v-mobile-long-press-role="playerRoleInfo"
+        :role="playerRoleInfo"
         :id="player.id"
         :image="player.image"
         @set-role="clickSetRole"
@@ -343,9 +333,51 @@ export default {
   computed: {
     ...mapState("players", ["players"]),
     ...mapState(["grimoire", "session"]),
-    ...mapGetters({ nightOrder: "players/nightOrder" }),
+    ...mapGetters({ nightOrder: "players/nightOrder", phaseInfo: "phaseInfo" }),
     index: function () {
       return this.players.indexOf(this.player);
+    },
+    nightOrderEntry() {
+      return this.nightOrder.get(this.player) || {};
+    },
+    currentNightType() {
+      if (!this.phaseInfo.isNight) return "";
+      return this.phaseInfo.isFirstNight ? "first" : "other";
+    },
+    currentNightOrder() {
+      if (!this.currentNightType) return 0;
+      return this.nightOrderEntry[this.currentNightType] || 0;
+    },
+    currentNightReminder() {
+      if (this.currentNightType === "first") {
+        return this.player.role.firstNightReminder;
+      }
+      if (this.currentNightType === "other") {
+        return this.player.role.otherNightReminder;
+      }
+      return "";
+    },
+    playerRoleInfo() {
+      const sections = [];
+      if (this.player.role.ability) {
+        sections.push({
+          label: "角色技能描述",
+          text: this.player.role.ability,
+        });
+      }
+      if (this.currentNightReminder) {
+        sections.push({
+          label: this.currentNightType === "first" ? "首夜提示" : "其他夜提示",
+          text: this.currentNightReminder,
+        });
+      }
+      return {
+        ...this.player.role,
+        ability: sections.length
+          ? sections.map(({ text }) => text).join("\n")
+          : this.player.role.ability,
+        tooltipSections: sections,
+      };
     },
     voteLocked: function () {
       const session = this.session;
@@ -1296,14 +1328,41 @@ li.move:not(.from) .player .overlay svg.move {
   opacity: 1;
 }
 
+.circle .player .shroud:hover ~ .token.seat-token .ability,
+.circle .player .token.seat-token:hover .ability,
+.circle .player .token.seat-token .ability {
+  display: none !important;
+  opacity: 0 !important;
+}
+
 /**** Night reminders ****/
 .player .night-order {
   z-index: 3;
 }
 
+.player .night-order.current em {
+  right: -14%;
+  width: 28px;
+  height: 28px;
+  font-size: 70%;
+  border-width: 2px;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, #6f6a5d 100%);
+}
+
 .player.dead .night-order em {
   color: #ddd;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, gray 100%);
+}
+
+@media (hover: none), (pointer: coarse) {
+  .player .night-order.current em {
+    right: -10%;
+    width: 18px;
+    height: 18px;
+    border-width: 1px;
+    font-size: 52%;
+  }
 }
 
 /***** Reminder token *****/

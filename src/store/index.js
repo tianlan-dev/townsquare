@@ -80,6 +80,7 @@ const getPhaseInfo = (phaseIndex = 0) => {
     phase,
     name: phaseNames[phase],
     isNight: phase === 0,
+    isFirstNight,
     label: `第${day}天${phaseNames[phase]}${isFirstNight ? "(首夜)" : ""}`,
   };
 };
@@ -186,6 +187,10 @@ export default new Vuex.Store({
     firstNight: [],
     otherNight: [],
     notifications: [],
+    mobileRoleInfo: {
+      role: null,
+      placement: "bottom",
+    },
   },
   getters: {
     /**
@@ -274,7 +279,20 @@ export default new Vuex.Store({
         (notification) => notification.id !== id,
       );
     },
-    toggleModal({ modals }, name) {
+    showMobileRoleInfo(state, payload) {
+      const role = payload && payload.role ? payload.role : payload;
+      const placement =
+        payload && payload.placement ? payload.placement : "bottom";
+      state.mobileRoleInfo.role = role || null;
+      state.mobileRoleInfo.placement = placement;
+    },
+    hideMobileRoleInfo(state) {
+      state.mobileRoleInfo.role = null;
+    },
+    toggleModal(state, name) {
+      const { modals } = state;
+      state.mobileRoleInfo.role = null;
+      state.mobileRoleInfo.placement = "bottom";
       if (modals.input) this.state.session.isTyping = false;
       if (name) {
         modals[name] = !modals[name];

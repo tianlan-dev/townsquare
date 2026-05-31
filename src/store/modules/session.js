@@ -18,10 +18,15 @@ const state = () => ({
   sessionId: "",
   StId: null,
   rooms: null,
+  roomDetails: [],
+  roomListRefreshKey: 0,
+  roomListRefreshedAt: 0,
   isHostAllowed: null,
   hostTimeout: null,
   isJoinAllowed: null,
   joinTimeout: null,
+  isClosingRoom: false,
+  isLeavingRoom: false,
   isSpectator: false,
   isReconnecting: false,
   playerCount: 0,
@@ -29,6 +34,9 @@ const state = () => ({
   playerId: "",
   playerName: "",
   playerAvatar: "default.webp",
+  roomPassword: "",
+  pendingJoinPassword: "",
+  savedRoomPasswords: {},
   claimedSeat: -1,
   nomination: false,
   playerVotes: 1,
@@ -93,6 +101,14 @@ const set = (key) => (state, val) => {
 const mutations = {
   setIsJoinAllowed: set("isJoinAllowed"),
   setIsHostAllowed: set("isHostAllowed"),
+  setRooms: set("rooms"),
+  setRoomDetails: set("roomDetails"),
+  setRoomListRefreshedAt: set("roomListRefreshedAt"),
+  requestRoomListRefresh(state) {
+    state.roomListRefreshKey += 1;
+  },
+  setClosingRoom: set("isClosingRoom"),
+  setLeavingRoom: set("isLeavingRoom"),
   setPlayerId: set("playerId"),
   setStId: set("stId"),
   setSpectator: set("isSpectator"),
@@ -151,6 +167,13 @@ const mutations = {
   },
   setPlayerName(state, name) {
     state.playerName = name;
+  },
+  setRoomPassword: set("roomPassword"),
+  setPendingJoinPassword: set("pendingJoinPassword"),
+  setSavedRoomPasswords: set("savedRoomPasswords"),
+  setSavedRoomPassword(state, { sessionId, password }) {
+    if (!sessionId) return;
+    Vue.set(state.savedRoomPasswords, sessionId, password);
   },
   nomination(
     state,

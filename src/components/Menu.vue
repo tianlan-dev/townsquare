@@ -70,7 +70,7 @@
         <li class="tabs" :class="tab">
           <font-awesome-icon
             icon="book-open"
-            v-if="!session.isSpectator || !session.sessionId"
+            v-if="isSessionTabVisible"
             @click="tab = 'session'"
           />
           <font-awesome-icon icon="theater-masks" @click="tab = 'characters'" />
@@ -82,66 +82,34 @@
           <font-awesome-icon icon="question" @click="tab = 'help'" />
         </li>
 
-        <template
-          v-if="
-            tab === 'session' && (!session.isSpectator || !session.sessionId)
-          "
-        >
+        <template v-if="tab === 'session' && isSessionTabVisible">
           <!-- Session -->
-          <li class="headline" v-if="session.sessionId">
-            {{ session.isSpectator ? "玩家" : "说书人" }}
-          </li>
-          <li class="headline" v-else>联机</li>
+          <li class="headline">说书人</li>
           <div class="options">
-            <template v-if="!session.sessionId">
-              <li @click="hostSession">创建房间</li>
-              <li @click="joinSession">加入房间</li>
-            </template>
-            <template v-else>
-              <li v-if="session.ping">
-                与{{ session.isSpectator ? "说书人" : "玩家" }}延迟
-                <em>{{ session.ping }}ms</em>
-              </li>
-              <li
-                @click="previousPhase"
-                v-if="!session.isSpectator"
-                :class="{ disabled: grimoire.phaseIndex <= 0 }"
-              >
-                后退至前一阶段
-              </li>
-              <li @click="nextPhase" v-if="!session.isSpectator">
-                前进到下一阶段
-              </li>
-              <li @click="toggleIsReview" v-if="!session.isSpectator">
-                复盘视角
-                <em>
-                  <font-awesome-icon
-                    :icon="[
-                      'fas',
-                      session.isReview ? 'check-square' : 'square',
-                    ]"
-                  />
-                </em>
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeAsk">
-                发送角色
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeTypeAsk">
-                发送角色类型
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeBluffsAsk">
-                发送伪装身份
-              </li>
-              <li v-if="!session.isSpectator" @click="distributeGrimoireAsk">
-                发送魔典
-              </li>
-              <li
-                v-if="session.voteHistory.length || !session.isSpectator"
-                @click="toggleModal('voteHistory')"
-              >
-                投票记录
-              </li>
-            </template>
+            <li v-if="session.ping">
+              与玩家延迟
+              <em>{{ session.ping }}ms</em>
+            </li>
+            <li
+              @click="previousPhase"
+              :class="{ disabled: grimoire.phaseIndex <= 0 }"
+            >
+              后退至前一阶段
+            </li>
+            <li @click="nextPhase">前进到下一阶段</li>
+            <li @click="toggleIsReview">
+              复盘视角
+              <em>
+                <font-awesome-icon
+                  :icon="['fas', session.isReview ? 'check-square' : 'square']"
+                />
+              </em>
+            </li>
+            <li @click="distributeAsk">发送角色</li>
+            <li @click="distributeTypeAsk">发送角色类型</li>
+            <li @click="distributeBluffsAsk">发送伪装身份</li>
+            <li @click="distributeGrimoireAsk">发送魔典</li>
+            <li @click="toggleModal('voteHistory')">投票记录</li>
           </div>
         </template>
 
@@ -149,8 +117,18 @@
           <!-- Users -->
           <li class="headline">房间和玩家</li>
           <div class="options">
+            <template v-if="!session.sessionId">
+              <li @click="hostSession">创建房间</li>
+              <li @click="joinSession">加入房间</li>
+            </template>
             <li v-if="session.sessionId" @click="leaveSession">
               {{ session.isSpectator ? "退出房间" : "解散房间" }}
+            </li>
+            <li
+              v-if="session.sessionId && !session.isSpectator"
+              @click="showRoomPassword"
+            >
+              查看房间密码
             </li>
             <li
               @click="addPlayer"
@@ -487,6 +465,12 @@ export default {
         this.edition.id === "custom" && this.edition.imageSource !== "server"
       );
     },
+    isSessionTabVisible() {
+      return !!this.session.sessionId && !this.session.isSpectator;
+    },
+    isPlayersTabVisible() {
+      return !this.session.isSpectator || !!this.session.sessionId;
+    },
   },
   data() {
     return {
@@ -538,11 +522,10 @@ export default {
   },
   methods: {
     ensureVisibleTab() {
-      if (
-        this.tab === "session" &&
-        this.session.isSpectator &&
-        this.session.sessionId
-      ) {
+      if (this.tab === "session" && !this.isSessionTabVisible) {
+        this.tab = this.isPlayersTabVisible ? "players" : "characters";
+      }
+      if (this.tab === "players" && !this.isPlayersTabVisible) {
         this.tab = "characters";
       }
     },
@@ -617,9 +600,9 @@ export default {
         inputType: "hostSession",
         inputModal: "input",
         inputData: {
-          name: ["请输入房间号", "请输入玩家人数"],
-          length: 2,
-          placeholder: [String(sessionPlaceholder), "12"],
+          name: ["请输入房间号", "请输入玩家人数", "设置房间密码（可选）"],
+          length: 3,
+          placeholder: [String(sessionPlaceholder), "12", ""],
         },
       }).catch(() => {
         return null;
@@ -628,9 +611,11 @@ export default {
 
       const sessionId = input[0];
       const numPlayers = Math.min(input[1], 20);
+      const roomPassword = input[2] || "";
       if (sessionId) {
         this.$store.commit("session/clearVoteHistory", []);
         this.$store.commit("session/setSpectator", false);
+        this.$store.commit("session/setRoomPassword", roomPassword);
         this.$store.commit("setPhaseIndex", 0);
         this.$store.commit("session/setSessionId", sessionId);
         this.$store.commit("players/clear");
@@ -644,6 +629,21 @@ export default {
       const url = window.location.href.split("#")[0];
       const link = url + "#" + this.session.sessionId;
       navigator.clipboard.writeText(link);
+    },
+    async showRoomPassword() {
+      await this.showInputModal({
+        inputType: "alert",
+        inputModal: "text",
+        inputData: {
+          name: [
+            this.session.roomPassword
+              ? `房间密码：${this.session.roomPassword}`
+              : "该房间未设置密码。",
+          ],
+        },
+      }).catch(() => {
+        return null;
+      });
     },
     distributeAsk() {
       this.distributingBluffs = false;
@@ -901,6 +901,10 @@ export default {
         });
         return;
       }
+      if (Date.now() - this.session.roomListRefreshedAt >= 15 * 1000) {
+        this.$store.commit("session/setRoomListRefreshedAt", Date.now());
+        this.$store.commit("session/requestRoomListRefresh");
+      }
       const input = await this.showInputModal({
         inputType: "joinSession",
         inputModal: "input",
@@ -916,6 +920,34 @@ export default {
 
       const sessionId = Number(input[0].split("#").pop()).toString();
       if (sessionId) {
+        const room = this.session.roomDetails.find(
+          (detail) => detail.id === sessionId,
+        );
+        if (room && room.hasPassword) {
+          const savedPassword = this.session.savedRoomPasswords[sessionId];
+          if (savedPassword) {
+            this.$store.commit("session/setPendingJoinPassword", savedPassword);
+          } else {
+            const passwordInput = await this.showInputModal({
+              inputType: "roomPassword",
+              inputModal: "input",
+              inputData: {
+                name: ["请输入房间密码"],
+                length: 1,
+                placeholder: [""],
+              },
+            }).catch(() => {
+              return null;
+            });
+            if (passwordInput === null) return;
+            this.$store.commit(
+              "session/setPendingJoinPassword",
+              passwordInput[0] || "",
+            );
+          }
+        } else {
+          this.$store.commit("session/setPendingJoinPassword", "");
+        }
         this.$store.commit("session/clearVoteHistory", []);
         this.$store.commit("session/setSpectator", true);
         this.$store.commit("toggleGrimoire", false);
@@ -935,14 +967,22 @@ export default {
       if (confirm === null) return;
 
       if (confirm === true) {
+        const wasSpectator = this.session.isSpectator;
         // vacate seat upon leaving the room
         this.$store.commit("session/claimSeat", -1);
 
+        if (wasSpectator) {
+          this.$store.commit("session/setLeavingRoom", true);
+        } else {
+          this.$store.commit("session/setClosingRoom", true);
+          this.$store.commit("session/setRoomPassword", "");
+        }
         this.$store.commit("session/setSpectator", false);
         this.$store.commit("session/setSessionId", "");
         this.$store.commit("setPhaseIndex", 0);
         this.$store.commit("session/setIsHostAllowed", null);
         this.$store.commit("session/setIsJoinAllowed", null);
+        this.$store.commit("session/setPendingJoinPassword", "");
 
         // clear seats and return to intro
         if (this.session.nomination) {
@@ -1187,6 +1227,17 @@ export default {
       if (clear === null) return;
 
       if (!clear) return;
+      if (this.session.sessionId) {
+        this.$store.commit("session/claimSeat", -1);
+        if (this.session.isSpectator) {
+          this.$store.commit("session/setLeavingRoom", true);
+        } else {
+          this.$store.commit("session/setClosingRoom", true);
+          this.$store.commit("session/setRoomPassword", "");
+        }
+        this.$store.commit("session/setSpectator", false);
+        this.$store.commit("session/setSessionId", "");
+      }
       localStorage.clear();
       await this.showInputModal({
         inputType: "alert",

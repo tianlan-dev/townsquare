@@ -6,6 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { wraith } from "./assets/svg/wraith";
+import mobileLongPressRole from "./directives/mobileLongPressRole";
 
 const faIcons = [
   "AddressCard",
@@ -35,6 +36,7 @@ const faIcons = [
   "Image",
   "Keyboard",
   "Link",
+  "Lock",
   "Minus",
   "MinusCircle",
   "Microphone",
@@ -72,6 +74,7 @@ library.add(
   wraith,
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
+Vue.directive("mobile-long-press-role", mobileLongPressRole);
 Vue.config.productionTip = false;
 
 new Vue({

@@ -1,3 +1,5 @@
+const HOST_HEARTBEAT_INTERVAL = 5 * 60 * 1000;
+
 class LiveSession {
   constructor(store) {
     this._wss = `${window.location.protocol === "https:" ? "wss" : "ws"}://${
@@ -10,9 +12,13 @@ class LiveSession {
     this._store = store;
     this._pingInterval = 3 * 1000; // 30 seconds between pings
     this._pingTimer = null;
+    this._hostHeartbeatTimer = null;
+    this._passwordTimer = null;
+    this._pendingJoinHasPassword = false;
     this._sendInterval = 1.5 * 1000; // 1.5 seconds between unsent message cycles
     this._sendTimer = null;
     this._reconnectTimer = null;
+    this._closeShouldReset = new WeakMap();
     this._players = {}; // map of players connected to a session
     this._pings = {}; // map of player IDs to ping
     // reconnect to previous session
@@ -27,7 +33,7 @@ class LiveSession {
    * @private
    */
   _open(channel) {
-    this.disconnect();
+    this.disconnect(false);
     this._socket = new WebSocket(
       this._wss +
         channel +
@@ -42,10 +48,17 @@ class LiveSession {
     }
     this._socket.addEventListener("message", this._handleMessage.bind(this));
     this._socket.onopen = this._onOpen.bind(this);
+    const socket = this._socket;
     this._socket.onclose = (err) => {
-      this._socket = null;
-      clearTimeout(this._pingTimer);
-      this._pingTimer = null;
+      const shouldReset = this._closeShouldReset.get(socket) === true;
+      this._closeShouldReset.delete(socket);
+      const isCurrentSocket = this._socket === socket;
+      if (isCurrentSocket) {
+        this._socket = null;
+        clearTimeout(this._pingTimer);
+        this._pingTimer = null;
+        this._stopHostHeartbeat();
+      }
       if (err.code !== 1000) {
         // connection interrupted, reconnect after 3 seconds
         this._store.commit("session/setReconnecting", true);
@@ -53,7 +66,7 @@ class LiveSession {
           () => this.connect(channel),
           3 * 1000,
         );
-      } else {
+      } else if (shouldReset) {
         // vacate seat upon leaving the room
         this._store.commit("session/claimSeat", -1);
 
@@ -189,6 +202,7 @@ class LiveSession {
       this.checkAllowJoin();
     } else {
       if (this._store.state.session.isHostAllowed === true) {
+        this._startHostHeartbeat();
         this.sendGamestate();
       } else {
         this.checkAllowHost();
@@ -220,6 +234,33 @@ class LiveSession {
     // this._isAlive = false;
   }
 
+  _hostInfo() {
+    return {
+      name: this._store.state.session.playerName,
+      playerCount: this._store.state.players.players.length,
+      hasPassword: !!this._store.state.session.roomPassword,
+    };
+  }
+
+  sendHostHeartbeat() {
+    if (this._isSpectator) return;
+    this._send("hostHeartbeat", this._hostInfo());
+  }
+
+  _startHostHeartbeat() {
+    if (this._isSpectator) return;
+    this._stopHostHeartbeat();
+    this.sendHostHeartbeat();
+    this._hostHeartbeatTimer = setInterval(() => {
+      this.sendHostHeartbeat();
+    }, HOST_HEARTBEAT_INTERVAL);
+  }
+
+  _stopHostHeartbeat() {
+    clearInterval(this._hostHeartbeatTimer);
+    this._hostHeartbeatTimer = null;
+  }
+
   /**
    * Handle an incoming socket message.
    * @param data
@@ -244,6 +285,15 @@ class LiveSession {
         break;
       case "allowJoin":
         this._handleAllowJoin(params);
+        break;
+      case "roomInfoRequest":
+        this.sendHostHeartbeat();
+        break;
+      case "passwordCheck":
+        this._handlePasswordCheck(params);
+        break;
+      case "passwordResult":
+        this._handlePasswordResult(params);
         break;
       case "getGamestate":
         this.sendGamestate(params);
@@ -279,7 +329,7 @@ class LiveSession {
         this._updateStId(params);
         break;
       case "roomClosed":
-        this._handleRoomClosed();
+        this._handleRoomClosed(params);
         break;
       case "player":
         this._updatePlayer(params);
@@ -446,24 +496,39 @@ class LiveSession {
   /**
    * Close the current session, if any.
    */
-  disconnect() {
+  disconnect(shouldReset = true) {
     this._pings = {};
     this._store.commit("session/setPlayerCount", 0);
     this._store.commit("session/setPing", 0);
     this._store.commit("session/setReconnecting", false);
+    this._stopHostHeartbeat();
+    clearTimeout(this._pingTimer);
+    this._pingTimer = null;
     clearTimeout(this._reconnectTimer);
     clearTimeout(this._store.state.session.joinTimeout);
     clearTimeout(this._store.state.session.hostTimeout);
+    clearTimeout(this._passwordTimer);
+    this._passwordTimer = null;
     if (this._socket) {
-      if (this._isSpectator) {
+      if (this._isSpectator && this._store.state.session.isLeavingRoom) {
         this._send("presenceLeave", {
           name: this._store.state.session.playerName,
         });
         this._sendDirect("host", "bye", this._store.state.session.playerId);
+      } else if (this._store.state.session.isClosingRoom) {
+        this._send("closeRoom");
       }
+      this._closeShouldReset.set(this._socket, shouldReset);
       this._socket.close(1000);
       this._socket = null;
     }
+    if (this._store.state.session.isClosingRoom) {
+      this._store.commit("session/setClosingRoom", false);
+    }
+    if (this._store.state.session.isLeavingRoom) {
+      this._store.commit("session/setLeavingRoom", false);
+    }
+    this._pendingJoinHasPassword = false;
   }
 
   /**
@@ -519,7 +584,11 @@ class LiveSession {
    */
   async checkAllowHost() {
     if (this._store.state.session.isHostAllowed === true) return;
-    this._request("checkAllowHost", this._store.state.session.playerId);
+    this._request(
+      "checkAllowHost",
+      this._store.state.session.playerId,
+      this._hostInfo(),
+    );
     this._store.state.session.hostTimeout = setTimeout(async () => {
       if (this._store.state.session.isHostAllowed === null) {
         await this.showInputModal({
@@ -547,6 +616,7 @@ class LiveSession {
     this._store.commit("session/setIsHostAllowed", allow ? allow : null);
 
     if (allow) {
+      this._startHostHeartbeat();
       this.sendGamestate();
     } else {
       await this.showInputModal({
@@ -595,24 +665,32 @@ class LiveSession {
     if (this._store.state.session.isJoinAllowed === true) return;
     clearInterval(this._store.state.session.joinTimeout);
     this._store.state.session.joinTimeout = null;
-    this._store.commit("session/setIsJoinAllowed", allow ? allow : null);
+    const result =
+      typeof allow === "object" && allow !== null
+        ? allow
+        : { allowed: !!allow, reason: allow ? "" : "missing" };
+    this._store.commit(
+      "session/setIsJoinAllowed",
+      result.allowed ? true : null,
+    );
 
-    if (allow) {
-      this._send("presenceJoin", {
-        name: this._store.state.session.playerName,
-      });
-      this._sendDirect(
-        "host",
-        "getGamestate",
-        this._store.state.session.playerId,
-      );
-      this._sendDirect("host", "getStId", this._store.state.session.playerId);
+    if (result.allowed) {
+      this._pendingJoinHasPassword = !!result.hasPassword;
+      if (result.hasPassword) {
+        await this._requestPasswordValidation();
+      } else {
+        this._joinAllowedRoom();
+      }
     } else {
       await this.showInputModal({
         inputType: "alert",
         inputModal: "text",
         inputData: {
-          name: [`房间"${this._store.state.session.sessionId}"不存在！`],
+          name: [
+            result.reason === "hostOffline"
+              ? "说书人暂时离开，稍后再试。"
+              : `房间"${this._store.state.session.sessionId}"不存在！`,
+          ],
         },
       }).catch(() => {
         return null;
@@ -622,7 +700,106 @@ class LiveSession {
     }
   }
 
-  async _handleRoomClosed() {
+  async _requestPasswordValidation() {
+    const sessionId = this._store.state.session.sessionId;
+    let password =
+      this._store.state.session.pendingJoinPassword ||
+      this._store.state.session.savedRoomPasswords[sessionId] ||
+      "";
+    if (!password) {
+      const input = await this.showInputModal({
+        inputType: "roomPassword",
+        inputModal: "input",
+        inputData: {
+          name: ["请输入房间密码"],
+          length: 1,
+          placeholder: [""],
+        },
+      }).catch(() => {
+        return null;
+      });
+      if (input === null) {
+        this._store.commit("session/setSessionId", "");
+        this._store.commit("session/setSpectator", false);
+        return;
+      }
+      password = input[0] || "";
+      this._store.commit("session/setPendingJoinPassword", password);
+    }
+    this._sendDirect("host", "passwordCheck", {
+      playerId: this._store.state.session.playerId,
+      password,
+    });
+    clearTimeout(this._passwordTimer);
+    this._passwordTimer = setTimeout(async () => {
+      await this.showInputModal({
+        inputType: "alert",
+        inputModal: "text",
+        inputData: {
+          name: ["说书人暂时离开，稍后再试。"],
+        },
+      }).catch(() => {
+        return null;
+      });
+      this._store.commit("session/setSessionId", "");
+      this._store.commit("session/setSpectator", false);
+    }, 3000);
+  }
+
+  _handlePasswordCheck(params = {}) {
+    if (this._isSpectator) return;
+    const playerId = params.playerId;
+    if (!playerId) return;
+    const roomPassword = this._store.state.session.roomPassword || "";
+    this._sendDirect(playerId, "passwordResult", {
+      allowed: !roomPassword || params.password === roomPassword,
+    });
+  }
+
+  async _handlePasswordResult(params = {}) {
+    if (!this._isSpectator) return;
+    clearTimeout(this._passwordTimer);
+    this._passwordTimer = null;
+    if (params.allowed) {
+      const sessionId = this._store.state.session.sessionId;
+      const password = this._store.state.session.pendingJoinPassword;
+      if (this._pendingJoinHasPassword && password) {
+        this._store.commit("session/setSavedRoomPassword", {
+          sessionId,
+          password,
+        });
+      }
+      this._joinAllowedRoom();
+      return;
+    }
+    await this.showInputModal({
+      inputType: "alert",
+      inputModal: "text",
+      inputData: {
+        name: ["房间密码错误！"],
+      },
+    }).catch(() => {
+      return null;
+    });
+    this._store.commit("session/setPendingJoinPassword", "");
+    this._store.commit("session/setSessionId", "");
+    this._store.commit("session/setSpectator", false);
+  }
+
+  _joinAllowedRoom() {
+    this._store.commit("session/setPendingJoinPassword", "");
+    this._send("presenceJoin", {
+      name: this._store.state.session.playerName,
+    });
+    this._sendDirect(
+      "host",
+      "getGamestate",
+      this._store.state.session.playerId,
+    );
+    this._sendDirect("host", "getStId", this._store.state.session.playerId);
+  }
+
+  async _handleRoomClosed(params = {}) {
     if (!this._isSpectator) return;
     this._store.commit("session/setSessionId", "");
     this._store.commit("session/setSpectator", false);
@@ -637,7 +814,7 @@ class LiveSession {
       inputType: "alert",
       inputModal: "text",
       inputData: {
-        name: ["房间已被说书人解散。"],
+        name: [params.reason || "房间已被说书人解散。"],
       },
     }).catch(() => {
       return null;
@@ -2149,6 +2326,9 @@ class LiveLobby {
       case "setRooms":
         this.setRooms(params);
         break;
+      case "setRoomDetails":
+        this.setRoomDetails(params);
+        break;
       case "addRoom":
         this.addRoom(params);
         break;
@@ -2156,6 +2336,10 @@ class LiveLobby {
         this.removeRoom(params);
         break;
     }
+  }
+
+  refreshRooms() {
+    this._send("refreshRoomsLive");
   }
 
   /**
@@ -2209,7 +2393,12 @@ class LiveLobby {
    */
   setRooms(params) {
     if (!Array.isArray(params)) return;
-    this._store.state.session.rooms = params;
+    this._store.commit("session/setRooms", params);
+  }
+
+  setRoomDetails(params) {
+    if (!Array.isArray(params)) return;
+    this._store.commit("session/setRoomDetails", params);
   }
 
   /**
@@ -2219,8 +2408,9 @@ class LiveLobby {
    */
   addRoom(params) {
     if (typeof params != "string") return;
-    if (this._store.state.session.rooms.includes(params)) return;
-    this._store.state.session.rooms.push(params);
+    const rooms = this._store.state.session.rooms || [];
+    if (rooms.includes(params)) return;
+    this._store.commit("session/setRooms", [...rooms, params]);
   }
 
   /**
@@ -2230,8 +2420,13 @@ class LiveLobby {
    */
   removeRoom(params) {
     if (typeof params != "string") return;
-    this._store.state.session.rooms = this._store.state.session.rooms.filter(
-      (room) => room != params,
+    this._store.commit(
+      "session/setRooms",
+      (this._store.state.session.rooms || []).filter((room) => room != params),
+    );
+    this._store.commit(
+      "session/setRoomDetails",
+      this._store.state.session.roomDetails.filter((room) => room.id != params),
     );
   }
 }
@@ -2252,6 +2447,9 @@ export default (store) => {
         } else {
           session.disconnect();
         }
+        break;
+      case "session/requestRoomListRefresh":
+        lobby.refreshRooms();
         break;
       case "session/claimSeat":
         session.claimSeat(payload);
@@ -2337,11 +2535,13 @@ export default (store) => {
         session.movePlayer(payload);
         break;
       case "players/remove":
+        session.sendHostHeartbeat();
         session.removePlayer(payload);
         break;
       case "players/set":
       case "players/clear":
       case "players/add":
+        session.sendHostHeartbeat();
         session.sendGamestate("", true);
         break;
       case "players/update":

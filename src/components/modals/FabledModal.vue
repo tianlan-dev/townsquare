@@ -5,6 +5,7 @@
       <li
         v-for="role in fabled"
         :key="role.id"
+        v-mobile-long-press-role="role"
         @click.stop="setFabled(role)"
         :style="tokenWidth"
       >

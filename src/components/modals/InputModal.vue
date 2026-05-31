@@ -20,6 +20,63 @@
             v-model="input[n - 1]"
           />
         </div>
+        <div v-if="isJoinSessionInput" class="room-list">
+          <div class="room-list-header">
+            <div class="room-list-title">当前房间</div>
+            <button
+              type="button"
+              class="room-list-refresh"
+              :disabled="!canRefreshRooms"
+              @click="refreshRoomList"
+            >
+              刷新
+            </button>
+          </div>
+          <div v-if="sortedRoomDetails.length" class="room-list-items">
+            <div
+              v-for="room in sortedRoomDetails"
+              :key="room.id"
+              class="room-list-row"
+              :title="roomTimeTitle(room)"
+              @mouseenter="showRoomInfo(room.id)"
+              @mouseleave="hideRoomInfo"
+              @touchstart="startRoomInfoPress(room.id, $event)"
+              @touchmove="cancelRoomInfoPress"
+              @touchend="cancelRoomInfoPress"
+              @touchcancel="cancelRoomInfoPress"
+            >
+              <div class="room-list-main">
+                <strong>{{ room.id }}</strong>
+                <font-awesome-icon
+                  v-if="room.hasPassword"
+                  icon="lock"
+                  class="room-lock"
+                />
+                <span>说书人：{{ room.hostName || "说书人" }}</span>
+                <span
+                  :class="[
+                    'room-status',
+                    room.hostOnline ? 'online' : 'offline',
+                  ]"
+                >
+                  {{ room.hostOnline ? "在线" : "离线" }}
+                </span>
+                <span v-if="room.hostOnline && room.playerCount">
+                  配置：{{ room.playerCount }}人
+                </span>
+                <span v-else>配置：未知</span>
+              </div>
+              <div
+                v-if="activeRoomInfoId === room.id"
+                class="room-info-popover"
+              >
+                <span>创建 {{ formatRelative(room.createdAt) }}</span>
+                <span>响应 {{ formatRelative(room.lastHostHeartbeat) }}</span>
+              </div>
+            </div>
+          </div>
+          <div v-else class="room-list-empty">暂无可加入的房间</div>
+        </div>
         <div class="input-actions">
           <button type="submit" class="confirm">确认</button>
           <button type="button" @click="close">取消</button>
@@ -59,6 +116,20 @@ export default {
   computed: {
     ...mapState(["modals", "grimoire", "session"]),
     ...mapState("players", ["players"]),
+    isJoinSessionInput() {
+      return (
+        this.session.inputModal === "input" &&
+        this.session.inputType === "joinSession"
+      );
+    },
+    sortedRoomDetails() {
+      return [...(this.session.roomDetails || [])].sort((a, b) =>
+        String(a.id).localeCompare(String(b.id), undefined, { numeric: true }),
+      );
+    },
+    canRefreshRooms() {
+      return this.now - this.session.roomListRefreshedAt >= 15 * 1000;
+    },
   },
   data() {
     return {
@@ -67,6 +138,10 @@ export default {
       warningMessage: "",
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
+      now: Date.now(),
+      relativeTimer: null,
+      activeRoomInfoId: "",
+      roomInfoPressTimer: null,
     };
   },
   created() {
@@ -107,9 +182,14 @@ export default {
   },
   mounted() {
     window.addEventListener("resize", this.handleResize);
+    this.relativeTimer = setInterval(() => {
+      this.now = Date.now();
+    }, 60 * 1000);
   },
   beforeDestroy() {
     window.removeEventListener("resize", this.handleResize);
+    clearInterval(this.relativeTimer);
+    this.cancelRoomInfoPress();
   },
   methods: {
     typing() {
@@ -119,7 +199,7 @@ export default {
       this.$store.commit("session/setTyping", false);
     },
     confirmInput() {
-      const allowEmpty = ["bootlegger"];
+      const allowEmpty = ["bootlegger", "hostSession"];
       if (
         this.session.inputModal === "input" &&
         !allowEmpty.includes(this.session.inputType) &&
@@ -148,6 +228,7 @@ export default {
           {
             const sessionId = this.input[0];
             const numPlayers = this.input[1];
+            const password = this.input[2] || "";
             if (
               !Number(sessionId) ||
               Number(sessionId) < 0 ||
@@ -164,16 +245,24 @@ export default {
               this.warningMessage = "请输入正确人数！";
               return;
             }
+            if (password.length > 6) {
+              this.warningMessage = "密码最多6位！";
+              return;
+            }
           }
           break;
         case "joinSession":
           {
-            let sessionId = this.input[0];
-            if (sessionId.match(/^https?:\/\//i)) {
-              sessionId = sessionId.split("#").pop();
-            }
+            const sessionId = this.normalizedSessionId(this.input[0]);
             if (!this.session.rooms.includes(sessionId)) {
               this.warningMessage = `房间"${sessionId}"不存在！`;
+              return;
+            }
+            const room = this.session.roomDetails.find(
+              (detail) => detail.id === sessionId,
+            );
+            if (room && !room.hostOnline) {
+              this.warningMessage = "说书人暂时离开，稍后再试。";
               return;
             }
           }
@@ -194,6 +283,12 @@ export default {
         case "bootlegger":
           break;
         case "timer":
+          break;
+        case "roomPassword":
+          if ((this.input[0] || "").length > 6) {
+            this.warningMessage = "密码最多6位！";
+            return;
+          }
           break;
         case "changeNameSt":
           if (
@@ -244,6 +339,47 @@ export default {
     handleResize() {
       this.windowWidth = window.innerWidth;
       this.windowHeight = window.innerHeight;
+    },
+    normalizedSessionId(value) {
+      const input = String(value || "").trim();
+      return input.match(/^https?:\/\//i) ? input.split("#").pop() : input;
+    },
+    formatRelative(value) {
+      const timestamp = Number(value);
+      if (!timestamp) return "未知";
+      const minutes = Math.floor((this.now - timestamp) / (60 * 1000));
+      if (minutes >= 60) return "1小时以上";
+      if (minutes <= 0) return "刚刚";
+      return `${minutes}分钟前`;
+    },
+    roomTimeTitle(room) {
+      return `创建 ${this.formatRelative(
+        room.createdAt,
+      )}，响应 ${this.formatRelative(room.lastHostHeartbeat)}`;
+    },
+    refreshRoomList() {
+      if (!this.canRefreshRooms) return;
+      this.$store.commit("session/setRoomListRefreshedAt", Date.now());
+      this.now = Date.now();
+      this.$store.commit("session/requestRoomListRefresh");
+    },
+    showRoomInfo(roomId) {
+      this.activeRoomInfoId = roomId;
+    },
+    hideRoomInfo() {
+      this.activeRoomInfoId = "";
+      this.cancelRoomInfoPress();
+    },
+    startRoomInfoPress(roomId, event) {
+      this.cancelRoomInfoPress();
+      this.roomInfoPressTimer = setTimeout(() => {
+        this.activeRoomInfoId = roomId;
+        if (event && event.cancelable) event.preventDefault();
+      }, 450);
+    },
+    cancelRoomInfoPress() {
+      clearTimeout(this.roomInfoPressTimer);
+      this.roomInfoPressTimer = null;
     },
     ...mapMutations(["toggleModal"]),
   },
@@ -315,5 +451,119 @@ export default {
 
 .warning {
   color: red;
+}
+
+.room-list {
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  box-sizing: border-box;
+}
+
+.room-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.room-list-title {
+  font-weight: bold;
+  text-align: left;
+}
+
+.room-list-refresh {
+  flex: 0 0 auto;
+  padding: 4px 9px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: #fff !important;
+  font-size: 0.8em;
+}
+
+.room-list-refresh:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.room-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.room-list-row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  text-align: left;
+}
+
+.room-list-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.room-list-row strong {
+  color: #fff;
+}
+
+.room-lock {
+  color: #ffd76a;
+  font-size: 0.8em;
+}
+
+.room-list-row span {
+  font-size: 0.85em;
+  opacity: 0.86;
+}
+
+.room-status {
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.room-status.online {
+  color: #b7ffcb;
+  background: rgba(25, 135, 84, 0.35);
+}
+
+.room-status.offline {
+  color: #ffd1d1;
+  background: rgba(180, 38, 38, 0.35);
+}
+
+.room-info-popover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.room-info-popover span {
+  font-size: 0.8em;
+}
+
+.room-list-empty {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
 }
 </style>

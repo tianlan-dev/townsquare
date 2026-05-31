@@ -84,28 +84,18 @@
             v-for="(role, index) in fabled"
             v-show="index === 0 || isFabledOpen"
             :key="index"
+            :class="{ 'is-storyteller-token': role.id === 'storyteller' }"
+            v-mobile-long-press-role="roleInfo(role)"
             @click.stop="removeFabled(index)"
             :style="floatingZoom"
           >
             <div
-              class="night-order first"
-              v-if="nightOrder.get(role).first && grimoire.isNightOrder"
+              class="night-order current"
+              v-if="currentNightOrder(role) && grimoire.isNightOrder"
             >
-              <em>{{ nightOrder.get(role).first }}.</em>
-              <span v-if="role.firstNightReminder">{{
-                role.firstNightReminder
-              }}</span>
+              <em>{{ currentNightOrder(role) }}</em>
             </div>
-            <div
-              class="night-order other"
-              v-if="nightOrder.get(role).other && grimoire.isNightOrder"
-            >
-              <em>{{ nightOrder.get(role).other }}.</em>
-              <span v-if="role.otherNightReminder">{{
-                role.otherNightReminder
-              }}</span>
-            </div>
-            <Token :role="role"></Token>
+            <Token :role="roleInfo(role)"></Token>
           </li>
         </ul>
       </div>
@@ -138,6 +128,7 @@
           <li
             v-for="index in bluffSize"
             :key="index"
+            v-mobile-long-press-role="bluffs[index - 1]"
             @click.stop="openRoleModal(index * -1)"
             :style="isBluffsOpen ? floatingZoom : ''"
           >
@@ -175,9 +166,13 @@ export default {
     ReminderModal,
   },
   computed: {
-    ...mapGetters({ nightOrder: "players/nightOrder" }),
+    ...mapGetters({ nightOrder: "players/nightOrder", phaseInfo: "phaseInfo" }),
     ...mapState(["grimoire", "roles", "session"]),
     ...mapState("players", ["players", "bluffs", "fabled"]),
+    currentNightType: function () {
+      if (!this.phaseInfo.isNight) return "";
+      return this.phaseInfo.isFirstNight ? "first" : "other";
+    },
     orientation: function () {
       const ratio = this.windowWidth / this.windowHeight;
       const unit =
@@ -270,6 +265,42 @@ export default {
     },
     setRolePanel(panel) {
       this.rolePanel = panel;
+    },
+    currentNightOrder(role) {
+      if (!this.currentNightType) return 0;
+      return (this.nightOrder.get(role) || {})[this.currentNightType] || 0;
+    },
+    currentNightReminder(role) {
+      if (this.currentNightType === "first") {
+        return role.firstNightReminder;
+      }
+      if (this.currentNightType === "other") {
+        return role.otherNightReminder;
+      }
+      return "";
+    },
+    roleInfo(role) {
+      const sections = [];
+      if (role.ability) {
+        sections.push({
+          label: "角色技能描述",
+          text: role.ability,
+        });
+      }
+      const nightReminder = this.currentNightReminder(role);
+      if (nightReminder) {
+        sections.push({
+          label: this.currentNightType === "first" ? "首夜提示" : "其他夜提示",
+          text: nightReminder,
+        });
+      }
+      return {
+        ...role,
+        ability: sections.length
+          ? sections.map(({ text }) => text).join("\n")
+          : role.ability,
+        tooltipSections: sections,
+      };
     },
     openFabledModal() {
       if (this.session.isSpectator) return;
@@ -896,6 +927,16 @@ export default {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, $demon 100%);
   }
 
+  &.current em {
+    right: -14%;
+    width: clamp(18px, 28%, 28px);
+    height: clamp(18px, 28%, 28px);
+    font-size: clamp(11px, 38%, 15px);
+    border-width: 2px;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, #6f6a5d 100%);
+  }
+
   em:hover + span {
     opacity: 1;
   }
@@ -917,8 +958,26 @@ export default {
   }
 }
 
+@media (hover: none), (pointer: coarse) {
+  .night-order.current em {
+    right: -10%;
+    width: 16px;
+    height: 16px;
+    border-width: 1px;
+    font-size: 10px;
+  }
+}
+
 #townsquare:not(.spectator) .fabled-panel ul li:hover .token:before {
   opacity: 1;
+}
+
+#townsquare:not(.spectator)
+  .fabled-panel
+  ul
+  li.is-storyteller-token:hover
+  .token:before {
+  opacity: 0;
 }
 
 #townsquare > .is-role {

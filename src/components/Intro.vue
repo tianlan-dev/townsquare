@@ -6,7 +6,7 @@
         <div>欢迎来到城镇广场。</div>
         <div>
           点击右上角处
-          <span class="button" @click="toggleMenu">
+          <span class="button" @click.stop="toggleMenu">
             <font-awesome-icon icon="cog" /> 菜单
           </span>
           工具进行浏览。

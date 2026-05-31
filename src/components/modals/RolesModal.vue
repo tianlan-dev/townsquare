@@ -14,6 +14,7 @@
         v-for="role in teamRoles"
         :class="[role.team, role.selected ? 'selected' : '']"
         :key="role.id"
+        v-mobile-long-press-role="role"
         @click="role.selected = role.selected ? 0 : 1"
         :style="tokenWidth"
       >
