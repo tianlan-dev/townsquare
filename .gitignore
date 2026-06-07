@@ -1,0 +1,8 @@
+.idea
+node_modules
+dist
+local-data
+.server-logs/
+.env*.local
+*.pem
+/server/certs

@@ -1,0 +1,150 @@
+<template>
+  <div class="intro">
+    <img src="static/botc-logo.png" alt="" class="logo" />
+    <div>
+      <div class="intro-lines">
+        <div>欢迎来到城镇广场。</div>
+        <div>
+          点击右上角处
+          <span class="button" @click.stop="toggleMenu">
+            <font-awesome-icon icon="cog" /> 菜单
+          </span>
+          工具进行浏览。
+        </div>
+        <div>
+          点击
+          <span class="button" @click="hostSession()"> 创建房间 </span>
+          开始说书。
+        </div>
+        <div>
+          点击
+          <span class="button" @click="joinSession()"> 加入房间 </span>
+          进入已有的房间。
+        </div>
+        <div>
+          点击
+          <span class="button" @click="openRules()"> 游戏规则 </span>
+          快速了解玩法。
+        </div>
+      </div>
+      <div class="footer">
+        <div>这个项目是免费和开源的，本项目对原版进行了修改。</div>
+        <div>本项目是非官方项目，旨在交流网站构建和应用。</div>
+        <div>该网站为私人项目，仅供测试及展示。</div>
+        <div>
+          如有bug反馈、建议、其他需求，请联系<a
+            href="/about/"
+            target="_blank"
+            rel="noopener"
+            >本地维护者</a
+          >。
+        </div>
+      </div>
+    </div>
+    <!-- <a
+      class="redirect"
+      v-if="language === 'zh-CN'"
+      href="/"
+    >
+      <img src="../assets/gstone.png" class="gstone" alt="" />
+      官方中文魔典请由此进入
+    </a> -->
+  </div>
+</template>
+
+<script>
+import { mapMutations } from "vuex";
+
+export default {
+  data() {
+    return {
+      language: window.navigator.userLanguage || window.navigator.language,
+    };
+  },
+  methods: {
+    hostSession() {
+      this.$emit("trigger", ["hostSession"]);
+    },
+    joinSession() {
+      this.$emit("trigger", ["joinSession"]);
+    },
+    openRules() {
+      window.open("/rules/", "_blank", "noopener");
+    },
+    ...mapMutations(["toggleMenu"]),
+  },
+};
+</script>
+
+<style scoped lang="scss">
+// Intro
+.intro {
+  text-align: center;
+  width: min(760px, 72%);
+  font-size: 120%;
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+  border-radius: 10px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  a {
+    color: white;
+  }
+  a.redirect {
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 2vh;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid black;
+    border-radius: 10px;
+
+    &:hover {
+      color: red;
+    }
+    img {
+      width: 120px;
+      display: block;
+      margin: auto;
+      margin-bottom: 1vh;
+    }
+  }
+
+  img.logo {
+    position: absolute;
+    bottom: 100%;
+    width: 22vh;
+    margin-bottom: 2vh;
+    max-width: 192px;
+    filter: drop-shadow(0 0 10px black);
+  }
+  .footer {
+    margin-top: 0.75rem;
+    font-size: 60%;
+    opacity: 0.75;
+  }
+  .intro-lines {
+    display: grid;
+    gap: 0.35rem;
+
+    > div {
+      white-space: nowrap;
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .intro {
+    width: calc(100vw - 36px);
+
+    .intro-lines > div {
+      white-space: normal;
+    }
+  }
+}
+</style>

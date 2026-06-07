@@ -1,0 +1,9 @@
+.git
+.env*.local
+.DS_Store
+node_modules
+npm-debug.log*
+.server-logs
+local-data
+dist
+coverage

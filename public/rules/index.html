@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="染·钟楼谜团玩家规则速览：夜晚、白天、提名、投票、死亡与胜利条件。"
+    />
+    <title>染·钟楼谜团玩家规则速览</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #f7efe2;
+        --muted: #cdbfba;
+        --paper: rgba(16, 18, 22, 0.82);
+        --paper-strong: rgba(28, 30, 34, 0.92);
+        --line: rgba(255, 255, 255, 0.16);
+        --good: #7db7ff;
+        --evil: #e05b5b;
+        --gold: #d9b45e;
+        --green: #78c99b;
+        --violet: #b691ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background-color: #080a0d;
+        background-image:
+          linear-gradient(rgba(8, 10, 13, 0.2), rgba(8, 10, 13, 0.78)),
+          url("/backgrounds/dawn.png");
+        background-position:
+          center top,
+          center top;
+        background-size:
+          cover,
+          contain;
+        background-attachment:
+          fixed,
+          fixed;
+        background-repeat: no-repeat;
+        color: var(--ink);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Microsoft YaHei", sans-serif;
+        line-height: 1.65;
+        position: relative;
+      }
+
+      body::before {
+        content: none;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero {
+        min-height: 34vh;
+        display: grid;
+        align-content: start;
+        padding: 14px 0 12px;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--gold);
+        font-size: 0.88rem;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 800px;
+        margin-bottom: 18px;
+        font-size: clamp(2.6rem, 8vw, 6.4rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+        text-wrap: balance;
+      }
+
+      .nowrap {
+        white-space: nowrap;
+      }
+
+      .lead {
+        max-width: 720px;
+        margin-bottom: 28px;
+        color: #f3dfd2;
+        font-size: clamp(1.05rem, 2.1vw, 1.35rem);
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .button {
+        min-height: 42px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 9px 14px;
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--ink);
+        font-weight: 700;
+        text-decoration: none;
+        backdrop-filter: blur(12px);
+      }
+
+      .button.primary {
+        border-color: rgba(217, 180, 94, 0.55);
+        background: #d9b45e;
+        color: #1b1308;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        margin-bottom: 0;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        line-height: 1.08;
+      }
+
+      .section-title p {
+        max-width: 440px;
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .grid.three {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .panel,
+      .step,
+      .term {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(18px);
+      }
+
+      .panel {
+        padding: 22px;
+      }
+
+      .panel h3,
+      .term h3 {
+        margin-bottom: 8px;
+        font-size: 1.15rem;
+      }
+
+      .panel p,
+      .term p,
+      .step p {
+        color: var(--muted);
+      }
+
+      .win {
+        min-height: 220px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .win::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: -52px;
+        bottom: -52px;
+        border: 1px solid currentColor;
+        border-radius: 50%;
+        opacity: 0.16;
+      }
+
+      .win.good {
+        color: var(--good);
+      }
+
+      .win.evil {
+        color: var(--evil);
+      }
+
+      .win strong {
+        display: block;
+        max-width: 720px;
+        color: var(--ink);
+        font-size: clamp(1.8rem, 3.5vw, 3.2rem);
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .win p {
+        max-width: 720px;
+        margin-top: 26px;
+      }
+
+      .note {
+        margin-top: 14px;
+        border-left: 4px solid var(--gold);
+      }
+
+      .note.good-note {
+        border-left-color: var(--good);
+      }
+
+      .note.evil-note {
+        border-left-color: var(--evil);
+      }
+
+      .term small.good-term,
+      .tag.good-term,
+      th.good-term {
+        color: var(--good);
+      }
+
+      .term small.evil-term,
+      .tag.evil-term,
+      th.evil-term {
+        color: var(--evil);
+      }
+
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .step {
+        min-height: 190px;
+        padding: 18px;
+        position: relative;
+      }
+
+      .step span {
+        display: inline-grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        margin-bottom: 18px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--gold);
+        font-weight: 800;
+      }
+
+      .step h3 {
+        margin-bottom: 8px;
+      }
+
+      .step p {
+        margin-bottom: 0;
+        font-size: 0.95rem;
+      }
+
+      .map {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(220px, 0.72fr) minmax(0, 1fr);
+        gap: 12px;
+        align-items: center;
+      }
+
+      .mind-center {
+        min-height: 280px;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        border: 1px solid rgba(217, 180, 94, 0.45);
+        border-radius: 50%;
+        background: rgba(217, 180, 94, 0.16);
+        text-align: center;
+      }
+
+      .mind-center strong {
+        display: block;
+        font-size: 1.55rem;
+        line-height: 1.2;
+      }
+
+      .term {
+        min-height: 140px;
+        padding: 18px;
+      }
+
+      .term small,
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 26px;
+        margin-bottom: 10px;
+        border-radius: 999px;
+        padding: 2px 10px;
+        background: rgba(255, 255, 255, 0.09);
+        color: var(--gold);
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+
+      .checklist {
+        display: grid;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .checklist li {
+        display: grid;
+        grid-template-columns: 28px 1fr;
+        gap: 10px;
+        align-items: start;
+        color: var(--muted);
+      }
+
+      .checklist li::before {
+        content: "✓";
+        display: grid;
+        width: 24px;
+        height: 24px;
+        place-items: center;
+        border-radius: 50%;
+        background: rgba(120, 201, 155, 0.18);
+        color: var(--green);
+        font-weight: 900;
+      }
+
+      .rule-table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border-radius: 8px;
+        background: var(--paper-strong);
+      }
+
+      .rule-table th,
+      .rule-table td {
+        border-bottom: 1px solid var(--line);
+        padding: 15px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .rule-table th {
+        width: 26%;
+        color: var(--gold);
+      }
+
+      .table-scroll {
+        width: 100%;
+        overflow-x: auto;
+        border-radius: 8px;
+      }
+
+      .setup-table th,
+      .setup-table td {
+        width: auto;
+        padding: 10px 8px;
+        text-align: center;
+      }
+
+      .setup-table tbody th {
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      .sources {
+        padding-bottom: 72px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .sources a {
+        color: #f5d68a;
+      }
+
+      @media (max-width: 1152px) {
+        body {
+          background: #080a0d;
+        }
+
+        body::before {
+          content: "";
+          position: fixed;
+          inset: 0 0 auto;
+          height: 76vh;
+          background:
+            linear-gradient(
+              rgba(8, 10, 13, 0.05),
+              rgba(8, 10, 13, 0.58) 64%,
+              #080a0d 100%
+            ),
+            url("/backgrounds/night.png") center top / contain no-repeat;
+          pointer-events: none;
+          z-index: -1;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .grid.two,
+        .grid.three,
+        .flow,
+        .map {
+          grid-template-columns: 1fr;
+        }
+
+        .mind-center {
+          min-height: 190px;
+          border-radius: 8px;
+        }
+
+        .win p {
+          margin-top: 18px;
+        }
+
+        .section-title {
+          display: block;
+        }
+
+        .section-title p {
+          margin-top: 10px;
+        }
+
+        .rule-table,
+        .rule-table tbody,
+        .rule-table tr,
+        .rule-table th,
+        .rule-table td {
+          display: block;
+          width: 100%;
+        }
+
+        .rule-table th {
+          padding-bottom: 4px;
+          border-bottom: 0;
+        }
+
+        .rule-table td {
+          padding-top: 4px;
+        }
+
+        .setup-table {
+          display: table;
+        }
+
+        .setup-table thead {
+          display: table-header-group;
+        }
+
+        .setup-table tbody {
+          display: table-row-group;
+        }
+
+        .setup-table tr {
+          display: table-row;
+        }
+
+        .setup-table th,
+        .setup-table td {
+          display: table-cell;
+          width: auto;
+          padding: 9px 5px;
+          border-bottom: 1px solid var(--line);
+          font-size: 0.92rem;
+        }
+
+        .setup-table thead th {
+          font-size: 0.86rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero page">
+      <p class="eyebrow">5 分钟上手</p>
+      <h1><span class="nowrap">染·钟楼谜团</span> 怎么玩</h1>
+      <p class="lead">
+        你不需要先背完整规则。记住目标、夜晚闭眼、白天交流、提名投票、死亡后仍能说话，
+        剩下的细节可以边玩边问说书人。
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://grimoire.skylan.dev/">打开魔典</a>
+        <a class="button" href="/about/" target="_blank" rel="noopener">说书人介绍</a>
+      </div>
+    </header>
+
+    <main class="page">
+      <section id="goal">
+        <div class="section-title">
+          <h2>先知道你在帮谁赢</h2>
+          <p>每个玩家属于善良或邪恶阵营。你可以死亡，但你的阵营仍然可能获胜。</p>
+        </div>
+        <div class="grid two">
+          <article class="panel win good">
+            <div>
+              <span class="tag good-term">善良阵营</span>
+              <strong>所有恶魔都死亡</strong>
+            </div>
+            <p>
+              不看恶魔本人的阵营，只看“恶魔角色是否还活着”。只要所有恶魔死亡，
+              并且没有产生新的恶魔，善良阵营获胜。
+            </p>
+          </article>
+          <article class="panel win evil">
+            <div>
+              <span class="tag evil-term">邪恶阵营</span>
+              <strong>场上只剩 2 名玩家存活</strong>
+            </div>
+            <p>
+              这时善良阵营不能再靠最后一次 50% 对 50% 的提名投票处决恶魔来获胜。
+              剩下的 2 名存活玩家里必须包含恶魔；只有爪牙存活无法满足邪恶胜利条件。
+              通常如果入夜时只剩 3 人且恶魔存活，说书人会提前宣布邪恶获胜，
+              除非仍存在某种可能让恶魔无法完成夜晚击杀。
+            </p>
+          </article>
+        </div>
+        <article class="panel note">
+          <h3>阵营和角色是两件事</h3>
+          <p>
+            开局时，镇民和外来者通常属于善良阵营，爪牙和恶魔通常属于邪恶阵营。
+            但随着角色能力生效，玩家的阵营和角色都可能改变，而且可能独立改变：
+            例如善良的爪牙、善良的恶魔、邪恶的镇民或邪恶的外来者。
+          </p>
+          <p>
+            一个玩家最终是否获胜，取决于游戏结束时他所属的阵营是否获胜，而不是他的角色类别。
+            例如，一个玩家如果变成了善良的恶魔，他反而会希望善良队友杀死自己，
+            因为所有恶魔死亡会让善良阵营获胜。
+          </p>
+        </article>
+      </section>
+
+      <section id="setup">
+        <div class="section-title">
+          <h2>人数配置会影响推理</h2>
+          <p>镇民、外来者、爪牙、恶魔的数量通常有基础配置，但角色能力和传奇角色可能让它浮动。</p>
+        </div>
+        <div class="table-scroll">
+          <table class="rule-table setup-table">
+            <thead>
+              <tr>
+                <th>玩家数</th>
+                <th class="good-term">镇民</th>
+                <th class="good-term">外来者</th>
+                <th class="evil-term">爪牙</th>
+                <th class="evil-term">恶魔</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th>5 人</th><td>3</td><td>0</td><td>1</td><td>1</td></tr>
+              <tr><th>6 人</th><td>3</td><td>1</td><td>1</td><td>1</td></tr>
+              <tr><th>7 人</th><td>5</td><td>0</td><td>1</td><td>1</td></tr>
+              <tr><th>8 人</th><td>5</td><td>1</td><td>1</td><td>1</td></tr>
+              <tr><th>9 人</th><td>5</td><td>2</td><td>1</td><td>1</td></tr>
+              <tr><th>10 人</th><td>7</td><td>0</td><td>2</td><td>1</td></tr>
+              <tr><th>11 人</th><td>7</td><td>1</td><td>2</td><td>1</td></tr>
+              <tr><th>12 人</th><td>7</td><td>2</td><td>2</td><td>1</td></tr>
+              <tr><th>13 人</th><td>9</td><td>0</td><td>3</td><td>1</td></tr>
+              <tr><th>14 人</th><td>9</td><td>1</td><td>3</td><td>1</td></tr>
+              <tr><th>15 人</th><td>9</td><td>2</td><td>3</td><td>1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <article class="panel note">
+          <h3>默认配置不是绝对答案</h3>
+          <p>
+            通常 10 人及以上才会有多个爪牙；10 人以下一般是 1 个爪牙和 1 个恶魔。
+            但这只是基础配置。有些角色能力会让外来者数量 +1 或 -1，
+            这时镇民数量通常会相应 -1 或 +1，因为善良阵营总人数不变。
+          </p>
+          <p>
+            说书人也可能加入“哨兵”这类传奇角色来让配置浮动，降低邪恶玩家伪装难度。
+            例如原本 5-2-1-1 的 9 人局，外来者可能是 1、2 或 3 个；
+            如果场上还有让外来者 +1 的角色，那么外来者数量可能变成 2、3 或 4 个，
+            镇民数量也会随之变化。
+          </p>
+        </article>
+      </section>
+
+      <section id="flow">
+        <div class="section-title">
+          <h2>一局游戏的循环</h2>
+          <p>游戏从首个夜晚开始，然后在白天和夜晚之间轮替，直到某个阵营达成胜利条件。</p>
+        </div>
+        <div class="flow" aria-label="游戏流程">
+          <article class="step">
+            <span>1</span>
+            <h3>拿到角色</h3>
+            <p>确认自己的角色、阵营和能力。玩家不能看说书人的魔典。</p>
+          </article>
+          <article class="step">
+            <span>2</span>
+            <h3>首个夜晚</h3>
+            <p>
+              所有人闭眼。说书人会按夜晚行动顺序单独叫醒玩家。首夜会让恶魔和爪牙互相确认，
+              通常恶魔不杀人。
+            </p>
+          </article>
+          <article class="step">
+            <span>3</span>
+            <h3>白天讨论</h3>
+            <p>先听说书人公布夜晚死亡或复活，再公开聊、私聊、交换信息。白天能力也在此时执行。</p>
+          </article>
+          <article class="step">
+            <span>4</span>
+            <h3>提名投票</h3>
+            <p>玩家提名处决对象，说书人统计投票。当天票数最高且过半的人会被处决。</p>
+          </article>
+          <article class="step">
+            <span>5</span>
+            <h3>进入下一夜</h3>
+            <p>白天结束后都会入夜。当天可能发生处决，也可能没有处决。</p>
+          </article>
+        </div>
+        <article class="panel note">
+          <h3>夜晚行动顺序很重要</h3>
+          <p>
+            首夜和其他夜的行动顺序会影响信息的产生和角色能力的结果。
+            推理时可以结合行动先后判断信息来源、状态影响和说法是否成立。
+          </p>
+        </article>
+      </section>
+
+      <section id="day">
+        <div class="section-title">
+          <h2>白天你可以怎么做</h2>
+          <p>白天是玩家的主场。信息不一定真实，沉默也不一定安全。</p>
+        </div>
+        <div class="map">
+          <div class="grid">
+            <article class="term">
+              <small>公开发言</small>
+              <h3>把信息公开化</h3>
+              <p>报角色、报数字、质疑逻辑、请求别人解释矛盾。</p>
+            </article>
+            <article class="term">
+              <small>私下耳语</small>
+              <h3>建立小范围信任</h3>
+              <p>鼓励大家多多私聊，建立小范围的信任和信息共享，也可能通过试探获得额外线索。</p>
+            </article>
+            <article class="term">
+              <small>白天能力</small>
+              <h3>按角色描述行动</h3>
+              <p>如果你的角色拥有白天能力，根据能力描述和说书人的提示执行。</p>
+            </article>
+          </div>
+          <div class="mind-center">
+            <div>
+              <strong>核心问题</strong>
+              <p>谁的信息能互相印证？谁的故事必须有人在说谎才成立？</p>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="term">
+              <small>找说书人</small>
+              <h3>问规则，不问答案</h3>
+              <p>可以确认能力如何运作；新玩家也可以寻求基础策略建议。</p>
+            </article>
+            <article class="term">
+              <small>说谎</small>
+              <h3>任何阵营都可能说谎</h3>
+              <p>邪恶会伪装，善良有时也会隐藏身份来保护关键能力。</p>
+            </article>
+          </div>
+        </div>
+        <article class="panel note">
+          <h3>说书人也会犯错</h3>
+          <p>
+            说书人不是完美的，游戏中也可能出错。他可能会打出“失败的上帝”来告诉大家自己犯了错误，
+            并尝试修补。但有时候修补错误可能带来更大的后果，所以他也可能知错认错但不改错。
+            请大家多多包容和谅解。
+          </p>
+        </article>
+        <article class="panel note">
+          <h3>公聊和私聊没有固定顺序</h3>
+          <p>
+            白天讨论开始后，公聊和私聊可以在进入提名环节前随时进行。到了提名时，
+            提名者和被提名者通常可以在投票前各发言一次，也可以选择不发言。
+          </p>
+        </article>
+        <article class="panel note good-note">
+          <h3>善良玩家不要怕适当牺牲</h3>
+          <p>
+            即使你是很强的信息位，也不一定要永远活到最后。适当牺牲有时能坐实你的善良身份，
+            让其他玩家更愿意相信你提供的信息，再把这些信息串成信任链和证据链，最终指向邪恶玩家。
+          </p>
+        </article>
+        <article class="panel note evil-note">
+          <h3>邪恶玩家白天也要主动参与</h3>
+          <p>
+            邪恶阵营不要只靠沉默躲藏。善良玩家会不断排除可能性，讨论越充分，
+            没有解释的疑点越可能落到邪恶玩家身上。你可以带节奏、制造合理怀疑，
+            或把讨论引向错误但看似说得通的方向。
+          </p>
+          <p>
+            爪牙可以适当拉仇恨来保护恶魔。严格规则下，游戏开始时说书人只会给恶魔
+            3 个不在场善良角色，供恶魔伪装自己，不会直接给爪牙。
+          </p>
+          <p>
+            很多桌为了降低邪恶玩家难度，会采用“爪牙也知道这 3 个角色”的村规。
+            如果这样玩，邪恶玩家之间需要交流，避免多人同时伪装成同一个角色。适当村规是允许的，
+            但说书人会在保证游戏体验的前提下斟酌加入，并提前集体告知。
+          </p>
+        </article>
+      </section>
+
+      <section id="vote">
+        <div class="section-title">
+          <h2>提名和投票这样理解</h2>
+          <p>处决不是“多数同意就立刻死”，而是当天所有提名之间的票数竞争。</p>
+        </div>
+        <div class="grid two">
+          <article class="panel">
+            <h3>提名限制</h3>
+            <ul class="checklist">
+              <li>同一时间只能处理一个提名。提名后先完成投票，才能进入下一个提名和投票。</li>
+              <li>只有存活玩家可以发起提名。</li>
+              <li>每名玩家每天只能提名一次，也只能被提名一次。</li>
+              <li>死亡玩家通常仍可以被提名，但不能发起提名。</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>达成处决的条件</h3>
+            <ul class="checklist">
+              <li>票数至少达到当前存活玩家人数的一半。</li>
+              <li>票数必须唯一最多。平票不会产生处决。</li>
+              <li>当没有更多提名继续发生后，才进行当天处决结算。</li>
+              <li>当天最终领先者会在白天结束时被处决。</li>
+              <li>每天最多一次处决，也可以无人被处决。</li>
+            </ul>
+          </article>
+        </div>
+        <article class="panel note">
+          <h3>处决和死亡不是同一件事</h3>
+          <p>
+            结算时，说书人会公布谁是否被处决，以及被处决者是否死亡。
+            某些角色能力可能让处决不导致死亡。
+          </p>
+          <p>
+            提名投票不是处决的唯一来源。某些角色能力可能让玩家在其他时机被处决；
+            一旦发生处决，通常会立刻触发入夜。
+          </p>
+        </article>
+      </section>
+
+      <section id="death">
+        <div class="section-title">
+          <h2>死亡不是退场</h2>
+          <p>你还在游戏里，仍然能影响讨论，只是能力和投票方式会改变。</p>
+        </div>
+        <article class="panel note">
+          <h3>每天睁眼前，说书人会公布夜晚结果</h3>
+          <p>
+            夜晚结束进入白天时，说书人会先公布昨晚有没有人死亡，也会公布有没有人复活。
+            是的，有些角色能力可能让已经死亡的玩家复活。
+          </p>
+        </article>
+        <table class="rule-table">
+          <tbody>
+            <tr>
+              <th>能继续发言</th>
+              <td>死亡玩家仍可以公开讨论、私聊、推理和说服别人。</td>
+            </tr>
+            <tr>
+              <th>通常失去能力</th>
+              <td>角色死亡后通常没有能力，除非你的角色文本或说书人说明另有规则。</td>
+            </tr>
+            <tr>
+              <th>只剩一次投票</th>
+              <td>死亡后保留一枚死亡投票。用掉后，之后的处决投票不能再举手。</td>
+            </tr>
+            <tr>
+              <th>不能发起提名</th>
+              <td>死亡玩家不能提名别人，但依然可以帮助活着的玩家决定提名谁。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="terms">
+        <div class="section-title">
+          <h2>新玩家速查</h2>
+          <p>看到这些词，不用紧张，它们大多只是游戏里的简写。</p>
+        </div>
+        <div class="grid three">
+          <article class="term">
+            <small>魔典</small>
+            <h3>说书人的记录区</h3>
+            <p>里面有真实角色、状态、标记以及玩家的行动记录。玩家不能查看。</p>
+          </article>
+          <article class="term">
+            <small>醉酒 / 中毒</small>
+            <h3>你的能力可能失效</h3>
+            <p>说书人仍可能正常唤醒你行动，但能力可能不会产生正确作用，得到的信息也可能不可靠。</p>
+          </article>
+          <article class="term">
+            <small>可能</small>
+            <h3>说书人的裁量空间</h3>
+            <p>当角色描述中出现“可能”时，表示说书人可以根据场上局势选择是否让该效果发生。</p>
+          </article>
+          <article class="term">
+            <small>复活</small>
+            <h3>重新成为存活玩家</h3>
+            <p>复活相当于重新登场，角色能力通常会恢复到可再次使用的状态。</p>
+          </article>
+          <article class="term">
+            <small>在场 / 不在场</small>
+            <h3>是否属于本局配置</h3>
+            <p>在场与否和存活状态无关。已经死亡的角色依然在场。</p>
+          </article>
+          <article class="term">
+            <small class="good-term">镇民</small>
+            <h3>善良阵营的信息核心</h3>
+            <p>能力多用于获取信息、保护他人或推动推理，是善良阵营建立证据链的重要来源。</p>
+          </article>
+          <article class="term">
+            <small class="good-term">外来者</small>
+            <h3>善良但能力麻烦</h3>
+            <p>能力往往会给小镇带来负担，也可能干扰善良玩家对人数配置和信息来源的判断。</p>
+          </article>
+          <article class="term">
+            <small class="evil-term">爪牙</small>
+            <h3>邪恶的帮手</h3>
+            <p>帮助恶魔隐藏身份、制造错误逻辑或扰乱投票。</p>
+          </article>
+          <article class="term">
+            <small class="evil-term">恶魔</small>
+            <h3>善良阵营的核心目标</h3>
+            <p>通常在夜晚杀人。所有恶魔死亡时，善良阵营获胜。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sources" aria-label="参考来源">
+        <p>
+          本页为玩家上手速览，依据官方中文规则资料重新整理：
+          <a href="https://clocktower-wiki.gstonegames.com/index.php?title=%E8%A7%84%E5%88%99%E6%A6%82%E8%A6%81">规则概要</a>、
+          <a href="https://clocktower-wiki.gstonegames.com/index.php?title=%E9%87%8D%E8%A6%81%E7%BB%86%E8%8A%82">重要细节</a>、
+          <a href="https://clocktower-wiki.gstonegames.com/index.php?title=%E6%9C%AF%E8%AF%AD%E6%B1%87%E6%80%BB">术语汇总</a>、
+          <a href="https://clocktower-wiki.gstonegames.com/index.php?title=%E8%A7%84%E5%88%99%E8%A7%A3%E9%87%8A">规则解释</a>。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
