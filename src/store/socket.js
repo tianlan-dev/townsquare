@@ -1,5 +1,15 @@
 const HOST_HEARTBEAT_INTERVAL = 5 * 60 * 1000;
 const PLAYER_HEARTBEAT_INTERVAL = 10 * 1000;
+const PHASE_COUNT = 4;
+const PHASE_NIGHT = 0;
+const PHASE_DAWN = 1;
+const PHASE_DAY = 2;
+const PHASE_DUSK = 3;
+
+const phaseOf = (phaseIndex) => {
+  const index = Number.parseInt(phaseIndex, 10);
+  return Number.isFinite(index) && index > 0 ? index % PHASE_COUNT : 0;
+};
 
 class LiveSession {
   constructor(store) {
@@ -10,7 +20,13 @@ class LiveSession {
     this._isSpectator = true;
     this._isAlive = true;
     this._gamestate = [];
+    this._publishedDeathStates = [];
+    this._pendingDeathUpdates = new Set();
     this._store = store;
+    this._lastSentPhaseIndex = this._store.state.grimoire.phaseIndex;
+    this._publishedMurderScene = this._normalizedMurderScene(
+      this._store.state.grimoire.murderScene,
+    );
     this._pingInterval = 3 * 1000; // 30 seconds between pings
     this._pingTimer = null;
     this._hostHeartbeatTimer = null;
@@ -195,6 +211,97 @@ class LiveSession {
       isStorytelling: this._store.state.session.isStorytelling,
       hasPassword: !!this._store.state.session.roomPassword,
     };
+  }
+
+  _isDeathUpdateHiddenPhase() {
+    return phaseOf(this._store.state.grimoire.phaseIndex) === PHASE_NIGHT;
+  }
+
+  _ensurePublishedDeathStates() {
+    const players = this._store.state.players.players;
+    if (this._publishedDeathStates.length > players.length) {
+      this._publishedDeathStates.length = players.length;
+    }
+    players.forEach((player, index) => {
+      if (this._publishedDeathStates[index] === undefined) {
+        this._publishedDeathStates[index] = !!player.isDead;
+      }
+    });
+  }
+
+  _publishCurrentDeathStates() {
+    this._publishedDeathStates = this._store.state.players.players.map(
+      (player) => !!player.isDead,
+    );
+    this._pendingDeathUpdates.clear();
+  }
+
+  _publishedDeathStateFor(player, index) {
+    const publishedValue = this._publishedDeathStates[index];
+    return publishedValue === undefined ? !!player.isDead : publishedValue;
+  }
+
+  _deferDeathUpdate(index) {
+    this._ensurePublishedDeathStates();
+    if (index >= 0) {
+      this._pendingDeathUpdates.add(index);
+    }
+  }
+
+  _publishDeathUpdate(index, value) {
+    if (index < 0) return;
+    this._publishedDeathStates[index] = !!value;
+    this._pendingDeathUpdates.delete(index);
+    this._send("player", {
+      index,
+      property: "isDead",
+      value,
+    });
+  }
+
+  _publishAllDeathStates() {
+    if (this._isSpectator) return;
+    const players = this._store.state.players.players;
+    this._publishedDeathStates = players.map((player) => !!player.isDead);
+    this._pendingDeathUpdates.clear();
+    players.forEach((player, index) => {
+      this._send("player", {
+        index,
+        property: "isDead",
+        value: !!player.isDead,
+      });
+    });
+  }
+
+  _normalizedMurderScene(murderScene = {}) {
+    return {
+      hasBlood: !!murderScene.hasBlood,
+    };
+  }
+
+  _ensurePublishedMurderScene() {
+    if (!this._publishedMurderScene) {
+      this._publishedMurderScene = this._normalizedMurderScene(
+        this._store.state.grimoire.murderScene,
+      );
+    }
+  }
+
+  _publishCurrentMurderScene() {
+    this._publishedMurderScene = this._normalizedMurderScene(
+      this._store.state.grimoire.murderScene,
+    );
+  }
+
+  _murderSceneForPlayers() {
+    this._ensurePublishedMurderScene();
+    return { ...this._publishedMurderScene };
+  }
+
+  _publishMurderScene() {
+    if (this._isSpectator) return;
+    this._publishCurrentMurderScene();
+    this._send("murderScene", this._murderSceneForPlayers());
   }
 
   sendHostHeartbeat() {
@@ -918,19 +1025,30 @@ class LiveSession {
    */
   sendGamestate(playerId = "", isLightweight = false) {
     if (this._isSpectator) return;
-    this._gamestate = this._store.state.players.players.map((player) => ({
-      name: player.name,
-      id: player.id,
-      image: player.image,
-      stReminders: this._store.state.session.isReview ? player.stReminders : [],
-      isDead: player.isDead,
-      isVoteless: player.isVoteless,
-      votes: player.votes,
-      pronouns: player.pronouns,
-      ...(player.role && player.role.team === "traveler"
-        ? { roleId: player.role.id }
-        : {}),
-    }));
+    if (this._isDeathUpdateHiddenPhase()) {
+      this._ensurePublishedDeathStates();
+      this._ensurePublishedMurderScene();
+    } else {
+      this._publishCurrentDeathStates();
+      this._publishCurrentMurderScene();
+    }
+    this._gamestate = this._store.state.players.players.map(
+      (player, index) => ({
+        name: player.name,
+        id: player.id,
+        image: player.image,
+        stReminders: this._store.state.session.isReview
+          ? player.stReminders
+          : [],
+        isDead: this._publishedDeathStateFor(player, index),
+        isVoteless: player.isVoteless,
+        votes: player.votes,
+        pronouns: player.pronouns,
+        ...(player.role && player.role.team === "traveler"
+          ? { roleId: player.role.id }
+          : {}),
+      }),
+    );
     if (isLightweight) {
       this._sendDirect(playerId, "gs", {
         gamestate: this._gamestate,
@@ -970,7 +1088,7 @@ class LiveSession {
         gamestate: this._gamestate,
         phaseIndex: grimoire.phaseIndex,
         isNight: grimoire.isNight,
-        murderScene: grimoire.murderScene,
+        murderScene: this._murderSceneForPlayers(),
         storytellerName: session.playerName,
         isStorytellerOnline: true,
         isVoteHistoryAllowed: session.isVoteHistoryAllowed,
@@ -1466,6 +1584,12 @@ class LiveSession {
         value,
         st: true,
       });
+    } else if (property === "isDead") {
+      if (this._isDeathUpdateHiddenPhase()) {
+        this._deferDeathUpdate(index);
+      } else {
+        this._publishDeathUpdate(index, value);
+      }
     } else if (!staticProperties.includes(property)) {
       this._send("player", { index, property, value });
     }
@@ -2206,13 +2330,31 @@ class LiveSession {
    */
   setPhaseIndex() {
     if (this._isSpectator) return;
+    const previousPhase = phaseOf(this._lastSentPhaseIndex);
+    const currentPhaseIndex = this._store.state.grimoire.phaseIndex;
+    const currentPhase = phaseOf(currentPhaseIndex);
     this._send("phaseIndex", this._store.state.grimoire.phaseIndex);
     this._send("isNight", this._store.state.grimoire.isNight);
+    if (previousPhase === PHASE_NIGHT && currentPhase === PHASE_DAWN) {
+      this._publishAllDeathStates();
+      this._publishMurderScene();
+    } else if (
+      previousPhase === PHASE_DAY &&
+      currentPhase === PHASE_DUSK &&
+      this._murderSceneForPlayers().hasBlood
+    ) {
+      this._publishMurderScene();
+    }
+    this._lastSentPhaseIndex = currentPhaseIndex;
   }
 
   setMurderScene() {
     if (this._isSpectator) return;
-    this._send("murderScene", this._store.state.grimoire.murderScene);
+    if (this._isDeathUpdateHiddenPhase()) {
+      this._ensurePublishedMurderScene();
+      return;
+    }
+    this._publishMurderScene();
   }
 
   /**

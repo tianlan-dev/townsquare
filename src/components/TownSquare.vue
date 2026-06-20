@@ -22,7 +22,7 @@
         armed: canToggleMurderScene,
       }"
       :tabindex="canToggleMurderScene ? 0 : -1"
-      :aria-label="murderScene.hasBlood ? '取消夜晚血迹' : '标记夜晚死亡'"
+      :aria-label="murderScene.hasBlood ? '取消血迹' : '标记血迹'"
       @click.stop="toggleMurderScene"
     >
       <span v-if="murderScene.hasBlood" class="blood-pool"></span>
@@ -198,11 +198,7 @@ export default {
       );
     },
     canToggleMurderScene: function () {
-      return (
-        this.players.length > 0 &&
-        !this.session.isSpectator &&
-        this.phaseInfo.isNight
-      );
+      return this.players.length > 0 && !this.session.isSpectator;
     },
     activeRolePanel: function () {
       if (this.rolePanel === "fabled" && this.hasFabledPanel) return "fabled";

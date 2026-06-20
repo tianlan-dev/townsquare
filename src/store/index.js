@@ -72,6 +72,8 @@ const toggle =
     }
   };
 
+const PHASE_DAY = 2;
+const PHASE_DUSK = 3;
 const phaseNames = ["夜晚", "黎明", "白天", "黄昏"];
 
 const normalizePhaseIndex = (phaseIndex) => {
@@ -90,18 +92,23 @@ const getPhaseInfo = (phaseIndex = 0) => {
     phase,
     name: phaseNames[phase],
     isNight: phase === 0,
-    isDay: phase === 2,
+    isDay: phase === PHASE_DAY,
     isFirstNight,
     label: `第${day}天${phaseNames[phase]}${isFirstNight ? "(首夜)" : ""}`,
   };
 };
 
 const setPhaseIndex = (grimoire, phaseIndex) => {
+  const previousPhase = getPhaseInfo(grimoire.phaseIndex).phase;
   const index = normalizePhaseIndex(phaseIndex);
   const phase = getPhaseInfo(index);
   grimoire.phaseIndex = index;
   grimoire.isNight = phase.isNight;
-  if (phase.phase === 3 && grimoire.murderScene) {
+  if (
+    previousPhase === PHASE_DAY &&
+    phase.phase === PHASE_DUSK &&
+    grimoire.murderScene
+  ) {
     grimoire.murderScene.hasBlood = false;
   }
 };
