@@ -1130,9 +1130,7 @@ class LiveSession {
 
     if (this._store.state.session.isReview) {
       this.distributeGrimoire(playerId ? { playerId } : { all: true });
-      if (playerId) {
-        this.sendReviewDetailsFingerprint(playerId);
-      }
+      this.sendReviewDetails(playerId);
     }
 
     // 场内玩家更新
@@ -2507,7 +2505,6 @@ class LiveSession {
 
   sendReviewDetails(playerId = "") {
     if (this._isSpectator) return;
-    if (!playerId) return;
     const details = this._store.state.session.grimoireHistory || {};
     this._sendDirect(playerId, "reviewDetails", {
       ...details,
@@ -3351,13 +3348,13 @@ export default (store) => {
         session.setIsReview(payload);
         if (payload) {
           session.distributeGrimoire({ all: true });
-          session.sendReviewDetailsFingerprint();
+          session.sendReviewDetails();
         }
         break;
       case "session/startReview":
         session.setIsReview(true);
         session.distributeGrimoire({ all: true });
-        session.sendReviewDetailsFingerprint();
+        session.sendReviewDetails();
         break;
       // case "session/setBootlegger":
       //   session.setBootlegger(payload);

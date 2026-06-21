@@ -450,6 +450,8 @@ const HOST_ROOM_COMMANDS = new Set([
   "player",
   "pronouns",
   "remove",
+  "reviewDetails",
+  "reviewDetailsFingerprint",
   "secretVote",
   "setTimer",
   "startTimer",
