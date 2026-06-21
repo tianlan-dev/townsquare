@@ -107,7 +107,7 @@
                 @click="previousPhase"
                 :class="{
                   disabled: grimoire.phaseIndex <= 0,
-                  locked: isStoryPreparation,
+                  locked: isStoryPreparation || session.isReview,
                 }"
               >
                 后退至前一阶段
@@ -115,7 +115,7 @@
               <li
                 v-if="!session.isSpectator"
                 @click="nextPhase"
-                :class="{ locked: isStoryPreparation }"
+                :class="{ locked: isStoryPreparation || session.isReview }"
               >
                 前进到下一阶段
               </li>
@@ -128,28 +128,28 @@
               <li
                 v-if="isOnlineStoryteller"
                 @click="distributeAsk"
-                :class="{ locked: isStoryPreparation }"
+                :class="{ locked: isStoryPreparation || session.isReview }"
               >
                 发送角色
               </li>
               <li
                 v-if="isOnlineStoryteller"
                 @click="distributeTypeAsk"
-                :class="{ locked: isStoryPreparation }"
+                :class="{ locked: isStoryPreparation || session.isReview }"
               >
                 发送角色类型
               </li>
               <li
                 v-if="isOnlineStoryteller"
                 @click="distributeBluffsAsk"
-                :class="{ locked: isStoryPreparation }"
+                :class="{ locked: isStoryPreparation || session.isReview }"
               >
                 发送伪装身份
               </li>
               <li
                 v-if="isOnlineStoryteller"
                 @click="distributeGrimoireAsk"
-                :class="{ locked: isStoryPreparation }"
+                :class="{ locked: isStoryPreparation || session.isReview }"
               >
                 发送魔典
               </li>
@@ -851,6 +851,7 @@ export default {
     },
     distributeAsk() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       this.distributingBluffs = false;
       this.distributingGrimoire = false;
       this.distributingTypes = false;
@@ -863,6 +864,7 @@ export default {
       this.distributing = false;
       if (!confirm) return;
       if (this.session.isSpectator) return;
+      if (this.session.isReview) return;
       this.$store.commit("session/distributeRoles", true);
       setTimeout(
         (() => {
@@ -884,6 +886,7 @@ export default {
     },
     async distributeTypeAsk() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       this.distributing = false;
       this.distributingBluffs = false;
       this.distributingGrimoire = false;
@@ -907,6 +910,7 @@ export default {
     distributeTypes() {
       this.distributingTypes = false;
       if (this.session.isSpectator) return;
+      if (this.session.isReview) return;
       this.$store.commit("session/distributeTypes", true);
       setTimeout(
         (() => {
@@ -917,6 +921,7 @@ export default {
     },
     distributeBluffsAsk() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       this.distributing = false;
       this.distributingGrimoire = false;
       this.distributingTypes = false;
@@ -926,6 +931,10 @@ export default {
       this.$nextTick(() => {
         document.getElementById("app").focus();
       });
+      if (this.session.isReview) {
+        this.distributingBluffs = false;
+        return;
+      }
       if (!role && !seat) {
         this.distributingBluffs = false;
         return;
@@ -975,6 +984,7 @@ export default {
       if (confirm === null) return;
       if (confirm === true) {
         if (this.session.isSpectator) return;
+        if (this.session.isReview) return;
         this.$store.commit("session/distributeBluffs", {
           val: true,
           role,
@@ -991,6 +1001,7 @@ export default {
     },
     distributeGrimoireAsk() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       this.distributing = false;
       this.distributingBluffs = false;
       this.distributingTypes = false;
@@ -1000,6 +1011,10 @@ export default {
       this.$nextTick(() => {
         document.getElementById("app").focus();
       });
+      if (this.session.isReview) {
+        this.distributingGrimoire = false;
+        return;
+      }
       if (!role && !seat) {
         this.distributingGrimoire = false;
         return;
@@ -1046,6 +1061,7 @@ export default {
 
       if (confirm === true) {
         if (this.session.isSpectator) return;
+        if (this.session.isReview) return;
         this.$store.commit("session/distributeGrimoire", {
           val: true,
           role,
@@ -1341,6 +1357,7 @@ export default {
     },
     previousPhase() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       if (this.grimoire.phaseIndex <= 0) return;
       this.$store.commit("previousPhase");
       if (this.grimoire.isNight) {
@@ -1349,6 +1366,7 @@ export default {
     },
     nextPhase() {
       if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
       this.$store.commit("nextPhase");
       if (this.grimoire.isNight) {
         this.$store.commit("session/setMarkedPlayer", -1);
@@ -1373,6 +1391,10 @@ export default {
       if (confirm === null) return;
 
       if (confirm === true) {
+        this.distributing = false;
+        this.distributingTypes = false;
+        this.distributingBluffs = false;
+        this.distributingGrimoire = false;
         this.$store.commit("session/startReview");
       }
     },

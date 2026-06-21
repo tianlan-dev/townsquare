@@ -425,6 +425,98 @@ function send(socket, command, params, feedback = false) {
   }
 }
 
+const HOST_ROOM_COMMANDS = new Set([
+  "bluff",
+  "bootlegger",
+  "clearVoteHistory",
+  "edition",
+  "fabled",
+  "firstNight",
+  "grimoire",
+  "gs",
+  "isNight",
+  "isReview",
+  "isVoteHistoryAllowed",
+  "isVoteInProgress",
+  "lock",
+  "marked",
+  "move",
+  "murderScene",
+  "nomination",
+  "nominationMarks",
+  "otherNight",
+  "phaseIndex",
+  "ping",
+  "player",
+  "pronouns",
+  "remove",
+  "secretVote",
+  "setTimer",
+  "startTimer",
+  "states",
+  "stopTimer",
+  "storytellerName",
+  "swap",
+  "teamsNames",
+  "useOldOrder",
+  "useOldRole",
+  "vote",
+  "votes",
+  "votingSpeed",
+]);
+
+const PLAYER_ROOM_COMMANDS = new Set(["ping", "pronouns", "vote"]);
+
+const HOST_DIRECT_COMMANDS = new Set([
+  "bluff",
+  "clearPlayerInfo",
+  "edition",
+  "firstNight",
+  "grimoire",
+  "gs",
+  "isRole",
+  "joinResult",
+  "leaveSeat",
+  "otherNight",
+  "passwordResult",
+  "player",
+  "reviewDetails",
+  "reviewDetailsFingerprint",
+  "stId",
+  "states",
+  "syncPlayersStatus",
+  "teamsNames",
+  "useDefaultAvatar",
+  "vote",
+]);
+
+const PLAYER_DIRECT_TO_HOST_COMMANDS = new Set([
+  "bye",
+  "claim",
+  "getGamestate",
+  "getStId",
+  "joinCheck",
+  "passwordCheck",
+  "requestReviewDetails",
+  "usingRole",
+  "vote",
+]);
+
+function isAllowedRoomCommand(socket, command) {
+  if (!isSocketRoomMember(socket)) return false;
+  return socket.isHost
+    ? HOST_ROOM_COMMANDS.has(command)
+    : PLAYER_ROOM_COMMANDS.has(command);
+}
+
+function isAllowedDirectCommand(sender, target, command) {
+  if (!isSocketRoomMember(sender)) return false;
+  if (sender.isHost) {
+    return target !== "host" && HOST_DIRECT_COMMANDS.has(command);
+  }
+  return target === "host" && PLAYER_DIRECT_TO_HOST_COMMANDS.has(command);
+}
+
 function broadcastRoom(room, sender, command, params, feedback = false) {
   if (!room) return;
   const sockets = new Set(room.clients.values());
@@ -689,6 +781,9 @@ function cleanupExpiredPlayers() {
 function handleUpload(socket, params) {
   const avatarDelete = params && params.deleteAvatar;
   if (Array.isArray(avatarDelete)) {
+    if (!socket.isHost && safePlayerId(avatarDelete[0]) !== socket.playerId) {
+      return;
+    }
     clearPlayerAvatar(avatarDelete[0]);
     return;
   }
@@ -698,6 +793,7 @@ function handleUpload(socket, params) {
   const [playerId, dataUrl] = upload;
   const safeId = safePlayerId(playerId);
   if (!safeId || typeof dataUrl !== "string") return;
+  if (safeId !== socket.playerId) return;
 
   const match = dataUrl.match(/^data:image\/(webp|png|jpeg);base64,(.+)$/);
   if (!match) return;
@@ -716,9 +812,11 @@ function routeDirect(room, sender, messages, feedback = false) {
   if (!messages || typeof messages !== "object") return;
   Object.entries(messages).forEach(([target, payload]) => {
     if (!Array.isArray(payload)) return;
+    const command = payload[0];
+    if (!isAllowedDirectCommand(sender, target, command)) return;
     const socket = target === "host" ? room.host : room.clients.get(target);
     if (socket && socket.readyState === WebSocket.OPEN) {
-      send(socket, payload[0], payload[1], feedback);
+      send(socket, command, payload[1], feedback);
     }
   });
 }
@@ -851,13 +949,14 @@ function handleSessionMessage(socket, raw) {
       routeDirect(room, socket, params, feedback);
       break;
     case "uploadFile":
-      if (room) handleUpload(socket, params);
+      if (isSocketRoomMember(socket)) handleUpload(socket, params);
       break;
     default:
       if (!isSocketRoomMember(socket)) {
         send(socket, "roomClosed", { reason: "房间身份已失效。" });
         break;
       }
+      if (!isAllowedRoomCommand(socket, command)) break;
       if (command === "claim" && Array.isArray(params)) {
         const [seat, playerId] = params;
         const player = players.get(playerId);

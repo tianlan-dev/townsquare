@@ -3182,22 +3182,22 @@ export default (store) => {
         session.claimSeat(payload);
         break;
       case "session/distributeRoles":
-        if (payload) {
+        if (payload && !state.session.isReview) {
           session.distributeRoles();
         }
         break;
       case "session/distributeTypes":
-        if (payload) {
+        if (payload && !state.session.isReview) {
           session.distributeTypes();
         }
         break;
       case "session/distributeBluffs":
-        if (payload) {
+        if (payload && !state.session.isReview) {
           session.distributeBluffs(payload);
         }
         break;
       case "session/distributeGrimoire":
-        if (payload) {
+        if (payload && !state.session.isReview) {
           session.distributeGrimoire(payload);
         }
         break;

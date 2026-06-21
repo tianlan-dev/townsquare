@@ -398,10 +398,12 @@ export default new Vuex.Store({
     setPhaseIndex({ grimoire }, phaseIndex) {
       setPhaseIndex(grimoire, phaseIndex);
     },
-    nextPhase({ grimoire }) {
+    nextPhase({ grimoire, session }) {
+      if (session.isReview) return;
       setPhaseIndex(grimoire, normalizePhaseIndex(grimoire.phaseIndex) + 1);
     },
-    previousPhase({ grimoire }) {
+    previousPhase({ grimoire, session }) {
+      if (session.isReview) return;
       setPhaseIndex(grimoire, normalizePhaseIndex(grimoire.phaseIndex) - 1);
     },
     toggleNight({ grimoire }, val) {
