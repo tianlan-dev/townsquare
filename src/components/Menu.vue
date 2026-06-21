@@ -685,12 +685,6 @@ export default {
       return true;
     },
     async useDefaultAvatar() {
-      const playerId = this.session.playerId;
-      if (playerId) {
-        fetch(`/avatars/${encodeURIComponent(playerId)}`, {
-          method: "DELETE",
-        }).catch(() => null);
-      }
       this.$store.commit("session/requestAvatarCleanup");
       this.$store.commit("session/setPlayerAvatarSource", "default");
       await this.$store.dispatch("refreshDefaultPlayerAvatar");

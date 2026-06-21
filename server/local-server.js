@@ -182,11 +182,6 @@ app.get("/scripts", (req, res) => {
   res.json(listScripts());
 });
 
-app.delete("/avatars/:playerId", (req, res) => {
-  clearPlayerAvatar(req.params.playerId);
-  res.json({ ok: true });
-});
-
 app.use("/avatars", express.static(avatarDir, { fallthrough: true }));
 app.use(
   "/avatars",
@@ -806,7 +801,7 @@ function handleUpload(socket, params) {
   const ext = match[1] === "jpeg" ? "jpg" : match[1];
   const filename = `${safeId}.${ext}`;
   fs.writeFileSync(path.join(avatarDir, filename), buffer);
-  send(socket, "avatarReceived", filename);
+  send(socket, "avatarReceived", `${filename}?v=${Date.now()}`);
 }
 
 function routeDirect(room, sender, messages, feedback = false) {
