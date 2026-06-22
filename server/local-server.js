@@ -301,6 +301,22 @@ function randomPlayerId() {
   return playerId;
 }
 
+function randomPlayerSecret() {
+  return crypto.randomBytes(32).toString("base64url");
+}
+
+function timingSafeEqualString(expected, actual) {
+  const expectedValue = String(expected || "");
+  const actualValue = String(actual || "");
+  if (!expectedValue || !actualValue) return false;
+
+  const expectedBuffer = Buffer.from(expectedValue);
+  const actualBuffer = Buffer.from(actualValue);
+  if (expectedBuffer.length !== actualBuffer.length) return false;
+
+  return crypto.timingSafeEqual(expectedBuffer, actualBuffer);
+}
+
 function safeRoomCode(roomCode) {
   const value = Number(roomCode);
   if (!Number.isInteger(value) || value < 1 || value > ROOM_CODE_MAX) return "";
@@ -350,6 +366,7 @@ function createPlayer(profile = {}, candidatePlayerId = "") {
   const playerId = safePlayerId(candidatePlayerId) || randomPlayerId();
   const player = {
     playerId,
+    playerSecret: randomPlayerSecret(),
     name: displayName(profile.name),
     gender: displayGender(profile.gender),
     lastHeartbeat: now(),
@@ -365,6 +382,16 @@ function createPlayer(profile = {}, candidatePlayerId = "") {
 
 function existingPlayer(playerId) {
   return players.get(safePlayerId(playerId));
+}
+
+function authenticatePlayer(playerId, playerSecret, profile = {}) {
+  const player = existingPlayer(playerId);
+  if (!player) return null;
+  if (!timingSafeEqualString(player.playerSecret, playerSecret)) return null;
+  if (profile.name) player.name = displayName(profile.name);
+  if (profile.gender) player.gender = displayGender(profile.gender);
+  player.lastHeartbeat = now();
+  return player;
 }
 
 function ensurePlayer(playerId, profile = {}) {
@@ -887,12 +914,23 @@ function handleSessionMessage(socket, raw) {
     return;
   }
 
+  if (command === "sessionAuth") {
+    handleSessionAuth(socket, params);
+    return;
+  }
+
+  if (!socket.isAuthenticated) {
+    send(socket, "sessionAuthResult", { ok: false, reason: "auth" });
+    socket.close(1008, "Unauthorized");
+    return;
+  }
+
   switch (command) {
     case "request":
       handleRequest(room, socket, params);
       break;
     case "playerHeartbeat": {
-      const player = ensurePlayer(params && params.playerId);
+      const player = ensurePlayer(socket.playerId);
       if (player) {
         send(socket, "heartbeatAccepted", { playerId: player.playerId });
       } else {
@@ -968,6 +1006,71 @@ function handleSessionMessage(socket, raw) {
   if (feedback) send(socket, "feedback", feedback);
 }
 
+function handleSessionAuth(socket, params = {}) {
+  if (socket.isAuthenticated) {
+    send(socket, "sessionAuthResult", { ok: true });
+    return;
+  }
+
+  const player = authenticatePlayer(
+    socket.playerId,
+    params && params.playerSecret,
+  );
+  const room = socket.pendingRoom;
+  const wantsHost = !!socket.pendingWantsHost;
+  if (!player || !room || rooms.get(room.channel) !== room) {
+    send(socket, "sessionAuthResult", { ok: false, reason: "auth" });
+    socket.close(1008, "Unauthorized");
+    return;
+  }
+
+  if (isRoomExpired(room)) {
+    closeRoom(room, "房间已过期。");
+    send(socket, "sessionAuthResult", { ok: false, reason: "roomMissing" });
+    socket.close(1008, "Invalid room");
+    return;
+  }
+
+  if (
+    player.currentRoomId !== room.channel ||
+    !room.members.has(player.playerId) ||
+    (wantsHost && room.storytellerId !== player.playerId)
+  ) {
+    send(socket, "sessionAuthResult", { ok: false, reason: "binding" });
+    socket.close(1008, "Invalid room binding");
+    return;
+  }
+
+  socket.isAuthenticated = true;
+  socket.room = room;
+  socket.isHost = false;
+  delete socket.pendingRoom;
+  delete socket.pendingWantsHost;
+
+  player.sockets.add(socket);
+  player.lastHeartbeat = now();
+
+  if (wantsHost) {
+    const currentHostOpen =
+      room.host && room.host.readyState === WebSocket.OPEN;
+    if (currentHostOpen && room.host !== socket) room.host.close(1000);
+    room.host = socket;
+    socket.isHost = true;
+    room.lastHostHeartbeat = now();
+    broadcastRoom(room, socket, "storytellerOnline", true);
+    broadcastRoom(room, socket, "storytellerName", room.hostName || "说书人");
+    flushPendingSeatVacates(room);
+    broadcastLobby("setRoomDetails", activeRoomDetails());
+  } else {
+    room.clients.set(player.playerId, socket);
+  }
+
+  send(socket, "sessionAuthResult", {
+    ok: true,
+    role: wantsHost ? "storyteller" : "player",
+  });
+}
+
 function attachSession(socket, pathname) {
   const parts = pathname.split("/").filter(Boolean);
   const channel = safeRoomCode(parts[1]);
@@ -996,39 +1099,27 @@ function attachSession(socket, pathname) {
   socket.type = "session";
   socket.channel = channel;
   socket.playerId = playerId;
-  socket.room = room;
+  socket.room = null;
+  socket.pendingRoom = room;
+  socket.pendingWantsHost = wantsHost;
+  socket.isAuthenticated = false;
   socket.isHost = false;
   socket.hasJoinedPresence = false;
   socket.hasLeftPresence = false;
   socket.displayName = "";
 
-  player.sockets.add(socket);
-  player.lastHeartbeat = now();
-
-  if (wantsHost) {
-    const currentHostOpen =
-      room.host && room.host.readyState === WebSocket.OPEN;
-    if (currentHostOpen && room.host !== socket) room.host.close(1000);
-    room.host = socket;
-    socket.isHost = true;
-    room.lastHostHeartbeat = now();
-    broadcastRoom(room, socket, "storytellerOnline", true);
-    broadcastRoom(room, socket, "storytellerName", room.hostName || "说书人");
-    flushPendingSeatVacates(room);
-    broadcastLobby("setRoomDetails", activeRoomDetails());
-  } else {
-    room.clients.set(playerId, socket);
-  }
-
   socket.on("message", (data) => handleSessionMessage(socket, data.toString()));
   socket.on("close", () => {
-    player.sockets.delete(socket);
-    if (!room) return;
-    const wasCurrentClient = room.clients.get(playerId) === socket;
-    if (wasCurrentClient) room.clients.delete(playerId);
-    if (room.host === socket) {
-      broadcastRoom(room, socket, "storytellerOnline", false);
-      room.host = null;
+    if (!socket.isAuthenticated) return;
+    const activePlayer = players.get(playerId);
+    if (activePlayer) activePlayer.sockets.delete(socket);
+    const activeRoom = socket.room;
+    if (!activeRoom) return;
+    const wasCurrentClient = activeRoom.clients.get(playerId) === socket;
+    if (wasCurrentClient) activeRoom.clients.delete(playerId);
+    if (activeRoom.host === socket) {
+      broadcastRoom(activeRoom, socket, "storytellerOnline", false);
+      activeRoom.host = null;
       broadcastLobby("setRoomDetails", activeRoomDetails());
     }
   });
@@ -1041,16 +1132,17 @@ function sendLobbyResult(socket, command, requestId, payload = {}) {
 function handleIdentifyPlayer(socket, params = {}) {
   const requestId = params.requestId;
   const candidatePlayerId = safePlayerId(params.candidatePlayerId);
+  const candidatePlayerSecret = params.candidatePlayerSecret;
   const profile = params.profile || {};
-  let player = candidatePlayerId ? players.get(candidatePlayerId) : null;
+  let player = candidatePlayerId
+    ? authenticatePlayer(candidatePlayerId, candidatePlayerSecret, profile)
+    : null;
   if (player) {
-    if (profile.name) player.name = displayName(profile.name);
-    if (profile.gender) player.gender = displayGender(profile.gender);
-    player.lastHeartbeat = now();
     logPlayerAccess(socket, "identify", player, profile);
     sendLobbyResult(socket, "identifyPlayerResult", requestId, {
       status: "playerAccepted",
       playerId: player.playerId,
+      playerSecret: player.playerSecret,
       name: player.name,
       currentRoomId: player.currentRoomId,
       roomRole: player.roomRole,
@@ -1069,6 +1161,7 @@ function handleIdentifyPlayer(socket, params = {}) {
   sendLobbyResult(socket, "identifyPlayerResult", requestId, {
     status: "playerCreated",
     playerId: player.playerId,
+    playerSecret: player.playerSecret,
     name: player.name,
     currentRoomId: "",
     roomRole: "none",
@@ -1077,7 +1170,11 @@ function handleIdentifyPlayer(socket, params = {}) {
 
 function handleCreateRoom(socket, params = {}) {
   const requestId = params.requestId;
-  const player = ensurePlayer(params.playerId, params.profile || {});
+  const player = authenticatePlayer(
+    params.playerId,
+    params.playerSecret,
+    params.profile || {},
+  );
   if (!player) {
     sendLobbyResult(socket, "createRoomResult", requestId, {
       ok: false,
@@ -1109,7 +1206,11 @@ function handleCreateRoom(socket, params = {}) {
 
 function handleJoinRoom(socket, params = {}) {
   const requestId = params.requestId;
-  const player = ensurePlayer(params.playerId, params.profile || {});
+  const player = authenticatePlayer(
+    params.playerId,
+    params.playerSecret,
+    params.profile || {},
+  );
   const roomCode = safeRoomCode(params.roomCode);
   const room = roomCode ? rooms.get(roomCode) : null;
   if (!player) {
@@ -1150,7 +1251,7 @@ function handleJoinRoom(socket, params = {}) {
 
 function handleValidateSession(socket, params = {}) {
   const requestId = params.requestId;
-  const player = ensurePlayer(params.playerId);
+  const player = authenticatePlayer(params.playerId, params.playerSecret);
   const roomCode = safeRoomCode(params.roomCode);
   const room = roomCode ? rooms.get(roomCode) : null;
   let reason = "";
@@ -1185,7 +1286,7 @@ function handleValidateSession(socket, params = {}) {
 
 function handlePlayerHeartbeat(socket, params = {}) {
   const requestId = params.requestId;
-  const player = ensurePlayer(params.playerId);
+  const player = authenticatePlayer(params.playerId, params.playerSecret);
   if (!player) {
     sendLobbyResult(socket, "playerHeartbeatResult", requestId, {
       ok: false,

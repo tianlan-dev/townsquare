@@ -151,6 +151,12 @@ module.exports = (store) => {
   if (localStorage.getItem("playerId")) {
     store.commit("session/setPlayerId", localStorage.getItem("playerId"));
   }
+  if (localStorage.getItem("playerSecret")) {
+    store.commit(
+      "session/setPlayerSecret",
+      localStorage.getItem("playerSecret"),
+    );
+  }
   if (localStorage.getItem("playerName")) {
     store.commit("session/setPlayerName", localStorage.getItem("playerName"));
   }
@@ -425,6 +431,13 @@ module.exports = (store) => {
           localStorage.setItem("playerId", payload);
         } else {
           localStorage.removeItem("playerId");
+        }
+        break;
+      case "session/setPlayerSecret":
+        if (payload) {
+          localStorage.setItem("playerSecret", payload);
+        } else {
+          localStorage.removeItem("playerSecret");
         }
         break;
       case "session/setPlayerName":

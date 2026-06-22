@@ -29,6 +29,7 @@ class LiveSession {
     );
     this._pingInterval = 3 * 1000; // 30 seconds between pings
     this._pingTimer = null;
+    this._authTimer = null;
     this._hostHeartbeatTimer = null;
     this._passwordTimer = null;
     this._pendingJoinHasPassword = false;
@@ -74,6 +75,8 @@ class LiveSession {
         this._socket = null;
         clearTimeout(this._pingTimer);
         this._pingTimer = null;
+        clearTimeout(this._authTimer);
+        this._authTimer = null;
         this._stopHostHeartbeat();
       }
       if (err.code !== 1000) {
@@ -166,6 +169,35 @@ class LiveSession {
    * @private
    */
   _onOpen() {
+    clearTimeout(this._authTimer);
+    this._send("sessionAuth", {
+      playerSecret: this._store.state.session.playerSecret,
+    });
+    this._authTimer = setTimeout(() => {
+      this._handleSessionAuthResult({ ok: false });
+    }, 6000);
+  }
+
+  async _handleSessionAuthResult(result = {}) {
+    clearTimeout(this._authTimer);
+    this._authTimer = null;
+    if (!result.ok) {
+      this.disconnect(false);
+      this._store.commit("session/setPlayerId", "");
+      this._store.commit("session/setPlayerSecret", "");
+      this._store.dispatch("resetRoomState");
+      await this.showInputModal({
+        inputType: "alert",
+        inputModal: "text",
+        inputData: {
+          name: ["身份验证失败，请重新进入房间。"],
+        },
+      }).catch(() => {
+        return null;
+      });
+      return;
+    }
+
     if (this._isSpectator) {
       if (
         this._store.state.session.isJoinAllowed === true &&
@@ -341,6 +373,9 @@ class LiveSession {
         break;
       case "presenceNotice":
         this._handlePresenceNotice(params);
+        break;
+      case "sessionAuthResult":
+        this._handleSessionAuthResult(params);
         break;
       case "allowHost":
         this._handleAllowHost(params);
@@ -588,10 +623,19 @@ class LiveSession {
       await this._alertPopup("无效的房间号！");
       return;
     }
-    if (!this._store.state.session.playerId) {
+    if (
+      !this._store.state.session.playerId ||
+      !this._store.state.session.playerSecret
+    ) {
       this.disconnect();
       this._store.commit("session/setSessionId", "");
-      await this._alertPopup("请先输入昵称后再进入房间！");
+      if (this._store.state.session.playerId) {
+        this._store.commit("session/setPlayerId", "");
+        this._store.commit("session/setPlayerSecret", "");
+        await this._alertPopup("账户身份已过期，请重新进入房间。");
+      } else {
+        await this._alertPopup("请先输入昵称后再进入房间！");
+      }
       return;
     }
     this._pings = {};
@@ -612,6 +656,8 @@ class LiveSession {
     this._stopHostHeartbeat();
     clearTimeout(this._pingTimer);
     this._pingTimer = null;
+    clearTimeout(this._authTimer);
+    this._authTimer = null;
     clearTimeout(this._reconnectTimer);
     clearTimeout(this._store.state.session.joinTimeout);
     clearTimeout(this._store.state.session.hostTimeout);
@@ -1005,6 +1051,7 @@ class LiveSession {
   async _handlePlayerInvalid(params = {}) {
     this.disconnect(false);
     this._store.commit("session/setPlayerId", "");
+    this._store.commit("session/setPlayerSecret", "");
     this._store.dispatch("resetRoomState");
     await this.showInputModal({
       inputType: "alert",
@@ -2864,6 +2911,7 @@ class LiveLobby {
 
   _clearLocalIdentity() {
     this._store.commit("session/setPlayerId", "");
+    this._store.commit("session/setPlayerSecret", "");
     this._store.dispatch("resetRoomState");
   }
 
@@ -2883,9 +2931,13 @@ class LiveLobby {
 
   async _sendHeartbeat() {
     const playerId = this._store.state.session.playerId;
-    if (!playerId) return;
+    const playerSecret = this._store.state.session.playerSecret;
+    if (!playerId || !playerSecret) return;
     try {
-      const result = await this._request("playerHeartbeat", { playerId });
+      const result = await this._request("playerHeartbeat", {
+        playerId,
+        playerSecret,
+      });
       if (!result.ok) this._clearLocalIdentity();
     } catch (e) {
       // Connection errors are handled by socket reconnect.
@@ -2929,10 +2981,14 @@ class LiveLobby {
   async identifyPlayer(profile = {}) {
     const result = await this._request("identifyPlayer", {
       candidatePlayerId: this._store.state.session.playerId,
+      candidatePlayerSecret: this._store.state.session.playerSecret,
       profile,
     });
     if (result.playerId) {
       this._store.commit("session/setPlayerId", result.playerId);
+    }
+    if (result.playerSecret) {
+      this._store.commit("session/setPlayerSecret", result.playerSecret);
     }
     return result;
   }
@@ -2942,6 +2998,8 @@ class LiveLobby {
     if (!identity.playerId) return { ok: false, reason: identity.reason };
     const result = await this._request("createRoom", {
       playerId: identity.playerId,
+      playerSecret:
+        identity.playerSecret || this._store.state.session.playerSecret,
       profile,
       playerCount,
       password,
@@ -2956,6 +3014,8 @@ class LiveLobby {
     if (!identity.playerId) return { ok: false, reason: identity.reason };
     const result = await this._request("joinRoom", {
       playerId: identity.playerId,
+      playerSecret:
+        identity.playerSecret || this._store.state.session.playerSecret,
       profile,
       roomCode,
       password,
@@ -2967,9 +3027,17 @@ class LiveLobby {
 
   async validateSession({ roomCode, clearOnInvalid = false } = {}) {
     const playerId = this._store.state.session.playerId;
-    if (!playerId || !roomCode) return { ok: false };
+    const playerSecret = this._store.state.session.playerSecret;
+    if (!playerId || !playerSecret || !roomCode) {
+      if (clearOnInvalid) this._clearLocalIdentity();
+      return {
+        ok: false,
+        reason: !playerSecret && playerId ? "accountMissing" : "",
+      };
+    }
     const result = await this._request("validateSession", {
       playerId,
+      playerSecret,
       roomCode,
     });
     if (!result.ok && clearOnInvalid) this._clearLocalIdentity();
@@ -3127,6 +3195,7 @@ async function restoreStoredSession(store, lobby, { notify = false } = {}) {
     }
     if (result.reason === "accountMissing") {
       store.commit("session/setPlayerId", "");
+      store.commit("session/setPlayerSecret", "");
       await showRestoreAlert(store, "账户不存在，请重新进入房间。");
       store.dispatch("resetRoomState");
       return;
