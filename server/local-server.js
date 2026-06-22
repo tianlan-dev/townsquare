@@ -527,6 +527,8 @@ const PLAYER_DIRECT_TO_HOST_COMMANDS = new Set([
   "vote",
 ]);
 
+const INVALID_PAYLOAD = Symbol("invalidPayload");
+
 function isAllowedRoomCommand(socket, command) {
   if (!isSocketRoomMember(socket)) return false;
   return socket.isHost
@@ -540,6 +542,204 @@ function isAllowedDirectCommand(sender, target, command) {
     return target !== "host" && HOST_DIRECT_COMMANDS.has(command);
   }
   return target === "host" && PLAYER_DIRECT_TO_HOST_COMMANDS.has(command);
+}
+
+function safeSeatIndex(value, { allowVacate = false } = {}) {
+  if (value === null || value === undefined) return null;
+  if (typeof value === "string" && value.trim() === "") return null;
+  if (typeof value !== "number" && typeof value !== "string") return null;
+  const seat = Number(value);
+  if (!Number.isInteger(seat)) return null;
+  if (seat === -1 && allowVacate) return seat;
+  return seat >= 0 ? seat : null;
+}
+
+function roomPlayer(room, playerId) {
+  const safeId = safePlayerId(playerId);
+  const player = safeId ? players.get(safeId) : null;
+  if (!room || !player) return null;
+  if (player.currentRoomId !== room.channel || !room.members.has(safeId)) {
+    return null;
+  }
+  return player;
+}
+
+function clearSeat(room, seat) {
+  if (!room || !Number.isInteger(seat) || seat < 0) return;
+  room.members.forEach((playerName, playerId) => {
+    const player = players.get(playerId);
+    if (player && player.currentRoomId === room.channel && player.seat === seat) {
+      player.seat = null;
+    }
+  });
+}
+
+function clearPlayerSeat(room, playerId) {
+  const player = roomPlayer(room, playerId);
+  if (player) player.seat = null;
+}
+
+function setPlayerSeat(room, playerId, seat) {
+  const player = roomPlayer(room, playerId);
+  if (!player) return false;
+  clearPlayerSeat(room, player.playerId);
+  if (!Number.isInteger(seat) || seat < 0) return true;
+  clearSeat(room, seat);
+  player.seat = seat;
+  return true;
+}
+
+function syncSeatsFromGamestate(room, params) {
+  const gamestate = params && params.gamestate;
+  if (!Array.isArray(gamestate)) return;
+  room.members.forEach((playerName, playerId) => clearPlayerSeat(room, playerId));
+  gamestate.forEach((playerState, index) => {
+    const playerId = playerState && playerState.id;
+    if (playerId) setPlayerSeat(room, playerId, index);
+  });
+}
+
+function syncSeatFromPlayerUpdate(room, params) {
+  if (!params || params.property !== "id") return;
+  const seat = safeSeatIndex(params.index);
+  if (seat === null) return;
+  const playerId = safePlayerId(params.value);
+  if (!playerId) {
+    clearSeat(room, seat);
+    return;
+  }
+  setPlayerSeat(room, playerId, seat);
+}
+
+function syncSeatsAfterRemove(room, index) {
+  const seat = safeSeatIndex(index);
+  if (seat === null) return;
+  room.members.forEach((playerName, playerId) => {
+    const player = players.get(playerId);
+    if (!player || player.currentRoomId !== room.channel) return;
+    if (player.seat === seat) player.seat = null;
+    else if (player.seat > seat) player.seat -= 1;
+  });
+}
+
+function syncSeatsAfterSwap(room, params) {
+  if (!Array.isArray(params)) return;
+  const from = safeSeatIndex(params[0]);
+  const to = safeSeatIndex(params[1]);
+  if (from === null || to === null || from === to) return;
+  room.members.forEach((playerName, playerId) => {
+    const player = players.get(playerId);
+    if (!player || player.currentRoomId !== room.channel) return;
+    if (player.seat === from) player.seat = to;
+    else if (player.seat === to) player.seat = from;
+  });
+}
+
+function syncSeatsAfterMove(room, params) {
+  if (!Array.isArray(params)) return;
+  const from = safeSeatIndex(params[0]);
+  const to = safeSeatIndex(params[1]);
+  if (from === null || to === null || from === to) return;
+  room.members.forEach((playerName, playerId) => {
+    const player = players.get(playerId);
+    if (!player || player.currentRoomId !== room.channel) return;
+    if (player.seat === from) player.seat = to;
+    else if (from < to && player.seat > from && player.seat <= to) {
+      player.seat -= 1;
+    } else if (to < from && player.seat >= to && player.seat < from) {
+      player.seat += 1;
+    }
+  });
+}
+
+function syncSeatsFromHostCommand(room, command, params) {
+  if (!room) return;
+  switch (command) {
+    case "gs":
+      syncSeatsFromGamestate(room, params);
+      break;
+    case "player":
+      syncSeatFromPlayerUpdate(room, params);
+      break;
+    case "remove":
+      syncSeatsAfterRemove(room, params);
+      break;
+    case "swap":
+      syncSeatsAfterSwap(room, params);
+      break;
+    case "move":
+      syncSeatsAfterMove(room, params);
+      break;
+    default:
+      break;
+  }
+}
+
+function playerSeat(room, socket) {
+  const player = roomPlayer(room, socket && socket.playerId);
+  if (!player || !Number.isInteger(player.seat) || player.seat < 0) return null;
+  return player.seat;
+}
+
+function normalizePlayerRoomPayload(room, sender, command, params) {
+  if (command === "ping") {
+    const latency = Array.isArray(params) ? params[1] : undefined;
+    return [sender.playerId, latency];
+  }
+
+  const seat = playerSeat(room, sender);
+  if (seat === null || !Array.isArray(params)) return INVALID_PAYLOAD;
+  const requestedSeat = safeSeatIndex(params[0]);
+  if (requestedSeat !== seat) return INVALID_PAYLOAD;
+
+  if (command === "pronouns") return [seat, params[1]];
+  if (command === "vote") return [seat, params[1], false];
+  return INVALID_PAYLOAD;
+}
+
+function normalizePlayerDirectPayload(room, sender, command, params) {
+  const player = roomPlayer(room, sender.playerId);
+  if (!player) return INVALID_PAYLOAD;
+
+  switch (command) {
+    case "bye":
+    case "getGamestate":
+    case "getStId":
+    case "requestReviewDetails":
+      return sender.playerId;
+    case "joinCheck":
+    case "passwordCheck": {
+      const cleanParams =
+        params && typeof params === "object" && !Array.isArray(params)
+          ? { ...params }
+          : {};
+      cleanParams.playerId = sender.playerId;
+      return cleanParams;
+    }
+    case "claim": {
+      if (!Array.isArray(params)) return INVALID_PAYLOAD;
+      const seat = safeSeatIndex(params[0], { allowVacate: true });
+      if (seat === null) return INVALID_PAYLOAD;
+      const image = typeof params[3] === "string" ? params[3].substr(0, 2048) : "";
+      return [seat, sender.playerId, player.name || "玩家", image];
+    }
+    case "usingRole": {
+      if (!params || typeof params !== "object" || Array.isArray(params)) {
+        return INVALID_PAYLOAD;
+      }
+      return { ...params, playerId: sender.playerId };
+    }
+    case "vote": {
+      if (!Array.isArray(params)) return INVALID_PAYLOAD;
+      const seat = playerSeat(room, sender);
+      if (seat === null || safeSeatIndex(params[0]) !== seat) {
+        return INVALID_PAYLOAD;
+      }
+      return [seat, params[1], false];
+    }
+    default:
+      return INVALID_PAYLOAD;
+  }
 }
 
 function broadcastRoom(room, sender, command, params, feedback = false) {
@@ -840,9 +1040,16 @@ function routeDirect(room, sender, messages, feedback = false) {
     if (!Array.isArray(payload)) return;
     const command = payload[0];
     if (!isAllowedDirectCommand(sender, target, command)) return;
+    let params = payload[1];
+    if (sender.isHost) {
+      syncSeatsFromHostCommand(room, command, params);
+    } else {
+      params = normalizePlayerDirectPayload(room, sender, command, params);
+      if (params === INVALID_PAYLOAD) return;
+    }
     const socket = target === "host" ? room.host : room.clients.get(target);
     if (socket && socket.readyState === WebSocket.OPEN) {
-      send(socket, command, payload[1], feedback);
+      send(socket, command, params, feedback);
     }
   });
 }
@@ -994,12 +1201,11 @@ function handleSessionMessage(socket, raw) {
         break;
       }
       if (!isAllowedRoomCommand(socket, command)) break;
-      if (command === "claim" && Array.isArray(params)) {
-        const [seat, playerId] = params;
-        const player = players.get(playerId);
-        if (player && player.currentRoomId === room.channel) {
-          player.seat = Number(seat) >= 0 ? Number(seat) : null;
-        }
+      if (socket.isHost) {
+        syncSeatsFromHostCommand(room, command, params);
+      } else {
+        params = normalizePlayerRoomPayload(room, socket, command, params);
+        if (params === INVALID_PAYLOAD) break;
       }
       if (room) broadcastRoom(room, socket, command, params, feedback);
       break;
