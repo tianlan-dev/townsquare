@@ -5,6 +5,7 @@ const PHASE_NIGHT = 0;
 const PHASE_DAWN = 1;
 const PHASE_DAY = 2;
 const PHASE_DUSK = 3;
+const RATE_LIMITED_MESSAGE = "操作过于频繁，请稍后再试。";
 
 const phaseOf = (phaseIndex) => {
   const index = Number.parseInt(phaseIndex, 10);
@@ -39,6 +40,7 @@ class LiveSession {
     this._closeShouldReset = new WeakMap();
     this._players = {}; // map of players connected to a session
     this._pings = {}; // map of player IDs to ping
+    this._lastRateLimitedAlertAt = 0;
     // reconnect to previous session
     if (this._store.state.session.sessionId) {
       this.connect(this._store.state.session.sessionId);
@@ -376,6 +378,9 @@ class LiveSession {
         break;
       case "sessionAuthResult":
         this._handleSessionAuthResult(params);
+        break;
+      case "rateLimited":
+        this._handleRateLimited();
         break;
       case "allowHost":
         this._handleAllowHost(params);
@@ -731,6 +736,13 @@ class LiveSession {
 
       this._store.commit("toggleModal", "input");
     });
+  }
+
+  async _handleRateLimited() {
+    const timestamp = Date.now();
+    if (timestamp - this._lastRateLimitedAlertAt < 10 * 1000) return;
+    this._lastRateLimitedAlertAt = timestamp;
+    await this._alertPopup(RATE_LIMITED_MESSAGE);
   }
 
   async _showStorytellerOfflineModal() {
@@ -2938,7 +2950,8 @@ class LiveLobby {
         playerId,
         playerSecret,
       });
-      if (!result.ok) this._clearLocalIdentity();
+      if (!result.ok && result.reason !== "rateLimited")
+        this._clearLocalIdentity();
     } catch (e) {
       // Connection errors are handled by socket reconnect.
     }
@@ -3040,7 +3053,8 @@ class LiveLobby {
       playerSecret,
       roomCode,
     });
-    if (!result.ok && clearOnInvalid) this._clearLocalIdentity();
+    if (!result.ok && result.reason !== "rateLimited" && clearOnInvalid)
+      this._clearLocalIdentity();
     return result;
   }
 
@@ -3159,6 +3173,10 @@ async function restoreStoredSession(store, lobby, { notify = false } = {}) {
     .validateSession({ roomCode: sessionId })
     .catch(() => ({ ok: false }));
   if (!result.ok) {
+    if (result.reason === "rateLimited") {
+      if (notify) await showRestoreAlert(store, RATE_LIMITED_MESSAGE);
+      return;
+    }
     if (result.reason === "notMember" && wasSpectator) {
       const password = store.state.session.savedRoomPasswords[sessionId] || "";
       const join = await lobby
@@ -3186,7 +3204,9 @@ async function restoreStoredSession(store, lobby, { notify = false } = {}) {
       }
       await showRestoreAlert(
         store,
-        join.reason === "password"
+        join.reason === "rateLimited"
+          ? RATE_LIMITED_MESSAGE
+          : join.reason === "password"
           ? "你已不在该房间中，保存的房间密码无效，请重新加入。"
           : "你已不在该房间中，请重新加入。",
       );

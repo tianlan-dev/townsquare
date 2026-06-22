@@ -640,6 +640,10 @@ export default {
         this.$store.commit("toggleModal", "input");
       });
     },
+    requestErrorMessage(reason, fallback) {
+      if (reason === "rateLimited") return "操作过于频繁，请稍后再试。";
+      return fallback || reason || "操作失败，请稍后再试。";
+    },
     async editPlayerProfile() {
       const input = await this.showInputModal({
         inputType: "playerProfile",
@@ -758,7 +762,12 @@ export default {
           inputType: "alert",
           inputModal: "text",
           inputData: {
-            name: [result.reason || "创建房间失败，请稍后再试。"],
+            name: [
+              this.requestErrorMessage(
+                result.reason,
+                result.reason || "创建房间失败，请稍后再试。",
+              ),
+            ],
           },
         }).catch(() => {
           return null;
@@ -1199,9 +1208,12 @@ export default {
             inputModal: "text",
             inputData: {
               name: [
-                result.reason === "password"
-                  ? "房间密码错误！"
-                  : "无法加入房间。",
+                this.requestErrorMessage(
+                  result.reason,
+                  result.reason === "password"
+                    ? "房间密码错误！"
+                    : "无法加入房间。",
+                ),
               ],
             },
           }).catch(() => {

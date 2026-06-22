@@ -206,12 +206,100 @@ app.use((err, req, res, next) => {
   sendServiceUnavailable(res);
 });
 
+const SECOND_MS = 1000;
+const MINUTE_MS = 60 * SECOND_MS;
+const HOUR_MS = 60 * MINUTE_MS;
+const RATE_LIMITED_REASON = "rateLimited";
+const WS_MAX_PAYLOAD_BYTES = envPositiveInteger(
+  "WS_MAX_PAYLOAD_BYTES",
+  8 * 1024 * 1024,
+);
+const MAX_AVATAR_BYTES = envPositiveInteger(
+  "MAX_AVATAR_BYTES",
+  5 * 1024 * 1024,
+);
+const MAX_AVATAR_BASE64_CHARS = Math.ceil(MAX_AVATAR_BYTES / 3) * 4;
+const MAX_AVATAR_DATA_URL_CHARS = envPositiveInteger(
+  "MAX_AVATAR_DATA_URL_CHARS",
+  MAX_AVATAR_BASE64_CHARS + 64,
+);
+const RATE_LIMIT_WS_UPGRADE_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_WS_UPGRADE_PER_MINUTE",
+  60,
+);
+const RATE_LIMIT_WS_CONNECTIONS_PER_IP = envPositiveInteger(
+  "RATE_LIMIT_WS_CONNECTIONS_PER_IP",
+  50,
+);
+const RATE_LIMIT_LOBBY_MESSAGES_PER_SOCKET_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_LOBBY_MESSAGES_PER_SOCKET_PER_MINUTE",
+  120,
+);
+const RATE_LIMIT_LOBBY_MESSAGES_PER_IP_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_LOBBY_MESSAGES_PER_IP_PER_MINUTE",
+  300,
+);
+const RATE_LIMIT_SESSION_MESSAGES_PER_SOCKET_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_SESSION_MESSAGES_PER_SOCKET_PER_MINUTE",
+  240,
+);
+const RATE_LIMIT_SESSION_MESSAGES_PER_IP_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_SESSION_MESSAGES_PER_IP_PER_MINUTE",
+  600,
+);
+const RATE_LIMIT_IDENTIFY_PLAYER_PER_HOUR = envPositiveInteger(
+  "RATE_LIMIT_IDENTIFY_PLAYER_PER_HOUR",
+  60,
+);
+const RATE_LIMIT_CREATE_ROOM_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_CREATE_ROOM_PER_MINUTE",
+  3,
+);
+const RATE_LIMIT_CREATE_ROOM_PER_HOUR = envPositiveInteger(
+  "RATE_LIMIT_CREATE_ROOM_PER_HOUR",
+  12,
+);
+const RATE_LIMIT_JOIN_ROOM_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_JOIN_ROOM_PER_MINUTE",
+  120,
+);
+const RATE_LIMIT_JOIN_PASSWORD_FAILS = envPositiveInteger(
+  "RATE_LIMIT_JOIN_PASSWORD_FAILS",
+  10,
+);
+const RATE_LIMIT_JOIN_PASSWORD_WINDOW_MS = envPositiveInteger(
+  "RATE_LIMIT_JOIN_PASSWORD_WINDOW_MS",
+  5 * MINUTE_MS,
+);
+const RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_SOCKET_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_SOCKET_PER_MINUTE",
+  10,
+);
+const RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_IP_PER_MINUTE = envPositiveInteger(
+  "RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_IP_PER_MINUTE",
+  30,
+);
+const RATE_LIMIT_AVATAR_UPLOADS_PER_PLAYER_PER_10_MIN = envPositiveInteger(
+  "RATE_LIMIT_AVATAR_UPLOADS_PER_PLAYER_PER_10_MIN",
+  10,
+);
+const RATE_LIMIT_AVATAR_UPLOADS_PER_IP_PER_HOUR = envPositiveInteger(
+  "RATE_LIMIT_AVATAR_UPLOADS_PER_IP_PER_HOUR",
+  60,
+);
+
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ noServer: true });
+const wss = new WebSocket.Server({
+  noServer: true,
+  maxPayload: WS_MAX_PAYLOAD_BYTES,
+});
 const players = new Map();
 const rooms = new Map();
 const lobbies = new Set();
 const usedRoomCodes = new Map();
+const rateLimitBuckets = new Map();
+const activeConnectionsByIp = new Map();
+let socketSequence = 0;
 const ROOM_CODE_MAX = 999999;
 const USED_ROOM_CODE_TTL_MS =
   Number(process.env.USED_ROOM_CODE_TTL_MS) || 24 * 60 * 60 * 1000;
@@ -222,6 +310,12 @@ const PLAYER_CLEANUP_MS =
 
 function now() {
   return Date.now();
+}
+
+function envPositiveInteger(name, fallback) {
+  const value = Number(process.env[name]);
+  if (Number.isFinite(value) && value > 0) return Math.floor(value);
+  return fallback;
 }
 
 function displayName(name) {
@@ -262,6 +356,123 @@ function requestIp(req, fallbackSocket) {
         "",
     )
   );
+}
+
+function rateKey(scope, key) {
+  return `${scope}:${String(key || "unknown")}`;
+}
+
+function rateLimitRule(scope, key, limit, windowMs) {
+  return { scope, key: String(key || "unknown"), limit, windowMs };
+}
+
+function rateLimitBucket(rule, timestamp = now()) {
+  const key = rateKey(rule.scope, rule.key);
+  let bucket = rateLimitBuckets.get(key);
+  if (!bucket || bucket.expiresAt <= timestamp) {
+    bucket = {
+      count: 0,
+      expiresAt: timestamp + rule.windowMs,
+    };
+    rateLimitBuckets.set(key, bucket);
+  }
+  return bucket;
+}
+
+function checkRateLimit(rule, timestamp = now()) {
+  if (!rule || !rule.limit || !rule.windowMs) return { ok: true };
+  const bucket = rateLimitBucket(rule, timestamp);
+  if (bucket.count >= rule.limit) {
+    return {
+      ok: false,
+      reason: RATE_LIMITED_REASON,
+      retryAfterMs: Math.max(0, bucket.expiresAt - timestamp),
+    };
+  }
+  return { ok: true, bucket };
+}
+
+function consumeRateLimits(rules) {
+  const timestamp = now();
+  const checks = rules.map((rule) => checkRateLimit(rule, timestamp));
+  const blocked = checks.find((result) => !result.ok);
+  if (blocked) return blocked;
+  checks.forEach((result) => {
+    if (result.bucket) result.bucket.count += 1;
+  });
+  return { ok: true };
+}
+
+function pruneRateLimitBuckets(timestamp = now()) {
+  rateLimitBuckets.forEach((bucket, key) => {
+    if (bucket.expiresAt <= timestamp) rateLimitBuckets.delete(key);
+  });
+}
+
+function rateLimitedPayload(result = {}) {
+  return {
+    ok: false,
+    reason: RATE_LIMITED_REASON,
+    retryAfterMs: Math.max(0, Number(result.retryAfterMs) || 0),
+  };
+}
+
+function sendSocketRateLimited(socket, result = {}) {
+  send(socket, "rateLimited", {
+    retryAfterMs: rateLimitedPayload(result).retryAfterMs,
+  });
+}
+
+function sendLobbyRateLimited(socket, command, requestId, result = {}) {
+  const responseCommand = command ? `${command}Result` : "rateLimited";
+  if (requestId) {
+    sendLobbyResult(
+      socket,
+      responseCommand,
+      requestId,
+      rateLimitedPayload(result),
+    );
+    return;
+  }
+  sendSocketRateLimited(socket, result);
+}
+
+function activeConnectionCount(ip) {
+  return activeConnectionsByIp.get(ip || "unknown") || 0;
+}
+
+function addActiveConnection(ip) {
+  const key = ip || "unknown";
+  activeConnectionsByIp.set(key, activeConnectionCount(key) + 1);
+}
+
+function removeActiveConnection(ip) {
+  const key = ip || "unknown";
+  const count = activeConnectionCount(key);
+  if (count <= 1) activeConnectionsByIp.delete(key);
+  else activeConnectionsByIp.set(key, count - 1);
+}
+
+function rejectUpgrade(socket, statusCode, message, retryAfterMs = 0) {
+  const retryHeader =
+    retryAfterMs > 0 ? `Retry-After: ${Math.ceil(retryAfterMs / 1000)}\r\n` : "";
+  try {
+    socket.write(
+      `HTTP/1.1 ${statusCode} ${message}\r\n` +
+        "Connection: close\r\n" +
+        retryHeader +
+        "\r\n",
+    );
+  } catch (e) {
+    // Ignore broken upgrade sockets; they are closed below.
+  } finally {
+    socket.destroy();
+  }
+}
+
+function handleSocketError(err) {
+  if (err && err.code === "WS_ERR_UNSUPPORTED_MESSAGE_LENGTH") return;
+  if (err) console.error("WebSocket error:", err);
 }
 
 function appendJsonLine(filePath, record) {
@@ -1002,6 +1213,7 @@ function cleanupExpiredPlayers() {
     }
   });
   pruneUsedRoomCodes();
+  pruneRateLimitBuckets(timestamp);
 }
 
 function handleUpload(socket, params) {
@@ -1020,12 +1232,33 @@ function handleUpload(socket, params) {
   const safeId = safePlayerId(playerId);
   if (!safeId || typeof dataUrl !== "string") return;
   if (safeId !== socket.playerId) return;
+  if (dataUrl.length > MAX_AVATAR_DATA_URL_CHARS) return;
 
   const match = dataUrl.match(/^data:image\/(webp|png|jpeg);base64,(.+)$/);
   if (!match) return;
+  if (match[2].length > MAX_AVATAR_BASE64_CHARS) return;
+
+  const uploadRate = consumeRateLimits([
+    rateLimitRule(
+      "avatarUploadPlayer",
+      safeId,
+      RATE_LIMIT_AVATAR_UPLOADS_PER_PLAYER_PER_10_MIN,
+      10 * MINUTE_MS,
+    ),
+    rateLimitRule(
+      "avatarUploadIp",
+      socket.clientIp,
+      RATE_LIMIT_AVATAR_UPLOADS_PER_IP_PER_HOUR,
+      HOUR_MS,
+    ),
+  ]);
+  if (!uploadRate.ok) {
+    sendSocketRateLimited(socket, uploadRate);
+    return;
+  }
 
   const buffer = Buffer.from(match[2], "base64");
-  if (buffer.length > 5 * 1024 * 1024) return;
+  if (buffer.length > MAX_AVATAR_BYTES) return;
 
   const ext = match[1] === "jpeg" ? "jpg" : match[1];
   const filename = `${safeId}.${ext}`;
@@ -1122,6 +1355,28 @@ function handleSessionMessage(socket, raw) {
   } catch (e) {
     return;
   }
+
+  const messageRate = consumeRateLimits([
+    rateLimitRule(
+      "sessionMessageSocket",
+      socket.rateLimitId,
+      RATE_LIMIT_SESSION_MESSAGES_PER_SOCKET_PER_MINUTE,
+      MINUTE_MS,
+    ),
+    rateLimitRule(
+      "sessionMessageIp",
+      socket.clientIp,
+      RATE_LIMIT_SESSION_MESSAGES_PER_IP_PER_MINUTE,
+      MINUTE_MS,
+    ),
+  ]);
+  if (!messageRate.ok) {
+    socket.rateLimitStrikes = (socket.rateLimitStrikes || 0) + 1;
+    sendSocketRateLimited(socket, messageRate);
+    if (socket.rateLimitStrikes >= 3) socket.close(1013, "Rate limited");
+    return;
+  }
+  socket.rateLimitStrikes = 0;
 
   if (command === "sessionAuth") {
     handleSessionAuth(socket, params);
@@ -1312,6 +1567,8 @@ function attachSession(socket, pathname) {
   socket.pendingWantsHost = wantsHost;
   socket.isAuthenticated = false;
   socket.isHost = false;
+  socket.rateLimitId = `session-${++socketSequence}`;
+  socket.rateLimitStrikes = 0;
   socket.hasJoinedPresence = false;
   socket.hasLeftPresence = false;
   socket.displayName = "";
@@ -1339,6 +1596,18 @@ function sendLobbyResult(socket, command, requestId, payload = {}) {
 
 function handleIdentifyPlayer(socket, params = {}) {
   const requestId = params.requestId;
+  const identifyRate = consumeRateLimits([
+    rateLimitRule(
+      "identifyPlayerIp",
+      socket.clientIp,
+      RATE_LIMIT_IDENTIFY_PLAYER_PER_HOUR,
+      HOUR_MS,
+    ),
+  ]);
+  if (!identifyRate.ok) {
+    sendLobbyRateLimited(socket, "identifyPlayer", requestId, identifyRate);
+    return;
+  }
   const candidatePlayerId = safePlayerId(params.candidatePlayerId);
   const candidatePlayerSecret = params.candidatePlayerSecret;
   const profile = params.profile || {};
@@ -1390,6 +1659,24 @@ function handleCreateRoom(socket, params = {}) {
     });
     return;
   }
+  const createRoomRate = consumeRateLimits([
+    rateLimitRule(
+      "createRoomIpMinute",
+      socket.clientIp,
+      RATE_LIMIT_CREATE_ROOM_PER_MINUTE,
+      MINUTE_MS,
+    ),
+    rateLimitRule(
+      "createRoomIpHour",
+      socket.clientIp,
+      RATE_LIMIT_CREATE_ROOM_PER_HOUR,
+      HOUR_MS,
+    ),
+  ]);
+  if (!createRoomRate.ok) {
+    sendLobbyRateLimited(socket, "createRoom", requestId, createRoomRate);
+    return;
+  }
   removePlayerFromCurrentRoom(player, "玩家已切换房间。");
   let roomCode;
   try {
@@ -1428,6 +1715,18 @@ function handleJoinRoom(socket, params = {}) {
     });
     return;
   }
+  const joinRoomRate = consumeRateLimits([
+    rateLimitRule(
+      "joinRoomIp",
+      socket.clientIp,
+      RATE_LIMIT_JOIN_ROOM_PER_MINUTE,
+      MINUTE_MS,
+    ),
+  ]);
+  if (!joinRoomRate.ok) {
+    sendLobbyRateLimited(socket, "joinRoom", requestId, joinRoomRate);
+    return;
+  }
   if (!room || isRoomExpired(room)) {
     sendLobbyResult(socket, "joinRoomResult", requestId, {
       ok: false,
@@ -1435,7 +1734,21 @@ function handleJoinRoom(socket, params = {}) {
     });
     return;
   }
+  const passwordFailureRule = rateLimitRule(
+    "joinPasswordFailure",
+    `${socket.clientIp}:${room.channel}`,
+    RATE_LIMIT_JOIN_PASSWORD_FAILS,
+    RATE_LIMIT_JOIN_PASSWORD_WINDOW_MS,
+  );
+  if (room.hasPassword) {
+    const passwordFailureRate = checkRateLimit(passwordFailureRule);
+    if (!passwordFailureRate.ok) {
+      sendLobbyRateLimited(socket, "joinRoom", requestId, passwordFailureRate);
+      return;
+    }
+  }
   if (room.hasPassword && room.password !== String(params.password || "")) {
+    consumeRateLimits([passwordFailureRule]);
     sendLobbyResult(socket, "joinRoomResult", requestId, {
       ok: false,
       reason: "password",
@@ -1510,6 +1823,7 @@ function handlePlayerHeartbeat(socket, params = {}) {
 
 function attachLobby(socket) {
   socket.type = "lobby";
+  socket.rateLimitId = `lobby-${++socketSequence}`;
   lobbies.add(socket);
   sendLobbyRooms(socket);
   socket.on("message", (data) => {
@@ -1519,6 +1833,45 @@ function attachLobby(socket) {
       [command, params] = JSON.parse(data.toString());
     } catch (e) {
       return;
+    }
+    const requestId = params && params.requestId;
+    const messageRate = consumeRateLimits([
+      rateLimitRule(
+        "lobbyMessageSocket",
+        socket.rateLimitId,
+        RATE_LIMIT_LOBBY_MESSAGES_PER_SOCKET_PER_MINUTE,
+        MINUTE_MS,
+      ),
+      rateLimitRule(
+        "lobbyMessageIp",
+        socket.clientIp,
+        RATE_LIMIT_LOBBY_MESSAGES_PER_IP_PER_MINUTE,
+        MINUTE_MS,
+      ),
+    ]);
+    if (!messageRate.ok) {
+      sendLobbyRateLimited(socket, command, requestId, messageRate);
+      return;
+    }
+    if (command === "refreshRoomsLive") {
+      const refreshRate = consumeRateLimits([
+        rateLimitRule(
+          "refreshRoomsLiveSocket",
+          socket.rateLimitId,
+          RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_SOCKET_PER_MINUTE,
+          MINUTE_MS,
+        ),
+        rateLimitRule(
+          "refreshRoomsLiveIp",
+          socket.clientIp,
+          RATE_LIMIT_REFRESH_ROOMS_LIVE_PER_IP_PER_MINUTE,
+          MINUTE_MS,
+        ),
+      ]);
+      if (!refreshRate.ok) {
+        sendLobbyRateLimited(socket, command, requestId, refreshRate);
+        return;
+      }
     }
     if (command === "refreshRooms") sendLobbyRooms(socket);
     if (command === "refreshRoomsLive") sendLobbyRooms(socket, true);
@@ -1532,14 +1885,45 @@ function attachLobby(socket) {
 }
 
 server.on("upgrade", (req, socket, head) => {
-  const pathname = new URL(req.url, `http://${req.headers.host}`).pathname;
+  const clientIp = requestIp(req, socket);
+  let pathname;
+  try {
+    pathname = new URL(
+      req.url || "",
+      `http://${req.headers.host || "localhost"}`,
+    ).pathname;
+  } catch (e) {
+    rejectUpgrade(socket, 400, "Bad Request");
+    return;
+  }
   if (!pathname.startsWith("/ws/") && !pathname.startsWith("/lobby/")) {
     socket.destroy();
     return;
   }
 
+  if (activeConnectionCount(clientIp) >= RATE_LIMIT_WS_CONNECTIONS_PER_IP) {
+    rejectUpgrade(socket, 429, "Too Many Requests", MINUTE_MS);
+    return;
+  }
+
+  const upgradeRate = consumeRateLimits([
+    rateLimitRule(
+      "wsUpgradeIp",
+      clientIp,
+      RATE_LIMIT_WS_UPGRADE_PER_MINUTE,
+      MINUTE_MS,
+    ),
+  ]);
+  if (!upgradeRate.ok) {
+    rejectUpgrade(socket, 429, "Too Many Requests", upgradeRate.retryAfterMs);
+    return;
+  }
+
   wss.handleUpgrade(req, socket, head, (ws) => {
-    ws.clientIp = requestIp(req, socket);
+    ws.clientIp = clientIp;
+    ws.on("error", handleSocketError);
+    addActiveConnection(clientIp);
+    ws.once("close", () => removeActiveConnection(clientIp));
     if (pathname.startsWith("/ws/")) {
       attachSession(ws, pathname);
     } else {
