@@ -416,6 +416,7 @@ function createRoomRecord(roomCode, storyteller, params = {}) {
     host: null,
     clients: new Map(),
     members: new Map([[storyteller.playerId, storyteller.name || "说书人"]]),
+    announcedMembers: new Set(),
     pendingSeatVacates: new Map(),
     createdAt: now(),
     lastHostHeartbeat: now(),
@@ -573,16 +574,14 @@ function announcePresence(room, socket, action, name) {
 
 function registerPresence(room, socket, name) {
   const playerName = displayName(name);
+  const hasAnnouncedJoin = room.announcedMembers.has(socket.playerId);
   socket.hasJoinedPresence = true;
   socket.hasLeftPresence = false;
   socket.displayName = playerName;
 
-  if (room.members.has(socket.playerId)) {
-    room.members.set(socket.playerId, playerName);
-    return;
-  }
-
   room.members.set(socket.playerId, playerName);
+  if (hasAnnouncedJoin) return;
+  room.announcedMembers.add(socket.playerId);
   announcePresence(room, socket, "join", playerName);
 }
 
@@ -600,6 +599,7 @@ function unregisterPresence(room, socket, name) {
     : socket.displayName || room.members.get(playerId);
   if (!room.members.has(playerId)) return;
   room.members.delete(playerId);
+  room.announcedMembers.delete(playerId);
   const player = players.get(playerId);
   if (player && player.currentRoomId === room.channel) {
     player.currentRoomId = "";
@@ -733,6 +733,7 @@ function closeRoomAndUnbindMembers(room, reason = "房间已被说书人解散�
   });
   closeRoomClients(room, reason);
   room.members.clear();
+  room.announcedMembers.clear();
   room.host = null;
   rooms.delete(channel);
   markRoomCodeCleaned(channel);
@@ -771,6 +772,7 @@ function removePlayerFromCurrentRoom(player, reason = "玩家已离开房间") {
   const playerName = player.name || room.members.get(player.playerId) || "玩家";
   if (player.seat !== null) vacatePlayerSeat(room, player, playerName);
   room.members.delete(player.playerId);
+  room.announcedMembers.delete(player.playerId);
   room.clients.delete(player.playerId);
   announcePresence(room, { playerId: player.playerId }, "leave", playerName);
   player.currentRoomId = "";
