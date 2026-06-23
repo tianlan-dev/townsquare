@@ -38,6 +38,40 @@ module.exports = (store) => {
     // }`);
     (document.title = `染·钟楼谜团${isPublic ? "" : ""}`);
 
+  const saveGrimoireHistoryRecords = (state) => {
+    localStorage.removeItem("grimoireHistory");
+    if (state.session.grimoireHistoryRecords.length) {
+      localStorage.setItem(
+        "grimoireHistoryRecords",
+        JSON.stringify({
+          records: state.session.grimoireHistoryRecords,
+          activeId: state.session.activeGrimoireHistoryId,
+        }),
+      );
+    } else {
+      localStorage.removeItem("grimoireHistoryRecords");
+    }
+  };
+
+  const saveReceivedReviewDetailsRecords = (state) => {
+    localStorage.removeItem("receivedReviewDetails");
+    if (state.session.receivedReviewDetailsRecords.length) {
+      localStorage.setItem(
+        "receivedReviewDetailsRecords",
+        JSON.stringify({
+          records: state.session.receivedReviewDetailsRecords,
+          unreadIds: state.session.unreadReviewDetailsIds,
+        }),
+      );
+    } else {
+      localStorage.removeItem("receivedReviewDetailsRecords");
+    }
+    localStorage.setItem(
+      "hasUnreadReviewDetails",
+      JSON.stringify(state.session.hasUnreadReviewDetails),
+    );
+  };
+
   // initialize data
   localStorage.removeItem("background");
   if (localStorage.getItem("muted")) {
@@ -225,22 +259,41 @@ module.exports = (store) => {
       JSON.parse(localStorage.getItem("initialRoleIds")),
     );
   }
-  if (localStorage.getItem("grimoireHistory")) {
+  if (localStorage.getItem("grimoireHistoryRecords")) {
+    const stored = JSON.parse(localStorage.getItem("grimoireHistoryRecords"));
+    store.commit("session/setGrimoireHistoryRecords", {
+      records: Array.isArray(stored) ? stored : stored.records,
+      activeId: Array.isArray(stored) ? "" : stored.activeId,
+    });
+  } else if (localStorage.getItem("grimoireHistory")) {
     store.commit(
       "session/setGrimoireHistory",
       JSON.parse(localStorage.getItem("grimoireHistory")),
     );
   }
-  if (localStorage.getItem("receivedReviewDetails")) {
-    store.commit(
-      "session/setReceivedReviewDetails",
-      JSON.parse(localStorage.getItem("receivedReviewDetails")),
+  if (localStorage.getItem("receivedReviewDetailsRecords")) {
+    const stored = JSON.parse(
+      localStorage.getItem("receivedReviewDetailsRecords"),
     );
-  }
-  if (localStorage.getItem("hasUnreadReviewDetails")) {
-    store.state.session.hasUnreadReviewDetails = JSON.parse(
-      localStorage.getItem("hasUnreadReviewDetails"),
-    );
+    store.commit("session/setReceivedReviewDetailsRecords", {
+      records: Array.isArray(stored) ? stored : stored.records,
+      unreadIds: Array.isArray(stored) ? [] : stored.unreadIds,
+    });
+  } else if (localStorage.getItem("receivedReviewDetails")) {
+    const details = JSON.parse(localStorage.getItem("receivedReviewDetails"));
+    const key =
+      details.id ||
+      details.reviewFingerprint ||
+      details.contentHash ||
+      details.createdAt ||
+      "";
+    const hasUnread = localStorage.getItem("hasUnreadReviewDetails")
+      ? JSON.parse(localStorage.getItem("hasUnreadReviewDetails"))
+      : false;
+    store.commit("session/setReceivedReviewDetailsRecords", {
+      records: [details],
+      unreadIds: hasUnread && key ? [key] : [],
+    });
   }
   if (localStorage.getItem("customBootlegger")) {
     const customBootlegger = JSON.parse(
@@ -580,87 +633,48 @@ module.exports = (store) => {
         } else {
           localStorage.removeItem("initialRoleIds");
         }
-        if (
-          state.session.grimoireHistory.initialRoles.length ||
-          state.session.grimoireHistory.bluffs.length ||
-          state.session.grimoireHistory.events.length
-        ) {
-          localStorage.setItem(
-            "grimoireHistory",
-            JSON.stringify(state.session.grimoireHistory),
-          );
-        }
+        saveGrimoireHistoryRecords(state);
         break;
       case "session/initializeGrimoireHistory":
       case "session/setGrimoireHistory":
+      case "session/setGrimoireHistoryRecords":
       case "session/appendGrimoireHistoryEvents":
-        if (state.session.grimoireHistory.events.length) {
-          localStorage.setItem(
-            "grimoireHistory",
-            JSON.stringify(state.session.grimoireHistory),
-          );
-        } else if (
-          state.session.grimoireHistory.initialRoles.length ||
-          state.session.grimoireHistory.bluffs.length
-        ) {
-          localStorage.setItem(
-            "grimoireHistory",
-            JSON.stringify(state.session.grimoireHistory),
-          );
-        } else {
-          localStorage.removeItem("grimoireHistory");
-        }
+      case "session/mergeGrimoireHistoryRoleCatalog":
+      case "session/removeGrimoireHistoryEvent":
+      case "session/deleteGrimoireHistoryRecord":
+        saveGrimoireHistoryRecords(state);
         break;
       case "session/clearGrimoireHistory":
-        localStorage.removeItem("grimoireHistory");
+        saveGrimoireHistoryRecords(state);
         break;
       case "session/receiveReviewDetails":
       case "session/setReceivedReviewDetails":
-        if (
-          state.session.receivedReviewDetails.events.length ||
-          state.session.receivedReviewDetails.initialRoles.length ||
-          state.session.receivedReviewDetails.bluffs.length
-        ) {
-          localStorage.setItem(
-            "receivedReviewDetails",
-            JSON.stringify(state.session.receivedReviewDetails),
-          );
-        } else {
-          localStorage.removeItem("receivedReviewDetails");
-        }
-        localStorage.setItem(
-          "hasUnreadReviewDetails",
-          JSON.stringify(state.session.hasUnreadReviewDetails),
-        );
+      case "session/setReceivedReviewDetailsRecords":
+      case "session/deleteReceivedReviewDetailsRecord":
+        saveReceivedReviewDetailsRecords(state);
         break;
       case "session/markReviewDetailsRead":
-        localStorage.setItem(
-          "hasUnreadReviewDetails",
-          JSON.stringify(state.session.hasUnreadReviewDetails),
-        );
+        saveReceivedReviewDetailsRecords(state);
         break;
       case "session/clearReceivedReviewDetails":
-        localStorage.removeItem("receivedReviewDetails");
-        localStorage.removeItem("hasUnreadReviewDetails");
+        saveReceivedReviewDetailsRecords(state);
         break;
       case "session/startReview":
         localStorage.setItem("isReview", JSON.stringify(true));
-        localStorage.setItem(
-          "grimoireHistory",
-          JSON.stringify(state.session.grimoireHistory),
-        );
+        saveGrimoireHistoryRecords(state);
         break;
       case "session/startStorytelling":
         localStorage.setItem("isStorytelling", JSON.stringify(true));
+        localStorage.removeItem("isReview");
         localStorage.setItem(
           "initialRoleIds",
           JSON.stringify(state.session.initialRoleIds),
         );
+        saveGrimoireHistoryRecords(state);
         break;
       case "session/endStorytelling":
         localStorage.removeItem("isStorytelling");
         localStorage.removeItem("initialRoleIds");
-        localStorage.removeItem("grimoireHistory");
         localStorage.removeItem("nominationMarks");
         break;
       case "session/setBootlegger":

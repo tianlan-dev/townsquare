@@ -561,8 +561,15 @@ export default {
     isStoryPreparation() {
       return !this.session.isSpectator && !this.session.isStorytelling;
     },
+    mustReviewBeforeEndingStorytelling() {
+      return (
+        !this.session.isSpectator &&
+        this.session.isStorytelling &&
+        !this.session.isReview
+      );
+    },
     isClearRecordsLocked() {
-      return false;
+      return this.mustReviewBeforeEndingStorytelling;
     },
   },
   data() {
@@ -1303,6 +1310,18 @@ export default {
       }
     },
     async clearRoles() {
+      if (this.mustReviewBeforeEndingStorytelling) {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: ["请先开启复盘视角，再结束说书。"],
+          },
+        }).catch(() => {
+          return null;
+        });
+        return;
+      }
       if (this.isClearRecordsLocked) return;
 
       const confirm = await this.showInputModal({
@@ -1333,9 +1352,6 @@ export default {
       }
     },
     openReviewDetails() {
-      if (!this.modals.reviewDetails) {
-        this.$store.commit("session/markReviewDetailsRead");
-      }
       this.toggleModal("reviewDetails");
     },
     startStorytelling() {
@@ -1401,7 +1417,9 @@ export default {
         this.distributingTypes = false;
         this.distributingBluffs = false;
         this.distributingGrimoire = false;
-        this.$store.commit("session/startReview");
+        this.$store.commit("session/startReview", {
+          phaseIndex: this.grimoire.phaseIndex,
+        });
       }
     },
     useOldOrderAsk() {

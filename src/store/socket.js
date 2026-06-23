@@ -2565,11 +2565,8 @@ class LiveSession {
   sendReviewDetails(playerId = "") {
     if (this._isSpectator) return;
     const details = this._store.state.session.grimoireHistory || {};
-    this._sendDirect(playerId, "reviewDetails", {
-      ...details,
-      phaseIndexAtPush: this._store.state.grimoire.phaseIndex,
-      pushedAt: new Date().toISOString(),
-    });
+    if (!details.reviewFingerprint) return;
+    this._sendDirect(playerId, "reviewDetails", details);
   }
 
   sendReviewDetailsFingerprint(playerId = "") {
@@ -2588,9 +2585,12 @@ class LiveSession {
       typeof details === "string"
         ? details
         : String((details && details.reviewFingerprint) || "");
-    const currentFingerprint =
-      this._store.state.session.receivedReviewDetails.reviewFingerprint || "";
-    if (!reviewFingerprint || reviewFingerprint === currentFingerprint) return;
+    const receivedRecords =
+      this._store.state.session.receivedReviewDetailsRecords || [];
+    const alreadyReceived = receivedRecords.some(
+      (record) => record.reviewFingerprint === reviewFingerprint,
+    );
+    if (!reviewFingerprint || alreadyReceived) return;
     this._sendDirect(
       "host",
       "requestReviewDetails",

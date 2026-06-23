@@ -11,12 +11,17 @@ const trackedPlayerMutations = new Set([
 const ignoredMutations = new Set([
   "session/initializeGrimoireHistory",
   "session/setGrimoireHistory",
+  "session/setGrimoireHistoryRecords",
   "session/appendGrimoireHistoryEvents",
+  "session/mergeGrimoireHistoryRoleCatalog",
   "session/removeGrimoireHistoryEvent",
   "session/clearGrimoireHistory",
+  "session/deleteGrimoireHistoryRecord",
   "session/receiveReviewDetails",
   "session/setReceivedReviewDetails",
+  "session/setReceivedReviewDetailsRecords",
   "session/clearReceivedReviewDetails",
+  "session/deleteReceivedReviewDetailsRecord",
   "session/markReviewDetailsRead",
   "session/startReview",
 ]);
@@ -31,9 +36,69 @@ const normalizeReminder = (reminder = {}) => ({
 
 const roleIdOf = (player = {}) => String((player.role && player.role.id) || "");
 
+const roleCatalogEntry = (role = {}) => {
+  const id = String(role.id || "");
+  if (!id) return null;
+  return {
+    id,
+    name: String(role.name || ""),
+    team: String(role.team || ""),
+  };
+};
+
+const addRoleToCatalog = (catalog, role = {}) => {
+  const entry = roleCatalogEntry(role);
+  if (!entry) return;
+  const current = catalog[entry.id] || { id: entry.id, name: "", team: "" };
+  catalog[entry.id] = {
+    id: entry.id,
+    name: current.name || entry.name,
+    team: current.team || entry.team,
+  };
+};
+
+const roleInfoById = (state, getters, roleId = "") => {
+  const id = String(roleId || "");
+  if (!id) return null;
+  return (
+    state.roles.get(id) ||
+    getters.rolesJSONbyId.get(id) || {
+      id,
+    }
+  );
+};
+
+const addRoleIdToCatalog = (
+  catalog,
+  state,
+  getters,
+  roleId = "",
+  role = {},
+) => {
+  const id = String(roleId || (role && role.id) || "");
+  if (!id) return;
+  addRoleToCatalog(
+    catalog,
+    role && role.id ? role : roleInfoById(state, getters, id),
+  );
+};
+
+const roleCatalogForCurrentSetup = (state, getters) => {
+  const catalog = {};
+  state.players.players.forEach((player) =>
+    addRoleToCatalog(catalog, player.role),
+  );
+  state.players.bluffs.forEach((role) => addRoleToCatalog(catalog, role));
+  state.session.initialRoleIds.forEach((entry) =>
+    addRoleIdToCatalog(catalog, state, getters, entry.roleId),
+  );
+  return catalog;
+};
+
 const snapshotPlayers = (players = []) =>
   players.map((player) => ({
     roleId: roleIdOf(player),
+    role: roleCatalogEntry(player.role),
     reminders: Array.isArray(player.reminders)
       ? player.reminders.map(normalizeReminder)
       : [],
@@ -172,6 +237,29 @@ const eventsFromPlayerMutation = (mutation, before, after) => {
   ];
 };
 
+const roleCatalogForEvents = (state, getters, events = [], before, after) => {
+  const catalog = roleCatalogForCurrentSetup(state, getters);
+  const snapshots = [...before.players, ...after.players];
+  const addRoleId = (roleId = "") => {
+    const snapshot = snapshots.find((player) => player.roleId === roleId);
+    addRoleIdToCatalog(
+      catalog,
+      state,
+      getters,
+      roleId,
+      snapshot && snapshot.role,
+    );
+  };
+
+  events.forEach((event = {}) => {
+    if (event.fromRoleId) addRoleId(event.fromRoleId);
+    if (event.toRoleId) addRoleId(event.toRoleId);
+    if (event.reminder && event.reminder.role) addRoleId(event.reminder.role);
+  });
+
+  return catalog;
+};
+
 const eventFromVote = (payload, phaseIndex) => {
   if (!payload) return null;
   return {
@@ -216,15 +304,8 @@ export default function grimoireHistoryPlugin(store) {
         initialRoles: initialRoleSnapshots(state),
         bluffs: bluffSnapshots(state),
         phaseIndex: state.grimoire.phaseIndex,
+        roleCatalog: roleCatalogForCurrentSetup(state, store.getters),
       });
-      previous = snapshot(state);
-      return;
-    }
-
-    if (mutation.type === "session/endStorytelling") {
-      if (!state.session.isSpectator) {
-        store.commit("session/clearGrimoireHistory");
-      }
       previous = snapshot(state);
       return;
     }
@@ -240,16 +321,40 @@ export default function grimoireHistoryPlugin(store) {
       const current = snapshot(state);
       const events = eventsFromPlayerMutation(mutation, previous, current);
       if (events.length) {
-        store.commit("session/appendGrimoireHistoryEvents", events);
+        store.commit("session/appendGrimoireHistoryEvents", {
+          events,
+          roleCatalog: roleCatalogForEvents(
+            state,
+            store.getters,
+            events,
+            previous,
+            current,
+          ),
+        });
       }
       previous = current;
+      return;
+    }
+
+    if (
+      mutation.type === "players/setBluff" ||
+      mutation.type === "players/updateBluff"
+    ) {
+      store.commit(
+        "session/mergeGrimoireHistoryRoleCatalog",
+        roleCatalogForCurrentSetup(state, store.getters),
+      );
+      previous = snapshot(state);
       return;
     }
 
     if (mutation.type === "session/addVotes") {
       const event = eventFromVote(mutation.payload, state.grimoire.phaseIndex);
       if (event) {
-        store.commit("session/appendGrimoireHistoryEvents", [event]);
+        store.commit("session/appendGrimoireHistoryEvents", {
+          events: [event],
+          roleCatalog: roleCatalogForCurrentSetup(state, store.getters),
+        });
       }
     }
 

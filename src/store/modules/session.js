@@ -78,12 +78,17 @@ const normalizeInitialRoleIds = (roleIds = []) => {
 
 const emptyReviewDetails = () => ({
   version: 1,
+  id: "",
   createdAt: "",
   updatedAt: "",
+  storytellingStartedAt: "",
+  storytellingEndedAt: "",
+  pushedAt: "",
   phaseIndexAtPush: 0,
   lastPhaseIndex: 0,
   nextOrder: 1,
   reviewFingerprint: "",
+  roleCatalog: {},
   initialRoles: [],
   bluffs: [],
   events: [],
@@ -108,18 +113,48 @@ const randomReviewFingerprint = () => {
     .slice(2, 12)}`;
 };
 
+const randomReviewId = () => `review-${randomReviewFingerprint()}`;
+
+const normalizeRoleCatalog = (roleCatalog = {}) => {
+  if (!roleCatalog || typeof roleCatalog !== "object") return {};
+  return Object.entries(roleCatalog).reduce((catalog, [key, value]) => {
+    const source = value && typeof value === "object" ? value : {};
+    const id = String(source.id || key || "");
+    if (!id) return catalog;
+    catalog[id] = {
+      id,
+      name: String(source.name || ""),
+      team: String(source.team || ""),
+    };
+    return catalog;
+  }, {});
+};
+
 const normalizeReviewDetails = (details = {}) => {
   const normalized = emptyReviewDetails();
   const source = details && typeof details === "object" ? details : {};
   normalized.version = Number(source.version) || 1;
+  normalized.id = String(
+    source.id ||
+      source.reviewFingerprint ||
+      source.contentHash ||
+      source.createdAt ||
+      "",
+  );
   normalized.createdAt = String(source.createdAt || "");
   normalized.updatedAt = String(source.updatedAt || "");
+  normalized.storytellingStartedAt = String(
+    source.storytellingStartedAt || source.createdAt || "",
+  );
+  normalized.storytellingEndedAt = String(source.storytellingEndedAt || "");
+  normalized.pushedAt = String(source.pushedAt || "");
   normalized.phaseIndexAtPush = Number(source.phaseIndexAtPush) || 0;
   normalized.lastPhaseIndex = Number(source.lastPhaseIndex) || 0;
   normalized.nextOrder = Number(source.nextOrder) || 1;
   normalized.reviewFingerprint = String(
     source.reviewFingerprint || source.contentHash || "",
   );
+  normalized.roleCatalog = normalizeRoleCatalog(source.roleCatalog);
   normalized.initialRoles = Array.isArray(source.initialRoles)
     ? source.initialRoles.map((entry, index) => ({
         seat: Number(entry.seat) || index + 1,
@@ -139,6 +174,94 @@ const normalizeReviewDetails = (details = {}) => {
       }))
     : [];
   return normalized;
+};
+
+const mergeRoleCatalog = (current = {}, incoming = {}) => {
+  const merged = normalizeRoleCatalog(current);
+  Object.entries(normalizeRoleCatalog(incoming)).forEach(([id, role]) => {
+    const existing = merged[id] || { id, name: "", team: "" };
+    merged[id] = {
+      id,
+      name: existing.name || role.name || "",
+      team: existing.team || role.team || "",
+    };
+  });
+  return merged;
+};
+
+const reviewRecordKey = (details = {}) =>
+  String(
+    details.id ||
+      details.reviewFingerprint ||
+      details.contentHash ||
+      details.createdAt ||
+      "",
+  );
+
+const hasReviewDetailsContent = (details = {}) =>
+  !!(
+    (Array.isArray(details.initialRoles) && details.initialRoles.length) ||
+    (Array.isArray(details.bluffs) && details.bluffs.length) ||
+    (Array.isArray(details.events) && details.events.length)
+  );
+
+const normalizeReviewRecords = (records = []) =>
+  (Array.isArray(records) ? records : [])
+    .map((record) => normalizeReviewDetails(record))
+    .filter(
+      (record) => reviewRecordKey(record) || hasReviewDetailsContent(record),
+    )
+    .map((record) => ({
+      ...record,
+      id: reviewRecordKey(record) || randomReviewId(),
+    }));
+
+const newestReviewRecord = (records = []) =>
+  [...records].sort((a, b) =>
+    String(
+      b.pushedAt ||
+        b.storytellingEndedAt ||
+        b.updatedAt ||
+        b.storytellingStartedAt ||
+        b.createdAt ||
+        "",
+    ).localeCompare(
+      String(
+        a.pushedAt ||
+          a.storytellingEndedAt ||
+          a.updatedAt ||
+          a.storytellingStartedAt ||
+          a.createdAt ||
+          "",
+      ),
+    ),
+  )[0] || emptyReviewDetails();
+
+const upsertReviewRecord = (records = [], details = {}) => {
+  const normalized = normalizeReviewDetails(details);
+  const key = reviewRecordKey(normalized) || randomReviewId();
+  const record = {
+    ...normalized,
+    id: key,
+  };
+  const existingIndex = records.findIndex(
+    (candidate) => reviewRecordKey(candidate) === key,
+  );
+  if (existingIndex >= 0) {
+    Vue.set(records, existingIndex, record);
+  } else {
+    records.push(record);
+  }
+  return record;
+};
+
+const removeUnreadReviewId = (state, id = "") => {
+  const key = String(id || "");
+  if (!key) return;
+  state.unreadReviewDetailsIds = state.unreadReviewDetailsIds.filter(
+    (unreadId) => unreadId !== key,
+  );
+  state.hasUnreadReviewDetails = state.unreadReviewDetailsIds.length > 0;
 };
 
 const state = () => ({
@@ -198,7 +321,11 @@ const state = () => ({
   isStorytelling: false,
   initialRoleIds: [],
   grimoireHistory: emptyReviewDetails(),
+  grimoireHistoryRecords: [],
+  activeGrimoireHistoryId: "",
   receivedReviewDetails: emptyReviewDetails(),
+  receivedReviewDetailsRecords: [],
+  unreadReviewDetailsIds: [],
   hasUnreadReviewDetails: false,
   isVoteHistoryAllowed: true,
   isRolesDistributed: false,
@@ -305,7 +432,7 @@ const mutations = {
   setInitialRoleIds(state, roleIds = []) {
     state.initialRoleIds = normalizeInitialRoleIds(roleIds);
   },
-  addInitialRoleSnapshot(state, { seat, roleId = "" } = {}) {
+  addInitialRoleSnapshot(state, { seat, roleId = "", roleCatalog = {} } = {}) {
     const normalizedSeat = Number(seat) || state.initialRoleIds.length + 1;
     const existingIndex = state.initialRoleIds.findIndex(
       (entry) => Number(entry.seat) === normalizedSeat,
@@ -329,40 +456,91 @@ const mutations = {
       } else {
         history.initialRoles.push(entry);
       }
+      history.roleCatalog = mergeRoleCatalog(history.roleCatalog, roleCatalog);
       history.updatedAt = new Date().toISOString();
-      state.grimoireHistory = history;
+      const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+      state.activeGrimoireHistoryId = record.id;
+      state.grimoireHistory = record;
     }
   },
   initializeGrimoireHistory(
     state,
-    { initialRoles = [], bluffs = [], phaseIndex = 0 } = {},
+    { initialRoles = [], bluffs = [], phaseIndex = 0, roleCatalog = {} } = {},
   ) {
     const timestamp = new Date().toISOString();
-    state.grimoireHistory = normalizeReviewDetails({
+    const history = normalizeReviewDetails({
       ...emptyReviewDetails(),
+      id: randomReviewId(),
       createdAt: timestamp,
       updatedAt: timestamp,
+      storytellingStartedAt: timestamp,
       lastPhaseIndex: Number(phaseIndex) || 0,
+      roleCatalog,
       initialRoles: normalizeReviewDetails({ initialRoles }).initialRoles,
       bluffs: normalizeReviewDetails({ bluffs }).bluffs,
     });
+    const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+    state.activeGrimoireHistoryId = record.id;
+    state.grimoireHistory = record;
   },
   setGrimoireHistory(state, details = {}) {
-    state.grimoireHistory = normalizeReviewDetails(details);
+    const history = normalizeReviewDetails(details);
+    if (reviewRecordKey(history) || hasReviewDetailsContent(history)) {
+      const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+      state.activeGrimoireHistoryId =
+        state.activeGrimoireHistoryId || record.id;
+      state.grimoireHistory = record;
+    } else {
+      state.grimoireHistory = history;
+    }
   },
-  startReview(state) {
+  setGrimoireHistoryRecords(state, { records = [], activeId = "" } = {}) {
+    state.grimoireHistoryRecords = normalizeReviewRecords(records);
+    const activeRecord =
+      state.grimoireHistoryRecords.find(
+        (record) => reviewRecordKey(record) === String(activeId || ""),
+      ) || newestReviewRecord(state.grimoireHistoryRecords);
+    state.activeGrimoireHistoryId = reviewRecordKey(activeRecord);
+    state.grimoireHistory = normalizeReviewDetails(activeRecord);
+  },
+  startReview(state, { phaseIndex = 0 } = {}) {
     if (!state.isSpectator && !state.isReview) {
-      state.grimoireHistory = normalizeReviewDetails({
+      const timestamp = new Date().toISOString();
+      const history = normalizeReviewDetails({
         ...state.grimoireHistory,
-        reviewFingerprint: randomReviewFingerprint(),
-        updatedAt: new Date().toISOString(),
+        id: state.grimoireHistory.id || state.activeGrimoireHistoryId,
+        reviewFingerprint:
+          state.grimoireHistory.reviewFingerprint || randomReviewFingerprint(),
+        storytellingEndedAt:
+          state.grimoireHistory.storytellingEndedAt || timestamp,
+        phaseIndexAtPush: Number(phaseIndex) || 0,
+        pushedAt: timestamp,
+        updatedAt: timestamp,
       });
+      const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+      state.activeGrimoireHistoryId = record.id;
+      state.grimoireHistory = record;
     }
     state.isReview = true;
   },
-  appendGrimoireHistoryEvents(state, events = []) {
-    if (!Array.isArray(events) || !events.length) return;
+  mergeGrimoireHistoryRoleCatalog(state, roleCatalog = {}) {
+    if (state.isSpectator || !state.grimoireHistory.createdAt) return;
     const history = normalizeReviewDetails(state.grimoireHistory);
+    const mergedCatalog = mergeRoleCatalog(history.roleCatalog, roleCatalog);
+    if (JSON.stringify(mergedCatalog) === JSON.stringify(history.roleCatalog)) {
+      return;
+    }
+    history.roleCatalog = mergedCatalog;
+    history.updatedAt = new Date().toISOString();
+    const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+    state.grimoireHistory = record;
+  },
+  appendGrimoireHistoryEvents(state, payload = []) {
+    const events = Array.isArray(payload) ? payload : payload.events;
+    if (!Array.isArray(events) || !events.length) return;
+    const roleCatalog = Array.isArray(payload) ? {} : payload.roleCatalog;
+    const history = normalizeReviewDetails(state.grimoireHistory);
+    history.roleCatalog = mergeRoleCatalog(history.roleCatalog, roleCatalog);
     const normalizedEvents = events.map((event = {}) => {
       const phaseIndex = Number(event.phaseIndex) || 0;
       const order = history.nextOrder++;
@@ -376,7 +554,9 @@ const mutations = {
     });
     history.events = [...history.events, ...normalizedEvents];
     history.updatedAt = new Date().toISOString();
-    state.grimoireHistory = history;
+    const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+    state.activeGrimoireHistoryId = record.id;
+    state.grimoireHistory = record;
   },
   removeGrimoireHistoryEvent(state, eventToRemove = {}) {
     if (state.isSpectator || state.isReview || !state.isStorytelling) return;
@@ -393,30 +573,106 @@ const mutations = {
     if (nextEvents.length === history.events.length) return;
     history.events = nextEvents;
     history.updatedAt = new Date().toISOString();
-    state.grimoireHistory = history;
+    const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
+    state.grimoireHistory = record;
   },
   clearGrimoireHistory(state) {
     state.grimoireHistory = emptyReviewDetails();
+    state.activeGrimoireHistoryId = "";
+  },
+  deleteGrimoireHistoryRecord(state, recordId = "") {
+    const key = String(recordId || "");
+    if (!key) return;
+    if (state.isStorytelling && key === state.activeGrimoireHistoryId) return;
+    state.grimoireHistoryRecords = state.grimoireHistoryRecords.filter(
+      (record) => reviewRecordKey(record) !== key,
+    );
+    if (state.activeGrimoireHistoryId === key) {
+      state.activeGrimoireHistoryId = "";
+    }
+    const activeRecord =
+      state.grimoireHistoryRecords.find(
+        (record) => reviewRecordKey(record) === state.activeGrimoireHistoryId,
+      ) || newestReviewRecord(state.grimoireHistoryRecords);
+    state.grimoireHistory = normalizeReviewDetails(activeRecord);
+    state.activeGrimoireHistoryId = reviewRecordKey(activeRecord);
   },
   receiveReviewDetails(state, details = {}) {
     const incomingDetails = normalizeReviewDetails(details);
-    const currentDetails = normalizeReviewDetails(state.receivedReviewDetails);
-    if (
-      incomingDetails.reviewFingerprint &&
-      incomingDetails.reviewFingerprint === currentDetails.reviewFingerprint
-    )
-      return;
-    state.receivedReviewDetails = incomingDetails;
+    const incomingKey = reviewRecordKey(incomingDetails);
+    const incomingFingerprint = incomingDetails.reviewFingerprint;
+    const exists = state.receivedReviewDetailsRecords.some((record) => {
+      if (
+        incomingFingerprint &&
+        record.reviewFingerprint === incomingFingerprint
+      )
+        return true;
+      return incomingKey && reviewRecordKey(record) === incomingKey;
+    });
+    if (exists) return;
+    const record = upsertReviewRecord(
+      state.receivedReviewDetailsRecords,
+      incomingDetails,
+    );
+    state.receivedReviewDetails = record;
+    if (!state.unreadReviewDetailsIds.includes(record.id)) {
+      state.unreadReviewDetailsIds.push(record.id);
+    }
     state.hasUnreadReviewDetails = true;
   },
   setReceivedReviewDetails(state, details = {}) {
-    state.receivedReviewDetails = normalizeReviewDetails(details);
+    const incomingDetails = normalizeReviewDetails(details);
+    if (
+      reviewRecordKey(incomingDetails) ||
+      hasReviewDetailsContent(incomingDetails)
+    ) {
+      const record = upsertReviewRecord(
+        state.receivedReviewDetailsRecords,
+        incomingDetails,
+      );
+      state.receivedReviewDetails = record;
+    } else {
+      state.receivedReviewDetails = incomingDetails;
+    }
+  },
+  setReceivedReviewDetailsRecords(
+    state,
+    { records = [], unreadIds = [] } = {},
+  ) {
+    state.receivedReviewDetailsRecords = normalizeReviewRecords(records);
+    state.receivedReviewDetails = normalizeReviewDetails(
+      newestReviewRecord(state.receivedReviewDetailsRecords),
+    );
+    const validIds = new Set(
+      state.receivedReviewDetailsRecords.map((record) => record.id),
+    );
+    state.unreadReviewDetailsIds = (Array.isArray(unreadIds) ? unreadIds : [])
+      .map(String)
+      .filter((id) => validIds.has(id));
+    state.hasUnreadReviewDetails = state.unreadReviewDetailsIds.length > 0;
   },
   clearReceivedReviewDetails(state) {
     state.receivedReviewDetails = emptyReviewDetails();
-    state.hasUnreadReviewDetails = false;
   },
-  markReviewDetailsRead(state) {
+  deleteReceivedReviewDetailsRecord(state, recordId = "") {
+    const key = String(recordId || "");
+    if (!key) return;
+    state.receivedReviewDetailsRecords =
+      state.receivedReviewDetailsRecords.filter(
+        (record) => reviewRecordKey(record) !== key,
+      );
+    removeUnreadReviewId(state, key);
+    state.receivedReviewDetails = normalizeReviewDetails(
+      newestReviewRecord(state.receivedReviewDetailsRecords),
+    );
+  },
+  markReviewDetailsRead(state, recordId = "") {
+    const key = String(recordId || "");
+    if (key) {
+      removeUnreadReviewId(state, key);
+      return;
+    }
+    state.unreadReviewDetailsIds = [];
     state.hasUnreadReviewDetails = false;
   },
   startStorytelling(state, players = []) {
@@ -426,6 +682,7 @@ const mutations = {
           roleId: String((player.role && player.role.id) || ""),
         }))
       : [];
+    state.isReview = false;
     state.isStorytelling = true;
   },
   endStorytelling(state) {

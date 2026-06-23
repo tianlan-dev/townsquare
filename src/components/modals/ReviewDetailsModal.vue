@@ -6,92 +6,156 @@
   >
     <h3>复盘详细</h3>
 
-    <div v-if="!hasContent" class="empty">暂无复盘详细。</div>
-    <template v-else>
-      <section>
-        <h4>玩家初始角色</h4>
-        <ul class="initial-roles" v-if="initialRoles.length">
-          <li v-for="entry in initialRoles" :key="entry.seat">
-            <span class="initial-role-seat">座位{{ entry.seat }}</span>
-            <span
-              class="initial-role-name role-chip"
-              :class="roleTeamClass(entry.roleId)"
+    <div v-if="!records.length" class="empty">暂无复盘详细。</div>
+    <div v-else class="review-record-layout">
+      <aside class="review-records">
+        <ul>
+          <li
+            v-for="(record, index) in records"
+            :key="record.id"
+            :class="{
+              active: record.id === selectedReviewId,
+              unread: isUnreadRecord(record),
+            }"
+          >
+            <button
+              type="button"
+              class="record-select"
+              @click="selectRecord(record)"
             >
-              {{ roleName(entry.roleId) }}
-            </span>
+              <span class="record-title">
+                {{ recordTitle(record, index) }}
+              </span>
+              <span class="record-time">
+                开始：{{ formatDateTime(record.storytellingStartedAt) }}
+              </span>
+              <span class="record-time">
+                结束：{{ recordEndText(record) }}
+              </span>
+            </button>
+            <button
+              v-if="canDeleteRecord(record)"
+              type="button"
+              class="record-delete"
+              title="删除这局复盘详情"
+              aria-label="删除这局复盘详情"
+              @click.stop="deleteRecord(record)"
+            >
+              <font-awesome-icon icon="trash-alt" />
+            </button>
           </li>
         </ul>
-        <div v-else class="empty-inline">无记录</div>
-      </section>
+      </aside>
 
-      <section>
-        <h4>不在场角色</h4>
-        <div v-if="bluffs.length" class="bluffs">
-          <span
-            v-for="entry in bluffs"
-            :key="entry.roleId"
-            class="role-chip"
-            :class="roleTeamClass(entry.roleId)"
+      <div class="review-record-detail">
+        <header class="record-header">
+          <div>
+            <h4>{{ selectedRecordTitle }}</h4>
+            <p>
+              {{ formatDateTime(details.storytellingStartedAt) }} -
+              {{ recordEndText(details) }}
+            </p>
+          </div>
+          <button
+            v-if="canDeleteRecord(details)"
+            type="button"
+            class="record-delete detail-delete"
+            title="删除这局复盘详情"
+            aria-label="删除这局复盘详情"
+            @click="deleteRecord(details)"
           >
-            {{ roleName(entry.roleId) }}
-          </span>
-        </div>
-        <div v-else class="empty-inline">无记录</div>
-      </section>
+            <font-awesome-icon icon="trash-alt" />
+          </button>
+        </header>
 
-      <section>
-        <h4>阶段变动</h4>
-        <div
-          class="phase-group"
-          v-for="phase in phaseGroups"
-          :key="phase.phaseIndex"
-        >
-          <h5>{{ phase.label }}</h5>
-          <ul v-if="phase.events.length" class="event-list">
-            <li
-              v-for="event in phase.events"
-              :key="event.id || event.order"
-              class="event-item"
-              :class="{ editable: canEditEvents }"
-            >
-              <span class="event-order">{{ event.order }}</span>
-              <span class="event-text">
-                <template v-if="event.type === 'roleChanged'">
-                  {{ seatText(event.seat) }}角色
-                  <span
-                    class="role-chip"
-                    :class="roleTeamClass(event.fromRoleId)"
-                  >
-                    {{ roleName(event.fromRoleId) }}
-                  </span>
-                  <span class="role-arrow">-></span>
-                  <span
-                    class="role-chip"
-                    :class="roleTeamClass(event.toRoleId)"
-                  >
-                    {{ roleName(event.toRoleId) }}
-                  </span>
-                </template>
-                <template v-else>
-                  {{ eventText(event) }}
-                </template>
-              </span>
-              <button
-                v-if="canEditEvents"
-                type="button"
-                class="event-delete"
-                title="删除这条记录"
-                aria-label="删除这条记录"
-                @click="removeEvent(event)"
+        <div v-if="!hasContent" class="empty">暂无复盘详细。</div>
+        <template v-else>
+          <section>
+            <h4>玩家初始角色</h4>
+            <ul class="initial-roles" v-if="initialRoles.length">
+              <li v-for="entry in initialRoles" :key="entry.seat">
+                <span class="initial-role-seat">座位{{ entry.seat }}</span>
+                <span
+                  class="initial-role-name role-chip"
+                  :class="roleTeamClass(entry.roleId)"
+                >
+                  {{ roleName(entry.roleId) }}
+                </span>
+              </li>
+            </ul>
+            <div v-else class="empty-inline">无记录</div>
+          </section>
+
+          <section>
+            <h4>不在场角色</h4>
+            <div v-if="bluffs.length" class="bluffs">
+              <span
+                v-for="entry in bluffs"
+                :key="entry.roleId"
+                class="role-chip"
+                :class="roleTeamClass(entry.roleId)"
               >
-                <font-awesome-icon icon="trash-alt" />
-              </button>
-            </li>
-          </ul>
-          <div v-else class="empty-inline">无事发生</div>
-        </div>
-      </section>
-    </template>
+                {{ roleName(entry.roleId) }}
+              </span>
+            </div>
+            <div v-else class="empty-inline">无记录</div>
+          </section>
+
+          <section>
+            <h4>阶段变动</h4>
+            <div
+              class="phase-group"
+              v-for="phase in phaseGroups"
+              :key="phase.phaseIndex"
+            >
+              <h5>{{ phase.label }}</h5>
+              <ul v-if="phase.events.length" class="event-list">
+                <li
+                  v-for="event in phase.events"
+                  :key="event.id || event.order"
+                  class="event-item"
+                  :class="{ editable: canEditEvents }"
+                >
+                  <span class="event-order">{{ event.order }}</span>
+                  <span class="event-text">
+                    <template v-if="event.type === 'roleChanged'">
+                      {{ seatText(event.seat) }}角色
+                      <span
+                        class="role-chip"
+                        :class="roleTeamClass(event.fromRoleId)"
+                      >
+                        {{ roleName(event.fromRoleId) }}
+                      </span>
+                      <span class="role-arrow">-></span>
+                      <span
+                        class="role-chip"
+                        :class="roleTeamClass(event.toRoleId)"
+                      >
+                        {{ roleName(event.toRoleId) }}
+                      </span>
+                    </template>
+                    <template v-else>
+                      {{ eventText(event) }}
+                    </template>
+                  </span>
+                  <button
+                    v-if="canEditEvents"
+                    type="button"
+                    class="event-delete"
+                    title="删除这条记录"
+                    aria-label="删除这条记录"
+                    @click="removeEvent(event)"
+                  >
+                    <font-awesome-icon icon="trash-alt" />
+                  </button>
+                </li>
+              </ul>
+              <div v-else class="empty-inline">无事发生</div>
+            </div>
+          </section>
+        </template>
+      </div>
+    </div>
   </Modal>
 </template>
 
@@ -116,15 +180,49 @@ const seatFromHistoryText = (text) => {
   return match ? seatText(match[1]) : String(text || "");
 };
 
+const emptyReviewDetails = () => ({
+  id: "",
+  storytellingStartedAt: "",
+  storytellingEndedAt: "",
+  pushedAt: "",
+  phaseIndexAtPush: 0,
+  lastPhaseIndex: 0,
+  roleCatalog: {},
+  initialRoles: [],
+  bluffs: [],
+  events: [],
+});
+
 export default {
   components: {
     Modal,
   },
+  data() {
+    return {
+      selectedReviewId: "",
+    };
+  },
   computed: {
+    records() {
+      const source = this.session.isSpectator
+        ? this.session.receivedReviewDetailsRecords
+        : this.session.grimoireHistoryRecords;
+      return [...(source || [])].sort((a, b) =>
+        this.recordSortValue(b).localeCompare(this.recordSortValue(a)),
+      );
+    },
     details() {
-      return this.session.isSpectator
-        ? this.session.receivedReviewDetails
-        : this.session.grimoireHistory;
+      return (
+        this.records.find((record) => record.id === this.selectedReviewId) ||
+        this.records[0] ||
+        emptyReviewDetails()
+      );
+    },
+    selectedRecordTitle() {
+      const index = this.records.findIndex(
+        (record) => record.id === this.details.id,
+      );
+      return this.recordTitle(this.details, index);
     },
     initialRoles() {
       return [...(this.details.initialRoles || [])].sort(
@@ -150,7 +248,8 @@ export default {
       return (
         !this.session.isSpectator &&
         this.session.isStorytelling &&
-        !this.session.isReview
+        !this.session.isReview &&
+        this.details.id === this.session.activeGrimoireHistoryId
       );
     },
     maxPhaseIndex() {
@@ -160,9 +259,11 @@ export default {
       );
       const pushedMax = Number(this.details.phaseIndexAtPush) || 0;
       const recordedMax = Number(this.details.lastPhaseIndex) || 0;
-      const storytellerMax = this.session.isSpectator
-        ? 0
-        : Number(this.grimoire.phaseIndex) || 0;
+      const storytellerMax =
+        !this.session.isSpectator &&
+        this.details.id === this.session.activeGrimoireHistoryId
+          ? Number(this.grimoire.phaseIndex) || 0
+          : 0;
       return Math.max(eventMax, pushedMax, recordedMax, storytellerMax);
     },
     phaseGroups() {
@@ -181,16 +282,95 @@ export default {
     ...mapState(["grimoire", "session", "modals"]),
   },
   watch: {
-    "session.receivedReviewDetails"() {
+    records() {
+      this.ensureSelectedRecord();
+    },
+    selectedReviewId() {
       if (this.modals.reviewDetails) {
-        this.$store.commit("session/markReviewDetailsRead");
+        this.markSelectedRecordRead();
       }
     },
   },
   methods: {
     seatText,
+    recordSortValue(record = {}) {
+      return String(
+        record.pushedAt ||
+          record.storytellingEndedAt ||
+          record.updatedAt ||
+          record.storytellingStartedAt ||
+          record.createdAt ||
+          "",
+      );
+    },
+    recordTitle(record = {}, index = -1) {
+      const number = index >= 0 ? this.records.length - index : "";
+      return number ? `第${number}局复盘` : "复盘详情";
+    },
+    formatDateTime(value) {
+      if (!value) return "未记录";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return String(value);
+      return date.toLocaleString("zh-CN", {
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+    },
+    recordEndText(record = {}) {
+      return record.storytellingEndedAt
+        ? this.formatDateTime(record.storytellingEndedAt)
+        : "说书中";
+    },
+    isUnreadRecord(record = {}) {
+      return (this.session.unreadReviewDetailsIds || []).includes(record.id);
+    },
+    ensureSelectedRecord() {
+      if (!this.records.length) {
+        this.selectedReviewId = "";
+        return;
+      }
+      if (this.records.some((record) => record.id === this.selectedReviewId)) {
+        return;
+      }
+      const unreadRecord = this.records.find((record) =>
+        this.isUnreadRecord(record),
+      );
+      this.selectedReviewId = (unreadRecord || this.records[0]).id;
+    },
+    selectRecord(record = {}) {
+      this.selectedReviewId = record.id || "";
+      this.markSelectedRecordRead();
+    },
+    markSelectedRecordRead() {
+      if (!this.session.isSpectator || !this.selectedReviewId) return;
+      this.$store.commit(
+        "session/markReviewDetailsRead",
+        this.selectedReviewId,
+      );
+    },
+    canDeleteRecord(record = {}) {
+      if (!record.id) return false;
+      if (this.session.isSpectator) return true;
+      return !(
+        this.session.isStorytelling &&
+        record.id === this.session.activeGrimoireHistoryId
+      );
+    },
+    deleteRecord(record = {}) {
+      if (!this.canDeleteRecord(record)) return;
+      const mutation = this.session.isSpectator
+        ? "session/deleteReceivedReviewDetailsRecord"
+        : "session/deleteGrimoireHistoryRecord";
+      this.$store.commit(mutation, record.id);
+      this.$nextTick(this.ensureSelectedRecord);
+    },
     roleInfo(roleId) {
       if (!roleId) return null;
+      const catalogRole =
+        this.details.roleCatalog && this.details.roleCatalog[roleId];
+      if (catalogRole) return catalogRole;
       return (
         this.$store.state.roles.get(roleId) ||
         this.$store.getters.rolesJSONbyId.get(roleId) ||
@@ -250,7 +430,8 @@ export default {
     ...mapMutations(["toggleModal"]),
   },
   mounted() {
-    this.$store.commit("session/markReviewDetailsRead");
+    this.ensureSelectedRecord();
+    this.markSelectedRecordRead();
   },
 };
 </script>
@@ -269,6 +450,103 @@ export default {
 
 h3 {
   margin: 0 40px 12px;
+}
+
+.review-record-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.review-records {
+  min-width: 0;
+}
+
+.review-records ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.review-records li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  gap: 6px;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+}
+
+.record-select {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  min-height: 72px;
+  padding: 9px 10px;
+  color: rgba(255, 255, 255, 0.74);
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.review-records li.active .record-select {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.46);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.review-records li.unread .record-title::after {
+  content: "未读";
+  display: inline-flex;
+  margin-left: 6px;
+  padding: 1px 5px;
+  color: #f8e7ac;
+  border: 1px solid rgba(248, 231, 172, 0.7);
+  border-radius: 4px;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.record-title {
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.record-time {
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.review-record-detail {
+  min-width: 0;
+}
+
+.record-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.record-header h4 {
+  margin: 0 0 4px;
+}
+
+.record-header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.58);
+  line-height: 1.35;
 }
 
 section {
@@ -429,7 +707,8 @@ h5 {
   overflow-wrap: anywhere;
 }
 
-.event-delete {
+.event-delete,
+.record-delete {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -444,11 +723,28 @@ h5 {
   cursor: pointer;
 }
 
+.detail-delete {
+  flex: 0 0 auto;
+}
+
 .event-delete:hover,
-.event-delete:focus {
+.event-delete:focus,
+.record-delete:hover,
+.record-delete:focus {
   color: #ffb8b8;
   border-color: rgba(255, 120, 120, 0.5);
   background: rgba(120, 0, 0, 0.28);
+}
+
+@media (max-width: 760px) {
+  .review-record-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .review-records ul {
+    max-height: 220px;
+    overflow: auto;
+  }
 }
 
 ul {
