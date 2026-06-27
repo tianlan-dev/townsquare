@@ -331,6 +331,7 @@ const state = () => ({
   isRolesDistributed: false,
   isTypesDistributed: false,
   isBluffsDistributed: false,
+  isEvilInfoDistributed: false,
   isGrimoireDistributed: false,
   isUseOldOrder: {
     pithag: false,
@@ -717,6 +718,12 @@ const mutations = {
   distributeBluffs(state, { val }) {
     state.isBluffsDistributed = val;
   },
+  distributeEvilInfo(state, { val }) {
+    state.isEvilInfoDistributed = val;
+  },
+  distributeSeatTypeInfo(state, { val }) {
+    state.isEvilInfoDistributed = val;
+  },
   distributeGrimoire(state, { val }) {
     state.isGrimoireDistributed = val;
   },
@@ -724,6 +731,7 @@ const mutations = {
     state.isRolesDistributed = false;
     state.isTypesDistributed = false;
     state.isBluffsDistributed = false;
+    state.isEvilInfoDistributed = false;
     state.isGrimoireDistributed = false;
   },
   setSessionId(state, sessionId) {

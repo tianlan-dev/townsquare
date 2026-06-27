@@ -148,6 +148,13 @@
               </li>
               <li
                 v-if="isOnlineStoryteller"
+                @click="distributeEvilInfoAsk"
+                :class="{ locked: isStoryPreparation || session.isReview }"
+              >
+                发送阵营信息
+              </li>
+              <li
+                v-if="isOnlineStoryteller"
                 @click="distributeGrimoireAsk"
                 :class="{ locked: isStoryPreparation || session.isReview }"
               >
@@ -441,6 +448,21 @@
         <button @click="distributeBluffs()">取消</button>
       </div>
     </div>
+    <div v-if="distributingEvilInfo" class="dialog">
+      <span>
+        <label>发送阵营信息给：</label>
+      </span>
+      <div>
+        <button @click="distributeEvilInfo('demonsToMinions')">
+          爪牙得知恶魔
+        </button>
+        <button @click="distributeEvilInfo('minionsToDemons')">
+          恶魔得知爪牙
+        </button>
+        <button @click="distributeEvilInfo('both')">互发邪恶阵营信息</button>
+        <button @click="distributeEvilInfo()">取消</button>
+      </div>
+    </div>
     <div v-if="distributingGrimoire" class="dialog">
       <span>
         <label>发送魔典给：</label>
@@ -578,6 +600,7 @@ export default {
       timing: false,
       distributing: false,
       distributingBluffs: false,
+      distributingEvilInfo: false,
       distributingGrimoire: false,
       distributingTypes: false,
       isSendingBluff: true,
@@ -863,6 +886,7 @@ export default {
       if (this.isStoryPreparation) return;
       if (this.session.isReview) return;
       this.distributingBluffs = false;
+      this.distributingEvilInfo = false;
       this.distributingGrimoire = false;
       this.distributingTypes = false;
       this.distributing = !this.distributing;
@@ -899,6 +923,7 @@ export default {
       if (this.session.isReview) return;
       this.distributing = false;
       this.distributingBluffs = false;
+      this.distributingEvilInfo = false;
       this.distributingGrimoire = false;
       this.distributingTypes = !this.distributingTypes;
 
@@ -933,6 +958,7 @@ export default {
       if (this.isStoryPreparation) return;
       if (this.session.isReview) return;
       this.distributing = false;
+      this.distributingEvilInfo = false;
       this.distributingGrimoire = false;
       this.distributingTypes = false;
       this.distributingBluffs = !this.distributingBluffs;
@@ -1009,11 +1035,74 @@ export default {
         this.distributingBluffs = false;
       }
     },
+    distributeEvilInfoAsk() {
+      if (this.isStoryPreparation) return;
+      if (this.session.isReview) return;
+      this.distributing = false;
+      this.distributingBluffs = false;
+      this.distributingGrimoire = false;
+      this.distributingTypes = false;
+      this.distributingEvilInfo = !this.distributingEvilInfo;
+    },
+    async distributeEvilInfo(mode = null) {
+      this.$nextTick(() => {
+        document.getElementById("app").focus();
+      });
+      if (this.session.isReview) {
+        this.distributingEvilInfo = false;
+        return;
+      }
+      if (!mode) {
+        this.distributingEvilInfo = false;
+        return;
+      }
+
+      let modeText = "";
+      switch (mode) {
+        case "demonsToMinions":
+          modeText = "爪牙得知恶魔";
+          break;
+        case "minionsToDemons":
+          modeText = "恶魔得知爪牙";
+          break;
+        case "both":
+          modeText = "互发邪恶阵营信息";
+          break;
+      }
+
+      const confirm = await this.showInputModal({
+        inputType: "confirm",
+        inputModal: "confirm",
+        inputData: {
+          name: ["确定要发送" + modeText + "？"],
+        },
+      }).catch(() => {
+        return null;
+      });
+      if (confirm === null) return;
+
+      if (confirm === true) {
+        if (this.session.isSpectator) return;
+        if (this.session.isReview) return;
+        this.$store.commit("session/distributeEvilInfo", {
+          val: true,
+          mode,
+        });
+        setTimeout(
+          (() => {
+            this.$store.commit("session/distributeEvilInfo", { val: false });
+          }).bind(this),
+          2000,
+        );
+        this.distributingEvilInfo = false;
+      }
+    },
     distributeGrimoireAsk() {
       if (this.isStoryPreparation) return;
       if (this.session.isReview) return;
       this.distributing = false;
       this.distributingBluffs = false;
+      this.distributingEvilInfo = false;
       this.distributingTypes = false;
       this.distributingGrimoire = !this.distributingGrimoire;
     },
@@ -1416,6 +1505,7 @@ export default {
         this.distributing = false;
         this.distributingTypes = false;
         this.distributingBluffs = false;
+        this.distributingEvilInfo = false;
         this.distributingGrimoire = false;
         this.$store.commit("session/startReview", {
           phaseIndex: this.grimoire.phaseIndex,

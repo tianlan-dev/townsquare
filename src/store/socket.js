@@ -2098,6 +2098,74 @@ class LiveSession {
     }
   }
 
+  _roleTypeValue(role = {}) {
+    return role.team === "traveler" ? role.id : role.team + "s";
+  }
+
+  distributeSeatTypeInfo({ sourceIndex, targetSeat } = {}) {
+    if (this._isSpectator) return;
+    const source = this._store.state.players.players[sourceIndex];
+    const targetIndex = Number(targetSeat) - 1;
+    const target = this._store.state.players.players[targetIndex];
+    if (!source || !source.role || !source.role.team) return;
+    if (!target || !target.id || target.id === "host") return;
+
+    this._sendDirect(target.id, "player", {
+      index: sourceIndex,
+      property: "role",
+      value: this._roleTypeValue(source.role),
+    });
+  }
+
+  /**
+   * Distribute evil team type information without revealing specific roles.
+   * @param mode "demonsToMinions", "minionsToDemons", or "both"
+   */
+  distributeEvilInfo({ mode } = {}) {
+    if (this._isSpectator) return;
+    if (!mode) return;
+
+    const players = this._store.state.players.players;
+    const sendTypeInfo = (
+      recipientTeam,
+      revealedTeam,
+      { excludeRecipient = false } = {},
+    ) => {
+      const recipients = players
+        .map((player, index) => ({ player, index }))
+        .filter(
+          ({ player }) =>
+            player.id && player.role && player.role.team === recipientTeam,
+        );
+      const revealedPlayers = players
+        .map((player, index) => ({ player, index }))
+        .filter(
+          ({ player }) =>
+            player.role && player.role.team === revealedTeam,
+        );
+      if (!recipients.length || !revealedPlayers.length) return;
+
+      recipients.forEach(({ player: recipient, index: recipientIndex }) => {
+        revealedPlayers.forEach(({ index }) => {
+          if (excludeRecipient && index === recipientIndex) return;
+          this._sendDirect(recipient.id, "player", {
+            index,
+            property: "role",
+            value: revealedTeam + "s",
+          });
+        });
+      });
+    };
+
+    if (mode === "demonsToMinions" || mode === "both") {
+      sendTypeInfo("minion", "demon");
+      sendTypeInfo("minion", "minion", { excludeRecipient: true });
+    }
+    if (mode === "minionsToDemons" || mode === "both") {
+      sendTypeInfo("demon", "minion");
+    }
+  }
+
   /**
    * Distribute bluffs to demon, lunatic, minion players.
    * This will be split server side so that each player only receives their own (sub)message.
@@ -3280,6 +3348,16 @@ export default (store) => {
       case "session/distributeBluffs":
         if (payload && !state.session.isReview) {
           session.distributeBluffs(payload);
+        }
+        break;
+      case "session/distributeEvilInfo":
+        if (payload && !state.session.isReview) {
+          session.distributeEvilInfo(payload);
+        }
+        break;
+      case "session/distributeSeatTypeInfo":
+        if (payload && payload.val && !state.session.isReview) {
+          session.distributeSeatTypeInfo(payload);
         }
         break;
       case "session/distributeGrimoire":

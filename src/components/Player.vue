@@ -152,7 +152,10 @@
         v-if="player.id && session.sessionId"
         class="seat"
         :class="{
-          highlight: session.isRolesDistributed || session.isTypesDistributed,
+          highlight:
+            session.isRolesDistributed ||
+            session.isTypesDistributed ||
+            session.isEvilInfoDistributed,
         }"
       />
 
@@ -276,6 +279,10 @@
             <li v-if="!!player.id" @click="toggleWraith()">
               <font-awesome-icon :icon="['custom', 'wraith']" />
               <span>亡魂</span>
+            </li>
+            <li v-if="session.sessionId" @click="sendSeatTypeInfo">
+              <font-awesome-icon icon="users" />
+              发送该座位阵营信息
             </li>
             <li
               v-if="player.id && player.id !== 'host' && session.sessionId"
@@ -780,6 +787,11 @@ export default {
       if (this.session.isSpectator) return;
       this.isMenuOpen = false;
       this.$emit("trigger", ["clearPlayerAvatar"]);
+    },
+    sendSeatTypeInfo() {
+      if (this.session.isSpectator) return;
+      this.isMenuOpen = false;
+      this.$emit("trigger", ["sendSeatTypeInfo"]);
     },
     async removePlayer() {
       this.isMenuOpen = false;

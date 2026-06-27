@@ -415,6 +415,72 @@ export default {
       this.$store.commit("session/requestDefaultAvatar", player);
       this.activePlayerMenu = -1;
     },
+    async sendSeatTypeInfo(playerIndex) {
+      if (this.session.isSpectator) return;
+      const sourcePlayer = this.players[playerIndex];
+      if (!sourcePlayer || !sourcePlayer.role || !sourcePlayer.role.team) {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: ["该座位还没有分配角色，无法发送阵营信息。"],
+          },
+        }).catch(() => null);
+        return;
+      }
+
+      const input = await this.showInputModal({
+        inputType: "seatNum",
+        inputModal: "input",
+        inputData: {
+          name: ["请输入接收信息的座位号"],
+          length: 1,
+          placeholder: [""],
+        },
+      }).catch(() => null);
+      if (input === null) return;
+
+      const targetSeat = Number(input[0]);
+      const targetIndex = targetSeat - 1;
+      const targetPlayer = this.players[targetIndex];
+      if (
+        !Number.isInteger(targetSeat) ||
+        targetIndex < 0 ||
+        targetIndex >= this.players.length
+      ) {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: ["座位号无效。"],
+          },
+        }).catch(() => null);
+        return;
+      }
+      if (!targetPlayer || !targetPlayer.id || targetPlayer.id === "host") {
+        await this.showInputModal({
+          inputType: "alert",
+          inputModal: "text",
+          inputData: {
+            name: ["目标座位没有玩家，无法发送。"],
+          },
+        }).catch(() => null);
+        return;
+      }
+
+      this.$store.commit("session/distributeSeatTypeInfo", {
+        val: true,
+        sourceIndex: playerIndex,
+        targetSeat,
+      });
+      setTimeout(
+        (() => {
+          this.$store.commit("session/distributeSeatTypeInfo", { val: false });
+        }).bind(this),
+        2000,
+      );
+      this.activePlayerMenu = -1;
+    },
     swapPlayer(from, to) {
       if (this.session.isSpectator || this.session.lockedVote) return;
       if (to === undefined) {
