@@ -121,6 +121,7 @@ function sendIndex(req, res, next) {
       sendServiceUnavailable(res);
       return;
     }
+    res.set("Cache-Control", "no-cache");
     res.sendFile(indexPath, (sendErr) => {
       if (!sendErr) return;
       if (sendErr.code === "ENOENT" || sendErr.code === "EISDIR") {
@@ -174,6 +175,12 @@ function listScripts() {
     .filter(Boolean);
 }
 
+function setStaticCacheHeaders(res, filePath) {
+  if (/\.(?:html|js|css)$/i.test(filePath)) {
+    res.setHeader("Cache-Control", "no-cache");
+  }
+}
+
 app.get("/health", (req, res) => {
   res.json({ ok: true });
 });
@@ -196,7 +203,11 @@ app.use(
   express.static(path.join(publicDir, "backgrounds"), { fallthrough: true }),
 );
 app.use("/scripts", express.static(publicScriptsDir, { fallthrough: true }));
-app.use(express.static(staticRoot));
+app.use(
+  express.static(staticRoot, {
+    setHeaders: setStaticCacheHeaders,
+  }),
+);
 app.get("*", sendIndex);
 app.use((err, req, res, next) => {
   if (res.headersSent) {

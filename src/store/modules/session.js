@@ -158,6 +158,7 @@ const normalizeReviewDetails = (details = {}) => {
   normalized.initialRoles = Array.isArray(source.initialRoles)
     ? source.initialRoles.map((entry, index) => ({
         seat: Number(entry.seat) || index + 1,
+        playerName: String(entry.playerName || ""),
         roleId: String(entry.roleId || ""),
       }))
     : [];
@@ -174,6 +175,16 @@ const normalizeReviewDetails = (details = {}) => {
       }))
     : [];
   return normalized;
+};
+
+const reviewSeatInfoFor = (players = [], index) => {
+  const seat = Number(index) + 1;
+  const player = players[index] || {};
+  return {
+    seat,
+    playerName: String(player.name || ""),
+    roleId: String((player.role && player.role.id) || ""),
+  };
 };
 
 const mergeRoleCatalog = (current = {}, incoming = {}) => {
@@ -825,8 +836,10 @@ const mutations = {
         (nominatorIndex + 1).toString() +
         ". " +
         (nominator.id ? nominator.name : ""),
+      nominatorSeatInfo: reviewSeatInfoFor(players, nominatorIndex),
       nominee:
         (nomineeIndex + 1).toString() + ". " + (nominee.id ? nominee.name : ""),
+      nomineeSeatInfo: reviewSeatInfoFor(players, nomineeIndex),
       day: state.nominationDay,
       type: isExile ? "流放" : "处决",
       mode: state.isSecretVote ? "闭眼" : "睁眼",
@@ -837,6 +850,9 @@ const mutations = {
       votedPlayers: votedPlayers.map(
         ({ seat, votes }) => seat + (votes > 1 ? " *" + votes + "票" : ""),
       ),
+      votedSeatInfos: votedPlayers.map((player) =>
+        reviewSeatInfoFor(players, players.indexOf(player)),
+      ),
       save: true,
     });
   },
@@ -845,12 +861,15 @@ const mutations = {
     {
       timestamp,
       nominator,
+      nominatorSeatInfo,
       nominee,
+      nomineeSeatInfo,
       type,
       mode,
       votes,
       majority,
       votedPlayers,
+      votedSeatInfos,
       save,
       day,
     },
@@ -860,13 +879,16 @@ const mutations = {
     state.voteHistory.push({
       timestamp: newTime,
       nominator,
+      nominatorSeatInfo,
       nominee,
+      nomineeSeatInfo,
       day,
       type,
       mode,
       votes,
       majority,
       votedPlayers,
+      votedSeatInfos,
     });
   },
   setVoteHistory(state, { voteHistory = [], voteSelected = [] } = {}) {

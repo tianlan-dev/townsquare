@@ -97,6 +97,7 @@ const roleCatalogForCurrentSetup = (state, getters) => {
 
 const snapshotPlayers = (players = []) =>
   players.map((player) => ({
+    name: String(player.name || ""),
     roleId: roleIdOf(player),
     role: roleCatalogEntry(player.role),
     reminders: Array.isArray(player.reminders)
@@ -131,6 +132,12 @@ const snapshot = (state) => ({
   players: snapshotPlayers(state.players.players),
 });
 
+const seatInfoFromSnapshot = (player = {}, seat) => ({
+  seat: Number(seat) || 0,
+  playerName: String(player.name || ""),
+  roleId: String(player.roleId || ""),
+});
+
 const seatRemovedEvents = (mutation, before, after, phaseIndex) => {
   if (after.players.length >= before.players.length) return [];
 
@@ -141,6 +148,10 @@ const seatRemovedEvents = (mutation, before, after, phaseIndex) => {
         type: "seatRemoved",
         phaseIndex,
         seat: removedSeat + 1,
+        seatInfo: seatInfoFromSnapshot(
+          before.players[removedSeat],
+          removedSeat + 1,
+        ),
       },
     ];
   }
@@ -155,6 +166,7 @@ const seatRemovedEvents = (mutation, before, after, phaseIndex) => {
       type: "seatRemoved",
       phaseIndex,
       seat: index + 1,
+      seatInfo: seatInfoFromSnapshot(before.players[index], index + 1),
     });
   }
   return events;
@@ -173,6 +185,7 @@ const seatAddedEvents = (before, after, phaseIndex) => {
       type: "seatAdded",
       phaseIndex,
       seat: index + 1,
+      seatInfo: seatInfoFromSnapshot(after.players[index], index + 1),
     });
   }
   return events;
@@ -192,6 +205,7 @@ const changedSeatEvents = (before, after, phaseIndex) => {
         type: "roleChanged",
         phaseIndex,
         seat,
+        seatInfo: seatInfoFromSnapshot(current, seat),
         fromRoleId: previous.roleId,
         toRoleId: current.roleId,
       });
@@ -203,6 +217,7 @@ const changedSeatEvents = (before, after, phaseIndex) => {
         type: "reminderAdded",
         phaseIndex,
         seat,
+        seatInfo: seatInfoFromSnapshot(current, seat),
         reminder,
       });
     });
@@ -211,6 +226,7 @@ const changedSeatEvents = (before, after, phaseIndex) => {
         type: "reminderRemoved",
         phaseIndex,
         seat,
+        seatInfo: seatInfoFromSnapshot(current, seat),
         reminder,
       });
     });
@@ -220,6 +236,7 @@ const changedSeatEvents = (before, after, phaseIndex) => {
         type: "deathChanged",
         phaseIndex,
         seat,
+        seatInfo: seatInfoFromSnapshot(current, seat),
         isDead: current.isDead,
       });
     }
@@ -254,7 +271,15 @@ const roleCatalogForEvents = (state, getters, events = [], before, after) => {
   events.forEach((event = {}) => {
     if (event.fromRoleId) addRoleId(event.fromRoleId);
     if (event.toRoleId) addRoleId(event.toRoleId);
+    if (event.seatInfo && event.seatInfo.roleId) addRoleId(event.seatInfo.roleId);
     if (event.reminder && event.reminder.role) addRoleId(event.reminder.role);
+    const vote = event.vote || {};
+    ["nominatorSeatInfo", "nomineeSeatInfo"].forEach((key) => {
+      if (vote[key] && vote[key].roleId) addRoleId(vote[key].roleId);
+    });
+    if (Array.isArray(vote.votedSeatInfos)) {
+      vote.votedSeatInfos.forEach((seatInfo = {}) => addRoleId(seatInfo.roleId));
+    }
   });
 
   return catalog;
@@ -267,13 +292,18 @@ const eventFromVote = (payload, phaseIndex) => {
     phaseIndex,
     vote: {
       nominator: payload.nominator || "",
+      nominatorSeatInfo: payload.nominatorSeatInfo || null,
       nominee: payload.nominee || "",
+      nomineeSeatInfo: payload.nomineeSeatInfo || null,
       type: payload.type || "",
       mode: payload.mode || "",
       votes: Number(payload.votes) || 0,
       majority: Number(payload.majority) || 0,
       votedPlayers: Array.isArray(payload.votedPlayers)
         ? payload.votedPlayers.map(String)
+        : [],
+      votedSeatInfos: Array.isArray(payload.votedSeatInfos)
+        ? payload.votedSeatInfos
         : [],
     },
   };
@@ -282,6 +312,10 @@ const eventFromVote = (payload, phaseIndex) => {
 const initialRoleSnapshots = (state) =>
   state.session.initialRoleIds.map((entry, index) => ({
     seat: Number(entry.seat) || index + 1,
+    playerName: String(
+      (state.players.players[(Number(entry.seat) || index + 1) - 1] || {})
+        .name || "",
+    ),
     roleId: String(entry.roleId || ""),
   }));
 

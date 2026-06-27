@@ -74,7 +74,9 @@
             <h4>玩家初始角色</h4>
             <ul class="initial-roles" v-if="initialRoles.length">
               <li v-for="entry in initialRoles" :key="entry.seat">
-                <span class="initial-role-seat">座位{{ entry.seat }}</span>
+                <span class="initial-role-seat">
+                  {{ seatInfoLabel(entry) }}
+                </span>
                 <span
                   class="initial-role-name role-chip"
                   :class="roleTeamClass(entry.roleId)"
@@ -119,7 +121,17 @@
                   <span class="event-order">{{ event.order }}</span>
                   <span class="event-text">
                     <template v-if="event.type === 'roleChanged'">
-                      {{ seatText(event.seat) }}角色
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                      角色
                       <span
                         class="role-chip"
                         :class="roleTeamClass(event.fromRoleId)"
@@ -132,6 +144,132 @@
                         :class="roleTeamClass(event.toRoleId)"
                       >
                         {{ roleName(event.toRoleId) }}
+                      </span>
+                    </template>
+                    <template v-else-if="event.type === 'seatAdded'">
+                      添加
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                    </template>
+                    <template v-else-if="event.type === 'seatRemoved'">
+                      移除
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                    </template>
+                    <template v-else-if="event.type === 'reminderAdded'">
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                      添加标记 {{ reminderName(event.reminder) }}
+                    </template>
+                    <template v-else-if="event.type === 'reminderRemoved'">
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                      移除标记 {{ reminderName(event.reminder) }}
+                    </template>
+                    <template v-else-if="event.type === 'deathChanged'">
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(eventSeatInfo(event)) }}
+                        <span
+                          v-if="eventSeatInfo(event).roleId"
+                          class="role-chip"
+                          :class="roleTeamClass(eventSeatInfo(event).roleId)"
+                        >
+                          {{ roleName(eventSeatInfo(event).roleId) }}
+                        </span>
+                      </span>
+                      {{ event.isDead ? "死亡" : "复活" }}
+                    </template>
+                    <template v-else-if="event.type === 'nomination'">
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(voteSeatInfo(event.vote, "nominator")) }}
+                        <span
+                          v-if="voteSeatInfo(event.vote, 'nominator').roleId"
+                          class="role-chip"
+                          :class="
+                            roleTeamClass(
+                              voteSeatInfo(event.vote, 'nominator').roleId,
+                            )
+                          "
+                        >
+                          {{
+                            roleName(
+                              voteSeatInfo(event.vote, "nominator").roleId,
+                            )
+                          }}
+                        </span>
+                      </span>
+                      向
+                      <span class="seat-snapshot">
+                        {{ seatInfoLabel(voteSeatInfo(event.vote, "nominee")) }}
+                        <span
+                          v-if="voteSeatInfo(event.vote, 'nominee').roleId"
+                          class="role-chip"
+                          :class="
+                            roleTeamClass(
+                              voteSeatInfo(event.vote, 'nominee').roleId,
+                            )
+                          "
+                        >
+                          {{
+                            roleName(voteSeatInfo(event.vote, "nominee").roleId)
+                          }}
+                        </span>
+                      </span>
+                      发起提名，票数
+                      {{ (event.vote && event.vote.votes) || 0 }}/{{
+                        (event.vote && event.vote.majority) || 0
+                      }}
+                      <span
+                        v-if="voteSeatInfos(event.vote).length"
+                        class="vote-voters"
+                      >
+                        投票：
+                        <span
+                          v-for="seatInfo in voteSeatInfos(event.vote)"
+                          :key="seatInfo.seat"
+                          class="seat-snapshot"
+                        >
+                          {{ seatInfoLabel(seatInfo) }}
+                          <span
+                            v-if="seatInfo.roleId"
+                            class="role-chip"
+                            :class="roleTeamClass(seatInfo.roleId)"
+                          >
+                            {{ roleName(seatInfo.roleId) }}
+                          </span>
+                        </span>
                       </span>
                     </template>
                     <template v-else>
@@ -385,6 +523,44 @@ export default {
     roleTeamClass(roleId) {
       const role = this.roleInfo(roleId);
       return role && role.team ? `role-team-${role.team}` : "role-team-empty";
+    },
+    normalizedSeatInfo(info = {}, fallback = "") {
+      const source = info && typeof info === "object" ? info : {};
+      const fallbackText = String(fallback || "");
+      const fallbackMatch = fallbackText.match(/^(\d+)\.?\s*(.*)$/);
+      const seat =
+        Number(source.seat) ||
+        (fallbackMatch ? Number(fallbackMatch[1]) : Number(fallback)) ||
+        0;
+      const fallbackName = fallbackMatch ? fallbackMatch[2].trim() : "";
+      return {
+        seat,
+        playerName: String(source.playerName || source.name || fallbackName),
+        roleId: String(source.roleId || ""),
+      };
+    },
+    eventSeatInfo(event = {}) {
+      return this.normalizedSeatInfo(event.seatInfo, event.seat);
+    },
+    voteSeatInfo(vote = {}, type) {
+      const key = `${type}SeatInfo`;
+      const fallback = type === "nominator" ? vote.nominator : vote.nominee;
+      return this.normalizedSeatInfo(vote[key], fallback);
+    },
+    voteSeatInfos(vote = {}) {
+      if (Array.isArray(vote.votedSeatInfos) && vote.votedSeatInfos.length) {
+        return vote.votedSeatInfos.map((seatInfo) =>
+          this.normalizedSeatInfo(seatInfo),
+        );
+      }
+      return (vote.votedPlayers || []).map((playerText) =>
+        this.normalizedSeatInfo({}, playerText),
+      );
+    },
+    seatInfoLabel(info = {}) {
+      const seat = Number(info.seat) || 0;
+      const playerName = String(info.playerName || "").trim();
+      return playerName ? `座位${seat} ${playerName}` : `座位${seat}`;
     },
     reminderName(reminder = {}) {
       return reminder.name || this.roleName(reminder.role);
@@ -661,6 +837,20 @@ h5 {
 .role-arrow {
   color: rgba(255, 255, 255, 0.55);
   margin: 0 2px;
+}
+
+.seat-snapshot {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 0 2px;
+}
+
+.vote-voters {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.74);
 }
 
 .phase-group {
