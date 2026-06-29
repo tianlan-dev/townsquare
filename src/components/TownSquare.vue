@@ -62,7 +62,7 @@
           :class="{ active: activeRolePanel === 'bluffs' }"
           @click="setRolePanel('bluffs')"
         >
-          {{ session.isSpectator ? "不在场身份" : "恶魔的伪装身份" }}
+          不在场伪装
         </button>
       </div>
 
