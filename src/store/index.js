@@ -99,27 +99,11 @@ const getPhaseInfo = (phaseIndex = 0) => {
 };
 
 const setPhaseIndex = (grimoire, phaseIndex) => {
-  const previousPhase = getPhaseInfo(grimoire.phaseIndex).phase;
   const index = normalizePhaseIndex(phaseIndex);
   const phase = getPhaseInfo(index);
   grimoire.phaseIndex = index;
   grimoire.isNight = phase.isNight;
-  if (
-    previousPhase === PHASE_DAY &&
-    phase.phase === PHASE_DUSK &&
-    grimoire.murderScene
-  ) {
-    grimoire.murderScene.hasBlood = false;
-  }
 };
-
-const defaultMurderScene = () => ({
-  hasBlood: false,
-});
-
-const normalizeMurderScene = (murderScene = {}) => ({
-  hasBlood: !!murderScene.hasBlood,
-});
 
 const isAllowedPlayerAvatarUrl = (avatar, isImageOptIn = false) => {
   if (!avatar || typeof avatar !== "string") return false;
@@ -210,7 +194,6 @@ export default new Vuex.Store({
     grimoire: {
       phaseIndex: 0,
       isNight: true,
-      murderScene: defaultMurderScene(),
       isPublic: false,
       isMenuOpen: isDesktopViewport(),
       isStatic: false,
@@ -359,7 +342,6 @@ export default new Vuex.Store({
       commit("session/setBootlegger", "");
       commit("session/stopTimer");
       commit("setPhaseIndex", 0);
-      commit("setMurderScene", defaultMurderScene());
 
       if (state.session.nomination) {
         commit("session/nomination");
@@ -424,16 +406,6 @@ export default new Vuex.Store({
             : currentIndex;
         setPhaseIndex(grimoire, dayIndex);
       }
-    },
-    toggleMurderScene({ grimoire }) {
-      if (!grimoire.murderScene) {
-        Vue.set(grimoire, "murderScene", defaultMurderScene());
-      }
-      const hasBlood = !grimoire.murderScene.hasBlood;
-      grimoire.murderScene.hasBlood = hasBlood;
-    },
-    setMurderScene({ grimoire }, murderScene) {
-      Vue.set(grimoire, "murderScene", normalizeMurderScene(murderScene));
     },
     toggleGrimoire: toggle("isPublic"),
     setImageOptIn: set("isImageOptIn"),

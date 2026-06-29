@@ -686,7 +686,6 @@ const HOST_ROOM_COMMANDS = new Set([
   "lock",
   "marked",
   "move",
-  "murderScene",
   "nomination",
   "nominationMarks",
   "otherNight",

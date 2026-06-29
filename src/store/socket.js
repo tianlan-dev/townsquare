@@ -3,8 +3,6 @@ const PLAYER_HEARTBEAT_INTERVAL = 10 * 1000;
 const PHASE_COUNT = 4;
 const PHASE_NIGHT = 0;
 const PHASE_DAWN = 1;
-const PHASE_DAY = 2;
-const PHASE_DUSK = 3;
 const RATE_LIMITED_MESSAGE = "操作过于频繁，请稍后再试。";
 
 const phaseOf = (phaseIndex) => {
@@ -25,9 +23,6 @@ class LiveSession {
     this._pendingDeathUpdates = new Set();
     this._store = store;
     this._lastSentPhaseIndex = this._store.state.grimoire.phaseIndex;
-    this._publishedMurderScene = this._normalizedMurderScene(
-      this._store.state.grimoire.murderScene,
-    );
     this._pingInterval = 3 * 1000; // 30 seconds between pings
     this._pingTimer = null;
     this._authTimer = null;
@@ -307,37 +302,6 @@ class LiveSession {
     });
   }
 
-  _normalizedMurderScene(murderScene = {}) {
-    return {
-      hasBlood: !!murderScene.hasBlood,
-    };
-  }
-
-  _ensurePublishedMurderScene() {
-    if (!this._publishedMurderScene) {
-      this._publishedMurderScene = this._normalizedMurderScene(
-        this._store.state.grimoire.murderScene,
-      );
-    }
-  }
-
-  _publishCurrentMurderScene() {
-    this._publishedMurderScene = this._normalizedMurderScene(
-      this._store.state.grimoire.murderScene,
-    );
-  }
-
-  _murderSceneForPlayers() {
-    this._ensurePublishedMurderScene();
-    return { ...this._publishedMurderScene };
-  }
-
-  _publishMurderScene() {
-    if (this._isSpectator) return;
-    this._publishCurrentMurderScene();
-    this._send("murderScene", this._murderSceneForPlayers());
-  }
-
   sendHostHeartbeat() {
     if (this._isSpectator) return;
     this._send("hostHeartbeat", this._hostInfo());
@@ -537,10 +501,6 @@ class LiveSession {
       case "phaseIndex":
         if (!this._isSpectator) return;
         this._store.commit("setPhaseIndex", params);
-        break;
-      case "murderScene":
-        if (!this._isSpectator) return;
-        this._store.commit("setMurderScene", params);
         break;
       case "isVoteHistoryAllowed":
         if (!this._isSpectator) return;
@@ -1099,10 +1059,8 @@ class LiveSession {
     if (this._isSpectator) return;
     if (this._isDeathUpdateHiddenPhase()) {
       this._ensurePublishedDeathStates();
-      this._ensurePublishedMurderScene();
     } else {
       this._publishCurrentDeathStates();
-      this._publishCurrentMurderScene();
     }
     this._gamestate = this._store.state.players.players.map(
       (player, index) => ({
@@ -1160,7 +1118,6 @@ class LiveSession {
         gamestate: this._gamestate,
         phaseIndex: grimoire.phaseIndex,
         isNight: grimoire.isNight,
-        murderScene: this._murderSceneForPlayers(),
         storytellerName: session.playerName,
         isStorytellerOnline: true,
         isVoteHistoryAllowed: session.isVoteHistoryAllowed,
@@ -1256,7 +1213,6 @@ class LiveSession {
       isLightweight,
       phaseIndex,
       isNight,
-      murderScene,
       storytellerName,
       isStorytellerOnline,
       isVoteHistoryAllowed,
@@ -1352,9 +1308,6 @@ class LiveSession {
       }
       if (isStorytellerOnline !== undefined) {
         this._store.commit("session/setStorytellerOnline", isStorytellerOnline);
-      }
-      if (murderScene !== undefined) {
-        this._store.commit("setMurderScene", murderScene);
       }
       if (phaseIndex !== undefined) {
         this._store.commit("setPhaseIndex", phaseIndex);
@@ -2526,24 +2479,8 @@ class LiveSession {
     this._send("isNight", this._store.state.grimoire.isNight);
     if (previousPhase === PHASE_NIGHT && currentPhase === PHASE_DAWN) {
       this._publishAllDeathStates();
-      this._publishMurderScene();
-    } else if (
-      previousPhase === PHASE_DAY &&
-      currentPhase === PHASE_DUSK &&
-      this._murderSceneForPlayers().hasBlood
-    ) {
-      this._publishMurderScene();
     }
     this._lastSentPhaseIndex = currentPhaseIndex;
-  }
-
-  setMurderScene() {
-    if (this._isSpectator) return;
-    if (this._isDeathUpdateHiddenPhase()) {
-      this._ensurePublishedMurderScene();
-      return;
-    }
-    this._publishMurderScene();
   }
 
   /**
@@ -3522,10 +3459,6 @@ export default (store) => {
         break;
       case "toggleNight":
         session.setPhaseIndex();
-        break;
-      case "toggleMurderScene":
-      case "setMurderScene":
-        session.setMurderScene();
         break;
       case "setEdition":
         session.sendEdition();
