@@ -30,6 +30,11 @@ const nominationKeyFor = (players, index) => {
     : `seat:${Number(index) + 1}`;
 };
 
+const normalizeSeatList = (seats = []) =>
+  [...new Set((Array.isArray(seats) ? seats : []).map(Number))]
+    .filter((seat) => Number.isInteger(seat) && seat >= 0)
+    .sort((a, b) => a - b);
+
 const normalizeNominationMarks = (marks = {}) => {
   if (!marks || typeof marks !== "object") return {};
   return Object.entries(marks).reduce((normalized, [day, keys]) => {
@@ -325,6 +330,10 @@ const state = () => ({
   lockedVote: 0,
   votingSpeed: MIN_VOTING_SPEED,
   isVoteInProgress: false,
+  voteReadyStatus: "idle",
+  voteReadyEligibleSeats: [],
+  voteReadySeats: [],
+  voteReadyDismissedSeats: [],
   isSecretVote: false,
   voteHistory: [],
   voteSelected: [],
@@ -413,6 +422,57 @@ const mutations = {
     state.timer = Math.max(0, Number(time) || 0);
   },
   setVoteInProgress: set("isVoteInProgress"),
+  setVoteReadyState(
+    state,
+    {
+      status = "idle",
+      eligibleSeats = [],
+      readySeats = [],
+      dismissedSeats = [],
+    } = {},
+  ) {
+    state.voteReadyStatus = status === "waiting" ? "waiting" : "idle";
+    state.voteReadyEligibleSeats =
+      state.voteReadyStatus === "waiting" ? normalizeSeatList(eligibleSeats) : [];
+    state.voteReadySeats =
+      state.voteReadyStatus === "waiting" ? normalizeSeatList(readySeats) : [];
+    state.voteReadyDismissedSeats =
+      state.voteReadyStatus === "waiting"
+        ? normalizeSeatList(dismissedSeats)
+        : [];
+  },
+  startVoteReady(state, eligibleSeats = []) {
+    state.voteReadyStatus = "waiting";
+    state.voteReadyEligibleSeats = normalizeSeatList(eligibleSeats);
+    state.voteReadySeats = [];
+    state.voteReadyDismissedSeats = [];
+  },
+  voteReady(state, seat) {
+    const normalizedSeat = Number(seat);
+    if (!state.voteReadyEligibleSeats.includes(normalizedSeat)) return;
+    state.voteReadySeats = normalizeSeatList([
+      ...state.voteReadySeats,
+      normalizedSeat,
+    ]);
+    state.voteReadyDismissedSeats = state.voteReadyDismissedSeats.filter(
+      (dismissedSeat) => dismissedSeat !== normalizedSeat,
+    );
+  },
+  voteReadyDismissed(state, seat) {
+    const normalizedSeat = Number(seat);
+    if (!state.voteReadyEligibleSeats.includes(normalizedSeat)) return;
+    if (state.voteReadySeats.includes(normalizedSeat)) return;
+    state.voteReadyDismissedSeats = normalizeSeatList([
+      ...state.voteReadyDismissedSeats,
+      normalizedSeat,
+    ]);
+  },
+  clearVoteReady(state) {
+    state.voteReadyStatus = "idle";
+    state.voteReadyEligibleSeats = [];
+    state.voteReadySeats = [];
+    state.voteReadyDismissedSeats = [];
+  },
   setMarkedPlayer(state, { val, force }) {
     if (!force && state.isSecretVote && val >= 0) return;
     state.markedPlayer = val;
@@ -775,6 +835,12 @@ const mutations = {
   ) {
     state.nomination = nomination || false;
     state.nominationDay = nomination ? day || state.nominationDay : null;
+    if (!nomination) {
+      state.voteReadyStatus = "idle";
+      state.voteReadyEligibleSeats = [];
+      state.voteReadySeats = [];
+      state.voteReadyDismissedSeats = [];
+    }
     const voteInProgress =
       isVoteInProgress !== undefined
         ? isVoteInProgress

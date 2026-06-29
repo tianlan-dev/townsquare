@@ -708,6 +708,7 @@ const HOST_ROOM_COMMANDS = new Set([
   "useOldOrder",
   "useOldRole",
   "vote",
+  "voteReadyState",
   "votes",
   "votingSpeed",
 ]);
@@ -747,6 +748,8 @@ const PLAYER_DIRECT_TO_HOST_COMMANDS = new Set([
   "requestReviewDetails",
   "usingRole",
   "vote",
+  "voteReady",
+  "voteReadyDismissed",
 ]);
 
 const INVALID_PAYLOAD = Symbol("invalidPayload");
@@ -958,6 +961,12 @@ function normalizePlayerDirectPayload(room, sender, command, params) {
         return INVALID_PAYLOAD;
       }
       return [seat, params[1], false];
+    }
+    case "voteReady":
+    case "voteReadyDismissed": {
+      const seat = playerSeat(room, sender);
+      if (seat === null) return INVALID_PAYLOAD;
+      return seat;
     }
     default:
       return INVALID_PAYLOAD;

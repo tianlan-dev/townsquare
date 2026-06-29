@@ -562,6 +562,19 @@ class LiveSession {
         if (!this._isSpectator) return;
         this._store.commit("session/setVoteInProgress", params);
         break;
+      case "voteReadyState":
+        this._updateVoteReadyState(params);
+        break;
+      case "voteReady":
+        if (!this._isSpectator) {
+          this._store.commit("session/voteReady", params);
+        }
+        break;
+      case "voteReadyDismissed":
+        if (!this._isSpectator) {
+          this._store.commit("session/voteReadyDismissed", params);
+        }
+        break;
       case "vote":
         this._handleVote(params);
         break;
@@ -1166,6 +1179,10 @@ class LiveSession {
         votingSpeed: session.votingSpeed,
         lockedVote: session.lockedVote,
         isVoteInProgress: session.isVoteInProgress,
+        voteReadyStatus: session.voteReadyStatus,
+        voteReadyEligibleSeats: session.voteReadyEligibleSeats,
+        voteReadySeats: session.voteReadySeats,
+        voteReadyDismissedSeats: session.voteReadyDismissedSeats,
         markedPlayer: session.isSecretVote ? session.markedPlayer : -1,
         timer: session.timer,
         isTimerRunning: session.isTimerRunning,
@@ -1256,6 +1273,10 @@ class LiveSession {
       votes,
       lockedVote,
       isVoteInProgress,
+      voteReadyStatus,
+      voteReadyEligibleSeats,
+      voteReadySeats,
+      voteReadyDismissedSeats,
       markedPlayer,
       timer,
       isTimerRunning,
@@ -1360,6 +1381,14 @@ class LiveSession {
         day: nominationDay,
         nominatedPlayer,
       });
+      if (voteReadyStatus !== undefined) {
+        this._store.commit("session/setVoteReadyState", {
+          status: voteReadyStatus,
+          eligibleSeats: voteReadyEligibleSeats,
+          readySeats: voteReadySeats,
+          dismissedSeats: voteReadyDismissedSeats,
+        });
+      }
       if (nominationMarks !== undefined) {
         this._store.commit("session/setNominationMarks", nominationMarks);
       }
@@ -2450,6 +2479,41 @@ class LiveSession {
     }
   }
 
+  voteReadyStatePayload() {
+    const {
+      voteReadyStatus,
+      voteReadyEligibleSeats,
+      voteReadySeats,
+      voteReadyDismissedSeats,
+    } = this._store.state.session;
+    return {
+      status: voteReadyStatus,
+      eligibleSeats: Array.from(voteReadyEligibleSeats || []),
+      readySeats: Array.from(voteReadySeats || []),
+      dismissedSeats: Array.from(voteReadyDismissedSeats || []),
+    };
+  }
+
+  sendVoteReadyState() {
+    if (this._isSpectator) return;
+    this._send("voteReadyState", this.voteReadyStatePayload());
+  }
+
+  sendVoteReady(seat) {
+    if (!this._isSpectator) return;
+    this._sendDirect("host", "voteReady", seat);
+  }
+
+  sendVoteReadyDismissed(seat) {
+    if (!this._isSpectator) return;
+    this._sendDirect("host", "voteReadyDismissed", seat);
+  }
+
+  _updateVoteReadyState(payload = {}) {
+    if (!this._isSpectator) return;
+    this._store.commit("session/setVoteReadyState", payload);
+  }
+
   /**
    * Send the current phase status. ST only
    */
@@ -2541,6 +2605,10 @@ class LiveSession {
       return;
     }
     const player = this._store.state.players.players[index];
+    if (!player) return;
+    if (this._isSpectator && player && player.isDead && player.isVoteless) {
+      return;
+    }
     if (
       this._store.state.session.playerId === player.id ||
       !this._isSpectator
@@ -2679,7 +2747,10 @@ class LiveSession {
    */
   _handleVote([index, vote, fromST]) {
     // do not reveal vote when anonymous voting is in progress, unless it's ST changing that player's vote
-    const voteId = this._store.state.players.players[index].id;
+    const votingPlayer = this._store.state.players.players[index];
+    if (!votingPlayer) return;
+    if (!fromST && votingPlayer.isDead && votingPlayer.isVoteless) return;
+    const voteId = votingPlayer.id;
     if (
       this._isSpectator &&
       voteId != this._store.state.session.playerId &&
@@ -3382,6 +3453,26 @@ export default (store) => {
         break;
       case "session/setVoteInProgress":
         session.setVoteInProgress(payload);
+        break;
+      case "session/startVoteReady":
+      case "session/clearVoteReady":
+        if (!session._isSpectator) {
+          session.sendVoteReadyState();
+        }
+        break;
+      case "session/voteReady":
+        if (session._isSpectator) {
+          session.sendVoteReady(payload);
+        } else {
+          session.sendVoteReadyState();
+        }
+        break;
+      case "session/voteReadyDismissed":
+        if (session._isSpectator) {
+          session.sendVoteReadyDismissed(payload);
+        } else {
+          session.sendVoteReadyState();
+        }
         break;
       case "session/voteSync":
         session.vote(payload);

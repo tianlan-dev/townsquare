@@ -39,9 +39,10 @@
           <div
             class="button townsfolk"
             v-if="!session.isVoteInProgress"
-            @click="countdown"
+            :class="{ disabled: isVoteReadyWaiting }"
+            @click="startVoteReady"
           >
-            开始
+            {{ isVoteReadyWaiting ? "等待准备" : "开始" }}
           </div>
           <template v-else>
             <div
@@ -83,6 +84,24 @@
                 ]"
             /></em>
           </span>
+        </div>
+        <div class="vote-ready-panel" v-if="isVoteReadyWaiting">
+          <div>
+            等待玩家准备：{{ voteReadyCount }}/{{ voteReadyEligibleCount }}
+          </div>
+          <div class="vote-ready-list" v-if="voteReadyWaitingNames.length">
+            未准备：{{ voteReadyWaitingNames.join("、") }}
+          </div>
+          <div class="button demon" @click="forceStartVote">强制开始</div>
+        </div>
+      </template>
+      <template v-else-if="showPlayerVoteReadyPrompt">
+        <div class="vote-ready-panel player-ready">
+          <div>投票即将开始</div>
+          <div class="button-group">
+            <div class="button townsfolk" @click="confirmVoteReady">已准备</div>
+            <div class="button" @click="dismissVoteReady">关闭</div>
+          </div>
         </div>
       </template>
       <template v-else-if="canVote">
@@ -183,8 +202,7 @@ export default {
       if (this.session.isSpectator && !this.session.isStorytellerOnline) {
         return false;
       }
-      if (this.player.isVoteless && this.nominee.role.team !== "traveler")
-        return false;
+      if (!this.playerCanVote(this.player)) return false;
       const session = this.session;
       const players = this.players.length;
       const index = this.players.indexOf(this.player);
@@ -213,6 +231,48 @@ export default {
       if (this.nominee.role.team === "traveler") return 1;
       return this.player ? Math.max(1, Number(this.player.votes) || 1) : 1;
     },
+    currentPlayerSeat: function () {
+      return this.players.findIndex((p) => p.id === this.session.playerId);
+    },
+    isVoteReadyWaiting: function () {
+      return this.session.voteReadyStatus === "waiting";
+    },
+    voteReadyEligibleCount: function () {
+      return this.session.voteReadyEligibleSeats.length;
+    },
+    voteReadyCount: function () {
+      return this.session.voteReadySeats.length;
+    },
+    voteReadyWaitingSeats: function () {
+      return this.session.voteReadyEligibleSeats.filter(
+        (seat) => !this.session.voteReadySeats.includes(seat),
+      );
+    },
+    voteReadyWaitingNames: function () {
+      return this.voteReadyWaitingSeats.map((seat) => {
+        const player = this.players[seat];
+        return `${seat + 1}.${player ? player.name || "空座位" : "空座位"}`;
+      });
+    },
+    isVoteReadyComplete: function () {
+      return (
+        this.isVoteReadyWaiting &&
+        this.voteReadyEligibleCount > 0 &&
+        this.voteReadyCount >= this.voteReadyEligibleCount
+      );
+    },
+    showPlayerVoteReadyPrompt: function () {
+      if (!this.session.isSpectator) return false;
+      if (!this.isVoteReadyWaiting) return false;
+      if (this.currentPlayerSeat < 0) return false;
+      if (!this.session.voteReadyEligibleSeats.includes(this.currentPlayerSeat))
+        return false;
+      if (this.session.voteReadySeats.includes(this.currentPlayerSeat))
+        return false;
+      return !this.session.voteReadyDismissedSeats.includes(
+        this.currentPlayerSeat,
+      );
+    },
     voters: function () {
       const nomination = this.session.nomination[1];
       const voters = Array(this.players.length)
@@ -237,6 +297,9 @@ export default {
     };
   },
   watch: {
+    isVoteReadyComplete(val) {
+      if (val) this.forceStartVote();
+    },
     "nominee.role.team": {
       handler(val) {
         if (val === "traveler") {
@@ -255,6 +318,48 @@ export default {
     },
   },
   methods: {
+    playerCanVote(player) {
+      return !!player && (!player.isDead || !player.isVoteless);
+    },
+    eligibleVoteReadySeats() {
+      return this.players
+        .map((player, seat) => ({ player, seat }))
+        .filter(
+          ({ player }) =>
+            player &&
+            player.id &&
+            player.id !== "host" &&
+            this.playerCanVote(player),
+        )
+        .map(({ seat }) => seat);
+    },
+    startVoteReady() {
+      if (!this.isDayPhase) return;
+      if (this.session.isSpectator) return;
+      if (this.session.isVoteInProgress) return;
+      if (this.isVoteReadyWaiting) return;
+      const eligibleSeats = this.eligibleVoteReadySeats();
+      if (!eligibleSeats.length) {
+        this.forceStartVote();
+        return;
+      }
+      this.$store.commit("session/startVoteReady", eligibleSeats);
+    },
+    confirmVoteReady() {
+      if (this.currentPlayerSeat < 0) return;
+      this.$store.commit("session/voteReady", this.currentPlayerSeat);
+    },
+    dismissVoteReady() {
+      if (this.currentPlayerSeat < 0) return;
+      this.$store.commit("session/voteReadyDismissed", this.currentPlayerSeat);
+    },
+    forceStartVote() {
+      if (this.session.isSpectator) return;
+      if (!this.isDayPhase) return;
+      if (this.session.isVoteInProgress) return;
+      this.$store.commit("session/clearVoteReady");
+      this.countdown();
+    },
     countdown() {
       if (!this.isDayPhase) return;
       this.$store.commit("session/lockVote", 0);
@@ -295,6 +400,7 @@ export default {
     stop() {
       clearInterval(this.voteTimer);
       this.voteTimer = null;
+      this.$store.commit("session/clearVoteReady");
       this.$store.commit("session/setVoteInProgress", false);
       this.$store.commit("session/lockVote", 0);
       this.$store.commit("session/clearVotes");
@@ -302,6 +408,7 @@ export default {
     finish() {
       clearInterval(this.voteTimer);
       this.voteTimer = null;
+      this.$store.commit("session/clearVoteReady");
       this.$store.commit("session/nomination");
     },
     record() {
@@ -314,9 +421,26 @@ export default {
         players: this.players,
         save: true,
       });
+      this.consumeRecordedGhostVotes();
       this.$store.commit("session/nomination", {
         nomination: false,
         recorded: true,
+      });
+    },
+    consumeRecordedGhostVotes() {
+      this.players.forEach((player, index) => {
+        if (
+          player &&
+          player.isDead &&
+          !player.isVoteless &&
+          this.session.votes[index]
+        ) {
+          this.$store.commit("players/update", {
+            player,
+            property: "isVoteless",
+            value: true,
+          });
+        }
       });
     },
     vote(vote) {
@@ -559,6 +683,28 @@ export default {
       fill: white !important;
     }
   }
+}
+
+.vote-ready-panel {
+  margin: 6px auto 0;
+  padding: 7px 9px;
+  max-width: 95%;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  font-size: 85%;
+  line-height: 1.35;
+
+  .button {
+    margin-top: 5px;
+  }
+}
+
+.vote-ready-list {
+  margin-top: 4px;
+  font-size: 90%;
+  color: #f2d7d7;
 }
 
 img.icon {

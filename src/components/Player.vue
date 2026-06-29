@@ -53,6 +53,13 @@
         title="切换投票选择"
         @click.stop="vote()"
       ></button>
+      <div
+        v-if="isVoteReadyEligible"
+        class="vote-ready-status"
+        :class="{ ready: isVoteReady }"
+      >
+        {{ isVoteReady ? "已准备" : "未准备" }}
+      </div>
 
       <!-- Overlay icons -->
       <div class="overlay">
@@ -434,14 +441,21 @@ export default {
       if (!session.nomination) return false;
       if (!session.isStorytellerOnline) return false;
       if (this.player.id !== session.playerId) return false;
-      const nominee = this.players[session.nomination[1]];
-      const isExile = nominee && nominee.role.team === "traveler";
-      if (this.player.isVoteless && !isExile) return false;
+      if (this.player.isDead && this.player.isVoteless) return false;
 
       const players = this.players.length;
       const indexAdjusted =
         (this.index - 1 + players - session.nomination[1]) % players;
       return indexAdjusted === session.lockedVote - 1;
+    },
+    isVoteReadyEligible: function () {
+      return (
+        this.session.voteReadyStatus === "waiting" &&
+        this.session.voteReadyEligibleSeats.includes(this.index)
+      );
+    },
+    isVoteReady: function () {
+      return this.session.voteReadySeats.includes(this.index);
     },
     isVoteTokenActive: function () {
       if (!this.phaseInfo.isDay) return false;
@@ -1114,6 +1128,32 @@ export default {
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
+}
+
+.player .vote-ready-status {
+  position: absolute;
+  left: 50%;
+  top: -11%;
+  z-index: 6;
+  transform: translateX(-50%);
+  min-width: 58%;
+  padding: 2px 7px;
+  border: 2px solid #000;
+  border-radius: 999px;
+  background: rgba(130, 27, 27, 0.92);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 0 1px 2px #000;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+
+  &.ready {
+    background: rgba(31, 102, 61, 0.92);
+  }
 }
 
 #townsquare.public .circle .token {
