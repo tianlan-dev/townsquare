@@ -69,8 +69,7 @@
                 />
               </em>
             </li>
-            <li @click="clearLocalStorage">清空储存</li>
-            <li @click="clearSiteCache">清除网站缓存</li>
+            <li @click="clearCache">清除缓存</li>
             <li @click="hostSession">创建房间</li>
             <li @click="joinSession">加入房间</li>
             <li @click="openRules">游戏规则</li>
@@ -331,8 +330,7 @@
                   />
                 </em>
               </li>
-              <li @click="clearLocalStorage">清空储存</li>
-              <li @click="clearSiteCache">清除网站缓存</li>
+              <li @click="clearCache">清除缓存</li>
               <li v-if="!session.isSpectator" @click="toggleModal('gameState')">
                 游戏状态JSON
               </li>
@@ -1583,30 +1581,13 @@ export default {
       this.$store.commit("session/stopTimer");
       this.timing = false;
     },
-    async clearLocalStorage() {
-      const clear = await this.showInputModal({
-        inputType: "confirm",
-        inputModal: "confirm",
-        inputData: {
-          name: ["确定清空所有储存吗？（将清除昵称、头像等，并刷新网页）"],
-        },
-      }).catch(() => {
-        return null;
-      });
-      if (clear === null) return;
-
-      if (!clear) return;
-      this.clearStoredAppData();
-      this.reloadWithCacheBust();
-      return;
-    },
-    async clearSiteCache() {
+    async clearCache() {
       const clear = await this.showInputModal({
         inputType: "confirm",
         inputModal: "confirm",
         inputData: {
           name: [
-            "确定清除网站缓存吗？（将同时清空储存，包含昵称、头像等，并刷新网页）",
+            "确定清除缓存吗？（将清空储存、清除网站缓存，并刷新网页）",
           ],
         },
       }).catch(() => {
