@@ -26,11 +26,11 @@
       </div>
     </transition-group>
     <TownInfo
-      v-if="players.length"
+      v-if="showTownInfo"
       :show-details="!session.nomination"
     ></TownInfo>
     <transition name="blur">
-      <Intro v-if="!players.length" @trigger="handleTrigger($event)"></Intro>
+      <Intro v-if="showIntro" @trigger="handleTrigger($event)"></Intro>
       <Vote v-else-if="session.nomination"></Vote>
     </transition>
     <TownSquare></TownSquare>
@@ -96,6 +96,15 @@ export default {
     ...mapState(["grimoire", "session", "modals", "notifications"]),
     ...mapState("players", ["players"]),
     ...mapGetters(["phaseBackgrounds", "phaseInfo"]),
+    isInRoom() {
+      return !!this.session.sessionId;
+    },
+    showIntro() {
+      return !this.isInRoom && !this.players.length;
+    },
+    showTownInfo() {
+      return this.isInRoom || !!this.players.length;
+    },
   },
   watch: {
     phaseBackgrounds: {

@@ -130,7 +130,7 @@
                 >
                   {{ room.isStorytelling ? "说书中" : "准备中" }}
                 </span>
-                <span v-if="room.hostOnline && room.playerCount">
+                <span v-if="room.hostOnline && room.playerCount != null">
                   配置：{{ room.playerCount }}人
                 </span>
                 <span v-else>配置：未知</span>

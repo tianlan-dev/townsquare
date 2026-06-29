@@ -644,7 +644,7 @@ function createRoomRecord(roomCode, storyteller, params = {}) {
     lastHostHeartbeat: now(),
     isStorytelling: false,
     playerCount:
-      Number.isInteger(playerCount) && playerCount > 0 ? playerCount : null,
+      Number.isInteger(playerCount) && playerCount >= 0 ? playerCount : null,
   };
   rooms.set(roomCode, room);
   markRoomCodeUsed(roomCode);
@@ -1076,7 +1076,7 @@ function activeRoomDetails() {
         id: room.channel,
         hostName: room.hostName || "说书人",
         hostOnline,
-        playerCount: room.playerCount || null,
+        playerCount: room.playerCount ?? null,
         isStorytelling: !!room.isStorytelling,
         hasPassword: !!room.hasPassword,
         createdAt: room.createdAt,
@@ -1097,7 +1097,7 @@ function updateHostRoomInfo(room, params = {}) {
   if (!room || typeof params !== "object" || params === null) return;
   if (params.name !== undefined) room.hostName = displayName(params.name);
   const playerCount = Number(params.playerCount);
-  if (Number.isInteger(playerCount) && playerCount > 0) {
+  if (Number.isInteger(playerCount) && playerCount >= 0) {
     room.playerCount = playerCount;
   }
   if (params.isStorytelling !== undefined) {

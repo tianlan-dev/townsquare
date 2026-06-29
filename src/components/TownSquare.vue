@@ -168,7 +168,10 @@ export default {
       return "height: " + size + "vh; width: " + size + "vh;";
     },
     hasBluffsPanel: function () {
-      return this.players.length > 0 && !this.grimoire.isPublic;
+      return (
+        !this.grimoire.isPublic &&
+        (!!this.session.sessionId || this.players.length > 0)
+      );
     },
     hasFabledPanel: function () {
       return this.fabled.length > 0;
