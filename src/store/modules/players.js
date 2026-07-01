@@ -296,17 +296,32 @@ const mutations = {
   updateBluff(state, bluffs) {
     state.bluffs = bluffs;
   },
-  setFabled(
-    state,
-    { index, fabled, stImage, stName, emptyFabled = false } = {},
-  ) {
-    if (!stImage)
+  setFabled(state, payload = {}) {
+    const { index, fabled, emptyFabled = false } = payload;
+    let { stImage, stName } = payload;
+    const hasStorytellerImage = stImage !== undefined;
+    const hasStorytellerName = stName !== undefined;
+
+    if (!hasStorytellerImage)
       stImage =
         this.state.session.playerAvatarSource === "default" ||
         isDefaultPlayerAvatar(this.state.session.playerAvatar)
           ? STORYTELLER_AVATAR
           : this.state.session.playerAvatar;
-    if (!stName) stName = this.state.session.playerName;
+    if (!hasStorytellerName || !stName) stName = this.state.session.playerName;
+
+    const fabledStoryteller = () => ({
+      id: "storyteller",
+      image: storytellerAvatarUrl(stImage),
+      firstNightReminder: "",
+      otherNightReminder: "",
+      reminders: [],
+      setup: false,
+      name: stName,
+      team: "fabled",
+      ability: "说书人。",
+    });
+
     if (index !== undefined) {
       if (index == 0) return; // do not ever remove the first fabled i.e. storyteller
 
@@ -317,18 +332,6 @@ const mutations = {
 
       state.fabled.splice(index, 1);
     } else if (fabled) {
-      const fabledStoryteller = {
-        id: "storyteller",
-        image: storytellerAvatarUrl(stImage),
-        firstNightReminder: "",
-        otherNightReminder: "",
-        reminders: [],
-        setup: false,
-        name: stName,
-        team: "fabled",
-        ability: "说书人。",
-      };
-
       // 加入自定义私货商人描述
       const customBootlegger = this.state.session.bootlegger;
       if ((fabled.id === "bootlegger") & !!customBootlegger) {
@@ -353,15 +356,26 @@ const mutations = {
         // if (fabled.length === 0 && fabled.id != "storyteller") state.fabled.push(fabledStoryteller);
         state.fabled.push(fabled);
       } else {
+        const nextFabled = [...fabled];
+        const storytellerIndex = nextFabled.findIndex(
+          (role) => role && role.id === "storyteller",
+        );
+        if (!emptyFabled && storytellerIndex >= 0) {
+          const storyteller = { ...nextFabled[storytellerIndex] };
+          if (hasStorytellerName || !storyteller.name) storyteller.name = stName;
+          if (hasStorytellerImage)
+            storyteller.image = storytellerAvatarUrl(stImage);
+          nextFabled.splice(storytellerIndex, 1, storyteller);
+        }
         // add in Story Teller if there isn't already one
         if (
           !emptyFabled &&
-          ((fabled.length > 0 && fabled[0].id != "storyteller") ||
-            fabled.length === 0)
+          ((nextFabled.length > 0 && storytellerIndex < 0) ||
+            nextFabled.length === 0)
         ) {
-          fabled.unshift(fabledStoryteller);
+          nextFabled.unshift(fabledStoryteller());
         }
-        state.fabled = fabled;
+        state.fabled = nextFabled;
       }
     }
   },

@@ -234,11 +234,14 @@ class LiveSession {
   }
 
   _hostInfo() {
+    const { session } = this._store.state;
     return {
-      name: this._store.state.session.playerName,
+      name: session.playerName,
+      storytellerAvatar:
+        session.playerAvatarSource === "uploaded" ? session.playerAvatar : "",
       playerCount: this._store.state.players.players.length,
-      isStorytelling: this._store.state.session.isStorytelling,
-      hasPassword: !!this._store.state.session.roomPassword,
+      isStorytelling: session.isStorytelling,
+      hasPassword: !!session.roomPassword,
     };
   }
 
@@ -1119,6 +1122,10 @@ class LiveSession {
         phaseIndex: grimoire.phaseIndex,
         isNight: grimoire.isNight,
         storytellerName: session.playerName,
+        storytellerAvatar:
+          session.playerAvatarSource === "uploaded"
+            ? session.playerAvatar
+            : "",
         isStorytellerOnline: true,
         isVoteHistoryAllowed: session.isVoteHistoryAllowed,
         isSecretVote: session.isSecretVote,
@@ -1214,6 +1221,7 @@ class LiveSession {
       phaseIndex,
       isNight,
       storytellerName,
+      storytellerAvatar,
       isStorytellerOnline,
       isVoteHistoryAllowed,
       isSecretVote,
@@ -1371,7 +1379,11 @@ class LiveSession {
               (player) => player.id === this._store.state.session.playerId,
             ),
       );
-      this._store.commit("players/setFabled", { fabled });
+      this._store.commit("players/setFabled", {
+        fabled,
+        stName: storytellerName,
+        stImage: storytellerAvatar,
+      });
       this._store.commit("setStates", states);
       this._store.commit("setTeamsNames", teamsNames);
       this._store.commit("setFirstNight", firstNight);
@@ -3452,10 +3464,13 @@ export default (store) => {
         break;
       case "session/updatePlayerAvatar":
         if (!session._isSpectator) {
-          session._store.commit("players/setStorytellerFabled", {
-            image: state.session.playerAvatar,
+          session._store.commit("players/setFabled", {
+            fabled: state.players.fabled,
+            stName: state.session.playerName,
+            stImage: state.session.playerAvatar,
           });
         }
+        session.sendHostHeartbeat();
         break;
       case "toggleNight":
         session.setPhaseIndex();
@@ -3518,6 +3533,13 @@ export default (store) => {
         session.stopTimer(payload);
         break;
       case "session/setPlayerAvatar":
+        if (!session._isSpectator) {
+          session._store.commit("players/setFabled", {
+            fabled: state.players.fabled,
+            stName: state.session.playerName,
+            stImage: state.session.playerAvatar,
+          });
+        }
         session.uploadAvatar(payload);
         break;
       case "session/requestDefaultAvatar":

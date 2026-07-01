@@ -1010,8 +1010,8 @@ const mutations = {
   lockVote(state, lock) {
     state.lockedVote = lock !== undefined ? lock : state.lockedVote + 1;
   },
-  setPlayerAvatar(state) {
-    state.playerAvatar = "";
+  setPlayerAvatar(state, link) {
+    state.playerAvatar = link || "";
     state.playerAvatarSource = "uploaded";
   },
   updatePlayerAvatar(state, link) {

@@ -633,6 +633,7 @@ function createRoomRecord(roomCode, storyteller, params = {}) {
     hostPlayerId: storyteller.playerId,
     storytellerId: storyteller.playerId,
     hostName: storyteller.name || "说书人",
+    hostAvatar: "",
     hasPassword: !!params.password,
     password: String(params.password || ""),
     host: null,
@@ -1075,6 +1076,7 @@ function activeRoomDetails() {
       return {
         id: room.channel,
         hostName: room.hostName || "说书人",
+        hostAvatar: room.hostAvatar || "",
         hostOnline,
         playerCount: room.playerCount ?? null,
         isStorytelling: !!room.isStorytelling,
@@ -1096,6 +1098,12 @@ function requestHostRoomInfo() {
 function updateHostRoomInfo(room, params = {}) {
   if (!room || typeof params !== "object" || params === null) return;
   if (params.name !== undefined) room.hostName = displayName(params.name);
+  if (params.storytellerAvatar !== undefined) {
+    room.hostAvatar =
+      typeof params.storytellerAvatar === "string"
+        ? params.storytellerAvatar.substr(0, 2048)
+        : "";
+  }
   const playerCount = Number(params.playerCount);
   if (Number.isInteger(playerCount) && playerCount >= 0) {
     room.playerCount = playerCount;
