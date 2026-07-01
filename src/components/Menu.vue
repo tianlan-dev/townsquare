@@ -287,7 +287,7 @@
                     @click.stop="setZoom(grimoire.zoom - 1)"
                     icon="search-minus"
                   />
-                  {{ Math.round(100 + grimoire.zoom * 10) }}%
+                  {{ zoomPercent }}%
                   <font-awesome-icon
                     @click.stop="setZoom(grimoire.zoom + 1)"
                     icon="search-plus"
@@ -534,6 +534,8 @@
 <script>
 import { mapGetters, mapMutations, mapState } from "vuex";
 
+const DEFAULT_GAME_ZOOM = -2;
+
 export default {
   computed: {
     ...mapState([
@@ -592,6 +594,9 @@ export default {
     },
     isClearRecordsLocked() {
       return this.mustReviewBeforeEndingStorytelling;
+    },
+    zoomPercent() {
+      return Math.round(100 + (this.grimoire.zoom - DEFAULT_GAME_ZOOM) * 10);
     },
   },
   data() {
