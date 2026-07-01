@@ -595,54 +595,6 @@ export default {
         value: vote,
       });
     },
-    setStoryTeller(playerIndex) {
-      if (this.session.isSpectator) return;
-      const player = this.players[playerIndex];
-      if (player.id) {
-        if (player.id != "host") return;
-        this.$store.commit("players/update", {
-          player,
-          property: "id",
-          value: "",
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "name",
-          value: "",
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "isVoteless",
-          value: false,
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "isDead",
-          value: false,
-        });
-      } else {
-        this.$store.commit("players/update", {
-          player,
-          property: "id",
-          value: "host",
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "name",
-          value: this.session.playerName || "说书人",
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "isVoteless",
-          value: true,
-        });
-        this.$store.commit("players/update", {
-          player,
-          property: "isDead",
-          value: true,
-        });
-      }
-    },
     setUsingWraith() {
       const usingWraith = this.session.isRole.wraith.using;
       this.$store.commit("session/setIsRole", {

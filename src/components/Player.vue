@@ -275,18 +275,6 @@
               <font-awesome-icon icon="minus" prefix="fa" />
               减少票数
             </li>
-            <li
-              v-if="!player.id || player.id === 'host'"
-              @click="setStoryTeller(player)"
-            >
-              <font-awesome-icon icon="book-open" prefix="fa" />
-              <span v-if="!player.id">设为</span>
-              <span v-else>移除</span>说书人
-            </li>
-            <li v-if="!!player.id" @click="toggleWraith()">
-              <font-awesome-icon :icon="['custom', 'wraith']" />
-              <span>亡魂</span>
-            </li>
             <li v-if="session.sessionId" @click="sendSeatTypeInfo">
               <font-awesome-icon icon="users" />
               发送该座位阵营信息
@@ -692,30 +680,6 @@ export default {
       if (this.session.isSpectator) return;
       this.updatePlayer("isAllowRole", !this.player.isAllowRole, true);
     },
-    async toggleWraith() {
-      if (this.session.isSpectator) return;
-      if (this.player.isWraith) {
-        this.updatePlayer("isWraith", false, true);
-        this.updatePlayer("isUsingWraith", false, true);
-        this.updatePlayer("isAllowRole", true, true);
-        return;
-      }
-      const confirm = await this.showInputModal({
-        inputType: "confirm",
-        inputModal: "confirm",
-        inputData: {
-          name: ["确定允许该玩家使用亡魂能力吗？"],
-          length: 1,
-          placeholder: [""],
-        },
-      }).catch(() => {
-        return null;
-      });
-      if (confirm === null) return;
-
-      if (confirm === true) this.updatePlayer("isWraith", true, true);
-      await this.$nextTick();
-    },
     async changeName() {
       if (this.session.isSpectator) return;
 
@@ -854,10 +818,6 @@ export default {
     claimSeat() {
       this.isMenuOpen = false;
       this.$emit("trigger", ["claimSeat"]);
-    },
-    setStoryTeller(player) {
-      this.isMenuOpen = false;
-      this.$emit("trigger", ["setStoryTeller", player]);
     },
     /**
      * Allow the ST to override a locked vote.
