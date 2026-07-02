@@ -26,6 +26,13 @@
               <span class="record-title">
                 {{ recordTitle(record, index) }}
               </span>
+              <span
+                v-if="winnerTeamFor(record)"
+                class="record-result"
+                :class="'review-result-' + winnerTeamFor(record)"
+              >
+                {{ winnerLabelFor(record) }}
+              </span>
               <span class="record-time">
                 开始：{{ formatDateTime(record.storytellingStartedAt) }}
               </span>
@@ -51,6 +58,13 @@
         <header class="record-header">
           <div>
             <h4>{{ selectedRecordTitle }}</h4>
+            <div
+              v-if="winnerTeam"
+              class="review-result header-result"
+              :class="'review-result-' + winnerTeam"
+            >
+              {{ winnerLabel }}
+            </div>
             <p>
               {{ formatDateTime(details.storytellingStartedAt) }} -
               {{ recordEndText(details) }}
@@ -183,7 +197,20 @@
                           {{ roleName(eventSeatInfo(event).roleId) }}
                         </span>
                       </span>
-                      添加标记 {{ reminderName(event.reminder) }}
+                      添加
+                      <template v-if="reminderSourceRoleId(event.reminder)">
+                        来自
+                        <span
+                          class="role-chip"
+                          :class="
+                            roleTeamClass(reminderSourceRoleId(event.reminder))
+                          "
+                        >
+                          {{ roleName(reminderSourceRoleId(event.reminder)) }}
+                        </span>
+                        的
+                      </template>
+                      标记 {{ reminderName(event.reminder) }}
                     </template>
                     <template v-else-if="event.type === 'reminderRemoved'">
                       <span class="seat-snapshot">
@@ -196,7 +223,20 @@
                           {{ roleName(eventSeatInfo(event).roleId) }}
                         </span>
                       </span>
-                      移除标记 {{ reminderName(event.reminder) }}
+                      移除
+                      <template v-if="reminderSourceRoleId(event.reminder)">
+                        来自
+                        <span
+                          class="role-chip"
+                          :class="
+                            roleTeamClass(reminderSourceRoleId(event.reminder))
+                          "
+                        >
+                          {{ roleName(reminderSourceRoleId(event.reminder)) }}
+                        </span>
+                        的
+                      </template>
+                      标记 {{ reminderName(event.reminder) }}
                     </template>
                     <template v-else-if="event.type === 'deathChanged'">
                       <span class="seat-snapshot">
@@ -329,6 +369,7 @@ const emptyReviewDetails = () => ({
   initialRoles: [],
   bluffs: [],
   events: [],
+  winnerTeam: "",
 });
 
 export default {
@@ -375,11 +416,18 @@ export default {
         (a, b) => Number(a.order) - Number(b.order),
       );
     },
+    winnerTeam() {
+      return this.winnerTeamFor(this.details);
+    },
+    winnerLabel() {
+      return this.winnerLabelFor(this.details);
+    },
     hasContent() {
       return (
         this.initialRoles.length > 0 ||
         this.bluffs.length > 0 ||
-        this.events.length > 0
+        this.events.length > 0 ||
+        !!this.winnerTeam
       );
     },
     canEditEvents() {
@@ -423,6 +471,9 @@ export default {
     records() {
       this.ensureSelectedRecord();
     },
+    "session.activeGrimoireHistoryId"() {
+      this.selectActiveStoryRecord();
+    },
     selectedReviewId() {
       if (this.modals.reviewDetails) {
         this.markSelectedRecordRead();
@@ -461,6 +512,16 @@ export default {
         ? this.formatDateTime(record.storytellingEndedAt)
         : "说书中";
     },
+    winnerTeamFor(record = {}) {
+      const winnerTeam = String(record.winnerTeam || "");
+      return ["good", "evil"].includes(winnerTeam) ? winnerTeam : "";
+    },
+    winnerLabelFor(record = {}) {
+      const winnerTeam = this.winnerTeamFor(record);
+      if (winnerTeam === "good") return "善良获胜";
+      if (winnerTeam === "evil") return "邪恶获胜";
+      return "";
+    },
     isUnreadRecord(record = {}) {
       return (this.session.unreadReviewDetailsIds || []).includes(record.id);
     },
@@ -476,6 +537,13 @@ export default {
         this.isUnreadRecord(record),
       );
       this.selectedReviewId = (unreadRecord || this.records[0]).id;
+    },
+    selectActiveStoryRecord() {
+      if (this.session.isSpectator) return;
+      const activeId = String(this.session.activeGrimoireHistoryId || "");
+      if (!activeId) return;
+      if (!this.records.some((record) => record.id === activeId)) return;
+      this.selectedReviewId = activeId;
     },
     selectRecord(record = {}) {
       this.selectedReviewId = record.id || "";
@@ -565,6 +633,15 @@ export default {
     reminderName(reminder = {}) {
       return reminder.name || this.roleName(reminder.role);
     },
+    reminderSourceRoleId(reminder = {}) {
+      const roleId = String(reminder.role || "");
+      if (!roleId || ["good", "evil", "custom"].includes(roleId)) return "";
+      return this.roleInfo(roleId) ? roleId : "";
+    },
+    reminderSourceText(reminder = {}) {
+      const roleId = this.reminderSourceRoleId(reminder);
+      return roleId ? `来自${this.roleName(roleId)}的` : "";
+    },
     eventText(event = {}) {
       switch (event.type) {
         case "seatAdded":
@@ -576,11 +653,15 @@ export default {
             event.fromRoleId,
           )} -> ${this.roleName(event.toRoleId)}`;
         case "reminderAdded":
-          return `${seatText(event.seat)}添加标记 ${this.reminderName(
+          return `${seatText(event.seat)}添加${this.reminderSourceText(
+            event.reminder,
+          )}标记 ${this.reminderName(
             event.reminder,
           )}`;
         case "reminderRemoved":
-          return `${seatText(event.seat)}移除标记 ${this.reminderName(
+          return `${seatText(event.seat)}移除${this.reminderSourceText(
+            event.reminder,
+          )}标记 ${this.reminderName(
             event.reminder,
           )}`;
         case "deathChanged":
@@ -662,7 +743,7 @@ h3 {
   flex-direction: column;
   gap: 4px;
   min-width: 0;
-  min-height: 72px;
+  min-height: 82px;
   padding: 9px 10px;
   color: rgba(255, 255, 255, 0.74);
   background: rgba(0, 0, 0, 0.22);
@@ -701,6 +782,21 @@ h3 {
   line-height: 1.3;
 }
 
+.record-result {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.28);
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-shadow:
+    0 1px 1px black,
+    0 0 8px currentColor;
+}
+
 .review-record-detail {
   min-width: 0;
 }
@@ -717,6 +813,10 @@ h3 {
 
 .record-header h4 {
   margin: 0 0 4px;
+}
+
+.header-result {
+  margin: 2px 0 8px;
 }
 
 .record-header p {
@@ -895,6 +995,28 @@ h5 {
 .event-text {
   min-width: 0;
   overflow-wrap: anywhere;
+}
+
+.review-result {
+  display: inline-flex;
+  padding: 8px 14px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.28);
+  font-size: 125%;
+  font-weight: 900;
+  line-height: 1.2;
+  text-shadow:
+    0 1px 1px black,
+    0 0 10px currentColor;
+}
+
+.review-result-good {
+  color: #37a0ff;
+}
+
+.review-result-evil {
+  color: #ff2e2e;
 }
 
 .event-delete,

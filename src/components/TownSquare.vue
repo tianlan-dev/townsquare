@@ -32,6 +32,14 @@
     </ul>
 
     <div
+      v-if="reviewWinnerTeam"
+      class="review-winner"
+      :class="'review-winner-' + reviewWinnerTeam"
+    >
+      {{ reviewWinnerLabel }}
+    </div>
+
+    <div
       class="role-side-panel"
       v-if="hasRolePanel"
       :class="{ closed: !isRolePanelOpen }"
@@ -198,6 +206,21 @@ export default {
         return activeRoles.slice(0, 1);
       }
       return activeRoles;
+    },
+    reviewDetails: function () {
+      return this.session.isSpectator
+        ? this.session.receivedReviewDetails
+        : this.session.grimoireHistory;
+    },
+    reviewWinnerTeam: function () {
+      if (!this.session.isReview) return "";
+      const winnerTeam = String((this.reviewDetails || {}).winnerTeam || "");
+      return ["good", "evil"].includes(winnerTeam) ? winnerTeam : "";
+    },
+    reviewWinnerLabel: function () {
+      if (this.reviewWinnerTeam === "good") return "善良获胜";
+      if (this.reviewWinnerTeam === "evil") return "邪恶获胜";
+      return "";
     },
   },
   data() {
@@ -641,6 +664,10 @@ export default {
       z-index: 25 !important;
     }
 
+    &.menu-open {
+      z-index: 30 !important;
+    }
+
     > .player {
       margin-left: -50%;
       width: 100%;
@@ -736,6 +763,32 @@ export default {
   .circle.size-#{$i} > li {
     @include on-circle($item-count: $i);
   }
+}
+
+#townsquare > .review-winner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 45;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-size: clamp(34px, 7vh, 86px);
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: 0;
+  text-shadow:
+    0 3px 0 black,
+    0 0 18px black,
+    0 0 32px currentColor;
+}
+
+#townsquare > .review-winner-good {
+  color: #37a0ff;
+}
+
+#townsquare > .review-winner-evil {
+  color: #ff2e2e;
 }
 
 /***** Demon bluffs / Fabled *******/

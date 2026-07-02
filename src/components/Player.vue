@@ -1,5 +1,5 @@
 <template>
-  <li :style="zoom">
+  <li :style="zoom" :class="{ 'menu-open': isMenuOpen }">
     <button
       v-if="!session.isSpectator"
       type="button"

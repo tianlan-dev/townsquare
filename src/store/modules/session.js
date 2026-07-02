@@ -97,6 +97,7 @@ const emptyReviewDetails = () => ({
   initialRoles: [],
   bluffs: [],
   events: [],
+  winnerTeam: "",
 });
 
 const randomReviewFingerprint = () => {
@@ -179,6 +180,9 @@ const normalizeReviewDetails = (details = {}) => {
         order: Number(event.order) || index + 1,
       }))
     : [];
+  normalized.winnerTeam = ["good", "evil"].includes(String(source.winnerTeam))
+    ? String(source.winnerTeam)
+    : "";
   return normalized;
 };
 
@@ -218,7 +222,8 @@ const hasReviewDetailsContent = (details = {}) =>
   !!(
     (Array.isArray(details.initialRoles) && details.initialRoles.length) ||
     (Array.isArray(details.bluffs) && details.bluffs.length) ||
-    (Array.isArray(details.events) && details.events.length)
+    (Array.isArray(details.events) && details.events.length) ||
+    details.winnerTeam
   );
 
 const normalizeReviewRecords = (records = []) =>
@@ -575,7 +580,7 @@ const mutations = {
     state.activeGrimoireHistoryId = reviewRecordKey(activeRecord);
     state.grimoireHistory = normalizeReviewDetails(activeRecord);
   },
-  startReview(state, { phaseIndex = 0 } = {}) {
+  startReview(state, { phaseIndex = 0, winnerTeam = "" } = {}) {
     if (!state.isSpectator && !state.isReview) {
       const timestamp = new Date().toISOString();
       const history = normalizeReviewDetails({
@@ -588,6 +593,7 @@ const mutations = {
         phaseIndexAtPush: Number(phaseIndex) || 0,
         pushedAt: timestamp,
         updatedAt: timestamp,
+        winnerTeam,
       });
       const record = upsertReviewRecord(state.grimoireHistoryRecords, history);
       state.activeGrimoireHistoryId = record.id;
@@ -759,6 +765,7 @@ const mutations = {
   },
   endStorytelling(state) {
     state.isStorytelling = false;
+    state.isReview = false;
     state.initialRoleIds = [];
     state.nominationNominatorsByDay = {};
     state.nominationNomineesByDay = {};

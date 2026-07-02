@@ -160,6 +160,31 @@
         </div>
       </form>
     </div>
+    <div v-else-if="session.inputModal === 'winner'">
+      <form class="input-box winner-box" @submit.prevent tabindex="-1">
+        <label>{{ session.inputData.name[0] }}</label>
+        <div class="winner-actions">
+          <button
+            type="button"
+            class="winner-good"
+            ref="winnerGood"
+            @click="confirmWinner('good')"
+          >
+            善良获胜
+          </button>
+          <button
+            type="button"
+            class="winner-evil"
+            @click="confirmWinner('evil')"
+          >
+            邪恶获胜
+          </button>
+        </div>
+        <div class="input-actions">
+          <button type="button" @click="close" class="cancel">取消</button>
+        </div>
+      </form>
+    </div>
     <div v-else-if="session.inputModal === 'text'">
       <form class="input-box text-box" @submit.prevent="close" tabindex="-1">
         <label>{{ session.inputData.name[0] }}</label>
@@ -279,6 +304,10 @@ export default {
         } else if (this.session.inputModal === "confirm") {
           this.$nextTick(() => {
             this.$refs.confirmYes.focus();
+          });
+        } else if (this.session.inputModal === "winner") {
+          this.$nextTick(() => {
+            this.$refs.winnerGood.focus();
           });
         } else if (this.session.inputModal === "text") {
           this.$nextTick(() => {
@@ -415,6 +444,12 @@ export default {
       this.session.inputResolver(true);
       this.close();
     },
+    confirmWinner(winnerTeam) {
+      if (this.session.inputResolver) {
+        this.session.inputResolver(winnerTeam);
+      }
+      this.close();
+    },
     confirmTextAction() {
       if (this.session.inputResolver) {
         this.session.inputResolver(this.session.inputData.action || true);
@@ -518,6 +553,19 @@ export default {
   transition: background-color 0.3s;
 }
 
+.winner-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.input-box .winner-actions button {
+  min-height: 44px;
+  color: white;
+  font-size: 110%;
+  text-shadow: 0 1px 2px black;
+}
+
 .input-box button.confirm:focus {
   outline: none;
 }
@@ -534,6 +582,16 @@ export default {
 
 .input-box button[type="button"]:hover {
   background-color: darken(#e84b20, 10%);
+}
+
+.input-box button.winner-good,
+.input-box button.winner-good:hover {
+  background-color: #1267d8;
+}
+
+.input-box button.winner-evil,
+.input-box button.winner-evil:hover {
+  background-color: #b41414;
 }
 
 .gender-options {

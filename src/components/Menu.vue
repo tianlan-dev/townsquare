@@ -1507,6 +1507,17 @@ export default {
       if (confirm === null) return;
 
       if (confirm === true) {
+        const winnerTeam = await this.showInputModal({
+          inputType: "reviewWinner",
+          inputModal: "winner",
+          inputData: {
+            name: ["请选择本局获胜阵营"],
+          },
+        }).catch(() => {
+          return null;
+        });
+        if (!["good", "evil"].includes(winnerTeam)) return;
+
         this.distributing = false;
         this.distributingTypes = false;
         this.distributingBluffs = false;
@@ -1514,6 +1525,7 @@ export default {
         this.distributingGrimoire = false;
         this.$store.commit("session/startReview", {
           phaseIndex: this.grimoire.phaseIndex,
+          winnerTeam,
         });
       }
     },

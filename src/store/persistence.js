@@ -674,6 +674,7 @@ module.exports = (store) => {
         break;
       case "session/endStorytelling":
         localStorage.removeItem("isStorytelling");
+        localStorage.removeItem("isReview");
         localStorage.removeItem("initialRoleIds");
         localStorage.removeItem("nominationMarks");
         break;

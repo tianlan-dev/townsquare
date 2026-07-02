@@ -34,6 +34,8 @@ const normalizeReminder = (reminder = {}) => ({
   name: String(reminder.name || ""),
 });
 
+const isCustomReminder = (reminder = {}) => reminder.role === "custom";
+
 const roleIdOf = (player = {}) => String((player.role && player.role.id) || "");
 
 const roleCatalogEntry = (role = {}) => {
@@ -221,15 +223,17 @@ const changedSeatEvents = (before, after, phaseIndex) => {
         reminder,
       });
     });
-    reminders.removed.forEach((reminder) => {
-      events.push({
-        type: "reminderRemoved",
-        phaseIndex,
-        seat,
-        seatInfo: seatInfoFromSnapshot(current, seat),
-        reminder,
+    reminders.removed
+      .filter((reminder) => !isCustomReminder(reminder))
+      .forEach((reminder) => {
+        events.push({
+          type: "reminderRemoved",
+          phaseIndex,
+          seat,
+          seatInfo: seatInfoFromSnapshot(current, seat),
+          reminder,
+        });
       });
-    });
 
     if (previous.isDead !== current.isDead) {
       events.push({
