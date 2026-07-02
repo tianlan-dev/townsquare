@@ -595,15 +595,13 @@ export default {
     normalizedSeatInfo(info = {}, fallback = "") {
       const source = info && typeof info === "object" ? info : {};
       const fallbackText = String(fallback || "");
-      const fallbackMatch = fallbackText.match(/^(\d+)\.?\s*(.*)$/);
+      const fallbackMatch = fallbackText.match(/^(\d+)/);
       const seat =
         Number(source.seat) ||
         (fallbackMatch ? Number(fallbackMatch[1]) : Number(fallback)) ||
         0;
-      const fallbackName = fallbackMatch ? fallbackMatch[2].trim() : "";
       return {
         seat,
-        playerName: String(source.playerName || source.name || fallbackName),
         roleId: String(source.roleId || ""),
       };
     },
@@ -627,8 +625,7 @@ export default {
     },
     seatInfoLabel(info = {}) {
       const seat = Number(info.seat) || 0;
-      const playerName = String(info.playerName || "").trim();
-      return playerName ? `座位${seat} ${playerName}` : `座位${seat}`;
+      return `座位${seat}`;
     },
     reminderName(reminder = {}) {
       return reminder.name || this.roleName(reminder.role);

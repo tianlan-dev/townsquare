@@ -136,6 +136,41 @@ const normalizeRoleCatalog = (roleCatalog = {}) => {
   }, {});
 };
 
+const sanitizeReviewSeatInfo = (seatInfo = {}) => {
+  if (!seatInfo || typeof seatInfo !== "object") return seatInfo;
+  const sanitized = { ...seatInfo };
+  delete sanitized.playerName;
+  delete sanitized.name;
+  return sanitized;
+};
+
+const sanitizeReviewVoteText = (text = "") => {
+  const match = String(text || "").match(/^(\d+)/);
+  return match ? match[1] : String(text || "");
+};
+
+const sanitizeReviewEvent = (event = {}) => {
+  const sanitized = { ...event };
+  if (sanitized.seatInfo) {
+    sanitized.seatInfo = sanitizeReviewSeatInfo(sanitized.seatInfo);
+  }
+  if (sanitized.vote && typeof sanitized.vote === "object") {
+    const vote = { ...sanitized.vote };
+    vote.nominator = sanitizeReviewVoteText(vote.nominator);
+    vote.nominee = sanitizeReviewVoteText(vote.nominee);
+    vote.nominatorSeatInfo = sanitizeReviewSeatInfo(vote.nominatorSeatInfo);
+    vote.nomineeSeatInfo = sanitizeReviewSeatInfo(vote.nomineeSeatInfo);
+    vote.votedSeatInfos = Array.isArray(vote.votedSeatInfos)
+      ? vote.votedSeatInfos.map(sanitizeReviewSeatInfo)
+      : [];
+    vote.votedPlayers = Array.isArray(vote.votedPlayers)
+      ? vote.votedPlayers.map(sanitizeReviewVoteText)
+      : [];
+    sanitized.vote = vote;
+  }
+  return sanitized;
+};
+
 const normalizeReviewDetails = (details = {}) => {
   const normalized = emptyReviewDetails();
   const source = details && typeof details === "object" ? details : {};
@@ -164,7 +199,6 @@ const normalizeReviewDetails = (details = {}) => {
   normalized.initialRoles = Array.isArray(source.initialRoles)
     ? source.initialRoles.map((entry, index) => ({
         seat: Number(entry.seat) || index + 1,
-        playerName: String(entry.playerName || ""),
         roleId: String(entry.roleId || ""),
       }))
     : [];
@@ -175,7 +209,7 @@ const normalizeReviewDetails = (details = {}) => {
     : [];
   normalized.events = Array.isArray(source.events)
     ? source.events.map((event, index) => ({
-        ...event,
+        ...sanitizeReviewEvent(event),
         phaseIndex: Number(event.phaseIndex) || 0,
         order: Number(event.order) || index + 1,
       }))
@@ -191,7 +225,6 @@ const reviewSeatInfoFor = (players = [], index) => {
   const player = players[index] || {};
   return {
     seat,
-    playerName: String(player.name || ""),
     roleId: String((player.role && player.role.id) || ""),
   };
 };
@@ -624,7 +657,7 @@ const mutations = {
       const order = history.nextOrder++;
       history.lastPhaseIndex = Math.max(history.lastPhaseIndex, phaseIndex);
       return {
-        ...event,
+        ...sanitizeReviewEvent(event),
         phaseIndex,
         order,
         id: event.id || `${Date.now()}-${order}`,
@@ -905,13 +938,9 @@ const mutations = {
     });
     this.commit("session/addVotes", {
       timestamp: new Date(),
-      nominator:
-        (nominatorIndex + 1).toString() +
-        ". " +
-        (nominator.id ? nominator.name : ""),
+      nominator: (nominatorIndex + 1).toString(),
       nominatorSeatInfo: reviewSeatInfoFor(players, nominatorIndex),
-      nominee:
-        (nomineeIndex + 1).toString() + ". " + (nominee.id ? nominee.name : ""),
+      nominee: (nomineeIndex + 1).toString(),
       nomineeSeatInfo: reviewSeatInfoFor(players, nomineeIndex),
       day: state.nominationDay,
       type: isExile ? "流放" : "处决",

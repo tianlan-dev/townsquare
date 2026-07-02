@@ -136,7 +136,6 @@ const snapshot = (state) => ({
 
 const seatInfoFromSnapshot = (player = {}, seat) => ({
   seat: Number(seat) || 0,
-  playerName: String(player.name || ""),
   roleId: String(player.roleId || ""),
 });
 
@@ -316,10 +315,6 @@ const eventFromVote = (payload, phaseIndex) => {
 const initialRoleSnapshots = (state) =>
   state.session.initialRoleIds.map((entry, index) => ({
     seat: Number(entry.seat) || index + 1,
-    playerName: String(
-      (state.players.players[(Number(entry.seat) || index + 1) - 1] || {})
-        .name || "",
-    ),
     roleId: String(entry.roleId || ""),
   }));
 
