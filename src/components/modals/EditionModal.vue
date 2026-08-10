@@ -678,7 +678,7 @@ export default {
       }
     },
     setHomeEdition(edition) {
-      if (["tb", "bmr", "snv", "luf", "all"].includes(edition.id))
+      if (["tb", "bmr", "snv", "luf", "ngj", "all"].includes(edition.id))
         this.$store.commit("setStates", []);
       this.setEdition(edition, this.selectedEditions);
     },

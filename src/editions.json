@@ -31,7 +31,7 @@
   },
   {
     "id": "luf",
-    "name": "窃窃私语",
+    "name": "窃窃私语·汀",
     "author": "The Pandemonium Institute",
     "description": "",
     "level": "困难",
@@ -47,6 +47,28 @@
       "widow",
       "goblin",
       "leviathan"
+    ],
+    "isOfficial": true,
+    "isRolePak": false
+  },
+  {
+    "id": "ngj",
+    "name": "无上愉悦·汀",
+    "author": "The Pandemonium Institute",
+    "description": "《无上愉悦》是官方的第一个小型剧本，也是官方的第一个成型作品。作为一个巧妙运用简单角色传达游戏理念的小型剧本，《无上愉悦》非常适合刚接触游戏的玩家。",
+    "level": "初学者",
+    "roles": [
+      "investigator",
+      "empath",
+      "chambermaid",
+      "clockmaker",
+      "artist",
+      "sage",
+      "drunk",
+      "klutz",
+      "scarletwoman",
+      "baron",
+      "imp"
     ],
     "isOfficial": true,
     "isRolePak": false

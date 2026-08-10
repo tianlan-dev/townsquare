@@ -63,26 +63,22 @@
     "firstNight": 39
   },
   {
-    "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
     "image": "/scripts/assets/wa-fu-lei-ming/20002_73-bc9b32bb.png",
     "edition": "custom",
     "flavor": "",
-    "id": "20002_73",
-    "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
-    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "id": "zhuijidelaoda111",
+    "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
+    "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "name": "气球驾驶员",
-    "otherNight": 63,
-    "setup": 1,
+    "otherNight": 90,
+    "setup": true,
     "reminders": [
-      "得知镇民",
-      "得知外来者",
-      "得知爪牙",
-      "得知恶魔",
-      "得知旅行者"
+      "得知"
     ],
     "remindersGlobal": [],
     "team": "townsfolk",
-    "firstNight": 44
+    "firstNight": 50
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
