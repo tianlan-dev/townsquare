@@ -4,6 +4,7 @@ const http = require("http");
 const path = require("path");
 
 const express = require("express");
+const { pinyin } = require("pinyin-pro");
 const WebSocket = require("ws");
 
 const rootDir = path.resolve(__dirname, "..");
@@ -147,6 +148,35 @@ function scriptAssetUrl(value, scriptUrl) {
   }
 }
 
+function normalizeScriptText(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function scriptNameData(name) {
+  const phoneticName = normalizeScriptText(
+    pinyin(name, { toneType: "none", type: "array" }).join(" "),
+  );
+  const initials = normalizeScriptText(
+    pinyin(name, {
+      pattern: "first",
+      toneType: "none",
+      type: "array",
+    }).join(""),
+  ).replace(/[^a-z]/g, "");
+  const initialMatch = phoneticName.match(/[a-z]/);
+
+  return {
+    pinyin: phoneticName,
+    initials,
+    initial: initialMatch ? initialMatch[0].toUpperCase() : "",
+  };
+}
+
 function listScripts() {
   if (!fs.existsSync(scriptsDir)) return [];
   return fs
@@ -162,11 +192,13 @@ function listScripts() {
           : {};
         if (!Array.isArray(script) || !meta.id) return null;
         const url = `/scripts/${file}`;
+        const name = meta.name || file.replace(/\.json$/, "");
         return {
-          name: meta.name || file.replace(/\.json$/, ""),
+          name,
           url,
           logo: scriptAssetUrl(meta.logo, url),
           version: meta.version || "",
+          ...scriptNameData(name),
         };
       } catch (e) {
         return null;

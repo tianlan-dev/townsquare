@@ -1,51 +1,102 @@
 <template>
   <Modal class="editions" v-if="modals.edition" @close="closeEdition()">
-    <div v-if="!isCustom">
-      <h3>选择剧本</h3>
-      <div class="edition-tabs">
+    <h3>选择剧本</h3>
+    <div class="edition-tabs">
+      <button
+        v-for="tab in editionTabs"
+        :key="tab.id"
+        type="button"
+        :class="{ active: activeEditionTab === tab.id }"
+        @click="activeEditionTab = tab.id"
+      >
+        {{ tab.name }}
+      </button>
+    </div>
+    <ul
+      v-if="activeEditionTab === 'official'"
+      class="editions official-editions"
+    >
+      <li
+        v-for="edition in visibleEditions"
+        class="edition"
+        :class="['edition-' + edition.id]"
+        :style="editionBackground(edition)"
+        :key="edition.id"
+        @click="setHomeEdition(edition)"
+      >
+        {{ edition.name }}
+      </li>
+    </ul>
+    <div v-else-if="activeEditionTab === 'custom'" class="script-browser">
+      <input
+        class="script-search"
+        type="search"
+        :value="scriptSearch"
+        placeholder="搜索剧本名称或拼音"
+        aria-label="搜索自定义剧本"
+        @input="updateScriptSearch($event.target.value)"
+        @keyup.stop=""
+      />
+      <div class="script-alphabet" aria-label="按剧本名称首字母跳转">
         <button
-          v-for="tab in editionTabs"
-          :key="tab.id"
+          v-for="letter in scriptAlphabet"
+          :key="letter"
           type="button"
-          :class="{ active: activeEditionTab === tab.id }"
-          @click="activeEditionTab = tab.id"
+          :class="{ active: activeScriptInitial === letter }"
+          :disabled="!availableScriptInitials.has(letter)"
+          @click="jumpToScriptInitial(letter)"
         >
-          {{ tab.name }}
+          {{ letter }}
+        </button>
+      </div>
+      <p v-if="filteredScripts.length" class="script-count">
+        共 {{ filteredScripts.length }} 个剧本
+      </p>
+      <div v-if="filteredScripts.length" class="script-pagination">
+        <button
+          type="button"
+          :disabled="scriptPage === 1"
+          @click="setScriptPage(scriptPage - 1)"
+        >
+          上一页
+        </button>
+        <template v-for="page in scriptPageItems">
+          <button
+            v-if="typeof page === 'number'"
+            :key="page"
+            type="button"
+            :class="{ active: scriptPage === page }"
+            @click="setScriptPage(page)"
+          >
+            {{ page }}
+          </button>
+          <span v-else :key="page">…</span>
+        </template>
+        <button
+          type="button"
+          :disabled="scriptPage === totalScriptPages"
+          @click="setScriptPage(scriptPage + 1)"
+        >
+          下一页
         </button>
       </div>
       <ul class="editions">
         <li
-          v-for="edition in visibleEditions"
-          class="edition"
-          :class="['edition-' + edition.id]"
-          :style="editionBackground(edition)"
-          :key="edition.id"
-          @click="setHomeEdition(edition)"
-        >
-          {{ edition.name }}
-        </li>
-        <li
           v-for="script in visibleScripts"
           class="edition edition-script"
           :key="script.url"
+          :ref="'script-' + script.url"
           :style="scriptBackground(script)"
           @click="handleURL(script.url)"
         >
           {{ script.name }}
         </li>
-        <li
-          v-if="activeEditionTab === 'custom'"
-          class="edition edition-custom"
-          @click="isCustom = true"
-          :style="{
-            backgroundImage: `url(${require('../../assets/editions/custom.png')})`,
-          }"
-        >
-          自定义剧本/角色
-        </li>
       </ul>
+      <p v-if="!filteredScripts.length" class="script-empty">
+        没有找到匹配的剧本。
+      </p>
     </div>
-    <div class="custom" v-else>
+    <div v-else class="custom">
       <h3>加载自定义剧本/角色</h3>
       若想玩自定义剧本，请提供JSON路径/互联网URL。
       <br />
@@ -66,9 +117,6 @@
         <div class="button" @click="readFromClipboard">
           <font-awesome-icon icon="clipboard" /> 使用剪贴板中的JSON
         </div>
-        <div class="button" @click="isCustom = false">
-          <font-awesome-icon icon="undo" /> 返回
-        </div>
       </div>
     </div>
   </Modal>
@@ -79,6 +127,57 @@ import editionJSON from "../../editions";
 import { mapMutations, mapState } from "vuex";
 import { normalizePhaseBackgrounds } from "../../phaseBackgrounds";
 import Modal from "./Modal";
+
+const SCRIPT_PAGE_SIZE = 10;
+const SCRIPT_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+function normalizeScriptText(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getScriptNameData(script) {
+  const normalizedName = normalizeScriptText(script.name);
+  const urlName = decodeURIComponent(
+    String(script.url || "")
+      .split("/")
+      .pop(),
+  )
+    .replace(/\.json(?:[?#].*)?$/i, "")
+    .replace(/[-_]+/g, " ");
+  const pinyinName = normalizeScriptText(
+    script.pinyin || urlName || script.name,
+  );
+  const compactName = normalizedName.replace(/\s+/g, "");
+  const compactPinyin = pinyinName.replace(/[^a-z0-9]/g, "");
+  const initials = normalizeScriptText(
+    script.initials ||
+      urlName
+        .split(" ")
+        .map((part) => part[0] || "")
+        .join(""),
+  ).replace(/[^a-z]/g, "");
+  const initialMatch = pinyinName.match(/[a-z]/);
+
+  return {
+    normalizedName,
+    compactName,
+    pinyinName,
+    compactPinyin,
+    initials,
+    initial:
+      /^[A-Z]$/i.test(script.initial) && script.initial
+        ? script.initial.toUpperCase()
+        : initialMatch
+        ? initialMatch[0].toUpperCase()
+        : "",
+    sortKey: pinyinName.replace(/[^a-z0-9]+/g, " ").trim(),
+  };
+}
 
 export default {
   components: {
@@ -91,33 +190,91 @@ export default {
       editionTabs: [
         {
           id: "official",
-          name: "官方剧本",
-        },
-        {
-          id: "packs",
-          name: "角色包",
+          name: "官方剧本/角色包",
         },
         {
           id: "custom",
           name: "自定义剧本",
         },
+        {
+          id: "upload",
+          name: "上传剧本",
+        },
       ],
-      isCustom: false,
       scripts: [],
+      scriptAlphabet: SCRIPT_ALPHABET,
+      scriptSearch: "",
+      scriptPage: 1,
+      activeScriptInitial: "",
     };
   },
   computed: {
     visibleEditions() {
       if (this.activeEditionTab === "official") {
-        return this.editions.filter((edition) => !edition.isRolePak);
-      }
-      if (this.activeEditionTab === "packs") {
-        return this.editions.filter((edition) => edition.isRolePak);
+        return this.editions;
       }
       return [];
     },
+    scriptCatalog() {
+      return this.scripts
+        .map((script) => Object.assign({}, script, getScriptNameData(script)))
+        .sort((a, b) => {
+          if (!a.sortKey && b.sortKey) return 1;
+          if (a.sortKey && !b.sortKey) return -1;
+          return (
+            a.sortKey.localeCompare(b.sortKey, "en", {
+              sensitivity: "base",
+              numeric: true,
+            }) || a.name.localeCompare(b.name, "zh-CN")
+          );
+        });
+    },
+    filteredScripts() {
+      const query = normalizeScriptText(this.scriptSearch);
+      if (!query) return this.scriptCatalog;
+      const compactQuery = query.replace(/\s+/g, "");
+      return this.scriptCatalog.filter(
+        (script) =>
+          script.normalizedName.includes(query) ||
+          script.compactName.includes(compactQuery) ||
+          script.pinyinName.includes(query) ||
+          script.compactPinyin.includes(compactQuery) ||
+          script.initials.includes(compactQuery),
+      );
+    },
     visibleScripts() {
-      return this.activeEditionTab === "custom" ? this.scripts : [];
+      if (this.activeEditionTab !== "custom") return [];
+      const start = (this.scriptPage - 1) * SCRIPT_PAGE_SIZE;
+      return this.filteredScripts.slice(start, start + SCRIPT_PAGE_SIZE);
+    },
+    totalScriptPages() {
+      return Math.max(
+        1,
+        Math.ceil(this.filteredScripts.length / SCRIPT_PAGE_SIZE),
+      );
+    },
+    availableScriptInitials() {
+      return new Set(
+        this.scriptCatalog.map((script) => script.initial).filter(Boolean),
+      );
+    },
+    scriptPageItems() {
+      const total = this.totalScriptPages;
+      if (total <= 7) {
+        return Array.from({ length: total }, (_, index) => index + 1);
+      }
+
+      let start = Math.max(2, this.scriptPage - 2);
+      let end = Math.min(total - 1, this.scriptPage + 2);
+      if (this.scriptPage <= 4) end = 6;
+      if (this.scriptPage >= total - 3) start = total - 5;
+
+      const pages = [1];
+      if (start > 2) pages.push("start-ellipsis");
+      for (let page = start; page <= end; page += 1) pages.push(page);
+      if (end < total - 1) pages.push("end-ellipsis");
+      pages.push(total);
+      return pages;
     },
     ...mapState(["modals", "selectedEditions"]),
   },
@@ -130,6 +287,7 @@ export default {
         const res = await fetch("/scripts");
         if (!res.ok) return;
         this.scripts = await res.json();
+        this.scriptPage = 1;
       } catch (e) {
         this.scripts = [];
       }
@@ -148,10 +306,40 @@ export default {
     },
     closeEdition() {
       this.toggleModal("edition");
-      this.isCustom = false;
     },
     openUpload() {
       this.$refs.upload.click();
+    },
+    updateScriptSearch(value) {
+      this.scriptSearch = value;
+      this.scriptPage = 1;
+      this.activeScriptInitial = "";
+    },
+    setScriptPage(page) {
+      this.scriptPage = Math.min(
+        this.totalScriptPages,
+        Math.max(1, Number(page) || 1),
+      );
+      this.activeScriptInitial = "";
+    },
+    jumpToScriptInitial(letter) {
+      const scriptIndex = this.scriptCatalog.findIndex(
+        (script) => script.initial === letter,
+      );
+      if (scriptIndex < 0) return;
+      const targetScript = this.scriptCatalog[scriptIndex];
+      this.scriptSearch = "";
+      this.scriptPage = Math.floor(scriptIndex / SCRIPT_PAGE_SIZE) + 1;
+      this.activeScriptInitial = letter;
+      this.$nextTick(() => {
+        const targetRef = this.$refs[`script-${targetScript.url}`];
+        const targetElement = Array.isArray(targetRef)
+          ? targetRef[0]
+          : targetRef;
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      });
     },
     async handleUpload() {
       const file = this.$refs.upload.files[0];
@@ -320,7 +508,6 @@ export default {
         });
         this.$store.commit("players/setFabled", { fabled });
       }
-      this.isCustom = false;
     },
     normalizeScriptUrl(url) {
       try {
@@ -517,6 +704,7 @@ export default {
 <style scoped lang="scss">
 .edition-tabs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
   margin: 0 0 12px;
@@ -536,6 +724,113 @@ export default {
       border-color: red;
     }
   }
+}
+
+.script-browser {
+  text-align: center;
+}
+
+.script-search {
+  box-sizing: border-box;
+  display: block;
+  width: min(520px, calc(100% - 20px));
+  margin: 0 auto 10px;
+  padding: 8px 12px;
+  border: 2px solid #8a7864;
+  background: #111;
+  color: inherit;
+  font: inherit;
+
+  &:focus {
+    border-color: red;
+    outline: none;
+  }
+}
+
+.script-alphabet,
+.script-pagination {
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  button {
+    border: 1px solid #8a7864;
+    background: #111;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+
+    &.active {
+      color: red;
+      border-color: red;
+    }
+
+    &:hover:not(:disabled) {
+      color: red;
+      border-color: red;
+    }
+
+    &:disabled {
+      cursor: default;
+      opacity: 0.3;
+    }
+  }
+}
+
+.script-alphabet {
+  display: grid;
+  grid-template-columns: repeat(26, 30px);
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto 12px;
+
+  button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+}
+
+.script-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+
+  button {
+    min-width: 34px;
+    padding: 5px 9px;
+  }
+
+  span {
+    min-width: 18px;
+  }
+}
+
+.script-empty {
+  margin: 12px 0 0;
+  text-align: center;
+}
+
+.script-count {
+  margin: 0 0 8px;
+  color: #bbb;
+  font-size: 90%;
+  text-align: center;
+}
+
+.script-browser > ul.editions {
+  width: 100%;
+  max-width: 1300px;
+  padding-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul.official-editions {
+  width: 100%;
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ul.editions .edition {
@@ -566,6 +861,24 @@ ul.editions .edition {
   text-align: center;
   input[type="file"] {
     display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .script-alphabet {
+    grid-template-columns: repeat(13, 30px);
+  }
+}
+
+@media (max-width: 520px) {
+  .script-alphabet {
+    grid-template-columns: repeat(9, 30px);
+  }
+}
+
+@media (max-width: 370px) {
+  .script-alphabet {
+    grid-template-columns: repeat(7, 30px);
   }
 }
 </style>

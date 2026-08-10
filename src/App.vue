@@ -244,12 +244,6 @@ export default {
         // case "a":
         //   this.$refs.menu.addPlayer();
         //   break;
-        case "h":
-          this.$refs.menu.hostSession();
-          break;
-        case "j":
-          this.$refs.menu.joinSession();
-          break;
         case "r":
           if (!isInRoom) return;
           this.$store.commit("toggleModal", "reference");
