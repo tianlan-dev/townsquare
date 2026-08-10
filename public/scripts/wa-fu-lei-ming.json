@@ -6,7 +6,10 @@
     "id": "_meta",
     "name": "瓦釜雷鸣",
     "version": "11.1.1",
-    "townsfolkName": "镇民"
+    "townsfolkName": "镇民",
+    "tags": [
+      "海外社区推荐剧本"
+    ]
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -66,7 +69,6 @@
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
     "image": "/scripts/assets/wa-fu-lei-ming/20002_73-bc9b32bb.png",
     "edition": "custom",
-    "flavor": "",
     "id": "zhuijidelaoda111",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
@@ -76,8 +78,8 @@
     "reminders": [
       "得知"
     ],
-    "remindersGlobal": [],
     "team": "townsfolk",
+    "sch_team": "镇民",
     "firstNight": 50
   },
   {

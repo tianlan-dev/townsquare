@@ -2,12 +2,17 @@
   {
     "id": "_meta",
     "name": "诡异童话",
+    "author": "Melodia",
     "version": "",
     "logo": "/scripts/assets/custom-ankot/_meta-f3ecfc4f.png",
     "playerAvatars": {
       "male": "/scripts/assets/custom-ankot/player-avatar-male.png",
       "female": "/scripts/assets/custom-ankot/player-avatar-female.png"
-    }
+    },
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ]
   },
   {
     "id": "_th",
@@ -384,6 +389,7 @@
   {
     "id": "30_fairy_tale_hugo",
     "name": "红心赦令",
+    "flavor": "",
     "team": "fabled",
     "ability": "所有其他玩家中毒，直到下个黄昏。",
     "firstNight": 0,
@@ -395,6 +401,7 @@
   {
     "id": "31_fairy_tale_hugo",
     "name": "黑桃赦令",
+    "flavor": "",
     "team": "fabled",
     "ability": "死亡的爪牙与你今晚击杀的爪牙重获能力直到下个黄昏。",
     "firstNight": 0,
@@ -406,6 +413,7 @@
   {
     "id": "32_fairy_tale_hugo",
     "name": "方块赦令",
+    "flavor": "",
     "team": "fabled",
     "ability": "你要选择一名玩家:他死亡。如果你因此杀死了一名爪牙，刷新其他所有令。",
     "firstNight": 0,
@@ -417,6 +425,7 @@
   {
     "id": "33_fairy_tale_hugo",
     "name": "梅花赦令",
+    "flavor": "",
     "team": "fabled",
     "ability": "你要选择一名玩家:他死亡。即使任何原因让他不会死亡。",
     "firstNight": 0,
@@ -434,6 +443,7 @@
       "我是唐基"
     ],
     "name": "史莱克",
+    "flavor": "有人曾经告诉我，世界将要转动。",
     "team": "traveler",
     "ability": "每个夜晚，如果你在游戏中“疯狂”地证明自己是史莱克（指电影角色），你要选择一名玩家：他在下个白天要“疯狂”地证明他是唐基（指电影角色），否则他不能投票。",
     "firstNight": 12,
@@ -446,6 +456,7 @@
     "firstNightReminder": "唤醒姜饼人，让他指向一名玩家。唤醒那名玩家，向他展示“该角色能力对你生效”提示卡并展示姜饼人角色标记，并让他立刻行动。",
     "otherNightReminder": "唤醒姜饼人，让他指向一名玩家。唤醒那名玩家，向他展示“该角色能力对你生效”提示卡并展示姜饼人角色标记，并让他立刻行动。",
     "name": "姜饼人",
+    "flavor": "快点动起来。",
     "team": "traveler",
     "ability": "每个夜晚，你要选择一名玩家：如果他今晚可以行动，他得知自己被你选择，并且他在你的行动结束后立即行动。",
     "firstNight": 12,
@@ -463,6 +474,7 @@
       "限一次"
     ],
     "name": "柴郡猫",
+    "flavor": "怎么了，亲爱的？我的微笑让你不安吗？",
     "team": "traveler",
     "ability": "每个夜晚，你要选择一名玩家：当晚限一次，他可能被当作错误的角色和阵营。你可以在下个白天询问说书人并得知那名玩家今晚得知的信息。",
     "firstNight": 14,
@@ -478,6 +490,7 @@
       "迷恋"
     ],
     "name": "白马王子",
+    "flavor": "我穿衬衫太性感了。",
     "team": "traveler",
     "ability": "每个夜晚，你要选择一名玩家（与上个夜晚不同）：他获取信息的目标必须包括你在内，并且他的自身能力必须指向你，直至下个黄昏。",
     "firstNight": 13,
@@ -493,9 +506,9 @@
       "不好的事"
     ],
     "name": "魔镜",
+    "flavor": "魔镜魔镜告诉我，谁是世上最坏的人？",
     "team": "traveler",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个角色：该角色的玩家会发生不好的事情。",
-    "firstNight": 106,
     "otherNight": 6,
     "edition": "custom",
     "image": "/scripts/assets/custom-ankot/ankotmagicmirror-1c123f2a.png"

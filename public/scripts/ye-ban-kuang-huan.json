@@ -10,7 +10,10 @@
     "playerAvatars": {
       "male": "/scripts/assets/ye-ban-kuang-huan/player-avatar-male.png",
       "female": "/scripts/assets/ye-ban-kuang-huan/player-avatar-female.png"
-    }
+    },
+    "tags": [
+      "旋转木马快速上手剧本"
+    ]
   },
   {
     "ability": "如果你表现得很有趣，当天你不能被流放。",
