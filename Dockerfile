@@ -8,6 +8,7 @@ RUN npm ci
 COPY . .
 
 ENV npm_config_cache=/tmp/.npm
+ENV TOWNSQUARE_EXTERNAL_SCRIPTS=1
 
 RUN npm run build
 
@@ -19,6 +20,7 @@ COPY package*.json ./
 RUN npm ci --omit=dev
 
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/public/scripts ./public/scripts
 COPY --from=builder /app/server ./server
 
 RUN chmod -R a+r /app/dist
