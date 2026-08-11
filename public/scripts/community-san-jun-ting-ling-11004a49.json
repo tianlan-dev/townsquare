@@ -4,16 +4,16 @@
     "name": "三军听令",
     "version": "0.7",
     "author": "吃蛋挞的折棒",
-    "logo": "/scripts/assets/community-san-jun-ting-ling-11004a49/_meta-b9ed4de6.png",
+    "logo": "/scripts/assets/community-san-jun-ting-ling-11004a49/fa1cad80a59d2129195859b0b035c922ca5c8f413bb9e06a6ba06f3faacc5d80.png",
     "playerAvatars": {
-      "male": "/scripts/assets/community-san-jun-ting-ling-11004a49/player-avatar-male.png",
-      "female": "/scripts/assets/community-san-jun-ting-ling-11004a49/player-avatar-female.png"
+      "male": "/scripts/assets/community-san-jun-ting-ling-11004a49/ce35b1452d3d87717ef14720ee1bb9d57772af7b3cdd35a7dd3eece47d6af75d.png",
+      "female": "/scripts/assets/community-san-jun-ting-ling-11004a49/b1eea18743d5d67100567f72ce1f508cac5249ac42d23fa321ce35eebb9dc3bb.png"
     },
     "phaseBackgrounds": {
-      "night": "/scripts/assets/community-san-jun-ting-ling-11004a49/phase-background-night.png",
-      "dawn": "/scripts/assets/community-san-jun-ting-ling-11004a49/phase-background-dawn.png",
-      "day": "/scripts/assets/community-san-jun-ting-ling-11004a49/phase-background-day.png",
-      "dusk": "/scripts/assets/community-san-jun-ting-ling-11004a49/phase-background-dusk.png"
+      "night": "/scripts/assets/community-san-jun-ting-ling-11004a49/51e972fbffc89d896c6d3ae5ace076d45cc6db639020553f0f7ff877bbe5031f.png",
+      "dawn": "/scripts/assets/community-san-jun-ting-ling-11004a49/b6b43cb4af84f89dfae99cb9b475b08d3bc6b280c62ebace64c599048face55e.png",
+      "day": "/scripts/assets/community-san-jun-ting-ling-11004a49/cb8dcafd4115b1bece882f97dd03ef4ce8017bf1d00c03aa85d1acc1939286e4.png",
+      "dusk": "/scripts/assets/community-san-jun-ting-ling-11004a49/34621ad8c55f59ba5432bc72c6056f9ccc118745f4a8301e709d378915452f1b.png"
     },
     "A jinxed": "相克",
     "status": [
@@ -34,7 +34,7 @@
   },
   {
     "id": "xsg_cq1",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_cq1-18c90aef.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/cd0f446b001e04ed58f8891129110e3ee69930731d1210c0670401d41ddfa75d.png",
     "name": "天意修正",
     "team": "fabled",
     "firstNightReminder": "编辑天意魔典。",
@@ -46,7 +46,7 @@
   },
   {
     "id": "xsg_cq2",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_cq2-25b6cd80.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/e87c3eaa36e66f36ddbe3c4d0bd19b331e9712c58691f1852f55b054c97e299b.png",
     "name": "玉玺",
     "team": "fabled",
     "firstNightReminder": "",
@@ -60,7 +60,7 @@
   },
   {
     "ability": "每个白天限一次，你可以加入仅有两人的私聊频道。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_1-8935e714.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/316e7a00eb5769aef5a9f903c7bcb3a70329b36c97088e0baceb6a9a637b4594.png",
     "edition": "custom",
     "id": "sjtllxz_1",
     "firstNightReminder": "",
@@ -75,7 +75,7 @@
   },
   {
     "ability": "每个白天，你可以公开选择一名玩家：如果他清醒且健康，他醉酒至下一天黎明；否则他恢复清醒健康。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_2-35651263.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/8528b9662798f358e76daedd045f1239d00af8ce5de44d41afd4263d363d1927.png",
     "edition": "custom",
     "id": "sjtllxz_2",
     "firstNightReminder": "",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "每个白天，如果当天已经发起过三次提名，当有玩家发起提名时，你可以立刻处决提名者。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_3-f334c159.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/6e0100fbf081c2e3f1c72e240f3d7a164d77035c20eb8fd059a54cb7e988cc29.png",
     "edition": "custom",
     "id": "sjtllxz_3",
     "firstNightReminder": "",
@@ -111,7 +111,7 @@
   },
   {
     "ability": "你没有初始阵营。每个夜晚，选择一名玩家（与上一晚不同），你转变为他的阵营。如果下个白天他被提名，提名者可能会死亡。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_4-95ae6043.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/f803515ab11a5488dd9cf181e3f2c1f81fe2f0c2d28b1e8f525eb2673588ccfe.png",
     "edition": "custom",
     "flavor": "",
     "id": "sjtllxz_4",
@@ -129,7 +129,7 @@
   },
   {
     "ability": "每个黎明，你要选择一名玩家：他今天白天和夜晚只能以两个字一断句的方式发言。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_5-5193963f.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/7efaafd5b7a8855082d495322ff1b4295192255436b92946f326e640632083c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "sjtllxz_5",
@@ -147,7 +147,7 @@
   },
   {
     "ability": "首个夜晚，你选择一个镇民角色和一个爪牙角色：如果他们其中一人死亡，另一人会在下一个夜晚死亡。若你选择的角色不全部在场，改为由说书人选择一名善良玩家和一名邪恶玩家。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/sjtllxz_6-592a73ba.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/c1ae43ecca2e9e53ca5a99f84b644e90e72e44cc979d46e72877b9a041a654c9.png",
     "edition": "custom",
     "flavor": "",
     "id": "sjtllxz_6",
@@ -165,7 +165,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家与其中之一的角色。每局游戏限一次，在白天时，你可以私下向说书人猜测其中哪名玩家是该角色。若猜测正确，你会在当晚额外得知三名玩家与其中之一的角色。[+0~1外来者]",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm3-e0e9c641.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/a00c201c40dc0bbbbbdc6e576fc4851d6330853960524f19cb4b8040466878e8.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm3",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个对应与你距离最近的存活玩家，一个对应与你距离最远的存活玩家。如果与你邻近的存活玩家中有邪恶的，你可能会得知错误信息。你可能会在首个夜晚得知“本局被天意侵蚀”。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm4-39bf604c.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/c1470b0a3af12651de75c86fc8ac280cc49f5d99828bca92403dca6e62c2f691.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm4",
@@ -201,7 +201,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一个数字。你会在对应数字的夜晚得知一名玩家与他的角色。若你死于对应数字的夜晚，你可以选择至多三名玩家，得知他们的角色。 ",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm6-6ef28b88.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/de51f3030bf2a91537a67d3cdb6c20220a5f860dfcfe77ed516d4d0a16ef337c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm6",
@@ -223,7 +223,7 @@
   },
   {
     "ability": "游戏开始时，你获得“玉玺”。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm7-70b2b7da.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/7e24af12bdcb688b05d22ce65b93c05c9086dba6557afdb329b91249421f4fa3.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm7",
@@ -238,7 +238,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家（与上一晚不同）：若他的相邻存活玩家中有爪牙，直到下个黄昏，他不会死亡。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm11-92710a01.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/9170ef614f0f0aca95083d13481bf9e09590603a789dd17144232d616d71a8a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm11",
@@ -256,7 +256,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他与你上一夜所选玩家的一个共同特点。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm13-9ab6cb6a.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/8655b72ced358ce61ce4360880da1e6359bb8954313e1a0e97af76deb5a8a2b1.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm13",
@@ -274,7 +274,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家。你会得知他们其中一人在天意修正后的角色及阵营。如果你选中恶魔，当晚你醉酒。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm15-7473a83a.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/77696d3a2ff1a49e0781fdd73b50a225ac3564fa8e25f52e0523cfa3655dede5.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm15",
@@ -292,7 +292,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：直到下个黄昏，他不会死亡。被你选择过的玩家随时可能死亡。天意修正后，你一定处于死亡状态。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm5-37d4eee8.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/ed6453b598464f70392ea8a8e91fcb582c525bb3be1d7e746045bd5180c9447d.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm5",
@@ -311,7 +311,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在你的第1/2/3个白天拜访说书人，查看六分之一/四分之一/三分之一的天意魔典（无阵营标识）。若你以此法看到恶魔，当你疯狂证明该玩家“是邪恶”时，你转换阵营，即使你已死亡。你可能会在首个夜晚得知“本局被天意侵蚀”。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm1-8aae2963.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/c9af5fb4458d1ad32f5fd46b8b7819323c53d83e4b3050d80613a8dd333bf85f.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm1",
@@ -330,7 +330,7 @@
   },
   {
     "ability": "每个白天，你可以公开辱骂一名玩家：当晚你会得知该玩家是否为邪恶阵营。始终会有一名善良玩家被你的能力当作邪恶阵营。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm10-390e1b62.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/0eaa61d719bfaf65af223bc3f791f78ba0a4821385e4e8ba97b710512cba5faa.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm10",
@@ -349,7 +349,7 @@
   },
   {
     "ability": "每个白天，你可以拜访说书人并选择一个未选择过的善良角色:你获得他的能力直到下一天黄昏。如果该角色在场，你醉酒。你不会被天意侵蚀。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm2-5c6d12c9.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/29f640f32d472679ea9f45108b9141f564a8fdecd5f2fbabc57ac616cd171314.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm2",
@@ -369,7 +369,7 @@
   },
   {
     "ability": "如果你在白天被提名过，当晚你会得知当天有多少名邪恶玩家给你投票。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm8-16165de0.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/75bc0df1483ba1ac5b4284745ad08d57f3afb37420e408edd4642a057711fe0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm8",
@@ -385,7 +385,7 @@
   },
   {
     "ability": "每个白天，如果你公开对一名死亡的玩家道喜：你可以私下询问说书人以得知一条关于他的正确信息。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm9-4569d145.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/7967ff353565846225adaf31762f75961ed7e4f93b776ae3c3771c6540d08244.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm9",
@@ -403,7 +403,7 @@
   },
   {
     "ability": "若你在白天没有进行投票及提名，当晚选择你的能力可能会改为选择与你邻近的存活玩家作为替代，然后你会得知今晚你的能力发动了几次。你可能会在首个夜晚得知“本局被天意侵蚀”。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm14-44c86bed.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/1c3c7db31204c30ecaa6f6aed495d2b8b1efc890413c92d063816bc7331c6537.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm14",
@@ -421,7 +421,7 @@
   },
   {
     "ability": "你可以在白天公开宣称“你不就是想要许攸这颗头吗？”。当晚如果恶魔没有选择你，他的能力可能会失效至黎明，并得知你是许攸。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm16-f30d1864.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/9a193229d96593eb5025ce5b07cc9c4a8b30c3aa3d8e1c03d81f477c1fb65b7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm16",
@@ -439,7 +439,7 @@
   },
   {
     "ability": "你首次死亡时会被当作仍然存活。每局游戏限一次，如果你在被当作仍然存活时的白天拜访了说书人，你得知你的能力被触发，然后你复活并醉酒。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zm12-e36e6f01.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/a59eb6aebf33fb9c5bab54f5a11a2470132f04be13e30085446c98e7f8ad3c1b.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zm12",
@@ -458,7 +458,7 @@
   },
   {
     "ability": "你以为你是一个在场的镇民角色。你拥有他的能力。每个夜晚，你们其中一人醉酒直到下个黄昏。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_wl1-bde56538.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/099b7d9278d643f0f3462d486686419154c2f8093d01cedf7c883f208a38884f.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_wl1",
@@ -477,7 +477,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知一名善良玩家与一名邪恶玩家。如果他们之一死亡，你在当晚转换阵营，即使你已死亡。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_wl2-9946250f.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/f71d11b826a7e85a16f31baac28d9ff276b627114af2661f629ddeecaa11c2b7.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_wl2",
@@ -497,7 +497,7 @@
   },
   {
     "ability": "恶魔知道刘协在场。当你死亡时，天意修正会在下一个黎明到来，然后所有玩家都会知道哪些玩家是邪恶的。你不会被天意侵蚀。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_wl3-0923409b.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/8df39a8b94cb4515b23424cc694e344e8f59c34d1e10b339430127d9073e6df1.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_wl3",
@@ -513,7 +513,7 @@
   },
   {
     "ability": "吕布在因自身能力选择目标时，可能会改为选中你。吕布死亡后你随时可能死亡。[+吕布]",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_wl4-14729450.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/58cf429e916597bba0e8939398e17537eac3ef7e071af84f9fa86c323431a57c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_wl4",
@@ -531,7 +531,7 @@
   },
   {
     "ability": "你不参与邪恶互认。每局游戏限一次，在夜晚时*，你可以选择一名玩家，若他不是恶魔，他转变为邪恶的在场恶魔角色；然后原恶魔死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zy1-667b0bd8.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/4d5a967266ca7b2180fd97587a224c64ae53cef33ba40596d97a340deb917437.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zy1",
@@ -551,7 +551,7 @@
   },
   {
     "ability": "所有玩家都知道你是张飞。爪牙与恶魔不会互相认识，你只能参加两人以上的私聊且不会死于处决。每个白天，你要选择除你以外的一名存活玩家：他死亡。当恶魔因此死亡而导致游戏结束时，再额外进行一个夜晚和一个白天，你选择的下一个玩家的阵营获胜。天意修正后，你一定处于死亡状态。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zy2-95ee5c71.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/d505b36626d977741ddd83ec6fa49ab34cfb2285a10f242c6be4ac0ae5e2eee9.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zy2",
@@ -569,7 +569,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活玩家并编造一条信息：他明天白天和夜晚需要疯狂地证明这条信息是正确的，否则他可能会被处决。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zy3-66b347e9.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/9e3b0edf780aa2e85bd74712ca92c93ce670f35158a444182c3d7082381e7d63.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zy3",
@@ -587,7 +587,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒直到下个黄昏，如果他上个夜晚被你选择过，他死亡，然后你中毒。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zy4-31a3af83.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/e5b392b78b3fb91b32b81eba18e148a9d911ebdce178264f9bcb0a70f9513b5c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zy4",
@@ -606,7 +606,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他在当晚选择了你，那么他会在白天代替其他玩家被处决。如果白天没人被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_zy5-56d1f5cd.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/1e46ef3a8a5d7989af4d6726d5222154c8a63197c9ef6310537b16e3d0ad6fb6.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_zy5",
@@ -624,7 +624,7 @@
   },
   {
     "ability": "：说书人决定天意魔典（至多有半数玩家存活）且具有一名爪牙的能力。首个夜晚，等同于初始邪恶玩家数的善良玩家被天意侵蚀（加入邪恶）并互认，随后一名善良玩家得知本局被天意侵蚀。每个夜晚*，可能会有一名玩家死亡。当天意修正到来时，邪恶阵营获胜。只有处决说书人善良阵营才能获胜。[外来者数量任意，无恶魔爪牙在场]",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_em1-aeaac393.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/028bb309c61f7721e1a81a090868ea1dc70bd32b045006b1ab3360241235c295.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_em1",
@@ -644,7 +644,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他会被当作邪恶的曹操，且在下一个夜晚死亡。你可能会被当作任何阵营和任何角色。[-1外来者]",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_em2-f972c748.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/5c39712f25f48f4cf565054c959b95d10d00d4feb2bef77f44598ab9d9117677.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_em2",
@@ -663,7 +663,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家。你每晚可以行动两次。当一名玩家再次被你选中时，他死亡。如果你杀死自己，会有一名被你选择过一次的玩家变成邪恶的刘备，但每局游戏仅能成功转化一次。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_em3-be299a6d.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/e97cdf8cef77743841a5f024f30c26d2f084c69dab4861b70f259898765e9e59.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_em3",
@@ -683,7 +683,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他可能死亡。如果只有一名邪恶玩家存活，你变成江东之主：每个夜晚*，你要选择一名玩家，他中毒且在黎明时死亡。[所有邪恶玩家都是孙权]",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_em4-c0be1689.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/edddaab507b03a419e4a98abc6e351e27c46691a4a7d7a7ca2888cb7203463f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_em4",
@@ -703,7 +703,7 @@
   },
   {
     "ability": "说书人决定天意魔典并告知你。每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，可能会有一名玩家死亡。天意修正前，你不会死亡。",
-    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/xsg_em5-41dede77.png",
+    "image": "/scripts/assets/community-san-jun-ting-ling-11004a49/181f9f7246f95172b5ce92f4200816269188da4a92aaea79f39e28589381b640.png",
     "edition": "custom",
     "flavor": "",
     "id": "xsg_em5",

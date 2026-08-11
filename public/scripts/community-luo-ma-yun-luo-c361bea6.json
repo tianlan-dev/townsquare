@@ -4,7 +4,7 @@
     "name": "罗马陨落",
     "version": "1.9",
     "author": "Alex S",
-    "logo": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/logo-067e84e24b.png",
+    "logo": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/4783ff22c727cc5f72c83fb413a3eb3b888692ef8fc530ac884a15cdce2b314f.png",
     "townsfolkName": "罗马公民",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "sculptor_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-8faa37f4e9.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/ec680524d3797cb797718fdd3b70a9b8b19212a8064f529b9efbd05e80aca2d3.png",
     "firstNightReminder": "指向一名玩家。放置\"雕塑品\"标记在该玩家旁",
     "otherNightReminder": "如果带有\"雕塑品\"标记的玩家今天白天发起了提名。如果被提名的玩家是邪恶的，向雕塑家展示表示邪恶的拇指向下手势。否则：向雕塑家展示表示善良的拇指向上手势。移除\"被提名\"标记。",
     "reminders": [
@@ -29,7 +29,7 @@
   },
   {
     "id": "vestalvirgin_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-39541b6bca.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/4000675ee49c8cb70a97c95ba2e7d344343c80f8476bfda8a5f6e4931f07f275.png",
     "firstNightReminder": "展示1个善良角色标记和1个邪恶角色标记：其中一个在场。放置\"已得知\"在那个在场角色标记旁。",
     "otherNightReminder": "如果带有\"已得知\"标记的玩家今天死亡，移除标记。展示1个善良角色标记和1个邪恶角色标记：其中一个在场。放置\"已得知\"在那个在场角色标记旁。",
     "reminders": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "physician_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-c5e591cbe0.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/00f6dd9d5a23f35a71a87b088ab311101ad25d301e8343e9d0e52cdfc740c616.png",
     "firstNightReminder": "医师指向除自己外的两名玩家。为那两名玩家放置\"患者\"标记。",
     "otherNightReminder": "移除所有\"患者\"标记。医师指向除自己外的两名玩家。为那两名玩家放置\"患者\"标记。如果带有\"患者\"标记的玩家被恶魔杀死，放置\"首次杀死\"标记在医师旁，并唤醒医师，向他展示恶魔的角色标记。",
     "reminders": [
@@ -60,7 +60,7 @@
   },
   {
     "id": "legionary_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-4d2c097337.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/cd238b4e57c314fde8df6ab121f0f04d1a4846afea5510b6e55637409c175aad.png",
     "firstNightReminder": "展示军团士兵与顺时针方向另一名军团士兵（不包括军团士兵）之间存活的邪恶玩家数量的手势（0，1，2等）。",
     "otherNightReminder": "展示军团士兵与顺时针方向另一名军团士兵（不包括军团士兵）之间存活的邪恶玩家数量的手势（0，1，2等）。",
     "setup": true,
@@ -73,7 +73,7 @@
   },
   {
     "id": "trumpeter_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-d517aefe08.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/8fcece1eced3f4c83159beb216229b8e4e31180cb80739f7a9c0595772104700.png",
     "otherNightReminder": "展示今天白天公开声明自己是斯巴达克斯的邪恶玩家数量的手势（0，1，2等）。",
     "reminders": [
       "邪恶声明"
@@ -86,7 +86,7 @@
   },
   {
     "id": "mortician_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-21e704d231.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/8db84c8284c7c03b8b3ed66ac14ef92ea980bf9139936da2427ec2d30b026538.png",
     "otherNightReminder": "如果有玩家今天白天死于处决：展示点头表示“是”或摇头表示“否”来表示与那名玩家邻近的存活玩家中是否有邪恶玩家。",
     "reminders": [
       "死于今日"
@@ -99,7 +99,7 @@
   },
   {
     "id": "standardbearer_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-7e6327a501.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/b85cecdc72eaf2bebf7339b4f2bfabf0f75b9383d58aeef793f8acd374f886ca.png",
     "otherNightReminder": "如果掌旗官的公开声明正确：展示点头表示正确。否则：展示摇头表示错误。",
     "reminders": [
       "正确",
@@ -113,7 +113,7 @@
   },
   {
     "id": "centurion1_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-b598094dc3.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/469d115220dbf07a979dafe8da57d96423c2aef693a245144df4aa8d48373f41.png",
     "reminders": [
       "醉酒"
     ],
@@ -124,7 +124,7 @@
   },
   {
     "id": "merchant_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-0ad8ed3286.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/4000ecf34d69aeaea666fdbecd21b36d580dab6352c7ead11221d41c82499338.png",
     "otherNightReminder": "如果商人还没有使用能力：商人要么摇头表示'否'，要么点头表示'是'。如果商人选择'是'，以任意顺序展示带有\"已提名\"标记的玩家的角色标记。放置\"失去能力\"标记。",
     "reminders": [
       "已提名",
@@ -138,7 +138,7 @@
   },
   {
     "id": "gladiator_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-c9185aad27.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/1b08be3378fff9b17237dee118d55a340d95ce2aa1d34bb2736c08fdaf9ed90b.png",
     "otherNightReminder": "如果角斗士今天白天使用能力，唤醒角斗士与被角斗士选择的玩家：两名玩家同时向说书人展示猜拳手势。如果有玩家猜拳落败，他死亡，另一名玩家存活。如果两名玩家都选择同样的手势，再次进行猜拳。",
     "reminders": [
       "决斗",
@@ -153,7 +153,7 @@
   },
   {
     "id": "actor_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-004ba90d1e.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/8045c2b234344278510d92d04e572aad797d740fa177f4601ca9fc9d8c660754.png",
     "otherNightReminder": "如果今天白天歌剧演员使用能力：展示\"猜测正确\"标记数量的手势（0，1，2或3）。放置\"失去能力\"标记。",
     "reminders": [
       "猜测正确",
@@ -167,7 +167,7 @@
   },
   {
     "id": "blacksmith_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-1bea42a38d.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/de9b878fe9f6973a35e6c6c5f5945d1f379f921109ce28e23307da05e4524ad9.png",
     "otherNightReminder": "如果铁匠被恶魔杀死。向铁匠展示一个不在场镇民角色标记。将铁匠角色标记替换为这个不在场角色标记。放置\"是铁匠\"标记在这个不在场角色标记旁。唤醒铁匠并展示'你是'，然后展示他的新的角色能力。",
     "reminders": [
       "是铁匠"
@@ -180,7 +180,7 @@
   },
   {
     "id": "scholar_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-f0421779bf.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/be303e8dcabbdac6afc4e298ce2662f61336880b7ccc1adb386042caf96af8ef.png",
     "otherNightReminder": "如果学者今天白天提名了外来者，放置“失去能力”标记。唤醒被提名的玩家。展示\"失去能力\"标记。唤醒被提名的玩家。展示'你是'，然后展示他的新的角色标记。",
     "reminders": [
       "已讲授",
@@ -195,7 +195,7 @@
   },
   {
     "id": "thetwins_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-e617835c58.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/69ea5320e7f57858d606e9d9f450c8ec14004b81c9fb8b393f89eb5ae04623dc.png",
     "firstNightReminder": "指向一名玩家。放置\"胞弟\"标记在那名玩家旁。",
     "otherNightReminder": "如果狼城双子拥有\"全体镇民醉酒\"标记，所有镇民醉酒直到明天黄昏。",
     "reminders": [
@@ -211,7 +211,7 @@
   },
   {
     "id": "winemaker_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-73d7cc1fd5.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/977442eb9cf3830ea35d43ea0479794ac061326af39d028feb836e3073645e83.png",
     "firstNightReminder": "放置\"奇数\"或\"偶数\"标记。如果放置\"奇数\"标记，酒庄工人在首个夜晚和之后每隔一个夜晚醉酒。否则：酒庄工人在第二个夜晚和之后每隔一个夜晚醉酒。",
     "otherNightReminder": "检查已经放置的\"奇数\"或\"偶数\"标记。如果是奇数夜晚且放置了\"奇数\"标记，酒庄工人醉酒直到下个黄昏。如果是偶数夜晚且放置了\"偶数\"标记，酒庄工人醉酒直到下个黄昏。否则与他邻近的镇民醉酒直到下个黄昏。",
     "reminders": [
@@ -228,7 +228,7 @@
   },
   {
     "id": "spartacus_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-f72f7c6c54.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/c11f25ad72ef45145df21827a4b1f3aaea63e29f2efd0670baeabdbd7284d51d.png",
     "reminders": [
       "已被猜测"
     ],
@@ -239,7 +239,7 @@
   },
   {
     "id": "badomen_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-b25e9f3523.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/d838a3c29bd2be79e31cfd1d5771c4578ede8ff1831758ed1ca48d954560e376.png",
     "remindersGlobal": [
       "是不祥之兆"
     ],
@@ -251,7 +251,7 @@
   },
   {
     "id": "temptress_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-3b57aebf92.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/ced67010bd9cc56d828735d2ca66884317dfaad65ed42bca159f837361fb07dc.png",
     "firstNightReminder": "交际花指向两名玩家。放置\"诱惑\"标记在这两名玩家旁。分别唤醒这两名玩家。向他展示'这个角色选择了你'提示卡，然后展示交际花角色标记。",
     "otherNightReminder": "如果带有\"诱惑\"标记的玩家死于处决，移除他的标记。仍然带有\"诱惑\"的玩家转变为邪恶。移除他的标记。唤醒这名邪恶玩家并向他展示'你是'提示卡，做出大拇指向下表示邪恶的手势。",
     "reminders": [
@@ -266,7 +266,7 @@
   },
   {
     "id": "haruspex_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-e32a658b39.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/a82606028ab50f7b48ffd041469a88c3a0c02f471d7ae773db3bf2e32b350473.png",
     "firstNightReminder": "脏卜师指向一名玩家。展示那名玩家的角色标记。放置\"已预言\"标记在那名玩家旁。",
     "otherNightReminder": "脏卜师指向一名玩家。展示那名玩家的角色标记。放置\"已预言\"标记在那名玩家旁：如果那名玩家已经拥有一个\"已预言\"标记。那名玩家死亡，放置\"无法攻击\"标记在脏卜师旁。",
     "reminders": [
@@ -284,7 +284,7 @@
   },
   {
     "id": "tribunal_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-b07cf68861.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/4522d122f7577da023b1543858d54efebb45dac399b820ee01f1347b1b164cd4.png",
     "reminders": [
       "当作对立阵营",
       "中毒"
@@ -296,7 +296,7 @@
   },
   {
     "id": "augur_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-0b7dcb5c78.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/2b7af5fd81a9070af1d538bd7b01e971a97dd4b3948e21c672064282b9d55d50.png",
     "name": "占兆官",
     "team": "minion",
     "ability": "提名你的镇民立刻变为不祥之兆。",
@@ -304,7 +304,7 @@
   },
   {
     "id": "cleopatra_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-fa5edd69c2.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/7b7f107b9a03fdd1f7fa01252fac3834682599754abb791dd34f20925ad1280f.png",
     "firstNightReminder": "克里奥佩特拉指向两名玩家。放置\"被选择\"标记在他们旁。",
     "otherNightReminder": "移除\"中毒\"标记。克里奥佩特拉指向两名玩家。如果之前被选中的玩家在今天白天发起提名，他死亡。",
     "reminders": [
@@ -320,7 +320,7 @@
   },
   {
     "id": "crassus_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-134ede0762.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/080bd39669f77491f7a4cf9bc080ea500e91d74f3af09b802bbeebe8948bde75.png",
     "otherNightReminder": "克拉苏指向一名玩家。那名玩家死亡。如果首个克拉苏在今天白天公开声明自己是斯巴达克斯并指向自己（或是死于处决），且大于等于五名玩家存活时，将一名邪恶玩家的角色标记替换为额外的克拉苏角色标记。向他展示'你是'提示卡，然后展示克拉苏角色标记。",
     "reminders": [
       "死亡",
@@ -334,7 +334,7 @@
   },
   {
     "id": "hannibal_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-885aeb6aa4.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/5e8c288f48f5807b016e1ee82cfde93a32f8c20d556c46a76a241d28c452d94b.png",
     "firstNightReminder": "选择2名善良玩家并放置\"是汉尼拔\"提示标记。同时唤醒所有爪牙，告知恶魔是汉尼拔",
     "otherNightReminder": "同时唤醒所有爪牙，允许他们通过投票指向他们想要'攻击'的玩家。那名玩家死亡。",
     "remindersGlobal": [
@@ -352,7 +352,7 @@
   },
   {
     "id": "caesar_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-6891a0c607.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/5893d72fb88c881578fd00f1fce511d2c607b89d91735d9a69857bee3e24e73b.png",
     "otherNightReminder": "如果有邪恶玩家今天白天被处决，凯撒指向两名玩家。否则：凯撒指向一名玩家。被选中的玩家死亡。",
     "reminders": [
       "死于今日",
@@ -366,7 +366,7 @@
   },
   {
     "id": "mercenary_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-a71aabfcc3.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/5f4f347994fcb274767dec1269829cc9cdd7de8db83308a4db91c86a6bce1be3.png",
     "otherNightReminder": "向雇佣兵展示今天白天公开声明自己是斯巴达克斯的一名玩家的角色标记，他在今天晚上和明天白天拥有这个角色能力。",
     "reminders": [
       "善良",
@@ -382,7 +382,7 @@
   },
   {
     "id": "architect_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-ed988ab634.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/4c2c69ed59974dc4c771552045eee8299e1babeaf4a2eee605c710667265d58a.png",
     "otherNightReminder": "建筑师指向一名玩家。说书人选择对那名玩家发动哪种能力。以选择能力对应的方式运作（变为不在场角色或交换角色）。分别唤醒被能力影响的玩家。向他展示'你是'，然后展示他的新的角色标记。",
     "reminders": [
       "被重建"
@@ -395,7 +395,7 @@
   },
   {
     "id": "sibyl_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-342870a84f.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/aa78f5df15d6ccf342c2e7c9c078439d68e98a33dfabc1f65d04347d0e416e78.png",
     "reminders": [
       "被招魂"
     ],
@@ -407,7 +407,7 @@
   },
   {
     "id": "highpriest1_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-25d6282dc0.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/227157b67fdfc9a5eaf4e4f8c3f1fca5ce0c0c0ac2f76526cbd4497d11740664.png",
     "otherNightReminder": "如果大祭司今天白天成功祝福玩家，会有好事发生在那名玩家以及/或他的阵营上。",
     "reminders": [
       "被祝福"
@@ -420,7 +420,7 @@
   },
   {
     "id": "highpriest2_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-b6d1f0c1b4.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/deffddb71a4284dc8a953850601060e8da88c25330dd6d1bb86e9a5dbfae238d.png",
     "otherNightReminder": "如果大祭司今天白天成功祝福玩家，你要决定这条信息是否正确",
     "reminders": [
       "被祝福"
@@ -433,7 +433,7 @@
   },
   {
     "id": "emperor_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-b5689f3d7f.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/c7f561fbdfa403b3284b1c940dcd824668cf0ad8a11329e68e6c9b7b988b3048.png",
     "otherNightReminder": "如果今天有玩家被处决且没被皇帝保护：通过手势(拇指向下表示'邪恶',拇指向上表示'善良')向皇帝展示那名玩家的阵营。",
     "name": "皇帝",
     "team": "traveler",
@@ -443,7 +443,7 @@
   },
   {
     "id": "iamspartacus_fall_of_rome",
-    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/image-625b8b067e.png",
+    "image": "/scripts/assets/community-luo-ma-yun-luo-c361bea6/8a103f29b406d319c1b26a5d9beb9118b2ecc2eac3827041462b8ddae8d7e4c4.png",
     "reminders": [
       "我是斯巴达克斯"
     ],

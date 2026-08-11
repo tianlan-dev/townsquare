@@ -87,30 +87,44 @@ npm run postbuild
 
 任何符合剧本格式的JSON剧本文件都被支持，可以上传完整JSON文件、从剪切板粘贴，或加载本地/互联网 JSON URL。URL 可以是当前服务的相对路径，例如 `/scripts/your-script.json`，也可以是允许浏览器跨域读取的 `https://...` 地址。如果你想继续自定义剧本，可以加入以下`"_meta"`对象对剧本整体做出调整。
 
-批量导入社区剧本合集时，使用仓库内的导入工具。它会生成安全且稳定的剧本文件名、规范角色数据、下载图片，并输出导入报告：
-
-```bash
-npm run import:community-scripts -- /path/to/script-collection \
-  --download-assets --prune
-```
-
-生成的剧本位于 `public/scripts/community-*.json`。每个剧本都有独立的
-`public/scripts/assets/<剧本文件名>/` 资源目录；图片按内容哈希命名，同一图片被多个剧本使用时会分别复制到各自目录。导入工具只会清理上一份导入报告中登记的旧生成剧本，不会删除手工维护的内置剧本。
-
-
 ```json
 [
   {
     "id": "_meta",
     "name": "无上愉悦",
     "author": "作者",
-    "logo": "/scripts/assets/your-logo.png",
+    "logo": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.png",
+    "background": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.jpg",
+    "playerAvatars": {
+      "male": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.png",
+      "female": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.png"
+    },
+    "phaseBackgrounds": {
+      "night": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.jpg",
+      "dawn": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.jpg",
+      "day": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.jpg",
+      "dusk": "/scripts/assets/community-wu-shang-yu-yue-xxxxxxxx/<sha256>.jpg"
+    },
     "firstNight": ["dusk","minioninfo","demoninfo","marionette","poisoner","amnesiac","dawn"],
     "otherNight": ["dusk","dawn"],
     "bootlegger": ["私货商人1", "私货商人2"]
   }
 ]
 ```
+
+仓库内置的自定义剧本资源统一存放在
+`public/scripts/assets/<剧本文件名（不含 .json）>/`。角色图标、剧本 Logo、
+玩家男女头像、通用背景和昼夜阶段背景均使用文件内容的完整小写 SHA-256
+作为文件名，并保留小写扩展名，例如
+`90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png`。
+资源文件名不使用 `logo-`、`player-avatar-` 或 `background-` 等语义前缀；
+资源用途由 JSON 中的 `image`、`logo`、`background`、`playerAvatars` 和
+`phaseBackgrounds` 字段确定。
+
+背景按以下优先级显示：如果 `phaseBackgrounds` 同时提供 `night`、`dawn`、
+`day` 和 `dusk`，使用这四张阶段背景；否则，如果提供 `background`，四个阶段
+均使用该单张剧本背景；两者都不满足时，使用 App 内置的四张默认背景。只提供
+部分 `phaseBackgrounds` 不会覆盖单张剧本背景或 App 默认背景。
 
 这些设置可以让剧本的主题更加明确，使用更方便。
 - `"firstNight"`、`"otherNight`和`"bootlegger"`是剧本工具常用关键词。

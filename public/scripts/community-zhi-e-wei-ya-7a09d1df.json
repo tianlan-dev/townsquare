@@ -4,16 +4,16 @@
     "name": "指鹅为鸭",
     "version": "2",
     "author": "647",
-    "logo": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/_meta-logo-ed8c82bc.png",
+    "logo": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/ed8c82bcd8a851d997b8e1b42b85b42bce3c8640f0a683dfedbfb49c56429056.png",
     "playerAvatars": {
-      "male": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/player-avatar-male.png",
-      "female": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/player-avatar-female.png"
+      "male": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/74eaa97b2c2f6c6876acadf27d238fba4d9dfe91d77ea8e4efc79ae8841c79fb.png",
+      "female": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/0663196825c7162117c10bf8d6ec7e497a811ceb776cbe1b63661ce4a86105d8.png"
     },
     "phaseBackgrounds": {
-      "night": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/phase-background-night.png",
-      "dawn": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/phase-background-dawn.png",
-      "day": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/phase-background-day.png",
-      "dusk": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/phase-background-dusk.png"
+      "night": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/45b50a3cd8cc5219b4ca9323bfdff4ad08cef6ced5469b95a78194903f8b6b78.png",
+      "dawn": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/065c1520f7d6b3ad967f1cdaf678a742ea8bfb7f98cdb3fedf98c0f15f8a358b.png",
+      "day": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/40970deeabcd0ace51e24bbf1f23ca2d9f7604f9ed581ce4e0f03b3a0af6586b.png",
+      "dusk": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/49bc643ee80ec4668f0f1a4d6b511cd4854a72e0bd04cfbdf4cd3c11a0eca858.png"
     },
     "tags": [
       "全原创角色剧本",
@@ -22,7 +22,7 @@
   },
   {
     "id": "7_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/7_goosegooseduck-7f62d878.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/a1b4770cbb4dfc67adcb4a571de0359fc28958a259c592452cfe252837534492.png",
     "firstNightReminder": "唤醒玩家并告知玩家一个数字。",
     "reminders": [
       "免死",
@@ -35,7 +35,7 @@
   },
   {
     "id": "13_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/13_goosegooseduck-505b23ac.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/3004fc7765e3589f68d6e15074dd698adb8ffe3c30280a993e71def1ced4f3ad.png",
     "firstNightReminder": "唤醒玩家并告知玩家左或右的方向。",
     "otherNightReminder": "唤醒玩家并告知玩家是或否。",
     "name": "观鸟者",
@@ -46,7 +46,7 @@
   },
   {
     "id": "4_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/4_goosegooseduck-73067935.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/4ae512ef3407566215bd3a3abb73df0fcde9e3c635a9b8f374f65f943dbcb55e.png",
     "firstNightReminder": "唤醒玩家并告知玩家一名不在场的鸭角色。",
     "reminders": [
       "死亡"
@@ -58,7 +58,7 @@
   },
   {
     "id": "27_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/27_goosegooseduck-dd4322e2.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/1866c0cc23394c3510c6b8bc7e2a7283741a4cbb3ab59dc1f35b4be044b8d047.png",
     "firstNightReminder": "唤醒玩家并告知玩家一个数字。",
     "otherNightReminder": "唤醒玩家并告知玩家一个数字。",
     "name": "星界行者",
@@ -69,7 +69,7 @@
   },
   {
     "id": "34_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/34_goosegooseduck-63f644dc.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/aedc3866d70be691cf00a0b94f1e7265d8144ffaf07d859b1740d9e436c3442b.png",
     "firstNightReminder": "唤醒玩家并让玩家选择一名玩家。",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家。如果上一晚选择的玩家参与了任务，告知玩家工作、破坏或摸鱼。",
     "reminders": [
@@ -83,7 +83,7 @@
   },
   {
     "id": "19_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/19_goosegooseduck-a1f5d170.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/15ed4cec1eb7bf6d1ad014ca00361a8ae0523ac4341f8eedf43e3be0ecb928d7.png",
     "firstNightReminder": "唤醒玩家并让玩家选择一名玩家。",
     "reminders": [
       "保护",
@@ -96,7 +96,7 @@
   },
   {
     "id": "12_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/12_goosegooseduck-b4086892.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/b940bc0519838e5773475c58f022966e366ca8b177ee1fb36466027ac4500360.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家，告知0-3的数字。",
     "name": "侦探",
     "team": "townsfolk",
@@ -105,7 +105,7 @@
   },
   {
     "id": "15_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/15_goosegooseduck-a0ce93b2.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/d6e31552d23c5866bf4e38c06de2692d6a2eb79dce8c74fce804a3ad7cf18610.png",
     "otherNightReminder": "唤醒玩家并向玩家选择另一名玩家。如果该玩家今晚死亡，告知玩家他的角色。",
     "name": "殡仪员",
     "team": "townsfolk",
@@ -114,7 +114,7 @@
   },
   {
     "id": "9_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/9_goosegooseduck-27b30502.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/90b99121be3dece7e560a7e91c6601a62995979f3138a6075273393745c5a049.png",
     "otherNightReminder": "唤醒玩家并告知让玩家选择1或2，告知对应的数字。",
     "name": "通灵者",
     "team": "townsfolk",
@@ -123,7 +123,7 @@
   },
   {
     "id": "11_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/11_goosegooseduck-e2e89ab5.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/a22852269a581d793ad95002d32090b80cb682c84c312eea4381efd1af581780.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家击杀，可以不选。",
     "reminders": [
       "死亡",
@@ -136,7 +136,7 @@
   },
   {
     "id": "10_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/10_goosegooseduck-5f36f347.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/aa40845092573a6f92711bd913fff537610017d7c1ce8de33b07da1a43393b9d.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家击杀，可以不选。",
     "reminders": [
       "失去能力",
@@ -149,14 +149,14 @@
   },
   {
     "id": "17_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/17_goosegooseduck-d09605fe.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/36d945927d6c0668dd4e1a765a67b531a6d7059b84c9dd76dc4482987accaaf0.png",
     "name": "工程师",
     "team": "townsfolk",
     "ability": "如果你与另一名玩家同时破坏了任务，则你们都视为在任务中工作。如果只有你破坏了任务，则视为你在任务中摸鱼。"
   },
   {
     "id": "6_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/6_goosegooseduck-9a6cc775.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/d7350f8a253dbdb2d534a70ea3460e3169449f55b39e85444ff3021315918ff3.png",
     "otherNightReminder": "如果有相邻玩家死亡，唤醒玩家并让玩家选择另一名玩家击杀。",
     "reminders": [
       "死亡"
@@ -168,7 +168,7 @@
   },
   {
     "id": "26_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/26_goosegooseduck-eeba9910.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/d304e7996ecccbfaf1797c10aa7cc6d0416f97878b988c558cae63285d41712c.png",
     "reminders": [
       "中毒",
       "醉酒"
@@ -179,7 +179,7 @@
   },
   {
     "id": "14_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/14_goosegooseduck-cfc2f765.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/6083d56c242ee291fe511f0f2d20d19ecad212225ff72a12de934d943695cbd9.png",
     "reminders": [
       "醉酒"
     ],
@@ -189,14 +189,14 @@
   },
   {
     "id": "_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/_goosegooseduck-3e87bc04.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/ec1ed20b0dbde908b12901ccf8cdcd22b09db9c504952a638847c91b4729a9bb.png",
     "name": "呆呆鸟",
     "team": "outsider",
     "ability": "在决胜的那次任务前，如果你在没有做过或只做过一次任务的情况下被处决，你会单独获胜。你在做任务时只能选择摸鱼。"
   },
   {
     "id": "1_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/1_goosegooseduck-e5f5a4a7.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/e34558b16c4e2619e268ac15ec89a5b50759684ab8e850774050712a0d49c941.png",
     "firstNightReminder": "唤醒玩家并让玩家选择一名玩家感染。",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家感染。",
     "reminders": [
@@ -211,7 +211,7 @@
   },
   {
     "id": "2_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/2_goosegooseduck-25ac5be6.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/ba59f36eef1fc72b5472c65daa4f6368081a2b81e3c4c07bfe9bcddd7fe771e4.png",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家，可以不选。",
     "reminders": [
       "死亡",
@@ -224,7 +224,7 @@
   },
   {
     "id": "23_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/23_goosegooseduck-2727a07e.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/81c900f94d88e0a37d1e231967aed5bce410aa75f7015f76cce0073832b9bc14.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家。如果该玩家死于今晚，复活该玩家并使其中毒。",
     "reminders": [
       "中毒"
@@ -236,7 +236,7 @@
   },
   {
     "id": "33_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/33_goosegooseduck-2368b95f.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/5f3068bbc41d8d9ca527ddeeb95ef87e1ca0f47daaf7cb7d634f6c05b0332bc1.png",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家，可以不选。",
     "reminders": [
       "死亡"
@@ -248,7 +248,7 @@
   },
   {
     "id": "44_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/44_goosegooseduck-8d6b0ff1.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/949f16952ae430d5c4ac73edb30e1fee983023ce73c2aff990ad84e3df06238b.png",
     "reminders": [
       "中毒"
     ],
@@ -258,7 +258,7 @@
   },
   {
     "id": "42_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/42_goosegooseduck-7dd106b5.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/ee214d8c791422d0d62b209f0ae6af71e7070de76fcbcc09b44e9b63bf603125.png",
     "reminders": [
       "中毒",
       "醉酒"
@@ -269,7 +269,7 @@
   },
   {
     "id": "28_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/28_goosegooseduck-e75e6e48.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/1144b491055b8c906b7d79fcfa2550712f75993f63b9b341e7e43ccefa92f8fa.png",
     "firstNightReminder": "唤醒玩家并告知玩家一个在场中立角色。",
     "otherNightReminder": "唤醒玩家并询问玩家是否猜测。如猜测，告知是否正确。如正确，唤醒被猜测的玩家告知其阵营转变。",
     "name": "间谍",
@@ -280,7 +280,7 @@
   },
   {
     "id": "8_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/8_goosegooseduck-acbe7f40.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/13a2f049c5112991a9e9b80d4f5a0648a0d504526e5bba3adda0176e3d9cacfc.png",
     "firstNightReminder": "唤醒玩家并让玩家选择一名玩家，可以不选。",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家，可以不选。",
     "reminders": [
@@ -294,7 +294,7 @@
   },
   {
     "id": "20_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/20_goosegooseduck-25f604d8.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/7ba04b75f84971b6b9b4e235b55e4e9040511cae7ed1ed710258fdeb15a918d3.png",
     "otherNightReminder": "唤醒玩家让玩家选择另一名玩家猜测角色，可以不选。",
     "reminders": [
       "得知角色",
@@ -307,7 +307,7 @@
   },
   {
     "id": "50_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/50_goosegooseduck-7a52cf80.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/00bafe62d5e90ce03bad9321e37f5d7d3cb65cbf449cea37b540e05833797a0e.png",
     "firstNightReminder": "唤醒玩家并告知玩家一名鹅角色。",
     "otherNightReminder": "唤醒玩家并让玩家选择一名玩家击杀。如果杀死了目标角色，告知玩家一个新的鹅角色。",
     "reminders": [
@@ -323,7 +323,7 @@
   },
   {
     "id": "25_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/25_goosegooseduck-5c9daed1.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/d70d4c594f7d83ee3a09dbdb25088a1d4cf99fbf8bc8ac985b69cb546adfea12.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家。",
     "reminders": [
       "目标",
@@ -336,7 +336,7 @@
   },
   {
     "id": "21_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/21_goosegooseduck-298af21d.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/12a4f30c6874ff20ce276d64515ba09cc421366709e8bf32fbdb822467a3e0ae.png",
     "otherNightReminder": "唤醒玩家，告知玩家一个角色，并让玩家选择另一名玩家，若该玩家是该角色则杀死该玩家，若错误则告知该角色的玩家连环杀手在场。",
     "reminders": [
       "死亡",
@@ -349,7 +349,7 @@
   },
   {
     "id": "5_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/5_goosegooseduck-02e64c03.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/8806360b17fa8860bbe0ce80bdc6d352f8015d9432b6cc458791ee3eb672b7ae.png",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家放置炸弹，可以不选。唤醒收到炸弹的玩家并询问是否继续传递。如果炸弹第二次传到同一名玩家，直接引爆炸弹，该玩家死亡且不会被唤醒。",
     "reminders": [
       "传递过",
@@ -362,7 +362,7 @@
   },
   {
     "id": "3_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/3_goosegooseduck-e3572a8d.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/42f2e13ad0cd824747f946159df9ff54f8fb3bf5c6393fed3370efd10dcad412.png",
     "firstNightReminder": "唤醒玩家并让玩家选择另一名玩家。",
     "otherNightReminder": "唤醒玩家并让玩家选择另一名玩家。",
     "reminders": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "18_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/18_goosegooseduck-3f5e811b.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/355a680cdbf602a0521853caf422c52d010995ed172b4a9119eefafeeb7acb89.png",
     "reminders": [
       "恋人"
     ],
@@ -388,7 +388,7 @@
   },
   {
     "id": "29_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/29_goosegooseduck-2b96667b.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/2464c52c3ee244bf2056929ffe6306a25f45eb966a945d8b6d9a29df82452104.png",
     "reminders": [
       "静音"
     ],
@@ -398,7 +398,7 @@
   },
   {
     "id": "46_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/46_goosegooseduck-9ed66929.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/750de142edd489d8bf4f4c34c6e12502f5c1ee404d5f190ce036ac493a9cee4a.png",
     "reminders": [
       "变声",
       "死亡"
@@ -409,7 +409,7 @@
   },
   {
     "id": "16_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/16_goosegooseduck-fb8833c4.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/a24fff99f66db3b9dc12abe5d2d4964e0e18246932294c8564a7261e53899256.png",
     "reminders": [
       "处决"
     ],
@@ -419,14 +419,14 @@
   },
   {
     "id": "22_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/22_goosegooseduck-294f2321.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/4689918f656523581e63985085e220d275cd093f1f0e4686a8d5fdf0be880e49.png",
     "name": "身份窃贼",
     "team": "traveller",
     "ability": "每个白天，你可以代入一位死亡玩家的视角进行发言并模仿他的说话方式，他可以重新获得失去的死人票。"
   },
   {
     "id": "32_goosegooseduck",
-    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/32_goosegooseduck-f6d4e27d.png",
+    "image": "/scripts/assets/community-zhi-e-wei-ya-7a09d1df/970057640342bdf14a5216228824c1c9cb7e6bc7a45e0cb00940efd23ec86750.png",
     "otherNightReminder": "分别唤醒需要做任务的玩家并询问选择完成，破坏或摸鱼。",
     "reminders": [
       "工作",

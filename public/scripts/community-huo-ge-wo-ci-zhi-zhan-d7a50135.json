@@ -4,7 +4,7 @@
     "name": "霍格沃茨之战",
     "version": "",
     "author": "JJ and Mas",
-    "logo": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/logo-b0c93d61d8.png",
+    "logo": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/4a2283617b58f61298ebdc1d688f9f882f263e061bda2b505e309c67f742d579.png",
     "firstNight": [
       "minioninfo",
       "demoninfo"
@@ -18,7 +18,7 @@
   {
     "id": "hagrid_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-596138f395.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/ccc4a30db58c3091b88322ae62919320f840526e2f481ccee8905cf8530bf5b9.png"
     ],
     "firstNightReminder": "Wake Hagrid and point at a player who is a Gryffindor",
     "reminders": [
@@ -33,7 +33,7 @@
   {
     "id": "ronweasley_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-37efe15de8.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/5da1ccd4428b4962df7ba70e15b51120190175a25bf1778702cd4a53e9f69bac.png"
     ],
     "firstNightReminder": "Wake and tell them a player who was chosen by the evil team tonight.",
     "otherNightReminder": "Wake and tell them a player who was chosen by the evil team tonight.",
@@ -50,7 +50,7 @@
   {
     "id": "mcgonagall_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-465cd49676.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/87fa654bba6d6701439a6b80673fc03b1f6341feb31ba258d24aeaf3f19dc54b.png"
     ],
     "firstNightReminder": "Wake and ask if they would like to use ability. If so ask them to choose a character. Mark any chosen in play character as 'Detention'.",
     "otherNightReminder": "Wake and ask if they would like to use ability. If so ask them to choose a character. Mark any chosen in play character as 'Detention'.",
@@ -71,7 +71,7 @@
   {
     "id": "hermione_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-f70f375e4e.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/5e1ce3f0515c1312b38b6ea7b165c6998615718d3e1ad9c5c9dbe63a8e2fac81.png"
     ],
     "firstNightReminder": "Wake and ask which player to pick, show character type.",
     "otherNightReminder": "If they corrected someone: Wake and ask which player to pick, show character type.",
@@ -88,7 +88,7 @@
   {
     "id": "snape_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-52a1ff7213.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/3eebfa22294dbb9344b2093650152176590a4407b2a298e1e9111518ef968be0.png"
     ],
     "firstNightReminder": "Wake them to choose a player",
     "otherNightReminder": "Wake them to choose a player",
@@ -105,7 +105,7 @@
   {
     "id": "siriusblack_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-2aa4162698.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/db3477ab51a2c231e0031ceaa9ccb17484c15a85a8a5259e1548e9791e45d41a.png"
     ],
     "otherNightReminder": "Wake and ask if they would like to switch form. If they died in the night while human, wake to tell them to choose 2 players. Show them a 0, 1 or 2 based on if the players are evil or are horcruxes.",
     "reminders": [
@@ -122,7 +122,7 @@
   {
     "id": "remuslupin_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-03b8458148.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/246cc37b43fae10b9e310fd66ffaeb05e2c6334f340871533b66cee061bc3aba.png"
     ],
     "otherNightReminder": "Wake to make choose a player, the previously chosen player dies if good. They are the only player that can die tonight.",
     "reminders": [
@@ -138,7 +138,7 @@
   {
     "id": "neville_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-75405d05b1.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/4e1325a024aca031ab5e839338fe67a00e6a9ce7c2cc05ce7026606dd7f5a747.png"
     ],
     "reminders": [
       "已使用能力"
@@ -151,7 +151,7 @@
   {
     "id": "lunalovegood_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-7f039b7f18.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/f1a985401668f6b2c7be8362f59a58632d1f74ef6e88b6b2b6dd4d428eacc64a.png"
     ],
     "FirstNightReminder": "Mark the grimoire with a spirited token",
     "otherNightReminder": "Mark the grimoire with a spirited token",
@@ -166,7 +166,7 @@
   {
     "id": "madeyemoody_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-f8aaf8bf26.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/11d38e508507918910aabd4119b4bfd476d0d0c64f455829638347cdd4080ecd.png"
     ],
     "otherNightReminder": "Wake if they have satisfied madness and tell the targeted players alignment ",
     "reminders": [
@@ -181,7 +181,7 @@
   {
     "id": "harrypotter_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-98038eb1dc.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/fc61e5178d9fc0c2b344ef285539a2bc7d482c37ec27b5aa76ad21ea9a24de2d.png"
     ],
     "otherNightReminder": "If Harry Potter was targeted mark the evil team with dark lord weakened",
     "reminders": [
@@ -200,7 +200,7 @@
   {
     "id": "dumbledore_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-61860070ca.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/0e550b73e193609b2fb2b2642bdea8f9fbe1d09f1f5e1d147c3c7a0cb8a80f42.png"
     ],
     "otherNightReminder": "Wake if killed and ask to pick a player",
     "reminders": [
@@ -218,7 +218,7 @@
   {
     "id": "fawkes_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-71784f8d7b.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/523019b1d87b2191e8c27e1b39614258b0945c464b03c6e107ec3edbff2ba641.png"
     ],
     "otherNightReminder": "Wake if killed, show them the character type who killed them. Resurrect them the following night.",
     "reminders": [
@@ -234,7 +234,7 @@
   {
     "id": "dracomalfoy_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-e45c956c4d.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/f29cc43a7fe794a49b3cf166d82888c07343eaafefdf2f69cd57eef1f56ebe32.png"
     ],
     "firstNightReminder": "Wake the Good Recruiter (If Alive) and show them the Draco Malfoy character token, ask them to choose a player. Wake the Evil Recruiter (If Alive) and show them the Draco Malfoy character token, ask them to choose a player, even if Draco has been successfully guessed.",
     "otherNightReminder": "Wake the Good Recruiter (If Alive) and show them the Draco Malfoy character token, ask them to choose a player. Wake the Evil Recruiter (If Alive) and show them the Draco Malfoy character token, ask them to choose a player, even if Draco has been successfully guessed.",
@@ -254,7 +254,7 @@
   {
     "id": "scabbers_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-6fff5d89d1.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/c1460d8c8d6958db021948b71ed1b97ad09782ae2cddbd169002d2427ba6efb9.png"
     ],
     "reminders": [
       "被出卖",
@@ -268,7 +268,7 @@
   {
     "id": "dobby_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-2e98b77802.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/4baead3da8c0d75616b7d3ef27df8e4c9a97091231f612ee63235a292dcc1ee6.png"
     ],
     "firstNightReminder": "Wake and ask to pick a player as Master",
     "otherNightReminder": "Wake Dobby if they are free",
@@ -286,7 +286,7 @@
   {
     "id": "lockhart_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-4fef3726cf.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/ac38f17059070964b99bb3936ce097cdbff0541c20b10d837e31fb51fecf5bf1.png"
     ],
     "remindersGlobal": [
       "是吉德罗·洛哈特"
@@ -311,7 +311,7 @@
   {
     "id": "nagini_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-d53b1aab54.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/e2704c023f89e20d32ce9c3af9d785432442df74acacb5aa923872c08b3977ed.png"
     ],
     "firstNightReminder": "Choose who to poison first.",
     "otherNightReminder": "Choose who to poison. Potentially inform Neville he was chosen by Nagini (He is still poisoned) ",
@@ -325,7 +325,7 @@
   {
     "id": "basilisk_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-38dc0725f3.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/b398ed8217228eb85f5ddb0d30e36a8e3f1a2b274668d5bd34b644650b285994.png"
     ],
     "otherNightReminder": "Wake and ask to pick a player",
     "reminders": [
@@ -341,7 +341,7 @@
   {
     "id": "grindelwald_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-b055b0bfa0.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/5cda60eab29058e0c6f450dafc5e694182cffea8a56ed4e6e7647889c6b8aaf5.png"
     ],
     "otherNightReminder": "Wake and ask them to choose a dead player",
     "reminders": [
@@ -357,7 +357,7 @@
   {
     "id": "bellatrix_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-85f4bc45db.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/37dcb272a88f9d377cfdff528e69cf024a34a61753b215b6039670966329293d.png"
     ],
     "reminders": [
       "死亡",
@@ -371,7 +371,7 @@
   {
     "id": "luciusmalfoy_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-c7269fdf92.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/51d12263e21fc7954f6ffaa4b7bd3f88d741c476c9c09578b4f6ef1d7b5d0b06.png"
     ],
     "setup": true,
     "name": "卢修斯·马尔福",
@@ -382,7 +382,7 @@
   {
     "id": "lordvoldemort_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-3ca45faf8d.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/64cc7c98c0731b424f8cede87bacbf1a9ecac8663ab968d088494e6d33c44bb0.png"
     ],
     "firstNightReminder": "Wake and tell them all players who possess a horcrux. ",
     "otherNightReminder": "Wake to make them kill someone",
@@ -403,7 +403,7 @@
   {
     "id": "thedeatheaters_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-09516191b2.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/33d071d60bf736a1feb11e281998652ca7fcb92bdc5ffad8e84eaffb07b39be2.png"
     ],
     "otherNightReminder": "Wake all Minions and ask them to vote on a player to kill.",
     "reminders": [
@@ -426,7 +426,7 @@
   {
     "id": "tomriddle_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-900a7bc1b1.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/cdefa94b47f3cdf313db7aaca0ee8ab4c5da7aead827c8a6128dd6a7bb3cc5a9.png"
     ],
     "otherNightReminder": "Wake to make them kill someone",
     "reminders": [
@@ -442,7 +442,7 @@
   {
     "id": "youknowwho_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-4bf65ab5c1.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/94a403e105224c50a014097a20883e685f4a3158d111d0a6788685a127dbae11.png"
     ],
     "firstNightReminder": "Wake and tell Secret word",
     "otherNightReminder": "Wake to make them kill someone",
@@ -461,7 +461,7 @@
   {
     "id": "newtscamander_hp2_2",
     "image": [
-      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-93e64da8d7.png"
+      "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/0e54c27eafa3e706d9c680666a4fc4a8240bd34cd49e3d45437ca521f330ed8a.png"
     ],
     "firstNightReminder": "If Newt would wake due to their ability wake them now",
     "otherNightReminder": "If Newt would wake due to their ability wake them now",
@@ -475,7 +475,7 @@
   },
   {
     "id": "Ministry of Magic_hp2_2",
-    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-a4c0ca7382.png",
+    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/2780c11022d419d30adfa1be5ae38fd6c3b9efaf374c5c0245013dc02b64eb07.png",
     "remindersGlobal": [
       "送往阿兹卡班"
     ],
@@ -485,7 +485,7 @@
   },
   {
     "id": "Slytherin's Locket_hp2_2",
-    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-a6d619e3cc.png",
+    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/40f77fefb9403edfee2462b00c5be9369170f65d94341bd1bd2ebe26a39b90bb.png",
     "remindersGlobal": [
       "魂器摧毁"
     ],
@@ -495,7 +495,7 @@
   },
   {
     "id": "Azkaban_hp2_2",
-    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-bae7a427f1.png",
+    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/3b44cd7327f8aafd19848d4da530d9af93bdbac0100339ada81a992ee2b77016.png",
     "remindersGlobal": [
       "失去能力",
       "被处决"
@@ -506,7 +506,7 @@
   },
   {
     "id": "The Prophecy hp2_2",
-    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/image-98ef70c360.png",
+    "image": "/scripts/assets/community-huo-ge-wo-ci-zhi-zhan-d7a50135/7bcf874be09bae0a8638cdae0e5abe7f530992a0b0e5d3c60aba9d431dd0d8bf.png",
     "name": "预言",
     "team": "fabled",
     "ability": "黑魔王是是本游戏中恶魔的称谓。"

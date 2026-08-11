@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "血染甄嬛",
     "version": "4.2",
-    "logo": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/logo-9c9259b2b3.png",
+    "logo": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/459a94e3c8f5e47c583eaa94c79b78ac8c7f442663282c3de84bac0de8b13206.png",
     "author": "桂花小排骨",
     "description": "血染甄嬛",
     "townsfolkName": "镇民",
@@ -15,10 +15,10 @@
     "minion": "爪牙",
     "demon": "恶魔",
     "phaseBackgrounds": {
-      "night": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/phase-background-night.png",
-      "dawn": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/phase-background-dawn.png",
-      "day": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/phase-background-day.png",
-      "dusk": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/phase-background-dusk.png"
+      "night": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/d26e379084fdc62d52af98bc1353f38d19d34eab519ac4de0335f3fa85a1ba35.png",
+      "dawn": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/0634e4380e48c4c6bec295f9d1af87c41725db3a3a7119fdda63b959e64c23f8.png",
+      "day": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/19e5d37fb2539f334b136b847fb976ee8b7269051e22bb64814956b0ab642694.png",
+      "dusk": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/a54d9a84c8c11c24e20fc472d168f706213d3d22fd8178e4281190c14be757c8.png"
     },
     "a jinxedName": "相克",
     "a jinxed": "相克",
@@ -43,7 +43,7 @@
   },
   {
     "id": "f222",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-3e54d9cee5.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/ef178602162d1093c9a7af0cd7f2ce6caf45557a0d3965016beed3e4b7f3ee89.png",
     "edition": "custom",
     "name": "公公",
     "ability": "第一个白天说书人和所有玩家必须用夹子音说话。不使用夹子音说的玩家可能会被视为邪恶阵营、爪牙角色或恶魔角色。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "fa3333",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-4f21576f75.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/6226b21ddbf5765721593a460b29b3d0235068926447ac2b35d4aa28428a2a18.png",
     "edition": "custom",
     "name": "太上老君",
     "ability": "每局游戏限一次，在夜晚时*，会有一名死亡的玩家复活并变成新的角色。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "fang444444",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-2bb183c86f.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/6e09cdb0a742339f372834de72c553aca312d64b0608953895874fa2fa086a0b.png",
     "edition": "custom",
     "name": "方丈",
     "ability": "宣布一名新手玩家被保护。对这名新手玩家的死亡负最大责任的人，会遭遇一些不好的事情。",
@@ -82,7 +82,7 @@
   },
   {
     "id": "fangg55346346",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-7854fead0b.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/4b5d492feeab350b57e3536e18d65f0e1a49cb1417e9fd911ee075b5314244bf.png",
     "edition": "custom",
     "name": "阎王",
     "ability": "每局游戏限一次，在夜晚时*，会有一名玩家变成与自身不同的角色，新角色可能会获得错误信息。如果该玩家“疯狂”地证明自己的角色发生变化，会遭遇一些不好的事情。",
@@ -95,7 +95,7 @@
   },
   {
     "id": "fangguiiiiii1111111111",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-c8bbd84428.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/1e29f227d77433d06bd1720d15df4021e78c24cc4e10a72bb6d5e98b43dfdeb4.png",
     "edition": "custom",
     "name": "酒仙",
     "ability": "会有一名玩家始终醉酒。",
@@ -108,7 +108,7 @@
   },
   {
     "id": "jianghu_hangha333ijia",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-62d5a991d2.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/e441ce75e9bf19f840e9255249079b716b322a4d8eae7782ad8eeb0c1d31cbe7.png",
     "edition": "custom",
     "name": "舒太妃",
     "ability": "每局游戏限一次，在处决后，你可以选择一名玩家：如果他不是果郡王，你与他一同死亡。",
@@ -124,7 +124,7 @@
   },
   {
     "id": "jianghu_nul444izhu",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-be906bae4b.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/00b62d775270df96b57d72f148601380dd57107c87f033d65a4f08fc6d22746f.png",
     "edition": "custom",
     "name": "曹琴默",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营。每局游戏限一次，如果他死亡，在当晚你要选择除你以外的一名玩家，你转变为他的阵营。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "jianghu_hangh666aijia",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-6ac4d4f7fd.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/93576478d9d300e84067ee88ad1ce26ee0b7c8e11e0ec7c632c5256a04e2729c.png",
     "edition": "custom",
     "name": "沈眉庄",
     "ability": "你会得知谁是甄嬛，你的阵营始终与她相同。你的投票算作两票。",
@@ -156,7 +156,7 @@
   },
   {
     "id": "jianghu_nuliz7777hu",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-3df247fb3c.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/d5561b235934c131ab8a940e5a3d04d0c357f481e6949173661bafcb09a9c31a.png",
     "edition": "custom",
     "name": "妙音娘子",
     "ability": "在你的首个白天，你要选择一个镇民角色并询问一名玩家「我是xx（镇民角色），你相信吗？」如果他回答相信，你获得该角色的能力，如果这个角色在场，这个角色醉酒。如果他回答不相信，你被流放。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "jianghu_gong8888shi",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-848d9dff60.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/7610a6b9adb52364c67fddf78f3a4cccf52516c4eec4fca169ca6f62f0da90da.png",
     "edition": "custom",
     "name": "莫言",
     "ability": "当一名女性角色因为一名男性角色的提名而即将被处决时，你可以让这次处决变成得票数第二高的玩家被处决。",
@@ -185,7 +185,7 @@
   },
   {
     "id": "jianghu_gon555gshi",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-7704707812.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/e1114c706c4d4bc8489a2798757d9b8743431516c59765ce0091297a78e6b106.png",
     "edition": "custom",
     "name": "夏刈",
     "ability": "每局游戏限一次，在夜晚时，你要选择两名玩家进行滴血认亲：他们获得亲情羁绊。（如果父/母死于处决，孩子会一同死亡；如果孩子死于处决，父/母会醉酒。）",
@@ -198,7 +198,7 @@
   },
   {
     "id": "zhenhuan_1",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-d9de7866dc.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/ea4bad5c3c45abb7c3f26dc8f76698bf8369ef9d7bb23e4f7bcee43a78dd2c05.png",
     "edition": "custom",
     "name": "浣碧",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）[当你坐在果郡王旁边时，你醉酒]",
@@ -215,7 +215,7 @@
   },
   {
     "id": "zhenhuan_2",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-2a87455a78.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/a4a8df14c27024148bcccc1df8d3228ab76387bc82c5fad54a7c3cdbc694c731.png",
     "edition": "custom",
     "name": "玉娆",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "zhenhuan_3",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-48edb8bf44.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/c3fd9a0098317aeee8cde988b1c4127905a1ead3590ef7ac44fc4686bfe5b1e3.png",
     "edition": "custom",
     "name": "敬妃",
     "ability": "在你的首个夜晚，你会得知有多少名非男性角色在场。如果恶魔杀死了你，在当晚你会被唤醒并得知场上有多少名存活的邪恶玩家。",
@@ -247,7 +247,7 @@
   },
   {
     "id": "zhenhuan_4",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-1c4698b26a.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/fface1562f51da973f48285f9c46663cfa9c62b6f154474e8a889915d5ed56bb.png",
     "edition": "custom",
     "name": "小允子",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家是否为同一阵营。",
@@ -261,7 +261,7 @@
   },
   {
     "id": "zhenhuan_5",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-3bb284b1e5.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/32ee97bdefc5271b97942de475b74f625dee95b46dc6dbccdd421bf605938986.png",
     "edition": "custom",
     "name": "槿汐姑姑",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。",
@@ -275,7 +275,7 @@
   },
   {
     "id": "zhenhuan_6",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-4ce4ffd109.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/7616fe16965ffe6a0ce556a950af0947bcc2f1c7df6c80628d8709e4199bd2f6.png",
     "edition": "custom",
     "name": "温实初",
     "ability": "每个夜晚，你可以选择一名玩家：你会得知他是否醉酒或中毒。 如果你得知是，你可以让他恢复清醒健康。",
@@ -289,7 +289,7 @@
   },
   {
     "id": "zhenhuan_7",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-ccb59f7f8e.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/d0b1a5751af14f7447fca9d11bcec6b79a660c3fe5f0b24d5d87c2bd80c8c1cc.png",
     "edition": "custom",
     "name": "果郡王",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：当晚恶魔 的负面能力对他无效。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "zhenhuan_8",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-1a87edf14c.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/facc8136d51e6618b5a4b542143847256e9d9c809681580f61029715ceb380a4.png",
     "edition": "custom",
     "name": "三阿哥",
     "ability": "每个夜晚*，你可以染指一名与你临近的存活玩家。当染指了宠妃，她会恢复至被侍寝前的阵营和角色。（成功）当染指了当晚被皇上侍寝的女性角色或女皇，你死亡。（失败）若选择了：男性角色、齐妃、胧月、女性爪牙、太后，则此次染指失败。你可能会得知当晚染指是否成功。",
@@ -324,7 +324,7 @@
   },
   {
     "id": "zhenhuan_9",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-a7547d0499.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/a4efe62f81359adcde7979e7b60ddcf0cb36dac1d4b8aec23093f37e7428f995.png",
     "edition": "custom",
     "name": "叶澜依",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：你会将他起死回生（复活）。",
@@ -342,7 +342,7 @@
   },
   {
     "id": "zhenhuan_10",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-1805a0ae6b.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/c7035f3adce7a11e33fd8d707cfde4370dce7683228ce06fd79a01f2ff06c48b.png",
     "edition": "custom",
     "name": "敦亲王",
     "ability": "每个白天，你可以公开猜测一名玩家的角色并宣称「xx（猜测的角色）,给本王炫一个！」，如果你猜对，他醉酒至下一天黎明。",
@@ -359,7 +359,7 @@
   },
   {
     "id": "zhenhuan_11",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-b0805986c6.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/c396d2df357409b6229ac6eedee1064b0b25e31ae7f219a3beedcb44cb23b7f7.png",
     "edition": "custom",
     "name": "祺贵人",
     "ability": "每个白天，你可以公开猜测一名玩家的角色。如果猜对，在当晚会有一名玩家死亡。如果猜错，在当晚你死亡。",
@@ -376,7 +376,7 @@
   },
   {
     "id": "jianghu_yinyangshi12",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-621396a500.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/3315e2cd7a9b5b5abb128095e973608753f02f8016dd1cd7dd51aaca893a7cab.png",
     "edition": "custom",
     "name": "纯元皇后",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -393,7 +393,7 @@
   },
   {
     "id": "jianghu_yedaojiang13",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-de116b6367.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/78f3c21318bb6b560f341e6e3baa3bbd62643a0664c16dbe415270540ef47154.png",
     "edition": "custom",
     "name": "年羹尧",
     "ability": "当你得知你死亡时，你可以公开选择一名玩家：在当晚他会死亡。",
@@ -410,7 +410,7 @@
   },
   {
     "id": "jianghu_xuzuozhinan15",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-94a254e5fc.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/8bd7a0f9fe64322e13c23ade74c19a5b5658883cd466a95f624837358a8cc6a7.png",
     "edition": "custom",
     "name": "甄嬛",
     "ability": "当你将要在夜晚被恶魔杀死时，你不会死亡，这名恶魔死亡，然后你变成邪恶的女皇。",
@@ -430,7 +430,7 @@
   },
   {
     "id": "jianghu_yixiena124qi",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-f3720f4c94.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/6c3c788dc645eb2624549c122416aae153e7a231126eb804cd3731356379079a.png",
     "edition": "custom",
     "name": "胧月",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -443,7 +443,7 @@
   },
   {
     "id": "jianghu_yixiena12mei",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-461268b4a3.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/e362e2b348cc528fdcd30c87a56677f1d37559aea6a17c929572090746b4b98c.png",
     "edition": "custom",
     "name": "齐妃",
     "ability": "每个白天限一次，你可以念出「翠果，打烂他的嘴！」并选择一名玩家（与上个白天不同）：他在这个白天不可以说话。如果他说话了，他可能会被处决。",
@@ -455,7 +455,7 @@
   },
   {
     "id": "jianghu_jiajutumi4ng",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-e4249bc68c.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/a0ee7686d9d2c7cdae42e6b08d6ace88b8941c0a270fec246c5b7c9c7c1564a0.png",
     "edition": "custom",
     "name": "孙答应",
     "ability": "当狂徒死亡时，当晚你也会死亡。当你死亡时，所有镇民醉酒至下个黄昏。",
@@ -472,7 +472,7 @@
   },
   {
     "id": "jianghu_yue325du",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-b7282aecd6.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/e1fe597d3a6c5196b70ca3e2b1ee545525c3d203bb40b8e6f7026370b97329b8.png",
     "edition": "custom",
     "name": "狂徒",
     "ability": "你随时可能死亡。如果你“疯狂”地证明你是狂徒，你可能会被处决。",
@@ -486,7 +486,7 @@
   },
   {
     "id": "jianghu_xue45ji",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-595a40ac3f.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/8c5ab2ffe9d8c4dbdf446fc0cdcc2996d65cf81dbc0074d08d952fb72fbd6f85.png",
     "edition": "custom",
     "name": "华妃",
     "ability": "每个夜晚，你要选择一名玩家赐予一丈红：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -502,7 +502,7 @@
   },
   {
     "id": "jianghu_baimu235yao",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-66787a152b.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/fc13c0f3e826b45865233379077df4e03b8e31fa05dadac5d70a753a2092f9f9.png",
     "edition": "custom",
     "name": "安陵容",
     "ability": "每个夜晚，你会得知一个在场的女性角色。每个夜晚，你可以选择一个女性角色：她会中毒直到下个黄昏。",
@@ -520,7 +520,7 @@
   },
   {
     "id": "jianghu_jiutunt235ongzi",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-2a42da7ae0.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/7f3b4b74a43467171259a1abd9edeb2f9a2ec8f95a992c5d05447f2dc39a98de.png",
     "edition": "custom",
     "name": "苏培盛",
     "ability": "如果槿汐姑姑在场，她会转变为邪恶阵营且你和她会互相认识。[+1外来者]",
@@ -534,7 +534,7 @@
   },
   {
     "id": "jianghu_feitou5342man",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-5191e280a0.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/ac51c68721315d52a40ae83e9b09bab3307a7602b6e6e915e7427f1f975d3104.png",
     "edition": "custom",
     "name": "皇后",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成女皇。如果恶魔是太后，你发动能力时会变成太后。如果有其他女皇在场，你的能力失效。",
@@ -551,7 +551,7 @@
   },
   {
     "id": "jianghu_feitoum62346an",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-14e1609b1c.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/39a2f3c11007c6a0620c9151e24a4b9b6f6889580090c69ab263df546a229deb.png",
     "edition": "custom",
     "name": "宠妃",
     "ability": "每个夜晚，你要选择一名玩家（与上个夜晚不同）：当晚他不会因自身能力被唤醒。在宠妃的第三个夜晚，存活的恶魔会获得一个炸弹宝宝或狸猫宝宝。当晚，获得宝宝的恶魔要选择一名玩家携带这个宝宝：如果是炸弹宝宝，他死亡；如果是狸猫宝宝：宠妃死亡。[初始不在游戏中]",
@@ -576,7 +576,7 @@
   },
   {
     "id": "jianghu_baqi235dashe",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-fa2000b5ef.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/403b0a7240fe355c717db76a3abc634a8d62514c3c350073123e9227c581c586.png",
     "edition": "custom",
     "name": "皇上",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，在夜晚时，你可以选择一名女性角色侍寝：她变成邪恶的宠妃。",
@@ -594,7 +594,7 @@
   },
   {
     "id": "jianghu_dati523525angou",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-5eb77196a0.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/474b33cdd0b1f8ba8165dcefb2dd31fa0f36b7456500e7666d07175775fef5cf.png",
     "edition": "custom",
     "name": "太后",
     "ability": "每个夜晚*，你要选择两名玩家：他们可能会死亡。",
@@ -612,7 +612,7 @@
   },
   {
     "id": "jianghu_bor2352e",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-f0d716fab4.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/42e9855c104f91b638c79cbf15219e7b61f8f97ac327c735cc7742f9280adeca.png",
     "edition": "custom",
     "name": "回魂太上皇",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，上个白天所有与说书人私聊过的玩家之一会变成邪恶的皇上。",
@@ -629,7 +629,7 @@
   },
   {
     "id": "jianghu_datian523523523gou",
-    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/image-deac5fd8a1.png",
+    "image": "/scripts/assets/community-xue-ran-zhen-qiong-07280007/91544a159ef186845522daa9be353f41359b70c095c8fd35118b66174a2e96d0.png",
     "edition": "custom",
     "name": "女皇",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[初始不在游戏中]",

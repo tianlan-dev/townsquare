@@ -12,7 +12,6 @@
   "main": "App.vue",
   "scripts": {
     "build": "vue-cli-service build ./src/main.js",
-    "import:community-scripts": "node scripts/import-community-scripts.js",
     "start": "HOST=${APP_HOST:-0.0.0.0} PORT=${APP_PORT:?APP_PORT is required} node server/local-server.js",
     "postbuild": "node generate-sitemap.js"
   },

@@ -1,14 +1,21 @@
 [
   {
     "description": "",
-    "author": "Danny",
+    "author": "Dan",
     "name": "罂粟花开",
+    "logo": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/217b23ce142734a677565ed3237ea3cbf2dabf939c2b35de74cc93a44d705d08.png",
+    "phaseBackgrounds": {
+      "night": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/e27029ad330cfbcdf4abeff5faedbf2ec9a27b90fae1033fc76dddc4d530bcdb.png",
+      "dawn": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/f174d8cc042e8457f316325242a2afa251495ccbe88a837411f9eccbb322146a.png",
+      "day": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/fc4f2182743afd0ed4502b9a481725b470124bac548ded3cebc246eb7ee1a486.png",
+      "dusk": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/a95e235dbd2fdb3696622de17a71270fb2a1d7422c32f7dba5ade7a0d2261beb.png"
+    },
     "townsfolkName": "镇民",
     "id": "_meta",
     "tags": [
       "经典混合剧本"
     ],
-    "version": ""
+    "version": "3.0.0"
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -60,7 +67,7 @@
     "firstNight": 35
   },
   {
-    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔（干扰项）。",
     "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
@@ -131,7 +138,7 @@
     "firstNight": 0
   },
   {
-    "ability": "每个白天，你可以私下拜访说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
     "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
@@ -165,20 +172,21 @@
     "firstNight": 0
   },
   {
-    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
-    "id": "3_60",
+    "id": "farmerc28c5f53c",
     "firstNightReminder": "",
-    "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
-    "name": "贤者",
-    "otherNight": 43,
+    "otherNightReminder": "如果农夫在夜晚死亡，唤醒一名存活的善良玩家。对他展示“你是”信息标记和农夫角色标记，然后让他重新入睡。用农夫角色标记替换他此前的角色标记。",
+    "name": "农夫",
+    "otherNight": 95,
     "setup": false,
     "reminders": [],
     "remindersGlobal": [],
     "team": "townsfolk",
-    "firstNight": 0
+    "firstNight": 0,
+    "imageAlt": "farmer"
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
@@ -287,7 +295,7 @@
     "firstNight": 0
   },
   {
-    "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
+    "ability": "在你的首个夜晚，所有爪牙分别会得知三个不在场的角色。",
     "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "flavor": "",
@@ -389,6 +397,16 @@
     "remindersGlobal": [
       "是提线木偶"
     ],
+    "jinxes": [
+      {
+        "id": "poppygrowerbutton",
+        "reason": "当罂粟种植者死亡后，恶魔会知道谁是提线木偶，但提线木偶什么都不会知道。"
+      },
+      {
+        "id": "snitchbutton",
+        "reason": "提线木偶不会得知三个不在场的角色，如果提线木偶与告密者均在场，改为由恶魔额外得知三个不在场的角色。"
+      }
+    ],
     "team": "minion",
     "firstNight": 11
   },
@@ -423,26 +441,6 @@
     "setup": false,
     "reminders": [
       "死亡"
-    ],
-    "remindersGlobal": [],
-    "team": "demon",
-    "firstNight": 0
-  },
-  {
-    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community-ying-su-hua-kai-28c5f53c/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
-    "edition": "custom",
-    "flavor": "",
-    "id": "3_50",
-    "firstNightReminder": "",
-    "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
-    "name": "亡骨魔",
-    "otherNight": 32,
-    "setup": true,
-    "reminders": [
-      "死亡",
-      "保留能力",
-      "中毒"
     ],
     "remindersGlobal": [],
     "team": "demon",

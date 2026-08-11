@@ -4,7 +4,7 @@
     "name": "风起大漠",
     "version": "",
     "author": "Rocky & Yan & 男主角 & 寒酒 ",
-    "logo": "/scripts/assets/community-feng-qi-da-mo-ea390d61/logo-81b7f82e39.png",
+    "logo": "/scripts/assets/community-feng-qi-da-mo-ea390d61/3311a5f0be2e1e8486efcbd53eb2de86af9a3a70b988a2616c37524b0adbd2a2.png",
     "tags": [
       "全原创角色剧本",
       "国内"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-fb58e9b6dd.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/1eb2f0598e6bec4c16d91f9e0f68f09c6e53c2ed4168d1bbfa90ceb6e4456b0d.png",
     "firstNightReminder": "在你的首个夜晚，你要选择除你和旅行者以外的四个不同类型的角色，你会得知其中在场角色的数量。",
     "name": "大鸿胪",
     "team": "townsfolk",
@@ -22,7 +22,7 @@
   },
   {
     "id": "1_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-68aa778b8e.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/54b5c09314a31897c871bed321ba1e55ffe6a1d051229d328c43c881e9f9eebc.png",
     "firstNightReminder": "在你的首个夜晚，你会得知距离你最近和最远的邪恶玩家与你的距离之和。 如果与你邻近的玩家中有邪恶阵营，你得知的距离之和会 ±1。",
     "name": "太史令",
     "team": "townsfolk",
@@ -31,7 +31,7 @@
   },
   {
     "id": "2_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-46ca1f9ccf.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/3e1bc6a0aa9ef74e6186101c19d878457b8fec546e641df5e2e6c05160ad0b4f.png",
     "firstNightReminder": "每个夜晚，你要选择一名玩家成为诱饵。 当晚诱饵被其他玩家的能力首次选择或影响时，你会被唤醒得知两名玩家，其中一个是那名玩家。",
     "otherNightReminder": "每个夜晚，你要选择一名玩家成为诱饵。 当晚诱饵被其他玩家的能力首次选择或影响时，你会被唤醒得知两名玩家，其中一个是那名玩家。",
     "reminders": [
@@ -45,7 +45,7 @@
   },
   {
     "id": "3_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-20ea0f93ef.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/df1439ec0b3ba8b1acd78e0181b27efc11c8126c922e8f917b15d933f56072e4.png",
     "firstNightReminder": "每个夜晚，你要选择除你以外两个玩家，你会得知他们之中是否有非镇民玩家。 如果得知“是”，则你要与说书人猜拳；你若输了则失去能力，即使你中毒 / 醉酒。",
     "otherNightReminder": "每个夜晚，你要选择除你以外两个玩家，你会得知他们之中是否有非镇民玩家。 如果得知“是”，则你要与说书人猜拳；你若输了则失去能力，即使你中毒 / 醉酒。",
     "name": "斥候",
@@ -56,7 +56,7 @@
   },
   {
     "id": "4_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-3e1c4a9a38.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/a7db1f60dc39e7176e5774da537270e0bd26e31366f7518b08f8b6f059483f63.png",
     "firstNightReminder": "每个夜晚，你要选择一个外来者角色，你会得知他的邻近存活玩家是否有邪恶玩家。 如果该角色不在场，你得知的信息由说书人决定。 [+1 外来者]",
     "otherNightReminder": "每个夜晚，你要选择一个外来者角色，你会得知他的邻近存活玩家是否有邪恶玩家。 如果该角色不在场，你得知的信息由说书人决定。 [+1 外来者]",
     "setup": true,
@@ -68,7 +68,7 @@
   },
   {
     "id": "5_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-c842644852.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/cc50eebbcd3c0113f5e8fc5b24e263f7fc4632da1bd400dcd6d7724d5392cebb.png",
     "firstNightReminder": "每个夜晚，你要选择除你以外两名非旅行者玩家，你得知他们共有的一个能力描述关键词。 每局游戏限一次，你会得知错误的关键词。",
     "otherNightReminder": "每个夜晚，你要选择除你以外两名非旅行者玩家，你得知他们共有的一个能力描述关键词。 每局游戏限一次，你会得知错误的关键词。",
     "name": "巫祝",
@@ -79,7 +79,7 @@
   },
   {
     "id": "6_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-af9485dd7a.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/13ec0286dd19e5249b129945278d947a96fe8f3e0d04480599f8b77dfdad5e52.png",
     "firstNightReminder": "每个夜晚，你要选择一个善良角色和一个邪恶角色（与之前不同）。 在白天拜访说书人，你会得知两条关于这些角色的情报；若选择的角色不在场，你会得知该角色的错误情报。",
     "otherNightReminder": "每个夜晚，你要选择一个善良角色和一个邪恶角色（与之前不同）。 在白天拜访说书人，你会得知两条关于这些角色的情报；若选择的角色不在场，你会得知该角色的错误情报。",
     "reminders": [
@@ -93,7 +93,7 @@
   },
   {
     "id": "7_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-1ae25cd478.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/c320fa424d2e31a0360ee86243bcf1327b6c16848847d9eb56af573f59f353bd.png",
     "otherNightReminder": "每个夜晚*，你要选择一名存活玩家（与上一晚不同）； 如果与他邻近的两名存活玩家是善良的，这两名玩家当晚不会死亡。",
     "reminders": [
       "不会死亡"
@@ -105,7 +105,7 @@
   },
   {
     "id": "8_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-400f76fbdc.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/07cca8fcc8fcf911c2b13022a93a9cfcd4bded2989848b2a77e033982ddd7bad.png",
     "otherNightReminder": "每个夜晚*，你会得知当天天死亡玩家里不同角色类型的数量。",
     "name": "玉门都尉",
     "team": "townsfolk",
@@ -114,7 +114,7 @@
   },
   {
     "id": "9_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-915c2c50d5.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/6578158997cf3dc103e2c1d829756bf58f571abc12037185dce6bd43cbd36553.png",
     "otherNightReminder": "每个夜晚*，你会得知你当天发起提名时的发言有多准确。 （无关 / 有关 / 接近 / 完美）",
     "name": "说书先生",
     "team": "townsfolk",
@@ -123,7 +123,7 @@
   },
   {
     "id": "10_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-2bb8cb35cf.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/1d1669bd24786a0a4804f664a88207572d426e9c3f9b45c820ca3b9cecc1e7c3.png",
     "otherNightReminder": "每个白天限一次，公开邀请两名除你以外的存活玩家（与前一晚不同）留宿驿站。 如果他们都同意留宿，当晚他们不会死亡。 如果有邪恶玩家留宿，其中留宿的善良玩家立即醉酒，你会在当晚死亡，随后会有一名玩家会得知驿站遇袭。",
     "reminders": [
       "得知遇袭",
@@ -138,7 +138,7 @@
   },
   {
     "id": "11_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-a0e62a22cc.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/321df02c6060bbf848f998eac61a1c99baed7fdaf86f318fa39964e76a6689c5.png",
     "otherNightReminder": "当你提名并处决了一名存活玩家，当晚你会得知一条关于邪恶的信息； 如果处决的是爪牙，信息将更有价值。",
     "name": "绣衣使者",
     "team": "townsfolk",
@@ -147,7 +147,7 @@
   },
   {
     "id": "12_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-fa88d69f8e.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/4d0c07ea02cacee147f27cd628e9d996fc2571f7ef42498ebf6cc83f670c93d3.png",
     "otherNightReminder": "如果你死于恶魔或爪牙的能力，每个夜晚*，你要选择一名玩家：你会得知他的阵营。",
     "name": "边关戍卫",
     "team": "townsfolk",
@@ -156,7 +156,7 @@
   },
   {
     "id": "13_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-5feba79e90.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/34955999e08345b5483fac3775e7dcf21a819c7f5dd0b7ec6b0eb5388fb50882.png",
     "otherNightReminder": "你不知道你的能力是什么。 在游戏的首个白天，你可以拜访说书人并提供三个关键词，你的能力将包含这些关键词。 在第三个白天，你可以拜访说书人得知你的能力的完整描述。",
     "reminders": [
       "？"
@@ -168,7 +168,7 @@
   },
   {
     "id": "14_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-4f191c5e8d.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/fdbf105ec7ffe13b4a4869a88ab8915e2bb9c7ca2abccaebca27698760f028fb.png",
     "firstNightReminder": "你以为你是一个镇民，但其实你不是。 一名恶魔玩家得知落魄王子以为的镇民角色，并且他可以决定你获得的信息和通知。",
     "otherNightReminder": "你以为你是一个镇民，但其实你不是。 一名恶魔玩家得知落魄王子以为的镇民角色，并且他可以决定你获得的信息和通知。",
     "remindersGlobal": [
@@ -183,7 +183,7 @@
   },
   {
     "id": "15_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-b1f6d8081b.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/307aeea2d2db2bb8b592b597b2d7792677825768ad2ac0f5690bbb80a24e1039.png",
     "firstNightReminder": "在游戏的首个夜晚，你要选择左 / 右，你会秘密转变为与你邻近左 / 右存活玩家的阵营。 每个夜晚*，换选至另外一侧。 你不会中毒醉酒。",
     "otherNightReminder": "在游戏的首个夜晚，你要选择左 / 右，你会秘密转变为与你邻近左 / 右存活玩家的阵营。 每个夜晚*，换选至另外一侧。 你不会中毒醉酒。",
     "reminders": [
@@ -197,14 +197,14 @@
   },
   {
     "id": "16_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-95e9465cd8.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/bfd74c433745d646e2df4424abf963dc46239935c2238b1a3a906d89bb2d67b8.png",
     "name": "阴阳术士",
     "team": "outsider",
     "ability": "如果你死亡，一名恶魔玩家会获得一个不在场的爪牙能力。"
   },
   {
     "id": "17_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-dd92349830.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/90d6c4a11953fc85bafedd9884fc5359d3717d0be4fb4a5cce79c9316ac891c6.png",
     "firstNightReminder": "每个夜晚，你要选择一名除你以外的存活玩家（与之前不同），他醉酒直到下个黄昏，即使你已死亡。 如果你选择了邪恶玩家，当晚你不会造成醉酒且一名恶魔玩家获得你的能力。",
     "otherNightReminder": "每个夜晚，你要选择一名除你以外的存活玩家（与之前不同），他醉酒直到下个黄昏，即使你已死亡。 如果你选择了邪恶玩家，当晚你不会造成醉酒且一名恶魔玩家获得你的能力。",
     "reminders": [
@@ -218,7 +218,7 @@
   },
   {
     "id": "18_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-eda935813a.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/58fac10595897abc96df7a0e683421c4403fbd6861ad252cdb1cb08027e49c48.png",
     "reminders": [
       "种子"
     ],
@@ -228,7 +228,7 @@
   },
   {
     "id": "19_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-2e78f7059f.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/64c3eeb38e7fcc831c1e409d96d4eccefe911ebd8b736b74f4312ab41efe0109.png",
     "firstNightReminder": "在你的首个夜晚，你要选择一名玩家：他中毒并获取错误信息，且会被视为邪恶的沙魔。 随后每个夜晚，该能力会顺时针移动至下一位存活镇民玩家，直至其死亡。 当因你中毒的玩家死亡，你重获能力，随后会有一名善良玩家得知此事。",
     "otherNightReminder": "在你的首个夜晚，你要选择一名玩家：他中毒并获取错误信息，且会被视为邪恶的沙魔。 随后每个夜晚，该能力会顺时针移动至下一位存活镇民玩家，直至其死亡。 当因你中毒的玩家死亡，你重获能力，随后会有一名善良玩家得知此事。",
     "reminders": [
@@ -243,7 +243,7 @@
   },
   {
     "id": "20_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-ac4ae967f7.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/4ba76ab483d645c0c1c8202543cb693fd84ed108d4d08b8e42155d0f30f63a37.png",
     "firstNightReminder": "每个夜晚，你选择一名玩家，顺序循环触发以下效果： 中毒 / 发起提名死亡 / 必定死亡。 如果只有三名存活玩家，你失去此能力。",
     "otherNightReminder": "每个夜晚，你选择一名玩家，顺序循环触发以下效果： 中毒 / 发起提名死亡 / 必定死亡。 如果只有三名存活玩家，你失去此能力。",
     "reminders": [
@@ -259,7 +259,7 @@
   },
   {
     "id": "21_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-f04032d1eb.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/613c3376b2d24529fef4228876ce43a90260669ef3daaebea270acfeb89aaa76.png",
     "reminders": [
       "中毒"
     ],
@@ -270,7 +270,7 @@
   },
   {
     "id": "22_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-51f19f5d5b.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/4e8e2573e0238f7688026742a61dab14e2e59db7fa8687a3160fe265f633aa88.png",
     "firstNightReminder": "每个夜晚，你可以选择一名玩家，他成为质子且他得知此事， 如果质子死于处决，他的阵营落败。 如果外来者作为质子被处决，他的阵营不会因此落败，随后他的胜负反转，即使你已死亡。 [+1 外来者]",
     "otherNightReminder": "每个夜晚，你可以选择一名玩家，他成为质子且他得知此事， 如果质子死于处决，他的阵营落败。 如果外来者作为质子被处决，他的阵营不会因此落败，随后他的胜负反转，即使你已死亡。 [+1 外来者]",
     "reminders": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "23_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-05f4d7f3c3.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/dc51e8ef0e2a1698c5124c9242dc226fa98c77fbd0b78db3162be316fc77c315.png",
     "firstNightReminder": "每个夜晚，你要选择一名存活的非旅行者玩家（与上一晚不同），你获得他的能力直到下个黄昏。 如果他在下一个白天死于处决，你变成他的角色。 如果存活人数小于等于四人时恶魔被处决，你无法变成恶魔。",
     "otherNightReminder": "每个夜晚，你要选择一名存活的非旅行者玩家（与上一晚不同），你获得他的能力直到下个黄昏。 如果他在下一个白天死于处决，你变成他的角色。 如果存活人数小于等于四人时恶魔被处决，你无法变成恶魔。",
     "reminders": [
@@ -300,7 +300,7 @@
   },
   {
     "id": "24_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-383ec46b0d.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/76398582b7c7aca305199534084fec824d43a33af145dc3e0ecf49d3c91191d0.png",
     "otherNightReminder": "每个夜晚*，你要选择一名存活玩家：与他邻近的存活玩家可能死亡。 如果大于等于五名玩家存活时你死于处决，存活的落魄王子与你交换角色并成为邪恶的楼兰王，随后会有一名善良玩家得知楼兰王在场。 [+ 落魄王子]",
     "reminders": [
       "死亡",
@@ -314,7 +314,7 @@
   },
   {
     "id": "25_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-7cbb631f68.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/2c45e83c9d563b883797229b0dd6adaa71376463206690ec00cfde3192c29a1c.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。 每局游戏限一次，你会被善良玩家当作善良角色和善良阵营。 始终会有一名存活的善良玩家被当做邪恶的海市蜃楼，你可以决定其获得一条错误的通知。",
     "reminders": [
       "死亡",
@@ -329,7 +329,7 @@
   },
   {
     "id": "26_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-890651971f.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/439ad229bb3f84dc0e22af9f0bc6d929fd424b17e3cc66f766c920803866f99e.png",
     "firstNightReminder": "每个夜晚*，所有沙海响马同时醒来一起选择一名与沙海响马邻近的存活玩家：他死亡。 你可以要求在夜晚死亡，并选择一名玩家：他死亡。 [无爪牙在场，由你决定初始爪牙数量的玩家成为邪恶的沙海响马，± 任意外来者]",
     "otherNightReminder": "每个夜晚*，所有沙海响马同时醒来一起选择一名与沙海响马邻近的存活玩家：他死亡。 你可以要求在夜晚死亡，并选择一名玩家：他死亡。 [无爪牙在场，由你决定初始爪牙数量的玩家成为邪恶的沙海响马，± 任意外来者]",
     "reminders": [
@@ -344,7 +344,7 @@
   },
   {
     "id": "27_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-d073c86f1c.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/687513aeb538a1675f2fc849552c89fb1cf7ea97c26a7b2648236865ffb6d037.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。 如果当天有爪牙角色死亡，夜晚你额外行动一次。",
     "reminders": [
       "死亡"
@@ -356,7 +356,7 @@
   },
   {
     "id": "28_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-974ab1c60b.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/c2b7f614f14e17277054cce2f6574def08b758fff9a1554b530b160aeca44f52.png",
     "reminders": [
       "获得"
     ],
@@ -366,7 +366,7 @@
   },
   {
     "id": "29_fengqidamo",
-    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/image-b0d40a202f.png",
+    "image": "/scripts/assets/community-feng-qi-da-mo-ea390d61/47d0a5bb6af854c1c298b2229b7d410f4462747091c3eeb6a66f434c39b625c6.png",
     "name": "独奏家",
     "team": "fabled",
     "ability": "旅行者会被非旅行者的能力当作不在游戏中，但恶魔仍然可以选择杀死旅行者。"

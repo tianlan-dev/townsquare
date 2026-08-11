@@ -548,6 +548,7 @@ export default {
       }
       roles = this.sanitizeImageUrls(roles, sourceUrl);
       meta = this.sanitizeImageUrls([meta], sourceUrl)[0];
+      meta = this.sanitizeBackground(meta, sourceUrl);
       meta = this.sanitizePlayerAvatars(meta, sourceUrl);
       meta = this.sanitizePhaseBackgrounds(meta, sourceUrl);
       if (imageSource === "external") {
@@ -657,6 +658,30 @@ export default {
         cleanMeta.playerAvatars = playerAvatars;
       } else {
         delete cleanMeta.playerAvatars;
+      }
+      return cleanMeta;
+    },
+    sanitizeBackground(meta, sourceUrl = "") {
+      if (
+        !meta ||
+        typeof meta !== "object" ||
+        !meta.background ||
+        typeof meta.background !== "string"
+      ) {
+        return meta;
+      }
+      if (
+        meta.background.startsWith("data:") ||
+        meta.background.startsWith("blob:")
+      ) {
+        return meta;
+      }
+      const cleanMeta = Object.assign({}, meta);
+      const parsed = this.resolveImageUrl(meta.background, sourceUrl);
+      if (parsed && ["http:", "https:"].includes(new URL(parsed).protocol)) {
+        cleanMeta.background = parsed;
+      } else {
+        delete cleanMeta.background;
       }
       return cleanMeta;
     },

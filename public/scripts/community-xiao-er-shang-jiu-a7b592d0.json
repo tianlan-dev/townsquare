@@ -4,7 +4,7 @@
     "name": "小二，上酒！",
     "version": "",
     "author": "刘中奇",
-    "logo": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/logo-6a5725f89a.png",
+    "logo": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/f1456c10251f18aa4b86916480b0876de88b450e74e3a86f8d7d2639ff7c62f2.png",
     "tags": [
       "全原创角色剧本",
       "国内"
@@ -12,7 +12,7 @@
   },
   {
     "id": "ShenSuanMeng",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-8fdc8ab23d.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/b4f2e1a5daca220249995218dca8746b41d9a322f95f542f380d9f885060c0f0.png",
     "firstNightReminder": "在第一个夜晚，唤醒神算盟。对他用手势比划数字来表示他和所有邪恶玩家之间的最近距离之和。让神算盟重新入睡。",
     "name": "神算盟",
     "team": "townsfolk",
@@ -23,7 +23,7 @@
   },
   {
     "id": "EMei",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-3c57b7d6c4.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/6193c65bc284bcf8b7da6ac6f09b0731f08f262332a8128263d3f1567dc5cd45.png",
     "firstNightReminder": "唤醒峨眉，告知其一条信息作为残缺的秘密。",
     "otherNightReminder": "如果峨眉提名并处决了一名善良玩家，在峨眉的角色标记旁放置“揭露”标记。如果峨眉的角色标记旁有“揭露”标记，唤醒峨眉再告知其一条信息，并移除“揭露”标记。",
     "reminders": [
@@ -38,7 +38,7 @@
   },
   {
     "id": "GaiBang",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-57aa0218c2.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/697c0277c24ffea9c35adf17899af155a2bbea9f8e86cdb64b30656e7a398a59.png",
     "firstNightReminder": "在为首个夜晚进行准备时，将丐帮的“莲花落”提示标记放置在任意一名善良玩家的角色标记旁。在首个夜晚，唤醒丐帮，并指向标记有“莲花落”的那名玩家。让丐帮重新入睡。",
     "reminders": [
       "莲花落"
@@ -52,7 +52,7 @@
   },
   {
     "id": "TianJiGe",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-1568f0a508.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/429ebe40874f163d137a674d3a32c186cd580ff8da7196b286d841c00ce12733.png",
     "firstNightReminder": "在首个夜晚，唤醒天机阁，让其选择两名连坐的玩家，并在其角色标记旁放置“探查”标记。",
     "otherNightReminder": "唤醒天机阁，让其选择两名连坐的玩家，用点头或者摇头来告知是否选择了更多的邪恶玩家，移除之前的“探查”标记，并在新选择的玩家角色标记旁放置“探查”标记。",
     "reminders": [
@@ -68,7 +68,7 @@
   },
   {
     "id": "KongTong",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-00a5ea3d62.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/8b1c789f894b12a636a07552f32772a5f732f4a6fac49355e4805b29471d1be2.png",
     "otherNightReminder": "如果崆峒首次提名并处决了一名善良玩家，在魔典中间放置“七伤”标记。如果魔典中间有“七伤”标记，当晚不会有善良玩家死亡。在黎明时移除“七伤”标记",
     "reminders": [
       "七伤"
@@ -82,7 +82,7 @@
   },
   {
     "id": "HuaShan",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-96505f9397.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/1bdeb11cc76a6b622ee89b235c288293d6ee8b58b409e68b061aff4322b63b7e.png",
     "firstNightReminder": "唤醒华山，让其选择三名玩家（用手指向一名玩家），指向一个三名玩家均不为的角色类型；或者让其选择三个善良角色（指向角色列表），指向其中一个角色对应的玩家，如果都不在场，对华山摇头",
     "otherNightReminder": "唤醒华山，让其选择三名玩家（用手指向一名玩家），指向一个三名玩家均不为的角色类型；或者让其选择三个善良角色（指向角色列表），指向其中一个角色对应的玩家，如果都不在场，对华山摇头",
     "name": "华山",
@@ -95,7 +95,7 @@
   },
   {
     "id": "WuDang",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-2ef07e0b07.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/cb789adf9c5b5cfde25388b497f6676de547bf463040c1e2c17dbcb36d1518d0.png",
     "otherNightReminder": "唤醒武当，让其选择两个镇民角色，如果这两个角色都存活（存活的先决条件是在场），放置“太极”标记在其角色标记旁。",
     "reminders": [
       "太极"
@@ -109,7 +109,7 @@
   },
   {
     "id": "LiuShanMen",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-209001f96a.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/ebfd461818d1c9f3f564ebb6fbe3f298150b26894679c3e5c158c63b027dc7f0.png",
     "otherNightReminder": "在六扇门提名时，在对应的玩家标记旁放置“追查”标记。在夜晚时，唤醒六扇门，用点头和摇头来示意与有“追查”标记邻近的玩家中是否存在非镇民玩家。",
     "reminders": [
       "追查"
@@ -122,7 +122,7 @@
   },
   {
     "id": "ShaoLin",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-c6125eb408.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/17d964a47b811c59891078f719495ab3c9a0af8d99faafd1600466f89a07b829.png",
     "name": "少林",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人并依次得知：一条正确信息；一名中毒/醉酒玩家的角色；存活恶魔的角色；一名爪牙玩家和他的角色。[+1外来者]",
@@ -132,7 +132,7 @@
   },
   {
     "id": "LongMenBiaoJu",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-606ea3183a.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/fcb7b83a034c7dbaede6e5faead9e733ed4603103647d25db375adbbf8082e59.png",
     "firstNightReminder": "在为首个夜晚进行准备时，将龙门镖局的“东家”提示标记放置在任意一名非恶魔的角色标记旁。唤醒“东家”标记的玩家，展示“这个角色在场”和“龙门镖局”的角色标记。",
     "reminders": [
       "东家",
@@ -146,7 +146,7 @@
   },
   {
     "id": "TangMen",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-1ab904df7e.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/1b010e1d54cf821d482aabb3651a2a5db97f72ecfade8dc5a4c544acd96ad7a2.png",
     "reminders": [
       "中毒"
     ],
@@ -158,7 +158,7 @@
   },
   {
     "id": "GuanWaiHuJia",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-71616e769d.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/ad22d255c91aa71cfe6547ec504fc0562c277338fb09e033421776a792b71ef4.png",
     "otherNightReminder": "如果关外胡家在夜晚死亡，唤醒他，让他选择两名玩家，随后让他重新入睡。接着分别唤醒他选择的两名玩家，指向另一名玩家和他的角色。",
     "name": "关外胡家",
     "team": "townsfolk",
@@ -168,7 +168,7 @@
   },
   {
     "id": "ZhongYuanMiaoJia",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-314c501530.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/e775dff301f55efa80d7eaea8894243fdd2390d77b019654061d503ce1da5d56.png",
     "otherNightReminder": "如果中原苗家在夜晚死亡，让关外胡家代替其死去。同时唤醒中原苗家，指向一个恶魔伪装的角色。",
     "setup": true,
     "name": "中原苗家",
@@ -179,7 +179,7 @@
   },
   {
     "id": "QiTu",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-20d2051d59.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/6b953cedee9a22d57beb9c8b0a23e91e9d10840a32f9e7341a440f5dfcd984b5.png",
     "remindersGlobal": [
       "是弃徒",
       "报仇雪恨"
@@ -192,7 +192,7 @@
   },
   {
     "id": "XiaoYaoGu",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-fb0ca401d1.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/3a663d971771eec547b6ba0e8d73fe6e1480963b94b60dbc699a61d793190de6.png",
     "reminders": [
       "醉酒"
     ],
@@ -203,7 +203,7 @@
   },
   {
     "id": "XiaKeDao",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-008ff083e4.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/8b7cdce373c6e3a00cafebeed48faf62bdcdcfa06b5ef612db27b2a7ceadd866.png",
     "reminders": [
       "请柬"
     ],
@@ -214,7 +214,7 @@
   },
   {
     "id": "YiPinTang",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-db103e3254.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/867fb73327eefd1acc82b35a3b4be1e5a1b780b5cc7c2b14288994397fd64227.png",
     "otherNightReminder": "如果白天一品堂参与投票的玩家没有被处决，或者他没有投票，唤醒恶魔，展示“该角色的能力对你生效”和一品堂角色标记，让其选择一名玩家，在其角色标记旁放置“中毒”提示标记。",
     "reminders": [
       "中毒",
@@ -228,7 +228,7 @@
   },
   {
     "id": "BaiXiaoSheng",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-4a67432e30.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/454ee70dc6284cc7b491282d7e252886a639bc7c59f6c3414d2b443e387b668f.png",
     "reminders": [
       "猜测正确"
     ],
@@ -239,7 +239,7 @@
   },
   {
     "id": "WuDu",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-4eee03064f.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/b66739feb1fefe996e3e9977182d73f5cd4466f47402c6ea4824c4821d0a9588.png",
     "otherNightReminder": "如果五毒提名了一个玩家，将在他的角色标记旁放置“中蛊”提示标记，如果他还死于处决，将“中蛊”标记放在他邻近的善良玩家边。在夜晚时，唤醒标记有“中蛊”的玩家，在其角色标记旁边放置“中毒”标记，并且给五毒展示他们的角色标记。",
     "reminders": [
       "中蛊",
@@ -254,7 +254,7 @@
   },
   {
     "id": "GuSuMuRong",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-08d6de0341.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/bab2a16dad318113a0a0439889101d39864d2a73e39e8730610f65ea05d08db7.png",
     "otherNightReminder": "唤醒姑苏慕容，告知其一个角色类型，让他选择一个对应的角色，如果该角色不在场，并且将慕容的角色标记替换为他选择的角色。",
     "reminders": [
       "死于处决"
@@ -267,7 +267,7 @@
   },
   {
     "id": "QingYiLou",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-794a8cf592.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/6f2e2bd2996c18e906800e5f43bb467b88b3e1e0ddb9dc4da66d87d1de6ebe6c.png",
     "otherNightReminder": "如果青衣楼死于处决，在其角色标记旁放置“追杀”提示标记。在夜晚时，如果其角色标记旁有“追杀”提示标记，唤醒青衣楼，让其选择一名玩家，在其角色标记旁放置“死亡”标记。",
     "reminders": [
       "追杀",
@@ -281,7 +281,7 @@
   },
   {
     "id": "MingJiao",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-5e38f9e978.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/3ba76979813a738a622fcf82c1d7946d38a08e5a675334296f89aeeb6cf1d56f.png",
     "firstNightReminder": "在首个夜晚，唤醒明教，让其选择“正确”或者“错误”，将对应的提示标记放在明教的角色标记旁。",
     "otherNightReminder": "其他夜晚，唤醒明教，让其选择一名玩家，在其角色标记旁放置“死亡”，让明教重新入睡。",
     "reminders": [
@@ -298,7 +298,7 @@
   },
   {
     "id": "WuMing",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-5f6fbd34b5.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/8792cc0a5fd7b6eaba040776db9efda98c232ca1b67cec3e3e30fb36a0de8bc9.png",
     "firstNightReminder": "在首个夜晚，唤醒无名，让其选择一名玩家和一个善良角色，如果该角色不在场，在该玩家的角色标记旁放置“拥有能力”。唤醒放置：“拥有能力”标记的玩家，展示“该角色的能力对你生效”，“无名”角色标记和无名选择的善良角色的标记。",
     "otherNightReminder": "其他夜晚，唤醒无名，让其选择一名玩家，在其角色标记旁放置“死亡”。如果上个夜晚无名选择的角色在场，让无名重新选择一名玩家和一个善良角色，如果该角色不在场，在该玩家的角色标记旁放置“拥有能力”，让无名重新入睡。",
     "reminders": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "RiYueShenJiao",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-6f0b115607.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/8942cb172c3ead68cbd22650029101e02e8d804d821ed4bd3dc541da59f7aebd.png",
     "otherNightReminder": "如果日月神教的角色标记旁有“行动两次”提示标记，唤醒日月神教，让其选择两次；如果日月神教的角色标记旁有“必定死亡”提示标记，将“死亡”提示标记放置到该玩家的角色标记旁，本次死亡不能通过任何方式来防止",
     "reminders": [
       "行动两次",
@@ -330,7 +330,7 @@
   },
   {
     "id": "TianLongJiao",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-0869d73b2d.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/da9bdeb1f991bea23b8820f4dee4e732d811cf23206b168722ff2efa1aa66a0b.png",
     "firstNightReminder": "首个夜晚，唤醒天龙教，指向所有的外来者玩家，并且在他们的角色标记旁放置“傀儡”提示标记，但是不要告知天龙教他们的角色，让天龙教选择其中之一，在他顺时针方向上最近的镇民角色标记旁放置“中毒”标记。",
     "otherNightReminder": "如果天龙教选择的玩家死于处决，展示“傀儡”提示标记，并且再次让他做出选择。其他夜晚，唤醒天龙教，让其选择一名玩家，在其角色标记旁放置“死亡”，让天龙教重新入睡。",
     "reminders": [
@@ -348,7 +348,7 @@
   },
   {
     "id": "MeiDaoWang",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-a7c094cc70.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/00452b9bcb37553dac0b8a2761b6ec5dcafb23422058525a6c07884c89fa8b77.png",
     "name": "美刀王",
     "team": "traveler",
     "ability": "你可以选择代替一名异性被处决。",
@@ -356,7 +356,7 @@
   },
   {
     "id": "KuTouTuo",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-557d5e4934.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/107d60da839cbf5744f9bba128be57df2b9c9e9d99824306901882cde583ed46.png",
     "name": "苦头陀",
     "team": "traveler",
     "ability": "每个黎明，你要选择一名玩家：他只能通过手势或者外语进行发言，但是你必须帮他翻译。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "LuDingGong",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-ba868953e3.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/16dee5364fcf4aba4efc83be0448af033b7b2a8a9d1a15c38589d437a77c0a95.png",
     "name": "鹿鼎公",
     "team": "traveler",
     "ability": "每个白天，你可以公开选择一名玩家：你和他猜大小，如果你获胜，你可以提出一个合理的要求，他必须选择满足或者死亡。",
@@ -372,7 +372,7 @@
   },
   {
     "id": "ShuoBuDe",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-5e5d946f7a.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/f97e1cf8f4665b3348deca0bcff65890ffbb28f71130c4037a108a5e7c098033.png",
     "name": "说不得",
     "team": "traveler",
     "ability": "每个白天，你可以驳回一次提名。",
@@ -381,7 +381,7 @@
   },
   {
     "id": "BaoBuTong",
-    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/image-0b1977370b.png",
+    "image": "/scripts/assets/community-xiao-er-shang-jiu-a7b592d0/8f8f7a3028fbed41427105529967bc51165253c8212c8c014b084ce8d33e4dfc.png",
     "name": "包不同",
     "team": "traveler",
     "ability": "每局游戏限一次，提名阶段开始后，你可以公开选择一名玩家：仅有你与他可以发言，三分钟后，所有玩家要表决：你们中谁被处决。（平局则他被处决）",

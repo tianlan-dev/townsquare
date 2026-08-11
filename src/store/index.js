@@ -15,6 +15,7 @@ import {
 } from "../playerAvatars";
 import {
   DEFAULT_PHASE_BACKGROUNDS,
+  PHASE_BACKGROUND_KEYS,
   normalizePhaseBackgrounds,
   phaseBackgroundsToArray,
 } from "../phaseBackgrounds";
@@ -73,7 +74,6 @@ const toggle =
   };
 
 const PHASE_DAY = 2;
-const PHASE_DUSK = 3;
 const phaseNames = ["夜晚", "黎明", "白天", "黄昏"];
 
 const normalizePhaseIndex = (phaseIndex) => {
@@ -131,16 +131,23 @@ const defaultPlayerAvatarFor = (edition, gender, isImageOptIn = false) => {
 };
 
 const phaseBackgroundsFor = (edition, isImageOptIn = false) => {
-  const scriptBackgrounds = normalizePhaseBackgrounds(
-    edition && edition.phaseBackgrounds,
+  const scriptBackgrounds = Object.fromEntries(
+    Object.entries(
+      normalizePhaseBackgrounds(edition && edition.phaseBackgrounds),
+    ).filter(([, background]) =>
+      isAllowedPlayerAvatarUrl(background, isImageOptIn),
+    ),
   );
-  const backgrounds = { ...DEFAULT_PHASE_BACKGROUNDS };
-  Object.entries(scriptBackgrounds).forEach(([phase, background]) => {
-    if (isAllowedPlayerAvatarUrl(background, isImageOptIn)) {
-      backgrounds[phase] = background;
-    }
-  });
-  return phaseBackgroundsToArray(backgrounds);
+  if (PHASE_BACKGROUND_KEYS.every((phase) => scriptBackgrounds[phase])) {
+    return phaseBackgroundsToArray(scriptBackgrounds);
+  }
+
+  const scriptBackground = edition && edition.background;
+  if (isAllowedPlayerAvatarUrl(scriptBackground, isImageOptIn)) {
+    return PHASE_BACKGROUND_KEYS.map(() => scriptBackground);
+  }
+
+  return phaseBackgroundsToArray(DEFAULT_PHASE_BACKGROUNDS);
 };
 
 const clean = (id) => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");

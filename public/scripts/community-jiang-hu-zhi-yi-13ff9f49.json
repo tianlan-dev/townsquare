@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "江户志异",
     "version": "",
-    "logo": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/logo-7c3e522672.png",
+    "logo": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/b1f8d4952bca2ec796d8dee6bf97a0cea12f816e1f07a0d0f133a61d9c8c10e7.png",
     "author": "Tati罗老师桌游&瞎技霸玩·桌游吧",
     "description": "江户志异",
     "townsfolkName": "镇民",
@@ -23,7 +23,7 @@
   },
   {
     "id": "jianghu_hanghaijia",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-e32adb7695.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/4e75707a286678e2c3462ef8fe33226b383a66e8ab2b53dec131741654d8d1ad.png",
     "edition": "custom",
     "name": "航海家",
     "ability": "提名阶段结束时，除你以外的所有玩家可以投票选择一名玩家：你获得他的能力，直到下个黄昏。如果无人投票或者平票，你获得顺时针方向下一位玩家（每晚顺延）的能力，直到下个黄昏。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "jianghu_nulizhu",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-e834795760.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/b7475f173d2571a0b21bb8e6e22c6557b68ad791e101a97f89809ea67ddaaefe.png",
     "edition": "custom",
     "name": "奴隶主",
     "ability": "每局游戏限一次，提名阶段结束时，如果没有玩家标记被处决，你可以选择一名玩家：他被处决。",
@@ -55,7 +55,7 @@
   },
   {
     "id": "jianghu_gongshi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-653bf61d7d.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/3a1850a112761d2f5152cddf7de68306424111cc75c08f5a0c966f7894e4305a.png",
     "edition": "custom",
     "name": "公使",
     "ability": "每个白天，你可以邀请一位玩家与你一起拜访说书人：你会得知他的角色。",
@@ -68,7 +68,7 @@
   },
   {
     "id": "jianghu_wunv",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-c58f4a13b2.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/73ac580badc6155ccde8979c4ac229e5138123a15a529ba4e47b468dea31f269.png",
     "edition": "custom",
     "name": "巫女",
     "ability": "在你的首个夜晚，你会得知两个在场角色。每个夜晚*，你要选择除你以外的两名玩家：你会得知他们之中是否有你得知的角色。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "jianghu_tingzhong",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-3ae6060364.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/fbb36aa2ae34039974bc219917dda454f9dd5309f8cf211fd3c2e3f8f6aa54c4.png",
     "edition": "custom",
     "name": "町众",
     "ability": "在你的首个夜晚，你会得知三个善良角色：其中有且只有一个不在场。每局游戏限一次，在白天时，你可以私下询问说书人猜测不在场的角色，若你猜对，你会在当晚变成该角色。",
@@ -99,7 +99,7 @@
   },
   {
     "id": "jianghu_langren",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-405a87eca3.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/64dc4274f279dd2db0c7d4293e7eacfbe387c7cfaeac4e08aedd096c77d50b8a.png",
     "edition": "custom",
     "name": "浪人",
     "ability": "每个夜晚， 你会得知与你邻近的存活玩家中有几种角色类型。[+1外来者]",
@@ -113,7 +113,7 @@
   },
   {
     "id": "jianghu_daming",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-1ba3aed34a.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/aa059b57012e1dc33dee8e78a20735d87b7105708be65c2608f9750f21feb68f.png",
     "edition": "custom",
     "name": "大名",
     "ability": "每个夜晚，你会得知恶魔左边或右边一名玩家的阵营（每晚得知对应方向的下一名玩家）。",
@@ -130,7 +130,7 @@
   },
   {
     "id": "jianghu_kuileishi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-e5168e003c.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/bd0f47646ecbb37d622e05509836c2441c05cb48362f139f65aa00378e14267a.png",
     "edition": "custom",
     "name": "傀儡师",
     "ability": "每个夜晚，你可以选择一名玩家：创造一个他的傀儡，当晚任何使用自身能力选择他的其他玩家，会改为选中傀儡作为替代。在黎明时，如果你的傀儡成功在当晚生效，你的傀儡损坏，你失去能力。每个白天，你可以私聊说书人恢复你的能力：如果傀儡是损坏的，你会得知它被修复并可以继续使用；如果傀儡在之前未发动效果，你会得知它损坏。",
@@ -149,7 +149,7 @@
   },
   {
     "id": "jianghu_dumai",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-421ee1ed04.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/88a254fea6741bb40f0c20d323f56db1672cc951fd0f7067ee7b0cc54acd0f4c.png",
     "edition": "custom",
     "name": "读卖",
     "ability": "每个白天，你可以私下询问说书人以得知一条关于邪恶阵营的零碎信息。",
@@ -163,7 +163,7 @@
   },
   {
     "id": "jianghu_renzhe",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-d6a395fa95.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/8732030a1320187ff647aedca548213ae44e01a69e64c5200b2acffb469b52e8.png",
     "edition": "custom",
     "name": "忍者",
     "ability": "每个夜晚*，你可以选择一名未以此法选择过的玩家：如果他是镇民，你获得他的能力，直到下个黄昏。否则你中毒。",
@@ -182,7 +182,7 @@
   },
   {
     "id": "jianghu_huahuoshi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-00b829921d.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/d871e0d7d3067c1d81027220570364d60c1c443eb546b0a499badf73531243d5.png",
     "edition": "custom",
     "name": "花火师",
     "ability": "每个夜晚*，你可以选择一名除你以外的玩家：如果他是善良的，今晚任何玩家使用自身能力选择你们之一作为目标时，改为选中另一名玩家。",
@@ -199,7 +199,7 @@
   },
   {
     "id": "jianghu_beimianwushi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-4fdf4664d1.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/c3584dda16f27baca8b1eef745b8e3b5736fdaab2d76bc359996ad060385a0ba.png",
     "edition": "custom",
     "name": "北面武士",
     "ability": "每个夜晚*，你要选择一名除你以外的玩家：如果他是镇民，他不会在今晚死亡，如果你死亡，他也死亡。",
@@ -216,7 +216,7 @@
   },
   {
     "id": "jianghu_yiji",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-8eb4a7deca.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/73da148319e5d385dbc8d7051d6b187ad08f627923edf7efed93e09c518989e7.png",
     "edition": "custom",
     "name": "艺伎",
     "ability": "每个夜晚*，你要选择一名未以此法选择过的玩家：他醉酒直到下个黄昏。",
@@ -234,7 +234,7 @@
   },
   {
     "id": "jianghu_yaoshi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-f75cba4d1a.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/74012644d21520f270422cf1dd5066251f44e9c1359d1eef7b67e7bbaa4c5561.png",
     "edition": "custom",
     "name": "药师",
     "ability": "每个夜晚*，你要选择一名玩家：移除他受到的醉酒和中毒影响。如果你两次选择同一名清醒健康的玩家：他死亡。你的能力对恶魔无效。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "jianghu_yinyangshi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-87e1e9730f.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/e193fa04876eac44ff416c44670e985bf7a85994e0eb691e28fda2053813ec91.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果他是爪牙，他失去能力。",
@@ -269,7 +269,7 @@
   },
   {
     "id": "jianghu_yedaojiang",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-a5a1c6cee2.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/270779b52c7d44d13aee996d9ed3b7cca20a432b5b87ebbbe040f06109b18adc.png",
     "edition": "custom",
     "name": "冶刀匠",
     "ability": "在你提名并处决了一名玩家后，你会在当晚得知他的角色。你不会中毒或醉酒。",
@@ -286,7 +286,7 @@
   },
   {
     "id": "jianghu_xuzuozhinan",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-e97f29f0ce.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/5ecb5cd312fd1035e864bbb7efdbf30abcc2c08e58c1a6e81b772f92339f2620.png",
     "edition": "custom",
     "name": "须佐之男",
     "ability": "每个夜晚，你要选择两名存活玩家：他们中的一名玩家在明天白天发起的提名的投票无效。",
@@ -303,7 +303,7 @@
   },
   {
     "id": "jianghu_yixienaqi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-20632f1342.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/495ea718d9fb13c92c1a44cc964afbf2a8b8e92157644b0563bc85453620a7e2.png",
     "edition": "custom",
     "name": "伊邪那岐",
     "ability": "每个夜晚，你要选择一名玩家：如果他是邪恶的，你转变为邪恶阵营，你和伊邪那美都失去能力，即使你已死亡。如果游戏结束时你和伊邪那美都是善良的：你们落败。[+伊邪那美]",
@@ -324,7 +324,7 @@
   },
   {
     "id": "jianghu_yixienamei",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-317b183167.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/b5cefc1799255ee39cbfe5dbe87ce6a1ff29e9e0b3bad8673584779d009e10b6.png",
     "edition": "custom",
     "name": "伊邪那美",
     "ability": "每个夜晚，你要选择一名玩家：如果他是邪恶的，你转变为邪恶阵营，你和伊邪那岐都失去能力，即使你已死亡。如果游戏结束时你和伊邪那岐都是善良的：你们落败。[+伊邪那岐]",
@@ -345,7 +345,7 @@
   },
   {
     "id": "jianghu_jiajutuming",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-bcfe6ae72f.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/ce43ffed588f571e604ad262b47d4f6171227fcddf2d04459b5e51f82b437f71.png",
     "edition": "custom",
     "name": "加具土命",
     "ability": "你以为你是一个镇民角色，其实你不是。离你最远的镇民玩家醉酒，即使你已死亡。如果那名玩家死亡，你会在当晚变成你以为的那个角色。",
@@ -363,7 +363,7 @@
   },
   {
     "id": "jianghu_yuedu",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-cd7d01c959.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/d318394ad8fa6df273a2529d39fe877903b1367598c963a9c7980efda8116933.png",
     "edition": "custom",
     "name": "月读",
     "ability": "如果你被镇民的能力选中或影响，你会被当作邪恶阵营、爪牙角色或恶魔角色，你会在能力生效后变为天照，但你还是会以为自己是月读。",
@@ -380,7 +380,7 @@
   },
   {
     "id": "jianghu_tianzhao",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-28922bfbf9.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/dadb3f05d52bf5f439b63a1193c325aa29ff26b5c62f35a51df5ac6ed96dc275.png",
     "edition": "custom",
     "name": "天照",
     "ability": "恶魔的负面能力对你无效。如果恶魔选中你，你会在能力生效后变为月读。[初始不在游戏中]",
@@ -397,7 +397,7 @@
   },
   {
     "id": "jianghu_xueji",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-0cb95241f6.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/ab1aeca034f8f35709e2838db893206a45620575ac465d2ffb63d9fd7be3e4e5.png",
     "edition": "custom",
     "name": "雪姬",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：他被冰封，当晚他不会被唤醒，明天白天他不能提名、被提名以及投票。说书人会在黎明宣布被冰封的玩家。",
@@ -417,7 +417,7 @@
   },
   {
     "id": "jianghu_baimuyao",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-91d8952228.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/732ed5f04b8fbc0034e707c55b85eb4ac6310b44e07fa8ef4dfb40bba95db557.png",
     "edition": "custom",
     "name": "百目妖",
     "ability": "每个夜晚， 你要选择两名玩家：当你累计选择过四个不同的镇民玩家后， 你变成一个不在场的恶魔。你不与其他爪牙与恶魔互认。 [-1外来者]",
@@ -434,7 +434,7 @@
   },
   {
     "id": "jianghu_jiutuntongzi",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-8942d0d417.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/2c0887c222c518ccffdc9e25c4e924d22a1d232f5e833fc11dbe9227fc17bad8.png",
     "edition": "custom",
     "name": "酒吞童子",
     "ability": "在你的首个夜晚，你获得等于邪恶玩家数量的酒。每个夜晚，你可以选择若干数量的玩家，消耗对应数量的酒，他们醉酒直到下个黄昏。酒用尽时，你失去能力。",
@@ -456,7 +456,7 @@
   },
   {
     "id": "jianghu_feitouman",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-3cadcf8f84.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/78c2ea949632064c0e14f92ac5a8839c357a77a2b20c2be0393a0c829469a3e7.png",
     "edition": "custom",
     "name": "飞头蛮",
     "ability": "每个夜晚*，你的头颅会飞到你左侧下一名存活镇民身上：他中毒。每局游戏限一次，在夜晚时*，你可以收回头颅，头颅目前所在的玩家死亡，然后你失去能力。",
@@ -475,7 +475,7 @@
   },
   {
     "id": "jianghu_baqidashe",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-5ee5d59964.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/5b7afff4b393b1eb1063168fdd7df85f7707c874dbea42bbb915b25fb41003a1.png",
     "edition": "custom",
     "name": "八岐大蛇",
     "ability": "每个夜晚， 你要选择一名玩家：他在下个夜晚死亡，如果他在明天白天被处决，之后你死亡时，一名存活的爪牙变成八岐大蛇。",
@@ -493,7 +493,7 @@
   },
   {
     "id": "jianghu_bore",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-30c4956c94.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/c0948f9a11250654e6f9dc39922fb44e16eb717cc380575b75a8db3eb968f656.png",
     "edition": "custom",
     "name": "般若",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场，然后你要选择是否让所有外来者互相认识，你可以与外来者一同互认。每个夜晚*，你要选择一名玩家：他死亡。若白天有外来者死亡，你要额外选择一名玩家：他死亡。[+1或+2外来者]",
@@ -511,7 +511,7 @@
   },
   {
     "id": "jianghu_datiangou",
-    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/image-02a77a99a4.png",
+    "image": "/scripts/assets/community-jiang-hu-zhi-yi-13ff9f49/df131f51705bbcb175116e32c64363aabcb7ed94b51490ac754d483abff6a487.png",
     "edition": "custom",
     "name": "大天狗",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，如果你以这种方式杀死了自己，你要选择一名玩家：他变成邪恶的大天狗，然后一名存活的爪牙失去能力，即使你已死亡。",

@@ -4,16 +4,16 @@
     "name": "仲夏夜之梦",
     "version": "1.1.1",
     "author": "太一",
-    "logo": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/logo-14851c7e24.png",
+    "logo": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/a738dd2a39d9608f5a41b6fd7d2cd0e98328418023a9e1291828df5b5bcddd95.png",
     "playerAvatars": {
-      "male": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/player-avatar-male.png",
-      "female": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/player-avatar-female.png"
+      "male": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/128b6c3139ffb29f3d97f1c1936ca8800f5863e92fef70b30ad1b796b910effa.png",
+      "female": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/722040ce642af3afb17fb491e298fa918dbe329e9a4ed9021db43fd07becad54.png"
     },
     "phaseBackgrounds": {
-      "night": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/phase-background-night.png",
-      "dawn": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/phase-background-dawn.png",
-      "day": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/phase-background-day.png",
-      "dusk": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/phase-background-dusk.png"
+      "night": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/7b8376e55fdc1ecc3c063c705e56465971a32bc64e63066c79c7ae6f46030628.png",
+      "dawn": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/3c1cf738771e2abf66d281c1d06d8fc741bb3538f179a3a88918c6dc9860b130.png",
+      "day": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/8029dad669269e0eff56ccc8bb78090b2e12280d1c104435625788d50f02d534.png",
+      "dusk": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/e76dba31b65c61401984381c418bb4f503d29543a1dd2e8121f22522ffa3c879.png"
     },
     "tags": [
       "部分原创角色剧本",
@@ -22,7 +22,7 @@
   },
   {
     "id": "_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-8ac36c26cc.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/91f6b274214194b113b0646d279e61fcfcaa6f2deb2227405a8442ef0ad0fdc6.png",
     "reminders": [
       "失去能力"
     ],
@@ -34,7 +34,7 @@
   },
   {
     "id": "1_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-7064541a9a.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/5f8e1acb8aadcdd9556e448a0fd46ae6d2dc91ffb1ee6722034f067d8d348b27.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -48,7 +48,7 @@
   },
   {
     "id": "2_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-51cd7626b1.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -64,7 +64,7 @@
   },
   {
     "id": "22_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-0fc558342d.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/ab680d8b083c6f325599862752966a8ebd01de3b68f8fb5b6b2ad0cb7e2e2150.png",
     "firstNightReminder": "调香师可以摇头或指向一名玩家或指向一个邪恶角色。如果他这么做，则唤醒那名玩家，告知其调香师在场。如果选择的角色不在场，无事发生。",
     "otherNightReminder": "调香师可以摇头或指向一名玩家或指向一个邪恶角色。如果他这么做，则唤醒那名玩家，告知其调香师在场。如果选择的角色不在场，无事发生。",
     "reminders": [
@@ -81,7 +81,7 @@
   },
   {
     "id": "48_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-81cce3a460.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/cdef4dbd159d46ab7d8ca9af146f2481204d4dfe61a8bef936c9282a99dd0d40.png",
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "name": "筑梦师",
@@ -94,7 +94,7 @@
   },
   {
     "id": "60_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-bcc88391d3.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
     "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "name": "牧师",
@@ -107,7 +107,7 @@
   },
   {
     "id": "12_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-cae98400a1.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/a54bde4fb85205665bf5031a4c8de00dfb32918922af6d38743934d888980ec7.png",
     "otherNightReminder": "如果游歌者在白天公开选择了，唤醒并告知他此刻场上因他醉酒的人数。",
     "reminders": [
       "醉酒"
@@ -121,7 +121,7 @@
   },
   {
     "id": "19_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-9dd1c3e0f5.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/076d63de5259509f7ce60b7422e3380356da98121ce0992e3af54459e3b18348.png",
     "otherNightReminder": "如果他在白天公开宣读了，唤醒他并告知他“是”或“否”。",
     "reminders": [
       "真新闻",
@@ -136,7 +136,7 @@
   },
   {
     "id": "3_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-d2998ae1f5.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/fb371574f23a94123afcbc4cbfcfa3cf4f1333ecadf24cb768d3d3bbc05501fc.png",
     "otherNightReminder": "如果“探险者”存活，告知猫猫探险队一名与“探险者”阵营相同的玩家。",
     "reminders": [
       "探险者"
@@ -150,7 +150,7 @@
   },
   {
     "id": "11_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-06166f03c2.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/55f7f8d18386d575b84730c04b715e5e9152b0df9e68c0879a461bc9eaadaddf.png",
     "otherNightReminder": "唤醒女武神，告诉他哪些玩家将要死亡。",
     "reminders": [
       "死亡"
@@ -162,7 +162,7 @@
   },
   {
     "id": "14_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-716571ba66.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/c63c5728208d8ae71b42c397688185d654caf0a7c15f4b0164fba7733bacf19a.png",
     "otherNightReminder": "如果需要，唤醒他。此行动顺序为提示性，不代表祈愿妖精必须在此时行动，具体以说书人给出的能力为准。ps：一般信息型能力在所有击杀型能力后面。",
     "reminders": [
       "？"
@@ -179,7 +179,7 @@
   },
   {
     "id": "50_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-3e4f134f69.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/75d6f1934e028c8eecf62fe95db962b45fc3aac6a70ea2546f2148e9bf45ea90.png",
     "otherNightReminder": "如果死亡唤醒他，告知他所有类型的玩家（除旅行者）各一名。如果他被标记了“醉酒”，你可以告知他错误信息。",
     "reminders": [
       "被得知",
@@ -194,7 +194,7 @@
   },
   {
     "id": "63_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-40b1af5bea.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/2eafee175a8514e24c4370d759a67409e7b3b52397f61885dc46fed4c1cd973d.png",
     "firstNightReminder": "唤醒一名爪牙，告知他牛仔在场。",
     "otherNightReminder": "如果“发起提名”被放置在场上，唤醒牛仔",
     "reminders": [
@@ -212,7 +212,7 @@
   },
   {
     "id": "45_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-70a275fe2f.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/050c6044d11b0b18b1e37f3984c44e3dbb86c30a71a23751d6d7cc4761f0b5f8.png",
     "reminders": [
       "罢黜（醉酒）"
     ],
@@ -224,7 +224,7 @@
   },
   {
     "id": "58_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-a6e0825a41.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/0aba06434f0dc526c4a5eb6b80ec639b04cb42596dc494b0ab6b4153b60fa362.png",
     "reminders": [
       "“他”"
     ],
@@ -236,7 +236,7 @@
   },
   {
     "id": "17_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-79d5bdf529.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/94cc964f01cef05b8101c799c2fabf2379b9c1619db8210fb4337f4ed7d1b349.png",
     "reminders": [
       "舔狗替死"
     ],
@@ -248,7 +248,7 @@
   },
   {
     "id": "13_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-dfd87385b1.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/795a92159de6fdf08836de621de3fad40821bc038b84cf1c4c8167a2b5e77384.png",
     "otherNightReminder": "如果心上人死亡，会有一名玩家立刻醉酒。如果你还没有让这件事情发生，那么现在为任意一位玩家放置醉酒标记。",
     "reminders": [
       "醉酒"
@@ -262,7 +262,7 @@
   },
   {
     "id": "x_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-6665c4a91c.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/0d5a5ee753f640f9739a51fb58b06dc67a1da8ff7c5ae54455c75f8b7443c938.png",
     "firstNightReminder": "唤醒他，他要摇头或选择任意名玩家x次（x相当于他的第几个夜晚），为被他选择1次的玩家标记中毒，为被他重复选择的玩家标记死亡。",
     "otherNightReminder": "唤醒他，他要摇头或选择任意名玩家x次（x相当于他的第几个夜晚），为被他选择1次的玩家标记中毒，为被他重复选择的玩家标记死亡。",
     "reminders": [
@@ -280,7 +280,7 @@
   },
   {
     "id": "62_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-ee0bcf2ed0.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/c0bdf49a94c6c633a531e2d06b11d371f52dd1c6cc119a3173003cfdb6e25f2e.png",
     "firstNightReminder": "唤醒他，并让他选择一名玩家，告知他该玩家的角色，然后让他重新入睡，然后唤醒恶魔，告知恶魔该玩家的角色，然后让恶魔重新入睡。如果他选择的是一名外来者，唤醒该外来者，告知外来者独眼巨人在场，然后让该外来者重新入睡。",
     "otherNightReminder": "唤醒他，并让他选择一名玩家，告知他该玩家的角色，然后让他重新入睡，然后唤醒恶魔，告知恶魔该玩家的角色，然后让恶魔重新入睡。如果他选择的是一名外来者，唤醒该外来者，告知外来者独眼巨人在场，然后让该外来者重新入睡。",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "59_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-418b1c6490.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/2072773764a7835374eca986abe1cfb86dfeb2ce97f93c4c9e3aea8abd367429.png",
     "firstNightReminder": "唤醒双头巨人，让他选择一名玩家，将他选择的玩家变为邪恶的双头巨人，并让2名双头巨人互认。如果双头巨人选中一名爪牙或者恶魔，你可以让他重新选择。",
     "otherNightReminder": "如果一名双头巨人已经死亡，标记所有其他双头巨人死亡。",
     "reminders": [
@@ -315,7 +315,7 @@
   },
   {
     "id": "9_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-e0f720dddf.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/3be5c08d691bf7469ddd9b1db92729f80574269f549f1c1d0939470f3d96e874.png",
     "otherNightReminder": "唤醒他，他要摇头或是选择一个非恶魔角色，为该角色标记死亡。如果他选择的角色不在场，让他再次选择一名玩家，该玩家变成那个角色。",
     "reminders": [
       "失去能力",
@@ -331,7 +331,7 @@
   },
   {
     "id": "32_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-fb6c4ced54.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/da08c9972d60e14e7e1cdd53e6e7515e1d23f4be4ca5747132b83e40a8bc7445.png",
     "otherNightReminder": "唤醒他，他要选择一个除奇美拉以外的恶魔（与前两次选择均不同），他获得该恶魔能力。然后当晚像对待他选择的恶魔一样让他使用能力。",
     "reminders": [
       "死亡"
@@ -346,7 +346,7 @@
   },
   {
     "id": "7_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-62b01105fa.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/6c0d9771bff6d260acf15d17c5b536c02e407939e451b855b8d50710a464c5fc.png",
     "otherNightReminder": "唤醒大巫妖",
     "reminders": [
       "死亡",
@@ -361,7 +361,7 @@
   },
   {
     "id": "39_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-d3f6ec4432.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/a2c62f3ab38f59e210bca1033a2a24a44cbdea0f0bb80b6927c705e17313d1c8.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -375,7 +375,7 @@
   },
   {
     "id": "31_rose",
-    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/image-45d275e7bb.png",
+    "image": "/scripts/assets/community-zhong-xia-ye-zhi-meng-30eca8cc/b6eb19d42f3bc9bbe6c5532434a98b489152d50cf4529d7e791a7967f31ed45d.png",
     "otherNightReminder": "唤醒，让他选择一名玩家，为该玩家标记死亡。如果场上存在多名奇美拉，由你来决定谁先行动。",
     "reminders": [
       "死亡",

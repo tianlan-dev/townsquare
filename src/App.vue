@@ -9,6 +9,12 @@
     }"
   >
     <div
+      class="phase-background phase-background-underlay"
+      :style="{
+        backgroundImage: `url('${phaseBackgrounds[phaseInfo.phase]}')`,
+      }"
+    ></div>
+    <div
       v-for="(background, index) in phaseBackgrounds"
       :key="`${index}-${background}`"
       class="phase-background"
@@ -324,7 +330,7 @@ html,
 body {
   font-size: 1.2em;
   line-height: 1.4;
-  background-color: #07111d;
+  background-color: #000;
   background-position: center center;
   background-size: cover;
   color: white;
@@ -435,6 +441,11 @@ ul {
 
 .phase-background.active {
   opacity: 1;
+}
+
+.phase-background-underlay {
+  opacity: 1;
+  transition: none;
 }
 
 .presence-notices {
