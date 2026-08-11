@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "诡异花园",
     "author": "葵葵sama",
-    "logo": "/scripts/assets/community/902b20d99a062204213a338f948d9fcd2e2c3e452a9a0eec5dae631b1b6336de.png",
+    "logo": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/902b20d99a062204213a338f948d9fcd2e2c3e452a9a0eec5dae631b1b6336de.png",
     "almanac": "https://www.bloodstar.xyz/p/kuikuisama/guiyihuayuan/almanac.html",
     "tags": [
       "BWG·剧本大乱斗",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_guiyihuayuan",
-    "image": "/scripts/assets/community/6620fa89e70e08a9d854071a4200ce8878afe7081662595abc38d77b79bf9214.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/6620fa89e70e08a9d854071a4200ce8878afe7081662595abc38d77b79bf9214.png",
     "name": "疯狂生长",
     "team": "111",
     "ability": "游戏的第三个夜晚（首夜为0），存活的村民和邪恶阵营会疯狂生长，玩家的技能会发生改变。游戏的第四个夜晚，存活的外来者会疯狂生长，玩家的技能会发生改变。",
@@ -21,7 +21,7 @@
   },
   {
     "id": "4_guiyihuayuan",
-    "image": "/scripts/assets/community/bf8a778eaa9bf9d7496a4a6fa702d768b5ee3809b04be96b3277e66c1ae437eb.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/bf8a778eaa9bf9d7496a4a6fa702d768b5ee3809b04be96b3277e66c1ae437eb.png",
     "firstNightReminder": "你的首个夜晚，选择三名其他玩家，你得知六个身份，他们的身份就在其中。",
     "otherNightReminder": "你得知哪些身份是正确的。",
     "name": "雏菊",
@@ -33,7 +33,7 @@
   },
   {
     "id": "12_guiyihuayuan",
-    "image": "/scripts/assets/community/6233cce3a461fa44c6906646c5f9c53d086fbdfa7b65adf093930662bd687539.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/6233cce3a461fa44c6906646c5f9c53d086fbdfa7b65adf093930662bd687539.png",
     "firstNightReminder": "你的首个夜晚，你得知一个不在场的外来者。",
     "reminders": [
       "疯狂生长"
@@ -47,7 +47,7 @@
   },
   {
     "id": "14_guiyihuayuan",
-    "image": "/scripts/assets/community/910efdb7642b091a144d7487892f2a66357e722331d7e093271bf240dba002a6.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/910efdb7642b091a144d7487892f2a66357e722331d7e093271bf240dba002a6.png",
     "firstNightReminder": "游戏开始时，你选择顺时针或者逆时针，从一名玩家（你不得知）开始依次选择。每个夜晚，你得知你选择过的玩家中有几名玩家为邪恶阵营（有一名玩家始终被你视为邪恶阵营）。当你在夜晚死亡时，你得知一条关于起点的谜语。生长：你获得，你得知起点是谁。",
     "otherNightReminder": "游戏开始时，你选择顺时针或者逆时针，从一名玩家（你不得知）开始依次选择。每个夜晚，你得知你选择过的玩家中有几名玩家为邪恶阵营（有一名玩家始终被你视为邪恶阵营）。当你在夜晚死亡时，你得知一条关于起点的谜语。生长：你获得，你得知起点是谁。",
     "reminders": [
@@ -65,7 +65,7 @@
   },
   {
     "id": "3_guiyihuayuan",
-    "image": "/scripts/assets/community/ae2f139e3f4d0835e4a7518da92df332e800404ef1d369c476b12f838666cfe6.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/ae2f139e3f4d0835e4a7518da92df332e800404ef1d369c476b12f838666cfe6.png",
     "firstNightReminder": "每个夜晚，选择一种身份类型，你得知一条关于在场的该角色类型的谜语。",
     "otherNightReminder": "每个夜晚，选择一种身份类型，你得知一条关于在场的该角色类型的谜语。生长：你获得，你得知所有谜语对应的角色身份。",
     "name": "水草",
@@ -77,7 +77,7 @@
   },
   {
     "id": "2_guiyihuayuan",
-    "image": "/scripts/assets/community/0a8d2d844a2bd1371d5d8baa129f3999811f524c93790e1e5f9ec91bd96c95c4.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/0a8d2d844a2bd1371d5d8baa129f3999811f524c93790e1e5f9ec91bd96c95c4.png",
     "firstNightReminder": "每个夜晚，你得知一个不在场的外来者或者邪恶阵营身份。",
     "otherNightReminder": "每个夜晚，你得知一个不在场的外来者或者邪恶阵营身份。生长：你获得，当你在夜晚首次将要死亡时，你不会死亡。",
     "reminders": [
@@ -92,7 +92,7 @@
   },
   {
     "id": "7_guiyihuayuan",
-    "image": "/scripts/assets/community/dd7bde0c0246876e7c2652a2bc389378c9c18b33e51d3866f86e7cf689df1acd.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/dd7bde0c0246876e7c2652a2bc389378c9c18b33e51d3866f86e7cf689df1acd.png",
     "otherNightReminder": "每个夜晚*，选择一名其他玩家，你得知当晚你和该玩家被多少人选择过。生长：你获得，你得知谁选择了该玩家。",
     "name": "睡莲",
     "team": "townsfolk",
@@ -102,7 +102,7 @@
   },
   {
     "id": "5_guiyihuayuan",
-    "image": "/scripts/assets/community/67becf76478680bed60e4ffb8b8fb193db186c7906f6a912064363c6ef2d9f92.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/67becf76478680bed60e4ffb8b8fb193db186c7906f6a912064363c6ef2d9f92.png",
     "otherNightReminder": "每个夜晚*，选择三名玩家，你得知他们之中身份类型最多的数量（有一名玩家始终被你视为恶魔或爪牙）。",
     "reminders": [
       "干扰项"
@@ -115,7 +115,7 @@
   },
   {
     "id": "8_guiyihuayuan",
-    "image": "/scripts/assets/community/e40405c654ea64052284d6bdd54824d52862fd7a47814f967922a328cad2746c.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e40405c654ea64052284d6bdd54824d52862fd7a47814f967922a328cad2746c.png",
     "otherNightReminder": "每个夜晚*，选择一名其他玩家。如果该玩家为爪牙，他醉酒直到下个黄昏。生长：你获得，你得知你选择过的玩家中是否有爪牙。",
     "reminders": [
       "醉酒"
@@ -128,7 +128,7 @@
   },
   {
     "id": "9_guiyihuayuan",
-    "image": "/scripts/assets/community/bef0f1841bc25f008248c866ccc000f347b3d00b47da006b4b9a6b5254e25fda.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/bef0f1841bc25f008248c866ccc000f347b3d00b47da006b4b9a6b5254e25fda.png",
     "otherNightReminder": "每个夜晚*，选择一名存活的其他玩家，当晚你获得该玩家的技能，该玩家醉酒。如果你选择的玩家为邪恶阵营，你中毒直到下个黄昏。生长：你获得，不会有玩家因你的技能而醉酒。",
     "reminders": [
       "醉酒"
@@ -141,7 +141,7 @@
   },
   {
     "id": "13_guiyihuayuan",
-    "image": "/scripts/assets/community/f1e247dae9beb327ba2a4180da3d23832294e5599724b800d6c020d2b3580049.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/f1e247dae9beb327ba2a4180da3d23832294e5599724b800d6c020d2b3580049.png",
     "otherNightReminder": "每个夜晚*，你得知当晚有几名玩家的技能没有正常发动。生长：你获得，你得知一名技能没有正常发动的玩家或都正常发动了。",
     "name": "树蕨",
     "team": "townsfolk",
@@ -151,7 +151,7 @@
   },
   {
     "id": "10_guiyihuayuan",
-    "image": "/scripts/assets/community/e588d2ffc836ee38b9d4b9d24242ace27626adb70a9cf1876450ea5411fc6441.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e588d2ffc836ee38b9d4b9d24242ace27626adb70a9cf1876450ea5411fc6441.png",
     "otherNightReminder": "每个夜晚*，选择一名其他玩家，当晚该玩家不会受到恶魔技能效果的影响。如果你选择的玩家为邪恶阵营，当晚该玩家的技能目标可能会变换。",
     "reminders": [
       "遮阴",
@@ -165,7 +165,7 @@
   },
   {
     "id": "6_guiyihuayuan",
-    "image": "/scripts/assets/community/61516e42fece003e6c1f189dc8a467f011039e8edc7f76a739caca549fd599b3.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/61516e42fece003e6c1f189dc8a467f011039e8edc7f76a739caca549fd599b3.png",
     "otherNightReminder": "每个夜晚*，私信说书人并猜测当晚的死亡。",
     "reminders": [
       "必定正确",
@@ -179,7 +179,7 @@
   },
   {
     "id": "11_guiyihuayuan",
-    "image": "/scripts/assets/community/fe7b417eb8963a2e58d3834125fcffb9001db61bb7c47efa200ffe3b1020cc5c.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/fe7b417eb8963a2e58d3834125fcffb9001db61bb7c47efa200ffe3b1020cc5c.png",
     "name": "银杏",
     "team": "townsfolk",
     "ability": "每个白天，私信说书人选择三名其他玩家，你得知他们之中是否有人处于异常状态（中毒、醉酒、诅咒）。生长：你获得，你得知谁进入了异常状态。",
@@ -187,7 +187,7 @@
   },
   {
     "id": "1_guiyihuayuan",
-    "image": "/scripts/assets/community/c53cf0f1211a8620eec4c585465123d1e6402db6cece6e2bd3165cc10aad3e88.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/c53cf0f1211a8620eec4c585465123d1e6402db6cece6e2bd3165cc10aad3e88.png",
     "reminders": [
       "正确",
       "错误"
@@ -199,7 +199,7 @@
   },
   {
     "id": "15_guiyihuayuan",
-    "image": "/scripts/assets/community/d49ec5153dad137693e22344b0ce7009c2351b8b750384150254ff7eca7dd36f.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/d49ec5153dad137693e22344b0ce7009c2351b8b750384150254ff7eca7dd36f.png",
     "otherNightReminder": "如果他如实回答，当晚你得知一条正确的信息，你不会受到恶魔技能效果的影响。如果他没有如实回答，你醉酒直到下个黎明。",
     "reminders": [
       "醉酒",
@@ -213,7 +213,7 @@
   },
   {
     "id": "18_guiyihuayuan",
-    "image": "/scripts/assets/community/0d3fba354ac9eeb63fd3203d83a1a8cec4995b21f55d41536e45a1b466ed4fc5.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/0d3fba354ac9eeb63fd3203d83a1a8cec4995b21f55d41536e45a1b466ed4fc5.png",
     "remindersGlobal": [
       "珊瑚"
     ],
@@ -224,7 +224,7 @@
   },
   {
     "id": "16_guiyihuayuan",
-    "image": "/scripts/assets/community/9721116c1879b3c97eb1e5b5f69b42047db3317f5647b7cbc5f46aeb1e7b6607.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/9721116c1879b3c97eb1e5b5f69b42047db3317f5647b7cbc5f46aeb1e7b6607.png",
     "otherNightReminder": "每个夜晚*，选择两名存活的其他玩家，一名玩家的技能目标之一改为你，一名玩家醉酒直到下个黄昏。邪恶阵营不会受到你的技能效果影响。生长：你的技能改为，整局游戏限一次，当晚所有邪恶阵营醉酒直到下个黄昏。",
     "reminders": [
       "醉酒",
@@ -239,7 +239,7 @@
   },
   {
     "id": "17_guiyihuayuan",
-    "image": "/scripts/assets/community/f699fd8e106b293a39643f9c56836573150c4cf13f9aad57803ba0867969f436.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/f699fd8e106b293a39643f9c56836573150c4cf13f9aad57803ba0867969f436.png",
     "otherNightReminder": "整局游戏限一次，当晚所有邪恶阵营的技能目标之一改为你，即使你已死亡。",
     "reminders": [
       "失去技能"
@@ -252,7 +252,7 @@
   },
   {
     "id": "19_guiyihuayuan",
-    "image": "/scripts/assets/community/937c718c5fd746f2c5d2c088ded9d58ac29c61802d979d8e345ab686c74dfd42.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/937c718c5fd746f2c5d2c088ded9d58ac29c61802d979d8e345ab686c74dfd42.png",
     "otherNightReminder": "每个夜晚*，选择一名其他玩家，如果该玩家为爪牙，他死亡且你失去技能。",
     "reminders": [
       "砸死",
@@ -266,7 +266,7 @@
   },
   {
     "id": "20_guiyihuayuan",
-    "image": "/scripts/assets/community/fcab5d01e5c8ef392c88c4c20e2750b8d57e0d9eb17c5b5814dcba62b216bf26.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/fcab5d01e5c8ef392c88c4c20e2750b8d57e0d9eb17c5b5814dcba62b216bf26.png",
     "otherNightReminder": "每个夜晚*，你可以选择一名其他玩家，他死亡。如果你这么做了，下个夜晚你不会被唤醒。生长：你的技能改为，每个夜晚*，你可以选择两名其他玩家，他们死亡。如果你这么做了，下个夜晚你不会被唤醒。",
     "reminders": [
       "杀害",
@@ -280,7 +280,7 @@
   },
   {
     "id": "21_guiyihuayuan",
-    "image": "/scripts/assets/community/e8d9ae3e1bdfda77e547d5c92bff46528b398f90acc62482050430ef3228aa2e.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e8d9ae3e1bdfda77e547d5c92bff46528b398f90acc62482050430ef3228aa2e.png",
     "firstNightReminder": "你的首个夜晚，选择一名其他玩家，寄生于他。",
     "otherNightReminder": "你代替该玩家发动技能并得知结果，你可以选择是否修改结果并让他得知。生长：你获得，每个夜晚*，你可以选择杀死宿主。当你死亡时，宿主跟你一起死亡。",
     "reminders": [
@@ -296,7 +296,7 @@
   },
   {
     "id": "22_guiyihuayuan",
-    "image": "/scripts/assets/community/e14baa54eda2bbe7fa995dc129a746c503f8ec9c10679b3807df5b2a2dbea319.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e14baa54eda2bbe7fa995dc129a746c503f8ec9c10679b3807df5b2a2dbea319.png",
     "otherNightReminder": "每个夜晚*，选择一名其他玩家，你得知该玩家的选择和结果。生长：你获得，整局游戏限一次，当场上的存活玩家大于四时，夜晚你可以选择一名你之前选择过的玩家，他加入邪恶阵营并得知你的存在。",
     "reminders": [
       "邪恶",
@@ -310,7 +310,7 @@
   },
   {
     "id": "23_guiyihuayuan",
-    "image": "/scripts/assets/community/83cfdbe2550a3fcfc521825001726d895b17705694b8f50347beb20a2f1b6c7f.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/83cfdbe2550a3fcfc521825001726d895b17705694b8f50347beb20a2f1b6c7f.png",
     "firstNightReminder": "每个夜晚，选择一名其他玩家，该玩家中毒直到下个黄昏。",
     "otherNightReminder": "每个夜晚，选择一名其他玩家，该玩家中毒直到下个黄昏。生长：你获得，当晚第一个将技能目标之一选为你的善良玩家中毒直到下个黄昏。",
     "reminders": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "24_guiyihuayuan",
-    "image": "/scripts/assets/community/634cb0d7dbb953dbde5f9e437eb02004453af980f811b7637377258c03a44d32.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/634cb0d7dbb953dbde5f9e437eb02004453af980f811b7637377258c03a44d32.png",
     "otherNightReminder": "每个夜晚*，选择一名玩家，将他杀害。你可能被视为善良阵营。生长：你获得，整局游戏限一次，夜晚，你可以选择杀害所有爪牙并行动两次。",
     "reminders": [
       "杀害",
@@ -339,7 +339,7 @@
   },
   {
     "id": "27_guiyihuayuan",
-    "image": "/scripts/assets/community/4d0a8c9212187090f0d7088a27f4f96aec195d67753f4dd88e4fe8e7ad1cb0a5.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/4d0a8c9212187090f0d7088a27f4f96aec195d67753f4dd88e4fe8e7ad1cb0a5.png",
     "otherNightReminder": "每个夜晚*，选择一名玩家，将他杀害。当晚你得知第一个将你作为技能目标的玩家，下一晚你可以将他额外杀害。生长：你获得，整局游戏限一次，当场上的存活玩家大于四时，你可以选择杀死自己并选择一名之前你得知过的玩家，该玩家成为新的邪恶荆棘。",
     "reminders": [
       "杀害",
@@ -353,7 +353,7 @@
   },
   {
     "id": "25_guiyihuayuan",
-    "image": "/scripts/assets/community/8b1a13b26b9b70bdb235668b1948394c88a81a9360531cb3d67ef40f7ca96bfe.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/8b1a13b26b9b70bdb235668b1948394c88a81a9360531cb3d67ef40f7ca96bfe.png",
     "otherNightReminder": "每个夜晚*，选择一名玩家，将他杀害。被你杀死的爪牙保留他的能力，如果你这么做了此后所有善良阵营受到诅咒不会生长并失去生长的效果。你不会生长。",
     "reminders": [
       "杀害",
@@ -369,7 +369,7 @@
   },
   {
     "id": "26_guiyihuayuan",
-    "image": "/scripts/assets/community/634e2d612e2d08b9c1e0ed0a1808c8614de840c8aabb84cc14964b33a12aaf3d.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/634e2d612e2d08b9c1e0ed0a1808c8614de840c8aabb84cc14964b33a12aaf3d.png",
     "otherNightReminder": "每个夜晚*，选择两名玩家，一名玩家被杀害，一名玩家被诅咒。受到诅咒的玩家不会生长并失去生长的效果，当除你以外所有存活的玩家被诅咒时，你的阵营获胜。你不会生长。",
     "reminders": [
       "杀害",
@@ -383,7 +383,7 @@
   },
   {
     "id": "28_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第一夜",
     "team": "fabled",
     "ability": "第一夜",
@@ -391,7 +391,7 @@
   },
   {
     "id": "29_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第二夜",
     "team": "fabled",
     "ability": "第二夜",
@@ -399,7 +399,7 @@
   },
   {
     "id": "30_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第三夜",
     "team": "fabled",
     "ability": "第三夜",
@@ -407,7 +407,7 @@
   },
   {
     "id": "31_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第四夜",
     "team": "fabled",
     "ability": "第四夜",
@@ -415,7 +415,7 @@
   },
   {
     "id": "32_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第五夜",
     "team": "fabled",
     "ability": "第五夜",
@@ -423,7 +423,7 @@
   },
   {
     "id": "33_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第六夜",
     "team": "fabled",
     "ability": "第六夜",
@@ -431,7 +431,7 @@
   },
   {
     "id": "34_guiyihuayuan",
-    "image": "/scripts/assets/community/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/e91b81c951691a3bcb8fab2bfee0035b51e38c78fc78a96763a272fb26dbd4db.png",
     "name": "第七夜",
     "team": "fabled",
     "ability": "第七夜",
@@ -439,7 +439,7 @@
   },
   {
     "id": "35_guiyihuayuan",
-    "image": "/scripts/assets/community/fb5e75dbbcdbbccb3fcd25cc9717f7f9b51074d7e5462af81bc6df846feaf55b.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/fb5e75dbbcdbbccb3fcd25cc9717f7f9b51074d7e5462af81bc6df846feaf55b.png",
     "otherNightReminder": "整局游戏限一次：白天可以公开选择一名已经死亡的玩家，当晚你可以使用该玩家的能力。",
     "name": "墓园之花",
     "team": "traveler",
@@ -449,7 +449,7 @@
   },
   {
     "id": "36_guiyihuayuan",
-    "image": "/scripts/assets/community/c13e890ed0534d94fce2d9392e432b484f6047ad0bad70defe7bc504a4cfdfe0.png",
+    "image": "/scripts/assets/community-gui-yi-hua-yuan-52007e7c/c13e890ed0534d94fce2d9392e432b484f6047ad0bad70defe7bc504a4cfdfe0.png",
     "name": "顶上之果",
     "team": "traveler",
     "ability": "每个白天你可以私信说书人四名玩家及其对应的角色，如果全部正确则当晚一名与你阵营相同的玩家无视诅咒疯狂生长，且你醉酒。",

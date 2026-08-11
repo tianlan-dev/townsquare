@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "暗面贤言",
     "author": "小偶oj",
-    "logo": "/scripts/assets/community/156f75aed56ec1b94f13b9aead54b7db594f02caf82ab30187ecaea658692bda.png",
+    "logo": "/scripts/assets/community-an-mian-xian-yan-97d893d1/156f75aed56ec1b94f13b9aead54b7db594f02caf82ab30187ecaea658692bda.png",
     "tags": [],
     "version": "",
     "issue": 927
@@ -12,7 +12,7 @@
     "id": "diaochayuan_tpi",
     "name": "调查员",
     "image": [
-      "/scripts/assets/community/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -30,7 +30,7 @@
     "id": "yinyangshi_mtyj",
     "name": "阴阳师",
     "image": [
-      "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -48,7 +48,7 @@
     "id": "gongqingzhe_tpi",
     "name": "共情者",
     "image": [
-      "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -63,7 +63,7 @@
     "id": "shinv_tpi",
     "name": "侍女",
     "image": [
-      "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -78,7 +78,7 @@
     "id": "maihuanvhai_tpi",
     "name": "卖花女孩",
     "image": [
-      "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -96,7 +96,7 @@
     "id": "zhifu_jinglingguohongxi",
     "name": "知府",
     "image": [
-      "/scripts/assets/community/12eb93c62d49f709d4cad0ffff8a63d03138f643620a1fb5b61edd7f1bb27769.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/12eb93c62d49f709d4cad0ffff8a63d03138f643620a1fb5b61edd7f1bb27769.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者的玩家死亡。",
@@ -112,7 +112,7 @@
     "id": "nvcaifeng_tpi",
     "name": "女裁缝",
     "image": [
-      "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -130,7 +130,7 @@
     "id": "zaoyaozhe_tpi",
     "name": "造谣者",
     "image": [
-      "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
@@ -147,7 +147,7 @@
     "id": "boxuezhe_tpi",
     "name": "博学者",
     "image": [
-      "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -160,7 +160,7 @@
     "id": "bianlianshi_richardblack",
     "name": "变脸师",
     "image": [
-      "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -176,7 +176,7 @@
     "id": "xianzhe_tpi",
     "name": "贤者",
     "image": [
-      "/scripts/assets/community/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png"
     ],
     "team": "townsfolk",
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
@@ -190,7 +190,7 @@
     "id": "bingbi_molanhuakai",
     "name": "秉笔",
     "image": [
-      "/scripts/assets/community/d5a54085c62981a2bac292ef3cdb91f48abf57adc9727d1d8936ec45d3c84f04.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/d5a54085c62981a2bac292ef3cdb91f48abf57adc9727d1d8936ec45d3c84f04.png"
     ],
     "team": "townsfolk",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -206,7 +206,7 @@
     "id": "shirenzu_tpi",
     "name": "食人族",
     "image": [
-      "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
     ],
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -223,7 +223,7 @@
     "id": "jiugui_tpi",
     "name": "酒鬼",
     "image": [
-      "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
     ],
     "team": "outsider",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -237,7 +237,7 @@
     "id": "moke_tpi",
     "name": "陌客",
     "image": [
-      "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
     ],
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -250,7 +250,7 @@
     "id": "daigua_tpi",
     "name": "呆瓜",
     "image": [
-      "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
     ],
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -263,7 +263,7 @@
     "id": "jixingxiuyanyuan_tpi",
     "name": "畸形秀演员",
     "image": [
-      "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
     ],
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -276,7 +276,7 @@
     "id": "hongchunnvlang_tpi",
     "name": "红唇女郎",
     "image": [
-      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
     ],
     "team": "minion",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -293,7 +293,7 @@
     "id": "xinaoshi_tpi",
     "name": "洗脑师",
     "image": [
-      "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -311,7 +311,7 @@
     "id": "jiaofu_tpi",
     "name": "教父",
     "image": [
-      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -330,7 +330,7 @@
     "id": "huapi_Zack",
     "name": "画皮",
     "image": [
-      "/scripts/assets/community/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
@@ -349,7 +349,7 @@
     "id": "xiaoemo_tpi",
     "name": "小恶魔",
     "image": [
-      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -366,7 +366,7 @@
     "id": "woliu_tpi",
     "name": "涡流",
     "image": [
-      "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n镇民玩家的能力都会产生错误信息。\n如果白天没人被处决，邪恶阵营获胜。",
@@ -383,7 +383,7 @@
     "id": "dengshen_tpi",
     "name": "陌客&阴阳师",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "陌客不会因自身能力干扰阴阳师的信息。",
@@ -394,7 +394,7 @@
     "id": "nuodashi_tpi",
     "name": "诺-达鲺",
     "image": [
-      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
@@ -412,7 +412,7 @@
     "id": "gudongshoucangjia_lei",
     "name": "古董收藏家",
     "image": [
-      "/scripts/assets/community/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png"
     ],
     "team": "fabled",
     "ability": "剧本中部分角色的能力来源于过去。",
@@ -423,7 +423,7 @@
     "id": "taowuold_Dqiuqiu",
     "name": "梼杌",
     "image": [
-      "/scripts/assets/community/56c019b8cc5551e354a999d78e4788b4ec00ffbad97530baffa042a9dd6ce4a3.png"
+      "/scripts/assets/community-an-mian-xian-yan-97d893d1/56c019b8cc5551e354a999d78e4788b4ec00ffbad97530baffa042a9dd6ce4a3.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚限一次，如果你以这种方式杀死了一名外来者，当晚你可以再次行动。【+1外来者】",

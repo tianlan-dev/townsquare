@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "达摩计划",
     "author": "Ben & Jams",
-    "logo": "/scripts/assets/community/503f7d70827173a7378af9757a19cb96493d27e29b67d1524ce2b7ab3d787f37.png",
+    "logo": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/503f7d70827173a7378af9757a19cb96493d27e29b67d1524ce2b7ab3d787f37.png",
     "almanac": "Json有问题联系SE谢谢喵~",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_damojihua",
-    "image": "/scripts/assets/community/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
     "reminders": [
       "转世重生"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_damojihua",
-    "image": "/scripts/assets/community/ee4fb18f6034f93130b0d2954c3ae3bdd793c2432ad4f93ceea541bf0f3f7930.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/ee4fb18f6034f93130b0d2954c3ae3bdd793c2432ad4f93ceea541bf0f3f7930.png",
     "name": "替罪羊",
     "team": "traveller",
     "ability": "如果你的阵营的一名玩家被处决，你可能会代替他被处决。",
@@ -33,7 +33,7 @@
   },
   {
     "id": "2_damojihua",
-    "image": "/scripts/assets/community/9d8b29d879c05a7c02efd3630620f075e7676629f8930931a74152e2ad0ae761.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/9d8b29d879c05a7c02efd3630620f075e7676629f8930931a74152e2ad0ae761.png",
     "name": "女舍监",
     "team": "traveller",
     "ability": "每个白天，你可以选择至多三对玩家交换座位。玩家不能离开座位私聊。",
@@ -41,7 +41,7 @@
   },
   {
     "id": "3_damojihua",
-    "image": "/scripts/assets/community/d61e5a54d31ffe1e0430708d81c16f17df3d70ab43ea5d089e629c36d760c272.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/d61e5a54d31ffe1e0430708d81c16f17df3d70ab43ea5d089e629c36d760c272.png",
     "reminders": [
       "提名善良方",
       "提名邪恶方"
@@ -53,7 +53,7 @@
   },
   {
     "id": "4_damojihua",
-    "image": "/scripts/assets/community/09bc2c5dffaf997e29e46d22054e36019849ed898acf26b142f63b6e55c99526.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/09bc2c5dffaf997e29e46d22054e36019849ed898acf26b142f63b6e55c99526.png",
     "name": "怪咖",
     "team": "traveller",
     "ability": "如果你表现得很有趣，当天你不能被流放。",
@@ -61,7 +61,7 @@
   },
   {
     "id": "5_damojihua",
-    "image": "/scripts/assets/community/3a80eddbccd15bb40594793c43f9d3d327a952fd77ee6e2973145e08af35156a.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/3a80eddbccd15bb40594793c43f9d3d327a952fd77ee6e2973145e08af35156a.png",
     "otherNightReminder": "每个夜晚，唤醒集骨者。集骨者要么摇头表示不使用能力，或者是指向任何一名已死亡的玩家。让集骨者重新入睡。",
     "reminders": [
       "重获能力",
@@ -75,7 +75,7 @@
   },
   {
     "id": "6_damojihua",
-    "image": "/scripts/assets/community/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
     "firstNightReminder": "唤醒洗衣妇，对她指向两名玩家，并展示一个镇民角色标记。这两名玩家其中之一是这个镇民。",
     "reminders": [
       "镇民",
@@ -89,7 +89,7 @@
   },
   {
     "id": "7_damojihua",
-    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -99,7 +99,7 @@
   },
   {
     "id": "8_damojihua",
-    "image": "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
     "otherNightReminder": "如果守鸦人死于夜晚，唤醒守鸦人，让他选择一名玩家。对他展示这名玩家的角色标记。",
     "name": "守鸦人",
     "team": "townsfolk",
@@ -109,7 +109,7 @@
   },
   {
     "id": "9_damojihua",
-    "image": "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
     "reminders": [
       "失去能力"
     ],
@@ -120,7 +120,7 @@
   },
   {
     "id": "10_damojihua",
-    "image": "/scripts/assets/community/884715e7f0845727d3ddf6ad707e52f0a1898758511d85f880a3d06290523d7c.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/884715e7f0845727d3ddf6ad707e52f0a1898758511d85f880a3d06290523d7c.png",
     "name": "士兵",
     "team": "townsfolk",
     "ability": "恶魔的负面能力对你无效。",
@@ -128,7 +128,7 @@
   },
   {
     "id": "11_damojihua",
-    "image": "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -141,7 +141,7 @@
   },
   {
     "id": "12_damojihua",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -159,7 +159,7 @@
   },
   {
     "id": "13_damojihua",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -172,7 +172,7 @@
   },
   {
     "id": "14_damojihua",
-    "image": "/scripts/assets/community/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
     "firstNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "otherNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "name": "将军",
@@ -184,7 +184,7 @@
   },
   {
     "id": "15_damojihua",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -200,7 +200,7 @@
   },
   {
     "id": "16_damojihua",
-    "image": "/scripts/assets/community/0d4d44d03e6ebdf4c4c6cd5b864d05231e3f31ce35d4b629a17f9fe4c0bb1b3f.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/0d4d44d03e6ebdf4c4c6cd5b864d05231e3f31ce35d4b629a17f9fe4c0bb1b3f.png",
     "firstNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
     "otherNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
     "name": "异教领袖",
@@ -212,7 +212,7 @@
   },
   {
     "id": "17_damojihua",
-    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -224,7 +224,7 @@
   },
   {
     "id": "18_damojihua",
-    "image": "/scripts/assets/community/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
     "otherNightReminder": "：唤醒杂技演员，让他选择一名玩家。如果当晚这名玩家醉酒或中毒，杂技演员死亡。",
     "reminders": [
       "被选择",
@@ -238,7 +238,7 @@
   },
   {
     "id": "19_damojihua",
-    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -246,7 +246,7 @@
   },
   {
     "id": "20_damojihua",
-    "image": "/scripts/assets/community/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -259,7 +259,7 @@
   },
   {
     "id": "21_damojihua",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -272,7 +272,7 @@
   },
   {
     "id": "22_damojihua",
-    "image": "/scripts/assets/community/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
     "otherNightReminder": "如果瘟疫医生死亡，说书人获得一项爪牙能力。",
     "reminders": [
       "说书人能力"
@@ -285,7 +285,7 @@
   },
   {
     "id": "23_damojihua",
-    "image": "/scripts/assets/community/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -300,7 +300,7 @@
   },
   {
     "id": "24_damojihua",
-    "image": "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -309,7 +309,7 @@
   },
   {
     "id": "25_damojihua",
-    "image": "/scripts/assets/community/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -317,7 +317,7 @@
   },
   {
     "id": "26_damojihua",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -331,7 +331,7 @@
   },
   {
     "id": "27_damojihua",
-    "image": "/scripts/assets/community/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
     "otherNightReminder": "决定上一夜被沙巴洛斯选择的玩家是否被反刍。然后唤醒沙巴洛斯，让他攻击两名玩家。",
     "reminders": [
       "死亡",
@@ -345,7 +345,7 @@
   },
   {
     "id": "28_damojihua",
-    "image": "/scripts/assets/community/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "reminders": [
       "攻击三次",
@@ -359,7 +359,7 @@
   },
   {
     "id": "29_damojihua",
-    "image": "/scripts/assets/community/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
     "otherNightReminder": "决定今晚谁会因为军团能力死亡。",
     "reminders": [
       "即将被处决",
@@ -374,7 +374,7 @@
   },
   {
     "id": "30_damojihua",
-    "image": "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
     "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
     "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
     "reminders": [
@@ -392,7 +392,7 @@
     "name": "气球驾驶员&提线木偶",
     "team": "a jinxed",
     "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-da-mo-ji-hua-ad3cae35/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "edition": "custom"
   },
   {

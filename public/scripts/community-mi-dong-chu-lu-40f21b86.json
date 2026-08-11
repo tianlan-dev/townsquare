@@ -1,6 +1,6 @@
 [
   {
-    "logo": "/scripts/assets/community/4e72c8ad0e07afa9d54cc3708625c6208cb3b26ac8843f98e701a70f884a81d4.png",
+    "logo": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/4e72c8ad0e07afa9d54cc3708625c6208cb3b26ac8843f98e701a70f884a81d4.png",
     "description": "",
     "author": "JC & 九月",
     "id": "_meta",
@@ -26,7 +26,7 @@
     "name_eng": "Chef",
     "firstNight": 35,
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
   },
   {
     "firstNightReminder": "",
@@ -44,7 +44,7 @@
     "name_eng": "Po",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
   },
   {
     "firstNightReminder": "指向一名邪恶玩家。随后唤醒那名因赏金猎人而转变为邪恶的镇民，并告知他变成了邪恶阵营。",
@@ -62,7 +62,7 @@
     "name_eng": "Bounty Hunter",
     "firstNight": 45,
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
   },
   {
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
@@ -77,7 +77,7 @@
     "name_eng": "Chambermaid",
     "firstNight": 50,
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
@@ -94,7 +94,7 @@
     "name_eng": "Mathematician",
     "firstNight": 51,
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
   },
   {
     "firstNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
@@ -111,7 +111,7 @@
     "name_eng": "Preacher",
     "firstNight": 14,
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
   },
   {
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
@@ -132,7 +132,7 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "firstNightReminder": "",
@@ -149,7 +149,7 @@
     "name_eng": "Gossip",
     "firstNight": 0,
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
   },
   {
     "firstNightReminder": "",
@@ -164,7 +164,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -181,7 +181,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "决定失忆者的能力。如果失忆者的能力会让他在今晚醒来：唤醒他并执行其能力。",
@@ -198,7 +198,7 @@
     "name_eng": "Amnesiac",
     "firstNight": 12,
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png"
   },
   {
     "firstNightReminder": "",
@@ -213,7 +213,7 @@
     "name_eng": "Soldier",
     "firstNight": 0,
     "ability": "恶魔的负面能力对你无效。",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png"
   },
   {
     "firstNightReminder": "",
@@ -230,7 +230,7 @@
     "name_eng": "Minstrel",
     "firstNight": 0,
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png"
   },
   {
     "firstNightReminder": "",
@@ -245,7 +245,7 @@
     "name_eng": "Magician",
     "firstNight": 0,
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
   },
   {
     "firstNightReminder": "分别给爪牙们展示三个不在场角色，这些信息之间，包括与展示给恶魔的不在场角色之间可能会有重叠。",
@@ -260,7 +260,7 @@
     "name_eng": "Snitch",
     "firstNight": 6,
     "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png"
   },
   {
     "firstNightReminder": "",
@@ -278,7 +278,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -293,7 +293,7 @@
     "name_eng": "Politician",
     "firstNight": 0,
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
   },
   {
     "firstNightReminder": "",
@@ -311,7 +311,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "firstNightReminder": "",
@@ -328,7 +328,7 @@
     "name_eng": "Barber",
     "firstNight": 0,
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -345,7 +345,7 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "firstNightReminder": "对他展示所有在场的外来者标记。",
@@ -363,7 +363,7 @@
     "name_eng": "Godfather",
     "firstNight": 21,
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
   },
   {
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
@@ -381,7 +381,7 @@
     "name_eng": "Marionette",
     "firstNight": 11,
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
   },
   {
     "firstNightReminder": "",
@@ -396,7 +396,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "",
@@ -411,7 +411,7 @@
     "name_eng": "Mastermind",
     "firstNight": 0,
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
@@ -430,7 +430,7 @@
     "name_eng": "Lil' Monsta",
     "firstNight": 16,
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
   },
   {
     "firstNightReminder": "",
@@ -447,7 +447,7 @@
     "name_eng": "Vortox",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没⼈被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
   },
   {
     "firstNightReminder": "",
@@ -461,7 +461,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "firstNightReminder": "",
@@ -476,7 +476,7 @@
     "id": "spirit_of_ivorybutton",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
     "edition": "custom",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
   },
   {
     "firstNightReminder": "",
@@ -489,6 +489,6 @@
     "id": "sentinelbutton",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
     "edition": "custom",
-    "image": "/scripts/assets/community/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png"
+    "image": "/scripts/assets/community-mi-dong-chu-lu-40f21b86/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png"
   }
 ]

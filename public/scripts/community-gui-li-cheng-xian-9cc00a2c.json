@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "诡丽呈现",
-    "logo": "/scripts/assets/community/9362525de644988251e663398d355d11a2ee8205a4dedb02cfdb8c386a4bbe9b.png",
+    "logo": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/9362525de644988251e663398d355d11a2ee8205a4dedb02cfdb8c386a4bbe9b.png",
     "author": "Ben Burns",
     "description": "诡丽呈现",
     "townsfolkName": "镇民",
@@ -22,7 +22,7 @@
   },
   {
     "id": "daerduotutu111",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "name": "图书管理员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -40,7 +40,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -55,7 +55,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -73,7 +73,7 @@
   },
   {
     "id": "yeshimeishengmeyongdejuese111",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "name": "女祭司",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "8e236331-7d6e-4419-bf4a-949ac2e7993b",
-    "image": "/scripts/assets/community/4338eaccba9c30b103404c393c26c14ec62459294aa97546bcf532896b43964c.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/4338eaccba9c30b103404c393c26c14ec62459294aa97546bcf532896b43964c.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
@@ -108,7 +108,7 @@
   },
   {
     "id": "jiushigebaichi111",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -125,7 +125,7 @@
   },
   {
     "id": "wuxingshangjiang111",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "caibuduide111",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "name": "杂耍艺人",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -157,7 +157,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "xixifafashishishishishishishi",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "name": "戏法师",
     "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -187,7 +187,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -259,7 +259,7 @@
   },
   {
     "id": "daibi111",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -274,7 +274,7 @@
   },
   {
     "id": "wudidejiemidashi111",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -292,7 +292,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -307,7 +307,7 @@
   },
   {
     "id": "haochiaichi111",
-    "image": "/scripts/assets/community/dfbbf7fc5b4a692e67dabfc6b751bc0ed998d42babf6f6acaf3a74854fab0f96.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/dfbbf7fc5b4a692e67dabfc6b751bc0ed998d42babf6f6acaf3a74854fab0f96.png",
     "edition": "custom",
     "name": "食人魔",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
@@ -324,7 +324,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们职中可能会有人死亡。",
@@ -342,7 +342,7 @@
   },
   {
     "id": "youzhizhua11111111",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -360,7 +360,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -376,7 +376,7 @@
   },
   {
     "id": "shenhaijuyao111",
-    "image": "/scripts/assets/community/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
     "edition": "custom",
     "name": "利维坦",
     "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
@@ -398,7 +398,7 @@
   },
   {
     "id": "31_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&气球驾驶员",
     "team": "a jinxed",
     "setup": false,
@@ -407,7 +407,7 @@
   },
   {
     "id": "zuixihuandeyiji111",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-gui-li-cheng-xian-9cc00a2c/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "edition": "custom",
     "name": "暴乱",
     "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]",

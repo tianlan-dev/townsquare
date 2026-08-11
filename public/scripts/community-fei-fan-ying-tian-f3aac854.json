@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/27c1281cb98cef8bd8d8ac64dc3698a74b61116a658ac12dd81a2ad620ae103b.png",
+    "logo": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/27c1281cb98cef8bd8d8ac64dc3698a74b61116a658ac12dd81a2ad620ae103b.png",
     "name": "沸反盈天",
     "author": "Richard Black",
     "tags": [
@@ -25,7 +25,7 @@
     "name_eng": "Noble",
     "firstNight": 43,
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
   },
   {
     "firstNightReminder": "唤醒事务官，指向标记有“得知”的那名玩家。让事务官重新入睡。",
@@ -43,7 +43,7 @@
     "team": "townsfolk",
     "name_eng": "Steward",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png"
   },
   {
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
@@ -61,7 +61,7 @@
     "name_eng": "Pixie",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "唤醒女祭司，指向一名玩家。让女祭司重新入睡。",
@@ -76,7 +76,7 @@
     "name_eng": "High Priestess",
     "firstNight": 48,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "firstNightReminder": "指向一名邪恶玩家。随后唤醒那名因赏金猎人而转变为邪恶的镇民，并告知他变成了邪恶阵营。",
@@ -94,7 +94,7 @@
     "name_eng": "Bounty Hunter",
     "firstNight": 45,
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
   },
   {
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
@@ -111,7 +111,7 @@
     "name_eng": "Sailor",
     "firstNight": 10,
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
   },
   {
     "firstNightReminder": "",
@@ -128,7 +128,7 @@
     "name_eng": "Tea Lady",
     "firstNight": 0,
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
   },
   {
     "firstNightReminder": "告诉将军你认为的答案。",
@@ -143,7 +143,7 @@
     "name_eng": "General",
     "firstNight": 49,
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png"
   },
   {
     "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
@@ -161,7 +161,7 @@
     "name_eng": "Alchemist",
     "firstNight": 3,
     "ability": "你拥有一个不在场的爪牙角色的能力。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
   },
   {
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -181,7 +181,7 @@
     "name_eng": "Philosopher",
     "firstNight": 2,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "firstNightReminder": "",
@@ -199,7 +199,7 @@
     "name_eng": "Innkeeper",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png"
   },
   {
     "firstNightReminder": "",
@@ -216,7 +216,7 @@
     "name_eng": "Fisherman",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以让说书⼈给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
   },
   {
     "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
@@ -233,7 +233,7 @@
     "name_eng": "Huntsman",
     "firstNight": 30,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
@@ -250,7 +250,7 @@
     "name_eng": "Damsel",
     "firstNight": 31,
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
   },
   {
     "firstNightReminder": "",
@@ -267,7 +267,7 @@
     "name_eng": "Tinker",
     "firstNight": 0,
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
   },
   {
     "firstNightReminder": "",
@@ -284,7 +284,7 @@
     "name_eng": "Golem",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "firstNightReminder": "",
@@ -302,7 +302,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "firstNightReminder": "对他展示所有在场的外来者标记。",
@@ -320,11 +320,11 @@
     "name_eng": "Godfather",
     "firstNight": 21,
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpycf3aac854",
@@ -357,7 +357,7 @@
     "name_eng": "Witch",
     "firstNight": 24,
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
   },
   {
     "firstNightReminder": "",
@@ -372,7 +372,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
@@ -389,7 +389,7 @@
     "name_eng": "Devil's Advocate",
     "firstNight": 22,
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png"
   },
   {
     "firstNightReminder": "",
@@ -407,7 +407,7 @@
     "name_eng": "Zombuul",
     "firstNight": 0,
     "ability": "每个夜晚*，如果今天白天没有⼈死亡，你会被唤醒并要选择一名玩家：他死亡。当你首次死亡后，你仍存活，但会被当作死亡。",
-    "image": "/scripts/assets/community/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png"
   },
   {
     "firstNightReminder": "",
@@ -425,7 +425,7 @@
     "name_eng": "Po",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
   },
   {
     "firstNightReminder": "",
@@ -445,6 +445,6 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-fei-fan-ying-tian-f3aac854/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   }
 ]

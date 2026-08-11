@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "钓蛮任性",
     "author": "驯鹿",
-    "logo": "/scripts/assets/community/44bdec0255b92b88724fdab31451056803974114db14b2f666c2d20e3ef50de6.png",
+    "logo": "/scripts/assets/community-diao-man-ren-xing-7dfec299/44bdec0255b92b88724fdab31451056803974114db14b2f666c2d20e3ef50de6.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -38,11 +38,11 @@
     "firstNight": 4,
     "otherNight": 0,
     "firstNightReminder": "如果钓鱼翁在场，注意给恶魔的三个伪装中需要有一个是在场的善良角色。",
-    "image": "/scripts/assets/community/4ca3f82a737cb3803982f41b18d78291bb96fd3faf3741eee5345d2844d87bd9.png"
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/4ca3f82a737cb3803982f41b18d78291bb96fd3faf3741eee5345d2844d87bd9.png"
   },
   {
     "id": "2af8140e-5887-43e4-866d-c82a5332baf5",
-    "image": "/scripts/assets/community/723b776f0723f44c6de44661d16db203b436fa870a088f49ae27244ee3d36e26.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/723b776f0723f44c6de44661d16db203b436fa870a088f49ae27244ee3d36e26.png",
     "edition": "custom",
     "name": "蛮蛮",
     "ability": "在你的首个夜晚，你要选择一个除你以外的善良角色：你会得知他是否在场。如果你在夜晚死亡，他会代替你死亡。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "5ddd2593-c8eb-4cfa-8034-c65f946e826e",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -75,7 +75,7 @@
   },
   {
     "id": "439aca53-6fe8-4f6a-88c3-116071b549a0",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -92,7 +92,7 @@
   },
   {
     "id": "873aeb2f-67c7-4691-9fe7-671b6a2d7adb",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，拜访说书人并获取两条信息，其中一条是正确的，一条是错误的。",
@@ -107,7 +107,7 @@
   },
   {
     "id": "4431e641-7332-4358-8796-a5d148977db1",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "整局游戏限一次，夜晚，选择两名其他玩家，得知他们是否属于同阵营。",
@@ -124,7 +124,7 @@
   },
   {
     "id": "76f24992-f975-465c-845d-bc5ff4cffa6a",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -141,7 +141,7 @@
   },
   {
     "id": "da560b3f-8a71-4956-a6be-4023e5310e73",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你得知爪牙在白天是否发起了提名。",
@@ -159,7 +159,7 @@
   },
   {
     "id": "ab1bb31b-02ce-42bc-83f0-5636d4c08b5e",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你得知恶魔在白天是否进行了投票。",
@@ -193,11 +193,11 @@
     "name_eng": "Philosopher",
     "firstNight": 1,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "id": "9c875652-bc4e-4cd4-a790-adefad6ade9f",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家被处决。",
@@ -215,7 +215,7 @@
   },
   {
     "id": "12b0629d-9ab5-4e51-8db7-63b06c65ce73",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -230,7 +230,7 @@
   },
   {
     "id": "5542e4dd-783e-4d74-892b-d3a357f8de02",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "name": "农夫",
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
@@ -245,7 +245,7 @@
   },
   {
     "id": "a04c7cdd-9317-4d26-8112-90fda6a93f8b",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -263,7 +263,7 @@
   },
   {
     "id": "3ba17207-4b9f-423a-88ea-b4bbf46893b6",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -281,7 +281,7 @@
   },
   {
     "id": "fc512468-b6f8-4def-8d36-84c5bca6a610",
-    "image": "/scripts/assets/community/c1613b128458b2b63963255dbf567c5df5d99e9a56762a926f7ee0bade4970d2.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/c1613b128458b2b63963255dbf567c5df5d99e9a56762a926f7ee0bade4970d2.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "如果你死亡，说书人会获得一个爪牙能力。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "28168c2a-edf6-4d02-80b6-e9c33e76fee7",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom",
     "name": "帽匠",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -317,7 +317,7 @@
   },
   {
     "id": "6aa88b16-df38-4ee9-8f48-c727e3132ae6",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "4d777f46-9fc2-4730-ae80-6688cebbf8d2",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -351,7 +351,7 @@
   },
   {
     "id": "spybutton",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "name": "间谍",
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "marionettebutton",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会得知你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -384,7 +384,7 @@
   },
   {
     "id": "bcd24545-38a1-498c-80ce-da0171179a01",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -401,7 +401,7 @@
   },
   {
     "id": "bcf6fbe4-0b05-4376-b90c-bf1cd92cb350",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，选择一名玩家，将他杀害。与你相邻的镇民中毒。",
@@ -419,7 +419,7 @@
   },
   {
     "id": "limonstabutton",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -438,7 +438,7 @@
   },
   {
     "id": "d6c04739-6c0b-4c95-8bc2-1180349ea0aa",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -456,7 +456,7 @@
   },
   {
     "ability": "①如果在瘟疫医生死亡时说书人获得了提线木偶的能力，且与恶魔邻座的存活玩家中有镇民或外来者，其中一名玩家会变成邪恶的提线木偶。如果此时场上的邪恶玩家数量比初始设置时的数量超出一名或更多，改为无事发生。②如果瘟疫医生死亡且说书人会因此获得间谍的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。③如果卡扎力选择创造提线木偶，他只能选择将自己的邻座玩家变成提线木偶。④如果因为帽匠死亡，恶魔选择了小怪宝，则还需要选择一个爪牙角色，他变成这个爪牙且当晚照看小怪宝。⑤提线木偶会与一名爪牙玩家邻座，而不是恶魔。提线木偶不会被唤醒来决定是否照看小怪宝，也不会在照看小怪宝时得知自己是提线木偶。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -472,7 +472,7 @@
   },
   {
     "ability": "如果帽匠死亡，允许恶魔变成爪牙，且（仅）一名爪牙变成恶魔。",
-    "image": "/scripts/assets/community/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
+    "image": "/scripts/assets/community-diao-man-ren-xing-7dfec299/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20723_8081",

@@ -3,8 +3,8 @@
     "id": "_meta",
     "name": "黑潮叛约",
     "author": "Gordon Fitzgerald",
-    "background": "/scripts/assets/community/dc86e281ec41e0efc9fb54f384d24d675141135a85624f9746cb000ddce82220.jpg",
-    "logo": "/scripts/assets/community/b4854216c0b69da3defd2d21c4ea22255cacb7c509300021ca8ce21607f8ad7a.png",
+    "background": "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/dc86e281ec41e0efc9fb54f384d24d675141135a85624f9746cb000ddce82220.jpg",
+    "logo": "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/b4854216c0b69da3defd2d21c4ea22255cacb7c509300021ca8ce21607f8ad7a.png",
     "isOfficial": false,
     "tags": [
       "全原创角色剧本",
@@ -15,7 +15,7 @@
   {
     "id": "oldseadog",
     "image": [
-      "/scripts/assets/community/26746aea87af44dc71c62599ef37b6aeb2e3b7eb7632d91a0b3acde16f4bdfbb.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/26746aea87af44dc71c62599ef37b6aeb2e3b7eb7632d91a0b3acde16f4bdfbb.png"
     ],
     "name": "老海员",
     "edition": "custom",
@@ -31,7 +31,7 @@
   {
     "id": "navigator",
     "image": [
-      "/scripts/assets/community/aec44620f3c6e1fa5a63482e054022973d36c6202010ebd95c9aff13b554ee8f.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/aec44620f3c6e1fa5a63482e054022973d36c6202010ebd95c9aff13b554ee8f.png"
     ],
     "name": "领航员RI",
     "edition": "custom",
@@ -51,7 +51,7 @@
   {
     "id": "boatswain",
     "image": [
-      "/scripts/assets/community/a5fcd837cb06dd5117736a9bd0b00b55d9b25ae0c8c1fd567f73f2b8c58b065e.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/a5fcd837cb06dd5117736a9bd0b00b55d9b25ae0c8c1fd567f73f2b8c58b065e.png"
     ],
     "name": "水手长I",
     "edition": "custom",
@@ -67,7 +67,7 @@
   {
     "id": "deckhand",
     "image": [
-      "/scripts/assets/community/04486eb7d3d90fba801d065ab0a87853fb41e257c083133fef457b9929ae424b.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/04486eb7d3d90fba801d065ab0a87853fb41e257c083133fef457b9929ae424b.png"
     ],
     "name": "甲板水手",
     "edition": "custom",
@@ -86,7 +86,7 @@
   {
     "id": "captain",
     "image": [
-      "/scripts/assets/community/5df60845f0ac24678e29f0fcd2a466df71ca13267b1acb77a1d50b078982cdf4.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/5df60845f0ac24678e29f0fcd2a466df71ca13267b1acb77a1d50b078982cdf4.png"
     ],
     "name": "船长IC",
     "edition": "custom",
@@ -106,7 +106,7 @@
   {
     "id": "buccaneer",
     "image": [
-      "/scripts/assets/community/bdabdf05e09fa12e5c5bd73d3ada68f2f056cccf78726120c32491fbf7365ab9.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/bdabdf05e09fa12e5c5bd73d3ada68f2f056cccf78726120c32491fbf7365ab9.png"
     ],
     "name": "西印度海盗RC",
     "edition": "custom",
@@ -125,7 +125,7 @@
   {
     "id": "landlubber",
     "image": [
-      "/scripts/assets/community/099e51fabf8c0f99d7ef630df9554526d183d72151ae4fe75f6af21d0bd03988.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/099e51fabf8c0f99d7ef630df9554526d183d72151ae4fe75f6af21d0bd03988.png"
     ],
     "name": "旱鸭子R",
     "edition": "custom",
@@ -143,7 +143,7 @@
   {
     "id": "wench",
     "image": [
-      "/scripts/assets/community/943105c086ab5acc3c4815a5ace5706dd14c201ae822a4dc12ced8c6e883e7d3.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/943105c086ab5acc3c4815a5ace5706dd14c201ae822a4dc12ced8c6e883e7d3.png"
     ],
     "name": "酒馆女C",
     "edition": "custom",
@@ -159,7 +159,7 @@
   {
     "id": "privateer",
     "image": [
-      "/scripts/assets/community/6517ad1b41c6ed52a15637f4b29a757acb1b38a7a4cff5bfed3c279e554927e9.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/6517ad1b41c6ed52a15637f4b29a757acb1b38a7a4cff5bfed3c279e554927e9.png"
     ],
     "name": "合法海盗RI",
     "edition": "custom",
@@ -177,7 +177,7 @@
   {
     "id": "firstmate",
     "image": [
-      "/scripts/assets/community/be824bfb308d7d53ac3530a4bd09ae7e6447a478a90f16489e647b4908ee94bf.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/be824bfb308d7d53ac3530a4bd09ae7e6447a478a90f16489e647b4908ee94bf.png"
     ],
     "name": "大副RI",
     "edition": "custom",
@@ -195,7 +195,7 @@
   {
     "id": "powdermonkey",
     "image": [
-      "/scripts/assets/community/dbcd721d209c1afdd1bdb6b4f1e1fc10c984dbbd54263c0b0b4e22fc49a2795b.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/dbcd721d209c1afdd1bdb6b4f1e1fc10c984dbbd54263c0b0b4e22fc49a2795b.png"
     ],
     "name": "火药猴R",
     "edition": "custom",
@@ -214,7 +214,7 @@
   {
     "id": "corsair",
     "image": [
-      "/scripts/assets/community/5d87401fe3f0d2e0c3e8eb03e7adeabc2995fc63f7775ee362541a3ffdd889ec.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/5d87401fe3f0d2e0c3e8eb03e7adeabc2995fc63f7775ee362541a3ffdd889ec.png"
     ],
     "name": "巴巴里海盗",
     "edition": "custom",
@@ -230,7 +230,7 @@
   {
     "id": "hermitcrab",
     "image": [
-      "/scripts/assets/community/615b118421282ae03f22680d9858bb3f7c89738a874bff31c63ac95c00e5e1b0.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/615b118421282ae03f22680d9858bb3f7c89738a874bff31c63ac95c00e5e1b0.png"
     ],
     "name": "寄居蟹RIC",
     "edition": "custom",
@@ -248,7 +248,7 @@
   {
     "id": "barnacle",
     "image": [
-      "/scripts/assets/community/36f670bccb69af161dd3684dd57c8f030b16905613a79e2ff2c51c9903d9f7f8.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/36f670bccb69af161dd3684dd57c8f030b16905613a79e2ff2c51c9903d9f7f8.png"
     ],
     "name": "藤壶RC",
     "edition": "custom",
@@ -266,7 +266,7 @@
   {
     "id": "grogblossom",
     "image": [
-      "/scripts/assets/community/b381d5886002110b5dc1bc46df05552f34c49ae9d019236c8830c4e9d8289bb4.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/b381d5886002110b5dc1bc46df05552f34c49ae9d019236c8830c4e9d8289bb4.png"
     ],
     "name": "酒糟鼻R",
     "edition": "custom",
@@ -295,7 +295,7 @@
   {
     "id": "mermaid",
     "image": [
-      "/scripts/assets/community/e790bc9551637ec8ae653abe26161b35f9aff3119e02263441aeb6890f1d5de3.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/e790bc9551637ec8ae653abe26161b35f9aff3119e02263441aeb6890f1d5de3.png"
     ],
     "name": "美人鱼RI",
     "edition": "custom",
@@ -313,7 +313,7 @@
   {
     "id": "stowaway",
     "image": [
-      "/scripts/assets/community/56caa8682d18747890722016ac70eeb0bb0f728f668fff8f8aae2616eba5ee41.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/56caa8682d18747890722016ac70eeb0bb0f728f668fff8f8aae2616eba5ee41.png"
     ],
     "name": "偷渡客",
     "edition": "custom",
@@ -339,7 +339,7 @@
   {
     "id": "mysticpriestess",
     "image": [
-      "/scripts/assets/community/ffc2688557ce25bfeea6a2c12baa7786654a0bb6e7cbcea3c07ca7d7f64a8727.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/ffc2688557ce25bfeea6a2c12baa7786654a0bb6e7cbcea3c07ca7d7f64a8727.png"
     ],
     "name": "神秘祭司RI",
     "edition": "custom",
@@ -359,7 +359,7 @@
   {
     "id": "undeadpirate",
     "image": [
-      "/scripts/assets/community/56c9c572d124104b2145313cfbb00b4ac49d5d7e0b503fb371ed125d67f5a0bf.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/56c9c572d124104b2145313cfbb00b4ac49d5d7e0b503fb371ed125d67f5a0bf.png"
     ],
     "name": "亡灵海盗RI",
     "edition": "custom",
@@ -378,7 +378,7 @@
   {
     "id": "seaspirit",
     "image": [
-      "/scripts/assets/community/d52702b62735d6a78cfb47f36d2bf1776d039794061cc5dc3e086208172db6f9.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/d52702b62735d6a78cfb47f36d2bf1776d039794061cc5dc3e086208172db6f9.png"
     ],
     "name": "海灵RI",
     "edition": "custom",
@@ -397,7 +397,7 @@
   {
     "id": "flesheater",
     "image": [
-      "/scripts/assets/community/37103f7815c66578ed01dfffa6806609b3e9b56b0505051a2aa8920959c5a8da.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/37103f7815c66578ed01dfffa6806609b3e9b56b0505051a2aa8920959c5a8da.png"
     ],
     "name": "食尸者R",
     "edition": "custom",
@@ -416,7 +416,7 @@
   {
     "id": "kraken",
     "image": [
-      "/scripts/assets/community/f145972effba751f810ec2608c256471e3de2b2b40960936ddfc589e7f97680f.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/f145972effba751f810ec2608c256471e3de2b2b40960936ddfc589e7f97680f.png"
     ],
     "name": "克拉肯R",
     "edition": "custom",
@@ -435,7 +435,7 @@
   {
     "id": "calypso",
     "image": [
-      "/scripts/assets/community/619205a93bddf816bfa33208194792fce33f52693bfe4a1f005c9c4612ddb74e.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/619205a93bddf816bfa33208194792fce33f52693bfe4a1f005c9c4612ddb74e.png"
     ],
     "name": "卡吕普索C",
     "edition": "custom",
@@ -458,7 +458,7 @@
   {
     "id": "rusalka",
     "image": [
-      "/scripts/assets/community/aeebc3ab0035f30d2d7f4a42431e74ceca47f8a1032068cae16bdc4b0d763a76.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/aeebc3ab0035f30d2d7f4a42431e74ceca47f8a1032068cae16bdc4b0d763a76.png"
     ],
     "name": "鲁萨尔卡R",
     "edition": "custom",
@@ -477,7 +477,7 @@
   {
     "id": "umibozu",
     "image": [
-      "/scripts/assets/community/789e4e8a98e544220de1879bcfeff19528b2b5136fc5642d917b49c5fb340e3d.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/789e4e8a98e544220de1879bcfeff19528b2b5136fc5642d917b49c5fb340e3d.png"
     ],
     "name": "海坊主I",
     "edition": "custom",
@@ -501,7 +501,7 @@
   {
     "id": "bilgerat",
     "image": [
-      "/scripts/assets/community/7195fc25c7e723be9af1eafa101ab5d5908ef3ae97964ab17d29eebcb19770bd.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/7195fc25c7e723be9af1eafa101ab5d5908ef3ae97964ab17d29eebcb19770bd.png"
     ],
     "name": "舱底鼠RI",
     "edition": "custom",
@@ -520,7 +520,7 @@
   {
     "id": "scruveyscalawag",
     "image": [
-      "/scripts/assets/community/6148e19d326f0405032501ddaaaa5b897bc02e271d0a42487dae989c3657d176.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/6148e19d326f0405032501ddaaaa5b897bc02e271d0a42487dae989c3657d176.png"
     ],
     "name": "无赖汉RC",
     "edition": "custom",
@@ -542,7 +542,7 @@
   {
     "id": "commodore",
     "image": [
-      "/scripts/assets/community/b5208aa652d87fdf75a0e644c3c5184c6568231eb6a6fe8b5d8da5cdbdddde9e.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/b5208aa652d87fdf75a0e644c3c5184c6568231eb6a6fe8b5d8da5cdbdddde9e.png"
     ],
     "name": "海军准将RC",
     "edition": "custom",
@@ -561,7 +561,7 @@
   {
     "id": "cursedmutineer",
     "image": [
-      "/scripts/assets/community/7010a7db7db975175c06ceb4336fc85f1e2493cde1d3c26c84e46fe82fc90a0b.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/7010a7db7db975175c06ceb4336fc85f1e2493cde1d3c26c84e46fe82fc90a0b.png"
     ],
     "name": "叛船咒徒RIC",
     "edition": "custom",
@@ -577,7 +577,7 @@
   {
     "id": "castaway",
     "image": [
-      "/scripts/assets/community/ceb354de056781f52976d98465c9bde25233cca7556fd7d37a1a1642384a21c1.png"
+      "/scripts/assets/community-hei-chao-pan-yue-5bd36bfa/ceb354de056781f52976d98465c9bde25233cca7556fd7d37a1a1642384a21c1.png"
     ],
     "name": "荒岛生还者C",
     "edition": "custom",

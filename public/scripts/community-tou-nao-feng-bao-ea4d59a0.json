@@ -25,7 +25,7 @@
     "id": "_meta",
     "name": "头脑风暴",
     "author": "星火丶",
-    "logo": "/scripts/assets/community/0ebb370bc0ed7bd72400c3fa0eb473d61b6665fd80e474cd4b128edb85fa69e8.webp",
+    "logo": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/0ebb370bc0ed7bd72400c3fa0eb473d61b6665fd80e474cd4b128edb85fa69e8.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -57,11 +57,11 @@
     "name_eng": "Gossip",
     "firstNight": 0,
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
   },
   {
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "1_14",
@@ -77,7 +77,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_button",
@@ -96,7 +96,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_button",
@@ -115,7 +115,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_button",
@@ -135,7 +135,7 @@
   },
   {
     "id": "qintianjianButton",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -150,7 +150,7 @@
   },
   {
     "id": "dagengrencea4d59a0",
-    "image": "/scripts/assets/community/64ca31dd9fb055e5d0298bbb58d3910977133d5ea9bdbd81ed1c3adea1b3af90.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/64ca31dd9fb055e5d0298bbb58d3910977133d5ea9bdbd81ed1c3adea1b3af90.png",
     "edition": "custom",
     "name": "打更人",
     "ability": "每个夜晚*，你要猜测今晚第一个死亡的玩家与你的距离。如果你猜测正确，改为除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
@@ -167,7 +167,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertaker_button",
@@ -197,11 +197,11 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "flavor": "",
     "id": "professor_button",
@@ -221,7 +221,7 @@
   },
   {
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "flavor": "",
     "id": "amnesiac_button",
@@ -240,7 +240,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_63",
@@ -259,7 +259,7 @@
   },
   {
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_69",
@@ -277,7 +277,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
-    "image": "/scripts/assets/community/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
     "edition": "custom",
     "flavor": "",
     "id": "ogre_button",
@@ -307,11 +307,11 @@
     "name_eng": "Barber",
     "firstNight": 0,
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_button",
@@ -328,7 +328,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_button",
@@ -347,7 +347,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一个镇民角色：当他下一次通过自身能力获取信息时，改为得知你给出的信息。",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "flavor": "",
     "id": "niangjiushi_button",
@@ -366,7 +366,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "2_28",
@@ -385,7 +385,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_52",
@@ -401,7 +401,7 @@
   },
   {
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]\n\n",
-    "image": "/scripts/assets/community/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
     "edition": "custom",
     "flavor": "",
     "id": "summoner_button",
@@ -422,7 +422,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_50",
@@ -442,7 +442,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你的上个夜晚选择过的且当前死亡的玩家可能会被你反刍。",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "flavor": "",
     "id": "shabaloth_button",
@@ -462,7 +462,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "1_1",
@@ -480,7 +480,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
-    "image": "/scripts/assets/community/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
     "edition": "custom",
     "flavor": "",
     "id": "guhuoniao_button",
@@ -511,11 +511,11 @@
     "id": "bootleggerbutton",
     "ability": "积极私聊的玩家可能会在夜晚得知一条有用的建议。阻止私聊的玩家可能会发生不好的事情。",
     "edition": "custom",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png"
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png"
   },
   {
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
-    "image": "/scripts/assets/community/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
     "edition": "custom",
     "flavor": "",
     "id": "20004_105",
@@ -531,7 +531,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "djiin",
@@ -545,7 +545,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_106",
@@ -563,7 +563,7 @@
   },
   {
     "id": "shibaideshangdi1111111",
-    "image": "/scripts/assets/community/1001b0be15f358fccec4a159061352971dc3530fc1e7221c79f987e49748c828.png",
+    "image": "/scripts/assets/community-tou-nao-feng-bao-ea4d59a0/1001b0be15f358fccec4a159061352971dc3530fc1e7221c79f987e49748c828.png",
     "name": "失败的上帝",
     "edition": "custom",
     "ability": "每局游戏限一次，说书人可能会犯一个“错误”，但会将其纠正，并公开承认自己曾处理有误。",

@@ -16,7 +16,7 @@
   },
   {
     "id": "zhongbiaojiang",
-    "image": "/scripts/assets/community/f8315353335d8c4800f9d7757f9d461582eeb3f2530432592b47ef762208bdce.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/f8315353335d8c4800f9d7757f9d461582eeb3f2530432592b47ef762208bdce.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -31,7 +31,7 @@
   },
   {
     "id": "dagengrencd70881d1",
-    "image": "/scripts/assets/community/64ca31dd9fb055e5d0298bbb58d3910977133d5ea9bdbd81ed1c3adea1b3af90.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/64ca31dd9fb055e5d0298bbb58d3910977133d5ea9bdbd81ed1c3adea1b3af90.png",
     "edition": "custom",
     "name": "打更人",
     "ability": "每个夜晚*，你要猜测今晚第一个死亡的玩家与你的距离。如果你猜测正确，改为除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
@@ -48,7 +48,7 @@
   },
   {
     "id": "lianjin",
-    "image": "/scripts/assets/community/4e2fd77d92847c8ca659e00c7201fc64eb6f715b8600b8d246648ccee35ebc13.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/4e2fd77d92847c8ca659e00c7201fc64eb6f715b8600b8d246648ccee35ebc13.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个不在场的爪牙角色的能力。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "heshangcd70881d1",
-    "image": "/scripts/assets/community/a3b8df35af6d34ea40ea28578c7293a253b6c30a7dd4bdbd4d4eb2594fdc21f8.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/a3b8df35af6d34ea40ea28578c7293a253b6c30a7dd4bdbd4d4eb2594fdc21f8.png",
     "edition": "custom",
     "name": "和尚",
     "ability": "每个夜晚，当有邪恶玩家的能力首次选择或影响与你邻近的存活玩家时，改为此次能力不生效，你会得知这一信息。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "yinyangshicd70881d1",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -91,7 +91,7 @@
   },
   {
     "id": "caifeng",
-    "image": "/scripts/assets/community/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -108,7 +108,7 @@
   },
   {
     "id": "shuishou",
-    "image": "/scripts/assets/community/934f00caa1ba955346bf4bed84268ccd8fec4459ec4d1c62c1b5d61e0f7221ba.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/934f00caa1ba955346bf4bed84268ccd8fec4459ec4d1c62c1b5d61e0f7221ba.png",
     "edition": "custom",
     "name": "水手",
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
@@ -125,7 +125,7 @@
   },
   {
     "id": "boxue",
-    "image": "/scripts/assets/community/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "langzhongcd70881d1",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "name": "郎中",
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -154,7 +154,7 @@
   },
   {
     "id": "gelingcd70881d1",
-    "image": "/scripts/assets/community/9e5d036637318ba6e60c2f306cdc9ff4bbc1a3c9646217eee1d0b89d7773ff06.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/9e5d036637318ba6e60c2f306cdc9ff4bbc1a3c9646217eee1d0b89d7773ff06.png",
     "edition": "custom",
     "name": "歌伶",
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "chuanjiaoshi",
-    "image": "/scripts/assets/community/a3cbe0affd78f562f2ee72d6d62a15ee275b7e7f9e451e4b0527665bbd8a1be2.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/a3cbe0affd78f562f2ee72d6d62a15ee275b7e7f9e451e4b0527665bbd8a1be2.png",
     "edition": "custom",
     "name": "传教士",
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -188,7 +188,7 @@
   },
   {
     "id": "gongqing",
-    "image": "/scripts/assets/community/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -203,7 +203,7 @@
   },
   {
     "id": "yingsu",
-    "image": "/scripts/assets/community/3944bc53a88c1b2a76abcc51d43006c9668ae924acea869e02ff7cb0790711e5.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/3944bc53a88c1b2a76abcc51d43006c9668ae924acea869e02ff7cb0790711e5.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -220,7 +220,7 @@
   },
   {
     "id": "nichencd70881d1",
-    "image": "/scripts/assets/community/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
     "edition": "custom",
     "name": "逆臣",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
@@ -237,7 +237,7 @@
   },
   {
     "id": "jixingxiu",
-    "image": "/scripts/assets/community/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "jiemi",
-    "image": "/scripts/assets/community/f7d9fd4d50e5526cda88df15f9b8cd87dc0fbd2b51a398ff1de99f8193e83ce8.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/f7d9fd4d50e5526cda88df15f9b8cd87dc0fbd2b51a398ff1de99f8193e83ce8.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -270,7 +270,7 @@
   },
   {
     "id": "gaomi",
-    "image": "/scripts/assets/community/9261bacf7bc46daaa72aa5dc0e3957c156f10ebb6687483ca46c2d1e8e54acce.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/9261bacf7bc46daaa72aa5dc0e3957c156f10ebb6687483ca46c2d1e8e54acce.png",
     "edition": "custom",
     "name": "告密者",
     "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "ganshi",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -300,7 +300,7 @@
   },
   {
     "id": "jiaofu",
-    "image": "/scripts/assets/community/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -318,7 +318,7 @@
   },
   {
     "id": "nvwu",
-    "image": "/scripts/assets/community/607e36baa7fe22d451186df937ff2cc5322fbdd93a68b0a38118a92f581fee90.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/607e36baa7fe22d451186df937ff2cc5322fbdd93a68b0a38118a92f581fee90.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -335,7 +335,7 @@
   },
   {
     "id": "modai",
-    "image": "/scripts/assets/community/d24b125d0e3cb7005441fdef3a498a9a771ce2e54a741f4fd341a3eda264cdbf.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/d24b125d0e3cb7005441fdef3a498a9a771ce2e54a741f4fd341a3eda264cdbf.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -352,7 +352,7 @@
   },
   {
     "id": "fanggucd70881d1",
-    "image": "/scripts/assets/community/277a8f974b2808f5b6ddcc4faf1ff3fef712ee47c64d7c10e2b55c0b3e17e541.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/277a8f974b2808f5b6ddcc4faf1ff3fef712ee47c64d7c10e2b55c0b3e17e541.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -370,7 +370,7 @@
   },
   {
     "id": "taowucd70881d1",
-    "image": "/scripts/assets/community/17507690d1b7a3ec2ab1a335f4b78cec2db1efd45f4aa4f93a2cec38b08a2b7c.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/17507690d1b7a3ec2ab1a335f4b78cec2db1efd45f4aa4f93a2cec38b08a2b7c.png",
     "edition": "custom",
     "name": "梼杌",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚限一次，如果你以这种方式杀死了一名外来者，当晚你可以再次行动。[+1外来者]",
@@ -387,7 +387,7 @@
   },
   {
     "id": "lizhi",
-    "image": "/scripts/assets/community/3badf74ae047bc6b91cfe5f3196618f12370055302b006daaae731a45a4fb111.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/3badf74ae047bc6b91cfe5f3196618f12370055302b006daaae731a45a4fb111.png",
     "edition": "custom",
     "name": "痢蛭",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
@@ -405,7 +405,7 @@
   },
   {
     "id": "qiongqicd70881d1",
-    "image": "/scripts/assets/community/0129ef3cd5bbeb292f8d44436a6f0ff0107a8f88e54c3d0e9c1cb03d44ea0a00.png",
+    "image": "/scripts/assets/community-zhong-kou-shuo-jin-d70881d1/0129ef3cd5bbeb292f8d44436a6f0ff0107a8f88e54c3d0e9c1cb03d44ea0a00.png",
     "edition": "custom",
     "name": "穷奇",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。所有的外来者都可能会被当作邪恶阵营、爪牙角色或恶魔角色。",

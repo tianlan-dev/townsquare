@@ -21,7 +21,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_button",
@@ -41,7 +41,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_button",
@@ -58,7 +58,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
-    "image": "/scripts/assets/community/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banshee_button",
@@ -75,7 +75,7 @@
   },
   {
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "flavor": "",
     "id": "minstrel_button",
@@ -94,7 +94,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snake_charmer_button",
@@ -113,7 +113,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_button",
@@ -133,7 +133,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayor_button",
@@ -150,7 +150,7 @@
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "flavor": "",
     "id": "rulianshi_button",
@@ -169,7 +169,7 @@
   },
   {
     "ability": "对调胜负结果，即使你已死亡。",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "flavor": "",
     "id": "heretic_button",
@@ -186,7 +186,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_button",
@@ -206,7 +206,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_button",
@@ -225,7 +225,7 @@
   },
   {
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "flavor": "",
     "id": "mastermind_button",
@@ -242,7 +242,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你靠近正中，+1爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-jian-feng-shi-duo-7b51dc5c/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "flavor": "",
     "id": "lord_of_typhon_button",

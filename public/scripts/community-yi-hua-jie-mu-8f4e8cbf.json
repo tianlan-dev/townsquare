@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "移花接木",
     "author": "刘中奇",
-    "logo": "/scripts/assets/community/1ef69951b594cfe6d4fc000d32d1f444d749df0c6e6ac343f6177481d135c918.png",
+    "logo": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/1ef69951b594cfe6d4fc000d32d1f444d749df0c6e6ac343f6177481d135c918.png",
     "townsfolkName": "镇民",
     "state": [
       {
@@ -26,7 +26,7 @@
   },
   {
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "flavor": "",
     "id": "mathematicianbutton",
@@ -59,11 +59,11 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/87a38b381dbd488c417029ac00a633049ec93ce77dd000bae3b40ca46e81bdc0.png"
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/87a38b381dbd488c417029ac00a633049ec93ce77dd000bae3b40ca46e81bdc0.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_40",
@@ -82,7 +82,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6845",
@@ -99,7 +99,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6838",
@@ -118,7 +118,7 @@
   },
   {
     "id": "fortunetellerbutton",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -135,7 +135,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaidbutton",
@@ -152,7 +152,7 @@
   },
   {
     "id": "guideButton",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "edition": "custom",
     "name": "引路人",
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -167,7 +167,7 @@
   },
   {
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
-    "image": "/scripts/assets/community/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banxianc8f4e8cbf",
@@ -199,11 +199,11 @@
     "team": "townsfolk",
     "name_eng": "Village Idiot",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_76",
@@ -223,7 +223,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossipbutton",
@@ -242,7 +242,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_121",
@@ -261,7 +261,7 @@
   },
   {
     "id": "jiubaoc8f4e8cbf",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -276,7 +276,7 @@
   },
   {
     "ability": "每个夜晚限一次，所有玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
-    "image": "/scripts/assets/community/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6861",
@@ -308,11 +308,11 @@
     "name_eng": "Lunatic",
     "firstNight": 7,
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goonbutton",
@@ -331,7 +331,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_30",
@@ -351,7 +351,7 @@
   },
   {
     "ability": "每个夜晚，你要选择左或右：你从当前位置飞行到该方向上的下一名存活善良玩家，你得知他的角色，随后他中毒且可能被当作邪恶阵营和爪牙角色。",
-    "image": "/scripts/assets/community/3c21eadb0bec4983e9a5de922e3fb4fe8c6417cbcd2275da3a90e3621a2c9978.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/3c21eadb0bec4983e9a5de922e3fb4fe8c6417cbcd2275da3a90e3621a2c9978.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6864",
@@ -370,7 +370,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionettebutton",
@@ -389,7 +389,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
-    "image": "/scripts/assets/community/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
     "edition": "custom",
     "flavor": "",
     "id": "huapibutton",
@@ -409,7 +409,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_6870",
@@ -428,7 +428,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_25",
@@ -448,7 +448,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一至三名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
-    "image": "/scripts/assets/community/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_6869",
@@ -483,6 +483,6 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
+    "image": "/scripts/assets/community-yi-hua-jie-mu-8f4e8cbf/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
   }
 ]

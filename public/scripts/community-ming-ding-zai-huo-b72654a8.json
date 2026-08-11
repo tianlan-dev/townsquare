@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "命定灾祸",
     "author": "Stitchface & Bra1n",
-    "logo": "/scripts/assets/community/efc54e48624704ecc5032bce5b08520bcf1cc8861d9d034888395fd81b2919d3.png",
+    "logo": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/efc54e48624704ecc5032bce5b08520bcf1cc8861d9d034888395fd81b2919d3.png",
     "almanac": "https://www.bloodstar.xyz/p/lunatichugo/Ides-of-Blood-Bra1n-Chinese/almanac.html",
     "state": [
       {
@@ -41,7 +41,7 @@
   },
   {
     "id": "1_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/b99450ed3a77301db6b71b7745ecbd39c17a51cae8cbe8ee561f7a2154a2ba18.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/b99450ed3a77301db6b71b7745ecbd39c17a51cae8cbe8ee561f7a2154a2ba18.png",
     "firstNightReminder": "唤醒亵神者，向他展示一个在场的镇民角色标记。",
     "otherNightReminder": "唤醒渎神者，他摇头或点头，如果他点头，且命运指针指向了他，他死亡两次。死亡两次意味着即使他因为某些原因被庇佑，也仍然会死亡，而非进入负伤状态。",
     "reminders": [
@@ -57,7 +57,7 @@
   },
   {
     "id": "_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/58f3527949d3a0e2f332d3df6b51e859b6399a30c349a5467350c2b1a61a787e.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/58f3527949d3a0e2f332d3df6b51e859b6399a30c349a5467350c2b1a61a787e.png",
     "firstNightReminder": "唤醒酋长，向他展示一个在场的外来者角色标记。",
     "otherNightReminder": "唤醒酋长，如果命运指针正指向一名外来者，向酋长点头，否则摇头。",
     "reminders": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "8_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/fb50e70ebe99e6c9c16d6b2e5881d440cb216958b370874bc40f541b57cafeb2.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/fb50e70ebe99e6c9c16d6b2e5881d440cb216958b370874bc40f541b57cafeb2.png",
     "firstNightReminder": "唤醒巡逻兵，向他展示一个在场的爪牙角色标记。",
     "otherNightReminder": "当巡逻兵在夜晚死亡时，唤醒他，并指向一名爪牙玩家。",
     "reminders": [
@@ -88,7 +88,7 @@
   },
   {
     "id": "9_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/2d880dc867494adf7c084140b63a6f3e929199772b60cdf7b9ef30ee4b6e1aae.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/2d880dc867494adf7c084140b63a6f3e929199772b60cdf7b9ef30ee4b6e1aae.png",
     "firstNightReminder": "唤醒看守人，并向他展示在场的恶魔角色标记。跟随命运指针放置庇佑标记。",
     "otherNightReminder": "跟随命运指针放置庇佑标记。",
     "reminders": [
@@ -103,7 +103,7 @@
   },
   {
     "id": "2_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/12dc954651983934749602b24f3f9f0f4733c7f06732aa5224b62dffdd964249.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/12dc954651983934749602b24f3f9f0f4733c7f06732aa5224b62dffdd964249.png",
     "firstNightReminder": "唤醒陷阱师，让他指向一名玩家，在该玩家的角色标记旁放置绊索标记。",
     "otherNightReminder": "唤醒陷阱师，如果命运指针正指向陷阱师或标记有绊索标记的玩家，点头，否则摇头。",
     "reminders": [
@@ -118,7 +118,7 @@
   },
   {
     "id": "7_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/c18ba49337815cec4f818731c45ceefb044d79b74c3bc6a8a3e23494451cb710.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/c18ba49337815cec4f818731c45ceefb044d79b74c3bc6a8a3e23494451cb710.png",
     "firstNightReminder": "唤醒瞭望员，如果瞭望员顺时针方向最近的存活玩家是爪牙，点头，否则摇头。",
     "otherNightReminder": "唤醒瞭望员，如果瞭望员顺时针方向最近的存活玩家是爪牙，点头，否则摇头。",
     "name": "瞭望员",
@@ -130,7 +130,7 @@
   },
   {
     "id": "4_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/cb9c17a893c47d68259519618d10b94ec17fd845051b139f3f01e61df42fbfd0.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/cb9c17a893c47d68259519618d10b94ec17fd845051b139f3f01e61df42fbfd0.png",
     "otherNightReminder": "唤醒占星师，如果命运指针指向了善良阵营玩家，给出向上的大拇指，否则给出向下的大拇指。",
     "name": "占星师",
     "team": "townsfolk",
@@ -140,7 +140,7 @@
   },
   {
     "id": "5_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/a9bd494d0d1f954ff0d304ef17e7801f39fcd74725ebfff3fd41395db6f0645b.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/a9bd494d0d1f954ff0d304ef17e7801f39fcd74725ebfff3fd41395db6f0645b.png",
     "otherNightReminder": "如果命运指针正指向先知或邪恶玩家，他醉酒。唤醒先知，让他指向一名玩家。向先知展示该玩家的角色标记。如果先知正处于醉酒状态，则展示任意一个角色标记。",
     "reminders": [
       "醉酒"
@@ -153,7 +153,7 @@
   },
   {
     "id": "11_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/afb05fdd656a9cb9314e7ee82a4a6f8a971f86555d0f607db6187e3d8e98ef79.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/afb05fdd656a9cb9314e7ee82a4a6f8a971f86555d0f607db6187e3d8e98ef79.png",
     "firstNightReminder": "为勇士放置庇佑标记。",
     "otherNightReminder": "唤醒勇士，如果勇士处于负伤状态，点头，否则摇头。",
     "reminders": [
@@ -168,7 +168,7 @@
   },
   {
     "id": "12_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/8322d36c02e6ce9c274c1a651039294d62fa4a0c7cf2cf8214cd407287565f99.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/8322d36c02e6ce9c274c1a651039294d62fa4a0c7cf2cf8214cd407287565f99.png",
     "otherNightReminder": "唤醒前线医师，并让他指向两名玩家，他们获得庇佑效果，直到下个黎明。",
     "reminders": [
       "庇佑",
@@ -182,7 +182,7 @@
   },
   {
     "id": "6_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/fe48d8ca074b548fd597001b046ed772d542d0086edc303986060b0cf663775b.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/fe48d8ca074b548fd597001b046ed772d542d0086edc303986060b0cf663775b.png",
     "firstNightReminder": "为一个镇民放置负伤标记。",
     "otherNightReminder": "唤醒肠卜僧，他不使用能力或指向一名玩家，如果他选择了一名善良玩家，给出向上的大拇指，否则给出向下的大拇指。然后，选择是否要为一名玩家放置负伤标记。",
     "name": "肠卜僧",
@@ -194,7 +194,7 @@
   },
   {
     "id": "3_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/353ad8aaaa067144e3f976153f5d31829b93e2b6e4e1647de2a9d65207d8939a.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/353ad8aaaa067144e3f976153f5d31829b93e2b6e4e1647de2a9d65207d8939a.png",
     "otherNightReminder": "唤醒偷猎者，他摇头不使用能力，或选择一名玩家。如果他选择了一名玩家，且命运指针正指向该玩家或与他顺时针邻近的玩家，点头，否则摇头。",
     "reminders": [
       "失去能力"
@@ -207,7 +207,7 @@
   },
   {
     "id": "10_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/2a9e82ad9f4acafe6112a6cf1431d45b595409e1a14540977bd5c285c3f1adc3.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/2a9e82ad9f4acafe6112a6cf1431d45b595409e1a14540977bd5c285c3f1adc3.png",
     "otherNightReminder": "为与外勤员顺时针邻近的玩家放置庇佑标记。唤醒外勤员，他摇头不使用能力，或指向一名已死亡的玩家，如果他指向了一名善良玩家，给出向上的大拇指，否则给出向下的大拇指。",
     "reminders": [
       "失去能力",
@@ -221,7 +221,7 @@
   },
   {
     "id": "13_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/ae5a8244192ab8be9d7fbae36d66199331f0ea35e998b1240c07c7fb469edea2.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/ae5a8244192ab8be9d7fbae36d66199331f0ea35e998b1240c07c7fb469edea2.png",
     "otherNightReminder": "如果命运指针指向了恶棍，唤醒他，并向他展示向下的大拇指，然后唤醒恶魔，展示恶棍的角色标记并指向恶棍。",
     "reminders": [
       "邪恶"
@@ -234,7 +234,7 @@
   },
   {
     "id": "14_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/da3b82d8683c7531d5150f4c54597e4216061ab4c0b1791575e53352dd12756f.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/da3b82d8683c7531d5150f4c54597e4216061ab4c0b1791575e53352dd12756f.png",
     "firstNightReminder": "为扫把星放置负伤标记。",
     "otherNightReminder": "如果扫把星放置了被处决标记，唤醒恶魔，询问他今晚是否要移动命运指针",
     "reminders": [
@@ -249,7 +249,7 @@
   },
   {
     "id": "15_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/cc20a46dd3326ef70d053fd3f259e3294a5e7247263c86cccaa102809eadfb90.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/cc20a46dd3326ef70d053fd3f259e3294a5e7247263c86cccaa102809eadfb90.png",
     "reminders": [
       "顺时针邻近"
     ],
@@ -260,7 +260,7 @@
   },
   {
     "id": "16_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/6e9d497eb3255d5e5cf39f8bef12758076ccca32e51503be51a9a642ebeac2bb.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/6e9d497eb3255d5e5cf39f8bef12758076ccca32e51503be51a9a642ebeac2bb.png",
     "otherNightReminder": "如果大于等于六名玩家存活时兽王死亡，一名玩家死亡，或者三名玩家负伤。",
     "reminders": [
       "野兽出逃",
@@ -274,7 +274,7 @@
   },
   {
     "id": "17_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/927156fa916dbb7a8b625d7216c22b51ccc0b4cd4248a57c72541906478a6a08.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/927156fa916dbb7a8b625d7216c22b51ccc0b4cd4248a57c72541906478a6a08.png",
     "otherNightReminder": "唤醒掩日者，如果他已经死亡，询问他是否选择拨动命运指针，点头或摇头。如果掩日者没有死亡并点头，他死亡，然后询问他是否选择拨动命运指针。",
     "reminders": [
       "死亡",
@@ -288,7 +288,7 @@
   },
   {
     "id": "18_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/ea095dccbb2928ac8acde3239309a94c131c8e5e050a860a1ab7899b71135bb7.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/ea095dccbb2928ac8acde3239309a94c131c8e5e050a860a1ab7899b71135bb7.png",
     "firstNightReminder": "唤醒阴谋家，让他查看魔典。他选择点头或摇头。如果点头，为他顺时针方向最近的镇民角色放置中毒标记直至下个黄昏。",
     "otherNightReminder": "唤醒阴谋家，让他查看魔典。他选择点头或摇头。如果点头，为他顺时针方向最近的镇民角色放置中毒标记直至下个黄昏。",
     "reminders": [
@@ -303,7 +303,7 @@
   },
   {
     "id": "19_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/5b0612a4d39f55a3a78ea3514b84d5e8a6443db66c68b634dbe9fc344f6bd51b.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/5b0612a4d39f55a3a78ea3514b84d5e8a6443db66c68b634dbe9fc344f6bd51b.png",
     "otherNightReminder": "唤醒悲剧家，让他指向一名玩家，如果他指向了一名外来者，向他点头，否则摇头，并在被指向的玩家角色标记旁放置负伤标记。",
     "setup": true,
     "name": "悲剧家",
@@ -314,7 +314,7 @@
   },
   {
     "id": "20_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/39071184e08dee63067d0d9ad4d7b29684095fbfa9519a73c305edcd18814c8a.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/39071184e08dee63067d0d9ad4d7b29684095fbfa9519a73c305edcd18814c8a.png",
     "firstNightReminder": "为二把手放置负伤标记。",
     "otherNightReminder": "唤醒二把手，让他指向一名玩家，如果该玩家正被命运时针指向，他死亡。否则，他负伤。",
     "reminders": [
@@ -329,7 +329,7 @@
   },
   {
     "id": "21_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/60a6637dcb85996cb714c4e7de240e6378be9266b1a098bd48217d2f8ad87636.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/60a6637dcb85996cb714c4e7de240e6378be9266b1a098bd48217d2f8ad87636.png",
     "firstNightReminder": "说书人选择放置中毒标记在一名玩家旁直至下个黄昏。",
     "otherNightReminder": "唤醒逆时旅人，让他指向一名玩家，那名玩家死亡。",
     "reminders": [
@@ -346,7 +346,7 @@
   },
   {
     "id": "22_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/6c39f98be0a6f62567934f11ae9eb58d9b04f786437c46fa3f3b90a5dbccda8a.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/6c39f98be0a6f62567934f11ae9eb58d9b04f786437c46fa3f3b90a5dbccda8a.png",
     "firstNightReminder": "如果命运指针正指向的玩家及与他顺时针邻近的玩家均为镇民，为他们放置中毒标记。",
     "otherNightReminder": "唤醒沼泽蜥人，让他指向一名玩家，那名玩家死亡。如果命运指针正指向的玩家及与他顺时针邻近的玩家均为镇民，为他们放置中毒标记。",
     "reminders": [
@@ -362,7 +362,7 @@
   },
   {
     "id": "23_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/8d0a2bba9f2b92f568ad68e28e021adf1eec0e5b2aeed39697825d433a8a107f.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/8d0a2bba9f2b92f568ad68e28e021adf1eec0e5b2aeed39697825d433a8a107f.png",
     "firstNightReminder": "唤醒末日执行者，让他指向一名玩家，为那名玩家放置中毒标记。",
     "otherNightReminder": "唤醒末日执行者，让他指向一名玩家，那名玩家死亡。",
     "reminders": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "24_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/f21ca6dea80d98a0179af941613f589e8fe24f484f999bf76c1a3042ac322907.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/f21ca6dea80d98a0179af941613f589e8fe24f484f999bf76c1a3042ac322907.png",
     "otherNightReminder": "唤醒万钧之力，他指向一名或三名玩家，如果基洛选择一名玩家，他死亡。如果基洛选择三名玩家，他们负伤。",
     "reminders": [
       "死亡"
@@ -391,7 +391,7 @@
   },
   {
     "id": "25_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/2e8da48e3ae96165ab4affe8ed3bd46f123c5e1426185025b2a671f8f992937e.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/2e8da48e3ae96165ab4affe8ed3bd46f123c5e1426185025b2a671f8f992937e.png",
     "reminders": [
       "命运指针",
       "逆向命运指针"
@@ -403,7 +403,7 @@
   },
   {
     "id": "28idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/dcf9cd3493769293047b8b40ef0ea50f11e5bdc7f286f153f511bc94fce4d7c3.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/dcf9cd3493769293047b8b40ef0ea50f11e5bdc7f286f153f511bc94fce4d7c3.png",
     "reminders": [
       "庇护"
     ],
@@ -414,7 +414,7 @@
   },
   {
     "id": "26_idesofbloodbra1nchinese",
-    "image": "/scripts/assets/community/f045b3b3aa4697399852504fa2c15d99fdcb7fb3ca416bbce607237aa30daced.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/f045b3b3aa4697399852504fa2c15d99fdcb7fb3ca416bbce607237aa30daced.png",
     "reminders": [
       "负伤"
     ],
@@ -425,7 +425,7 @@
   },
   {
     "id": "27_rhigh",
-    "image": "/scripts/assets/community/ae237171dc79c6281721b3971374f91029941e2338435eb98b651a713c003f93.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/ae237171dc79c6281721b3971374f91029941e2338435eb98b651a713c003f93.png",
     "name": "夜枭",
     "team": "traveller",
     "reminders": [
@@ -436,7 +436,7 @@
   },
   {
     "id": "28_rhigh",
-    "image": "/scripts/assets/community/e28a994b1a407faca4c127d13ab3d1ecb877b022cbe3c81acd4329aebe2dc171.png",
+    "image": "/scripts/assets/community-ming-ding-zai-huo-b72654a8/e28a994b1a407faca4c127d13ab3d1ecb877b022cbe3c81acd4329aebe2dc171.png",
     "reminders": [
       "不再负伤"
     ],

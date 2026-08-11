@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "地精嘉年华",
     "author": "木宁",
-    "logo": "/scripts/assets/community/b509dc844896d85aaf0e30373afaf1f5544ab6e10c1a9c0f43b46f2fa0dbbbf4.png",
+    "logo": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/b509dc844896d85aaf0e30373afaf1f5544ab6e10c1a9c0f43b46f2fa0dbbbf4.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -35,7 +35,7 @@
     "name_eng": "Bounty Hunter",
     "firstNight": 45,
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
   },
   {
     "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
@@ -53,7 +53,7 @@
     "name_eng": "Alchemist",
     "firstNight": 3,
     "ability": "你拥有一个不在场的爪牙角色的能力。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -70,7 +70,7 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
@@ -85,7 +85,7 @@
     "name_eng": "Dreamer",
     "firstNight": 41,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -102,7 +102,7 @@
     "name_eng": "Fortune Teller",
     "firstNight": 37,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
@@ -117,7 +117,7 @@
     "name_eng": "Empath",
     "firstNight": 36,
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
   },
   {
     "firstNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
@@ -134,7 +134,7 @@
     "name_eng": "Preacher",
     "firstNight": 14,
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
   },
   {
     "firstNightReminder": "",
@@ -149,7 +149,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "",
@@ -166,7 +166,7 @@
     "name_eng": "Gambler",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
   },
   {
     "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
@@ -183,7 +183,7 @@
     "name_eng": "Huntsman",
     "firstNight": 30,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
   },
   {
     "firstNightReminder": "",
@@ -200,7 +200,7 @@
     "name_eng": "Slayer",
     "firstNight": 0,
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
   },
   {
     "firstNightReminder": "",
@@ -218,7 +218,7 @@
     "name_eng": "Professor",
     "firstNight": 0,
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png"
   },
   {
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -238,7 +238,7 @@
     "name_eng": "Philosopher",
     "firstNight": 2,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "firstNightReminder": "",
@@ -256,7 +256,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -271,7 +271,7 @@
     "name_eng": "Klutz",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
@@ -288,7 +288,7 @@
     "name_eng": "Damsel",
     "firstNight": 31,
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
   },
   {
     "firstNightReminder": "",
@@ -303,7 +303,7 @@
     "name_eng": "Saint",
     "firstNight": 0,
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png"
   },
   {
     "firstNightReminder": "",
@@ -320,7 +320,7 @@
     "name_eng": "Goblin",
     "firstNight": 0,
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
   },
   {
     "firstNightReminder": "",
@@ -335,7 +335,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -352,7 +352,7 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "firstNightReminder": "对他展示所有在场的外来者标记。",
@@ -370,7 +370,7 @@
     "name_eng": "Godfather",
     "firstNight": 21,
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
   },
   {
     "firstNightReminder": "",
@@ -387,7 +387,7 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "firstNightReminder": "",
@@ -407,7 +407,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。所有的外来者都可能会被当作邪恶阵营、爪牙角色或恶魔角色。",
@@ -425,7 +425,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/3fe93bb5379d875b9798ddda6522603067322e72dc6372d760bc6861eedd3928.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/3fe93bb5379d875b9798ddda6522603067322e72dc6372d760bc6861eedd3928.png"
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -443,7 +443,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png"
   },
   {
     "firstNightReminder": "",
@@ -457,6 +457,6 @@
     "setup": false,
     "ability": "这个剧本的部分角色能力来自过去。",
     "edition": "custom",
-    "image": "/scripts/assets/community/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
+    "image": "/scripts/assets/community-di-jing-jia-nian-hua-c8d0c765/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
   }
 ]

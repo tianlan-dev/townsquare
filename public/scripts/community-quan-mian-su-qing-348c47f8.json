@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/ce50af387da7376f846baf725824a4d1023a27e9a823a6256972f36f4bed9cf3.png",
+    "logo": "/scripts/assets/community-quan-mian-su-qing-348c47f8/ce50af387da7376f846baf725824a4d1023a27e9a823a6256972f36f4bed9cf3.png",
     "name": "全面肃清",
     "townsfolkName": "镇民",
     "author": "Soup",
@@ -24,7 +24,7 @@
     "name_eng": "Chambermaid",
     "firstNight": 50,
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
   },
   {
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
@@ -42,7 +42,7 @@
     "name_eng": "Pixie",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
@@ -57,7 +57,7 @@
     "name_eng": "Chef",
     "firstNight": 35,
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
   },
   {
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
@@ -74,7 +74,7 @@
     "name_eng": "Noble",
     "firstNight": 43,
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
@@ -89,7 +89,7 @@
     "name_eng": "Empath",
     "firstNight": 36,
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
   },
   {
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
@@ -110,7 +110,7 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "firstNightReminder": "",
@@ -128,7 +128,7 @@
     "name_eng": "Flowergirl",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png"
   },
   {
     "firstNightReminder": "",
@@ -143,7 +143,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -160,7 +160,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -177,7 +177,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "",
@@ -194,7 +194,7 @@
     "name_eng": "Slayer",
     "firstNight": 0,
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
   },
   {
     "firstNightReminder": "",
@@ -212,7 +212,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "firstNightReminder": "",
@@ -227,7 +227,7 @@
     "name_eng": "Sage",
     "firstNight": 0,
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png"
   },
   {
     "firstNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
@@ -244,7 +244,7 @@
     "name_eng": "Butler",
     "firstNight": 38,
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
   },
   {
     "firstNightReminder": "",
@@ -261,7 +261,7 @@
     "name_eng": "Barber",
     "firstNight": 0,
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
   },
   {
     "firstNightReminder": "",
@@ -276,7 +276,7 @@
     "name_eng": "Klutz",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
   },
   {
     "firstNightReminder": "",
@@ -294,7 +294,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -312,7 +312,7 @@
     "name_eng": "Mezepheles",
     "firstNight": 27,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "给寡妇展示魔典，她想看多久就看多久。等她看完后，让她指向一个玩家。那个玩家中毒。唤醒一名善良玩家，告诉他场上有寡妇。",
@@ -332,7 +332,7 @@
     "name_eng": "Widow",
     "firstNight": 18,
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png"
   },
   {
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
@@ -349,7 +349,7 @@
     "name_eng": "Cerenovus",
     "firstNight": 25,
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
   },
   {
     "firstNightReminder": "",
@@ -367,7 +367,7 @@
     "name_eng": "Scarlet Woman",
     "firstNight": 0,
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
@@ -386,7 +386,7 @@
     "name_eng": "Lil' Monsta",
     "firstNight": 16,
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
   },
   {
     "firstNightReminder": "",
@@ -403,7 +403,7 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "firstNightReminder": "",
@@ -423,7 +423,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "firstNightReminder": "",
@@ -441,7 +441,7 @@
     "name_eng": "No Dashii",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png"
   },
   {
     "firstNightReminder": "",
@@ -455,7 +455,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "firstNightReminder": "",
@@ -470,7 +470,7 @@
     "id": "spirit_of_ivorybutton",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
     "edition": "custom",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
   },
   {
     "firstNightReminder": "",
@@ -485,6 +485,6 @@
     "id": "storm_catcherbutton",
     "ability": "游戏开始时，你要宣布一个善良角色。如果该角色在场，他只能死于处决，但所有邪恶玩家会在首个夜晚得知他是哪一名玩家。",
     "edition": "custom",
-    "image": "/scripts/assets/community/1589a2bdc7aa1730199f77a74690e0f6db13835c0e8292fee7ea0dd7fe0ee186.png"
+    "image": "/scripts/assets/community-quan-mian-su-qing-348c47f8/1589a2bdc7aa1730199f77a74690e0f6db13835c0e8292fee7ea0dd7fe0ee186.png"
   }
 ]

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "前因后果（酒保版）",
     "author": "一顆蘋果",
-    "logo": "/scripts/assets/community/f26f03db32cb885e243cf0e0e837bc0b950d76459cf1b38f62358de5b41bbf3b.png",
+    "logo": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/f26f03db32cb885e243cf0e0e837bc0b950d76459cf1b38f62358de5b41bbf3b.png",
     "description": "前因后果-一顆蘋果&果染",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -22,7 +22,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "spirit_of_ivory_GStone",
@@ -40,7 +40,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjian_button",
@@ -57,7 +57,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "flavor": "",
     "id": "knight_button",
@@ -76,7 +76,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_button",
@@ -96,7 +96,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "flavor": "",
     "id": "high_priestess_button",
@@ -113,7 +113,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_button",
@@ -132,7 +132,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_button",
@@ -151,7 +151,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "flavor": "",
     "id": "oracle_button",
@@ -168,7 +168,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monk_button",
@@ -187,7 +187,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他醉酒并死亡。",
-    "image": "/scripts/assets/community/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhen_button",
@@ -207,7 +207,7 @@
   },
   {
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
-    "image": "/scripts/assets/community/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
     "edition": "custom",
     "flavor": "",
     "id": "tixingguan_button",
@@ -226,7 +226,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_button",
@@ -247,7 +247,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_button",
@@ -264,7 +264,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
-    "image": "/scripts/assets/community/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banshee_button",
@@ -281,7 +281,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinker_button",
@@ -300,7 +300,7 @@
   },
   {
     "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "flavor": "",
     "id": "snitch_button",
@@ -317,7 +317,7 @@
   },
   {
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "flavor": "",
     "id": "jiubao_button",
@@ -336,7 +336,7 @@
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "flavor": "",
     "id": "rulianshi_button",
@@ -355,7 +355,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_button",
@@ -374,7 +374,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "flavor": "",
     "id": "witch_button",
@@ -393,7 +393,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_button",
@@ -413,7 +413,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_button",
@@ -432,7 +432,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashii_button",
@@ -452,7 +452,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
-    "image": "/scripts/assets/community/c638520259968bd5f3b102fbdac60c1809e460ebfee6bd47917a29c363f6a248.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/c638520259968bd5f3b102fbdac60c1809e460ebfee6bd47917a29c363f6a248.png",
     "edition": "custom",
     "flavor": "",
     "id": "baojun_button",
@@ -470,7 +470,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "flavor": "",
     "id": "ojo_button",
@@ -489,7 +489,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-qian-yin-hou-guo-jiu-bao-ban-a83f8a1d/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fang_gu_button",

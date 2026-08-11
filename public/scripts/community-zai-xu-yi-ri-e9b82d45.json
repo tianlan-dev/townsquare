@@ -3,7 +3,7 @@
     "id": "_meta",
     "author": "Robe",
     "name": "再许一日",
-    "logo": "/scripts/assets/community/1e279eda938c573ff1853c3d2b2b103965403c6daac82ca33312c27dbba0ab51.png",
+    "logo": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/1e279eda938c573ff1853c3d2b2b103965403c6daac82ca33312c27dbba0ab51.png",
     "firstNight": [
       "dusk",
       "makesi111",
@@ -53,7 +53,7 @@
   {
     "id": "daerduotutu111",
     "name": "图书管理员",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -68,7 +68,7 @@
   {
     "id": "wocaishichushen111",
     "name": "厨师",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -80,7 +80,7 @@
   {
     "id": "mofashuijingqiu111",
     "name": "占卜师",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -95,7 +95,7 @@
   {
     "id": "rangwokangkang111",
     "name": "筑梦师",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -108,7 +108,7 @@
   {
     "id": "yeshimeishengmeyongdejuese111",
     "name": "女祭司",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -121,7 +121,7 @@
   {
     "id": "jiushigebaichi111",
     "name": "村夫",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -137,7 +137,7 @@
   {
     "id": "wuxingshangjiang111",
     "name": "将军",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -150,7 +150,7 @@
   {
     "id": "qiaozhong111",
     "name": "城镇公告员",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -165,7 +165,7 @@
   {
     "id": "makesi111",
     "name": "哲学家",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -183,7 +183,7 @@
   {
     "id": "wolaishouhunidemama111",
     "name": "守夜人",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -198,7 +198,7 @@
   {
     "id": "huojin111",
     "name": "博学者",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -209,7 +209,7 @@
   {
     "id": "xitele111",
     "name": "艺术家",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -222,7 +222,7 @@
   {
     "id": "xiaolazhu111",
     "name": "贤者",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
@@ -234,7 +234,7 @@
   {
     "id": "zhegeshimonk111",
     "name": "陌客",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -245,7 +245,7 @@
   {
     "id": "zhadiaole111",
     "name": "畸形秀演员",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -256,7 +256,7 @@
   {
     "id": "wudidejiemidashi111",
     "name": "解谜大师",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -270,7 +270,7 @@
   {
     "id": "bushiwo111",
     "name": "落难少女",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -285,7 +285,7 @@
   {
     "id": "touduzheeeeeeee111",
     "name": "投毒者",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -300,7 +300,7 @@
   {
     "id": "noita111",
     "name": "女巫",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -315,7 +315,7 @@
   {
     "id": "xixi111111111111",
     "name": "洗脑师",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -330,7 +330,7 @@
   {
     "id": "youzhizhua11111111",
     "name": "寡妇",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "team": "minion",
     "edition": "custom",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -347,7 +347,7 @@
   {
     "id": "xiaoshabi111111",
     "name": "小怪宝",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -365,7 +365,7 @@
   {
     "id": "xiaoemo1111111eee111eee111",
     "name": "小恶魔",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -379,7 +379,7 @@
   {
     "id": "fangguuuuuuuuuuuuuu111",
     "name": "方古",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -398,7 +398,7 @@
   {
     "id": "35addde2-e27a-4de2-9a9e-df0e78364717",
     "name": "私货商人",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-zai-xu-yi-ri-e9b82d45/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "team": "fabled",
     "edition": "custom",
     "ability": "这个剧本包含有自制角色或自制规则。",

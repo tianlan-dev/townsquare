@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "彩虹派对",
     "author": "左影 & 小完能大雷子",
-    "logo": "/scripts/assets/community/f1f0b04c771f5b768b4e114b9387518cc885bc7710f5a0ffb0aa439dce926d1a.png",
+    "logo": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/f1f0b04c771f5b768b4e114b9387518cc885bc7710f5a0ffb0aa439dce926d1a.png",
     "almanac": "https://www.bloodstar.xyz/p/xiaofu/Rainbow_Party/almanac.html",
     "description": "彩虹派对V3.0.1",
     "townsfolkName": "镇民",
@@ -42,7 +42,7 @@
   },
   {
     "id": "_rainbow_party",
-    "image": "/scripts/assets/community/1dd66e2511585018e7462f63649e75fe897b3825ad324aeabc24feae12b02da1.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/1dd66e2511585018e7462f63649e75fe897b3825ad324aeabc24feae12b02da1.png",
     "firstNightReminder": "在你的首个夜晚，告知模范情侣他的伴侣。",
     "otherNightReminder": "情侣死了，请杀人",
     "reminders": [
@@ -58,7 +58,7 @@
   },
   {
     "id": "2_rainbow_party",
-    "image": "/scripts/assets/community/1ec40547422fc25f881a386bd805106a516c029a36dea8148c0630f48f70e792.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/1ec40547422fc25f881a386bd805106a516c029a36dea8148c0630f48f70e792.png",
     "firstNightReminder": "在你的首个夜晚，你会得知有关邪恶阵营玩家的词组。",
     "name": "内裤模特",
     "team": "townsfolk",
@@ -68,7 +68,7 @@
   },
   {
     "id": "3_rainbow_party",
-    "image": "/scripts/assets/community/077cfb84060c799fae5dedbbabbf50f5443c1ada3cb092bbf39d79180440a813.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/077cfb84060c799fae5dedbbabbf50f5443c1ada3cb092bbf39d79180440a813.png",
     "firstNightReminder": "在你的首个夜晚，你要选择一名玩家。如果之后的游戏中他给你分配了任务且你完成了该任务，你可以拜访说书人获得一条对你的阵营获胜有利的建议。",
     "reminders": [
       "主人"
@@ -81,7 +81,7 @@
   },
   {
     "id": "4_rainbow_party",
-    "image": "/scripts/assets/community/19a7af8e94d6eb7d682fd0a6202df17207c7a5b49a04b6647fe66e5b6c16fd76.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/19a7af8e94d6eb7d682fd0a6202df17207c7a5b49a04b6647fe66e5b6c16fd76.png",
     "otherNightReminder": "每个夜晚，你得知一名玩家。其属性与阵营必只有一个与前一晚的不同。",
     "reminders": [
       "男科诊断1",
@@ -97,7 +97,7 @@
   },
   {
     "id": "5_rainbow_party",
-    "image": "/scripts/assets/community/7c5b454a5bb94a664d6798a22e320573e582aacac991d0540342271c83d0f183.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/7c5b454a5bb94a664d6798a22e320573e582aacac991d0540342271c83d0f183.png",
     "otherNightReminder": "在你的首个白天，你可以公开选择不超过半数玩家。当晚，你会得知其中的角色类型数量。",
     "reminders": [
       "安全套"
@@ -110,7 +110,7 @@
   },
   {
     "id": "6_rainbow_party",
-    "image": "/scripts/assets/community/e11d14c8201ac00da40b4fd783a5799d4f542e1097cf3ccde6f255e06cfb95cc.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/e11d14c8201ac00da40b4fd783a5799d4f542e1097cf3ccde6f255e06cfb95cc.png",
     "firstNightReminder": "每个夜晚，你选择一名玩家，如果他和你同一阵营，他死亡时改为你死亡，直到你下一次选择。如果他参加了没有你的约会，你醉酒，直到他再次参加有你的约会。",
     "otherNightReminder": "每个夜晚，你选择一名玩家，如果他和你同一阵营，他死亡时改为你死亡，直到你下一次选择。如果他参加了没有你的约会，你醉酒，直到他再次参加有你的约会。",
     "reminders": [
@@ -126,7 +126,7 @@
   },
   {
     "id": "7_rainbow_party",
-    "image": "/scripts/assets/community/43e73125823ddc279648cfd0dcea849f8e1962684063c2f23ae6005c34a54d09.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/43e73125823ddc279648cfd0dcea849f8e1962684063c2f23ae6005c34a54d09.png",
     "otherNightReminder": "每个夜晚*,白天和你约会过的玩家属性变为和你相反。每次约会前，你可以拜访说书人改变自己的属性。",
     "reminders": [
       "黑皮约会"
@@ -139,7 +139,7 @@
   },
   {
     "id": "8_rainbow_party",
-    "image": "/scripts/assets/community/a942da92649c1114abaab4fe021a260c0aa2814dde749d511bd9c40f1f0d4c9f.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/a942da92649c1114abaab4fe021a260c0aa2814dde749d511bd9c40f1f0d4c9f.png",
     "otherNightReminder": "每个夜晚*,和你约会成功的玩家之一会得知你的角色，如果属性变为1,你失去能力。[初始属性为0]",
     "reminders": [
       "醉菊"
@@ -152,7 +152,7 @@
   },
   {
     "id": "9_rainbow_party",
-    "image": "/scripts/assets/community/585e61f589d4ad304a93b3452a824e06cbb0e49d3d6b46300cd917d974e2660a.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/585e61f589d4ad304a93b3452a824e06cbb0e49d3d6b46300cd917d974e2660a.png",
     "reminders": [
       "内射"
     ],
@@ -163,7 +163,7 @@
   },
   {
     "id": "10_rainbow_party",
-    "image": "/scripts/assets/community/d7ddea62f6acd6cde0c66e64561c4201c3caabe92fd5b8f031272e708e644f7a.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/d7ddea62f6acd6cde0c66e64561c4201c3caabe92fd5b8f031272e708e644f7a.png",
     "firstNightReminder": "在你的首个夜晚，你会得知一名在场的爪牙角色。",
     "reminders": [
       "得知感染者",
@@ -177,7 +177,7 @@
   },
   {
     "id": "11_rainbow_party",
-    "image": "/scripts/assets/community/f57c2736f119b9d1cbbfd5a1fa53b068909dc279a77d20d09bbc249edd8e6240.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/f57c2736f119b9d1cbbfd5a1fa53b068909dc279a77d20d09bbc249edd8e6240.png",
     "firstNightReminder": "每局游戏限一次，在夜晚*时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
     "otherNightReminder": "每局游戏限一次，在夜晚*时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
     "reminders": [
@@ -192,7 +192,7 @@
   },
   {
     "id": "12_rainbow_party",
-    "image": "/scripts/assets/community/a8c64dcd020d48c98ec4302d9365d3e8d8048e216ad3494f3bedf1c5b682d7ec.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/a8c64dcd020d48c98ec4302d9365d3e8d8048e216ad3494f3bedf1c5b682d7ec.png",
     "otherNightReminder": "每局游戏限一次，如果你约会成功，在夜晚时，你可以得知你参与的历次约会中是否有恶魔。",
     "reminders": [
       "约到恶魔"
@@ -205,7 +205,7 @@
   },
   {
     "id": "13_rainbow_party",
-    "image": "/scripts/assets/community/9486ddbef8fea1f8d1745aaa7a18c32ac61ff71d615f73c7e19a284430e25317.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/9486ddbef8fea1f8d1745aaa7a18c32ac61ff71d615f73c7e19a284430e25317.png",
     "reminders": [
       "调教恶魔",
       "失去能力"
@@ -217,7 +217,7 @@
   },
   {
     "id": "side_rainbow_party",
-    "image": "/scripts/assets/community/7452d69af1c8fada7de045ce48fdd37d254bf6ac190799e2a0c01e0e209c836c.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/7452d69af1c8fada7de045ce48fdd37d254bf6ac190799e2a0c01e0e209c836c.png",
     "firstNightReminder": "告知恶魔，side在场",
     "reminders": [
       "已经猜测side"
@@ -230,7 +230,7 @@
   },
   {
     "id": "14_rainbow_party",
-    "image": "/scripts/assets/community/9fa73f749a6a28b4db3c2ccb3ead9efe23acd171484a3588401adefc28dab6a3.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/9fa73f749a6a28b4db3c2ccb3ead9efe23acd171484a3588401adefc28dab6a3.png",
     "firstNightReminder": "每个夜晚，你要选择两名存活玩家，他们第二天的约会可能失败。如果你们三人约会，立即取消这个效果。",
     "otherNightReminder": "每个夜晚，你要选择两名存活玩家，他们第二天的约会可能失败。如果你们三人约会，立即取消这个效果。",
     "reminders": [
@@ -246,7 +246,7 @@
   },
   {
     "id": "15_rainbow_party",
-    "image": "/scripts/assets/community/2f65321ed33beabc4871456b52c6e98071841e9b15b611f801a7757d79e7d54c.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/2f65321ed33beabc4871456b52c6e98071841e9b15b611f801a7757d79e7d54c.png",
     "otherNightReminder": "如果你没有参与约会，当天你可能死亡。",
     "reminders": [
       "约过了"
@@ -259,7 +259,7 @@
   },
   {
     "id": "16_rainbow_party",
-    "image": "/scripts/assets/community/81514013fee7990e78a35e218e91c85cb405bd4291ee302a61e045231603204f.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/81514013fee7990e78a35e218e91c85cb405bd4291ee302a61e045231603204f.png",
     "remindersGlobal": [
       "伪酒鬼"
     ],
@@ -271,7 +271,7 @@
   },
   {
     "id": "17_rainbow_party",
-    "image": "/scripts/assets/community/40fba1bf4407c98941529c22fe179768dafbf0480e1b84868d5c0b3c93016da2.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/40fba1bf4407c98941529c22fe179768dafbf0480e1b84868d5c0b3c93016da2.png",
     "firstNightReminder": "在你的首个夜晚，你得知与你属性相同的玩家。",
     "otherNightReminder": "每个夜晚*,你选择一名玩家和属性，该玩家变为该属性。",
     "reminders": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "inpa_rainbow_party",
-    "image": "/scripts/assets/community/b5ac9ba37c314bab25fb8e5e04745f7f49d998f95dc4018a7c79baada32ec3d0.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/b5ac9ba37c314bab25fb8e5e04745f7f49d998f95dc4018a7c79baada32ec3d0.png",
     "reminders": [
       "窗口期"
     ],
@@ -297,7 +297,7 @@
   },
   {
     "id": "18_rainbow_party",
-    "image": "/scripts/assets/community/aa0f2fc771ee77350010a54396cfda83218466d59e813ca51cb69da757af582b.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/aa0f2fc771ee77350010a54396cfda83218466d59e813ca51cb69da757af582b.png",
     "otherNightReminder": "恶魔变身",
     "name": "会所头牌",
     "team": "minion",
@@ -307,7 +307,7 @@
   },
   {
     "id": "05_rainbow_party",
-    "image": "/scripts/assets/community/16aaf7f2e770d8e17d2271c663dca44c01874220a5c79d5ee0394445b141c0ae.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/16aaf7f2e770d8e17d2271c663dca44c01874220a5c79d5ee0394445b141c0ae.png",
     "firstNightReminder": "每个夜晚，你可以选择一名玩家，如果他第二天提名阶段前没有约会过：他死亡。[你被视为既是1也是0]",
     "otherNightReminder": "每个夜晚，你可以选择一名玩家，如果他第二天提名阶段前没有约会过：他死亡。[你被视为既是1也是0]",
     "reminders": [
@@ -322,7 +322,7 @@
   },
   {
     "id": "19_rainbow_party",
-    "image": "/scripts/assets/community/6ad6bb1666fe578116390f03daea97ebbb1e4806198fa563c38de2e6124657e0.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/6ad6bb1666fe578116390f03daea97ebbb1e4806198fa563c38de2e6124657e0.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。",
     "reminders": [
       "死亡"
@@ -335,7 +335,7 @@
   },
   {
     "id": "0_rainbow_party",
-    "image": "/scripts/assets/community/238942698e6f95a1bf5a0c2eb873cb8a9a913b746482e69bec19a9c988a67bf0.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/238942698e6f95a1bf5a0c2eb873cb8a9a913b746482e69bec19a9c988a67bf0.png",
     "otherNightReminder": "你要选择一名玩家：他死亡。与你临近的两名相反属性的镇民中毒。",
     "reminders": [
       "中毒",
@@ -350,7 +350,7 @@
   },
   {
     "id": "110_rainbow_party",
-    "image": "/scripts/assets/community/8e1c888bfb8dce93cc571475d1a6eea740a4fcabb92183b0ca465942b0298ef5.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/8e1c888bfb8dce93cc571475d1a6eea740a4fcabb92183b0ca465942b0298ef5.png",
     "otherNightReminder": "你要选择一名玩家：他死亡。与你成功约会的第一个善良0，当晚转变成邪恶阵营，每局游戏限一次。",
     "reminders": [
       "死亡",
@@ -365,7 +365,7 @@
   },
   {
     "id": "20_rainbow_party",
-    "image": "/scripts/assets/community/29bc4a9708be55ad3d569db6de124a81da20f2719a1eba3b5dcab37d9cee0be9.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/29bc4a9708be55ad3d569db6de124a81da20f2719a1eba3b5dcab37d9cee0be9.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。",
     "reminders": [
       "炮王睡过",
@@ -379,7 +379,7 @@
   },
   {
     "id": "21_rainbow_party",
-    "image": "/scripts/assets/community/6dfae539f82e927372e69badd943ccddec53a45e1d636c633afe2cfe1814f570.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/6dfae539f82e927372e69badd943ccddec53a45e1d636c633afe2cfe1814f570.png",
     "name": "酒店前台",
     "team": "traveler",
     "ability": "白天，你参与约会的次数不受限制。你参与的约会结果不会公开公布。",
@@ -387,7 +387,7 @@
   },
   {
     "id": "22_rainbow_party",
-    "image": "/scripts/assets/community/c5903866b6b6fabc1fe39d5ab90dd4a1591cc032adf81ec67dd25198257efb24.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/c5903866b6b6fabc1fe39d5ab90dd4a1591cc032adf81ec67dd25198257efb24.png",
     "name": "文武黄",
     "team": "traveler",
     "ability": "如果你表现的非常色情，当天你不能被流放。",
@@ -395,7 +395,7 @@
   },
   {
     "id": "23_rainbow_party",
-    "image": "/scripts/assets/community/019607f6240e97094c048a7f2b6a6d7657f2f1652dd44c4bf1a72f3fdad75901.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/019607f6240e97094c048a7f2b6a6d7657f2f1652dd44c4bf1a72f3fdad75901.png",
     "reminders": [
       "双票了！"
     ],
@@ -406,7 +406,7 @@
   },
   {
     "id": "24_rainbow_party",
-    "image": "/scripts/assets/community/e651500588c6fd98f2b28e3acc07ea678ec44a805977df874060cf9f0697e77a.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/e651500588c6fd98f2b28e3acc07ea678ec44a805977df874060cf9f0697e77a.png",
     "name": "剧情教主",
     "team": "traveler",
     "ability": "每个白天，你可以选择两个玩家：他们进行一段互动。之后，他们可能发生一些好的事情，或遭遇一些不好的事情。",
@@ -414,7 +414,7 @@
   },
   {
     "id": "25_rainbow_party",
-    "image": "/scripts/assets/community/a4fa4b98f52fda0070c91cc9fd232b11be6f7b879fb6d9f4e619902099db5143.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/a4fa4b98f52fda0070c91cc9fd232b11be6f7b879fb6d9f4e619902099db5143.png",
     "firstNightReminder": "炮王选择属性，告知所有玩家属性。所有人初始属性，1与0的数量相差不超过1",
     "reminders": [
       "成",
@@ -428,7 +428,7 @@
   },
   {
     "id": "26_rainbow_party",
-    "image": "/scripts/assets/community/c5aa8927543e92322b21aeb335114af85d86b17cdcd34a0603c75d70da56d728.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/c5aa8927543e92322b21aeb335114af85d86b17cdcd34a0603c75d70da56d728.png",
     "reminders": [
       "1"
     ],
@@ -439,7 +439,7 @@
   },
   {
     "id": "27_rainbow_party",
-    "image": "/scripts/assets/community/0b487acf21813cb8baeaf41a94bcd8e50521963e27c7b2884bde027e7426def1.png",
+    "image": "/scripts/assets/community-cai-hong-pai-dui-6a112f25/0b487acf21813cb8baeaf41a94bcd8e50521963e27c7b2884bde027e7426def1.png",
     "reminders": [
       "0"
     ],

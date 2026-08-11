@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "大哥刀我",
     "author": "钢棍屑师傅",
-    "logo": "/scripts/assets/community/95330c98153f0c0376c42bf762ebde5b1d26e9e819ab12d20eca5fd3bec530f2.png",
+    "logo": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/95330c98153f0c0376c42bf762ebde5b1d26e9e819ab12d20eca5fd3bec530f2.png",
     "almanac": "https://www.bloodstar.xyz/p/ronchi/dagedaowo/almanac.html",
     "tags": [
       "特别的玩法"
@@ -12,7 +12,7 @@
   },
   {
     "id": "_dagedaowo",
-    "image": "/scripts/assets/community/1fb45bbc37f25f87041900d9c742b5f06072797f6b214d47deef21c59e81c41d.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/1fb45bbc37f25f87041900d9c742b5f06072797f6b214d47deef21c59e81c41d.png",
     "firstNightReminder": "唤醒事务官，指向标记有“得知”的那名玩家。让事务官重新入睡。",
     "reminders": [
       "得知"
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_dagedaowo",
-    "image": "/scripts/assets/community/2f75290ad3e9ad0dad8b7c2491d4b63eb55070534c1d7c337dd409c25792193a.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/2f75290ad3e9ad0dad8b7c2491d4b63eb55070534c1d7c337dd409c25792193a.png",
     "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
     "reminders": [
       "外来者",
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_dagedaowo",
-    "image": "/scripts/assets/community/33d567b4157e681304c4486262295b111e5d25a7bae375c40e55705722733351.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/33d567b4157e681304c4486262295b111e5d25a7bae375c40e55705722733351.png",
     "firstNightReminder": "展示那个爪牙角色标记。指向被你标记“爪牙”和“错误”的两名玩家。",
     "reminders": [
       "爪牙",
@@ -53,7 +53,7 @@
   },
   {
     "id": "3_dagedaowo",
-    "image": "/scripts/assets/community/4aadc622313c776f446eacddecc56bf83ebb96c29a201b0a045bab39dd17400d.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/4aadc622313c776f446eacddecc56bf83ebb96c29a201b0a045bab39dd17400d.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -65,7 +65,7 @@
   },
   {
     "id": "4_dagedaowo",
-    "image": "/scripts/assets/community/129bd4b417c0f02c406c85183c37883656012e65609772d7eeac9af7b1257ae1.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/129bd4b417c0f02c406c85183c37883656012e65609772d7eeac9af7b1257ae1.png",
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "name": "侍女",
@@ -77,7 +77,7 @@
   },
   {
     "id": "5_dagedaowo",
-    "image": "/scripts/assets/community/451791992477aa7ee7c7c47f7e0049edb4fe226b393739efb1e6d9876f971815.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/451791992477aa7ee7c7c47f7e0049edb4fe226b393739efb1e6d9876f971815.png",
     "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
     "remindersGlobal": [
       "恶魔已投票",
@@ -91,7 +91,7 @@
   },
   {
     "id": "6_dagedaowo",
-    "image": "/scripts/assets/community/1455a09bf52deecdb78d15957d7e549bf8aef69aacec5afcaea24ca5cab0052b.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/1455a09bf52deecdb78d15957d7e549bf8aef69aacec5afcaea24ca5cab0052b.png",
     "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
     "remindersGlobal": [
       "爪牙已提名",
@@ -105,7 +105,7 @@
   },
   {
     "id": "7_dagedaowo",
-    "image": "/scripts/assets/community/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。",
@@ -113,7 +113,7 @@
   },
   {
     "id": "8_dagedaowo",
-    "image": "/scripts/assets/community/b682926331942516f9f867a5f77d42240e007ca2448ff2836bb04dc276f899c5.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/b682926331942516f9f867a5f77d42240e007ca2448ff2836bb04dc276f899c5.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -128,7 +128,7 @@
   },
   {
     "id": "9_dagedaowo",
-    "image": "/scripts/assets/community/90b058a7fb30d9a07d7eb221a4707eecd121a934682437feb8ab49734faf6adf.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/90b058a7fb30d9a07d7eb221a4707eecd121a934682437feb8ab49734faf6adf.png",
     "reminders": [
       "失去能力"
     ],
@@ -139,7 +139,7 @@
   },
   {
     "id": "10_dagedaowo",
-    "image": "/scripts/assets/community/06ec4de58bc8ccdee8ce97a5493ab5bbe27113ab6248af24b11da820c91852e9.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/06ec4de58bc8ccdee8ce97a5493ab5bbe27113ab6248af24b11da820c91852e9.png",
     "otherNightReminder": "给他展示数字手势来告诉他他当天白天猜测正确的次数。",
     "remindersGlobal": [
       "猜测正确"
@@ -152,7 +152,7 @@
   },
   {
     "id": "11_dagedaowo",
-    "image": "/scripts/assets/community/fd9fdec19492060bbc90c62138632245b8ced5836644ec81700aa5b02118da17.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/fd9fdec19492060bbc90c62138632245b8ced5836644ec81700aa5b02118da17.png",
     "reminders": [
       "失去能力"
     ],
@@ -163,7 +163,7 @@
   },
   {
     "id": "12_dagedaowo",
-    "image": "/scripts/assets/community/f913bc0d71ac4a42eae94f91e9b5755302a42e18e48e22f3f903adf7f81911ca.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/f913bc0d71ac4a42eae94f91e9b5755302a42e18e48e22f3f903adf7f81911ca.png",
     "reminders": [
       "失去能力"
     ],
@@ -174,7 +174,7 @@
   },
   {
     "id": "13_dagedaowo",
-    "image": "/scripts/assets/community/7a87510ae1a6e89b8237bea28af46dfd884a0b9f2e6adcad42b0e138b5c48800.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/7a87510ae1a6e89b8237bea28af46dfd884a0b9f2e6adcad42b0e138b5c48800.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -186,7 +186,7 @@
   },
   {
     "id": "14_dagedaowo",
-    "image": "/scripts/assets/community/ad7fcaae0be2782df5dd769128ec8c4b1628322425bc4f206c900b07b1388e40.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/ad7fcaae0be2782df5dd769128ec8c4b1628322425bc4f206c900b07b1388e40.png",
     "firstNightReminder": "选择一名邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
     "remindersGlobal": [
       "是提线木偶"
@@ -200,7 +200,7 @@
   },
   {
     "id": "15_dagedaowo",
-    "image": "/scripts/assets/community/d981541a68c945b94b3a1f1e3c9f0800f565cf2464956fc24ca864de666080d1.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/d981541a68c945b94b3a1f1e3c9f0800f565cf2464956fc24ca864de666080d1.png",
     "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
     "reminders": [
       "死亡",
@@ -216,7 +216,7 @@
   },
   {
     "id": "16_dagedaowo",
-    "image": "/scripts/assets/community/3bfb3ae486f2aee15764d063efc12098185bbfcc9fb6f057ba90ee7236ca1e65.png",
+    "image": "/scripts/assets/community-da-ge-dao-wo-a6bcfdb4/3bfb3ae486f2aee15764d063efc12098185bbfcc9fb6f057ba90ee7236ca1e65.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",

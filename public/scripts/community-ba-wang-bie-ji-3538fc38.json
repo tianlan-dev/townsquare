@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/c9329ad8b97cca1050eacd00001be010e27a3b7ede2ae7c74b7462eed05f7639.png",
+    "logo": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/c9329ad8b97cca1050eacd00001be010e27a3b7ede2ae7c74b7462eed05f7639.png",
     "name": "霸王别姬",
     "townsfolkName": "镇民",
     "author": "影",
@@ -34,7 +34,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianxiaoer_button",
@@ -54,7 +54,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noble_button",
@@ -73,7 +73,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_button",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "edition": "custom",
     "flavor": "",
     "id": "fengshuishi_button",
@@ -110,7 +110,7 @@
   },
   {
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
-    "image": "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiguan_button",
@@ -127,7 +127,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhong_button",
@@ -144,7 +144,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinluren_button",
@@ -161,7 +161,7 @@
   },
   {
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你会在当晚获得那个角色的能力，直到下个黄昏。",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "flavor": "",
     "id": "bianlianshi_button",
@@ -182,7 +182,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_button",
@@ -203,7 +203,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_button",
@@ -220,7 +220,7 @@
   },
   {
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "edition": "custom",
     "flavor": "",
     "id": "chongfei_button",
@@ -239,7 +239,7 @@
   },
   {
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "flavor": "",
     "id": "alsaahir_button",
@@ -256,7 +256,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_button",
@@ -273,7 +273,7 @@
   },
   {
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "hatter_button",
@@ -292,7 +292,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_button",
@@ -309,7 +309,7 @@
   },
   {
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "flavor": "",
     "id": "sweetheart_button",
@@ -328,7 +328,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
-    "image": "/scripts/assets/community/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
     "edition": "custom",
     "flavor": "",
     "id": "ogre_button",
@@ -345,7 +345,7 @@
   },
   {
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "flavor": "",
     "id": "puzzlemaster_button",
@@ -382,7 +382,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
-    "image": "/scripts/assets/community/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
     "edition": "custom",
     "flavor": "",
     "id": "huapi_button",
@@ -402,7 +402,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "cerenovus_button",
@@ -421,7 +421,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一个镇民角色：当他下一次通过自身能力获取信息时，改为得知你给出的信息。",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "flavor": "",
     "id": "niangjiushi_button",
@@ -440,7 +440,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "pit-hag_button",
@@ -457,7 +457,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
-    "image": "/scripts/assets/community/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
     "edition": "custom",
     "flavor": "",
     "id": "guhuoniao_button",
@@ -475,7 +475,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_button",
@@ -494,7 +494,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "edition": "custom",
     "flavor": "",
     "id": "qiongqi_button",
@@ -514,7 +514,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-ba-wang-bie-ji-3538fc38/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "edition": "custom",
     "flavor": "",
     "id": "kazali_button",

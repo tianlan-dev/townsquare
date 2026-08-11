@@ -8,7 +8,7 @@
   },
   {
     "id": "wangshengzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -25,7 +25,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_c",
@@ -44,7 +44,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "flavor": "",
     "id": "clockmaker_c",
@@ -60,7 +60,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_c",
@@ -79,7 +79,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "flavor": "",
     "id": "flowergirl_c",
@@ -98,7 +98,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
-    "image": "/scripts/assets/community/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhifu_c",
@@ -116,7 +116,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_c",
@@ -132,7 +132,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhong_c",
@@ -148,7 +148,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -184,7 +184,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两个善良角色（与上晚不同）：如果他们都存活，他们当晚不会死亡。",
-    "image": "/scripts/assets/community/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
     "edition": "custom",
     "flavor": "",
     "id": "xuncha_c",
@@ -202,7 +202,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -221,7 +221,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_c",
@@ -239,7 +239,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "flavor": "",
     "id": "acrobat_c",
@@ -258,7 +258,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -286,7 +286,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinker_c",
@@ -304,7 +304,7 @@
   },
   {
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "flavor": "",
     "id": "jiubao_c",
@@ -322,7 +322,7 @@
   },
   {
     "ability": "你拥有所有外来者能力。[-0~1外来者]",
-    "image": "/scripts/assets/community/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
     "edition": "custom",
     "flavor": "",
     "id": "hermit_c",
@@ -346,7 +346,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_c",
@@ -365,7 +365,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarletwoman_c",
@@ -391,7 +391,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "flavor": "",
     "id": "witch_c",
@@ -409,7 +409,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -428,7 +428,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_c",
@@ -446,7 +446,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fang_gu_c",
@@ -467,7 +467,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashii_c",
@@ -487,7 +487,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ye-ying-gui-tu-d0f88d95/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",

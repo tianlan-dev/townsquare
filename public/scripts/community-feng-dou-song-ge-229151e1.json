@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "酆都颂歌",
     "author": "小宇",
-    "logo": "/scripts/assets/community/ee71f8b5c6049ec405da9f09baff0c4264a3e945550f87307ad2aa0093f6233b.png",
+    "logo": "/scripts/assets/community-feng-dou-song-ge-229151e1/ee71f8b5c6049ec405da9f09baff0c4264a3e945550f87307ad2aa0093f6233b.png",
     "A jinxed": "相克",
     "tags": [
       "民间创意剧本",
@@ -14,7 +14,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "flavor": "",
     "id": "investigator_c",
@@ -33,7 +33,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinyangshi_c",
@@ -52,7 +52,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjian_c",
@@ -85,7 +85,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -108,7 +108,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一个镇民角色：他的能力会产生错误信息，直到下个黄昏。",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
     "edition": "custom",
     "flavor": "",
     "id": "xionghaizi_c",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhong_c",
@@ -142,7 +142,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertaker_c",
@@ -160,7 +160,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_c",
@@ -178,7 +178,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "flavor": "",
     "id": "slayer_c",
@@ -196,7 +196,7 @@
   },
   {
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "flavor": "",
     "id": "tea_lady_c",
@@ -215,7 +215,7 @@
   },
   {
     "ability": "当你首次将要死亡时，你不会死亡。",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "flavor": "",
     "id": "fool_c",
@@ -233,7 +233,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_c",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "其他善良玩家醉酒（旅行者除外），你们互相认识且无法转变阵营，对调胜负结果，即使你失去能力。",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom",
     "flavor": "",
     "id": "xizi_new_c",
@@ -269,7 +269,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_c",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
-    "image": "/scripts/assets/community/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "nichen_c",
@@ -305,7 +305,7 @@
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "flavor": "",
     "id": "rulianshi_c",
@@ -323,7 +323,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutant_c",
@@ -339,7 +339,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniang_c",
@@ -357,7 +357,7 @@
   },
   {
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "flavor": "",
     "id": "ganshiren_c",
@@ -376,7 +376,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
-    "image": "/scripts/assets/community/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
     "edition": "custom",
     "flavor": "",
     "id": "huapi_c",
@@ -395,7 +395,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择存活或死亡。“疯狂”地想要这样做的玩家可能会立即被处决。",
-    "image": "/scripts/assets/community/c329098022b018e526ad5917c394393ac5dc1dfacb17da9eac1236ccbd4f6dd3.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/c329098022b018e526ad5917c394393ac5dc1dfacb17da9eac1236ccbd4f6dd3.png",
     "edition": "custom",
     "flavor": "",
     "id": "jinweijun2_c",
@@ -414,7 +414,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
-    "image": "/scripts/assets/community/ed920d0f00cf0113f94bd77f36b2ab686440622dbc2105a0e03c5bfe118fb751.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/ed920d0f00cf0113f94bd77f36b2ab686440622dbc2105a0e03c5bfe118fb751.png",
     "edition": "custom",
     "flavor": "",
     "id": "taowu_c",
@@ -433,7 +433,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "flavor": "",
     "id": "po_c",
@@ -454,7 +454,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家:他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "lleech_c",
@@ -473,7 +473,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
-    "image": "/scripts/assets/community/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
     "edition": "custom",
     "flavor": "",
     "id": "guhuoniao_c",
@@ -495,7 +495,7 @@
     "name": "猎手&痢蛭",
     "team": "A jinxed",
     "ability": "如果猎手选择了痢蛭的宿主，则宿主会死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom"
   },
   {
@@ -503,7 +503,7 @@
     "name": "入殓师&痢蛭",
     "team": "A jinxed",
     "ability": "如果在大于等于五名玩家存活时，入殓师提名并处决了宿主且他死于这次处决，原本的痢蛭会在当晚死亡，入殓师变为邪恶的痢蛭且当晚无法攻击。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom"
   },
   {
@@ -511,7 +511,7 @@
     "name": "入殓师&梼杌",
     "team": "A jinxed",
     "ability": "入殓师可以提名处决并杀死梼杌，且不会因此移除原本梼杌的“失去能力”提示标记。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-feng-dou-song-ge-229151e1/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom"
   }
 ]

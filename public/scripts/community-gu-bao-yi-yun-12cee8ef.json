@@ -23,7 +23,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -41,7 +41,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -58,7 +58,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -75,7 +75,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -92,7 +92,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -107,7 +107,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -124,7 +124,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -141,7 +141,7 @@
   },
   {
     "id": "zhongdayande111",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -158,7 +158,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -192,7 +192,7 @@
   },
   {
     "id": "wangzherongyao111",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "name": "农夫",
     "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "liuqian111",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "name": "魔术师",
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
@@ -222,7 +222,7 @@
   },
   {
     "id": "chuangsishuoshuren111",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
     "edition": "custom",
     "name": "无神论者",
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
@@ -237,7 +237,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -270,7 +270,7 @@
   },
   {
     "id": "scp-049049049",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "liangjifanzhuan111",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "name": "异端分子",
     "ability": "对调胜负结果，即使你已死亡。",
@@ -302,7 +302,7 @@
   },
   {
     "id": "zhaohuandaxiangjiao111",
-    "image": "/scripts/assets/community/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
     "edition": "custom",
     "name": "召唤师",
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
@@ -321,7 +321,7 @@
   },
   {
     "id": "shabihouzi122211",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
     "edition": "custom",
     "name": "街头风琴手",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒直到下个黄昏。",
@@ -337,7 +337,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -353,7 +353,7 @@
   },
   {
     "id": "nanjueeeee111",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "edition": "custom",
     "name": "男爵",
     "ability": "会有额外的外来者在场。[+2 外来者]",
@@ -368,7 +368,7 @@
   },
   {
     "id": "tifeng11zhishou11111111",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "name": "堤丰之首",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你位于正中，+1爪牙，-或+任意数量外来者]",
@@ -385,7 +385,7 @@
   },
   {
     "id": "xiaoshabi111111",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -404,7 +404,7 @@
   },
   {
     "id": "kakakakkakakakakakakakaakakak111",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -421,7 +421,7 @@
   },
   {
     "id": "oeeroeeerooooeeeeee1111111",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -438,7 +438,7 @@
   },
   {
     "id": "ssdhaioudhoipasjdilajslkdjaslkdjklasjd",
-    "image": "/scripts/assets/community/d819d71347976d106c4003d1fe9aea3cd8262b16fa5c71acf8f190be2850245c.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/d819d71347976d106c4003d1fe9aea3cd8262b16fa5c71acf8f190be2850245c.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -451,7 +451,7 @@
   },
   {
     "id": "56786542_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -460,7 +460,7 @@
   },
   {
     "id": "4_meta",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "name": "瘟疫医生&男爵",
     "team": "a jinxed",
     "setup": false,
@@ -469,7 +469,7 @@
   },
   {
     "id": "7_meta",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "name": "瘟疫医生&提线木偶",
     "team": "a jinxed",
     "setup": false,
@@ -478,7 +478,7 @@
   },
   {
     "id": "31_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&气球驾驶员",
     "team": "a jinxed",
     "setup": false,
@@ -487,7 +487,7 @@
   },
   {
     "id": "30_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -496,7 +496,7 @@
   },
   {
     "id": "29_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&小怪宝",
     "team": "a jinxed",
     "setup": false,
@@ -505,7 +505,7 @@
   },
   {
     "id": "44_meta",
-    "image": "/scripts/assets/community/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
     "name": "召唤师&炼金术士",
     "team": "a jinxed",
     "setup": false,
@@ -514,7 +514,7 @@
   },
   {
     "id": "46_meta",
-    "image": "/scripts/assets/community/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
     "name": "召唤师&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -523,7 +523,7 @@
   },
   {
     "id": "47_meta",
-    "image": "/scripts/assets/community/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
     "name": "召唤师&提线木偶",
     "team": "a jinxed",
     "setup": false,
@@ -532,7 +532,7 @@
   },
   {
     "id": "109_meta",
-    "image": "/scripts/assets/community/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/174bed481cdccb4de3244846c093e1a7527cfbcb1afeab83f06930c5c958f338.png",
     "name": "召唤师&卡扎力",
     "team": "a jinxed",
     "setup": false,
@@ -541,7 +541,7 @@
   },
   {
     "id": "34_meta",
-    "image": "/scripts/assets/community/a5d5725756f864c60a6acb732521b07bd8089ddf6d7ba027e888c8765488c637.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/a5d5725756f864c60a6acb732521b07bd8089ddf6d7ba027e888c8765488c637.png",
     "name": "男爵&异端分子",
     "team": "a jinxed",
     "setup": false,
@@ -550,7 +550,7 @@
   },
   {
     "id": "62_meta",
-    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
     "name": "小怪宝&魔术师",
     "team": "a jinxed",
     "setup": false,
@@ -559,7 +559,7 @@
   },
   {
     "id": "61_meta",
-    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
     "name": "小怪宝&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -568,7 +568,7 @@
   },
   {
     "id": "112312312312312122333_meta",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "name": "堤丰之首&召唤师",
     "team": "a jinxed",
     "setup": false,
@@ -577,7 +577,7 @@
   },
   {
     "id": "106_meta",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
     "name": "卡扎力&提线木偶",
     "team": "a jinxed",
     "setup": false,
@@ -586,7 +586,7 @@
   },
   {
     "id": "104_meta",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
+    "image": "/scripts/assets/community-gu-bao-yi-yun-12cee8ef/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
     "name": "卡扎力&赏金猎人",
     "team": "a jinxed",
     "setup": false,

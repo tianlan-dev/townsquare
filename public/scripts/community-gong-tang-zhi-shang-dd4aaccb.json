@@ -39,7 +39,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他健康清醒且存活，你可以在白天时私下询问说书人并得知一条正确信息。如果他中毒、醉酒或死亡，你可能会得知错误信息。",
-    "image": "/scripts/assets/community/212e2d13863bcd79a823eed2e98b4edd3498a43d476d883a698e4b97b59e2402.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/212e2d13863bcd79a823eed2e98b4edd3498a43d476d883a698e4b97b59e2402.png",
     "edition": "custom",
     "flavor": "",
     "id": "20827_8694",
@@ -74,7 +74,7 @@
   },
   {
     "id": "yinyangshiqidong111",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -91,7 +91,7 @@
   },
   {
     "id": "woshixiuxingzhe111",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -139,7 +139,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -156,7 +156,7 @@
   },
   {
     "id": "wocaishiemo1223322323232323",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -173,7 +173,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -190,7 +190,7 @@
   },
   {
     "ability": "每个白天，你可以公开选择一名存活的玩家。如果被你选择过的玩家是镇民且在当晚死亡，你会被唤醒，然后你要选择一名玩家：破晓时，你会得知他的角色类型。",
-    "image": "/scripts/assets/community/0d18af1015b6dfe835cba8914173d4877e69275911cb83a004b833ef2c590604.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/0d18af1015b6dfe835cba8914173d4877e69275911cb83a004b833ef2c590604.png",
     "edition": "custom",
     "flavor": "",
     "id": "20827_8689",
@@ -225,7 +225,7 @@
   },
   {
     "id": "tixingguanuahosnrowan34613",
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
     "edition": "custom",
     "name": "提刑官",
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "tiepigu111",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "edition": "custom",
     "name": "贞洁者",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -260,7 +260,7 @@
   },
   {
     "id": "scp-049049049",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
@@ -277,7 +277,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -294,7 +294,7 @@
   },
   {
     "ability": "如果今天白天没有除精神病人以外的存活玩家“疯狂”地证明自己是精神病人，在夜晚时*，可能会有一名镇民变成精神病人。如果所有存活的善良玩家都是精神病人，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/358446fdc2dfd4da2924c34f6a8efa060901d7073eefa79f76d75a8ddf8ba667.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/358446fdc2dfd4da2924c34f6a8efa060901d7073eefa79f76d75a8ddf8ba667.png",
     "edition": "custom",
     "flavor": "",
     "id": "20827_8700",
@@ -325,11 +325,11 @@
       "醉酒"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/e2017ddbac778cae37642eeea1ef28d41bdd9cadc74db8ab716ff2b452fd7e8c.webp"
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/e2017ddbac778cae37642eeea1ef28d41bdd9cadc74db8ab716ff2b452fd7e8c.webp"
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -346,7 +346,7 @@
   },
   {
     "id": "youzhizhua11111111",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "huuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "name": "狐媚娘",
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -379,7 +379,7 @@
     ]
   },
   {
-    "image": "/scripts/assets/community/bc45e1cb5c473138a4cb2a225666f67487e06e286791fb80b2f88666351c8759.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/bc45e1cb5c473138a4cb2a225666f67487e06e286791fb80b2f88666351c8759.png",
     "name": "伪证天才",
     "team": "minion",
     "ability": "每个夜晚，你要选择一个角色：可能会有玩家被欺骗得知该角色的能力触发了。",
@@ -412,7 +412,7 @@
   },
   {
     "id": "dianyuzhangaowhorahwpru903qu5rpiqhnrf",
-    "image": "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
     "edition": "custom",
     "name": "典狱长",
     "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
@@ -430,7 +430,7 @@
   },
   {
     "id": "kakakakkakakakakakakakaakakak111",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-gong-tang-zhi-shang-dd4aaccb/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",

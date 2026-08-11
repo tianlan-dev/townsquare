@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "忘忧幻境",
     "author": "503",
-    "logo": "/scripts/assets/community/ff8ea255635f8e078004aa2d294632c960e89599ba0833e5d5e197dd183d4902.webp",
+    "logo": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/ff8ea255635f8e078004aa2d294632c960e89599ba0833e5d5e197dd183d4902.webp",
     "description": "忘忧幻境",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -21,7 +21,7 @@
   },
   {
     "id": "c59278d4-28ec-482d-ab1b-ecec7e948b76",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "name": "送葬者",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -38,7 +38,7 @@
   },
   {
     "id": "43e371a7-fe96-4ebe-8cd7-2ba85b7d8b47",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -53,7 +53,7 @@
   },
   {
     "id": "b40261b8-680a-4921-afb8-3d869532668d",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "name": "镇长",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -68,7 +68,7 @@
   },
   {
     "id": "ba7cdc32-8b7a-4def-a6f9-2ff311d7fad2",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -86,7 +86,7 @@
   },
   {
     "id": "sailorbutton",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "name": "水手",
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
@@ -103,7 +103,7 @@
   },
   {
     "id": "ee18b9b6-e879-4cad-b114-18717e0794f6",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "name": "弄臣",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -120,7 +120,7 @@
   },
   {
     "id": "7c98231c-c6b4-4108-be36-f86b7bfd0123",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -137,7 +137,7 @@
   },
   {
     "id": "f8071cf6-6f29-4bc8-979f-84009d2fc5cc",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你得知恶魔在白天是否进行了投票。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "21d3eb9f-9744-4093-827d-9902d01d173a",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "整局游戏限一次，夜晚，选择一个善良身份，获取他的技能，如果有玩家为该身份，他醉酒。",
@@ -173,7 +173,7 @@
   },
   {
     "id": "3a67b902-4d3d-4842-9edd-1f8f2e3dac9a",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -191,7 +191,7 @@
   },
   {
     "id": "f7656d05-0e85-47d8-8971-c0c351e8667e",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，选择一名其他玩家，你得知一个善良身份与一个邪恶身份，其中一个是他的真实身份。",
@@ -223,11 +223,11 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "id": "amnesiacbutton",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -244,7 +244,7 @@
   },
   {
     "id": "83b60a7c-fab1-4c4a-8aaf-bf439ca8d4d3",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是醉鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -262,7 +262,7 @@
   },
   {
     "id": "df166f42-5bc4-4f31-b53a-72bf7a91294d",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你的角色以及你在每个夜晚选择了哪名玩家。",
@@ -284,7 +284,7 @@
   },
   {
     "id": "bc08940b-0143-4f34-9c74-d783886f8bd3",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "当你对“我是外来者”疯狂时，你可能会被处决。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "1fc421ff-1ad9-4e1e-8154-5363d768c0b8",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "bc655faa-2e17-4e95-8573-3e3a2267a233",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "name": "杂技演员",
     "ability": "每个夜晚*，如果与你邻近的一名存活的善良玩家醉酒或中毒，你死亡。",
@@ -333,7 +333,7 @@
   },
   {
     "id": "30f18ae2-251c-41f4-8d43-211c8e3d0b5c",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -351,7 +351,7 @@
   },
   {
     "id": "9f54ec3a-6093-4798-82f8-82af29434a1d",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -368,7 +368,7 @@
   },
   {
     "id": "d989e25a-a32f-451a-8595-e46867b548a2",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -385,7 +385,7 @@
   },
   {
     "id": "41a98366-a813-406c-8bfb-6776af219fa3",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "name": "麻脸巫婆",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
@@ -400,7 +400,7 @@
   },
   {
     "id": "85b6a8d1-5433-446f-800b-5c9dfcd77221",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，选择一名玩家：他中毒。先前已经中毒的玩家死亡并恢复健康。",
@@ -418,7 +418,7 @@
   },
   {
     "id": "1df176dd-7560-42c3-9a67-1a9ff294c8ca",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个会被这种能力杀死的外来者改为变成一个邪恶的方古且你代替他死亡。[+1外来者]",
@@ -435,7 +435,7 @@
   },
   {
     "id": "91ed5289-4f44-4cd0-9049-baffba687d31",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "name": "亡骨魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -454,7 +454,7 @@
   },
   {
     "id": "3f7b0f6d-f459-4b57-810d-094eca731dd6",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-wang-you-huan-jing-4df40cc9/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "edition": "custom",
     "name": "痢蛭",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，如果且只有他死亡你才会死亡。",

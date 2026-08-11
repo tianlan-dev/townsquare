@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "吞云吐雾",
     "author": "【作者】Thomassaurus",
-    "logo": "/scripts/assets/community/7df26d5a6d3bb0eca583d8c677bc0200ff50d8e48b7535a67475adf4bf287204.png",
+    "logo": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/7df26d5a6d3bb0eca583d8c677bc0200ff50d8e48b7535a67475adf4bf287204.png",
     "tags": [
       "快速上手与角色主题竞赛剧本",
       "角色竞赛优胜剧本"
@@ -24,7 +24,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果他因恶魔的能力死亡，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "id": "grandmothercadffcda5",
     "edition": "custom",
     "imageAlt": "grandmother"
@@ -42,7 +42,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "id": "noblecadffcda5",
     "edition": "custom",
     "imageAlt": "noble"
@@ -58,7 +58,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "id": "shugenjacadffcda5",
     "edition": "custom",
     "imageAlt": "shugenja"
@@ -76,7 +76,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "id": "villageidiotcadffcda5",
     "edition": "custom",
     "imageAlt": "villageidiot"
@@ -94,7 +94,7 @@
     "name_eng": "High Priestess",
     "firstNight": 5200,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "firstNightReminder": "",
@@ -109,7 +109,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "id": "ndballooonist",
     "edition": "custom"
   },
@@ -126,7 +126,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "id": "gamblercadffcda5",
     "edition": "custom",
     "imageAlt": "gambler"
@@ -144,7 +144,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "id": "monkcadffcda5",
     "edition": "custom",
     "imageAlt": "monk"
@@ -162,7 +162,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "id": "gossipcadffcda5",
     "edition": "custom",
     "imageAlt": "gossip"
@@ -182,7 +182,7 @@
       "是哲学家"
     ],
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "id": "philosophercadffcda5",
     "edition": "custom",
     "imageAlt": "philosopher"
@@ -198,7 +198,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
-    "image": "/scripts/assets/community/9b4cb90ba53a2f691421135cf729f3cd95737cfd6a8f6c0f42c16b5bc6a4feb2.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/9b4cb90ba53a2f691421135cf729f3cd95737cfd6a8f6c0f42c16b5bc6a4feb2.png",
     "id": "alsaahircadffcda5",
     "edition": "custom",
     "imageAlt": "alsaahir"
@@ -214,7 +214,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "id": "magiciancadffcda5",
     "edition": "custom",
     "imageAlt": "magician"
@@ -232,7 +232,7 @@
     ],
     "remindersGlobal": [],
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "id": "bansheecadffcda5",
     "edition": "custom",
     "imageAlt": "banshee"
@@ -250,7 +250,7 @@
       "是酒鬼"
     ],
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "id": "drunkcadffcda5",
     "edition": "custom",
     "imageAlt": "drunk"
@@ -269,7 +269,7 @@
       "被选择"
     ],
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "id": "lunaticcadffcda5",
     "edition": "custom",
     "imageAlt": "lunatic"
@@ -287,7 +287,7 @@
     ],
     "remindersGlobal": [],
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "id": "damselcadffcda5",
     "edition": "custom",
     "imageAlt": "damsel"
@@ -303,7 +303,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "id": "saintcadffcda5",
     "edition": "custom",
     "imageAlt": "saint"
@@ -322,7 +322,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "id": "godfathercadffcda5",
     "edition": "custom",
     "imageAlt": "godfather"
@@ -342,7 +342,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
-    "image": "/scripts/assets/community/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
     "id": "summonercadffcda5",
     "edition": "custom",
     "imageAlt": "summoner"
@@ -361,7 +361,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "id": "mezephelescadffcda5",
     "edition": "custom",
     "imageAlt": "mezepheles"
@@ -380,7 +380,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "id": "assassincadffcda5",
     "edition": "custom",
     "imageAlt": "assassin"
@@ -398,7 +398,7 @@
     ],
     "remindersGlobal": [],
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "id": "goblincadffcda5",
     "edition": "custom",
     "imageAlt": "goblin"
@@ -416,7 +416,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-tun-yun-tu-wu-adffcda5/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "id": "impcadffcda5",
     "edition": "custom",
     "imageAlt": "imp"

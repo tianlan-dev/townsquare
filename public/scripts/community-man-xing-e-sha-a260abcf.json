@@ -4,8 +4,8 @@
     "author": "Panfex",
     "name": "慢性扼杀",
     "hideTitle": true,
-    "background": "/scripts/assets/community/fd85b9c8b3a383ec8d9a19d34fc6fe86227d3e5bbd7a4682ba6f092f7f272f6e.jpg",
-    "logo": "/scripts/assets/community/9fcb14e60e391358a80f31a8b88cd92747e090e9a06a5a037b4835b02587ce18.png",
+    "background": "/scripts/assets/community-man-xing-e-sha-a260abcf/fd85b9c8b3a383ec8d9a19d34fc6fe86227d3e5bbd7a4682ba6f092f7f272f6e.jpg",
+    "logo": "/scripts/assets/community-man-xing-e-sha-a260abcf/9fcb14e60e391358a80f31a8b88cd92747e090e9a06a5a037b4835b02587ce18.png",
     "bootlegger": [
       "This script contains homebrew characters from: Pandora's Box [¶] - Homebrews by Luis [✦] - The Garden Centre [₽] - The Bootlegger's Anthology [§] - DarkArtist's Stuff [ξ] - EldenThorn's Collection [⁂]",
       "[v1.0]"
@@ -19,7 +19,7 @@
   {
     "id": "pioneer_pandorasbox",
     "image": [
-      "/scripts/assets/community/3a8b2c438c9918e5c15b602b6d677565d5f23a734e35f96d21381b94cd2181e0.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/3a8b2c438c9918e5c15b602b6d677565d5f23a734e35f96d21381b94cd2181e0.png"
     ],
     "firstNightReminder": "Show the Pioneer 1 character of each type, 1 of which they neighbour & the rest are not in play.",
     "name": "先锋 ¶",
@@ -31,7 +31,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -48,7 +48,7 @@
   },
   {
     "id": "jiushigebaichi111",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -66,7 +66,7 @@
   {
     "id": "monarch_pandorasbox",
     "image": [
-      "/scripts/assets/community/e39adbcd8c6b922bfcbeb4c804929c3686451086188e478f1982375ff8eaba18.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/e39adbcd8c6b922bfcbeb4c804929c3686451086188e478f1982375ff8eaba18.png"
     ],
     "firstNightReminder": "Wake a Minion and show them who the Monarch is. Wake the Monarch and show them two players.",
     "otherNightReminder": "Wake the Monarch and show them two players.",
@@ -83,7 +83,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -101,7 +101,7 @@
   {
     "id": "royalist_pandorasbox",
     "image": [
-      "/scripts/assets/community/76165e2aa3fe6aa442ff8635d0a0bdeff4aa66bd4c34f76500c808ca205d018a.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/76165e2aa3fe6aa442ff8635d0a0bdeff4aa66bd4c34f76500c808ca205d018a.png"
     ],
     "otherNightReminder": "If a Monarch died at night, show the Royalist an evil player.",
     "name": "保皇派 ¶",
@@ -124,7 +124,7 @@
   {
     "id": "prankster_the_bootleggers_anthology",
     "image": [
-      "/scripts/assets/community/fd5a086333ff698b385b9047fbb8b7cee38c669c53c75d6a1611bebdb6755d40.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/fd5a086333ff698b385b9047fbb8b7cee38c669c53c75d6a1611bebdb6755d40.png"
     ],
     "otherNightReminder": "The Prankster points to a player. Put them to sleep. If it's a Minion, mark that player with \"Pranked\", then wake that Minion and show them the \"This character affected you\" token and the Prankster token. All \"Pranked\" Minions choose a player; mark that player with \"Demon Learns Tonight.\" Finally, wake the Demon, and point to each player marked \"Demon learns tonight\" in turn, and show them the corresponding character.",
     "remindersGlobal": [
@@ -159,7 +159,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -175,7 +175,7 @@
   {
     "id": "wayfarer_darkartists_stuff",
     "image": [
-      "/scripts/assets/community/0d9b292556daa66288d943f74a969754d7cb8edc6bbf1b1a23bf4f7cf846c68f.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/0d9b292556daa66288d943f74a969754d7cb8edc6bbf1b1a23bf4f7cf846c68f.png"
     ],
     "otherNightReminder": "If they haven't already, wake the Wayfarer and ask whether they want to choose a player tonight.",
     "reminders": [
@@ -189,7 +189,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -205,7 +205,7 @@
   {
     "id": "psychiatrist_eldensstuff",
     "image": [
-      "/scripts/assets/community/0d64683ee138bf02a055eb8a15cbc3c14751a7c168360e354b58907a763183f2.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/0d64683ee138bf02a055eb8a15cbc3c14751a7c168360e354b58907a763183f2.png"
     ],
     "reminders": [
       "醉酒"
@@ -219,7 +219,7 @@
   },
   {
     "id": "zhongdayande111",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -236,7 +236,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -255,7 +255,7 @@
   {
     "id": "guardian_bollockscharacters",
     "image": [
-      "/scripts/assets/community/02eb0ce55f94570add85d664e4000c70b904df075f0e5fcad4dd2e00f0d37238.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/02eb0ce55f94570add85d664e4000c70b904df075f0e5fcad4dd2e00f0d37238.png"
     ],
     "firstNightReminder": "Wake the Guardian and point to a player. Mark that player with the \"Guarding\" reminder.",
     "reminders": [
@@ -271,7 +271,7 @@
   {
     "id": "captain_pandorasbox",
     "image": [
-      "/scripts/assets/community/2520d2126e46d2d462f429d40dc2027cefb9cc80d3cdce34671ca62b7e2bd592.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/2520d2126e46d2d462f429d40dc2027cefb9cc80d3cdce34671ca62b7e2bd592.png"
     ],
     "otherNightReminder": "If a Demon was killed other than by the Captain's execution & there are 5+ non-Travellers alive, they swap characters with an alive evil (& then count as having died.)",
     "reminders": [
@@ -292,7 +292,7 @@
   },
   {
     "id": "wudidejiemidashi111",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -311,7 +311,7 @@
   {
     "id": "amalgamate_pandorasbox",
     "image": [
-      "/scripts/assets/community/9460f5e2c2428a10dd01f1ac327c104a19ab14ec4f65cd195077f64d3e7214af.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/9460f5e2c2428a10dd01f1ac327c104a19ab14ec4f65cd195077f64d3e7214af.png"
     ],
     "remindersGlobal": [
       "是合并",
@@ -354,7 +354,7 @@
   {
     "id": "dhampir_pandorasbox",
     "image": [
-      "/scripts/assets/community/e16889af283a8dfbc7b15bfd87f3439f703fe62169d4be69aa8b33422b9800c2.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/e16889af283a8dfbc7b15bfd87f3439f703fe62169d4be69aa8b33422b9800c2.png"
     ],
     "otherNightReminder": "Mark a dead player with the *NEW BLOOD* reminder. Show that player's character to the Dhampir.",
     "name": "半吸血鬼 ¶",
@@ -389,7 +389,7 @@
   {
     "id": "miasma_the_bootleggers_anthology",
     "image": [
-      "/scripts/assets/community/f78f7788f6e5cc33663d823a48aa1213e543d7a991a3aeef7349374c8f85bca9.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/f78f7788f6e5cc33663d823a48aa1213e543d7a991a3aeef7349374c8f85bca9.png"
     ],
     "firstNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the “Shrouded” reminder in the Grimoire, and mark the Miasma with “No ability”. While the “Shrouded” reminder is placed, all Townsfolk are poisoned, and additionally must receive false information if they get any information.",
     "otherNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the “Shrouded” reminder in the Grimoire, and mark the Miasma with “No ability”. While the “Shrouded” reminder is placed, all Townsfolk are poisoned, and additionally must receive false information if they get any information.",
@@ -414,7 +414,7 @@
   {
     "id": "visionary_the_bootleggers_anthology",
     "image": [
-      "/scripts/assets/community/02fba9ce91b82251bbc71862441e31f3c53c73095312e25571cc4deccf49062a.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/02fba9ce91b82251bbc71862441e31f3c53c73095312e25571cc4deccf49062a.png"
     ],
     "firstNightReminder": "Wake the Visionary and show them a piece of paper with a question written on it. Put them to sleep. Wake a good player and show them the same piece of paper. Put them to sleep.",
     "reminders": [
@@ -449,7 +449,7 @@
   {
     "id": "leftenent_darkartists_stuff",
     "image": [
-      "/scripts/assets/community/299356573ecf61c74df40aa5f2326d28de834367a4f20d34ec8296fe50d32483.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/299356573ecf61c74df40aa5f2326d28de834367a4f20d34ec8296fe50d32483.png"
     ],
     "firstNightReminder": "Wake the Leftenent, show them the player that chose the Demon and their character. You may choose to inform a good player of who the Leftenent is.",
     "otherNightReminder": "Wake the Leftenent, show them the player that chose the Demon and their character. You may choose to inform a good player of who the Leftenent is.",
@@ -468,7 +468,7 @@
   {
     "id": "kukekua_pandorasbox",
     "image": [
-      "/scripts/assets/community/e52b0870b09d892a3f6c579d6885b0d28cff5f5a0509fd6c49727cddc8954ff0.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/e52b0870b09d892a3f6c579d6885b0d28cff5f5a0509fd6c49727cddc8954ff0.png"
     ],
     "firstNightReminder": "Wake the Captain & show them an alive character.",
     "otherNightReminder": "Wake the Kukekua to choose a player. Wake the Captain & show them an alive character.",
@@ -487,7 +487,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -504,7 +504,7 @@
   },
   {
     "id": "yiqunshabiemo222",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
@@ -526,7 +526,7 @@
     "name": "赫忒斯塔 ✦",
     "ability": "你与一名善良玩家得知你的具体能力是什么。如果一名邪恶玩家死亡，你的能力变为\"每个夜晚，你要选择一名玩家：他死亡。\"",
     "image": [
-      "/scripts/assets/community/c1d719b0010262586cc277603fa04f2a1773c5f31328c1f31b25b2a8e1a6d001.png"
+      "/scripts/assets/community-man-xing-e-sha-a260abcf/c1d719b0010262586cc277603fa04f2a1773c5f31328c1f31b25b2a8e1a6d001.png"
     ],
     "flavor": "Everything is metal if you try, hit and heat hard enough. It'll all become music to your ears... Take all the damned looks you like, you won't remember a thing.",
     "reminders": [
@@ -549,7 +549,7 @@
   },
   {
     "id": "17_meta",
-    "image": "/scripts/assets/community/fd5a086333ff698b385b9047fbb8b7cee38c669c53c75d6a1611bebdb6755d40.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/fd5a086333ff698b385b9047fbb8b7cee38c669c53c75d6a1611bebdb6755d40.png",
     "name": "恶作剧者&军团",
     "team": "a jinxed",
     "setup": false,
@@ -558,7 +558,7 @@
   },
   {
     "id": "18_meta",
-    "image": "/scripts/assets/community/e52b0870b09d892a3f6c579d6885b0d28cff5f5a0509fd6c49727cddc8954ff0.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/e52b0870b09d892a3f6c579d6885b0d28cff5f5a0509fd6c49727cddc8954ff0.png",
     "name": "合并&船长&库克夸",
     "team": "a jinxed",
     "setup": false,
@@ -567,7 +567,7 @@
   },
   {
     "id": "19_meta",
-    "image": "/scripts/assets/community/e16889af283a8dfbc7b15bfd87f3439f703fe62169d4be69aa8b33422b9800c2.png",
+    "image": "/scripts/assets/community-man-xing-e-sha-a260abcf/e16889af283a8dfbc7b15bfd87f3439f703fe62169d4be69aa8b33422b9800c2.png",
     "name": "半吸血鬼&赏金猎人",
     "team": "a jinxed",
     "setup": false,

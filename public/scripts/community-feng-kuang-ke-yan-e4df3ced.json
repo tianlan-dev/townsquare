@@ -22,7 +22,7 @@
   },
   {
     "ability": "①科学怪人与莽夫：如果恶魔拥有莽夫的能力，他无法因为该能力转变为善良阵营。②科学怪人与炼金术士：如果炼金术士拥有科学怪人的能力，炼金术士不会得知恶魔因此获得了哪个角色的能力。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "djinn_GStone",
@@ -39,7 +39,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "flavor": "",
     "id": "librarian_button",
@@ -59,7 +59,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_button",
@@ -79,7 +79,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "flavor": "",
     "id": "sailor_button",
@@ -98,7 +98,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "edition": "custom",
     "flavor": "",
     "id": "preacher_button",
@@ -117,7 +117,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "flavor": "",
     "id": "high_priestess_button",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_button",
@@ -153,7 +153,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_button",
@@ -173,7 +173,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "flavor": "",
     "id": "flowergirl_button",
@@ -193,7 +193,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "flavor": "",
     "id": "professor_button",
@@ -213,7 +213,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "fisherman_button",
@@ -232,7 +232,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_button",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "你拥有一个不在场的爪牙角色的能力。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "flavor": "",
     "id": "alchemist_button",
@@ -270,7 +270,7 @@
   },
   {
     "ability": "被处决的善良玩家可能不会死亡。",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
     "edition": "custom",
     "flavor": "",
     "id": "pacifist_button",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_button",
@@ -306,7 +306,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinker_button",
@@ -325,7 +325,7 @@
   },
   {
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "flavor": "",
     "id": "sweetheart_button",
@@ -344,7 +344,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "flavor": "",
     "id": "klutz_button",
@@ -364,7 +364,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_button",
@@ -383,7 +383,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpy_button",
@@ -403,7 +403,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_button",
@@ -423,7 +423,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "flavor": "",
     "id": "devils_advocate_button",
@@ -442,7 +442,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_button",
@@ -461,7 +461,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_button",
@@ -481,7 +481,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你的上个夜晚选择过的且当前死亡的玩家可能会被你反刍。",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "flavor": "",
     "id": "shabaloth_button",
@@ -501,7 +501,7 @@
   },
   {
     "id": "Apprentice_button",
-    "image": "/scripts/assets/community/a6f29b6be37a21cef5764d422b215b1e9b2420b7634ff67ba4cb5135b2b0d789.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/a6f29b6be37a21cef5764d422b215b1e9b2420b7634ff67ba4cb5135b2b0d789.png",
     "edition": "custom",
     "name": "学徒",
     "ability": "在你的首个夜晚，如果你是善良的，你会获得一个镇民角色的能力；如果你是邪恶的，你会获得一个爪牙角色的能力。",
@@ -515,7 +515,7 @@
   },
   {
     "id": "Bishop_button",
-    "image": "/scripts/assets/community/a6ae6bd2ccd36dc8a486ecb8947a497e6d12682fa4eef710558cbc94e9428ff2.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/a6ae6bd2ccd36dc8a486ecb8947a497e6d12682fa4eef710558cbc94e9428ff2.png",
     "edition": "custom",
     "name": "主教",
     "ability": "只有说书人可以发起提名。每个白天说书人至少要提名一名你对立阵营的玩家。",
@@ -529,7 +529,7 @@
   },
   {
     "id": "Judge_button",
-    "image": "/scripts/assets/community/55ffdfae2f3baf278cce97f7e8414b9b40705371575800ebf86821559eedc1e8.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/55ffdfae2f3baf278cce97f7e8414b9b40705371575800ebf86821559eedc1e8.png",
     "edition": "custom",
     "name": "法官",
     "ability": "每局游戏限一次，在白天投票时，当其他玩家发起提名后，到下次提名前，你可以直接让投票无效或处决被提名的玩家。",
@@ -542,7 +542,7 @@
   },
   {
     "id": "Bonecollector_button",
-    "image": "/scripts/assets/community/1a5aeb379d831f668c5eb38be60e6e2ac8f5272f160a9db8a47c907baae99d33.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/1a5aeb379d831f668c5eb38be60e6e2ac8f5272f160a9db8a47c907baae99d33.png",
     "edition": "custom",
     "name": "集骨者",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：他重新获得能力直到下个黄昏。",
@@ -557,7 +557,7 @@
   },
   {
     "id": "Beggar_button",
-    "image": "/scripts/assets/community/e6f391c07da7f36fa3e4dac42c6235b7145bb67aa683b1445888944af5f82fad.png",
+    "image": "/scripts/assets/community-feng-kuang-ke-yan-e4df3ced/e6f391c07da7f36fa3e4dac42c6235b7145bb67aa683b1445888944af5f82fad.png",
     "edition": "custom",
     "name": "乞丐",
     "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",

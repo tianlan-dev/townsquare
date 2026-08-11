@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "楠山诡瘴",
     "author": "fbb",
-    "logo": "/scripts/assets/community/da1148d37c703ae966a31e3af652c7fa017e1e855b710933d8029cb9640b8ecb.webp",
+    "logo": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/da1148d37c703ae966a31e3af652c7fa017e1e855b710933d8029cb9640b8ecb.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -24,7 +24,7 @@
   },
   {
     "id": "-1s-1s-1s",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -38,7 +38,7 @@
   },
   {
     "id": "ainiii11111",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -52,7 +52,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -66,7 +66,7 @@
   },
   {
     "id": "xitele111",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -82,7 +82,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -96,7 +96,7 @@
   },
   {
     "id": "hahaxiaochou111",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "name": "弄臣",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -112,7 +112,7 @@
   },
   {
     "id": "daerduotutu111",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "name": "图书管理员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -129,7 +129,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "gongwenbaozaren111",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -159,7 +159,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -176,7 +176,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -193,7 +193,7 @@
   },
   {
     "id": "chuangsishuoshuren111",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
     "edition": "custom",
     "name": "无神论者",
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
@@ -207,7 +207,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "wocaishiemo111",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -257,7 +257,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -273,7 +273,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -289,7 +289,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -305,7 +305,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -322,7 +322,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -337,7 +337,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -370,7 +370,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -387,7 +387,7 @@
   },
   {
     "id": "fangguuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -403,7 +403,7 @@
   },
   {
     "id": "22_xixixi",
-    "image": "/scripts/assets/community/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
     "name": "园丁",
     "team": "fabled",
     "ability": "由说书人来为一名或更多玩家派发角色。",
@@ -411,7 +411,7 @@
   },
   {
     "id": "468d93bc-1da4-4141-83b9-09eecc8177df",
-    "image": "/scripts/assets/community/9af0a86688106f0de93c4fdf5f2055c1ca740ddac9a11e6044f25b0b07f0ead9.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/9af0a86688106f0de93c4fdf5f2055c1ca740ddac9a11e6044f25b0b07f0ead9.png",
     "edition": "custom",
     "name": "地狱藏书员",
     "ability": "当说书人宣布安静时，仍在说话的玩家可能会遭遇一些不好的事情。",
@@ -427,7 +427,7 @@
   },
   {
     "id": "guanyuanyuanyuanyuan111",
-    "image": "/scripts/assets/community/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
     "edition": "custom",
     "name": "官员",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，他的投票算作三票。",
@@ -443,7 +443,7 @@
   },
   {
     "id": "tizuiyangyangyang111",
-    "image": "/scripts/assets/community/e94f94afed7a8765ca06aa1c65e766912da5081802daf0c263688b8b102b4db1.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/e94f94afed7a8765ca06aa1c65e766912da5081802daf0c263688b8b102b4db1.png",
     "edition": "custom",
     "name": "替罪羊",
     "ability": "如果你的阵营的一名玩家被处决，你可能会代替他被处决。",
@@ -457,7 +457,7 @@
   },
   {
     "id": "xuetutututututututtutu111",
-    "image": "/scripts/assets/community/d5dec484a779935dd0e371cb4e653ecc490e95500ced19156e54d286bbe5b681.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/d5dec484a779935dd0e371cb4e653ecc490e95500ced19156e54d286bbe5b681.png",
     "edition": "custom",
     "name": "学徒",
     "ability": "在你的首个夜晚，如果你是善良的，你会获得一个镇民角色的能力；如果你是邪恶的，你会获得一个爪牙角色的能力。",
@@ -473,7 +473,7 @@
   },
   {
     "id": "tufuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
     "edition": "custom",
     "name": "屠夫",
     "ability": "每个白天，首次处决后，你可以再次发起提名。",
@@ -487,7 +487,7 @@
   },
   {
     "id": "heibangbangbangbang111",
-    "image": "/scripts/assets/community/7437a9adceb2c3c5bbbe8fd006a9f2d3e8489a9853c60f8741664b716400d02d.png",
+    "image": "/scripts/assets/community-nan-shan-gui-zhang-06ff85d2/7437a9adceb2c3c5bbbe8fd006a9f2d3e8489a9853c60f8741664b716400d02d.png",
     "edition": "custom",
     "name": "黑帮",
     "ability": "每个白天限一次，你可以杀死与你邻近的两名存活的玩家中的一名，但需要另一边那个存活的玩家同意。",

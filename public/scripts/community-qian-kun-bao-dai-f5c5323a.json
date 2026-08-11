@@ -26,7 +26,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -44,7 +44,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -61,7 +61,7 @@
   },
   {
     "id": "woshixiuxingzhe111",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -76,7 +76,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -93,7 +93,7 @@
   },
   {
     "id": "jiushigebaichi111",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -110,7 +110,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -127,7 +127,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "furryhaoye111",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -162,7 +162,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -179,7 +179,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -194,7 +194,7 @@
   },
   {
     "id": "wohehehehehehehezuidiaoniladao111",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "name": "侍臣",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，一个该角色从当晚开始醉酒三天三夜。",
@@ -214,7 +214,7 @@
   },
   {
     "id": "chaojibianbianbian111",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "name": "变脸师",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -229,7 +229,7 @@
   },
   {
     "id": "yishisaarqwwwwwwwwwwwwwwwwwwwww",
-    "image": "/scripts/assets/community/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
     "edition": "custom",
     "name": "驿使",
     "ability": "每个白天，你可以公开声明一个角色。在当晚，你会得知该角色是否在场。如果你因此得知了否，你失去此能力。",
@@ -248,7 +248,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -266,7 +266,7 @@
   },
   {
     "id": "daibi111",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -281,7 +281,7 @@
   },
   {
     "id": "zabusini111",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "name": "魔像",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "suaibi1111",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "edition": "custom",
     "name": "煞星",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -315,7 +315,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -332,7 +332,7 @@
   },
   {
     "id": "kangtuiyige111",
-    "image": "/scripts/assets/community/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
     "edition": "custom",
     "name": "逆臣",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你会在当晚转变为邪恶；如果你先死于处决，他会在当晚转变为邪恶。",
@@ -349,7 +349,7 @@
   },
   {
     "id": "noita111",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "youzhizhua11111111",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -384,7 +384,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -401,7 +401,7 @@
   },
   {
     "id": "charoit",
-    "image": "/scripts/assets/community/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
     "edition": "custom",
     "name": "战车 ",
     "ability": "与你顺时针距离为1的玩家中毒。如果是邪恶的非旅行者玩家，改为和他交换角色。每个夜晚*，或该玩家死亡时，该距离+1。",
@@ -416,7 +416,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -434,7 +434,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -452,7 +452,7 @@
   },
   {
     "id": "xiaoshabi111111",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -471,7 +471,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -489,7 +489,7 @@
   },
   {
     "id": "shengjiezhihun",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -507,7 +507,7 @@
     "team": "fabled",
     "reminders": [],
     "ability": "乾为天，坤为地。",
-    "image": "/scripts/assets/community/0d1d0c213cd5f8a248226cb5992dfd26938cd061d9b703ca69149dd4577fe59e.png"
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/0d1d0c213cd5f8a248226cb5992dfd26938cd061d9b703ca69149dd4577fe59e.png"
   },
   {
     "id": "xiexiehuiugu",
@@ -519,6 +519,6 @@
       "谢谢惠顾"
     ],
     "ability": "谢谢惠顾~",
-    "image": "/scripts/assets/community/6fb479c4fe54ddb24c9ac52c5cd1317014e47c024e4bc872f008ca09fe79b004.png"
+    "image": "/scripts/assets/community-qian-kun-bao-dai-f5c5323a/6fb479c4fe54ddb24c9ac52c5cd1317014e47c024e4bc872f008ca09fe79b004.png"
   }
 ]

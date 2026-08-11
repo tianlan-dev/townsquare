@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "夜行者",
     "author": "小烯C2H43g & 段时",
-    "logo": "/scripts/assets/community/39ed9d8c43de99274ff05fc24c1999fcda9c720b40c537998849ba7ad83728e6.png",
+    "logo": "/scripts/assets/community-ye-xing-zhe-14324c50/39ed9d8c43de99274ff05fc24c1999fcda9c720b40c537998849ba7ad83728e6.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_yexingzhe",
-    "image": "/scripts/assets/community/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png",
     "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "reminders": [
@@ -29,7 +29,7 @@
   },
   {
     "id": "1_yexingzhe",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -41,7 +41,7 @@
   },
   {
     "id": "2_yexingzhe",
-    "image": "/scripts/assets/community/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
     "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
     "otherNightReminder": "0",
     "reminders": [
@@ -56,7 +56,7 @@
   },
   {
     "id": "3_yexingzhe",
-    "image": "/scripts/assets/community/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -64,7 +64,7 @@
   },
   {
     "id": "4_yexingzhe",
-    "image": "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
     "remindersGlobal": [
       "是隐士"
     ],
@@ -76,7 +76,7 @@
   },
   {
     "id": "5_yexingzhe",
-    "image": "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -85,7 +85,7 @@
   },
   {
     "id": "6_yexingzhe",
-    "image": "/scripts/assets/community/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -93,7 +93,7 @@
   },
   {
     "id": "7_yexingzhe",
-    "image": "/scripts/assets/community/d42324f8d79e6244f7c203cc13d3373681fda841951d146826b98cafc7bc0ec9.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/d42324f8d79e6244f7c203cc13d3373681fda841951d146826b98cafc7bc0ec9.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "8_yexingzhe",
-    "image": "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
     "setup": true,
     "name": "科学怪人",
@@ -112,7 +112,7 @@
   },
   {
     "id": "9_yexingzhe",
-    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -126,7 +126,7 @@
   },
   {
     "id": "10_yexingzhe",
-    "image": "/scripts/assets/community/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png",
     "firstNightReminder": "唤醒痢蛭，让他选择一名玩家以寄生。",
     "otherNightReminder": "唤醒痢蛭，让他攻击一名玩家。",
     "reminders": [
@@ -156,7 +156,7 @@
   },
   {
     "id": "61ecfdb0-2225-465c-9a7c-5d0b4c46d5ed",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "私货商人",
     "team": "fabled",
     "ability": "有私货的相克规则。",
@@ -164,7 +164,7 @@
   },
   {
     "id": "_mycxjhb",
-    "image": "/scripts/assets/community/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
     "name": "教皇",
     "team": "fabled",
     "ability": "会有重复的善良角色在场。他们也可能是恶魔的伪装。",
@@ -175,7 +175,7 @@
     "name": "印度教教徒",
     "team": "fabled",
     "ability": "最先死亡的四名玩家会立刻以相同阵营的旅行者转世重生。如果恶魔死亡变成了旅行者，一名爪牙玩家变成这个恶魔。",
-    "image": "/scripts/assets/community/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
+    "image": "/scripts/assets/community-ye-xing-zhe-14324c50/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],

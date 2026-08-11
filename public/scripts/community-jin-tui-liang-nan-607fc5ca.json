@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "进退两难",
-    "logo": "/scripts/assets/community/0b3106167db914f23de38214d268ee411427e4f390a4ef7732a7da0a69f531b8.png",
+    "logo": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/0b3106167db914f23de38214d268ee411427e4f390a4ef7732a7da0a69f531b8.png",
     "author": "刘中奇",
     "description": "进退两难",
     "townsfolkName": "镇民",
@@ -28,7 +28,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -45,7 +45,7 @@
   },
   {
     "id": "yinyangshiqidong111",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -62,7 +62,7 @@
   },
   {
     "id": "woshixiuxingzhe111",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -77,7 +77,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -92,7 +92,7 @@
   },
   {
     "id": "yigechunshabidexiaoxuesheng111",
-    "image": "/scripts/assets/community/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
     "edition": "custom",
     "name": "熊孩子",
     "ability": "每个夜晚，你要选择一个镇民角色：他们的能力会产生错误信息，直到下个黄昏。",
@@ -109,7 +109,7 @@
   },
   {
     "id": "wangwenwenqie111",
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
     "edition": "custom",
     "name": "郎中",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
@@ -124,7 +124,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -141,7 +141,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -161,7 +161,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -176,7 +176,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -193,7 +193,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -211,7 +211,7 @@
   },
   {
     "id": "wangzherongyao111",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "name": "农夫",
     "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "yiwu111",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "edition": "custom",
     "name": "悟道者",
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，在该效果生效前你会变成一个不在场的镇民角色。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -258,7 +258,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -273,7 +273,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -290,7 +290,7 @@
   },
   {
     "id": "ningcaichen111",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "noita111",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -325,7 +325,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -342,7 +342,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -358,7 +358,7 @@
   },
   {
     "id": "yangaaaaaaaaaaaa111",
-    "image": "/scripts/assets/community/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
     "edition": "custom",
     "name": "养蛊人",
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
@@ -373,7 +373,7 @@
   },
   {
     "id": "qiongb1111111111",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "edition": "custom",
     "name": "穷奇",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
@@ -392,7 +392,7 @@
   },
   {
     "id": "32_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-jin-tui-liang-nan-607fc5ca/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&落难少女",
     "team": "a jinxed",
     "setup": false,

@@ -17,7 +17,7 @@
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知哪些邪恶角色在场。",
     "firstNight": 3500,
-    "image": "/scripts/assets/community/9688d347b1b3b1705158f32ccfb4bb99889e33897e32c227d96e452f32b1772b.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/9688d347b1b3b1705158f32ccfb4bb99889e33897e32c227d96e452f32b1772b.png",
     "edition": "custom"
   },
   {
@@ -32,12 +32,12 @@
     "ability": "在你的首个夜晚，你会得知一名善良玩家。 如果他在夜晚死亡，当晚你要选择一个善良角色：如果他不在场，你变成该角色。",
     "firstNight": 3400,
     "otherNight": 12,
-    "image": "/scripts/assets/community/53bf9a3554806adca2001eb56c7209e4b7e99e55bb09008cd6d67d677bf14349.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/53bf9a3554806adca2001eb56c7209e4b7e99e55bb09008cd6d67d677bf14349.png",
     "edition": "custom"
   },
   {
     "id": "2_emoxueyuan",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "name": "筑梦师",
@@ -49,7 +49,7 @@
   },
   {
     "id": "3_emoxueyuan",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -57,7 +57,7 @@
   },
   {
     "id": "4_emoxueyuan",
-    "image": "/scripts/assets/community/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
     "otherNightReminder": "如果在白天以及夜晚，只有镇民玩家死亡，对司民摇头表示“否”，否则点头表示“是”。",
     "reminders": [
       "客死他乡"
@@ -81,12 +81,12 @@
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的至多四名玩家：你会得知他们有几种角色类型。[+1外来者]",
     "firstNight": 3700,
     "otherNight": 15,
-    "image": "/scripts/assets/community/a07eeeeaca5875c60966279d56628cda6c0170cef5ed8155b3da38f72e9ae8a7.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/a07eeeeaca5875c60966279d56628cda6c0170cef5ed8155b3da38f72e9ae8a7.png",
     "edition": "custom"
   },
   {
     "id": "6_emoxueyuan",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "reminders": [
       "失去能力"
     ],
@@ -97,7 +97,7 @@
   },
   {
     "id": "7_emoxueyuan",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -116,7 +116,7 @@
     "name": "罗姆人",
     "team": "townsfolk",
     "ability": "首个被你提名或提名你的爪牙玩家会变成罗姆人。",
-    "image": "/scripts/assets/community/0dce1080adb40ec351c5282acf0d4301bea983208c518a1efccfb15cd856c10f.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/0dce1080adb40ec351c5282acf0d4301bea983208c518a1efccfb15cd856c10f.png",
     "edition": "custom"
   },
   {
@@ -129,7 +129,7 @@
     "team": "townsfolk",
     "ability": "当你首次被恶魔杀死时，你仍存活但会被当作死亡，且会获得一个不在场的镇民能力。如果只有三名玩家存活，你死亡。",
     "otherNight": 9,
-    "image": "/scripts/assets/community/b52da43575a01228588493a52dac2adfa931c66372fed998f291fb0c2da61b2d.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/b52da43575a01228588493a52dac2adfa931c66372fed998f291fb0c2da61b2d.png",
     "edition": "custom"
   },
   {
@@ -142,12 +142,12 @@
     "name": "阴阳先生",
     "team": "townsfolk",
     "ability": "你以为你是一个外来者，但其实你不是。 当邪恶玩家被处决时，你变成一个不在场的镇民角色。",
-    "image": "/scripts/assets/community/14d74533fe00bbc8606b304c5d11325759bb9eed87bfab43c21bb942ef0e2c42.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/14d74533fe00bbc8606b304c5d11325759bb9eed87bfab43c21bb942ef0e2c42.png",
     "edition": "custom"
   },
   {
     "id": "11_emoxueyuan",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -160,7 +160,7 @@
   },
   {
     "id": "12_emoxueyuan",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -172,7 +172,7 @@
   },
   {
     "id": "13_emoxueyuan",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "otherNightReminder": "如果杂技演员左右两侧最近的存活善良玩家之一中毒或醉酒，杂技演员死亡。",
     "reminders": [
       "死亡"
@@ -185,7 +185,7 @@
   },
   {
     "id": "14_emoxueyuan",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -198,7 +198,7 @@
   },
   {
     "id": "15_emoxueyuan",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "firstNightReminder": "如果告密者在场，对爪牙展示三个不在场的善良角色标记。 ",
     "name": "告密者",
     "team": "outsider",
@@ -214,7 +214,7 @@
     "name": "逍遥谷",
     "team": "outsider",
     "ability": "距离你最远或者最近的一名善良玩家醉酒，如果你提名并处决了这名玩家，改为一名邪恶玩家醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/3a663d971771eec547b6ba0e8d73fe6e1480963b94b60dbc699a61d793190de6.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/3a663d971771eec547b6ba0e8d73fe6e1480963b94b60dbc699a61d793190de6.png",
     "edition": "custom"
   },
   {
@@ -270,12 +270,12 @@
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家:他死亡。 如果你以此方式杀死了恶魔，你与他交换角色。",
     "otherNight": 8,
-    "image": "/scripts/assets/community/95f3874839417cd05d65090e33854fc3a27e8230b20868af753ae39f9e305bcf.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/95f3874839417cd05d65090e33854fc3a27e8230b20868af753ae39f9e305bcf.png",
     "edition": "custom"
   },
   {
     "id": "21_emoxueyuan",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -289,7 +289,7 @@
   },
   {
     "id": "22_emoxueyuan",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -302,7 +302,7 @@
   },
   {
     "id": "23_emoxueyuan",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
     "reminders": [
       "死亡",
@@ -318,7 +318,7 @@
   },
   {
     "id": "24_emoxueyuan",
-    "image": "/scripts/assets/community/b0182cb481ed4b888f826cc6e4b1614f8e7bad8457d3b1d357cf23fa05d86ec3.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/b0182cb481ed4b888f826cc6e4b1614f8e7bad8457d3b1d357cf23fa05d86ec3.png",
     "name": "恶魔学院",
     "team": "fabled",
     "ability": "说书人需要在游戏开始前，决定使用“刺客”还是“死神”并告知玩家（不会同时在场）。每个夜晚，恶魔可以消耗一个进修点来将一个未选择过的学院中的一个能力变为自己能力的一部分(可以叠加和传递)。下个黎明时，所有玩家会得知恶魔选择的学院的格言。",
@@ -326,7 +326,7 @@
   },
   {
     "id": "25_emoxueyuan",
-    "image": "/scripts/assets/community/924d9012f3e90fdb0f0fc55a025ac814ddb2476b53b1b6a8af50aeb08647929a.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/924d9012f3e90fdb0f0fc55a025ac814ddb2476b53b1b6a8af50aeb08647929a.png",
     "reminders": [
       "1",
       "2",
@@ -340,7 +340,7 @@
   },
   {
     "id": "26_emoxueyuan",
-    "image": "/scripts/assets/community/3a41c7cf00b07acd8cc6bce601f3d7ff1b328b28aca1d95e5bb3400b6b3e54d8.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/3a41c7cf00b07acd8cc6bce601f3d7ff1b328b28aca1d95e5bb3400b6b3e54d8.png",
     "reminders": [
       "1",
       "2",
@@ -354,7 +354,7 @@
   },
   {
     "id": "27_emoxueyuan",
-    "image": "/scripts/assets/community/9d17b6e759782ce540853b9634d0a498ff737f9ae6fa2c59c87f2d6e028de34c.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/9d17b6e759782ce540853b9634d0a498ff737f9ae6fa2c59c87f2d6e028de34c.png",
     "reminders": [
       "错误信息",
       "中毒",
@@ -368,7 +368,7 @@
   },
   {
     "id": "28_emoxueyuan",
-    "image": "/scripts/assets/community/e2632c6e72929cc8a00991dd453dc25330cd0689bcb9a13eb3353db20b41b271.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/e2632c6e72929cc8a00991dd453dc25330cd0689bcb9a13eb3353db20b41b271.png",
     "reminders": [
       "被提名",
       "浪劫",
@@ -381,7 +381,7 @@
   },
   {
     "id": "29_emoxueyuan",
-    "image": "/scripts/assets/community/0aecc4fd948cae01323d6964c1bb605140570f2d269e6dc231c473f0d201e8d9.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/0aecc4fd948cae01323d6964c1bb605140570f2d269e6dc231c473f0d201e8d9.png",
     "reminders": [
       "死于处决",
       "姑获鸟",
@@ -394,7 +394,7 @@
   },
   {
     "id": "30_emoxueyuan",
-    "image": "/scripts/assets/community/c7594ab7028b708c0863f83e2cc01af1414a1ee829a3b719e38687ae38079576.png",
+    "image": "/scripts/assets/community-e-mo-xue-yuan-4f4102e5/c7594ab7028b708c0863f83e2cc01af1414a1ee829a3b719e38687ae38079576.png",
     "reminders": [
       "即将结束"
     ],

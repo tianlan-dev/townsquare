@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "一见钟情·鸳鸯债",
-    "logo": "/scripts/assets/community/964955ca8ce243bd459b5e7b4da3726f98615c251e7c552587d08ac93eda3a89.png",
+    "logo": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/964955ca8ce243bd459b5e7b4da3726f98615c251e7c552587d08ac93eda3a89.png",
     "author": "钟楼剧本博物馆&星火乐",
     "description": "一见钟情·鸳鸯债",
     "townsfolkName": "镇民",
@@ -45,7 +45,7 @@
   },
   {
     "id": "daerduotutu111",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "name": "图书管理员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -97,7 +97,7 @@
   },
   {
     "id": "10_jing",
-    "image": "/scripts/assets/community/99c363c69772ae6bca13f32638e0eb5f1f94a184f90d78672ff9cbcb4c49c6de.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/99c363c69772ae6bca13f32638e0eb5f1f94a184f90d78672ff9cbcb4c49c6de.png",
     "firstNightReminder": "让辩护律师选择一名玩家，用“辩护目标”标记那名玩家。",
     "otherNightReminder": "",
     "reminders": [
@@ -112,7 +112,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -127,7 +127,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名除你以外的玩家：爪牙的负面能力在今晚和明天白天对他无效。",
-    "image": "/scripts/assets/community/83127df557e150b92757cbe0ecaef9c25d893e6b9e3a351c14f49d76a01ade40.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/83127df557e150b92757cbe0ecaef9c25d893e6b9e3a351c14f49d76a01ade40.png",
     "edition": "custom",
     "flavor": "",
     "id": "kuijingzhe",
@@ -145,7 +145,7 @@
   },
   {
     "id": "wocaishiguowang111",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "name": "国王",
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "TianJiGe",
-    "image": "/scripts/assets/community/429ebe40874f163d137a674d3a32c186cd580ff8da7196b286d841c00ce12733.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/429ebe40874f163d137a674d3a32c186cd580ff8da7196b286d841c00ce12733.png",
     "firstNightReminder": "在首个夜晚，唤醒天机阁，让其选择两名连坐的玩家，并在其角色标记旁放置“探查”标记。",
     "otherNightReminder": "唤醒天机阁，让其选择两名连坐的玩家，用点头或者摇头来告知是否选择了更多的邪恶玩家，移除之前的“探查”标记，并在新选择的玩家角色标记旁放置“探查”标记。",
     "reminders": [
@@ -177,7 +177,7 @@
   },
   {
     "id": "tiandanwuzaoxiaoxinhuozhu111",
-    "image": "/scripts/assets/community/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png",
     "edition": "custom",
     "name": "打更人",
     "ability": "每个夜晚*，你要猜测今晚首个死亡的玩家与你的距离。如果你猜测正确，则除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -212,7 +212,7 @@
   },
   {
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
-    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_38",
@@ -231,7 +231,7 @@
   },
   {
     "id": "changshinanniang111",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
     "edition": "custom",
     "name": "唱诗男孩",
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
@@ -246,7 +246,7 @@
   },
   {
     "id": "tiepigu111",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "edition": "custom",
     "name": "贞洁者",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -263,7 +263,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -281,7 +281,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -331,7 +331,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -346,7 +346,7 @@
   },
   {
     "id": "cailianjun",
-    "image": "/scripts/assets/community/43939d3d6266328ea707f36ce1a25eed9c74123b3861f1521095c450e05b7afd.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/43939d3d6266328ea707f36ce1a25eed9c74123b3861f1521095c450e05b7afd.png",
     "edition": "custom",
     "name": "采莲君",
     "ability": "每局游戏限一次，在夜晚时*，你可以设计一个有答案的是非问题并选择一名玩家向他提问：如果他的答案与之相符，他转变为邪恶阵营，否则他死亡。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "gebulinaaaaaaa111111",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "name": "哥布林",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -383,7 +383,7 @@
   },
   {
     "id": "jiandieeeeeee111",
-    "image": "/scripts/assets/community/b6a8d88650bc997a56e32b23b2a4a663cb01dba279663773522ab9cf9facead0.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/b6a8d88650bc997a56e32b23b2a4a663cb01dba279663773522ab9cf9facead0.png",
     "edition": "custom",
     "name": "间谍",
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
@@ -398,7 +398,7 @@
   },
   {
     "id": "20_meta",
-    "image": "/scripts/assets/community/6beb272a2352120650ffc467b982b5e7aec7a939cb6a1588be8aea47a30c9fa8.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/6beb272a2352120650ffc467b982b5e7aec7a939cb6a1588be8aea47a30c9fa8.png",
     "name": "间谍&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -407,7 +407,7 @@
   },
   {
     "id": "2320_meta",
-    "image": "/scripts/assets/community/bbe221c9dc0964917cc24b0c0be9ce8dd26cfdacb05212364fde9d5921202556.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/bbe221c9dc0964917cc24b0c0be9ce8dd26cfdacb05212364fde9d5921202556.png",
     "name": "间谍&鸯",
     "team": "a jinxed",
     "setup": false,
@@ -416,7 +416,7 @@
   },
   {
     "id": "2042_meta",
-    "image": "/scripts/assets/community/814afda591e677aa13768839304cca433eb700babb4a5370ee302a1f986e1a52.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/814afda591e677aa13768839304cca433eb700babb4a5370ee302a1f986e1a52.png",
     "name": "间谍&三威之力",
     "team": "a jinxed",
     "setup": false,
@@ -425,7 +425,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -442,7 +442,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果被你杀死的玩家均与你某个特征不同，他们转变为邪恶并不再能在这局游戏中投票。所有人都知道这个特征是什么。",
-    "image": "/scripts/assets/community/ce6974a1ea4295e41f610acb87dedcc90212568396bd99853193bd5e52ea63df.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/ce6974a1ea4295e41f610acb87dedcc90212568396bd99853193bd5e52ea63df.png",
     "edition": "custom",
     "flavor": "",
     "id": "lilisi",
@@ -462,7 +462,7 @@
   },
   {
     "id": "veni_vidi_vici",
-    "image": "/scripts/assets/community/814afda591e677aa13768839304cca433eb700babb4a5370ee302a1f986e1a52.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/814afda591e677aa13768839304cca433eb700babb4a5370ee302a1f986e1a52.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -479,7 +479,7 @@
   },
   {
     "id": "yuanyang11",
-    "image": "/scripts/assets/community/bef69351f8dd1f198a966aa16378fe989bc31d8814513af6311b54df79399d7d.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/bef69351f8dd1f198a966aa16378fe989bc31d8814513af6311b54df79399d7d.png",
     "edition": "custom",
     "name": "鸳",
     "ability": "你以为你是巡山人，但其实你不是，你不会得知恶魔信息。如果你选择了鸯，邪恶阵营获胜。如果鸯死亡，善良阵营获胜。说书人可以使用所有爪牙的能力。[无爪牙在场，+鸯]",
@@ -502,7 +502,7 @@
   },
   {
     "id": "yuanyang22",
-    "image": "/scripts/assets/community/bbe221c9dc0964917cc24b0c0be9ce8dd26cfdacb05212364fde9d5921202556.png",
+    "image": "/scripts/assets/community-yi-jian-zhong-qing-yuan-yang-zhai-63d07a10/bbe221c9dc0964917cc24b0c0be9ce8dd26cfdacb05212364fde9d5921202556.png",
     "edition": "custom",
     "name": "鸯",
     "ability": "你以为你是落难少女，但其实你不是，爪牙代替你得知恶魔信息且你会被当作落难少女。每个夜晚*，可能有一名善良玩家死亡。每名玩家限一次，首个在白天公开声称自己是爪牙并猜测你是落难少女的善良玩家会在当晚转变为邪恶阵营。[-落难少女]",

@@ -7,7 +7,7 @@
     "outsidersName": "外来者",
     "minionsName": "爪牙",
     "demonsName": "恶魔",
-    "logo": "/scripts/assets/community/9ed9795601a95e86de9eac020e718ec73f33218634818d1a6c178979a7547dbc.jpg",
+    "logo": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/9ed9795601a95e86de9eac020e718ec73f33218634818d1a6c178979a7547dbc.jpg",
     "tags": [
       "全原创角色剧本",
       "国内"
@@ -24,7 +24,7 @@
     "reminders": [
       "被调换"
     ],
-    "image": "/scripts/assets/community/651aaf86ab1c32b5f39c81b4176ff0fc87dad1be21d8e96e1169c16c377ab63b.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/651aaf86ab1c32b5f39c81b4176ff0fc87dad1be21d8e96e1169c16c377ab63b.png"
   },
   {
     "id": "Alice",
@@ -33,7 +33,7 @@
     "team": "fabled",
     "ability": "在初始设置时，可能会额外减少一个爪牙并增加一个恶魔。",
     "setup": true,
-    "image": "/scripts/assets/community/009d4f3a560409c4f906ddb9dbf6620e6258dce2acd87b17aca1eba4b6df69a0.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/009d4f3a560409c4f906ddb9dbf6620e6258dce2acd87b17aca1eba4b6df69a0.png"
   },
   {
     "id": "Lucky Guy",
@@ -47,7 +47,7 @@
     "remindersGlobal": [
       "是幸运儿"
     ],
-    "image": "/scripts/assets/community/5f64c131cf5620a68a26700483e6d865109018d69fa2a3f324855b6fa0c3564b.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/5f64c131cf5620a68a26700483e6d865109018d69fa2a3f324855b6fa0c3564b.png"
   },
   {
     "id": "Doctor",
@@ -58,7 +58,7 @@
     "setup": false,
     "firstNight": 16,
     "otherNight": 26,
-    "image": "/scripts/assets/community/a8fcf5b0c38d3de299f98b4294fc6408842be591457ab2a29fc979004ea9d1f3.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/a8fcf5b0c38d3de299f98b4294fc6408842be591457ab2a29fc979004ea9d1f3.png"
   },
   {
     "id": "Seer",
@@ -68,7 +68,7 @@
     "ability": "在你的首个夜晚，你会得知一个在场的邪恶阵营角色。",
     "setup": false,
     "firstNight": 11,
-    "image": "/scripts/assets/community/76209903ea508097dd9dee9aef2fe3b6092a86c3dfcd35e72cd4dcedef31ed0a.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/76209903ea508097dd9dee9aef2fe3b6092a86c3dfcd35e72cd4dcedef31ed0a.png"
   },
   {
     "id": "Painter",
@@ -82,7 +82,7 @@
     "reminders": [
       "看画"
     ],
-    "image": "/scripts/assets/community/126a4fc83b633fcb4184d96245bec7c2e0137a8bb4147264c1bd326aa3b91df1.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/126a4fc83b633fcb4184d96245bec7c2e0137a8bb4147264c1bd326aa3b91df1.png"
   },
   {
     "id": "Little Girl",
@@ -96,7 +96,7 @@
       "回忆成功",
       "回忆失败"
     ],
-    "image": "/scripts/assets/community/108ffc34ee262c95a0b835b094238b778c64060f291388494c01626202ae6576.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/108ffc34ee262c95a0b835b094238b778c64060f291388494c01626202ae6576.png"
   },
   {
     "id": "Journalist",
@@ -109,7 +109,7 @@
     "reminders": [
       "抵消受伤"
     ],
-    "image": "/scripts/assets/community/42130c5306841b01321e1432905247e1d3a6ae135fc6dc91180339c26988a8e0.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/42130c5306841b01321e1432905247e1d3a6ae135fc6dc91180339c26988a8e0.png"
   },
   {
     "id": "Patient",
@@ -123,7 +123,7 @@
     "reminders": [
       "被调换"
     ],
-    "image": "/scripts/assets/community/e87e7739cf98b3218eecddcfe3b31a00e47f3d0eb8212a0f67f7676438693d4b.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/e87e7739cf98b3218eecddcfe3b31a00e47f3d0eb8212a0f67f7676438693d4b.png"
   },
   {
     "id": "Psychologist",
@@ -136,7 +136,7 @@
     "reminders": [
       "应激"
     ],
-    "image": "/scripts/assets/community/c41424608ab37876dea1480b1a3a68882961346c97de08b32d7ac1fee777b555.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/c41424608ab37876dea1480b1a3a68882961346c97de08b32d7ac1fee777b555.png"
   },
   {
     "id": "lujinuo",
@@ -145,7 +145,7 @@
     "team": "townsfolk",
     "ability": "当你陷入受伤状态时，你可能不会陷入此状态。如果此次受伤状态是隐伤且是对你生效的第一个隐伤，改为必定不会陷入此状态。你不会和邪恶的卢基诺出现在同一局游戏中。",
     "setup": false,
-    "image": "/scripts/assets/community/269baeae054d50d1e343abe38aa3f2338cb9c1c7bd8d846c594c1e4f72d4e54c.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/269baeae054d50d1e343abe38aa3f2338cb9c1c7bd8d846c594c1e4f72d4e54c.png"
   },
   {
     "id": "Prospector",
@@ -157,7 +157,7 @@
     "reminders": [
       "被提名"
     ],
-    "image": "/scripts/assets/community/c03a10b80d1b2003b28b53c92ba0edb55e35e10b5b0856a91c81c0600aeaac19.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/c03a10b80d1b2003b28b53c92ba0edb55e35e10b5b0856a91c81c0600aeaac19.png"
   },
   {
     "id": "Forward",
@@ -170,7 +170,7 @@
     "reminders": [
       "被拉球"
     ],
-    "image": "/scripts/assets/community/642f54732905f0d57990bcb368588b5fa0c837325f9251e1138456e1d3c0701c.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/642f54732905f0d57990bcb368588b5fa0c837325f9251e1138456e1d3c0701c.png"
   },
   {
     "id": "Lawyer",
@@ -182,7 +182,7 @@
     "reminders": [
       "朗心似铁"
     ],
-    "image": "/scripts/assets/community/21a16c4e0e96039d93c203f0bc7f8e5968dca580055ad1fad3f8c1c96dc212c7.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/21a16c4e0e96039d93c203f0bc7f8e5968dca580055ad1fad3f8c1c96dc212c7.png"
   },
   {
     "id": "Antiquarian",
@@ -196,7 +196,7 @@
     "reminders": [
       "止戈"
     ],
-    "image": "/scripts/assets/community/4df4bbbe9084f0dad0ddb63530664eca7abc4e70ae248cf3759c5da5000dede1.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/4df4bbbe9084f0dad0ddb63530664eca7abc4e70ae248cf3759c5da5000dede1.png"
   },
   {
     "id": "Explorer",
@@ -206,7 +206,7 @@
     "ability": "在你的首个夜晚，你会得知两个数字。会有一个邪恶玩家与你的最近初始距离在这两个数字之间。",
     "firstNight": 12,
     "setup": false,
-    "image": "/scripts/assets/community/eee36332582e820d619ed11e192daa907334fb15ee3473f04b31a91120f868cd.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/eee36332582e820d619ed11e192daa907334fb15ee3473f04b31a91120f868cd.png"
   },
   {
     "id": "Prisoner",
@@ -218,7 +218,7 @@
     "reminders": [
       "爆了"
     ],
-    "image": "/scripts/assets/community/d16d553044f8fe41eec2fa60a8bb7125cebaf049cdf71a8f6d5b1f4d8de08827.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/d16d553044f8fe41eec2fa60a8bb7125cebaf049cdf71a8f6d5b1f4d8de08827.png"
   },
   {
     "id": "Coordinator",
@@ -229,7 +229,7 @@
     "setup": false,
     "firstNight": 6,
     "otherNight": 6,
-    "image": "/scripts/assets/community/695bd8b489e5205ce1f45eed38b22b7cb4dc324dca7b43eabb07de896af8c52a.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/695bd8b489e5205ce1f45eed38b22b7cb4dc324dca7b43eabb07de896af8c52a.png"
   },
   {
     "id": "Mind's Eye",
@@ -238,7 +238,7 @@
     "team": "outsider",
     "ability": "当你死亡时，当晚恶魔会得知一个在场的善良玩家和该玩家的角色，且可以选择直接让该角色进入濒死。即使你已倒地，濒死。",
     "setup": false,
-    "image": "/scripts/assets/community/a5297e7977661253e8944c1963198facdfe4a14c73902749e635dea6e0a7dab4.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/a5297e7977661253e8944c1963198facdfe4a14c73902749e635dea6e0a7dab4.png"
   },
   {
     "id": "sewei",
@@ -251,7 +251,7 @@
     "reminders": [
       "被调换"
     ],
-    "image": "/scripts/assets/community/b765f4df24d75116f4ac16f4ec7670830a8de5c6391b2dc4f75ef145f4069b89.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/b765f4df24d75116f4ac16f4ec7670830a8de5c6391b2dc4f75ef145f4069b89.png"
   },
   {
     "id": "Novelist",
@@ -263,7 +263,7 @@
     "reminders": [
       "被调换"
     ],
-    "image": "/scripts/assets/community/97b6da6702179e0b0379fae715d70659823e6a5548f6093087819d71da4b8a8e.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/97b6da6702179e0b0379fae715d70659823e6a5548f6093087819d71da4b8a8e.png"
   },
   {
     "id": "Puppeteer",
@@ -272,7 +272,7 @@
     "team": "outsider",
     "ability": "本局游戏中的所有受伤状态均变成隐伤状态，即使你已倒地，濒死或死亡。",
     "setup": false,
-    "image": "/scripts/assets/community/fb5e8cd274e2c9aab599004bda4a2feb83f003d816bd2b6866297479519a9741.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/fb5e8cd274e2c9aab599004bda4a2feb83f003d816bd2b6866297479519a9741.png"
   },
   {
     "id": "Barmaid",
@@ -286,7 +286,7 @@
     "reminders": [
       "醉酒"
     ],
-    "image": "/scripts/assets/community/a9d37f8fa24c4d16b5106d000bf41773a8cf409a28813eb95f90ab23aa58fa0f.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/a9d37f8fa24c4d16b5106d000bf41773a8cf409a28813eb95f90ab23aa58fa0f.png"
   },
   {
     "id": "Hell Ember",
@@ -296,7 +296,7 @@
     "ability": "每个夜晚*，你选择一到两名玩家，使其进入共计两次受伤状态。【+1外来者】",
     "otherNight": 18,
     "setup": true,
-    "image": "/scripts/assets/community/93099d4f8e30496011b5e8bbc68860411a28b431be31ba6f9f474a35057f9a80.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/93099d4f8e30496011b5e8bbc68860411a28b431be31ba6f9f474a35057f9a80.png"
   },
   {
     "id": "The Ripper",
@@ -306,7 +306,7 @@
     "ability": "每个夜晚*，你选择一名玩家，使其进入受伤状态。你一定会被认为成善良阵营的一个角色，即使你已倒地，濒死或死亡。",
     "otherNight": 19,
     "setup": false,
-    "image": "/scripts/assets/community/e4a369b9d075d254c46b69efbdeb3fb315abf0fa0d021bab124362aad59eaa01.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/e4a369b9d075d254c46b69efbdeb3fb315abf0fa0d021bab124362aad59eaa01.png"
   },
   {
     "id": "Wu Chang",
@@ -321,7 +321,7 @@
       "吸魂",
       "落魄"
     ],
-    "image": "/scripts/assets/community/0a8a5272b4c52bff91f88ab0c6e73188154d9fd5c1837490045e0dfa4e89f5c3.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/0a8a5272b4c52bff91f88ab0c6e73188154d9fd5c1837490045e0dfa4e89f5c3.png"
   },
   {
     "id": "Fool's Gold",
@@ -331,7 +331,7 @@
     "ability": "每个夜晚*，你选择一名玩家，使其进入隐伤状态。若你死于处决，则所有活跃玩家陷入隐伤状态。你不会和善良的诺顿出现在同一局游戏中。",
     "otherNight": 17,
     "setup": false,
-    "image": "/scripts/assets/community/3457d03b55436cfc0f943486bb16e0d684bc2c0a1424ebc6a1f6bf53174d7f44.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/3457d03b55436cfc0f943486bb16e0d684bc2c0a1424ebc6a1f6bf53174d7f44.png"
   },
   {
     "id": "Nightmare",
@@ -341,7 +341,7 @@
     "ability": "每个夜晚*，你选择一名玩家并得知该玩家的身份。每局限一次，你可以变换该玩家的身份。你不会和善良的奥尔菲斯出现在同一局游戏中。",
     "otherNight": 15,
     "setup": false,
-    "image": "/scripts/assets/community/7f64d219807e9ea0a9ed463b343bba4fbddf504b710b880dd017152c78392791.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/7f64d219807e9ea0a9ed463b343bba4fbddf504b710b880dd017152c78392791.png"
   },
   {
     "id": "Night Watch",
@@ -354,7 +354,7 @@
     "reminders": [
       "中毒"
     ],
-    "image": "/scripts/assets/community/77716c949b52fa61785798380c224cd7e6992c4afe627d2fd2a3ad9e34961908.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/77716c949b52fa61785798380c224cd7e6992c4afe627d2fd2a3ad9e34961908.png"
   },
   {
     "id": "Undead",
@@ -364,7 +364,7 @@
     "ability": "每个夜晚*，你选择一名玩家，并使其进入受伤状态。所有处于倒地状态下的玩家也视为濒死状态。你知道全场玩家的活跃状态。",
     "otherNight": 22,
     "setup": false,
-    "image": "/scripts/assets/community/f17f3754affef9a73a21579dd89b63c294df8d5d1a0ada739905e8efac7e802a.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/f17f3754affef9a73a21579dd89b63c294df8d5d1a0ada739905e8efac7e802a.png"
   },
   {
     "id": "Photographer",
@@ -374,7 +374,7 @@
     "ability": "每个夜晚*，你可以拍照，然后可以使最多三名玩家进入共计三次受伤状态，并可以选择至多2名倒地状态的玩家使其进入濒死状态（此次濒死状态不算在两次濒死状态中）。 白天后，你拍的照片撕毁，所有当晚因你处于濒死状态的人会变成倒地状态，所有当晚因你处于倒地状态的人会变成受伤状态，所有当晚因你处于受伤状态的人会处于隐伤状态。 如果不拍照，则选择一名玩家，并使其进入受伤状态或者选择一名已倒地的玩家，使其进入濒死状态。",
     "otherNight": 21,
     "setup": false,
-    "image": "/scripts/assets/community/a523aca29c4c8da892f0f0cf556f86a20ffb9fdfad44805e325ae1a83303dbc2.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/a523aca29c4c8da892f0f0cf556f86a20ffb9fdfad44805e325ae1a83303dbc2.png"
   },
   {
     "id": "Hullabaloo",
@@ -384,7 +384,7 @@
     "ability": "每个夜晚*，你选择一名玩家，并使其及其邻座进入受伤状态或者选择一名已倒地的玩家，使其进入濒死状态。你不会和善良的卢基诺出现在同一局游戏中。",
     "otherNight": 23,
     "setup": false,
-    "image": "/scripts/assets/community/7283482aa95c23156d16079ef15182e7c56b2bb5216e3bbafafa4614a95cc198.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/7283482aa95c23156d16079ef15182e7c56b2bb5216e3bbafafa4614a95cc198.png"
   },
   {
     "id": "Opera Singer",
@@ -394,7 +394,7 @@
     "ability": "每个夜晚*，你选择一名玩家，并使其进入受伤状态或者选择一名已倒地的玩家，使其进入濒死状态。然后你可以和该玩家相邻的其中一名玩家更换号码牌。若当晚被任何人更换号码牌的玩家白天被提名，他下一晚有可能死亡。",
     "otherNight": 20,
     "setup": false,
-    "image": "/scripts/assets/community/72b2f55554fd59d7ad47c11f9afa2233fd23d8456f46efbc2cfc49e981170b7e.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/72b2f55554fd59d7ad47c11f9afa2233fd23d8456f46efbc2cfc49e981170b7e.png"
   },
   {
     "id": "Disciple",
@@ -408,7 +408,7 @@
     "reminders": [
       "禁锢"
     ],
-    "image": "/scripts/assets/community/5fd281c043990da7e4df0a1ee75b88845bcad3c47b0b5eaca0f2351e1099df96.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/5fd281c043990da7e4df0a1ee75b88845bcad3c47b0b5eaca0f2351e1099df96.png"
   },
   {
     "id": "dianche",
@@ -422,7 +422,7 @@
     "reminders": [
       "撞晕"
     ],
-    "image": "/scripts/assets/community/c76df6f861890694527cae865a2628cdf585545252db56390b7a3e4eea33f87d.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/c76df6f861890694527cae865a2628cdf585545252db56390b7a3e4eea33f87d.png"
   },
   {
     "id": "guoshanche",
@@ -436,7 +436,7 @@
     "reminders": [
       "移动之间"
     ],
-    "image": "/scripts/assets/community/e39593c0329cdfd3c8cd24e20cd19207b3169f58f46123c9e1cc52065b875a0e.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/e39593c0329cdfd3c8cd24e20cd19207b3169f58f46123c9e1cc52065b875a0e.png"
   },
   {
     "id": "dixiashi",
@@ -445,7 +445,7 @@
     "team": "traveler",
     "ability": "每局游戏限一次，白天，你可以选择一名玩家，如果该玩家不处于濒死状态，当晚会获得一个镇民的能力，反之他死亡且会有一名随机善良阵营玩家濒死。",
     "setup": false,
-    "image": "/scripts/assets/community/a2a08d5a7ca1fcf2d6772cdd16681869c3f88f7fb6be0c9435804caa8a0e45ee.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/a2a08d5a7ca1fcf2d6772cdd16681869c3f88f7fb6be0c9435804caa8a0e45ee.png"
   },
   {
     "id": "zhaoze",
@@ -456,7 +456,7 @@
     "firstNight": 2,
     "otherNight": 2,
     "setup": false,
-    "image": "/scripts/assets/community/62f071a07a6fb52cd76cd5e7fc61ad9bc38cae644faa7be6ac13b97cef40453a.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/62f071a07a6fb52cd76cd5e7fc61ad9bc38cae644faa7be6ac13b97cef40453a.png"
   },
   {
     "id": "weiqiang",
@@ -467,7 +467,7 @@
     "firstNight": 3,
     "otherNight": 3,
     "setup": false,
-    "image": "/scripts/assets/community/f62f90c30cd00951b0427916be33d4e91c1b56703eb6253b2093eb85a30ac659.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/f62f90c30cd00951b0427916be33d4e91c1b56703eb6253b2093eb85a30ac659.png"
   },
   {
     "id": "rule1",
@@ -479,7 +479,7 @@
       "活跃"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/3b32599f5de486fb050382fab44398a6c1df4b3b03ffb9ea5b0e938caf67809d.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/3b32599f5de486fb050382fab44398a6c1df4b3b03ffb9ea5b0e938caf67809d.png"
   },
   {
     "id": "rule2",
@@ -491,7 +491,7 @@
       "受伤"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/dac216aad64de06dfdaa3099bfb2d719060482c26d2540c40784d1c38fa20d90.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/dac216aad64de06dfdaa3099bfb2d719060482c26d2540c40784d1c38fa20d90.png"
   },
   {
     "id": "rule3",
@@ -503,7 +503,7 @@
       "隐伤"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/4aadcd8b10ea09c34752357b978ceef9cfe2acedcda1742fd5e641cfc35a136d.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/4aadcd8b10ea09c34752357b978ceef9cfe2acedcda1742fd5e641cfc35a136d.png"
   },
   {
     "id": "rule4",
@@ -515,7 +515,7 @@
       "倒地"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/6fe30a66c58624fd9aab956c983639497863192a93be3a8d16f4a5b1389896a8.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/6fe30a66c58624fd9aab956c983639497863192a93be3a8d16f4a5b1389896a8.png"
   },
   {
     "id": "rule5",
@@ -527,6 +527,6 @@
       "濒死"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/65d69888c6d45a421cdd1f7547f24a1ddf94a3b25784c6895b62a4b73f6bf7f9.png"
+    "image": "/scripts/assets/community-di-wu-ren-ge-c16c6bbe/65d69888c6d45a421cdd1f7547f24a1ddf94a3b25784c6895b62a4b73f6bf7f9.png"
   }
 ]

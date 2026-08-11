@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "卡卡利科夜未眠",
     "author": "海伦娜 & 纾",
-    "logo": "/scripts/assets/community/6b7a5b4220695cc4d205ac4069d475b3cd9c867b6d346692c04d3bcf5ba71dd8.png",
+    "logo": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/6b7a5b4220695cc4d205ac4069d475b3cd9c867b6d346692c04d3bcf5ba71dd8.png",
     "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/kakalikeyeweimian/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_kakalikeyeweimian",
-    "image": "/scripts/assets/community/76b6fa260aa134bd1f8cd84a6f0c2cf721c3d31cb7b9b6332f26ba97754f0767.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/76b6fa260aa134bd1f8cd84a6f0c2cf721c3d31cb7b9b6332f26ba97754f0767.png",
     "name": "三选一",
     "team": "fabled",
     "ability": "游戏开始时，说书人通过抽签的方式决定本局游戏的传奇角色为三者之一。",
@@ -21,7 +21,7 @@
   },
   {
     "id": "1_kakalikeyeweimian",
-    "image": "/scripts/assets/community/c7ece01185a448bbd3fe29d14b658bda495d708812f65e1ed329b056a7420e30.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/c7ece01185a448bbd3fe29d14b658bda495d708812f65e1ed329b056a7420e30.png",
     "name": "百密一纾",
     "team": "fabled",
     "ability": "每个白天，首个拜访说书人的玩家会获得一条有利于自己阵营获胜的建议。",
@@ -29,7 +29,7 @@
   },
   {
     "id": "2_kakalikeyeweimian",
-    "image": "/scripts/assets/community/e15433df1debf3168f1c39aa92e46770eab70106d78261c8805a45a8ecd25e28.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/e15433df1debf3168f1c39aa92e46770eab70106d78261c8805a45a8ecd25e28.png",
     "reminders": [
       "获胜"
     ],
@@ -40,7 +40,7 @@
   },
   {
     "id": "3_kakalikeyeweimian",
-    "image": "/scripts/assets/community/4f6204ad7fc107796aa711ab21f31cfc3cda94c7719b676dbbd3d598b54aef51.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/4f6204ad7fc107796aa711ab21f31cfc3cda94c7719b676dbbd3d598b54aef51.png",
     "reminders": [
       "限一次"
     ],
@@ -51,7 +51,7 @@
   },
   {
     "id": "4_kakalikeyeweimian",
-    "image": "/scripts/assets/community/87b0eb3817dabaa6e9492e78bc3c0acd009ec7ad417adcab60620aca39b53cf1.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/87b0eb3817dabaa6e9492e78bc3c0acd009ec7ad417adcab60620aca39b53cf1.png",
     "firstNightReminder": "在你的首个夜晚，你要选择一个方向（左/右），该方向上离你最近的爪牙会得知自己是“熊猫”，你得知“熊猫”的角色。“熊猫”存活时，首个作用于你的能力会作用于“熊猫”。",
     "remindersGlobal": [
       "熊猫"
@@ -64,7 +64,7 @@
   },
   {
     "id": "5_kakalikeyeweimian",
-    "image": "/scripts/assets/community/303cd8eec7435dc17e03a1cd52bd77b4e864bbc81f527d500b45031f768bbfb3.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/303cd8eec7435dc17e03a1cd52bd77b4e864bbc81f527d500b45031f768bbfb3.png",
     "otherNightReminder": "之后的三个夜晚，你会依次得知：他们是否均属于同一阵营；他们中的角色类型数量；他们中与恶魔的最近距离。",
     "reminders": [
       "选择",
@@ -79,7 +79,7 @@
   },
   {
     "id": "6_kakalikeyeweimian",
-    "image": "/scripts/assets/community/338ac6cb11f7f5b25288f24a1b1069d433f051601d486c110352063aa895e1b8.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/338ac6cb11f7f5b25288f24a1b1069d433f051601d486c110352063aa895e1b8.png",
     "firstNightReminder": "每个夜晚，你要选择除自己外的两名存活玩家：你会得知他们的角色名字数相加之和。外来者会被你的能力视为数字4。[ +1外来者]",
     "otherNightReminder": "每个夜晚，你要选择除自己外的两名存活玩家：你会得知他们的角色名字数相加之和。外来者会被你的能力视为数字4。[ +1外来者]",
     "reminders": [
@@ -96,7 +96,7 @@
   },
   {
     "id": "7_kakalikeyeweimian",
-    "image": "/scripts/assets/community/3051a685e4ed24c47b3ee9b0ff532e2d680514d51fd122212371596685c5682e.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/3051a685e4ed24c47b3ee9b0ff532e2d680514d51fd122212371596685c5682e.png",
     "firstNightReminder": "每个夜晚，你要选择一名存活玩家，你会得知他今晚选择了哪些目标。恶魔得知私家侦探在场。每局游戏限一次，如果恶魔在白天拜访说书人并猜中你是私家侦探，你死亡。",
     "otherNightReminder": "每个夜晚，你要选择一名存活玩家，你会得知他今晚选择了哪些目标。恶魔得知私家侦探在场。每局游戏限一次，如果恶魔在白天拜访说书人并猜中你是私家侦探，你死亡。",
     "reminders": [
@@ -113,7 +113,7 @@
   },
   {
     "id": "8_kakalikeyeweimian",
-    "image": "/scripts/assets/community/f48909434f48538038a0b3f00691cefffe493b64fd6914a5d5e7c120d23a849a.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/f48909434f48538038a0b3f00691cefffe493b64fd6914a5d5e7c120d23a849a.png",
     "otherNightReminder": "每个夜晚*，你要猜测恶魔首次选择的玩家。如果猜对，恶魔醉酒直到下个黄昏。否则，会额外有一名玩家死亡。",
     "reminders": [
       "醉酒",
@@ -128,7 +128,7 @@
   },
   {
     "id": "9_kakalikeyeweimian",
-    "image": "/scripts/assets/community/df4d016c0bb4d66f1adaaa989e8a4d72f89f11ef2951fdff7b890208518972ef.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/df4d016c0bb4d66f1adaaa989e8a4d72f89f11ef2951fdff7b890208518972ef.png",
     "otherNightReminder": "你持有“火药”。每个夜晚*，你要选择除自己外的一名存活玩家（需与之前均不同）并放置“火药”。每局游戏限一次，在夜晚时*，你可以选择引燃“火药”，先前被你放置“火药”的非镇民玩家均会在当晚死亡。[+1外来者]",
     "reminders": [
       "火药",
@@ -144,7 +144,7 @@
   },
   {
     "id": "10_kakalikeyeweimian",
-    "image": "/scripts/assets/community/f43683e2ecee935c8a19213b35eaee8cc0efd4ddc0e4ea47532cbda9b61e43f2.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/f43683e2ecee935c8a19213b35eaee8cc0efd4ddc0e4ea47532cbda9b61e43f2.png",
     "firstNightReminder": "每局游戏限一次 ，在夜晚 ，你要选择一个角色 ，如果该角色在场 ，在下次使用自身能力前，他立刻变成一个不在场的同类型角色。",
     "otherNightReminder": "每局游戏限一次 ，在夜晚 ，你要选择一个角色 ，如果该角色在场 ，在下次使用自身能力前，他立刻变成一个不在场的同类型角色。",
     "reminders": [
@@ -160,7 +160,7 @@
   },
   {
     "id": "11_kakalikeyeweimian",
-    "image": "/scripts/assets/community/6e2651906357b8063972aaaa740e512e819eacec7e66f96d4e62727f8bb7e018.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/6e2651906357b8063972aaaa740e512e819eacec7e66f96d4e62727f8bb7e018.png",
     "otherNightReminder": "每局游戏限一次，如果有玩家死于处决，在夜晚时*，你可以向他送出“鲜花”：如果他是善良的，他得知葬花童在场。",
     "reminders": [
       "鲜花",
@@ -174,7 +174,7 @@
   },
   {
     "id": "12_kakalikeyeweimian",
-    "image": "/scripts/assets/community/8c834239a9aaa649592b6a3e97917536dfb53e219865b8660ece894946ba5c64.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/8c834239a9aaa649592b6a3e97917536dfb53e219865b8660ece894946ba5c64.png",
     "reminders": [
       "第一天",
       "第二天",
@@ -188,7 +188,7 @@
   },
   {
     "id": "13_kakalikeyeweimian",
-    "image": "/scripts/assets/community/2d18358caab745ab07f5ba50c44bc68f4f5a3e1ab32a5a131946c0037360c0d7.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/2d18358caab745ab07f5ba50c44bc68f4f5a3e1ab32a5a131946c0037360c0d7.png",
     "otherNightReminder": "如果说书人欺骗了你，下个夜晚你可能会死亡。",
     "reminders": [
       "欺骗",
@@ -202,7 +202,7 @@
   },
   {
     "id": "14_kakalikeyeweimian",
-    "image": "/scripts/assets/community/e7bd5b77ef0f805fd2cf74bf7a1cbd2bb085f2d28ff215e7fb5e3f382fa8db1b.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/e7bd5b77ef0f805fd2cf74bf7a1cbd2bb085f2d28ff215e7fb5e3f382fa8db1b.png",
     "otherNightReminder": "恶魔会以为自己是其他不在场的恶魔。当你死亡时，恶魔会得知自己的真实角色。",
     "reminders": [
       "易容结束"
@@ -222,7 +222,7 @@
   },
   {
     "id": "15_kakalikeyeweimian",
-    "image": "/scripts/assets/community/4a78953e405da00c743632d59a33577150326adce2fa90dad4c75b445b03eaaa.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/4a78953e405da00c743632d59a33577150326adce2fa90dad4c75b445b03eaaa.png",
     "otherNightReminder": "如果你在夜晚死亡，你会被唤醒并选择一名玩家：他死亡。",
     "reminders": [
       "死亡"
@@ -235,7 +235,7 @@
   },
   {
     "id": "16_kakalikeyeweimian",
-    "image": "/scripts/assets/community/e2df9cb9be170b035851b3b3c23a2066f583ebc9c667058f29c8dae14ba26209.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/e2df9cb9be170b035851b3b3c23a2066f583ebc9c667058f29c8dae14ba26209.png",
     "name": "涅槃之羽",
     "team": "townsfolk",
     "ability": "如果你是场上唯一存活的镇民，你提名的玩家将立刻被处决。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "17_kakalikeyeweimian",
-    "image": "/scripts/assets/community/da799edd77b0151135eed113aec0a61f22e554e3b4851bbcf461ed0cffda9d5d.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/da799edd77b0151135eed113aec0a61f22e554e3b4851bbcf461ed0cffda9d5d.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -255,7 +255,7 @@
   },
   {
     "id": "18_kakalikeyeweimian",
-    "image": "/scripts/assets/community/7da8dd0525e15d993f20c4b5d1337bad7b3737585944e261e4ab7c9ba098496e.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/7da8dd0525e15d993f20c4b5d1337bad7b3737585944e261e4ab7c9ba098496e.png",
     "name": "狂热者",
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -263,7 +263,7 @@
   },
   {
     "id": "19_kakalikeyeweimian",
-    "image": "/scripts/assets/community/676c8b1154596c210b77432888fe38841ceecb6d34450006c327646ea6e2c640.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/676c8b1154596c210b77432888fe38841ceecb6d34450006c327646ea6e2c640.png",
     "reminders": [
       "最后提名"
     ],
@@ -274,7 +274,7 @@
   },
   {
     "id": "20_kakalikeyeweimian",
-    "image": "/scripts/assets/community/0d526be0dd84316ab7125d3fc1541bc6be0ee9a02dbc6b4f3fa3dc7e8f245fba.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/0d526be0dd84316ab7125d3fc1541bc6be0ee9a02dbc6b4f3fa3dc7e8f245fba.png",
     "otherNightReminder": "外来者被视为独立阵营。每个夜晚*，你选择一名玩家，他死亡。被你杀死的外来者会得知你是亚历克斯 。当且仅当你是场上唯一存活的外来者且无恶魔存活时 ，你的阵营获胜。",
     "reminders": [
       "死亡",
@@ -288,7 +288,7 @@
   },
   {
     "id": "21_kakalikeyeweimian",
-    "image": "/scripts/assets/community/1a28cdb3dfe4d155d6e324b01d7cd5a9595a5ce78b405d5bf8e3e494e70eec75.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/1a28cdb3dfe4d155d6e324b01d7cd5a9595a5ce78b405d5bf8e3e494e70eec75.png",
     "firstNightReminder": "每个夜晚，你选择一名存活玩家：下个白天他必须提名并处决一名玩家。否则他可能会被处决。",
     "otherNightReminder": "每个夜晚，你选择一名存活玩家：下个白天他必须提名并处决一名玩家。否则他可能会被处决。",
     "reminders": [
@@ -303,7 +303,7 @@
   },
   {
     "id": "22_kakalikeyeweimian",
-    "image": "/scripts/assets/community/4e95635207ff5f9ccdaa942551fe3ada39aadc2a351b0af75f30e395b2ffade7.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/4e95635207ff5f9ccdaa942551fe3ada39aadc2a351b0af75f30e395b2ffade7.png",
     "firstNightReminder": "所有玩家都知道你是师郎。你不会死于处决。每个夜晚，你要选择一名玩家：他要对你谄媚直到下个黄昏，否则他可能会死亡。当场上存活的邪恶玩家多于善良玩家时，你失去能力。",
     "otherNightReminder": "所有玩家都知道你是师郎。你不会死于处决。每个夜晚，你要选择一名玩家：他要对你谄媚直到下个黄昏，否则他可能会死亡。当场上存活的邪恶玩家多于善良玩家时，你失去能力。",
     "reminders": [
@@ -320,7 +320,7 @@
   },
   {
     "id": "23_kakalikeyeweimian",
-    "image": "/scripts/assets/community/46443307564e83f9bf4e8cb1e1945e1a42886d84daadafc4b10f4ee2b4cb74eb.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/46443307564e83f9bf4e8cb1e1945e1a42886d84daadafc4b10f4ee2b4cb74eb.png",
     "firstNightReminder": "在你的首个夜晚，你要选择一名非恶魔玩家：你会获得他的能力，随后他中毒。你会得知自己获得了什么能力且会被视为他的角色。",
     "remindersGlobal": [
       "中毒",
@@ -335,7 +335,7 @@
   },
   {
     "id": "24_kakalikeyeweimian",
-    "image": "/scripts/assets/community/4ecffea87855fe3241d692df894d11284e582df77399bfe922ec39352d50c902.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/4ecffea87855fe3241d692df894d11284e582df77399bfe922ec39352d50c902.png",
     "otherNightReminder": "每个夜晚*，你会提前得知白天有哪些玩家将要死亡。你可以选择隐藏任意数量夜间已死亡玩家的死亡讯息。被你隐藏的已死亡玩家将会被视为存活。当你死亡时，说书人将立刻公布所有已死亡玩家的讯息。",
     "reminders": [
       "隐藏"
@@ -348,7 +348,7 @@
   },
   {
     "id": "25_kakalikeyeweimian",
-    "image": "/scripts/assets/community/859ee227544576a011d7a25d8532620f6e1b577429c05017747edab4b970d4e0.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/859ee227544576a011d7a25d8532620f6e1b577429c05017747edab4b970d4e0.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -361,7 +361,7 @@
   },
   {
     "id": "26_kakalikeyeweimian",
-    "image": "/scripts/assets/community/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
     "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“限一次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原本的方古玩家死亡，且他选择的玩家不会被标记为死亡。",
     "reminders": [
       "死亡",
@@ -379,7 +379,7 @@
   },
   {
     "id": "27_kakalikeyeweimian",
-    "image": "/scripts/assets/community/482dffb01b6e5ed5ef3acb6ba80eb4e8aaafeda955df541ce01f1a2c0ce0aa0c.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/482dffb01b6e5ed5ef3acb6ba80eb4e8aaafeda955df541ce01f1a2c0ce0aa0c.png",
     "otherNightReminder": "让冢中枯骨选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -393,7 +393,7 @@
   },
   {
     "id": "28_kakalikeyeweimian",
-    "image": "/scripts/assets/community/d6dca471a007949eb15d7883574c4868b9ae4c866c287b42c9dcf0e654189daf.png",
+    "image": "/scripts/assets/community-ka-ka-li-ke-ye-wei-mian-c067a891/d6dca471a007949eb15d7883574c4868b9ae4c866c287b42c9dcf0e654189daf.png",
     "otherNightReminder": "让裁决使选择一名玩家。标记那名玩家死亡。如果裁决使选择了一名爪牙：让裁决使额外行动一次。",
     "reminders": [
       "死亡"

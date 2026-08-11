@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "冥灯望园",
     "author": "Cooldoom5",
-    "logo": "/scripts/assets/community/3d9162cff4f18c87bb7e0bf45157de38869df2829b2f4ce97004fb6f20e27cfd.png",
+    "logo": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/3d9162cff4f18c87bb7e0bf45157de38869df2829b2f4ce97004fb6f20e27cfd.png",
     "almanac": "https://www.bloodstar.xyz/p/papel/YZ_CN_GGG/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "29_yz_cn_ggg",
-    "image": "/scripts/assets/community/de8e90dee93e90ec62b2e560b94749d0b6b87929e23ee32fe70f944f08fb8c1f.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/de8e90dee93e90ec62b2e560b94749d0b6b87929e23ee32fe70f944f08fb8c1f.png",
     "firstNightReminder": "向侦察员展示两个恶魔角色标记：其中之一是在场的恶魔角色。",
     "name": "侦察员",
     "team": "townsfolk",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3_yz_cn_ggg",
-    "image": "/scripts/assets/community/5cc97c10a81ffef3df6a82d7d54d4aeae4a7f2cbfbf2fa10bf18167e1de74e0f.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/5cc97c10a81ffef3df6a82d7d54d4aeae4a7f2cbfbf2fa10bf18167e1de74e0f.png",
     "firstNightReminder": "向观星者展示一个不在场角色。在当晚根据对应的角色能力唤醒他。",
     "otherNightReminder": "向观星者展示一个不在场角色。在当晚根据对应的角色能力唤醒他。",
     "remindersGlobal": [
@@ -38,7 +38,7 @@
   },
   {
     "id": "8_yz_cn_ggg",
-    "image": "/scripts/assets/community/42ce7da8391373d296e68496ec68aa344dae56be335d17b0e157a9276ad05315.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/42ce7da8391373d296e68496ec68aa344dae56be335d17b0e157a9276ad05315.png",
     "firstNightReminder": "侦探选择两名玩家。如果他们都是邪恶的，侦探得知“是”，否则得知“否”。",
     "otherNightReminder": "侦探选择两名玩家。如果他们都是邪恶的，侦探得知“是”，否则得知“否”。",
     "reminders": [
@@ -53,7 +53,7 @@
   },
   {
     "id": "2_yz_cn_ggg",
-    "image": "/scripts/assets/community/1438801774b7e3cb545a502171ee70628c56991e1edbbb5ede2916396500b490.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/1438801774b7e3cb545a502171ee70628c56991e1edbbb5ede2916396500b490.png",
     "firstNightReminder": "旅行家选择一名玩家。向他展示一个在场角色，一个不在场角色和那名玩家的角色。",
     "otherNightReminder": "旅行家选择一名玩家。向他展示一个在场角色，一个不在场角色和那名玩家的角色。",
     "name": "旅行家",
@@ -65,7 +65,7 @@
   },
   {
     "id": "11_yz_cn_ggg",
-    "image": "/scripts/assets/community/4ca046daf2d5f24071b29e82d44228057c6782309667428a06abb4ea18a37a4c.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/4ca046daf2d5f24071b29e82d44228057c6782309667428a06abb4ea18a37a4c.png",
     "firstNightReminder": "向恶魔展示女王角色标记，并指向女王玩家。女王选择一名玩家。向女王展示那名玩家的角色类型。",
     "otherNightReminder": "女王选择一名玩家。向女王展示那名玩家的角色类型。",
     "name": "女王",
@@ -77,7 +77,7 @@
   },
   {
     "id": "7_yz_cn_ggg",
-    "image": "/scripts/assets/community/26956aa6cd16ba37eb08402c8ea0cf34ac84c24f5a9875cd936473c94fb16f0c.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/26956aa6cd16ba37eb08402c8ea0cf34ac84c24f5a9875cd936473c94fb16f0c.png",
     "otherNightReminder": "商人选择一名玩家。他会得知那名玩家的行动对其自身阵营的重要程度。",
     "name": "商人",
     "team": "townsfolk",
@@ -87,7 +87,7 @@
   },
   {
     "id": "1_yz_cn_ggg",
-    "image": "/scripts/assets/community/d7f8b20fd024632e1ac8bcbfce983a5f59789cfb510bb77c572a07a9e1400763.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/d7f8b20fd024632e1ac8bcbfce983a5f59789cfb510bb77c572a07a9e1400763.png",
     "otherNightReminder": "墓园守卫选择一名玩家，标记“保护”。那名玩家不会醒来，不能被选择。",
     "reminders": [
       "保护"
@@ -100,7 +100,7 @@
   },
   {
     "id": "4_yz_cn_ggg",
-    "image": "/scripts/assets/community/8ddd5d3f082fddbb3b9f92a34e8631ff6b8a6d79730f8a694620b83ff05bba20.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/8ddd5d3f082fddbb3b9f92a34e8631ff6b8a6d79730f8a694620b83ff05bba20.png",
     "otherNightReminder": "萨满选择一名死亡的玩家，并猜测他的角色。如果猜对，为那名玩家标记“获得能力”，萨满可以使用那个角色能力，如果猜错，为萨满标记“醉酒”，让他以为自己使用某个角色能力。",
     "reminders": [
       "获得能力",
@@ -114,7 +114,7 @@
   },
   {
     "id": "6_yz_cn_ggg",
-    "image": "/scripts/assets/community/fe36063682fcca38170f57868f371d1fb0aad13bdaeed54e50607d92b7eb1f39.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/fe36063682fcca38170f57868f371d1fb0aad13bdaeed54e50607d92b7eb1f39.png",
     "otherNightReminder": "赌场老板可以选择一个角色。如果该角色在场，该角色对应的玩家都变为他的角色类型内的一个其他角色。如果该角色不在场，标记“即将死亡”，恶魔的杀害目标会改为选择他。",
     "reminders": [
       "即将死亡"
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_yz_cn_ggg",
-    "image": "/scripts/assets/community/41da4a47c69da6f9499818e9db5522747d4095b42956af9c013a12522eeae3d2.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/41da4a47c69da6f9499818e9db5522747d4095b42956af9c013a12522eeae3d2.png",
     "otherNightReminder": "如果探矿员带有“发现金矿!”标记，唤醒他并告诉他发财了。",
     "reminders": [
       "发现金矿!"
@@ -140,7 +140,7 @@
   },
   {
     "id": "5_yz_cn_ggg",
-    "image": "/scripts/assets/community/257c98ad79adc0a660e09997d0e263be0c53f5b999e441a79b243917e681e984.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/257c98ad79adc0a660e09997d0e263be0c53f5b999e441a79b243917e681e984.png",
     "firstNightReminder": "唤醒强盗。如果他摇头，让他入睡。如果他选择一名玩家，并且那名玩家是善良的，他变为那名玩家的角色，标记“是强盗”，标记那名玩家“醉酒”。否则，强盗醉酒。",
     "otherNightReminder": "唤醒强盗。如果他摇头，让他入睡。如果他选择一名玩家，并且那名玩家是善良的，他变为那名玩家的角色，标记“是强盗”，标记那名玩家“醉酒”。否则，强盗醉酒。",
     "reminders": [
@@ -158,7 +158,7 @@
   },
   {
     "id": "10_yz_cn_ggg",
-    "image": "/scripts/assets/community/3fe59b89f879906d48303fd1fa87af44e963c2c3a2244f65247f2d359bad0f3f.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/3fe59b89f879906d48303fd1fa87af44e963c2c3a2244f65247f2d359bad0f3f.png",
     "otherNightReminder": "如果今晚女王被恶魔杀死，为皇家卫士标记“复仇”。所有邪恶玩家在下个夜晚醉酒，标记“邪恶醉酒”，直到醉酒后的下个黄昏。",
     "reminders": [
       "复仇",
@@ -173,7 +173,7 @@
   },
   {
     "id": "_yz_cn_ggg",
-    "image": "/scripts/assets/community/a0703ae0a8197abf1fb7a6fa703ba81b0dd5dcf4cfa3c67d43db7fd6a29dfa5c.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/a0703ae0a8197abf1fb7a6fa703ba81b0dd5dcf4cfa3c67d43db7fd6a29dfa5c.png",
     "firstNightReminder": "向变装演员展示一个不在场的爪牙角色。",
     "name": "变装演员",
     "team": "townsfolk",
@@ -183,7 +183,7 @@
   },
   {
     "id": "12_yz_cn_ggg",
-    "image": "/scripts/assets/community/408a6fbab8f65d6cc50879f6acb04aed5535536459ab0ea8428684788948c241.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/408a6fbab8f65d6cc50879f6acb04aed5535536459ab0ea8428684788948c241.png",
     "firstNightReminder": "单独唤醒掘墓人，向他展示恶魔和其他爪牙。",
     "remindersGlobal": [
       "是掘墓人"
@@ -196,7 +196,7 @@
   },
   {
     "id": "13_yz_cn_ggg",
-    "image": "/scripts/assets/community/4b1152a0d6a98e6d13b307cf6e1808e393549f5087f93356afcd2141891f5229.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/4b1152a0d6a98e6d13b307cf6e1808e393549f5087f93356afcd2141891f5229.png",
     "reminders": [
       "微醺"
     ],
@@ -207,7 +207,7 @@
   },
   {
     "id": "14_yz_cn_ggg",
-    "image": "/scripts/assets/community/eb43d20997977bd221509e8836b1ab641c9a45cafca7199bd9b389c03050cce8.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/eb43d20997977bd221509e8836b1ab641c9a45cafca7199bd9b389c03050cce8.png",
     "reminders": [
       "已声明"
     ],
@@ -218,7 +218,7 @@
   },
   {
     "id": "15_yz_cn_ggg",
-    "image": "/scripts/assets/community/8e20ae2b129ff202c1df54afe2ae4bfca8c9f424ad475aac1423a9c48c3d773f.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/8e20ae2b129ff202c1df54afe2ae4bfca8c9f424ad475aac1423a9c48c3d773f.png",
     "name": "胆小鬼",
     "team": "outsider",
     "ability": "如果你所投票的玩家被处决，你可能会代替他被处决。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "16_yz_cn_ggg",
-    "image": "/scripts/assets/community/7666018d9a78bab258847799e64af5bb0f497e8c128bae87e017a1796cb6ccb2.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/7666018d9a78bab258847799e64af5bb0f497e8c128bae87e017a1796cb6ccb2.png",
     "otherNightReminder": "幽灵选择一名玩家，标记“鬼上身”。那名玩家不会因其自身能力而被唤醒。",
     "reminders": [
       "鬼上身"
@@ -239,7 +239,7 @@
   },
   {
     "id": "17_yz_cn_ggg",
-    "image": "/scripts/assets/community/5252a8795a19a95ac53a7c9101485285f5550fd478319fe1de31d522c3e1da0e.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/5252a8795a19a95ac53a7c9101485285f5550fd478319fe1de31d522c3e1da0e.png",
     "otherNightReminder": "你可以让今天白天对丧尸投票的玩家之一变为丧尸。",
     "reminders": [
       "丧尸感染"
@@ -252,7 +252,7 @@
   },
   {
     "id": "18_yz_cn_ggg",
-    "image": "/scripts/assets/community/76e5224d32a4fd1f0d77edf604ecea8d037a6ccbe09fc09fb0a3fd89be118530.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/76e5224d32a4fd1f0d77edf604ecea8d037a6ccbe09fc09fb0a3fd89be118530.png",
     "otherNightReminder": "木乃伊选择一名玩家，标记“绷带捆绑”。那名玩家变为他的角色类型内的另一个角色。",
     "reminders": [
       "绷带捆绑"
@@ -265,7 +265,7 @@
   },
   {
     "id": "19_yz_cn_ggg",
-    "image": "/scripts/assets/community/1eff6ede19ad4bbf9d79789171da15dbb2205e0d56561f2eae62cb17dd2d7492.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/1eff6ede19ad4bbf9d79789171da15dbb2205e0d56561f2eae62cb17dd2d7492.png",
     "setup": true,
     "name": "骷髅",
     "team": "minion",
@@ -274,7 +274,7 @@
   },
   {
     "id": "20_yz_cn_ggg",
-    "image": "/scripts/assets/community/b4d9639761ba8263a2d17dc3df308ac3ce545b78df813e9c9ed5a7515382ad02.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/b4d9639761ba8263a2d17dc3df308ac3ce545b78df813e9c9ed5a7515382ad02.png",
     "otherNightReminder": "巫妖选择两名玩家。一名死亡，另一名变为该死亡玩家的角色，标记“诅咒”。",
     "reminders": [
       "诅咒",
@@ -288,7 +288,7 @@
   },
   {
     "id": "21_yz_cn_ggg",
-    "image": "/scripts/assets/community/4e00b23108317c9f7067d20e7d1459ff7ad575d961a154831f05e2aaf0865469.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/4e00b23108317c9f7067d20e7d1459ff7ad575d961a154831f05e2aaf0865469.png",
     "firstNightReminder": "吵闹鬼选择一名玩家，标记“爆吵”。他因自身角色能力获得错误信息。",
     "otherNightReminder": "吵闹鬼选择一名玩家，标记“爆吵”。他因自身角色能力获得错误信息。说书人标记一名玩家“爆杀”，那名玩家死亡。",
     "reminders": [
@@ -305,7 +305,7 @@
   },
   {
     "id": "22_yz_cn_ggg",
-    "image": "/scripts/assets/community/0e1ce1e443e20f4fcba7ba4460f08cddf90289004d68ea4a15e98b4f3ed70767.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/0e1ce1e443e20f4fcba7ba4460f08cddf90289004d68ea4a15e98b4f3ed70767.png",
     "firstNightReminder": "阴魂选择一名爪牙，标记“暗影共生”。",
     "otherNightReminder": "阴魂指向一名玩家，那名玩家死亡。",
     "reminders": [
@@ -322,7 +322,7 @@
   },
   {
     "id": "23_yz_cn_ggg",
-    "image": "/scripts/assets/community/8e2d80a4402fab70e1763142a9602cab241c46e73817b22c06fdf7fed22583d9.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/8e2d80a4402fab70e1763142a9602cab241c46e73817b22c06fdf7fed22583d9.png",
     "otherNightReminder": "唤醒所有白骨军团。他们投票选择一名玩家。那名玩家死亡。",
     "reminders": [
       "袭杀"
@@ -336,7 +336,7 @@
   },
   {
     "id": "24_yz_cn_ggg",
-    "image": "/scripts/assets/community/b1c684d219fae77fd3bb6cbfe03c48de6487c68274c9f1c32aca517867a34d42.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/b1c684d219fae77fd3bb6cbfe03c48de6487c68274c9f1c32aca517867a34d42.png",
     "reminders": [
       "禁止私聊",
       "禁止提名"
@@ -348,7 +348,7 @@
   },
   {
     "id": "25_yz_cn_ggg",
-    "image": "/scripts/assets/community/5e9480efb95afc73e0ca3ec88aaa0308fca6a0614c24890e6f26aceb78858bf7.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/5e9480efb95afc73e0ca3ec88aaa0308fca6a0614c24890e6f26aceb78858bf7.png",
     "reminders": [
       "失去能力",
       "复活"
@@ -360,7 +360,7 @@
   },
   {
     "id": "26_yz_cn_ggg",
-    "image": "/scripts/assets/community/2e3c5602d0dffdabd8bafdf029c2e9371f9a3e321a58a86511b35ab8aec471d0.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/2e3c5602d0dffdabd8bafdf029c2e9371f9a3e321a58a86511b35ab8aec471d0.png",
     "firstNightReminder": "唤醒生命之符，让他选择一名玩家，标记“保护”。那名玩家不会死亡。",
     "otherNightReminder": "移除所有“保护”标记。唤醒生命之符，让他选择一名玩家，标记“保护”。那名玩家不会死亡。",
     "reminders": [
@@ -375,7 +375,7 @@
   },
   {
     "id": "27_yz_cn_ggg",
-    "image": "/scripts/assets/community/36522c67b356c4388e4cc3bbc2c5208f9241a7222ffb5c15fce76bc01269bce6.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/36522c67b356c4388e4cc3bbc2c5208f9241a7222ffb5c15fce76bc01269bce6.png",
     "firstNightReminder": "唤醒矿工，让他选择一名玩家，标记“不幸”。",
     "otherNightReminder": "唤醒矿工，让他选择一名玩家，标记“不幸”。",
     "reminders": [
@@ -390,7 +390,7 @@
   },
   {
     "id": "28_yz_cn_ggg",
-    "image": "/scripts/assets/community/31f618fef388e174f76025f49cdb0f23de8181e88bd96eba0b198fe4bfddd5b4.png",
+    "image": "/scripts/assets/community-ming-deng-wang-yuan-e2ba8276/31f618fef388e174f76025f49cdb0f23de8181e88bd96eba0b198fe4bfddd5b4.png",
     "firstNightReminder": "生化人选择两名玩家。在第一名玩家的夜晚行动时告知他被生化人选中，并让他入睡。该玩家不会得知他以自身能力选择了谁。",
     "otherNightReminder": "生化人选择两名玩家。在第一名玩家的夜晚行动时告知他被生化人选中，并让他入睡。该玩家不会得知他以自身能力选择了谁。",
     "reminders": [

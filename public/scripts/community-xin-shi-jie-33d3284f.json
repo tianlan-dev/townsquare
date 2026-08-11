@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "新世界",
     "author": "惊鸿&梦",
-    "logo": "/scripts/assets/community/f4160b8c247d240db4bb3402fab7f2b2dd2033078160e801137ffc26af3ed872.png",
+    "logo": "/scripts/assets/community-xin-shi-jie-33d3284f/f4160b8c247d240db4bb3402fab7f2b2dd2033078160e801137ffc26af3ed872.png",
     "A jinxed": "相克",
     "tags": [
       "万象星启体验剧本"
@@ -12,7 +12,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -29,7 +29,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianxiaoer_c",
@@ -47,7 +47,7 @@
     "firstNight": 9400
   },
   {
-    "image": "/scripts/assets/community/20fad880a77e1064273c622c8600c1f3c6937a9bf59b147c88c9715495f57d8a.webp",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/20fad880a77e1064273c622c8600c1f3c6937a9bf59b147c88c9715495f57d8a.webp",
     "name": "女家教",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你得知一个距离你最近的非镇民玩家类型（旅行者除外）。",
@@ -63,7 +63,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -85,7 +85,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_c",
@@ -109,7 +109,7 @@
   },
   {
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。 ",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "flavor": "",
     "id": "king_c",
@@ -125,7 +125,7 @@
   },
   {
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "flavor": "",
     "id": "general_c",
@@ -141,7 +141,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知与你今天提名的玩家最近的邪恶玩家位于他的顺时针还是逆时针方向。如果距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
     "edition": "custom",
     "flavor": "",
     "id": "_prospector",
@@ -171,7 +171,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "nightwatchman_c",
@@ -189,7 +189,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "edition": "custom",
     "flavor": "",
     "id": "fengshuishi_c",
@@ -207,7 +207,7 @@
   },
   {
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "flavor": "",
     "id": "poppy_grower_c",
@@ -224,7 +224,7 @@
     "firstNight": 700
   },
   {
-    "image": "/scripts/assets/community/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
     "name": "女王",
     "team": "townsfolk",
     "ability": "如果你的相邻玩家均为善良，他们得知你是女王。疯狂证明女王在场的玩家可能会被处决。",
@@ -240,7 +240,7 @@
   },
   {
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "edition": "custom",
     "flavor": "",
     "id": "virgin_c",
@@ -258,7 +258,7 @@
   },
   {
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
     "edition": "custom",
     "flavor": "",
     "id": "choirboy_c",
@@ -273,7 +273,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
     "name": "乌鸦嘴",
     "team": "outsider",
     "ability": "可能会有一名善良玩家得知一条虚假的信息，即使你已死亡。",
@@ -291,7 +291,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_c",
@@ -324,11 +324,11 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
   },
   {
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "flavor": "",
     "id": "butler_c",
@@ -358,11 +358,11 @@
     "reminders": [],
     "remindersGlobal": [],
     "team": "minion",
-    "image": "/scripts/assets/community/044e0400390450cc1dd34aa06bcb3d695df766802a33b6e26a72080a0d59257a.png"
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/044e0400390450cc1dd34aa06bcb3d695df766802a33b6e26a72080a0d59257a.png"
   },
   {
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xaan_c",
@@ -384,7 +384,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -402,7 +402,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_c",
@@ -430,7 +430,7 @@
   },
   {
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "flavor": "",
     "id": "boffin_c",
@@ -446,7 +446,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fang_gu_c",
@@ -467,7 +467,7 @@
   },
   {
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "flavor": "",
     "id": "legion_c",
@@ -492,7 +492,7 @@
   },
   {
     "ability": "每个夜晚*，选择一名玩家：他死亡。一名善良玩家会知道你在两名玩家之中。如果有爪牙存活时你被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/01d89f8df51f5ff0800dec56ab795223c7ebb94cbb5922605df482f9efec04b9.webp",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/01d89f8df51f5ff0800dec56ab795223c7ebb94cbb5922605df482f9efec04b9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "J'Nak",
@@ -514,7 +514,7 @@
     "name": "气球驾驶员&提线木偶",
     "team": "A jinxed",
     "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom"
   },
   {
@@ -522,7 +522,7 @@
     "name": "村夫&科学怪人",
     "team": "A jinxed",
     "ability": "如果村夫在场数量不足3人，科学怪人可以让恶魔拥有村夫的能力。",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom"
   },
   {
@@ -530,7 +530,7 @@
     "name": "罂粟种植者&提线木偶",
     "team": "A jinxed",
     "ability": "当罂粟种植者死亡后，恶魔会知道谁是提线木偶，但提线木偶什么都不会知道。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-xin-shi-jie-33d3284f/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom"
   }
 ]

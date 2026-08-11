@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/825703c0e51615c613e2950be6bf76c421cfdb5744e573d51617bcc769ec2559.png",
+    "logo": "/scripts/assets/community-guang-yu-ying-2e85cc03/825703c0e51615c613e2950be6bf76c421cfdb5744e573d51617bcc769ec2559.png",
     "name": "光与影",
     "author": "际尘",
     "tags": [
@@ -13,7 +13,7 @@
   },
   {
     "id": "13_city_of_illusio",
-    "image": "/scripts/assets/community/8adb8b63b15c51d99f5e24c9fae480711dd74fa8325de5b01a83e99cb2125bb1.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/8adb8b63b15c51d99f5e24c9fae480711dd74fa8325de5b01a83e99cb2125bb1.png",
     "reminders": [
       "得知"
     ],
@@ -29,7 +29,7 @@
   },
   {
     "id": "quezi",
-    "image": "/scripts/assets/community/f4ce3f9f1480f653bc8c33e8a48fef84893b5de2eb74d36f5675e0a2d8b964d9.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/f4ce3f9f1480f653bc8c33e8a48fef84893b5de2eb74d36f5675e0a2d8b964d9.png",
     "edition": "custom",
     "name": "瘸子",
     "ability": "每个夜晚，你要选择一名其他玩家：你会得知他在角色表的左边还是右边。",
@@ -41,7 +41,7 @@
   },
   {
     "id": "youxiwanjia",
-    "image": "/scripts/assets/community/14d8e2922482fde0f8fafc8eb1d4a685a201541b74ef8fc9d92fe5bdaa70e538.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/14d8e2922482fde0f8fafc8eb1d4a685a201541b74ef8fc9d92fe5bdaa70e538.png",
     "edition": "custom",
     "name": "游戏玩家",
     "ability": "在你的首个夜晚，你会得知一个俄罗斯方块类型：它在剧本列表中能够存在一种框选情况使得框选的角色都在场。（或没有一种可以）",
@@ -55,7 +55,7 @@
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
     "image": [
-      "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -75,7 +75,7 @@
   {
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知存活镇民的数量。",
     "image": [
-      "/scripts/assets/community/cd6b48d778f32d2a854da09afd3fb8e91f5d57f7e0cf37a73fe76e3baf74dfca.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/cd6b48d778f32d2a854da09afd3fb8e91f5d57f7e0cf37a73fe76e3baf74dfca.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -97,7 +97,7 @@
     "name": "盲女",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择...  当你死亡时，你会得知自己完整的能力。",
-    "image": "/scripts/assets/community/601b8f53e2bb10869ad11ddc8f45026dd0f507854e870bb63524c254724dec09.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/601b8f53e2bb10869ad11ddc8f45026dd0f507854e870bb63524c254724dec09.png",
     "firstNight": 0,
     "otherNight": 65,
     "reminders": [],
@@ -109,7 +109,7 @@
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
     "image": [
-      "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -130,7 +130,7 @@
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
     "image": [
-      "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -150,7 +150,7 @@
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
     "image": [
-      "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -170,7 +170,7 @@
     "name": "锈剑骑士",
     "team": "townsfolk",
     "ability": "如果你死于爪牙能力，距离你最远一名爪牙中毒。如果你死于恶魔能力，距离你最近一名爪牙死亡。恶魔会知道你离他的(左/右)更近。",
-    "image": "/scripts/assets/community/1881731c312089b83b444ae4268b68f0dba75ab02bcac05d7e670c17c48d31de.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/1881731c312089b83b444ae4268b68f0dba75ab02bcac05d7e670c17c48d31de.png",
     "firstNight": 0,
     "otherNight": 60,
     "reminders": [
@@ -186,7 +186,7 @@
     "name": "彼岸恋人",
     "team": "townsfolk",
     "ability": "当你和他之间没有存活善良玩家时，你的阵营获胜。[距离你最远的一名善良玩家是“他”]",
-    "image": "/scripts/assets/community/3577b5b1fc302eab8207e8996fbdd10a9094eeb0ad86030e0e206998ef2b877c.webp",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/3577b5b1fc302eab8207e8996fbdd10a9094eeb0ad86030e0e206998ef2b877c.webp",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -199,7 +199,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
@@ -214,7 +214,7 @@
     "setup": true
   },
   {
-    "image": "/scripts/assets/community/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
     "name": "女王",
     "team": "townsfolk",
     "ability": "如果你的相邻玩家均为善良，他们得知你是女王。疯狂证明女王在场的玩家可能会被处决。",
@@ -230,7 +230,7 @@
   },
   {
     "ability": "每个白天，一名邪恶玩家和一名善良玩家要分别“疯狂”地证明某个事情，否则他们可能死亡。",
-    "image": "/scripts/assets/community/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Thespian",
@@ -249,7 +249,7 @@
   {
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
     "image": [
-      "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -267,7 +267,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
     "name": "乌鸦嘴",
     "team": "outsider",
     "ability": "可能会有一名善良玩家得知一条不该存在的信息，即使你已死亡。",
@@ -286,7 +286,7 @@
   {
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
     "image": [
-      "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -305,7 +305,7 @@
   },
   {
     "id": "14_wuyejulebu",
-    "image": "/scripts/assets/community/e718f613a073f5d35cc54a7718e77a0cc709fd83a5f7741b6da111f5e2f9f72f.webp",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/e718f613a073f5d35cc54a7718e77a0cc709fd83a5f7741b6da111f5e2f9f72f.webp",
     "name": "巫女",
     "team": "outsider",
     "ability": "在你的第一个白天，你会秘密得知一个任务、期限与后果。如果任务未被完成，后果会发生，即使你已死亡。",
@@ -314,7 +314,7 @@
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
     "image": [
-      "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -335,7 +335,7 @@
   {
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
     "image": [
-      "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -354,7 +354,7 @@
   },
   {
     "id": "9_rose",
-    "image": "/scripts/assets/community/3be5c08d691bf7469ddd9b1db92729f80574269f549f1c1d0939470f3d96e874.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/3be5c08d691bf7469ddd9b1db92729f80574269f549f1c1d0939470f3d96e874.png",
     "otherNightReminder": "唤醒他，他要摇头或是选择一个非恶魔角色，为该角色标记死亡。如果他选择的角色不在场，让他再次选择一名玩家，该玩家变成那个角色。",
     "reminders": [
       "失去能力",
@@ -374,7 +374,7 @@
     "name": "夏基",
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他中毒且你获得他的能力。",
-    "image": "/scripts/assets/community/8f8ee2a20a890b1add24fcc952016ff7dc47847271b8cb70f704ddbf1abbd408.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/8f8ee2a20a890b1add24fcc952016ff7dc47847271b8cb70f704ddbf1abbd408.png",
     "firstNight": 3100,
     "otherNight": 10,
     "reminders": [],
@@ -391,7 +391,7 @@
     "name": "百臂巨人",
     "team": "minion",
     "ability": "如果你死于处决，所有玩家都会得知此事，当你投票时，你的票数等于你死于处决时所获得的票数。",
-    "image": "/scripts/assets/community/7a3ce1a56ad519ca229268981c2e81cdae9e0151efaeea1ab1fb7299a5894c2c.webp",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/7a3ce1a56ad519ca229268981c2e81cdae9e0151efaeea1ab1fb7299a5894c2c.webp",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [
@@ -404,7 +404,7 @@
   },
   {
     "id": "wushihsihsihsihsihsihsish",
-    "image": "/scripts/assets/community/bdc5e28fc265c3dfa30b9cb0889e3f0ad76345f7effeba815acd3d388c386751.png",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/bdc5e28fc265c3dfa30b9cb0889e3f0ad76345f7effeba815acd3d388c386751.png",
     "edition": "custom",
     "name": "巫师",
     "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
@@ -423,7 +423,7 @@
   {
     "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
     "image": [
-      "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -446,7 +446,7 @@
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果爪牙死亡，其要在当晚选择一名玩家：他死亡。",
     "image": [
-      "/scripts/assets/community/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png"
+      "/scripts/assets/community-guang-yu-ying-2e85cc03/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -469,7 +469,7 @@
     "name": " ",
     "team": "fabled",
     "ability": "俄罗斯方块：①上-蓝②左中-橙③中中-绿④右中-红⑤左下-紫⑥中下-白⑦右下-黄",
-    "image": "/scripts/assets/community/a6dfd3ee38dff25831f1b4cf513b05289a8cb837f64d7ac550d88f9a4c285903.jpg",
+    "image": "/scripts/assets/community-guang-yu-ying-2e85cc03/a6dfd3ee38dff25831f1b4cf513b05289a8cb837f64d7ac550d88f9a4c285903.jpg",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],

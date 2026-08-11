@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "冥昭瞢暗",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/25b6051ba722bea90a2c8c1f5258fbc076b15c3d117bd8aa8faa47bee8643f13.png",
+    "logo": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/25b6051ba722bea90a2c8c1f5258fbc076b15c3d117bd8aa8faa47bee8643f13.png",
     "almanac": "https://www.bloodstar.xyz/p/Jungle/HunDun/almanac.html",
     "tags": [
       "汀西维尔剧本"
@@ -12,7 +12,7 @@
   },
   {
     "id": "5_hundun",
-    "image": "/scripts/assets/community/50d46221fd90d899300680a45310c0576f15964d088374333358409cb4a38ae6.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/50d46221fd90d899300680a45310c0576f15964d088374333358409cb4a38ae6.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -24,7 +24,7 @@
   },
   {
     "id": "10_hundun",
-    "image": "/scripts/assets/community/d1a2bbb24ef338aab951126d2d42e123d2b0305b98c2db8438f5ee92817f3b47.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/d1a2bbb24ef338aab951126d2d42e123d2b0305b98c2db8438f5ee92817f3b47.png",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
     "reminders": [
@@ -39,7 +39,7 @@
   },
   {
     "id": "8_hundun",
-    "image": "/scripts/assets/community/a662693364711cb2962f01271ea49c9ce5ee00c9641efe2dfa64e6860ce68c75.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/a662693364711cb2962f01271ea49c9ce5ee00c9641efe2dfa64e6860ce68c75.png",
     "firstNightReminder": "哲学家可以选择一个善良角色。如果选择的角色不在场，将哲学家的角色标记替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNightReminder": "哲学家可以选择一个善良角色。如果选择的角色不在场，将哲学家的角色标记替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "reminders": [
@@ -57,7 +57,7 @@
   },
   {
     "id": "7_hundun",
-    "image": "/scripts/assets/community/da1aa27a204c212d12db79ca0fb06ef47f8c1ac1660a6050389f0a1110130d46.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/da1aa27a204c212d12db79ca0fb06ef47f8c1ac1660a6050389f0a1110130d46.png",
     "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
     "reminders": [
       "恶魔已投票",
@@ -71,7 +71,7 @@
   },
   {
     "id": "9_hundun",
-    "image": "/scripts/assets/community/3b569872e496e99d54232d5030000a8b8aaa86b8fe7870b0c45d274fd2fee093.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/3b569872e496e99d54232d5030000a8b8aaa86b8fe7870b0c45d274fd2fee093.png",
     "otherNightReminder": "告给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -81,7 +81,7 @@
   },
   {
     "id": "2_hundun",
-    "image": "/scripts/assets/community/c9455fb76673decfa3ee0e795324fd0dd53f1673a744c865800fffe88cb4ffe5.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/c9455fb76673decfa3ee0e795324fd0dd53f1673a744c865800fffe88cb4ffe5.png",
     "otherNightReminder": "唤醒打更人，并让其猜测距离，以数字手势给出。在这两名玩家的角色标记旁放置“警惕\"提示标记。在当晚所有能造成死亡 的角色行动完毕后，如果标记有“警惕的玩家是当晚死亡的玩家中距离打更人最近的，那么这些玩家不会死亡。移除所有警惕”标记。同时，如果说书人决定让打更人死亡，则在其角色标记旁放置\"死亡\"提示标记。",
     "reminders": [
       "警惕",
@@ -95,7 +95,7 @@
   },
   {
     "id": "3_hundun",
-    "image": "/scripts/assets/community/f349ececbca97ad47389c983884a8fd9fd61472eca3be92e099eb4b58ca4bf61.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/f349ececbca97ad47389c983884a8fd9fd61472eca3be92e099eb4b58ca4bf61.png",
     "otherNightReminder": "如果有邪恶玩家的能力对悟道者造成影响，告知悟道者变成一个不在场的镇民。",
     "remindersGlobal": [
       "是悟道者"
@@ -109,7 +109,7 @@
   },
   {
     "id": "6_hundun",
-    "image": "/scripts/assets/community/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -121,7 +121,7 @@
   },
   {
     "id": "hunduncc2045f95",
-    "image": "/scripts/assets/community/78db86277b624228712ffcbeda0120ad1c9dbce98e336fac82941742f240cdd2.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/78db86277b624228712ffcbeda0120ad1c9dbce98e336fac82941742f240cdd2.png",
     "firstNightReminder": "（清清编辑）如果有邪恶玩家被选择时，说书人可以将这次选择改为选中使节，并在该玩家处放置“触发”标记。",
     "otherNightReminder": "（清清编辑）如果有邪恶玩家被选择时，说书人可以将这次选择改为选中使节，并在该玩家处放置“触发”标记。",
     "reminders": [
@@ -137,7 +137,7 @@
   },
   {
     "id": "4_hundun",
-    "image": "/scripts/assets/community/d146692669d5ffb70ee3d4c56327676650277270697aa61a8436a25c252c90b7.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/d146692669d5ffb70ee3d4c56327676650277270697aa61a8436a25c252c90b7.png",
     "otherNightReminder": "如果白天入殓师提名了恶魔且恶魔被处决，唤醒他，并对他展示“你是\"提示标记和恶魔角色标记。",
     "name": "入殓师",
     "team": "outsider",
@@ -147,7 +147,7 @@
   },
   {
     "id": "11_hundun",
-    "image": "/scripts/assets/community/2544fb03be2f04ff6e34106b45e9a874f2f777ec1f86dfa390f9c3b571f2afa6.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/2544fb03be2f04ff6e34106b45e9a874f2f777ec1f86dfa390f9c3b571f2afa6.png",
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
     "otherNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
     "reminders": [
@@ -162,7 +162,7 @@
   },
   {
     "id": "12_hundun",
-    "image": "/scripts/assets/community/a1e91658359454b5a464b5b8289ba4f879fd6dd34d56c9665ca32d8b9857bbf4.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/a1e91658359454b5a464b5b8289ba4f879fd6dd34d56c9665ca32d8b9857bbf4.png",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "reminders": [
@@ -177,7 +177,7 @@
   },
   {
     "id": "1_hundun",
-    "image": "/scripts/assets/community/b564d526565b7343367b45d64579b8b75b6397e2935b59896e8714c342ff22be.png",
+    "image": "/scripts/assets/community-ming-zhao-meng-an-c2045f95/b564d526565b7343367b45d64579b8b75b6397e2935b59896e8714c342ff22be.png",
     "otherNightReminder": "让混沌选择一名玩家。标记那名玩家死亡。如果那名玩家和混沌相邻，在混沌上放置“善良中毒”标记。",
     "reminders": [
       "死亡",

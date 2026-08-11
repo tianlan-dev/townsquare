@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "明月高悬",
-    "logo": "/scripts/assets/community/cca6eca10d06b0393c9d25172d8685208e817ebc30e75911e41d8453f4c81004.png",
+    "logo": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/cca6eca10d06b0393c9d25172d8685208e817ebc30e75911e41d8453f4c81004.png",
     "author": "果染&刘中奇",
     "description": "明月高悬",
     "townsfolkName": "镇民",
@@ -24,7 +24,7 @@
   },
   {
     "id": "woshininainai111",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -42,7 +42,7 @@
   },
   {
     "id": "paibusini111",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "edition": "custom",
     "name": "传教士",
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -74,7 +74,7 @@
   },
   {
     "id": "gongwenbaozaren111",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -91,7 +91,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -109,7 +109,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -126,7 +126,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "wohehehehehehehezuidiaoniladao111",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "name": "侍臣",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，一个该角色从当晚开始醉酒三天三夜。",
@@ -163,7 +163,7 @@
   },
   {
     "id": "fulankensitan111",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "name": "教授",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "zhenaosheajwiejp214ui90-japtu90q23j5t",
-    "image": "/scripts/assets/community/9476738b0f0a3567543943c9067907a15fabd591a2653c782e0831ca95e426bc.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/9476738b0f0a3567543943c9067907a15fabd591a2653c782e0831ca95e426bc.png",
     "edition": "custom",
     "name": "鸩",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他醉酒并死亡。",
@@ -200,7 +200,7 @@
   },
   {
     "id": "babatuosi111",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "name": "吟游诗人",
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
@@ -217,7 +217,7 @@
   },
   {
     "id": "buhaohe111",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -234,7 +234,7 @@
   },
   {
     "id": "hahaxiaochou111",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "name": "弄臣",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -251,7 +251,7 @@
   },
   {
     "id": "dabanshou111",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "name": "修补匠",
     "ability": "你随时可能死亡。",
@@ -268,7 +268,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "woshishui111",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "name": "莽夫",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -302,7 +302,7 @@
   },
   {
     "id": "wocaishiemo111",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -322,7 +322,7 @@
   },
   {
     "id": "weishenmebushilianjinshushi111",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -337,7 +337,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -355,7 +355,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -372,7 +372,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -390,7 +390,7 @@
   },
   {
     "id": "zheshigeyizi111",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "name": "主谋",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -405,7 +405,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -423,7 +423,7 @@
   },
   {
     "id": "yigeshaba111",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "name": "沙巴洛斯",
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。",
@@ -441,7 +441,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -459,7 +459,7 @@
   },
   {
     "id": "112222222222222222222225552333_meta",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ming-yue-gao-xuan-0b2a163f/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "name": "科学怪人&莽夫",
     "team": "a jinxed",
     "setup": false,

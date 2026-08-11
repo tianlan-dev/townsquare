@@ -5,7 +5,7 @@
     "author": "Nexus&Imzecorella",
     "description": "",
     "townsfolkName": "镇民",
-    "logo": "/scripts/assets/community/42fe411bbae98d72b827258a50fbe853b6c3786f3e5fd463e14f52f2ef1ad09e.png",
+    "logo": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/42fe411bbae98d72b827258a50fbe853b6c3786f3e5fd463e14f52f2ef1ad09e.png",
     "almanac": "https://www.bloodstar.xyz/p/Imzecorella/Day_By_Day/almanac.html#synopsis",
     "tags": [
       "全原创角色剧本",
@@ -15,7 +15,7 @@
   },
   {
     "id": "1d",
-    "image": "/scripts/assets/community/8011b3983c820baad8ba2347b59efbf016f62609b063c5661c9bd47d3f0074d9.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/8011b3983c820baad8ba2347b59efbf016f62609b063c5661c9bd47d3f0074d9.png",
     "firstNightReminder": "用数字手势来告诉法医两名非镇民且非旅行者的玩家之间最远的距离。",
     "name": "法医",
     "team": "townsfolk",
@@ -26,7 +26,7 @@
   },
   {
     "id": "2d",
-    "image": "/scripts/assets/community/55e7736a597c5557b51477631c1ab4eb131f239a4d5e71ad511195d21358d99f.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/55e7736a597c5557b51477631c1ab4eb131f239a4d5e71ad511195d21358d99f.png",
     "firstNightReminder": "唤醒巨擘并让他指向三名玩家。",
     "otherNightReminder": "如果巨擘尚未失去能力，唤醒巨擘并让他指向三名玩家。",
     "reminders": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "3d",
-    "image": "/scripts/assets/community/348d82c02304faf3fa5bbc009e40b304d310a2ea5d2060775c157080c6555cce.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/348d82c02304faf3fa5bbc009e40b304d310a2ea5d2060775c157080c6555cce.png",
     "firstNightReminder": "标记星象师“奇数夜晚醉酒”或“偶数夜晚醉酒”。让星象师选择一个角色：星象师获得这个角色的能力直到下个黄昏。",
     "otherNightReminder": "让星象师选择一个角色（不能重复）：星象师将获得这个角色的能力直到下个黄昏。并根据夜晚让星象师醉酒",
     "reminders": [
@@ -62,7 +62,7 @@
   },
   {
     "id": "4d",
-    "image": "/scripts/assets/community/01cf53f74ca5e11cce6e21bf5f4b2c8ab306ee8a7b246a0e82cefe51c866e83b.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/01cf53f74ca5e11cce6e21bf5f4b2c8ab306ee8a7b246a0e82cefe51c866e83b.png",
     "firstNightReminder": "让治安官选择除治安官和与治安官邻近的存活的玩家以外的一名玩家：用拇指向上/下表示那名玩家是善良/邪恶的（如果与治安官邻近的一名存活的玩家是邪恶的，展示错误的阵营）。",
     "otherNightReminder": "让治安官选择除治安官和与治安官邻近的存活的玩家以外的一名玩家：用拇指向上/下表示那名玩家是善良/邪恶的（如果与治安官邻近的一名存活的玩家是邪恶的，展示错误的阵营）。",
     "name": "治安官",
@@ -75,7 +75,7 @@
   },
   {
     "id": "5d",
-    "image": "/scripts/assets/community/c5ac63a13627111d6085b47168c12af05c711480c960a78b5a3126d01ef63375.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/c5ac63a13627111d6085b47168c12af05c711480c960a78b5a3126d01ef63375.png",
     "otherNightReminder": "投机者可以选择一名玩家：如果该玩家是镇民，用一个不在场的外来者角色标记替换该玩家的角色标记，唤醒该玩家，向该玩家展示“你是”信息标记和新的角色标记。",
     "setup": true,
     "name": "投机者",
@@ -86,7 +86,7 @@
   },
   {
     "id": "6d",
-    "image": "/scripts/assets/community/6066c4db5616c8f6d7444e5929b06db31f6ea7a448cac03fd318a726f0e08b5a.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/6066c4db5616c8f6d7444e5929b06db31f6ea7a448cac03fd318a726f0e08b5a.png",
     "firstNightReminder": "如果灵媒在场，不要让恶魔和爪牙互相认识。",
     "otherNightReminder": "交换灵媒和恶魔的角色标记和阵营提示标记。将这两名玩家分别独自唤醒。对他们展示“你是”信息标记和他们的新角色标记，并用拇指向上/向下代表他阵营变为善良/邪恶。",
     "reminders": [
@@ -101,7 +101,7 @@
   },
   {
     "id": "7d",
-    "image": "/scripts/assets/community/80c00aec7b2fbe937b8d30c397e2c11f7f6741d81e0d9addc8ec6a6e9f0787e9.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/80c00aec7b2fbe937b8d30c397e2c11f7f6741d81e0d9addc8ec6a6e9f0787e9.png",
     "otherNightReminder": "让寻仇者选择一个镇民：如果该角色在场且存活，标记该角色死亡；否则标记寻仇者死亡。",
     "reminders": [
       "死亡"
@@ -114,7 +114,7 @@
   },
   {
     "id": "8d",
-    "image": "/scripts/assets/community/de4eb744a3219cc5c3f82f15e1d3f5d41ab50647a3e4bf511d7c04e89c986a03.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/de4eb744a3219cc5c3f82f15e1d3f5d41ab50647a3e4bf511d7c04e89c986a03.png",
     "otherNightReminder": "展示与今天白天死于处决的玩家邻近的玩家（跳过旅行者）的一个角色标记。",
     "reminders": [
       "死于处决"
@@ -127,7 +127,7 @@
   },
   {
     "id": "9d",
-    "image": "/scripts/assets/community/f81873a5b893e1a903d71046412158ac1eb091ca177fa17b49b9f6a7660abad3.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/f81873a5b893e1a903d71046412158ac1eb091ca177fa17b49b9f6a7660abad3.png",
     "reminders": [
       "猜测正确"
     ],
@@ -138,7 +138,7 @@
   },
   {
     "id": "10d",
-    "image": "/scripts/assets/community/f09dddeda9b88f26a7d4a6ec6cc3a3ffb52574417634cc184f1e3b2134d932f1.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/f09dddeda9b88f26a7d4a6ec6cc3a3ffb52574417634cc184f1e3b2134d932f1.png",
     "name": "时尚达人",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知一条错误信息，但这条信息曾经是正确的。",
@@ -146,7 +146,7 @@
   },
   {
     "id": "11d",
-    "image": "/scripts/assets/community/c814f668f271da71bcf5a888abfb18afa76e29e8078e715e100ef9060f6a5a49.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/c814f668f271da71bcf5a888abfb18afa76e29e8078e715e100ef9060f6a5a49.png",
     "name": "赞助人",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人并得知谁是目前最无关紧要的存活玩家。",
@@ -154,7 +154,7 @@
   },
   {
     "id": "12d",
-    "image": "/scripts/assets/community/3230ec08628ee3c3ca358ab63863a36a65fbdc8b86986de68309dee2d18f7ac2.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/3230ec08628ee3c3ca358ab63863a36a65fbdc8b86986de68309dee2d18f7ac2.png",
     "otherNightReminder": "火枪手可以选择除火枪手以外的两名玩家：如果他这么做了，为第一名玩家放置“驻守”提示标记，标记第二名玩家错误。唤醒恶魔，以任意次序指向那两名玩家。如果恶魔杀死了标有“驻守”标记的玩家，再次唤醒火枪手，指向恶魔。",
     "reminders": [
       "驻守",
@@ -170,7 +170,7 @@
   },
   {
     "id": "13d",
-    "image": "/scripts/assets/community/642360d8a2d2f8cb1da81c2118f432b87c58296ea4ab361af9eba4ef64c55ae1.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/642360d8a2d2f8cb1da81c2118f432b87c58296ea4ab361af9eba4ef64c55ae1.png",
     "otherNightReminder": "如果邪恶玩家以任何方式杀死了小提琴手，放置“邪恶醉酒”提示标记到魔典中央以提示所有邪恶玩家醉酒。",
     "reminders": [
       "邪恶醉酒"
@@ -182,7 +182,7 @@
   },
   {
     "id": "14d",
-    "image": "/scripts/assets/community/d2b8451ce41853094acfe5318681d779e98da79f4cae5a9e3db2e63fcc56e0d3.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/d2b8451ce41853094acfe5318681d779e98da79f4cae5a9e3db2e63fcc56e0d3.png",
     "remindersGlobal": [
       "是幻象",
       "拥有能力"
@@ -195,7 +195,7 @@
   },
   {
     "id": "15d",
-    "image": "/scripts/assets/community/9bb053d6cd2a4869516b96239bececbe024676699dee292101706b2f018a9ff7.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/9bb053d6cd2a4869516b96239bececbe024676699dee292101706b2f018a9ff7.png",
     "otherNightReminder": "如果当晚目击证人死亡，唤醒目击证人，对目击证人展示被他的能力影响的两个角色。",
     "reminders": [
       "被目击"
@@ -208,7 +208,7 @@
   },
   {
     "id": "16d",
-    "image": "/scripts/assets/community/4040ff298ee64ed768f87c1e1e8bdabab17ac358775d47b70184198d742d9f10.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/4040ff298ee64ed768f87c1e1e8bdabab17ac358775d47b70184198d742d9f10.png",
     "reminders": [
       "醉酒"
     ],
@@ -219,7 +219,7 @@
   },
   {
     "id": "17d",
-    "image": "/scripts/assets/community/8d76a04a703ed98ff44a817b9f6f4bcfa210c89f2dedb67eb79808efafcc1123.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/8d76a04a703ed98ff44a817b9f6f4bcfa210c89f2dedb67eb79808efafcc1123.png",
     "firstNightReminder": "让踌躇者选择一个阵营（用拇指向上代表善良阵营，用拇指向下代表邪恶阵营）：标记踌躇者他选择的阵营。",
     "otherNightReminder": "转变踌躇者的阵营，即使他已死亡。",
     "name": "踌躇者",
@@ -231,7 +231,7 @@
   },
   {
     "id": "18d",
-    "image": "/scripts/assets/community/a2b1e864741392bdb41a82efb79b45a887e3ab54a19d287a7bc9237d02295c8b.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/a2b1e864741392bdb41a82efb79b45a887e3ab54a19d287a7bc9237d02295c8b.png",
     "firstNightReminder": "狐狸手套可以选择一个或两个角色：在这些玩家角色标记旁放置“中毒”提示标记，如果狐狸手套选择了两名玩家，在恶魔角色标记旁放置“中毒”提示标记。",
     "otherNightReminder": "移除所有中毒标记。狐狸手套可以选择一个或两个角色：在这些玩家角色标记旁放置“中毒”提示标记，如果狐狸手套选择了两名玩家，在这些恶魔标记旁放置“中毒”提示标记。",
     "reminders": [
@@ -246,7 +246,7 @@
   },
   {
     "id": "19d",
-    "image": "/scripts/assets/community/b2a2b5587f7cb36fad4e5ef7eb26e48212a0c8cd3e15299f6ef697b6a03603ba.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/b2a2b5587f7cb36fad4e5ef7eb26e48212a0c8cd3e15299f6ef697b6a03603ba.png",
     "otherNightReminder": "操纵者可以使自己死亡。如果他这么做，在操纵者角色标记旁放置“死亡”提示标记。",
     "reminders": [
       "疯狂",
@@ -260,7 +260,7 @@
   },
   {
     "id": "20d",
-    "image": "/scripts/assets/community/fb3195f3d260b479239801ed199b263310818a51168fd16058cf174ca51d4dc1.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/fb3195f3d260b479239801ed199b263310818a51168fd16058cf174ca51d4dc1.png",
     "reminders": [
       "四天后",
       "三天后",
@@ -275,7 +275,7 @@
   },
   {
     "id": "21d",
-    "image": "/scripts/assets/community/b50afeacf36a123c5711cb0e6c11f270ead7f7889c6295d200443a41503c5b25.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/b50afeacf36a123c5711cb0e6c11f270ead7f7889c6295d200443a41503c5b25.png",
     "firstNightReminder": "唤醒标有干扰项的玩家，展示“他的能力对你生效”信息标记和召唤师角色标记。",
     "reminders": [
       "干扰项",
@@ -290,7 +290,7 @@
   },
   {
     "id": "22d",
-    "image": "/scripts/assets/community/fed8d1f294e959728d673c1d886ef5e5cfd31deb7439b5c4d439f37508793629.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/fed8d1f294e959728d673c1d886ef5e5cfd31deb7439b5c4d439f37508793629.png",
     "otherNightReminder": "让斐斯特伍德选择一名玩家：在那名玩家角色标记旁放置“中毒”且互换，标记另一名玩家死亡，如果斐斯特伍德更换了目标，在下个黎明时宣布斐斯特伍德更换了目标。",
     "reminders": [
       "首个目标",
@@ -305,7 +305,7 @@
   },
   {
     "id": "23d",
-    "image": "/scripts/assets/community/c6ff9963c4f7a323f8d3187778a701637ee120c6d64b67b754a6486128d42518.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/c6ff9963c4f7a323f8d3187778a701637ee120c6d64b67b754a6486128d42518.png",
     "firstNightReminder": "让造物之语选择两名玩家，标记这两名玩家“明晚死亡”提示标记。",
     "otherNightReminder": "标记所有仍标有“明晚死亡”提示标记的玩家死亡，并移除这些玩家的“明晚死亡”标记。让造物之语选择两名玩家，标记这两名玩家明晚死亡。",
     "reminders": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "24d",
-    "image": "/scripts/assets/community/4602f6864a5bbedde032a55b9c145b90a9a7f25e9670e172eac6fbcb3bc8f4cd.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/4602f6864a5bbedde032a55b9c145b90a9a7f25e9670e172eac6fbcb3bc8f4cd.png",
     "firstNightReminder": "标记一个镇民为目标。对阖众展示那名玩家的角色标记。",
     "otherNightReminder": "让阖众选择一名玩家：标记那名玩家死亡。如果阖众角色标记旁有“额外行动”提示标记，让阖众额外选择一名玩家：标记那名玩家死亡。",
     "reminders": [
@@ -343,7 +343,7 @@
   },
   {
     "id": "25d",
-    "image": "/scripts/assets/community/0d169e8ba923acaec0c09dc8dc0561fec5c547108d0d42f162d63f98b88dddb7.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/0d169e8ba923acaec0c09dc8dc0561fec5c547108d0d42f162d63f98b88dddb7.png",
     "otherNightReminder": "让乌纳佐斯选择两名玩家，标记这两名玩家被选择，标记第一名玩家死亡。如果所有存活的镇民都标有被选择，宣告因为乌纳佐斯的能力，邪恶阵营会在下个黄昏获胜。",
     "reminders": [
       "被选择",
@@ -359,7 +359,7 @@
   },
   {
     "id": "26d",
-    "image": "/scripts/assets/community/78f49736009bf1f7d2ce7f920cb8b909c7b14b794ddee2a034f9d09bad866273.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/78f49736009bf1f7d2ce7f920cb8b909c7b14b794ddee2a034f9d09bad866273.png",
     "reminders": [
       "正确",
       "失去能力"
@@ -371,7 +371,7 @@
   },
   {
     "id": "27d",
-    "image": "/scripts/assets/community/b4d7292ceded80ea0a1f39f1a0e84f3fbc8861fdf0b8c0b15b39ddeef881c437.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/b4d7292ceded80ea0a1f39f1a0e84f3fbc8861fdf0b8c0b15b39ddeef881c437.png",
     "firstNightReminder": "秘书可以选择一个角色。如果他这么做了，标记秘书已使用，记录该玩家新的能力，之后的夜晚无需再唤醒秘书。",
     "otherNightReminder": "秘书可以选择一个角色。如果他这么做了，标记秘书已使用，记录该玩家新的能力，之后的夜晚无需再唤醒秘书。",
     "reminders": [
@@ -386,7 +386,7 @@
   },
   {
     "id": "28d",
-    "image": "/scripts/assets/community/1a1675ea8705a8ef45cea6c299d7e25dd8303ecb7ac57c52a8e247ba97a62a8b.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/1a1675ea8705a8ef45cea6c299d7e25dd8303ecb7ac57c52a8e247ba97a62a8b.png",
     "otherNightReminder": "如果情人是邪恶的，唤醒情人，让情人选择一名死亡的玩家：标记该玩家重获投票标记。",
     "reminders": [
       "重获投票标记"
@@ -399,7 +399,7 @@
   },
   {
     "id": "29d",
-    "image": "/scripts/assets/community/14ddfdd47539881fc57b1c767f0efb56c79d4a205afa6f0db76a43b28a4d9a35.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/14ddfdd47539881fc57b1c767f0efb56c79d4a205afa6f0db76a43b28a4d9a35.png",
     "otherNightReminder": "如果爱猫狂热人士在今天白天“疯狂”地证明除他以外的所有玩家都是猫，展示两个效果，让爱猫狂热人士选择其中一个效果，宣布该效果。",
     "reminders": [
       "疯狂"
@@ -412,7 +412,7 @@
   },
   {
     "id": "30d",
-    "image": "/scripts/assets/community/662cad3e397e28748f1e8786802cdaab686c03bf1cbe98978f93606ed4db1005.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/662cad3e397e28748f1e8786802cdaab686c03bf1cbe98978f93606ed4db1005.png",
     "firstNightReminder": "让筹划者选择一名玩家：如果你选择交换他们的角色，分别独自唤醒这两名玩家，展示“你是”信息标记和他们的新角色标记，你要在下个黎明宣布新的筹划者是谁。",
     "otherNightReminder": "让筹划者选择一名玩家：如果你选择交换他们的角色，分别独自唤醒这两名玩家，展示“你是”信息标记和他们的新角色标记，你要在下个黎明宣布新的筹划者是谁。",
     "reminders": [
@@ -427,7 +427,7 @@
   },
   {
     "id": "weird_fabled",
-    "image": "/scripts/assets/community/67de678b4e43e836eb359a1ce230c407b826e5aeaff129ce7f188cb29dfea952.png",
+    "image": "/scripts/assets/community-ri-fu-yi-ri-8e427ec1/67de678b4e43e836eb359a1ce230c407b826e5aeaff129ce7f188cb29dfea952.png",
     "reminders": [
       "醉酒"
     ],

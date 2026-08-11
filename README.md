@@ -87,15 +87,15 @@ npm run postbuild
 
 任何符合剧本格式的JSON剧本文件都被支持，可以上传完整JSON文件、从剪切板粘贴，或加载本地/互联网 JSON URL。URL 可以是当前服务的相对路径，例如 `/scripts/your-script.json`，也可以是允许浏览器跨域读取的 `https://...` 地址。如果你想继续自定义剧本，可以加入以下`"_meta"`对象对剧本整体做出调整。
 
-批量导入社区剧本合集时，使用仓库内的导入工具。它会生成安全且稳定的剧本文件名、规范角色数据、下载并按内容哈希去重图片，并输出导入报告：
+批量导入社区剧本合集时，使用仓库内的导入工具。它会生成安全且稳定的剧本文件名、规范角色数据、下载图片，并输出导入报告：
 
 ```bash
 npm run import:community-scripts -- /path/to/script-collection \
   --download-assets --prune
 ```
 
-生成的剧本位于 `public/scripts/community-*.json`，共享图片位于
-`public/scripts/assets/community/`。导入工具只会清理符合社区剧本命名规则的旧生成文件，不会改动手工维护的内置剧本。
+生成的剧本位于 `public/scripts/community-*.json`。每个剧本都有独立的
+`public/scripts/assets/<剧本文件名>/` 资源目录；图片按内容哈希命名，同一图片被多个剧本使用时会分别复制到各自目录。导入工具只会清理上一份导入报告中登记的旧生成剧本，不会删除手工维护的内置剧本。
 
 
 ```json

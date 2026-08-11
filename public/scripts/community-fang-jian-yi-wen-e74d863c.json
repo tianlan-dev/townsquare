@@ -11,7 +11,7 @@
   },
   {
     "id": "Auditor0",
-    "image": "/scripts/assets/community/42b09a4d855cb76717d98c57fa18a1c32de85dbc9994a057a90007ca4ea43e5c.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/42b09a4d855cb76717d98c57fa18a1c32de85dbc9994a057a90007ca4ea43e5c.png",
     "name": "审计员",
     "team": "townsfolk",
     "firstNight": 54,
@@ -23,7 +23,7 @@
   },
   {
     "id": "noble0",
-    "image": "/scripts/assets/community/c69481a53a7d530196406da7062a3a80645e4a7657e9e21756ee0c2c7059de52.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/c69481a53a7d530196406da7062a3a80645e4a7657e9e21756ee0c2c7059de52.png",
     "name": "贵族",
     "team": "townsfolk",
     "firstNight": 56,
@@ -37,7 +37,7 @@
   },
   {
     "id": "balloonist0",
-    "image": "/scripts/assets/community/840f79d40b574a892812a663bb03737afd5d61e6d08f4f0416d25ce9ee33d246.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/840f79d40b574a892812a663bb03737afd5d61e6d08f4f0416d25ce9ee33d246.png",
     "name": "气球驾驶员",
     "team": "townsfolk",
     "firstNight": 57,
@@ -51,7 +51,7 @@
   },
   {
     "id": "empath0",
-    "image": "/scripts/assets/community/825041c38f5e049120060f2dd842ad8e6c55855f097746b67b14c4fdae94d3b3.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/825041c38f5e049120060f2dd842ad8e6c55855f097746b67b14c4fdae94d3b3.png",
     "name": "共情者",
     "team": "townsfolk",
     "firstNight": 46,
@@ -63,7 +63,7 @@
   },
   {
     "id": "fortuneteller0",
-    "image": "/scripts/assets/community/d0844dc124d541f867b2f95217676716a1be3353496610918325a3295524a598.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/d0844dc124d541f867b2f95217676716a1be3353496610918325a3295524a598.png",
     "name": "占卜师",
     "team": "townsfolk",
     "firstNight": 47,
@@ -77,7 +77,7 @@
   },
   {
     "id": "chambermain0",
-    "image": "/scripts/assets/community/39b15ad2deb2456976a321cf69ca55a0a3c6ab2ba07029ddc502ef3fff611338.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/39b15ad2deb2456976a321cf69ca55a0a3c6ab2ba07029ddc502ef3fff611338.png",
     "name": "侍女",
     "team": "townsfolk",
     "firstNight": 71,
@@ -88,7 +88,7 @@
     "edition": "custom"
   },
   {
-    "image": "/scripts/assets/community/126f03a7c65974a4a77c68dd4cbf95ce4e48557b14ebe7746c11a65b932108c4.webp",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/126f03a7c65974a4a77c68dd4cbf95ce4e48557b14ebe7746c11a65b932108c4.webp",
     "name": "窥私者",
     "team": "townsfolk",
     "ability": "每个夜晚*，选择除你以外的一名玩家：如果他今晚死亡，所有玩家会知道你是窥私者。",
@@ -104,7 +104,7 @@
   },
   {
     "id": "fisherman0",
-    "image": "/scripts/assets/community/d9d3df93172c1d7be23653fa51cc5356f785bee9cecb957c2ee6fa32106da8c0.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/d9d3df93172c1d7be23653fa51cc5356f785bee9cecb957c2ee6fa32106da8c0.png",
     "name": "渔夫",
     "team": "townsfolk",
     "firstNight": 0,
@@ -117,7 +117,7 @@
     "edition": "custom"
   },
   {
-    "image": "/scripts/assets/community/a1adc4443fe3ca68f3658cb9f7de538b814ae940cc4c890c6fe0b0256bac2341.webp",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/a1adc4443fe3ca68f3658cb9f7de538b814ae940cc4c890c6fe0b0256bac2341.webp",
     "name": "投机者",
     "team": "townsfolk",
     "ability": "每个夜晚*，你得知今天提名你的角色。如果你“疯狂”地证明你是投机者，你得知错误信息。",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "你可以与任意一名其他玩家缔结约定。在新约定达成之前，如果有玩家违约，你和他之一会死亡。",
-    "image": "/scripts/assets/community/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
     "edition": "custom",
     "id": "merchant",
     "name": "商人",
@@ -150,7 +150,7 @@
   },
   {
     "id": "bingbi0",
-    "image": "/scripts/assets/community/6115367df207c132dac046b8f6db90ae0909b09e0a159387dfe179565afbc88e.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/6115367df207c132dac046b8f6db90ae0909b09e0a159387dfe179565afbc88e.png",
     "name": "秉笔",
     "team": "townsfolk",
     "firstNight": 0,
@@ -164,7 +164,7 @@
   },
   {
     "id": "ghosthunter0",
-    "image": "/scripts/assets/community/1e663c4a02ba1de90741ca6e375b506589ed5dd866adb7c82796c292c0694e5a.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/1e663c4a02ba1de90741ca6e375b506589ed5dd866adb7c82796c292c0694e5a.png",
     "name": "幽灵猎人",
     "team": "townsfolk",
     "firstNight": 0,
@@ -178,7 +178,7 @@
   },
   {
     "id": "cannibal0",
-    "image": "/scripts/assets/community/4458f25e8b8d8cabea51af89a901eefcb8fb41cb1e1438c45680bf5d47a6f6b9.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/4458f25e8b8d8cabea51af89a901eefcb8fb41cb1e1438c45680bf5d47a6f6b9.png",
     "name": "食人族",
     "team": "townsfolk",
     "firstNight": 0,
@@ -193,7 +193,7 @@
   },
   {
     "id": "hermit0",
-    "image": "/scripts/assets/community/2423f117d732b7b62a78117bc3e870e80261bf0b5ff961f1230f1e54306ebfd0.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/2423f117d732b7b62a78117bc3e870e80261bf0b5ff961f1230f1e54306ebfd0.png",
     "name": "隐修者",
     "team": "outsider",
     "firstNight": 1,
@@ -205,7 +205,7 @@
   },
   {
     "id": "damsel0",
-    "image": "/scripts/assets/community/75493dbda5934ccabcc6ae10bd36c1533cb098385f96f2ddbad23d87663646d8.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/75493dbda5934ccabcc6ae10bd36c1533cb098385f96f2ddbad23d87663646d8.png",
     "name": "落难少女",
     "team": "outsider",
     "firstNight": 10,
@@ -219,7 +219,7 @@
   },
   {
     "id": "klutz0",
-    "image": "/scripts/assets/community/29a9139720dc922c11898c6a13c59bd7c017168af3d1f22619b91a7e1cafdaaa.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/29a9139720dc922c11898c6a13c59bd7c017168af3d1f22619b91a7e1cafdaaa.png",
     "name": "呆瓜",
     "team": "outsider",
     "firstNight": 0,
@@ -231,7 +231,7 @@
   },
   {
     "id": "puzzlemaster0",
-    "image": "/scripts/assets/community/41ac66df1b48e1a1c41ba6c4853167cb28b6b5b3c201da7b464bf93f6198bb85.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/41ac66df1b48e1a1c41ba6c4853167cb28b6b5b3c201da7b464bf93f6198bb85.png",
     "name": "解谜大师",
     "team": "outsider",
     "firstNight": 0,
@@ -246,7 +246,7 @@
   },
   {
     "ability": "当小于等于五名存活玩家（旅行者不计算在内），邪恶阵营落败时，所有玩家要同时猜测谁是谜题魔，如果少于两名善良玩家猜测你，邪恶阵营获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/044e0400390450cc1dd34aa06bcb3d695df766802a33b6e26a72080a0d59257a.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/044e0400390450cc1dd34aa06bcb3d695df766802a33b6e26a72080a0d59257a.png",
     "edition": "custom",
     "flavor": "",
     "id": "riddle_fiend",
@@ -260,7 +260,7 @@
   },
   {
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Amaniti",
@@ -276,7 +276,7 @@
   },
   {
     "id": "Miasma0",
-    "image": "/scripts/assets/community/a9216c8ec81bc3067afa68ae400444394b6d6594c0e9ed7fc15a0b81774eb2a7.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/a9216c8ec81bc3067afa68ae400444394b6d6594c0e9ed7fc15a0b81774eb2a7.png",
     "name": "浊瘴",
     "team": "minion",
     "firstNight": 0,
@@ -290,7 +290,7 @@
   },
   {
     "id": "psychopath0",
-    "image": "/scripts/assets/community/b60492ffefc01595603d9c0a4bc8c4540c57eb26c9da320622bfc526834abfe7.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/b60492ffefc01595603d9c0a4bc8c4540c57eb26c9da320622bfc526834abfe7.png",
     "name": "精神病患者",
     "team": "minion",
     "firstNight": 0,
@@ -302,7 +302,7 @@
   },
   {
     "id": "ojo0",
-    "image": "/scripts/assets/community/221e73e5218bf83344a1e5a29640e42bc9f3555da48ae587dfc25ef0c4ebd708.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/221e73e5218bf83344a1e5a29640e42bc9f3555da48ae587dfc25ef0c4ebd708.png",
     "name": "奥赫",
     "team": "demon",
     "firstNight": 0,
@@ -316,7 +316,7 @@
   },
   {
     "id": "vigormortis0",
-    "image": "/scripts/assets/community/8dff127c369dc6d3fa6696236bb7d630a0d1c1dd5d9818411ccb4623f17f90e8.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/8dff127c369dc6d3fa6696236bb7d630a0d1c1dd5d9818411ccb4623f17f90e8.png",
     "name": "亡骨魔",
     "team": "demon",
     "firstNight": 0,
@@ -332,7 +332,7 @@
   },
   {
     "id": "kazali0",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
     "name": "卡扎力",
     "team": "demon",
     "firstNight": 6,
@@ -346,7 +346,7 @@
   },
   {
     "id": "bureaucrat0",
-    "image": "/scripts/assets/community/d82ff373152e6263b3f3b43eab3f0475b4e00b97d6c8b635c4a9eda32710c8b6.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/d82ff373152e6263b3f3b43eab3f0475b4e00b97d6c8b635c4a9eda32710c8b6.png",
     "name": "官员",
     "team": "traveler",
     "firstNight": 1,
@@ -360,7 +360,7 @@
   },
   {
     "id": "begger0",
-    "image": "/scripts/assets/community/bf2dd2a4ddef1129e7f7270c1c868e4a2ef8b6c98253041579943986d977e27d.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/bf2dd2a4ddef1129e7f7270c1c868e4a2ef8b6c98253041579943986d977e27d.png",
     "name": "乞丐",
     "team": "traveler",
     "firstNight": 0,
@@ -374,7 +374,7 @@
   },
   {
     "id": "thief0",
-    "image": "/scripts/assets/community/10598b8ffa7466095c5f19d88eadee685ad83a7d3ac16e9c876fbc4a7e3f3863.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/10598b8ffa7466095c5f19d88eadee685ad83a7d3ac16e9c876fbc4a7e3f3863.png",
     "name": "窃贼",
     "team": "traveler",
     "firstNight": 1,
@@ -388,7 +388,7 @@
   },
   {
     "id": "voudon0",
-    "image": "/scripts/assets/community/e5d81789c77f64571405a133b7f3b1ae284679b50bac0194b250cf1450bf8459.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/e5d81789c77f64571405a133b7f3b1ae284679b50bac0194b250cf1450bf8459.png",
     "name": "巫毒师",
     "team": "traveler",
     "firstNight": 0,
@@ -402,7 +402,7 @@
   },
   {
     "id": "butcher0",
-    "image": "/scripts/assets/community/6e46f0940c3301ae789dbb9826a4e283e82f8b75f2a5a95cab4cb06cad533bc0.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/6e46f0940c3301ae789dbb9826a4e283e82f8b75f2a5a95cab4cb06cad533bc0.png",
     "name": "屠夫",
     "team": "traveler",
     "firstNight": 0,
@@ -416,7 +416,7 @@
   },
   {
     "id": "bootlegger0",
-    "image": "/scripts/assets/community/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
+    "image": "/scripts/assets/community-fang-jian-yi-wen-e74d863c/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
     "name": "旅行商人",
     "team": "fabled",
     "firstNight": 0,

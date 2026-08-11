@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "谒觐酆都",
-    "logo": "/scripts/assets/community/898b05518ef49749e7033d8e4014e3d4ced00c80e67f5e58a0d0400b9a6ceb31.png",
+    "logo": "/scripts/assets/community-ye-jin-feng-dou-e635188c/898b05518ef49749e7033d8e4014e3d4ced00c80e67f5e58a0d0400b9a6ceb31.png",
     "author": "玉露某露",
     "description": "谒觐酆都",
     "townsfolkName": "镇民",
@@ -22,7 +22,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "fengdu_1",
-    "image": "/scripts/assets/community/16f4934be8e67c4afb63f7e4bb16df1344d2e409e83f991fe229e52423a5c21c.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/16f4934be8e67c4afb63f7e4bb16df1344d2e409e83f991fe229e52423a5c21c.png",
     "edition": "custom",
     "name": "铁匠",
     "ability": "在你的首个夜晚，你会得知有多少名外来者在场。所有外来者醉酒。[+1外来者]",
@@ -56,7 +56,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -71,7 +71,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -88,7 +88,7 @@
   },
   {
     "id": "yinlureanrlfasrfiaojwrn2k31j95u09uasj",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "edition": "custom",
     "name": "引路人",
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -104,7 +104,7 @@
   },
   {
     "id": "diexue_2",
-    "image": "/scripts/assets/community/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
     "edition": "custom",
     "name": "香料商",
     "ability": "每个夜晚*，你得知今天白天有多少邪恶玩家投票，如果你将要得知0，你醉酒。",
@@ -122,7 +122,7 @@
   },
   {
     "id": "xiongdinihaoxiang111",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "furryhaoye111",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -157,7 +157,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "bingbibibibibibibibiibibibibibibibibiiiiihbbibibib",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "name": "秉笔",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -192,7 +192,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -209,7 +209,7 @@
   },
   {
     "id": "shanliangdeniaoer2222",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
     "edition": "custom",
     "name": "和平主义者",
     "ability": "被处决的善良玩家可能不会死亡。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "yiwu111",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "edition": "custom",
     "name": "悟道者",
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，在该效果生效前你会变成一个不在场的镇民角色。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "fengdu_2",
-    "image": "/scripts/assets/community/dc5d0c7408c3cd88aea8e47c375d723f03ed055ab560ffd1ce21bf7111bb7896.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/dc5d0c7408c3cd88aea8e47c375d723f03ed055ab560ffd1ce21bf7111bb7896.png",
     "edition": "custom",
     "name": "忏悔者",
     "ability": "如果你死亡，当晚恶魔可以将能力变为“每个夜晚*，你要选择两名玩家：他们死亡。”",
@@ -258,7 +258,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -275,7 +275,7 @@
   },
   {
     "id": "ningcaichen111",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "zhshutongoashoiahokrtoaiwjsjfn8qh13rfbnoihc-9j",
-    "image": "/scripts/assets/community/5ef394164efcb92acf982037b3a434d11175ffff8a9669e5869812ac118ee6a3.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/5ef394164efcb92acf982037b3a434d11175ffff8a9669e5869812ac118ee6a3.png",
     "edition": "custom",
     "name": "书童",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：除首个夜晚以外，当他被邪恶玩家的能力选择或影响时，你会在当晚死亡。",
@@ -312,7 +312,7 @@
   },
   {
     "id": "fengdu_3",
-    "image": "/scripts/assets/community/dfda5dd6c84d51f1f2259126d7c74d34cc67a78aefa81360e7ee159ec0137c15.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/dfda5dd6c84d51f1f2259126d7c74d34cc67a78aefa81360e7ee159ec0137c15.png",
     "edition": "custom",
     "name": "处刑者",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择0~2的一个数字：今晚有且仅有等量玩家死亡。（由说书人决定谁会死亡）",
@@ -330,7 +330,7 @@
   },
   {
     "id": "fengdu_4",
-    "image": "/scripts/assets/community/0382cc560884621584e99ae0b75443b8b9e90b407d1049b76e5e237c18ee7cd5.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/0382cc560884621584e99ae0b75443b8b9e90b407d1049b76e5e237c18ee7cd5.png",
     "edition": "custom",
     "name": "怪形",
     "ability": "在你的首个夜晚，你变为一个不在场的恶魔。并且本局游戏中，两名恶魔每隔一个夜晚行动一次，即使你已经死亡。",
@@ -347,7 +347,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "huoshiduizuo111",
-    "image": "/scripts/assets/community/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -379,7 +379,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -415,7 +415,7 @@
   },
   {
     "id": "jianiningasihdohwqr9-1q23rhnfipo1q23",
-    "image": "/scripts/assets/community/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
     "edition": "custom",
     "name": "奸佞",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你今天白天没有投票，今晚你可以行动两次。",
@@ -433,7 +433,7 @@
   },
   {
     "id": "yanluoaysoiehd0281y0eird1op2y4890r1yh4h01894jr108",
-    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
     "edition": "custom",
     "name": "阎罗",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
@@ -452,7 +452,7 @@
   },
   {
     "id": "0_meta",
-    "image": "/scripts/assets/community/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
     "name": "侍女&数学家",
     "team": "a jinxed",
     "setup": false,
@@ -461,7 +461,7 @@
   },
   {
     "id": "1233543467_meta",
-    "image": "/scripts/assets/community/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
     "name": "侍女&引路人",
     "team": "a jinxed",
     "setup": false,
@@ -470,7 +470,7 @@
   },
   {
     "id": "123222_meta",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-ye-jin-feng-dou-e635188c/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "name": "引路人&数学家",
     "team": "a jinxed",
     "setup": false,

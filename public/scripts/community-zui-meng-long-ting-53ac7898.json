@@ -24,7 +24,7 @@
   },
   {
     "id": "clockmakerButton",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "name": "钟表匠",
     "edition": "custom",
     "team": "townsfolk",
@@ -38,7 +38,7 @@
   },
   {
     "id": "2_zmlt",
-    "image": "/scripts/assets/community/b07a8762144323ca09a3321e49b105b55262054da13d36be41691bf8852ca5f3.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/b07a8762144323ca09a3321e49b105b55262054da13d36be41691bf8852ca5f3.png",
     "firstNightReminder": "告知金算盘四个角色（每种身份类型各一个，其中两个在场）。",
     "otherNightReminder": "唤醒金算盘，让他选择两名玩家：告知他这些玩家是否包含金算盘得知的四个角色。",
     "name": "金算盘",
@@ -50,7 +50,7 @@
   },
   {
     "id": "3_zmlt",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "被得知"
@@ -63,7 +63,7 @@
   },
   {
     "id": "4_zmlt",
-    "image": "/scripts/assets/community/85ae6a1dbec2c07cfe1f321c685493473241e5afc3d7557363bf253f2087e34a.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/85ae6a1dbec2c07cfe1f321c685493473241e5afc3d7557363bf253f2087e34a.png",
     "firstNightReminder": "让商队督运官选择一名玩家并猜测该玩家选择几名玩家，告知是否猜测正确。",
     "otherNightReminder": "让商队督运官选择一名玩家并猜测该玩家选择几名玩家，告知是否猜测正确。",
     "name": "商队督运官",
@@ -75,7 +75,7 @@
   },
   {
     "id": "chambermaidbutton",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "name": "侍女",
@@ -87,7 +87,7 @@
   },
   {
     "id": "mathematicianbutton",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
     "reminders": [
@@ -102,7 +102,7 @@
   },
   {
     "id": "snake_charmerbutton",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
@@ -117,7 +117,7 @@
   },
   {
     "id": "8_zmlt",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -130,7 +130,7 @@
   },
   {
     "id": "9_zmlt",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -140,7 +140,7 @@
   },
   {
     "id": "10_zmlt",
-    "image": "/scripts/assets/community/01a7f6694921b30da4d664595847bedf74a236ccfb62f9b1da3eea7532dd8016.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/01a7f6694921b30da4d664595847bedf74a236ccfb62f9b1da3eea7532dd8016.png",
     "firstNightReminder": "龙庭侍卫选择二至四位玩家，得知他们之中的有几种角色类型。",
     "otherNightReminder": "龙庭侍卫选择二至四位玩家，得知他们之中的有几种角色类型。",
     "reminders": [
@@ -159,7 +159,7 @@
   },
   {
     "id": "11_zmlt",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "reminders": [
       "失去能力"
     ],
@@ -182,7 +182,7 @@
   },
   {
     "id": "13_zmlt",
-    "image": "/scripts/assets/community/d0bef20847f605e282eaa62a7b9c50bb25b8e39a5c33316e763c9635e0e5015a.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/d0bef20847f605e282eaa62a7b9c50bb25b8e39a5c33316e763c9635e0e5015a.png",
     "otherNightReminder": "金笔翁选择3个他没有选择过的其他善良角色。一名对立阵营玩家会被唤醒以选择其中一个，金笔翁获得该角色能力直到下个黄昏。",
     "name": "金笔翁",
     "team": "townsfolk",
@@ -192,7 +192,7 @@
   },
   {
     "id": "14_zmlt",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -200,7 +200,7 @@
   },
   {
     "id": "drunkbutton",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -212,7 +212,7 @@
   },
   {
     "id": "16_zmlt",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "otherNightReminder": "如果理发师今天死亡了，唤醒恶魔并展示“该角色的效果对你生效”信息标记和理发师角色标记。如果恶魔选择了两名玩家，将这两名玩家分别独自唤醒。对他们展示“你是”信息标记和他们的新角色标记。",
     "reminders": [
       "今晚理发"
@@ -225,7 +225,7 @@
   },
   {
     "id": "17_zmlt",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "18_zmlt",
-    "image": "/scripts/assets/community/02653cf22c5888fe2a96ec65e7c4a1c8b41fb8caeb13dc6dd64ce3927ae753b4.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/02653cf22c5888fe2a96ec65e7c4a1c8b41fb8caeb13dc6dd64ce3927ae753b4.png",
     "firstNightReminder": "让控偶师选择洗脑师及目标玩家，或者放弃。标记那名玩家中毒并让该玩家以为自己成为了洗脑目标。",
     "otherNightReminder": "让控偶师选择洗脑师/麻脸巫婆及目标玩家，或者放弃。标记那名玩家中毒并让该玩家以为自己成为了洗脑目标。",
     "reminders": [
@@ -248,7 +248,7 @@
   },
   {
     "id": "19_zmlt",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "otherNightReminder": "让麻脸巫婆选择一名玩家和一个角色。如果她选择的角色不在场：让麻脸巫婆重新入睡。唤醒她的目标玩家。对该玩家展示“你是”信息标记和他的新角色标记。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -258,7 +258,7 @@
   },
   {
     "id": "20_zmlt",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "21_zmlt",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
     "remindersGlobal": [
       "是恶魔"
@@ -286,7 +286,7 @@
   },
   {
     "id": "22_zmlt",
-    "image": "/scripts/assets/community/3d440868d56ea4f11b968d6325a6ea1c459ed43f3b09621a87fdb2168bec7c96.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/3d440868d56ea4f11b968d6325a6ea1c459ed43f3b09621a87fdb2168bec7c96.png",
     "otherNightReminder": "如果阴阳平衡，让幽荧·烛照选择一名玩家。标记那名玩家死亡。如果阴阳失衡，幽荧·烛照将不被唤醒。较多一方的玩家死亡",
     "reminders": [
       "死亡",
@@ -300,7 +300,7 @@
   },
   {
     "id": "23_zmlt",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -314,7 +314,7 @@
   },
   {
     "id": "24_zmlt",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -327,7 +327,7 @@
   },
   {
     "id": "25_zmlt",
-    "image": "/scripts/assets/community/5925ae46df79ec3b687f07b222fcf61ac4795b6c458db4694f6cacb41d77398b.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/5925ae46df79ec3b687f07b222fcf61ac4795b6c458db4694f6cacb41d77398b.png",
     "otherNightReminder": "让无影选择一名玩家。标记那名玩家死亡。随后选择“阴”或者“阳”属性的玩家，该属性的对应镇民中毒直到你下次选择。",
     "reminders": [
       "死亡",
@@ -341,7 +341,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-zui-meng-long-ting-53ac7898/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "善恶彼岸",
     "author": "Wedge McCloud",
-    "logo": "/scripts/assets/community/eee1fe2ddb721e307f0afe2592bc830cae475f64a468837d30849f8aea5cd7a2.png",
+    "logo": "/scripts/assets/community-shan-e-bi-an-9a045487/eee1fe2ddb721e307f0afe2592bc830cae475f64a468837d30849f8aea5cd7a2.png",
     "almanac": "https://www.bloodstar.xyz/p/WedgeMcCloud/BeyondGoodAndEvil-V3/almanac.html",
     "townsfolkName": "镇民",
     "tags": [
@@ -14,7 +14,7 @@
   },
   {
     "id": "clone_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/2bcdbe16a10214c336c0605da962b6c9bbe07e07833d1fdc13c937571df20ea9.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/2bcdbe16a10214c336c0605da962b6c9bbe07e07833d1fdc13c937571df20ea9.png",
     "firstNightReminder": "指向一名玩家，并向克隆人展示该玩家的角色标记。标记该玩家“原生”。",
     "reminders": [
       "原生"
@@ -28,7 +28,7 @@
   },
   {
     "id": "contessa_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/b062a167d6b8c8e7202045ec9416c2e392056a0723694b6c1a902a0dbe1f6d1a.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/b062a167d6b8c8e7202045ec9416c2e392056a0723694b6c1a902a0dbe1f6d1a.png",
     "firstNightReminder": "向女伯爵展示至少一个在场的外来者角色标记，或表示没有外来者。",
     "otherNightReminder": "如果有外来者死亡，向女伯爵展示存活的外来者玩家的数量的手势（1，2，3等）。",
     "reminders": [
@@ -46,7 +46,7 @@
   },
   {
     "id": "publicdefender_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/bdd3ec0cc4c46c8941b7249502f9c5dcf0d63749f06719d0b7352afba329a942.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/bdd3ec0cc4c46c8941b7249502f9c5dcf0d63749f06719d0b7352afba329a942.png",
     "firstNightReminder": "让公社辩护人指向一名存活玩家，标记该玩家“处决不死”。如果该玩家在下个白天被处决时是善良的，他不会死亡。",
     "otherNightReminder": "让公社辩护人指向一名存活玩家，标记该玩家“处决不死”。如果该玩家在下个白天被处决时是善良的，他不会死亡。",
     "reminders": [
@@ -62,7 +62,7 @@
   },
   {
     "id": "demagogue_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/576e0cf99b68009bf4110244156d49ec3fb1afec3c8ec8deb30eaf7569b119a5.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/576e0cf99b68009bf4110244156d49ec3fb1afec3c8ec8deb30eaf7569b119a5.png",
     "firstNightReminder": "让煽动者指向一名玩家。标记该玩家“监视”。",
     "otherNightReminder": "如果带有“监视”标记的玩家被提名，向煽动者展示对该玩家投票的邪恶玩家数量的手势（1，2，3等）。移除“监视”标记。让煽动者指向一名玩家。标记该玩家“监视”。",
     "reminders": [
@@ -78,7 +78,7 @@
   },
   {
     "id": "darkpassenger_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/68c689f2c03b481b6314469314bc75ba904514204e081c1ea3b74ec7045c4ef9.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/68c689f2c03b481b6314469314bc75ba904514204e081c1ea3b74ec7045c4ef9.png",
     "otherNightReminder": "标记今晚因其自身能力制造死亡的玩家“凶手”。向黑暗旅人展示带有“凶手”标记的玩家数量的手势（1，2，3等）。",
     "reminders": [
       "凶手"
@@ -92,7 +92,7 @@
   },
   {
     "id": "informant_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/9a8bdfe987a1ca3a19926329034c7898b1f20a8969cd41ef144557e31e21c22d.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/9a8bdfe987a1ca3a19926329034c7898b1f20a8969cd41ef144557e31e21c22d.png",
     "otherNightReminder": "向线人展示一个与之前不同的死亡玩家的角色标记。标记该玩家“得知”。如果所有死亡玩家都已经得知，不唤醒线人。",
     "reminders": [
       "得知"
@@ -106,7 +106,7 @@
   },
   {
     "id": "octovore_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/e7e9d2770c23b0352901ca6906148f6b63f85b3f9b96ce4e131012e01be79526.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/e7e9d2770c23b0352901ca6906148f6b63f85b3f9b96ce4e131012e01be79526.png",
     "otherNightReminder": "让吞噬者指向一名玩家。如果该玩家曾经被吞食者选择过，他死亡。否则标记“选择”。如果该玩家是邪恶的，向该玩家展示吞食者标记并指向吞食者，标记该玩家“醉酒”。",
     "reminders": [
       "选择",
@@ -122,7 +122,7 @@
   },
   {
     "id": "tombspitter_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/5ddeb40452aa328300d95ad90b158045fc0289b0e3cae6b972a02e933d3906bb.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/5ddeb40452aa328300d95ad90b158045fc0289b0e3cae6b972a02e933d3906bb.png",
     "otherNightReminder": "让坟墓唾弃者指向一名除他以外的存活玩家。标记该玩家“看护”。如果该玩家今晚被恶魔杀死，可能会有一名其他的死亡镇民复活并中毒。",
     "reminders": [
       "看护",
@@ -138,7 +138,7 @@
   },
   {
     "id": "auspex_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/226e47ea3273d144528f409a96b4575dea9d48fad995c747054e94149665e7d2.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/226e47ea3273d144528f409a96b4575dea9d48fad995c747054e94149665e7d2.png",
     "otherNightReminder": "鸟卜师要么摇头，标记“选择三名”，要么指向一名玩家，向鸟卜师展示两个角色标记，其中一个角色是该玩家。如果鸟卜师上个夜晚没有选择任何玩家，让他指向三名玩家，并展示四个角色标记，其中有三个角色是那些玩家。鸟卜师不能选择自己或者旅行者。",
     "reminders": [
       "选择三名"
@@ -152,7 +152,7 @@
   },
   {
     "id": "hitman_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/1681eaa9f7fa036344eef4f3f034604b58db4fe45f9805bb2cc9e293ee864702.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/1681eaa9f7fa036344eef4f3f034604b58db4fe45f9805bb2cc9e293ee864702.png",
     "otherNightReminder": "移除“醉酒”标记。如果职业杀手今天白天猜测正确：被猜对的玩家醉酒。",
     "reminders": [
       "猜测正确",
@@ -167,7 +167,7 @@
   },
   {
     "id": "mobster_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/c9fc09b781b59a657630dec31042aafbf568419bcbc7d9086132b96f168497c3.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/c9fc09b781b59a657630dec31042aafbf568419bcbc7d9086132b96f168497c3.png",
     "reminders": [
       "失去能力并死亡"
     ],
@@ -180,7 +180,7 @@
   },
   {
     "id": "architect_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/2b23b7c99f9559f12bc5568498ba472f3112527885ca04dda082232472fb9676.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/2b23b7c99f9559f12bc5568498ba472f3112527885ca04dda082232472fb9676.png",
     "reminders": [
       "镇民不会死亡"
     ],
@@ -192,7 +192,7 @@
   },
   {
     "id": "revenant_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/a6e7bdce348d2db003f48b864bbc9c6b89c1b4787b9f1ed5298bb709dd45c97c.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/a6e7bdce348d2db003f48b864bbc9c6b89c1b4787b9f1ed5298bb709dd45c97c.png",
     "otherNightReminder": "如果归来者被当作死亡，唤醒他并指向一名没有“得知”标记的非恶魔的存活玩家。标记该玩家“得知”。",
     "reminders": [
       "假死",
@@ -207,7 +207,7 @@
   },
   {
     "id": "specter_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/4e1d839984c8432ff660f8e34ccd73d5f0b32c94dcc1ef66cea18d83d470a820.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/4e1d839984c8432ff660f8e34ccd73d5f0b32c94dcc1ef66cea18d83d470a820.png",
     "otherNightReminder": "如果游魂死亡，且场上没有其他游魂，一名其他镇民变为游魂。",
     "remindersGlobal": [
       "是游魂",
@@ -222,7 +222,7 @@
   },
   {
     "id": "hex_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/48d22275d3a66aa1bb177dd18754fa4fcf849a02af50f8a2746f32cb89828fc7.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/48d22275d3a66aa1bb177dd18754fa4fcf849a02af50f8a2746f32cb89828fc7.png",
     "otherNightReminder": "选择一名带有“已提名”标记的玩家，他死亡。移除所有“已提名”标记。",
     "reminders": [
       "已提名",
@@ -237,7 +237,7 @@
   },
   {
     "id": "cyclox_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/7f4aa22d02ee8228e7b0f79c2c269664ec29077638248dd5899243b442cac351.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/7f4aa22d02ee8228e7b0f79c2c269664ec29077638248dd5899243b442cac351.png",
     "otherNightReminder": "如果回环死亡，镇民玩家的能力可能在当晚和明天白天产生错误信息。",
     "reminders": [
       "信息出错"
@@ -251,7 +251,7 @@
   },
   {
     "id": "hanabi_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/b4a6291b05e029a7d491e547c1df82a3001b8ec9b9ed2791cf8466c7c1b185fb.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/b4a6291b05e029a7d491e547c1df82a3001b8ec9b9ed2791cf8466c7c1b185fb.png",
     "reminders": [
       "死亡"
     ],
@@ -263,7 +263,7 @@
   },
   {
     "id": "fugitive_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/3cc8bb8ab897c0c90ce37d40ca8ef424acfa66ca964fc4226875805d84dd68da.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/3cc8bb8ab897c0c90ce37d40ca8ef424acfa66ca964fc4226875805d84dd68da.png",
     "firstNightReminder": "在爪牙信息环节之后，分别唤醒爪牙并向他们展示两个不在场的角色标记。这些角色可以与恶魔得知的不在场角色相同或不同。",
     "otherNightReminder": "如果逃亡者首次被当作错误的阵营或角色，向他展示“误认”提示标记。",
     "reminders": [
@@ -280,7 +280,7 @@
   },
   {
     "id": "saboteur_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/9b6a099cbd5acc412b460b036af5467203f754dccdca0c9321ac73fbca17095f.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/9b6a099cbd5acc412b460b036af5467203f754dccdca0c9321ac73fbca17095f.png",
     "firstNightReminder": "向恶魔展示破坏者的角色标记，并指向破坏者玩家。",
     "otherNightReminder": "让破坏者指向一名存活玩家。标记玩家“倒计时”，该玩家随时可能死亡。向恶魔展示“倒计时”提示标记，然后指向被标记的玩家。",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "gravedigger_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/6412112ead323986820510e680c9865e3452f2242dfd8e2dfbe0bbae56a54d0f.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/6412112ead323986820510e680c9865e3452f2242dfd8e2dfbe0bbae56a54d0f.png",
     "otherNightReminder": "如果有玩家今天白天死于处决，向掘墓人展示该玩家的角色标记。如果掘墓人曾在该次处决中投票：如果他点头，那名玩家复活。否则，所有曾给那名玩家投票的存活镇民中毒直到下个黄昏。",
     "reminders": [
       "投票",
@@ -314,7 +314,7 @@
   },
   {
     "id": "thug_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/5e54848ab3af6d55fc0c5d22c361da12b4f361f894d40fd51fbd03a4af9ee696.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/5e54848ab3af6d55fc0c5d22c361da12b4f361f894d40fd51fbd03a4af9ee696.png",
     "firstNightReminder": "向一名邪恶镇民展示“你是”提示卡并展示拇指向下代表邪恶的手势，然后指向恶棍，并展示恶棍的角色标记。",
     "otherNightReminder": "如果得知恶棍的邪恶镇民死亡，让恶棍指向一名玩家，向他展示该玩家的角色标记，该玩家死亡。",
     "reminders": [
@@ -332,7 +332,7 @@
   },
   {
     "id": "landlord_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/72fad38b76b685853cfe7ef2860bb3cdff683560b1effc0458e9170aa5a13f71.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/72fad38b76b685853cfe7ef2860bb3cdff683560b1effc0458e9170aa5a13f71.png",
     "otherNightReminder": "移除“中毒”标记。让领主指向两名玩家。一名死亡，另一名中毒。",
     "reminders": [
       "死亡",
@@ -347,7 +347,7 @@
   },
   {
     "id": "highroller_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/55a439fc75c9211e45bd858d015580ff1d58d14c994f489422bfa26cb8df87c1.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/55a439fc75c9211e45bd858d015580ff1d58d14c994f489422bfa26cb8df87c1.png",
     "otherNightReminder": "让豪赌客指向一名玩家，并指向角色列表上的一个角色，该玩家死亡。如果猜测正确，再次让豪赌客指向一名其他玩家，该玩家死亡。",
     "reminders": [
       "死亡"
@@ -361,7 +361,7 @@
   },
   {
     "id": "machinist_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/8ff827b7ac232184cec9eabbc7dbc094d76376cefd93b259f344926f46d698b1.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/8ff827b7ac232184cec9eabbc7dbc094d76376cefd93b259f344926f46d698b1.png",
     "otherNightReminder": "如果机械师点头，所有带有“倒计时”标记的存活玩家死亡；如果他摇头，让他指向一名玩家，该玩家死亡。",
     "reminders": [
       "死亡",
@@ -377,7 +377,7 @@
   },
   {
     "id": "gardener_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/403799a8a1c48217542a8fa2da5698778f1abe9413863600eb4f7ffe7ee0ae5c.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/403799a8a1c48217542a8fa2da5698778f1abe9413863600eb4f7ffe7ee0ae5c.png",
     "otherNightReminder": "让植育者指向一名玩家：那名玩家死亡。如果植育者死亡，并且场上至少有五名玩家存活，且没有其他植育者，在当晚唤醒新的植育者，向他展示“你是”提示卡并展示植育者的角色标记。",
     "reminders": [
       "死亡",
@@ -392,7 +392,7 @@
   },
   {
     "id": "invoker_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/12c1229f81fbfb5e8c19c9f413c72be54e0ed5df7a1cfabe09bb1a0f135c90ef.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/12c1229f81fbfb5e8c19c9f413c72be54e0ed5df7a1cfabe09bb1a0f135c90ef.png",
     "firstNightReminder": "向祈言师展示关键词。",
     "otherNightReminder": "唤醒今天白天首个说出关键词的玩家，向他展示“这个角色能力对你生效”提示卡，并展示祈言师的角色标记。他今晚能够行动两次。",
     "reminders": [
@@ -408,7 +408,7 @@
   },
   {
     "id": "fateweaver_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/fcac410c66161f2a424000bd550fd49a2582ec239cf98d64eb4453709ebdf514.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/fcac410c66161f2a424000bd550fd49a2582ec239cf98d64eb4453709ebdf514.png",
     "firstNightReminder": "让命运编织者指向两名除旅行者以外的存活玩家。标记第一名玩家“注视”，标记第二名玩家“命中注定”。下个白天，如果带有“注视”的玩家死于处决，带有“命中注定”的玩家死亡。",
     "otherNightReminder": "移除所有标记。如果还有大于等于五名玩家存活，让命运编织者指向两名除旅行者以外的存活玩家。标记第一名玩家“注视”，标记第二名玩家“命中注定”。下个白天，如果带有“注视”的玩家死于处决，带有“命中注定”的玩家死亡。",
     "reminders": [
@@ -426,7 +426,7 @@
   },
   {
     "id": "commandant_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/b402af9735f2fb87cb26b752c1a22032e1e13fb1bf8440be35763ae905108afc.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/b402af9735f2fb87cb26b752c1a22032e1e13fb1bf8440be35763ae905108afc.png",
     "otherNightReminder": "向指挥官展示拇指向上手势表示善良优势，拇指向下手势表示邪恶优势，拇指横向表示均势。如果指挥官还没有让玩家重获投票标记：他要么摇头，要么指向一名死亡玩家。如果该玩家的阵营处于劣势，在黎明时，宣布该玩家重获投票标记。",
     "reminders": [
       "重获标记"
@@ -440,7 +440,7 @@
   },
   {
     "id": "charismatic_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/2478ed54b7966f68d36424024228c2c9eed7e304f11e7256ebbfb484dd010e24.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/2478ed54b7966f68d36424024228c2c9eed7e304f11e7256ebbfb484dd010e24.png",
     "reminders": [
       "死亡"
     ],
@@ -452,7 +452,7 @@
   },
   {
     "id": "graduate_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/291b4b3b65ed8e8491e8825be44cd6466418ddfd894146306391861496cfab65.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/291b4b3b65ed8e8491e8825be44cd6466418ddfd894146306391861496cfab65.png",
     "reminders": [
       "失去能力",
       "复活",
@@ -466,7 +466,7 @@
   },
   {
     "id": "facsimilie_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/7e48ffe606db508914bb2421ec0e6ba1152e5e71fcc2729fe5b24bc440dc9094.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/7e48ffe606db508914bb2421ec0e6ba1152e5e71fcc2729fe5b24bc440dc9094.png",
     "firstNightReminder": "唤醒带有“双生”标记的玩家。向他展示“双生”的传奇角色标记，然后拇指向上表示善良，拇指向下表示邪恶。",
     "remindersGlobal": [
       "双生"
@@ -481,7 +481,7 @@
   },
   {
     "id": "clairvoyant_beyondgoodandevilv3",
-    "image": "/scripts/assets/community/a9db186d3010fc4fb23c0d80895107900764955453cd3dbb3b70a053cb9a5af1.png",
+    "image": "/scripts/assets/community-shan-e-bi-an-9a045487/a9db186d3010fc4fb23c0d80895107900764955453cd3dbb3b70a053cb9a5af1.png",
     "name": "通灵",
     "team": "fabled",
     "ability": "死亡玩家可以在白天时私下询问说书人，消耗他的投票标记并选择一名玩家：他会得知关于那名玩家的两条信息，其中有且只有一条是正确的。",

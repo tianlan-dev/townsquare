@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "无何有之乡",
     "author": "鸭木布拉夫钟楼小镇",
-    "logo": "/scripts/assets/community/09c745fb33c6ccc7d3142f7262e0e0803499b0cb4045af77264d20ef13a86525.png",
+    "logo": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/09c745fb33c6ccc7d3142f7262e0e0803499b0cb4045af77264d20ef13a86525.png",
     "description": "",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -35,7 +35,7 @@
     "name_eng": "Pixie",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。如果修行者两侧最近的邪恶玩家与他的距离相等，由你来决定告诉他什么样的信息，并用手指指向对应的一侧。让修行者重新入睡。",
@@ -51,7 +51,7 @@
     "team": "townsfolk",
     "name_eng": "Shugenja",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png"
   },
   {
     "firstNightReminder": "让村夫指向一名玩家，对他给出拇指向上或向下的手势。",
@@ -69,7 +69,7 @@
     "team": "townsfolk",
     "name_eng": "Village Idiot",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
   },
   {
     "firstNightReminder": "唤醒女祭司，指向一名玩家。让女祭司重新入睡。",
@@ -84,7 +84,7 @@
     "name_eng": "High Priestess",
     "firstNight": 48,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "firstNightReminder": "",
@@ -99,7 +99,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -116,7 +116,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "",
@@ -131,7 +131,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -148,7 +148,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -168,7 +168,7 @@
     "name_eng": "Philosopher",
     "firstNight": 2,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "firstNightReminder": "",
@@ -185,7 +185,7 @@
     "name_eng": "Juggler",
     "firstNight": 0,
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
   },
   {
     "firstNightReminder": "",
@@ -200,7 +200,7 @@
     "name_eng": "Farmer",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
   },
   {
     "firstNightReminder": "不要让恶魔和爪牙相认。",
@@ -217,7 +217,7 @@
     "name_eng": "Poppy Grower",
     "firstNight": 4,
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
   },
   {
     "firstNightReminder": "",
@@ -235,7 +235,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "firstNightReminder": "",
@@ -253,7 +253,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -268,7 +268,7 @@
     "name_eng": "Politician",
     "firstNight": 0,
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
   },
   {
     "firstNightReminder": "",
@@ -285,7 +285,7 @@
     "name_eng": "Hatter",
     "firstNight": 0,
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png"
   },
   {
     "firstNightReminder": "",
@@ -302,7 +302,7 @@
     "name_eng": "Plague Doctor",
     "firstNight": 0,
     "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -320,7 +320,7 @@
     "name_eng": "Mezepheles",
     "firstNight": 27,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -337,7 +337,7 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "firstNightReminder": "",
@@ -355,7 +355,7 @@
     "name_eng": "Scarlet Woman",
     "firstNight": 0,
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
   },
   {
     "firstNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
@@ -374,7 +374,7 @@
     "team": "minion",
     "name_eng": "Harpy",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png"
   },
   {
     "firstNightReminder": "将魔典展示给间谍，他想看多久就看多久。",
@@ -389,7 +389,7 @@
     "name_eng": "Spy",
     "firstNight": 48,
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png"
   },
   {
     "firstNightReminder": "",
@@ -406,7 +406,7 @@
     "name_eng": "Ojo",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png"
   },
   {
     "edition": "custom",
@@ -424,7 +424,7 @@
     "name_eng": "kazali",
     "firstNight": 10,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙。-或+任意数量的外来者]",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png"
   },
   {
     "firstNightReminder": "",
@@ -442,7 +442,7 @@
     "name_eng": "Legion",
     "firstNight": 0,
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png"
   },
   {
     "firstNightReminder": "",
@@ -456,6 +456,6 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。①如果瘟疫医生死亡且说书人会因此获得间谍或红唇女郎的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。②如果帽匠死亡时军团在场，则无事发生。如果帽匠死亡时一名邪恶玩家选择变成军团，当前所有邪恶玩家都会一同变成军团。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-wu-he-you-zhi-xiang-c30bcd11/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   }
 ]

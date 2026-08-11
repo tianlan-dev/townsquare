@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "以身入局",
     "author": "邦德",
-    "logo": "/scripts/assets/community/0b261a119fff6722538ac2d703c9a346ac446179532efb286a0733990a7ed9d5.png",
+    "logo": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/0b261a119fff6722538ac2d703c9a346ac446179532efb286a0733990a7ed9d5.png",
     "A jinxed": "相克",
     "tags": [
       "部分原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "shengjiezhihun",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -25,7 +25,7 @@
   },
   {
     "id": "qilincfdff775f",
-    "image": "/scripts/assets/community/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
     "edition": "custom",
     "name": "麒麟",
     "ability": "在游戏的最后一天，最幸运的玩家身上会发生一些好的事情。",
@@ -36,7 +36,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_c",
@@ -55,7 +55,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noble_c",
@@ -75,7 +75,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snake_charmer_c",
@@ -93,7 +93,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -111,7 +111,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -156,7 +156,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -174,7 +174,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名除你以外的玩家成为“棋子”：该玩家不会得知自己成为“棋子”，且免疫夜间负面效果。若谋士在夜晚死亡，则“棋子”一并死亡。",
-    "image": "/scripts/assets/community/edcc9756a130c2e4f3afd0b95863d7f29b7228687613322a50c4d7aa36369fc9.webp",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/edcc9756a130c2e4f3afd0b95863d7f29b7228687613322a50c4d7aa36369fc9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "m1112oushishihsihsihsihsihsihsihsihsih",
@@ -193,7 +193,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -219,7 +219,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "flavor": "",
     "id": "slayer_c",
@@ -237,7 +237,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -255,7 +255,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_c",
@@ -271,7 +271,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_c",
@@ -289,7 +289,7 @@
   },
   {
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "damsel_c",
@@ -307,7 +307,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_c",
@@ -325,7 +325,7 @@
   },
   {
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "flavor": "",
     "id": "puzzlemaster_c",
@@ -344,7 +344,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_c",
@@ -362,7 +362,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_c",
@@ -382,7 +382,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -400,7 +400,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -419,7 +419,7 @@
   },
   {
     "ability": "每个夜晚，你要先后选择两名玩家：第一名玩家如果在当天白天时死于处决，第二名玩家当天便“可能”会在这之后死亡。（当在场存活人数小于等于本局参与游戏总人数一半时失去能力，向下取整）",
-    "image": "/scripts/assets/community/371b00993147164411fe5e3ea96c45d7168f4f3ad26289b504aee0273c607167.webp",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/371b00993147164411fe5e3ea96c45d7168f4f3ad26289b504aee0273c607167.webp",
     "edition": "custom",
     "flavor": "",
     "id": "yizhezhi22yihsiheniashoeiyis22ae",
@@ -441,7 +441,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "pit-hag_c",
@@ -457,7 +457,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashii_c",
@@ -477,7 +477,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fang_gu_c",
@@ -498,7 +498,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "flavor": "",
     "id": "yaggababble_c",
@@ -519,7 +519,7 @@
     "name": "落难少女&麻脸巫婆",
     "team": "A jinxed",
     "ability": "如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom"
   },
   {
@@ -527,7 +527,7 @@
     "name": "莽夫&麻脸巫婆",
     "team": "A jinxed",
     "ability": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom"
   },
   {
@@ -535,7 +535,7 @@
     "name": "红唇女郎&方古",
     "team": "A jinxed",
     "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-yi-shen-ru-ju-fdff775f/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom"
   }
 ]

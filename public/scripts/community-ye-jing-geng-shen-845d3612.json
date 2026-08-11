@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "夜静更深",
     "author": "The Good Couch",
-    "logo": "/scripts/assets/community/0d4a64966a305c819176c74f41f74520bc9a83609754b13c00d98149f562bbc2.png",
+    "logo": "/scripts/assets/community-ye-jing-geng-shen-845d3612/0d4a64966a305c819176c74f41f74520bc9a83609754b13c00d98149f562bbc2.png",
     "townsfolkName": "镇民",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -13,7 +13,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "flavor": "",
     "id": "librarianbutton",
@@ -33,7 +33,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noblebutton",
@@ -52,7 +52,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "flavor": "",
     "id": "pixiebutton",
@@ -72,7 +72,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empathbutton",
@@ -89,7 +89,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertakerbutton",
@@ -108,7 +108,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeperbutton",
@@ -128,7 +128,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monkbutton",
@@ -147,7 +147,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossipbutton",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savantbutton",
@@ -183,7 +183,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "flavor": "",
     "id": "artistbutton",
@@ -202,7 +202,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayorbutton",
@@ -219,7 +219,7 @@
   },
   {
     "ability": "恶魔的负面能力对你无效。",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "flavor": "",
     "id": "soldierbutton",
@@ -236,7 +236,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmerbutton",
@@ -253,7 +253,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "reclusebutton",
@@ -270,7 +270,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinkerbutton",
@@ -289,7 +289,7 @@
   },
   {
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "flavor": "",
     "id": "saintbutton",
@@ -306,7 +306,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkbutton",
@@ -325,7 +325,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisonerbutton",
@@ -344,7 +344,7 @@
   },
   {
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]\n\n",
-    "image": "/scripts/assets/community/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
     "edition": "custom",
     "flavor": "",
     "id": "summonerbutton",
@@ -365,7 +365,7 @@
   },
   {
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "flavor": "",
     "id": "spybutton",
@@ -382,7 +382,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassinbutton",
@@ -402,7 +402,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "flavor": "",
     "id": "vortoxbutton",
@@ -421,7 +421,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "impbutton",
@@ -440,7 +440,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashiibutton",
@@ -460,7 +460,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ye-jing-geng-shen-845d3612/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukkabutton",

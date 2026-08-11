@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "五夜风潮",
-    "logo": "/scripts/assets/community/dcc5b9f6c9793a89aadcf05f725ca981a15872d062bdccaf6ed72db2b3fa1dad.png",
+    "logo": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/dcc5b9f6c9793a89aadcf05f725ca981a15872d062bdccaf6ed72db2b3fa1dad.png",
     "author": "Elluna",
     "description": "五夜风潮",
     "townsfolkName": "镇民",
@@ -22,7 +22,7 @@
   },
   {
     "id": "-1s-1s-1s",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -37,7 +37,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -52,7 +52,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "wocaishiemo1223322323232323",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -86,7 +86,7 @@
   },
   {
     "id": "wuxingshangjiang111",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "jiushigebaichi111",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -118,7 +118,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -136,7 +136,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -153,7 +153,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -170,7 +170,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -187,7 +187,7 @@
   },
   {
     "id": "wuye_1",
-    "image": "/scripts/assets/community/b172073c4055b5c9b6fa4ddd095587309ea6d8421bf4594416148b7e76653779.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/b172073c4055b5c9b6fa4ddd095587309ea6d8421bf4594416148b7e76653779.png",
     "edition": "custom",
     "name": "象棋大师",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知你最重要的队友是谁，但不知道为什么。",
@@ -204,7 +204,7 @@
   },
   {
     "id": "wuye_2",
-    "image": "/scripts/assets/community/aaaec054a1c670aac8531fd787c2123d9fa8556a73c03c48c560b23611810adc.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/aaaec054a1c670aac8531fd787c2123d9fa8556a73c03c48c560b23611810adc.png",
     "edition": "custom",
     "name": "海滩拾荒者",
     "ability": "每个白天，你可以私下询问说书人以得知一条该剧本上的角色的能力无法得知的信息。",
@@ -219,7 +219,7 @@
   },
   {
     "id": "chuangsishuoshuren111",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
     "edition": "custom",
     "name": "无神论者",
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
@@ -234,7 +234,7 @@
   },
   {
     "id": "wuye_3",
-    "image": "/scripts/assets/community/1b7704fa620271c00c10aa12a72ac22a5f165c4f32c0169c317c18214b7356c4.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/1b7704fa620271c00c10aa12a72ac22a5f165c4f32c0169c317c18214b7356c4.png",
     "edition": "custom",
     "name": "神秘学者",
     "ability": "每个白天，如果你没有“疯狂”地证明你得知了新信息，你可能被处决。每局游戏限一次，说书人会告知你一条信息，",
@@ -251,7 +251,7 @@
   },
   {
     "id": "shuiganshawo111",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "name": "圣徒",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -266,7 +266,7 @@
   },
   {
     "id": "abaaba111",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "name": "告密者",
     "ability": "爪牙会在其首个夜晚得知三个伪装。",
@@ -281,7 +281,7 @@
   },
   {
     "id": "wudidejiemidashi111",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "wuye_4",
-    "image": "/scripts/assets/community/d9aabeea7fc6e6b2bc2427c4c222111ac7ebb616da758620ccf2c10cf06aeb14.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/d9aabeea7fc6e6b2bc2427c4c222111ac7ebb616da758620ccf2c10cf06aeb14.png",
     "edition": "custom",
     "name": "神秘生物",
     "ability": "你只知道你能力的一部分，一名善良玩家会知道另一部分。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "wuye_5",
-    "image": "/scripts/assets/community/4a9017f89e1bfb2b9d91dae915b3540c55e85f5faf8e8abd13bf919be124d380.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/4a9017f89e1bfb2b9d91dae915b3540c55e85f5faf8e8abd13bf919be124d380.png",
     "edition": "custom",
     "name": "毒瘴魔",
     "ability": "每局游戏限一次，在夜晚时，你可以使所有镇民中毒并产生错误信息，直到下个黄昏。",
@@ -352,7 +352,7 @@
   },
   {
     "id": "wuye_6",
-    "image": "/scripts/assets/community/a8ace60c5fadb9a1db2115adca2b40ad9b95874d82b0e44be98c7171c648e806.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/a8ace60c5fadb9a1db2115adca2b40ad9b95874d82b0e44be98c7171c648e806.png",
     "edition": "custom",
     "name": "狐狸精",
     "ability": "在你的首个夜晚，你得知五个不在场的角色。每个夜晚，你要选择其中一个角色：你获得其能力且可能被当做该角色与其对应的类型和阵营，直到下个黄昏。",
@@ -367,7 +367,7 @@
   },
   {
     "id": "nanjueeeee111",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "edition": "custom",
     "name": "男爵",
     "ability": "会有额外的外来者在场。[+2 外来者]",
@@ -382,7 +382,7 @@
   },
   {
     "id": "zheshigeyizi111",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "name": "主谋",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "wuye_emo",
-    "image": "/scripts/assets/community/c48e8f0d1fddcd971f68ebcb5c18032666cf5b364cae7960bcc88fae4a188a8d.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/c48e8f0d1fddcd971f68ebcb5c18032666cf5b364cae7960bcc88fae4a188a8d.png",
     "edition": "custom",
     "name": "巫-隗",
     "ability": "每个夜晚*，你要猜测谁是你的爪牙并得知猜对了哪些。如果全部猜对，所有善良玩家得知此事，并且从现在开始的白天，只要他们没有处决邪恶玩家就会落败。[邪恶玩家不知道彼此是谁]",
@@ -415,7 +415,7 @@
   },
   {
     "id": "60231_meta",
-    "image": "/scripts/assets/community/c48e8f0d1fddcd971f68ebcb5c18032666cf5b364cae7960bcc88fae4a188a8d.png",
+    "image": "/scripts/assets/community-wu-ye-feng-chao-cfdc4176/c48e8f0d1fddcd971f68ebcb5c18032666cf5b364cae7960bcc88fae4a188a8d.png",
     "name": "巫-隗&主谋",
     "team": "a jinxed",
     "setup": false,

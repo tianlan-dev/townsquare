@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "贾方复仇记",
-    "logo": "/scripts/assets/community/9362525de644988251e663398d355d11a2ee8205a4dedb02cfdb8c386a4bbe9b.png",
+    "logo": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/9362525de644988251e663398d355d11a2ee8205a4dedb02cfdb8c386a4bbe9b.png",
     "author": "jimothy",
     "description": "贾方复仇记",
     "townsfolkName": "镇民",
@@ -23,7 +23,7 @@
   },
   {
     "id": "daerduotutu111",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "name": "图书管理员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -41,7 +41,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -74,7 +74,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -91,7 +91,7 @@
   },
   {
     "id": "wocaishiemo1223322323232323",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -108,7 +108,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -126,7 +126,7 @@
   },
   {
     "id": "wanizufen111",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "name": "送葬者",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -158,7 +158,7 @@
   },
   {
     "id": "wohehehehehehehezuidiaoniladao111",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "name": "侍臣",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，一个该角色从当晚开始醉酒三天三夜。",
@@ -178,7 +178,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -198,7 +198,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -215,7 +215,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -230,7 +230,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -247,7 +247,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -264,7 +264,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -282,7 +282,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -297,7 +297,7 @@
   },
   {
     "id": "wocaishiemo111",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -317,7 +317,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -335,7 +335,7 @@
   },
   {
     "id": "noita111",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -352,7 +352,7 @@
   },
   {
     "id": "tiehuaibi11111",
-    "image": "/scripts/assets/community/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
     "edition": "custom",
     "name": "维齐尔",
     "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -382,7 +382,7 @@
   },
   {
     "id": "wangguuuuuuuu111111",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "name": "亡骨魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -401,7 +401,7 @@
   },
   {
     "id": "fangguuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -418,7 +418,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-jia-fang-fu-chou-ji-72b98955/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",

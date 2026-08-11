@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "江州琵琶引",
     "author": "L",
-    "logo": "/scripts/assets/community/c80c8243188f166b2828b81b4f2463d8a5e1a3cf42204bfedef73892373fd859.png",
+    "logo": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/c80c8243188f166b2828b81b4f2463d8a5e1a3cf42204bfedef73892373fd859.png",
     "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/jiangzhoupipayin/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_jiangzhoupipayin",
-    "image": "/scripts/assets/community/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
     "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -24,7 +24,7 @@
   },
   {
     "id": "1_jiangzhoupipayin",
-    "image": "/scripts/assets/community/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_jiangzhoupipayin",
-    "image": "/scripts/assets/community/ebc51155ef1e678d44c41ccb0a5940ba1bd1a560ea27871f0ba7d61fc7b9fc18.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/ebc51155ef1e678d44c41ccb0a5940ba1bd1a560ea27871f0ba7d61fc7b9fc18.png",
     "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
     "name": "守鸦人",
     "team": "townsfolk",
@@ -46,7 +46,7 @@
   },
   {
     "id": "3_jiangzhoupipayin",
-    "image": "/scripts/assets/community/6b6cfc150445c795eaec57170408f6155c9a9a3b6e134c21f6cba9f784f3bbbf.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/6b6cfc150445c795eaec57170408f6155c9a9a3b6e134c21f6cba9f784f3bbbf.png",
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -60,7 +60,7 @@
   },
   {
     "id": "4_jiangzhoupipayin",
-    "image": "/scripts/assets/community/dd2f77948cc777e6459db889819eb6ca81ca25bedb4069305702c205be8a4a09.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/dd2f77948cc777e6459db889819eb6ca81ca25bedb4069305702c205be8a4a09.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_jiangzhoupipayin",
-    "image": "/scripts/assets/community/d96abb8e8d9d81ce65097200834430544502ee7bdb84fb3a187a0adba6fb50bc.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/d96abb8e8d9d81ce65097200834430544502ee7bdb84fb3a187a0adba6fb50bc.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -86,7 +86,7 @@
   },
   {
     "id": "6_jiangzhoupipayin",
-    "image": "/scripts/assets/community/81c57d9db78725ce563574799f59822ffadb409165bf2617418fb20de52fea7a.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/81c57d9db78725ce563574799f59822ffadb409165bf2617418fb20de52fea7a.png",
     "firstNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
     "otherNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
     "reminders": [
@@ -104,7 +104,7 @@
   },
   {
     "id": "7_jiangzhoupipayin",
-    "image": "/scripts/assets/community/4093b4d332255c4a919d65f73fbaef0b1407b95069cedec34d50fc8b1405137e.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/4093b4d332255c4a919d65f73fbaef0b1407b95069cedec34d50fc8b1405137e.png",
     "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
     "reminders": [
       "恶魔未投票",
@@ -118,7 +118,7 @@
   },
   {
     "id": "8_jiangzhoupipayin",
-    "image": "/scripts/assets/community/f3caba5b4f4fd5f2cbc5419add19c8ab62b7a2b3578c348ace058222dc9a93cc.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/f3caba5b4f4fd5f2cbc5419add19c8ab62b7a2b3578c348ace058222dc9a93cc.png",
     "otherNightReminder": "如果恶魔杀死了报丧女妖，高声宣布“报丧女妖觉醒了！”或发出奇怪的声音，并使用“具有能力”标记报丧女妖。",
     "name": "报丧女妖",
     "team": "townsfolk",
@@ -128,7 +128,7 @@
   },
   {
     "id": "9_jiangzhoupipayin",
-    "image": "/scripts/assets/community/03c9b3a842960efb44373b1aa2b91c12b52315b1d1d8e78f0a1c43ca4cd5ccff.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/03c9b3a842960efb44373b1aa2b91c12b52315b1d1d8e78f0a1c43ca4cd5ccff.png",
     "firstNightReminder": "唤醒店小二，对他指向标记有店小二的“熟客”和“醉酒”提示标记的这两名玩家。",
     "reminders": [
       "熟客",
@@ -142,7 +142,7 @@
   },
   {
     "id": "10_jiangzhoupipayin",
-    "image": "/scripts/assets/community/24cabb388cd121254f4981477a7e4449b97530e04ec459696e0c8bb7643146b7.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/24cabb388cd121254f4981477a7e4449b97530e04ec459696e0c8bb7643146b7.png",
     "otherNightReminder": "移除上个夜晚放置的“保护”标记。唤醒锦衣卫，让其选择一名玩家。在该玩家角色标记旁放置“保护”提示标记。",
     "reminders": [
       "保护"
@@ -155,7 +155,7 @@
   },
   {
     "id": "11_jiangzhoupipayin",
-    "image": "/scripts/assets/community/7ac62da2321814c6ed01bc9ac362d646da24d50e0489d8e3dd701ebc6f1e9d49.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/7ac62da2321814c6ed01bc9ac362d646da24d50e0489d8e3dd701ebc6f1e9d49.png",
     "firstNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
     "otherNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
     "name": "郎中",
@@ -167,7 +167,7 @@
   },
   {
     "id": "12_jiangzhoupipayin",
-    "image": "/scripts/assets/community/5f9f5bbbf0501cbad30657ab5ed74b5889feac1b26ce791e7b8c80fb60a42fde.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/5f9f5bbbf0501cbad30657ab5ed74b5889feac1b26ce791e7b8c80fb60a42fde.png",
     "otherNightReminder": "如果在白天以及夜晚，只有镇民或旅行者玩家死亡，对知府摇头表示“否”，否则点头表示“是”。",
     "reminders": [
       "死于今日"
@@ -180,7 +180,7 @@
   },
   {
     "id": "13_jiangzhoupipayin",
-    "image": "/scripts/assets/community/da5817b8127e9a6be727f895db8b58b594d244955dcad9fe4c9d1e1c44198040.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/da5817b8127e9a6be727f895db8b58b594d244955dcad9fe4c9d1e1c44198040.png",
     "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -193,7 +193,7 @@
   },
   {
     "id": "14_jiangzhoupipayin",
-    "image": "/scripts/assets/community/cd8ef4985535b3022ffbf3c5769066face02091b833231642d8d049be469bdeb.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/cd8ef4985535b3022ffbf3c5769066face02091b833231642d8d049be469bdeb.png",
     "reminders": [
       "醉酒"
     ],
@@ -204,7 +204,7 @@
   },
   {
     "id": "15_jiangzhoupipayin",
-    "image": "/scripts/assets/community/75482563e5dae610f0176b1fc6e8aa5227629a6550e2583c847cd1dbda757140.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/75482563e5dae610f0176b1fc6e8aa5227629a6550e2583c847cd1dbda757140.png",
     "firstNightReminder": "唤醒恶魔，并对他展示“该角色的能力对你触发”提示标记与书生角色标记。",
     "otherNightReminder": "如果白天恶魔成功猜中了书生是谁，唤醒那个恶魔，让其选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -221,7 +221,7 @@
   },
   {
     "id": "16_jiangzhoupipayin",
-    "image": "/scripts/assets/community/29dcf4e6cdb124d0bfb807c51965f080e0bcf4658e70c97375a51a6bd9ad2c37.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/29dcf4e6cdb124d0bfb807c51965f080e0bcf4658e70c97375a51a6bd9ad2c37.png",
     "reminders": [
       "醉酒"
     ],
@@ -232,7 +232,7 @@
   },
   {
     "id": "17_jiangzhoupipayin",
-    "image": "/scripts/assets/community/70f07cdd29bcf0a35f31115f9be74a241c19557aeaeb524b408e39839d6bf004.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/70f07cdd29bcf0a35f31115f9be74a241c19557aeaeb524b408e39839d6bf004.png",
     "firstNightReminder": "在你的顺时针方向的下一名玩家中毒。 如果他是邪恶的，你和他立即交换角色。 每个夜晚*，如果他已死亡，该距离+1。",
     "otherNightReminder": "在你的顺时针方向的下一名玩家中毒。 如果他是邪恶的，你和他立即交换角色。 每个夜晚*，如果他已死亡，该距离+1。",
     "name": "战车",
@@ -244,7 +244,7 @@
   },
   {
     "id": "18_jiangzhoupipayin",
-    "image": "/scripts/assets/community/2a7116c597e1852ee1824ad725b63a01c54c0b1162b83678e4b8db8096024e51.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/2a7116c597e1852ee1824ad725b63a01c54c0b1162b83678e4b8db8096024e51.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -261,7 +261,7 @@
   },
   {
     "id": "19_jiangzhoupipayin",
-    "image": "/scripts/assets/community/2c4e354de1a69c14464b0d913edcec2cdab888c05537faf6508f6255c3e8fc36.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/2c4e354de1a69c14464b0d913edcec2cdab888c05537faf6508f6255c3e8fc36.png",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "reminders": [
@@ -276,7 +276,7 @@
   },
   {
     "id": "20_jiangzhoupipayin",
-    "image": "/scripts/assets/community/69582ee391f70cbcff46da1b2856e7bbb351fb55cf89dedaa1489779175bad6a.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/69582ee391f70cbcff46da1b2856e7bbb351fb55cf89dedaa1489779175bad6a.png",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -291,7 +291,7 @@
   },
   {
     "id": "21_jiangzhoupipayin",
-    "image": "/scripts/assets/community/957b7c7e221ac1b6ac3230093c95bde7042c88b95cd9906ce90d66e1843d4024.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/957b7c7e221ac1b6ac3230093c95bde7042c88b95cd9906ce90d66e1843d4024.png",
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
     "remindersGlobal": [
       "是提线木偶"
@@ -305,7 +305,7 @@
   },
   {
     "id": "22_jiangzhoupipayin",
-    "image": "/scripts/assets/community/fde891c356035b79bd47f08079e27273b60dd184d5a6567701308b7897bbef4a.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/fde891c356035b79bd47f08079e27273b60dd184d5a6567701308b7897bbef4a.png",
     "otherNightReminder": "唤醒饕餮，让其选择任意数量的玩家。如果这些玩家的角色类型均不相同，标记这些玩家死亡。",
     "reminders": [
       "死亡"
@@ -319,7 +319,7 @@
   },
   {
     "id": "23_jiangzhoupipayin",
-    "image": "/scripts/assets/community/c58b12dbc375664247ac0ce8a0283f416aca7eccde462498fd4532558c82f94c.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/c58b12dbc375664247ac0ce8a0283f416aca7eccde462498fd4532558c82f94c.png",
     "otherNightReminder": "唤醒暴君，让其选择至多两名玩家。在这些玩家角色标记旁放置“死亡”提示标记。如果暴君选择的玩家数量与上个夜晚死亡的玩家数量相同，摇头示意其重新选择",
     "reminders": [
       "死亡"
@@ -332,7 +332,7 @@
   },
   {
     "id": "24_jiangzhoupipayin",
-    "image": "/scripts/assets/community/63d52325cdc6b7230f2d9e8ab205ccfde25bd6409d2a2528ca5fd17e5a59d74e.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/63d52325cdc6b7230f2d9e8ab205ccfde25bd6409d2a2528ca5fd17e5a59d74e.png",
     "otherNightReminder": "唤醒奸佞，让其选择一名玩家。如果白天奸佞未投票，改为让其选择两名玩家。标记他选择的玩家死亡。",
     "reminders": [
       "死亡",
@@ -347,7 +347,7 @@
   },
   {
     "id": "25_jiangzhou",
-    "image": "/scripts/assets/community/43fce173facd8a6eee8b8174c234d9a50aecfff0d0c4c9f8185d92e91c1478f9.png",
+    "image": "/scripts/assets/community-jiang-zhou-pi-pa-yin-dda806cf/43fce173facd8a6eee8b8174c234d9a50aecfff0d0c4c9f8185d92e91c1478f9.png",
     "reminders": [
       "天涯人",
       "嘈嘈切切",

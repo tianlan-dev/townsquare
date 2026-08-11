@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "咦？有家店？！",
     "author": "程十安",
-    "logo": "/scripts/assets/community/65969cb57dc61dd13a0e51119f2b6d9a5ea439999545530174e52b36b4d905ef.png",
+    "logo": "/scripts/assets/community-yi-you-jia-dian-c038db90/65969cb57dc61dd13a0e51119f2b6d9a5ea439999545530174e52b36b4d905ef.png",
     "almanac": "有问题联系SE谢谢喵",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_yiyoujiadian",
-    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
     "reminders": [
       "禁止邪恶"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_yiyoujiadian",
-    "image": "/scripts/assets/community/be25291e73310c198a83d7234040bbb25c9f2fc90703046b1995599b4ed0351e.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/be25291e73310c198a83d7234040bbb25c9f2fc90703046b1995599b4ed0351e.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
@@ -33,7 +33,7 @@
   },
   {
     "id": "2_yiyoujiadian",
-    "image": "/scripts/assets/community/6c6f6c80bd3ce35af40ffe30639d27fce7d11bd919584e3b50fd2723b355aecd.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/6c6f6c80bd3ce35af40ffe30639d27fce7d11bd919584e3b50fd2723b355aecd.png",
     "otherNightReminder": "唤醒狸猫，让他选择一名玩家，将“太子”标记放在对应玩家角色标记旁。如果当晚邪恶角色杀死了“太子”，交换狸猫与“太子”的角色，并依次唤醒告知。",
     "reminders": [
       "太子"
@@ -46,7 +46,7 @@
   },
   {
     "id": "3_yiyoujiadian",
-    "image": "/scripts/assets/community/b58f5b2055cbe21d7b40ad2724d7636b9a615658d9d43c2a2e76182ecdf5911a.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/b58f5b2055cbe21d7b40ad2724d7636b9a615658d9d43c2a2e76182ecdf5911a.png",
     "otherNightReminder": "在六扇门提名时，在对应的玩家标记旁放置“追查”标记。在夜晚时，唤醒六扇门，用点头和摇头来示意与有“追查”标记邻近的玩家中是否存在非镇民玩家。",
     "reminders": [
       "追查"
@@ -59,7 +59,7 @@
   },
   {
     "id": "4_yiyoujiadian",
-    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -69,7 +69,7 @@
   },
   {
     "id": "5_yiyoujiadian",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -84,7 +84,7 @@
   },
   {
     "id": "6_yiyoujiadian",
-    "image": "/scripts/assets/community/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -92,7 +92,7 @@
   },
   {
     "id": "7_yiyoujiadian",
-    "image": "/scripts/assets/community/81652425b43f520c73c7fb190eadf398d6e59f7d93dc91e59db56f462e41835f.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/81652425b43f520c73c7fb190eadf398d6e59f7d93dc91e59db56f462e41835f.png",
     "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
     "reminders": [
       "不会死亡",
@@ -106,7 +106,7 @@
   },
   {
     "id": "8_yiyoujiadian",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -119,7 +119,7 @@
   },
   {
     "id": "9_yiyoujiadian",
-    "image": "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -132,7 +132,7 @@
   },
   {
     "id": "10_yiyoujiadian",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -147,7 +147,7 @@
   },
   {
     "id": "11_yiyoujiadian",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "12_yiyoujiadian",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -168,7 +168,7 @@
   },
   {
     "id": "13_yiyoujiadian",
-    "image": "/scripts/assets/community/a83522aeb2f340101134bed249910755456e923bfc8ec68322094d0d84d45002.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/a83522aeb2f340101134bed249910755456e923bfc8ec68322094d0d84d45002.png",
     "firstNightReminder": "唤醒店小二，对他指向两名善良玩家。",
     "reminders": [
       "熟客",
@@ -182,7 +182,7 @@
   },
   {
     "id": "14_yiyoujiadian",
-    "image": "/scripts/assets/community/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -194,7 +194,7 @@
   },
   {
     "id": "15_yiyoujiadian",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -206,7 +206,7 @@
   },
   {
     "id": "16_yiyoujiadian",
-    "image": "/scripts/assets/community/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -219,7 +219,7 @@
   },
   {
     "id": "17_yiyoujiadian",
-    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
     "reminders": [
       "无法提名"
     ],
@@ -230,7 +230,7 @@
   },
   {
     "id": "18_yiyoujiadian",
-    "image": "/scripts/assets/community/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
     "name": "狂热者",
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -238,7 +238,7 @@
   },
   {
     "id": "19_yiyoujiadian",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -251,7 +251,7 @@
   },
   {
     "id": "20_yiyoujiadian",
-    "image": "/scripts/assets/community/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -259,7 +259,7 @@
   },
   {
     "id": "21_yiyoujiadian",
-    "image": "/scripts/assets/community/1448e2224cb14405ada684dabff39e15cecac0f3464a6d106e7a7c75bdcec786.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/1448e2224cb14405ada684dabff39e15cecac0f3464a6d106e7a7c75bdcec786.png",
     "firstNightReminder": "唤醒灵言师，对他展示他的关键词。",
     "otherNightReminder": "如果首次有善良玩家说出了灵言师的关键词，唤醒该玩家并通知他阵营变化。",
     "reminders": [
@@ -275,7 +275,7 @@
   },
   {
     "id": "22_yiyoujiadian",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -289,7 +289,7 @@
   },
   {
     "id": "23_yiyoujiadian",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -302,7 +302,7 @@
   },
   {
     "id": "24_yiyoujiadian",
-    "image": "/scripts/assets/community/333fada02ee10a148cd8bc1fe01c613f7a0d847f7463a2095cdf0dc9a44dfd37.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/333fada02ee10a148cd8bc1fe01c613f7a0d847f7463a2095cdf0dc9a44dfd37.png",
     "otherNightReminder": "唤醒饕餮，让他选择任意数量的非旅行者玩家或一名旅行者玩家。如果这些玩家角色类型不同，他们死亡。",
     "reminders": [
       "死亡"
@@ -316,7 +316,7 @@
   },
   {
     "id": "25_yiyoujiadian",
-    "image": "/scripts/assets/community/774c0b81e66869eb4f310b85eca2edf4240b7597af06a152c2d2ec61c1705375.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/774c0b81e66869eb4f310b85eca2edf4240b7597af06a152c2d2ec61c1705375.png",
     "firstNightReminder": "唤醒典狱长，让他选择至多三名玩家。",
     "otherNightReminder": "唤醒典狱长，让他选择至多三名玩家。如果上个夜晚选择的玩家之中有人死于处决，上个夜晚选择的其余玩家均死亡，否则其中之一死亡。",
     "reminders": [
@@ -332,7 +332,7 @@
   },
   {
     "id": "26_yiyoujiadian",
-    "image": "/scripts/assets/community/730ad2122e41d068964030780468f08b06db4abc12e5b0917897918c936ed7ec.png",
+    "image": "/scripts/assets/community-yi-you-jia-dian-c038db90/730ad2122e41d068964030780468f08b06db4abc12e5b0917897918c936ed7ec.png",
     "otherNightReminder": "每个夜晚*，你要选择两名玩家：他们会被单独唤醒并要选择一名玩家。 他们之中没有被对方选中的玩家死亡。",
     "name": "朋友游戏",
     "team": "demon",

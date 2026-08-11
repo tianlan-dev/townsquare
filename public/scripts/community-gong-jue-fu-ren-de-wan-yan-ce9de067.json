@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "公爵夫人的晚宴",
-    "logo": "/scripts/assets/community/39928c45d49458b50fa82de6dd84c5f83a4932cc2be3eb566d9ace84788f58dd.png",
+    "logo": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/39928c45d49458b50fa82de6dd84c5f83a4932cc2be3eb566d9ace84788f58dd.png",
     "author": "Lei",
     "description": "公爵夫人的晚宴",
     "townsfolkName": "镇民",
@@ -41,11 +41,11 @@
     "id": "duchessbutton",
     "ability": "每个白天，三名玩家可以一起拜访你。当晚*，他们会得知他们之中有几个是邪恶的，但其中一人的信息是错的。",
     "edition": "custom",
-    "image": "/scripts/assets/community/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png"
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png"
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "wocaishiemo1223322323232323",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -95,7 +95,7 @@
   },
   {
     "id": "zhuijidelao1da111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1外来者]",
@@ -115,7 +115,7 @@
   },
   {
     "id": "jiushigebaichi111",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -132,7 +132,7 @@
   },
   {
     "id": "wolaishouhunidemama111",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "name": "守夜人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -149,7 +149,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -166,7 +166,7 @@
   },
   {
     "id": "xitele111",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -183,7 +183,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -200,7 +200,7 @@
   },
   {
     "id": "wuye_1",
-    "image": "/scripts/assets/community/b172073c4055b5c9b6fa4ddd095587309ea6d8421bf4594416148b7e76653779.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/b172073c4055b5c9b6fa4ddd095587309ea6d8421bf4594416148b7e76653779.png",
     "edition": "custom",
     "name": "象棋大师",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知你最重要的队友是谁，但不知道为什么。",
@@ -217,7 +217,7 @@
   },
   {
     "id": "wuye_2",
-    "image": "/scripts/assets/community/aaaec054a1c670aac8531fd787c2123d9fa8556a73c03c48c560b23611810adc.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/aaaec054a1c670aac8531fd787c2123d9fa8556a73c03c48c560b23611810adc.png",
     "edition": "custom",
     "name": "海滩拾荒者",
     "ability": "每个白天，你可以私下询问说书人以得知一条该剧本上的角色的能力无法得知的信息。",
@@ -232,7 +232,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -247,7 +247,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -264,7 +264,7 @@
   },
   {
     "id": "mengyouzhe",
-    "image": "/scripts/assets/community/c6a74ab2b3a864dc5eb49bb835657ff3aa94c0d7beecce9a00ddb011dcdfbbeb.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/c6a74ab2b3a864dc5eb49bb835657ff3aa94c0d7beecce9a00ddb011dcdfbbeb.png",
     "edition": "custom",
     "name": "梦游者",
     "ability": "你以为你是一个镇民角色，但在相同情况下，你的能力却与其有所不同。一名善良玩家知道你在游戏中。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "abaaba111",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "name": "告密者",
     "ability": "爪牙会在其首个夜晚得知三个伪装。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "wudidejiemidashi111",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -333,7 +333,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -348,7 +348,7 @@
   },
   {
     "id": "diexue_11",
-    "image": "/scripts/assets/community/6f7ee8d0283b2dbcabe5a81b20794b43a6400c3418d0168f872c61ee6a9b613f.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/6f7ee8d0283b2dbcabe5a81b20794b43a6400c3418d0168f872c61ee6a9b613f.png",
     "edition": "custom",
     "name": "寻谜者",
     "ability": "你与一名善良玩家在首个夜晚得知一个问题。每局游戏限一次，你可以公开回答它，如果答对：你的阵营获胜。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "wuye_5",
-    "image": "/scripts/assets/community/4a9017f89e1bfb2b9d91dae915b3540c55e85f5faf8e8abd13bf919be124d380.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/4a9017f89e1bfb2b9d91dae915b3540c55e85f5faf8e8abd13bf919be124d380.png",
     "edition": "custom",
     "name": "毒瘴魔",
     "ability": "每局游戏限一次，在夜晚时，你可以使所有镇民中毒并产生错误信息，直到下个黄昏。",
@@ -382,7 +382,7 @@
   },
   {
     "id": "wuye_6",
-    "image": "/scripts/assets/community/a8ace60c5fadb9a1db2115adca2b40ad9b95874d82b0e44be98c7171c648e806.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/a8ace60c5fadb9a1db2115adca2b40ad9b95874d82b0e44be98c7171c648e806.png",
     "edition": "custom",
     "name": "狐狸精",
     "ability": "在你的首个夜晚，你得知五个不在场的角色。每个夜晚，你要选择其中一个角色：你获得其能力且可能被当做该角色与其对应的类型和阵营，直到下个黄昏。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "zheshigeyizi111",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "name": "主谋",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -412,7 +412,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -428,7 +428,7 @@
   },
   {
     "id": "sizhaoxing",
-    "image": "/scripts/assets/community/a765aa0e7cc79e5cf0a6cb3daa45a4e4bbc51c4515c3ed2cee163fe6655eb289.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/a765aa0e7cc79e5cf0a6cb3daa45a4e4bbc51c4515c3ed2cee163fe6655eb289.png",
     "edition": "custom",
     "name": "死兆星",
     "ability": "每个夜晚*，你要选择一名未选择过的玩家并猜测该玩家是哪个善良角色：如果你猜对了，所有玩家都会得知终焉将提前一天到来。第七个白天结束时，除你以外的其他所有玩家均会死亡，即使因为任何原因让他们不会死亡。",
@@ -453,7 +453,7 @@
   },
   {
     "id": "28_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&告密者",
     "team": "a jinxed",
     "setup": false,
@@ -462,7 +462,7 @@
   },
   {
     "id": "31_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&气球驾驶员",
     "team": "a jinxed",
     "setup": false,
@@ -471,7 +471,7 @@
   },
   {
     "id": "32_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -480,7 +480,7 @@
   },
   {
     "id": "33_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-gong-jue-fu-ren-de-wan-yan-ce9de067/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&巡山人",
     "team": "a jinxed",
     "setup": false,

@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/0ee4dd2126b41b07f100bcfbe629027ac300a98c6a00738ba05e4a31867c8685.avif",
+    "logo": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/0ee4dd2126b41b07f100bcfbe629027ac300a98c6a00738ba05e4a31867c8685.avif",
     "name": "瓷牛商会",
     "townsfolkName": "镇民",
     "author": "autumn",
@@ -19,7 +19,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "flavor": "",
     "id": "knight_button",
@@ -38,7 +38,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_button",
@@ -58,7 +58,7 @@
   },
   {
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "flavor": "",
     "id": "general_button",
@@ -75,7 +75,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_button",
@@ -95,7 +95,7 @@
   },
   {
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "juggler_button",
@@ -114,7 +114,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_button",
@@ -131,7 +131,7 @@
   },
   {
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "flavor": "",
     "id": "alsaahir_button",
@@ -148,7 +148,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_button",
@@ -169,7 +169,7 @@
   },
   {
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "flavor": "",
     "id": "tea_lady_button",
@@ -188,7 +188,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmer_button",
@@ -205,7 +205,7 @@
   },
   {
     "ability": "当你首次将要死亡时，你不会死亡。",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "flavor": "",
     "id": "fool_button",
@@ -224,7 +224,7 @@
   },
   {
     "ability": "被处决的善良玩家可能不会死亡。",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
     "edition": "custom",
     "flavor": "",
     "id": "pacifist_button",
@@ -241,7 +241,7 @@
   },
   {
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "flavor": "",
     "id": "amnesiac_button",
@@ -260,7 +260,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_button",
@@ -279,7 +279,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinker_button",
@@ -298,7 +298,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "flavor": "",
     "id": "klutz_button",
@@ -315,7 +315,7 @@
   },
   {
     "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "flavor": "",
     "id": "plague_doctor_button",
@@ -334,7 +334,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_button",
@@ -354,7 +354,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "flavor": "",
     "id": "devils_advocate_button",
@@ -373,7 +373,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "flavor": "",
     "id": "witch_button",
@@ -392,7 +392,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_button",
@@ -412,7 +412,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widow_button",
@@ -433,7 +433,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你靠近正中，+1爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "flavor": "",
     "id": "lord_of_typhon_button",
@@ -452,7 +452,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "flavor": "",
     "id": "ojo_button",
@@ -471,7 +471,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-ci-niu-shang-hui-afd6bf1b/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "flavor": "",
     "id": "yaggababble_button",

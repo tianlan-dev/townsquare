@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "懦夫救星",
     "author": "Cody",
-    "logo": "/scripts/assets/community/c2c08886d2270473f684487cf3c63dee08bd18060bc3b23bb5a987ae49e95fa5.png",
+    "logo": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/c2c08886d2270473f684487cf3c63dee08bd18060bc3b23bb5a987ae49e95fa5.png",
     "description": "致敬我最爱的电影《破坏之王》",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -46,7 +46,7 @@
     "team": "townsfolk",
     "name_eng": "Steward",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png"
   },
   {
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
@@ -63,7 +63,7 @@
     "name_eng": "Noble",
     "firstNight": 43,
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
   },
   {
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
@@ -80,7 +80,7 @@
     "name_eng": "Sailor",
     "firstNight": 10,
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
   },
   {
     "firstNightReminder": "唤醒女祭司，指向一名玩家。让女祭司重新入睡。",
@@ -95,7 +95,7 @@
     "name_eng": "High Priestess",
     "firstNight": 48,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -111,7 +111,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 44,
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -128,7 +128,7 @@
     "name_eng": "Fortune Teller",
     "firstNight": 37,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
@@ -146,7 +146,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
   },
   {
     "firstNightReminder": "",
@@ -163,7 +163,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "",
@@ -178,7 +178,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -198,7 +198,7 @@
     "name_eng": "Philosopher",
     "firstNight": 2,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "firstNightReminder": "",
@@ -215,7 +215,7 @@
     "name_eng": "Fisherman",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以让说书⼈给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -232,7 +232,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "",
@@ -249,7 +249,7 @@
     "name_eng": "Juggler",
     "firstNight": 0,
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
   },
   {
     "firstNightReminder": "",
@@ -267,7 +267,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "firstNightReminder": "",
@@ -284,7 +284,7 @@
     "name_eng": "Golem",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "firstNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
@@ -301,7 +301,7 @@
     "name_eng": "Butler",
     "firstNight": 38,
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
   },
   {
     "firstNightReminder": "",
@@ -319,7 +319,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -334,7 +334,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -352,7 +352,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 27,
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
   },
   {
     "firstNightReminder": "",
@@ -369,7 +369,7 @@
     "name_eng": "Goblin",
     "firstNight": 0,
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
   },
   {
     "firstNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
@@ -388,7 +388,7 @@
     "team": "minion",
     "name_eng": "Harpy",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png"
   },
   {
     "firstNightReminder": "寄生蛭指向一名玩家。放置寄生标记，那名玩家中毒。",
@@ -406,7 +406,7 @@
     "name_eng": "Lleech",
     "firstNight": 15,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
   },
   {
     "firstNightReminder": "",
@@ -423,11 +423,11 @@
     "name_eng": "Ojo",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/0e3f6b18766bde05af36a9c1e712c78981ffee34a5bcdd94ab39860ab85ba482.png",
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/0e3f6b18766bde05af36a9c1e712c78981ffee34a5bcdd94ab39860ab85ba482.png",
     "edition": "custom",
     "flavor": "",
     "id": "kazhalibutton",
@@ -459,11 +459,11 @@
     ],
     "remindersGlobal": [],
     "team": "demon",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png"
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png"
   },
   {
     "ability": "在游戏的最后一天，最幸运的玩家身上会发生一些好的事情。",
-    "image": "/scripts/assets/community/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
     "edition": "custom",
     "flavor": "",
     "id": "qilinc9083da65",
@@ -482,7 +482,7 @@
   },
   {
     "ability": "每局游戏限一次，一名善良玩家可能会得知“有问题”的信息。",
-    "image": "/scripts/assets/community/0888dc535ff8ae6bdbc800e08b192aa70e041c7eb74ca16c30b32e21357f3e87.png",
+    "image": "/scripts/assets/community-nuo-fu-jiu-xing-9083da65/0888dc535ff8ae6bdbc800e08b192aa70e041c7eb74ca16c30b32e21357f3e87.png",
     "edition": "custom",
     "flavor": "",
     "id": "fibbinButton",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "author": "Crispy Duck",
     "name": "寻巫奇旅",
-    "logo": "/scripts/assets/community/64f8a00dfc6157d73f8fc811629d8c955601cb6e109f542c92d8e883e93a438b.png",
+    "logo": "/scripts/assets/community-xun-wu-qi-lu-7a248541/64f8a00dfc6157d73f8fc811629d8c955601cb6e109f542c92d8e883e93a438b.png",
     "firstNight": [
       "dusk",
       "shiyizhezhezhezhe",
@@ -50,7 +50,7 @@
   {
     "id": "daerduotutu111",
     "name": "图书管理员",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -65,7 +65,7 @@
   {
     "id": "jingcaisanxuanyi111",
     "name": "贵族",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -79,7 +79,7 @@
   {
     "id": "yeshimeishengmeyongdejuese111",
     "name": "女祭司",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -92,7 +92,7 @@
   {
     "id": "wolaishouhunidemama111",
     "name": "守夜人",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -107,7 +107,7 @@
   {
     "id": "huojin111",
     "name": "博学者",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -118,7 +118,7 @@
   {
     "id": "xitele111",
     "name": "艺术家",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -131,7 +131,7 @@
   {
     "id": "shiyizhezhezhezhe",
     "name": "失忆者",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -146,7 +146,7 @@
   {
     "id": "chichichichichichichi111",
     "name": "食人族",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -160,7 +160,7 @@
   {
     "id": "shanliangdeniaoer111",
     "name": "守鸦人",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -172,7 +172,7 @@
   {
     "id": "wangzherongyao111",
     "name": "农夫",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
@@ -193,7 +193,7 @@
   {
     "id": "zhadiaole111",
     "name": "畸形秀演员",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -204,7 +204,7 @@
   {
     "id": "wuwusidehaocan111",
     "name": "心上人",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -218,7 +218,7 @@
   {
     "id": "fengmaoziyuailisi111",
     "name": "帽匠",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -232,7 +232,7 @@
   {
     "id": "tougexiangxian111",
     "name": "政客",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -243,7 +243,7 @@
   {
     "id": "tousioahsdoasidhas",
     "name": "限",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "team": "minion",
     "edition": "custom",
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
@@ -263,7 +263,7 @@
   {
     "id": "hongchunnvlangaaaaaaaa111",
     "name": "红唇女郎",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "team": "minion",
     "edition": "custom",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -277,7 +277,7 @@
   {
     "id": "zhadaobaozhala111",
     "name": "炸弹人",
-    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
     "team": "minion",
     "edition": "custom",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -291,7 +291,7 @@
   {
     "id": "xiaoemo1111111eee111eee111",
     "name": "小恶魔",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -305,7 +305,7 @@
   {
     "id": "kakakakkakakakakakakakaakakak111",
     "name": "卡扎力",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -321,7 +321,7 @@
   {
     "id": "xiaoweibaxiliuxiliu111",
     "name": "普卡",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -340,7 +340,7 @@
   {
     "id": "35addde2-e27a-4de2-9a9e-df0e78364717",
     "name": "私货商人",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-xun-wu-qi-lu-7a248541/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "team": "fabled",
     "edition": "custom",
     "ability": "这个剧本包含有自制角色或自制规则。",

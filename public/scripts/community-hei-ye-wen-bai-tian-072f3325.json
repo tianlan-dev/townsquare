@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "黑夜问白天",
     "author": "小諧星ChinHoYiu",
-    "logo": "/scripts/assets/community/b0d777ba07f3119353a8b30d94c427ce7d544ebcc9a171132ca343c797dabaef.webp",
+    "logo": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/b0d777ba07f3119353a8b30d94c427ce7d544ebcc9a171132ca343c797dabaef.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -22,7 +22,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -53,7 +53,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -69,7 +69,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -86,7 +86,7 @@
   },
   {
     "id": "gongwenbaozaren111",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -102,7 +102,7 @@
   },
   {
     "id": "xiongdinihaoxiang111",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -119,7 +119,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -133,7 +133,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -150,7 +150,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -164,7 +164,7 @@
   },
   {
     "id": "xixifafashishishishishishishi",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "name": "戏法师",
     "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -178,7 +178,7 @@
   },
   {
     "id": "zz111",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "name": "镇长",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -192,7 +192,7 @@
   },
   {
     "id": "xinde_xinjide18899889898911",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个不在场的爪牙角色的能力。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -240,7 +240,7 @@
   },
   {
     "id": "scp-049049049",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
@@ -256,7 +256,7 @@
   },
   {
     "id": "baziji9865765487le11555552312351",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "name": "杂技演员",
     "ability": "每个夜晚*，如果与你临近的存活善良玩家之一醉酒或中毒，你死亡。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -289,7 +289,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -322,7 +322,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -339,7 +339,7 @@
   },
   {
     "id": "lllllllllllllllllllllll11111111",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "name": "麻脸巫婆",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -368,7 +368,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -384,7 +384,7 @@
   },
   {
     "id": "fangguuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -400,7 +400,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -418,7 +418,7 @@
   },
   {
     "id": "sgjfseraedr",
-    "image": "/scripts/assets/community/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
     "edition": "custom",
     "name": "公爵夫人",
     "ability": "每个白天，三名玩家可以一起拜访你。当晚*，他们会得知他们之中有几个是邪恶的，但其中一人的信息是错的。",
@@ -429,7 +429,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -446,7 +446,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -462,7 +462,7 @@
   },
   {
     "id": "7_meta",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-hei-ye-wen-bai-tian-072f3325/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "name": "瘟疫医生&提线木偶",
     "team": "a jinxed",
     "setup": false,

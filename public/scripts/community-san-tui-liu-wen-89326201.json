@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "三推六问",
-    "logo": "/scripts/assets/community/d0434334e2c9aee0e6c28ed072169ad56bf733c815df989b704e615072ab2499.png",
+    "logo": "/scripts/assets/community-san-tui-liu-wen-89326201/d0434334e2c9aee0e6c28ed072169ad56bf733c815df989b704e615072ab2499.png",
     "author": "讷之",
     "description": "三推六问",
     "townsfolkName": "镇民",
@@ -32,7 +32,7 @@
   },
   {
     "id": "ef42503a-d4aa-46cd-9c61-1560",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "宁信其有",
     "ability": "所有“可能”发生的事情均视为发生。",
@@ -42,7 +42,7 @@
   },
   {
     "id": "ef42503a-d4aa-46cd-9c61-6c6ce8e42450",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "疑罪从无（可选）",
     "ability": "当存活玩家≤4时，如果没有任何玩家能提供某位玩家是“恶魔”的闭环魔典推演，该名玩家不会被处决。",
@@ -52,7 +52,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。",
-    "image": "/scripts/assets/community/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
     "edition": "custom",
     "flavor": "",
     "id": "washerwoman_button",
@@ -72,7 +72,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "flavor": "",
     "id": "ybd05",
@@ -89,7 +89,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjian_button",
@@ -106,7 +106,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_button",
@@ -125,7 +125,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_button",
@@ -142,7 +142,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinluren_button",
@@ -159,7 +159,7 @@
   },
   {
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "flavor": "",
     "id": "mathematician_button",
@@ -178,7 +178,7 @@
   },
   {
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
-    "image": "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiguan_button",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名除你及旅行者以外的玩家：如果恶魔在今晚杀死了他，你和他交换角色。",
-    "image": "/scripts/assets/community/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
     "edition": "custom",
     "flavor": "",
     "id": "limao_button",
@@ -215,7 +215,7 @@
   },
   {
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "flavor": "",
     "id": "alsaahir_button",
@@ -232,7 +232,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "nightwatchman_button",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
-    "image": "/scripts/assets/community/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
     "edition": "custom",
     "flavor": "",
     "id": "tixingguan_button",
@@ -270,7 +270,7 @@
   },
   {
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "edition": "custom",
     "flavor": "",
     "id": "virgin_button",
@@ -289,7 +289,7 @@
   },
   {
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "flavor": "",
     "id": "jiubao_button",
@@ -308,7 +308,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_button",
@@ -325,7 +325,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "flavor": "",
     "id": "klutz_button",
@@ -342,7 +342,7 @@
   },
   {
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "flavor": "",
     "id": "sweetheart_button",
@@ -361,7 +361,7 @@
   },
   {
     "id": "ddba4c6a-5777-42ca-8ac6-a256a4f6aea2",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -379,7 +379,7 @@
   },
   {
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "flavor": "",
     "id": "spy_button",
@@ -396,7 +396,7 @@
   },
   {
     "id": "2e1e8d93-0e2b-4309-8433-5aaae5ed24c9",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -416,7 +416,7 @@
   },
   {
     "id": "tousioahsdoa22sidhas",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "name": "限",
     "ability": "在等同初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[任意数量外来者]",
@@ -437,7 +437,7 @@
   },
   {
     "id": "492744c7-6de3-4802-a30c-bf921890912b",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -452,7 +452,7 @@
   },
   {
     "id": "bbf011e7-d5cc-4640-a471-3985808ac050",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -471,7 +471,7 @@
   },
   {
     "id": "ybd01024",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-san-tui-liu-wen-89326201/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "name": "好戏开场",
     "team": "a jinxed",
     "setup": false,

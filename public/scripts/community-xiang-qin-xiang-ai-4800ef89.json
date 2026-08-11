@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "相亲相爱",
     "author": "【作者】趣玩桌游协会&杯子【Json制作】板&杯子",
-    "logo": "/scripts/assets/community/ad992f861ebd370771ea21354df8c71f404f3c7a9bcc3bf566d6cefebbd3ad11.png",
+    "logo": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/ad992f861ebd370771ea21354df8c71f404f3c7a9bcc3bf566d6cefebbd3ad11.png",
     "almanac": "https://www.bloodstar.xyz/p/beizi/xqxa/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_xqxa",
-    "image": "/scripts/assets/community/01721ab20e36a520afdd2226ae49337418ef0e9152b0a964f62fe3ce1bd7b11d.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/01721ab20e36a520afdd2226ae49337418ef0e9152b0a964f62fe3ce1bd7b11d.png",
     "firstNightReminder": "在你的首个夜晚，你要选择两名玩家，你会得知三名角色。这五名角色中只出现过一次的角色被你醉酒。如果你得知的角色存活，你不会在夜晚死亡。",
     "reminders": [
       "不死"
@@ -31,7 +31,7 @@
   },
   {
     "id": "1_xqxa",
-    "image": "/scripts/assets/community/35129a7ba98f755db6c5dea2d3427ecdaeb6d94225f2aab90c854b2835e95d87.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/35129a7ba98f755db6c5dea2d3427ecdaeb6d94225f2aab90c854b2835e95d87.png",
     "firstNightReminder": "在你的首个夜晚，你要选择三名玩家：如果其中有善良阵营的玩家，他们至少有一名会得知你是堂堂正正。",
     "remindersGlobal": [
       "光明磊落"
@@ -46,7 +46,7 @@
   },
   {
     "id": "2_xqxa",
-    "image": "/scripts/assets/community/d47a592db034124815ceb08051a8925a425e605acd30ec589b3cbee90c32dd86.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/d47a592db034124815ceb08051a8925a425e605acd30ec589b3cbee90c32dd86.png",
     "remindersGlobal": [
       "见龙（醉酒）"
     ],
@@ -59,7 +59,7 @@
   },
   {
     "id": "6_xqxa",
-    "image": "/scripts/assets/community/a6e7329dda4ad067061225dbaf7972b21d9d9fea6917acc06e8612a441c7026d.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/a6e7329dda4ad067061225dbaf7972b21d9d9fea6917acc06e8612a441c7026d.png",
     "firstNightReminder": "在你的⾸个夜晚，你要选择两名玩家，这局游戏中你与他们其中⼀⼈的⽣死状态相同，即使你已死亡或复生。",
     "remindersGlobal": [
       "同命"
@@ -74,7 +74,7 @@
   },
   {
     "id": "4_xqxa",
-    "image": "/scripts/assets/community/e2a875b6ccab05aec7d8081ec3460ebff3e60ab4723945f2a505ea5032346f84.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/e2a875b6ccab05aec7d8081ec3460ebff3e60ab4723945f2a505ea5032346f84.png",
     "otherNightReminder": "每个夜晚*，你可以选择一名玩家（与上个夜晚不同）与角色：如果该玩家是该角色，他醉酒到下个黄昏。",
     "remindersGlobal": [
       "延计"
@@ -89,7 +89,7 @@
   },
   {
     "id": "5_xqxa",
-    "image": "/scripts/assets/community/3d737c1071afe5164d478f400acd2b8be7bf5194c185c7fb667d8639b117e1cc.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/3d737c1071afe5164d478f400acd2b8be7bf5194c185c7fb667d8639b117e1cc.png",
     "firstNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家。当你在夜晚死亡时，他们中的善良玩家起死回生。",
     "otherNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家。当你在夜晚死亡时，他们中的善良玩家起死回生。",
     "remindersGlobal": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "7_xqxa",
-    "image": "/scripts/assets/community/835e91eeaa9e0b93192eab0cfe350775d83a41facda7a44ea072ca20c8c5a18b.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/835e91eeaa9e0b93192eab0cfe350775d83a41facda7a44ea072ca20c8c5a18b.png",
     "firstNightReminder": "每个夜晚，你要选择一名除你以外的存活玩家：如果你选中了恶魔，你和他交换角色和阵营。",
     "otherNightReminder": "每个夜晚，你要选择一名除你以外的存活玩家：如果你选中了恶魔，你和他交换角色和阵营。",
     "name": "杯弓蛇影",
@@ -120,7 +120,7 @@
   },
   {
     "id": "8_xqxa",
-    "image": "/scripts/assets/community/81ecef832e28591727915b6b2a683acd2375a9b96fe4ee2e4fc9e959f2893ce3.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/81ecef832e28591727915b6b2a683acd2375a9b96fe4ee2e4fc9e959f2893ce3.png",
     "otherNightReminder": "每个⽩天，你可以公开把花球交给一名玩家。在当晚，你会得知拥有花球玩家的阵营。",
     "remindersGlobal": [
       "花球"
@@ -135,7 +135,7 @@
   },
   {
     "id": "9_xqxa",
-    "image": "/scripts/assets/community/710338ccaffb2a280cf6c227962de9f3c4d9c3dee8306f8636dd408e9ee87eaa.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/710338ccaffb2a280cf6c227962de9f3c4d9c3dee8306f8636dd408e9ee87eaa.png",
     "otherNightReminder": "每个夜晚*， 你得知得知今夜因恶魔能力死亡的角色。你选择你要醉酒到下个黄昏或者你邻近的两名存活镇民醉酒到下个黄昏。",
     "remindersGlobal": [
       "熊掌"
@@ -150,7 +150,7 @@
   },
   {
     "id": "12_xqxa",
-    "image": "/scripts/assets/community/8bd4f9053d6e0b413928c00b0b310889d73ac12670c39f792629e534fbf0b33a.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/8bd4f9053d6e0b413928c00b0b310889d73ac12670c39f792629e534fbf0b33a.png",
     "otherNightReminder": "每个夜晚*，你可以选择除你以外，等同于死亡玩家数量的玩家，他们今晚不会死亡。",
     "remindersGlobal": [
       "保护"
@@ -165,7 +165,7 @@
   },
   {
     "id": "10_xqxa",
-    "image": "/scripts/assets/community/7afb0ea66f2b1b7a489d3266bd40db7f73676d1e6d99f95ed66e23fc2337145f.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/7afb0ea66f2b1b7a489d3266bd40db7f73676d1e6d99f95ed66e23fc2337145f.png",
     "otherNightReminder": "你不会转变阵营。每个夜晚*， 你会得知有多少玩家与自己初始阵营不同。",
     "reminders": [
       "莲绽"
@@ -180,7 +180,7 @@
   },
   {
     "id": "3_xqxa",
-    "image": "/scripts/assets/community/7db9e3f0a1ce44ee86f1ea1e3a49056be43bfd27abcd5e9837e7fff47ad64397.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/7db9e3f0a1ce44ee86f1ea1e3a49056be43bfd27abcd5e9837e7fff47ad64397.png",
     "otherNightReminder": "每个夜晚*，你会得知一名玩家：他与今天死于处决的玩家现在的阵营相同。",
     "remindersGlobal": [
       "明鉴"
@@ -195,7 +195,7 @@
   },
   {
     "id": "11_xqxa",
-    "image": "/scripts/assets/community/321107ceee039b57e0ba564384f14e986739da5b9be83b1f075d8dcabb1cdb6e.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/321107ceee039b57e0ba564384f14e986739da5b9be83b1f075d8dcabb1cdb6e.png",
     "firstNightReminder": "每个夜晚，你可以选择任意名玩家，如果你选择的玩家数量大于存活邪恶玩家数量，你会得知其中有几名镇民，否则，你可能获得错误信息。",
     "otherNightReminder": "每个夜晚，你可以选择任意名玩家，如果你选择的玩家数量大于存活邪恶玩家数量，你会得知其中有几名镇民，否则，你可能获得错误信息。",
     "name": "洞若观火",
@@ -209,7 +209,7 @@
   },
   {
     "id": "14_xqxa",
-    "image": "/scripts/assets/community/c6502c32a54e8659983fdfe711294a0d4895f65d34a50cce42bf35e658ca064f.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/c6502c32a54e8659983fdfe711294a0d4895f65d34a50cce42bf35e658ca064f.png",
     "remindersGlobal": [
       "转变阵营"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "id": "16_xqxa",
-    "image": "/scripts/assets/community/52c3c672e208a49723b9524b1cbf22fe607b0bc925bd0e6aa635085f47ba7554.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/52c3c672e208a49723b9524b1cbf22fe607b0bc925bd0e6aa635085f47ba7554.png",
     "firstNightReminder": "首个夜晚，一名镇民变为失去能力的邪恶爪牙，但仍然以为自己是原本的镇民。当你死亡时，如果他存活，他会得知自己是爪牙并恢复能力。[-1爪牙]",
     "reminders": [
       "千里马"
@@ -238,7 +238,7 @@
   },
   {
     "id": "15_xqxa",
-    "image": "/scripts/assets/community/eec34fe5955a7cd0d7806d655e201da497de2cc36381713fe2e6167ab43b35aa.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/eec34fe5955a7cd0d7806d655e201da497de2cc36381713fe2e6167ab43b35aa.png",
     "reminders": [
       "首鼠"
     ],
@@ -254,7 +254,7 @@
   },
   {
     "id": "13_xqxa",
-    "image": "/scripts/assets/community/fd840190707d760c46f7a1a7af7940061d726e94f5c3c6f1089347d05d6abff2.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/fd840190707d760c46f7a1a7af7940061d726e94f5c3c6f1089347d05d6abff2.png",
     "otherNightReminder": "你的生死状态发生转变时，你可能转变阵营。每个夜晚* ，你可以决定自己的生死，即使你已死亡。[+0~1个醉死梦生]",
     "setup": true,
     "name": "醉死梦生",
@@ -267,7 +267,7 @@
   },
   {
     "id": "17_xqxa",
-    "image": "/scripts/assets/community/eef5b490534bb2527ca1de72dca9fb6d301f1843904f89a8b14c2560305b6dd5.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/eef5b490534bb2527ca1de72dca9fb6d301f1843904f89a8b14c2560305b6dd5.png",
     "reminders": [
       "失去能力"
     ],
@@ -281,7 +281,7 @@
   },
   {
     "id": "18_xqxa",
-    "image": "/scripts/assets/community/4bf4bd57469a5c705e779609283dc0ba018a575a1f1eaec1869d693a2f3a602d.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/4bf4bd57469a5c705e779609283dc0ba018a575a1f1eaec1869d693a2f3a602d.png",
     "remindersGlobal": [
       "假活"
     ],
@@ -294,7 +294,7 @@
   },
   {
     "id": "19_xqxa",
-    "image": "/scripts/assets/community/329822866746fdf06221b791cbbe2c320184df2b1be3e97eafe7c15a086cfec1.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/329822866746fdf06221b791cbbe2c320184df2b1be3e97eafe7c15a086cfec1.png",
     "firstNightReminder": "每局游戏限一次，在夜晚，你可以选择一名玩家：他变成由你选择的邪恶恶魔，然后他转变为存活状态。原本的恶魔会变为善良的疯子，然后他中毒，即使你已死亡。",
     "otherNightReminder": "每局游戏限一次，在夜晚，你可以选择一名玩家：他变成由你选择的邪恶恶魔，然后他转变为存活状态。原本的恶魔会变为善良的疯子，然后他中毒，即使你已死亡。",
     "reminders": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "20_xqxa",
-    "image": "/scripts/assets/community/18b0ca4eb494d2954d48c278d446b97a8b9c0356c1aa018e3e14aed218cb1dd6.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/18b0ca4eb494d2954d48c278d446b97a8b9c0356c1aa018e3e14aed218cb1dd6.png",
     "firstNightReminder": "每个夜晚，你可以选择一名玩家，下个白天他会在处决结发生后死亡。场上存活人数小于等于五时，你失去能力。",
     "otherNightReminder": "每个夜晚，你可以选择一名玩家，下个白天他会在处决结发生后死亡。场上存活人数小于等于五时，你失去能力。",
     "reminders": [
@@ -334,7 +334,7 @@
   },
   {
     "id": "22_xqxa",
-    "image": "/scripts/assets/community/d1313e186ba525cf5fa31942f01d98af810d1fb8138ffd30b4f2312f405b2de7.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/d1313e186ba525cf5fa31942f01d98af810d1fb8138ffd30b4f2312f405b2de7.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他转变阵营或死亡。随时可能有邪恶阵营的玩家死亡。[+1外来者]",
     "remindersGlobal": [
       "老狼"
@@ -350,7 +350,7 @@
   },
   {
     "id": "23_xqxa",
-    "image": "/scripts/assets/community/eafb526b66840a51d85d1bef79ad06aa80b32b3532250cbbb2a90f8359c67a2c.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/eafb526b66840a51d85d1bef79ad06aa80b32b3532250cbbb2a90f8359c67a2c.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家，他死亡。你始终被一名存活善良玩家视为善良玩家或镇民角色，当他死亡时，与他邻近的善良玩家可能死亡。",
     "reminders": [
       "结党（视恶魔为善良或镇民）"
@@ -368,7 +368,7 @@
   },
   {
     "id": "24_xqxa",
-    "image": "/scripts/assets/community/0dbfdbf50bce1e9b7eabf15de56564229f26d6e4cd81882cfa6608a720a6d6ce.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/0dbfdbf50bce1e9b7eabf15de56564229f26d6e4cd81882cfa6608a720a6d6ce.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。如果白天被处决的玩家是邪恶的外来者，你可以额外行动一次；如果是善良玩家，一名玩家中毒至下次处决。",
     "reminders": [
       "卸磨（中毒）"
@@ -386,7 +386,7 @@
   },
   {
     "id": "21_xqxa",
-    "image": "/scripts/assets/community/f54d2774f1089736df56b5ead24a4f85acb46f62bb7403b2a41f6a224cdf7f52.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/f54d2774f1089736df56b5ead24a4f85acb46f62bb7403b2a41f6a224cdf7f52.png",
     "otherNightReminder": "每个夜晚* 选择一名玩家，他死亡。你可以比上个夜晚多选择一名玩家。如果因为你选择多名玩家死亡导致游戏结束，你的阵营落败。[-1外来者]",
     "remindersGlobal": [
       "欲壑"
@@ -402,7 +402,7 @@
   },
   {
     "id": "25_xqxa",
-    "image": "/scripts/assets/community/dcd3de090542d7d12847dfacefacf3de1379d415b351e106fec129152e61b791.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/dcd3de090542d7d12847dfacefacf3de1379d415b351e106fec129152e61b791.png",
     "name": "南柯一梦",
     "team": "fabled",
     "ability": "黎明时，如果邪恶玩家人数大于等于善良玩家或者善良玩家全部失去提名权。五分钟后，如果被最多善良玩家手指着的玩家是恶魔，善良获胜，否则邪恶获胜。",
@@ -411,7 +411,7 @@
   },
   {
     "id": "27_xqxa",
-    "image": "/scripts/assets/community/249ba82f4a1e65bd59b4c4e418b34a97281a5af1474cf6f5d3ed72b75202b495.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/249ba82f4a1e65bd59b4c4e418b34a97281a5af1474cf6f5d3ed72b75202b495.png",
     "reminders": [
       "失去能力"
     ],
@@ -422,7 +422,7 @@
   },
   {
     "id": "30_xqxa",
-    "image": "/scripts/assets/community/7711923327c97ed3e09b8027a0b8fcae6f03929b4a0019d77dab424a00c61ad1.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/7711923327c97ed3e09b8027a0b8fcae6f03929b4a0019d77dab424a00c61ad1.png",
     "remindersGlobal": [
       "磐石"
     ],
@@ -434,7 +434,7 @@
   },
   {
     "id": "28_xqxa",
-    "image": "/scripts/assets/community/6bdd89d16c6c3347dc934123e232c2c10dce70550684f1830591aa9dab6ea005.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/6bdd89d16c6c3347dc934123e232c2c10dce70550684f1830591aa9dab6ea005.png",
     "name": "悠然自得",
     "team": "traveler",
     "ability": "你跟随获胜阵营获胜。若你被流放，你得知你的阵营。",
@@ -442,7 +442,7 @@
   },
   {
     "id": "26_xqxa",
-    "image": "/scripts/assets/community/2b1a31d6e9f76289a9d6c0d22c3408373bf08178a15fe4b6c53a6508ca22b328.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/2b1a31d6e9f76289a9d6c0d22c3408373bf08178a15fe4b6c53a6508ca22b328.png",
     "name": "滥竽充数",
     "team": "traveler",
     "ability": "每局游戏限一次，白天你可以拜访说书人，并选择一名存活玩家，他重新进场，其他存活的失去能力的玩家都以为自己重新进场。",
@@ -450,7 +450,7 @@
   },
   {
     "id": "29_xqxa",
-    "image": "/scripts/assets/community/ae4ab4956097dfc22c8003fbc176ac9a78f1e8abd75343608c438f275558c3ec.png",
+    "image": "/scripts/assets/community-xiang-qin-xiang-ai-4800ef89/ae4ab4956097dfc22c8003fbc176ac9a78f1e8abd75343608c438f275558c3ec.png",
     "remindersGlobal": [
       "返照"
     ],

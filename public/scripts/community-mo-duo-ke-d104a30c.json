@@ -14,7 +14,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "flavor": "",
     "id": "clockmaker_c",
@@ -30,7 +30,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_c",
@@ -49,7 +49,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "flavor": "",
     "id": "investigator_c",
@@ -68,7 +68,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noble_c",
@@ -88,7 +88,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "flavor": "",
     "id": "bounty_hunter_c",
@@ -106,7 +106,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_c",
@@ -122,7 +122,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -140,7 +140,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "flavor": "",
     "id": "dreamer_c",
@@ -156,7 +156,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_c",
@@ -175,7 +175,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_c",
@@ -199,7 +199,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -222,7 +222,7 @@
   },
   {
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知存活镇民的数量。",
-    "image": "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiguan_c",
@@ -240,7 +240,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -259,7 +259,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他醉酒并死亡。",
-    "image": "/scripts/assets/community/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhen_c",
@@ -278,7 +278,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "fisherman_c",
@@ -296,7 +296,7 @@
   },
   {
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "flavor": "",
     "id": "minstrel_c",
@@ -314,7 +314,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcist_c",
@@ -332,7 +332,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_c",
@@ -351,7 +351,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "flavor": "",
     "id": "courtier_c",
@@ -372,7 +372,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -390,7 +390,7 @@
   },
   {
     "ability": "恶魔知道所有生效的相克规则。[该角色无法制定相克，会有一对本该生效的自定义相克角色同时在场]",
-    "image": "/scripts/assets/community/22970b089c6c84ec5f1bd10a0df8d4f2a61c2c987e848aa99d1f496e361309f5.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/22970b089c6c84ec5f1bd10a0df8d4f2a61c2c987e848aa99d1f496e361309f5.png",
     "edition": "custom",
     "flavor": "",
     "id": "banbendaan",
@@ -406,7 +406,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -434,7 +434,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_c",
@@ -450,7 +450,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_c",
@@ -468,7 +468,7 @@
   },
   {
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "flavor": "",
     "id": "puzzlemaster_c",
@@ -487,7 +487,7 @@
   },
   {
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "flavor": "",
     "id": "sweetheart_c",
@@ -505,7 +505,7 @@
   },
   {
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "flavor": "",
     "id": "spy_c",
@@ -528,7 +528,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_c",
@@ -547,7 +547,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -566,7 +566,7 @@
   },
   {
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xaan_c",
@@ -588,7 +588,7 @@
   },
   {
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "flavor": "",
     "id": "gudiao_c",
@@ -623,7 +623,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_c",
@@ -649,7 +649,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_c",
@@ -667,7 +667,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashii_c",
@@ -687,7 +687,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",
@@ -706,7 +706,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
     "edition": "custom",
     "flavor": "",
     "id": "hundun_c",
@@ -725,7 +725,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "flavor": "",
     "id": "po_c",
@@ -746,7 +746,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
-    "image": "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianyuzhang_c",
@@ -770,7 +770,7 @@
     "name": "自相矛盾",
     "team": "fabled",
     "ability": "在说书人准备角色前，每位玩家分别向说书人秘密选择两个角色制定相克：他们不会同时出现，完全相同的相克规则会都无效。",
-    "image": "/scripts/assets/community/f0645baf48ac7217b27638de3d799660f6228c2cef3c76ac4c3ef1aab92bc226.png",
+    "image": "/scripts/assets/community-mo-duo-ke-d104a30c/f0645baf48ac7217b27638de3d799660f6228c2cef3c76ac4c3ef1aab92bc226.png",
     "edition": "custom"
   }
 ]

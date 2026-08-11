@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "光阴似箭",
     "author": "Delta",
-    "logo": "/scripts/assets/community/b70272a9d97cb0eb0e31ba071a61ca9193198278c7fb373d27d47aee23742135.png",
+    "logo": "/scripts/assets/community-guang-yin-si-jian-a8318397/b70272a9d97cb0eb0e31ba071a61ca9193198278c7fb373d27d47aee23742135.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "民间创意剧本",
@@ -15,7 +15,7 @@
   },
   {
     "id": "_guangyinsujian",
-    "image": "/scripts/assets/community/be25291e73310c198a83d7234040bbb25c9f2fc90703046b1995599b4ed0351e.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/be25291e73310c198a83d7234040bbb25c9f2fc90703046b1995599b4ed0351e.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
@@ -23,7 +23,7 @@
   },
   {
     "id": "1_guangyinsujian",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_guangyinsujian",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -51,7 +51,7 @@
   },
   {
     "id": "3_guangyinsujian",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "4_guangyinsujian",
-    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_guangyinsujian",
-    "image": "/scripts/assets/community/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
     "firstNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "otherNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "name": "将军",
@@ -85,7 +85,7 @@
   },
   {
     "id": "6_guangyinsujian",
-    "image": "/scripts/assets/community/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
     "firstNightReminder": "唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
     "otherNightReminder": "如果工程师未曾使用能力，唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
     "reminders": [
@@ -100,7 +100,7 @@
   },
   {
     "id": "7_guangyinsujian",
-    "image": "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
     "reminders": [
       "失去能力"
     ],
@@ -111,7 +111,7 @@
   },
   {
     "id": "8_guangyinsujian",
-    "image": "/scripts/assets/community/30f3aa83fefec1b6fb5ae14f34dcc4d02d45226cf58474b3ddc03ca4d0983528.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/30f3aa83fefec1b6fb5ae14f34dcc4d02d45226cf58474b3ddc03ca4d0983528.png",
     "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "reminders": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_guangyinsujian",
-    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -139,7 +139,7 @@
   },
   {
     "id": "10_guangyinsujian",
-    "image": "/scripts/assets/community/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
     "firstNightReminder": "唤醒修行者，对他指向对应方向来告知他最近的邪恶玩家的方向。",
     "name": "修行者",
     "team": "townsfolk",
@@ -149,7 +149,7 @@
   },
   {
     "id": "11_guangyinsujian",
-    "image": "/scripts/assets/community/9cf18123d029cca27a4c13eb919c2457ac868268a53f9c88674ed23c62b44bdd.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/9cf18123d029cca27a4c13eb919c2457ac868268a53f9c88674ed23c62b44bdd.png",
     "otherNightReminder": "如果恶魔杀死了报丧女妖，宣布“报丧女妖觉醒了”，并使用“具有能力”标记报丧女妖。",
     "reminders": [
       "具有能力"
@@ -162,7 +162,7 @@
   },
   {
     "id": "12_guangyinsujian",
-    "image": "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -170,7 +170,7 @@
   },
   {
     "id": "13_guangyinsujian",
-    "image": "/scripts/assets/community/b67b7ff88182c34361e5f0c8f68684f6ed2641148154bf75f5c9aa98229e283d.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/b67b7ff88182c34361e5f0c8f68684f6ed2641148154bf75f5c9aa98229e283d.png",
     "otherNightReminder": "0",
     "reminders": [
       "不会死亡"
@@ -183,7 +183,7 @@
   },
   {
     "id": "14_guangyinsujian",
-    "image": "/scripts/assets/community/d35dec0b499a4e9fe30b7b89e3eef0d2ac66d5bbea44b9220a49b5a6a7011234.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/d35dec0b499a4e9fe30b7b89e3eef0d2ac66d5bbea44b9220a49b5a6a7011234.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -191,7 +191,7 @@
   },
   {
     "id": "15_guangyinsujian",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -204,7 +204,7 @@
   },
   {
     "id": "16_guangyinsujian",
-    "image": "/scripts/assets/community/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -216,7 +216,7 @@
   },
   {
     "id": "17_guangyinsujian",
-    "image": "/scripts/assets/community/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
     "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
     "reminders": [
       "已被猜测"
@@ -229,7 +229,7 @@
   },
   {
     "id": "18_guangyinsujian",
-    "image": "/scripts/assets/community/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
     "otherNightReminder": "如果瘟疫医生死亡，说书人获得一项爪牙能力。",
     "reminders": [
       "说书人能力"
@@ -242,7 +242,7 @@
   },
   {
     "id": "19_guangyinsujian",
-    "image": "/scripts/assets/community/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -250,7 +250,7 @@
   },
   {
     "id": "20_guangyinsujian",
-    "image": "/scripts/assets/community/d42324f8d79e6244f7c203cc13d3373681fda841951d146826b98cafc7bc0ec9.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/d42324f8d79e6244f7c203cc13d3373681fda841951d146826b98cafc7bc0ec9.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -258,7 +258,7 @@
   },
   {
     "id": "21_guangyinsujian",
-    "image": "/scripts/assets/community/62213595118d8da445949f98f6c1b8afcac4d020676079835379776f2cb48825.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/62213595118d8da445949f98f6c1b8afcac4d020676079835379776f2cb48825.png",
     "firstNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。",
     "otherNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。如果他摇头，移除街头风琴手的醉酒标记。",
     "reminders": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "22_guangyinsujian",
-    "image": "/scripts/assets/community/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
     "firstNightReminder": "0",
     "otherNightReminder": "0",
     "reminders": [
@@ -291,7 +291,7 @@
   },
   {
     "id": "23_guangyinsujian",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -304,7 +304,7 @@
   },
   {
     "id": "24_guangyinsujian",
-    "image": "/scripts/assets/community/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
     "otherNightReminder": "决定上一夜被沙巴洛斯选择的玩家是否被反刍。然后唤醒沙巴洛斯，让他攻击两名玩家。",
     "reminders": [
       "死亡",
@@ -318,7 +318,7 @@
   },
   {
     "id": "25_guangyinsujian",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -336,7 +336,7 @@
     "name": "食人族&公主",
     "team": "a jinxed",
     "ability": "如果食人族提名并处决了公主且公主因此死亡，当晚恶魔不会造成死亡。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "edition": "custom"
   },
   {
@@ -344,7 +344,7 @@
     "name": "瘟疫医生&炸弹人",
     "team": "a jinxed",
     "ability": "如果瘟疫医生死于处决且说书人会因此获得炸弹人的能力，那么炸弹人的能力会立即被触发。",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-guang-yin-si-jian-a8318397/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "edition": "custom"
   }
 ]

@@ -23,7 +23,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "决定失忆者的能力。如果失忆者的能力会让他在今晚醒来：唤醒他并执行其能力。",
@@ -40,7 +40,7 @@
     "name_eng": "Amnesiac",
     "firstNight": 12,
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png"
   },
   {
     "firstNightReminder": "",
@@ -58,7 +58,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
@@ -75,7 +75,7 @@
     "name_eng": "Mathematician",
     "firstNight": 51,
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
   },
   {
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
@@ -93,7 +93,7 @@
     "name_eng": "Pixie",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
@@ -113,7 +113,7 @@
     "name_eng": "Philosopher",
     "firstNight": 2,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
   },
   {
     "firstNightReminder": "",
@@ -130,7 +130,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "",
@@ -145,7 +145,7 @@
     "name_eng": "Atheist",
     "firstNight": 0,
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png"
   },
   {
     "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
@@ -163,7 +163,7 @@
     "name_eng": "Alchemist",
     "firstNight": 3,
     "ability": "你拥有一个不在场的爪牙角色的能力。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
   },
   {
     "firstNightReminder": "",
@@ -178,7 +178,7 @@
     "name_eng": "Magician",
     "firstNight": 0,
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
   },
   {
     "firstNightReminder": "不要让恶魔和爪牙相认。",
@@ -195,7 +195,7 @@
     "name_eng": "Poppy Grower",
     "firstNight": 4,
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
   },
   {
     "firstNightReminder": "指向一名邪恶玩家。随后唤醒那名因赏金猎人而转变为邪恶的镇民，并告知他变成了邪恶阵营。",
@@ -213,7 +213,7 @@
     "name_eng": "Bounty Hunter",
     "firstNight": 45,
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -230,7 +230,7 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "firstNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
@@ -247,7 +247,7 @@
     "name_eng": "Butler",
     "firstNight": 38,
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
   },
   {
     "firstNightReminder": "",
@@ -265,7 +265,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "firstNightReminder": "",
@@ -283,7 +283,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
@@ -302,7 +302,7 @@
     "name_eng": "Lunatic",
     "firstNight": 7,
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
   },
   {
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
@@ -320,7 +320,7 @@
     "name_eng": "Marionette",
     "firstNight": 11,
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
   },
   {
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
@@ -337,7 +337,7 @@
     "name_eng": "Cerenovus",
     "firstNight": 25,
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -355,7 +355,7 @@
     "name_eng": "Mezepheles",
     "firstNight": 27,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "",
@@ -370,7 +370,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
@@ -389,7 +389,7 @@
     "name_eng": "Lil' Monsta",
     "firstNight": 16,
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
   },
   {
     "firstNightReminder": "",
@@ -407,7 +407,7 @@
     "name_eng": "Zombuul",
     "firstNight": 0,
     "ability": "每个夜晚*，如果今天白天没有⼈死亡，你会被唤醒并要选择一名玩家：他死亡。当你首次死亡后，你仍存活，但会被当作死亡。",
-    "image": "/scripts/assets/community/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png"
   },
   {
     "firstNightReminder": "",
@@ -425,7 +425,7 @@
     "name_eng": "Legion",
     "firstNight": 0,
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png"
   },
   {
     "firstNightReminder": "",
@@ -442,11 +442,11 @@
     "name_eng": "Vortox",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没⼈被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
   },
   {
     "id": "Apocalypse",
-    "image": "/scripts/assets/community/b353cbab1e72c91f659f6380ba0cb0bfedcc38ff130d84911067187275c24cf0.png",
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/b353cbab1e72c91f659f6380ba0cb0bfedcc38ff130d84911067187275c24cf0.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -471,6 +471,6 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-shuo-shu-ren-zhi-nu-11a5a371/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   }
 ]

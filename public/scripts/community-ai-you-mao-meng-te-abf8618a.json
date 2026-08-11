@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "哎呦!!猫萌特",
     "author": "L Moment",
-    "logo": "/scripts/assets/community/3619ec5d25e2439c24739572c4aa1c5dbe4f107dbf8455a63cca5ed3898ee5ab.png",
+    "logo": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/3619ec5d25e2439c24739572c4aa1c5dbe4f107dbf8455a63cca5ed3898ee5ab.png",
     "status": [
       {
         "name": "萌新小猫",
@@ -20,12 +20,12 @@
     "edition": "custom",
     "team": "fabled",
     "ability": "暴风捕手默认在场，只会宣布保护猫猫探险队，场活小于6人时暴风捕手离场。说书人根据玩家情况宣布是否加入哈迪寂亚和吟游诗人。。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false
   },
   {
     "id": "baofeng222233",
-    "image": "/scripts/assets/community/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
     "name": "暴风捕手",
     "team": "fabled",
     "ability": "游戏开始时，如果猫猫探险队在场，他只能死于处决，但所有邪恶玩家会在首个夜晚得知他是哪一名玩家。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "24_xixixi22",
-    "image": "/scripts/assets/community/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
@@ -44,7 +44,7 @@
   },
   {
     "id": "shengjiezhi1hun",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -56,7 +56,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "flavor": "",
     "id": "chef_c",
@@ -72,7 +72,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "flavor": "",
     "id": "pixie_c",
@@ -91,7 +91,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_c",
@@ -107,7 +107,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snake_charmer_c",
@@ -125,7 +125,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -147,7 +147,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertaker_c",
@@ -165,7 +165,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcist_c",
@@ -183,7 +183,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_c",
@@ -201,7 +201,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "flavor": "",
     "id": "professor_c",
@@ -220,7 +220,7 @@
   },
   {
     "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "flavor": "",
     "id": "alsaahir_c",
@@ -236,7 +236,7 @@
   },
   {
     "ability": "每个白天限一次，没有“探险”过的存活玩家可以公开“探险”：在当晚，如果他存活，你会得知一名与他阵营不同的玩家。",
-    "image": "/scripts/assets/community/fc7b400563c0fd9adca82874ec044112cdb88f47c5d046906f4edb0c58113688.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/fc7b400563c0fd9adca82874ec044112cdb88f47c5d046906f4edb0c58113688.png",
     "edition": "custom",
     "flavor": "",
     "id": "maomaotanxianduiduiduid",
@@ -254,7 +254,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "flavor": "",
     "id": "slayer_c",
@@ -272,7 +272,7 @@
   },
   {
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "flavor": "",
     "id": "tea_lady_c",
@@ -291,7 +291,7 @@
   },
   {
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "flavor": "",
     "id": "minstrel_c",
@@ -309,7 +309,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_c",
@@ -330,7 +330,7 @@
   },
   {
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "flavor": "",
     "id": "puzzlemaster_c",
@@ -349,7 +349,7 @@
   },
   {
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "flavor": "",
     "id": "golem_c",
@@ -367,7 +367,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_c",
@@ -385,7 +385,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "flavor": "",
     "id": "mezepheles_c",
@@ -404,7 +404,7 @@
   },
   {
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "flavor": "",
     "id": "psychopath_c",
@@ -420,7 +420,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_c",
@@ -440,7 +440,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -458,7 +458,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_c",
@@ -476,7 +476,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "flavor": "",
     "id": "al-hadikhia_c",
@@ -501,7 +501,7 @@
     "name": "红唇女郎&哈迪寂亚",
     "team": "A jinxed",
     "ability": "如果出现两名存活的哈迪寂亚，则红唇女郎变成的哈迪寂亚会变回红唇女郎。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ai-you-mao-meng-te-abf8618a/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom"
   }
 ]

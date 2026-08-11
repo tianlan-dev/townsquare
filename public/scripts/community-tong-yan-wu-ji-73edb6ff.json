@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "童言无忌",
     "author": "Aaron",
-    "logo": "/scripts/assets/community/6fd9a109dae513869117dd5cd046b566265dabf13ae862507b875ee936128c42.png",
+    "logo": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/6fd9a109dae513869117dd5cd046b566265dabf13ae862507b875ee936128c42.png",
     "townsfolk": "镇民",
     "townsfolkName": "镇民",
     "state": [
@@ -28,7 +28,7 @@
     "team": "fabled",
     "id": "bootleggerc73edb6ff",
     "ability": "这个剧本包含有自制角色或自制规则。",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "imageAlt": "bootlegger"
   },
@@ -48,7 +48,7 @@
     "team": "townsfolk",
     "name_eng": "Village Idiot",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
   },
   {
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
@@ -67,7 +67,7 @@
     "team": "townsfolk",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
@@ -86,7 +86,7 @@
     "name_eng": "Grandmother",
     "firstNight": 39,
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -104,11 +104,11 @@
     "name_eng": "Fortune Teller",
     "firstNight": 37,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_61",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhongbutton",
@@ -156,7 +156,7 @@
     "team": "townsfolk",
     "firstNight": 12,
     "ability": "每个夜晚，你要选择一个镇民角色：他的能力会产生错误信息，直到下个黄昏。",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png"
   },
   {
     "firstNightReminder": "",
@@ -174,7 +174,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他在下个黄昏前即将死亡，你代替他死亡。",
-    "image": "/scripts/assets/community/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png"
   },
   {
     "firstNightReminder": "",
@@ -192,7 +192,7 @@
     "team": "townsfolk",
     "firstNight": 0,
     "ability": "每个白天，你可以公开发表一个玩笑话。每局游戏限一次，你的玩笑话可能会被说书人实现。",
-    "image": "/scripts/assets/community/2df5758de7cc2feae722c6a4b86fb3bc80ae2f2cec9a0e89eabcf395c906a843.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/2df5758de7cc2feae722c6a4b86fb3bc80ae2f2cec9a0e89eabcf395c906a843.png"
   },
   {
     "firstNightReminder": "",
@@ -208,11 +208,11 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
-    "image": "/scripts/assets/community/da776493de58db09d437973abaab14e38c386c50f696c1c980e24a4b6636e8f9.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/da776493de58db09d437973abaab14e38c386c50f696c1c980e24a4b6636e8f9.png",
     "edition": "custom",
     "flavor": "",
     "id": "geling1",
@@ -246,7 +246,7 @@
     "name_eng": "Gossip",
     "firstNight": 0,
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png"
   },
   {
     "firstNightReminder": "",
@@ -264,7 +264,7 @@
     "name_eng": "Artist",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书⼈一个是非问题，你会得知该问题的答案。",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png"
   },
   {
     "firstNightReminder": "",
@@ -283,10 +283,10 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "name": "入殓师",
     "team": "outsider",
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -320,11 +320,11 @@
     "team": "outsider",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "ability": "每个夜晚限一次，所有玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
-    "image": "/scripts/assets/community/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6861",
@@ -356,7 +356,7 @@
     "team": "minion",
     "firstNight": 11,
     "ability": "在你的首个夜晚，你会得知一个关键词：当有邪恶玩家首次说出该关键词时，所有善良玩家中毒直至下个黎明，即使你已死亡。[-1外来者]",
-    "image": "/scripts/assets/community/0a9570652d5df28c9f6ba1e57fe97cea0ef34c2449740b437262523c4f7de88c.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/0a9570652d5df28c9f6ba1e57fe97cea0ef34c2449740b437262523c4f7de88c.png"
   },
   {
     "firstNightReminder": "告诉判官他的判词。",
@@ -374,7 +374,7 @@
     "team": "minion",
     "firstNight": 19,
     "ability": "在你的首个夜晚，你会得知一个关键词。在白天时（最后一天除外）有邪恶玩家首次说出该关键词会使得当前白天阶段立即结束。",
-    "image": "/scripts/assets/community/1dd0ecb75ff05735371743f3ff73298f497b999847d49ba0c14e131f7b2f898a.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/1dd0ecb75ff05735371743f3ff73298f497b999847d49ba0c14e131f7b2f898a.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -393,7 +393,7 @@
     "team": "minion",
     "firstNight": 26,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "",
@@ -411,7 +411,7 @@
     "team": "minion",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "firstNightReminder": "",
@@ -430,7 +430,7 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "firstNightReminder": "",
@@ -450,7 +450,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个会被这种能力杀死的外来者改为变成一个邪恶的方古且你代替他死亡。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
@@ -467,12 +467,12 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 28,
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "imageAlt": "yaggababble"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-tong-yan-wu-ji-73edb6ff/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "edition": "custom",
     "flavor": "",
     "id": "kazalic73edb6ff",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "犹格斯真菌",
     "author": "SE",
-    "logo": "/scripts/assets/community/cb91610e39b12a5b88365e5a8762eddb08c24d20c93de8b494272bfd190a6a3a.png",
+    "logo": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/cb91610e39b12a5b88365e5a8762eddb08c24d20c93de8b494272bfd190a6a3a.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "26_daoluyimu",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -27,7 +27,7 @@
   },
   {
     "id": "27_daoluyimu",
-    "image": "/scripts/assets/community/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png",
     "firstNightReminder": "唤醒钦天监，对他指向对应方向来告知他最近的邪恶玩家的方向。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -37,7 +37,7 @@
   },
   {
     "id": "28_daoluyimu",
-    "image": "/scripts/assets/community/2a403667ea0c17b12c99e8afd4aa57ce694372b9a17229cb38d4617f7b27e2e1.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/2a403667ea0c17b12c99e8afd4aa57ce694372b9a17229cb38d4617f7b27e2e1.png",
     "firstNightReminder": "在首个夜晚，唤醒调音师。对他展示一个外来者角色和一个爪牙角色，这两个角色需要满足其中一个在场而另一个不在场的条件。",
     "name": "调音师",
     "team": "townsfolk",
@@ -47,7 +47,7 @@
   },
   {
     "id": "29_daoluyimu",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -62,7 +62,7 @@
   },
   {
     "id": "30_daoluyimu",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -74,7 +74,7 @@
   },
   {
     "id": "31_daoluyimu",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -88,7 +88,7 @@
   },
   {
     "id": "32_daoluyimu",
-    "image": "/scripts/assets/community/32c8cc7f114574605f51eb31cc725c961490930f700ab289f9b22754887824bd.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/32c8cc7f114574605f51eb31cc725c961490930f700ab289f9b22754887824bd.png",
     "firstNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "otherNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "name": "引路人",
@@ -100,7 +100,7 @@
   },
   {
     "id": "33_daoluyimu",
-    "image": "/scripts/assets/community/b58f5b2055cbe21d7b40ad2724d7636b9a615658d9d43c2a2e76182ecdf5911a.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/b58f5b2055cbe21d7b40ad2724d7636b9a615658d9d43c2a2e76182ecdf5911a.png",
     "otherNightReminder": "在六扇门提名时，在对应的玩家标记旁放置“追查”标记。在夜晚时，唤醒六扇门，用点头和摇头来示意与有“追查”标记邻近的玩家中是否存在非镇民玩家。",
     "reminders": [
       "追查"
@@ -113,7 +113,7 @@
   },
   {
     "id": "34_daoluyimu",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -126,7 +126,7 @@
   },
   {
     "id": "35_daoluyimu",
-    "image": "/scripts/assets/community/074b2f344c34340be15ad0d914132ddcaafa21b2b598492ff8624d6d3f024409.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/074b2f344c34340be15ad0d914132ddcaafa21b2b598492ff8624d6d3f024409.png",
     "otherNightReminder": "如果“探险者”存活，告知猫猫探险队一名与“探险者”阵营相同的玩家。",
     "reminders": [
       "探险者"
@@ -139,7 +139,7 @@
   },
   {
     "id": "36_daoluyimu",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -152,7 +152,7 @@
   },
   {
     "id": "37_daoluyimu",
-    "image": "/scripts/assets/community/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "38_daoluyimu",
-    "image": "/scripts/assets/community/d55562186541c20c03d19dae17fa80fdf9f209db787e3b566f86d941695e00fc.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/d55562186541c20c03d19dae17fa80fdf9f209db787e3b566f86d941695e00fc.png",
     "otherNightReminder": "如果死亡唤醒他，告知他所有类型的玩家（除旅行者）各一名。如果他被标记了“醉酒”，你可以告知他错误信息。",
     "reminders": [
       "被得知",
@@ -174,7 +174,7 @@
   },
   {
     "id": "39_daoluyimu",
-    "image": "/scripts/assets/community/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -187,7 +187,7 @@
   },
   {
     "id": "40_daoluyimu",
-    "image": "/scripts/assets/community/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "1_daoluyimu",
-    "image": "/scripts/assets/community/c03d71a5c0905d8a0e8fd01119bac0f65da49c64a9b0e5aa7f04f268d65c4eb6.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/c03d71a5c0905d8a0e8fd01119bac0f65da49c64a9b0e5aa7f04f268d65c4eb6.png",
     "remindersGlobal": [
       "是唠叨者",
       "修改现实"
@@ -207,7 +207,7 @@
   },
   {
     "id": "2_daoluyimu",
-    "image": "/scripts/assets/community/9b1183a7fda107610d7c96badf53f344974c4d4443adacfb0837ee5b0b3cbcb4.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/9b1183a7fda107610d7c96badf53f344974c4d4443adacfb0837ee5b0b3cbcb4.png",
     "firstNightReminder": "告诉一名善良玩家：梦游者在场。",
     "remindersGlobal": [
       "是梦游者",
@@ -222,7 +222,7 @@
   },
   {
     "id": "migo1_daoluyimu",
-    "image": "/scripts/assets/community/9d91217fb7c72599b6182424ccbc38fe01ffd422a4a9f4dd12e03ca44b7b1b77.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/9d91217fb7c72599b6182424ccbc38fe01ffd422a4a9f4dd12e03ca44b7b1b77.png",
     "otherNightReminder": "说书人放置一个“沉默”标记到一名说书人认为最沉默的玩家身上，随后唤醒米·戈，让他选择一个玩家和一个角色，如果猜测正确，放置“中毒”标记到猜测正确的玩家身上。如果那名玩家被说书人放置了“沉默”标记，不管猜测是否正确，他死亡，移除沉默标记替换成“死亡”标记。",
     "reminders": [
       "沉默",
@@ -238,7 +238,7 @@
   },
   {
     "id": "43_daoluyimu",
-    "image": "/scripts/assets/community/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png",
     "firstNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "otherNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "reminders": [
@@ -254,7 +254,7 @@
   },
   {
     "id": "_daoluyimu",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "44_daoluyimu",
-    "image": "/scripts/assets/community/cbed38e08b15af3674a86c79ec6a6f71f13372ecc7f0ba5ff2c9dcfc4760803e.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/cbed38e08b15af3674a86c79ec6a6f71f13372ecc7f0ba5ff2c9dcfc4760803e.png",
     "firstNightReminder": "让妖猫选择一名玩家，给被选中的玩家放置喵标记，告知被选中的玩家发言只能是“喵喵喵”直至下个黄昏。",
     "otherNightReminder": "让妖猫选择一名玩家，给被选中的玩家放置喵标记，告知被选中的玩家发言只能是“喵喵喵”直至下个黄昏。",
     "reminders": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "45_daoluyimu",
-    "image": "/scripts/assets/community/50650202cf3259cc20370d09bd3bd6b3d67cae349f11756fba85361666c38fba.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/50650202cf3259cc20370d09bd3bd6b3d67cae349f11756fba85361666c38fba.png",
     "firstNightReminder": "唤醒双头巨人，让他选择一名玩家，将他选择的玩家变为邪恶的双头巨人，并让2名双头巨人互认。如果双头巨人选中一名爪牙或者恶魔，你可以让他重新选择。",
     "otherNightReminder": "如果一名双头巨人已经死亡，标记所有其他双头巨人死亡。",
     "reminders": [
@@ -303,7 +303,7 @@
   },
   {
     "id": "46_daoluyimu",
-    "image": "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -319,7 +319,7 @@
   },
   {
     "id": "48_daoluyimu",
-    "image": "/scripts/assets/community/711618f890a6af8ed00a42629ab30447f2fa800aae53cfb95a01f21d64525a63.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/711618f890a6af8ed00a42629ab30447f2fa800aae53cfb95a01f21d64525a63.png",
     "otherNightReminder": "让亚瑟王选择一名玩家。标记那名玩家死亡。如果他是爪牙且可以被亚瑟王杀死，为他放置“王车易位”标记然后为亚瑟王和爪牙交换角色且会有2名玩家代替他死亡。",
     "reminders": [
       "死亡",
@@ -333,7 +333,7 @@
   },
   {
     "id": "49_daoluyimu",
-    "image": "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
     "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
     "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
     "reminders": [
@@ -348,7 +348,7 @@
   },
   {
     "id": "50_daoluyimu",
-    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
     "name": "利益熏心的圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名，当场是只剩下一名存活的邪恶玩家时，政客可以无视圣洁之魂的效果。",
@@ -356,7 +356,7 @@
   },
   {
     "id": "ke1_daoluyimu",
-    "image": "/scripts/assets/community/ac4844a35c43ddcc624b4c28ae1b3715c93aca12be7dc36ab8d733f0e057b7e5.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/ac4844a35c43ddcc624b4c28ae1b3715c93aca12be7dc36ab8d733f0e057b7e5.png",
     "name": "K·E",
     "team": "fabled",
     "ability": "被“疯狂”和妖猫选择的玩家更容易被说书人认为是沉默的。",
@@ -402,7 +402,7 @@
     "name": "侍女&引路人",
     "team": "a jinxed",
     "ability": "侍女会得知引路人是否醒来，即使她是在引路人之前醒来。",
-    "image": "/scripts/assets/community/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
+    "image": "/scripts/assets/community-you-ge-si-zhen-jun-48a475ae/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
     "edition": "custom"
   }
 ]

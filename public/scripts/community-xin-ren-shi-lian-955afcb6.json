@@ -1,6 +1,6 @@
 [
   {
-    "logo": "/scripts/assets/community/5ce754a25fbabcf12996c3a771b460c5cf7ffa66c51b58504d53de292438e528.png",
+    "logo": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/5ce754a25fbabcf12996c3a771b460c5cf7ffa66c51b58504d53de292438e528.png",
     "description": "朋友游戏体验剧本",
     "author": "Lei.",
     "id": "_meta",
@@ -25,7 +25,7 @@
     "name_eng": "Ravenkeeper",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
   },
   {
     "firstNightReminder": "",
@@ -43,7 +43,7 @@
     "name_eng": "Professor",
     "firstNight": 0,
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png"
   },
   {
     "firstNightReminder": "展示给炼金术士一个爪牙的角色标记。",
@@ -61,7 +61,7 @@
     "name_eng": "Alchemist",
     "firstNight": 3,
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
   },
   {
     "firstNightReminder": "唤醒女祭司，指向一名玩家。让女祭司重新入睡。",
@@ -76,7 +76,7 @@
     "name_eng": "High Priestess",
     "firstNight": 48,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "firstNightReminder": "不要让恶魔和爪牙相认。",
@@ -93,11 +93,11 @@
     "name_eng": "Poppy Grower",
     "firstNight": 4,
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
   },
   {
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
-    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_38",
@@ -116,7 +116,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人并得知一条正确信息。如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1或-0外来者]",
-    "image": "/scripts/assets/community/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
     "edition": "custom",
     "flavor": "",
     "id": "oc1",
@@ -148,7 +148,7 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
@@ -166,7 +166,7 @@
     "name_eng": "Librarian",
     "firstNight": 33,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png"
   },
   {
     "firstNightReminder": "",
@@ -183,7 +183,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "",
@@ -201,7 +201,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。",
@@ -219,7 +219,7 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "firstNightReminder": "",
@@ -236,7 +236,7 @@
     "name_eng": "Juggler",
     "firstNight": 0,
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
   },
   {
     "firstNightReminder": "",
@@ -254,11 +254,11 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunaticButton",
@@ -291,7 +291,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "firstNightReminder": "",
@@ -308,7 +308,7 @@
     "name_eng": "Golem",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "firstNightReminder": "",
@@ -325,7 +325,7 @@
     "name_eng": "Plague Doctor",
     "firstNight": 0,
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png"
   },
   {
     "firstNightReminder": "",
@@ -340,7 +340,7 @@
     "name_eng": "Baron",
     "firstNight": 0,
     "ability": "会有额外的外来者在场。[+2 外来者]",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -358,7 +358,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 27,
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
   },
   {
     "firstNightReminder": "",
@@ -373,7 +373,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "firstNightReminder": "",
@@ -391,7 +391,7 @@
     "team": "minion",
     "name_eng": "Organ Grinder",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒直到下个黄昏。",
-    "image": "/scripts/assets/community/41691f9495786526ad731ad092ba57a36fafcea000d054e041b6265941128468.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/41691f9495786526ad731ad092ba57a36fafcea000d054e041b6265941128468.png"
   },
   {
     "firstNightReminder": "",
@@ -406,7 +406,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "",
@@ -424,7 +424,7 @@
     "name_eng": "Shabaloth",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png"
   },
   {
     "firstNightReminder": "",
@@ -438,7 +438,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "firstNightReminder": "",
@@ -457,11 +457,11 @@
     "name_eng": "Friends",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择两名玩家，他们会被分别唤醒并要选择一名玩家：随后，他们中没有被对方选中的玩家会死亡。",
-    "image": "/scripts/assets/community/5e7d4ce24ef3c499b1d215a27b39639b8c93dba7cc549b4d18c3956a9b9391c0.png"
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/5e7d4ce24ef3c499b1d215a27b39639b8c93dba7cc549b4d18c3956a9b9391c0.png"
   },
   {
     "id": "btl",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "name": "私货商人",
     "ability": "这个剧本包含有自制角色或自制规则。",
     "team": "fabled",
@@ -475,7 +475,7 @@
     "name": "炼金术士&街头风琴手",
     "team": "A jinxed",
     "ability": "如果炼金术士获得街头风琴手的能力，街头风琴手一定在场。如果炼金术士和街头风琴手都是清醒的，改为他们都醉酒。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom"
   },
   {
@@ -483,7 +483,7 @@
     "name": "食人族&杂耍艺人",
     "team": "A jinxed",
     "ability": "如果杂耍艺人在自己的首个白天猜测后在当天死于处决，当晚食人族会替杂耍艺人得知对应的信息。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom"
   },
   {
@@ -491,7 +491,7 @@
     "name": "食人族&罂粟种植者",
     "team": "A jinxed",
     "ability": "如果食人族获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom"
   },
   {
@@ -499,7 +499,7 @@
     "name": "瘟疫医生&男爵",
     "team": "A jinxed",
     "ability": "如果说书人获得了男爵的能力，至多两名玩家会变成不在场的外来者。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom"
   },
   {
@@ -507,7 +507,7 @@
     "name": "瘟疫医生&狐媚娘",
     "team": "A jinxed",
     "ability": "如果瘟疫医生死亡且说书人会因此获得狐媚娘的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-xin-ren-shi-lian-955afcb6/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom"
   }
 ]

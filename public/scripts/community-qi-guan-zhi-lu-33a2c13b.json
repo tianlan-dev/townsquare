@@ -4,7 +4,7 @@
     "name": "器官之旅",
     "author": "Lilith",
     "almanac": "https://www.bloodstar.xyz/p/Lilith/The_Organ_Trail/almanac.html",
-    "logo": "/scripts/assets/community/dcc30f49463b43d241aaf9226f6278b23824a67e9aa4685ab1c20c30286aca31.png",
+    "logo": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/dcc30f49463b43d241aaf9226f6278b23824a67e9aa4685ab1c20c30286aca31.png",
     "tags": [
       "全原创角色剧本",
       "海外"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_the_organ_trail_zh",
-    "image": "/scripts/assets/community/56c4fc7d54eba767e9d99cf49ecaa299d8793132ab510dfaa97834abcee25362.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/56c4fc7d54eba767e9d99cf49ecaa299d8793132ab510dfaa97834abcee25362.png",
     "firstNightReminder": "展示一条关于恶魔的信息。",
     "otherNightReminder": "如果科学家得知的信息是正确的，标记科学家死亡。",
     "reminders": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_the_organ_trail_zh",
-    "image": "/scripts/assets/community/f8f5e9eff70eb20660cd26037b190f9c9b3b748a7be9cdb8bb0b04e3544f4ca4.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/f8f5e9eff70eb20660cd26037b190f9c9b3b748a7be9cdb8bb0b04e3544f4ca4.png",
     "firstNightReminder": "标记两名善良玩家得知，指向这两名玩家。",
     "otherNightReminder": "如果侍僧死亡，标记标有得知的玩家死亡。",
     "reminders": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "9_the_organ_trail_zh",
-    "image": "/scripts/assets/community/b3410caff0501c874b8a041c21ea9e3aebdc7067939eee62a057ecb2da91f032.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/b3410caff0501c874b8a041c21ea9e3aebdc7067939eee62a057ecb2da91f032.png",
     "firstNightReminder": "标记一名玩家为情人，指向该玩家。",
     "otherNightReminder": "如果情人本应死亡，但因浪漫主义者的能力没有死亡，标记另一名玩家为情人，唤醒浪漫主义者，指向该玩家。",
     "reminders": [
@@ -59,7 +59,7 @@
   },
   {
     "id": "8_the_organ_trail_zh",
-    "image": "/scripts/assets/community/d431af17515aec461d9c723f9c5df56c9815b31622317f2e7823aa2f7ff051b7.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/d431af17515aec461d9c723f9c5df56c9815b31622317f2e7823aa2f7ff051b7.png",
     "firstNightReminder": "让守卫除自己以外的一名玩家：标记该玩家守护。",
     "otherNightReminder": "让守卫除自己以外的一名玩家（与上个夜晚不同）：标记该玩家守护。",
     "reminders": [
@@ -74,7 +74,7 @@
   },
   {
     "id": "2_the_organ_trail_zh",
-    "image": "/scripts/assets/community/0c4f31a918b672f04a7d39fa218e70fd20b859727fc3e0079cc039c944f519bc.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/0c4f31a918b672f04a7d39fa218e70fd20b859727fc3e0079cc039c944f519bc.png",
     "otherNightReminder": "让通灵者选择一名玩家，标记该玩家被选择，如果该玩家在当晚死亡，唤醒通灵者，展示数字手势来告诉通灵者与该玩家邻近的两名存活的玩家中邪恶玩家的数量。",
     "reminders": [
       "被选择"
@@ -87,7 +87,7 @@
   },
   {
     "id": "3_the_organ_trail_zh",
-    "image": "/scripts/assets/community/a25ae9ce022b31b2990af07bb549ff4195fcb66bd00c674bb7a66ae5c4d5dbd7.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/a25ae9ce022b31b2990af07bb549ff4195fcb66bd00c674bb7a66ae5c4d5dbd7.png",
     "otherNightReminder": "怪物猎人可以选择一个爪牙角色。如果他这么做了，标记他死亡。如果他以这种方式死亡，标记他选择的爪牙角色死亡。",
     "reminders": [
       "死亡"
@@ -100,7 +100,7 @@
   },
   {
     "id": "4_the_organ_trail_zh",
-    "image": "/scripts/assets/community/78986a661441fe34dd1993dcb114a4854a7b1a791121c59e58c3f0f27c34911f.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/78986a661441fe34dd1993dcb114a4854a7b1a791121c59e58c3f0f27c34911f.png",
     "otherNightReminder": "展示一个是非问题，让考古学家点头或摇头示意这个问题的答案，如果考古学家答错了，标记一名玩家死亡。",
     "reminders": [
       "一名玩家死亡"
@@ -113,7 +113,7 @@
   },
   {
     "id": "5_the_organ_trail_zh",
-    "image": "/scripts/assets/community/c6658f7d97fdd6eef677c7f9c36b648bc1860933c969533eca2a5601ce8c56e9.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/c6658f7d97fdd6eef677c7f9c36b648bc1860933c969533eca2a5601ce8c56e9.png",
     "otherNightReminder": "让术士选择三名玩家：如果其中有且只有一名邪恶玩家，标记术士死亡。",
     "reminders": [
       "选择",
@@ -128,7 +128,7 @@
   },
   {
     "id": "6_the_organ_trail_zh",
-    "image": "/scripts/assets/community/a0957dfa5fe9832ef02e9bd381cb5296c045a33455e8f2b9b5f100cb550ccf32.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/a0957dfa5fe9832ef02e9bd381cb5296c045a33455e8f2b9b5f100cb550ccf32.png",
     "otherNightReminder": "标记标有明晚死亡的玩家死亡。灵媒可以选择一名死亡的玩家。如果他这么做了，标记灵媒失去能力，标记该玩家复活，如果该玩家不是镇民，标记该玩家明晚死亡。之后的夜晚无需再唤醒灵媒。",
     "reminders": [
       "选择",
@@ -144,7 +144,7 @@
   },
   {
     "id": "7_the_organ_trail_zh",
-    "image": "/scripts/assets/community/93168daf1c184f1eade863ddaff2e9816004b64bed848fb125f065e24c3e6874.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/93168daf1c184f1eade863ddaff2e9816004b64bed848fb125f065e24c3e6874.png",
     "reminders": [
       "死亡",
       "复活"
@@ -156,7 +156,7 @@
   },
   {
     "id": "10_the_organ_trail_zh",
-    "image": "/scripts/assets/community/949788e17cdec0102574a9a5d4584073b1414930b404c1f651873dc2c214d473.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/949788e17cdec0102574a9a5d4584073b1414930b404c1f651873dc2c214d473.png",
     "reminders": [
       "被提名",
       "醉酒"
@@ -168,7 +168,7 @@
   },
   {
     "id": "11_the_organ_trail_zh",
-    "image": "/scripts/assets/community/188a321661409bf49309fb6bae4e3ee3880a23e3935c9443572150ac716ea032.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/188a321661409bf49309fb6bae4e3ee3880a23e3935c9443572150ac716ea032.png",
     "reminders": [
       "获得能力",
       "中毒"
@@ -180,7 +180,7 @@
   },
   {
     "id": "12_the_organ_trail_zh",
-    "image": "/scripts/assets/community/e049286019b3fcc0eecea151479179a5722b52ac682a925f843de4023cdfaaf1.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/e049286019b3fcc0eecea151479179a5722b52ac682a925f843de4023cdfaaf1.png",
     "reminders": [
       "处决不死"
     ],
@@ -191,7 +191,7 @@
   },
   {
     "id": "16_the_organ_trail_zh",
-    "image": "/scripts/assets/community/4e8c40b164cd536d2533c92830b0aa9981439edcc361cbc829424c5624caff9f.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/4e8c40b164cd536d2533c92830b0aa9981439edcc361cbc829424c5624caff9f.png",
     "remindersGlobal": [
       "是谵妄者"
     ],
@@ -203,7 +203,7 @@
   },
   {
     "id": "13_the_organ_trail_zh",
-    "image": "/scripts/assets/community/e11a2cdc2494f4419b7eca30241382f9433447229d0793cca724a905244bffbb.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/e11a2cdc2494f4419b7eca30241382f9433447229d0793cca724a905244bffbb.png",
     "firstNightReminder": "让水手选择除自己以外的一名存活的玩家：标记那名玩家或水手醉酒。",
     "otherNightReminder": "让水手选择除自己以外的一名存活的玩家：标记那名玩家或水手醉酒。",
     "reminders": [
@@ -218,7 +218,7 @@
   },
   {
     "id": "14_the_organ_trail_zh",
-    "image": "/scripts/assets/community/15cdc0576f15ddf66a003d73d078cda76f8f009d375b8d7fd3235fe01694f032.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/15cdc0576f15ddf66a003d73d078cda76f8f009d375b8d7fd3235fe01694f032.png",
     "reminders": [
       "代替死亡"
     ],
@@ -229,7 +229,7 @@
   },
   {
     "id": "15_the_organ_trail_zh",
-    "image": "/scripts/assets/community/8973c1df685f7db95bd0ab2a84117d3795d3f7e7fc5ecde55256b853beb6c064.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/8973c1df685f7db95bd0ab2a84117d3795d3f7e7fc5ecde55256b853beb6c064.png",
     "reminders": [
       "被处决"
     ],
@@ -240,7 +240,7 @@
   },
   {
     "id": "17_the_organ_trail_zh",
-    "image": "/scripts/assets/community/749a5b44941017ffd038e2c39f4420aa87fda1fbcae0e8c1bb04d0c9ae5d3e87.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/749a5b44941017ffd038e2c39f4420aa87fda1fbcae0e8c1bb04d0c9ae5d3e87.png",
     "reminders": [
       "首亡不死"
     ],
@@ -252,7 +252,7 @@
   },
   {
     "id": "18_the_organ_trail_zh",
-    "image": "/scripts/assets/community/f2b4d2cc00263863eac8b0b8e3ac686b55f1dd86cd47995a62c9aba36fd7fc50.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/f2b4d2cc00263863eac8b0b8e3ac686b55f1dd86cd47995a62c9aba36fd7fc50.png",
     "reminders": [
       "中毒"
     ],
@@ -263,7 +263,7 @@
   },
   {
     "id": "19_the_organ_trail_zh",
-    "image": "/scripts/assets/community/25ae45d4dfcbbe11aba7a432e51bdd58a717f67b95a93994a188cac647d73fb5.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/25ae45d4dfcbbe11aba7a432e51bdd58a717f67b95a93994a188cac647d73fb5.png",
     "otherNightReminder": "死灵法师可以选择除恶魔以外的一名死亡的玩家。如果他这么做了，标记死灵法师失去能力，标记该玩家复活，如果该玩家是外来者，唤醒该玩家，用拇指向下代表他阵营变为邪恶。",
     "reminders": [
       "复活",
@@ -277,7 +277,7 @@
   },
   {
     "id": "20_the_organ_trail_zh",
-    "image": "/scripts/assets/community/884b98116e0b089b72e178723baa1a9a67f12e362e736fd9b98ec6030d7d8cc6.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/884b98116e0b089b72e178723baa1a9a67f12e362e736fd9b98ec6030d7d8cc6.png",
     "otherNightReminder": "雇佣兵可以选择一名玩家：如果该玩家在今天白天提名了邪恶玩家，标记该玩家死亡。",
     "reminders": [
       "提名后死亡",
@@ -291,7 +291,7 @@
   },
   {
     "id": "21_the_organ_trail_zh",
-    "image": "/scripts/assets/community/923ba60225c5e1144309cc8255bc19bf8df7f1a8eeb2f3590d1bd2d1b01a8b18.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/923ba60225c5e1144309cc8255bc19bf8df7f1a8eeb2f3590d1bd2d1b01a8b18.png",
     "otherNightReminder": "展示数字手势来告诉拉克沙萨他要选择的玩家数量（1+拉克沙萨标有的食人标记数量），让拉克沙萨选择相应数量的玩家：标记这些玩家死亡。拉克沙萨每杀死一名外来者，放置一个食人标记。",
     "reminders": [
       "选择",
@@ -306,7 +306,7 @@
   },
   {
     "id": "22_the_organ_trail_zh",
-    "image": "/scripts/assets/community/daad2f0c730b09a4c8da40e5b0c75ecb3743f6f3a5b628b7bf5508ae29cfa37b.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/daad2f0c730b09a4c8da40e5b0c75ecb3743f6f3a5b628b7bf5508ae29cfa37b.png",
     "firstNightReminder": "让纳利斯之喉选择一名玩家：标记该玩家被选择。",
     "otherNightReminder": "让纳利斯之喉选择一名玩家：标记该玩家被选择。标记上个被纳利斯之喉选中的玩家死亡，如果他已在今天白天死亡，标记两名玩家死亡。",
     "reminders": [
@@ -323,7 +323,7 @@
   },
   {
     "id": "23_the_organ_trail_zh",
-    "image": "/scripts/assets/community/8da3e19761c971e33e751eccc1c4dfd02e8c8b65c47a7a540bafacdc9a859a08.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/8da3e19761c971e33e751eccc1c4dfd02e8c8b65c47a7a540bafacdc9a859a08.png",
     "otherNightReminder": "让肠系魔选择一名玩家：如果该玩家已死亡，标记该玩家复活，否则标记该玩家死亡。",
     "reminders": [
       "选择",
@@ -337,7 +337,7 @@
   },
   {
     "id": "24_the_organ_trail_zh",
-    "image": "/scripts/assets/community/f32b5093fb1cec8e47bca61613420c959219129b7405d8b6f41f1c221dd332ff.png",
+    "image": "/scripts/assets/community-qi-guan-zhi-lu-33a2c13b/f32b5093fb1cec8e47bca61613420c959219129b7405d8b6f41f1c221dd332ff.png",
     "firstNightReminder": "让别西格鲁夫选择除自己以外的两名玩家：标记这些玩家处决不死。",
     "otherNightReminder": "标记别西格鲁夫上个夜晚选择过的玩家（标有处决不死的玩家）死亡。让别西卜选择除自己以外的两名玩家：标记这些玩家处决不死。",
     "reminders": [

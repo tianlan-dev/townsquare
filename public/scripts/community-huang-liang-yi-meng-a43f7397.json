@@ -25,7 +25,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 49,
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -41,7 +41,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 43,
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
   },
   {
     "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
@@ -59,7 +59,7 @@
     "name_eng": "Grandmother",
     "firstNight": 39,
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png"
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -75,7 +75,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 35,
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -92,7 +92,7 @@
     "name_eng": "Fortune Teller",
     "firstNight": 37,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
@@ -107,11 +107,11 @@
     "name_eng": "Dreamer",
     "firstNight": 41,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6838",
@@ -144,7 +144,7 @@
     "name_eng": "Innkeeper",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png"
   },
   {
     "firstNightReminder": "",
@@ -159,7 +159,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -176,7 +176,7 @@
     "name_eng": "Gambler",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
   },
   {
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -196,7 +196,7 @@
     ],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png"
   },
   {
     "firstNightReminder": "",
@@ -211,7 +211,7 @@
     "name_eng": "Ravenkeeper",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
   },
   {
     "firstNightReminder": "",
@@ -229,7 +229,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择了你或对你产生了影响，在该效果生效前你会变成一个不在场的镇民角色。",
@@ -247,7 +247,7 @@
     ],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png"
   },
   {
     "firstNightReminder": "",
@@ -265,7 +265,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -282,7 +282,7 @@
     "name_eng": "Goon",
     "firstNight": 0,
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png"
   },
   {
     "firstNightReminder": "",
@@ -299,7 +299,7 @@
     "name_eng": "Golem",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "firstNightReminder": "",
@@ -314,7 +314,7 @@
     "name_eng": "Klutz",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
   },
   {
     "firstNightReminder": "",
@@ -329,7 +329,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "ability": "每个夜晚，你要选择一个善良角色并给出相应的信息形式：该角色通过自身能力获取信息时，改为得知你给出的信息，直到下个黄昏。[-1外来者]",
@@ -347,7 +347,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 18,
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png"
   },
   {
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
@@ -364,7 +364,7 @@
     "name_eng": "Cerenovus",
     "firstNight": 25,
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
   },
   {
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
@@ -382,7 +382,7 @@
     "name_eng": "Marionette",
     "firstNight": 11,
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
   },
   {
     "firstNightReminder": "",
@@ -403,7 +403,7 @@
     "name_eng": "Al-Hadikhia",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png"
   },
   {
     "firstNightReminder": "",
@@ -421,7 +421,7 @@
     "name_eng": "Po",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
   },
   {
     "firstNightReminder": "",
@@ -441,7 +441,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-huang-liang-yi-meng-a43f7397/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "id": "_rumeng",

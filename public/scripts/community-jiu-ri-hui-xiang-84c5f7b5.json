@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "旧日回响",
     "author": "Wingidon(Toast)",
-    "logo": "/scripts/assets/community/83e74566da0377f6a0eff379d052a173d9358b7c0725e5324eacdd2095be06f2.png",
+    "logo": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/83e74566da0377f6a0eff379d052a173d9358b7c0725e5324eacdd2095be06f2.png",
     "almanac": "https://www.bloodstar.xyz/p/Wingidon/Echoes_Of_The_Past/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "diplomat1_echoes_of_the_past",
-    "image": "/scripts/assets/community/dc63abd3a51c087c89b55b6892c113a9af5b6e0b173891760a4c5b6158ff5fec.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/dc63abd3a51c087c89b55b6892c113a9af5b6e0b173891760a4c5b6158ff5fec.png",
     "firstNightReminder": "Wake the Diplomat and tell them the shortest distance from an Outsider to a Minion, or shake your head \"no\" if no Outsiders are in-play. Then, put the Diplomat to sleep.",
     "reminders": [
       "得知外来者",
@@ -30,7 +30,7 @@
   },
   {
     "id": "historian_echoes_of_the_past",
-    "image": "/scripts/assets/community/a652d82e5938b0fd22c5cbf5db2623205893dea9399da225692e33880b40813c.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/a652d82e5938b0fd22c5cbf5db2623205893dea9399da225692e33880b40813c.png",
     "firstNightReminder": "Wake the Historian & show them 3 characters in any order. Exactly 1 is in-play, the other 2 are out-of-play. Then, put the Historian to sleep.",
     "name": "历史学家",
     "team": "townsfolk",
@@ -41,7 +41,7 @@
   },
   {
     "id": "squire1_echoes_of_the_past",
-    "image": "/scripts/assets/community/4272cd9e04cb8830cebbd2ee8f75de57a666f413ff55b68d29d75bb5be83664d.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/4272cd9e04cb8830cebbd2ee8f75de57a666f413ff55b68d29d75bb5be83664d.png",
     "firstNightReminder": "Wake the Squire & show them an in-play character token. Give them a finger signal for how many steps away from the nearest Minion it is. Then, put the Squire to sleep.",
     "reminders": [
       "得知"
@@ -55,7 +55,7 @@
   },
   {
     "id": "advocate_echoes_of_the_past",
-    "image": "/scripts/assets/community/16cbc43478e89c248a9500df292e68e64b571baee0c79887667318b2a4411ef5.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/16cbc43478e89c248a9500df292e68e64b571baee0c79887667318b2a4411ef5.png",
     "firstNightReminder": "Wake the Advocate. They will choose a player. Mark that player with the \"Chosen\" reminder token. Then, put the Advocate to sleep.",
     "otherNightReminder": "Wake the Advocate. If a player has the \"Executed Today\" reminder token on them, point at a player of the same alignment as them. Then, the Advocate will choose a player. Mark that player with the \"Chosen\" reminder token. Then, put the Advocate to sleep.",
     "reminders": [
@@ -72,7 +72,7 @@
   },
   {
     "id": "guardsman_echoes_of_the_past",
-    "image": "/scripts/assets/community/182b6ef8a5312088e89fc954dfad48242ad20036cf4ab09ead9ae989634a88cc.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/182b6ef8a5312088e89fc954dfad48242ad20036cf4ab09ead9ae989634a88cc.png",
     "firstNightReminder": "The Guardsman uses their ability.",
     "otherNightReminder": "The Guardsman uses their ability.",
     "name": "卫兵",
@@ -86,7 +86,7 @@
   },
   {
     "id": "overseer_echoes_of_the_past",
-    "image": "/scripts/assets/community/7c5ca5da641e06b4428a7986090ef7ad77f9612437835db87d1afc11bee764f5.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/7c5ca5da641e06b4428a7986090ef7ad77f9612437835db87d1afc11bee764f5.png",
     "firstNightReminder": "Wake the Overseer. They make a choice. Nod your head \"yes\" or shake your head \"no\" depending on the info they receive. Then, put the Overseer to sleep.",
     "otherNightReminder": "Wake the Overseer. They make a choice. Nod your head \"yes\" or shake your head \"no\" depending on the info they receive. Then, put the Overseer to sleep.",
     "name": "监视者",
@@ -99,7 +99,7 @@
   },
   {
     "id": "scholar_echoes_of_the_past",
-    "image": "/scripts/assets/community/23a2793ef46ae91e154f1baab91a8a1a495c8c0cf5f39ab0adef95b756a0de7d.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/23a2793ef46ae91e154f1baab91a8a1a495c8c0cf5f39ab0adef95b756a0de7d.png",
     "otherNightReminder": "Wake the Scholar & show them a character token. They will choose a player (or shake their head \"no\" to signal that they think no-one is). Point at a player corresponding to their info. Then, put the Scholar to sleep.",
     "name": "学者",
     "team": "townsfolk",
@@ -110,7 +110,7 @@
   },
   {
     "id": "blacksmith_echoes_of_the_past",
-    "image": "/scripts/assets/community/3bf5530806de49d2de95abec3aa74998eeeed35ae1e800508fbf850e9b679685.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/3bf5530806de49d2de95abec3aa74998eeeed35ae1e800508fbf850e9b679685.png",
     "otherNightReminder": "Wake the Blacksmith & use their ability. I'm not writing a reminder for this.",
     "reminders": [
       "选择",
@@ -129,7 +129,7 @@
   },
   {
     "id": "pathfinder1_echoes_of_the_past",
-    "image": "/scripts/assets/community/a3777db17eebfb4a19114a0bff4ad705613b2e465687f6aad6d1a5ee7f2ca622.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/a3777db17eebfb4a19114a0bff4ad705613b2e465687f6aad6d1a5ee7f2ca622.png",
     "otherNightReminder": "Remove the Pathfinder's POISONED reminder token. Wake the Pathfinder. They will choose 2 players: Mark both with the Pathfinder's SAFE reminder token. Then, put the Pathfinder to sleep. If either of the Pathfinder's choices were evil, mark the Pathfinder with their POISONED reminder token.",
     "reminders": [
       "中毒",
@@ -144,7 +144,7 @@
   },
   {
     "id": "ranger_echoes_of_the_past",
-    "image": "/scripts/assets/community/e19a2a10a78ef42896e21394779f67de01000def1a14838898093ae23d823c57.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/e19a2a10a78ef42896e21394779f67de01000def1a14838898093ae23d823c57.png",
     "otherNightReminder": "Wake the Ranger. They will choose a player. Then, put the Ranger to sleep.",
     "reminders": [
       "死亡",
@@ -159,7 +159,7 @@
   },
   {
     "id": "crossbowman_echoes_of_the_past",
-    "image": "/scripts/assets/community/bed77d37158acc8e1022e83aa8a8c34abfdd9d6ede1d1088f6b5eb07298f9202.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/bed77d37158acc8e1022e83aa8a8c34abfdd9d6ede1d1088f6b5eb07298f9202.png",
     "otherNightReminder": "If the Crossbowman shot a Minion today, that Minion dies. Mark the Minion with the Crossbowman's DEAD reminder token.",
     "reminders": [
       "死亡",
@@ -176,7 +176,7 @@
   },
   {
     "id": "student1_echoes_of_the_past",
-    "image": "/scripts/assets/community/4be34cf822680af3c17cc3ba80eccda5d88bdb1382e7aaa2da749d788279517f.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/4be34cf822680af3c17cc3ba80eccda5d88bdb1382e7aaa2da749d788279517f.png",
     "firstNightReminder": "If the Student isn't marked with the NO ABILITY reminder token, wake the Student. They might choose a character. Nod your head \"Yes\" if they're in-play. Otherwise, shake your head \"No\". Then, if the Student used their ability, mark the Student with their NO ABILITY reminder token. Then, put the Student to sleep.",
     "otherNightReminder": "If the Student isn't marked with the NO ABILITY reminder token, wake the Student. They might choose a character. Nod your head \"Yes\" if they're in-play. Otherwise, shake your head \"No\". Then, if the Student used their ability, mark the Student with their NO ABILITY reminder token. Then, put the Student to sleep.",
     "reminders": [
@@ -193,7 +193,7 @@
   },
   {
     "id": "beekeeper1_echoes_of_the_past",
-    "image": "/scripts/assets/community/f35616c9dfb1f6d8a86b09190438fee1c776d56b6db20c3a1fd60d4b3f2df411.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/f35616c9dfb1f6d8a86b09190438fee1c776d56b6db20c3a1fd60d4b3f2df411.png",
     "otherNightReminder": "If the Beekeeper died tonight, wake them & tell them an in-play evil character. Then, put the Beekeeper to sleep & mark the player with that character with the Beekeeper's DRUNK(4) reminder token: They are drunk. If an evil player is already drunk, swap their token for the next, unless there isn't another reminder - at this point, they sober up.",
     "reminders": [
       "醉酒",
@@ -208,7 +208,7 @@
   },
   {
     "id": "apothecary1_echoes_of_the_past",
-    "image": "/scripts/assets/community/d0d8b7176f86a39b4a8e24f132dacfa2b979c0b4e7e208abadcb8d1b7caff9ba.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/d0d8b7176f86a39b4a8e24f132dacfa2b979c0b4e7e208abadcb8d1b7caff9ba.png",
     "firstNightReminder": "Wake the Apothecary. They will choose a player. Nod your head \"Yes\" or shake your head \"No\" depending on their result. Then, put the Apothecary to sleep.",
     "otherNightReminder": "If the Apothecary or their lifelink is dead, kill the other. Otherwise, wake the Apothecary. They will choose a player. Nod your head \"Yes\" or shake your head \"No\" depending on their result. Then, put the Apothecary to sleep.",
     "reminders": [
@@ -225,7 +225,7 @@
   },
   {
     "id": "messenger_echoes_of_the_past",
-    "image": "/scripts/assets/community/56f07e564d2e565a4db605c5093e1ae5e1ad42f114de25e7c43b34f8401a429c.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/56f07e564d2e565a4db605c5093e1ae5e1ad42f114de25e7c43b34f8401a429c.png",
     "otherNightReminder": "If the Messenger is dead, wake the Demon. If this is the first night that the Messenger has been dead, show the Demon the \"THIS CHARACTER SELECTED YOU\" card & the Messenger's character token. Then, show the Demon the Grimoire.",
     "reminders": [
       "死亡"
@@ -239,7 +239,7 @@
   },
   {
     "id": "pariah_echoes_of_the_past",
-    "image": "/scripts/assets/community/652714c0c597a698bc2d274715b43fb2b8cba5729ab5856129440041d0f8b736.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/652714c0c597a698bc2d274715b43fb2b8cba5729ab5856129440041d0f8b736.png",
     "otherNightReminder": "If less than 5 players live, wake the Pariah. Show them the \"YOU ARE\" card and the Pariah character token. They now know that they are the Pariah. Then, put the Pariah to sleep.",
     "remindersGlobal": [
       "是弃子"
@@ -253,7 +253,7 @@
   },
   {
     "id": "trapper_echoes_of_the_past",
-    "image": "/scripts/assets/community/468a8d23b64f92ce12c01e4a5734e4752afde7a70ee1f99ebfd71cd64678950f.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/468a8d23b64f92ce12c01e4a5734e4752afde7a70ee1f99ebfd71cd64678950f.png",
     "firstNightReminder": "Mark 2 players with the Trapper's TRAPPED reminder.",
     "otherNightReminder": "If nobody died tonight, mark the TRAPPED players with the Trapper's DEAD reminder token: They die. Wake the Trapper and notify them of who their traps killed. Put the Trapper to sleep & mark 2 new players with their TRAPPED reminder token.",
     "reminders": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "eavesdropper_echoes_of_the_past",
-    "image": "/scripts/assets/community/18977365abef40bd01c0ce27654401256393c1b5eaeb7c8830a27b80a80c0e7b.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/18977365abef40bd01c0ce27654401256393c1b5eaeb7c8830a27b80a80c0e7b.png",
     "firstNightReminder": "Wake the Eavesdropper and notify them what their phrase is. Then, put the Eavesdropper to sleep.",
     "otherNightReminder": "If a player has the Eavesdropper's SAID PHRASE reminder token on them, they die. Mark them with the Eavesdropper's DEAD reminder token. Then, wake the Eavesdropper & point at the player they killed. Put the Eavesdropper to sleep.",
     "reminders": [
@@ -288,7 +288,7 @@
   },
   {
     "id": "forger_echoes_of_the_past",
-    "image": "/scripts/assets/community/3b1012eb65dd147de68c276de5a3efefdf9f5e3ec0455556de8dace66786d276.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/3b1012eb65dd147de68c276de5a3efefdf9f5e3ec0455556de8dace66786d276.png",
     "firstNightReminder": "Wake the Forger. They will choose a player. Mark that player with the Forger's MISREGISTER reminder token. Then, put the Forger to sleep.",
     "otherNightReminder": "Wake the Forger. They will choose a player. Mark that player with the Forger's MISREGISTER reminder token. Then, put the Forger to sleep.",
     "reminders": [
@@ -304,7 +304,7 @@
   },
   {
     "id": "priest1_echoes_of_the_past",
-    "image": "/scripts/assets/community/e1662691030311e6df93597e916a1b22bcc8f9ab5d610727f251c97560ad39e1.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/e1662691030311e6df93597e916a1b22bcc8f9ab5d610727f251c97560ad39e1.png",
     "otherNightReminder": "Wake the Priest. They will choose a player. If they chose an Outsider, mark that Outsider with the Priest's DEAD reminder token: They die. Then, put the Priest to sleep.",
     "reminders": [
       "死亡"
@@ -319,7 +319,7 @@
   },
   {
     "id": "saboteur_echoes_of_the_past",
-    "image": "/scripts/assets/community/570789f5e1903dfad6ffeab5b60fcab6fc1258caff1197ee82bac4b9634a0886.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/570789f5e1903dfad6ffeab5b60fcab6fc1258caff1197ee82bac4b9634a0886.png",
     "firstNightReminder": "Wake the Saboteur. They will choose a player. Mark that player with the Saboteur's MAD reminder. Then, put the Saboteur to sleep. Wake the Saboteur's target & notify them that they have been selected, and point to the two characters that the Saboteur selected on their character sheet. Then, put that player to sleep.",
     "otherNightReminder": "Wake the Saboteur. They will choose a player. Mark that player with the Saboteur's MAD reminder. Then, put the Saboteur to sleep. Wake the Saboteur's target & notify them that they have been selected, and point to the two characters that the Saboteur selected on their character sheet. Then, put that player to sleep.",
     "reminders": [
@@ -335,7 +335,7 @@
   },
   {
     "id": "myling_echoes_of_the_past",
-    "image": "/scripts/assets/community/69e7b0516a93ed278d9916137de550ef60b0f4d7aa544cde447d709e422d239f.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/69e7b0516a93ed278d9916137de550ef60b0f4d7aa544cde447d709e422d239f.png",
     "otherNightReminder": "Wake the Myling. They will choose a player. That player dies - mark them with the Myling's DEAD reminder token. If they have nominated evil this game, notify the Myling: They will nod their head \"yes\" or shake their head \"no\" for whether or not other evil nominators die. Then, put the Myling to sleep.",
     "reminders": [
       "死亡",
@@ -358,7 +358,7 @@
   },
   {
     "id": "poltergeist_echoes_of_the_past",
-    "image": "/scripts/assets/community/3b8851887cce66a8121b34579c0c530cb89ae5982677bf48152ad5be794b6dea.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/3b8851887cce66a8121b34579c0c530cb89ae5982677bf48152ad5be794b6dea.png",
     "otherNightReminder": "Wake the Poltergeist. They will choose a player - mark that player with the Poltergeist's DEAD reminder token: They die. If they were poisoned, mark another poisoned player with the Poltergeist's DEAD reminder token: They die. If the Poltergeist kills an Outsider, nod your head \"yes\" at them. Then, put the Poltergeist to sleep.",
     "reminders": [
       "死亡",
@@ -382,7 +382,7 @@
   },
   {
     "id": "wraith_echoes_of_the_past",
-    "image": "/scripts/assets/community/7755940309162e2a0b20a2b92955db48bdc642eb4d718f2911d741d35e207f69.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/7755940309162e2a0b20a2b92955db48bdc642eb4d718f2911d741d35e207f69.png",
     "firstNightReminder": "Wake the Wraith. They will choose a player. Mark that player with the Wraith's POISONED reminder token. Put the Wraith to sleep.",
     "otherNightReminder": "Wake the Wraith. They will choose a player. That player dies - mark them with the Wraith's DEAD reminder token. Then, put the Wraith to sleep. If nobody has died tonight, even after that, wake the Wraith again & show them the \"This Character Chose You\" card followed by their own token, then prompt them with the \"Make a Choice\" card. They choose a player to poison. The previously poisoned player dies: Mark them with the Wraith's DEAD reminder token. Then, put the Wraith to sleep.",
     "reminders": [
@@ -407,7 +407,7 @@
   },
   {
     "id": "yokai1_echoes_of_the_past",
-    "image": "/scripts/assets/community/d3b6a0739e7aa7e5a833c84cc0c5afbf84182ff7f80ce4370336e28607a45a22.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/d3b6a0739e7aa7e5a833c84cc0c5afbf84182ff7f80ce4370336e28607a45a22.png",
     "otherNightReminder": "The Yokai uses their ability.",
     "reminders": [
       "死亡",
@@ -432,7 +432,7 @@
   },
   {
     "id": "accomplice_echoes_of_the_past",
-    "image": "/scripts/assets/community/8f1070a32c4729d9462bee4c47b9ebc83901ce7b6abde3e95b32305130192563.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/8f1070a32c4729d9462bee4c47b9ebc83901ce7b6abde3e95b32305130192563.png",
     "firstNightReminder": "Wake the Accomplice. They will choose a player - mark that player with the Accomplice's CHOSEN reminder. If/when they wake tonight, after you put them to sleep, use their ability yourself and tell the Accomplice the results or targets if applicable.",
     "otherNightReminder": "Wake the Accomplice. They will choose a player - mark that player with the Accomplice's CHOSEN reminder. If/when they wake tonight, after you put them to sleep, use their ability yourself and tell the Accomplice the results or targets if applicable.",
     "reminders": [
@@ -447,7 +447,7 @@
   },
   {
     "id": "courtesan_echoes_of_the_past",
-    "image": "/scripts/assets/community/e53c338a23e603b48b07345f9b532fbd47b36a6f925ede14e66032f362b995a9.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/e53c338a23e603b48b07345f9b532fbd47b36a6f925ede14e66032f362b995a9.png",
     "reminders": [
       "选择"
     ],
@@ -458,7 +458,7 @@
   },
   {
     "id": "costermonger_echoes_of_the_past",
-    "image": "/scripts/assets/community/5e97662ea25fad1a6a63dfdaf688635e4045396ba9840e3fad2ff0004a2f165b.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/5e97662ea25fad1a6a63dfdaf688635e4045396ba9840e3fad2ff0004a2f165b.png",
     "firstNightReminder": "Wake the Costermonger. They will choose a player. Mark that player with the Costermonger's SAFE reminder. Then, put the Costermonger to sleep.",
     "otherNightReminder": "Wake the Costermonger. They will choose a player. Mark that player with the Costermonger's SAFE reminder. Then, put the Costermonger to sleep.",
     "reminders": [
@@ -473,7 +473,7 @@
   },
   {
     "id": "musician_echoes_of_the_past",
-    "image": "/scripts/assets/community/b1166ad02e4cebdd210aee60520b6935f3fc95bf34ecb0b0dcc197ac3d986111.png",
+    "image": "/scripts/assets/community-jiu-ri-hui-xiang-84c5f7b5/b1166ad02e4cebdd210aee60520b6935f3fc95bf34ecb0b0dcc197ac3d986111.png",
     "firstNightReminder": "Wake the Musician. They will choose 2 players. If the 1st will wake before the 2nd due to their own abilities, nod at the Musician & show them a finger signal for how many are good. If the Musician is evil, mark them both with the Musician's POISONED reminder. Then, put the Musician to sleep.",
     "otherNightReminder": "Remove any active Musician POISONED reminders. Wake the Musician. They will choose 2 players. If the 1st will wake before the 2nd due to their own abilities, nod at the Musician & show them a finger signal for how many are good. If the Musician is evil, mark them both with the Musician's POISONED reminder. Then, put the Musician to sleep.",
     "reminders": [

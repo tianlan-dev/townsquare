@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "余波未平",
     "author": "荒北",
-    "logo": "/scripts/assets/community/973a8d01a30ae3243fa72df08b5a00543f108cdf6c3666c6baa299c7fbb10fec.png",
+    "logo": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/973a8d01a30ae3243fa72df08b5a00543f108cdf6c3666c6baa299c7fbb10fec.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -29,7 +29,7 @@
   },
   {
     "id": "guanyuanyuanyuanyuan111",
-    "image": "/scripts/assets/community/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
     "edition": "custom",
     "name": "官员",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，他的投票算作三票。",
@@ -45,7 +45,7 @@
   },
   {
     "id": "qigaigaigai111",
-    "image": "/scripts/assets/community/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
     "edition": "custom",
     "name": "乞丐",
     "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "nvnvnvnshejian111",
-    "image": "/scripts/assets/community/04b1b6a1f802009388b21fd29a50a7d13d6640ed31f4caa82945db8e28435e9a.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/04b1b6a1f802009388b21fd29a50a7d13d6640ed31f4caa82945db8e28435e9a.png",
     "edition": "custom",
     "name": "女舍监",
     "ability": "每个白天，你可以选择至多三对玩家交换座位。玩家不能离开座位私聊。",
@@ -73,7 +73,7 @@
   },
   {
     "id": "kaka",
-    "image": "/scripts/assets/community/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
     "edition": "custom",
     "name": "怪咖",
     "ability": "如果你表现得很有趣，当天你不能被流放。",
@@ -87,7 +87,7 @@
   },
   {
     "id": "wudushishishifu111",
-    "image": "/scripts/assets/community/047c0a71cbaaf7024efa2e09bef3aeff26fa5f60564a3ab44ff37b730be3ee9f.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/047c0a71cbaaf7024efa2e09bef3aeff26fa5f60564a3ab44ff37b730be3ee9f.png",
     "edition": "custom",
     "name": "巫毒师",
     "ability": "只有你和死亡的玩家可以投票，且投票不需要使用投票标记。忽略票数需要过半的要求。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "wocaishichushen111",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "name": "厨师",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -115,7 +115,7 @@
   },
   {
     "id": "woshininainai111",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -132,7 +132,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -150,7 +150,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -166,7 +166,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -188,7 +188,7 @@
   },
   {
     "id": "wuxingshangjiang111",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -202,7 +202,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -234,7 +234,7 @@
   },
   {
     "id": "xiongdinihaoxiang111",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -251,7 +251,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -268,7 +268,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -282,7 +282,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -313,7 +313,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -327,7 +327,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -344,7 +344,7 @@
   },
   {
     "id": "dabanshou111",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "name": "修补匠",
     "ability": "你随时可能死亡。",
@@ -360,7 +360,7 @@
   },
   {
     "id": "fengmaoziyuailisi111",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
     "edition": "custom",
     "name": "帽匠",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -376,7 +376,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -392,7 +392,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -409,7 +409,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -426,7 +426,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -441,7 +441,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -458,7 +458,7 @@
   },
   {
     "id": "baojunuiuaowjoedijapwu4e90e2aj4rpia",
-    "image": "/scripts/assets/community/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
     "edition": "custom",
     "name": "暴君",
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
@@ -474,7 +474,7 @@
   },
   {
     "id": "oeeroeeerooooeeeeee1111111",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -490,7 +490,7 @@
   },
   {
     "id": "taotieeeeeeeeeeee",
-    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
     "edition": "custom",
     "name": "饕餮",
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -506,7 +506,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -522,7 +522,7 @@
   },
   {
     "id": "31_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&气球驾驶员",
     "team": "a jinxed",
     "setup": false,
@@ -531,7 +531,7 @@
   },
   {
     "id": "32131231231231231_meta",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "name": "提线木偶&命运二重奏",
     "team": "a jinxed",
     "setup": false,
@@ -543,7 +543,7 @@
     "name": "命运二重奏",
     "team": "fabled",
     "ability": "1.非恶魔玩家在白天死亡后，能力保留至下个黎明，在夜晚死亡后，能力保留至下个黄昏。\r2.每局游戏限一次，当恶魔因死亡而即将导致游戏结束时，一名存活的爪牙会变成新的不在场的恶魔。\r3.“即使你已死亡”的能力不会受命运二重奏影响。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-yu-bo-wei-ping-d0d1c3ad/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

@@ -13,7 +13,7 @@
   },
   {
     "id": "_qiongtumolu",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_qiongtumolu",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "reminders": [
       "失去能力"
     ],
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_qiongtumolu",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -47,7 +47,7 @@
   },
   {
     "id": "3_qiongtumolu",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "reminders": [
       "全员醉酒"
     ],
@@ -58,7 +58,7 @@
   },
   {
     "id": "4_qiongtumolu",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -70,7 +70,7 @@
   },
   {
     "id": "5_qiongtumolu",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "6_qiongtumolu",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -91,7 +91,7 @@
   },
   {
     "id": "7_qiongtumolu",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
     "reminders": [
       "失足",
@@ -105,7 +105,7 @@
   },
   {
     "id": "8_qiongtumolu",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -117,7 +117,7 @@
   },
   {
     "id": "9_qiongtumolu",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
     "reminders": [
       "得知"
@@ -130,7 +130,7 @@
   },
   {
     "id": "10_qiongtumolu",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "otherNightReminder": "如果恶魔杀死了报丧女妖，宣布“报丧女妖觉醒了”，并使用“具有能力”标记报丧女妖。",
     "reminders": [
       "具有能力"
@@ -143,7 +143,7 @@
   },
   {
     "id": "11_qiongtumolu",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
     "reminders": [
       "在场",
@@ -157,7 +157,7 @@
   },
   {
     "id": "12_qiongtumolu",
-    "image": "/scripts/assets/community/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
     "otherNightReminder": "如果今天白天有玩家死于处决，唤醒史官，告知其在场存活镇民数量。",
     "reminders": [
       "死于今日"
@@ -170,7 +170,7 @@
   },
   {
     "id": "13_qiongtumolu",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "otherNightReminder": "在夜晚的任意时机，你都可以决定杀死修补匠。这里只是一个提示以免遗忘修补匠。",
     "reminders": [
       "死亡"
@@ -183,7 +183,7 @@
   },
   {
     "id": "14_qiongtumolu",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -196,7 +196,7 @@
   },
   {
     "id": "15_qiongtumolu",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "reminders": [
       "无法提名"
     ],
@@ -207,7 +207,7 @@
   },
   {
     "id": "16_qiongtumolu",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "reminders": [
       "醉酒"
     ],
@@ -218,7 +218,7 @@
   },
   {
     "id": "17_qiongtumolu",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -233,7 +233,7 @@
   },
   {
     "id": "18_qiongtumolu",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -246,7 +246,7 @@
   },
   {
     "id": "19_qiongtumolu",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -260,7 +260,7 @@
   },
   {
     "id": "20_qiongtumolu",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
     "firstNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。",
     "otherNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。如果他摇头，移除街头风琴手的醉酒标记。",
     "reminders": [
@@ -275,7 +275,7 @@
   },
   {
     "id": "21_qiongtumolu",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "reminders": [
       "攻击三次",
@@ -289,7 +289,7 @@
   },
   {
     "id": "22_qiongtumolu",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -304,7 +304,7 @@
   },
   {
     "id": "23_qiongtumolu",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -318,7 +318,7 @@
   },
   {
     "id": "24_qiongtumolu",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "otherNightReminder": "唤醒穷奇，让他攻击一名玩家。如果今天白天有外来者死亡，他攻击并杀死的玩家成为活尸，随后决定今晚谁会因为穷奇能力死亡。",
     "reminders": [
       "死于今日",
@@ -337,7 +337,7 @@
     "name": "斯派德米",
     "team": "fabled",
     "ability": "当有玩家“疯狂”证明错误的角色运作或游戏规则时，说书人可能会公开解释正确的。",
-    "image": "/scripts/assets/community/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
+    "image": "/scripts/assets/community-qiong-tu-mo-lu-9d9c1f4a/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
     "edition": "custom"
   },
   {

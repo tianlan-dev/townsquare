@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "风城玫瑰",
-    "logo": "/scripts/assets/community/cf62ea7adb4cc01dae1dba7eb8dc5119f883d084b0012d181c121f07cd7b74e7.png",
+    "logo": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/cf62ea7adb4cc01dae1dba7eb8dc5119f883d084b0012d181c121f07cd7b74e7.png",
     "author": "梁介",
     "description": "风城玫瑰",
     "townsfolkName": "镇民",
@@ -23,7 +23,7 @@
   },
   {
     "id": "fengchengmeigui",
-    "image": "/scripts/assets/community/30072a5d5f421f38b03989f17052101a6a1cb57c6a1fff6109668e0f2e536f9f.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/30072a5d5f421f38b03989f17052101a6a1cb57c6a1fff6109668e0f2e536f9f.png",
     "edition": "custom",
     "name": "风城玫瑰",
     "ability": "每局游戏限一次，上一局游戏的MVP在死亡后会复活。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "heibangbangbangbang111",
-    "image": "/scripts/assets/community/7437a9adceb2c3c5bbbe8fd006a9f2d3e8489a9853c60f8741664b716400d02d.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/7437a9adceb2c3c5bbbe8fd006a9f2d3e8489a9853c60f8741664b716400d02d.png",
     "edition": "custom",
     "name": "黑帮",
     "ability": "每个白天限一次，你可以杀死与你邻近的两名存活的玩家中的一名，但需要另一边那个存活的玩家同意。",
@@ -50,7 +50,7 @@
   },
   {
     "id": "qiezeizeizei111",
-    "image": "/scripts/assets/community/90e73c912953b7d60b1312e99a377b3c66b7d3aa7fbe2f489e93420f6bc2d6c3.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/90e73c912953b7d60b1312e99a377b3c66b7d3aa7fbe2f489e93420f6bc2d6c3.png",
     "edition": "custom",
     "name": "窃贼",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天他的投票会被算作负数。",
@@ -66,7 +66,7 @@
   },
   {
     "id": "woshininainai111",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -84,7 +84,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -119,7 +119,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -134,7 +134,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -151,7 +151,7 @@
   },
   {
     "id": "wocaishiemo1223322323232323",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -168,7 +168,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -185,7 +185,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -203,7 +203,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -220,7 +220,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -240,7 +240,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -255,7 +255,7 @@
   },
   {
     "id": "xitele111",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个不在场的爪牙角色的能力。",
@@ -288,7 +288,7 @@
   },
   {
     "id": "zhongdayande111",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -305,7 +305,7 @@
   },
   {
     "id": "wocaishiemo111",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -325,7 +325,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -342,7 +342,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -359,7 +359,7 @@
   },
   {
     "id": "moluotuofujiweijiu11111",
-    "image": "/scripts/assets/community/2ce1888f5161e0c33f2538fef7079d751ab66c46e5db66c5961e7e4c778ad5c4.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/2ce1888f5161e0c33f2538fef7079d751ab66c46e5db66c5961e7e4c778ad5c4.png",
     "edition": "custom",
     "name": "狂热者",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -374,7 +374,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -392,7 +392,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -410,7 +410,7 @@
   },
   {
     "id": "jiejiene111",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
     "edition": "custom",
     "name": "镜像双子",
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
@@ -427,7 +427,7 @@
   },
   {
     "id": "gebulinaaaaaaa111111",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "name": "哥布林",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -444,7 +444,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -460,7 +460,7 @@
   },
   {
     "id": "tifengzhishou11111111",
-    "image": "/scripts/assets/community/2d02246a34d0b019eb3c3ee17466ddecce0c75fcc19a13e9f25d8862310dcc23.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/2d02246a34d0b019eb3c3ee17466ddecce0c75fcc19a13e9f25d8862310dcc23.png",
     "edition": "custom",
     "name": "堤丰之首",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你位于正中，+1爪牙，-或+任意数量外来者]",
@@ -477,7 +477,7 @@
   },
   {
     "id": "yigeshaba111",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "name": "沙巴洛斯",
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。",
@@ -495,7 +495,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-feng-cheng-mei-gui-e6b683a3/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",

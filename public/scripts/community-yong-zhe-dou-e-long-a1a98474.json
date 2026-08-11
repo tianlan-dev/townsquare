@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "勇者斗恶龙",
     "author": "阿良崽崽",
-    "logo": "/scripts/assets/community/cbae6d5a3a8b50afdfde4c34b0f778a150ef063553f468dafba84dedae3e428c.png",
+    "logo": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/cbae6d5a3a8b50afdfde4c34b0f778a150ef063553f468dafba84dedae3e428c.png",
     "almanac": "https://www.bloodstar.xyz/p/ligohigh1991/NewHero/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_newhero",
-    "image": "/scripts/assets/community/a9dcfaff9c59907143cf978e6e706b2a23a9c4ee1f3e414e947b572ae7aeb892.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/a9dcfaff9c59907143cf978e6e706b2a23a9c4ee1f3e414e947b572ae7aeb892.png",
     "otherNightReminder": "被标记两次的玩家在夜晚死亡。",
     "reminders": [
       "受伤",
@@ -28,7 +28,7 @@
   },
   {
     "id": "2_newhero",
-    "image": "/scripts/assets/community/160c09ed65e298d918e40f5bf287e4cb7d1057607745391709b0ec9345ab3073.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/160c09ed65e298d918e40f5bf287e4cb7d1057607745391709b0ec9345ab3073.png",
     "firstNightReminder": "让他选择两名玩家：告知他所选玩家中一名爪牙的角色(或得知无)，会有一名善良玩家始终被他的能力当做爪牙。",
     "otherNightReminder": "让他选择两名玩家：告知他所选玩家中一名爪牙的角色(或得知无)，会有一名善良玩家始终被他的能力当做爪牙。",
     "reminders": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "1_newhero",
-    "image": "/scripts/assets/community/2be30e8e9d56cb09f4c57e16d2f7bc11a13e60b20dafcc78aa22a34317ddc048.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/2be30e8e9d56cb09f4c57e16d2f7bc11a13e60b20dafcc78aa22a34317ddc048.png",
     "firstNightReminder": "让她选择除她以外的一名玩家，标记那名玩家为“保护”。",
     "otherNightReminder": "让她选择除她以外的一名玩家，标记那名玩家为“保护”。如果首个提名她的是善良玩家，当晚唤醒并告知那名玩家她是圣女。",
     "reminders": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "7_newhero",
-    "image": "/scripts/assets/community/96203268c6da308595c536fa72805d8619b9a2f7c277c0b027ff1fe3abc2fa3b.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/96203268c6da308595c536fa72805d8619b9a2f7c277c0b027ff1fe3abc2fa3b.png",
     "firstNightReminder": "让他选择至多三名玩家，如果其中有邪恶，点头示意，否则摇头，每局游戏限一次，他的信息会出错并标记为“已出错”。",
     "otherNightReminder": "让他选择至多三名玩家，如果其中有邪恶，点头示意，否则摇头，每局游戏限一次，他的信息会出错并标记为“已出错”。",
     "reminders": [
@@ -77,7 +77,7 @@
   },
   {
     "id": "5_newhero",
-    "image": "/scripts/assets/community/3661ff01011fd501208e804538aff4cbcd417319ffa98d6524335e4fb93715a9.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/3661ff01011fd501208e804538aff4cbcd417319ffa98d6524335e4fb93715a9.png",
     "firstNightReminder": "让他选择一个角色，并告知他该角色是否在场。会有一个善良角色始终被他的能力当做在场。",
     "otherNightReminder": "让他选择一个角色，并告知他该角色是否在场。会有一个善良角色始终被他的能力当做在场。",
     "name": "塔罗大师",
@@ -90,7 +90,7 @@
   },
   {
     "id": "8_newhero",
-    "image": "/scripts/assets/community/b71ac4c446e365110371a1a5437c1b8d72d9b477d8a83c19915a8df4d03d6164.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/b71ac4c446e365110371a1a5437c1b8d72d9b477d8a83c19915a8df4d03d6164.png",
     "firstNightReminder": "告知他两名存活的非恶魔玩家。",
     "otherNightReminder": "告知他两名存活的非恶魔玩家。",
     "name": "大侦探",
@@ -103,7 +103,7 @@
   },
   {
     "id": "4_newhero",
-    "image": "/scripts/assets/community/1c37c88b1d154487e977af8a0f0bd2cf20795bfa652aa5e857f4dc79035c137b.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/1c37c88b1d154487e977af8a0f0bd2cf20795bfa652aa5e857f4dc79035c137b.png",
     "firstNightReminder": "让她选择除她以外的两名玩家，告知她这两名玩家是否为同一角色类型。",
     "otherNightReminder": "让她选择除她以外的两名玩家，告知她这两名玩家是否为同一角色类型。",
     "name": "女仆",
@@ -116,7 +116,7 @@
   },
   {
     "id": "25_newhero",
-    "image": "/scripts/assets/community/018c10bad0c0c92edb462004b584f3cad93daaf1f62c524a3fe77ec986f229bb.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/018c10bad0c0c92edb462004b584f3cad93daaf1f62c524a3fe77ec986f229bb.png",
     "firstNightReminder": "让他选择除他以外的一名玩家，告知他选择的那名玩家阵营相同的另一名玩家。",
     "otherNightReminder": "让他选择除他以外的一名玩家，告知他选择的那名玩家阵营相同的另一名玩家。",
     "name": "画像师",
@@ -129,7 +129,7 @@
   },
   {
     "id": "6_newhero",
-    "image": "/scripts/assets/community/351e3f70cbb4c1bc5b674df9f2334d9ad58d71a4acbd8efdd0b2271d7e2f250e.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/351e3f70cbb4c1bc5b674df9f2334d9ad58d71a4acbd8efdd0b2271d7e2f250e.png",
     "otherNightReminder": "他会得知(从未得知过的)当晚之前死亡玩家的角色。",
     "reminders": [
       "已得知"
@@ -143,7 +143,7 @@
   },
   {
     "id": "16_newhero",
-    "image": "/scripts/assets/community/945d64b71633d9b6ee091815ee37a46cef148b2919496d61831b4cc9cae5d986.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/945d64b71633d9b6ee091815ee37a46cef148b2919496d61831b4cc9cae5d986.png",
     "firstNightReminder": "让他选择一名存活的玩家：如果他选中了恶魔，他变成那名玩家的角色和阵营，那名玩家变成善良的醉汉。",
     "otherNightReminder": "让他选择一名存活的玩家：如果他选中了恶魔，他变成那名玩家的角色和阵营，那名玩家变成善良的醉汉。",
     "name": "稻草人",
@@ -156,7 +156,7 @@
   },
   {
     "id": "22_newhero",
-    "image": "/scripts/assets/community/4e3b89c99c9fc2156d0cdc69faa9633276e9cb8b41dff5bca9a1905c3eb4887f.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/4e3b89c99c9fc2156d0cdc69faa9633276e9cb8b41dff5bca9a1905c3eb4887f.png",
     "name": "猎魔人",
     "team": "townsfolk",
     "ability": "每个白天，你可以公开猜测一名玩家是哪一个恶魔或爪牙，猜对他死亡。",
@@ -165,7 +165,7 @@
   },
   {
     "id": "10_newhero",
-    "image": "/scripts/assets/community/bbd8ae944bc10c4ff1b2235be61270302b2804caf7b2672fd65bc422b464cdcb.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/bbd8ae944bc10c4ff1b2235be61270302b2804caf7b2672fd65bc422b464cdcb.png",
     "otherNightReminder": "如果他白天发动过技能，则告知他询问的那名玩家或说书人有没有撒谎(被询问对象视角)。如果他选择的玩家为恶魔，则给他标记上“醉酒”。",
     "reminders": [
       "撒谎",
@@ -181,7 +181,7 @@
   },
   {
     "id": "12_newhero",
-    "image": "/scripts/assets/community/1321319584fffc261db5a5040115603b831d23547d14bd544d25a6847a1dec3c.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/1321319584fffc261db5a5040115603b831d23547d14bd544d25a6847a1dec3c.png",
     "firstNightReminder": "给他展示数字手势来告诉他一共有几名玩家的角色或阵营发生改变。",
     "otherNightReminder": "给他展示数字手势来告诉他一共有几名玩家的角色或阵营发生改变。",
     "remindersGlobal": [
@@ -197,7 +197,7 @@
   },
   {
     "id": "14_newhero",
-    "image": "/scripts/assets/community/0c38780571bb89896d87332fc55128b7315d8b60edf40b7796562e30627e477b.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/0c38780571bb89896d87332fc55128b7315d8b60edf40b7796562e30627e477b.png",
     "firstNightReminder": "让他选择一名玩家，告知他那名玩家身上有哪些异常状态。",
     "otherNightReminder": "让他选择一名玩家，告知他那名玩家身上有哪些异常状态。",
     "name": "巡夜人",
@@ -210,7 +210,7 @@
   },
   {
     "id": "11_newhero",
-    "image": "/scripts/assets/community/7686d0d51ff0dcba8b5ad0a80846bebd7f959af3f25c3c2c8c92ffbabe017742.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/7686d0d51ff0dcba8b5ad0a80846bebd7f959af3f25c3c2c8c92ffbabe017742.png",
     "remindersGlobal": [
       "少年勇者",
       "保留能力"
@@ -224,7 +224,7 @@
   },
   {
     "id": "18_newhero",
-    "image": "/scripts/assets/community/7baec97726d03aaaad22c1219f1d9a633e9642921ca79db3dc46d575109db50b.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/7baec97726d03aaaad22c1219f1d9a633e9642921ca79db3dc46d575109db50b.png",
     "otherNightReminder": "当他被处决或因善良玩家的能力导致死亡时，当晚存活的爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
     "reminders": [
       "雪山之怒"
@@ -238,7 +238,7 @@
   },
   {
     "id": "19_newhero",
-    "image": "/scripts/assets/community/24cd3e6bc592a245b54baebb9dfe01d92607b1150da84d067ad8eaa8da58a328.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/24cd3e6bc592a245b54baebb9dfe01d92607b1150da84d067ad8eaa8da58a328.png",
     "remindersGlobal": [
       "醉汉"
     ],
@@ -251,7 +251,7 @@
   },
   {
     "id": "17_newhero",
-    "image": "/scripts/assets/community/09cb97e423c48c1f7c26c8ac0aff6088d0f2d1b4077d6010456a58728ca8c82f.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/09cb97e423c48c1f7c26c8ac0aff6088d0f2d1b4077d6010456a58728ca8c82f.png",
     "otherNightReminder": "如果他于处决，当晚一名存活的玩家变成傻子。",
     "name": "傻子",
     "team": "outsider",
@@ -262,7 +262,7 @@
   },
   {
     "id": "9_newhero",
-    "image": "/scripts/assets/community/741fd302b3934674249a68cf5434c59664a0bbead28be3570f85c104bd12963d.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/741fd302b3934674249a68cf5434c59664a0bbead28be3570f85c104bd12963d.png",
     "otherNightReminder": "当他有至少2个“鲜血”时唤醒他，他可以摇头不使用能力，或他每消耗2个鲜血，选择一名玩家：选择让那名玩家当晚和明天白天中毒或选择让那名玩家死亡。",
     "reminders": [
       "鲜血",
@@ -278,7 +278,7 @@
   },
   {
     "id": "21_newhero",
-    "image": "/scripts/assets/community/1ae37f1164c6270ff2e1d95d5b85c0b2a193f5dcc92fc384be5fadac356f8695.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/1ae37f1164c6270ff2e1d95d5b85c0b2a193f5dcc92fc384be5fadac356f8695.png",
     "firstNightReminder": "让她选择两名善良玩家，标记他们为“奴仆”，被标记的玩家会得知“成为了魅魔的奴仆”。",
     "otherNightReminder": "在她的第三个夜晚，让她选择一个被标记的玩家，加入邪恶阵营。",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "23_newhero",
-    "image": "/scripts/assets/community/64ff8cc08143150fd608313fcddffec37dad9cbffc5159736e5155de0a3b4195.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/64ff8cc08143150fd608313fcddffec37dad9cbffc5159736e5155de0a3b4195.png",
     "firstNightReminder": "让他选择一名玩家，该玩家标记上“中毒”。",
     "otherNightReminder": "让他选择一名玩家，该玩家标记上“中毒”。",
     "reminders": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "20_newhero",
-    "image": "/scripts/assets/community/b5c72491c69242a41967b50ff0b8b1b8ac09ff50053dcaa7772d160ba348eb99.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/b5c72491c69242a41967b50ff0b8b1b8ac09ff50053dcaa7772d160ba348eb99.png",
     "setup": true,
     "name": "史莱姆",
     "team": "minion",
@@ -323,7 +323,7 @@
   },
   {
     "id": "26_newhero",
-    "image": "/scripts/assets/community/5e072d8585de12f6071eef63654fed27b47ba4553dc9b865426f92afa9d593e5.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/5e072d8585de12f6071eef63654fed27b47ba4553dc9b865426f92afa9d593e5.png",
     "otherNightReminder": "让他选择一名玩家杀害。如果大于等于五名玩家存活时(旅行者不计算在内)，你死亡后（且无其他存活小恶龙），一名存活的外来者变成邪恶的小恶龙，但每局游戏仅能成功转化一次。",
     "reminders": [
       "死亡",
@@ -339,7 +339,7 @@
   },
   {
     "id": "24_newhero",
-    "image": "/scripts/assets/community/990c9130cd58e1531ab06f0ec86d66347526abe3dcc798b6fdd9dcd0ee011782.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/990c9130cd58e1531ab06f0ec86d66347526abe3dcc798b6fdd9dcd0ee011782.png",
     "otherNightReminder": "让她选择一名玩家杀害，但本次死亡会被当做仍然存活，她可以选择与那名玩家进行秘密猜拳：若她获胜，且那名玩家是活尸，那名加入邪恶阵营，否则那名玩家再次死亡。",
     "reminders": [
       "死亡",
@@ -356,7 +356,7 @@
   },
   {
     "id": "13_newhero",
-    "image": "/scripts/assets/community/da925d6e76058642cb8c8b17571a6fb507277d4a63f6a0b56110a2f23e25a326.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/da925d6e76058642cb8c8b17571a6fb507277d4a63f6a0b56110a2f23e25a326.png",
     "otherNightReminder": "必定有一名玩家死亡。",
     "remindersGlobal": [
       "死亡",
@@ -372,7 +372,7 @@
   },
   {
     "id": "27_newhero",
-    "image": "/scripts/assets/community/b3a5fdfa8aabf00744dbc51240cedf3b6bbd7f4a895d0894faf5ff36519c9f2c.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/b3a5fdfa8aabf00744dbc51240cedf3b6bbd7f4a895d0894faf5ff36519c9f2c.png",
     "firstNightReminder": "让他选择一名玩家并编造一条信息，那名玩家明天白天和夜晚需要对这条信息“疯狂”，否则那名玩家可能被处决。",
     "otherNightReminder": "让他选择一名玩家杀害。让他选择一名玩家并编造一条信息，那名玩家明天白天和夜晚需要对这条信息“疯狂”，否则那名玩家可能被处决。",
     "reminders": [
@@ -389,7 +389,7 @@
   },
   {
     "id": "3_newhero",
-    "image": "/scripts/assets/community/7b278edcdc30e744018bd05ac94f5c94937d694806b2378b3f4073795c9d8150.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/7b278edcdc30e744018bd05ac94f5c94937d694806b2378b3f4073795c9d8150.png",
     "name": "戏精",
     "team": "fabled",
     "ability": "游戏中代入感表现得很强的玩家，会获得一些奖励。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "31_newhero",
-    "image": "/scripts/assets/community/9a29a808a19ec3b484b57428708fafda7854fef028a844b3f586fcd269c2e550.png",
+    "image": "/scripts/assets/community-yong-zhe-dou-e-long-a1a98474/9a29a808a19ec3b484b57428708fafda7854fef028a844b3f586fcd269c2e550.png",
     "name": "私聊规则",
     "team": "fabled",
     "ability": "①只有第一和第二个白天有固定私聊时间，其余白天都是公私混聊。②从第一个白天的开始到第二个白天的结束，邪恶方可以文字私聊(小窗)。",

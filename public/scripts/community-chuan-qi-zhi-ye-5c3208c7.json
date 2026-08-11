@@ -3,7 +3,7 @@
     "description": "",
     "author": "Sui染钟楼",
     "name": "传奇之夜",
-    "logo": "/scripts/assets/community/a5854a7544e3fad1080df359db3c9824b6e4325c1ddc95c9827a72bff50d47c9.png",
+    "logo": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/a5854a7544e3fad1080df359db3c9824b6e4325c1ddc95c9827a72bff50d47c9.png",
     "id": "_meta",
     "additional": [
       {
@@ -18,7 +18,7 @@
   },
   {
     "ability": "如果你表现得很有趣，当天你不能被流放。",
-    "image": "/scripts/assets/community/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_87",
@@ -34,7 +34,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：他重新获得能力直到下个黄昏。",
-    "image": "/scripts/assets/community/2d8b162d24c9cb6367dc05228c83d80ed47686fd543e3d0c42914679e69eca96.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/2d8b162d24c9cb6367dc05228c83d80ed47686fd543e3d0c42914679e69eca96.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_84",
@@ -53,7 +53,7 @@
   },
   {
     "ability": "每个白天，首次处决后，你可以再次发起提名。",
-    "image": "/scripts/assets/community/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_86",
@@ -69,7 +69,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名存活的玩家：如果他同意，你会得知他的角色，但是你们两个可能同时死亡。",
-    "image": "/scripts/assets/community/950f6792442fd9feaa58a20368683f297882e089cfa2af2477c2402f80b3a371.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/950f6792442fd9feaa58a20368683f297882e089cfa2af2477c2402f80b3a371.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_90",
@@ -87,7 +87,7 @@
   },
   {
     "ability": "每个夜晚，直至下个黄昏，由说书人二选一：1）一名玩家解除并免受醉酒和中毒影响，且会得知正确信息；2）一名玩家的能力可以生效两次。该玩家会得知是哪个效果。",
-    "image": "/scripts/assets/community/40204c644581df73de91dae6f4ccff125cff2bea1c890f0e6ad92f3d43e19a54.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/40204c644581df73de91dae6f4ccff125cff2bea1c890f0e6ad92f3d43e19a54.png",
     "edition": "custom",
     "flavor": "",
     "id": "3_81",
@@ -106,7 +106,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "flavor": "",
     "id": "bounty_hunterButton",
@@ -125,7 +125,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "flavor": "",
     "id": "pixieButton",
@@ -144,7 +144,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "flavor": "",
     "id": "investigatorButton",
@@ -163,7 +163,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcistButton",
@@ -181,7 +181,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gamblerButton",
@@ -199,7 +199,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertakerButton",
@@ -217,7 +217,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crierButton",
@@ -236,7 +236,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monkButton",
@@ -254,7 +254,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossipButton",
@@ -272,7 +272,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savantButton",
@@ -288,7 +288,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstressButton",
@@ -306,7 +306,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "nightwatchmanButton",
@@ -324,7 +324,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmerButton",
@@ -340,7 +340,7 @@
   },
   {
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "flavor": "",
     "id": "saintButton",
@@ -356,7 +356,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutantButton",
@@ -372,7 +372,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkButton",
@@ -390,7 +390,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "flavor": "",
     "id": "klutzButton",
@@ -406,7 +406,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassinButton",
@@ -425,7 +425,7 @@
   },
   {
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。",
-    "image": "/scripts/assets/community/39c1659ddb4db51cec002826fe60f678d152c8ed477c48f65fc34e250e08c531.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/39c1659ddb4db51cec002826fe60f678d152c8ed477c48f65fc34e250e08c531.png",
     "edition": "custom",
     "flavor": "",
     "id": "organ_grinderButton",
@@ -443,7 +443,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_womanButton",
@@ -461,7 +461,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "pit-hagButton",
@@ -477,7 +477,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukkaButton",
@@ -496,7 +496,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashiiButton",
@@ -515,7 +515,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "flavor": "",
     "id": "vigormortisButton",
@@ -535,7 +535,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-chuan-qi-zhi-ye-5c3208c7/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "flavor": "",
     "id": "poButton",

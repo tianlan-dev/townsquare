@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "三碗不过岗",
     "author": "肥啵",
-    "logo": "/scripts/assets/community/baf86e6842bbc30656ac0484493d84317b71be1c6a65086c1fbb958cfa9c019b.png",
+    "logo": "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/baf86e6842bbc30656ac0484493d84317b71be1c6a65086c1fbb958cfa9c019b.png",
     "tags": [],
     "version": ""
   },
@@ -11,7 +11,7 @@
     "id": "wunengshiwuguan_feibo",
     "name": "无能事务官",
     "image": [
-      "/scripts/assets/community/34933647dd5ca6a325db0a0b1d41adccef6dfdb8f5a6cc6a864ac548e8f84526.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/34933647dd5ca6a325db0a0b1d41adccef6dfdb8f5a6cc6a864ac548e8f84526.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名善良玩家，如果该玩家在你存活时被处决，善良阵营+🍺x0.5。如果你在首个白天被处决，善良阵营+🍺x1。",
@@ -27,7 +27,7 @@
     "id": "shachuzi_feibo",
     "name": "傻厨子",
     "image": [
-      "/scripts/assets/community/d1119e7c46d1c2a999557fb87b4040fbb3bd5fac21c3dd9748995b48af79779a.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/d1119e7c46d1c2a999557fb87b4040fbb3bd5fac21c3dd9748995b48af79779a.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知邻座的邪恶玩家有多少对。如果你在首个白天被处决，善良阵营+🍺x1。",
@@ -40,7 +40,7 @@
     "id": "mihusongzangzhe_feibo",
     "name": "迷糊送葬者",
     "image": [
-      "/scripts/assets/community/69abd7379de1d81dd7466f427cd8da946c0c6dd921448f2daaf2bb41514690e4.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/69abd7379de1d81dd7466f427cd8da946c0c6dd921448f2daaf2bb41514690e4.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你可以让说书人向你展示白天被处决玩家的角色。你每索要一次信息，善良阵营+🍺x0.25。",
@@ -56,7 +56,7 @@
     "id": "hutuzhenzhang_feibo",
     "name": "糊涂镇长",
     "image": [
-      "/scripts/assets/community/22b064463fb0500d295046355cba87be4d053b089782ad4fde9d1e7fe5893d07.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/22b064463fb0500d295046355cba87be4d053b089782ad4fde9d1e7fe5893d07.png"
     ],
     "team": "townsfolk",
     "ability": "如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。如果只有三名玩家存活且白天没有人被处决，你的阵营获胜，若你以这种方式获胜，邪恶阵营+🍷x1.25。",
@@ -67,7 +67,7 @@
     "id": "jiurouheshang_feibo",
     "name": "酒肉和尚",
     "image": [
-      "/scripts/assets/community/b5570ac4ff5e720950d67f68f5456c5beb8b56cc61fe0300ca0b4267d8959aa7.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/b5570ac4ff5e720950d67f68f5456c5beb8b56cc61fe0300ca0b4267d8959aa7.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家，他不会被恶魔杀死，每成功让一名玩家免于死亡，善良阵营-🍺x1，邪恶阵营+🍷x0.5。",
@@ -83,7 +83,7 @@
     "id": "jiuxuezhe_feibo",
     "name": "酒学者",
     "image": [
-      "/scripts/assets/community/5148b1f21323b82c2fb743e9b5934c2308a246a216218612552800d1a219bd47.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/5148b1f21323b82c2fb743e9b5934c2308a246a216218612552800d1a219bd47.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知最多两条信息，每喝一杯酒获得一条信息，若你只索要一条信息，有可能是错误信息，若你索要两条信息，你会得到正确、错误信息各一条。",
@@ -94,7 +94,7 @@
     "id": "huaquandaxian_feibo",
     "name": "划拳大仙",
     "image": [
-      "/scripts/assets/community/1d99d9a188535be9cee4f9b31a1f6557b1e28c29e153748826fdef303fcd9d05.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/1d99d9a188535be9cee4f9b31a1f6557b1e28c29e153748826fdef303fcd9d05.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天，你可以向一名玩家发起挑战，选择你们擅长的方式进行（划拳、石头剪子布、十五二十、骰子等均可），三局两胜，每一局输家喝一杯，直至决出胜负，如果他最终挑战失败，他死亡并直接进入夜晚。如果爪牙因此死亡，邪恶阵营+🍷x0.5，如果恶魔因此死亡，邪恶阵营+🍷x1.5。",
@@ -108,7 +108,7 @@
     "id": "jiumengzi_feibo",
     "name": "酒蒙子",
     "image": [
-      "/scripts/assets/community/4de6be82f4670c4cec6e9abb76f38d1b347f8c229ae621b313a31d8af9b26925.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/4de6be82f4670c4cec6e9abb76f38d1b347f8c229ae621b313a31d8af9b26925.png"
     ],
     "team": "outsider",
     "ability": "你以为你是一个镇民，但其实你不是（你初始默认为清醒状态）。在白天，任何玩家可以喝五杯，然后私下询问说书人自己是否是酒蒙子(说书人可以对醉酒的玩家进行合理欺骗)。",
@@ -122,7 +122,7 @@
     "id": "jiufengzi_feibo",
     "name": "酒疯子",
     "image": [
-      "/scripts/assets/community/86eaa9ab2aa69ea15090549be9f79f0b7496f5596067a5edf892155b5caf632d.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/86eaa9ab2aa69ea15090549be9f79f0b7496f5596067a5edf892155b5caf632d.png"
     ],
     "team": "outsider",
     "ability": "你以为你是恶魔，但其实你不是。恶魔会知道你是酒疯子以及你在每个夜晚选择了哪些玩家。如果你选择的玩家当晚被恶魔杀死，每个有一个玩家死亡，善良阵营+🍺x0.25。",
@@ -141,7 +141,7 @@
     "id": "jiutu_feibo",
     "name": "酒徒",
     "image": [
-      "/scripts/assets/community/e50f29c618010dd57aae9e7001dda0e1482d569ed621d42ecd7ab033a6f3ede0.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/e50f29c618010dd57aae9e7001dda0e1482d569ed621d42ecd7ab033a6f3ede0.png"
     ],
     "team": "outsider",
     "ability": "如果你在白天死亡，你的阵营落败，善良阵营+🍺x5。",
@@ -152,7 +152,7 @@
     "id": "jiuguidaiyanren_feibo",
     "name": "酒鬼代言人",
     "image": [
-      "/scripts/assets/community/d241e92128d5c1b273a9a44e9f8dd8f2a812ec106326b8c15134b660a7239121.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/d241e92128d5c1b273a9a44e9f8dd8f2a812ec106326b8c15134b660a7239121.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：明天白天他不会死亡。每成功让一名玩家免于死亡，善良阵营+🍺x0.25。",
@@ -170,7 +170,7 @@
     "id": "quanjiuren_feibo",
     "name": "劝酒人",
     "image": [
-      "/scripts/assets/community/3ceeb99ff01355b3701b8fca0193ce3249a04962419fd78af23afa0b6f84862f.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/3ceeb99ff01355b3701b8fca0193ce3249a04962419fd78af23afa0b6f84862f.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天醉酒。每有一名玩家的能力因你的能力而未正常生效，善良阵营+🍺x0.25。",
@@ -188,7 +188,7 @@
     "id": "xiaojiugui_feibo",
     "name": "小酒鬼",
     "image": [
-      "/scripts/assets/community/dde531728a8cf4daa9d78b4973c8402e5430665ac2f3d9fbbb248c72af58b488.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/dde531728a8cf4daa9d78b4973c8402e5430665ac2f3d9fbbb248c72af58b488.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小酒鬼。每有一名外来者死亡，善良阵营+🍺x1。游戏每进行一个白天，善良阵营+🍺x0.5。如果善良阵营落败时，邪恶玩家全部存活，善良阵营+🍺x1。",
@@ -204,7 +204,7 @@
     "id": "koukedeshangdi_feibo",
     "name": "口渴的上帝",
     "image": [
-      "/scripts/assets/community/b9d8942e9e6089c9470cc95062c545fcf4e7b9c9cbd6aaddb3738aeb826b3599.png"
+      "/scripts/assets/community-san-wan-bu-guo-gang-eebb2a33/b9d8942e9e6089c9470cc95062c545fcf4e7b9c9cbd6aaddb3738aeb826b3599.png"
     ],
     "team": "fabled",
     "ability": "如果说书人在游戏过程中出现失误，他要为落败阵营分担总量的一半惩罚。如果游戏因说书人的失误而终止，他要独自享用底酒。",

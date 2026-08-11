@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "纺都颂歌",
     "author": "小烯C2H43g",
-    "logo": "/scripts/assets/community/03b30304eb3a1927a4f5529c026790bd3bac044b89cafc060851aa185199a00a.png",
+    "logo": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/03b30304eb3a1927a4f5529c026790bd3bac044b89cafc060851aa185199a00a.png",
     "almanac": "https://www.bloodstar.xyz/p/C2H43g/SilkSong/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "7_silksong",
-    "image": "/scripts/assets/community/50d0e77e83c415372fb2b96562bb500ae7a9fce78e03c4888e3e191682fed451.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/50d0e77e83c415372fb2b96562bb500ae7a9fce78e03c4888e3e191682fed451.png",
     "name": "《武德》",
     "team": "fabled",
     "ability": "决斗获胜的玩家不能在下个白天发起决斗，多名玩家同时发起决斗时顺序由说书人决定。",
@@ -21,7 +21,7 @@
   },
   {
     "id": "_silksong",
-    "image": "/scripts/assets/community/5fe8b06f72a916b9b426ae21c10cd0ee378e97fd2b1e35f6050032e6ef875e0f.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/5fe8b06f72a916b9b426ae21c10cd0ee378e97fd2b1e35f6050032e6ef875e0f.png",
     "name": "决斗！",
     "team": "fabled",
     "ability": "如果存活玩家大于三名，提名环节改为“决斗环节”：每个白天每名玩家限一次，你可以公开选择一名玩家并进行一个全体玩家闭眼的猜拳，输的玩家会立刻被处决。第四个白天结束时，邪恶阵营获胜。",
@@ -29,7 +29,7 @@
   },
   {
     "id": "1_silksong",
-    "image": "/scripts/assets/community/98bbc6ea41ec083510aced09f724cfc7220db5b63bd5c65ea055c625c7565b9f.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/98bbc6ea41ec083510aced09f724cfc7220db5b63bd5c65ea055c625c7565b9f.png",
     "otherNightReminder": "得知",
     "reminders": [
       "对手"
@@ -42,7 +42,7 @@
   },
   {
     "id": "2_silksong",
-    "image": "/scripts/assets/community/e290365b8a67e7c6fb94dfbf458a398e6991bd1b6a291a6351caa19c7f40c7d3.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/e290365b8a67e7c6fb94dfbf458a398e6991bd1b6a291a6351caa19c7f40c7d3.png",
     "otherNightReminder": "发动能力",
     "reminders": [
       "已决斗"
@@ -55,7 +55,7 @@
   },
   {
     "id": "3_silksong",
-    "image": "/scripts/assets/community/51b8db64bece63348986ceec5f15a5f1aa6e412aaa9d7b0e26dda5085a29b94a.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/51b8db64bece63348986ceec5f15a5f1aa6e412aaa9d7b0e26dda5085a29b94a.png",
     "otherNightReminder": "刀人",
     "reminders": [
       "死亡"
@@ -68,7 +68,7 @@
   },
   {
     "id": "4_silksong",
-    "image": "/scripts/assets/community/9e98bea04be3c614a1977ad2ceb9ddb6e1374683ba68b865b576e481aca0525c.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/9e98bea04be3c614a1977ad2ceb9ddb6e1374683ba68b865b576e481aca0525c.png",
     "otherNightReminder": "转变阵营",
     "reminders": [
       "失去能力",
@@ -82,7 +82,7 @@
   },
   {
     "id": "5_silksong",
-    "image": "/scripts/assets/community/2f5686c8c19e2d229e93a5fa25e8e62ca91bc74757a191d3fb2a87f879b97fdb.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/2f5686c8c19e2d229e93a5fa25e8e62ca91bc74757a191d3fb2a87f879b97fdb.png",
     "reminders": [
       "不被处决"
     ],
@@ -93,7 +93,7 @@
   },
   {
     "id": "6_silksong",
-    "image": "/scripts/assets/community/00646fb0a7d344a4f116b802e05d00d48dbd21b59eb316a952a3027de66724ef.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/00646fb0a7d344a4f116b802e05d00d48dbd21b59eb316a952a3027de66724ef.png",
     "reminders": [
       "失去能力"
     ],
@@ -104,7 +104,7 @@
   },
   {
     "id": "8_silksong",
-    "image": "/scripts/assets/community/b49654e5cbaed62cdc3abd6073fee277a94178108f5dc6bd5f76ab4e04238897.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/b49654e5cbaed62cdc3abd6073fee277a94178108f5dc6bd5f76ab4e04238897.png",
     "firstNightReminder": "选择",
     "reminders": [
       "寄生"
@@ -117,7 +117,7 @@
   },
   {
     "id": "9_silksong",
-    "image": "/scripts/assets/community/7b9282acffb86a06c9559f010499b5d1f8f50e1289f7b7a4311599cc4a9454f2.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/7b9282acffb86a06c9559f010499b5d1f8f50e1289f7b7a4311599cc4a9454f2.png",
     "reminders": [
       "善良",
       "邪恶"
@@ -129,7 +129,7 @@
   },
   {
     "id": "10_silksong",
-    "image": "/scripts/assets/community/8357e5c3aa5c782ffcff2c6ac2dd1423ad335e2de6129ade182bbb977e0644c2.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/8357e5c3aa5c782ffcff2c6ac2dd1423ad335e2de6129ade182bbb977e0644c2.png",
     "reminders": [
       "失去能力"
     ],
@@ -140,7 +140,7 @@
   },
   {
     "id": "11_silksong",
-    "image": "/scripts/assets/community/43bdfcf1d5587e68b342dbf2eec47bae413c82a3020c7c480abfd36df9bc0cd3.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/43bdfcf1d5587e68b342dbf2eec47bae413c82a3020c7c480abfd36df9bc0cd3.png",
     "otherNightReminder": "毒",
     "reminders": [
       "中毒"
@@ -153,7 +153,7 @@
   },
   {
     "id": "12_silksong",
-    "image": "/scripts/assets/community/11ab2b9fb60faf5ab3cc281a1ff6f63dc1c3aa5cc7c74ff6b762471ce28d3315.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/11ab2b9fb60faf5ab3cc281a1ff6f63dc1c3aa5cc7c74ff6b762471ce28d3315.png",
     "reminders": [
       "继承能力"
     ],
@@ -164,7 +164,7 @@
   },
   {
     "id": "13_silksong",
-    "image": "/scripts/assets/community/4dc8f4681bffd78094e9d0420b8dd2a0392157ec60fae227cc74747596121769.png",
+    "image": "/scripts/assets/community-fang-dou-song-ge-854ebfc8/4dc8f4681bffd78094e9d0420b8dd2a0392157ec60fae227cc74747596121769.png",
     "remindersGlobal": [
       "附身"
     ],

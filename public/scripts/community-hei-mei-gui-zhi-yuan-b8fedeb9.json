@@ -22,7 +22,7 @@
   },
   {
     "id": "felys",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "“felys”",
     "ability": "玩家可能只会得知自己需对某事“疯狂”而不知道这一状态的来源与持续时间。",
@@ -32,7 +32,7 @@
   },
   {
     "id": "MadHatter",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "帽子奇谭",
     "ability": "帽匠的可选规则默认生效。",
@@ -57,7 +57,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "flavor": "",
     "id": "undertaker_button",
@@ -76,7 +76,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名除你以外的玩家：爪牙的负面能力在今晚和明天白天对他无效。",
-    "image": "/scripts/assets/community/83127df557e150b92757cbe0ecaef9c25d893e6b9e3a351c14f49d76a01ade40.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/83127df557e150b92757cbe0ecaef9c25d893e6b9e3a351c14f49d76a01ade40.png",
     "edition": "custom",
     "flavor": "",
     "id": "kuijingzhe",
@@ -94,7 +94,7 @@
   },
   {
     "ability": "每个白天，一名邪恶玩家要对某件事疯狂，否则他可能死亡。每个白天，你要对某件事疯狂，否则你可能死亡。",
-    "image": "/scripts/assets/community/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Thespian",
@@ -112,7 +112,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmer_button",
@@ -129,7 +129,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_button",
@@ -160,7 +160,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_button",
@@ -180,7 +180,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noble_button",
@@ -199,7 +199,7 @@
   },
   {
     "ability": "如果除你以外的玩家在白天“疯狂”地证明你是邪恶的，当晚你会得知与死亡玩家邻近的玩家中有多少名邪恶玩家。",
-    "image": "/scripts/assets/community/b5356f6a565fdc6208ddaf5ee403a1c4590c35a0fbc40f9e85b0fcd9d801bb31.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/b5356f6a565fdc6208ddaf5ee403a1c4590c35a0fbc40f9e85b0fcd9d801bb31.png",
     "edition": "custom",
     "flavor": "",
     "id": "Whitewolf",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_button",
@@ -270,7 +270,7 @@
   },
   {
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "flavor": "",
     "id": "sweetheart_button",
@@ -289,7 +289,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutant_button",
@@ -306,7 +306,7 @@
   },
   {
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。恶魔可以选择变成爪牙，且（仅）一名爪牙变成恶魔。",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "hatter_button",
@@ -325,7 +325,7 @@
   },
   {
     "ability": "你以为你是一个在场的镇民角色，但其实你不是。如果该镇民死亡，你在当晚转变为对立阵营。",
-    "image": "/scripts/assets/community/bdd4a43016deed664bd2f527b2703d3278a5db51748b1e21fd35ba73a7588ccd.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/bdd4a43016deed664bd2f527b2703d3278a5db51748b1e21fd35ba73a7588ccd.png",
     "edition": "custom",
     "flavor": "",
     "id": "SXG",
@@ -361,7 +361,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：他们以为自己受到疯狂能力的影响，但实际上没有。",
-    "image": "/scripts/assets/community/f7b07da25ca214fe9e9570efecdefe2d015894bc9bddb8aac7e0d280f96c5a8b.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/f7b07da25ca214fe9e9570efecdefe2d015894bc9bddb8aac7e0d280f96c5a8b.png",
     "edition": "custom",
     "flavor": "",
     "id": "Klaun",
@@ -391,11 +391,11 @@
     ],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/a3bc53ce07e918aa4a8696258c8c183420704ebb0ffc60b11c08f1c9eaea7044.png"
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/a3bc53ce07e918aa4a8696258c8c183420704ebb0ffc60b11c08f1c9eaea7044.png"
   },
   {
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "cerenovus_button",
@@ -414,7 +414,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpy_button",
@@ -452,7 +452,7 @@
   },
   {
     "id": "975f7fe7-60f2-470a-9cf7-5fc354157b861",
-    "image": "/scripts/assets/community/522e4dfce174c15011275af810c3ed9b0260f47c16316283ed05241a2f80067b.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/522e4dfce174c15011275af810c3ed9b0260f47c16316283ed05241a2f80067b.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "独立阵营。每个白天限一次，你可以拜访说书人以获得一条信息。如果在游戏结束前你成功复原了魔典，你加入获胜的阵营；如果你对说书人给予的信息疯狂，你无法获胜。",
@@ -466,7 +466,7 @@
   },
   {
     "id": "xiangke1",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-hei-mei-gui-zhi-yuan-b8fedeb9/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "name": "哲学家&石像鬼",
     "team": "a jinxed",
     "setup": false,

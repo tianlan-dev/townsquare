@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "疯狂列车",
-    "logo": "/scripts/assets/community/997a56451a82c168862c3a6736eb69ba765c2c18c334cc5b960ce58533ffac18.png",
+    "logo": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/997a56451a82c168862c3a6736eb69ba765c2c18c334cc5b960ce58533ffac18.png",
     "author": "Arctem",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -25,7 +25,7 @@
   },
   {
     "id": "drink_cart_pusher",
-    "image": "/scripts/assets/community/a04c8516e01304675e97386e7794c1c3767c655d1de366aef22d5048c1c527ec.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/a04c8516e01304675e97386e7794c1c3767c655d1de366aef22d5048c1c527ec.png",
     "edition": "custom",
     "firstNight": 6,
     "firstNightReminder": "指向一名与邪恶玩家邻座的玩家",
@@ -42,7 +42,7 @@
   },
   {
     "id": "baggage_checker",
-    "image": "/scripts/assets/community/a1ffae536999625eece09f40976e705f11f0d378ce0ddcfceb558bf23ca11bd2.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/a1ffae536999625eece09f40976e705f11f0d378ce0ddcfceb558bf23ca11bd2.png",
     "edition": "custom",
     "firstNight": 7,
     "firstNightReminder": "展示一个与邪恶玩家邻座的在场的善良角色标记。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "ticket-taker",
-    "image": "/scripts/assets/community/f5cb14cdf33834619bc4a37746eb6c85cbae9065898cfde547cf4a0f927437eb.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/f5cb14cdf33834619bc4a37746eb6c85cbae9065898cfde547cf4a0f927437eb.png",
     "edition": "custom",
     "firstNight": 8,
     "firstNightReminder": "检票员指向一名玩家，检查他是否持有车票标记. 如果他有, 点头证明有. 如果他没有，摇头证明没有.",
@@ -76,7 +76,7 @@
   },
   {
     "id": "insomniac",
-    "image": "/scripts/assets/community/f5664717c7b0c02254ce05bc8a4777715cf4edb509d0a1fa2927a4a81b81e7b0.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/f5664717c7b0c02254ce05bc8a4777715cf4edb509d0a1fa2927a4a81b81e7b0.png",
     "edition": "custom",
     "firstNight": 13,
     "firstNightReminder": "When a player picks the Insomniac, place the \"Picked Insomniac\" token next to them or, if it is already next to another player, leave it where it is. If a player has the \"Picked Insomniac\" token, show their character token to the Insomniac. Remove the \"Picked Insomniac\" token.",
@@ -93,7 +93,7 @@
   },
   {
     "id": "snoop",
-    "image": "/scripts/assets/community/c679fc4493cf86ec7bcf7b9eda6dfada58e18fc33be51d232a2576115e4ea92e.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/c679fc4493cf86ec7bcf7b9eda6dfada58e18fc33be51d232a2576115e4ea92e.png",
     "edition": "custom",
     "firstNight": 9,
     "firstNightReminder": "窥探者选择一名玩家. 点头 \"yes\" 或摇头 \"no\" 以告知他是否他选择的那名玩家邻座的两名玩家属于同一阵营.",
@@ -108,7 +108,7 @@
   },
   {
     "id": "conductor",
-    "image": "/scripts/assets/community/97e45552ffe36a1bf5a43bd19febb12e2274f0837ce6dd23c1b0457f5568bfe8.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/97e45552ffe36a1bf5a43bd19febb12e2274f0837ce6dd23c1b0457f5568bfe8.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -126,7 +126,7 @@
   },
   {
     "id": "secondman",
-    "image": "/scripts/assets/community/eaf77f9b66a216a0120eeac03a2451af5a90471a22f0c0546334bee0541b1da0.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/eaf77f9b66a216a0120eeac03a2451af5a90471a22f0c0546334bee0541b1da0.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -143,7 +143,7 @@
   },
   {
     "id": "lone_gun",
-    "image": "/scripts/assets/community/63fa89e3c3e1a1a71fc19953811964f471a6c301c2602d17587e00d9c92698d1.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/63fa89e3c3e1a1a71fc19953811964f471a6c301c2602d17587e00d9c92698d1.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": " ",
@@ -160,7 +160,7 @@
   },
   {
     "id": "marshal",
-    "image": "/scripts/assets/community/42214a3ff2735151c2947b8f449fb696a61d5a65116f8c17106515e447b955b9.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/42214a3ff2735151c2947b8f449fb696a61d5a65116f8c17106515e447b955b9.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -177,7 +177,7 @@
   },
   {
     "id": "deputy",
-    "image": "/scripts/assets/community/b3b08098d05e017b4adcbf4398426eaed4ff82bf0f99300867fcbb34434dde60.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/b3b08098d05e017b4adcbf4398426eaed4ff82bf0f99300867fcbb34434dde60.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -194,7 +194,7 @@
   },
   {
     "id": "bodyguard",
-    "image": "/scripts/assets/community/644ab201b91da131770bf628673504cba24049b505c08f3321da3cdbf8acf5f9.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/644ab201b91da131770bf628673504cba24049b505c08f3321da3cdbf8acf5f9.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -211,7 +211,7 @@
   },
   {
     "id": "old_coot",
-    "image": "/scripts/assets/community/ee10c4fea71a4a444a97ae293be22ce053e222e85477b0f213248ab51296774e.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/ee10c4fea71a4a444a97ae293be22ce053e222e85477b0f213248ab51296774e.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -228,7 +228,7 @@
   },
   {
     "id": "speculator",
-    "image": "/scripts/assets/community/5b666e55538a383106425936e0ef329d54519c48cf8c5afbea88e5a74c56d1af.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/5b666e55538a383106425936e0ef329d54519c48cf8c5afbea88e5a74c56d1af.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -246,7 +246,7 @@
   },
   {
     "id": "nuisance",
-    "image": "/scripts/assets/community/175d62e99d471cc7f22477cc65b89cd6264e5a3d49c767c2ae04a4d4bd4a1a71.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/175d62e99d471cc7f22477cc65b89cd6264e5a3d49c767c2ae04a4d4bd4a1a71.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -261,7 +261,7 @@
   },
   {
     "id": "confidante",
-    "image": "/scripts/assets/community/c65b04e1b9bb87b86d27bbddd423a02d2e789b2ac061c7843018da3699f71141.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/c65b04e1b9bb87b86d27bbddd423a02d2e789b2ac061c7843018da3699f71141.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -276,7 +276,7 @@
   },
   {
     "id": "yellow-belly",
-    "image": "/scripts/assets/community/6d858db4dae21b053bcab562d37bf1b349c8b7368901061d9f1ed350b0c1a47f.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/6d858db4dae21b053bcab562d37bf1b349c8b7368901061d9f1ed350b0c1a47f.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -294,7 +294,7 @@
   },
   {
     "id": "signaller",
-    "image": "/scripts/assets/community/7087a47e52b1fce6885db378fb69d6159895b1fb5f9e8ea3b413bc9d0d8baf76.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/7087a47e52b1fce6885db378fb69d6159895b1fb5f9e8ea3b413bc9d0d8baf76.png",
     "edition": "custom",
     "firstNight": 10,
     "firstNightReminder": "向恶魔展示一名与通信员邻近的存活镇民的角色标记。",
@@ -309,7 +309,7 @@
   },
   {
     "id": "caboose",
-    "image": "/scripts/assets/community/148ca60d1e8de14b9300f6013bbfd5618d6dd822717071c2a889661dd4ed9b4a.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/148ca60d1e8de14b9300f6013bbfd5618d6dd822717071c2a889661dd4ed9b4a.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -324,7 +324,7 @@
   },
   {
     "id": "switch",
-    "image": "/scripts/assets/community/f93377e3172db782dc5e1bb3acfe12e1a12f3a4bd2b72e85abc3ce34318a05a6.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/f93377e3172db782dc5e1bb3acfe12e1a12f3a4bd2b72e85abc3ce34318a05a6.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -339,7 +339,7 @@
   },
   {
     "id": "coupler",
-    "image": "/scripts/assets/community/a03d98129a0a8675d3109e3397251c1c65e79d07a7403b354071dbb60ce12fdb.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/a03d98129a0a8675d3109e3397251c1c65e79d07a7403b354071dbb60ce12fdb.png",
     "edition": "custom",
     "firstNight": 5,
     "firstNightReminder": "车钩选择一名玩家. 如果他是外来者, 放置'耦合连结'标记在他身上。",
@@ -356,7 +356,7 @@
   },
   {
     "id": "whistle",
-    "image": "/scripts/assets/community/dd76004fccace92b590eed786918abb35457359a307fd398cab9dd33e8217dca.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/dd76004fccace92b590eed786918abb35457359a307fd398cab9dd33e8217dca.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -373,7 +373,7 @@
   },
   {
     "id": "boiler",
-    "image": "/scripts/assets/community/a1753cffba6ef326603f933cdcfa55f2279654b10875358a74db83b4ab52305c.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/a1753cffba6ef326603f933cdcfa55f2279654b10875358a74db83b4ab52305c.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -390,7 +390,7 @@
   },
   {
     "id": "coal_engine",
-    "image": "/scripts/assets/community/a0f14d491796ee205186597b6a8eea8394fa1ac0ed9551cd997a675527d0e80f.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/a0f14d491796ee205186597b6a8eea8394fa1ac0ed9551cd997a675527d0e80f.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -411,7 +411,7 @@
   },
   {
     "id": "smokestack",
-    "image": "/scripts/assets/community/8c9f683e8beba577df9be271f99a33820497da5494a78e258a7d1a78121bf304.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/8c9f683e8beba577df9be271f99a33820497da5494a78e258a7d1a78121bf304.png",
     "edition": "custom",
     "firstNight": 4,
     "firstNightReminder": "烟囱选择一名玩家. 如果他选择了一名其他玩家, 放置中毒标记在他上面. 如果你选择了你自己, 所有被放置中毒标记的玩家死亡。 移除所有中毒标记。",
@@ -429,7 +429,7 @@
   },
   {
     "id": "momentum",
-    "image": "/scripts/assets/community/71a746e4918d59d8b2f69eaae3e59d24802258a8a7200614c98e81ee55887d6a.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/71a746e4918d59d8b2f69eaae3e59d24802258a8a7200614c98e81ee55887d6a.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -446,7 +446,7 @@
   },
   {
     "id": "Tycoon",
-    "image": "/scripts/assets/community/d12738b5bc207c2929908cdb6905797b95ded2614355be83b43ecb972bf23bad.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/d12738b5bc207c2929908cdb6905797b95ded2614355be83b43ecb972bf23bad.png",
     "edition": "custom",
     "firstNight": 1,
     "firstNightReminder": ":eye: 放置邻座标志于两名你选择的玩家. :eye-slash:",
@@ -462,7 +462,7 @@
   },
   {
     "id": "salesman",
-    "image": "/scripts/assets/community/105fe22efb97993d91c7a0600b0c94bb9865000e02877761eb1dcbc79b5229de.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/105fe22efb97993d91c7a0600b0c94bb9865000e02877761eb1dcbc79b5229de.png",
     "edition": "custom",
     "otherNight": 1,
     "otherNightReminder": ":eye: 放置受宠标记于你选择的玩家. :eye-slash:",
@@ -476,7 +476,7 @@
   },
   {
     "id": "conman",
-    "image": "/scripts/assets/community/1c0723f6c78ed214410c922a3b2c458889f18b666c36691b3abe5393090c417b.png",
+    "image": "/scripts/assets/community-feng-kuang-lie-che-cf6c77f4/1c0723f6c78ed214410c922a3b2c458889f18b666c36691b3abe5393090c417b.png",
     "edition": "custom",
     "setup": false,
     "name": "骗子",

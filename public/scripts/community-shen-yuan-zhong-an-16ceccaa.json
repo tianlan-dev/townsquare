@@ -1,6 +1,6 @@
 [
   {
-    "logo": "/scripts/assets/community/aa785349b7b99897cf7264c2c7b8de3b9efbdedba363567927753837a53b3986.png",
+    "logo": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/aa785349b7b99897cf7264c2c7b8de3b9efbdedba363567927753837a53b3986.png",
     "description": "",
     "author": "汀",
     "id": "_meta",
@@ -27,7 +27,7 @@
     "name_eng": "Librarian",
     "firstNight": 33,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
@@ -44,7 +44,7 @@
     "name_eng": "Mathematician",
     "firstNight": 51,
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
   },
   {
     "firstNightReminder": "",
@@ -59,7 +59,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "",
@@ -74,7 +74,7 @@
     "name_eng": "Pacifist",
     "firstNight": 0,
     "ability": "被处决的善良玩家可能不会死亡。",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
   },
   {
     "firstNightReminder": "",
@@ -91,7 +91,7 @@
     "name_eng": "Undertaker",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
   },
   {
     "firstNightReminder": "",
@@ -106,7 +106,7 @@
     "name_eng": "Mayor",
     "firstNight": 0,
     "ability": "如果只有三名玩家存活且白天没有⼈被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png"
   },
   {
     "firstNightReminder": "",
@@ -124,7 +124,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
@@ -143,7 +143,7 @@
     "name_eng": "Lunatic",
     "firstNight": 7,
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -160,7 +160,7 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
@@ -177,7 +177,7 @@
     "name_eng": "Witch",
     "firstNight": 24,
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
   },
   {
     "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
@@ -195,7 +195,7 @@
     "name_eng": "Pukka",
     "firstNight": 28,
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
@@ -214,6 +214,6 @@
     "name_eng": "Lil' Monsta",
     "firstNight": 16,
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
+    "image": "/scripts/assets/community-shen-yuan-zhong-an-16ceccaa/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
   }
 ]

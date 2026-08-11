@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "言外之意",
     "author": "Ben & Jams",
-    "logo": "/scripts/assets/community/7aa22b98deb58f4dee12d4fb4f704479e8370a5aa59e828accaa7a942e62228d.png",
+    "logo": "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/7aa22b98deb58f4dee12d4fb4f704479e8370a5aa59e828accaa7a942e62228d.png",
     "tags": [],
     "version": "",
     "issue": 923
@@ -12,7 +12,7 @@
     "id": "chushi_tpi",
     "name": "厨师",
     "image": [
-      "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -26,7 +26,7 @@
     "id": "tushuguanliyuan_tpi",
     "name": "图书管理员",
     "image": [
-      "/scripts/assets/community/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -44,7 +44,7 @@
     "id": "shiwuguan_tpi",
     "name": "事务官",
     "image": [
-      "/scripts/assets/community/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -61,7 +61,7 @@
     "id": "qishi_tpi",
     "name": "骑士",
     "image": [
-      "/scripts/assets/community/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -78,7 +78,7 @@
     "id": "gongqingzhe_tpi",
     "name": "共情者",
     "image": [
-      "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -93,7 +93,7 @@
     "id": "cunfu_tpi",
     "name": "村夫",
     "image": [
-      "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -111,7 +111,7 @@
     "id": "nvjisi_tpi",
     "name": "女祭司",
     "image": [
-      "/scripts/assets/community/d44865e78c3e4713ec0932f24f3e7313d446aafb31db85ec73a67c9abef552a6.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/d44865e78c3e4713ec0932f24f3e7313d446aafb31db85ec73a67c9abef552a6.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -126,7 +126,7 @@
     "id": "zhanbushi_tpi",
     "name": "占卜师",
     "image": [
-      "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。\n会有一名善良玩家始终被你的能力当作恶魔。",
@@ -144,7 +144,7 @@
     "id": "shenyuzhe_tpi",
     "name": "神谕者",
     "image": [
-      "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -158,7 +158,7 @@
     "id": "senglv_tpi",
     "name": "僧侣",
     "image": [
-      "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -175,7 +175,7 @@
     "id": "zashuayiren_tpi",
     "name": "杂耍艺人",
     "image": [
-      "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -192,7 +192,7 @@
     "id": "zaoyaozhe_tpi",
     "name": "造谣者",
     "image": [
-      "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
@@ -209,7 +209,7 @@
     "id": "yishujia_tpi",
     "name": "艺术家",
     "image": [
-      "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -225,7 +225,7 @@
     "id": "moke_tpi",
     "name": "陌客",
     "image": [
-      "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
     ],
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -238,7 +238,7 @@
     "id": "kuangrezhe_tpi",
     "name": "狂热者",
     "image": [
-      "/scripts/assets/community/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png"
     ],
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -251,7 +251,7 @@
     "id": "jixingxiuyanyuan_tpi",
     "name": "畸形秀演员",
     "image": [
-      "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
     ],
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -264,7 +264,7 @@
     "id": "jiemidashi_tpi",
     "name": "解谜大师",
     "image": [
-      "/scripts/assets/community/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png"
     ],
     "team": "outsider",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -281,7 +281,7 @@
     "id": "touduzhe_tpi",
     "name": "投毒者",
     "image": [
-      "/scripts/assets/community/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -299,7 +299,7 @@
     "id": "cike_tpi",
     "name": "刺客",
     "image": [
-      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
     ],
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -317,7 +317,7 @@
     "id": "genbulin_tpi",
     "name": "哥布林",
     "image": [
-      "/scripts/assets/community/8c800aee66381582079783359639f9653dc2925b4425e33bcf0634dba43eca01.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/8c800aee66381582079783359639f9653dc2925b4425e33bcf0634dba43eca01.png"
     ],
     "team": "minion",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -333,7 +333,7 @@
     "id": "hongchunnvlang_tpi",
     "name": "红唇女郎",
     "image": [
-      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
     ],
     "team": "minion",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -350,7 +350,7 @@
     "id": "xinaoshi_tpi",
     "name": "洗脑师",
     "image": [
-      "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -368,7 +368,7 @@
     "id": "xiaoemo_tpi",
     "name": "小恶魔",
     "image": [
-      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -385,7 +385,7 @@
     "id": "fanggu_tpi",
     "name": "方古",
     "image": [
-      "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -403,7 +403,7 @@
     "id": "aohe_tpi",
     "name": "奥赫",
     "image": [
-      "/scripts/assets/community/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -420,7 +420,7 @@
     "id": "neshen_tpi",
     "name": "讷神",
     "image": [
-      "/scripts/assets/community/68c71c98eea2cb80ce5bfdc54f9cda25a496dbe03e5a8adff8d3e974693c1d32.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/68c71c98eea2cb80ce5bfdc54f9cda25a496dbe03e5a8adff8d3e974693c1d32.png"
     ],
     "team": "fabled",
     "ability": "会有一顶讷帽。当玩家戴着讷帽的时候，只能说单音节词，但投票算作两票。如果违反规则，讷帽会被转移。",
@@ -433,7 +433,7 @@
     "id": "dengshen_tpi",
     "name": "红唇女郎&方古",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。",
@@ -444,7 +444,7 @@
     "id": "dengshen_linshi",
     "name": "洗脑师&哥布林",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-yan-wai-zhi-yi-ecf345f5/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "洗脑师可以选择将玩家洗脑成哥布林。",

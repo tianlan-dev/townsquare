@@ -14,7 +14,7 @@
   },
   {
     "id": "_zhizhanzhishang",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -29,7 +29,7 @@
   },
   {
     "id": "1_zhizhanzhishang",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "otherNightReminder": "如果今天白天有玩家死于处决，唤醒送葬者，对他展示那名玩家的角色标记。",
     "reminders": [
       "死于今日"
@@ -42,7 +42,7 @@
   },
   {
     "id": "2_zhizhanzhishang",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -54,7 +54,7 @@
   },
   {
     "id": "3_zhizhanzhishang",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -67,7 +67,7 @@
   },
   {
     "id": "4_zhizhanzhishang",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "reminders": [
@@ -82,7 +82,7 @@
   },
   {
     "id": "5_zhizhanzhishang",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -96,7 +96,7 @@
   },
   {
     "id": "6_zhizhanzhishang",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -106,7 +106,7 @@
   },
   {
     "id": "7_zhizhanzhishang",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "8_zhizhanzhishang",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -139,7 +139,7 @@
   },
   {
     "id": "9_zhizhanzhishang",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -152,7 +152,7 @@
   },
   {
     "id": "10_zhizhanzhishang",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
     "reminders": [
       "在场",
@@ -166,7 +166,7 @@
   },
   {
     "id": "11_zhizhanzhishang",
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
     "firstNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
     "otherNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
     "name": "郎中",
@@ -178,7 +178,7 @@
   },
   {
     "id": "12_zhizhanzhishang",
-    "image": "/scripts/assets/community/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
     "otherNightReminder": "如果偃师死于夜晚，将偃师与一名存活爪牙玩家交换角色，然后分别唤醒告知角色发生变化。",
     "name": "偃师",
     "team": "townsfolk",
@@ -188,7 +188,7 @@
   },
   {
     "id": "13_zhizhanzhishang",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -200,7 +200,7 @@
   },
   {
     "id": "14_zhizhanzhishang",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -208,7 +208,7 @@
   },
   {
     "id": "15_zhizhanzhishang",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -221,7 +221,7 @@
   },
   {
     "id": "16_zhizhanzhishang",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -234,7 +234,7 @@
   },
   {
     "id": "17_zhizhanzhishang",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -251,7 +251,7 @@
   },
   {
     "id": "18_zhizhanzhishang",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
     "setup": true,
     "name": "科学怪人",
@@ -262,7 +262,7 @@
   },
   {
     "id": "19_zhizhanzhishang",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "reminders": [
@@ -282,7 +282,7 @@
   },
   {
     "id": "20_zhizhanzhishang",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "firstNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
     "otherNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "21_zhizhanzhishang",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -310,7 +310,7 @@
   },
   {
     "id": "22_zhizhanzhishang",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -326,7 +326,7 @@
   },
   {
     "id": "23_zhizhanzhishang",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -340,7 +340,7 @@
   },
   {
     "id": "24_zhizhanzhishang",
-    "image": "/scripts/assets/community/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
+    "image": "/scripts/assets/community-zhi-zhan-zhi-shang-2b0809d8/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
     "otherNightReminder": "唤醒奸佞，让他攻击一名玩家。如果他白天没投票，可以攻击两次。",
     "reminders": [
       "死亡",

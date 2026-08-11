@@ -1,6 +1,6 @@
 [
   {
-    "logo": "/scripts/assets/community/4cbb0d33fc000b1abba05e4aed5672b26180b6e3ef550b193a7af85e684ad7bf.png",
+    "logo": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/4cbb0d33fc000b1abba05e4aed5672b26180b6e3ef550b193a7af85e684ad7bf.png",
     "description": "",
     "author": "仅贰宫",
     "id": "_meta",
@@ -28,7 +28,7 @@
     "name_eng": "Preacher",
     "firstNight": 14,
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png"
   },
   {
     "firstNightReminder": "",
@@ -46,7 +46,7 @@
     "name_eng": "Town Crier",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png"
   },
   {
     "firstNightReminder": "",
@@ -63,7 +63,7 @@
     "name_eng": "Tea Lady",
     "firstNight": 0,
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
   },
   {
     "firstNightReminder": "",
@@ -80,7 +80,7 @@
     "name_eng": "Gambler",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
   },
   {
     "firstNightReminder": "",
@@ -95,7 +95,7 @@
     "name_eng": "Sage",
     "firstNight": 0,
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png"
   },
   {
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
@@ -110,7 +110,7 @@
     "name_eng": "Chambermaid",
     "firstNight": 50,
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
   },
   {
     "firstNightReminder": "如果异教领袖改变了阵营，告诉他。",
@@ -127,7 +127,7 @@
     "name_eng": "Cult Leader",
     "firstNight": 47,
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
@@ -142,7 +142,7 @@
     "name_eng": "Empath",
     "firstNight": 36,
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
   },
   {
     "firstNightReminder": "",
@@ -157,7 +157,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -174,7 +174,7 @@
     "name_eng": "Undertaker",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
   },
   {
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
@@ -191,7 +191,7 @@
     "name_eng": "Mathematician",
     "firstNight": 51,
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -208,7 +208,7 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "firstNightReminder": "唤醒恶魔，并告诉他国王是谁。",
@@ -223,7 +223,7 @@
     "name_eng": "King",
     "firstNight": 9,
     "ability": "每个夜晚，如果死亡的玩家数量大于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
   },
   {
     "firstNightReminder": "",
@@ -238,7 +238,7 @@
     "name_eng": "Klutz",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
   },
   {
     "firstNightReminder": "",
@@ -255,7 +255,7 @@
     "name_eng": "Moonchild",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png"
   },
   {
     "firstNightReminder": "",
@@ -272,7 +272,7 @@
     "name_eng": "Acrobat",
     "firstNight": 0,
     "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png"
   },
   {
     "firstNightReminder": "",
@@ -289,7 +289,7 @@
     "name_eng": "Goon",
     "firstNight": 0,
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png"
   },
   {
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
@@ -306,7 +306,7 @@
     "name_eng": "Witch",
     "firstNight": 24,
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -323,7 +323,7 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
@@ -340,7 +340,7 @@
     "name_eng": "Devil's Advocate",
     "firstNight": 22,
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png"
   },
   {
     "firstNightReminder": "对他展示所有在场的外来者标记。",
@@ -358,7 +358,7 @@
     "name_eng": "Godfather",
     "firstNight": 21,
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
   },
   {
     "firstNightReminder": "",
@@ -373,7 +373,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
@@ -392,7 +392,7 @@
     "name_eng": "Lil' Monsta",
     "firstNight": 16,
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png"
   },
   {
     "firstNightReminder": "",
@@ -409,7 +409,7 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "firstNightReminder": "寄生蛭指向一名玩家。放置寄生标记，那名玩家中毒。",
@@ -427,11 +427,11 @@
     "name_eng": "Lleech",
     "firstNight": 15,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-jue-chu-feng-sheng-6dcb6097/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "djinnbutton",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "鱼跃龙门",
     "author": "北风",
-    "logo": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "logo": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -26,7 +26,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_c",
@@ -45,7 +45,7 @@
   },
   {
     "id": "1_yylm",
-    "image": "/scripts/assets/community/4400401a136593b9e468b10aa3eff94bf8ada7f05e32dc6888f4da854bb9bdbc.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/4400401a136593b9e468b10aa3eff94bf8ada7f05e32dc6888f4da854bb9bdbc.png",
     "firstNightReminder": "在首个夜晚，校准风向标。用大拇指向上，告诉他奇数位邪恶玩家较多；或者用大拇指向下，告诉他偶数位邪恶玩家较多。如果奇数位邪恶玩家等于偶数位邪恶玩家，那么你需要向风向标提供错误信息。让风向标重新入睡。",
     "name": "风向标",
     "team": "townsfolk",
@@ -55,7 +55,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_c",
@@ -74,7 +74,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "flavor": "",
     "id": "sailor_c",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "flavor": "",
     "id": "dreamer_c",
@@ -108,7 +108,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -130,7 +130,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -148,7 +148,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_c",
@@ -167,7 +167,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcist_c",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_c",
@@ -204,7 +204,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -224,7 +224,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -242,7 +242,7 @@
   },
   {
     "id": "_yylm",
-    "image": "/scripts/assets/community/bc85684e3e6c4357d57e81a7c331f92015dd425f6034b58be3102f164c40a824.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/bc85684e3e6c4357d57e81a7c331f92015dd425f6034b58be3102f164c40a824.png",
     "reminders": [
       "不会死亡"
     ],
@@ -253,7 +253,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -271,7 +271,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_c",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "flavor": "",
     "id": "golem_c",
@@ -305,7 +305,7 @@
   },
   {
     "ability": "爪牙会在其首个夜晚得知三个伪装。",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "flavor": "",
     "id": "snitch_c",
@@ -321,7 +321,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -340,7 +340,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "flavor": "",
     "id": "mezepheles_c",
@@ -359,7 +359,7 @@
   },
   {
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "flavor": "",
     "id": "goblin_c",
@@ -377,7 +377,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_c",
@@ -395,7 +395,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
-    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
     "edition": "custom",
     "flavor": "",
     "id": "yanluo_c",
@@ -422,7 +422,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "flavor": "",
     "id": "po_c",
@@ -441,7 +441,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
     "edition": "custom",
     "flavor": "",
     "id": "hundun_c",
@@ -460,7 +460,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家:他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "lleech_c",
@@ -479,7 +479,7 @@
   },
   {
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "flavor": "",
     "id": "lil_monsta_c",
@@ -501,7 +501,7 @@
     "name": "呵！长大了！",
     "team": "fabled",
     "ability": "初始的恶魔始终设置为【小怪宝】。\n\n当一名邪恶玩家，被连续两次照顾小怪宝时：\n\n当晚照顾小怪宝的玩家（在所有恶魔行动前），他要选择成为一名新的邪恶的恶魔。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-yu-yue-long-men-d22ae1dc/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

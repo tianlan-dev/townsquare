@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "致命华尔兹",
     "author": "不是鱼子酱",
-    "logo": "/scripts/assets/community/72b3fe02463b144bb6514ec4d746e8308b294c040018ea962dc633d2645f4584.png",
+    "logo": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/72b3fe02463b144bb6514ec4d746e8308b294c040018ea962dc633d2645f4584.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "BWG·剧本大乱斗"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_zhiminghuaerzi",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "reminders": [
       "负伤"
     ],
@@ -24,7 +24,7 @@
   },
   {
     "id": "1_zhiminghuaerzi",
-    "image": "/scripts/assets/community/ee4fb18f6034f93130b0d2954c3ae3bdd793c2432ad4f93ceea541bf0f3f7930.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/ee4fb18f6034f93130b0d2954c3ae3bdd793c2432ad4f93ceea541bf0f3f7930.png",
     "name": "替罪羊",
     "team": "a jinxed",
     "ability": "如果你的阵营的一名玩家被处决，你可能会代替他被处决。",
@@ -32,7 +32,7 @@
   },
   {
     "id": "2_zhiminghuaerzi",
-    "image": "/scripts/assets/community/81d24492073ed26187e2a74cb050bcaaaf1dd410879d17ac19a69b08fe0081e5.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/81d24492073ed26187e2a74cb050bcaaaf1dd410879d17ac19a69b08fe0081e5.png",
     "firstNightReminder": "在学徒加入游戏的首个夜晚，唤醒学徒。向学徒展示“你是”信息标记，然后展示一个镇民或爪牙的角色标记。在魔典上，将学徒的角色标记替换为刚刚展示的角色标记，并放置“是学徒”提示标记。这名玩家还是学徒，只是他拥有了该角色的能力。",
     "otherNightReminder": "在学徒加入游戏的首个夜晚，唤醒学徒。向学徒展示“你是”信息标记，然后展示一个镇民或爪牙的角色标记。在魔典上，将学徒的角色标记替换为刚刚展示的角色标记，并放置“是学徒”提示标记。这名玩家还是学徒，只是他拥有了该角色的能力。",
     "reminders": [
@@ -47,7 +47,7 @@
   },
   {
     "id": "3_zhiminghuaerzi",
-    "image": "/scripts/assets/community/7a5d2a010913746c68bcaa7cb472fc4aec66703c18f25c3b39547d3b1378907d.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/7a5d2a010913746c68bcaa7cb472fc4aec66703c18f25c3b39547d3b1378907d.png",
     "otherNightReminder": "唤醒流莺。让流莺指向任意一名玩家。让流莺重新入睡。唤醒被选中的玩家，对该玩家展示“该角色的能力对你生效”提示标记和流莺角色标记。该玩家需要通过点头表示是，摇头表示否。然后让该玩家重新入睡。",
     "reminders": [
       "死亡"
@@ -60,7 +60,7 @@
   },
   {
     "id": "4_zhiminghuaerzi",
-    "image": "/scripts/assets/community/08888ba0a55753bd449ae5d30222830a7ac4282bcc270a8de89b50e67ce939ca.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/08888ba0a55753bd449ae5d30222830a7ac4282bcc270a8de89b50e67ce939ca.png",
     "otherNightReminder": "如果你决定不让叫花子获得这个角色的能力，无事发生。如果你决定让叫花子获得这个角色的能力，那么让他行动。如果该角色已在场，你可以自由决定是先唤醒原角色对应的玩家还是先唤醒叫花子玩家来进行行动。",
     "reminders": [
       "乞讨",
@@ -74,7 +74,7 @@
   },
   {
     "id": "5_zhiminghuaerzi",
-    "image": "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -87,7 +87,7 @@
   },
   {
     "id": "6_zhiminghuaerzi",
-    "image": "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
     "reminders": [
       "失去能力"
     ],
@@ -98,7 +98,7 @@
   },
   {
     "id": "7_zhiminghuaerzi",
-    "image": "/scripts/assets/community/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/bee670d2aa6a8c8b61847f6138c97fcbdb6f50557818f4fc4a4f79004de51dc0.png",
     "name": "精神病患者※",
     "team": "a jinxed",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -106,7 +106,7 @@
   },
   {
     "id": "8_zhiminghuaerzi",
-    "image": "/scripts/assets/community/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
     "reminders": [
       "失去能力",
       "兑现",
@@ -120,7 +120,7 @@
   },
   {
     "id": "9_zhiminghuaerzi",
-    "image": "/scripts/assets/community/5aec6e858630674f6a76090898c0a379f0ed0b6ec6cdb1591cbe141eea34017b.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/5aec6e858630674f6a76090898c0a379f0ed0b6ec6cdb1591cbe141eea34017b.png",
     "firstNightReminder": "首个夜晚，你得知两名阵营不同的玩家。",
     "otherNightReminder": "若其中邪恶玩家被处决，则其中的善良玩家会在当晚死亡。",
     "reminders": [
@@ -136,7 +136,7 @@
   },
   {
     "id": "10_zhiminghuaerzi",
-    "image": "/scripts/assets/community/1f31be2f343e49b138d5b747c0b0bb56a473e48a192191ce9cfbe954f411db7b.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/1f31be2f343e49b138d5b747c0b0bb56a473e48a192191ce9cfbe954f411db7b.png",
     "firstNightReminder": "在你的首个夜晚，你会得知两个在场的角色。",
     "otherNightReminder": "每个夜晚*，你要选择除你以外的两名玩家：你会得知他们之中是否有你得知过的角色。",
     "reminders": [
@@ -151,7 +151,7 @@
   },
   {
     "id": "11_zhiminghuaerzi",
-    "image": "/scripts/assets/community/e41d144ce6d5fa732af0f6ccf9f9ab8713a71810075d33bc9589cb7600b6aa98.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/e41d144ce6d5fa732af0f6ccf9f9ab8713a71810075d33bc9589cb7600b6aa98.png",
     "otherNightReminder": "每个夜晚*，你得知所有负伤的玩家。每局游戏限一次，你可以选择一名玩家：若他是负伤镇民，他死亡。",
     "reminders": [
       "死亡"
@@ -164,7 +164,7 @@
   },
   {
     "id": "12_zhiminghuaerzi",
-    "image": "/scripts/assets/community/1ade2225633f9310f463e335eac9284b2c402fc4cc012a0a8c4a138cc9fcf757.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/1ade2225633f9310f463e335eac9284b2c402fc4cc012a0a8c4a138cc9fcf757.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：你得知其假面角色。如果其恰好在当晚死亡，额外得知其基本角色。",
     "name": "舞伴※",
     "team": "a jinxed",
@@ -174,7 +174,7 @@
   },
   {
     "id": "13_zhiminghuaerzi",
-    "image": "/scripts/assets/community/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
     "firstNightReminder": "唤醒洗衣妇，对她指向两名玩家，并展示一个镇民角色标记。这两名玩家其中之一是这个镇民。",
     "reminders": [
       "镇民",
@@ -188,7 +188,7 @@
   },
   {
     "id": "14_zhiminghuaerzi",
-    "image": "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
     "reminders": [
       "失去能力"
     ],
@@ -199,7 +199,7 @@
   },
   {
     "id": "15_zhiminghuaerzi",
-    "image": "/scripts/assets/community/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png",
     "reminders": [
       "失去能力"
     ],
@@ -210,7 +210,7 @@
   },
   {
     "id": "16_zhiminghuaerzi",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "17_zhiminghuaerzi",
-    "image": "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
     "reminders": [
       "失去能力"
     ],
@@ -229,7 +229,7 @@
   },
   {
     "id": "18_zhiminghuaerzi",
-    "image": "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
     "otherNightReminder": "如果杂耍艺人在今天白天使用了能力，唤醒杂耍艺人，对他用手势比划数字来告知他白天猜测正确的次数。",
     "reminders": [
       "猜测正确"
@@ -242,7 +242,7 @@
   },
   {
     "id": "19_zhiminghuaerzi",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -258,7 +258,7 @@
   },
   {
     "id": "20_zhiminghuaerzi",
-    "image": "/scripts/assets/community/b9315491a507e3c3f14480f9e860f34fe2964e236c366faf5e1d1a40d61d4a7c.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/b9315491a507e3c3f14480f9e860f34fe2964e236c366faf5e1d1a40d61d4a7c.png",
     "otherNightReminder": "唤醒鸩，如果鸩使用能力，让鸩选择一个镇民角色：如果这个镇民角色在场，这个镇民角色先中毒，再死亡。",
     "reminders": [
       "中毒",
@@ -272,7 +272,7 @@
   },
   {
     "id": "21_zhiminghuaerzi",
-    "image": "/scripts/assets/community/d9dc43f9acd180fbbc7926918962d3480b5bbe4091927952d3da12dd7992a942.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/d9dc43f9acd180fbbc7926918962d3480b5bbe4091927952d3da12dd7992a942.png",
     "reminders": [
       "免疫"
     ],
@@ -283,7 +283,7 @@
   },
   {
     "id": "22_zhiminghuaerzi",
-    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -291,7 +291,7 @@
   },
   {
     "id": "23_zhiminghuaerzi",
-    "image": "/scripts/assets/community/041f0fd5a30bd0ae0d349d24877f9c4f57e472668e8efe8c0fc0ba3e819e6d03.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/041f0fd5a30bd0ae0d349d24877f9c4f57e472668e8efe8c0fc0ba3e819e6d03.png",
     "reminders": [
       "醉酒"
     ],
@@ -302,7 +302,7 @@
   },
   {
     "id": "24_zhiminghuaerzi",
-    "image": "/scripts/assets/community/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
     "otherNightReminder": "如果杂技演员左右两侧最近的存活善良玩家之一中毒或醉酒，杂技演员死亡。",
     "reminders": [
       "死亡"
@@ -315,7 +315,7 @@
   },
   {
     "id": "25_zhiminghuaerzi",
-    "image": "/scripts/assets/community/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
     "firstNightReminder": "唤醒寡妇，让她查看魔典。在她查看完毕后让她选择一名玩家，那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。",
     "reminders": [
       "中毒"
@@ -331,7 +331,7 @@
   },
   {
     "id": "26_zhiminghuaerzi",
-    "image": "/scripts/assets/community/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
     "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "reminders": [
@@ -351,7 +351,7 @@
   },
   {
     "id": "27_zhiminghuaerzi",
-    "image": "/scripts/assets/community/ffc53c84e06a1ca9adfd91c1867c75828e3eace53a0fb96311b7f4cd2f3bfd30.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/ffc53c84e06a1ca9adfd91c1867c75828e3eace53a0fb96311b7f4cd2f3bfd30.png",
     "firstNightReminder": "首个夜晚，选择一名玩家：他拥有毒药并中毒。",
     "otherNightReminder": "每个夜晚*，毒药会顺时针传给下个存活镇民：他中毒。",
     "reminders": [
@@ -367,7 +367,7 @@
   },
   {
     "id": "28_zhiminghuaerzi",
-    "image": "/scripts/assets/community/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
     "otherNightReminder": "决定今晚谁会因为军团能力死亡。",
     "reminders": [
       "即将被处决",
@@ -382,7 +382,7 @@
   },
   {
     "id": "29_zhiminghuaerzi",
-    "image": "/scripts/assets/community/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "reminders": [
       "死亡"
@@ -395,7 +395,7 @@
   },
   {
     "id": "30_zhiminghuaerzi",
-    "image": "/scripts/assets/community/d258e5421d5c342937ff780843d95c05d9ba0a3b4762fe410ec5ff7dbeb11736.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/d258e5421d5c342937ff780843d95c05d9ba0a3b4762fe410ec5ff7dbeb11736.png",
     "name": "派对猫咪",
     "team": "traveller",
     "ability": "你可以从“假面盲袋”中抽取并秘密拥有一个假面能力。若你负伤，你立即死亡。",
@@ -403,7 +403,7 @@
   },
   {
     "id": "31_zhiminghuaerzi",
-    "image": "/scripts/assets/community/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png",
     "name": "古董收藏家",
     "team": "fabled",
     "ability": "剧本中部分角色的能力来源于过去。",
@@ -411,7 +411,7 @@
   },
   {
     "id": "32_zhiminghuaerzi",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-80097cbc/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "精准杀戮",
     "team": "fabled",
     "ability": "恶魔每晚必定且只会袭击一名存活玩家。若恶魔未袭击存活玩家，说书人替恶魔重新选择目标",

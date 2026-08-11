@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "嗤之以鼻",
     "author": "Milk",
-    "logo": "/scripts/assets/community/0d88a8ca83e1ceaf925abb0250dcc193bf7920f5fb651125b95bd4e469ee61da.png",
+    "logo": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/0d88a8ca83e1ceaf925abb0250dcc193bf7920f5fb651125b95bd4e469ee61da.png",
     "description": "嗤之以鼻",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -22,7 +22,7 @@
   },
   {
     "id": "meishenmeyongdejuese111",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "edition": "custom",
     "name": "事务官",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -73,7 +73,7 @@
   },
   {
     "id": "yeshimeishengmeyongdejuese111",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "name": "女祭司",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -105,7 +105,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -122,7 +122,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -137,7 +137,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -154,7 +154,7 @@
   },
   {
     "id": "biubiubiu111",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "name": "猎手",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
@@ -171,7 +171,7 @@
   },
   {
     "id": "caibuduide111",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "name": "杂耍艺人",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -188,7 +188,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -203,7 +203,7 @@
   },
   {
     "id": "sb111",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "name": "士兵",
     "ability": "恶魔的负面能力对你无效。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -236,7 +236,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -253,7 +253,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -270,7 +270,7 @@
   },
   {
     "id": "xunzhaonidezhuren111",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "name": "管家",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "scp-049049049",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
@@ -304,7 +304,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -320,7 +320,7 @@
   },
   {
     "id": "tousioahsdoasidhas",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "name": "限",
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
@@ -341,7 +341,7 @@
   },
   {
     "id": "tiehuaibi11111",
-    "image": "/scripts/assets/community/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
     "edition": "custom",
     "name": "维齐尔",
     "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -368,7 +368,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -385,7 +385,7 @@
   },
   {
     "id": "oeeroeeerooooeeeeee1111111",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -402,7 +402,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -420,7 +420,7 @@
   },
   {
     "id": "2_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&管家",
     "team": "a jinxed",
     "setup": false,
@@ -429,7 +429,7 @@
   },
   {
     "id": "166_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&杂耍艺人",
     "team": "a jinxed",
     "setup": false,
@@ -438,7 +438,7 @@
   },
   {
     "id": "31_meta",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "name": "提线木偶&气球驾驶员",
     "team": "a jinxed",
     "setup": false,
@@ -447,7 +447,7 @@
   },
   {
     "id": "7_meta",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "name": "瘟疫医生&提线木偶",
     "team": "a jinxed",
     "setup": false,
@@ -456,7 +456,7 @@
   },
   {
     "id": "10_meta",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-chi-zhi-yi-bi-f9612ddb/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "name": "瘟疫医生&红唇女郎",
     "team": "a jinxed",
     "setup": false,

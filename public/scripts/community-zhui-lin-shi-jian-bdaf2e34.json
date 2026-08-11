@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "坠临世间",
     "author": "洛甜蕾",
-    "logo": "/scripts/assets/community/2924f8c1cbcee2cd976fb3b4b67b659e11bd082096bb8e74e4ce73e1a014a44b.png",
+    "logo": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/2924f8c1cbcee2cd976fb3b4b67b659e11bd082096bb8e74e4ce73e1a014a44b.png",
     "almanac": "祝洛甜蕾老师生日快乐喵~   Josn有问题联系SE谢谢喵~",
     "tags": [
       "全原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_duolinrenjian",
-    "image": "/scripts/assets/community/a17b3bba286fb18896861b188c5a4b8cad19a4bd01386849b2489b417bbc8886.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/a17b3bba286fb18896861b188c5a4b8cad19a4bd01386849b2489b417bbc8886.png",
     "firstNightReminder": "唤醒签员，对他展示一个除签员以外的在场角色标记，该角色标记所对应的玩家必须与邪恶玩家邻座。",
     "reminders": [
       "得知"
@@ -27,7 +27,7 @@
   },
   {
     "id": "1_duolinrenjian",
-    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_duolinrenjian",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -51,7 +51,7 @@
   },
   {
     "id": "3_duolinrenjian",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -63,7 +63,7 @@
   },
   {
     "id": "4_duolinrenjian",
-    "image": "/scripts/assets/community/81bd26834feee5b17fb881751749c877a7f3cf10d3c7c819d4df17df1ebec7e3.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/81bd26834feee5b17fb881751749c877a7f3cf10d3c7c819d4df17df1ebec7e3.png",
     "firstNightReminder": "唤醒无界行者，让他选择至多三名除自己以外的玩家。用手势比划数字来告诉他今天这些玩家中有多少存活玩家的能力未正常生效。",
     "otherNightReminder": "唤醒无界行者，让他选择至多三名除自己以外的玩家。用手势比划数字来告诉他今天这些玩家中有多少存活玩家的能力未正常生效。",
     "reminders": [
@@ -78,7 +78,7 @@
   },
   {
     "id": "5_duolinrenjian",
-    "image": "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -88,7 +88,7 @@
   },
   {
     "id": "6_duolinrenjian",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -101,7 +101,7 @@
   },
   {
     "id": "7_duolinrenjian",
-    "image": "/scripts/assets/community/7b9f7dd450e31d88140d3cdaba3210e3154cb065a9a27032d11620da9e1ee0fb.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/7b9f7dd450e31d88140d3cdaba3210e3154cb065a9a27032d11620da9e1ee0fb.png",
     "otherNightReminder": "如果这是舰长的第二个夜晚，视舰长的生死状态，决定是唤醒舰长让他发动能力，还是唤醒一名存活的镇民玩家告知他角色变化。",
     "reminders": [
       "完成远航"
@@ -114,7 +114,7 @@
   },
   {
     "id": "8_duolinrenjian",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -122,7 +122,7 @@
   },
   {
     "id": "9_duolinrenjian",
-    "image": "/scripts/assets/community/bb28377f4d3d5367037df9c6c7dd07f1fd920f2ed12d475c6a1929669d66bfd8.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/bb28377f4d3d5367037df9c6c7dd07f1fd920f2ed12d475c6a1929669d66bfd8.png",
     "name": "言灵使",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下告知说书人一名玩家：要么你会得知一条有关于他未来的可能性，要么你会得知一条有关于他过去的既定现实。",
@@ -130,7 +130,7 @@
   },
   {
     "id": "10_duolinrenjian",
-    "image": "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -138,7 +138,7 @@
   },
   {
     "id": "11_duolinrenjian",
-    "image": "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
     "reminders": [
       "失去能力"
     ],
@@ -149,7 +149,7 @@
   },
   {
     "id": "12_duolinrenjian",
-    "image": "/scripts/assets/community/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
     "otherNightReminder": "如果贤者被恶魔杀死，唤醒贤者，对他指向两名玩家。其中之一是杀死贤者的恶魔。",
     "name": "贤者",
     "team": "townsfolk",
@@ -159,7 +159,7 @@
   },
   {
     "id": "13_duolinrenjian",
-    "image": "/scripts/assets/community/0d103d9883ca4f78aa075b867c451ff10427add1c1a45415cb068a0b13f507df.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/0d103d9883ca4f78aa075b867c451ff10427add1c1a45415cb068a0b13f507df.png",
     "firstNightReminder": "唤醒永世少年并向他提供一条任务。随后在恶魔信息环节对恶魔提供永世少年的相关信息。",
     "reminders": [
       "中毒"
@@ -172,7 +172,7 @@
   },
   {
     "id": "14_duolinrenjian",
-    "image": "/scripts/assets/community/036329530e0a31524c46963ec699c06045cee823e1c07269b1e635ce9a640b37.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/036329530e0a31524c46963ec699c06045cee823e1c07269b1e635ce9a640b37.png",
     "otherNightReminder": "如果这是糕点师得知她死亡后的首个夜晚，唤醒糕点师，让她选择一名玩家。随后进行相关操作。",
     "reminders": [
       "清醒且健康",
@@ -186,7 +186,7 @@
   },
   {
     "id": "15_duolinrenjian",
-    "image": "/scripts/assets/community/1b1831d950d7589bb3d8ef2ca6e686f802e9092c7a2b5c8c92095de6d4de7982.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/1b1831d950d7589bb3d8ef2ca6e686f802e9092c7a2b5c8c92095de6d4de7982.png",
     "firstNightReminder": "唤醒所有爪牙选择由谁照看精灵鹿。随后，决定照看精灵鹿的玩家会遭受什么负面效果。",
     "otherNightReminder": "重新决定照看精灵鹿的玩家会遭受什么负面效果。",
     "remindersGlobal": [
@@ -203,7 +203,7 @@
   },
   {
     "id": "16_duolinrenjian",
-    "image": "/scripts/assets/community/46361cf050ad82ee5a5a5943556e18a0680c8d4d4894b602f03b5037226b807a.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/46361cf050ad82ee5a5a5943556e18a0680c8d4d4894b602f03b5037226b807a.png",
     "firstNightReminder": "唤醒一名除白莲花以外的非旅行者善良玩家，向他提供一条可对可错或不分对错的信息。",
     "reminders": [
       "疯狂"
@@ -216,7 +216,7 @@
   },
   {
     "id": "17_duolinrenjian",
-    "image": "/scripts/assets/community/45f5d3c8eea8b7b94578c269e43553175ba1dc129e8a157390d98efd904b46fd.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/45f5d3c8eea8b7b94578c269e43553175ba1dc129e8a157390d98efd904b46fd.png",
     "reminders": [
       "限一次"
     ],
@@ -228,7 +228,7 @@
   },
   {
     "id": "18_duolinrenjian",
-    "image": "/scripts/assets/community/ce5ac6fe8eec5efbfb09cc0f5b820f30c87050fca554c7e26959fb0d7892d8fc.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/ce5ac6fe8eec5efbfb09cc0f5b820f30c87050fca554c7e26959fb0d7892d8fc.png",
     "name": "环脑",
     "team": "minion",
     "ability": "如果小于等于六名玩家存活时（旅行者不计算在内）恶魔在夜晚死亡，再最后进行一个白天。在那个白天如果你没有被处决，邪恶阵营获胜。",
@@ -236,7 +236,7 @@
   },
   {
     "id": "19_duolinrenjian",
-    "image": "/scripts/assets/community/8bc01de91b94dde8e2e8cbc73613b1614befb6b4935aaa3c8bc51419b353dcdb.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/8bc01de91b94dde8e2e8cbc73613b1614befb6b4935aaa3c8bc51419b353dcdb.png",
     "firstNightReminder": "唤醒妖神司，对她展示所有在场的外来者角色标记，然后让她选择获得角色列表上的任意个不在场外来者角色的能力。",
     "setup": true,
     "name": "妖神司",
@@ -247,7 +247,7 @@
   },
   {
     "id": "20_duolinrenjian",
-    "image": "/scripts/assets/community/d81f9948db948401c626af777a6ccc4069378a25d352195e5efc55136338e603.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/d81f9948db948401c626af777a6ccc4069378a25d352195e5efc55136338e603.png",
     "firstNightReminder": "唤醒恶魔，让他选择一名玩家以寄生。",
     "otherNightReminder": "如果蚀影死于白天，唤醒蚀影并让他决定是否保留能力。如果蚀影死于夜晚，则在当前玩家行动结束后立即唤醒并询问他。",
     "reminders": [
@@ -262,7 +262,7 @@
   },
   {
     "id": "21_duolinrenjian",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -275,7 +275,7 @@
   },
   {
     "id": "22_duolinrenjian",
-    "image": "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png",
     "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
     "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
     "reminders": [
@@ -290,7 +290,7 @@
   },
   {
     "id": "23_duolinrenjian",
-    "image": "/scripts/assets/community/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "reminders": [
       "死亡"
@@ -303,7 +303,7 @@
   },
   {
     "id": "24_duolinrenjian",
-    "image": "/scripts/assets/community/05bfa8d0fb6f7620f856e7b8f144355de8929f0e02a8fc23ea66867d6bf94a92.png",
+    "image": "/scripts/assets/community-zhui-lin-shi-jian-bdaf2e34/05bfa8d0fb6f7620f856e7b8f144355de8929f0e02a8fc23ea66867d6bf94a92.png",
     "otherNightReminder": "杀死一名在今天白天时被莱薇“疯狂”关注的存活玩家。该夜晚行动只是一个提示，死亡的造成时机可以是夜晚的任何时候。",
     "reminders": [
       "疯狂",

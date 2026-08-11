@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "无人生还",
     "author": "Aero",
-    "logo": "/scripts/assets/community/6439a7699efa9b9c16661034684afa7ddcf7037d258b82f20f107d1db263aa80.png",
+    "logo": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/6439a7699efa9b9c16661034684afa7ddcf7037d258b82f20f107d1db263aa80.png",
     "almanac": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/4459b412ba64ad643be3f8b470e0a21056de9e3a3244392045e997ba7aa687a3.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/4459b412ba64ad643be3f8b470e0a21056de9e3a3244392045e997ba7aa687a3.png",
     "firstNightReminder": "花花公子指向角色列表上任一善良角色，如果那个角色在场，标记“一同”。",
     "reminders": [
       "一同",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/b965792f4e21e566e1920573924fb6604c729a86707450e7f1e7f4d3b6678019.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/b965792f4e21e566e1920573924fb6604c729a86707450e7f1e7f4d3b6678019.png",
     "firstNightReminder": "唤醒牧师左右两侧最近的镇民之一，标记“得知”，并向他展示牧师的角色标记。",
     "otherNightReminder": "当牧师在夜晚死亡时，标记“死于夜晚”。下个白天，他可以私下询问说书人并获取一条信息。",
     "reminders": [
@@ -45,7 +45,7 @@
   },
   {
     "id": "2_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/59967a4979ab6a7c05cd8a0a023784234123fff7b64a0cc220f6a69bc51b853d.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/59967a4979ab6a7c05cd8a0a023784234123fff7b64a0cc220f6a69bc51b853d.png",
     "firstNightReminder": "唤醒酒保，并向他展示一个能力在当晚正常生效的角色标记。",
     "otherNightReminder": "唤醒酒保，并向他展示一个能力在当晚正常生效的角色标记。",
     "reminders": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "3_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/52f34900a9ce218d09fe4414b2b27f71d0c39dc059541e6a485c97d91e343304.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/52f34900a9ce218d09fe4414b2b27f71d0c39dc059541e6a485c97d91e343304.png",
     "firstNightReminder": "狱警指向一名玩家，标记“无法行动”，如果他是镇民，唤醒那名玩家并告知狱警选择了他，且他无法行动。如果他已经有“无法行动”标记，移除“无法行动”并标记“死亡”。",
     "otherNightReminder": "狱警指向一名玩家，标记“无法行动”，如果他是镇民，唤醒那名玩家并告知狱警选择了他，且他无法行动。如果他已经有“无法行动”标记，移除“无法行动”并标记“死亡”。",
     "reminders": [
@@ -78,7 +78,7 @@
   },
   {
     "id": "4_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/43daecf6ec95877400f0a663479e58039837f1ab1d0279243a303294b936bb00.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/43daecf6ec95877400f0a663479e58039837f1ab1d0279243a303294b936bb00.png",
     "firstNightReminder": "服务员指向除自己的一名玩家，如果他两侧的玩家属于同一阵营，向服务员点头，否则摇头。如果那名玩家属于邪恶阵营，标记服务员“醉酒”。",
     "otherNightReminder": "服务员指向除自己的一名玩家，如果他两侧的玩家属于同一阵营，向服务员点头，否则摇头。如果那名玩家属于邪恶阵营，标记服务员“醉酒”。",
     "reminders": [
@@ -94,7 +94,7 @@
   },
   {
     "id": "5_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/87a9e45ddbb409013d9adc4907a5a84dbb204ff50c7e740811e962b88291fa69.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/87a9e45ddbb409013d9adc4907a5a84dbb204ff50c7e740811e962b88291fa69.png",
     "otherNightReminder": "唤醒侦探，如果有玩家由于镇民的能力而死亡，向他点头，否则摇头。",
     "name": "侦探",
     "team": "townsfolk",
@@ -105,7 +105,7 @@
   },
   {
     "id": "6_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/689924a3c15681f28f2e855efea7803e9d055a2a5237f03befc21087c5eec467.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/689924a3c15681f28f2e855efea7803e9d055a2a5237f03befc21087c5eec467.png",
     "otherNightReminder": "标记与恶魔相邻的死亡玩家“看管”。唤醒看守，向他竖起等同于恶魔两侧最近的死亡玩家数量的手指（0~2）。标记与恶魔相邻的死亡玩家“看管”。",
     "reminders": [
       "看管"
@@ -119,7 +119,7 @@
   },
   {
     "id": "7_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/2361ece99e5cff0b2b8ab3e0334e05e56ab301a7c425cf67a3051a0deb1edc7f.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/2361ece99e5cff0b2b8ab3e0334e05e56ab301a7c425cf67a3051a0deb1edc7f.png",
     "otherNightReminder": "警督指向一名玩家，如果那名玩家是爪牙，你选择一名外来者，标记“醉酒”并标记“死亡”。",
     "reminders": [
       "醉酒",
@@ -135,7 +135,7 @@
   },
   {
     "id": "8_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/e0eac121fef8736f2cb790762b6ce78765a1ce7786334eeb881643bd222802d3.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/e0eac121fef8736f2cb790762b6ce78765a1ce7786334eeb881643bd222802d3.png",
     "otherNightReminder": "保镖指向两名与上个夜晚不同的玩家，标记他们“选择”。如果他们都是善良的,标记他们“保护”。如果保镖在今晚被恶魔杀死，标记他们“死亡”。",
     "reminders": [
       "保护",
@@ -151,7 +151,7 @@
   },
   {
     "id": "9_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/e13cc506b2b86639e0c0de919421586a4aa49666a3e368545c239156e5a18ed1.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/e13cc506b2b86639e0c0de919421586a4aa49666a3e368545c239156e5a18ed1.png",
     "otherNightReminder": "如果在上个白天有玩家在与你的私聊中触发了州长的能力，标记州长“不会死亡”。标记那名玩家“已疯狂”。",
     "reminders": [
       "不会死亡",
@@ -166,7 +166,7 @@
   },
   {
     "id": "10_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/0f37770cb478f646d1e907ca731bf2cc7eed61c999f6f47cf5ef8741c30b379a.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/0f37770cb478f646d1e907ca731bf2cc7eed61c999f6f47cf5ef8741c30b379a.png",
     "otherNightReminder": "如果你回答了学生的问题，标记学生“好奇害死猫”。如果学生拥有此标记，他可以死亡。",
     "reminders": [
       "好奇害死猫",
@@ -181,7 +181,7 @@
   },
   {
     "id": "11_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/0b9255d06e5862ebcc5ab23a6bdb49482e2974d602cfdccb5af8e4b1c1b1db36.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/0b9255d06e5862ebcc5ab23a6bdb49482e2974d602cfdccb5af8e4b1c1b1db36.png",
     "otherNightReminder": "治安官要么摇头，要么点头，如果治安官点头，今晚不会有任何玩家死亡，标记治安官“平安夜“和“失去能力”。在黎明时移除“平安夜”。",
     "reminders": [
       "失去能力",
@@ -196,7 +196,7 @@
   },
   {
     "id": "12_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/cad614594ac65d1e7c7186f870a3d20c30b16c78443f1051c67914383518258d.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/cad614594ac65d1e7c7186f870a3d20c30b16c78443f1051c67914383518258d.png",
     "reminders": [
       "是工会成员",
       "中毒"
@@ -209,7 +209,7 @@
   },
   {
     "id": "13_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/98c72d308043a3d421c44505edf8d9ba794ebd13feec3b25cc6faf902532f8e3.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/98c72d308043a3d421c44505edf8d9ba794ebd13feec3b25cc6faf902532f8e3.png",
     "firstNightReminder": "标记一名玩家“醉酒”，唤醒行刑官，向行刑官展示那名玩家的角色标记。",
     "reminders": [
       "醉酒",
@@ -224,7 +224,7 @@
   },
   {
     "id": "14_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/efb7c177cc384e0b9fac48c69857861698eb3dffbe93a3ecd7421d123789dcf4.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/efb7c177cc384e0b9fac48c69857861698eb3dffbe93a3ecd7421d123789dcf4.png",
     "reminders": [],
     "name": "贱民",
     "team": "outsider",
@@ -234,7 +234,7 @@
   },
   {
     "id": "15_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/6ae938cff9096a79758c408873c782a865e6911ad1d73c76d9522eab82b6861a.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/6ae938cff9096a79758c408873c782a865e6911ad1d73c76d9522eab82b6861a.png",
     "firstNightReminder": "标记一名玩家“为他作证”，唤醒那名玩家，向他展示证人的角色标记。",
     "reminders": [
       "为他作证"
@@ -248,7 +248,7 @@
   },
   {
     "id": "16_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/9da8de0c09c6015b32908456daf3aae7ef9dceea65d1034a2f12da6d879e4ea5.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/9da8de0c09c6015b32908456daf3aae7ef9dceea65d1034a2f12da6d879e4ea5.png",
     "reminders": [
       "错误信息"
     ],
@@ -260,7 +260,7 @@
   },
   {
     "id": "17_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/b0bb73bae4517e9b3b1e8e5c2f4f9eb37ea0e61237c141650f737fe7093b45b3.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/b0bb73bae4517e9b3b1e8e5c2f4f9eb37ea0e61237c141650f737fe7093b45b3.png",
     "firstNightReminder": "敲诈犯指向一名玩家，标记“被敲诈”，他可能会被当作任意阵营或任意角色，直到下个黄昏。",
     "otherNightReminder": "敲诈犯指向一名玩家，标记“被敲诈”，他可能会被当作任意阵营或任意角色，直到下个黄昏。",
     "reminders": [
@@ -276,7 +276,7 @@
   },
   {
     "id": "18_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/99c0d0e8044571407375e935f08774836bd636d6f75b2216c6a90bcd577b48d9.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/99c0d0e8044571407375e935f08774836bd636d6f75b2216c6a90bcd577b48d9.png",
     "firstNightReminder": "放置“善良无法获胜”标记",
     "otherNightReminder": "如果有玩家死亡且是首个死亡，唤醒他，并向他展示清洁工的角色标记。标记“得知清洁工”。",
     "reminders": [
@@ -294,7 +294,7 @@
   },
   {
     "id": "19_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/c602e9cabd3cea76099140f64f67e5a32e5cb8e92e608fd2a6ddd65b057e2339.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/c602e9cabd3cea76099140f64f67e5a32e5cb8e92e608fd2a6ddd65b057e2339.png",
     "firstNightReminder": "纵火狂指向一名玩家，唤醒那名玩家，向他展示“这个角色选择了你”卡和纵火狂的角色标记，并标记“浇油！”。",
     "otherNightReminder": "纵火狂指向一名玩家，唤醒那名玩家，向他展示“这个角色选择了你”卡和纵火狂的角色标记，并标记“浇油！”。",
     "reminders": [
@@ -311,7 +311,7 @@
   },
   {
     "id": "20_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/194253ed63aa8995b32b829a0133de30f57e473d466aa7130e5bc005023fe669.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/194253ed63aa8995b32b829a0133de30f57e473d466aa7130e5bc005023fe669.png",
     "otherNightReminder": "标记被恶魔杀害的玩家“伪装”，不要宣布他们的死亡。",
     "reminders": [
       "伪装"
@@ -325,7 +325,7 @@
   },
   {
     "id": "21_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/91c7b7eff622ac014c464c8d7483271c733ec78d86d471953e6fa063e6f2a5a1.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/91c7b7eff622ac014c464c8d7483271c733ec78d86d471953e6fa063e6f2a5a1.png",
     "otherNightReminder": "说书人选择一名玩家死亡。然后，说书人可以唤醒拥有“处决同伴”标记的善良玩家，将他变成邪恶的亡命徒并告知他。",
     "reminders": [
       "死亡",
@@ -340,7 +340,7 @@
   },
   {
     "id": "22_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/ab0a39e70ea829234f11e090385dfb004f8ecc115fa7a89f980b9b4c944e65e0.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/ab0a39e70ea829234f11e090385dfb004f8ecc115fa7a89f980b9b4c944e65e0.png",
     "otherNightReminder": "幽灵选择一名玩家，他死亡。如果幽灵选择自杀，在魔典中央放置“已附体”标记，然后一名曾与你私聊的玩家变为新的邪恶幽灵，告知他的角色和阵营的变化。",
     "reminders": [
       "死亡",
@@ -357,7 +357,7 @@
   },
   {
     "id": "23_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/ca84c080faea3f1540e14c547b3b98dfa02bd28488a5cd5d48ff116e16bfaf28.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/ca84c080faea3f1540e14c547b3b98dfa02bd28488a5cd5d48ff116e16bfaf28.png",
     "otherNightReminder": "族长选择一名玩家，他死亡。如果上个白天有爪牙死于处决，改为选择两名玩家。",
     "reminders": [
       "死亡",
@@ -373,7 +373,7 @@
   },
   {
     "id": "24_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/645dc763eaf52cf36d3b799dacad1888312cd5e282aa9e72959e4d6c90eaaa91.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/645dc763eaf52cf36d3b799dacad1888312cd5e282aa9e72959e4d6c90eaaa91.png",
     "otherNightReminder": "夜魇要么选择一名玩家，他死亡，要么不做选择，如果他这么做，在魔典中央放置“全体中毒”标记，代表所有镇民中毒。",
     "reminders": [
       "死亡",
@@ -389,7 +389,7 @@
   },
   {
     "id": "25_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/6820c5e8be05f8d1288fcc728c7d1bf28289b5b6130702b6472b46bc226a53f4.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/6820c5e8be05f8d1288fcc728c7d1bf28289b5b6130702b6472b46bc226a53f4.png",
     "firstNightReminder": "宾鸡选择一名玩家，他在当晚不会被唤醒，标记“不被唤醒”。",
     "otherNightReminder": "宾鸡选择一名玩家，当晚不会因其自身能力而被唤醒。如果有玩家带有“没有投票”标记，标记“三票”。",
     "reminders": [
@@ -407,7 +407,7 @@
   },
   {
     "id": "26_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/72292b10b6c0b7b99aed6f81c4d535c8c94b04daa35554140b85915f000622c9.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/72292b10b6c0b7b99aed6f81c4d535c8c94b04daa35554140b85915f000622c9.png",
     "firstNightReminder": "垃圾分类员选择三名玩家，如果他们都是同一阵营，标记“垃圾分类”。",
     "otherNightReminder": "垃圾分类员选择三名玩家，如果他们都是同一阵营，标记“垃圾分类”。",
     "reminders": [
@@ -423,7 +423,7 @@
   },
   {
     "id": "27_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/69b6bbe4173efa9815445b2d2cbb805c2436da26aae42e41f9fbf93a374dc5c6.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/69b6bbe4173efa9815445b2d2cbb805c2436da26aae42e41f9fbf93a374dc5c6.png",
     "firstNightReminder": "透明人选择两名玩家，标记他们“互相指向”。",
     "otherNightReminder": "透明人选择两名玩家，标记他们“互相指向”。",
     "reminders": [
@@ -439,7 +439,7 @@
   },
   {
     "id": "28_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/e10ffff17db574a6b752c54d21cb4c38666e228bfafd4a951936605f6bca3552.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/e10ffff17db574a6b752c54d21cb4c38666e228bfafd4a951936605f6bca3552.png",
     "reminders": [
       "申诉成功"
     ],
@@ -451,7 +451,7 @@
   },
   {
     "id": "29_bundagee_inn_massacre_bigyellowfish",
-    "image": "/scripts/assets/community/c06cd89ff081be5b55d1a6d46e5aec6eb3ee7ace24204bc6a3bf157bc2fd5529.png",
+    "image": "/scripts/assets/community-wu-ren-sheng-huan-de7ba715/c06cd89ff081be5b55d1a6d46e5aec6eb3ee7ace24204bc6a3bf157bc2fd5529.png",
     "name": "电工",
     "team": "traveler",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。",

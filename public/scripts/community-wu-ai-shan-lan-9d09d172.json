@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "雾霭山岚",
     "author": "弦舞",
-    "logo": "/scripts/assets/community/b322dd2a43b4a5f80e3d396ab48f0d91dcf34380e1ab8509748c5c545322cceb.png",
+    "logo": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/b322dd2a43b4a5f80e3d396ab48f0d91dcf34380e1ab8509748c5c545322cceb.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -30,7 +30,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_106",
@@ -48,7 +48,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "hebusiniyade111",
-    "image": "/scripts/assets/community/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
     "edition": "custom",
     "name": "店小二",
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
@@ -81,7 +81,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -98,7 +98,7 @@
   },
   {
     "id": "yinlureanrlfasrfiaojwrn2k31j95u09uasj",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "edition": "custom",
     "name": "引路人",
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -116,7 +116,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -131,7 +131,7 @@
   },
   {
     "id": "xiongdinihaoxiang111",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -149,7 +149,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -166,7 +166,7 @@
   },
   {
     "id": "furryhaoye111",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -183,7 +183,7 @@
   },
   {
     "id": "xunchashaoihwronaklsndfkasnd",
-    "image": "/scripts/assets/community/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
     "edition": "custom",
     "name": "巡察",
     "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
@@ -201,7 +201,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -235,7 +235,7 @@
   },
   {
     "id": "caibuduide111",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "name": "杂耍艺人",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "buhaohe111",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -269,7 +269,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "woshishui111",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "name": "莽夫",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -304,7 +304,7 @@
   },
   {
     "id": "suaibi1111",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "edition": "custom",
     "name": "煞星",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -321,7 +321,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -338,7 +338,7 @@
   },
   {
     "id": "huoshiduizuo111",
-    "image": "/scripts/assets/community/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -353,7 +353,7 @@
   },
   {
     "id": "youzhizhua11111111",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -371,7 +371,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "lllllllllllllllllllllll11111111",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "name": "麻脸巫婆",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
@@ -404,7 +404,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -421,7 +421,7 @@
   },
   {
     "id": "woliuliuliu111",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -438,7 +438,7 @@
   },
   {
     "id": "dianyuzhangaowhorahwpru903qu5rpiqhnrf",
-    "image": "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
     "edition": "custom",
     "name": "典狱长",
     "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
@@ -456,7 +456,7 @@
   },
   {
     "id": "tifeng11zhishou11111111",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "name": "堤丰之首",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你位于正中，+1爪牙，-或+任意数量外来者]",
@@ -473,7 +473,7 @@
   },
   {
     "id": "1233543467_meta",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "name": "引路人&侍女",
     "team": "a jinxed",
     "setup": false,
@@ -482,7 +482,7 @@
   },
   {
     "id": "24_meta",
-    "image": "/scripts/assets/community/43ec28557d0342cecfa9f435522ea1cfd508cebc3416ef35407ca97e1b15472f.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/43ec28557d0342cecfa9f435522ea1cfd508cebc3416ef35407ca97e1b15472f.png",
     "name": "寡妇&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -491,7 +491,7 @@
   },
   {
     "id": "114_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&莽夫",
     "team": "a jinxed",
     "setup": false,
@@ -500,7 +500,7 @@
   },
   {
     "id": "13_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -509,7 +509,7 @@
   },
   {
     "id": "14_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-wu-ai-shan-lan-9d09d172/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&半兽人",
     "team": "a jinxed",
     "setup": false,

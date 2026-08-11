@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "一寸短一寸险",
     "author": "小巷",
-    "logo": "/scripts/assets/community/c5579a5e6f2d84007a37402205cf4cd0096cf13f58e322d7c255ccaaf6174d47.png",
+    "logo": "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/c5579a5e6f2d84007a37402205cf4cd0096cf13f58e322d7c255ccaaf6174d47.png",
     "tags": [],
     "version": "",
     "issue": 934
@@ -12,7 +12,7 @@
     "id": "chushi_tpi",
     "name": "厨师",
     "image": [
-      "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -26,7 +26,7 @@
     "id": "qishi_tpi",
     "name": "骑士",
     "image": [
-      "/scripts/assets/community/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -43,7 +43,7 @@
     "id": "shiwuguan_tpi",
     "name": "事务官",
     "image": [
-      "/scripts/assets/community/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -60,7 +60,7 @@
     "id": "songzangzhe_tpi",
     "name": "送葬者",
     "image": [
-      "/scripts/assets/community/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -77,7 +77,7 @@
     "id": "dutu_tpi",
     "name": "赌徒",
     "image": [
-      "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -94,7 +94,7 @@
     "id": "chengzhengonggaoyuan_tpi",
     "name": "城镇公告员",
     "image": [
-      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -112,7 +112,7 @@
     "id": "shenyuzhe_tpi",
     "name": "神谕者",
     "image": [
-      "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -126,7 +126,7 @@
     "id": "maihuanvhai_tpi",
     "name": "卖花女孩",
     "image": [
-      "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -144,7 +144,7 @@
     "id": "zhenjiezhe_tpi",
     "name": "贞洁者",
     "image": [
-      "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png"
     ],
     "team": "townsfolk",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -160,7 +160,7 @@
     "id": "hepingzhuyizhe_tpi",
     "name": "和平主义者",
     "image": [
-      "/scripts/assets/community/805e5088fa06953dc2cb82e9e14501efcd8eaa77c2088a2b9111e07d15bbb477.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/805e5088fa06953dc2cb82e9e14501efcd8eaa77c2088a2b9111e07d15bbb477.png"
     ],
     "team": "townsfolk",
     "ability": "被处决的善良玩家可能不会死亡。",
@@ -173,7 +173,7 @@
     "id": "nongchen_tpi",
     "name": "弄臣",
     "image": [
-      "/scripts/assets/community/eea1ef42b95ed930a43cafe06e43254b8870bd939157dcf7f0bc5f27ffb6a0a8.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/eea1ef42b95ed930a43cafe06e43254b8870bd939157dcf7f0bc5f27ffb6a0a8.png"
     ],
     "team": "townsfolk",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -189,7 +189,7 @@
     "id": "shibing_tpi",
     "name": "士兵",
     "image": [
-      "/scripts/assets/community/884715e7f0845727d3ddf6ad707e52f0a1898758511d85f880a3d06290523d7c.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/884715e7f0845727d3ddf6ad707e52f0a1898758511d85f880a3d06290523d7c.png"
     ],
     "team": "townsfolk",
     "ability": "恶魔的负面能力对你无效。",
@@ -202,7 +202,7 @@
     "id": "nongfu_tpi",
     "name": "农夫",
     "image": [
-      "/scripts/assets/community/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png"
     ],
     "team": "townsfolk",
     "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
@@ -216,7 +216,7 @@
     "id": "shengtu_tpi",
     "name": "圣徒",
     "image": [
-      "/scripts/assets/community/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png"
     ],
     "team": "outsider",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -229,7 +229,7 @@
     "id": "xiubujiang_tpi",
     "name": "修补匠",
     "image": [
-      "/scripts/assets/community/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png"
     ],
     "team": "outsider",
     "ability": "你随时可能死亡。",
@@ -246,7 +246,7 @@
     "id": "xinshangren_tpi",
     "name": "心上人",
     "image": [
-      "/scripts/assets/community/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
     ],
     "team": "outsider",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -263,7 +263,7 @@
     "id": "jixingxiuyanyuan_tpi",
     "name": "畸形秀演员",
     "image": [
-      "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
     ],
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -276,7 +276,7 @@
     "id": "touduzhe_tpi",
     "name": "投毒者",
     "image": [
-      "/scripts/assets/community/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -294,7 +294,7 @@
     "id": "hongchunnvlang_tpi",
     "name": "红唇女郎",
     "image": [
-      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
     ],
     "team": "minion",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -311,7 +311,7 @@
     "id": "nanjue_tpi",
     "name": "男爵",
     "image": [
-      "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png"
     ],
     "team": "minion",
     "ability": "会有额外的外来者在场。[+2 外来者]",
@@ -324,7 +324,7 @@
     "id": "cike_tpi",
     "name": "刺客",
     "image": [
-      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
     ],
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -342,7 +342,7 @@
     "id": "xiaoemo_tpi",
     "name": "小恶魔",
     "image": [
-      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -359,7 +359,7 @@
     "id": "nuodashi_tpi",
     "name": "诺-达鲺",
     "image": [
-      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
@@ -377,7 +377,7 @@
     "id": "puka_tpi",
     "name": "普卡",
     "image": [
-      "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
+      "/scripts/assets/community-yi-cun-duan-yi-cun-xian-b3efb23a/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
     ],
     "team": "demon",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。\n上个因你的能力中毒的玩家会死亡并恢复健康。",

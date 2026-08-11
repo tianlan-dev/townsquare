@@ -1,6 +1,6 @@
 [
   {
-    "logo": "/scripts/assets/community/fc2dc5f159efe7c63199c4b01fc05865a4576859b510d325a855ef7ea6afe512.png",
+    "logo": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/fc2dc5f159efe7c63199c4b01fc05865a4576859b510d325a855ef7ea6afe512.png",
     "description": "鬼市，除了代表夜市之外，也是各种妖魔鬼怪的聚集之处。夜半时分，熙熙攘攘，在这混杂着鬼怪的集市中，你是否能慧眼如炬，揪出暗中密会的厉鬼？",
     "author": "Nullt",
     "id": "_meta",
@@ -12,7 +12,7 @@
   },
   {
     "ability": "在你的首个夜晚，选择一名玩家，若他在白天死亡且当夜你选择杀死自己：你可以指定一名与他相邻的存活玩家成为新的邪恶狐媚。每个夜晚*，你要选择一名玩家：他死亡。",
-    "image": "/scripts/assets/community/71acbe3f4c089bbc2081f5da3ee12128b865a4916c3484650f25e0bb809c28e7.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/71acbe3f4c089bbc2081f5da3ee12128b865a4916c3484650f25e0bb809c28e7.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6106",
@@ -32,7 +32,7 @@
   },
   {
     "ability": "首个夜晚，你为之后的每个夜晚选择两名不同且不重复的玩家。每个夜晚*，你可以选择：1.击杀当夜对应的玩家；2.全场游戏限一次，杀死自己使当夜对应的玩家之一变成新的邪恶索命，若你如此做，当夜对应的另一名玩家会得知有新的邪恶索命。",
-    "image": "/scripts/assets/community/163179c7bb7178ad696b1b8b6379f47b14e8e9872769ca8ed72fa01ec9adb577.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/163179c7bb7178ad696b1b8b6379f47b14e8e9872769ca8ed72fa01ec9adb577.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6105",
@@ -55,7 +55,7 @@
   },
   {
     "ability": "游戏开始时，一名善良玩家失去能力并加入邪恶阵营，你们互相知道彼此。",
-    "image": "/scripts/assets/community/b9a28443db3947f4328d43b2e9e0a8d54e1cb8703a0c97b25f8bf1fd12eff29e.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/b9a28443db3947f4328d43b2e9e0a8d54e1cb8703a0c97b25f8bf1fd12eff29e.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6104",
@@ -73,7 +73,7 @@
   },
   {
     "ability": "在游戏开始时你是黑无常或者白无常。每个夜晚*，你会转变。如果有善良玩家提名了白无常，或者有邪恶玩家提名了黑无常，该玩家会被处决，同时你会死亡。若你因自己的提名而被处决，一名善良玩家醉酒。",
-    "image": "/scripts/assets/community/5281584f0330b74b80cc050db469bf798907fb63715dcab172e932e39a6c7704.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/5281584f0330b74b80cc050db469bf798907fb63715dcab172e932e39a6c7704.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6103",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知一个在场角色和一个数字，数字表示你或者该角色对应的玩家距离最近的恶魔的距离。",
-    "image": "/scripts/assets/community/d6d8c6151bddd11e733ceb2675699d6613e348dc48bbfaf70fbae99313ec2b9e.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/d6d8c6151bddd11e733ceb2675699d6613e348dc48bbfaf70fbae99313ec2b9e.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6102",
@@ -110,7 +110,7 @@
   },
   {
     "ability": "当你被恶魔杀害，或者游戏进行到首夜之后的第三个夜晚时，你可以得知现在恶魔的座位是奇数还是偶数。",
-    "image": "/scripts/assets/community/e0013ce2488d68c916e21115d4eeb183f57581fece4983a63beff20859ae0176.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/e0013ce2488d68c916e21115d4eeb183f57581fece4983a63beff20859ae0176.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6101",
@@ -128,7 +128,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚*，选择一名已死亡的玩家，使他重新获得自己的能力。只要你还存活，则他可以如常发动能力。",
-    "image": "/scripts/assets/community/b5486898d8006f4320eb06533ea4b4318620e684baa91718d760a499ef2216e6.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/b5486898d8006f4320eb06533ea4b4318620e684baa91718d760a499ef2216e6.png",
     "edition": "custom",
     "flavor": "",
     "id": "20084_6099",
@@ -147,7 +147,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "impc44e6fad5",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisonerc44e6fad5",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkc44e6fad5",
@@ -204,7 +204,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "flavor": "",
     "id": "slayerc44e6fad5",
@@ -223,7 +223,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monkc44e6fad5",
@@ -242,7 +242,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortunetellerc44e6fad5",
@@ -261,7 +261,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "flavor": "",
     "id": "librarianc44e6fad5",
@@ -281,7 +281,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunaticc44e6fad5",
@@ -301,7 +301,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gamblerc44e6fad5",
@@ -320,7 +320,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fangguc44e6fad5",
@@ -341,7 +341,7 @@
   },
   {
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
     "edition": "custom",
     "flavor": "",
     "id": "eviltwinc44e6fad5",
@@ -360,7 +360,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutantc44e6fad5",
@@ -377,7 +377,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopherc44e6fad5",
@@ -398,7 +398,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstressc44e6fad5",
@@ -417,7 +417,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snakecharmerc44e6fad5",
@@ -436,7 +436,7 @@
   },
   {
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "flavor": "",
     "id": "amnesiacc44e6fad5",
@@ -455,7 +455,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widowc44e6fad5",
@@ -476,7 +476,7 @@
   },
   {
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-li-gui-ye-hui-44e6fad5/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "flavor": "",
     "id": "generalc44e6fad5",

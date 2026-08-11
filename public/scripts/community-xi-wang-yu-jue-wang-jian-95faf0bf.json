@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "希望与绝望间",
     "author": "Chad Pines",
-    "logo": "/scripts/assets/community/fa3f3c8bf42e3f731873d208a97f5a7e496b23c70fc78903b8c04ac442271342.png",
+    "logo": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/fa3f3c8bf42e3f731873d208a97f5a7e496b23c70fc78903b8c04ac442271342.png",
     "almanac": "https://www.bloodstar.xyz/p/Chad_Pines/Despair/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "yakuza_despair",
-    "image": "/scripts/assets/community/f5fa18932ba137f3539124d1015872dc099d820fe2b843fa0be4f76071531f08.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/f5fa18932ba137f3539124d1015872dc099d820fe2b843fa0be4f76071531f08.png",
     "firstNightReminder": "Point to the Yakuza's targets.",
     "reminders": [
       "目标",
@@ -30,7 +30,7 @@
   },
   {
     "id": "princess_despair",
-    "image": "/scripts/assets/community/5db26397c3587c298689a94dcdc54d3f4d2ff4a50afcf20a19c05d786bbe0b88.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/5db26397c3587c298689a94dcdc54d3f4d2ff4a50afcf20a19c05d786bbe0b88.png",
     "firstNightReminder": "Show the Princess 3 players' characters.",
     "reminders": [
       "得知",
@@ -46,7 +46,7 @@
   },
   {
     "id": "robot_despair",
-    "image": "/scripts/assets/community/380ea68c20d89c4af675b98383e02cc3367a2c0aa69e64c239d82e296565eeaa.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/380ea68c20d89c4af675b98383e02cc3367a2c0aa69e64c239d82e296565eeaa.png",
     "firstNightReminder": "The Robot either shows the \"no\" head signal or points to a player.",
     "otherNightReminder": "If the Robot died today or tonight: show the number signal (0, 1, 2, ...) for how many players they chose are evil. If they're alive, the Robot points to a player.",
     "reminders": [
@@ -66,7 +66,7 @@
   },
   {
     "id": "detective_despair",
-    "image": "/scripts/assets/community/1645c7b6df1f4084a5818a34231894cca4ce32fca82177d3bf410fefc0ac98db.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/1645c7b6df1f4084a5818a34231894cca4ce32fca82177d3bf410fefc0ac98db.png",
     "firstNightReminder": "The Detective points to 2 players.",
     "otherNightReminder": "The Detective points to 2 players.",
     "reminders": [
@@ -83,7 +83,7 @@
   },
   {
     "id": "photographer_despair",
-    "image": "/scripts/assets/community/7364dc5bb5e92d3861c83c25336760b27ccbdf5bb17340639fccd93a14c3ed6a.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/7364dc5bb5e92d3861c83c25336760b27ccbdf5bb17340639fccd93a14c3ed6a.png",
     "firstNightReminder": "The Photographer points to a player. Show the Photographer the character of one of that player's neighbor. If that player is evil, show them any character instead.",
     "otherNightReminder": "The Photographer points to a player. Show the Photographer the character of one of that player's neighbor. If that player is evil, show them any character instead.",
     "name": "摄影师",
@@ -96,7 +96,7 @@
   },
   {
     "id": "martialartist_despair",
-    "image": "/scripts/assets/community/879504294753f9595a854fbd3b8a55a5ccbc054f090331def8e712894926e178.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/879504294753f9595a854fbd3b8a55a5ccbc054f090331def8e712894926e178.png",
     "firstNightReminder": "The Martial Artist chooses a player.",
     "otherNightReminder": "The Martial Artist chooses a player. Then, if the Martial Artist has not used their secondary ability, they either give the \"no\" head signal, or \"yes\" and all chosen players are safe from the Demon tonight.",
     "reminders": [
@@ -116,7 +116,7 @@
   },
   {
     "id": "mechanic_despair",
-    "image": "/scripts/assets/community/1fd96bcb442197a122eb40305a984f005e3ef89fae7aea046f68287debbed9a3.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/1fd96bcb442197a122eb40305a984f005e3ef89fae7aea046f68287debbed9a3.png",
     "firstNightReminder": "The Mechanic points to 2 players. Place the Mechanic's \"Correctly Registers\" reminder tokens next to those players' characters.",
     "otherNightReminder": "The Mechanic points to 2 players. Place the Mechanic's \"Correctly Registers\" reminder tokens next to those players' characters.",
     "reminders": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "entomologist_despair",
-    "image": "/scripts/assets/community/c10a0f5571a07857b7f556d07d9045d239d6b7d5f081060b9bc9ade246cac005.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/c10a0f5571a07857b7f556d07d9045d239d6b7d5f081060b9bc9ade246cac005.png",
     "otherNightReminder": "Show the finger signal (0, 1, 2, 3) for how many evil players were nominated yesterday.",
     "name": "昆虫博士",
     "team": "townsfolk",
@@ -144,7 +144,7 @@
   },
   {
     "id": "clairvoyant_despair",
-    "image": "/scripts/assets/community/ce726847307a51037fb3ee9d61e2eccff7d10f41d51a3aec40bff4c518344383.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/ce726847307a51037fb3ee9d61e2eccff7d10f41d51a3aec40bff4c518344383.png",
     "otherNightReminder": "The Clairvoyant points to a player. If they would die tonight, give the hand signal (thumbs up good, thumbs down bad) for the alignment of each of that player's neighbors.",
     "name": "占卜师",
     "team": "townsfolk",
@@ -155,7 +155,7 @@
   },
   {
     "id": "astronaut_despair",
-    "image": "/scripts/assets/community/5770524779da41e4022d8cdb0bae6a4af9125fd0927ecdfeffa5f32e01ff7ac4.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/5770524779da41e4022d8cdb0bae6a4af9125fd0927ecdfeffa5f32e01ff7ac4.png",
     "otherNightReminder": "If 5 or fewer players are alive: the Astronaut dies.",
     "reminders": [
       "死亡"
@@ -169,7 +169,7 @@
   },
   {
     "id": "programmer_despair",
-    "image": "/scripts/assets/community/6848b30d39ad88784347bbb17a56c2fec7aefd239bac389c06c26cb27011281b.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/6848b30d39ad88784347bbb17a56c2fec7aefd239bac389c06c26cb27011281b.png",
     "otherNightReminder": "If the Programmer has not yet used their ability: the Programmer either shows the \"no\" head signal, or points to a Townsfolk character. If that character is in-play and dead, the Programmer gains their ability.",
     "reminders": [
       "失去能力"
@@ -186,7 +186,7 @@
   },
   {
     "id": "childcaregiver_despair",
-    "image": "/scripts/assets/community/9a39389de617eb0574cd8c3584d269a8be3ab7560a0f8f55699ca00497a57932.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/9a39389de617eb0574cd8c3584d269a8be3ab7560a0f8f55699ca00497a57932.png",
     "otherNightReminder": "If the Child Caregiver died tonight: the Child Caregiver points to a player. If that player is evil, they die.",
     "reminders": [
       "死亡"
@@ -200,7 +200,7 @@
   },
   {
     "id": "luckystudent_despair",
-    "image": "/scripts/assets/community/1df8c97457eb7534e68b1346f465963937262233046bd0ad49530db668632276.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/1df8c97457eb7534e68b1346f465963937262233046bd0ad49530db668632276.png",
     "otherNightReminder": "If tomorrow is the final day: wake the Lucky Student.",
     "reminders": [
       "幸运"
@@ -214,7 +214,7 @@
   },
   {
     "id": "servant_despair",
-    "image": "/scripts/assets/community/53f741d02265b2c85319590b082dac6e98a6b3d0bcb8590413634214f1162102.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/53f741d02265b2c85319590b082dac6e98a6b3d0bcb8590413634214f1162102.png",
     "firstNightReminder": "Show the Servant an out-of-play Minion token. Then, show the Demon the same token.",
     "reminders": [
       "获得能力"
@@ -228,7 +228,7 @@
   },
   {
     "id": "progeny_despair",
-    "image": "/scripts/assets/community/ff6c4813a52561aabd972dd76a706462bb74e80e101bd941da7b0fadb8b55f40.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/ff6c4813a52561aabd972dd76a706462bb74e80e101bd941da7b0fadb8b55f40.png",
     "reminders": [
       "被当作邪恶"
     ],
@@ -240,7 +240,7 @@
   },
   {
     "id": "supremeleader_despair",
-    "image": "/scripts/assets/community/5acbeebda9577098201f5607de80c178b9ccda8ed9166c37cfb6fa9a80d4950a.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/5acbeebda9577098201f5607de80c178b9ccda8ed9166c37cfb6fa9a80d4950a.png",
     "otherNightReminder": "If the Supreme Leader died today or tonight: up to 2 players may die.",
     "reminders": [
       "死亡",
@@ -255,7 +255,7 @@
   },
   {
     "id": "writer_despair",
-    "image": "/scripts/assets/community/3564fe8d627b4911494a5320ba3e524cc65fd094340cc6a58999124a1086e69d.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/3564fe8d627b4911494a5320ba3e524cc65fd094340cc6a58999124a1086e69d.png",
     "firstNightReminder": "Choose the starting alignment of the Writer.",
     "otherNightReminder": "Change the Writer's alignment.",
     "reminders": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "anthropologist1_despair",
-    "image": "/scripts/assets/community/78c8000670b4060955ca62cd4c715d2a61e6fe53cb83184ba5087f37f4162bf1.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/78c8000670b4060955ca62cd4c715d2a61e6fe53cb83184ba5087f37f4162bf1.png",
     "firstNightReminder": "The Anthropologist points to 2 players. Show those players' character tokens.",
     "reminders": [
       "Marked",
@@ -288,7 +288,7 @@
   },
   {
     "id": "cosplayer_despair",
-    "image": "/scripts/assets/community/dd77bd8b18e73d73efc9f0d03f1973ceae04fec471a863b6ecc210a76ea0b4df.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/dd77bd8b18e73d73efc9f0d03f1973ceae04fec471a863b6ecc210a76ea0b4df.png",
     "firstNightReminder": "The Cosplayer points to a player. Place the Cosplay reminder next to that player's character token. ",
     "otherNightReminder": "The Cosplayer points to a player. Place the Cosplay reminder next to that player's character token. ",
     "reminders": [
@@ -304,7 +304,7 @@
   },
   {
     "id": "fashionista_despair",
-    "image": "/scripts/assets/community/41e6031f6b7a0edaf6a694cdc3c82397952a6442db70d3fdc881746e74241d80.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/41e6031f6b7a0edaf6a694cdc3c82397952a6442db70d3fdc881746e74241d80.png",
     "otherNightReminder": "The Fasionista shows the head signal (nod yes, shake no) for whether they want to die tonight.",
     "reminders": [
       "死亡",
@@ -319,7 +319,7 @@
   },
   {
     "id": "monokuma_despair",
-    "image": "/scripts/assets/community/83c38ed41991b4442a526936def08b88a99c6e58a91027b71de33ade5e49e39e.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/83c38ed41991b4442a526936def08b88a99c6e58a91027b71de33ade5e49e39e.png",
     "firstNightReminder": "The Monokuma either shows the \"no\" head signal, or points to a player. Wake that player. Show the \"This character selected you\" token and the Monokuma token.",
     "otherNightReminder": "If the Monokuma has not yet used their ability: The Monokuma either shows the \"no\" head signal, or points to a player. Wake that player. Show the \"This character selected you\" token and the Monokuma token.",
     "reminders": [
@@ -337,7 +337,7 @@
   },
   {
     "id": "animator_despair",
-    "image": "/scripts/assets/community/f84db838155957b50fc63699b4f2eb99c3383f1d17e30c7dc0b845fa5b660d4e.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/f84db838155957b50fc63699b4f2eb99c3383f1d17e30c7dc0b845fa5b660d4e.png",
     "reminders": [
       "中毒",
       "中毒"
@@ -351,7 +351,7 @@
   },
   {
     "id": "falsehope_despair",
-    "image": "/scripts/assets/community/ff487b21018165b8e5b307e4810f7d5c8446362a52f240360f54a2a1837c3a47.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/ff487b21018165b8e5b307e4810f7d5c8446362a52f240360f54a2a1837c3a47.png",
     "otherNightReminder": "The False Hope points to a player. That player dies. If they are a dead Minion, they regain their ability instead.",
     "reminders": [
       "死亡",
@@ -367,7 +367,7 @@
   },
   {
     "id": "despair_despair",
-    "image": "/scripts/assets/community/7d1f479f1e537ef01150ace50b502a16991af91c9fdbc9ca1d7d5623209c38b7.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/7d1f479f1e537ef01150ace50b502a16991af91c9fdbc9ca1d7d5623209c38b7.png",
     "otherNightReminder": "The Despair points to a player (or 2 players if an evil player was executed yesterday). Those players die.",
     "reminders": [
       "死亡",
@@ -382,7 +382,7 @@
   },
   {
     "id": "audience_despair",
-    "image": "/scripts/assets/community/61a81bd3eca6c04fc89f051ecb2f85ef85d504d8808cbe31df50ca5c5131ad7d.png",
+    "image": "/scripts/assets/community-xi-wang-yu-jue-wang-jian-95faf0bf/61a81bd3eca6c04fc89f051ecb2f85ef85d504d8808cbe31df50ca5c5131ad7d.png",
     "otherNightReminder": "Show the Audience the Grimoire. The Audience points to a player. That player dies. ",
     "reminders": [
       "死亡"

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "敬蟹不敏",
     "author": "咕咕菇",
-    "logo": "/scripts/assets/community/983dfe613261888702725081257a320140016111134d297752e9b4efd8a11aa0.png",
+    "logo": "/scripts/assets/community-jing-xie-bu-min-13f04110/983dfe613261888702725081257a320140016111134d297752e9b4efd8a11aa0.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -21,7 +21,7 @@
   },
   {
     "id": "diaochayuan",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "chushi",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "name": "厨师",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "guizu",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -71,7 +71,7 @@
   },
   {
     "id": "yishujia",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "gongqingzhe",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -103,7 +103,7 @@
   },
   {
     "id": "cunfu",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -120,7 +120,7 @@
   },
   {
     "id": "shinv",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -135,7 +135,7 @@
   },
   {
     "id": "senglv",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -152,7 +152,7 @@
   },
   {
     "id": "shibing",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "name": "士兵",
     "ability": "恶魔的负面能力对你无效。",
@@ -167,7 +167,7 @@
   },
   {
     "id": "heshangc13f04110",
-    "image": "/scripts/assets/community/52b0854d375d9d011528c757f5e7ef5ff560540dd1f0cd26d71c85c01ccef882.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/52b0854d375d9d011528c757f5e7ef5ff560540dd1f0cd26d71c85c01ccef882.png",
     "edition": "custom",
     "name": "和尚",
     "ability": "每个夜晚，当有邪恶玩家的能力首次选择或影响与你邻近的存活玩家时，改为此次能力不生效并持续至下个黎明，且你会得知你的能力被触发。",
@@ -185,7 +185,7 @@
   },
   {
     "id": "shuishou",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "name": "水手",
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
@@ -202,7 +202,7 @@
   },
   {
     "id": "zhumengshi",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -217,7 +217,7 @@
   },
   {
     "id": "qumoren",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -234,7 +234,7 @@
   },
   {
     "id": "maojiang",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
     "edition": "custom",
     "name": "帽匠",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -251,7 +251,7 @@
   },
   {
     "id": "mangfu",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "name": "莽夫",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -268,7 +268,7 @@
   },
   {
     "id": "zhengke",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "yiduanfenzi",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "name": "异端分子",
     "ability": "对调胜负结果，即使你已死亡。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "touduzhe",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -315,7 +315,7 @@
   },
   {
     "id": "moguidaiyanren",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -332,7 +332,7 @@
   },
   {
     "id": "wraithc13f04110",
-    "image": "/scripts/assets/community/d80bb8f6b89b3ceafef6d6f1a6f0084a4552cde1bdaab259df25ee845f670fb5.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/d80bb8f6b89b3ceafef6d6f1a6f0084a4552cde1bdaab259df25ee845f670fb5.png",
     "edition": "custom",
     "name": "亡魂",
     "ability": "你可以在夜晚睁眼。当其他邪恶玩家被唤醒时，你也会被唤醒。",
@@ -348,7 +348,7 @@
   },
   {
     "id": "zhumou",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "name": "主谋",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -363,7 +363,7 @@
   },
   {
     "id": "xinaoshi",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -380,7 +380,7 @@
   },
   {
     "id": "thebigbarnacle",
-    "image": "/scripts/assets/community/7f709551a7a0278b121f73f851eae2460c969f6ba3b0b3e5eb475ef6cd77a6d1.webp",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/7f709551a7a0278b121f73f851eae2460c969f6ba3b0b3e5eb475ef6cd77a6d1.webp",
     "edition": "custom",
     "name": "大藤壶",
     "ability": "每个夜晚*，你要选择一名玩家，然后再选择一名你之前没有选择过的玩家：他们变成螃蟹。你只会死于螃蟹对你的提名。如果你在夜晚第二次选择一名螃蟹，他变成超级螃蟹。每局游戏只有一名爪牙能变成超级螃蟹。如果超级螃蟹提名了普通螃蟹，普通螃蟹立刻死亡并失去投票标记。如果超级螃蟹提名了另一个超级螃蟹，他们要猜拳直至决出胜负。胜利的超级螃蟹还是超级螃蟹，而落败的超级螃蟹变成普通螃蟹并被羞辱。每个夜晚，普通螃蟹玩家可以和与他邻近的一名存活的玩家交换座位；并选择一名其他玩家：他可以查看只有一个角色是正确的魔典。你要“疯狂”地证明螃蟹彳亍，否则你可能会死亡。如果有玩家“疯狂”地证明螃蟹不行并且一名螃蟹与他邻近，他可能会立刻死亡、失去投票标记并被请离房间。每个夜晚，你要选择一名玩家：他死亡，但被当作仍然存活。在你的首个夜晚，你会得知所有得知数字1的玩家，然后你要选择两名玩家：他们变成螃蟹。螃蟹玩家会失去之前的能力，但是这很酷。如果一名玩家被处决，当晚他会得知L。在白天时，一名善良玩家要“疯狂”地崇拜螃蟹，否则邪恶阵营可能会获胜。如果一名玩家“疯狂”地证明他不明白大藤壶的能力如何运作，他可能会死亡但不能离开游戏。[-剧本中其他恶魔]",
@@ -447,7 +447,7 @@
     "team": "fabled",
     "edition": "custom",
     "ability": "大藤壶在交互中被当做不普通也不超级的宇宙至尊狂拽酷炫引领风骚独一无二螃蟹，螃蟹的换位时机为夜晚所有行动前，且从一位玩家（建议是1号）顺时针结算。",
-    "image": "/scripts/assets/community/abfeaa8b1cc4e9abbe9b1bdf20fe4dcc92b10572802521783e80affc29a2f722.png",
+    "image": "/scripts/assets/community-jing-xie-bu-min-13f04110/abfeaa8b1cc4e9abbe9b1bdf20fe4dcc92b10572802521783e80affc29a2f722.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],

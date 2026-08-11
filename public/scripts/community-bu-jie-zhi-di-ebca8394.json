@@ -3,14 +3,14 @@
     "id": "_meta",
     "name": "不洁之地",
     "author": "刘中奇",
-    "logo": "/scripts/assets/community/72e34e51d968f03c7c363aa84a34908e5a2dced1e5f3d50d989f60c6dc440328.png",
+    "logo": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/72e34e51d968f03c7c363aa84a34908e5a2dced1e5f3d50d989f60c6dc440328.png",
     "tags": [
       "万象星启体验剧本"
     ],
     "version": ""
   },
   {
-    "image": "/scripts/assets/community/20fad880a77e1064273c622c8600c1f3c6937a9bf59b147c88c9715495f57d8a.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/20fad880a77e1064273c622c8600c1f3c6937a9bf59b147c88c9715495f57d8a.webp",
     "name": "女家教",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你得知一个距离你最近的非镇民玩家类型（旅行者除外）。",
@@ -26,7 +26,7 @@
   },
   {
     "ability": "在最后一晚，即使你已死亡，选择一名玩家：他得知某些信息。你可以随时决定他得知什么。",
-    "image": "/scripts/assets/community/5b5565fdbf63e98f616e19237e8f8cceaa3414fa556003edebb23b4089e59452.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/5b5565fdbf63e98f616e19237e8f8cceaa3414fa556003edebb23b4089e59452.webp",
     "edition": "custom",
     "flavor": "",
     "id": "messenger",
@@ -41,7 +41,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/f86410fee92f3e0f8169d061fb32a43dec466ea867ff6b180cf98e88d072fa9e.webp",
     "name": "女王",
     "team": "townsfolk",
     "ability": "如果你的相邻玩家均为善良，他们得知你是女王。疯狂证明女王在场的玩家可能会被处决。",
@@ -57,7 +57,7 @@
   },
   {
     "ability": "你的存活相邻玩家醉酒（不含旅行者）",
-    "image": "/scripts/assets/community/b22a6bc28244cb281b9ccf1544cfdf15768887fe5c54eb6fde44a56d3ccd64ef.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/b22a6bc28244cb281b9ccf1544cfdf15768887fe5c54eb6fde44a56d3ccd64ef.webp",
     "edition": "custom",
     "flavor": "",
     "id": "bon_vivant",
@@ -72,7 +72,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/0087f4d08277d3d3a212ec1d3a38b4e61f989a5bd54c9f29700d306f3a1c4ff6.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/0087f4d08277d3d3a212ec1d3a38b4e61f989a5bd54c9f29700d306f3a1c4ff6.webp",
     "name": "幻形妖",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，你会与被你杀死的非爪牙玩家交换角色和阵营。",
@@ -88,7 +88,7 @@
   },
   {
     "ability": "每局游戏限一次，公开选择发动能力：爪牙可以秘密选择转变为善良阵营，但下一个被处决的玩家的阵营落败。",
-    "image": "/scripts/assets/community/b818ec5d8b2ece1d205c2fb15a59b2e11970e2ccd3a60cf726f6b9867648d43c.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/b818ec5d8b2ece1d205c2fb15a59b2e11970e2ccd3a60cf726f6b9867648d43c.webp",
     "edition": "custom",
     "flavor": "",
     "id": "piper",
@@ -105,7 +105,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/a1adc4443fe3ca68f3658cb9f7de538b814ae940cc4c890c6fe0b0256bac2341.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/a1adc4443fe3ca68f3658cb9f7de538b814ae940cc4c890c6fe0b0256bac2341.webp",
     "name": "投机者",
     "team": "townsfolk",
     "ability": "每个夜晚*，你得知今天提名你的角色。如果你“疯狂”地证明你是投机者，你得知错误信息。",
@@ -124,7 +124,7 @@
   },
   {
     "ability": "每个夜晚*，你得知当晚死去的一个角色。",
-    "image": "/scripts/assets/community/e7852df47dc7396efe78ef0b338e598612fbacf1eb8df445695214fa10b3c988.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/e7852df47dc7396efe78ef0b338e598612fbacf1eb8df445695214fa10b3c988.webp",
     "edition": "custom",
     "flavor": "",
     "id": "insomniac",
@@ -141,7 +141,7 @@
     "team": "townsfolk"
   },
   {
-    "image": "/scripts/assets/community/126f03a7c65974a4a77c68dd4cbf95ce4e48557b14ebe7746c11a65b932108c4.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/126f03a7c65974a4a77c68dd4cbf95ce4e48557b14ebe7746c11a65b932108c4.webp",
     "name": "窥私者",
     "team": "townsfolk",
     "ability": "每个夜晚*，选择除你以外的一名玩家：如果他今晚死亡，所有玩家会知道你是窥私者。",
@@ -158,7 +158,7 @@
     "otherNight": 4401
   },
   {
-    "image": "/scripts/assets/community/08d55a2a7b12e145da98d7dfd8b60cfe0090a67a422c7890e94eb518bdc032f8.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/08d55a2a7b12e145da98d7dfd8b60cfe0090a67a422c7890e94eb518bdc032f8.webp",
     "name": "放贷人",
     "team": "townsfolk",
     "ability": "每个夜晚，选择一名除你以外的存活玩家：你转变为他的阵营。",
@@ -176,7 +176,7 @@
   },
   {
     "ability": "一名与你握手的玩家可能会醉酒直到明天黄昏。每个夜晚*，你会得知你是否在今天白天与邪恶玩家握手。",
-    "image": "/scripts/assets/community/b6c97e63827857c4d187fb971355e77354859eeb8c811696fab6a7984b9040cf.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/b6c97e63827857c4d187fb971355e77354859eeb8c811696fab6a7984b9040cf.webp",
     "edition": "custom",
     "flavor": "",
     "id": "tyconn",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossipcebca8394",
@@ -214,7 +214,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的两个善良角色：如果他们都存活，他们当晚不会死亡。",
-    "image": "/scripts/assets/community/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "xunchacebca8394",
@@ -233,7 +233,7 @@
   },
   {
     "ability": "每个白天，一名邪恶玩家要对某件事疯狂，否则他可能死亡。每个白天，你要对某件事疯狂，否则你可能死亡。",
-    "image": "/scripts/assets/community/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Thespian",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkcebca8394",
@@ -269,7 +269,7 @@
     "imageAlt": "drunk"
   },
   {
-    "image": "/scripts/assets/community/9a8f5d7d67f7a6d4f0bde1f3a7905ad2fd2cc736d417ca7ac543b4657109c227.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/9a8f5d7d67f7a6d4f0bde1f3a7905ad2fd2cc736d417ca7ac543b4657109c227.webp",
     "name": "牧驴者",
     "team": "outsider",
     "ability": "如果你被提名的当天恶魔未被处决，你的阵营落败[你的角色标记是方形的]",
@@ -284,7 +284,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/2d732a1af4a0a2be7bbba86783bba44e9a37c58cb11fe8f202bd0afed9825ff1.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/2d732a1af4a0a2be7bbba86783bba44e9a37c58cb11fe8f202bd0afed9825ff1.webp",
     "name": "佃农",
     "team": "outsider",
     "ability": "如果你落败，你下一局游戏还是佃农，即使你已死亡。[如果不在盲抽袋中：-1镇民]",
@@ -299,7 +299,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/2a830c4526051ad78390c712ba51d3353026533dcbda1dfa1c6615227721cc79.webp",
     "name": "乌鸦嘴",
     "team": "outsider",
     "ability": "可能会有一名善良玩家得知一条虚假的信息，即使你已死亡。",
@@ -317,7 +317,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widowcebca8394",
@@ -338,7 +338,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以拜访说书人进行许愿：如果愿望兑现，会付出相应代价且留下线索。",
-    "image": "/scripts/assets/community/d8f495b7da746a1e1391ec7ab6acc0924bde42ef88311c7027f58b6dc322ccfc.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/d8f495b7da746a1e1391ec7ab6acc0924bde42ef88311c7027f58b6dc322ccfc.webp",
     "edition": "custom",
     "flavor": "",
     "id": "wizardcebca8394",
@@ -358,7 +358,7 @@
   },
   {
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Amaniti",
@@ -376,7 +376,7 @@
   },
   {
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "flavor": "",
     "id": "boffincebca8394",
@@ -393,7 +393,7 @@
   },
   {
     "ability": "每个夜晚*，你和恶魔一起被唤醒并选择一名玩家：他死亡。如果你死亡，恶魔会失去能力。",
-    "image": "/scripts/assets/community/5a87f33ac0e5181bdd32e60a9e548be063de9d9b6b5801edd4cbe4b9febad3d9.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/5a87f33ac0e5181bdd32e60a9e548be063de9d9b6b5801edd4cbe4b9febad3d9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Familiar",
@@ -412,7 +412,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fanggucebca8394",
@@ -433,7 +433,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典。每个夜晚，存活玩家之中位于剧本列表最顶部一行的会死亡。",
-    "image": "/scripts/assets/community/4d9424c4a4642ffc12fc3cb0572e4095e45d72275bcfcadf36ccaf85c01cb1a6.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/4d9424c4a4642ffc12fc3cb0572e4095e45d72275bcfcadf36ccaf85c01cb1a6.webp",
     "edition": "custom",
     "flavor": "",
     "id": "zodion",
@@ -451,7 +451,7 @@
   },
   {
     "ability": "每个夜晚*，选择一名玩家：他死亡。一名善良玩家会知道你在两名玩家之中。如果有爪牙存活时你被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/01d89f8df51f5ff0800dec56ab795223c7ebb94cbb5922605df482f9efec04b9.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/01d89f8df51f5ff0800dec56ab795223c7ebb94cbb5922605df482f9efec04b9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "J'Nak",
@@ -470,7 +470,7 @@
   },
   {
     "ability": "每个夜晚*，会有一名玩家死亡。在最后一晚，你要选择一名玩家。他必须疯狂地证明你不是恶魔，否则他的阵营落败。",
-    "image": "/scripts/assets/community/891bcdaf83d9faa238a871f495356565cbc352af8f87dce1cd563b71ab71cdc9.webp",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/891bcdaf83d9faa238a871f495356565cbc352af8f87dce1cd563b71ab71cdc9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "tipi_tipi",
@@ -489,7 +489,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-bu-jie-zhi-di-ebca8394/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "spiritofivorycebca8394",

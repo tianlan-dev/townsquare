@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/dc280deba4368b18b88572160d13d218e4ca59c123091aec7a3b85249b7f2e59.png",
+    "logo": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/dc280deba4368b18b88572160d13d218e4ca59c123091aec7a3b85249b7f2e59.png",
     "name": "彷徨之夜",
     "townsfolkName": "镇民",
     "author": "Zets",
@@ -26,7 +26,7 @@
     "team": "townsfolk",
     "name_eng": "Knight",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png"
   },
   {
     "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。如果修行者两侧最近的邪恶玩家与他的距离相等，由你来决定告诉他什么样的信息，并用手指指向对应的一侧。让修行者重新入睡。",
@@ -42,7 +42,7 @@
     "team": "townsfolk",
     "name_eng": "Shugenja",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png"
   },
   {
     "firstNightReminder": "展示那个爪牙角色标记。指向被你标记“爪牙”和“错误”的两名玩家。",
@@ -60,7 +60,7 @@
     "name_eng": "Investigator",
     "firstNight": 34,
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png"
   },
   {
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
@@ -78,7 +78,7 @@
     "name_eng": "Pixie",
     "firstNight": 29,
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png"
   },
   {
     "firstNightReminder": "唤醒恶魔，并告诉他国王是谁。",
@@ -93,7 +93,7 @@
     "name_eng": "King",
     "firstNight": 9,
     "ability": "每个夜晚，如果死亡的玩家数量大于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
   },
   {
     "firstNightReminder": "",
@@ -110,7 +110,7 @@
     "name_eng": "Exorcist",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png"
   },
   {
     "firstNightReminder": "",
@@ -125,7 +125,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "firstNightReminder": "",
@@ -143,7 +143,7 @@
     "name_eng": "Flowergirl",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png"
   },
   {
     "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
@@ -160,7 +160,7 @@
     "name_eng": "Huntsman",
     "firstNight": 30,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
   },
   {
     "firstNightReminder": "守夜人可以指向一名玩家。如果他这么做，则唤醒那名玩家，告知其被守夜人选中，且告知他守夜人是谁。",
@@ -177,7 +177,7 @@
     "name_eng": "Nightwatchman",
     "firstNight": 46,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png"
   },
   {
     "firstNightReminder": "",
@@ -192,7 +192,7 @@
     "name_eng": "Farmer",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
   },
   {
     "firstNightReminder": "",
@@ -207,7 +207,7 @@
     "name_eng": "Choirboy",
     "firstNight": 0,
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png"
   },
   {
     "firstNightReminder": "",
@@ -225,7 +225,7 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "firstNightReminder": "让管家选择一名玩家。标记那名玩家为他的主人。",
@@ -242,7 +242,7 @@
     "name_eng": "Butler",
     "firstNight": 38,
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
@@ -259,7 +259,7 @@
     "name_eng": "Damsel",
     "firstNight": 31,
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
   },
   {
     "firstNightReminder": "",
@@ -277,7 +277,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -292,7 +292,7 @@
     "name_eng": "Saint",
     "firstNight": 0,
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -310,7 +310,7 @@
     "name_eng": "Mezepheles",
     "firstNight": 27,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
@@ -327,7 +327,7 @@
     "name_eng": "Cerenovus",
     "firstNight": 25,
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
   },
   {
     "firstNightReminder": "",
@@ -342,7 +342,7 @@
     "name_eng": "Baron",
     "firstNight": 0,
     "ability": "会有额外的外来者在场。[+2 外来者]",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png"
   },
   {
     "firstNightReminder": "给寡妇展示魔典，她想看多久就看多久。等她看完后，让她指向一个玩家。那个玩家中毒。唤醒一名善良玩家，告诉他场上有寡妇。",
@@ -362,7 +362,7 @@
     "name_eng": "Widow",
     "firstNight": 18,
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png"
   },
   {
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
@@ -380,7 +380,7 @@
     "name_eng": "Marionette",
     "firstNight": 11,
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png"
   },
   {
     "firstNightReminder": "",
@@ -394,7 +394,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。①巡山人可以选择被巴洛-弗杀死的玩家。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "firstNightReminder": "",
@@ -407,11 +407,11 @@
     "id": "bootleggerbutton",
     "ability": "这个剧本包含有自制角色或自制规则。",
     "edition": "custom",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png"
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png"
   },
   {
     "id": "barrowfog",
-    "image": "/scripts/assets/community/bf31dec026ebec7ca73ee54c4f5721e1c1b1652e9492b0bd4b221dd1ce1b509e.png",
+    "image": "/scripts/assets/community-pang-huang-zhi-ye-cabbc184/bf31dec026ebec7ca73ee54c4f5721e1c1b1652e9492b0bd4b221dd1ce1b509e.png",
     "edition": "custom",
     "name": "巴洛-弗",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的玩家在白天被当作仍然存活。",

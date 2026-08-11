@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "入骨相思知不知",
     "author": "不知&77",
-    "logo": "/scripts/assets/community/214a8ac8303696422d3944e3b22041ed936a13dc873475917c62d0e8c66d16bb.png",
+    "logo": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/214a8ac8303696422d3944e3b22041ed936a13dc873475917c62d0e8c66d16bb.png",
     "almanac": "https://bloodstar.clocktica.com/p/15052510530/buzhi/almanac.html",
     "tags": [],
     "version": "",
@@ -11,7 +11,7 @@
   },
   {
     "id": "_buzhi",
-    "image": "/scripts/assets/community/d0a0d7bb90a903a7bf31085dd644ef7344d3fdcf8f7c87def6bf16ad05117dde.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/d0a0d7bb90a903a7bf31085dd644ef7344d3fdcf8f7c87def6bf16ad05117dde.png",
     "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
     "reminders": [
@@ -27,7 +27,7 @@
   },
   {
     "id": "8_buzhi",
-    "image": "/scripts/assets/community/6bd4e9c4708fb9cc2c3b6a48f20a0700b7c4d582b5c73f7dcfb821af3de8b1a3.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/6bd4e9c4708fb9cc2c3b6a48f20a0700b7c4d582b5c73f7dcfb821af3de8b1a3.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -40,7 +40,7 @@
   },
   {
     "id": "26_buzhi",
-    "image": "/scripts/assets/community/a3162046c2b8f99330e597b0fcbee2074fad7dfb197bed713c8c17fd336a447f.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/a3162046c2b8f99330e597b0fcbee2074fad7dfb197bed713c8c17fd336a447f.png",
     "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -50,7 +50,7 @@
   },
   {
     "id": "1_buzhi",
-    "image": "/scripts/assets/community/3f76b1b6ce84b535dd8a382b11cbde60bf8a057490fab0b006fd355a6ac56269.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/3f76b1b6ce84b535dd8a382b11cbde60bf8a057490fab0b006fd355a6ac56269.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -65,7 +65,7 @@
   },
   {
     "id": "15_buzhi",
-    "image": "/scripts/assets/community/b6b998b6d9b052dcdf36b443465cde618ca48393f5f3a49d3af89f06748e8b5d.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/b6b998b6d9b052dcdf36b443465cde618ca48393f5f3a49d3af89f06748e8b5d.png",
     "otherNightReminder": "如果有玩家今天白天死于处决，唤醒送葬者并对他展示那名玩家的角色标记。",
     "reminders": [
       "死于今日"
@@ -78,7 +78,7 @@
   },
   {
     "id": "2_buzhi",
-    "image": "/scripts/assets/community/ab0eb594b838491ffd5bc1f6326c17a556ad7dad88872ca14965148f0c3b6a74.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/ab0eb594b838491ffd5bc1f6326c17a556ad7dad88872ca14965148f0c3b6a74.png",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
@@ -93,7 +93,7 @@
   },
   {
     "id": "4_buzhi",
-    "image": "/scripts/assets/community/6032ff9dd685eae6cb24e99a0cc465496d7029d8467d127458f3f0a415c87525.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/6032ff9dd685eae6cb24e99a0cc465496d7029d8467d127458f3f0a415c87525.png",
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -106,7 +106,7 @@
   },
   {
     "id": "5_buzhi",
-    "image": "/scripts/assets/community/9af824a141a578d95dc57c2d6b40bd167fee579248a2f681a6ae236b550a8663.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/9af824a141a578d95dc57c2d6b40bd167fee579248a2f681a6ae236b550a8663.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -119,7 +119,7 @@
   },
   {
     "id": "6_buzhi",
-    "image": "/scripts/assets/community/e99778875dc571292676a95d7fd3a851464d0bb6f3dff4828c84d28615c3c3a8.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/e99778875dc571292676a95d7fd3a851464d0bb6f3dff4828c84d28615c3c3a8.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -132,7 +132,7 @@
   },
   {
     "id": "7_buzhi",
-    "image": "/scripts/assets/community/c5349c94a3173f2727d81b2b1215009d1afb94027fda8f35b143ff9d5e8c9b57.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/c5349c94a3173f2727d81b2b1215009d1afb94027fda8f35b143ff9d5e8c9b57.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下拜访说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "12_buzhi",
-    "image": "/scripts/assets/community/454bd15c4ea0620ef7767912ea293bf1ae1a817a8dce751d2069c1fe6dffe4e0.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/454bd15c4ea0620ef7767912ea293bf1ae1a817a8dce751d2069c1fe6dffe4e0.png",
     "firstNightReminder": "决定失忆者的能力，并根据具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "otherNightReminder": "根据失忆者的具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "reminders": [
@@ -155,7 +155,7 @@
   },
   {
     "id": "10_buzhi",
-    "image": "/scripts/assets/community/8ad9947a16146c167187e494914e155e26554e8023529e602db4dcefba6dcb91.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/8ad9947a16146c167187e494914e155e26554e8023529e602db4dcefba6dcb91.png",
     "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
     "name": "守鸦人",
     "team": "townsfolk",
@@ -165,7 +165,7 @@
   },
   {
     "id": "11_buzhi",
-    "image": "/scripts/assets/community/e28c1d1f2a14905f28a216ed6dd1f0d45c8e11a08bb5be7f63e5155413918e6b.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/e28c1d1f2a14905f28a216ed6dd1f0d45c8e11a08bb5be7f63e5155413918e6b.png",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
     "reminders": [
@@ -180,7 +180,7 @@
   },
   {
     "id": "24_buzhi",
-    "image": "/scripts/assets/community/8dc17a4caba34c10e0448212f6ea311ab15ad7a853eb518d59ee58c48be5ba69.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/8dc17a4caba34c10e0448212f6ea311ab15ad7a853eb518d59ee58c48be5ba69.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -192,7 +192,7 @@
   },
   {
     "id": "14_buzhi",
-    "image": "/scripts/assets/community/9fdd16c7a3cdf6f584d3ee76b31d6d7c927367a3ccb808f4314a86fbaa331c04.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/9fdd16c7a3cdf6f584d3ee76b31d6d7c927367a3ccb808f4314a86fbaa331c04.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -200,7 +200,7 @@
   },
   {
     "id": "13_buzhi",
-    "image": "/scripts/assets/community/fe0ade8cb3f1060eaee7cbd0be4e23193b5d870a3a898458256f0e7625557d54.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/fe0ade8cb3f1060eaee7cbd0be4e23193b5d870a3a898458256f0e7625557d54.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -208,7 +208,7 @@
   },
   {
     "id": "17_buzhi",
-    "image": "/scripts/assets/community/620e42f2bdc5150141e840115f61a9360e818a6f2624a11b59835762454ebd07.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/620e42f2bdc5150141e840115f61a9360e818a6f2624a11b59835762454ebd07.png",
     "otherNightReminder": "让不知选择一名存活的玩家（与上个夜晚不同），并在其角色旁放置标记。",
     "reminders": [
       "不知"
@@ -222,7 +222,7 @@
   },
   {
     "id": "19_buzhi",
-    "image": "/scripts/assets/community/3f187d473a057bc4e4c2730c22ad3db6ef4e38bd254b686b84316a11867d4310.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/3f187d473a057bc4e4c2730c22ad3db6ef4e38bd254b686b84316a11867d4310.png",
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
     "otherNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
     "reminders": [
@@ -237,7 +237,7 @@
   },
   {
     "id": "20_buzhi",
-    "image": "/scripts/assets/community/bd5edce22b45ed13dca0e9916b17e4e0d9d64b26e5704c8358f9f71c37c28220.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/bd5edce22b45ed13dca0e9916b17e4e0d9d64b26e5704c8358f9f71c37c28220.png",
     "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
     "reminders": [
       "死亡",
@@ -251,7 +251,7 @@
   },
   {
     "id": "18_buzhi",
-    "image": "/scripts/assets/community/bf89becee862025df304e612e3a9b2ab9fa6901da87d63d7a6920cb8c9b9af41.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/bf89becee862025df304e612e3a9b2ab9fa6901da87d63d7a6920cb8c9b9af41.png",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "reminders": [
@@ -266,7 +266,7 @@
   },
   {
     "id": "21_buzhi",
-    "image": "/scripts/assets/community/beb23e696d731050a9e790f2f43e364f2e7279d43e6b3020bb6896e72fedd867.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/beb23e696d731050a9e790f2f43e364f2e7279d43e6b3020bb6896e72fedd867.png",
     "firstNightReminder": "让知选择一名玩家，在他旁边放置知的标记。",
     "reminders": [
       "知"
@@ -280,7 +280,7 @@
   },
   {
     "id": "22_buzhi",
-    "image": "/scripts/assets/community/936203c34799615a6924afc4ec991a4fee911d048ae20efb8b565fc858acf45e.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/936203c34799615a6924afc4ec991a4fee911d048ae20efb8b565fc858acf45e.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -293,7 +293,7 @@
   },
   {
     "id": "16_buzhi",
-    "image": "/scripts/assets/community/6d0cc36b79955b6f1136017f3537d2da1416d971e795bad501d95c1b6f21cf9b.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/6d0cc36b79955b6f1136017f3537d2da1416d971e795bad501d95c1b6f21cf9b.png",
     "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
     "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上一个因普卡中毒的玩家死亡，随后恢复健康。",
     "reminders": [
@@ -309,7 +309,7 @@
   },
   {
     "id": "25_buzhi",
-    "image": "/scripts/assets/community/8753529925b16008251576a66f005449682380b4bb16ae1a165f04497c93048d.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/8753529925b16008251576a66f005449682380b4bb16ae1a165f04497c93048d.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -322,7 +322,7 @@
   },
   {
     "id": "3_buzhi",
-    "image": "/scripts/assets/community/69a5ecd4dcad6269075d8864a9f612d29c8593b7820da50698735e0aacbff144.png",
+    "image": "/scripts/assets/community-ru-gu-xiang-si-zhi-bu-zhi-51cabf2e/69a5ecd4dcad6269075d8864a9f612d29c8593b7820da50698735e0aacbff144.png",
     "otherNightReminder": "唤醒饕餮，让其选择任意数量的玩家。如果这些玩家的角色类型均不相同，标记这些玩家死亡。",
     "reminders": [
       "死亡"

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "林方乱舞",
     "author": "fbb",
-    "logo": "/scripts/assets/community/0059908247f2766b3460b471bdc39f778227e77aedc7bf85e2bcde3c01713cc9.webp",
+    "logo": "/scripts/assets/community-lin-fang-luan-wu-3162958e/0059908247f2766b3460b471bdc39f778227e77aedc7bf85e2bcde3c01713cc9.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -24,7 +24,7 @@
   },
   {
     "id": "zhongdayande111",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -40,7 +40,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -57,7 +57,7 @@
   },
   {
     "id": "yeshimeishengmeyongdejuese111",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "name": "女祭司",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -71,7 +71,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -87,7 +87,7 @@
   },
   {
     "id": "caibuduide111",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "name": "杂耍艺人",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -103,7 +103,7 @@
   },
   {
     "id": "fulankensitan111",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "name": "教授",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
@@ -120,7 +120,7 @@
   },
   {
     "id": "biubiubiu111",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "name": "猎手",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
@@ -136,7 +136,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -150,7 +150,7 @@
   },
   {
     "id": "buhaohe111",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -166,7 +166,7 @@
   },
   {
     "id": "wofuhuolawoshijiangbu111",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "edition": "custom",
     "name": "报丧女妖",
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -197,7 +197,7 @@
   },
   {
     "id": "wobuzhidaoxieshale111",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
     "edition": "custom",
     "name": "异教领袖",
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
@@ -211,7 +211,7 @@
   },
   {
     "id": "yiqun2shabi12321231231231341241241412111",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom",
     "name": "戏子",
     "ability": "所有戏子互相认识，不论在场的戏子数量有多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]",
@@ -224,7 +224,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -238,7 +238,7 @@
   },
   {
     "id": "liangjifanzhuan111",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "name": "异端分子",
     "ability": "对调胜负结果，即使你已死亡。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -268,7 +268,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -282,7 +282,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "jiejiene111",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
     "edition": "custom",
     "name": "镜像双子",
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
@@ -314,7 +314,7 @@
   },
   {
     "id": "dafutoufeiguolaila111",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "name": "精神病患者",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -328,7 +328,7 @@
   },
   {
     "id": "zhadaobaozhala111",
-    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
     "edition": "custom",
     "name": "炸弹人",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -348,7 +348,7 @@
   },
   {
     "id": "xiaoshabi111111",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -366,7 +366,7 @@
   },
   {
     "id": "kakakakkakakakakakakakaakakak111",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -382,7 +382,7 @@
   },
   {
     "id": "haliluya111",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "name": "哈迪寂亚",
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
@@ -402,7 +402,7 @@
   },
   {
     "id": "legion22",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
@@ -425,7 +425,7 @@
   },
   {
     "id": "22_xixixi",
-    "image": "/scripts/assets/community/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
     "name": "园丁",
     "team": "fabled",
     "ability": "由说书人来为一名或更多玩家派发角色。",
@@ -433,7 +433,7 @@
   },
   {
     "id": "24_xixixi",
-    "image": "/scripts/assets/community/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
@@ -441,7 +441,7 @@
   },
   {
     "id": "qigaigaigai111",
-    "image": "/scripts/assets/community/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
     "edition": "custom",
     "name": "乞丐",
     "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",
@@ -455,7 +455,7 @@
   },
   {
     "id": "qiangshoushoushou111",
-    "image": "/scripts/assets/community/143153e5db12778cabab1b27765a8554dd5acb935109e3ac276895b3a12b9768.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/143153e5db12778cabab1b27765a8554dd5acb935109e3ac276895b3a12b9768.png",
     "edition": "custom",
     "name": "枪手",
     "ability": "每个白天，当首次投票被统计后，你可以选择一名刚投过票的玩家：他死亡。",
@@ -469,7 +469,7 @@
   },
   {
     "id": "wudushishishifu111",
-    "image": "/scripts/assets/community/047c0a71cbaaf7024efa2e09bef3aeff26fa5f60564a3ab44ff37b730be3ee9f.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/047c0a71cbaaf7024efa2e09bef3aeff26fa5f60564a3ab44ff37b730be3ee9f.png",
     "edition": "custom",
     "name": "巫毒师",
     "ability": "只有你和死亡的玩家可以投票，且投票不需要使用投票标记。忽略票数需要过半的要求。",
@@ -483,7 +483,7 @@
   },
   {
     "id": "kaka",
-    "image": "/scripts/assets/community/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png",
     "edition": "custom",
     "name": "怪咖",
     "ability": "如果你表现得很有趣，当天你不能被流放。",
@@ -497,7 +497,7 @@
   },
   {
     "id": "zhubiba",
-    "image": "/scripts/assets/community/56767178981723f163119596ff840c2165ad06b7bd33bc78382bf76fc97caa61.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/56767178981723f163119596ff840c2165ad06b7bd33bc78382bf76fc97caa61.png",
     "edition": "custom",
     "name": "侏儒",
     "ability": "当你加入游戏时，所有玩家会得知一名与你阵营相同的玩家。每当他被提名时，你可以杀死提名者。",
@@ -513,7 +513,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -529,7 +529,7 @@
   },
   {
     "id": "61_meta",
-    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
     "name": "小怪宝&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -538,7 +538,7 @@
   },
   {
     "id": "108_meta",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
     "name": "卡扎力&巡山人",
     "team": "a jinxed",
     "setup": false,
@@ -547,7 +547,7 @@
   },
   {
     "id": "125_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子&军团",
     "team": "a jinxed",
     "setup": false,
@@ -556,7 +556,7 @@
   },
   {
     "id": "125_met1a",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子&小怪宝",
     "team": "a jinxed",
     "setup": false,
@@ -565,7 +565,7 @@
   },
   {
     "id": "125_me3ta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子&卡扎力",
     "team": "a jinxed",
     "setup": false,
@@ -574,7 +574,7 @@
   },
   {
     "id": "125_me4ta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-lin-fang-luan-wu-3162958e/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子&镜像双子",
     "team": "a jinxed",
     "setup": false,

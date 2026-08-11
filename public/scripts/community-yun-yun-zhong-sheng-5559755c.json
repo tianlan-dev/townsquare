@@ -23,7 +23,7 @@
     "flavor": "“我在你的灵魂中感受到了庞大的恶意！\r\n但……那可能只是你的香水味道。我对接骨木汁过敏。”",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "imageAlt": "fortuneteller"
   },
   {
@@ -40,7 +40,7 @@
     "setup": true,
     "edition": "custom",
     "flavor": "“我是个只在社交场合里~嗝儿~喝酒的人，亲爱的。\r\n但无可否认，我是一个非常~嗝儿~擅长社交的人。”\r\n（英文维基上的背景描述与角色详解中的不同，此处也一并贴出。见下）\r\n“这完全合乎~嗝儿~逻辑。我知道的是狄亚哈特小姐是个占卜师。狄亚哈特夫人则发誓詹金斯是她的管家。得出这样的推论非常~嗝儿~简单。”",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "imageAlt": "drunk"
   },
   {
@@ -58,7 +58,7 @@
     "edition": "custom",
     "flavor": "“你曾向我展示了紫焰议会的秘密。我们也曾一起在烈火里拥抱，在欲望中交欢，在兽性的驱使下耳鬓厮磨，我将永生永世侍奉于你。但今晚，我亲爱的，我是你的主人。”",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "imageAlt": "scarletwoman"
   },
   {
@@ -73,7 +73,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“地上有七十二根火柴……今天的太阳落得更早，月亮还是按时升起……一块破布……庄园里的邪恶之物……三个又三个……我们相信的事物和他真正看到的不一样……绿光代表镁……残留物，但是图案不太对……地上有七十二根火柴……”",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "imageAlt": "savant"
   },
   {
@@ -89,7 +89,7 @@
     "edition": "custom",
     "flavor": "“唯有受选者才能凝视面纱之外的光景。亡者躁动不安……他们的每一根僵硬的手指都指向了刺骨的北地。”",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "imageAlt": "oracle"
   },
   {
@@ -110,7 +110,7 @@
     "flavor": "“如果你要说什么事情是最真实的？我想是啤酒。痛快喝吧，说不定我们明天就要死了。”",
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "imageAlt": "philosopher"
   },
   {
@@ -128,7 +128,7 @@
     "edition": "custom",
     "flavor": "“我永远也忘不掉她……永远……”",
     "otherNightReminder": "如果心上人死亡，会有一名玩家立刻醉酒。如果你还没有让这件事情发生，那么现在为任意一位玩家放置醉酒标记。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "imageAlt": "sweetheart"
   },
   {
@@ -147,7 +147,7 @@
     "flavor": "“所谓的现实，其实，只是一种想法罢了。具体点来说，是我的想法。”",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "imageAlt": "cerenovus"
   },
   {
@@ -167,7 +167,7 @@
     "edition": "custom",
     "flavor": "“你那高墙和锐器不过是虚无缥缈的泡影。”",
     "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“限一次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“限一次”标记放置在魔典中。标记原本的方古玩家死亡，且他选择的玩家不会被标记为死亡。",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "imageAlt": "fanggu"
   },
   {
@@ -186,7 +186,7 @@
     "flavor": "“Gon(z)a7les6。请当Zn。机制已被FAN转。系统古攵阝章。重新{配}置。”",
     "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。 ",
     "otherNightReminder": "除首个夜晚以外的每个夜晚，唤醒卡扎力。让他指向任意一名玩家。那名玩家死亡——在他角色标记旁放置“死亡”提示标记。让卡扎力重新入睡。",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "imageAlt": "kazali"
   },
   {
@@ -205,7 +205,7 @@
     "flavor": "“玫瑰花是蓝色哒！草桂花是红色哒！哦豁，俺说反啦！”",
     "firstNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
     "otherNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "imageAlt": "villageidiot"
   },
   {
@@ -221,7 +221,7 @@
     "edition": "custom",
     "flavor": "“恒星的氢能，取之不尽，静待采掘；碳、氧、氖，尽数裂解。分子引发混沌，熵增由此产生，宇宙现象更替，原子紊乱重塑，物质聚合坍缩。所有的一切，都集中在这一个小小的锥形瓶中。”",
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。 ",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "imageAlt": "boffin"
   },
   {
@@ -240,7 +240,7 @@
     "edition": "custom",
     "flavor": "“在文明的浅薄外表之下，藏着呼之欲出的疯狂。”",
     "otherNightReminder": "让半兽人选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "imageAlt": "lycanthrope"
   },
   {
@@ -255,7 +255,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“我很高兴你提出了这个问题。是的，我真的很高兴。但我仍然认为，问题的核心应该是在于……”",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "imageAlt": "politician"
   },
   {
@@ -275,7 +275,7 @@
     "flavor": "“步骤一：要变得可爱。步骤二：要统治世界。步骤三：先来点藻餐。”",
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
     "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "imageAlt": "lilmonsta"
   },
   {
@@ -294,7 +294,7 @@
     "flavor": "“这个是我的！……那个也是我的！”",
     "firstNightReminder": "唤醒熊孩子，让其选择一个镇民角色。如果该角色在场，在对应角色标记旁放置“捣蛋”提示标记。",
     "otherNightReminder": "移除上个夜晚放置的“捣蛋”提示标记。唤醒熊孩子，让其选择一个镇民角色。如果该角色在场，在对应角色标记旁放置“捣蛋”提示标记。",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
     "imageAlt": "xionghaizi"
   },
   {
@@ -311,7 +311,7 @@
     "setup": true,
     "edition": "custom",
     "flavor": "“道从本心，众生平等。六道轮回，一叶障目。”",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "imageAlt": "wudaozhe"
   },
   {
@@ -330,7 +330,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“台上一分钟，台下十年功。”",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "imageAlt": "bianlianshi"
   },
   {
@@ -346,7 +346,7 @@
     "edition": "custom",
     "flavor": "“是非曲直，自在人心。”",
     "otherNightReminder": "如果秉笔人在夜晚死去，唤醒他并指向一名邪恶玩家；如果秉笔在白天死去，唤醒他并指向一名善良玩家。随后让他重新入睡。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "imageAlt": "bingbi"
   },
   {
@@ -364,7 +364,7 @@
     "edition": "custom",
     "flavor": "待更新",
     "otherNightReminder": "如果提刑官在白天进行了整局游戏中他的首次提名，唤醒他并对他展示他提名的玩家的角色标记。",
-    "image": "/scripts/assets/community/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
     "imageAlt": "tixingguan"
   },
   {
@@ -382,7 +382,7 @@
     "edition": "custom",
     "firstNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
     "otherNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "imageAlt": "gudiao"
   },
   {
@@ -401,7 +401,7 @@
     "flavor": "“任何连续的，且能进行定量初等运算的形式系统X，都具有不完全性。也就是说，在这个形式系统X内存在一些命题，这些命题既不能被证明为真，也不能被证明为否。所以，你喝醉了。”",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "imageAlt": "mathematician"
   },
   {
@@ -416,7 +416,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“侬康康窝咦锅惹，咋锅就怼窝恁锅粗暴。介样叭行。麻绳添酒嘿料，泥滴燕绳恨舔没，窝这哈圆酿泥料！侬晓得伐！窝叭象载康岛泥鸟，辣过饿魔阔能揍载窝家边乱晃。呔！窝揍斯弄个以斯！”",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "imageAlt": "recluse"
   },
   {
@@ -432,7 +432,7 @@
     "edition": "custom",
     "flavor": "“天降异象，荧惑守心。”",
     "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "imageAlt": "qintianjian"
   },
   {
@@ -448,7 +448,7 @@
     "remindersGlobal": [],
     "setup": false,
     "flavor": "“荒芜之地传来呼唤，生肉枯骨，落入尘土。是圣洁之魂在生长，是圣洁之魂在注视，是圣洁之魂在引导。人类遵循这一切，否则早已被覆灭。”",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "isOfficial": true,
     "display": 1,
     "edition": "custom",
@@ -469,7 +469,7 @@
     "edition": "custom",
     "flavor": "“我们必须让自己的头脑保持敏锐，刀刃保持锋利。\r\n邪恶在我们之中穿行，想要不择手段地摧毁我们的善良。\r\n那些愚蠢之辈，把我们美丽的小镇给毁了。不要相信任何人。\r\n但如果你一定要相信某人，请相信我。”",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-yun-yun-zhong-sheng-5559755c/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "imp"

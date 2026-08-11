@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "梅伊阁诗人",
     "author": "提线苏际泽",
-    "logo": "/scripts/assets/community/4521f4a522aa61cf85a65893d66f21da024c4dd7847010c1c3a1f635b1656589.webp",
+    "logo": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/4521f4a522aa61cf85a65893d66f21da024c4dd7847010c1c3a1f635b1656589.webp",
     "description": "",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -25,7 +25,7 @@
   },
   {
     "id": "meiyigegegui",
-    "image": "/scripts/assets/community/55db4526d4b23ff661d73e7269d01a77124cfe182377a7124ef4253cab7385df.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/55db4526d4b23ff661d73e7269d01a77124cfe182377a7124ef4253cab7385df.png",
     "edition": "custom",
     "name": "严肃の说书人",
     "ability": "说书人会用不同的语气告诉你信息，语气越严肃，信息越重要。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "haidao",
-    "image": "/scripts/assets/community/22e2ce69e0a3dd0cdf6c9d1975d80d664fc57d297406f21a2f1908d660478fc2.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/22e2ce69e0a3dd0cdf6c9d1975d80d664fc57d297406f21a2f1908d660478fc2.png",
     "edition": "custom",
     "name": "海盗",
     "ability": "在你的首个夜晚，你会得知几名海盗在场。如果所有存活善良角色均为海盗，善良阵营获胜。[+0或+1海盗]",
@@ -50,7 +50,7 @@
   },
   {
     "id": "qingren",
-    "image": "/scripts/assets/community/426f920eafe37ddbcda2be92ee03c50b6a515ed8a1a5d74133f5ce9a2a3ce339.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/426f920eafe37ddbcda2be92ee03c50b6a515ed8a1a5d74133f5ce9a2a3ce339.png",
     "edition": "custom",
     "name": "情人",
     "ability": "每个夜晚*，你会得知说书人认为恶魔现在是什么情绪状态。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "youxiwanjia",
-    "image": "/scripts/assets/community/14d8e2922482fde0f8fafc8eb1d4a685a201541b74ef8fc9d92fe5bdaa70e538.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/14d8e2922482fde0f8fafc8eb1d4a685a201541b74ef8fc9d92fe5bdaa70e538.png",
     "edition": "custom",
     "name": "游戏玩家",
     "ability": "在你的首个夜晚，你会得知一个俄罗斯方块类型：它在剧本列表中能够存在一种框选情况使得框选的角色都在场。",
@@ -76,7 +76,7 @@
   },
   {
     "id": "xiangqidashi",
-    "image": "/scripts/assets/community/5a4b176d93995e252392b25f6dcef5ba2628985c67f7f5dc9329a887ab526966.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/5a4b176d93995e252392b25f6dcef5ba2628985c67f7f5dc9329a887ab526966.png",
     "edition": "custom",
     "name": "象棋大师",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知你最重要的队友是谁，但不知道为什么",
@@ -92,7 +92,7 @@
   },
   {
     "id": "youke",
-    "image": "/scripts/assets/community/7d434201c81bfa0026de47c54e87be782ac48fc9c962c7f1570033e463d1cf21.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/7d434201c81bfa0026de47c54e87be782ac48fc9c962c7f1570033e463d1cf21.png",
     "edition": "custom",
     "name": "天外来客",
     "ability": "每个夜晚，一名玩家的信息会变得毫无意义。",
@@ -107,7 +107,7 @@
   },
   {
     "id": "tianwenxuejia",
-    "image": "/scripts/assets/community/2cdc6fe1b0985b50e0728cb4614806fb4394c872631f2a1af036b9d7a8f65f85.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/2cdc6fe1b0985b50e0728cb4614806fb4394c872631f2a1af036b9d7a8f65f85.png",
     "edition": "custom",
     "name": "天文学家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人并得知他做出一个决定的原因，但你不知道是哪个决定。",
@@ -133,11 +133,11 @@
     "name_eng": "High Priestess",
     "firstNight": 3800,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/0d8449ccef9a881b7f99b0060aca295e43bc14a3c124f47f18ddeefe4e79d52a.png"
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/0d8449ccef9a881b7f99b0060aca295e43bc14a3c124f47f18ddeefe4e79d52a.png"
   },
   {
     "id": "lishixuejia",
-    "image": "/scripts/assets/community/06e16a856c9dae88c5e0299b6c2488aa2eb2e8dd5b6d2fc006eaa50afdfb5c66.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/06e16a856c9dae88c5e0299b6c2488aa2eb2e8dd5b6d2fc006eaa50afdfb5c66.png",
     "edition": "custom",
     "name": "历史学家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知说书人将某名玩家评选为最具影响力的玩家的原因。",
@@ -153,7 +153,7 @@
   },
   {
     "id": "e302208e-82b0-4344-95c3-4330fdc529e8",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -168,7 +168,7 @@
   },
   {
     "id": "jianduisiling",
-    "image": "/scripts/assets/community/e8866b46925d69b784a7cb97cfe0c712dda5a4477126617097eda11320dcb603.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/e8866b46925d69b784a7cb97cfe0c712dda5a4477126617097eda11320dcb603.png",
     "edition": "custom",
     "name": "舰队司令",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人以得知两名玩家：其中一名是对你们帮助最大的对立阵营玩家，另一名是对你们损害最大的我方阵营玩家。",
@@ -184,7 +184,7 @@
   },
   {
     "id": "136e9d68-3595-4c46-8bf1-76ef69d1c42a",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -201,7 +201,7 @@
   },
   {
     "id": "jiangshi",
-    "image": "/scripts/assets/community/0a77c8b9ca7372eb062d50dba59038800e95972d057cd34dfe56e65ec8621d31.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/0a77c8b9ca7372eb062d50dba59038800e95972d057cd34dfe56e65ec8621d31.png",
     "edition": "custom",
     "name": "讲师",
     "ability": "每个白天，你可以拜访说书人并得知一名玩家做错的事。",
@@ -214,7 +214,7 @@
   },
   {
     "id": "quezi",
-    "image": "/scripts/assets/community/f4ce3f9f1480f653bc8c33e8a48fef84893b5de2eb74d36f5675e0a2d8b964d9.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/f4ce3f9f1480f653bc8c33e8a48fef84893b5de2eb74d36f5675e0a2d8b964d9.png",
     "edition": "custom",
     "name": "瘸子",
     "ability": "每个夜晚，你选一名玩家。你会得知他在角色表的左边还是右边。",
@@ -227,7 +227,7 @@
   },
   {
     "id": "zanzhuren",
-    "image": "/scripts/assets/community/8e0ba695c7dfc34f6e80f190220bd96da7a3bc9466c462fc622db612748f6a57.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/8e0ba695c7dfc34f6e80f190220bd96da7a3bc9466c462fc622db612748f6a57.png",
     "edition": "custom",
     "name": "赞助人",
     "ability": "每个白天，你可以私下拜访说书人以得知谁是目前最没有价值的存活玩家。",
@@ -242,7 +242,7 @@
   },
   {
     "id": "meixuejia",
-    "image": "/scripts/assets/community/55c3763e55a3e9740d79333f854485b8f9f348c8ab4334772296d3ef90a42b2b.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/55c3763e55a3e9740d79333f854485b8f9f348c8ab4334772296d3ef90a42b2b.png",
     "edition": "custom",
     "name": "美学家",
     "ability": "每个夜晚*，你会得知一个说书人认为你当前最应该认真思考的角色。",
@@ -257,7 +257,7 @@
   },
   {
     "id": "yinmoujia",
-    "image": "/scripts/assets/community/929337f7ba83c6b8f4d8ba93d05287745b3563112158dd8d887d1a9e9b114d18.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/929337f7ba83c6b8f4d8ba93d05287745b3563112158dd8d887d1a9e9b114d18.png",
     "edition": "custom",
     "name": "阴谋家",
     "ability": "每个白天，你可以私下访问说书人以得知一条能够妨害占据优势的阵营获胜的建议。",
@@ -270,7 +270,7 @@
   },
   {
     "id": "a7d285c3-6653-4a38-8f25-ce77a38106b1",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "5ee81472-ab25-4cd2-8144-2098291fdef3",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "name": "异端分子",
     "ability": "对调胜负结果，即使你已死亡。",
@@ -300,7 +300,7 @@
   },
   {
     "id": "shenmijiabing",
-    "image": "/scripts/assets/community/645d97db35b1fa4a7c1377a69309f4f49a6c0ec42734bbca45177fdf7cba523b.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/645d97db35b1fa4a7c1377a69309f4f49a6c0ec42734bbca45177fdf7cba523b.png",
     "edition": "custom",
     "name": "隐士",
     "ability": "你拥有所有外来者能力[-0-1外来者]",
@@ -329,7 +329,7 @@
   },
   {
     "id": "yanpin",
-    "image": "/scripts/assets/community/228a2aadc365ec0d41f981acd5f5987010745daf7ea036906c88b31b0b16f5e9.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/228a2aadc365ec0d41f981acd5f5987010745daf7ea036906c88b31b0b16f5e9.png",
     "edition": "custom",
     "name": "赝品",
     "ability": "你拥有一个在场爪牙的能力。如果没有其他爪牙在场，在你的首个夜晚，你选择一名爪牙：你获得他的能力。",
@@ -346,7 +346,7 @@
   },
   {
     "id": "61c6246a-55a5-433c-87c3-3107014f41e9",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会得知你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -362,7 +362,7 @@
   },
   {
     "id": "dujinke",
-    "image": "/scripts/assets/community/1fd85069a1ba1dad05aeca6975461dc7d554e1be7423eb8593441b74f8a52303.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/1fd85069a1ba1dad05aeca6975461dc7d554e1be7423eb8593441b74f8a52303.png",
     "edition": "custom",
     "name": "蠹金客",
     "ability": "如果超过半数死亡玩家在最后一个白天仍然拥有投票标记，你的阵营获胜。",
@@ -375,7 +375,7 @@
   },
   {
     "id": "muyangren",
-    "image": "/scripts/assets/community/e6503d2e2ca9ca16e01a8be6f63585279069481680aeca6c9034232622f5c729.png",
+    "image": "/scripts/assets/community-mei-yi-ge-shi-ren-60711d80/e6503d2e2ca9ca16e01a8be6f63585279069481680aeca6c9034232622f5c729.png",
     "edition": "custom",
     "name": "牧羊人",
     "ability": "玩家可以在夜晚举手以加入邪恶阵营，直到你死亡。如果邪恶玩家超过半数，所有因此加入邪恶阵营的玩家回归善良阵营，你的阵营获胜。",

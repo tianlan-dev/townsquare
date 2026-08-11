@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "硬核万圣劫",
     "author": "Cam",
-    "logo": "/scripts/assets/community/0d317caea993f0492158cf7b76b016948b82777e486dcdef237572cba0595cd7.png",
+    "logo": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/0d317caea993f0492158cf7b76b016948b82777e486dcdef237572cba0595cd7.png",
     "state": [
       {
         "stateName": "大南瓜寓言",
@@ -18,7 +18,7 @@
   },
   {
     "id": "daodangui",
-    "image": "/scripts/assets/community/ca1cde9b1339fec305b360bbf587e88f2dd49c3a59e600bfcd7392eb171d876b.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/ca1cde9b1339fec305b360bbf587e88f2dd49c3a59e600bfcd7392eb171d876b.png",
     "otherNightReminder": "在万圣节结束时，在一名存活的邪恶爪牙角色标记旁放置“是捣蛋鬼”和“善良”提示标记。",
     "name": "捣蛋鬼",
     "team": "townsfolk",
@@ -34,7 +34,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_gstone",
@@ -51,7 +51,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_gstone",
@@ -73,7 +73,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snake_charmer_gstone",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "每个夜晚，如果死亡的玩家数量大于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "flavor": "",
     "id": "king_gstone",
@@ -109,7 +109,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "flavor": "",
     "id": "dreamer_gstone",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_gstone",
@@ -146,7 +146,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_gstone",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monk_gstone",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_gstone",
@@ -204,7 +204,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_gstone",
@@ -223,7 +223,7 @@
   },
   {
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
     "edition": "custom",
     "flavor": "",
     "id": "choirboy_gstone",
@@ -240,7 +240,7 @@
   },
   {
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "flavor": "",
     "id": "magician_gstone",
@@ -257,7 +257,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_gstone",
@@ -277,7 +277,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_gstone",
@@ -296,7 +296,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_gstone",
@@ -313,7 +313,7 @@
   },
   {
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "politician_gstone",
@@ -330,7 +330,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_gstone",
@@ -349,7 +349,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_gstone",
@@ -369,7 +369,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_gstone",
@@ -388,7 +388,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpy_gstone",
@@ -408,7 +408,7 @@
   },
   {
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]\n\n",
-    "image": "/scripts/assets/community/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
     "edition": "custom",
     "flavor": "",
     "id": "summoner_gstone",
@@ -429,7 +429,7 @@
   },
   {
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "flavor": "",
     "id": "boffin_gstone",
@@ -446,7 +446,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_gstone",
@@ -465,7 +465,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "flavor": "",
     "id": "vigormortis_gstone",
@@ -486,7 +486,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道内容",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "djinn_gstone",
@@ -503,7 +503,7 @@
   },
   {
     "id": "great_pumpkin_fabled",
-    "image": "/scripts/assets/community/741bd6251188f56a837ed7d022719343e7276b12e630d9b3e02afce33d4861d6.png",
+    "image": "/scripts/assets/community-ying-he-wan-sheng-jie-0c66596e/741bd6251188f56a837ed7d022719343e7276b12e630d9b3e02afce33d4861d6.png",
     "name": "大南瓜寓言",
     "team": "fabled",
     "ability": "在游戏中的任意一个黎明，说书人会宣布万圣节开始，万圣节会在下一个黎明结束。\n在万圣节结束时，说书人可能会复活部分已经死亡的玩家、改变某些玩家的角色（不需要和其原本的角色类型相同，不改变玩家的阵营）。\n在游戏开始时，说书人会询问玩家是否愿意在万圣节结束时变装为剧本列表之外的官方角色。",

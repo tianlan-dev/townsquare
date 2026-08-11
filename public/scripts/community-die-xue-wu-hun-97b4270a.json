@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "喋血武魂",
-    "logo": "/scripts/assets/community/608e1f33b855caddd785b7d127e04711488ad96ca483b38baa89c58b7d01693a.png",
+    "logo": "/scripts/assets/community-die-xue-wu-hun-97b4270a/608e1f33b855caddd785b7d127e04711488ad96ca483b38baa89c58b7d01693a.png",
     "author": "Elluna",
     "description": "喋血武魂",
     "townsfolkName": "镇民",
@@ -22,7 +22,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -40,7 +40,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -57,7 +57,7 @@
   },
   {
     "id": "yeshimeishengmeyongdejuese111",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "name": "女祭司",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -72,7 +72,7 @@
   },
   {
     "id": "diexue_1",
-    "image": "/scripts/assets/community/3269de858a8261a80822c74c75f0ab86720b3cffe2f16c4c72c84e5686fd1386.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/3269de858a8261a80822c74c75f0ab86720b3cffe2f16c4c72c84e5686fd1386.png",
     "edition": "custom",
     "name": "战术家",
     "ability": "每个夜晚*，你要选择两名存活玩家：你得知说书人认为恶魔杀死他们其中的谁对邪恶阵营更有利。",
@@ -87,7 +87,7 @@
   },
   {
     "id": "diexue_2",
-    "image": "/scripts/assets/community/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
     "edition": "custom",
     "name": "香料商",
     "ability": "每个夜晚*，你得知今天白天有多少邪恶玩家投票，如果你将要得知0，你醉酒。",
@@ -105,7 +105,7 @@
   },
   {
     "id": "diexue_3",
-    "image": "/scripts/assets/community/70c9c0c3e947b02daffdfbe59d28e01de92d34664a73f9e787c52376c9c5b3b5.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/70c9c0c3e947b02daffdfbe59d28e01de92d34664a73f9e787c52376c9c5b3b5.png",
     "edition": "custom",
     "name": "收容专家",
     "ability": "每个白天，你可以私下询问说书人一个有关恶魔能力的是非问题。",
@@ -120,7 +120,7 @@
   },
   {
     "id": "diexue_4",
-    "image": "/scripts/assets/community/702649b993061e086fa7491f4de289be13195c249fd539798b12e4ba4c8a7b74.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/702649b993061e086fa7491f4de289be13195c249fd539798b12e4ba4c8a7b74.png",
     "edition": "custom",
     "name": "花剑手",
     "ability": "恶魔在第一晚即可行动，但所选择的玩家会推迟一晚死亡。每个夜晚，你会得知恶魔选择了谁。",
@@ -137,7 +137,7 @@
   },
   {
     "id": "diexue_5",
-    "image": "/scripts/assets/community/cf86439e82219e3fb9c1bf35a030115dff200a53aa43bfcff6f80092a1fa9d32.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/cf86439e82219e3fb9c1bf35a030115dff200a53aa43bfcff6f80092a1fa9d32.png",
     "edition": "custom",
     "name": "监管者",
     "ability": "每局游戏限一次，在夜晚时*，为每个剧本上的恶魔角色分别选择一名玩家，这些玩家不受对应恶魔的负面能力的影响。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "diexue_6",
-    "image": "/scripts/assets/community/9181750b1985e27064f8f1470af851a80684bae3027f67628aa5736afa7380a6.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/9181750b1985e27064f8f1470af851a80684bae3027f67628aa5736afa7380a6.png",
     "edition": "custom",
     "name": "天文学家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人并得知他做出一个决定的原因，但你不知道是哪个决定。",
@@ -189,7 +189,7 @@
   },
   {
     "id": "diexue_7",
-    "image": "/scripts/assets/community/83573e5f096ed5cd3513631ae58f049ded6b3c2066aeb696165874648aef7666.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/83573e5f096ed5cd3513631ae58f049ded6b3c2066aeb696165874648aef7666.png",
     "edition": "custom",
     "name": "银匠",
     "ability": "在最后一个白天，你决定谁会被处决（所有玩家都会得知）。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
@@ -206,7 +206,7 @@
   },
   {
     "id": "diexue_8",
-    "image": "/scripts/assets/community/42168c03e628dfcad7aa86bcb253bc284b45cb58b1d6ed551e626c89a7c6d177.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/42168c03e628dfcad7aa86bcb253bc284b45cb58b1d6ed551e626c89a7c6d177.png",
     "edition": "custom",
     "name": "煽动者",
     "ability": "如果你提名并处决了第一名玩家，当晚，你要选择一名玩家：你得知他的角色，即使你已死亡。",
@@ -223,7 +223,7 @@
   },
   {
     "id": "sb111",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "name": "士兵",
     "ability": "恶魔的负面能力对你无效。",
@@ -238,7 +238,7 @@
   },
   {
     "id": "diexue_9",
-    "image": "/scripts/assets/community/7b137e853a3486e17cb2c9b7ca960321cf08d94ae3a9da864e52e7dcba135839.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/7b137e853a3486e17cb2c9b7ca960321cf08d94ae3a9da864e52e7dcba135839.png",
     "edition": "custom",
     "name": "逃兵",
     "ability": "第一名死亡玩家投票后，你转变为他的阵营。",
@@ -255,7 +255,7 @@
   },
   {
     "id": "xunzhaonidezhuren111",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "name": "管家",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -290,7 +290,7 @@
   },
   {
     "id": "daibi111",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -305,7 +305,7 @@
   },
   {
     "id": "diexue_10",
-    "image": "/scripts/assets/community/2a2cdf0b5477fa627795da7c2da2f901408a9b6c51d00577a9fa4decda569914.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/2a2cdf0b5477fa627795da7c2da2f901408a9b6c51d00577a9fa4decda569914.png",
     "edition": "custom",
     "name": "尸妖",
     "ability": "你提名的第一名玩家和你死亡后投票给的第一名玩家中毒。",
@@ -320,7 +320,7 @@
   },
   {
     "id": "diexue_11",
-    "image": "/scripts/assets/community/6f7ee8d0283b2dbcabe5a81b20794b43a6400c3418d0168f872c61ee6a9b613f.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/6f7ee8d0283b2dbcabe5a81b20794b43a6400c3418d0168f872c61ee6a9b613f.png",
     "edition": "custom",
     "name": "寻谜者",
     "ability": "你与一名善良玩家在首个夜晚得知一个问题。每局游戏限一次，你可以公开回答它，如果答对：你的阵营获胜。",
@@ -336,7 +336,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -351,7 +351,7 @@
   },
   {
     "id": "gebulinaaaaaaa111111",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "name": "哥布林",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -368,7 +368,7 @@
   },
   {
     "id": "diexue_12",
-    "image": "/scripts/assets/community/113f9b80f789790c32d66643c7f65660541fdbf4a2a3f061e79fedf8c62305bc.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/113f9b80f789790c32d66643c7f65660541fdbf4a2a3f061e79fedf8c62305bc.png",
     "edition": "custom",
     "name": "锈刃领袖",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[+0/1外来者，爪牙们决定你是谁]",
@@ -388,7 +388,7 @@
   },
   {
     "id": "diexue_13",
-    "image": "/scripts/assets/community/ba185b358b58709e4d1692dd87f9f80ef8dca0bc7473799d6082f42d430be4c0.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/ba185b358b58709e4d1692dd87f9f80ef8dca0bc7473799d6082f42d430be4c0.png",
     "edition": "custom",
     "name": "[数据删除]",
     "ability": "只有你知道你的能力是什么。每局游戏限一次，收容专家可以公开猜测你的能力是什么，如果正确，你死亡。[+收容专家]",
@@ -406,7 +406,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -423,7 +423,7 @@
   },
   {
     "id": "oeeroeeerooooeeeeee1111111",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-die-xue-wu-hun-97b4270a/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",

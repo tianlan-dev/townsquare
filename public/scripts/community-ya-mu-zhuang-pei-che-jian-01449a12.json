@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "鸦木装配车间",
     "author": "海雾",
-    "logo": "/scripts/assets/community/ed706d1d4cec4cb6d298957425c1aa3f612db8eb3cabe39d76a0ef0202246030.png",
+    "logo": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ed706d1d4cec4cb6d298957425c1aa3f612db8eb3cabe39d76a0ef0202246030.png",
     "A jinxed": "相克",
     "status": [
       {
@@ -23,14 +23,14 @@
     "name": "装配！行动！完美！",
     "team": "fabled",
     "ability": "游戏开始前，说书人从“备选”角色（带▲的角色）中挑选5~6名镇民，2~3名外来者、爪牙和恶魔加入游戏，组成完整的剧本！",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "edition": "custom",
     "flavor": "",
     "id": "steward_c",
@@ -48,7 +48,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "flavor": "",
     "id": "chef_c",
@@ -64,7 +64,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -82,7 +82,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_c",
@@ -101,7 +101,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "flavor": "",
     "id": "oracle_c",
@@ -117,7 +117,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "nightwatchman_c",
@@ -135,7 +135,7 @@
   },
   {
     "ability": "在你的首个白天，如果你提名并处决了一名玩家，当晚恶魔不会造成死亡。",
-    "image": "/scripts/assets/community/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
     "edition": "custom",
     "flavor": "",
     "id": "princess_c",
@@ -153,7 +153,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayor_c",
@@ -169,7 +169,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "flavor": "",
     "id": "1investigator_c",
@@ -188,7 +188,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "1chambermaid_c",
@@ -211,7 +211,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "1balloonist_c",
@@ -233,7 +233,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "edition": "custom",
     "flavor": "",
     "id": "1preacher_c",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "1monk_c",
@@ -269,7 +269,7 @@
   },
   {
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "1juggler_c",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "1savant_c",
@@ -303,7 +303,7 @@
   },
   {
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "flavor": "",
     "id": "1magician_c",
@@ -327,7 +327,7 @@
   },
   {
     "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "1farmer_c",
@@ -343,7 +343,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_c",
@@ -359,7 +359,7 @@
   },
   {
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "flavor": "",
     "id": "puzzlemaster_c",
@@ -378,7 +378,7 @@
   },
   {
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "1hatter_c",
@@ -396,7 +396,7 @@
   },
   {
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "flavor": "",
     "id": "1golem_c",
@@ -414,7 +414,7 @@
   },
   {
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "flavor": "",
     "id": "1saint_c",
@@ -430,7 +430,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：你转变为他的阵营，即使你已醉酒或中毒，但你不知道你转变后的阵营。",
-    "image": "/scripts/assets/community/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
     "edition": "custom",
     "flavor": "",
     "id": "1ogre_c",
@@ -448,7 +448,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -467,7 +467,7 @@
   },
   {
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xaan_c",
@@ -489,7 +489,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "1marionette_c",
@@ -517,7 +517,7 @@
   },
   {
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "flavor": "",
     "id": "1psychopath_c",
@@ -533,7 +533,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "flavor": "",
     "id": "1mezepheles_c",
@@ -552,7 +552,7 @@
   },
   {
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "flavor": "",
     "id": "1spy_c",
@@ -575,7 +575,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "flavor": "",
     "id": "yaggababble_c",
@@ -593,7 +593,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "1imp_c",
@@ -611,7 +611,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "flavor": "",
     "id": "1vigormortis_c",
@@ -631,7 +631,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "1pukka_c",
@@ -650,7 +650,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "flavor": "",
     "id": "1ojo_c",
@@ -671,7 +671,7 @@
     "name": "气球驾驶员&提线木偶",
     "team": "A jinxed",
     "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom"
   },
   {
@@ -679,7 +679,7 @@
     "name": "魔术师&间谍",
     "team": "A jinxed",
     "ability": "当间谍查看魔典时，魔术师和恶魔的角色标记会被说书人移除。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom"
   },
   {
@@ -687,7 +687,7 @@
     "name": "陌客&食人魔",
     "team": "A jinxed",
     "ability": "如果陌客被食人魔当作邪恶阵营，食人魔会得知自己转变为邪恶。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom"
   },
   {
@@ -695,7 +695,7 @@
     "name": "食人魔&间谍",
     "team": "A jinxed",
     "ability": "间谍必定被食人魔当作邪恶阵营。",
-    "image": "/scripts/assets/community/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
+    "image": "/scripts/assets/community-ya-mu-zhuang-pei-che-jian-01449a12/6ca214ee89fd8071b65303862efc6a2f0198574d8ea66445a08afa6ecb2e9b8a.png",
     "edition": "custom"
   }
 ]

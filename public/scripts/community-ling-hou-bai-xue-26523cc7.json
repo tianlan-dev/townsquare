@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "灵猴拜学",
     "author": "Jams,Josh,Kerry&zak",
-    "logo": "/scripts/assets/community/a03ef720e261fa1bad829d0466d055c13e7af6c8c0b683ab7c8fca48ae1ea9c3.png",
+    "logo": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/a03ef720e261fa1bad829d0466d055c13e7af6c8c0b683ab7c8fca48ae1ea9c3.png",
     "A jinxed": "相克",
     "tags": [
       "旋转木马快速上手剧本"
@@ -12,7 +12,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "flavor": "",
     "id": "sailor_c",
@@ -30,7 +30,7 @@
   },
   {
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "flavor": "",
     "id": "mathematician_c",
@@ -48,7 +48,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_c",
@@ -72,7 +72,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_c",
@@ -91,7 +91,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcist_c",
@@ -109,7 +109,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。 ",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "flavor": "",
     "id": "lycanthrope_c",
@@ -128,7 +128,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "flavor": "",
     "id": "acrobat_c",
@@ -147,7 +147,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "flavor": "",
     "id": "courtier_c",
@@ -168,7 +168,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "flavor": "",
     "id": "professor_c",
@@ -187,7 +187,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -205,7 +205,7 @@
   },
   {
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "flavor": "",
     "id": "alchemist_c",
@@ -234,7 +234,7 @@
   },
   {
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "flavor": "",
     "id": "tea_lady_c",
@@ -253,7 +253,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayor_c",
@@ -269,7 +269,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_c",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "flavor": "",
     "id": "tinker_c",
@@ -305,7 +305,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "goon_c",
@@ -323,7 +323,7 @@
   },
   {
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
-    "image": "/scripts/assets/community/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
     "edition": "custom",
     "flavor": "",
     "id": "zealot_c",
@@ -339,7 +339,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -358,7 +358,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -376,7 +376,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "flavor": "",
     "id": "devils_advocate_c",
@@ -394,7 +394,7 @@
   },
   {
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒，直到你下次选择。",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
     "edition": "custom",
     "flavor": "",
     "id": "organ_grinder_c",
@@ -418,7 +418,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_c",
@@ -437,7 +437,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",
@@ -456,7 +456,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你的上个夜晚选择过的且当前死亡的玩家可能会被你反刍。",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "flavor": "",
     "id": "shabaloth_c",
@@ -476,7 +476,7 @@
   },
   {
     "ability": "每个夜晚*，如果今天白天没有人死亡，你会被唤醒并要选择一名玩家：他死亡。当你首次死亡后，你仍存活，但会被当作死亡。",
-    "image": "/scripts/assets/community/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png",
+    "image": "/scripts/assets/community-ling-hou-bai-xue-26523cc7/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png",
     "edition": "custom",
     "flavor": "",
     "id": "zombuul_c",

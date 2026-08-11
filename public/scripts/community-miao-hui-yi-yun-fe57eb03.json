@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "庙会疑云",
     "author": "痴愚",
-    "logo": "/scripts/assets/community/510f9ce4600ad7bee8cb7d0b3b907744663310bc3b096ebf9c2514814161ec74.png",
+    "logo": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/510f9ce4600ad7bee8cb7d0b3b907744663310bc3b096ebf9c2514814161ec74.png",
     "description": "热闹的庙会、无头的城隍，是谁将阴神亵渎？\n诡谲的现场、无知的信众，又是谁将众人裹挟？\n转动的齿轮、炙热的蒸汽，远洋而来的异族到底是何居心？\n祥和的庙会下早已暗流涌动，动乱的大幕正在缓缓拉开，到底谁能在这场风波中笑到最后，尚不可知......",
     "townsfolkName": "村民",
     "outsidersName": "外来者",
@@ -18,7 +18,7 @@
   },
   {
     "id": "488f3d3e-f8dd-4f53-8133-64e6c43b2431",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -34,7 +34,7 @@
   },
   {
     "id": "5c886b4d-d5a6-458f-8013-d8cb1f2f3c81",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -50,7 +50,7 @@
   },
   {
     "id": "c047fb75-ad3d-4556-a8e1-87632a799e39",
-    "image": "/scripts/assets/community/e99dc1d898bc3320f5510af384870409cdd7dd50a198e8294fb5706315a8eecc.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/e99dc1d898bc3320f5510af384870409cdd7dd50a198e8294fb5706315a8eecc.png",
     "edition": "custom",
     "name": "宠妃",
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
@@ -68,7 +68,7 @@
   },
   {
     "id": "27d73bc5-10ba-4e0a-8179-bcf22c374183",
-    "image": "/scripts/assets/community/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
     "edition": "custom",
     "name": "歌伶",
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "9825bc58-c24f-44d7-8d0e-c96ce79b0720",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "name": "送葬者",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -106,7 +106,7 @@
   },
   {
     "id": "5a09357c-f853-426b-b00a-14215e7e5b62",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -124,7 +124,7 @@
   },
   {
     "id": "3802763b-c501-4bfc-8ab5-6d6abd9f54a8",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
@@ -142,7 +142,7 @@
   },
   {
     "id": "2a9de6ce-b42d-422c-8889-c3b12313268c",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "name": "教授",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
@@ -161,7 +161,7 @@
   },
   {
     "id": "fcd6328c-6378-4316-ae63-06bf9de90dda",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -179,7 +179,7 @@
   },
   {
     "id": "3ea7dfaa-3d25-410d-8794-90c739ff517a",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "5ef41d22-2390-4c1c-8d7c-ac914dbcd83b",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -211,7 +211,7 @@
   },
   {
     "id": "cb36babe-fa40-41e9-8388-0aea21285122",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -229,7 +229,7 @@
   },
   {
     "id": "e9768ad0-ee70-4171-8f53-1224a81b1c53",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -246,7 +246,7 @@
   },
   {
     "id": "151af996-a4e7-43a9-8f00-5ed15d2aa521",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -264,7 +264,7 @@
   },
   {
     "id": "5de26c3a-b7a6-470d-ae2c-a09344f2c363",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "name": "入殓师",
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -282,7 +282,7 @@
   },
   {
     "id": "ca92ade8-89fa-46a5-9b02-21c3a74807e2",
-    "image": "/scripts/assets/community/86da8925bdbae2c5c9253ac31fad1701a6aa1c2cb84f6054f096af225ba165fe.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/86da8925bdbae2c5c9253ac31fad1701a6aa1c2cb84f6054f096af225ba165fe.png",
     "edition": "custom",
     "name": "皮影",
     "ability": "说书人可以欺骗你，邪恶玩家可能会得知关于你的信息，你可能会被当作任何角色，即使你已死亡。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "fa308356-c0e5-450c-977d-40030cbaf648",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "name": "修补匠",
     "ability": "你随时可能死亡。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "ffc34fbd-4ea7-488b-a986-ee987625d974",
-    "image": "/scripts/assets/community/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
     "edition": "custom",
     "name": "妖猫",
     "ability": "每个夜晚，你要选择一名玩家（可选说书人1次）：他中毒（恶魔除外）且发言只能是“喵喵喵”直至下个黄昏，不然可能被处决。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "a50503e8-87b7-4d03-84ab-76fd9dca86e2",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -352,7 +352,7 @@
   },
   {
     "id": "0c803adb-037a-4416-8306-59bb4b50f021",
-    "image": "/scripts/assets/community/a88b1fc314d871e25877944402aae0ee95ed5ac13fa4600e603108a32e7c8906.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/a88b1fc314d871e25877944402aae0ee95ed5ac13fa4600e603108a32e7c8906.png",
     "edition": "custom",
     "name": "养蛊人",
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
@@ -371,7 +371,7 @@
   },
   {
     "id": "f23f0581-cf36-4aec-b4e5-5120675a6049",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "name": "酿酒师",
     "ability": "每个夜晚，你要选择一个镇民角色：当他下一次通过自身能力获取信息时，改为得知你给出的信息。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "29bffbc6-ff83-4ded-86e6-f371d1743f09",
-    "image": "/scripts/assets/community/e66147a70581dbcdba2b0375e386eb382cc20663d996dca57529991d8e297d02.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/e66147a70581dbcdba2b0375e386eb382cc20663d996dca57529991d8e297d02.png",
     "edition": "custom",
     "name": "皮影戏坊主",
     "ability": "你可以操纵说书人，说书人每天可以决定二名玩家的生死，始终会有一名善良玩家知道皮影戏坊主在场，有且仅有处决说书人善良阵营才能获胜，即使你已死亡。[其他玩家都是皮影]",
@@ -407,7 +407,7 @@
   },
   {
     "id": "42a48259-a473-4a2e-86a0-06325acfa500",
-    "image": "/scripts/assets/community/3674db418816401cec3b46d792fa1d77e951e0e457db7204ca9a29cdf5a985ce.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/3674db418816401cec3b46d792fa1d77e951e0e457db7204ca9a29cdf5a985ce.png",
     "edition": "custom",
     "name": "尸佛",
     "ability": "善良玩家死亡后立即变成邪恶的尸佛（旅行者不会改变角色）。仅邪恶玩家参与的投票会失效。邪恶阵营彼此知晓且在第五个黄昏获胜。",
@@ -430,7 +430,7 @@
   },
   {
     "id": "c0e8010a-952f-4f98-94cf-75e3ed71054b",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -448,7 +448,7 @@
   },
   {
     "id": "2f5981e1-9408-479e-a34a-e8312fd99781",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",
@@ -467,7 +467,7 @@
   },
   {
     "id": "d7de1195-a0be-454a-804a-1277ac44f6cb",
-    "image": "/scripts/assets/community/398cfb57ea609c31686d9ae76a13585113ea38cc27f15e5dd6c57355f6669868.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/398cfb57ea609c31686d9ae76a13585113ea38cc27f15e5dd6c57355f6669868.png",
     "edition": "custom",
     "name": "黄大仙",
     "ability": "无法直接选择，只能由黄皮子变成。你获得讨封成功时所述的能力。",
@@ -484,7 +484,7 @@
   },
   {
     "id": "c1bdeb6d-1e7f-44f5-82d3-46309cb6cb7b",
-    "image": "/scripts/assets/community/5c768f396e7d0b12da879fdfd78ccf854bbb5964098a94d0a3edaa591a505e2c.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/5c768f396e7d0b12da879fdfd78ccf854bbb5964098a94d0a3edaa591a505e2c.png",
     "edition": "custom",
     "name": "黄皮子",
     "ability": "每个白天，你可以选择一名其他玩家讨封，问道“老乡，你看我像个啥”。你可能会由于讨封而变成黄大仙。",
@@ -501,7 +501,7 @@
   },
   {
     "id": "f1bc44a4-bb6c-4489-883c-2fce1d1e06ca",
-    "image": "/scripts/assets/community/d46c18ab96d659ceb36dd8d022f573c680f953b0f90b2ce7a071070918139e1e.png",
+    "image": "/scripts/assets/community-miao-hui-yi-yun-fe57eb03/d46c18ab96d659ceb36dd8d022f573c680f953b0f90b2ce7a071070918139e1e.png",
     "edition": "custom",
     "name": "皮影戏",
     "ability": "每名玩家限一次，存活玩家可私下拜访说书人猜测谁是恶魔（不能猜自己）：首个猜对的玩家会变成邪恶的爪牙，否则可能会变成同角色类型下的另一个角色。",

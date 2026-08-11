@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "三人成虎",
     "author": "猫棉",
-    "logo": "/scripts/assets/community/6753e9d210d02a1504321507d2789976863ed58f8b668fe01442007f295eb7e9.png",
+    "logo": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/6753e9d210d02a1504321507d2789976863ed58f8b668fe01442007f295eb7e9.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "民间创意剧本",
@@ -15,7 +15,7 @@
   },
   {
     "id": "_sanrenchenghu",
-    "image": "/scripts/assets/community/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
     "firstNightReminder": "唤醒洗衣妇，对她指向两名玩家，并展示一个镇民角色标记。这两名玩家其中之一是这个镇民。",
     "reminders": [
       "镇民",
@@ -29,7 +29,7 @@
   },
   {
     "id": "1_sanrenchenghu",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "2_sanrenchenghu",
-    "image": "/scripts/assets/community/78a83557ae6c9edadb47d0c3c9fc12df4a24fe3abae5ff915cfa63f2dda81ec7.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/78a83557ae6c9edadb47d0c3c9fc12df4a24fe3abae5ff915cfa63f2dda81ec7.png",
     "firstNightReminder": "唤醒祖母，对她指向一名善良玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果恶魔杀死了孙子，祖母死亡。",
     "reminders": [
@@ -60,7 +60,7 @@
   },
   {
     "id": "3_sanrenchenghu",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -73,7 +73,7 @@
   },
   {
     "id": "4_sanrenchenghu",
-    "image": "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -86,7 +86,7 @@
   },
   {
     "id": "5_sanrenchenghu",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -98,7 +98,7 @@
   },
   {
     "id": "6_sanrenchenghu",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -113,7 +113,7 @@
   },
   {
     "id": "7_sanrenchenghu",
-    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "reminders": [
       "恶魔未投票",
@@ -127,7 +127,7 @@
   },
   {
     "id": "8_sanrenchenghu",
-    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -142,7 +142,7 @@
   },
   {
     "id": "9_sanrenchenghu",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -160,7 +160,7 @@
   },
   {
     "id": "10_sanrenchenghu",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -173,7 +173,7 @@
   },
   {
     "id": "11_sanrenchenghu",
-    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -187,7 +187,7 @@
   },
   {
     "id": "12_sanrenchenghu",
-    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -199,7 +199,7 @@
   },
   {
     "id": "13_sanrenchenghu",
-    "image": "/scripts/assets/community/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
     "otherNightReminder": "如果杂技演员左右两侧最近的存活善良玩家之一中毒或醉酒，杂技演员死亡。",
     "reminders": [
       "死亡"
@@ -212,7 +212,7 @@
   },
   {
     "id": "14_sanrenchenghu",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -224,7 +224,7 @@
   },
   {
     "id": "15_sanrenchenghu",
-    "image": "/scripts/assets/community/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -237,7 +237,7 @@
   },
   {
     "id": "16_sanrenchenghu",
-    "image": "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -245,7 +245,7 @@
   },
   {
     "id": "17_sanrenchenghu",
-    "image": "/scripts/assets/community/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png",
     "firstNightReminder": "唤醒间谍，让他查看魔典。",
     "otherNightReminder": "唤醒间谍，让他查看魔典。",
     "name": "间谍",
@@ -257,7 +257,7 @@
   },
   {
     "id": "18_sanrenchenghu",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -270,7 +270,7 @@
   },
   {
     "id": "19_sanrenchenghu",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -287,7 +287,7 @@
   },
   {
     "id": "20_sanrenchenghu",
-    "image": "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
     "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -301,7 +301,7 @@
   },
   {
     "id": "21_sanrenchenghu",
-    "image": "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
     "firstNightReminder": "唤醒普卡，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒普卡，让他选择一名玩家，该玩家中毒。上一个被普卡中毒的玩家死亡。",
     "reminders": [
@@ -317,7 +317,7 @@
   },
   {
     "id": "22_sanrenchenghu",
-    "image": "/scripts/assets/community/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png",
     "otherNightReminder": "决定今晚谁会因为军团能力死亡。",
     "reminders": [
       "即将被处决",
@@ -332,7 +332,7 @@
   },
   {
     "id": "23_sanrenchenghu",
-    "image": "/scripts/assets/community/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "reminders": [
       "死亡"
@@ -345,7 +345,7 @@
   },
   {
     "id": "24_sanrenchenghu",
-    "image": "/scripts/assets/community/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png",
     "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。",
     "otherNightReminder": "唤醒卡扎力，让他攻击一名玩家。",
     "reminders": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "25_sanrenchenghu",
-    "image": "/scripts/assets/community/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png",
+    "image": "/scripts/assets/community-san-ren-cheng-hu-f4a59cc7/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png",
     "name": "古董收藏家",
     "team": "fabled",
     "ability": "剧本中部分角色的能力来源于过去。",

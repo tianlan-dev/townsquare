@@ -20,7 +20,7 @@
     "name": "暴风捕手",
     "team": "fabled",
     "ability": "游戏开始时，你要宣布一个善良角色。如果该角色在场，他只能死于处决，但所有邪恶玩家会在首个夜晚得知他是哪一名玩家。",
-    "image": "/scripts/assets/community/3842e2a7499981b204a5d15ceab9eba4efca337a92942fc08460ce40df1e693b.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/3842e2a7499981b204a5d15ceab9eba4efca337a92942fc08460ce40df1e693b.png",
     "edition": "custom"
   },
   {
@@ -28,12 +28,12 @@
     "name": "斯派德米",
     "team": "fabled",
     "ability": "当有玩家“疯狂”证明错误的角色运作或游戏规则时，说书人可能会公开解释正确的。",
-    "image": "/scripts/assets/community/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
     "edition": "custom"
   },
   {
     "id": "2_anliuchunsheng",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "firstNightReminder": "唤醒图书管理员，对他指向两名玩家，并展示一个外来者角色标记。这两名玩家其中之一是这个外来者。",
     "reminders": [
       "外来者",
@@ -47,7 +47,7 @@
   },
   {
     "id": "3_anliuchunsheng",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
     "reminders": [
       "爪牙",
@@ -61,7 +61,7 @@
   },
   {
     "id": "4_anliuchunsheng",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -71,7 +71,7 @@
   },
   {
     "id": "5_anliuchunsheng",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -83,7 +83,7 @@
   },
   {
     "id": "6_anliuchunsheng",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -98,7 +98,7 @@
   },
   {
     "id": "7_anliuchunsheng",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -106,7 +106,7 @@
   },
   {
     "id": "8_anliuchunsheng",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "firstNightReminder": "唤醒祖母，对她指向一名善良玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果恶魔杀死了孙子，祖母死亡。",
     "reminders": [
@@ -122,7 +122,7 @@
   },
   {
     "id": "9_anliuchunsheng",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -135,7 +135,7 @@
   },
   {
     "id": "10_anliuchunsheng",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png",
     "name": "和平主义者",
     "team": "townsfolk",
     "ability": "被处决的善良玩家可能不会死亡。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "11_anliuchunsheng",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -155,7 +155,7 @@
   },
   {
     "id": "12_anliuchunsheng",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "reminders": [
@@ -170,7 +170,7 @@
   },
   {
     "id": "13_anliuchunsheng",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -180,7 +180,7 @@
   },
   {
     "id": "14_anliuchunsheng",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png",
     "otherNightReminder": "如果杂耍艺人在今天白天使用了能力，唤醒杂耍艺人，对他用手势比划数字来告知他白天猜测正确的次数。",
     "reminders": [
       "猜测正确"
@@ -193,7 +193,7 @@
   },
   {
     "id": "15_anliuchunsheng",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -205,7 +205,7 @@
   },
   {
     "id": "16_anliuchunsheng",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -213,7 +213,7 @@
   },
   {
     "id": "17_anliuchunsheng",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "otherNightReminder": "在夜晚的任意时机，你都可以决定杀死修补匠。这里只是一个提示以免遗忘修补匠。",
     "reminders": [
       "死亡"
@@ -226,7 +226,7 @@
   },
   {
     "id": "18_anliuchunsheng",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -245,7 +245,7 @@
   },
   {
     "id": "19_anliuchunsheng",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "firstNightReminder": "唤醒间谍，让他查看魔典。",
     "otherNightReminder": "唤醒间谍，让他查看魔典。",
     "name": "间谍",
@@ -257,7 +257,7 @@
   },
   {
     "id": "20_anliuchunsheng",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -274,7 +274,7 @@
   },
   {
     "id": "21_anliuchunsheng",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "name": "主谋",
     "team": "minion",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -282,7 +282,7 @@
   },
   {
     "id": "22_anliuchunsheng",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "firstNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "otherNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "23_anliuchunsheng",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "firstNightReminder": "唤醒普卡，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒普卡，让他选择一名玩家，该玩家中毒。上一个被普卡中毒的玩家死亡。",
     "reminders": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "24_anliuchunsheng",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "reminders": [
       "攻击三次",
@@ -327,7 +327,7 @@
   },
   {
     "id": "25_anliuchunsheng",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -342,7 +342,7 @@
   },
   {
     "id": "26_anliuchunsheng",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-an-liu-chun-sheng-5665efdf/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",

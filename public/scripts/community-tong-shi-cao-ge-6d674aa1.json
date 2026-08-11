@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "同室操戈",
     "author": "能天使",
-    "logo": "/scripts/assets/community/934d77de1741c8f674dc8d661104d145195f6b583bd09871efaa58f5f798d485.png",
+    "logo": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/934d77de1741c8f674dc8d661104d145195f6b583bd09871efaa58f5f798d485.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -27,7 +27,7 @@
   },
   {
     "id": "woshininainai111",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -44,7 +44,7 @@
   },
   {
     "id": "yinyangshiqidong111",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -60,7 +60,7 @@
   },
   {
     "id": "ainiii11111",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -74,7 +74,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -104,7 +104,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "furryhaoye111",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -137,7 +137,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -151,7 +151,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -167,7 +167,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "chaojibianbianbian111",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "name": "变脸师",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -211,7 +211,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -228,7 +228,7 @@
   },
   {
     "id": "yiqunshabi1232134124124142111",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom",
     "name": "戏子（改）",
     "ability": "其他善良玩家醉酒（旅行者除外），你们互相认识且无法转变阵营，对调胜负结果，即使你失去能力。",
@@ -244,7 +244,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -258,7 +258,7 @@
   },
   {
     "id": "wudidejiemidashi111",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "name": "解谜大师",
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
@@ -275,7 +275,7 @@
   },
   {
     "id": "ningcaichen111",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -292,7 +292,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -325,7 +325,7 @@
   },
   {
     "id": "zheshigeyizi111",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "name": "主谋",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -339,7 +339,7 @@
   },
   {
     "id": "huuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "name": "狐媚娘",
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -354,7 +354,7 @@
   },
   {
     "id": "weishenmebushilianjinshushi111",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -368,7 +368,7 @@
   },
   {
     "id": "zhaohuandaxiangjiao111",
-    "image": "/scripts/assets/community/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
     "edition": "custom",
     "name": "召唤师",
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
@@ -386,7 +386,7 @@
   },
   {
     "id": "legion22",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
@@ -409,7 +409,7 @@
   },
   {
     "id": "xiaoshabi111111",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -430,14 +430,14 @@
     "name": "兄弟阋墙",
     "team": "fabled",
     "ability": "公爵夫人可能在第三个白天入场，且在第6个白天离场。召唤师与戏子不再为克星，如果召唤师创造了军团，戏子会优先变成军团。如果召唤师在戏子局将一名善良玩家变成小怪宝，则该玩家会直接携带小怪宝。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "id": "sgjfseraedr",
-    "image": "/scripts/assets/community/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
     "edition": "custom",
     "name": "公爵夫人",
     "ability": "每个白天，三名玩家可以一起拜访你。当晚*，他们会得知他们之中有几个是邪恶的，但其中一人的信息是错的。",
@@ -448,7 +448,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -464,7 +464,7 @@
   },
   {
     "id": "13339999999933_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子（改）&书生",
     "team": "a jinxed",
     "setup": false,
@@ -473,7 +473,7 @@
   },
   {
     "id": "132_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子（改）&科学怪人",
     "team": "a jinxed",
     "setup": false,
@@ -482,7 +482,7 @@
   },
   {
     "id": "125_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子（改）&军团",
     "team": "a jinxed",
     "setup": false,
@@ -491,7 +491,7 @@
   },
   {
     "id": "127_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子（改）&小怪宝",
     "team": "a jinxed",
     "setup": false,
@@ -500,7 +500,7 @@
   },
   {
     "id": "70_meta",
-    "image": "/scripts/assets/community/019ebed6982a3e33d567a9a65744fc44523f1fb69324e301de07751cd2a5603e.png",
+    "image": "/scripts/assets/community-tong-shi-cao-ge-6d674aa1/019ebed6982a3e33d567a9a65744fc44523f1fb69324e301de07751cd2a5603e.png",
     "name": "军团&召唤师",
     "team": "a jinxed",
     "setup": false,

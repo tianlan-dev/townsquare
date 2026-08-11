@@ -21,7 +21,7 @@
   },
   {
     "id": "ssdhaioudhoipasjdilajslkdjaslkdjklasjd",
-    "image": "/scripts/assets/community/d819d71347976d106c4003d1fe9aea3cd8262b16fa5c71acf8f190be2850245c.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/d819d71347976d106c4003d1fe9aea3cd8262b16fa5c71acf8f190be2850245c.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -34,7 +34,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知有多少名外来者在场。所有外来者醉酒。[+1外来者]",
-    "image": "/scripts/assets/community/1966e3cef5cc31dc7f7c62327d89dd3280237b2962091a3489bc87b13b44a60f.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/1966e3cef5cc31dc7f7c62327d89dd3280237b2962091a3489bc87b13b44a60f.png",
     "edition": "custom",
     "flavor": "",
     "id": "blacksmith",
@@ -52,7 +52,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知几名海盗在场。如果所有存活善良角色均为海盗，善良阵营获胜。[+0或1海盗]",
-    "image": "/scripts/assets/community/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
     "edition": "custom",
     "flavor": "",
     "id": "_pirate",
@@ -80,7 +80,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 10,
-    "image": "/scripts/assets/community/42b09a4d855cb76717d98c57fa18a1c32de85dbc9994a057a90007ca4ea43e5c.png"
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/42b09a4d855cb76717d98c57fa18a1c32de85dbc9994a057a90007ca4ea43e5c.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一个天数：如果那一天所有死亡玩家均为善良，你死亡随后他们以旅行者的形式重新入场。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -116,7 +116,7 @@
   },
   {
     "id": "diexue_2",
-    "image": "/scripts/assets/community/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/482ae66b6656bd7ecccd998499a5707d3ea6f773d483fdf71024c5784243afb7.png",
     "edition": "custom",
     "name": "香料商",
     "ability": "每个夜晚*，你得知今天白天有多少邪恶玩家投票，如果你将要得知0，你醉酒。",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：如果他的邻座有且只有一名邪恶玩家，且他不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
     "edition": "custom",
     "flavor": "",
     "id": "hunter",
@@ -151,7 +151,7 @@
   },
   {
     "id": "furryhaoye111",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -168,7 +168,7 @@
   },
   {
     "ability": "每个白天，你可以拜访说书人并选择一个话题，说书人会告诉你一个与他有关的事实。如果你的相邻存活玩家阵营不同，你得知错误信息。",
-    "image": "/scripts/assets/community/4ac9464ea7340e97f47223bb7e227075fe311a69de2849b9aed63c6a1b86a263.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/4ac9464ea7340e97f47223bb7e227075fe311a69de2849b9aed63c6a1b86a263.png",
     "edition": "custom",
     "flavor": "",
     "id": "Coachman",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人并得知一条正确信息。如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1或-0外来者]",
-    "image": "/scripts/assets/community/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
     "edition": "custom",
     "flavor": "",
     "id": "oc1",
@@ -203,7 +203,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/0087f4d08277d3d3a212ec1d3a38b4e61f989a5bd54c9f29700d306f3a1c4ff6.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/0087f4d08277d3d3a212ec1d3a38b4e61f989a5bd54c9f29700d306f3a1c4ff6.webp",
     "name": "幻形妖",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，你会与被你杀死的非爪牙玩家交换角色和阵营。",
@@ -244,7 +244,7 @@
     "remindersGlobal": [],
     "firstNight": 0,
     "otherNight": 4421,
-    "image": "/scripts/assets/community/92b435b31650d6dc7e9dc1870439aa133ad6ca40c53aefe74b78a1ed4b24bc41.png"
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/92b435b31650d6dc7e9dc1870439aa133ad6ca40c53aefe74b78a1ed4b24bc41.png"
   },
   {
     "ability": "你拥有其他所有外来者的能力。其他对外来者的设置调整不会生效。[无其他外来者在场]",
@@ -260,12 +260,12 @@
     "remindersGlobal": [],
     "team": "outsider",
     "firstNight": 0,
-    "image": "/scripts/assets/community/788f68e87790ac46cd4e8f3030cb9e77bf64aa6ab9dccc30132807df5d59b2a8.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/788f68e87790ac46cd4e8f3030cb9e77bf64aa6ab9dccc30132807df5d59b2a8.png",
     "imageAlt": "hermit"
   },
   {
     "id": "maxituan_12",
-    "image": "/scripts/assets/community/4830604af1efe8f934d892471870b5f710d47f9ba6dd324c8f5d57c14bff06e0.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/4830604af1efe8f934d892471870b5f710d47f9ba6dd324c8f5d57c14bff06e0.png",
     "edition": "custom",
     "name": "作秀狂",
     "ability": "在说书人宣布你死亡时没有鼓掌的玩家可能会一起死亡。",
@@ -294,11 +294,11 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
   },
   {
     "id": "zrulianshihsihsihsihishisihc-9j",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "name": "入殓师",
     "ability": "如果你提名了恶魔且他死于这次处决，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -316,7 +316,7 @@
   },
   {
     "ability": "每个夜晚*，你和恶魔一起被唤醒并选择一名玩家：他死亡。如果你死亡，恶魔会失去能力。",
-    "image": "/scripts/assets/community/5a87f33ac0e5181bdd32e60a9e548be063de9d9b6b5801edd4cbe4b9febad3d9.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/5a87f33ac0e5181bdd32e60a9e548be063de9d9b6b5801edd4cbe4b9febad3d9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Familiar",
@@ -366,11 +366,11 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/a9216c8ec81bc3067afa68ae400444394b6d6594c0e9ed7fc15a0b81774eb2a7.png"
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/a9216c8ec81bc3067afa68ae400444394b6d6594c0e9ed7fc15a0b81774eb2a7.png"
   },
   {
     "id": "Copperhead",
-    "image": "/scripts/assets/community/c4b0a6827a4c838d2f9c2274faccfa75713211f5c9c8e3174fbe68ff83783354.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/c4b0a6827a4c838d2f9c2274faccfa75713211f5c9c8e3174fbe68ff83783354.png",
     "edition": "custom",
     "name": "铜蛇帮",
     "ability": "如果你提名了一名玩家，他和与他邻近玩家中的善良玩家中毒，直到你下次提名。[-1或+1外来者]",
@@ -387,7 +387,7 @@
   },
   {
     "id": "Shacklewight",
-    "image": "/scripts/assets/community/c4b0a6827a4c838d2f9c2274faccfa75713211f5c9c8e3174fbe68ff83783354.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/c4b0a6827a4c838d2f9c2274faccfa75713211f5c9c8e3174fbe68ff83783354.png",
     "edition": "custom",
     "name": "夏柯怀特",
     "ability": "如果你提名了一名玩家，他和与他邻近玩家中的善良玩家中毒，直到你下次提名。[-1或+1外来者]",
@@ -404,7 +404,7 @@
   },
   {
     "id": "dolomite",
-    "image": "/scripts/assets/community/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
     "edition": "custom",
     "name": "多罗迈特",
     "ability": "每个夜晚，你要选择一名玩家：他转变为邪恶阵营。每局游戏限一次，你在进行选择时失效。第五个白天结束后，邪恶阵营获胜。[无爪牙在场] ",
@@ -438,7 +438,7 @@
   },
   {
     "id": "zuixihuandeyiji111",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "edition": "custom",
     "name": "暴乱",
     "ability": "在第三个白天，所有爪牙会变成暴乱，当天被提名的玩家会立即死亡且必须再次提名一名存活的玩家。",
@@ -453,7 +453,7 @@
   },
   {
     "id": "banshourenzhuozhang",
-    "image": "/scripts/assets/community/39d5c51e4c77f93bc7d1bb3dcd136c20aacb8936528635e491e16d3292656a20.png",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/39d5c51e4c77f93bc7d1bb3dcd136c20aacb8936528635e491e16d3292656a20.png",
     "name": "半兽人&浊瘴",
     "team": "a jinxed",
     "setup": false,
@@ -462,7 +462,7 @@
   },
   {
     "id": "duoluomaitehuanxingyao",
-    "image": "/scripts/assets/community/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
     "name": "多罗迈特&幻形妖",
     "team": "a jinxed",
     "setup": false,
@@ -471,7 +471,7 @@
   },
   {
     "id": "duoluomaiteyangfengren",
-    "image": "/scripts/assets/community/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
     "name": "多罗迈特&养蜂人",
     "team": "a jinxed",
     "setup": false,
@@ -480,7 +480,7 @@
   },
   {
     "id": "duoluomaiteqiufan",
-    "image": "/scripts/assets/community/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
+    "image": "/scripts/assets/community-ju-bu-wei-jian-46767df1/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
     "name": "多罗迈特&囚犯",
     "team": "a jinxed",
     "setup": false,

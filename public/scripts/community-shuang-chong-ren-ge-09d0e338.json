@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "双重人格",
     "author": "神奇的雪淞儿",
-    "logo": "/scripts/assets/community/0b316b9482ab1b6bc0ed48d893cc447b87d4dab61229b7df9a7ecc0e3c7690be.png",
+    "logo": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/0b316b9482ab1b6bc0ed48d893cc447b87d4dab61229b7df9a7ecc0e3c7690be.png",
     "description": "",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -21,7 +21,7 @@
   },
   {
     "id": "shuangchongrenge",
-    "image": "/scripts/assets/community/92268d61b5bf8c805ad7a31c32ef4d8b42f91333155c979888accec0177b67a6.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/92268d61b5bf8c805ad7a31c32ef4d8b42f91333155c979888accec0177b67a6.png",
     "edition": "custom",
     "name": "双重人格",
     "ability": "所有玩家会收到两个角色，其中仅有一个为该玩家的真实身份与阵营。",
@@ -32,7 +32,7 @@
   },
   {
     "id": "yingsuyuan",
-    "image": "/scripts/assets/community/4f5cffa3e7ebef53eeb2751c6dfe6aca674306f5d0003018fbe040c3854d506b.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/4f5cffa3e7ebef53eeb2751c6dfe6aca674306f5d0003018fbe040c3854d506b.png",
     "edition": "custom",
     "name": "罂粟园",
     "ability": "爪牙和恶魔互相不认识。恶魔不得知恶魔信息。若游戏进行至第三天或存活玩家不大于半数，当夜他们互认。",
@@ -43,7 +43,7 @@
   },
   {
     "id": "xianzhanhouzou",
-    "image": "/scripts/assets/community/7be3189b46d526822dd56bd1b8d8437690e2461c839c19387c05921794d19699.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/7be3189b46d526822dd56bd1b8d8437690e2461c839c19387c05921794d19699.png",
     "edition": "custom",
     "name": "先斩后奏",
     "ability": "说书人不会对非法目标进行提示，而会直接忽略这次行动。说书人可能会唤醒当夜已死亡的玩家要求其行动。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "rengejieti",
-    "image": "/scripts/assets/community/bf2cb73a82a29c04ab24b8a8aaeb664839e90e5ec3bfe1ce0b86df75f119ea1a.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/bf2cb73a82a29c04ab24b8a8aaeb664839e90e5ec3bfe1ce0b86df75f119ea1a.png",
     "edition": "custom",
     "name": "人格解体（可选）",
     "ability": "所有玩家不再收到角色，不会得知自己的真实身份与阵营。游戏中不会出现交换师。舞狮人得知的恶魔伪装改为一个不在场角色。",
@@ -65,7 +65,7 @@
   },
   {
     "id": "4d7b2444-ebad-4a40-9c4d-322a59ca5e7b",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "kuijingren",
-    "image": "/scripts/assets/community/ab2a5e5a4dde79933bade180377d2adea8216b87799653b557511bc0b74e4fcd.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/ab2a5e5a4dde79933bade180377d2adea8216b87799653b557511bc0b74e4fcd.png",
     "edition": "custom",
     "name": "窥镜人",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：爪牙的负面能力对他无效，直到下个黄昏。",
@@ -105,7 +105,7 @@
   },
   {
     "id": "tunhuoyiren",
-    "image": "/scripts/assets/community/14d6174f946c09765e796a6707d0c8d4da851409e0cb1431eaf49993056fcd03.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/14d6174f946c09765e796a6707d0c8d4da851409e0cb1431eaf49993056fcd03.png",
     "edition": "custom",
     "name": "拳手",
     "ability": "每个夜晚，你要选择一名玩家：下个白天，在你存活时如果他死于处决，与他邻近的两名存活善良玩家在当晚不会受邪恶角色的能力影响直到下个黄昏，即使你已死亡。",
@@ -125,7 +125,7 @@
   },
   {
     "id": "59343685-edf3-40b4-8194-2c9b698ba229",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "08531df3-d377-479f-ac7a-9a6041be0205",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人（古董）",
     "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
@@ -166,7 +166,7 @@
   },
   {
     "id": "9db0a770-59cb-4f0f-82aa-fabee885b4fa",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -186,7 +186,7 @@
   },
   {
     "id": "4fc71048-0f1c-45e8-833d-3ad1603945e5",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -206,7 +206,7 @@
   },
   {
     "id": "b1aae425-d8bd-4ae1-9a41-36be1810ed3b",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你得知爪牙在白天是否发起了提名。",
@@ -227,7 +227,7 @@
   },
   {
     "id": "fb2d7ae0-8208-4f46-8bc6-08416d8b4695",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你得知恶魔在白天是否进行了投票。",
@@ -248,7 +248,7 @@
   },
   {
     "id": "qishigucong",
-    "image": "/scripts/assets/community/21f24b5625274d9ec951f1f30e694627281cec0b8dd622f8488d2a57d6a8d77f.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/21f24b5625274d9ec951f1f30e694627281cec0b8dd622f8488d2a57d6a8d77f.png",
     "edition": "custom",
     "name": "骑士扈从",
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知他是否为镇民，如果白天有玩家被处决但依然存活，你会得知他的相邻玩家是否皆为镇民。",
@@ -269,7 +269,7 @@
   },
   {
     "id": "binzangshi",
-    "image": "/scripts/assets/community/b9c0249030d532ad74ee5fb33b30e02af29b90a11ae1063177df3d3a61b3fa60.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/b9c0249030d532ad74ee5fb33b30e02af29b90a11ae1063177df3d3a61b3fa60.png",
     "edition": "custom",
     "name": "殡葬师",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知与他邻近的存活玩家中是否有邪恶玩家。",
@@ -290,7 +290,7 @@
   },
   {
     "id": "1ebaeb1d-3165-4c19-a2f5-6d6061b5398f",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "187ca3e3-847b-4350-960f-3be983dee5fe",
-    "image": "/scripts/assets/community/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
     "edition": "custom",
     "name": "店小二",
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
@@ -327,7 +327,7 @@
   },
   {
     "id": "fatiaojianke",
-    "image": "/scripts/assets/community/d179aa84a868d4e37ba70ef6fbb6745fb718cd24e00da1b1e2aa1493236da75d.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/d179aa84a868d4e37ba70ef6fbb6745fb718cd24e00da1b1e2aa1493236da75d.png",
     "edition": "custom",
     "name": "发条剑客",
     "ability": "在你的首个夜晚，你会得知两名玩家：他们其中之一与自身邻近的玩家角色类型不同。",
@@ -347,7 +347,7 @@
   },
   {
     "id": "wushiren",
-    "image": "/scripts/assets/community/abc2fbf71ec662470a0702590b49eabaebd9f9123ea510a71174574077f29813.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/abc2fbf71ec662470a0702590b49eabaebd9f9123ea510a71174574077f29813.png",
     "edition": "custom",
     "name": "舞狮人（古董）",
     "ability": "每个夜晚，你会得知一个在场角色。每局游戏限一次，你得知的信息改为恶魔的伪装之一。",
@@ -367,7 +367,7 @@
   },
   {
     "id": "youchai",
-    "image": "/scripts/assets/community/78ebf8f72df4a2a01b87cc4912274cfc9439c88aeb796c0a7245050f0809f121.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/78ebf8f72df4a2a01b87cc4912274cfc9439c88aeb796c0a7245050f0809f121.png",
     "edition": "custom",
     "name": "邮差",
     "ability": "每个夜晚，你会得知一个不在场的角色。",
@@ -385,7 +385,7 @@
   },
   {
     "id": "690d917c-9c39-4ef1-85e3-4046734767d0",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -402,7 +402,7 @@
   },
   {
     "id": "aa93704d-e322-4b7c-990a-7d9906d86b8c",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "name": "管家",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
@@ -422,7 +422,7 @@
   },
   {
     "id": "dc0250a7-5d8c-4394-9291-21f1676dc6fW",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "edition": "custom",
     "name": "瘟疫医生（古董）",
     "ability": "当你死亡时，说书人会获得一个不在场爪牙的能力。",
@@ -442,7 +442,7 @@
   },
   {
     "id": "huaibizhe",
-    "image": "/scripts/assets/community/5565e3bd8ad3e265250b63acd8fb22a82d6f96f24df25a7bb1bceb2b5bea885c.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/5565e3bd8ad3e265250b63acd8fb22a82d6f96f24df25a7bb1bceb2b5bea885c.png",
     "edition": "custom",
     "name": "怀璧者",
     "ability": "如果你死于处决，恶魔在当晚可以选择一个角色:如果该角色在场，他死亡。",
@@ -460,7 +460,7 @@
   },
   {
     "id": "mazuishi",
-    "image": "/scripts/assets/community/6de6bd56d88092349847eb3da8c1f91415fc66f025d4bcb74cbae12f45a7d051.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/6de6bd56d88092349847eb3da8c1f91415fc66f025d4bcb74cbae12f45a7d051.png",
     "edition": "custom",
     "name": "麻醉师",
     "ability": "每个夜晚，你要选择一名玩家：他中毒直到你更换选择目标，当你更换选择目标时，如果他还存活他会得知麻醉师在场。",
@@ -480,7 +480,7 @@
   },
   {
     "id": "c3513552-66ae-4f34-9cc6-cc411b2684a7",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -500,7 +500,7 @@
   },
   {
     "id": "yueguangqishi",
-    "image": "/scripts/assets/community/52e5a49c8ce6b8db77b5298196165bcb2c007a30964061b087c25d165708d58b.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/52e5a49c8ce6b8db77b5298196165bcb2c007a30964061b087c25d165708d58b.png",
     "edition": "custom",
     "name": "月光骑士",
     "ability": "每个夜晚*，你可以选择一名玩家（与上个夜晚不同）：当晚首个使用自身能力选择他的善良玩家会立即死亡。",
@@ -519,7 +519,7 @@
   },
   {
     "id": "jiaohuanshi",
-    "image": "/scripts/assets/community/a126b8814bfceb8157bd37099f1d7531221f6d912d8b095c70dd92a2018519fd.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/a126b8814bfceb8157bd37099f1d7531221f6d912d8b095c70dd92a2018519fd.png",
     "edition": "custom",
     "name": "交换师",
     "ability": "在前两天当你第一次死于处决时，你不会死亡，并失去能力。每局游戏限一次，第三晚及以后的每个夜晚，你要选择一名玩家，若他没有收到恶魔角色，他的真假角色秘密互换。",
@@ -535,7 +535,7 @@
   },
   {
     "id": "gaishitaibao",
-    "image": "/scripts/assets/community/62fe847dc45b6c276b438d4e13fdec1a085b97acd5adadc8f761eb250527aff8.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/62fe847dc45b6c276b438d4e13fdec1a085b97acd5adadc8f761eb250527aff8.png",
     "edition": "custom",
     "name": "盖世太保",
     "ability": "每个夜晚，你得知一个在场角色，当你得知过的角色死亡时，如果是善良角色你获得该角色的能力，如果是邪恶角色，你变成该角色。",
@@ -553,7 +553,7 @@
   },
   {
     "id": "yaohu",
-    "image": "/scripts/assets/community/cddf7b3d97bd308c6d1bd277b1d786d9e34427a6b9349b57d6fb202c4b022455.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/cddf7b3d97bd308c6d1bd277b1d786d9e34427a6b9349b57d6fb202c4b022455.png",
     "edition": "custom",
     "name": "妖狐",
     "ability": "首个夜晚，你会得知两名善良玩家。你们三人首次有玩家死于处决时，当晚其中一名善良玩家转变为邪恶阵营，另一名善良玩家得知妖狐在场。",
@@ -573,7 +573,7 @@
   },
   {
     "id": "36c6c6e2-4798-4ee9-858f-7f80d24e19f3",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -593,7 +593,7 @@
   },
   {
     "id": "haidela",
-    "image": "/scripts/assets/community/5139f826aa55211a3c764e0cd4f0ade9d4d9ae461cd5c3656bd9f357fc03e2f3.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/5139f826aa55211a3c764e0cd4f0ade9d4d9ae461cd5c3656bd9f357fc03e2f3.png",
     "edition": "custom",
     "name": "海德拉",
     "ability": "每个夜晚*，你要选择一名玩家:他死亡。如果你在非最后一个白天死于处决，一名善良玩家与一名邪恶玩家会变成海德拉。",
@@ -610,7 +610,7 @@
   },
   {
     "id": "sizhiwo",
-    "image": "/scripts/assets/community/c5bcf28122a4cca9f4dc5dd5deb86bcc36cb9e145880024d66e72c56f810ebca.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/c5bcf28122a4cca9f4dc5dd5deb86bcc36cb9e145880024d66e72c56f810ebca.png",
     "edition": "custom",
     "name": "死之握",
     "ability": "每个夜晚，你要选择一名存活的玩家。如果他在下个夜晚仍然存活，他死亡。否则，与他邻近的存活的善良玩家死亡。",
@@ -628,7 +628,7 @@
   },
   {
     "id": "keerboluosi",
-    "image": "/scripts/assets/community/60ff80da7b001bdd224bcf4950b9aa30297b0e98448f235ef2c7d55e702dfeae.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/60ff80da7b001bdd224bcf4950b9aa30297b0e98448f235ef2c7d55e702dfeae.png",
     "edition": "custom",
     "name": "刻耳帕洛斯",
     "ability": "每个夜晚*， 你要选择一名玩家：他死亡。如果你杀死了邪恶的爪牙，他保留能力，你可以再次行动。",
@@ -652,7 +652,7 @@
     "team": "a jinxed",
     "setup": false,
     "ability": "若真实身份为管家的玩家违反了管家规定，则他无法获胜。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom"
   },
   {
@@ -661,7 +661,7 @@
     "team": "a jinxed",
     "setup": false,
     "ability": "恶魔的身份伪装会被替换为除恶魔外收到的另一个身份。",
-    "image": "/scripts/assets/community/abc2fbf71ec662470a0702590b49eabaebd9f9123ea510a71174574077f29813.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/abc2fbf71ec662470a0702590b49eabaebd9f9123ea510a71174574077f29813.png",
     "edition": "custom"
   },
   {
@@ -670,7 +670,7 @@
     "team": "a jinxed",
     "setup": false,
     "ability": "一名邪恶玩家会代替说书人获得盖世太保的能力。",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "edition": "custom"
   },
   {
@@ -679,7 +679,7 @@
     "team": "a jinxed",
     "setup": false,
     "ability": "一名邪恶玩家会代替说书人获得妖狐的能力。",
-    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "image": "/scripts/assets/community-shuang-chong-ren-ge-09d0e338/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
     "edition": "custom"
   }
 ]

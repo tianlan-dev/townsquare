@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/fae5f4f5344312f81c3294bd663a85ddc5a56f91046d947eab65a999749e1f2e.png",
+    "logo": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/fae5f4f5344312f81c3294bd663a85ddc5a56f91046d947eab65a999749e1f2e.png",
     "name": "横行霸道",
     "townsfolkName": "镇民",
     "author": "Manny",
@@ -13,7 +13,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "djinnbutton",
@@ -43,7 +43,7 @@
     "name_eng": "Alchemist",
     "firstNight": 3,
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png"
   },
   {
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
@@ -60,7 +60,7 @@
     "name_eng": "Sailor",
     "firstNight": 10,
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
   },
   {
     "firstNightReminder": "告诉将军你认为的答案。",
@@ -75,7 +75,7 @@
     "name_eng": "General",
     "firstNight": 49,
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -92,7 +92,7 @@
     "name_eng": "Fortune Teller",
     "firstNight": 37,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -109,11 +109,11 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -144,7 +144,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "",
@@ -161,7 +161,7 @@
     "name_eng": "Fisherman",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以让说书⼈给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
   },
   {
     "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
@@ -178,7 +178,7 @@
     "name_eng": "Huntsman",
     "firstNight": 30,
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png"
   },
   {
     "firstNightReminder": "",
@@ -195,7 +195,7 @@
     "name_eng": "Juggler",
     "firstNight": 0,
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
-    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
   },
   {
     "firstNightReminder": "",
@@ -212,7 +212,7 @@
     "name_eng": "Tea Lady",
     "firstNight": 0,
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
   },
   {
     "firstNightReminder": "不要让恶魔和爪牙相认。",
@@ -229,7 +229,7 @@
     "name_eng": "Poppy Grower",
     "firstNight": 4,
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png"
   },
   {
     "firstNightReminder": "",
@@ -247,11 +247,11 @@
     "name_eng": "Cannibal",
     "firstNight": 0,
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png"
   },
   {
     "id": "wocaishiemo111",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -282,7 +282,7 @@
     "name_eng": "Heretic",
     "firstNight": 0,
     "ability": "对调胜负结果，即使你已死亡。",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png"
   },
   {
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
@@ -299,7 +299,7 @@
     "name_eng": "Damsel",
     "firstNight": 5.2,
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png"
   },
   {
     "firstNightReminder": "",
@@ -314,7 +314,7 @@
     "name_eng": "Politician",
     "firstNight": 0,
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
   },
   {
     "firstNightReminder": "",
@@ -331,7 +331,7 @@
     "name_eng": "Barber",
     "firstNight": 0,
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
   },
   {
     "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
@@ -348,11 +348,11 @@
     "name_eng": "Poisoner",
     "firstNight": 17,
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
   },
   {
     "id": "wushihsihsihsihsihsihsish",
-    "image": "/scripts/assets/community/bdc5e28fc265c3dfa30b9cb0889e3f0ad76345f7effeba815acd3d388c386751.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/bdc5e28fc265c3dfa30b9cb0889e3f0ad76345f7effeba815acd3d388c386751.png",
     "edition": "custom",
     "name": "巫师",
     "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
@@ -383,7 +383,7 @@
     "name_eng": "Fearmonger",
     "firstNight": 26,
     "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
-    "image": "/scripts/assets/community/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png"
   },
   {
     "firstNightReminder": "",
@@ -398,7 +398,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "firstNightReminder": "",
@@ -415,7 +415,7 @@
     "name_eng": "Goblin",
     "firstNight": 0,
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
   },
   {
     "firstNightReminder": "",
@@ -432,7 +432,7 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "firstNightReminder": "寄生蛭指向一名玩家。放置寄生标记，那名玩家中毒。",
@@ -450,11 +450,11 @@
     "name_eng": "Lleech",
     "firstNight": 15,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
   },
   {
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
-    "image": "/scripts/assets/community/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_105",
@@ -470,7 +470,7 @@
   },
   {
     "id": "56786542_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -479,7 +479,7 @@
   },
   {
     "id": "166_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-heng-xing-ba-dao-21a7f252/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&杂耍艺人",
     "team": "a jinxed",
     "setup": false,

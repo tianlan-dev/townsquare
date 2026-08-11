@@ -157,7 +157,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一个数字。在该数字对应的那一个夜晚，你会得知对应数量的在场角色。",
-    "image": "/scripts/assets/community/342b0d1efae5cdffaddbbf1aaad41ab728bdc805a8425e4c630b5fe2f1204c63.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/342b0d1efae5cdffaddbbf1aaad41ab728bdc805a8425e4c630b5fe2f1204c63.png",
     "edition": "custom",
     "flavor": "",
     "id": "fangshi_button",
@@ -181,7 +181,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmer_button",
@@ -198,7 +198,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一个镇民角色：他的能力会产生错误信息，直到下个黄昏。",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
     "edition": "custom",
     "flavor": "",
     "id": "xionghaizi_button",
@@ -217,7 +217,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "flavor": "",
     "id": "dreamer_button",
@@ -234,7 +234,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_button",
@@ -251,7 +251,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_button",
@@ -288,7 +288,7 @@
   },
   {
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "flavor": "",
     "id": "amnesiac_button",
@@ -307,7 +307,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_button",
@@ -326,7 +326,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
-    "image": "/scripts/assets/community/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banshee_button",
@@ -343,7 +343,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
-    "image": "/scripts/assets/community/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhifu_button",
@@ -361,7 +361,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhong_button",
@@ -378,7 +378,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
-    "image": "/scripts/assets/community/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
     "edition": "custom",
     "flavor": "",
     "id": "engineer_button",
@@ -397,7 +397,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "flavor": "",
     "id": "artist_button",
@@ -434,7 +434,7 @@
   },
   {
     "ability": "每个夜晚限一次，所有玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
-    "image": "/scripts/assets/community/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "shijie_button",
@@ -453,7 +453,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_button",
@@ -472,7 +472,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：除首个夜晚以外，当他被邪恶玩家的能力选择或影响时，你会在当晚死亡。",
-    "image": "/scripts/assets/community/f9b1529878fb53df4923cd7c2fcdeb4411f03cacd2f94aaca98b643419ccf687.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/f9b1529878fb53df4923cd7c2fcdeb4411f03cacd2f94aaca98b643419ccf687.png",
     "edition": "custom",
     "flavor": "",
     "id": "shutong_button",
@@ -492,7 +492,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_button",
@@ -512,7 +512,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widow_button",
@@ -533,7 +533,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_button",
@@ -553,7 +553,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-ping-liu-ceng-yi-xia-2a5bf59d/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "flavor": "",
     "id": "witch_button",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "author": "Ekin",
     "name": "杀手往事",
-    "logo": "/scripts/assets/community/ebfb9a76d65f23f369dcece3b26fa5f5aad3aa07293c36fde7c1420d849aad5b.png",
+    "logo": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/ebfb9a76d65f23f369dcece3b26fa5f5aad3aa07293c36fde7c1420d849aad5b.png",
     "firstNight": [
       "dusk",
       "weishenmebushilianjinshushi111",
@@ -60,7 +60,7 @@
   {
     "id": "zz111",
     "name": "镇长",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -71,7 +71,7 @@
   {
     "id": "jiushigebaichi111",
     "name": "村夫",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -87,7 +87,7 @@
   {
     "id": "xitele111",
     "name": "艺术家",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -100,7 +100,7 @@
   {
     "id": "furryhaoye111",
     "name": "半兽人",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -115,7 +115,7 @@
   {
     "id": "shanliangdeniaoer111",
     "name": "守鸦人",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -127,7 +127,7 @@
   {
     "id": "weishenmesenglvjiaomoke111",
     "name": "僧侣",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -141,7 +141,7 @@
   {
     "id": "mofashuijingqiu111",
     "name": "占卜师",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -156,7 +156,7 @@
   {
     "id": "lingluowawa111",
     "name": "女裁缝",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -171,7 +171,7 @@
   {
     "id": "meishayongdeshabi111",
     "name": "小精灵",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -186,7 +186,7 @@
   {
     "id": "meishenmeyongdejuese111",
     "name": "事务官",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -200,7 +200,7 @@
   {
     "id": "wocaishiguowang111",
     "name": "国王",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
@@ -213,7 +213,7 @@
   {
     "id": "changshinanniang111",
     "name": "唱诗男孩",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
@@ -226,7 +226,7 @@
   {
     "id": "shiyizhezhezhezhe",
     "name": "失忆者",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -241,7 +241,7 @@
   {
     "id": "abaaba111",
     "name": "告密者",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "爪牙会在其首个夜晚得知三个伪装。",
@@ -253,7 +253,7 @@
   {
     "id": "zhegeshimonk111",
     "name": "陌客",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -264,7 +264,7 @@
   {
     "id": "woheduolema111",
     "name": "酒鬼",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -282,7 +282,7 @@
   {
     "id": "touduzheeeeeeee111",
     "name": "投毒者",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -297,7 +297,7 @@
   {
     "id": "jiandieeeeeee111",
     "name": "间谍",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
@@ -310,7 +310,7 @@
   {
     "id": "yingyingying111",
     "name": "鹰身女妖",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -326,7 +326,7 @@
   {
     "id": "weishenmebushilianjinshushi111",
     "name": "科学怪人",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "team": "minion",
     "edition": "custom",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -345,7 +345,7 @@
   {
     "id": "waibibaboabbbb1111",
     "name": "牙噶巴卜",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "team": "demon",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
@@ -360,7 +360,7 @@
   {
     "id": "xiaoshabi111111",
     "name": "小怪宝",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -381,7 +381,7 @@
   {
     "id": "35addde2-e27a-4de2-9a9e-df0e78364717",
     "name": "私货商人",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-sha-shou-wang-shi-26d379a3/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "team": "fabled",
     "edition": "custom",
     "ability": "这个剧本包含有自制角色或自制规则。",

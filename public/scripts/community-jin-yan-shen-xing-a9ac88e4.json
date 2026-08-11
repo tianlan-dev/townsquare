@@ -16,7 +16,7 @@
   },
   {
     "id": "guizu",
-    "image": "/scripts/assets/community/5c5cf274a033c98b68e6b1d8dbafe66b3485f66104f5fc0b55538422cc092256.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/5c5cf274a033c98b68e6b1d8dbafe66b3485f66104f5fc0b55538422cc092256.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -31,7 +31,7 @@
   },
   {
     "id": "xionghaizica9ac88e4",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
     "edition": "custom",
     "name": "熊孩子",
     "ability": "每个夜晚，你要选择一个镇民角色：他们的能力会产生错误信息，直到下个黄昏。",
@@ -48,7 +48,7 @@
   },
   {
     "id": "communityb124f5c722ca",
-    "image": "/scripts/assets/community/403a4250e129abe3d79b2b633ae74f1ab2f2de5121e3c1be28c70fc745d1be02.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/403a4250e129abe3d79b2b633ae74f1ab2f2de5121e3c1be28c70fc745d1be02.png",
     "edition": "custom",
     "name": "事务官",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "caifeng",
-    "image": "/scripts/assets/community/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -80,7 +80,7 @@
   },
   {
     "id": "langzhongca9ac88e4",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "name": "郎中",
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -94,7 +94,7 @@
   },
   {
     "id": "xianzhe",
-    "image": "/scripts/assets/community/1724a7369a2d2c8128a22a647c5b7d4f4797bd33fb6c9f23fd5631030bb6d611.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/1724a7369a2d2c8128a22a647c5b7d4f4797bd33fb6c9f23fd5631030bb6d611.png",
     "edition": "custom",
     "name": "贤者",
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
@@ -109,7 +109,7 @@
   },
   {
     "id": "zhanbu",
-    "image": "/scripts/assets/community/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -125,7 +125,7 @@
   },
   {
     "id": "shengnv",
-    "image": "/scripts/assets/community/af771fdf931c73759cbc526e63a48fc918735d5a668e00891f7777b289af5e78.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/af771fdf931c73759cbc526e63a48fc918735d5a668e00891f7777b289af5e78.png",
     "edition": "custom",
     "name": "贞洁者",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -142,7 +142,7 @@
   },
   {
     "id": "gonggao",
-    "image": "/scripts/assets/community/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "gezi",
-    "image": "/scripts/assets/community/fc822a47fe9a845bb88d27a46de71e72edea2ad64dda66d6aae370265d3ff6c7.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/fc822a47fe9a845bb88d27a46de71e72edea2ad64dda66d6aae370265d3ff6c7.png",
     "edition": "custom",
     "name": "和平主义者",
     "ability": "被处决的善良玩家可能不会死亡。",
@@ -175,7 +175,7 @@
   },
   {
     "id": "wawa",
-    "image": "/scripts/assets/community/20a7af7c5b4f3905d055b49057c00ca9e383a90687b8927c8ba8248b0c6d964f.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/20a7af7c5b4f3905d055b49057c00ca9e383a90687b8927c8ba8248b0c6d964f.png",
     "edition": "custom",
     "name": "送葬者",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -190,7 +190,7 @@
   },
   {
     "id": "nongchen",
-    "image": "/scripts/assets/community/a0787df736e2d9dbc117556ab64983f818e2b70b4889060950ae8312be2199a8.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/a0787df736e2d9dbc117556ab64983f818e2b70b4889060950ae8312be2199a8.png",
     "edition": "custom",
     "name": "弄臣",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "senglv",
-    "image": "/scripts/assets/community/90ee61d0fb21c257cf08ea8f6b63116a1e19da9f616f3a836d6e21f6beb9aba8.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/90ee61d0fb21c257cf08ea8f6b63116a1e19da9f616f3a836d6e21f6beb9aba8.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "gaomizhe",
-    "image": "/scripts/assets/community/9261bacf7bc46daaa72aa5dc0e3957c156f10ebb6687483ca46c2d1e8e54acce.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/9261bacf7bc46daaa72aa5dc0e3957c156f10ebb6687483ca46c2d1e8e54acce.png",
     "edition": "custom",
     "name": "告密者",
     "ability": "爪牙会在其首个夜晚得知三个不在场的善良角色。",
@@ -239,7 +239,7 @@
   },
   {
     "id": "jixingxiu",
-    "image": "/scripts/assets/community/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -254,7 +254,7 @@
   },
   {
     "id": "jiugui",
-    "image": "/scripts/assets/community/ee3e84103e72a9ee927d5df782490b27f1d674cd077ef20082a24dd92103cc7a.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/ee3e84103e72a9ee927d5df782490b27f1d674cd077ef20082a24dd92103cc7a.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "lifashi",
-    "image": "/scripts/assets/community/1d226fc7b846efc6fb108e9c1ce5c4beebe3884f9c1434acbc401cf1f2116c8b.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/1d226fc7b846efc6fb108e9c1ce5c4beebe3884f9c1434acbc401cf1f2116c8b.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -289,7 +289,7 @@
   },
   {
     "id": "jinweijunca9ac88e4",
-    "image": "/scripts/assets/community/be555c63a986c8f0f356d68ac132e04d372beb1f580c16d0dee1781adc4a292b.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/be555c63a986c8f0f356d68ac132e04d372beb1f580c16d0dee1781adc4a292b.png",
     "edition": "custom",
     "name": "禁卫军",
     "ability": "在你的首个夜晚，你要选择存活或死亡。“疯狂”地想要这样做的玩家可能会立即被处决。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "ganshirenca9ac88e4",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -322,7 +322,7 @@
   },
   {
     "id": "modai",
-    "image": "/scripts/assets/community/d24b125d0e3cb7005441fdef3a498a9a771ce2e54a741f4fd341a3eda264cdbf.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/d24b125d0e3cb7005441fdef3a498a9a771ce2e54a741f4fd341a3eda264cdbf.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -339,7 +339,7 @@
   },
   {
     "id": "tixianmuou",
-    "image": "/scripts/assets/community/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/96d43c9b1d10f914c3f6eb79ba55a7c5f7e5c228ff57d3fc3d0a254d30375744.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -355,7 +355,7 @@
   },
   {
     "id": "xintaowu",
-    "image": "/scripts/assets/community/6df940fed67c5a306fdc2bef928049c288c90805e8028b3bc6e0810a763215c5.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/6df940fed67c5a306fdc2bef928049c288c90805e8028b3bc6e0810a763215c5.png",
     "edition": "custom",
     "name": "梼杌",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
@@ -371,7 +371,7 @@
   },
   {
     "id": "xiaoemo",
-    "image": "/scripts/assets/community/b965228773f94b4cd776ffd71ba11912b5ad5546530f936622086ec2593db54b.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/b965228773f94b4cd776ffd71ba11912b5ad5546530f936622086ec2593db54b.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -388,7 +388,7 @@
   },
   {
     "id": "xinhundun",
-    "image": "/scripts/assets/community/fd7cea50116292c089a1c7727ec07604066792a9e17f842fcdbfe3b2ad55d509.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/fd7cea50116292c089a1c7727ec07604066792a9e17f842fcdbfe3b2ad55d509.png",
     "edition": "custom",
     "name": "混沌",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
@@ -405,7 +405,7 @@
   },
   {
     "id": "woliu",
-    "image": "/scripts/assets/community/6ec3050afcf7e4e05b8f039efb10975ce4d6ee5c198c4960f2b8c65320a5babc.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/6ec3050afcf7e4e05b8f039efb10975ce4d6ee5c198c4960f2b8c65320a5babc.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -422,7 +422,7 @@
   },
   {
     "id": "1_meta",
-    "image": "/scripts/assets/community/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
+    "image": "/scripts/assets/community-jin-yan-shen-xing-a9ac88e4/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
     "name": "告密者 & 提线木偶",
     "team": "a jinxed",
     "sch_team": "相克",

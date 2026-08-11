@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "白昼为市",
     "author": "寒水",
-    "logo": "/scripts/assets/community/2e3f3fbca796001e5727072452a2c2bed629dd49ee8ce8a07a14725e7eb60617.png",
+    "logo": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/2e3f3fbca796001e5727072452a2c2bed629dd49ee8ce8a07a14725e7eb60617.png",
     "townsfolkName": "镇民",
     "tags": [
       "山雨欲来体验剧本"
@@ -25,7 +25,7 @@
     "name_eng": "Noble",
     "firstNight": 3043,
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png"
   },
   {
     "firstNightReminder": "",
@@ -42,11 +42,11 @@
     "name_eng": "Fisherman",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以让说书⼈给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
   },
   {
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家:如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daokec4fd84de2",
@@ -79,11 +79,11 @@
     "name_eng": "Slayer",
     "firstNight": 0,
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/2c3022d74971124ce152693cd8194dd1a5965f9c1242780b261239307df37245.png",
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/2c3022d74971124ce152693cd8194dd1a5965f9c1242780b261239307df37245.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbic4fd84de2",
@@ -103,7 +103,7 @@
   },
   {
     "ability": "如果你未“疯狂”地阻止你的阵营在巨大优势下获胜，你落败，即使你已死亡。",
-    "image": "/scripts/assets/community/c9340534fdaa6e0dc7483c78ad70a73263dd293cc1252a6397d2ac3d73de818a.png",
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/c9340534fdaa6e0dc7483c78ad70a73263dd293cc1252a6397d2ac3d73de818a.png",
     "edition": "custom",
     "flavor": "",
     "id": "chiren",
@@ -133,7 +133,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png"
   },
   {
     "firstNightReminder": "",
@@ -148,7 +148,7 @@
     "name_eng": "Oracle",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -164,7 +164,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 3035,
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
   },
   {
     "firstNightReminder": "",
@@ -179,7 +179,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
@@ -196,7 +196,7 @@
     "name_eng": "Fortune Teller",
     "firstNight": 3037,
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
@@ -214,7 +214,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
   },
   {
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
@@ -232,7 +232,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png"
   },
   {
     "firstNightReminder": "",
@@ -247,7 +247,7 @@
     "name_eng": "Atheist",
     "firstNight": 0,
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png"
   },
   {
     "firstNightReminder": "",
@@ -265,7 +265,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -280,7 +280,7 @@
     "name_eng": "Recluse",
     "firstNight": 0,
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png"
   },
   {
     "firstNightReminder": "",
@@ -297,7 +297,7 @@
     "name_eng": "Golem",
     "firstNight": 0,
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png"
   },
   {
     "ability": "每个夜晚，你要选择左或右：将你的飞行标记从当前位置移动到这个方向上的下一名存活善良玩家。他中毒且可能被当作邪恶阵营和爪牙角色，你会知道他原本的角色。",
@@ -315,7 +315,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 3017,
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
   },
   {
     "firstNightReminder": "告诉灵言师他的秘密词语。",
@@ -333,7 +333,7 @@
     "name_eng": "Mezepheles",
     "firstNight": 3027,
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png"
   },
   {
     "firstNightReminder": "",
@@ -351,7 +351,7 @@
     "name_eng": "Scarlet Woman",
     "firstNight": 0,
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
   },
   {
     "firstNightReminder": "",
@@ -366,7 +366,7 @@
     "name_eng": "Psychopath",
     "firstNight": 0,
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
@@ -384,7 +384,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
   },
   {
     "firstNightReminder": "",
@@ -401,11 +401,11 @@
     "name_eng": "Imp",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/0e3f6b18766bde05af36a9c1e712c78981ffee34a5bcdd94ab39860ab85ba482.png",
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/0e3f6b18766bde05af36a9c1e712c78981ffee34a5bcdd94ab39860ab85ba482.png",
     "edition": "custom",
     "flavor": "",
     "id": "kazhalibutton",
@@ -437,6 +437,6 @@
     ],
     "remindersGlobal": [],
     "team": "demon",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png"
+    "image": "/scripts/assets/community-bai-zhou-wei-shi-4fd84de2/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png"
   }
 ]

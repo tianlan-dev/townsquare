@@ -36,7 +36,7 @@
   },
   {
     "id": "_jianxianshen",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -48,7 +48,7 @@
   },
   {
     "id": "1_jianxianshen",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -60,7 +60,7 @@
   },
   {
     "id": "2_jianxianshen",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -74,7 +74,7 @@
   },
   {
     "id": "3_jianxianshen",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -82,7 +82,7 @@
   },
   {
     "id": "4_jianxianshen",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "firstNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "otherNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "name": "将军",
@@ -94,7 +94,7 @@
   },
   {
     "id": "5_jianxianshen",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
     "firstNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
     "otherNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
     "name": "异教领袖",
@@ -106,7 +106,7 @@
   },
   {
     "id": "6_jianxianshen",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "reminders": [
       "失去能力"
     ],
@@ -117,7 +117,7 @@
   },
   {
     "id": "7_jianxianshen",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "reminders": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "8_jianxianshen",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "firstNightReminder": "如果国王在场，对恶魔展示国王角色标记并指向国王玩家。",
     "otherNightReminder": "如果满足国王的唤醒条件，唤醒国王，对他展示一个存活的角色标记。",
     "name": "国王",
@@ -145,7 +145,7 @@
   },
   {
     "id": "9_jianxianshen",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "firstNightReminder": "如果罂粟种植者在场，跳过今晚的爪牙信息和恶魔信息环节。",
     "otherNightReminder": "如果罂粟种植者死于白天，插入执行爪牙信息和恶魔信息（不包含恶魔伪装）流程。如果罂粟种植者死于夜晚，则在当前玩家行动结束后立即执行相关流程。",
     "reminders": [
@@ -160,7 +160,7 @@
   },
   {
     "id": "10_jianxianshen",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "firstNightReminder": "唤醒女祭司，对她指向一名玩家。",
     "otherNightReminder": "唤醒女祭司，对她指向一名玩家。",
     "name": "女祭司",
@@ -172,7 +172,7 @@
   },
   {
     "id": "11_jianxianshen",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "reminders": [
@@ -188,7 +188,7 @@
   },
   {
     "id": "12_jianxianshen",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -211,7 +211,7 @@
   },
   {
     "id": "14_jianxianshen",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -224,7 +224,7 @@
   },
   {
     "id": "15_jianxianshen",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -243,7 +243,7 @@
   },
   {
     "id": "16_jianxianshen",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
     "reminders": [
       "已被猜测"
@@ -256,7 +256,7 @@
   },
   {
     "id": "17_jianxianshen",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "reminders": [
       "无法提名"
     ],
@@ -267,7 +267,7 @@
   },
   {
     "id": "18_jianxianshen",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -282,7 +282,7 @@
   },
   {
     "id": "19_jianxianshen",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -299,7 +299,7 @@
   },
   {
     "id": "20_jianxianshen",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "reminders": [
       "已宣称"
     ],
@@ -310,7 +310,7 @@
   },
   {
     "id": "21_jianxianshen",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -324,7 +324,7 @@
   },
   {
     "id": "22_jianxianshen",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "firstNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。",
     "otherNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。随后，决定今晚谁会因为小怪宝能力死亡。",
     "remindersGlobal": [
@@ -341,7 +341,7 @@
   },
   {
     "id": "23_jianxianshen",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-jian-xi-ai-shen-345d5338/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
     "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
     "reminders": [

@@ -11,7 +11,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noblebutton",
@@ -41,11 +41,11 @@
     "name_eng": "Pagan",
     "firstNight": 26,
     "ability": "如果异端分子在场，所有其他善良镇民变为异教徒，并且得知邪恶玩家是谁及他们的角色。[+异端分子或-1外来者]",
-    "image": "/scripts/assets/community/d832d28611b8c5d07397f414adbd213b3236f586ba288138ed5d2999f4f32df4.png"
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/d832d28611b8c5d07397f414adbd213b3236f586ba288138ed5d2999f4f32df4.png"
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "flavor": "",
     "id": "klutzbutton",
@@ -62,7 +62,7 @@
   },
   {
     "ability": "对调胜负结果，即使你已死亡。",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "flavor": "",
     "id": "hereticbutton",
@@ -79,7 +79,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkbutton",
@@ -98,7 +98,7 @@
   },
   {
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "damselbutton",
@@ -117,7 +117,7 @@
   },
   {
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "flavor": "",
     "id": "psychopathbutton",
@@ -136,7 +136,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "flavor": "",
     "id": "yaggababblebutton",
@@ -155,7 +155,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "flavor": "",
     "id": "al-hadikhiabutton",
@@ -178,7 +178,7 @@
   },
   {
     "ability": "所有镇民都是贵族；或所有镇民都是异教徒。会有额外一名善良的精神病患者在场。恶魔知道谁是善良的精神病患者。",
-    "image": "/scripts/assets/community/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
+    "image": "/scripts/assets/community-fu-tou-bang-ji-he-3be9c7f4/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20723_8081",

@@ -11,7 +11,7 @@
   },
   {
     "id": "chef0",
-    "image": "/scripts/assets/community/2000cae63e84ad7fd2e13e585ca750cac3fb2090a066029f40182bcc2927f293.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/2000cae63e84ad7fd2e13e585ca750cac3fb2090a066029f40182bcc2927f293.png",
     "name": "厨师",
     "team": "townsfolk",
     "firstNight": 7,
@@ -23,7 +23,7 @@
   },
   {
     "id": "yinluren0",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "name": "引路人",
     "team": "townsfolk",
     "firstNight": 9,
@@ -35,7 +35,7 @@
   },
   {
     "id": "towncrier0",
-    "image": "/scripts/assets/community/a1fb313c2dd77b3ba241701d7fba5d3c17d5343fc770466eb0143faec2f077e4.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/a1fb313c2dd77b3ba241701d7fba5d3c17d5343fc770466eb0143faec2f077e4.png",
     "name": "城镇公告员",
     "team": "townsfolk",
     "firstNight": 0,
@@ -50,7 +50,7 @@
   },
   {
     "id": "daoshi0",
-    "image": "/scripts/assets/community/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
     "name": "道士",
     "team": "townsfolk",
     "firstNight": 0,
@@ -64,7 +64,7 @@
   },
   {
     "id": "oracle0",
-    "image": "/scripts/assets/community/e4c4c0909b71b52db65cc5b2bd2644647d0911f59d5053b39ae8170df69b79e9.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/e4c4c0909b71b52db65cc5b2bd2644647d0911f59d5053b39ae8170df69b79e9.png",
     "name": "神谕者",
     "team": "townsfolk",
     "firstNight": 0,
@@ -76,7 +76,7 @@
   },
   {
     "id": "monk0",
-    "image": "/scripts/assets/community/378767d0df3ee2d49138e0e263b4ce5c175c1bf661cdfa765780d4f6862b36fb.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/378767d0df3ee2d49138e0e263b4ce5c175c1bf661cdfa765780d4f6862b36fb.png",
     "name": "僧侣",
     "team": "townsfolk",
     "firstNight": 0,
@@ -90,7 +90,7 @@
   },
   {
     "id": "wushiren0",
-    "image": "/scripts/assets/community/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png",
     "name": "舞狮人",
     "team": "townsfolk",
     "firstNight": 0,
@@ -131,7 +131,7 @@
   },
   {
     "id": "juggler0",
-    "image": "/scripts/assets/community/181a0eb0c8efaa05f9eb73665db38ea4a2e9832725a1cb89d69ea3512bec6a25.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/181a0eb0c8efaa05f9eb73665db38ea4a2e9832725a1cb89d69ea3512bec6a25.png",
     "name": "杂耍艺人",
     "team": "townsfolk",
     "firstNight": 0,
@@ -145,7 +145,7 @@
   },
   {
     "id": "seamstress0",
-    "image": "/scripts/assets/community/159d6937ae1efc086ca967814b74dfb688b1bbde3fddcd640c21ebe78c25a9d5.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/159d6937ae1efc086ca967814b74dfb688b1bbde3fddcd640c21ebe78c25a9d5.png",
     "name": "女裁缝",
     "team": "townsfolk",
     "firstNight": 8,
@@ -159,7 +159,7 @@
   },
   {
     "id": "artist0",
-    "image": "/scripts/assets/community/12cabe6201283e1c524b7ee6fe87c9fd3c320a5140518955f94a1273a3bbafdb.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/12cabe6201283e1c524b7ee6fe87c9fd3c320a5140518955f94a1273a3bbafdb.png",
     "name": "艺术家",
     "team": "townsfolk",
     "firstNight": 0,
@@ -173,7 +173,7 @@
   },
   {
     "id": "ravenkeeper0",
-    "image": "/scripts/assets/community/7d95e1201579f9f62683a79fdce2c06cbb510292b8ea72cd3166c61874fdaa38.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/7d95e1201579f9f62683a79fdce2c06cbb510292b8ea72cd3166c61874fdaa38.png",
     "name": "守鸦人",
     "team": "townsfolk",
     "firstNight": 0,
@@ -198,7 +198,7 @@
   },
   {
     "id": "barber0",
-    "image": "/scripts/assets/community/0b88340ef729bec6d1d25fc88cf595c4d64b0e757764d5354d799348fa183b1b.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/0b88340ef729bec6d1d25fc88cf595c4d64b0e757764d5354d799348fa183b1b.png",
     "name": "理发师",
     "team": "outsider",
     "firstNight": 0,
@@ -212,7 +212,7 @@
   },
   {
     "id": "klutz0",
-    "image": "/scripts/assets/community/29a9139720dc922c11898c6a13c59bd7c017168af3d1f22619b91a7e1cafdaaa.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/29a9139720dc922c11898c6a13c59bd7c017168af3d1f22619b91a7e1cafdaaa.png",
     "name": "呆瓜",
     "team": "outsider",
     "firstNight": 0,
@@ -224,7 +224,7 @@
   },
   {
     "id": "shusheng0",
-    "image": "/scripts/assets/community/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
     "name": "书生",
     "team": "outsider",
     "firstNight": 0,
@@ -240,7 +240,7 @@
   },
   {
     "id": "niangjiushi0",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "name": "酿酒师",
     "team": "minion",
     "firstNight": 5,
@@ -254,7 +254,7 @@
   },
   {
     "id": "eviltwin0",
-    "image": "/scripts/assets/community/e420d5098f543a372c64093efa3056ba4cf7581bae075c9935468f3df76a6ed8.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/e420d5098f543a372c64093efa3056ba4cf7581bae075c9935468f3df76a6ed8.png",
     "name": "镜像双子",
     "team": "minion",
     "firstNight": 6,
@@ -268,7 +268,7 @@
   },
   {
     "id": "organgrinder0",
-    "image": "/scripts/assets/community/365eb7b8474424d068c8f0b1d5a40e42d5d7c34ae31e14c2b9cd41e7632c705d.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/365eb7b8474424d068c8f0b1d5a40e42d5d7c34ae31e14c2b9cd41e7632c705d.png",
     "name": "街头风琴手",
     "team": "minion",
     "firstNight": 0,
@@ -282,7 +282,7 @@
   },
   {
     "id": "shimengwawa0",
-    "image": "/scripts/assets/community/b0ab8b3d77774f9391023523af21e5f72a1f2abbe635d296d72530502cd5dcef.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/b0ab8b3d77774f9391023523af21e5f72a1f2abbe635d296d72530502cd5dcef.png",
     "name": "噬梦娃娃",
     "team": "minion",
     "firstNight": 4,
@@ -296,7 +296,7 @@
   },
   {
     "id": "lilmonsta0",
-    "image": "/scripts/assets/community/17ff1f5cbb02f37d1744b01418db77e1ba23ce8144b25c386ec7c20cef9a52e0.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/17ff1f5cbb02f37d1744b01418db77e1ba23ce8144b25c386ec7c20cef9a52e0.png",
     "name": "小怪宝",
     "team": "demon",
     "firstNight": 3,
@@ -311,7 +311,7 @@
   },
   {
     "id": "lilith0",
-    "image": "/scripts/assets/community/7bec6f41a865118e412cd1aafb2294a5b77854a835ee19300a9486272edf79e8.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/7bec6f41a865118e412cd1aafb2294a5b77854a835ee19300a9486272edf79e8.png",
     "name": "莉莉丝",
     "team": "demon",
     "firstNight": 2,
@@ -326,7 +326,7 @@
   },
   {
     "id": "fanggu0",
-    "image": "/scripts/assets/community/ca546cfa807705066f596e0a501b670d06c7cf44fc121dbcdfc3f17d85e75f4f.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/ca546cfa807705066f596e0a501b670d06c7cf44fc121dbcdfc3f17d85e75f4f.png",
     "name": "方古",
     "team": "demon",
     "firstNight": 0,
@@ -341,7 +341,7 @@
   },
   {
     "id": "lleech0",
-    "image": "/scripts/assets/community/bf966f5f86d848df3e739c32d4adac8e8c7751076e60466144213f2b753b0138.png",
+    "image": "/scripts/assets/community-ming-shi-an-mou-c975b3da/bf966f5f86d848df3e739c32d4adac8e8c7751076e60466144213f2b753b0138.png",
     "name": "痢蛭",
     "team": "demon",
     "firstNight": 1,

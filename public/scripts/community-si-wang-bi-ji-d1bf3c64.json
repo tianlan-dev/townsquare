@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "死亡笔记",
     "author": "PROVIDENCE",
-    "logo": "/scripts/assets/community/286729a523302e76eb9cd4121525c85aa2c48ac99fc5cb0342bd1ed932336ab2.webp",
+    "logo": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/286729a523302e76eb9cd4121525c85aa2c48ac99fc5cb0342bd1ed932336ab2.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -35,7 +35,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -52,7 +52,7 @@
   },
   {
     "id": "wocaishichushen111",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "name": "厨师",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -66,7 +66,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -83,7 +83,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -97,7 +97,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -119,7 +119,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -135,7 +135,7 @@
   },
   {
     "id": "zhengdanideyanjing111",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -149,7 +149,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -166,7 +166,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -182,7 +182,7 @@
   },
   {
     "id": "wobuzhidaoxieshale111",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
     "edition": "custom",
     "name": "异教领袖",
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
@@ -196,7 +196,7 @@
   },
   {
     "id": "biubiubiu111",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "name": "猎手",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
@@ -212,7 +212,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
@@ -227,7 +227,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -244,7 +244,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -261,7 +261,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -277,7 +277,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "zabusini111",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "name": "魔像",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
@@ -309,7 +309,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -326,7 +326,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -340,7 +340,7 @@
   },
   {
     "id": "noita111",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -356,7 +356,7 @@
   },
   {
     "id": "tiehuaibi11111",
-    "image": "/scripts/assets/community/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/16125299a7cd3218549a530aaea5925b7b4a16d0d5e342627721bfaf4d87b548.png",
     "edition": "custom",
     "name": "维齐尔",
     "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
@@ -367,7 +367,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -383,7 +383,7 @@
   },
   {
     "id": "haliluya111",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "name": "哈迪寂亚",
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
@@ -403,7 +403,7 @@
   },
   {
     "id": "woliuliuliu111",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -419,7 +419,7 @@
   },
   {
     "id": "kakakakkakakakakakakakaakakak111",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -435,7 +435,7 @@
   },
   {
     "id": "sishenzhiyan",
-    "image": "/scripts/assets/community/388bad0c5163c3f8bbed6c207869aa0401ede848a60bb2c4b4a524c79274ce55.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/388bad0c5163c3f8bbed6c207869aa0401ede848a60bb2c4b4a524c79274ce55.png",
     "name": "MISAMISA的死神之眼",
     "team": "fabled",
     "ability": "游戏开始时，玩具匠会加入游戏。恶魔可以在其首个夜晚查看魔典；如果恶魔没有查看魔典，移除玩具匠。",
@@ -443,7 +443,7 @@
   },
   {
     "ability": "恶魔可以放弃攻击(需至少一次)。邪恶玩家照常获取初始信息",
-    "image": "/scripts/assets/community/47cfae065e50e126e146f27f242658d5246c3c0438f983ed10be5c3d917614e1.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/47cfae065e50e126e146f27f242658d5246c3c0438f983ed10be5c3d917614e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "toymaker_button",
@@ -461,7 +461,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -477,7 +477,7 @@
   },
   {
     "id": "38_meta",
-    "image": "/scripts/assets/community/c68b2c3054516a09e67316b071cc2d4592f82aee5392e09e376fc4280cf9e111.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/c68b2c3054516a09e67316b071cc2d4592f82aee5392e09e376fc4280cf9e111.png",
     "name": "维齐尔&调查员",
     "team": "a jinxed",
     "setup": false,
@@ -486,7 +486,7 @@
   },
   {
     "id": "59_meta",
-    "image": "/scripts/assets/community/c7fbbeef6206c7f08f52d8397324bf4da71823a5299215687d81ca0e946db4f7.png",
+    "image": "/scripts/assets/community-si-wang-bi-ji-d1bf3c64/c7fbbeef6206c7f08f52d8397324bf4da71823a5299215687d81ca0e946db4f7.png",
     "name": "哈迪寂亚&红唇女郎",
     "team": "a jinxed",
     "setup": false,

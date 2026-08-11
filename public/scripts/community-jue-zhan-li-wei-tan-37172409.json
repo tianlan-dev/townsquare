@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "决战利维坦",
     "author": "张顺风",
-    "logo": "/scripts/assets/community/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
+    "logo": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
     "a jinxedName": "相克",
     "a jinxed": "相克",
     "description": "测试",
@@ -22,7 +22,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -50,7 +50,7 @@
     "name_eng": "QiaoFu_Duck",
     "ability": "每个夜晚，你会得知一个角色，并且会得知该角色是否在场。",
     "flavor": "",
-    "image": "/scripts/assets/community/db8e9e970dda3dae0273281cc44a4d79b817333aceafac593ae7104b89ceb6bf.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/db8e9e970dda3dae0273281cc44a4d79b817333aceafac593ae7104b89ceb6bf.png",
     "setup": false
   },
   {
@@ -65,12 +65,12 @@
     "otherNightReminder": "唤醒提夫林，让他选择一名与他距离大于1的存活玩家，告诉他在他的顺时针方向上，他与该玩家之间有多少名邪恶玩家。如果他选择的那名玩家是邪恶玩家，告诉他错误的信息。",
     "reminders": [],
     "setup": false,
-    "image": "/scripts/assets/community/d7c02101aae716d70666ac97688bd40af902ee6d79e3ee76ed303263939fdab9.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/d7c02101aae716d70666ac97688bd40af902ee6d79e3ee76ed303263939fdab9.png",
     "edition": "custom"
   },
   {
     "ability": "每个白天，你可以私下询问说书人并得知一条正确信息。如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1或-0外来者]",
-    "image": "/scripts/assets/community/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
     "edition": "custom",
     "flavor": "",
     "id": "oc1",
@@ -89,7 +89,7 @@
   },
   {
     "id": "maxituan_9",
-    "image": "/scripts/assets/community/3f7f63706fb18403b66e8cbec0034b4a11218190b2d6e83cb67b2a3a89d4aa8c.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/3f7f63706fb18403b66e8cbec0034b4a11218190b2d6e83cb67b2a3a89d4aa8c.png",
     "edition": "custom",
     "name": "空中飞人",
     "ability": "你死亡的当晚会被唤醒并得知所有角色类型的玩家各一名（旅行者除外）。如果你死于善良玩家的提名或能力，你会获得错误的信息。",
@@ -117,7 +117,7 @@
   },
   {
     "id": "jianghu_daming",
-    "image": "/scripts/assets/community/aa059b57012e1dc33dee8e78a20735d87b7105708be65c2608f9750f21feb68f.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/aa059b57012e1dc33dee8e78a20735d87b7105708be65c2608f9750f21feb68f.png",
     "edition": "custom",
     "name": "大名",
     "ability": "每个夜晚，你会得知恶魔左边或右边一名玩家的阵营（每晚得知对应方向的下一名玩家）。",
@@ -134,7 +134,7 @@
   },
   {
     "id": "hudengjiang",
-    "image": "/scripts/assets/community/da5b49bb74805091422d6e8e30a9524eac04658856b247c584647b5f17181f72.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/da5b49bb74805091422d6e8e30a9524eac04658856b247c584647b5f17181f72.png",
     "edition": "custom",
     "name": "糊灯匠",
     "ability": "每个夜晚，你会得知离你最远的存活玩家（或之一）是否有爪牙。如果与你邻近的存活玩家中有邪恶玩家，你会得知错误信息。",
@@ -164,7 +164,7 @@
   },
   {
     "id": "jijianshou",
-    "image": "/scripts/assets/community/e51e73a6250f26749c67164d0b6d54fbee11fda83b4f186dc85aef0a43fcf966.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/e51e73a6250f26749c67164d0b6d54fbee11fda83b4f186dc85aef0a43fcf966.png",
     "edition": "custom",
     "name": "击剑手",
     "ability": "每个夜晚*，你要选择一名玩家：首个被你选中的爪牙死亡并保留能力，即使你已死亡。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "3_darkage",
-    "image": "/scripts/assets/community/0d27b577f060830040505786c41fea926344eb526d0641c50aeb481b1e1f1aba.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/0d27b577f060830040505786c41fea926344eb526d0641c50aeb481b1e1f1aba.png",
     "otherNightReminder": "选择一名玩家和一个角色类型",
     "reminders": [
       "死亡"
@@ -194,7 +194,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：如果他的邻座有且只有一名邪恶玩家，且他不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
     "edition": "custom",
     "flavor": "",
     "id": "hunter",
@@ -211,7 +211,7 @@
   },
   {
     "id": "zhanghua",
-    "image": "/scripts/assets/community/802b84c73d8779c5ef68d3c2df39c26dc12071c65e7740643a9fc7658ec351f0.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/802b84c73d8779c5ef68d3c2df39c26dc12071c65e7740643a9fc7658ec351f0.png",
     "edition": "custom",
     "name": "弼昏剑圣",
     "ability": "每个夜晚*（每有一名死亡邪恶玩家你依次失去一项能力），①你可以选择一名玩家，如果你和他最近距离间存活玩家的角色类型数为二，他死亡；②你不会死于善良玩家的能力；③你死亡。",
@@ -231,7 +231,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -248,7 +248,7 @@
   },
   {
     "id": "daibi111",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -263,7 +263,7 @@
   },
   {
     "ability": "你在你的第四个夜晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/71bd43c6becbac7e60855875e49b9eeba0666b059e47c33b27063d2ea9ffe1ac.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/71bd43c6becbac7e60855875e49b9eeba0666b059e47c33b27063d2ea9ffe1ac.png",
     "edition": "custom",
     "flavor": "",
     "id": "20827_8701",
@@ -284,7 +284,7 @@
   },
   {
     "id": "15_darkage",
-    "image": "/scripts/assets/community/5f33c33fe49eefc690417785e05fc7159abc55f59275d4693337df5b2851235b.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/5f33c33fe49eefc690417785e05fc7159abc55f59275d4693337df5b2851235b.png",
     "otherNightReminder": "死亡",
     "remindersGlobal": [
       "心魔附身",
@@ -298,7 +298,7 @@
   },
   {
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Amaniti",
@@ -316,7 +316,7 @@
   },
   {
     "id": "pkx",
-    "image": "/scripts/assets/community/3d76a8f07637eb40c1e7473c371c32aa4e921ed4d613a7a45578b73828dd874d.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/3d76a8f07637eb40c1e7473c371c32aa4e921ed4d613a7a45578b73828dd874d.png",
     "edition": "custom",
     "name": "皮克希",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个非恶魔角色：他死亡，如果该角色不在场，你要再选择一名玩家：他变成该角色。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "jianghu_feitouman",
-    "image": "/scripts/assets/community/78c2ea949632064c0e14f92ac5a8839c357a77a2b20c2be0393a0c829469a3e7.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/78c2ea949632064c0e14f92ac5a8839c357a77a2b20c2be0393a0c829469a3e7.png",
     "edition": "custom",
     "name": "飞头蛮",
     "ability": "每个夜晚*，你的头颅会飞到你左侧下一名存活镇民身上：他中毒。每局游戏限一次，在夜晚时*，你可以收回头颅，头颅目前所在的玩家死亡，然后你失去能力。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "hlst",
-    "image": "/scripts/assets/community/51c400483e1cedc39d90ed2f4b1150871270fca42f0c65cca139315798c0d03c.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/51c400483e1cedc39d90ed2f4b1150871270fca42f0c65cca139315798c0d03c.png",
     "edition": "custom",
     "name": "骇浪使徒",
     "ability": "如果一名初始邪恶玩家在你存活时因处决外的原因死亡，你和他交换角色。如果那名玩家是你，改为恶魔的自动获胜天数提前一天（所有玩家都会知道此事）。[+1外来者]",
@@ -370,7 +370,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/335e07f285c1b19aa799cd317775b80095792a97914ce23b036ee9eba1d28bc6.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/335e07f285c1b19aa799cd317775b80095792a97914ce23b036ee9eba1d28bc6.png",
     "edition": "custom",
     "name": "中流柱石",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个效果（与上一次不同）和一名玩家：①你拥有他的能力直到下个黄昏；②他失去能力直到下个黄昏；③此后他会成为你①②项的额外目标。非镇民玩家死亡的当晚，你可以再次使用此能力。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "shenhaijuyao111",
-    "image": "/scripts/assets/community/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
     "edition": "custom",
     "name": "利维坦",
     "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
@@ -411,7 +411,7 @@
   },
   {
     "id": "54_meta",
-    "image": "/scripts/assets/community/302487175b72a8f61a6d1008420dfafe4760ee7798f40ff82e8863cd28ce266b.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/302487175b72a8f61a6d1008420dfafe4760ee7798f40ff82e8863cd28ce266b.png",
     "name": "利维坦&空中飞人",
     "team": "a jinxed",
     "setup": false,
@@ -420,7 +420,7 @@
   },
   {
     "id": "bt",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "name": "利维坦的角斗场",
     "ability": "在游戏的前两个白天，提名阶段改为决斗阶段。玩家可以向另一名玩家发起决斗，输掉决斗的玩家之一会在当晚死亡。如果出现平局，他们重新决斗。",
     "team": "fabled",
@@ -431,7 +431,7 @@
   },
   {
     "id": "b",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "name": "决斗阶段",
     "ability": "每名玩家每个白天只能发动一次决斗，也只能被决斗一次。决斗形式自定。",
     "team": "fabled",
@@ -442,7 +442,7 @@
   },
   {
     "id": "btl",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-jue-zhan-li-wei-tan-37172409/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "name": "恶浪滔天",
     "ability": "每局游戏限一次，在黄昏时，利维坦可以选择一个爪牙角色，他拥有对应能力直到下一个黄昏。",
     "team": "fabled",

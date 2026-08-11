@@ -14,7 +14,7 @@
   },
   {
     "id": "_qiannianhong",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_qiannianhong",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -38,7 +38,7 @@
   },
   {
     "id": "2_qiannianhong",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -50,7 +50,7 @@
   },
   {
     "id": "3_qiannianhong",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "reminders": [
       "恶魔未投票",
@@ -64,7 +64,7 @@
   },
   {
     "id": "4_qiannianhong",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -74,7 +74,7 @@
   },
   {
     "id": "5_qiannianhong",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "reminders": [
       "失去能力"
     ],
@@ -85,7 +85,7 @@
   },
   {
     "id": "6_qiannianhong",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "firstNightReminder": "唤醒传教士，让他选择一名玩家。如果他选中了爪牙，该爪牙失去能力。在传教士入睡后通知该爪牙被传教士选中。",
     "otherNightReminder": "唤醒传教士，让他选择一名玩家。如果他选中了爪牙，该爪牙失去能力。在传教士入睡后通知该爪牙被传教士选中。",
     "reminders": [
@@ -100,7 +100,7 @@
   },
   {
     "id": "7_qiannianhong",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -116,7 +116,7 @@
   },
   {
     "id": "8_qiannianhong",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "reminders": [
       "失去能力"
     ],
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_qiannianhong",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "firstNightReminder": "唤醒骑士，对他指向两名非恶魔玩家。",
     "reminders": [
       "得知"
@@ -140,7 +140,7 @@
   },
   {
     "id": "10_qiannianhong",
-    "image": "/scripts/assets/community/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
     "otherNightReminder": "不会死亡",
     "reminders": [
       "不会死亡"
@@ -153,7 +153,7 @@
   },
   {
     "id": "11_qiannianhong",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "remindersGlobal": [
       "是变脸师"
     ],
@@ -164,7 +164,7 @@
   },
   {
     "id": "12_qiannianhong",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "reminders": [
       "失去能力"
     ],
@@ -175,7 +175,7 @@
   },
   {
     "id": "13_qiannianhong",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -187,7 +187,7 @@
   },
   {
     "id": "14_qiannianhong",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "name": "圣徒",
     "team": "outsider",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "15_qiannianhong",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -203,7 +203,7 @@
   },
   {
     "id": "16_qiannianhong",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "otherNightReminder": "如果心上人死亡，一名玩家醉酒。",
     "reminders": [
       "醉酒"
@@ -216,7 +216,7 @@
   },
   {
     "id": "17_qiannianhong",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -229,7 +229,7 @@
   },
   {
     "id": "18_qiannianhong",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -238,7 +238,7 @@
   },
   {
     "id": "19_qiannianhong",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "reminders": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "20_qiannianhong",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "firstNightReminder": "唤醒寡妇，让她查看魔典。在她查看完毕后让她选择一名玩家，那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。",
     "reminders": [
       "中毒"
@@ -269,7 +269,7 @@
   },
   {
     "id": "21_qiannianhong",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "firstNightReminder": "唤醒狐媚娘，让她选择一名玩家。在狐媚娘入睡后通知那名玩家狐媚娘在场。",
     "otherNightReminder": "如果狐媚娘死于处决，唤醒她选择的玩家并通知他阵营变化。",
     "reminders": [
@@ -284,7 +284,7 @@
   },
   {
     "id": "22_qiannianhong",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -298,7 +298,7 @@
   },
   {
     "id": "23_qiannianhong",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
     "reminders": [
       "死亡"
@@ -311,7 +311,7 @@
   },
   {
     "id": "24_qiannianhong",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-qian-nian-hong-sheng-fang-1f89fb82/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "reminders": [
       "死亡"

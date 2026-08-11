@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "精挑细选",
     "author": "刘中奇",
-    "logo": "/scripts/assets/community/a258e04f3e17d7cd6682f822670f12ff9010e980e3c18f3dc80b2ee4747a0580.png",
+    "logo": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/a258e04f3e17d7cd6682f822670f12ff9010e980e3c18f3dc80b2ee4747a0580.png",
     "townsfolkName": "镇民",
     "state": [
       {
@@ -19,7 +19,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6844",
@@ -50,11 +50,11 @@
     "team": "townsfolk",
     "name_eng": "Village Idiot",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_40",
@@ -73,7 +73,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6845",
@@ -90,7 +90,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6838",
@@ -109,7 +109,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_43",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他是恶魔，你死亡，并且当晚不会再有其他玩家死亡。",
-    "image": "/scripts/assets/community/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6850",
@@ -145,7 +145,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_63",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
-    "image": "/scripts/assets/community/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_6856",
@@ -183,7 +183,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_64",
@@ -202,7 +202,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_76",
@@ -222,7 +222,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_39",
@@ -241,7 +241,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_121",
@@ -260,7 +260,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunaticbuttion",
@@ -280,7 +280,7 @@
   },
   {
     "ability": "每个夜晚限一次，所有玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
-    "image": "/scripts/assets/community/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/de12bbb960ed89d9a397ad44f4fab510bbda65f6c23ec29f0eaa76c6d41815c1.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6861",
@@ -297,7 +297,7 @@
   },
   {
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_57",
@@ -316,7 +316,7 @@
   },
   {
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_32",
@@ -335,7 +335,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_30",
@@ -355,7 +355,7 @@
   },
   {
     "ability": "每个夜晚，你要选择左或右：将你的飞行标记从当前位置移动到这个方向上的下一名存活善良玩家。他中毒且可能被当作邪恶阵营和爪牙角色，你会知道他原本的角色。",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "flavor": "",
     "id": "20454_6864",
@@ -374,7 +374,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_135",
@@ -393,7 +393,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/82e93c6b479c4d13e37b3268893b1ba88e428991d3ec4fc3456c6e3d3895e0ef.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/82e93c6b479c4d13e37b3268893b1ba88e428991d3ec4fc3456c6e3d3895e0ef.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniangc23f3e6ce",
@@ -412,7 +412,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_6870",
@@ -431,7 +431,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_25",
@@ -451,7 +451,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一至三名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
-    "image": "/scripts/assets/community/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_6869",
@@ -486,11 +486,11 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png"
   },
   {
     "id": "_jtxx",
-    "image": "/scripts/assets/community/b370450e0ac85eca96826ddbed41b50978c4f364aef63885ffb4f9a42168c3d5.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/b370450e0ac85eca96826ddbed41b50978c4f364aef63885ffb4f9a42168c3d5.png",
     "name": "皇城司",
     "reminders": [
       "妨碍私聊",
@@ -502,7 +502,7 @@
   },
   {
     "id": "mathematicianbutton",
-    "image": "/scripts/assets/community/22c2af2ea88a252fc1c9abf71eab1e2a86464820b68ca6ee4007bd565ba43528.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/22c2af2ea88a252fc1c9abf71eab1e2a86464820b68ca6ee4007bd565ba43528.png",
     "name": "小镇做题家",
     "reminders": [
       "未正常生效",
@@ -514,7 +514,7 @@
   },
   {
     "id": "shengjiezhihun",
-    "image": "/scripts/assets/community/c5399f4b52ab4f1535ee2d50356a33c02b61e9b0d0c3a0e9f74964dedc196849.png",
+    "image": "/scripts/assets/community-jing-tiao-xi-xuan-23f3e6ce/c5399f4b52ab4f1535ee2d50356a33c02b61e9b0d0c3a0e9f74964dedc196849.png",
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",

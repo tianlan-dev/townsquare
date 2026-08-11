@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "我们的故事",
     "author": "凤梨太黑了吧",
-    "logo": "/scripts/assets/community/44da46244c8e564b3afd5966e734e1e0e84c81915fe0dd76bbc3a64d80d5e294.png",
+    "logo": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/44da46244c8e564b3afd5966e734e1e0e84c81915fe0dd76bbc3a64d80d5e294.png",
     "A jinxed": "相克",
     "tags": [
       "民间创意剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "shengjiezhihun1",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -26,7 +26,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjian_c",
@@ -59,7 +59,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "edition": "custom",
     "flavor": "",
     "id": "fengshuishi_c",
@@ -77,7 +77,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -95,7 +95,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -118,7 +118,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "flavor": "",
     "id": "snake_charmer_c",
@@ -136,7 +136,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -158,7 +158,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。 ",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "flavor": "",
     "id": "lycanthrope_c",
@@ -177,7 +177,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom",
     "flavor": "",
     "id": "slayer_c",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_c",
@@ -211,7 +211,7 @@
   },
   {
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "flavor": "",
     "id": "poppy_grower_c",
@@ -229,7 +229,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -248,7 +248,7 @@
   },
   {
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "flavor": "",
     "id": "tea_lady_c",
@@ -267,7 +267,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_c",
@@ -285,7 +285,7 @@
   },
   {
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "damsel_c",
@@ -303,7 +303,7 @@
   },
   {
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "flavor": "",
     "id": "shusheng_c",
@@ -322,7 +322,7 @@
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "flavor": "",
     "id": "rulianshi_c",
@@ -340,7 +340,7 @@
   },
   {
     "ability": "你拥有所有外来者能力。[-0~1外来者]",
-    "image": "/scripts/assets/community/dd0c713aaaa16d1a613b5a475cc06b00bd39c0b9c26f8dcec6cfe9dbc2c3c273.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/dd0c713aaaa16d1a613b5a475cc06b00bd39c0b9c26f8dcec6cfe9dbc2c3c273.png",
     "edition": "custom",
     "flavor": "",
     "id": "hermit_c",
@@ -364,7 +364,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
-    "image": "/scripts/assets/community/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
     "edition": "custom",
     "flavor": "",
     "id": "huapi_c1",
@@ -383,7 +383,7 @@
   },
   {
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "flavor": "",
     "id": "psychopath_c",
@@ -399,7 +399,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -417,7 +417,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "pit-hag_c",
@@ -433,7 +433,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家:他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "lleech_c",
@@ -452,7 +452,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "flavor": "",
     "id": "al-hadikhia_c",
@@ -474,7 +474,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "fang_gu_c",
@@ -495,7 +495,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "taotie_c",
@@ -516,7 +516,7 @@
     "name": "猎手&痢蛭",
     "team": "A jinxed",
     "ability": "如果猎手选择了痢蛭的宿主，则宿主会死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom"
   },
   {
@@ -524,7 +524,7 @@
     "name": "罂粟种植者&食人族",
     "team": "A jinxed",
     "ability": "如果食人族获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom"
   },
   {
@@ -532,7 +532,7 @@
     "name": "落难少女&麻脸巫婆",
     "team": "A jinxed",
     "ability": "如果麻脸巫婆创造了落难少女，改为由说书人来决定哪一名玩家变成落难少女。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom"
   },
   {
@@ -540,7 +540,7 @@
     "name": "入殓师&痢蛭",
     "team": "A jinxed",
     "ability": "如果在大于等于五名玩家存活时，入殓师提名并处决了宿主且他死于这次处决，原本的痢蛭会在当晚死亡，入殓师变为邪恶的痢蛭且当晚无法攻击。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom"
   },
   {
@@ -548,7 +548,7 @@
     "name": "入殓师&哈迪寂亚",
     "team": "A jinxed",
     "ability": "如果出现两名存活的哈迪寂亚，则入殓师变成的哈迪寂亚会变回入殓师，但阵营保持邪恶。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-wo-men-de-gu-shi-2695f7ec/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom"
   }
 ]

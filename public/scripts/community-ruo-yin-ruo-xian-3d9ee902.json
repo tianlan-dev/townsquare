@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "若吟若限",
     "author": "际尘",
-    "logo": "/scripts/assets/community/d314179a0f4c5e209439337eebd425c58c8cf4e2974b4ec0a74f39555cabc8ac.png",
+    "logo": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/d314179a0f4c5e209439337eebd425c58c8cf4e2974b4ec0a74f39555cabc8ac.png",
     "tags": [
       "民间创意剧本",
       "包括华灯",
@@ -14,7 +14,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
     "edition": "custom",
     "flavor": "",
     "id": "shugenja_c",
@@ -42,7 +42,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_c",
@@ -61,7 +61,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_c",
@@ -79,7 +79,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_c",
@@ -95,7 +95,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -113,7 +113,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -136,7 +136,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一个数字。在该数字对应的那一个夜晚，你会得知对应数量的在场角色。",
-    "image": "/scripts/assets/community/f2e1e6f5138361343d11b0f97b8ffd546eb0ee3465c715ea221b3838d0b835be.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/f2e1e6f5138361343d11b0f97b8ffd546eb0ee3465c715ea221b3838d0b835be.png",
     "edition": "custom",
     "flavor": "",
     "id": "fangshi_c",
@@ -154,7 +154,7 @@
   },
   {
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知存活镇民的数量。",
-    "image": "/scripts/assets/community/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiguan_c",
@@ -172,7 +172,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他醉酒并死亡。",
-    "image": "/scripts/assets/community/b9315491a507e3c3f14480f9e860f34fe2964e236c366faf5e1d1a40d61d4a7c.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/b9315491a507e3c3f14480f9e860f34fe2964e236c366faf5e1d1a40d61d4a7c.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhen_c",
@@ -191,7 +191,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的两个善良角色：如果他们都存活，他们当晚不会死亡。",
-    "image": "/scripts/assets/community/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png",
     "edition": "custom",
     "flavor": "",
     "id": "xuncha_c",
@@ -209,7 +209,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他是善良角色且当晚被邪恶角色杀死，你和他交换角色。\n\n",
-    "image": "/scripts/assets/community/6c6f6c80bd3ce35af40ffe30639d27fce7d11bd919584e3b50fd2723b355aecd.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/6c6f6c80bd3ce35af40ffe30639d27fce7d11bd919584e3b50fd2723b355aecd.png",
     "edition": "custom",
     "flavor": "",
     "id": "limao_c",
@@ -227,7 +227,7 @@
   },
   {
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png",
     "edition": "custom",
     "flavor": "",
     "id": "minstrel_c",
@@ -245,7 +245,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -263,7 +263,7 @@
   },
   {
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
-    "image": "/scripts/assets/community/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
     "edition": "custom",
     "flavor": "",
     "id": "zealot_c",
@@ -279,7 +279,7 @@
   },
   {
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
     "edition": "custom",
     "flavor": "",
     "id": "golem_c",
@@ -297,7 +297,7 @@
   },
   {
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
-    "image": "/scripts/assets/community/29c771be24d95869b4883f1eaaa3af8e07543f610f7e8efd6342f7ac3ad999c2.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/29c771be24d95869b4883f1eaaa3af8e07543f610f7e8efd6342f7ac3ad999c2.png",
     "edition": "custom",
     "flavor": "",
     "id": "shaxing_c",
@@ -315,7 +315,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
     "edition": "custom",
     "flavor": "",
     "id": "recluse_c",
@@ -331,7 +331,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -350,7 +350,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_c",
@@ -369,7 +369,7 @@
   },
   {
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
-    "image": "/scripts/assets/community/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
     "edition": "custom",
     "flavor": "",
     "id": "xaan_c",
@@ -391,7 +391,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/f5e641a28ca3059e0f3d145b99721aefc6ce5442a9e6f5a630be4299e412b8f9.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/f5e641a28ca3059e0f3d145b99721aefc6ce5442a9e6f5a630be4299e412b8f9.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniang_c",
@@ -409,7 +409,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_c",
@@ -427,7 +427,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
-    "image": "/scripts/assets/community/febdd38a38480ade8a21f6ff016c81149a79a800095bc7e60372b445368002fb.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/febdd38a38480ade8a21f6ff016c81149a79a800095bc7e60372b445368002fb.png",
     "edition": "custom",
     "flavor": "",
     "id": "yanluo_c",
@@ -454,7 +454,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
-    "image": "/scripts/assets/community/c144e979b45645841eeaa1cf55ef4042c610c73cda6d876b9c6ed9a779176106.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/c144e979b45645841eeaa1cf55ef4042c610c73cda6d876b9c6ed9a779176106.png",
     "edition": "custom",
     "flavor": "",
     "id": "hundun_c",
@@ -473,7 +473,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
+    "image": "/scripts/assets/community-ruo-yin-ruo-xian-3d9ee902/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",

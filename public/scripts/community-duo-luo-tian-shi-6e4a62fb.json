@@ -14,12 +14,12 @@
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。",
-    "image": "/scripts/assets/community/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
     "edition": "custom"
   },
   {
     "id": "empathButton",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -31,7 +31,7 @@
   },
   {
     "id": "chambermaidButton",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "name": "侍女",
@@ -43,7 +43,7 @@
   },
   {
     "id": "mathematicianButton",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
     "remindersGlobal": [
@@ -69,12 +69,12 @@
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
     "firstNight": 11,
     "otherNight": 2,
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "edition": "custom"
   },
   {
     "id": "engineerButton",
-    "image": "/scripts/assets/community/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
     "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "reminders": [
@@ -97,12 +97,12 @@
     "team": "townsfolk",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的次数。",
     "otherNight": 12,
-    "image": "/scripts/assets/community/06ec4de58bc8ccdee8ce97a5493ab5bbe27113ab6248af24b11da820c91852e9.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/06ec4de58bc8ccdee8ce97a5493ab5bbe27113ab6248af24b11da820c91852e9.png",
     "edition": "custom"
   },
   {
     "id": "mutantbutton",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -110,7 +110,7 @@
   },
   {
     "id": "lunaticbutton",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
     "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
     "remindersGlobal": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_duoluotianshi",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -145,7 +145,7 @@
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
     "firstNight": 14,
     "otherNight": 4,
-    "image": "/scripts/assets/community/6247bbf3d900ce56f45d39881665335d814eef944589188e378e8fcd5d019399.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/6247bbf3d900ce56f45d39881665335d814eef944589188e378e8fcd5d019399.png",
     "edition": "custom"
   },
   {
@@ -158,12 +158,12 @@
     "team": "minion",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果你因此创造了一个恶魔，当晚生死无常。",
     "otherNight": 5,
-    "image": "/scripts/assets/community/7f3d962209e5f48f02a8aba03d45bf0bc5f2fb54edef4f59734f764d053bcc53.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/7f3d962209e5f48f02a8aba03d45bf0bc5f2fb54edef4f59734f764d053bcc53.png",
     "edition": "custom"
   },
   {
     "id": "12_duoluotianshi",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
     "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上一个因普卡中毒的玩家死亡，随后恢复健康。",
     "reminders": [
@@ -190,7 +190,7 @@
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
     "otherNight": 9,
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom"
   },
   {
@@ -204,12 +204,12 @@
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
     "otherNight": 8,
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom"
   },
   {
     "id": "legionbutton",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "otherNightReminder": "由说书人决定，让哪一名玩家死亡。",
     "reminders": [
       "死亡",
@@ -224,7 +224,7 @@
   },
   {
     "id": "angle",
-    "image": "/scripts/assets/community/da379955270315ecbf2a059dffaa0610b964aa0529e063351893c31c0f110d92.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/da379955270315ecbf2a059dffaa0610b964aa0529e063351893c31c0f110d92.png",
     "name": "天使告诉恶魔",
     "reminders": [
       "庇护"
@@ -235,7 +235,7 @@
   },
   {
     "ability": "使用灯神的相克规则。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-duo-luo-tian-shi-6e4a62fb/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",

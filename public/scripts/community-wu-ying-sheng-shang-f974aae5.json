@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "杌影生殇",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/265d7c720f9672397375c8886a9693f6455cb8cd72697452ff5e0523fd985e92.png",
+    "logo": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/265d7c720f9672397375c8886a9693f6455cb8cd72697452ff5e0523fd985e92.png",
     "almanac": "https://www.bloodstar.xyz/p/Jungle/TaoWu_Protect/almanac.html",
     "tags": [
       "汀西维尔剧本"
@@ -12,7 +12,7 @@
   },
   {
     "id": "_taowu_protect",
-    "image": "/scripts/assets/community/728a7cbeec9aebc24bc6fe62b635f83df63c00ca60f27aa4cb61558cb1303b43.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/728a7cbeec9aebc24bc6fe62b635f83df63c00ca60f27aa4cb61558cb1303b43.png",
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
     "otherNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
     "reminders": [
@@ -27,7 +27,7 @@
   },
   {
     "id": "1_taowu_protect",
-    "image": "/scripts/assets/community/7a703375d34ba8976ddd95b9a1902f5c4948fed9b2fab37d2ea6809d61cbbc12.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/7a703375d34ba8976ddd95b9a1902f5c4948fed9b2fab37d2ea6809d61cbbc12.png",
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -41,7 +41,7 @@
   },
   {
     "id": "2_taowu_protect",
-    "image": "/scripts/assets/community/336794a33ce79afa2e23183ab4158c1afa778a4ca0dac29c86413c3e5490a0cb.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/336794a33ce79afa2e23183ab4158c1afa778a4ca0dac29c86413c3e5490a0cb.png",
     "otherNightReminder": "移除上个夜晚放置的“保护”标记。唤醒锦衣卫，让其选择一名玩家。在该玩家角色标记旁放置“保护”提示标记。",
     "reminders": [
       "保护"
@@ -54,7 +54,7 @@
   },
   {
     "id": "3_taowu_protect",
-    "image": "/scripts/assets/community/8449158545063f7f25994b205705305d7c31a733591cc084f297a8d07b4f0a7d.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/8449158545063f7f25994b205705305d7c31a733591cc084f297a8d07b4f0a7d.png",
     "reminders": [
       "不会死亡"
     ],
@@ -65,7 +65,7 @@
   },
   {
     "id": "4_taowu_protect",
-    "image": "/scripts/assets/community/73f2573d3a638d9668ebf5ae9a9a68476dba600457a54be1d890b3707343d243.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/73f2573d3a638d9668ebf5ae9a9a68476dba600457a54be1d890b3707343d243.png",
     "name": "和平主义者",
     "team": "townsfolk",
     "ability": "被处决的善良玩家可能不会死亡。",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_taowu_protect",
-    "image": "/scripts/assets/community/fda8e96d0a3074ca6a3064fbece0bd465e38cadbc649eca9a1bcef8383d62a1a.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/fda8e96d0a3074ca6a3064fbece0bd465e38cadbc649eca9a1bcef8383d62a1a.png",
     "reminders": [
       "失去能力"
     ],
@@ -84,7 +84,7 @@
   },
   {
     "id": "6_taowu_protect",
-    "image": "/scripts/assets/community/e6fa4a82303373a9762b64c29ae9a3e4728d6326614eb318c711da923ab7a668.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/e6fa4a82303373a9762b64c29ae9a3e4728d6326614eb318c711da923ab7a668.png",
     "firstNightReminder": "展示给炼金术士一个不在场的爪牙标记",
     "remindersGlobal": [
       "是炼金术士"
@@ -97,7 +97,7 @@
   },
   {
     "id": "7_taowu_protect",
-    "image": "/scripts/assets/community/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -109,7 +109,7 @@
   },
   {
     "id": "8_taowu_protect",
-    "image": "/scripts/assets/community/f1ac9fc28f731feddf78c71d9ef7b79b53fba492fb061f3aa6fd4fce89eada51.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/f1ac9fc28f731feddf78c71d9ef7b79b53fba492fb061f3aa6fd4fce89eada51.png",
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
     "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
     "reminders": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_taowu_protect",
-    "image": "/scripts/assets/community/6f16c92e500e41c1692a427f37c035571799bc573491fbe8bc9de905e31e8b98.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/6f16c92e500e41c1692a427f37c035571799bc573491fbe8bc9de905e31e8b98.png",
     "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -140,7 +140,7 @@
   },
   {
     "id": "10_taowu_protect",
-    "image": "/scripts/assets/community/3e41153982743e1e274ee488b1ca7c9b8f23734b57c5287bb044a71c1b6bbc00.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/3e41153982743e1e274ee488b1ca7c9b8f23734b57c5287bb044a71c1b6bbc00.png",
     "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
     "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
     "reminders": [
@@ -155,7 +155,7 @@
   },
   {
     "id": "11_taowu_protect",
-    "image": "/scripts/assets/community/26e909f990c5ef23dfbe2f3ec73204a8422780d2f4b3713e778c5df3e86b0bd4.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/26e909f990c5ef23dfbe2f3ec73204a8422780d2f4b3713e778c5df3e86b0bd4.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -163,7 +163,7 @@
   },
   {
     "id": "12_taowu_protect",
-    "image": "/scripts/assets/community/154204164398111573a455fb55ecfb9d0231a301d4a8505333a37d1f35d2b186.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/154204164398111573a455fb55ecfb9d0231a301d4a8505333a37d1f35d2b186.png",
     "reminders": [
       "以为存活"
     ],
@@ -175,7 +175,7 @@
   },
   {
     "id": "13_taowu_protect",
-    "image": "/scripts/assets/community/212ea41bc9f879a05d080ef706d15438f5f97479165e0d3590319095921bc886.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/212ea41bc9f879a05d080ef706d15438f5f97479165e0d3590319095921bc886.png",
     "firstNightReminder": "（清清自编）不要唤醒拿到梼杌的玩家，他不会得知自己的爪牙是谁，也不会得知三个不在场的角色。",
     "otherNightReminder": "（清清自编）让梼杌选择一名玩家。标记那名玩家死亡。如果梼杌选择了自己，在一名存活且具有能力的爪牙身边放置“失去能力”标记。",
     "reminders": [
@@ -191,7 +191,7 @@
   },
   {
     "id": "14_taowu_protect",
-    "image": "/scripts/assets/community/177a867428767c2f4f1541f7bba38dd37a2eb81b1f771964fb809dc2ee3d4e6c.png",
+    "image": "/scripts/assets/community-wu-ying-sheng-shang-f974aae5/177a867428767c2f4f1541f7bba38dd37a2eb81b1f771964fb809dc2ee3d4e6c.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",

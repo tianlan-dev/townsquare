@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "可可因果",
     "author": "咕咕菇",
-    "logo": "/scripts/assets/community/24866ef7ef4962283d109ef13dff319652cacc79bf473803655c6e16c4aeda90.png",
+    "logo": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/24866ef7ef4962283d109ef13dff319652cacc79bf473803655c6e16c4aeda90.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -21,7 +21,7 @@
   },
   {
     "id": "gongqingzhe",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "shangjinlieren",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -53,7 +53,7 @@
   },
   {
     "id": "zhanbushi",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -70,7 +70,7 @@
   },
   {
     "id": "zhumengshi",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "qiqiujaishiyuan",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -102,7 +102,7 @@
   },
   {
     "id": "bingbic0f05c929",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "name": "秉笔",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "daokec0f05c929",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "name": "刀客",
     "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
@@ -141,7 +141,7 @@
   },
   {
     "id": "chengzhengonggaoyuan",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -159,7 +159,7 @@
   },
   {
     "id": "xianzhe",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom",
     "name": "贤者",
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "shirenzu",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -192,7 +192,7 @@
   },
   {
     "id": "guowang",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "name": "国王",
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "yingsuzhongzhizhe",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "yiqunshabi1232134124124142111",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom",
     "name": "戏子（改）",
     "ability": "其他善良玩家醉酒（旅行者除外），你们互相认识且无法转变阵营，对调胜负结果，即使你失去能力。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "wushenlunzhe",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
     "edition": "custom",
     "name": "无神论者",
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
@@ -256,7 +256,7 @@
   },
   {
     "id": "yinshi",
-    "image": "/scripts/assets/community/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
     "edition": "custom",
     "name": "隐士",
     "ability": "你拥有所有外来者能力。[-0~1外来者]",
@@ -273,7 +273,7 @@
   },
   {
     "id": "jiugui",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -291,7 +291,7 @@
   },
   {
     "id": "xiubujiang",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "edition": "custom",
     "name": "修补匠",
     "ability": "你随时可能死亡。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "moke",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -323,7 +323,7 @@
   },
   {
     "id": "hongchunnvlang",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -338,7 +338,7 @@
   },
   {
     "id": "jiaofu",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -356,7 +356,7 @@
   },
   {
     "id": "kexueguairen",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -371,7 +371,7 @@
   },
   {
     "id": "guafu",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "tixianmuou",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -405,7 +405,7 @@
   },
   {
     "id": "yagababu",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "name": "牙噶巴卜",
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
@@ -422,7 +422,7 @@
   },
   {
     "id": "woliu",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -439,7 +439,7 @@
   },
   {
     "id": "juntuan",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
@@ -461,7 +461,7 @@
     "team": "fabled",
     "edition": "custom",
     "ability": "该剧本包含部分戏子改相关自制相克规则，请仔细查阅。",
-    "image": "/scripts/assets/community/abfeaa8b1cc4e9abbe9b1bdf20fe4dcc92b10572802521783e80affc29a2f722.png",
+    "image": "/scripts/assets/community-ke-ke-yin-guo-0f05c929/abfeaa8b1cc4e9abbe9b1bdf20fe4dcc92b10572802521783e80affc29a2f722.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "生生不息",
     "author": "Ekin",
-    "logo": "/scripts/assets/community/3a9e31e03667fec7e27b966e02e69eb95886074a88c417db95d2383311f70415.webp",
+    "logo": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/3a9e31e03667fec7e27b966e02e69eb95886074a88c417db95d2383311f70415.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -23,7 +23,7 @@
   },
   {
     "id": "woshininainai111",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -40,7 +40,7 @@
   },
   {
     "id": "tashuofengyuzhongzhediantongsuanshenme111",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "name": "水手",
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -70,7 +70,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -86,7 +86,7 @@
   },
   {
     "id": "wuxingshangjiang111",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -100,7 +100,7 @@
   },
   {
     "id": "wobuzhidaoxieshale111",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
     "edition": "custom",
     "name": "异教领袖",
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
@@ -114,7 +114,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -130,7 +130,7 @@
   },
   {
     "id": "haogaodeshan111",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "name": "巡山人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
@@ -146,7 +146,7 @@
   },
   {
     "id": "fulankensitan111",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "name": "教授",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
@@ -163,7 +163,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -179,7 +179,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -193,7 +193,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "失忆者",
     "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
@@ -209,7 +209,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "woshishui111",
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "edition": "custom",
     "name": "莽夫",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -242,7 +242,7 @@
   },
   {
     "id": "abaaba111",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "edition": "custom",
     "name": "告密者",
     "ability": "爪牙会在其首个夜晚得知三个伪装。",
@@ -256,7 +256,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -286,7 +286,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -303,7 +303,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -320,7 +320,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -336,7 +336,7 @@
   },
   {
     "id": "lllllllllllllllllllllll11111111",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "name": "麻脸巫婆",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
@@ -350,7 +350,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -367,7 +367,7 @@
   },
   {
     "id": "yigeshaba111",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "name": "沙巴洛斯",
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。",
@@ -384,7 +384,7 @@
   },
   {
     "id": "lizhiiiiii111111111",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "edition": "custom",
     "name": "痢蛭",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
@@ -401,7 +401,7 @@
   },
   {
     "id": "zuixihuandeyiji111",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "edition": "custom",
     "name": "暴乱",
     "ability": "在第三个白天，所有爪牙会变成暴乱，当天被提名的玩家会立即死亡且必须再次提名一名存活的玩家。",
@@ -415,7 +415,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -432,7 +432,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -448,7 +448,7 @@
   },
   {
     "id": "85_meta",
-    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
     "name": "暴乱&祖母",
     "team": "a jinxed",
     "setup": false,
@@ -457,7 +457,7 @@
   },
   {
     "id": "0_meta",
-    "image": "/scripts/assets/community/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/2e3bf0b7ad45af1b920d40ea2d881ba43ae3de8e2b97b9a23d33992d7c7d37d1.png",
     "name": "侍女&数学家",
     "team": "a jinxed",
     "setup": false,
@@ -466,7 +466,7 @@
   },
   {
     "id": "113_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&异教领袖",
     "team": "a jinxed",
     "setup": false,
@@ -475,7 +475,7 @@
   },
   {
     "id": "114_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&莽夫",
     "team": "a jinxed",
     "setup": false,
@@ -484,7 +484,7 @@
   },
   {
     "id": "13_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -493,7 +493,7 @@
   },
   {
     "id": "2_meta",
-    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
     "name": "暴乱&落难少女",
     "team": "a jinxed",
     "setup": false,
@@ -502,7 +502,7 @@
   },
   {
     "id": "14_meta",
-    "image": "/scripts/assets/community/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/dc583424f068d8746b66d58205862b2fd5016c6cb70bc3415710bc447dabeed5.png",
     "name": "麻脸巫婆&政客",
     "team": "a jinxed",
     "setup": false,
@@ -511,7 +511,7 @@
   },
   {
     "id": "5_meta",
-    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "image": "/scripts/assets/community-sheng-sheng-bu-xi-aa769583/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
     "name": "暴乱&麻脸巫婆",
     "team": "a jinxed",
     "setup": false,

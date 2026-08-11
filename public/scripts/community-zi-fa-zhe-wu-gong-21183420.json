@@ -12,7 +12,7 @@
   },
   {
     "id": "5_xing",
-    "image": "/scripts/assets/community/e321fa952dfb672453e2c21b7791360837d7ff813311fa27d78c622d97610669.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/e321fa952dfb672453e2c21b7791360837d7ff813311fa27d78c622d97610669.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "得知"
@@ -25,7 +25,7 @@
   },
   {
     "id": "_xing",
-    "image": "/scripts/assets/community/1f00590aa83dbd8058a48c3a806433e6c06e5ac4c2e625ed6f4c18153997aad3.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/1f00590aa83dbd8058a48c3a806433e6c06e5ac4c2e625ed6f4c18153997aad3.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -38,7 +38,7 @@
   },
   {
     "id": "1_xing",
-    "image": "/scripts/assets/community/c7e479f080cc20ea00b38f43937e1fcd707b22d7637b0d0c99d83fb1cc8814ed.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/c7e479f080cc20ea00b38f43937e1fcd707b22d7637b0d0c99d83fb1cc8814ed.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -51,7 +51,7 @@
   },
   {
     "id": "2_xing",
-    "image": "/scripts/assets/community/16825c1977acf6a7eb396d5898221d8fbb97396dd79a8ad9b95e01d1b5f6f188.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/16825c1977acf6a7eb396d5898221d8fbb97396dd79a8ad9b95e01d1b5f6f188.png",
     "firstNightReminder": "唤醒水手，让他选择一名玩家。决定他俩其中谁因为水手能力醉酒。",
     "otherNightReminder": "唤醒水手，让他选择一名玩家。决定他俩其中谁因为水手能力醉酒。",
     "reminders": [
@@ -67,7 +67,7 @@
   },
   {
     "id": "3_xing",
-    "image": "/scripts/assets/community/61b65e5b6be1a3275f174e33262836cc5b4ef98bdc05021e3880d2b0e07dd9c0.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/61b65e5b6be1a3275f174e33262836cc5b4ef98bdc05021e3880d2b0e07dd9c0.png",
     "otherNightReminder": "唤醒葬仪师，告诉他一条和“死亡”相关的信息。如果场上标记有葬仪师的“错误信息”提示标记，告诉他错误信息。",
     "reminders": [
       "错误信息"
@@ -80,7 +80,7 @@
   },
   {
     "id": "4_xing",
-    "image": "/scripts/assets/community/93b6f8cb63012ae71fe3d57afee287ee4a04d7657f4cd3d81846985ac960a9a2.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/93b6f8cb63012ae71fe3d57afee287ee4a04d7657f4cd3d81846985ac960a9a2.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -94,7 +94,7 @@
   },
   {
     "id": "6_xing",
-    "image": "/scripts/assets/community/0c0868136534fa23518df3a1299c64999f27933c8c24ab9cacd1bb9ef6de8afb.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/0c0868136534fa23518df3a1299c64999f27933c8c24ab9cacd1bb9ef6de8afb.png",
     "otherNightReminder": "唤醒打更人，让他进行猜测，并放置提示标记到对应玩家旁。",
     "reminders": [
       "警惕",
@@ -109,7 +109,7 @@
   },
   {
     "id": "7_xing",
-    "image": "/scripts/assets/community/85ad3b1033c70958d4362e572b5220f58bd91b50e999b78739aa38296e2afe27.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/85ad3b1033c70958d4362e572b5220f58bd91b50e999b78739aa38296e2afe27.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -123,7 +123,7 @@
   },
   {
     "id": "8_xing",
-    "image": "/scripts/assets/community/0848e4e309901094b75a2ad503518b80b86f27c8511349657456a780642aeeeb.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/0848e4e309901094b75a2ad503518b80b86f27c8511349657456a780642aeeeb.png",
     "firstNightReminder": "唤醒侍臣，他可以摇头不使用能力，或选择角色列表上的一个任意角色，该角色对应的玩家之一醉酒。",
     "otherNightReminder": "唤醒侍臣，他可以摇头不使用能力，或选择角色列表上的一个任意角色，该角色对应的玩家之一醉酒。",
     "reminders": [
@@ -142,7 +142,7 @@
   },
   {
     "id": "9_xing",
-    "image": "/scripts/assets/community/c1f5302bd185c481ed6b0d02a7590bcb81008caf9bdb376b8d473c5983d22929.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/c1f5302bd185c481ed6b0d02a7590bcb81008caf9bdb376b8d473c5983d22929.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -161,7 +161,7 @@
   },
   {
     "id": "10_xing",
-    "image": "/scripts/assets/community/dbcc7f575b0b2b051785a1f32fefeddcddbd4cb3afc78fa02688904e43a9c1b9.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/dbcc7f575b0b2b051785a1f32fefeddcddbd4cb3afc78fa02688904e43a9c1b9.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -177,7 +177,7 @@
   },
   {
     "id": "11_xing",
-    "image": "/scripts/assets/community/2add1f1f5978bac23560707986b7acdfcd41a2d904ad158f5ed64fd02d78aae7.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/2add1f1f5978bac23560707986b7acdfcd41a2d904ad158f5ed64fd02d78aae7.png",
     "otherNightReminder": "如果教授未曾使用能力且在城镇广场上有玩家死亡，唤醒教授，他可以摇头不使用能力，或选择一名已死亡的玩家。如果该玩家是镇民，该玩家被起死回生。",
     "reminders": [
       "复活",
@@ -192,7 +192,7 @@
   },
   {
     "id": "12_xing",
-    "image": "/scripts/assets/community/2cb8b9b4e31ae54f93013f19157f469c2b897cb4f61b17906f5e2847527fddeb.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/2cb8b9b4e31ae54f93013f19157f469c2b897cb4f61b17906f5e2847527fddeb.png",
     "reminders": [
       "不会死亡"
     ],
@@ -204,7 +204,7 @@
   },
   {
     "id": "13_xing",
-    "image": "/scripts/assets/community/c3f0dbe8c95628fd31f118f9c5b1091b30d486187fd3d114f929ebe7af76f19e.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/c3f0dbe8c95628fd31f118f9c5b1091b30d486187fd3d114f929ebe7af76f19e.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "remindersGlobal": [
@@ -222,7 +222,7 @@
   },
   {
     "id": "14_xing",
-    "image": "/scripts/assets/community/325edf206b5f062aa453e529f1db9296371554d7b2ec9a89c4d13df36b2466a8.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/325edf206b5f062aa453e529f1db9296371554d7b2ec9a89c4d13df36b2466a8.png",
     "reminders": [
       "醉酒"
     ],
@@ -234,7 +234,7 @@
   },
   {
     "id": "15_xing",
-    "image": "/scripts/assets/community/9bbf0e18af5553383f276b9e35f510be5f38213dc2d652c5f4f1c64e4b6b8bf1.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/9bbf0e18af5553383f276b9e35f510be5f38213dc2d652c5f4f1c64e4b6b8bf1.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -248,7 +248,7 @@
   },
   {
     "id": "16_xing",
-    "image": "/scripts/assets/community/a63dfa1baa6a45703573a12743452b2852f7ab7c8044a55540ae0116c8b1e2a5.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/a63dfa1baa6a45703573a12743452b2852f7ab7c8044a55540ae0116c8b1e2a5.png",
     "reminders": [
       "替死"
     ],
@@ -260,7 +260,7 @@
   },
   {
     "id": "17_xing",
-    "image": "/scripts/assets/community/f15491ab8360ebddae13d1235fd0f308387f9cacda135b3b41f682e30bfb9dfd.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/f15491ab8360ebddae13d1235fd0f308387f9cacda135b3b41f682e30bfb9dfd.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -278,7 +278,7 @@
   },
   {
     "id": "18_xing",
-    "image": "/scripts/assets/community/12b9a33ec5a071b33ac44b0ceb16933eb381ea8b6d0c0c5bec358389d8a6a932.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/12b9a33ec5a071b33ac44b0ceb16933eb381ea8b6d0c0c5bec358389d8a6a932.png",
     "firstNightReminder": "在死魂灵的角色标记旁放置死魂灵的“当作存活”提示标记。",
     "reminders": [
       "死魂灵",
@@ -292,7 +292,7 @@
   },
   {
     "id": "19_xing",
-    "image": "/scripts/assets/community/d632656ee7826ceb4a494a3a2812395738f40590acc527f5755a68ceab977b3a.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/d632656ee7826ceb4a494a3a2812395738f40590acc527f5755a68ceab977b3a.png",
     "otherNightReminder": "唤醒憎恶。如果他攻击了一名玩家，在一名与那名玩家阵营相同的玩家的角色标记旁放置憎恶的“复活”提示标记，然后再在那名玩家的角色标记旁放置憎恶的“死亡”提示标记。",
     "reminders": [
       "死亡",
@@ -307,7 +307,7 @@
   },
   {
     "id": "20_xing",
-    "image": "/scripts/assets/community/cdcc500ca56a40dba58724028e8d57a187f464a1c4d12d31227e1951cc652b6f.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/cdcc500ca56a40dba58724028e8d57a187f464a1c4d12d31227e1951cc652b6f.png",
     "firstNightReminder": "唤醒魔鬼代言人，让他选择一名玩家，那名玩家处决不死。",
     "otherNightReminder": "唤醒魔鬼代言人，让他选择一名玩家，那名玩家处决不死。",
     "reminders": [
@@ -323,7 +323,7 @@
   },
   {
     "id": "21_xing",
-    "image": "/scripts/assets/community/0b0d2aeb7493a85ade2d75ee9b0d5ea8bcebad1ec1d40f4b896fe0da8f4790a6.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/0b0d2aeb7493a85ade2d75ee9b0d5ea8bcebad1ec1d40f4b896fe0da8f4790a6.png",
     "firstNightReminder": "唤醒痢蛭，让他选择一名玩家以寄生。",
     "otherNightReminder": "唤醒痢蛭，让他攻击一名玩家。",
     "reminders": [
@@ -340,7 +340,7 @@
   },
   {
     "id": "22_xing",
-    "image": "/scripts/assets/community/83ad81219a4dab445c111efd67a7ed8185da8d0838b332caf84145ee6e3223fd.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/83ad81219a4dab445c111efd67a7ed8185da8d0838b332caf84145ee6e3223fd.png",
     "otherNightReminder": "如果白天无人死亡，唤醒僵怖，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -355,7 +355,7 @@
   },
   {
     "id": "24_xing",
-    "image": "/scripts/assets/community/be0812a0bfdd8443f4b5cbac3b45d7faafb4fc82ded3d4b341ddae8b490117b5.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/be0812a0bfdd8443f4b5cbac3b45d7faafb4fc82ded3d4b341ddae8b490117b5.png",
     "otherNightReminder": "唤醒行。让行选择一名玩家并选择攻击还是保护。如果他选择了被他选择过的玩家，让他重复上述步骤。",
     "reminders": [
       "死亡",
@@ -372,7 +372,7 @@
   },
   {
     "id": "25_xing",
-    "image": "/scripts/assets/community/6bb3cc4abac85d887f68ea500f9a05d41853fd25564a536bab939beb7f5e04c9.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/6bb3cc4abac85d887f68ea500f9a05d41853fd25564a536bab939beb7f5e04c9.png",
     "otherNightReminder": "唤醒活幕之手，他可以攻击一名玩家或不进行攻击。",
     "reminders": [
       "死亡",
@@ -401,7 +401,7 @@
     "name": "法官",
     "team": "traveller",
     "ability": "每局游戏限一次，如果其他玩家发起了提名，你可以选择让本次提名直接执行处决或让投票无效。",
-    "image": "/scripts/assets/community/5c1623c312b49ef70355caf857b0b9889e9abbc3030c1785d489119d654dc814.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/5c1623c312b49ef70355caf857b0b9889e9abbc3030c1785d489119d654dc814.png",
     "edition": "custom"
   },
   {
@@ -413,7 +413,7 @@
     "name": "主教",
     "team": "traveller",
     "ability": "只有说书人可以发起提名。每个白天说书人至少要提名一名你对立阵营的玩家。",
-    "image": "/scripts/assets/community/d61e5a54d31ffe1e0430708d81c16f17df3d70ab43ea5d089e629c36d760c272.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/d61e5a54d31ffe1e0430708d81c16f17df3d70ab43ea5d089e629c36d760c272.png",
     "edition": "custom"
   },
   {
@@ -421,12 +421,12 @@
     "name": "巫毒师",
     "team": "traveller",
     "ability": "只有你和死亡的玩家可以投票，且投票不需要使用投票标记。忽略票数需要过半的要求。",
-    "image": "/scripts/assets/community/2564f2067920086c9804cfaecf6ac837fce7f741499a1f516001ead73812e54b.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/2564f2067920086c9804cfaecf6ac837fce7f741499a1f516001ead73812e54b.png",
     "edition": "custom"
   },
   {
     "id": "30_xing",
-    "image": "/scripts/assets/community/9ea7625a81ee5b038ffc07a74180415de9058673d2fd31eef589266281d56cc6.png",
+    "image": "/scripts/assets/community-zi-fa-zhe-wu-gong-21183420/9ea7625a81ee5b038ffc07a74180415de9058673d2fd31eef589266281d56cc6.png",
     "name": "摆渡人",
     "team": "fabled",
     "ability": "在游戏的最后一天，所有已死亡的玩家会重新获得投票标记。",

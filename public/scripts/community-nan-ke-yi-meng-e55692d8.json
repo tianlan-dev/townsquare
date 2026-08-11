@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "南柯一梦",
     "author": "牲当为人杰 & 特别鸣谢：蒸汽riki",
-    "logo": "/scripts/assets/community/6fde14e61ee3f1e2f26712888aad457f5b3b1fcd6f537770ac31e3efd51c5cfd.png",
+    "logo": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/6fde14e61ee3f1e2f26712888aad457f5b3b1fcd6f537770ac31e3efd51c5cfd.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -35,7 +35,7 @@
   },
   {
     "id": "-1s-1s-1s",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -49,7 +49,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -67,7 +67,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/68b05cf7fb22155cd81fe52a66bbd3688c14a7d916fc77cdff6b34bf850105bd.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/68b05cf7fb22155cd81fe52a66bbd3688c14a7d916fc77cdff6b34bf850105bd.png",
     "edition": "custom",
     "flavor": "",
     "id": "shugenja_c",
@@ -95,7 +95,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -109,7 +109,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -123,7 +123,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -139,7 +139,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "wolaishouhunidemama111",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "name": "守夜人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -171,7 +171,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -187,7 +187,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -201,7 +201,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
@@ -216,7 +216,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "tuomengre1n",
-    "image": "/scripts/assets/community/79ad8e50729809d2f34db86184128d915dbb3942fc3c8efecce1be6c1a570b50.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/79ad8e50729809d2f34db86184128d915dbb3942fc3c8efecce1be6c1a570b50.png",
     "edition": "custom",
     "name": "托梦人",
     "ability": "如果你死亡，当晚你要选择一名存活玩家，下一晚恶魔无法因自身能力被唤醒。恶魔可以选择让该玩家死亡，否则一名邪恶玩家死亡。",
@@ -251,7 +251,7 @@
   },
   {
     "id": "baziji9865765487le1155555151",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "name": "杂技演员",
     "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
@@ -267,7 +267,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -284,7 +284,7 @@
   },
   {
     "id": "jsioajidnaionsdjiubaooihc-9j",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家（旅行者除外）之一醉酒，即使你死于处决。",
@@ -301,7 +301,7 @@
   },
   {
     "id": "jsioaji231231231",
-    "image": "/scripts/assets/community/a456c693e7d8aa430bf0333860f947808032ee93459722276cdc6e80e09a7b34.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/a456c693e7d8aa430bf0333860f947808032ee93459722276cdc6e80e09a7b34.png",
     "edition": "custom",
     "name": "蜃",
     "ability": "当邪恶存活玩家大于等于善良存活玩家时，你会在当晚死亡。如果你被处决，善良阵营落败。与你邻近的善良玩家（旅行者除外）之一醉酒，即使你死于处决。",
@@ -320,7 +320,7 @@
   },
   {
     "id": "weizhengtiancai",
-    "image": "/scripts/assets/community/67783550088e008df8db6923e8c27863d3d117ac519d2ea826e925b907e240e0.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/67783550088e008df8db6923e8c27863d3d117ac519d2ea826e925b907e240e0.png",
     "edition": "custom",
     "name": "伪证天才",
     "ability": "每个夜晚，你要选择一个角色：可能会有玩家被欺骗得知该角色的能力触发了。",
@@ -335,7 +335,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -349,7 +349,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -365,7 +365,7 @@
   },
   {
     "id": "widow22",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "name": "寡妇",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -406,7 +406,7 @@
   },
   {
     "id": "jiejiene111",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
     "edition": "custom",
     "name": "镜像双子",
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
@@ -422,7 +422,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -439,7 +439,7 @@
   },
   {
     "id": "shimengmo",
-    "image": "/scripts/assets/community/1761c1ef9ac204cccc0e5492ed5d4af5bc4af5b730179ea4dfa7ad953f4c49bb.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/1761c1ef9ac204cccc0e5492ed5d4af5bc4af5b730179ea4dfa7ad953f4c49bb.png",
     "edition": "custom",
     "name": "貘",
     "ability": "每个夜晚，你要选择一名玩家你得知他角色。每个夜晚，你可以选择一个恶魔能力，如果你更换了恶魔能力，一名善良玩家会得知。",
@@ -456,7 +456,7 @@
   },
   {
     "id": "2225_meta",
-    "image": "/scripts/assets/community/1761c1ef9ac204cccc0e5492ed5d4af5bc4af5b730179ea4dfa7ad953f4c49bb.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/1761c1ef9ac204cccc0e5492ed5d4af5bc4af5b730179ea4dfa7ad953f4c49bb.png",
     "name": "貘可以选择的恶魔角色：",
     "team": "a jinxed",
     "setup": false,
@@ -468,14 +468,14 @@
     "name": "如梦如醉",
     "team": "fabled",
     "ability": "醉酒的玩家获取的信息必然错误。酒鬼认知的角色获取的信息必然错误。",
-    "image": "/scripts/assets/community/b5748ca9e7db8cf899e77d8784a0dc7199322a131dae33deb3dc246c6c1ebb95.webp",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/b5748ca9e7db8cf899e77d8784a0dc7199322a131dae33deb3dc246c6c1ebb95.webp",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "id": "25_meta",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-nan-ke-yi-meng-e55692d8/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "name": "炼金术士&寡妇",
     "team": "a jinxed",
     "setup": false,

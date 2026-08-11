@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "挑灯看剑",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/30c1ffd4765f4a598b66be574679ad94c5a5c4694906d73835349133d7816985.png",
+    "logo": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/30c1ffd4765f4a598b66be574679ad94c5a5c4694906d73835349133d7816985.png",
     "A jinxed": "相克",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -30,7 +30,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "flavor": "",
     "id": "knight_c",
@@ -48,7 +48,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "flavor": "",
     "id": "bounty_hunter_c",
@@ -66,7 +66,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinyangshi_c",
@@ -85,7 +85,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -108,7 +108,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monk_c",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_c",
@@ -145,7 +145,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "flavor": "",
     "id": "exorcist_c",
@@ -163,7 +163,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "flavor": "",
     "id": "acrobat_c",
@@ -182,7 +182,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -208,7 +208,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -226,7 +226,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_c",
@@ -242,7 +242,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -261,7 +261,7 @@
   },
   {
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "flavor": "",
     "id": "magician_c",
@@ -285,7 +285,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_c",
@@ -306,7 +306,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_c",
@@ -324,7 +324,7 @@
   },
   {
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom",
     "flavor": "",
     "id": "hatter_c",
@@ -342,7 +342,7 @@
   },
   {
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "flavor": "",
     "id": "shusheng_c",
@@ -361,7 +361,7 @@
   },
   {
     "ability": "你可以在夜晚睁眼。当其他邪恶玩家被唤醒时，你也会被唤醒。",
-    "image": "/scripts/assets/community/d80bb8f6b89b3ceafef6d6f1a6f0084a4552cde1bdaab259df25ee845f670fb5.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/d80bb8f6b89b3ceafef6d6f1a6f0084a4552cde1bdaab259df25ee845f670fb5.png",
     "edition": "custom",
     "flavor": "",
     "id": "wraith_c",
@@ -387,7 +387,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -405,7 +405,7 @@
   },
   {
     "ability": "会有额外的外来者在场。[+2 外来者]",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "edition": "custom",
     "flavor": "",
     "id": "baron_c",
@@ -421,7 +421,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widow_c",
@@ -448,7 +448,7 @@
   },
   {
     "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]\n\n",
-    "image": "/scripts/assets/community/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
     "edition": "custom",
     "flavor": "",
     "id": "summoner_c",
@@ -468,7 +468,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "flavor": "",
     "id": "vigormortisc5f1f79ea",
@@ -489,7 +489,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "taotie_c",
@@ -507,7 +507,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",
@@ -529,7 +529,7 @@
     "name": "赏金猎人&哲学家",
     "team": "A jinxed",
     "ability": "如果哲学家获得了赏金猎人的能力，可能会有一名镇民玩家转变为邪恶。",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom"
   },
   {
@@ -537,7 +537,7 @@
     "name": "魔术师&亡魂",
     "team": "A jinxed",
     "ability": "每个白天发生处决后，存活的魔术师可以公开猜测一名存活玩家是亡魂：如果猜对了，恶魔当晚必须选择亡魂。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom"
   },
   {
@@ -545,7 +545,7 @@
     "name": "魔术师&寡妇",
     "team": "A jinxed",
     "ability": "当寡妇查看魔典时，魔术师和恶魔的标记会被说书人移除。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom"
   },
   {
@@ -553,7 +553,7 @@
     "name": "帽匠&召唤师",
     "team": "A jinxed",
     "ability": "召唤师无法创造已经在场的恶魔。如果召唤师创造了一个不在场的恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/f099cf89f0745f81b5d668c255007b659f99a96d9d89eac17d6a0b201b988c0f.png",
     "edition": "custom"
   },
   {
@@ -561,7 +561,7 @@
     "name": "召唤师&普卡",
     "team": "A jinxed",
     "ability": "召唤师可以选择在第二个夜晚将一名玩家变成普卡。",
-    "image": "/scripts/assets/community/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/aa9019f3a1a6b768bd43d0734f724df05195e4720c86e351cd2440862841a55d.png",
     "edition": "custom"
   },
   {
@@ -569,7 +569,7 @@
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名（旅行者不计算在内）。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom"
   },
   {
@@ -577,7 +577,7 @@
     "name": "失败的上帝",
     "team": "fabled",
     "ability": "每局游戏至少一次，说书人将会出现失误，但会纠正并公开承认自己曾处理有误。",
-    "image": "/scripts/assets/community/7fa3b825805d371b348d6a7b66e637ca258efb08cb554441b22483d798851db5.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/7fa3b825805d371b348d6a7b66e637ca258efb08cb554441b22483d798851db5.png",
     "edition": "custom"
   },
   {
@@ -585,7 +585,7 @@
     "name": "灯神",
     "team": "fabled",
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-tiao-deng-kan-jian-5f1f79ea/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/240d3e111e23410b8ae4bd75a2b690d4a25f70d02bc2e4524fda33e48e8bc8ef.png",
+    "logo": "/scripts/assets/community-re-la-zong-shi-2468fcf5/240d3e111e23410b8ae4bd75a2b690d4a25f70d02bc2e4524fda33e48e8bc8ef.png",
     "name": "热辣宗师",
     "townsfolkName": "镇民",
     "author": "驯鹿&鸦木布拉夫南昌分镇",
@@ -19,7 +19,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：你会获得他的能力直到下个黄昏。",
-    "image": "/scripts/assets/community/3c5859bb3b623233b9ea3706865946629c7d993aca41aea77853277e436cd8b5.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/3c5859bb3b623233b9ea3706865946629c7d993aca41aea77853277e436cd8b5.png",
     "edition": "custom",
     "flavor": "",
     "id": "zongshi",
@@ -38,7 +38,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "flavor": "",
     "id": "shugenja_button",
@@ -55,7 +55,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。",
-    "image": "/scripts/assets/community/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
     "edition": "custom",
     "flavor": "",
     "id": "washerwoman_button",
@@ -75,7 +75,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinyangshi_button",
@@ -97,7 +97,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstress_button",
@@ -116,7 +116,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一个镇民角色：他的能力会产生错误信息，直到下个黄昏。",
-    "image": "/scripts/assets/community/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/9e689300bbb2c883d8771326f8e9d4d156141bc0b85d43c9f079e24ca92c4de6.png",
     "edition": "custom",
     "flavor": "",
     "id": "xionghaizi_button",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
-    "image": "/scripts/assets/community/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/e0d1a37d53eaf404b7b3acd1c4302a4c29263d22b84870ded175d584f3098c06.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoshi_button",
@@ -153,7 +153,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_button",
@@ -173,7 +173,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
-    "image": "/scripts/assets/community/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhifu_button",
@@ -191,7 +191,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinluren_button",
@@ -208,7 +208,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他醉酒并死亡。",
-    "image": "/scripts/assets/community/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhen_button",
@@ -227,7 +227,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "ravenkeeper_button",
@@ -244,7 +244,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayor_button",
@@ -261,7 +261,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_button",
@@ -280,7 +280,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "flavor": "",
     "id": "butler_button",
@@ -298,7 +298,7 @@
   },
   {
     "ability": "如果你死于处决，你的阵营落败。",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "flavor": "",
     "id": "saint_button",
@@ -314,7 +314,7 @@
   },
   {
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
-    "image": "/scripts/assets/community/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
     "edition": "custom",
     "flavor": "",
     "id": "zealot_button",
@@ -331,7 +331,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_button",
@@ -350,7 +350,7 @@
   },
   {
     "ability": "会有额外的外来者在场。[+2 外来者]",
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "edition": "custom",
     "flavor": "",
     "id": "baron_button",
@@ -367,7 +367,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_button",
@@ -386,7 +386,7 @@
   },
   {
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "flavor": "",
     "id": "gudiao_button",
@@ -405,7 +405,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniang_button",
@@ -423,7 +423,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_button",
@@ -442,7 +442,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "flavor": "",
     "id": "no_dashii_button",
@@ -462,7 +462,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
     "edition": "custom",
     "flavor": "",
     "id": "hundun_button",
@@ -482,7 +482,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-re-la-zong-shi-2468fcf5/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "spirit_of_ivory_button",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "不可思议",
     "author": "风厌",
-    "logo": "/scripts/assets/community/b40b11cac9f2c2c09d871f11b345898ebe392164d49deea18dccda216cc65948.png",
+    "logo": "/scripts/assets/community-bu-ke-si-yi-35b7e083/b40b11cac9f2c2c09d871f11b345898ebe392164d49deea18dccda216cc65948.png",
     "tags": [
       "部分原创角色剧本",
       "不含私货"
@@ -12,7 +12,7 @@
   },
   {
     "id": "_yi",
-    "image": "/scripts/assets/community/980c844b0860057bb70be93d6c9ae4e5e71d9f3cfa003414b4d91a698dea82da.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/980c844b0860057bb70be93d6c9ae4e5e71d9f3cfa003414b4d91a698dea82da.png",
     "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
     "reminders": [
       "外来者",
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_yi",
-    "image": "/scripts/assets/community/9ccfc52980e67422439f550e2a116904ec966425fec446911769d6d972eba9e3.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/9ccfc52980e67422439f550e2a116904ec966425fec446911769d6d972eba9e3.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "得知"
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_yi",
-    "image": "/scripts/assets/community/35f45978f85ca0f458b3e2e883a870bc41078e99df57e61fe00efd2876e3341b.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/35f45978f85ca0f458b3e2e883a870bc41078e99df57e61fe00efd2876e3341b.png",
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
     "reminders": [
       "疯狂",
@@ -53,7 +53,7 @@
   },
   {
     "id": "3_yi",
-    "image": "/scripts/assets/community/9d4b69495c7a2e26c4fdf11bb1502877c6accd72b4db01d01f1eeda9bc528838.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/9d4b69495c7a2e26c4fdf11bb1502877c6accd72b4db01d01f1eeda9bc528838.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -68,7 +68,7 @@
   },
   {
     "id": "4_yi",
-    "image": "/scripts/assets/community/dc1d8a79ca7d73f9f0eb3e8fd24f311cac9c3cbb2f441de577c82daf60ebccfc.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/dc1d8a79ca7d73f9f0eb3e8fd24f311cac9c3cbb2f441de577c82daf60ebccfc.png",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
@@ -83,7 +83,7 @@
   },
   {
     "id": "5_yi",
-    "image": "/scripts/assets/community/3a1055b74fea1a756db939d01847d64b9c424c01a2036ab4450bec924c4c7740.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/3a1055b74fea1a756db939d01847d64b9c424c01a2036ab4450bec924c4c7740.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与上个夜晚气球驾驶员得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -98,7 +98,7 @@
   },
   {
     "id": "6_yi",
-    "image": "/scripts/assets/community/09b960deb7ee39c2886063e87a0f64d58313995b17675d9d9673506d07c0bfc2.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/09b960deb7ee39c2886063e87a0f64d58313995b17675d9d9673506d07c0bfc2.png",
     "firstNightReminder": "唤醒将军，用手势来告知他哪个阵营处于优势。",
     "otherNightReminder": "唤醒将军，用手势来告知他哪个阵营处于优势。",
     "name": "将军",
@@ -110,7 +110,7 @@
   },
   {
     "id": "7_yi",
-    "image": "/scripts/assets/community/c1f5302bd185c481ed6b0d02a7590bcb81008caf9bdb376b8d473c5983d22929.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/c1f5302bd185c481ed6b0d02a7590bcb81008caf9bdb376b8d473c5983d22929.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -129,7 +129,7 @@
   },
   {
     "id": "8_yi",
-    "image": "/scripts/assets/community/6e32a9d3f4c1bb4f334dfd66c7da03978840b747a2d9b14dc883864b90838b18.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/6e32a9d3f4c1bb4f334dfd66c7da03978840b747a2d9b14dc883864b90838b18.png",
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
     "reminders": [
       "保护"
@@ -142,7 +142,7 @@
   },
   {
     "id": "9_yi",
-    "image": "/scripts/assets/community/88c1faa946dc26175e35aa25f66d0d6140f08bf3009f2dbe3fd5981eed63fe2d.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/88c1faa946dc26175e35aa25f66d0d6140f08bf3009f2dbe3fd5981eed63fe2d.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -152,7 +152,7 @@
   },
   {
     "id": "10_yi",
-    "image": "/scripts/assets/community/9b58f01628c4cfc9882ddcafca515f6273f35dd43dde2223db1e10e2f71edbef.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/9b58f01628c4cfc9882ddcafca515f6273f35dd43dde2223db1e10e2f71edbef.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "11_yi",
-    "image": "/scripts/assets/community/884fed4da6ae54340f7deaf897065120a836f55767719ca1128be7938feb9540.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/884fed4da6ae54340f7deaf897065120a836f55767719ca1128be7938feb9540.png",
     "reminders": [
       "失去能力"
     ],
@@ -171,7 +171,7 @@
   },
   {
     "id": "12_yi",
-    "image": "/scripts/assets/community/19bb050485346458a46e64dc101051f2e4e6ffa3678b42c198d3af2b2996e8df.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/19bb050485346458a46e64dc101051f2e4e6ffa3678b42c198d3af2b2996e8df.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -184,7 +184,7 @@
   },
   {
     "id": "13_yi",
-    "image": "/scripts/assets/community/9c5127e6985e932aea3381ed3cd5d5210b9240d983025019124940d2cf73a574.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/9c5127e6985e932aea3381ed3cd5d5210b9240d983025019124940d2cf73a574.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -196,7 +196,7 @@
   },
   {
     "id": "14_yi",
-    "image": "/scripts/assets/community/f4909647b0e0b7169e4f7e9c69bf47743fc49f40f39597adf57a5831ecdac171.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/f4909647b0e0b7169e4f7e9c69bf47743fc49f40f39597adf57a5831ecdac171.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -204,7 +204,7 @@
   },
   {
     "id": "15_yi",
-    "image": "/scripts/assets/community/5a99a05126a22c549e13571afc357ac97a24ec88159f5dd07d54eefce1b55643.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/5a99a05126a22c549e13571afc357ac97a24ec88159f5dd07d54eefce1b55643.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -212,7 +212,7 @@
   },
   {
     "id": "16_yi",
-    "image": "/scripts/assets/community/e0cf82dd46aa7423967b1e6a99d2f4429144d0a53bfcd71683d333e50765ed82.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/e0cf82dd46aa7423967b1e6a99d2f4429144d0a53bfcd71683d333e50765ed82.png",
     "otherNightReminder": "如果理发师今天死亡了，唤醒恶魔并展示“该角色的效果对你生效”信息标记和理发师角色标记。如果恶魔选择了两名玩家，将这两名玩家分别独自唤醒。对他们展示“你是”信息标记和他们的新角色标记。",
     "reminders": [
       "今晚理发"
@@ -225,7 +225,7 @@
   },
   {
     "id": "17_yi",
-    "image": "/scripts/assets/community/6119dfbf7c54af0b2108765a9235603481efa97769ff0cc6e1ce273275398dbe.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/6119dfbf7c54af0b2108765a9235603481efa97769ff0cc6e1ce273275398dbe.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "18_yi",
-    "image": "/scripts/assets/community/074806e32a3b7eea791295e5f8584f62488bb43294699ac6700be1749c2001e7.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/074806e32a3b7eea791295e5f8584f62488bb43294699ac6700be1749c2001e7.png",
     "name": "异端分子",
     "team": "outsider",
     "ability": "对调胜负结果，即使你已死亡。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "19_yi",
-    "image": "/scripts/assets/community/f15491ab8360ebddae13d1235fd0f308387f9cacda135b3b41f682e30bfb9dfd.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/f15491ab8360ebddae13d1235fd0f308387f9cacda135b3b41f682e30bfb9dfd.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -259,7 +259,7 @@
   },
   {
     "id": "20_yi",
-    "image": "/scripts/assets/community/ef2a2c716aac6e730271d1b94eac684bad64bf365c6d3f6b6cda67da6b5e2381.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/ef2a2c716aac6e730271d1b94eac684bad64bf365c6d3f6b6cda67da6b5e2381.png",
     "otherNightReminder": "如果红唇女郎今天变成了恶魔，对她展示“你是”信息标记，和对应的恶魔角色标记。",
     "remindersGlobal": [
       "是恶魔"
@@ -272,7 +272,7 @@
   },
   {
     "id": "21_yi",
-    "image": "/scripts/assets/community/c3e58c050a6832cdc1c075bc76f62d2822cbc9e258fdf61aa0243ec943032af6.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/c3e58c050a6832cdc1c075bc76f62d2822cbc9e258fdf61aa0243ec943032af6.png",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -287,7 +287,7 @@
   },
   {
     "id": "22_yi",
-    "image": "/scripts/assets/community/ee2d43c4f011c110bd1c07cd997d0c51b9f292bb5a36d7ffe98f04d7117e96c4.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/ee2d43c4f011c110bd1c07cd997d0c51b9f292bb5a36d7ffe98f04d7117e96c4.png",
     "firstNightReminder": "向寡妇展示魔典，她想看多久就看多久。在她查看完毕后让她选择一名玩家，标记那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。 ",
     "reminders": [
       "中毒"
@@ -303,7 +303,7 @@
   },
   {
     "id": "23_yi",
-    "image": "/scripts/assets/community/b37d1a33e0d6c5bd60fc3da9c6631f9f2b5b262a01e8b4d7ed8982456027021b.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/b37d1a33e0d6c5bd60fc3da9c6631f9f2b5b262a01e8b4d7ed8982456027021b.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -317,7 +317,7 @@
   },
   {
     "id": "24_yi",
-    "image": "/scripts/assets/community/cec0a4a0d80c8bfaf78a6c9cf2e8bfd83d2abf0122af34ee0bfd434876c17e98.png",
+    "image": "/scripts/assets/community-bu-ke-si-yi-35b7e083/cec0a4a0d80c8bfaf78a6c9cf2e8bfd83d2abf0122af34ee0bfd434876c17e98.png",
     "otherNightReminder": "唤醒议，让他指向一名玩家并决定是否杀死那名玩家。如果那名玩家选择转变为邪恶的爪牙，你可以杀死一名玩家。",
     "reminders": [
       "死亡"

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "上锁房间",
     "author": "小平",
-    "logo": "/scripts/assets/community/53cad9f3c98857c488837a387a64c44e698250ea5c6ee724bf86b6ff68f455ce.png",
+    "logo": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/53cad9f3c98857c488837a387a64c44e698250ea5c6ee724bf86b6ff68f455ce.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_shangsuofangjian",
-    "image": "/scripts/assets/community/8acfaca27c7b9f7319244dfcce32ebed584b96ffc920c4ee745119adaea15126.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/8acfaca27c7b9f7319244dfcce32ebed584b96ffc920c4ee745119adaea15126.png",
     "reminders": [
       "是锁匠",
       "失去能力"
@@ -27,7 +27,7 @@
   },
   {
     "id": "1_shangsuofangjian",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -42,7 +42,7 @@
   },
   {
     "id": "2_shangsuofangjian",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -55,7 +55,7 @@
   },
   {
     "id": "3_shangsuofangjian",
-    "image": "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png",
     "reminders": [
       "失去能力"
     ],
@@ -66,7 +66,7 @@
   },
   {
     "id": "4_shangsuofangjian",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -81,7 +81,7 @@
   },
   {
     "id": "5_shangsuofangjian",
-    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "reminders": [
       "恶魔未投票",
@@ -95,7 +95,7 @@
   },
   {
     "id": "6_shangsuofangjian",
-    "image": "/scripts/assets/community/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png",
     "otherNightReminder": "如果今天白天有玩家死于处决，唤醒史官，告知其在场存活镇民数量。",
     "reminders": [
       "死于今日"
@@ -108,7 +108,7 @@
   },
   {
     "id": "7_shangsuofangjian",
-    "image": "/scripts/assets/community/4061781af4dfc03141378a9e1789daef0321908d2ff503bfc1c5d6f631af074b.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/4061781af4dfc03141378a9e1789daef0321908d2ff503bfc1c5d6f631af074b.png",
     "firstNightReminder": "告诉灶王爷二名玩家和一个数字，该数字为灶王爷和他们的角色类型数量。",
     "reminders": [
       "知晓"
@@ -121,7 +121,7 @@
   },
   {
     "id": "8_shangsuofangjian",
-    "image": "/scripts/assets/community/4bdb9abb4092adaec313d953e35553d375cd9607e8dba5a6200ae45f9b5f14fe.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/4bdb9abb4092adaec313d953e35553d375cd9607e8dba5a6200ae45f9b5f14fe.png",
     "otherNightReminder": "如果他在白天公开宣读了，唤醒他并告知他“是”或“否”。",
     "reminders": [
       "真新闻",
@@ -135,7 +135,7 @@
   },
   {
     "id": "9_shangsuofangjian",
-    "image": "/scripts/assets/community/182ff3735de921eeddf6cbf6c0786884df848a1cf724b30983f5b88206b9f4c0.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/182ff3735de921eeddf6cbf6c0786884df848a1cf724b30983f5b88206b9f4c0.png",
     "firstNightReminder": "得知外来者或爪牙",
     "otherNightReminder": "若死亡得知外来者或爪牙",
     "setup": true,
@@ -148,7 +148,7 @@
   },
   {
     "id": "10_shangsuofangjian",
-    "image": "/scripts/assets/community/e1a72c9dee4cf2f1b42b7e59ea9eeb63a78257c9f22677fa8c057b7585990cf7.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/e1a72c9dee4cf2f1b42b7e59ea9eeb63a78257c9f22677fa8c057b7585990cf7.png",
     "firstNightReminder": "每个夜晚，你会得知你和舞龙尾最近距离间存活的善良玩家数量（不含旅行者）。[离你最远的一名镇民是舞龙尾]",
     "otherNightReminder": "每个夜晚，你会得知你和舞龙尾最近距离间存活的善良玩家数量（不含旅行者）。[离你最远的一名镇民是舞龙尾]",
     "setup": true,
@@ -161,7 +161,7 @@
   },
   {
     "id": "11_shangsuofangjian",
-    "image": "/scripts/assets/community/a3c9dcb65c18fd9bcef759f10d533c57e3f0b4ca15a90ef7d4bfae3264206d54.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/a3c9dcb65c18fd9bcef759f10d533c57e3f0b4ca15a90ef7d4bfae3264206d54.png",
     "firstNightReminder": "得知一个在场角色，并在该玩家角色旁放置“得知”标记",
     "otherNightReminder": "若白天她猜对，得知另一个在场角色，并在该玩家角色旁放置“得知”标记",
     "reminders": [
@@ -176,7 +176,7 @@
   },
   {
     "id": "12_shangsuofangjian",
-    "image": "/scripts/assets/community/a4e6b99a5e76b5c390517dbd2fe4ddeea2c86afce19d3cec0562883005bbafe4.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/a4e6b99a5e76b5c390517dbd2fe4ddeea2c86afce19d3cec0562883005bbafe4.png",
     "remindersGlobal": [
       "舞龙尾"
     ],
@@ -188,7 +188,7 @@
   },
   {
     "id": "13_shangsuofangjian",
-    "image": "/scripts/assets/community/f9251a3c8af38436aa1837c45173bf59e739ac548724a7c6f4eddd264b7c2532.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/f9251a3c8af38436aa1837c45173bf59e739ac548724a7c6f4eddd264b7c2532.png",
     "firstNightReminder": "Point to an evil player or an Outsider. Recall that if they have the \"false info\" reminder token, that you must show them a player which is neither (most of the time, this is a Townsfolk).",
     "otherNightReminder": "Point to an evil player or an Outsider. Recall that if they have the \"false info\" reminder token, that you must show them a player which is neither (most of the time, this is a Townsfolk).",
     "reminders": [
@@ -203,7 +203,7 @@
   },
   {
     "id": "14_shangsuofangjian",
-    "image": "/scripts/assets/community/93be33a82c669194fc8a601b7b8843cdbf7b538390e2d74bdec84d06973de04c.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/93be33a82c669194fc8a601b7b8843cdbf7b538390e2d74bdec84d06973de04c.png",
     "otherNightReminder": "每个夜晚*，你会得知你提名过的玩家之中共有多少种角色类型。 如果每个白天你没有提名其他存活的玩家，你的阵营落败",
     "reminders": [
       "被提名"
@@ -216,7 +216,7 @@
   },
   {
     "id": "15_shangsuofangjian",
-    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
     "reminders": [
       "无法提名"
     ],
@@ -227,7 +227,7 @@
   },
   {
     "id": "16_shangsuofangjian",
-    "image": "/scripts/assets/community/8c88aeb3d61884fadb7a4133e67be1fbf7b19e0b0b873dfd99087373ad596a07.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/8c88aeb3d61884fadb7a4133e67be1fbf7b19e0b0b873dfd99087373ad596a07.png",
     "firstNightReminder": "存活的恶魔和爪牙(仅限游戏的首个夜晚，玩偶除外)知道你是醉汉以及你的认知，并得知你当晚的行动与获取的信息。",
     "remindersGlobal": [
       "醉汉"
@@ -241,7 +241,7 @@
   },
   {
     "id": "17_shangsuofangjian",
-    "image": "/scripts/assets/community/c4db1f8f0e7851d2c0943de9ea8e72de15963b5306ad5d6f9b83cf3aaf3a9ff8.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/c4db1f8f0e7851d2c0943de9ea8e72de15963b5306ad5d6f9b83cf3aaf3a9ff8.png",
     "firstNightReminder": "你不会醉酒或中毒。有一名恶魔中毒且与爪牙互相不认识。[+1恶魔，-1爪牙]",
     "reminders": [
       "中毒"
@@ -261,12 +261,12 @@
     "name": "堂吉诃德",
     "team": "outsider",
     "ability": "一名玩家会被镇民的能力当作恶魔，即使你已死亡。你可以私下询问说书人以得知“他”是谁，随后“他”会改为另一名玩家。",
-    "image": "/scripts/assets/community/3adda34f7b9799033c3a0cd63067505061fa5c5a282b969a87153cb89b8b34f1.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/3adda34f7b9799033c3a0cd63067505061fa5c5a282b969a87153cb89b8b34f1.png",
     "edition": "custom"
   },
   {
     "id": "19_shangsuofangjian",
-    "image": "/scripts/assets/community/c30b4337da1ea628c3137eddb1e6a6a763d89e2ba62745ac88f1281836f2ec73.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/c30b4337da1ea628c3137eddb1e6a6a763d89e2ba62745ac88f1281836f2ec73.png",
     "firstNightReminder": "初始设置时，在战车顺时针距离为1的善良玩家的角色标记旁放置“控制”提示标记以表示他是由于战车的能力中毒；如果战车的顺时针距离为1的玩家是邪恶的，则战车将与其交换角色，随后在新战车的顺时针距离为1的善良玩家的角色标记旁放置“控制”提示标记。",
     "otherNightReminder": "将战车的“控制”提示标记以顺时针方向推进到下一名玩家。如果落在邪恶玩家上，则战车将与其交换角色，随后在新战车的顺时针距离为1的善良玩家的角色标记旁放置“控制”提示标记。",
     "remindersGlobal": [
@@ -281,7 +281,7 @@
   },
   {
     "id": "20_shangsuofangjian",
-    "image": "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
     "setup": true,
     "name": "科学怪人",
@@ -292,7 +292,7 @@
   },
   {
     "id": "21_shangsuofangjian",
-    "image": "/scripts/assets/community/4ae92e20d980d1b2cee151f2e9e399c43e81646e92894798b36f1d1432ade7f7.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/4ae92e20d980d1b2cee151f2e9e399c43e81646e92894798b36f1d1432ade7f7.png",
     "otherNightReminder": "如果你被恶魔杀死，恶魔要选择一名玩家：他变成玩偶。",
     "remindersGlobal": [
       "初始玩偶",
@@ -307,7 +307,7 @@
   },
   {
     "id": "22_shangsuofangjian",
-    "image": "/scripts/assets/community/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
     "firstNightReminder": "唤醒画皮，让画皮选择一名存活玩家，那名存活玩家变成活尸。",
     "otherNightReminder": "如果首夜被画皮变成活尸的玩家死亡，他重生，然后画皮重获能力。唤醒画皮，让画皮选择一名存活玩家，那名存活玩家变成活尸。",
     "reminders": [
@@ -323,7 +323,7 @@
   },
   {
     "id": "23_shangsuofangjian",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -336,7 +336,7 @@
   },
   {
     "id": "24_shangsuofangjian",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -351,7 +351,7 @@
   },
   {
     "id": "25_shangsuofangjian",
-    "image": "/scripts/assets/community/1c280fd377c3ba827c66c2310c243c55d6e96098142d110341f4242ce83cad54.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/1c280fd377c3ba827c66c2310c243c55d6e96098142d110341f4242ce83cad54.png",
     "otherNightReminder": "让奇奇默克选择一名玩家，标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -365,7 +365,7 @@
   },
   {
     "id": "26_shangsuofangjian",
-    "image": "/scripts/assets/community/bf5bad695e3b1d2019fa9a4c00a4368d7afb27d874f5a7c8504e8cb562beb91f.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/bf5bad695e3b1d2019fa9a4c00a4368d7afb27d874f5a7c8504e8cb562beb91f.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家:他死亡。",
     "reminders": [
       "死亡",
@@ -380,7 +380,7 @@
   },
   {
     "id": "27_shangsuofangjian",
-    "image": "/scripts/assets/community/44f0fe145714d7b1aeedbfe6f8b381bb8b90459692856e4f03fe45149c1509b9.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/44f0fe145714d7b1aeedbfe6f8b381bb8b90459692856e4f03fe45149c1509b9.png",
     "name": "舞龙身",
     "team": "traveller",
     "ability": "你无法被流放。每个白天舞龙头可以向一名非旅行者玩家发起流放，此次流放仅舞龙能参与且半数以上舞龙同意即可流放成功。[不可选择]",
@@ -388,7 +388,7 @@
   },
   {
     "id": "28_shangsuofangjian",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-shang-suo-fang-jian-b24f5113/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "外来者保护法",
     "team": "fabled",
     "ability": "方古和冤不会同时在场。",

@@ -4,7 +4,7 @@
     "name": "魔戒:护戒使者",
     "author": "Bim",
     "description": "魔戒:护戒使者",
-    "logo": "/scripts/assets/community/65246f6eff9e9c411b2dadc583909bb6e2e333f6579d09ecee5e4b4ec2b396d4.png",
+    "logo": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/65246f6eff9e9c411b2dadc583909bb6e2e333f6579d09ecee5e4b4ec2b396d4.png",
     "almanac": "https://www.bloodstar.xyz/p/Bim/Ringbearer/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -15,7 +15,7 @@
   {
     "id": "balrogringbearer",
     "name": "炎魔",
-    "image": "/scripts/assets/community/b804e9ae7127a5ac3550959c9b5285deaece0082000bdfd1030c44f2252c4d5e.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/b804e9ae7127a5ac3550959c9b5285deaece0082000bdfd1030c44f2252c4d5e.png",
     "ability": "每个白天，在提名开始前，如果一名死亡玩家同意，你可以消耗他的投票标记并公开选择一名玩家：他死亡。",
     "team": "traveler",
     "edition": "custom"
@@ -23,7 +23,7 @@
   {
     "id": "bombadilringbearer",
     "name": "庞巴迪",
-    "image": "/scripts/assets/community/b6aeeeb1a518524ff8bc23ccc4e0253b542452dad31ebcb4215f09b9212f7477.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/b6aeeeb1a518524ff8bc23ccc4e0253b542452dad31ebcb4215f09b9212f7477.png",
     "ability": "每局游戏限一次，在黄昏时，你可以要求所有玩家沉默，接着你查看魔典，然后你要公开选择一名玩家：他离开游戏。",
     "team": "traveler",
     "edition": "custom"
@@ -31,7 +31,7 @@
   {
     "id": "radagastringbearer",
     "name": "瑞达加斯特",
-    "image": "/scripts/assets/community/4ab28ca70246b748f8a433cf35734ce3cf59c6796f56a741b891a6f34f4d28a7.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/4ab28ca70246b748f8a433cf35734ce3cf59c6796f56a741b891a6f34f4d28a7.png",
     "ability": "每局游戏限一次，如果索伦同意，你可以拜访说书人并许一个愿望。",
     "reminders": [
       "如我所愿"
@@ -42,7 +42,7 @@
   {
     "id": "shelobringbearer",
     "name": "希罗布",
-    "image": "/scripts/assets/community/b33c25ffdc00c74aef2807c6b3648285a98ae33a64e3c4957190e84428256c14.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/b33c25ffdc00c74aef2807c6b3648285a98ae33a64e3c4957190e84428256c14.png",
     "ability": "每个白天，你可以拜访说书人并得知一条正确信息。你的第三个夜晚，你可以转变阵营。",
     "firstNight": 11,
     "otherNight": 2,
@@ -55,7 +55,7 @@
   {
     "id": "annatarringbearer",
     "name": "安纳塔",
-    "image": "/scripts/assets/community/73ee4a66cdaa31ec51c3804a3981f2fe5e8afdcb39eac6708d5a05fce406420d.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/73ee4a66cdaa31ec51c3804a3981f2fe5e8afdcb39eac6708d5a05fce406420d.png",
     "ability": "每个夜晚*，你可以公开选择恶魔以外的两名非旅行者的存活玩家：如果你选中了爪牙，将至尊魔戒传递给他。",
     "firstNight": 16,
     "otherNight": 4,
@@ -80,7 +80,7 @@
   {
     "id": "legolasringbearer",
     "name": "莱格拉斯",
-    "image": "/scripts/assets/community/f9dfc2e3bbe8f9d9b3fee792dc2acaafb4bca899063ba290b6fe19a4a64ea701.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/f9dfc2e3bbe8f9d9b3fee792dc2acaafb4bca899063ba290b6fe19a4a64ea701.png",
     "ability": "在你的首个夜晚，你会得知两名玩家：其中一名是邪恶的。如果他们其中一人被传递了魔戒，你会得知此事。",
     "firstNight": 22,
     "otherNight": 11,
@@ -92,7 +92,7 @@
   {
     "id": "aragornringbearer",
     "name": "阿拉贡",
-    "image": "/scripts/assets/community/5f6374e5a38941ad611590cbc1b3580df421c1b85b88cc4cc609e80f269fcd81.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/5f6374e5a38941ad611590cbc1b3580df421c1b85b88cc4cc609e80f269fcd81.png",
     "ability": "在你的首个夜晚，你会得知一个在场角色。每个夜晚*，如果你持有至尊魔戒，你重获能力。如果你拒绝传递魔戒，恶魔会得知此事。",
     "firstNight": 21,
     "otherNight": 16,
@@ -104,7 +104,7 @@
   {
     "id": "galadrielringbearer",
     "name": "凯兰催尔",
-    "image": "/scripts/assets/community/a319b3f2b8c2207ed007156269f31e49e9fadab2af0d3ae578259a4f36d27d60.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/a319b3f2b8c2207ed007156269f31e49e9fadab2af0d3ae578259a4f36d27d60.png",
     "ability": "每个夜晚，你会得知魔戒是否在善良玩家手中。每局游戏限一次，在夜晚时，你可以得知谁持有至尊魔戒。",
     "firstNight": 18,
     "otherNight": 15,
@@ -115,7 +115,7 @@
   {
     "id": "treebeardringbearer",
     "name": "胡恩",
-    "image": "/scripts/assets/community/91f154d9ced6703f61e58a4bd20ebab8ca5988544dec813e69a854018be3a615.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/91f154d9ced6703f61e58a4bd20ebab8ca5988544dec813e69a854018be3a615.png",
     "ability": "每个夜晚，你要选择一名玩家：你会在下个夜晚得知他的角色类型。如果你选中了一名爪牙，他会得知此事。",
     "firstNight": 23,
     "otherNight": 14,
@@ -126,7 +126,7 @@
   {
     "id": "gimliringbearer",
     "name": "金雳",
-    "image": "/scripts/assets/community/f264d9fe7d8e1f8faa8835302f4dd25f052dbeddc0e263ac3397c638663e9305.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/f264d9fe7d8e1f8faa8835302f4dd25f052dbeddc0e263ac3397c638663e9305.png",
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果正确，他死亡并传递至尊魔戒（说书人选择）。",
     "otherNight": 10,
     "reminders": [
@@ -136,7 +136,7 @@
   {
     "id": "boromirringbearer",
     "name": "博罗米尔",
-    "image": "/scripts/assets/community/cca6aca28aa1bdf8707756fe92c582c5a9fbddf361f4c068d344b6229f1972fa.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/cca6aca28aa1bdf8707756fe92c582c5a9fbddf361f4c068d344b6229f1972fa.png",
     "ability": "每个夜晚*，如果一名邪恶玩家持有至尊魔戒，你死亡。如果恶魔杀死了持有魔戒者，改为你替他死亡。",
     "otherNight": 18,
     "reminders": [
@@ -146,7 +146,7 @@
   {
     "id": "owynringbearer",
     "name": "伊欧文",
-    "image": "/scripts/assets/community/d7c2d9466e1bf6d695bc0a7c804ccedff0c8564470858912a012b9dfbbe32d4d.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/d7c2d9466e1bf6d695bc0a7c804ccedff0c8564470858912a012b9dfbbe32d4d.png",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：如果他是邪恶的，他死亡。",
     "otherNight": 9,
     "reminders": [
@@ -157,7 +157,7 @@
   {
     "id": "gandalfringbearer",
     "name": "甘道夫",
-    "image": "/scripts/assets/community/5e050d03219260e72631d8b717c236d2711306ee9a2fb0f440a2402a0d5bc945.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/5e050d03219260e72631d8b717c236d2711306ee9a2fb0f440a2402a0d5bc945.png",
     "ability": "每局游戏限一次，如果你持有魔戒，你可以私下向说书人许愿一次。如果恶魔杀死了你，你会在当晚复活，但每局仅能成功复活一次。",
     "otherNight": 17,
     "reminders": [
@@ -168,7 +168,7 @@
   {
     "id": "samwiseringbearer",
     "name": "山姆韦斯",
-    "image": "/scripts/assets/community/8ee49fa2523981d1423bdf19c3f633a24bd1c7d0dd460b9a54bad8193a0f3132.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/8ee49fa2523981d1423bdf19c3f633a24bd1c7d0dd460b9a54bad8193a0f3132.png",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的一名玩家：当他首次将要死亡时，他不会死亡。",
     "firstNight": 17,
     "otherNight": 5,
@@ -180,7 +180,7 @@
   {
     "id": "bilboringbearer",
     "name": "比尔博",
-    "image": "/scripts/assets/community/8d192fe2ad87fbbe9793b1a5a0697606ee98132be17c24a69bafd7a51eb97cd6.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/8d192fe2ad87fbbe9793b1a5a0697606ee98132be17c24a69bafd7a51eb97cd6.png",
     "ability": "当至尊魔戒首次将要传递到邪恶玩家手中时，改为传递给你。他会得知“你差一点就得到了至尊魔戒”。 ",
     "reminders": [
       "夺回"
@@ -189,7 +189,7 @@
   {
     "id": "frodoringbearer",
     "name": "佛罗多",
-    "image": "/scripts/assets/community/81f058d222df8156f1e2b12fbb18ad09ba25e25dae4aae0f27dfff2cfed3f4a2.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/81f058d222df8156f1e2b12fbb18ad09ba25e25dae4aae0f27dfff2cfed3f4a2.png",
     "ability": "爪牙与外来者的负面能力对你无效。如果你连续持有魔戒三晚，善良阵营获胜。",
     "otherNight": 13,
     "reminders": [
@@ -201,7 +201,7 @@
   {
     "id": "denethorringbearer",
     "name": "德内梭尔",
-    "image": "/scripts/assets/community/a6a31f98579c402a82cf7141478c07af2052437590ca9efa44a6574a1f2c26fd.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/a6a31f98579c402a82cf7141478c07af2052437590ca9efa44a6574a1f2c26fd.png",
     "ability": "每名爪牙会导致发生一次：一名镇民的能力可能会产生错误信息或在错误的时机生效，即使你已死亡。",
     "reminders": [
       "错误"
@@ -212,7 +212,7 @@
   {
     "id": "palantrringbearer",
     "name": "帕兰提尔",
-    "image": "/scripts/assets/community/09b706e18597ec36b4b183c2c7ce82c643c537e3180be0929a2c935c20651e48.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/09b706e18597ec36b4b183c2c7ce82c643c537e3180be0929a2c935c20651e48.png",
     "ability": "如果你死亡，当晚恶魔会查看魔典，其中魔戒持有者是错误的。",
     "otherNight": 12,
     "reminders": [
@@ -224,7 +224,7 @@
   {
     "id": "gollumringbearer",
     "name": "咕噜",
-    "image": "/scripts/assets/community/ef55bd557833dba94b0765f6b53a873bf7114e0341bcfff3872cc8a90a57c029.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/ef55bd557833dba94b0765f6b53a873bf7114e0341bcfff3872cc8a90a57c029.png",
     "ability": "如果游戏结束时你持有至尊魔戒，改为你独自获胜。每个夜晚，你可能失去至尊魔戒。",
     "reminders": [
       "丢了？"
@@ -235,7 +235,7 @@
   {
     "id": "oathbreakerringbearer",
     "name": "破誓者",
-    "image": "/scripts/assets/community/cb5f8f51d53efed68f83f7118d4f0d0a1693356452bfa546e9c558b830fa41da.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/cb5f8f51d53efed68f83f7118d4f0d0a1693356452bfa546e9c558b830fa41da.png",
     "ability": "你是邪恶的，直到你死亡。",
     "firstNight": 24,
     "otherNight": 19,
@@ -248,7 +248,7 @@
   {
     "id": "sarumanringbearer",
     "name": "萨鲁曼",
-    "image": "/scripts/assets/community/b5465d6b2c65444f824bf7b39c928644fe8735110c46200e1b9fcdf5ac0f1b8d.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/b5465d6b2c65444f824bf7b39c928644fe8735110c46200e1b9fcdf5ac0f1b8d.png",
     "ability": "每局游戏限一次，在白天时，你可以私下向说书人许一个愿望。",
     "reminders": [
       "如我所愿"
@@ -259,7 +259,7 @@
   {
     "id": "witchkingringbearer",
     "name": "安格玛巫王",
-    "image": "/scripts/assets/community/d949f50b6c061e5f7317a74948dddd30a7852dc330f5318373abd59725e7eb83.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/d949f50b6c061e5f7317a74948dddd30a7852dc330f5318373abd59725e7eb83.png",
     "ability": "每个夜晚，你会得知两个没有持有至尊魔戒的在场角色。每局游戏限一次，在夜晚时*，你可以选择一个你得知过的角色：他死亡。",
     "firstNight": 14,
     "otherNight": 6,
@@ -273,7 +273,7 @@
   {
     "id": "mouthofsauronringbearer",
     "name": "索伦之口",
-    "image": "/scripts/assets/community/cbcc5da0484988d8656374461e4343a765ae77e813acd6cfb0217d136a3563ae.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/cbcc5da0484988d8656374461e4343a765ae77e813acd6cfb0217d136a3563ae.png",
     "ability": "每个夜晚，你要选择一名角色：如果他在场，他中毒直到下个黄昏，随后邪恶玩家秘密交流一分钟。",
     "firstNight": 15,
     "otherNight": 7,
@@ -286,7 +286,7 @@
   {
     "id": "wormtongueringbearer",
     "name": "佞舌",
-    "image": "/scripts/assets/community/611203fede0348c5c151b1c82e809b17ca024fbb6aa822ffa7b891070bf3d544.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/611203fede0348c5c151b1c82e809b17ca024fbb6aa822ffa7b891070bf3d544.png",
     "ability": "每局游戏限一次，在夜晚时，恶魔可以选择一名玩家：他变成邪恶的佞舌。【无佞舌在场，+2外来者】",
     "firstNight": 13,
     "otherNight": 8,
@@ -300,7 +300,7 @@
   {
     "id": "sauronringbearer",
     "name": "索伦",
-    "image": "/scripts/assets/community/9dcc4069c0296f5d358dab48378e564e398ea50714de00bbe395ad9b60beaf18.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/9dcc4069c0296f5d358dab48378e564e398ea50714de00bbe395ad9b60beaf18.png",
     "ability": "所有玩家知道你是谁。每个白天结束时，你要公开选择一名玩家：他死亡。只有当所有爪牙处于死亡状态时你才会立即死亡。",
     "reminders": [
       "宣告死亡"
@@ -313,7 +313,7 @@
     "name": "至尊魔戒",
     "team": "fabled",
     "edition": "custom",
-    "image": "/scripts/assets/community/bc33b69c6f42e3bd79f78abf0f671acfb242377d925db67a931ad430eba67805.png",
+    "image": "/scripts/assets/community-mo-jie-hu-jie-shi-zhe-0c222748/bc33b69c6f42e3bd79f78abf0f671acfb242377d925db67a931ad430eba67805.png",
     "ability": "会有一名善良玩家无意中捡到魔戒。每个夜晚*，如果上个白天没有被传递魔戒，魔戒持有者可以选择一名其他存活玩家：魔戒传递给他。如果恶魔持有魔戒，或一名善良的魔戒持有者死亡，邪恶阵营获胜。如果一名邪恶的魔戒持有者死亡，魔戒会被传递给一名善良玩家。",
     "firstNight": 12,
     "firstNightReminder": "Inform the Ringbearer that they bear the Ring.",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "宝宝巴士",
     "author": "太一",
-    "logo": "/scripts/assets/community/d3cc0d67f0d92f3c3e531cfd1a2be809b2c9004ea7091db7696857410295390f.png",
+    "logo": "/scripts/assets/community-bao-bao-ba-shi-42e14543/d3cc0d67f0d92f3c3e531cfd1a2be809b2c9004ea7091db7696857410295390f.png",
     "almanac": "https://www.bloodstar.xyz/p/humlet/baobao/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "6_baobao",
-    "image": "/scripts/assets/community/699537e998ef074ed296d38977218e92b2672731133d184f631e8610530c9322.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/699537e998ef074ed296d38977218e92b2672731133d184f631e8610530c9322.png",
     "reminders": [
       "失去能力"
     ],
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_baobao",
-    "image": "/scripts/assets/community/a2e1ae725a3c6bc198d8cf582cac67600d01ec93892cf470a55b7e8b20a1982e.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/a2e1ae725a3c6bc198d8cf582cac67600d01ec93892cf470a55b7e8b20a1982e.png",
     "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。如果修行者两侧最近的邪恶玩家与他的距离相等，由你来决定告诉他什么样的信息，并用手指指向对应的一侧。让修行者重新入睡。",
     "name": "修行者",
     "team": "townsfolk",
@@ -38,7 +38,7 @@
   },
   {
     "id": "23_baobao",
-    "image": "/scripts/assets/community/5a9bbdf8ac8103b62a921efedfd3e091af4d4bfa6dd625b779b70037ef30f798.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/5a9bbdf8ac8103b62a921efedfd3e091af4d4bfa6dd625b779b70037ef30f798.png",
     "firstNightReminder": "在首个夜晚，唤醒调音师。对他展示一个外来者角色和一个爪牙角色，这两个角色需要满足其中一个在场而另一个不在场的条件。",
     "name": "调音师",
     "team": "townsfolk",
@@ -50,7 +50,7 @@
   },
   {
     "id": "24_baobao",
-    "image": "/scripts/assets/community/992344ac094e517b7a99a5ee80e53accbcc8251b3440a4490e25c6bc432ea4de.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/992344ac094e517b7a99a5ee80e53accbcc8251b3440a4490e25c6bc432ea4de.png",
     "otherNightReminder": "得知正确与否",
     "reminders": [
       "真新闻",
@@ -66,7 +66,7 @@
   },
   {
     "id": "8_baobao",
-    "image": "/scripts/assets/community/3eb1ffd69157272dc22d05e792de69516f9cf92e6e095e920c382ad293aab238.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/3eb1ffd69157272dc22d05e792de69516f9cf92e6e095e920c382ad293aab238.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -83,7 +83,7 @@
   },
   {
     "id": "30_baobao",
-    "image": "/scripts/assets/community/4429be568a3547a4e829aa36e7c820ea36f85f69d51b4f62665ef4f2e3428a20.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/4429be568a3547a4e829aa36e7c820ea36f85f69d51b4f62665ef4f2e3428a20.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -97,7 +97,7 @@
   },
   {
     "id": "40_baobao",
-    "image": "/scripts/assets/community/740c9b24e28e3cfa6ae2304c9a4cd92f2afe958f756c14f34be786fd59a48fb7.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/740c9b24e28e3cfa6ae2304c9a4cd92f2afe958f756c14f34be786fd59a48fb7.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -109,7 +109,7 @@
   },
   {
     "id": "17_baobao",
-    "image": "/scripts/assets/community/c03155f3f8792b4eeaa701c825778ad84e64a58d93ae6b2ed9c519e4d9d0290d.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/c03155f3f8792b4eeaa701c825778ad84e64a58d93ae6b2ed9c519e4d9d0290d.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
@@ -119,7 +119,7 @@
   },
   {
     "id": "38_baobao",
-    "image": "/scripts/assets/community/e0716b12d7b0d61c3bef9c4ca0771d382313b7522f287a1073ece0f7282c4caa.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/e0716b12d7b0d61c3bef9c4ca0771d382313b7522f287a1073ece0f7282c4caa.png",
     "reminders": [
       "失去能力"
     ],
@@ -132,7 +132,7 @@
   },
   {
     "id": "10_baobao",
-    "image": "/scripts/assets/community/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
     "otherNightReminder": "唤醒",
     "reminders": [
       "失去能力",
@@ -148,7 +148,7 @@
   },
   {
     "id": "26_baobao",
-    "image": "/scripts/assets/community/0c6d3b7e31252d0581c26c547565b121fe9f3672a90950f66e9ea378c84abd87.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/0c6d3b7e31252d0581c26c547565b121fe9f3672a90950f66e9ea378c84abd87.png",
     "firstNightReminder": "调香师可以摇头或指向一名玩家或指向一个邪恶角色。如果他这么做，则唤醒那名玩家，告知其xx在场。",
     "otherNightReminder": "调香师可以摇头或指向一名玩家或指向一个邪恶角色。如果他这么做，则唤醒那名玩家，告知其xx在场。",
     "reminders": [
@@ -166,7 +166,7 @@
   },
   {
     "id": "39_baobao",
-    "image": "/scripts/assets/community/280e4d73f6873c51300f8f6b1dbabb8a1c243ce77061f7dd12b18391113a601f.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/280e4d73f6873c51300f8f6b1dbabb8a1c243ce77061f7dd12b18391113a601f.png",
     "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
     "name": "贤者",
     "team": "townsfolk",
@@ -178,7 +178,7 @@
   },
   {
     "id": "27_baobao",
-    "image": "/scripts/assets/community/eaf4079f26f65effb82004a169aeec088db3f8fe86a08b74fe3d22e6c1eae439.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/eaf4079f26f65effb82004a169aeec088db3f8fe86a08b74fe3d22e6c1eae439.png",
     "name": "银匠",
     "team": "townsfolk",
     "ability": "最后一个白天的处决发生前，说书人会让你选择一名存活玩家：他立即被处决。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
@@ -188,7 +188,7 @@
   },
   {
     "id": "_baobao",
-    "image": "/scripts/assets/community/84836d6bbce8af6f562d3eeb27cf9533a55168ec002b4ce18c837ac1c24d5c06.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/84836d6bbce8af6f562d3eeb27cf9533a55168ec002b4ce18c837ac1c24d5c06.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -204,7 +204,7 @@
   },
   {
     "id": "21_baobao",
-    "image": "/scripts/assets/community/9dec023c67ddd9e1493cffba484e858e48cb54fba68be7c6de76d6fad4944c09.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/9dec023c67ddd9e1493cffba484e858e48cb54fba68be7c6de76d6fad4944c09.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -218,7 +218,7 @@
   },
   {
     "id": "19_baobao",
-    "image": "/scripts/assets/community/b6a74d3e04376c76ce7ebae6ae404b26cfdd330291d517688b93e7d78f3ba3dc.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/b6a74d3e04376c76ce7ebae6ae404b26cfdd330291d517688b93e7d78f3ba3dc.png",
     "firstNightReminder": "在首个夜晚，唤醒食人魔。让食人魔指向一名玩家。让食人魔重新入睡。如果食人魔指向了一名邪恶玩家，将食人魔的角色标记倒转放置，代表食人魔现在属于邪恶阵营。\n",
     "reminders": [
       "挚友"
@@ -233,7 +233,7 @@
   },
   {
     "id": "36_baobao",
-    "image": "/scripts/assets/community/6e39a30b52f44c1d9d87550b6c0773c99b32aa25d387d7dc9876647a313eb2b1.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/6e39a30b52f44c1d9d87550b6c0773c99b32aa25d387d7dc9876647a313eb2b1.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "28_baobao",
-    "image": "/scripts/assets/community/0bcc185e26346c9a040d85023d48f3ac180fa866d5025e647d919840bdaa7d9e.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/0bcc185e26346c9a040d85023d48f3ac180fa866d5025e647d919840bdaa7d9e.png",
     "firstNightReminder": "在首个夜晚，唤醒一名爪牙。对他展示“这些角色不在场”信息标记，然后对他展示三个不在场的善良角色标记。让这名爪牙重新入睡。重复此流程，直到所有爪牙都得知了三个不在场角色。",
     "name": "告密者",
     "team": "outsider",
@@ -255,7 +255,7 @@
   },
   {
     "id": "29_baobao",
-    "image": "/scripts/assets/community/12a080369fad8a310ee9f68f555c6eded2f27c5a94cdc8769e2aa8b4613ff691.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/12a080369fad8a310ee9f68f555c6eded2f27c5a94cdc8769e2aa8b4613ff691.png",
     "remindersGlobal": [
       "初始玩偶",
       "新玩偶"
@@ -270,7 +270,7 @@
   },
   {
     "id": "22_baobao",
-    "image": "/scripts/assets/community/f02fba0bd1790feea4a184050bf83002f927e6fc5ffa04456d903764bcb6f79c.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/f02fba0bd1790feea4a184050bf83002f927e6fc5ffa04456d903764bcb6f79c.png",
     "reminders": [
       "已宣称"
     ],
@@ -283,7 +283,7 @@
   },
   {
     "id": "33_baobao",
-    "image": "/scripts/assets/community/64c1234ac2d936117a14af79d5ab636c0ae6aebee52d81a6de38139d7c0efd64.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/64c1234ac2d936117a14af79d5ab636c0ae6aebee52d81a6de38139d7c0efd64.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -294,7 +294,7 @@
   },
   {
     "id": "35_baobao",
-    "image": "/scripts/assets/community/3cfb3955aa1b3534d4a8c27967096efdd424890127690722c8a8a4a26f672c68.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/3cfb3955aa1b3534d4a8c27967096efdd424890127690722c8a8a4a26f672c68.png",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
     "remindersGlobal": [
       "是恶魔"
@@ -309,7 +309,7 @@
   },
   {
     "id": "34_baobao",
-    "image": "/scripts/assets/community/16d0af9a0f71c3b2fcaf188a2973acb6f2ed0fa2c34518ba7088c68322f92c65.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/16d0af9a0f71c3b2fcaf188a2973acb6f2ed0fa2c34518ba7088c68322f92c65.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -324,7 +324,7 @@
   },
   {
     "id": "5_baobao",
-    "image": "/scripts/assets/community/7782d5f54325d6fd5f42a67fc576e6ca4a1ed5054fe29f66696fd52fe02df94d.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/7782d5f54325d6fd5f42a67fc576e6ca4a1ed5054fe29f66696fd52fe02df94d.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -339,7 +339,7 @@
   },
   {
     "id": "37_baobao",
-    "image": "/scripts/assets/community/bd5634e3595049e0fe5b10bf3e325780f9d01e46b578d831a4bf90738ec525cb.png",
+    "image": "/scripts/assets/community-bao-bao-ba-shi-42e14543/bd5634e3595049e0fe5b10bf3e325780f9d01e46b578d831a4bf90738ec525cb.png",
     "reminders": [
       "庇护",
       "不好的事"

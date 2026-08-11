@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "信息湍流",
     "author": "伊露希",
-    "logo": "/scripts/assets/community/19daea929cbfbd68e2f8f94deb991e9fd181941837acf7b10313a59f8275a996.png",
+    "logo": "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/19daea929cbfbd68e2f8f94deb991e9fd181941837acf7b10313a59f8275a996.png",
     "tags": [],
     "version": "",
     "issue": 933
@@ -12,7 +12,7 @@
     "id": "diaochayuan_tpi",
     "name": "调查员",
     "image": [
-      "/scripts/assets/community/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -30,7 +30,7 @@
     "id": "guizu_tpi",
     "name": "贵族",
     "image": [
-      "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -47,7 +47,7 @@
     "id": "xiaojingling_tpi",
     "name": "小精灵",
     "image": [
-      "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -65,7 +65,7 @@
     "id": "yinyangshi_mtyj",
     "name": "阴阳师",
     "image": [
-      "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -83,7 +83,7 @@
     "id": "gongqingzhe_tpi",
     "name": "共情者",
     "image": [
-      "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -98,7 +98,7 @@
     "id": "zhanbushi_tpi",
     "name": "占卜师",
     "image": [
-      "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。\n会有一名善良玩家始终被你的能力当作恶魔。",
@@ -116,7 +116,7 @@
     "id": "shinv_tpi",
     "name": "侍女",
     "image": [
-      "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -131,7 +131,7 @@
     "id": "zhumengshi_tpi",
     "name": "筑梦师",
     "image": [
-      "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -146,7 +146,7 @@
     "id": "dutu_tpi",
     "name": "赌徒",
     "image": [
-      "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -163,7 +163,7 @@
     "id": "songzangzhe_tpi",
     "name": "送葬者",
     "image": [
-      "/scripts/assets/community/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -180,7 +180,7 @@
     "id": "maihuanvhai_tpi",
     "name": "卖花女孩",
     "image": [
-      "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -198,7 +198,7 @@
     "id": "xuncha_liuzhongqi",
     "name": "巡察",
     "image": [
-      "/scripts/assets/community/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
@@ -214,7 +214,7 @@
     "id": "yishujia_tpi",
     "name": "艺术家",
     "image": [
-      "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -230,7 +230,7 @@
     "id": "daigua_tpi",
     "name": "呆瓜",
     "image": [
-      "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
     ],
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -243,7 +243,7 @@
     "id": "kuangrezhe_tpi",
     "name": "狂热者",
     "image": [
-      "/scripts/assets/community/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png"
     ],
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -256,7 +256,7 @@
     "id": "yuezhizi_tpi",
     "name": "月之子",
     "image": [
-      "/scripts/assets/community/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/2f954d6981d2dcdc014127503adf14d85a4ee9a2f3436dce291e1afe10612ebe.png"
     ],
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -273,7 +273,7 @@
     "id": "shaxing_aimofriday",
     "name": "煞星",
     "image": [
-      "/scripts/assets/community/29c771be24d95869b4883f1eaaa3af8e07543f610f7e8efd6342f7ac3ad999c2.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/29c771be24d95869b4883f1eaaa3af8e07543f610f7e8efd6342f7ac3ad999c2.png"
     ],
     "team": "outsider",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -290,7 +290,7 @@
     "id": "guafu_tpi",
     "name": "寡妇",
     "image": [
-      "/scripts/assets/community/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -308,7 +308,7 @@
     "id": "xian_tpi",
     "name": "限",
     "image": [
-      "/scripts/assets/community/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png"
     ],
     "team": "minion",
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
@@ -329,7 +329,7 @@
     "id": "jiaofu_tpi",
     "name": "教父",
     "image": [
-      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -348,7 +348,7 @@
     "id": "cike_tpi",
     "name": "刺客",
     "image": [
-      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
     ],
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -366,7 +366,7 @@
     "id": "xiaoemo_tpi",
     "name": "小恶魔",
     "image": [
-      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -383,7 +383,7 @@
     "id": "woliu_tpi",
     "name": "涡流",
     "image": [
-      "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n镇民玩家的能力都会产生错误信息。\n如果白天没人被处决，邪恶阵营获胜。",
@@ -400,7 +400,7 @@
     "id": "puka_tpi",
     "name": "普卡",
     "image": [
-      "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
     ],
     "team": "demon",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。\n上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -419,7 +419,7 @@
     "id": "baojun_kaifei",
     "name": "暴君",
     "image": [
-      "/scripts/assets/community/f59f9cd84818446ab1cfa05e71b3832bb431db7cba4d1e2380bd1ff5b8f6efcb.png"
+      "/scripts/assets/community-xin-xi-tuan-liu-b2f495de/f59f9cd84818446ab1cfa05e71b3832bb431db7cba4d1e2380bd1ff5b8f6efcb.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",

@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/089ed47f0679e2a36bb786a28df76b27c0de6ca277797b9f50c1ef7b651d41e4.png",
+    "logo": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/089ed47f0679e2a36bb786a28df76b27c0de6ca277797b9f50c1ef7b651d41e4.png",
     "name": "交换人生最新版",
     "townsfolkName": "镇民",
     "author": "靶子",
@@ -24,7 +24,7 @@
   },
   {
     "id": "f4ofxiyifu",
-    "image": "/scripts/assets/community/359429214f4d423ebedc9acf755c74f7dbebd88d6f712ca10c618ec12c55351a.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/359429214f4d423ebedc9acf755c74f7dbebd88d6f712ca10c618ec12c55351a.png",
     "edition": "custom",
     "name": "洗衣妇",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。",
@@ -56,7 +56,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 8,
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png"
   },
   {
     "firstNightReminder": "",
@@ -71,11 +71,11 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "flavor": "",
     "id": "1-flowergirl",
@@ -107,7 +107,7 @@
     "name_eng": "Mathematician",
     "firstNight": 51,
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png"
   },
   {
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
@@ -122,7 +122,7 @@
     "name_eng": "Dreamer",
     "firstNight": 41,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -138,7 +138,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 50,
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -155,7 +155,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -172,11 +172,11 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名除你及旅行者以外的玩家：如果恶魔在今晚杀死了他，你和他交换角色，然后你醉酒。",
-    "image": "/scripts/assets/community/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
     "edition": "custom",
     "flavor": "",
     "id": "1-limao",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "1-cannibal",
@@ -214,7 +214,7 @@
   },
   {
     "id": "qintianjiann",
-    "image": "/scripts/assets/community/4ada1b72d9a5ad4d065f8270334e271bdc245c1029d33efabec683fa5cf3b1c1.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/4ada1b72d9a5ad4d065f8270334e271bdc245c1029d33efabec683fa5cf3b1c1.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -240,7 +240,7 @@
     "name_eng": "Messanger",
     "firstNight": 0,
     "ability": "每个白天，你可以公开声明一个角色。在当晚，你会得知该角色是否在场。如果你因此得知了否，你失去此能力。",
-    "image": "/scripts/assets/community/835df2f9391a0a6f53c02ad28d99abc066530c16537b159df497651e8d506c60.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/835df2f9391a0a6f53c02ad28d99abc066530c16537b159df497651e8d506c60.png",
     "imageAlt": "yishi"
   },
   {
@@ -259,7 +259,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -277,7 +277,7 @@
     "remindersGlobal": [],
     "team": "outsider",
     "firstNight": 0,
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png"
   },
   {
     "firstNightReminder": "",
@@ -294,7 +294,7 @@
     "name_eng": "Barber",
     "firstNight": 0,
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
   },
   {
     "firstNightReminder": "",
@@ -309,7 +309,7 @@
     "name_eng": "Mutant",
     "firstNight": 0,
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png"
   },
   {
     "firstNightReminder": "",
@@ -324,7 +324,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "唤醒镜像双子和他的对立双子，让他们进行眼神接触。对镜像双子展示对立双子的角色标记，并对对立双子展示镜像双子的角色标记。",
@@ -341,7 +341,7 @@
     "name_eng": "Evil Twin",
     "firstNight": 23,
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png"
   },
   {
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
@@ -359,7 +359,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 17,
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
   },
   {
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
@@ -376,7 +376,7 @@
     "name_eng": "Cerenovus",
     "firstNight": 25,
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png"
   },
   {
     "firstNightReminder": "",
@@ -394,11 +394,11 @@
     "name_eng": "No Dashii",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png"
   },
   {
     "id": "huntunnnn",
-    "image": "/scripts/assets/community/eb75b9106c6eb2994436e1af33fa8e92594bd3d768fccbad6adef8be3dc4b50d.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/eb75b9106c6eb2994436e1af33fa8e92594bd3d768fccbad6adef8be3dc4b50d.png",
     "edition": "custom",
     "name": "混沌",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除了旅行者外的所有善良玩家会中毒直到下个黄昏。",
@@ -416,7 +416,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "flavor": "",
     "id": "1-vortox",
@@ -450,11 +450,11 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "id": "40e9d136-3c21-4a9a-8bb9-f53c217e78fe",
-    "image": "/scripts/assets/community/b1a271ca171b530352f3dcb55b6e55afe713e14c097bed8914d8ab10e08d9cdd.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/b1a271ca171b530352f3dcb55b6e55afe713e14c097bed8914d8ab10e08d9cdd.png",
     "edition": "custom",
     "name": "咖啡师",
     "ability": "每个夜晚，直至下个黄昏，由说书人二选一：1）一名玩家解除并免受醉酒和中毒影响，且会得知正确信息；2）一名玩家的能力可以生效两次。该玩家会得知是哪个效果。",
@@ -471,7 +471,7 @@
   },
   {
     "id": "b2aaf9b2-36a5-45d1-8cbb-cd79fbd49be9",
-    "image": "/scripts/assets/community/a7a0f6b125885f2bcfb7c46062350c5df00075fda71a4cf69c152546253b0017.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/a7a0f6b125885f2bcfb7c46062350c5df00075fda71a4cf69c152546253b0017.png",
     "edition": "custom",
     "name": "流莺",
     "ability": "每个夜晚*，你要选择一名存活的玩家：如果他同意，你会得知他的角色，但是你们两个可能同时死亡。",
@@ -498,11 +498,11 @@
     "name_eng": "Deviant",
     "firstNight": 0,
     "ability": "如果你表现得很有趣，当天你不能被流放。",
-    "image": "/scripts/assets/community/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/84b28e2fa8c72a0e9111838d8ebf1fbae05c6a79a74c8d497c6c25717f78edfc.png"
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：他重新获得能力直到下个黄昏。",
-    "image": "/scripts/assets/community/2d8b162d24c9cb6367dc05228c83d80ed47686fd543e3d0c42914679e69eca96.png",
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/2d8b162d24c9cb6367dc05228c83d80ed47686fd543e3d0c42914679e69eca96.png",
     "edition": "custom",
     "flavor": "",
     "id": "bone_collectorButton",
@@ -535,6 +535,6 @@
     ],
     "team": "traveler",
     "firstNight": 0,
-    "image": "/scripts/assets/community/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png"
+    "image": "/scripts/assets/community-jiao-huan-ren-sheng-zui-xin-ban-acd902d9/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png"
   }
 ]

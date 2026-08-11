@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "轻舟共渡",
-    "logo": "/scripts/assets/community/4860aefe52fd1160870764e6b558a29c47fd9c893b0d325133c67cb3993d3d79.png",
+    "logo": "/scripts/assets/community-qing-zhou-gong-du-2c162155/4860aefe52fd1160870764e6b558a29c47fd9c893b0d325133c67cb3993d3d79.png",
     "author": "海雾",
     "description": "轻舟共渡v2.1",
     "townsfolkName": "镇民",
@@ -28,7 +28,7 @@
   },
   {
     "id": "baidurennnnnnnnnnnnnnn",
-    "image": "/scripts/assets/community/84ce6f3556c0283aa221b6ee91ae07b91331436de9f8da6204471d723afb35e6.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/84ce6f3556c0283aa221b6ee91ae07b91331436de9f8da6204471d723afb35e6.png",
     "edition": "custom",
     "name": "摆渡人",
     "ability": "在游戏的最后一天，所有已死亡玩家会重新获得投票标记。",
@@ -38,7 +38,7 @@
   },
   {
     "id": "shibaideshangdi1111111",
-    "image": "/scripts/assets/community/1001b0be15f358fccec4a159061352971dc3530fc1e7221c79f987e49748c828.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/1001b0be15f358fccec4a159061352971dc3530fc1e7221c79f987e49748c828.png",
     "edition": "custom",
     "name": "失败的上帝",
     "ability": "每局游戏限一次，说书人可能会犯一个“错误”，但会将其纠正，并公开承认自己曾处理有误。",
@@ -48,7 +48,7 @@
   },
   {
     "ability": "SUI染钟楼 剧本制作组",
-    "image": "/scripts/assets/community/90592f5a1cca3ad50c8101b3b42d76df983e01a6a64322686984cead58b6f030.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/90592f5a1cca3ad50c8101b3b42d76df983e01a6a64322686984cead58b6f030.png",
     "edition": "custom",
     "id": "Json By",
     "firstNightReminder": "",
@@ -61,7 +61,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "woshixiuxingzhe111",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -93,7 +93,7 @@
   },
   {
     "id": "fengshuisfgsetgshfsdf",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "edition": "custom",
     "name": "风水师",
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
@@ -111,7 +111,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -128,7 +128,7 @@
   },
   {
     "id": "paibusini111",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "edition": "custom",
     "name": "传教士",
     "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "lushichuanshuodelaoban111",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "name": "旅店老板",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -163,7 +163,7 @@
   },
   {
     "id": "zhifusaihriu3q09rni08qh13rfbnoihc-9j",
-    "image": "/scripts/assets/community/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/10ee47345b7c99800ae7d07954d01b34f108877310e43c1d3c4ffdeaee9f11f9.png",
     "edition": "custom",
     "name": "知府",
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者的玩家死亡。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "makesi111",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
@@ -201,7 +201,7 @@
   },
   {
     "id": "wolaishouhunidemama111",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "name": "守夜人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "yishisaarqwwwwwwwwwwwwwwwwwwwww",
-    "image": "/scripts/assets/community/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
     "edition": "custom",
     "name": "驿使",
     "ability": "每个白天，你可以公开声明一个角色。在当晚，你会得知该角色是否在场。如果你因此得知了否，你失去此能力。",
@@ -252,7 +252,7 @@
   },
   {
     "id": "zz111",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "name": "镇长",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -267,7 +267,7 @@
   },
   {
     "id": "bingbibibibibibibibiibibibibibibibibiiiiihbbibibib",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "name": "秉笔",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -303,7 +303,7 @@
   },
   {
     "id": "moluotuofujiweijiu11111",
-    "image": "/scripts/assets/community/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
     "edition": "custom",
     "name": "狂热者",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -318,7 +318,7 @@
   },
   {
     "id": "ningcaichen111",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -336,7 +336,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -371,7 +371,7 @@
   },
   {
     "id": "tousioahsdoasidhas",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "name": "限",
     "ability": "在等同初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[任意数量外来者]",
@@ -392,7 +392,7 @@
   },
   {
     "id": "lajidongxi111",
-    "image": "/scripts/assets/community/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png",
     "edition": "custom",
     "name": "恐惧之灵",
     "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
@@ -409,7 +409,7 @@
   },
   {
     "id": "shabihouzi122211",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
     "edition": "custom",
     "name": "街头风琴手",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒，直到你下次选择。",
@@ -425,7 +425,7 @@
   },
   {
     "id": "jinweijiunuansoe111oqiepi213123123",
-    "image": "/scripts/assets/community/e3063a0f5c3935f5468af3f9e9cdab933a7e59932049e00376b1938dfb0e6e71.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/e3063a0f5c3935f5468af3f9e9cdab933a7e59932049e00376b1938dfb0e6e71.png",
     "edition": "custom",
     "name": "禁卫军",
     "ability": "“疯狂”地想死亡的玩家可能会立即被处决。",
@@ -440,7 +440,7 @@
   },
   {
     "id": "fangguuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -472,11 +472,11 @@
     "team": "demon",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。恶魔与爪牙互相不认识。当首次有爪牙死亡时，当晚他们会互相认识。[+1爪牙]",
-    "image": "/scripts/assets/community/e3426b922d6bd3a2e7c4683dd69cb862a8d9b00d84cae16e2ff7c742d3e5e44e.png"
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/e3426b922d6bd3a2e7c4683dd69cb862a8d9b00d84cae16e2ff7c742d3e5e44e.png"
   },
   {
     "id": "tifeng11zhishou11111111",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-qing-zhou-gong-du-2c162155/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "name": "堤丰之首",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶玩家全部邻座，你位于正中，+1爪牙，-或+任意数量外来者]",

@@ -11,7 +11,7 @@
   },
   {
     "id": "1_inthegr_58",
-    "image": "/scripts/assets/community/34390cc486f6e872885c3d13970e64b70c101921a6f8fff79a3910949181a764.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/34390cc486f6e872885c3d13970e64b70c101921a6f8fff79a3910949181a764.png",
     "firstNightReminder": "一名玩家转为邪恶。让赏金猎人看到一名玩家。",
     "otherNightReminder": "如果赏金猎人的目标死亡，让赏金猎人看到另一名玩家。",
     "reminders": [
@@ -27,7 +27,7 @@
   },
   {
     "id": "12_inthegr_58",
-    "image": "/scripts/assets/community/c2d8b50f6f1fdd607a2e8e68e99f027c8db94ee40fd9002023d4b05040607a3c.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/c2d8b50f6f1fdd607a2e8e68e99f027c8db94ee40fd9002023d4b05040607a3c.png",
     "otherNightReminder": "告知所有暴露状态玩家，它可以决定其中一名玩家死亡。",
     "reminders": [
       "处死目标"
@@ -40,7 +40,7 @@
   },
   {
     "id": "5_inthegr_58",
-    "image": "/scripts/assets/community/fa855c1005709b838931e618c0b5096ffdc812e2fd66f34987125fb7432d6e78.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/fa855c1005709b838931e618c0b5096ffdc812e2fd66f34987125fb7432d6e78.png",
     "otherNightReminder": "选择一个假面角色：若角色不在场，无事发生；若目标已暴露，则你得知其角色；若非恶魔且未暴露，则其死亡（导致暴露）。",
     "reminders": [
       "死亡"
@@ -54,7 +54,7 @@
   },
   {
     "id": "11_inthegr_58",
-    "image": "/scripts/assets/community/3323562fff78c277379de6cf0fda71eb80e5f0b90891d77af722a40171c06c7b.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/3323562fff78c277379de6cf0fda71eb80e5f0b90891d77af722a40171c06c7b.png",
     "otherNightReminder": "选择一名玩家，其醉酒。",
     "reminders": [
       "醉酒"
@@ -67,7 +67,7 @@
   },
   {
     "id": "_inthegr_58",
-    "image": "/scripts/assets/community/066b3a661d294fea854cd0466945e405c9718d884a56ed5f99ff891c118ccffe.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/066b3a661d294fea854cd0466945e405c9718d884a56ed5f99ff891c118ccffe.png",
     "firstNightReminder": "使一名玩家醉酒",
     "reminders": [
       "醉酒"
@@ -80,7 +80,7 @@
   },
   {
     "id": "9_inthegr_58",
-    "image": "/scripts/assets/community/ebdae166ca3c9bf4fb0bdfe33bfdecb249e0b978c1ffb60c24c562b46968a978.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/ebdae166ca3c9bf4fb0bdfe33bfdecb249e0b978c1ffb60c24c562b46968a978.png",
     "firstNightReminder": "获得其阵营的对应能力",
     "reminders": [
       "是学徒"
@@ -93,7 +93,7 @@
   },
   {
     "id": "8_inthegr_58",
-    "image": "/scripts/assets/community/95f01823c7e43538268961607f1a208599eff107a48e837cd607e4c299b25f2e.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/95f01823c7e43538268961607f1a208599eff107a48e837cd607e4c299b25f2e.png",
     "otherNightReminder": "选择一名玩家，你得知他的角色。",
     "reminders": [
       "被选择"
@@ -106,7 +106,7 @@
   },
   {
     "id": "7_inthegr_58",
-    "image": "/scripts/assets/community/1a6e3a7189c8f0db0c633088d29acccedea6812e180c5bd98dcd3a58162618ca.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/1a6e3a7189c8f0db0c633088d29acccedea6812e180c5bd98dcd3a58162618ca.png",
     "remindersGlobal": [
       "是叫花子"
     ],
@@ -117,7 +117,7 @@
   },
   {
     "id": "14_inthegr_58",
-    "image": "/scripts/assets/community/c0aeb918bc9bfe4d4ee49bb28f567f3e3e0167f122e8f619c7cd47a134b01dc8.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/c0aeb918bc9bfe4d4ee49bb28f567f3e3e0167f122e8f619c7cd47a134b01dc8.png",
     "firstNightReminder": "首次有善良玩家选择邪恶玩家时，打上标记。告知暗夜公爵首个点到邪恶玩家的玩家的角色。",
     "reminders": [
       "中毒"
@@ -131,7 +131,7 @@
   },
   {
     "id": "6_inthegr_58",
-    "image": "/scripts/assets/community/aabec5438caa3c354f37893b4831369d13b61125e0dedb54d41b7274cb81ff17.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/aabec5438caa3c354f37893b4831369d13b61125e0dedb54d41b7274cb81ff17.png",
     "name": "精神病患者",
     "team": "traveller2",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -139,7 +139,7 @@
   },
   {
     "id": "10_inthegr_58",
-    "image": "/scripts/assets/community/c6242de780813c4246ebe99dda6dee043e69312c7a9320c48c0fac1505d48f6b.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/c6242de780813c4246ebe99dda6dee043e69312c7a9320c48c0fac1505d48f6b.png",
     "otherNightReminder": "可以选择一名玩家，他必定死亡。",
     "reminders": [
       "强制死亡",
@@ -153,7 +153,7 @@
   },
   {
     "id": "30_inthegr_58",
-    "image": "/scripts/assets/community/b801be918cc68072cdf75f1f8f24d06f0cb53900bf9fec635d35d5733ca80494.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/b801be918cc68072cdf75f1f8f24d06f0cb53900bf9fec635d35d5733ca80494.png",
     "otherNightReminder": "选择三名玩家，开始狂欢吧！",
     "reminders": [
       "选择生",
@@ -167,7 +167,7 @@
   },
   {
     "id": "32_inthegr_58",
-    "image": "/scripts/assets/community/5d4fcdb9bfbc2f8eef828155b3a2ea923227223ee5ae5130d1ddf8196645b3da.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/5d4fcdb9bfbc2f8eef828155b3a2ea923227223ee5ae5130d1ddf8196645b3da.png",
     "firstNightReminder": "得知两名玩家一个爪牙。",
     "reminders": [
       "know",
@@ -181,7 +181,7 @@
   },
   {
     "id": "4_inthegr_58",
-    "image": "/scripts/assets/community/efa48257be9f8aa0ec16488981a45c303151e27465a43c8a6d54bb5f227cdd00.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/efa48257be9f8aa0ec16488981a45c303151e27465a43c8a6d54bb5f227cdd00.png",
     "firstNightReminder": "选择玩家，得知他的阵营。",
     "otherNightReminder": "选择玩家，得知他的阵营。",
     "reminders": [
@@ -197,7 +197,7 @@
   },
   {
     "id": "3_inthegr_58",
-    "image": "/scripts/assets/community/74283e2266e8ef6c5b0df29f02b55f49b0c08bfa39aaacc1e395709c5488479d.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/74283e2266e8ef6c5b0df29f02b55f49b0c08bfa39aaacc1e395709c5488479d.png",
     "reminders": [
       "正确信息",
       "错误信息"
@@ -216,12 +216,12 @@
     "name": "渔夫",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom"
   },
   {
     "id": "2_inthegr_58",
-    "image": "/scripts/assets/community/abbb853ecaf2025e5e659e01b6c0cb515a352d3d5671066dc157256f231b725a.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/abbb853ecaf2025e5e659e01b6c0cb515a352d3d5671066dc157256f231b725a.png",
     "reminders": [
       "免于死亡"
     ],
@@ -233,7 +233,7 @@
   },
   {
     "id": "13_inthegr_58",
-    "image": "/scripts/assets/community/14b822cad65a56b53b31142b8f559c5772073c898982b8dcb4923dafcc4fa3c5.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/14b822cad65a56b53b31142b8f559c5772073c898982b8dcb4923dafcc4fa3c5.png",
     "firstNightReminder": "告知其邪恶方的接头暗号。如果醉酒，改为告知错误的暗号。",
     "name": "魔术师",
     "team": "townsfolk",
@@ -243,7 +243,7 @@
   },
   {
     "id": "17_inthegr_58",
-    "image": "/scripts/assets/community/f4e01dad9c1ff762f9e051bb1336162dcde57b31b9ffada8339f8bb93b475a74.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/f4e01dad9c1ff762f9e051bb1336162dcde57b31b9ffada8339f8bb93b475a74.png",
     "otherNightReminder": "如果造谣成功，使一名玩家死亡",
     "reminders": [
       "造谣正确",
@@ -257,7 +257,7 @@
   },
   {
     "id": "15_inthegr_58",
-    "image": "/scripts/assets/community/97423b19f701f6fbb26bd2fe55c449648e1304b6da35cbdfd58ad9f77c479a9c.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/97423b19f701f6fbb26bd2fe55c449648e1304b6da35cbdfd58ad9f77c479a9c.png",
     "reminders": [
       "失去能力"
     ],
@@ -268,7 +268,7 @@
   },
   {
     "id": "31_inthegr_58",
-    "image": "/scripts/assets/community/91258e625256d3ff4c0725b64c7d1867faca17e0bee09928bc91187d3cecbe2d.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/91258e625256d3ff4c0725b64c7d1867faca17e0bee09928bc91187d3cecbe2d.png",
     "otherNightReminder": "它可能死亡",
     "reminders": [
       "失去能力",
@@ -282,7 +282,7 @@
   },
   {
     "id": "18_inthegr_58",
-    "image": "/scripts/assets/community/d31f6b3bbeb6f8aaa287fd48cfc9c54929d613ce908fcc6a3b230ada810709e1.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/d31f6b3bbeb6f8aaa287fd48cfc9c54929d613ce908fcc6a3b230ada810709e1.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -294,7 +294,7 @@
   },
   {
     "id": "20_inthegr_58",
-    "image": "/scripts/assets/community/9ed0e8589a31fe0d1af45dd79fc874ce4b647f07c972d9351a83b3b2312343f1.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/9ed0e8589a31fe0d1af45dd79fc874ce4b647f07c972d9351a83b3b2312343f1.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -302,7 +302,7 @@
   },
   {
     "id": "19_inthegr_58",
-    "image": "/scripts/assets/community/9af8163e61f9884dca656598e5cedb0d8b07d795676fdb01142fdd5cf7637733.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/9af8163e61f9884dca656598e5cedb0d8b07d795676fdb01142fdd5cf7637733.png",
     "firstNightReminder": "告知所有爪牙：落难少女在场。",
     "name": "落难少女",
     "team": "outsider",
@@ -312,7 +312,7 @@
   },
   {
     "id": "22_inthegr_58",
-    "image": "/scripts/assets/community/b619e823ee83857ef09210735d5fe321146c3079de82dc98e1570c8f0a9ba88d.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/b619e823ee83857ef09210735d5fe321146c3079de82dc98e1570c8f0a9ba88d.png",
     "remindersGlobal": [
       "是冒名客",
       "中毒"
@@ -325,7 +325,7 @@
   },
   {
     "id": "21_inthegr_58",
-    "image": "/scripts/assets/community/ae23bb7944b649fff5541847ec48f135d12739c58b3eeb883fe3243cb17276fe.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/ae23bb7944b649fff5541847ec48f135d12739c58b3eeb883fe3243cb17276fe.png",
     "firstNightReminder": "给相邻的玩家放置\"出幻觉\"标记，时刻提醒自己。",
     "reminders": [
       "出幻觉"
@@ -338,7 +338,7 @@
   },
   {
     "id": "23_inthegr_58",
-    "image": "/scripts/assets/community/2f944e730f6c41476c407e9aa2ace384ac653f6330090771763d29da4e24b57a.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/2f944e730f6c41476c407e9aa2ace384ac653f6330090771763d29da4e24b57a.png",
     "firstNightReminder": "如果大限至，标记使镇民中毒。",
     "otherNightReminder": "如果大限至，标记使镇民中毒。",
     "reminders": [
@@ -357,7 +357,7 @@
   },
   {
     "id": "24_inthegr_58",
-    "image": "/scripts/assets/community/5d8a421a0e1029418539dc35698c47644ef95ed3e0f1e5407a8afc51d79fbb71.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/5d8a421a0e1029418539dc35698c47644ef95ed3e0f1e5407a8afc51d79fbb71.png",
     "reminders": [
       "任务目标"
     ],
@@ -368,7 +368,7 @@
   },
   {
     "id": "25_inthegr_58",
-    "image": "/scripts/assets/community/361d5dde517281b9df2b4885513a93906b42b76bd3a229cf45046dac2778558e.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/361d5dde517281b9df2b4885513a93906b42b76bd3a229cf45046dac2778558e.png",
     "otherNightReminder": "说书人选玩家：他死亡。",
     "reminders": [
       "死亡"
@@ -382,7 +382,7 @@
   },
   {
     "id": "26_inthegr_58",
-    "image": "/scripts/assets/community/4e885b410b635e1a7c0b99b5f4726db671164525819a79c8a7b119b3a66bc3ef.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/4e885b410b635e1a7c0b99b5f4726db671164525819a79c8a7b119b3a66bc3ef.png",
     "firstNightReminder": "告知其大牙关键词。",
     "otherNightReminder": "建议说书人在这个时间开大牙的夜晚刀。",
     "reminders": [
@@ -397,7 +397,7 @@
   },
   {
     "id": "27_inthegr_58",
-    "image": "/scripts/assets/community/16d3c01609944a8c8ec84b376e7a70dc046709f7f859ef2dfac18997ab8b386e.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/16d3c01609944a8c8ec84b376e7a70dc046709f7f859ef2dfac18997ab8b386e.png",
     "firstNightReminder": "给恶魔提供伪装，提供应当提供的接头暗号。",
     "otherNightReminder": "将要黎明。想好让谁因暴露而死亡了吗？",
     "reminders": [
@@ -419,7 +419,7 @@
   },
   {
     "id": "16_inthegr_58",
-    "image": "/scripts/assets/community/bba3dbaa429e25eb506cfcd1a7bb2ed7631a948aedc62622a9856f3f7237f307.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/bba3dbaa429e25eb506cfcd1a7bb2ed7631a948aedc62622a9856f3f7237f307.png",
     "otherNightReminder": "如果此时仅剩3名玩家存活，宣布进入小提琴手。",
     "name": "小提琴手",
     "team": "fabled",
@@ -429,7 +429,7 @@
   },
   {
     "id": "28_inthegr_58",
-    "image": "/scripts/assets/community/3731ebfec7e079c675843623e460ee6423e11d5097b83c2ccb1b682b9bed0479.png",
+    "image": "/scripts/assets/community-zhi-ming-hua-er-zi-chang-pai-ban-506286e5/3731ebfec7e079c675843623e460ee6423e11d5097b83c2ccb1b682b9bed0479.png",
     "name": "旅行者·派对猫咪",
     "team": "traveller",
     "ability": "你\"暴露\"时，你死亡。你发动能力时，说书人可以拒绝你发动、或要求你更换选择。[旅行者玩家拥有该初始能力，并从“派对盲袋“中抽取一个不在场假面能力。]",

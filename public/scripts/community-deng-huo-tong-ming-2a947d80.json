@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "灯火通明",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/a81252fccec59568e9e6f4fd2037d2e5fc782b49e9d9698c567c205342681264.png",
+    "logo": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/a81252fccec59568e9e6f4fd2037d2e5fc782b49e9d9698c567c205342681264.png",
     "almanac": "https://www.bloodstar.xyz/p/Jungle/TricksOfLight/almanac.html",
     "tags": [
       "民间创意剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_tricksoflight",
-    "image": "/scripts/assets/community/372ad0b819d68704ccbcbaf56ae0c358c9154b365b0f132b007dab60ad9da050.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/372ad0b819d68704ccbcbaf56ae0c358c9154b365b0f132b007dab60ad9da050.png",
     "firstNightReminder": "唤醒阴阳师，并对其展示两个善良角色，两个邪恶角色，共四个角色标记。其中正好只有两个角色在场。",
     "name": "阴阳师",
     "team": "townsfolk",
@@ -24,7 +24,7 @@
   },
   {
     "id": "1_tricksoflight",
-    "image": "/scripts/assets/community/e5adb71643593c9ca736c30cf4cee0e7379f8b64947c7be25ed7c35690688f5f.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/e5adb71643593c9ca736c30cf4cee0e7379f8b64947c7be25ed7c35690688f5f.png",
     "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
     "reminders": [
       "外来者",
@@ -38,7 +38,7 @@
   },
   {
     "id": "2_tricksoflight",
-    "image": "/scripts/assets/community/3b24001cc35f62d0a158199e67bf6879e83ba3ac5dd25aeba4887b6be3d48e1a.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/3b24001cc35f62d0a158199e67bf6879e83ba3ac5dd25aeba4887b6be3d48e1a.png",
     "firstNightReminder": "在首个夜晚，唤醒风水师，告知他“标记”提示标记旁的玩家角色类型，并将标记顺时针移动一名玩家。",
     "otherNightReminder": "唤醒风水师，告知他“标记”提示标记旁的玩家角色类型，并将标记顺时针移动一名玩家。",
     "reminders": [
@@ -53,7 +53,7 @@
   },
   {
     "id": "3_tricksoflight",
-    "image": "/scripts/assets/community/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -66,7 +66,7 @@
   },
   {
     "id": "4_tricksoflight",
-    "image": "/scripts/assets/community/82d37ea8fea4b547e30c2ab71bf3c95a59f9dfb6577fe6c5ba062448baa1f12b.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/82d37ea8fea4b547e30c2ab71bf3c95a59f9dfb6577fe6c5ba062448baa1f12b.png",
     "otherNightReminder": "如果死亡玩家人数大于存活玩家，唤醒史官并展示数字手势来告诉他存活镇民数量。",
     "name": "史官",
     "team": "townsfolk",
@@ -76,7 +76,7 @@
   },
   {
     "id": "5_tricksoflight",
-    "image": "/scripts/assets/community/7b23af540a209dac7aec9bdff87b1451310d30704e6755715c5e1e05e03a55b8.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/7b23af540a209dac7aec9bdff87b1451310d30704e6755715c5e1e05e03a55b8.png",
     "otherNightReminder": "如果有玩家今天白天死于处决，唤醒送葬者并对他展示那名玩家的角色标记。",
     "reminders": [
       "死于今日"
@@ -89,7 +89,7 @@
   },
   {
     "id": "6_tricksoflight",
-    "image": "/scripts/assets/community/54245eb8ac840f73d7d1102bcb4be4bc5373f47bf4e93503e7a8b71fe56ae180.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/54245eb8ac840f73d7d1102bcb4be4bc5373f47bf4e93503e7a8b71fe56ae180.png",
     "firstNightReminder": "在为首个夜晚做准备时，（如果有超过一名村夫在场，）将村夫的“醉酒”提示标记放置到其中一个村夫角色标记旁。",
     "otherNightReminder": "每个夜晚，唤醒任意一名村夫。让他指向一名玩家。对他给出拇指向上或向下的手势。让他重新入睡。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
     "reminders": [
@@ -105,7 +105,7 @@
   },
   {
     "id": "7_tricksoflight",
-    "image": "/scripts/assets/community/300e154cbea1cfc266f6e0dfe5e068198ea222b92316225c3f44ff7a3df5f96f.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/300e154cbea1cfc266f6e0dfe5e068198ea222b92316225c3f44ff7a3df5f96f.png",
     "firstNightReminder": "告知其一个玩家。在该玩家旁边标记得知。",
     "otherNightReminder": "告知一个与上个夜晚知晓的角色类型不同的玩家。把得知标记移动到该玩家旁边。",
     "reminders": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "8_tricksoflight",
-    "image": "/scripts/assets/community/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -136,7 +136,7 @@
   },
   {
     "id": "9_tricksoflight",
-    "image": "/scripts/assets/community/3798da25ab02df3b59828e90e6647fd8804760c2ac7725e06bc8500176b2eedd.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/3798da25ab02df3b59828e90e6647fd8804760c2ac7725e06bc8500176b2eedd.png",
     "otherNightReminder": "唤醒鸩，让其选择一个镇民角色，如果该角色在场，在其角色标记旁放置“死亡”和“醉酒”提示标记",
     "reminders": [
       "死亡",
@@ -151,7 +151,7 @@
   },
   {
     "id": "10_tricksoflight",
-    "image": "/scripts/assets/community/571ab4f2539a7a33e2c0b710baf71fc0376ce6abdfdb69f1fe73ed326dbc6822.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/571ab4f2539a7a33e2c0b710baf71fc0376ce6abdfdb69f1fe73ed326dbc6822.png",
     "otherNightReminder": "如果提刑官在白天进行了整局游戏中他的首次提名，唤醒他并对他展示他提名的玩家的角色标记。",
     "reminders": [
       "被首次提名"
@@ -164,7 +164,7 @@
   },
   {
     "id": "11_tricksoflight",
-    "image": "/scripts/assets/community/2cc80e7d71205e301a3908669baf677893d185d56547e129ba7f6188680e86d9.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/2cc80e7d71205e301a3908669baf677893d185d56547e129ba7f6188680e86d9.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "12_tricksoflight",
-    "image": "/scripts/assets/community/d5d97aa697097ae75361ad32b4a098637e21691d0632664ee56e00730c0b6790.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/d5d97aa697097ae75361ad32b4a098637e21691d0632664ee56e00730c0b6790.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
@@ -180,7 +180,7 @@
   },
   {
     "id": "13_tricksoflight",
-    "image": "/scripts/assets/community/3a67acbcaeed5cc1a923e53c58a831b2d801882ec868eeeed83e20aa66ad7247.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/3a67acbcaeed5cc1a923e53c58a831b2d801882ec868eeeed83e20aa66ad7247.png",
     "otherNightReminder": "在当晚，一同唤醒所有爪牙和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后展示帽匠角色标记。每名以此被唤醒的玩家可以选择摇头或指向角色列表上与自己当前角色类型相同的一个角色。如果一名玩家在做出自己的选择后会使得自己的角色与一名其他玩家选择的角色相同，对他摇头示意他重新选择。在选择完成后让他重新入睡。移除“今晚茶会”提示标记。根据这些玩家的选择，在魔典上执行相应的角色变化操作。",
     "reminders": [
       "今晚茶会"
@@ -193,7 +193,7 @@
   },
   {
     "id": "14_tricksoflight",
-    "image": "/scripts/assets/community/41713504a044e92279f0947a2dbf949b05004b45372f9ee9af295b3b8b70c1b8.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/41713504a044e92279f0947a2dbf949b05004b45372f9ee9af295b3b8b70c1b8.png",
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
     "reminders": [
       "已被猜测"
@@ -206,7 +206,7 @@
   },
   {
     "id": "15_tricksoflight",
-    "image": "/scripts/assets/community/0c9d715270da3d0d553b35d42033e78fe11ac297d26464355e1ae581fa3438da.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/0c9d715270da3d0d553b35d42033e78fe11ac297d26464355e1ae581fa3438da.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -218,7 +218,7 @@
   },
   {
     "id": "16_tricksoflight",
-    "image": "/scripts/assets/community/4dd1932452a43f4027894e72ac195a0de35193f7356f23a9f63598004d4a242a.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/4dd1932452a43f4027894e72ac195a0de35193f7356f23a9f63598004d4a242a.png",
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
     "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
     "remindersGlobal": [
@@ -234,7 +234,7 @@
   },
   {
     "id": "17_tricksoflight",
-    "image": "/scripts/assets/community/3248a8d21f4819620fa35f1f7ede14df7694199f3bfebedda057ef75a269dce9.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/3248a8d21f4819620fa35f1f7ede14df7694199f3bfebedda057ef75a269dce9.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -242,7 +242,7 @@
   },
   {
     "id": "18_tricksoflight",
-    "image": "/scripts/assets/community/4c855792401e6504b9716e2f31c8a2e80dce06c704e852b34987088a315c76af.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/4c855792401e6504b9716e2f31c8a2e80dce06c704e852b34987088a315c76af.png",
     "firstNightReminder": "唤醒狐媚娘，让她选择一名玩家。标记那名玩家“被魅惑”。随后唤醒那名玩家，对他展示“该角色的能力对你触发”和狐媚娘角色标记。",
     "otherNightReminder": "如果今日狐媚娘死于处决，且被魅惑的玩家为善良阵营，唤醒被魅惑的玩家，对他展示“你是”和朝下的大拇指。",
     "reminders": [
@@ -257,7 +257,7 @@
   },
   {
     "id": "19_tricksoflight",
-    "image": "/scripts/assets/community/9ff2f7a60eacd0a9ce801dc6d2eff9aa07582f38e8e895032d4c0d646911915c.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/9ff2f7a60eacd0a9ce801dc6d2eff9aa07582f38e8e895032d4c0d646911915c.png",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -272,7 +272,7 @@
   },
   {
     "id": "20_tricksoflight",
-    "image": "/scripts/assets/community/3ae9d0acfdf44e9f39eaae166b6980af283469c62d9a3143a8fce5e9b3846fa9.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/3ae9d0acfdf44e9f39eaae166b6980af283469c62d9a3143a8fce5e9b3846fa9.png",
     "otherNightReminder": "如果有玩家被放置了“提名”标记，标记该玩家死亡。",
     "reminders": [
       "提名",
@@ -286,7 +286,7 @@
   },
   {
     "id": "21_tricksoflight",
-    "image": "/scripts/assets/community/b60873021f5be2b38cdc6d102a3c9e6f925ff25549debbe4a1323cd2c13b0707.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/b60873021f5be2b38cdc6d102a3c9e6f925ff25549debbe4a1323cd2c13b0707.png",
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
     "remindersGlobal": [
       "是提线木偶"
@@ -300,7 +300,7 @@
   },
   {
     "id": "22_tricksoflight",
-    "image": "/scripts/assets/community/5e65d382d0febb0825fa68779190f17fd93e136c74b2e5f78577d9c416da7c77.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/5e65d382d0febb0825fa68779190f17fd93e136c74b2e5f78577d9c416da7c77.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。一分钟之后，被最多玩家手指指着的玩家死亡。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "23_tricksoflight",
-    "image": "/scripts/assets/community/30820a7328aa45e3013408cce205259512ca5b1e71f93321c6fd92deb82c70e2.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/30820a7328aa45e3013408cce205259512ca5b1e71f93321c6fd92deb82c70e2.png",
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
     "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
     "remindersGlobal": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "24_tricksoflight",
-    "image": "/scripts/assets/community/fb48c3c60a97a6523613def9df0ef45136302b374698854bc6c70f2cf669b412.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/fb48c3c60a97a6523613def9df0ef45136302b374698854bc6c70f2cf669b412.png",
     "firstNightReminder": "放置利维坦的第一天标记，宣告利维坦在场，现在是第一天。",
     "otherNightReminder": "将利维坦的标记转换到下一天。",
     "reminders": [
@@ -345,7 +345,7 @@
   },
   {
     "id": "25_tricksoflight",
-    "image": "/scripts/assets/community/c3e244afb7ad15b83ec26535c2c354cb47155fdc71b9adffe7a8fdac4b0ba2e5.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/c3e244afb7ad15b83ec26535c2c354cb47155fdc71b9adffe7a8fdac4b0ba2e5.png",
     "otherNightReminder": "依次唤醒他们，告诉他们从公爵夫人那里获得的信息有多少个邪恶玩家拜访(1,2,3)。被标记混淆的玩家会获得错误信息。",
     "reminders": [
       "访客",
@@ -359,7 +359,7 @@
   },
   {
     "id": "26_tricksoflight",
-    "image": "/scripts/assets/community/a3da15becb2967569906202678990cbdc85507876baca625fb09307ee58a67aa.png",
+    "image": "/scripts/assets/community-deng-huo-tong-ming-2a947d80/a3da15becb2967569906202678990cbdc85507876baca625fb09307ee58a67aa.png",
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",

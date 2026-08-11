@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "幽隐图谋",
     "author": "Hystrex",
-    "logo": "/scripts/assets/community/acad48cfce2ec9657b3ad306588d686f0c5f0ab9e50e8d327849fe781f940a4e.png",
+    "logo": "/scripts/assets/community-you-yin-tu-mou-77d41291/acad48cfce2ec9657b3ad306588d686f0c5f0ab9e50e8d327849fe781f940a4e.png",
     "almanac": "https://www.bloodstar.xyz/p/worryhours/SI/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_si",
-    "image": "/scripts/assets/community/ef7163343d8d1d66fb7e05145d518208c92afb73b93f6bedabb3b7ed166e0093.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/ef7163343d8d1d66fb7e05145d518208c92afb73b93f6bedabb3b7ed166e0093.png",
     "firstNightReminder": "Wake and show 3 Townsfolk and 1 Minion, exactly 2 of which are in play",
     "reminders": [
       "在场",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_si",
-    "image": "/scripts/assets/community/26d1b369cfb6bc3169659b6000685fb40ab8b5f0fc73da8cd1d8a3cf09370fe7.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/26d1b369cfb6bc3169659b6000685fb40ab8b5f0fc73da8cd1d8a3cf09370fe7.png",
     "firstNightReminder": "Wake the Wind Vane & show them any 3 players.",
     "otherNightReminder": "If the 2nd player the Wind Vane knows died today or tonight, wake the Wind Vane and indicate clockwise, counter-clockwise, or neither.",
     "reminders": [
@@ -44,7 +44,7 @@
   },
   {
     "id": "2_si",
-    "image": "/scripts/assets/community/76d1a9dfb4fae0f486c8dd787b52c5f56c22ca1782a30c5adab11d94977ecf05.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/76d1a9dfb4fae0f486c8dd787b52c5f56c22ca1782a30c5adab11d94977ecf05.png",
     "firstNightReminder": "Wake the Coroner & show them any player",
     "otherNightReminder": "If the player known by the Coroner is dead, wake them and show them an evil character token.",
     "reminders": [
@@ -60,7 +60,7 @@
   },
   {
     "id": "3_si",
-    "image": "/scripts/assets/community/bed3930e60f66a574230beb237b1b6eddb23643a1b5e956e7146548ba5184152.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/bed3930e60f66a574230beb237b1b6eddb23643a1b5e956e7146548ba5184152.png",
     "firstNightReminder": "Wake and show which player you think they should talk to the most.",
     "otherNightReminder": "Wake and show which player you think they should talk to the most.",
     "reminders": [
@@ -75,7 +75,7 @@
   },
   {
     "id": "4_si",
-    "image": "/scripts/assets/community/a2129f90e0b907124927c9fd7f4c0f70a7b51e2bcbc8e7d722c4097194075661.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/a2129f90e0b907124927c9fd7f4c0f70a7b51e2bcbc8e7d722c4097194075661.png",
     "firstNightReminder": "The hoarder points to a player. Mark them with the corresponding reminder token.",
     "otherNightReminder": "The hoarder points to a player. Mark them with the corresponding reminder token if it's not already placed. They then nod or shake their head. If yes, show them a hand signal corresponding to how many character types have the \"Mine\" reminder token.",
     "reminders": [
@@ -95,7 +95,7 @@
   },
   {
     "id": "5_si",
-    "image": "/scripts/assets/community/821fb9e99eca864f5ba59d872cd785f33cafc41b92a2e4c7cbcc0449507fe0ff.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/821fb9e99eca864f5ba59d872cd785f33cafc41b92a2e4c7cbcc0449507fe0ff.png",
     "otherNightReminder": "The Prophesier points to a player. Put them back to sleep. If that player dies later tonight, wake the Prophesier again and show thema character token.",
     "reminders": [
       "预知"
@@ -109,7 +109,7 @@
   },
   {
     "id": "6_si",
-    "image": "/scripts/assets/community/959117aa877ca2e2813b146d0c055bd865456eb2185738f3411e110971f51500.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/959117aa877ca2e2813b146d0c055bd865456eb2185738f3411e110971f51500.png",
     "otherNightReminder": "The Restrainer chooses a dead player.",
     "reminders": [
       "第一名",
@@ -125,7 +125,7 @@
   },
   {
     "id": "8_si",
-    "image": "/scripts/assets/community/8aef52e8e972cf7f38f6dfeb9d9a09c7ad9bc6a0b3435d6cacfe1cfd37b8a161.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/8aef52e8e972cf7f38f6dfeb9d9a09c7ad9bc6a0b3435d6cacfe1cfd37b8a161.png",
     "reminders": [
       "正确信息",
       "错误信息"
@@ -138,7 +138,7 @@
   },
   {
     "id": "9_si",
-    "image": "/scripts/assets/community/ea24806280127d97551655702354ce7e5bfe5386650dec69ed153aa4fae562b4.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/ea24806280127d97551655702354ce7e5bfe5386650dec69ed153aa4fae562b4.png",
     "otherNightReminder": "If the Scout chose a Minion for the first time today, wake a good player, show them the Scout character token, then put them to sleep.",
     "reminders": [
       "得知",
@@ -153,7 +153,7 @@
   },
   {
     "id": "7_si",
-    "image": "/scripts/assets/community/d888382f87c6626490ae6b502d87396013c7a3579e637f42191781d5669f5898.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/d888382f87c6626490ae6b502d87396013c7a3579e637f42191781d5669f5898.png",
     "otherNightReminder": "If the Bloodhound has not yet used their ability: the Bloodhound either nods or shakes their head. If the Bloodhound nods show the corresponding hand signal.",
     "reminders": [
       "失去能力"
@@ -167,7 +167,7 @@
   },
   {
     "id": "10_si",
-    "image": "/scripts/assets/community/a56f47b17984c1a53dca1cb29fa0c16bc2875e247e03bab1330a19ffef33d2ad.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/a56f47b17984c1a53dca1cb29fa0c16bc2875e247e03bab1330a19ffef33d2ad.png",
     "reminders": [
       "失去能力"
     ],
@@ -179,7 +179,7 @@
   },
   {
     "id": "11_si",
-    "image": "/scripts/assets/community/f5f28fdd74f7d56bf0741a2c69d16ca0f9c19937601962a8065f233d01f801eb.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/f5f28fdd74f7d56bf0741a2c69d16ca0f9c19937601962a8065f233d01f801eb.png",
     "otherNightReminder": "If one of their alive neighbors dies at night, wake the Pendulum and give them a thumbs up or thumbs down.",
     "name": "钟摆",
     "team": "townsfolk",
@@ -190,7 +190,7 @@
   },
   {
     "id": "12_si",
-    "image": "/scripts/assets/community/6d78378b5d260f65462c9bed087b7aed17c630d73ac494fd0587378612d9c94a.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/6d78378b5d260f65462c9bed087b7aed17c630d73ac494fd0587378612d9c94a.png",
     "otherNightReminder": "If the Whistleblower died tonight, they choose 3 players. Show them the character tokens of any evil characters they chose in any order, or show a 0.",
     "name": "吹哨人",
     "team": "townsfolk",
@@ -201,7 +201,7 @@
   },
   {
     "id": "13_si",
-    "image": "/scripts/assets/community/38c4db114155d1c3348e51cb5b07e9c2ed428255b6367006dbfc12a6c4b3dc2b.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/38c4db114155d1c3348e51cb5b07e9c2ed428255b6367006dbfc12a6c4b3dc2b.png",
     "firstNightReminder": "Place the drunk token.",
     "otherNightReminder": "如果侍酒师死于处决, 重新放置其醉酒标记。",
     "reminders": [
@@ -217,7 +217,7 @@
   },
   {
     "id": "14_si",
-    "image": "/scripts/assets/community/ea4584195765a92d2b7ad821d1f47849ed2d4ffcf1c87626760f148c1cea2102.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/ea4584195765a92d2b7ad821d1f47849ed2d4ffcf1c87626760f148c1cea2102.png",
     "otherNightReminder": "If the Phantom died, put the \"Misregisters\" reminder on the Demon.",
     "reminders": [
       "善良"
@@ -231,7 +231,7 @@
   },
   {
     "id": "16_si",
-    "image": "/scripts/assets/community/8f78cad3b0f13491df746270aeb43b5a2645270de91f596f9ae57e883ed62665.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/8f78cad3b0f13491df746270aeb43b5a2645270de91f596f9ae57e883ed62665.png",
     "name": "船夫",
     "team": "outsider",
     "ability": "如果你已死亡且（除旅行者外）只有三名玩家存活，提名非恶魔的善良玩家死亡。",
@@ -240,7 +240,7 @@
   },
   {
     "id": "15_si",
-    "image": "/scripts/assets/community/b8ffc8af810a1919884e64e077df999e0bb34c4e74e0554c47a2fd609ab1f875.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/b8ffc8af810a1919884e64e077df999e0bb34c4e74e0554c47a2fd609ab1f875.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -248,7 +248,7 @@
   },
   {
     "id": "17_si",
-    "image": "/scripts/assets/community/2714e32d4b9579a0cf41845f75832e43447c66470750fa21ff37bf62cba970d7.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/2714e32d4b9579a0cf41845f75832e43447c66470750fa21ff37bf62cba970d7.png",
     "firstNightReminder": "The Corruptor chooses 2 players: they learn they were chosen.",
     "otherNightReminder": "If the Demon died tonight, wake a corrupt player and tell them they are now any evil Demon. The Corruptor learns them.",
     "reminders": [
@@ -265,7 +265,7 @@
   },
   {
     "id": "18_si",
-    "image": "/scripts/assets/community/029fc763baafc7c80aa0f093eb5eed0a97426d12c961d093e866261edbe5e5a0.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/029fc763baafc7c80aa0f093eb5eed0a97426d12c961d093e866261edbe5e5a0.png",
     "firstNightReminder": "Wake up the Prey and show them 2 players, one of which is the Seeker.",
     "reminders": [
       "猎物",
@@ -280,7 +280,7 @@
   },
   {
     "id": "19_si",
-    "image": "/scripts/assets/community/b796efc3ab3dd3d98175b362e9da4a74eb7d1adb60d63a2e5f5014d8ff9784d2.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/b796efc3ab3dd3d98175b362e9da4a74eb7d1adb60d63a2e5f5014d8ff9784d2.png",
     "firstNightReminder": "The Echomancer chooses 2 players: they learn that the Echomancer chose them and who their echo is.",
     "otherNightReminder": "The Echomancer chooses 2 players: they learn that the Echomancer chose them and who their echo is.",
     "reminders": [
@@ -297,7 +297,7 @@
   },
   {
     "id": "20_si",
-    "image": "/scripts/assets/community/bcc10c72e2028798db09ca17dbc11d6f4c42d15df3d977ffd596b16b541ca705.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/bcc10c72e2028798db09ca17dbc11d6f4c42d15df3d977ffd596b16b541ca705.png",
     "firstNightReminder": "Wake & show a player or character",
     "otherNightReminder": "Wake & show a player or character",
     "reminders": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "22_si",
-    "image": "/scripts/assets/community/2382e6468f0d61bf19c69c44530859b3f42a4c6a48a2dad4d88a64826dfacb88.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/2382e6468f0d61bf19c69c44530859b3f42a4c6a48a2dad4d88a64826dfacb88.png",
     "firstNightReminder": "Show the Necrowhirl which player they're poisoning.",
     "otherNightReminder": "The Necrowhirl points to a player. That player dies. If the poison has moved, show the poisoned player.",
     "reminders": [
@@ -331,7 +331,7 @@
   },
   {
     "id": "23_si",
-    "image": "/scripts/assets/community/53339a01dee7db1f2bdea6d5d24690d1d9cbd4bde7d7e1e6d31970156686449a.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/53339a01dee7db1f2bdea6d5d24690d1d9cbd4bde7d7e1e6d31970156686449a.png",
     "otherNightReminder": "The Xenotoxin points to a player. That player dies. If the first Outsider died today or tonight, the Xenotoxin chooses a character: they are poisoned.",
     "reminders": [
       "死亡",
@@ -348,7 +348,7 @@
   },
   {
     "id": "21_si",
-    "image": "/scripts/assets/community/709b78448db1edaace61d222d2c108898f597a0cba9c2d4d7e4c71e94de8e4a2.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/709b78448db1edaace61d222d2c108898f597a0cba9c2d4d7e4c71e94de8e4a2.png",
     "otherNightReminder": "The Ojo points to a character. That character dies.",
     "reminders": [
       "死亡"
@@ -361,7 +361,7 @@
   },
   {
     "id": "24_si",
-    "image": "/scripts/assets/community/9b1832816658b46c94bbff09ed82aacd1f9beeb96aced57d577fa94c11531346.png",
+    "image": "/scripts/assets/community-you-yin-tu-mou-77d41291/9b1832816658b46c94bbff09ed82aacd1f9beeb96aced57d577fa94c11531346.png",
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbors is poisoned.",
     "reminders": [
       "死亡",

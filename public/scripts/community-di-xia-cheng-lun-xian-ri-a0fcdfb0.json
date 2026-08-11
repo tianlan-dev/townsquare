@@ -49,7 +49,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "image": "/scripts/assets/community/479f6c33209c72d6ec19c170958d40017be8a827b98c81e9709f19330c9c5d3c.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/479f6c33209c72d6ec19c170958d40017be8a827b98c81e9709f19330c9c5d3c.png",
     "edition": "custom"
   },
   {
@@ -100,7 +100,7 @@
   },
   {
     "id": "3_sheshecup",
-    "image": "/scripts/assets/community/1c9894bccdedb13b76d7bc87af57fd26bccf356de3f82c2f08be2c159281a2f7.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/1c9894bccdedb13b76d7bc87af57fd26bccf356de3f82c2f08be2c159281a2f7.png",
     "name": "风语者",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你以外的三名非旅行者玩家：如果他们角色类型各不相同，你失去能力，否则你得知其中角色类型唯一的玩家。",
@@ -127,7 +127,7 @@
     "otherNightReminder": "唤醒提夫林，让他选择一名与他距离大于1的存活玩家，告诉他在他的顺时针方向上，他与该玩家之间有多少名邪恶玩家。如果他选择的那名玩家是邪恶玩家，告诉他错误的信息。",
     "reminders": [],
     "setup": false,
-    "image": "/scripts/assets/community/d7c02101aae716d70666ac97688bd40af902ee6d79e3ee76ed303263939fdab9.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/d7c02101aae716d70666ac97688bd40af902ee6d79e3ee76ed303263939fdab9.png",
     "edition": "custom"
   },
   {
@@ -219,7 +219,7 @@
       "失去能力"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/e9ce95b368e843d514c76ee2ca187797363dab53beb8f79cca56fa48d0f70935.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/e9ce95b368e843d514c76ee2ca187797363dab53beb8f79cca56fa48d0f70935.png",
     "edition": "custom"
   },
   {
@@ -267,7 +267,7 @@
       "迷沙陷阱"
     ],
     "setup": true,
-    "image": "/scripts/assets/community/2c0e2e4c932f7f0eb0af30eeb347f0f4a2f0ed6dcb0df2e77543d8319a784075.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/2c0e2e4c932f7f0eb0af30eeb347f0f4a2f0ed6dcb0df2e77543d8319a784075.png",
     "edition": "custom"
   },
   {
@@ -323,7 +323,7 @@
   },
   {
     "id": "d0fc421d-6f44-4eec-99fc-90505973763e1",
-    "image": "/scripts/assets/community/cb490800cdc95e939344dc795e05cd85d02744dea248bfe85d3ce295baabcb3c.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/cb490800cdc95e939344dc795e05cd85d02744dea248bfe85d3ce295baabcb3c.png",
     "edition": "custom",
     "name": "史莱姆",
     "ability": "你以为你是另一个外来者，但其实你不是。当你死亡时，与你邻近的两名善良镇民之一醉酒。",
@@ -377,7 +377,7 @@
   },
   {
     "id": "10_sheshecup1",
-    "image": "/scripts/assets/community/62a09d7632e22167cb9b9f32fc6cc09e276ed3f09b918949c71896e903110db9.png",
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/62a09d7632e22167cb9b9f32fc6cc09e276ed3f09b918949c71896e903110db9.png",
     "name": "死魂灵",
     "team": "minion",
     "ability": "在你的首个夜晚，你死亡，但依然被当做存活。如果你再次死亡，与你邻近的存活镇民之一获得你的能力。",
@@ -408,7 +408,7 @@
       "审判",
       "已发动"
     ],
-    "image": "/scripts/assets/community/d48ac166a54c56cad4d30c764676b9046d2eaa573129009328df5ba2d6a173a0.png"
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/d48ac166a54c56cad4d30c764676b9046d2eaa573129009328df5ba2d6a173a0.png"
   },
   {
     "id": "11_sheshecup1",
@@ -493,7 +493,7 @@
       "小机灵鬼",
       "就你多嘴"
     ],
-    "image": "/scripts/assets/community/522e4dfce174c15011275af810c3ed9b0260f47c16316283ed05241a2f80067b.png"
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/522e4dfce174c15011275af810c3ed9b0260f47c16316283ed05241a2f80067b.png"
   },
   {
     "id": "975f7fe7-60f2-470a-9cf7-5fc354157b8611",
@@ -519,7 +519,7 @@
     "firstNightReminder": "根据他的阵营给他展示三个善良的标记。",
     "otherNightReminder": "",
     "reminders": [],
-    "image": "/scripts/assets/community/f8ffa2b114f3f6a3d98c6bcd82711c25d00ffa874597d40045807406bec0589b.png"
+    "image": "/scripts/assets/community-di-xia-cheng-lun-xian-ri-a0fcdfb0/f8ffa2b114f3f6a3d98c6bcd82711c25d00ffa874597d40045807406bec0589b.png"
   },
   {
     "id": "jinx1",

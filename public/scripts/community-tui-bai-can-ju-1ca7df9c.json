@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "颓败残局",
     "author": "Subdog&Sionar",
-    "logo": "/scripts/assets/community/df99bf09ab859448ae38d0c7e860ef343c708d30a5fc7fa23b2831827c91ed36.png",
+    "logo": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/df99bf09ab859448ae38d0c7e860ef343c708d30a5fc7fa23b2831827c91ed36.png",
     "tags": [
       "全原创角色剧本",
       "海外"
@@ -21,7 +21,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "每个夜晚，你会得知一个数字，默认为0。该数字会因其他角色能力而改变。中毒或醉酒的玩家可能会让数字出现合理的错误改变。",
-    "image": "/scripts/assets/community/2c984f9bbefc281617be7fc37d19f2015a04ebcf5d18a0c216a14f3dbef02a5c.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/2c984f9bbefc281617be7fc37d19f2015a04ebcf5d18a0c216a14f3dbef02a5c.png",
     "id": "Wang_ 123",
     "flavor": "",
     "edition": "custom"
@@ -40,7 +40,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，如果与你邻近的存活玩家中有邪恶玩家，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：当晚改为你得知此信息，且王得知的数字不会+1。",
-    "image": "/scripts/assets/community/a11f274946e3a03e69233d90f8e0a0f2d0e211741723faad82e2c9c533c6693d.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/a11f274946e3a03e69233d90f8e0a0f2d0e211741723faad82e2c9c533c6693d.png",
     "id": "WangHou_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -60,7 +60,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择一名玩家：如果今晚他在你之前因自身能力而被唤醒，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：当晚所有存活的善良玩家都清醒且健康，然后你会在黎明时死亡。",
-    "image": "/scripts/assets/community/dfa1d1449cad2c02945bb8ffd19ab80db75c8b6adca79a5dc5e3080ceea65fd2.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/dfa1d1449cad2c02945bb8ffd19ab80db75c8b6adca79a5dc5e3080ceea65fd2.png",
     "id": "Xiang_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -80,7 +80,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择一名玩家：如果他是镇民，王得知的数字会+1。每局游戏限一次，在夜晚时*，你可以选择使用能力：如果你当晚选择的玩家不是恶魔，他醉酒直到下个黄昏。",
-    "image": "/scripts/assets/community/ddad909c01d8f7ba33697b5bd92685181792c6f603614a306e1f055946bfbaf3.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/ddad909c01d8f7ba33697b5bd92685181792c6f603614a306e1f055946bfbaf3.png",
     "id": "Ma_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -100,7 +100,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择一名玩家：如果他是爪牙，王得知的数字会+1。",
-    "image": "/scripts/assets/community/80c828526b2a807994e4f98c3d4537235b13f6cd4634103ec3256bde9b6127ac.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/80c828526b2a807994e4f98c3d4537235b13f6cd4634103ec3256bde9b6127ac.png",
     "id": "Ju_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -118,7 +118,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择除你以外的一名玩家：任何在夜晚使用自身能力选择他的其他玩家，会改为选中你作为替代，直到下个黄昏。",
-    "image": "/scripts/assets/community/1db48b956823fcecf591e6f998fa51670a4c6ee231583759e236ebf400945ba0.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/1db48b956823fcecf591e6f998fa51670a4c6ee231583759e236ebf400945ba0.png",
     "id": "ShiKe_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -134,7 +134,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知一名玩家：他是王。",
-    "image": "/scripts/assets/community/bd07e4cd31b5eee16e0e0f5344fe18f410c1f713a71d3d9fb3dfe1a8212f36be.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/bd07e4cd31b5eee16e0e0f5344fe18f410c1f713a71d3d9fb3dfe1a8212f36be.png",
     "id": "ChuanLingGan_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -152,7 +152,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知三名玩家：其中至少有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/878092481456e0e55f9ffe05b3952fb76811bb1d4200c5d817d6258e169ea57b.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/878092481456e0e55f9ffe05b3952fb76811bb1d4200c5d817d6258e169ea57b.png",
     "id": "ChaoXieYuan_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -171,7 +171,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果你们中有人死亡，另一名玩家会在当晚得知他的角色。",
-    "image": "/scripts/assets/community/80976e2377f5259dca37df06f48418ec991485e89bca90ce3b434bd00e7c162e.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/80976e2377f5259dca37df06f48418ec991485e89bca90ce3b434bd00e7c162e.png",
     "id": "XiuShi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -187,7 +187,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "每个白天，你可以公开为一名玩家侍酒。如果他同意且与你为对立阵营，他立刻被处决。如果你中毒，改为他同意且与你为同一阵营时，他立刻被处决。",
-    "image": "/scripts/assets/community/19970ec85251693facb014e0f3bf20ed44fb63f31caa6851f07dbfce46317fd0.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/19970ec85251693facb014e0f3bf20ed44fb63f31caa6851f07dbfce46317fd0.png",
     "id": "JiuShi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -205,7 +205,7 @@
     ],
     "remindersGlobal": [],
     "ability": "如果王死亡，你变成他的角色，且转变为对应的阵营，但你不会得知阵营转变。如果你因此变成伊斯巴达登，你会以为自己变成王，然后你造成的死亡由说书人决定。",
-    "image": "/scripts/assets/community/c181464a54602abb781f0ce3f483fae8956daf13fda4716693b634f5a611ed18.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/c181464a54602abb781f0ce3f483fae8956daf13fda4716693b634f5a611ed18.png",
     "id": "WangZi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -223,7 +223,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每局游戏限一次，如果王在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/b0b322afbe7bc05e2b23ff658e31546f83a25e8fc35dae7020ce8abdf20f8a36.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/b0b322afbe7bc05e2b23ff658e31546f83a25e8fc35dae7020ce8abdf20f8a36.png",
     "id": "GongZhu_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -239,7 +239,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "王不会因处决以外的原因而死亡。",
-    "image": "/scripts/assets/community/7ee99b8a72490a6eb350551921de538d755bf8dde47651e1f428521ee70039c4.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/7ee99b8a72490a6eb350551921de538d755bf8dde47651e1f428521ee70039c4.png",
     "id": "ZhongGuan_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -257,7 +257,7 @@
       "是伪王"
     ],
     "ability": "你以为你是王，且会被当作王。每个夜晚，你会得知一个数字，必定不同于王应得知的正确数字。",
-    "image": "/scripts/assets/community/d863fad7e7cc991d853618c128c1e0610131f99e1c14563e89fa0facf7ad2235.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/d863fad7e7cc991d853618c128c1e0610131f99e1c14563e89fa0facf7ad2235.png",
     "id": "WeiWang_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -275,7 +275,7 @@
     ],
     "remindersGlobal": [],
     "ability": "你拥有一个不在场的非王的镇民角色能力，但你不知道是什么。每个夜晚，你可能会被唤醒以选择玩家，即使你的能力需要每晚醒来，或者不需要醒来。",
-    "image": "/scripts/assets/community/75b571129bf045c27b82c21d84380609a33a4ea9f00947b4d147bf0cc9960f5f.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/75b571129bf045c27b82c21d84380609a33a4ea9f00947b4d147bf0cc9960f5f.png",
     "id": "Bing_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -291,7 +291,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "当你首次被提名时，如果提名者为非王的善良玩家，你的阵营落败。",
-    "image": "/scripts/assets/community/acea5799d8523a2e755a30ccb1f7b8676e16c5a2b43e622085ee9cb5f7ebf0de.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/acea5799d8523a2e755a30ccb1f7b8676e16c5a2b43e622085ee9cb5f7ebf0de.png",
     "id": "XinShi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -309,7 +309,7 @@
     ],
     "remindersGlobal": [],
     "ability": "如果你死亡，真正的王在当晚醉酒，直到下个黄昏。",
-    "image": "/scripts/assets/community/3444ae07db490f38ab1e7cb210aaa0cada11a09cb83c57bc0f278d467444c59c.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/3444ae07db490f38ab1e7cb210aaa0cada11a09cb83c57bc0f278d467444c59c.png",
     "id": "QingFu_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -325,7 +325,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "在你的首个夜晚，你会得知一个不在场的爪牙角色。在黎明时，如果所有的王都已死亡，邪恶阵营获胜。如果莫甘娜在场，且所有的王都已死亡，改为你独自获胜。[+1外来者]",
-    "image": "/scripts/assets/community/3bb133cfbf7f8cd690b3609a02bc1ed99ac46829724114ac26b77b7335a567b6.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/3bb133cfbf7f8cd690b3609a02bc1ed99ac46829724114ac26b77b7335a567b6.png",
     "id": "CuanWeiZhe_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -344,7 +344,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择是或否：如果选择是，王得知的数字会+1，如果选择否，王得知的数字会-1（最小为0）。",
-    "image": "/scripts/assets/community/4481a8211e66c364d212f5e8e7158b276819047b3a599ad7e091dd3034d27470.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/4481a8211e66c364d212f5e8e7158b276819047b3a599ad7e091dd3034d27470.png",
     "id": "PianZi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -362,7 +362,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚，你要选择一名玩家：如果他不是王，他中毒直到下个黄昏。",
-    "image": "/scripts/assets/community/f79630c64aaa23be5f14d054bd33b36200e45af4360533e7c31c0fbf5c1f1ad3.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/f79630c64aaa23be5f14d054bd33b36200e45af4360533e7c31c0fbf5c1f1ad3.png",
     "id": "GongFan_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -381,7 +381,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个白天，你可以公开为一名玩家侍酒。如果他同意且与你为对立阵营，他立刻被处决。如果酒侍在场且你的侍酒被拒绝，当晚你要选择一名玩家：他死亡。你可能会被当作善良的酒侍。",
-    "image": "/scripts/assets/community/d0ff62f3bc8a1498cb40bde2eb1793aaaf0b240a66f1dd5b0ea1ba304f367cff.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/d0ff62f3bc8a1498cb40bde2eb1793aaaf0b240a66f1dd5b0ea1ba304f367cff.png",
     "id": "YinXianDeJiuShi_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -399,7 +399,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你会被当作王。且得知真正的王每晚应得知的数字。",
-    "image": "/scripts/assets/community/45fca463643c00459af0e54440be260c505931721ebe123de13b702fa497f62f.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/45fca463643c00459af0e54440be260c505931721ebe123de13b702fa497f62f.png",
     "id": "JuRen_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -418,7 +418,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每局游戏限一次，你可以改为选择一名存活玩家：他和与他邻近的玩家都死亡。",
-    "image": "/scripts/assets/community/149ac81b80cda0bd6a97debd19e4444bd7877ea72aa7d7a1a84e3d53227f5017.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/149ac81b80cda0bd6a97debd19e4444bd7877ea72aa7d7a1a84e3d53227f5017.png",
     "id": "FeiLong_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -437,7 +437,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的玩家，所有善良玩家都会中毒直到下个黄昏。[+1外来者]",
-    "image": "/scripts/assets/community/7f36872b27647b76dd7397bd11fcb87eee367de5f2f64a5878dafb52b3c6675d.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/7f36872b27647b76dd7397bd11fcb87eee367de5f2f64a5878dafb52b3c6675d.png",
     "id": "YanMo_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -456,7 +456,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。王会知道莫甘娜在场。非王的玩家都会转变为邪恶阵营，但他们会仍然以为自己是初始的阵营。如果所有的王都死亡，善良阵营获胜。如果小于等于五名玩家存活时，所有的王在提名中只投票给你，善良阵营获胜。",
-    "image": "/scripts/assets/community/dbce6e9d74296ec906de0fff41578a2821a003f2551d3841f4692459bd29f831.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/dbce6e9d74296ec906de0fff41578a2821a003f2551d3841f4692459bd29f831.png",
     "id": "MoGanNa_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -472,7 +472,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "每个白天，你可以公开选择一名其他玩家：如果他不是王且不是恶魔，他变成马直到下个黎明。",
-    "image": "/scripts/assets/community/5a6091a4a40a92a5ab54d26a86fbe86de0d8eb1b58636192ff22169933cb82b3.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/5a6091a4a40a92a5ab54d26a86fbe86de0d8eb1b58636192ff22169933cb82b3.png",
     "id": "LingZhu_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -490,7 +490,7 @@
     ],
     "remindersGlobal": [],
     "ability": "每个白天，在提名开始前，你可以演唱关于一名其他玩家的一段歌词，然后他今天白天的投票算作两票。",
-    "image": "/scripts/assets/community/73afd3603e0108f650544d10e9e6e2ae969a888de88747331130306a066e9475.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/73afd3603e0108f650544d10e9e6e2ae969a888de88747331130306a066e9475.png",
     "id": "ChanMeiZhe_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -506,7 +506,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "ability": "提示伊斯巴达登应得知信息",
-    "image": "/scripts/assets/community/395d0e1f5eb7379982ba202358089515179d5c97abed10388a0ad6fbb3783275.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/395d0e1f5eb7379982ba202358089515179d5c97abed10388a0ad6fbb3783275.png",
     "id": "JuRenDeXinXI_ 123",
     "flavor": " ",
     "edition": "custom"
@@ -524,7 +524,7 @@
     ],
     "remindersGlobal": [],
     "ability": "在初始设置时，至少会有一个王或被当作王的角色在场。象、马、车可以在夜晚提前使用自己的限次能力。只有当他们决定使用限次能力时才被当作一次唤醒。",
-    "image": "/scripts/assets/community/a119d547dc4a83c39cecee5db55f38070482fbf22eeeeae09e960cdb44dd0f9c.png",
+    "image": "/scripts/assets/community-tui-bai-can-ju-1ca7df9c/a119d547dc4a83c39cecee5db55f38070482fbf22eeeeae09e960cdb44dd0f9c.png",
     "id": "ZhoGaoWuShang_ 123",
     "flavor": " ",
     "edition": "custom"

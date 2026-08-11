@@ -12,7 +12,7 @@
   },
   {
     "id": "d06b0fe6-25a9-4658-b922-fa8c7ec62c72",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -39,7 +39,7 @@
     "name_eng": "Chambermaid",
     "firstNight": 50,
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
   },
   {
     "firstNightReminder": "唤醒女祭司，指向一名玩家。让女祭司重新入睡。",
@@ -54,7 +54,7 @@
     "name_eng": "High Priestess",
     "firstNight": 48,
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png"
   },
   {
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
@@ -72,7 +72,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png"
   },
   {
     "firstNightReminder": "",
@@ -89,11 +89,11 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "id": "cf4c96c5-30fa-452d-8bc0-b8a16457d6b0",
-    "image": "/scripts/assets/community/e99dc1d898bc3320f5510af384870409cdd7dd50a198e8294fb5706315a8eecc.png",
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/e99dc1d898bc3320f5510af384870409cdd7dd50a198e8294fb5706315a8eecc.png",
     "edition": "custom",
     "name": "宠妃",
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
@@ -122,7 +122,7 @@
     "name_eng": "King",
     "firstNight": 9,
     "ability": "每个夜晚，如果死亡的玩家数量大于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png"
   },
   {
     "firstNightReminder": "",
@@ -137,7 +137,7 @@
     "name_eng": "Choirboy",
     "firstNight": 0,
     "ability": "如果恶魔杀死了国王，你会得知哪名玩家是恶魔。[+国王]",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png"
   },
   {
     "firstNightReminder": "",
@@ -154,7 +154,7 @@
     "name_eng": "Tea Lady",
     "firstNight": 0,
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png"
   },
   {
     "firstNightReminder": "",
@@ -171,7 +171,7 @@
     "name_eng": "Gambler",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png"
   },
   {
     "firstNightReminder": "",
@@ -188,7 +188,7 @@
     "name_eng": "Lycanthrope",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png"
   },
   {
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
@@ -209,7 +209,7 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "firstNightReminder": "",
@@ -224,7 +224,7 @@
     "name_eng": "Magician",
     "firstNight": 0,
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png"
   },
   {
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
@@ -243,7 +243,7 @@
     "name_eng": "Lunatic",
     "firstNight": 7,
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png"
   },
   {
     "firstNightReminder": "",
@@ -261,7 +261,7 @@
     "name_eng": "Puzzlemaster",
     "firstNight": 0,
     "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
@@ -279,7 +279,7 @@
     "remindersGlobal": [],
     "team": "outsider",
     "firstNight": 38,
-    "image": "/scripts/assets/community/0c73004e215ea1a58d1afbba90d61cc997ae9130756599848ff05d10df75db07.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/0c73004e215ea1a58d1afbba90d61cc997ae9130756599848ff05d10df75db07.png"
   },
   {
     "firstNightReminder": "",
@@ -294,7 +294,7 @@
     "name_eng": "Mutant",
     "firstNight": 0,
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png"
   },
   {
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -312,7 +312,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/69c6205202d2fee898792a1a9526268dc86501fff1bb5d58b15cbe892eb4ea4e.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/69c6205202d2fee898792a1a9526268dc86501fff1bb5d58b15cbe892eb4ea4e.png"
   },
   {
     "ability": "每个夜晚，你要选择左或右：将你的飞行标记从当前位置移动到这个方向上的下一名存活善良玩家。他中毒且可能被当作邪恶阵营和爪牙角色，你会知道他原本的角色。",
@@ -330,7 +330,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 17,
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -348,7 +348,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 27,
-    "image": "/scripts/assets/community/82e93c6b479c4d13e37b3268893b1ba88e428991d3ec4fc3456c6e3d3895e0ef.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/82e93c6b479c4d13e37b3268893b1ba88e428991d3ec4fc3456c6e3d3895e0ef.png"
   },
   {
     "firstNightReminder": "",
@@ -363,7 +363,7 @@
     "name_eng": "Pit-Hag",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书⼈决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png"
   },
   {
     "firstNightReminder": "",
@@ -383,7 +383,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "ability": "每个夜晚，你要选择一至三名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
@@ -402,7 +402,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 31,
-    "image": "/scripts/assets/community/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png"
   },
   {
     "firstNightReminder": "",
@@ -420,7 +420,7 @@
     "name_eng": "Po",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚限一次，如果你以这种方式杀死了一名外来者，当晚你可以再次行动。[+1外来者]",
@@ -438,7 +438,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/56c019b8cc5551e354a999d78e4788b4ec00ffbad97530baffa042a9dd6ce4a3.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/56c019b8cc5551e354a999d78e4788b4ec00ffbad97530baffa042a9dd6ce4a3.png"
   },
   {
     "ability": "每个白天限一次，你可以公开选择一名其他玩家，让他选择一个非恶魔角色：你可能会获得这个角色的能力，直到下个黎明。",
@@ -456,7 +456,7 @@
     ],
     "team": "traveler",
     "firstNight": 0,
-    "image": "/scripts/assets/community/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png"
   },
   {
     "firstNightReminder": "",
@@ -469,7 +469,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "firstNightReminder": "",
@@ -484,7 +484,7 @@
     "id": "spirit_of_ivorybutton",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。但即使在有一名善良玩家变成邪恶时，方古仍然可以将一名善良外来者变为邪恶的方古。",
     "edition": "custom",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png"
   },
   {
     "firstNightReminder": "",
@@ -498,11 +498,11 @@
     "setup": false,
     "ability": "这个剧本的部分角色能力来自过去。",
     "edition": "custom",
-    "image": "/scripts/assets/community/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
   },
   {
     "ability": "这个剧本包含有自制角色或自制规则。",
-    "image": "/scripts/assets/community/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
+    "image": "/scripts/assets/community-dou-shi-qi-yuan-b089c9f0/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20723_8081",

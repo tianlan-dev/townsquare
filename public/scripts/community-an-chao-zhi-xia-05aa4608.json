@@ -11,7 +11,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知有多少名外来者在场。所有外来者醉酒。[+1外来者]",
-    "image": "/scripts/assets/community/1966e3cef5cc31dc7f7c62327d89dd3280237b2962091a3489bc87b13b44a60f.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/1966e3cef5cc31dc7f7c62327d89dd3280237b2962091a3489bc87b13b44a60f.png",
     "edition": "custom",
     "flavor": "",
     "id": "blacksmith",
@@ -42,11 +42,11 @@
     "name_eng": "Balloonist",
     "firstNight": 9101,
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "ability": "每个夜晚，你得知一名玩家。他醉酒直到下个黄昏，他因自身能力获得的信息均为错误。",
-    "image": "/scripts/assets/community/8147cc5de95105674425d29d7effd4eb3a9b8e8e8be689dce1402a72dd5ee36b.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/8147cc5de95105674425d29d7effd4eb3a9b8e8e8be689dce1402a72dd5ee36b.png",
     "edition": "custom",
     "flavor": "",
     "id": "Wench",
@@ -64,7 +64,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：如果他的邻座有且只有一名邪恶玩家，且他不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
     "edition": "custom",
     "flavor": "",
     "id": "hunter",
@@ -81,7 +81,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知几名海盗在场。如果所有存活善良角色均为海盗，善良阵营获胜。[+0或1海盗]",
-    "image": "/scripts/assets/community/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
     "edition": "custom",
     "flavor": "",
     "id": "_pirate",
@@ -97,7 +97,7 @@
   },
   {
     "ability": "你可以与任意一名其他玩家缔结约定。在新约定达成之前，如果有玩家毁约，你和他之一会死亡。",
-    "image": "/scripts/assets/community/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
     "edition": "custom",
     "flavor": "",
     "id": "merchant",
@@ -116,7 +116,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "2_39",
@@ -134,7 +134,7 @@
   },
   {
     "ability": "一名与你握手的玩家可能会醉酒直到明天黄昏。每个夜晚*，你会得知你是否在今天白天与邪恶玩家握手。",
-    "image": "/scripts/assets/community/a76a67e1e2d00f4c07f30389cece97dc67a0a2b500d4f6f58ecdc76796b280ac.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/a76a67e1e2d00f4c07f30389cece97dc67a0a2b500d4f6f58ecdc76796b280ac.png",
     "edition": "custom",
     "flavor": "",
     "id": "tyconn",
@@ -153,7 +153,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_button",
@@ -173,7 +173,7 @@
   },
   {
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
-    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_38",
@@ -192,7 +192,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知上两名被你提名的玩家最近的距离间有多少名邪恶玩家。",
-    "image": "/scripts/assets/community/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
     "edition": "custom",
     "flavor": "",
     "id": "_prospector",
@@ -222,7 +222,7 @@
     "name_eng": "Dreamer",
     "firstNight": 8500,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "firstNightReminder": "",
@@ -239,11 +239,11 @@
     "name_eng": "Tinker",
     "firstNight": 0,
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你要选择一个除自己以外的角色：邪恶玩家的负面能力对他无效。",
-    "image": "/scripts/assets/community/e49907d3e63e6ea81c108f8d3d858f00230ed497b2613c28cdf30e4983910495.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/e49907d3e63e6ea81c108f8d3d858f00230ed497b2613c28cdf30e4983910495.png",
     "edition": "custom",
     "flavor": "",
     "id": "safeguard",
@@ -262,7 +262,7 @@
   },
   {
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20002_7",
@@ -278,7 +278,7 @@
   },
   {
     "ability": "如果在对你的处决中有人投票，你可能会立即被处决。",
-    "image": "/scripts/assets/community/08dc003b4d2665e98f263d1b220690c25d3e6fd33e0ebbba14606603838cbf77.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/08dc003b4d2665e98f263d1b220690c25d3e6fd33e0ebbba14606603838cbf77.png",
     "edition": "custom",
     "flavor": "",
     "id": "tramp",
@@ -294,7 +294,7 @@
   },
   {
     "ability": "你知道一个不在场角色。如果超过半数玩家同意释放你，你会在当晚变成这个角色和对应的阵营。在你被释放前你不能投票。",
-    "image": "/scripts/assets/community/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png",
     "edition": "custom",
     "flavor": "",
     "id": "jail",
@@ -324,11 +324,11 @@
     "team": "minion",
     "firstNight": 0,
     "ability": "每个夜晚*，一名在你发起提名时投票的，除你以外的玩家死亡。如果没有人在你提名时投票，你可能死亡。",
-    "image": "/scripts/assets/community/67f6fb8735cc8049878baf7664673ad4d687595863fc7e57fc5757a89293c6da.png"
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/67f6fb8735cc8049878baf7664673ad4d687595863fc7e57fc5757a89293c6da.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_30",
@@ -347,7 +347,7 @@
     "firstNight": 5400
   },
   {
-    "image": "/scripts/assets/community/12b1909c6aa880596a566d83a85101bc61413daf68b856fdc57756ee573ab2d0.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/12b1909c6aa880596a566d83a85101bc61413daf68b856fdc57756ee573ab2d0.png",
     "name": "马戏领班",
     "team": "minion",
     "ability": "每局游戏限一次，即使你已死亡，你可以选择成为说书人（参与决策）。此后你仍然可以投票。",
@@ -363,7 +363,7 @@
   },
   {
     "id": "weishenmebushilianjinshushi111",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -378,7 +378,7 @@
   },
   {
     "id": "charoit",
-    "image": "/scripts/assets/community/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
     "edition": "custom",
     "name": "战车 ",
     "ability": "与你顺时针距离为1的玩家中毒。如果是邪恶的非旅行者玩家，改为和他交换角色。每个夜晚*，或该玩家死亡时，该距离+1。",
@@ -393,7 +393,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukkabutton",
@@ -412,7 +412,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个提名你的镇民会在当晚变成邪恶的献礼，而你会随之死亡。但每局游戏只能成功转化一次。",
-    "image": "/scripts/assets/community/6a5ad21e770fba43c8fc5b9debcee7167b5598bc4728ffd212a9a65a4589e5cf.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/6a5ad21e770fba43c8fc5b9debcee7167b5598bc4728ffd212a9a65a4589e5cf.png",
     "edition": "custom",
     "flavor": "",
     "id": "lecadeau",
@@ -432,7 +432,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在夜晚时，如果所有爪牙死亡，你要选择一个除你以外的恶魔角色：你变成那个恶魔，并且每晚行动两次。",
-    "image": "/scripts/assets/community/5d9df26c8d585aebb9d821aac61a8b8e06e7f19cbcf1bcd376e35ee36b4fcafb.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/5d9df26c8d585aebb9d821aac61a8b8e06e7f19cbcf1bcd376e35ee36b4fcafb.png",
     "edition": "custom",
     "flavor": "",
     "id": "sissaphyth",
@@ -461,11 +461,11 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_106",
@@ -483,7 +483,7 @@
   },
   {
     "ability": "旅行者会被非旅行者角色当作不在游戏中，但恶魔仍然可以选择杀死旅行者。",
-    "image": "/scripts/assets/community/677c562a5a07129ac7d2bc729758f4b48f1e8c4e433c02ce831e564393984570.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/677c562a5a07129ac7d2bc729758f4b48f1e8c4e433c02ce831e564393984570.png",
     "edition": "custom",
     "flavor": "",
     "id": "recitalist",
@@ -497,7 +497,7 @@
   },
   {
     "id": "patches",
-    "image": "/scripts/assets/community/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/02b64425930023409cc3cd9da985c400ef5170af2faccc462404747fd60e7448.png",
     "name": "科学怪人 & 海盗",
     "team": "a jinxed",
     "setup": false,
@@ -506,7 +506,7 @@
   },
   {
     "id": "pc",
-    "image": "/scripts/assets/community/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
+    "image": "/scripts/assets/community-an-chao-zhi-xia-05aa4608/ebfc3d16cf5cf42f98f7f891b3a821b9067e3ae495ff1e062551796f59c09966.png",
     "name": "战车 & 普卡",
     "team": "a jinxed",
     "setup": false,

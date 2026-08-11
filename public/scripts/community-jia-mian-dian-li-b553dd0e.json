@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "加冕典礼",
     "author": "我不知道",
-    "logo": "/scripts/assets/community/fb356acd76d6ba775379b1e07ee7b2f5aebdcbef9c0d7b6f560d98bb65c78047.png",
+    "logo": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/fb356acd76d6ba775379b1e07ee7b2f5aebdcbef9c0d7b6f560d98bb65c78047.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -35,7 +35,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -53,7 +53,7 @@
   },
   {
     "id": "meishenmeyongdejuese111",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "edition": "custom",
     "name": "事务官",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "arknights111",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "edition": "custom",
     "name": "骑士",
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -101,7 +101,7 @@
   },
   {
     "id": "wocaishiguowang111",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "name": "国王",
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
@@ -115,7 +115,7 @@
   },
   {
     "id": "wuxingshangjiang111",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "edition": "custom",
     "name": "将军",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -129,7 +129,7 @@
   },
   {
     "id": "wobuzhidaoxieshale111",
-    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
     "edition": "custom",
     "name": "异教领袖",
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -159,7 +159,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -173,7 +173,7 @@
   },
   {
     "id": "babatuosi111",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "name": "吟游诗人",
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
@@ -189,7 +189,7 @@
   },
   {
     "id": "zhongdayande111",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "edition": "custom",
     "name": "罂粟种植者",
     "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
@@ -205,7 +205,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -222,7 +222,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -239,7 +239,7 @@
   },
   {
     "id": "xunzhaonidezhuren111",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "edition": "custom",
     "name": "管家",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
@@ -255,7 +255,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -271,7 +271,7 @@
   },
   {
     "id": "tougexiangxian111",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "edition": "custom",
     "name": "政客",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -301,7 +301,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -315,7 +315,7 @@
   },
   {
     "id": "spy22",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "name": "间谍",
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
@@ -336,7 +336,7 @@
   },
   {
     "id": "dafutoufeiguolaila111",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "name": "精神病患者",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -350,7 +350,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -383,7 +383,7 @@
   },
   {
     "id": "baojunuiuaowjoedijapwu4e90e2aj4rpia",
-    "image": "/scripts/assets/community/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
     "edition": "custom",
     "name": "暴君",
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
@@ -399,7 +399,7 @@
   },
   {
     "id": "baofeng2222222",
-    "image": "/scripts/assets/community/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
     "name": "暴风捕手",
     "team": "fabled",
     "ability": "游戏开始时，如果国王在场，他只能死于处决，但所有邪恶玩家会在首个夜晚得知他是哪一名玩家。",
@@ -419,11 +419,11 @@
     "id": "doomsayerbutton",
     "ability": "如果大于等于四名玩家存活，每名当前存活的玩家可以公开要求你杀死一名与他阵营相同的玩家（每名玩家限一次）。",
     "edition": "custom",
-    "image": "/scripts/assets/community/faa15e653312e9719aad37ea214694a6ec97be841f2332a352a0621c717e4c53.png"
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/faa15e653312e9719aad37ea214694a6ec97be841f2332a352a0621c717e4c53.png"
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -439,7 +439,7 @@
   },
   {
     "id": "56786542_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -448,7 +448,7 @@
   },
   {
     "id": "19_meta",
-    "image": "/scripts/assets/community/6beb272a2352120650ffc467b982b5e7aec7a939cb6a1588be8aea47a30c9fa8.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/6beb272a2352120650ffc467b982b5e7aec7a939cb6a1588be8aea47a30c9fa8.png",
     "name": "间谍&罂粟种植者",
     "team": "a jinxed",
     "setup": false,
@@ -457,7 +457,7 @@
   },
   {
     "id": "2_meta",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "name": "食人族&管家",
     "team": "a jinxed",
     "setup": false,
@@ -469,7 +469,7 @@
     "name": "加冕倒计时",
     "team": "fabled",
     "ability": "暴风捕手只会指向国王，在存活玩家与死亡玩家数量相同的夜晚结束后\r（即理论上国王首次获取信息的那晚结束后），说书人可以在任意时刻令暴风捕手离场。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -479,7 +479,7 @@
     "name": "你们做了什么？",
     "team": "fabled",
     "ability": "如果国王被处决，传奇角色末日预言者入场。如果善良玩家通过食人族\r的能力获得了国王的能力，那么他变成国王，且不会加入末日预言者。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -489,7 +489,7 @@
     "name": "王位继承战争",
     "team": "fabled",
     "ability": "如果场上没有存活的国王，“疯狂”的证明自己是国王的善良玩家可能变成\r国王（可以因此重复出现国王）。如果此时末日预言者在场，其离场。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-jia-mian-dian-li-b553dd0e/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

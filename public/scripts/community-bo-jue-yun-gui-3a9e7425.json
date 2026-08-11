@@ -1,7 +1,7 @@
 [
   {
     "name": "波谲云诡",
-    "logo": "/scripts/assets/community/6641f33c3d4900d93874aa8e797c7b50e8d74de5f40bc07c38b5468fc7dc43f2.png",
+    "logo": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/6641f33c3d4900d93874aa8e797c7b50e8d74de5f40bc07c38b5468fc7dc43f2.png",
     "author": "栉风",
     "id": "_meta",
     "tags": [
@@ -13,7 +13,7 @@
   },
   {
     "id": "1_bojueyungui",
-    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
     "name": "厨师",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -25,7 +25,7 @@
   },
   {
     "id": "2_bojueyungui",
-    "image": "/scripts/assets/community/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
     "name": "修行者",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -37,7 +37,7 @@
   },
   {
     "id": "3_bojueyungui",
-    "image": "/scripts/assets/community/0b2c8978139e4562bf6c54bcb4f50228ac5ba424deebd061a5a7b2d2f8b27eb0.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/0b2c8978139e4562bf6c54bcb4f50228ac5ba424deebd061a5a7b2d2f8b27eb0.png",
     "name": "风水师",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
@@ -51,7 +51,7 @@
   },
   {
     "id": "4_bojueyungui",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "name": "占卜师",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -66,7 +66,7 @@
   },
   {
     "id": "5_bojueyungui",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "name": "侍女",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "6_bojueyungui",
-    "image": "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
     "name": "数学家",
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -93,7 +93,7 @@
   },
   {
     "id": "7_bojueyungui",
-    "image": "/scripts/assets/community/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
     "name": "传教士",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -108,7 +108,7 @@
   },
   {
     "id": "8_bojueyungui",
-    "image": "/scripts/assets/community/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png",
     "name": "送葬者",
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -123,7 +123,7 @@
   },
   {
     "id": "9_bojueyungui",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "name": "赌徒",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -138,7 +138,7 @@
   },
   {
     "id": "10_bojueyungui",
-    "image": "/scripts/assets/community/e2a3c0d3e7e3cc2decadb39702a93461d458ee9f288310101f2e9edb25f436d5.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/e2a3c0d3e7e3cc2decadb39702a93461d458ee9f288310101f2e9edb25f436d5.png",
     "name": "巡察",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择除你以外的两个善良角色：如果他们都存活，他们当晚不会死亡。",
@@ -152,7 +152,7 @@
   },
   {
     "id": "11_bojueyungui",
-    "image": "/scripts/assets/community/382b92488ff8f9b67b39342a32bcf807697ff0e05ea3b4aaf7e39ed6f823384f.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/382b92488ff8f9b67b39342a32bcf807697ff0e05ea3b4aaf7e39ed6f823384f.png",
     "name": "勘探者",
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知与你今天提名的玩家最近的邪恶玩家位于他的顺时针还是逆时针方向。如果距离相等，你得知的信息由说书人决定。",
@@ -167,7 +167,7 @@
   },
   {
     "id": "12_bojueyungui",
-    "image": "/scripts/assets/community/0d2786e9379db1f20c2c8450c873ba2e12f0ddd606e9d41010ec93cbe7de4025.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/0d2786e9379db1f20c2c8450c873ba2e12f0ddd606e9d41010ec93cbe7de4025.png",
     "name": "小说家",
     "team": "townsfolk",
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
@@ -182,7 +182,7 @@
   },
   {
     "id": "13_bojueyungui",
-    "image": "/scripts/assets/community/9b85741c27a7c02e37c7ca474545cac9e8771e9c2137a206e9a2e17d189bc86d.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/9b85741c27a7c02e37c7ca474545cac9e8771e9c2137a206e9a2e17d189bc86d.png",
     "name": "秉笔",
     "team": "townsfolk",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -197,7 +197,7 @@
   },
   {
     "id": "14_bojueyungui",
-    "image": "/scripts/assets/community/8cdea0dfdc86aeed1d626219f20e4e1e5e6753b3a958f3e538db7de7d81428fd.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/8cdea0dfdc86aeed1d626219f20e4e1e5e6753b3a958f3e538db7de7d81428fd.png",
     "name": "亡命徒",
     "team": "outsider",
     "ability": "如果你没有“疯狂”地证明自己是一个在场的镇民角色，一名镇民可能会死亡，即使你已死亡。",
@@ -211,7 +211,7 @@
   },
   {
     "id": "15_bojueyungui",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "name": "酒鬼",
     "team": "outsider",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "16_bojueyungui",
-    "image": "/scripts/assets/community/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
     "name": "瘟疫医生",
     "team": "outsider",
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "17_bojueyungui",
-    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -253,7 +253,7 @@
   },
   {
     "id": "18_bojueyungui",
-    "image": "/scripts/assets/community/b266f4c3f741d5bc7b573fd2b9c8c80ee57df8abeda1b30869122cc7369e3640.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/b266f4c3f741d5bc7b573fd2b9c8c80ee57df8abeda1b30869122cc7369e3640.png",
     "name": "斯芬克斯",
     "team": "minion",
     "ability": "每个夜晚，你要选择一个角色：下个白天，如果该角色在场，他会被公开询问一个是非问题。没有答对的玩家可能会被处决。",
@@ -268,7 +268,7 @@
   },
   {
     "id": "19_bojueyungui",
-    "image": "/scripts/assets/community/cf49863518f25188e3aba90d68ee4fcf6f963122c0f96ee792014f9f8a4d6bb3.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/cf49863518f25188e3aba90d68ee4fcf6f963122c0f96ee792014f9f8a4d6bb3.png",
     "name": "致幻师",
     "team": "minion",
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "20_bojueyungui",
-    "image": "/scripts/assets/community/6fb204fa42b5587ce9906d77dbee32468abe2684d534e8b151d83281712264e1.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/6fb204fa42b5587ce9906d77dbee32468abe2684d534e8b151d83281712264e1.png",
     "name": "冒名客",
     "team": "minion",
     "ability": "每个白天，在你首次“疯狂”地证明自己是一个在场角色时，你在那天让他中毒并获得该角色的能力。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "21_bojueyungui",
-    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
     "name": "洗脑师",
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -313,7 +313,7 @@
   },
   {
     "id": "22_bojueyungui",
-    "image": "/scripts/assets/community/5313fa214ee2891814d35db6b9c8b92695b19cc93c7457282b67f26880d35abd.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/5313fa214ee2891814d35db6b9c8b92695b19cc93c7457282b67f26880d35abd.png",
     "name": "狂戮",
     "team": "demon",
     "ability": "每个夜晚*，你可以选择任意名玩家，并猜测他们是哪些善良角色：如果你都没猜错，他们死亡。如果你不做选择，会有一名玩家死亡。",
@@ -327,7 +327,7 @@
   },
   {
     "id": "23_bojueyungui",
-    "image": "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
     "name": "普卡",
     "team": "demon",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -343,7 +343,7 @@
   },
   {
     "id": "24_bojueyungui",
-    "image": "/scripts/assets/community/a3262b316b736fdbbba6c38ac5ae3a3c5c7a7badda1ec692809b73ffb249a371.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/a3262b316b736fdbbba6c38ac5ae3a3c5c7a7badda1ec692809b73ffb249a371.png",
     "name": "迷雾",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你首次死亡时，一名爪牙会变成剧本中除迷雾以外的恶魔角色。爪牙会代替你获得恶魔信息且不知道你是恶魔。",
@@ -357,7 +357,7 @@
   },
   {
     "id": "25_bojueyungui",
-    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
     "name": "诺·达鲺",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -376,12 +376,12 @@
     "name": "侍女&数学家",
     "team": "a jinxed",
     "ability": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。",
-    "image": "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
     "edition": "custom"
   },
   {
     "id": "27_bojueyungui",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-bo-jue-yun-gui-3a9e7425/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "妙笔生花",
     "team": "fabled",
     "ability": "小说家不受致幻师的互动干扰影响",

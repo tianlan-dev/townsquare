@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "江山易改",
     "author": "深咖啡ing",
-    "logo": "/scripts/assets/community/6e6752842335aa21fc6fd24029f84911bb783a0270c80047149c36816fdde742.png",
+    "logo": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/6e6752842335aa21fc6fd24029f84911bb783a0270c80047149c36816fdde742.png",
     "almanac": "有问题联系SE谢谢喵",
     "tags": [],
     "version": "",
@@ -11,7 +11,7 @@
   },
   {
     "id": "_jiangshanyigai",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -24,7 +24,7 @@
   },
   {
     "id": "1_jiangshanyigai",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_jiangshanyigai",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -51,7 +51,7 @@
   },
   {
     "id": "3_jiangshanyigai",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -69,7 +69,7 @@
   },
   {
     "id": "4_jiangshanyigai",
-    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -83,7 +83,7 @@
   },
   {
     "id": "5_jiangshanyigai",
-    "image": "/scripts/assets/community/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
     "firstNightReminder": "唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
     "otherNightReminder": "如果工程师未曾使用能力，唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
     "reminders": [
@@ -98,7 +98,7 @@
   },
   {
     "id": "6_jiangshanyigai",
-    "image": "/scripts/assets/community/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png",
     "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
     "name": "农夫",
     "team": "townsfolk",
@@ -108,7 +108,7 @@
   },
   {
     "id": "7_jiangshanyigai",
-    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -120,7 +120,7 @@
   },
   {
     "id": "8_jiangshanyigai",
-    "image": "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png",
     "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
     "reminders": [
       "在场",
@@ -134,7 +134,7 @@
   },
   {
     "id": "9_jiangshanyigai",
-    "image": "/scripts/assets/community/f8bd50cf4fd5264bc088e0a626d09ea939c459b11b6ce3dcb3e1595e567a2db8.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/f8bd50cf4fd5264bc088e0a626d09ea939c459b11b6ce3dcb3e1595e567a2db8.png",
     "firstNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
     "otherNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
     "name": "郎中",
@@ -146,7 +146,7 @@
   },
   {
     "id": "10_jiangshanyigai",
-    "image": "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
     "remindersGlobal": [
       "是变脸师"
     ],
@@ -157,7 +157,7 @@
   },
   {
     "id": "11_jiangshanyigai",
-    "image": "/scripts/assets/community/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -169,7 +169,7 @@
   },
   {
     "id": "12_jiangshanyigai",
-    "image": "/scripts/assets/community/3354b0c77161fcfdd5b35b82b4d323a64ca077636a358f1ee19b76261ff58d1c.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/3354b0c77161fcfdd5b35b82b4d323a64ca077636a358f1ee19b76261ff58d1c.png",
     "otherNightReminder": "唤醒狸猫，让他选择一名玩家，将“太子”标记放在对应玩家角色标记旁。如果当晚邪恶角色杀死了“太子”，交换狸猫与“太子”的角色，并依次唤醒告知。",
     "reminders": [
       "太子"
@@ -182,7 +182,7 @@
   },
   {
     "id": "13_jiangshanyigai",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -195,7 +195,7 @@
   },
   {
     "id": "14_jiangshanyigai",
-    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
     "reminders": [
       "无法提名"
     ],
@@ -206,7 +206,7 @@
   },
   {
     "id": "15_jiangshanyigai",
-    "image": "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
     "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
     "reminders": [
       "今晚茶会"
@@ -219,7 +219,7 @@
   },
   {
     "id": "16_jiangshanyigai",
-    "image": "/scripts/assets/community/42ff98c49143ceae7edbb4fad605dbe856d72ea3a581437f662ed5627474c4ff.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/42ff98c49143ceae7edbb4fad605dbe856d72ea3a581437f662ed5627474c4ff.png",
     "otherNightReminder": "如果入殓师白天提名了恶魔且恶魔死于这次处决，唤醒入殓师，告知他变成新的邪恶的恶魔。",
     "reminders": [
       "是恶魔"
@@ -232,7 +232,7 @@
   },
   {
     "id": "17_jiangshanyigai",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -245,7 +245,7 @@
   },
   {
     "id": "18_jiangshanyigai",
-    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
     "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "reminders": [
@@ -260,7 +260,7 @@
   },
   {
     "id": "19_jiangshanyigai",
-    "image": "/scripts/assets/community/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
     "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -270,7 +270,7 @@
   },
   {
     "id": "20_jiangshanyigai",
-    "image": "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
     "setup": true,
     "name": "科学怪人",
@@ -281,7 +281,7 @@
   },
   {
     "id": "21_jiangshanyigai",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -294,7 +294,7 @@
   },
   {
     "id": "22_jiangshanyigai",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -309,7 +309,7 @@
   },
   {
     "id": "23_jiangshanyigai",
-    "image": "/scripts/assets/community/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png",
     "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。",
     "otherNightReminder": "唤醒卡扎力，让他攻击一名玩家。",
     "reminders": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "24_jiangshanyigai",
-    "image": "/scripts/assets/community/9146dc30bf61583e97d004f5e75e9b5b47878078f195dc59c4e7dfa6084ac185.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/9146dc30bf61583e97d004f5e75e9b5b47878078f195dc59c4e7dfa6084ac185.png",
     "otherNightReminder": "唤醒姑获鸟，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -339,7 +339,7 @@
   },
   {
     "id": "25_jiangshanyigai",
-    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -357,7 +357,7 @@
     "name": "红唇女郎&方古",
     "team": "a jinxed",
     "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。",
-    "image": "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
+    "image": "/scripts/assets/community-jiang-shan-yi-gai-3aab3c34/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
     "edition": "custom"
   },
   {

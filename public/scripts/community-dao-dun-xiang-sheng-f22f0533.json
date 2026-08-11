@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "‌刀盾相生",
     "author": "际尘",
-    "logo": "/scripts/assets/community/38ff8fa621433a09fef0bd33b64cfee8efe68fba4454dbb82e5fdab9a8952b30.png",
+    "logo": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/38ff8fa621433a09fef0bd33b64cfee8efe68fba4454dbb82e5fdab9a8952b30.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -24,7 +24,7 @@
   },
   {
     "id": "daokeeeeeeekekekekekekeke",
-    "image": "/scripts/assets/community/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png",
     "edition": "custom",
     "name": "刀客",
     "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
@@ -42,7 +42,7 @@
   },
   {
     "id": "yongjiangsaohdawjroij4u901qhwrfi13048",
-    "image": "/scripts/assets/community/497f17ff62eb0038598553d187710747311e7a359a51dd2568e2e7aff3dcdd04.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/497f17ff62eb0038598553d187710747311e7a359a51dd2568e2e7aff3dcdd04.png",
     "edition": "custom",
     "name": "老兵",
     "ability": "如果已死亡玩家中没有邪恶玩家，你不会死亡。",
@@ -59,7 +59,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -76,7 +76,7 @@
   },
   {
     "id": "zabusini111",
-    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
     "edition": "custom",
     "name": "魔像",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
@@ -92,7 +92,7 @@
   },
   {
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/cf49863518f25188e3aba90d68ee4fcf6f963122c0f96ee792014f9f8a4d6bb3.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/cf49863518f25188e3aba90d68ee4fcf6f963122c0f96ee792014f9f8a4d6bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "Amaniti",
@@ -110,7 +110,7 @@
   },
   {
     "id": "huasapidpaiwopippippipp123i123p12ip3p1i23p1",
-    "image": "/scripts/assets/community/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
     "edition": "custom",
     "name": "画皮",
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
@@ -127,7 +127,7 @@
   },
   {
     "id": "taowuuuuuuuuuuuu11111111",
-    "image": "/scripts/assets/community/dde7a76ae1620db1455201acce4601333f17a51419df368a1421c85653a4153d.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/dde7a76ae1620db1455201acce4601333f17a51419df368a1421c85653a4153d.png",
     "edition": "custom",
     "name": "梼杌",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你将要死亡时，改为一名存活且具有能力的爪牙失去能力。你不会得知恶魔信息。",
@@ -147,7 +147,7 @@
     "name": "教皇",
     "team": "fabled",
     "ability": "可以有多个重复角色在场。邪恶玩家互相知道彼此的角色。",
-    "image": "/scripts/assets/community/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -158,7 +158,7 @@
   },
   {
     "id": "1124",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-dao-dun-xiang-sheng-f22f0533/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "edition": "custom",
     "name": "其利断金",
     "ability": "提名前有等同玩家人数一半的分钟数（向下取整）发言和使用刀客能力。在第二个黎明时，游戏回到为首个夜晚做准备前，已死亡的玩家会在对应的时刻死亡。",

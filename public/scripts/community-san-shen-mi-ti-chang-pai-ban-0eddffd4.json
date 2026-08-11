@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "三神谜题（厂牌版）",
     "author": "华稽",
-    "logo": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "logo": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -42,8 +42,8 @@
   {
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
     "image": [
-      "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
-      "/scripts/assets/community/a1c475cd24fa0da10a709dc1639ac8412336f9a66d70b738a3ec7c2e3614687d.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/a1c475cd24fa0da10a709dc1639ac8412336f9a66d70b738a3ec7c2e3614687d.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -63,8 +63,8 @@
   {
     "ability": "每个夜晚，你要选择一名除你以外的玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
     "image": [
-      "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
-      "/scripts/assets/community/fbaaa4fae7824da6d6562fb276457c259bbcdaef7b7315a7b9c0c00fff79f202.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/fbaaa4fae7824da6d6562fb276457c259bbcdaef7b7315a7b9c0c00fff79f202.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -90,8 +90,8 @@
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
     "image": [
-      "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
-      "/scripts/assets/community/cd5ca26cd8b14cff996fe28e5b47dc23c9dc38b592c628a3bb6c881e806639b4.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/cd5ca26cd8b14cff996fe28e5b47dc23c9dc38b592c628a3bb6c881e806639b4.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -112,8 +112,8 @@
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
     "image": [
-      "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
-      "/scripts/assets/community/84b12b094fa0d7e56841b13bd2d51fc8d05eb88ebec41bca4518df56eb243dc8.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/84b12b094fa0d7e56841b13bd2d51fc8d05eb88ebec41bca4518df56eb243dc8.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -133,8 +133,8 @@
   {
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知存活镇民的数量。",
     "image": [
-      "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
-      "/scripts/assets/community/e88ac2aeaab0a3be6a7560631cfc6e0fcdd34cde184715c2a2a5a91f77564182.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/e88ac2aeaab0a3be6a7560631cfc6e0fcdd34cde184715c2a2a5a91f77564182.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -153,7 +153,7 @@
   },
   {
     "id": "LiuShanMen",
-    "image": "/scripts/assets/community/ebfd461818d1c9f3f564ebb6fbe3f298150b26894679c3e5c158c63b027dc7f0.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/ebfd461818d1c9f3f564ebb6fbe3f298150b26894679c3e5c158c63b027dc7f0.png",
     "otherNightReminder": "在六扇门提名时，在对应的玩家标记旁放置“追查”标记。在夜晚时，唤醒六扇门，用点头和摇头来示意与有“追查”标记邻近的玩家中是否存在非镇民玩家。",
     "reminders": [
       "追查"
@@ -168,8 +168,8 @@
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
     "image": [
-      "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
-      "/scripts/assets/community/6b38e25ad8b1cbfa4907b9cdfd842db5cdd208b1e7b598381cb01bf6354473af.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/6b38e25ad8b1cbfa4907b9cdfd842db5cdd208b1e7b598381cb01bf6354473af.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -188,7 +188,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知与你今天提名的玩家最近的邪恶玩家位于他的顺时针还是逆时针方向。",
-    "image": "/scripts/assets/community/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/c1923899d43b8ccc0ec97a2bddb6b3145a6553a54c4768dc4f9c7a63f046ec74.png",
     "edition": "custom",
     "flavor": "",
     "id": "_prospector",
@@ -219,8 +219,8 @@
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
     "image": [
-      "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
-      "/scripts/assets/community/4a2d5f02ec62dbac03aa264ef45848df65a909c1d4bc607688ece29e0c6adb6f.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/4a2d5f02ec62dbac03aa264ef45848df65a909c1d4bc607688ece29e0c6adb6f.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -240,8 +240,8 @@
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
     "image": [
-      "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
-      "/scripts/assets/community/5c7e8d934bb0ffc7a809455f46b1e6f4396bd3854397c1f20651d63680909702.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/5c7e8d934bb0ffc7a809455f46b1e6f4396bd3854397c1f20651d63680909702.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -262,7 +262,7 @@
   },
   {
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
-    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
     "edition": "custom",
     "flavor": "",
     "id": "xiaoshuojia",
@@ -281,8 +281,8 @@
   {
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你会在当晚获得那个角色的能力，直到下个黄昏。",
     "image": [
-      "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
-      "/scripts/assets/community/f13a102df864ea2961882d1d137a1f6c208d40106e3015ae6a01b164f1b2015e.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/f13a102df864ea2961882d1d137a1f6c208d40106e3015ae6a01b164f1b2015e.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -304,8 +304,8 @@
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
     "image": [
-      "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
-      "/scripts/assets/community/3b0c6eb05eebfc774a034a8fda859756dd855de78c9af4192fd2b6ffa028dcbb.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/3b0c6eb05eebfc774a034a8fda859756dd855de78c9af4192fd2b6ffa028dcbb.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -330,8 +330,8 @@
   {
     "ability": "当你死亡时，说书人会获得一个爪牙能力。",
     "image": [
-      "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
-      "/scripts/assets/community/7294f72dc1ae990269ec12a7019be60bd16da1673503bffbd6c670f33ca676a3.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/7294f72dc1ae990269ec12a7019be60bd16da1673503bffbd6c670f33ca676a3.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -361,8 +361,8 @@
   {
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
     "image": [
-      "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
-      "/scripts/assets/community/eeb6525bd8eb63e0e414a2cd2bddf02530457f524fb32035a6e375aec314ef89.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/eeb6525bd8eb63e0e414a2cd2bddf02530457f524fb32035a6e375aec314ef89.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -388,8 +388,8 @@
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
     "image": [
-      "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
-      "/scripts/assets/community/cd976ff80fb89682c8741668f2278760069e9697d5fd3e29f70229e286c34ba9.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/cd976ff80fb89682c8741668f2278760069e9697d5fd3e29f70229e286c34ba9.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -407,8 +407,8 @@
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
     "image": [
-      "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
-      "/scripts/assets/community/ac9c5577f03cbcb10faa341f48dc878c10be8e5f5bdeb74c2ebccd804fd06fb2.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/ac9c5577f03cbcb10faa341f48dc878c10be8e5f5bdeb74c2ebccd804fd06fb2.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -438,8 +438,8 @@
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
     "image": [
-      "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
-      "/scripts/assets/community/788138e9f8272dc5fc0fe626bd4ee964fc0de2ee31bba493ce69fb68ab0df8af.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/788138e9f8272dc5fc0fe626bd4ee964fc0de2ee31bba493ce69fb68ab0df8af.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -460,8 +460,8 @@
   {
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
     "image": [
-      "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
-      "/scripts/assets/community/39a65b7a759c6359f0094ea3a863bce5dd3108016acd4d8d2d622efe65182006.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/39a65b7a759c6359f0094ea3a863bce5dd3108016acd4d8d2d622efe65182006.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -516,8 +516,8 @@
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
     "image": [
-      "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
-      "/scripts/assets/community/a1c90905b346d5ea6bf1eb7e36d8943cff6ae5657260645565fad85e3e9d5629.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/a1c90905b346d5ea6bf1eb7e36d8943cff6ae5657260645565fad85e3e9d5629.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -548,7 +548,7 @@
     "name": "邪祭司",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。游戏的首个夜晚，你要选择一名说书人：他成为“变化之神”，另一名成为正确之神。[-1外来者]",
-    "image": "/scripts/assets/community/0f08499133c64744d33d4f636255c5488b40a333434d0e04a3258d12b48c4bdf.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/0f08499133c64744d33d4f636255c5488b40a333434d0e04a3258d12b48c4bdf.png",
     "setup": true,
     "reminders": [
       "是变化之神",
@@ -561,8 +561,8 @@
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
     "image": [
-      "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
-      "/scripts/assets/community/340e0a5da096361a6366922647be2d8f2667994d79f0a3b10acadc9a050cada7.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/340e0a5da096361a6366922647be2d8f2667994d79f0a3b10acadc9a050cada7.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -598,8 +598,8 @@
   {
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
     "image": [
-      "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
-      "/scripts/assets/community/dab2a2a0780d2ba7fe0b22ca8c67234eace2605a4c4ae6b58a640af962dc2957.png"
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+      "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/dab2a2a0780d2ba7fe0b22ca8c67234eace2605a4c4ae6b58a640af962dc2957.png"
     ],
     "edition": "custom",
     "flavor": "",
@@ -628,7 +628,7 @@
     "name": "变幻之神",
     "team": "fabled",
     "ability": "本局游戏存在两名说书人，其中一位只会给出正确信息，另外一位只会给出错误信息，恶魔知道他们分别是谁。所有玩家在每次获取信息之前要选择两名说书人中的一名：由他来负责为你给出信息。中毒醉酒的玩家得知的信息会正误对调。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [
       "是正确之神",
@@ -641,7 +641,7 @@
     "name": "洗脑师调整",
     "team": "fabled",
     "ability": "洗脑师可以改为选择一名玩家，一名说书人和正确/错误：他明天需要“疯狂”的证明那名说书人是正确/错误之神，不然他可能被处决。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -651,7 +651,7 @@
     "name": "村夫调整",
     "team": "fabled",
     "ability": "村夫不再能选择自己。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -661,7 +661,7 @@
     "name": "理发师调整",
     "team": "fabled",
     "ability": "如果理发师死亡，恶魔可以选择改为交换两名说书人的角色。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-san-shen-mi-ti-chang-pai-ban-0eddffd4/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

@@ -23,7 +23,7 @@
         "stateDescription": "如果瘟疫医生死亡且说书人会因此获得冒名客的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。"
       }
     ],
-    "logo": "/scripts/assets/community/facb02362fea35d15c6a7dcfe11909846f3e8fa1d3e457c922e6f27c15e0c7b1.webp",
+    "logo": "/scripts/assets/community-che-di-feng-kuang-72fe6061/facb02362fea35d15c6a7dcfe11909846f3e8fa1d3e457c922e6f27c15e0c7b1.webp",
     "id": "_meta",
     "description": "",
     "tags": [
@@ -33,7 +33,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "seamstressbutton",
@@ -51,7 +51,7 @@
   },
   {
     "ability": "每个白天，你要拜访说书人得知一条错误信息。每局游戏限一次，你得知正确信息。",
-    "image": "/scripts/assets/community/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "Astrologer",
@@ -69,7 +69,7 @@
   },
   {
     "ability": "每个夜晚*，你得知今天提名你的角色。如果你疯狂地证明你是投机者，你会得知错误信息。",
-    "image": "/scripts/assets/community/f279067d18e52d219922c2a4932972d133c3e9ecdd3da5d03cb9961cc6820d55.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/f279067d18e52d219922c2a4932972d133c3e9ecdd3da5d03cb9961cc6820d55.png",
     "edition": "custom",
     "flavor": "",
     "id": "Hustler",
@@ -88,7 +88,7 @@
   },
   {
     "ability": "每个夜晚，你会得知被邪恶玩家的能力选择的存活玩家与你的最近距离。",
-    "image": "/scripts/assets/community/8b01042068e3c7f81cc8450485beaf12dcb7a3508a1de91cd8e6d0fd270e4bce.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/8b01042068e3c7f81cc8450485beaf12dcb7a3508a1de91cd8e6d0fd270e4bce.png",
     "edition": "custom",
     "flavor": "",
     "id": "Houndskeeper",
@@ -106,7 +106,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一个在场角色。",
-    "image": "/scripts/assets/community/c21726a018da6b33d349c6acb7b9262176db4f903a1a4b90f1d03218e279cc6e.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/c21726a018da6b33d349c6acb7b9262176db4f903a1a4b90f1d03218e279cc6e.png",
     "edition": "custom",
     "flavor": "",
     "id": "Stableboy",
@@ -122,7 +122,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名玩家：他醉酒并得知错误信息。",
-    "image": "/scripts/assets/community/8147cc5de95105674425d29d7effd4eb3a9b8e8e8be689dce1402a72dd5ee36b.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/8147cc5de95105674425d29d7effd4eb3a9b8e8e8be689dce1402a72dd5ee36b.png",
     "edition": "custom",
     "flavor": "",
     "id": "Wench",
@@ -140,7 +140,7 @@
   },
   {
     "ability": "每个白天，一名邪恶玩家要对某件事疯狂，否则他可能死亡。每个白天，你要对某件事疯狂，否则你可能死亡。",
-    "image": "/scripts/assets/community/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Thespian",
@@ -158,7 +158,7 @@
   },
   {
     "ability": "如果你在白天是最疯狂证明自己是大力士的人，今晚选择了你的玩家之一会死亡。",
-    "image": "/scripts/assets/community/aabf01baf5ecdcdaa2ea190b653cf6d648934d735d70c9e75af8cd74f1b6ffdc.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/aabf01baf5ecdcdaa2ea190b653cf6d648934d735d70c9e75af8cd74f1b6ffdc.png",
     "edition": "custom",
     "flavor": "",
     "id": "Strongman",
@@ -178,7 +178,7 @@
   },
   {
     "ability": "每个白天，在你首次“疯狂”地证明自己是一个在场角色时，你在那天让他中毒并获得该角色的能力。",
-    "image": "/scripts/assets/community/5a64205ca931d93906fa234b3a7c52dc85d763171627d5f6fd8804ce9e8cc12d.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/5a64205ca931d93906fa234b3a7c52dc85d763171627d5f6fd8804ce9e8cc12d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Imposter",
@@ -198,7 +198,7 @@
   },
   {
     "ability": "每个夜晚，你要选择至多三名玩家：他们以为自己受到疯狂能力的影响，但实际上没有。",
-    "image": "/scripts/assets/community/f7b07da25ca214fe9e9570efecdefe2d015894bc9bddb8aac7e0d280f96c5a8b.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/f7b07da25ca214fe9e9570efecdefe2d015894bc9bddb8aac7e0d280f96c5a8b.png",
     "edition": "custom",
     "flavor": "",
     "id": "Klaun",
@@ -216,7 +216,7 @@
   },
   {
     "ability": "每个夜晚*，会有一名玩家死亡。在最后一晚，你要选择一名玩家：他必须疯狂地证明你不是恶魔，否则他的阵营落败。",
-    "image": "/scripts/assets/community/891bcdaf83d9faa238a871f495356565cbc352af8f87dce1cd563b71ab71cdc9.webp",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/891bcdaf83d9faa238a871f495356565cbc352af8f87dce1cd563b71ab71cdc9.webp",
     "edition": "custom",
     "flavor": "",
     "id": "tipi_tipi",
@@ -235,7 +235,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。始终会有一名善良玩家知道你和另一人中有齐纳克。如果你在有爪牙存活时被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/75beba499ad04157c7acdbf4685c4c6d8b8a9473b6407a298bed6963949bf69e.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/75beba499ad04157c7acdbf4685c4c6d8b8a9473b6407a298bed6963949bf69e.png",
     "edition": "custom",
     "flavor": "",
     "id": "J’Nak",
@@ -254,7 +254,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjianc72fe6061",
@@ -271,7 +271,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知他的角色的英文名字中的一个字母。",
-    "image": "/scripts/assets/community/40e0dd5d9e96292edfdc1777ebe7a770588ccc142ce495136649802544292042.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/40e0dd5d9e96292edfdc1777ebe7a770588ccc142ce495136649802544292042.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiren",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "villageidiotc72fe6061",
@@ -319,11 +319,11 @@
     "name_eng": "Balloonist",
     "firstNight": 9101,
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "flavor": "",
     "id": "bianlianshic72fe6061",
@@ -344,7 +344,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunkbutton",
@@ -362,7 +362,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutantbutton",
@@ -378,7 +378,7 @@
   },
   {
     "ability": "在夜晚时，你会转变为本局游戏中首个被处决的玩家的阵营。",
-    "image": "/scripts/assets/community/73dd5affed593cd1dc779aaeadd55d4ec16671049627724668555c149b7ccf12.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/73dd5affed593cd1dc779aaeadd55d4ec16671049627724668555c149b7ccf12.png",
     "edition": "custom",
     "flavor": "",
     "id": "pianzi",
@@ -396,7 +396,7 @@
   },
   {
     "ability": "如果你死亡，说书人获得一个爪牙能力。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "flavor": "",
     "id": "plaguedoctorc72fe6061",
@@ -415,7 +415,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
-    "image": "/scripts/assets/community/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
     "edition": "custom",
     "flavor": "",
     "id": "guhuoniaoc72fe6061",
@@ -433,7 +433,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpyc72fe6061",
@@ -453,7 +453,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "cerenovusbutton",
@@ -471,7 +471,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "edition": "custom",
     "flavor": "",
     "id": "kazali_button",
@@ -500,6 +500,6 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-che-di-feng-kuang-72fe6061/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   }
 ]

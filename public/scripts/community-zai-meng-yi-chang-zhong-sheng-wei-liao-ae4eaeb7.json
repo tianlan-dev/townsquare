@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "再梦一场·钟声未了",
     "author": "Bruce C.",
-    "logo": "/scripts/assets/community/8dabf45a5cc54b8abd965e127308007ec663f8222a234689ed3f7b8c6442d778.png",
+    "logo": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/8dabf45a5cc54b8abd965e127308007ec663f8222a234689ed3f7b8c6442d778.png",
     "almanac": "https://www.yuque.com/bowencui-irtup/xgs8yf?# 《BOTC》",
     "description": "梦未醒，钟声响。再梦一场，且听回响。",
     "townsfolksName": "镇民",
@@ -79,7 +79,7 @@
   },
   {
     "id": "clockmaker_b",
-    "image": "/scripts/assets/community/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -95,7 +95,7 @@
   },
   {
     "id": "mathematician_b",
-    "image": "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。(从上个黎明到你被唤醒时）",
@@ -113,7 +113,7 @@
   },
   {
     "id": "dreamer_b",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -127,7 +127,7 @@
   },
   {
     "id": "cardmaster_b",
-    "image": "/scripts/assets/community/5b04b15dd3c3ab23e0be294b37acfaa99cb7550a67b4a923ad81521351ea5835.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/5b04b15dd3c3ab23e0be294b37acfaa99cb7550a67b4a923ad81521351ea5835.png",
     "edition": "custom",
     "name": "卡牌大师",
     "ability": "每个夜晚，你要选择一个善良角色（除你之外）和一个邪恶角色：你会得知这两个角色中是否至少有一个在场。",
@@ -143,7 +143,7 @@
   },
   {
     "id": "flowergirl_b",
-    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -162,7 +162,7 @@
   },
   {
     "id": "towncrier_b",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "oracle_b",
-    "image": "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -197,7 +197,7 @@
   },
   {
     "id": "savant_b",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "edition": "custom",
     "name": "博学者",
     "team": "townsfolk",
@@ -213,7 +213,7 @@
   },
   {
     "id": "philosopher_b",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "edition": "custom",
     "name": "哲学家",
     "team": "townsfolk",
@@ -233,7 +233,7 @@
   },
   {
     "id": "artist_b",
-    "image": "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -251,7 +251,7 @@
   },
   {
     "id": "juggler_b",
-    "image": "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
     "edition": "custom",
     "name": "杂耍艺人",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -269,7 +269,7 @@
   },
   {
     "id": "monk_b",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "aerialist_b",
-    "image": "/scripts/assets/community/d55562186541c20c03d19dae17fa80fdf9f209db787e3b566f86d941695e00fc.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/d55562186541c20c03d19dae17fa80fdf9f209db787e3b566f86d941695e00fc.png",
     "edition": "custom",
     "name": "空中飞人",
     "ability": "你死亡的当晚会被唤醒并得知所有角色类型的玩家各一名。你死于善良玩家发起的提名处决或能力时你醉酒。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "hatter_b",
-    "image": "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
     "edition": "custom",
     "name": "帽匠",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -322,7 +322,7 @@
   },
   {
     "id": "barber_b",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -340,7 +340,7 @@
   },
   {
     "id": "plaguedoctor_b",
-    "image": "/scripts/assets/community/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "如果你死亡，说书人会获得一个爪牙能力。",
@@ -371,7 +371,7 @@
   },
   {
     "id": "klutz_b",
-    "image": "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -387,7 +387,7 @@
   },
   {
     "id": "gudiao_b",
-    "image": "/scripts/assets/community/ad6ad5b564b9c6b03a21b1cc1d1c3122a0014a526d46accba2136afa6ea3a4a0.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/ad6ad5b564b9c6b03a21b1cc1d1c3122a0014a526d46accba2136afa6ea3a4a0.png",
     "edition": "custom",
     "name": "蛊雕",
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
@@ -402,7 +402,7 @@
   },
   {
     "id": "scarletwoman_b",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -424,7 +424,7 @@
   },
   {
     "id": "eviltwin_b",
-    "image": "/scripts/assets/community/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
     "edition": "custom",
     "name": "镜像双子",
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
@@ -442,7 +442,7 @@
   },
   {
     "id": "boffin_b",
-    "image": "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -456,7 +456,7 @@
   },
   {
     "id": "fanggu_b",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -476,7 +476,7 @@
   },
   {
     "id": "vigormortis_b",
-    "image": "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
     "edition": "custom",
     "name": "亡骨魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -496,7 +496,7 @@
   },
   {
     "id": "nodashii_b",
-    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -515,7 +515,7 @@
   },
   {
     "id": "vortox_b",
-    "image": "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
+    "image": "/scripts/assets/community-zai-meng-yi-chang-zhong-sheng-wei-liao-ae4eaeb7/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",

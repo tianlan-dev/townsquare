@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "诡异童话（霜公主版）",
     "author": "Melodia & Astral Zucchinii",
-    "logo": "/scripts/assets/community/668dc148e5067c0260ebf096dcae8e48c355f509617979b76527c1d2c15aeb8e.png",
+    "logo": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/668dc148e5067c0260ebf096dcae8e48c355f509617979b76527c1d2c15aeb8e.png",
     "almanac": "https://www.bloodstar.xyz/p/AstralZucchinii/Fairy_Tale/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_fairy_tale_hugo",
-    "image": "/scripts/assets/community/62a61f01bcf651dae8a94ec5b465b7461dc90d54db2e09f3d082145d1bc63eed.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/62a61f01bcf651dae8a94ec5b465b7461dc90d54db2e09f3d082145d1bc63eed.png",
     "firstNightReminder": "唤醒霜公主，统计恶魔与他距离最远的爪牙之间的角色类型数量（顺时针）并向霜公主竖起等量的手指。",
     "setup": true,
     "name": "霜公主",
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_fairy_tale_hugo",
-    "image": "/scripts/assets/community/91ddf09cb2322437c3481a699f7e40a4a93e90e633882bebe0f9d87d8f8e6a15.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/91ddf09cb2322437c3481a699f7e40a4a93e90e633882bebe0f9d87d8f8e6a15.png",
     "firstNightReminder": "唤醒毛伊，他选择每个角色类型各一个角色，向他展示不在场角色的数量。",
     "name": "毛伊",
     "team": "townsfolk",
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_fairy_tale_hugo",
-    "image": "/scripts/assets/community/8a185d30809009445eac69d5f581724236b4834e7d167df1721f7446576a1e99.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/8a185d30809009445eac69d5f581724236b4834e7d167df1721f7446576a1e99.png",
     "firstNightReminder": "唤醒阿南西，向他展示三个善良角色标记。其中有一个在场，有一个是恶魔的伪装，有一个既不在场也不是恶魔的伪装。",
     "otherNightReminder": "",
     "name": "阿南西",
@@ -49,7 +49,7 @@
   },
   {
     "id": "3_fairy_tale_hugo",
-    "image": "/scripts/assets/community/f5da96de3c4cee148fc3c43dc228ea7736b575c521e8e30f4d7b321a3eb8ca06.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/f5da96de3c4cee148fc3c43dc228ea7736b575c521e8e30f4d7b321a3eb8ca06.png",
     "firstNightReminder": "唤醒汉塞尔&格蕾特，他选择一个角色类型，向他展示该角色类型中的两个角色，其中一个角色在场，然后唤醒爪牙，向他展示汉塞尔&格蕾特的角色标记。",
     "otherNightReminder": "唤醒汉塞尔&格蕾特，他选择一个与之前不同的角色类型，向他展示该角色类型中的两个角色，其中一个角色在场。",
     "reminders": [
@@ -68,7 +68,7 @@
   },
   {
     "id": "4_fairy_tale_hugo",
-    "image": "/scripts/assets/community/69bf3a5dca2673f97daf452a17eb3ffcf0b8659a3bca193038b1c8b57127f8c0.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/69bf3a5dca2673f97daf452a17eb3ffcf0b8659a3bca193038b1c8b57127f8c0.png",
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [
@@ -85,7 +85,7 @@
   },
   {
     "id": "5_fairy_tale_hugo",
-    "image": "/scripts/assets/community/40946f9cba2e49853847687f8a22cb7e0d85062acb3d3469cbd96a93141b1c8a.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/40946f9cba2e49853847687f8a22cb7e0d85062acb3d3469cbd96a93141b1c8a.png",
     "otherNightReminder": "",
     "reminders": [
       "保护",
@@ -100,7 +100,7 @@
   },
   {
     "id": "6_fairy_tale_hugo",
-    "image": "/scripts/assets/community/4e1734679a10532f96cf6c098f56511424d1b39b31af1503cc24bb92bb82ecec.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/4e1734679a10532f96cf6c098f56511424d1b39b31af1503cc24bb92bb82ecec.png",
     "otherNightReminder": "唤醒莴苣姑娘，让他指向除他以外的一名玩家，并选择一个角色类型，为该玩家放置对应的免疫标记。如果该玩家属于该角色类型，莴苣姑娘可能死亡。",
     "reminders": [
       "免疫镇民",
@@ -119,7 +119,7 @@
   },
   {
     "id": "7_fairy_tale_hugo",
-    "image": "/scripts/assets/community/52a894eef92123c38de6601d1982943052544f74887cfdc04328cda0407df0f6.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/52a894eef92123c38de6601d1982943052544f74887cfdc04328cda0407df0f6.png",
     "firstNightReminder": "唤醒小红帽，他要么摇头，要么选择一个角色类型：如果与他邻近的存活的玩家属于该角色类型，点头，否则摇头。然后为他放置“失去能力”标记。",
     "otherNightReminder": "唤醒小红帽，他要么摇头，要么选择一个角色类型：如果与他邻近的存活的玩家属于该角色类型，点头，否则摇头。然后为他放置“失去能力”标记。",
     "reminders": [
@@ -135,7 +135,7 @@
   },
   {
     "id": "8_fairy_tale_hugo",
-    "image": "/scripts/assets/community/793ad1c4fa568e2854396734dd7cd9cc2d86c318a4b788a916758074d9196ec0.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/793ad1c4fa568e2854396734dd7cd9cc2d86c318a4b788a916758074d9196ec0.png",
     "otherNightReminder": "唤醒孙悟空，他要么摇头，要么指向一名玩家，并指向角色列表上的一个角色，如果该玩家是该角色，他死亡。当孙悟空首次在夜晚死亡时，改为他醉酒。",
     "reminders": [
       "死亡"
@@ -149,7 +149,7 @@
   },
   {
     "id": "9_fairy_tale_hugo",
-    "image": "/scripts/assets/community/db81696754a4804da2ba4417d2c2f2581c99ffe2135710bff21429984f6971b1.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/db81696754a4804da2ba4417d2c2f2581c99ffe2135710bff21429984f6971b1.png",
     "reminders": [
       "死亡"
     ],
@@ -161,7 +161,7 @@
   },
   {
     "id": "10_fairy_tale_hugo",
-    "image": "/scripts/assets/community/504b5a0a9f31b10ec7e33752feb1be074a4cdf1d617ec1e77623e97c36027a84.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/504b5a0a9f31b10ec7e33752feb1be074a4cdf1d617ec1e77623e97c36027a84.png",
     "otherNightReminder": "如果山鲁佐德已经做出两个正确声明，他死亡。",
     "reminders": [
       "正确",
@@ -176,7 +176,7 @@
   },
   {
     "id": "11_fairy_tale_hugo",
-    "image": "/scripts/assets/community/36fd8c972ee97d4d3649f55cf137f798b70def7b65c7787e1dbd6922c90613b3.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/36fd8c972ee97d4d3649f55cf137f798b70def7b65c7787e1dbd6922c90613b3.png",
     "reminders": [
       "奖励"
     ],
@@ -189,7 +189,7 @@
   },
   {
     "id": "12_fairy_tale_hugo",
-    "image": "/scripts/assets/community/d8d1e66f1e8e337cd845b70afc68b75c6cdac3ab11b8e59fa20af78815bf5a8c.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/d8d1e66f1e8e337cd845b70afc68b75c6cdac3ab11b8e59fa20af78815bf5a8c.png",
     "otherNightReminder": "如果巴隆·撒麦迪首次被恶魔杀死，为他放置“假死”标记，然后唤醒他，向他展示一个不在场的镇民角色标记并替换他的角色标记，他获得该角色能力。如果只有三名玩家存活，他死亡。",
     "reminders": [
       "假死",
@@ -204,7 +204,7 @@
   },
   {
     "id": "14_fairy_tale_hugo",
-    "image": "/scripts/assets/community/fea2566360dbf5bd251e2e74364450e97147d3758f79c57d1ba3f480acfdefcb.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/fea2566360dbf5bd251e2e74364450e97147d3758f79c57d1ba3f480acfdefcb.png",
     "otherNightReminder": "如果提名并处决青蛙王子的玩家是镇民，唤醒那名玩家并向他展示“你是”提示卡和青蛙王子的角色标记。如果是偶数夜晚，恶魔额外行动一次。",
     "reminders": [
       "提名&处决",
@@ -219,7 +219,7 @@
   },
   {
     "id": "13_fairy_tale_hugo",
-    "image": "/scripts/assets/community/bd4c490aca1e0c057f9a2aee7a6221a15c0d0dce6f963ab22c7ffdec48b8f013.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/bd4c490aca1e0c057f9a2aee7a6221a15c0d0dce6f963ab22c7ffdec48b8f013.png",
     "reminders": [
       "不好的事",
       "已猜测",
@@ -234,7 +234,7 @@
   },
   {
     "id": "15_fairy_tale_hugo",
-    "image": "/scripts/assets/community/d2b1e4e7654a2c654b65a8e4543a265b92af64dc1bca13331efc0953451ee409.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/d2b1e4e7654a2c654b65a8e4543a265b92af64dc1bca13331efc0953451ee409.png",
     "reminders": [
       "处决不死"
     ],
@@ -246,7 +246,7 @@
   },
   {
     "id": "16_fairy_tale_hugo",
-    "image": "/scripts/assets/community/3c64f930eca4e85966be9f47f2e656f8a239d3e8a5fa03009e075760b66c6c98.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/3c64f930eca4e85966be9f47f2e656f8a239d3e8a5fa03009e075760b66c6c98.png",
     "otherNightReminder": "如果有外来者在白天死亡，在恶魔醒来时，向他展示“该角色能力对你生效”并展示缇坦妮雅的角色标记，他要么摇头，要么选择对应数量的爪牙角色。将这些爪牙玩家依次唤醒，并告知他们变成了什么角色。",
     "reminders": [
       "外来者死亡"
@@ -260,7 +260,7 @@
   },
   {
     "id": "17_fairy_tale_hugo",
-    "image": "/scripts/assets/community/3deec5801e01c46e39229bcbf6dc071209db265c5a0162a7f98e2990da9ca014.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/3deec5801e01c46e39229bcbf6dc071209db265c5a0162a7f98e2990da9ca014.png",
     "firstNightReminder": "唤醒狐仙，让他指向角色列表上的一个角色，将他的角色标记替换为该角色，并放置“是狐仙”提示标记，本局游戏中，他可能被当作该角色以及该角色所属的阵营。",
     "reminders": [
       "是狐狸精"
@@ -274,7 +274,7 @@
   },
   {
     "id": "18_fairy_tale_hugo",
-    "image": "/scripts/assets/community/905424b5f1ab94ced55970ca40d5fae63c072b2492c07b8e0b51eac533ccbcd6.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/905424b5f1ab94ced55970ca40d5fae63c072b2492c07b8e0b51eac533ccbcd6.png",
     "firstNightReminder": "唤醒魔笛手，让他指向一名玩家，为那名玩家放置“中毒”标记。",
     "otherNightReminder": "唤醒魔笛手，他要么摇头，要么指向一名玩家，如果那名玩家带有“中毒”标记，他死亡，否则，为那名玩家放置“中毒”标记，并移除之前的“中毒”标记。为魔笛手放置“已使用”标记，不再唤醒他。",
     "reminders": [
@@ -293,7 +293,7 @@
   },
   {
     "id": "19_fairy_tale_hugo",
-    "image": "/scripts/assets/community/fa54abccf0240cc949cb54f56b76c7e940eb8588624dda53602494b4ca22c7d7.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/fa54abccf0240cc949cb54f56b76c7e940eb8588624dda53602494b4ca22c7d7.png",
     "firstNightReminder": "",
     "otherNightReminder": "",
     "reminders": [
@@ -311,7 +311,7 @@
   },
   {
     "id": "20_fairy_tale_hugo",
-    "image": "/scripts/assets/community/b36e74430b77011c8632d0c502ebaa3b262b0f8910b3b241680bcadbe763f6f4.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/b36e74430b77011c8632d0c502ebaa3b262b0f8910b3b241680bcadbe763f6f4.png",
     "otherNightReminder": "唤醒死神，他要么摇头，要么指向一名玩家：他死亡。如果那名玩家是恶魔，交换他们的角色。",
     "reminders": [
       "失去能力",
@@ -326,7 +326,7 @@
   },
   {
     "id": "22_fairy_tale_hugo",
-    "image": "/scripts/assets/community/dfebdded2838287cf329e41fd67e5cce4df4d5dbaa39586dd58c0de9eb873682.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/dfebdded2838287cf329e41fd67e5cce4df4d5dbaa39586dd58c0de9eb873682.png",
     "firstNightReminder": "唤醒雅加婆婆，让他指向角色列表上的一个角色，将他的角色标记替换为那个角色，并为他放置“是雅加婆婆”提示标记。",
     "otherNightReminder": "唤醒雅加婆婆，他要么摇头，要么指向角色列表上的一个角色，将他的角色标记替换为那个角色。",
     "reminders": [
@@ -343,7 +343,7 @@
   },
   {
     "id": "23_fairy_tale_hugo",
-    "image": "/scripts/assets/community/7590fb9b604f50bdcede57147d7f41f3f775f3b38fb2f3a6624db1f3bae8977c.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/7590fb9b604f50bdcede57147d7f41f3f775f3b38fb2f3a6624db1f3bae8977c.png",
     "firstNightReminder": "唤醒大灰狼，让他指向一名玩家，为那名玩家放置“猎杀”提示标记。",
     "otherNightReminder": "如果带有“猎杀”标记的玩家在今天白天死亡，为大灰狼放置“额外行动”标记。移除所有“猎杀”标记。唤醒大灰狼，让他指向一名玩家，为那名玩家放置“猎杀”提示标记。然后让他指向一名玩家：该玩家死亡。如果大灰狼带有“额外行动”标记，重复一次夜晚行动。",
     "reminders": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "21_fairy_tale_hugo",
-    "image": "/scripts/assets/community/b1e13f01ec89bea0d5613514e493b90e78361febe30241332bb3301238d6c262.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/b1e13f01ec89bea0d5613514e493b90e78361febe30241332bb3301238d6c262.png",
     "firstNightReminder": "与瘟疫骑士疫距离最远的存活的镇民中毒。唤醒天启之瘟疫，指向那名玩家。",
     "otherNightReminder": "唤醒瘟疫骑士，让他指向一名玩家，那名玩家死亡。如果中毒的玩家死亡，选择其他与他距离最远的镇民中毒，唤醒瘟疫骑士，指向那名玩家。",
     "reminders": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "24_fairy_tale_hugo",
-    "image": "/scripts/assets/community/d7365c4cd203a438bba5c41a20695d6714baca78ea1938579ca8534e50fd9434.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/d7365c4cd203a438bba5c41a20695d6714baca78ea1938579ca8534e50fd9434.png",
     "otherNightReminder": "唤醒红桃王后，让他指向一名玩家，那名玩家死亡。如果这是红心女王的第二个夜晚，让他选择一个法令。",
     "reminders": [
       "被杀害"
@@ -392,7 +392,7 @@
   },
   {
     "id": "30_fairy_tale_hugo",
-    "image": "/scripts/assets/community/19997fe4bee573211a2003de691a10d46a241b777dc9bcd150c4e7de3982f5a4.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/19997fe4bee573211a2003de691a10d46a241b777dc9bcd150c4e7de3982f5a4.png",
     "name": "红桃法令",
     "team": "fabled",
     "ability": "当这条法令被颁布时，恶魔要再选择一条法令：新选择的法令会被一同颁布。",
@@ -401,7 +401,7 @@
   },
   {
     "id": "31_fairy_tale_hugo",
-    "image": "/scripts/assets/community/70dcea2b7cb4fdb7cdffe6a1082a0b4df9b7f2d3e10a596f49b99958f26e2042.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/70dcea2b7cb4fdb7cdffe6a1082a0b4df9b7f2d3e10a596f49b99958f26e2042.png",
     "name": "黑桃法令",
     "team": "fabled",
     "ability": "当恶魔首次杀死一名爪牙时，改为他与那名爪牙交换角色。",
@@ -410,7 +410,7 @@
   },
   {
     "id": "32_fairy_tale_hugo",
-    "image": "/scripts/assets/community/6c9dc196eb3bf982d629e741ac5392e5950038a90f72c1463890434056e2b7ef.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/6c9dc196eb3bf982d629e741ac5392e5950038a90f72c1463890434056e2b7ef.png",
     "name": "方块法令",
     "team": "fabled",
     "ability": "恶魔拥有所有死亡的爪牙的能力。",
@@ -419,7 +419,7 @@
   },
   {
     "id": "33_fairy_tale_hugo",
-    "image": "/scripts/assets/community/1d3323c431490d7db21c1114cc2a257429a3b54c52407752d5086fb42f0de7fc.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/1d3323c431490d7db21c1114cc2a257429a3b54c52407752d5086fb42f0de7fc.png",
     "name": "梅花法令",
     "team": "fabled",
     "ability": "在白天时曾离开座位私聊的玩家今天不能投票。",
@@ -428,7 +428,7 @@
   },
   {
     "id": "25_fairy_tale_hugo",
-    "image": "/scripts/assets/community/2c938bb3f2cb262521c071902fbc874ee7746b26bda87926c5e91a46bc56ceec.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/2c938bb3f2cb262521c071902fbc874ee7746b26bda87926c5e91a46bc56ceec.png",
     "firstNightReminder": "如果史莱克没有打破疯狂，唤醒他，并让他选择一名玩家。该玩家在明天白天要“疯狂”地证明他是唐基。",
     "otherNightReminder": "如果史莱克没有打破疯狂，唤醒他，并让他选择一名玩家。该玩家在明天白天要“疯狂”地证明他是唐基。",
     "reminders": [
@@ -445,7 +445,7 @@
   },
   {
     "id": "26_fairy_tale_hugo",
-    "image": "/scripts/assets/community/16436b9fa65d74db9f3f59f62125184c325453522398a2417d9ad09b0df3aaf2.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/16436b9fa65d74db9f3f59f62125184c325453522398a2417d9ad09b0df3aaf2.png",
     "firstNightReminder": "唤醒姜饼人，让他指向一名玩家。唤醒那名玩家，向他展示“该角色能力对你生效”提示卡并展示姜饼人角色标记，并让他立刻行动。",
     "otherNightReminder": "唤醒姜饼人，让他指向一名玩家。唤醒那名玩家，向他展示“该角色能力对你生效”提示卡并展示姜饼人角色标记，并让他立刻行动。",
     "name": "姜饼人",
@@ -458,7 +458,7 @@
   },
   {
     "id": "27_fairy_tale_hugo",
-    "image": "/scripts/assets/community/97ff6d789739487f36cab48e7b18c4e5a230b62ba25c8a323f87cee886a084a1.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/97ff6d789739487f36cab48e7b18c4e5a230b62ba25c8a323f87cee886a084a1.png",
     "firstNightReminder": "唤醒柴郡猫，让他指向一名玩家，他在今晚仅有一次会被当作错误的角色/阵营。",
     "otherNightReminder": "唤醒柴郡猫，让他指向一名玩家，他在今晚仅有一次会被当作错误的角色/阵营。",
     "reminders": [
@@ -475,7 +475,7 @@
   },
   {
     "id": "28_fairy_tale_hugo",
-    "image": "/scripts/assets/community/75c21762c2c9eb632f5f980b404c03c4688483192ec4ee9c20eb4f5404d78956.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/75c21762c2c9eb632f5f980b404c03c4688483192ec4ee9c20eb4f5404d78956.png",
     "firstNightReminder": "唤醒白马王子，让他指向一名玩家（与上个夜晚不同），为那名放置迷恋标记。该玩家在今晚获取的信息必须包括白马王子，使用其自身能力选择的目标改为白马王子。",
     "otherNightReminder": "唤醒白马王子，让他指向一名玩家（与上个夜晚不同），为那名放置迷恋标记。该玩家在今晚获取的信息必须包括白马王子，使用其自身能力选择的目标改为白马王子。",
     "reminders": [
@@ -491,7 +491,7 @@
   },
   {
     "id": "29_fairy_tale_hugo",
-    "image": "/scripts/assets/community/1c123f2a09b3fe5ecc1e9cd780c1ccabee1d8e5955d7dfa0ef2cd50ad4e3bf82.png",
+    "image": "/scripts/assets/community-gui-yi-tong-hua-shuang-gong-zhu-ban-e7d3c829/1c123f2a09b3fe5ecc1e9cd780c1ccabee1d8e5955d7dfa0ef2cd50ad4e3bf82.png",
     "otherNightReminder": "唤醒魔镜，他要么摇头，要么角色列表上的一个角色，说书人决定角色对应的玩家遭遇什么不好的事情。",
     "reminders": [
       "失去能力",

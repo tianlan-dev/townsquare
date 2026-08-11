@@ -36,7 +36,7 @@
   },
   {
     "id": "_yanbaojiancao",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
     "reminders": [
       "爪牙",
@@ -50,7 +50,7 @@
   },
   {
     "id": "1_yanbaojiancao",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -65,7 +65,7 @@
   },
   {
     "id": "2_yanbaojiancao",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "firstNightReminder": "唤醒祖母，对她指向一名善良玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果恶魔杀死了孙子，祖母死亡。",
     "reminders": [
@@ -81,7 +81,7 @@
   },
   {
     "id": "3_yanbaojiancao",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -94,7 +94,7 @@
   },
   {
     "id": "4_yanbaojiancao",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "reminders": [
       "全员醉酒"
     ],
@@ -105,7 +105,7 @@
   },
   {
     "id": "5_yanbaojiancao",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "reminders": [
       "不会死亡"
     ],
@@ -116,7 +116,7 @@
   },
   {
     "id": "6_yanbaojiancao",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "reminders": [
       "失去能力"
     ],
@@ -127,7 +127,7 @@
   },
   {
     "id": "7_yanbaojiancao",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -137,7 +137,7 @@
   },
   {
     "id": "8_yanbaojiancao",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "9_yanbaojiancao",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "firstNightReminder": "（在进入首个夜晚时立即通知赏金猎人转变的那个镇民他的阵营发生了变化）唤醒赏金猎人，对他指向一名邪恶玩家。",
     "otherNightReminder": "如果赏金猎人之前得知的玩家死亡，唤醒赏金猎人，对他指向一名新的邪恶玩家。",
     "reminders": [
@@ -161,7 +161,7 @@
   },
   {
     "id": "10_yanbaojiancao",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -173,7 +173,7 @@
   },
   {
     "id": "11_yanbaojiancao",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "12_yanbaojiancao",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -204,7 +204,7 @@
   },
   {
     "id": "14_yanbaojiancao",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -217,7 +217,7 @@
   },
   {
     "id": "15_yanbaojiancao",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "otherNightReminder": "如果心上人死亡，一名玩家醉酒。",
     "reminders": [
       "醉酒"
@@ -230,7 +230,7 @@
   },
   {
     "id": "16_yanbaojiancao",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -242,7 +242,7 @@
   },
   {
     "id": "17_yanbaojiancao",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "otherNightReminder": "如果煞星死亡，决定是否让一名与他邻近的存活玩家死亡。",
     "reminders": [
       "死亡"
@@ -255,7 +255,7 @@
   },
   {
     "id": "18_yanbaojiancao",
-    "image": "/scripts/assets/community/7b71dddec65f0349562c05efc5f307af2c2b6534f4b984e0106bf47ef2d7ce1c.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/7b71dddec65f0349562c05efc5f307af2c2b6534f4b984e0106bf47ef2d7ce1c.png",
     "name": "亡魂",
     "team": "minion",
     "ability": "你可以在夜晚睁眼。当其他邪恶玩家睁眼时，你也会被唤醒。（可选规则：每局游戏限一次，如果一名玩家“疯狂”的证明你是亡魂，他死亡。",
@@ -263,7 +263,7 @@
   },
   {
     "id": "19_yanbaojiancao",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "firstNightReminder": "唤醒魔鬼代言人，让他选择一名玩家，那名玩家处决不死。",
     "otherNightReminder": "唤醒魔鬼代言人，让他选择一名与上一晚不同的玩家，那名玩家处决不死。",
     "reminders": [
@@ -278,7 +278,7 @@
   },
   {
     "id": "20_yanbaojiancao",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "name": "主谋",
     "team": "minion",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -286,7 +286,7 @@
   },
   {
     "id": "21_yanbaojiancao",
-    "image": "/scripts/assets/community/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
     "reminders": [
       "活尸"
     ],
@@ -298,7 +298,7 @@
   },
   {
     "id": "22_yanbaojiancao",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-yan-bao-jian-cao-821d058b/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "reminders": [
       "攻击三次",

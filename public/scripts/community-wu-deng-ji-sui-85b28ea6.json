@@ -38,7 +38,7 @@
         "stateDescription": "痢蛭如果因为怪盗的能力而未能在首个夜晚被唤醒，则会在下一次因自身能力被唤醒时选择宿主，在此之前痢蛭没有免死能力。"
       }
     ],
-    "logo": "/scripts/assets/community/e2f9647444e09014bc5ccce6616305026c6dda5931a7157a5e4c7c8d7c9b7ea2.png",
+    "logo": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/e2f9647444e09014bc5ccce6616305026c6dda5931a7157a5e4c7c8d7c9b7ea2.png",
     "id": "_meta",
     "description": "歌舞生平，佳节已至。<br>欢乐的气氛笼罩着整个鸦木布拉夫镇子。热闹的音乐和欢笑声，四处飘来的酒香，舞狮人热闹的表演，飘扬在空中的红灯笼和彩旗。<br>可是，在这个喜庆的日子里，染红衣裳的可不只是灯笼的红光。在庆祝活动的高潮时刻，一名年轻男子在人群中倒下，鲜血从他的胸口喷涌而出。恐慌和混乱瞬间席卷整个镇子，镇民四处奔逃。<br>据目击者称，嫌疑人是一名黑衣男子，在人群中悄悄离开但是黑衣男子仍然在逃。<br>尽管如此，镇子的居民们还是决定继续庆祝春节，坚定地相信镇民会尽快绳之以法。<br>然而，这件可怕的事件让整个镇子笼罩在不安和不祥的气氛之中……",
     "tags": [
@@ -48,7 +48,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -76,7 +76,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 43,
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
   },
   {
     "ability": "舞狮人：每个夜晚，你会得知一个在场角色。每局游戏限一次，你得知的信息改为恶魔的伪装之一。",
@@ -94,7 +94,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 40,
-    "image": "/scripts/assets/community/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -110,11 +110,11 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 49,
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png"
   },
   {
     "ability": "每个夜晚，你可以选择一个角色：如果该角色不在场，你获得该角色的能力直到下次选择。当你获得能力时，所有玩家都会得知。如果因此获得了恶魔的能力，所有恶魔玩家不会因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/bcf2ef50c13368c689a016dfcf2a38bfceb3f51069e71f5912977d211d1736cd.png",
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/bcf2ef50c13368c689a016dfcf2a38bfceb3f51069e71f5912977d211d1736cd.png",
     "edition": "custom",
     "flavor": "",
     "id": "20190_7659",
@@ -146,7 +146,7 @@
     "team": "minion",
     "name_eng": "Organ Grinder",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。对你的提名只在你投票时才会统计票数。",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png"
   },
   {
     "ability": "“疯狂”地想要死亡的玩家可能会立即被处决。",
@@ -162,7 +162,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/e3063a0f5c3935f5468af3f9e9cdab933a7e59932049e00376b1938dfb0e6e71.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/e3063a0f5c3935f5468af3f9e9cdab933a7e59932049e00376b1938dfb0e6e71.png"
   },
   {
     "ability": "每个夜晚，你要选择一个善良角色并给出相应的信息形式：该角色通过自身能力获取信息时，改为得知你给出的信息，直到下个黄昏。[-1外来者]",
@@ -180,7 +180,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 18,
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png"
   },
   {
     "firstNightReminder": "将魔典展示给间谍，他想看多久就看多久。",
@@ -195,7 +195,7 @@
     "name_eng": "Spy",
     "firstNight": 48,
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png"
   },
   {
     "firstNightReminder": "",
@@ -210,7 +210,7 @@
     "name_eng": "Recluse",
     "firstNight": 0,
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png"
   },
   {
     "firstNightReminder": "",
@@ -228,7 +228,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -245,7 +245,7 @@
     "name_eng": "Slayer",
     "firstNight": 0,
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png"
   },
   {
     "firstNightReminder": "",
@@ -262,7 +262,7 @@
     "name_eng": "Virgin",
     "firstNight": 0,
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png"
   },
   {
     "firstNightReminder": "",
@@ -279,7 +279,7 @@
     "name_eng": "Monk",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
   },
   {
     "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
@@ -297,7 +297,7 @@
     "name_eng": "Pukka",
     "firstNight": 28,
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png"
   },
   {
     "firstNightReminder": "",
@@ -314,7 +314,7 @@
     "name_eng": "Tinker",
     "firstNight": 0,
     "ability": "你随时可能死亡。",
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png"
   },
   {
     "firstNightReminder": "",
@@ -329,7 +329,7 @@
     "name_eng": "Pacifist",
     "firstNight": 0,
     "ability": "被处决的善良玩家可能不会死亡。",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
   },
   {
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
@@ -344,7 +344,7 @@
     "name_eng": "Chambermaid",
     "firstNight": 50,
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
   },
   {
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
@@ -361,7 +361,7 @@
     "name_eng": "Sailor",
     "firstNight": 10,
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png"
   },
   {
     "firstNightReminder": "",
@@ -378,7 +378,7 @@
     "name_eng": "Vortox",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没⼈被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png"
   },
   {
     "firstNightReminder": "",
@@ -398,7 +398,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "firstNightReminder": "",
@@ -415,7 +415,7 @@
     "name_eng": "Sweetheart",
     "firstNight": 0,
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -432,7 +432,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
@@ -447,7 +447,7 @@
     "name_eng": "Dreamer",
     "firstNight": 41,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
@@ -468,7 +468,7 @@
     "name_eng": "Balloonist",
     "firstNight": 44,
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png"
   },
   {
     "firstNightReminder": "",
@@ -483,7 +483,7 @@
     "name_eng": "Farmer",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png"
   },
   {
     "firstNightReminder": "寄生蛭指向一名玩家。放置寄生标记，那名玩家中毒。",
@@ -501,6 +501,6 @@
     "name_eng": "Lleech",
     "firstNight": 15,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
+    "image": "/scripts/assets/community-wu-deng-ji-sui-85b28ea6/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png"
   }
 ]

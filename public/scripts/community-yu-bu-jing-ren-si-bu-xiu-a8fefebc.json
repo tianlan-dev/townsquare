@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "语不惊人死不休",
     "author": "墨兰花开",
-    "logo": "/scripts/assets/community/55904d028e78c3abbba180656166bd991bc8a89e1fdbf2704e27d0ce22a6aa16.png",
+    "logo": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/55904d028e78c3abbba180656166bd991bc8a89e1fdbf2704e27d0ce22a6aa16.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "城市赛专属剧本"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
     "firstNightReminder": "唤醒洗衣妇，对她指向两名玩家，并展示一个镇民角色标记。这两名玩家其中之一是这个镇民。",
     "reminders": [
       "镇民",
@@ -27,7 +27,7 @@
   },
   {
     "id": "1_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png",
     "firstNightReminder": "唤醒图书管理员，对他指向两名玩家，并展示一个外来者角色标记。这两名玩家其中之一是这个外来者。",
     "reminders": [
       "外来者",
@@ -41,7 +41,7 @@
   },
   {
     "id": "2_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png",
     "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
     "reminders": [
       "爪牙",
@@ -55,7 +55,7 @@
   },
   {
     "id": "3_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -67,7 +67,7 @@
   },
   {
     "id": "4_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -80,7 +80,7 @@
   },
   {
     "id": "5_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
     "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
     "reminders": [
       "失足",
@@ -94,7 +94,7 @@
   },
   {
     "id": "6_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
     "name": "戏法师",
     "team": "townsfolk",
     "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -102,7 +102,7 @@
   },
   {
     "id": "7_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
     "remindersGlobal": [
       "是变脸师"
     ],
@@ -113,7 +113,7 @@
   },
   {
     "id": "8_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/9b21755559e3a027b71b318b452e8ead90f997d4e1457709c95c06336533aeff.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/9b21755559e3a027b71b318b452e8ead90f997d4e1457709c95c06336533aeff.png",
     "name": "半仙",
     "team": "townsfolk",
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "9_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/d5a54085c62981a2bac292ef3cdb91f48abf57adc9727d1d8936ec45d3c84f04.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/d5a54085c62981a2bac292ef3cdb91f48abf57adc9727d1d8936ec45d3c84f04.png",
     "otherNightReminder": "在夜晚时，如果秉笔旁放置了“死于今日”提示标记，唤醒秉笔。对他指向一名善良玩家。让秉笔重新入睡。移除“死于今日”提示标记。如果秉笔在夜晚死亡，唤醒秉笔。对他指向一名邪恶玩家。让秉笔重新入睡。",
     "reminders": [
       "死于今日"
@@ -134,7 +134,7 @@
   },
   {
     "id": "10_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/eaf0a442636fa5796a9c84de01898db06191ba7c970f99f1c73c7e3302ff0b84.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/eaf0a442636fa5796a9c84de01898db06191ba7c970f99f1c73c7e3302ff0b84.png",
     "otherNightReminder": "唤醒道士，让其选择一名玩家。如果他选中了恶魔，在道士角色标记旁放置“死亡”提示标记，并且在恶魔角色标记旁放置“醉酒”提示标记。",
     "reminders": [
       "醉酒",
@@ -148,7 +148,7 @@
   },
   {
     "id": "11_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/9cc7acf562fe9ff820ea34fea0194beb13ccd389da1fb7b5f31cdbf6ee61c4ea.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/9cc7acf562fe9ff820ea34fea0194beb13ccd389da1fb7b5f31cdbf6ee61c4ea.png",
     "firstNightReminder": "唤醒方士，让他选一个数字。如果他选择了1，给他展示一个在场角色。",
     "otherNightReminder": "在游戏的对应天数唤醒方士，给他展示对应数量的在场角色。",
     "reminders": [
@@ -163,7 +163,7 @@
   },
   {
     "id": "12_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/32c8cc7f114574605f51eb31cc725c961490930f700ab289f9b22754887824bd.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/32c8cc7f114574605f51eb31cc725c961490930f700ab289f9b22754887824bd.png",
     "firstNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "otherNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "name": "引路人",
@@ -175,7 +175,7 @@
   },
   {
     "id": "13_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -183,7 +183,7 @@
   },
   {
     "id": "14_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png",
     "otherNightReminder": "如果心上人死亡，一名玩家醉酒。",
     "reminders": [
       "醉酒"
@@ -196,7 +196,7 @@
   },
   {
     "id": "15_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -209,7 +209,7 @@
   },
   {
     "id": "16_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
     "remindersGlobal": [
       "是隐士"
     ],
@@ -221,7 +221,7 @@
   },
   {
     "id": "17_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -236,7 +236,7 @@
   },
   {
     "id": "18_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -249,7 +249,7 @@
   },
   {
     "id": "19_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
     "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "reminders": [
@@ -264,7 +264,7 @@
   },
   {
     "id": "20_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -278,7 +278,7 @@
   },
   {
     "id": "21_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -291,7 +291,7 @@
   },
   {
     "id": "22_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -305,7 +305,7 @@
   },
   {
     "id": "23_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/7f2fa2c67f3f75a28eefb2592028c9c873c8bd26450f2e6e4b05d5a42f5feca2.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/7f2fa2c67f3f75a28eefb2592028c9c873c8bd26450f2e6e4b05d5a42f5feca2.png",
     "firstNightReminder": "将位于堤丰之首两侧的对应数量的玩家变成邪恶的爪牙，并分别唤醒他们通知他们的角色和阵营变化。",
     "otherNightReminder": "唤醒堤丰之首，让他攻击一名玩家。",
     "reminders": [
@@ -321,7 +321,7 @@
   },
   {
     "id": "24_yubujingrensibuxiu",
-    "image": "/scripts/assets/community/c144e979b45645841eeaa1cf55ef4042c610c73cda6d876b9c6ed9a779176106.png",
+    "image": "/scripts/assets/community-yu-bu-jing-ren-si-bu-xiu-a8fefebc/c144e979b45645841eeaa1cf55ef4042c610c73cda6d876b9c6ed9a779176106.png",
     "otherNightReminder": "唤醒混沌，让他攻击一名玩家。如果他杀死了自己邻近的镇民，所有善良玩家中毒。",
     "reminders": [
       "死亡",

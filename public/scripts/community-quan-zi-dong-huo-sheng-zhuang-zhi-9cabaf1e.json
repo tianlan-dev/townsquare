@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "全自动获胜装置",
     "author": "卷饼",
-    "logo": "/scripts/assets/community/643783c0bdc18b629a1e4669a87e41305fceb95fd93cf3e98fb5564b3b57401e.png",
+    "logo": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/643783c0bdc18b629a1e4669a87e41305fceb95fd93cf3e98fb5564b3b57401e.png",
     "A jinxed": "相克",
     "tags": [
       "SUI染钟楼投稿&火乐杯剧本"
@@ -13,7 +13,7 @@
   },
   {
     "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。 ",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom",
     "flavor": "",
     "id": "king_c",
@@ -29,7 +29,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "flavor": "",
     "id": "balloonist_c",
@@ -51,7 +51,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_c",
@@ -70,7 +70,7 @@
   },
   {
     "ability": "每个夜晚*，如果白天有玩家死于处决，你会得知存活镇民的数量。",
-    "image": "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
     "edition": "custom",
     "flavor": "",
     "id": "shiguan_c",
@@ -88,7 +88,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "flavor": "",
     "id": "huntsman_c",
@@ -106,7 +106,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -132,7 +132,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "flavor": "",
     "id": "artist_c",
@@ -150,7 +150,7 @@
   },
   {
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "flavor": "",
     "id": "savant_c",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom",
     "flavor": "",
     "id": "mayor_c",
@@ -182,7 +182,7 @@
   },
   {
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "flavor": "",
     "id": "magician_c",
@@ -206,7 +206,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom",
     "flavor": "",
     "id": "sage_c",
@@ -222,7 +222,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -241,7 +241,7 @@
   },
   {
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "edition": "custom",
     "flavor": "",
     "id": "wudaozhe_c",
@@ -269,7 +269,7 @@
   },
   {
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "damsel_c",
@@ -287,7 +287,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -315,7 +315,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_c",
@@ -336,7 +336,7 @@
   },
   {
     "ability": "对调胜负结果，即使你已死亡。",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png",
     "edition": "custom",
     "flavor": "",
     "id": "heretic_c",
@@ -352,7 +352,7 @@
   },
   {
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
-    "image": "/scripts/assets/community/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
     "edition": "custom",
     "flavor": "",
     "id": "zealot_c",
@@ -368,7 +368,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "flavor": "",
     "id": "mezepheles_c",
@@ -387,7 +387,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -405,7 +405,7 @@
   },
   {
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "flavor": "",
     "id": "xaan_c",
@@ -427,7 +427,7 @@
   },
   {
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "edition": "custom",
     "flavor": "",
     "id": "mastermind_c",
@@ -443,7 +443,7 @@
   },
   {
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "marionette_c",
@@ -471,7 +471,7 @@
   },
   {
     "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
     "edition": "custom",
     "flavor": "",
     "id": "leviathan_c",
@@ -497,7 +497,7 @@
     "name": "国王&利维坦",
     "team": "A jinxed",
     "ability": "如果利维坦在场，当至少一名玩家死亡时，国王每晚就会得知一个存活的角色。",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "edition": "custom"
   },
   {
@@ -505,7 +505,7 @@
     "name": "气球驾驶员&提线木偶",
     "team": "A jinxed",
     "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom"
   },
   {
@@ -513,7 +513,7 @@
     "name": "巡山人&提线木偶",
     "team": "A jinxed",
     "ability": "如果提线木偶抽到了巡山人，也会增加落难少女。",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom"
   },
   {
@@ -521,7 +521,7 @@
     "name": "镇长&利维坦",
     "team": "A jinxed",
     "ability": "如果利维坦在场，镇长存活且第五天没有处决发生，则善良阵营获胜。",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "edition": "custom"
   },
   {
@@ -529,7 +529,7 @@
     "name": "贤者&利维坦",
     "team": "A jinxed",
     "ability": "每个夜晚*，利维坦要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果贤者被选择，他的能力生效但不会死亡。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom"
   },
   {
@@ -537,7 +537,7 @@
     "name": "食人族&狂热者",
     "team": "A jinxed",
     "ability": "如果食人族获得了狂热者的能力，他会得知这一信息。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom"
   },
   {
@@ -545,7 +545,7 @@
     "name": "落难少女&提线木偶",
     "team": "A jinxed",
     "ability": "提线木偶不会得知落难少女在场。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-quan-zi-dong-huo-sheng-zhuang-zhi-9cabaf1e/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom"
   }
 ]

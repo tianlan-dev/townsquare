@@ -3,7 +3,7 @@
     "name": "大地之上",
     "author": "HydrogenXenon",
     "id": "_meta",
-    "logo": "/scripts/assets/community/b9391b053361abbbcc153aee2ee290bb26948afc568d4af71b6bda147d1761c0.png",
+    "logo": "/scripts/assets/community-da-di-zhi-shang-243e9e29/b9391b053361abbbcc153aee2ee290bb26948afc568d4af71b6bda147d1761c0.png",
     "almanac": "https://www.bloodstar.xyz/p/HydrogenXenon/Ontheland/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -20,7 +20,7 @@
     "firstNightReminder": "在你的首个夜晚，你要选择除你以外的三名玩家：你会得知他们当中有几种角色类型。",
     "firstNight": 3800,
     "image": [
-      "/scripts/assets/community/e2897dd06232b1ce9b7e3273892e3aa6dfb30d9bfb2ba9006db2d0b66108e370.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/e2897dd06232b1ce9b7e3273892e3aa6dfb30d9bfb2ba9006db2d0b66108e370.png"
     ],
     "edition": "custom"
   },
@@ -34,7 +34,7 @@
     "otherNightReminder": "选择一名玩家：得知他与其邻近的存活玩家是否均为同一角色类型。",
     "otherNight": 12,
     "image": [
-      "/scripts/assets/community/5134dc516a10c21c20603de6d3038a02cca3b2e5b3655d78cd99b9dbe23ff558.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/5134dc516a10c21c20603de6d3038a02cca3b2e5b3655d78cd99b9dbe23ff558.png"
     ],
     "edition": "custom"
   },
@@ -46,7 +46,7 @@
     "otherNightReminder": "每个夜晚*，你要选择两名玩家：你会分别得知与他们邻近的玩家是否为同一角色类型。",
     "otherNight": 13,
     "image": [
-      "/scripts/assets/community/797efe398a932a137524dfdb11637c25fa7e3d8e09bb38b683586cb5d0339b6b.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/797efe398a932a137524dfdb11637c25fa7e3d8e09bb38b683586cb5d0339b6b.png"
     ],
     "edition": "custom"
   },
@@ -64,7 +64,7 @@
       "凋零已死亡"
     ],
     "image": [
-      "/scripts/assets/community/e426976b8c5e2df10ea77ba6c7cbcf0417609e0c016cb66a3433ab59c9375f24.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/e426976b8c5e2df10ea77ba6c7cbcf0417609e0c016cb66a3433ab59c9375f24.png"
     ],
     "edition": "custom"
   },
@@ -84,7 +84,7 @@
       "不会死亡"
     ],
     "image": [
-      "/scripts/assets/community/5b5675a365ac377d023c446ccac7d326e3ba449394f0603ea12cd3bb20340170.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/5b5675a365ac377d023c446ccac7d326e3ba449394f0603ea12cd3bb20340170.png"
     ],
     "edition": "custom"
   },
@@ -99,7 +99,7 @@
       "被得知"
     ],
     "image": [
-      "/scripts/assets/community/0732154148f7d22b22fd456ef23ff489e2eed56663251486eafa16068add553e.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/0732154148f7d22b22fd456ef23ff489e2eed56663251486eafa16068add553e.png"
     ],
     "edition": "custom"
   },
@@ -115,7 +115,7 @@
       "不会死亡"
     ],
     "image": [
-      "/scripts/assets/community/3bff2a300393fd2803dad3574eb909bb6019e3b9aae36d95238e042b7b018662.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/3bff2a300393fd2803dad3574eb909bb6019e3b9aae36d95238e042b7b018662.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -134,7 +134,7 @@
       "恶魔投票"
     ],
     "image": [
-      "/scripts/assets/community/e04b2a9712d538eeb8fdbe827cebb9a9a999f045e7aa622cf8ac899ee249f65f.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/e04b2a9712d538eeb8fdbe827cebb9a9a999f045e7aa622cf8ac899ee249f65f.png"
     ],
     "edition": "custom"
   },
@@ -150,7 +150,7 @@
       "被选择"
     ],
     "image": [
-      "/scripts/assets/community/51ab88d4f5bddefceec40fb33fe8f6c615c54c97168cfbef7fbdef46ff18c1d8.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/51ab88d4f5bddefceec40fb33fe8f6c615c54c97168cfbef7fbdef46ff18c1d8.png"
     ],
     "edition": "custom"
   },
@@ -162,7 +162,7 @@
     "otherNightReminder": "每个夜晚*，你可以选择一名玩家",
     "otherNight": 16,
     "image": [
-      "/scripts/assets/community/1486036fd017cb7505de6443df96f3eb8bc626fa5be8295c59f940aafee55445.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/1486036fd017cb7505de6443df96f3eb8bc626fa5be8295c59f940aafee55445.png"
     ],
     "edition": "custom"
   },
@@ -179,7 +179,7 @@
       "巫术残骸"
     ],
     "image": [
-      "/scripts/assets/community/c4d7265b3cd2a711e4ef4fc212f0355508ceb0006ffde1ae9bc7668cf0b81373.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/c4d7265b3cd2a711e4ef4fc212f0355508ceb0006ffde1ae9bc7668cf0b81373.png"
     ],
     "edition": "custom"
   },
@@ -191,7 +191,7 @@
     "otherNightReminder": "如果你在夜晚死亡，你会与一名爪牙玩家交换角色",
     "otherNight": 20,
     "image": [
-      "/scripts/assets/community/7ed58426bd4ad59faba59cff75de3655902f24941ca355d6797c8e7c42461330.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/7ed58426bd4ad59faba59cff75de3655902f24941ca355d6797c8e7c42461330.png"
     ],
     "edition": "custom"
   },
@@ -205,7 +205,7 @@
       "免于侵害"
     ],
     "image": [
-      "/scripts/assets/community/2e495b02104034b70c14517370a8c1b943a650048d71edeeadef719eed3c52b8.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/2e495b02104034b70c14517370a8c1b943a650048d71edeeadef719eed3c52b8.png"
     ],
     "edition": "custom"
   },
@@ -218,7 +218,7 @@
       "已经死亡"
     ],
     "image": [
-      "/scripts/assets/community/c9ffd26c31ed992f701af7cbf5a607f08f18795091ac168a60baa09ea66b9019.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/c9ffd26c31ed992f701af7cbf5a607f08f18795091ac168a60baa09ea66b9019.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -229,7 +229,7 @@
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一个不在场的镇民角色。（与其他裹骸死士不同且不为恶魔的伪装）[+特蕾西娅，“魔王”]",
     "image": [
-      "/scripts/assets/community/8ab9036f1207c8d2791ef119e5df0fc47305392641a3d3a8ee78cae73c9c549f.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/8ab9036f1207c8d2791ef119e5df0fc47305392641a3d3a8ee78cae73c9c549f.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -245,7 +245,7 @@
       "立刻处决"
     ],
     "image": [
-      "/scripts/assets/community/23d5cd590d8bf10896ddbb8477ae5eee0be947f78597df82b609bc038b7d611f.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/23d5cd590d8bf10896ddbb8477ae5eee0be947f78597df82b609bc038b7d611f.png"
     ],
     "edition": "custom"
   },
@@ -260,7 +260,7 @@
       "变为邪恶"
     ],
     "image": [
-      "/scripts/assets/community/11e0321e30897fb0a4efe8b5cbede798fc3ec825607deeca5c544c8aa9c95280.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/11e0321e30897fb0a4efe8b5cbede798fc3ec825607deeca5c544c8aa9c95280.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -277,7 +277,7 @@
       "已被猜测"
     ],
     "image": [
-      "/scripts/assets/community/fe9d8ce88dd14fb4d641fdb4aa92d646f6b6979f37b5880c2f52ed08f54fa00c.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/fe9d8ce88dd14fb4d641fdb4aa92d646f6b6979f37b5880c2f52ed08f54fa00c.png"
     ],
     "edition": "custom"
   },
@@ -294,7 +294,7 @@
       "失去能力"
     ],
     "image": [
-      "/scripts/assets/community/00fcbd982ade738fcd21b8fd86aa9fad664abb583f57bdd4f817002e581dde6a.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/00fcbd982ade738fcd21b8fd86aa9fad664abb583f57bdd4f817002e581dde6a.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -312,7 +312,7 @@
       "提线木偶"
     ],
     "image": [
-      "/scripts/assets/community/3b2a0e2c59839cef9b1f2b861f49b20220fe30e02c61ac9ff6a19b4f39bce6c3.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/3b2a0e2c59839cef9b1f2b861f49b20220fe30e02c61ac9ff6a19b4f39bce6c3.png"
     ],
     "edition": "custom"
   },
@@ -328,7 +328,7 @@
       "今晚变身"
     ],
     "image": [
-      "/scripts/assets/community/b0977b010171cbc2b183366944253245b34aa6a244c882a1906cadd2a02ef7de.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/b0977b010171cbc2b183366944253245b34aa6a244c882a1906cadd2a02ef7de.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -347,7 +347,7 @@
       "免于坍缩"
     ],
     "image": [
-      "/scripts/assets/community/8c62564f62f024328ac354c3cf8342ef5c41dc21c1b4817a3002c5728a66a994.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/8c62564f62f024328ac354c3cf8342ef5c41dc21c1b4817a3002c5728a66a994.png"
     ],
     "edition": "custom"
   },
@@ -362,7 +362,7 @@
       "破盾"
     ],
     "image": [
-      "/scripts/assets/community/1924aee7e687b6ae446cace133d4676a698763d54c35ce5b1215b891bbbefd5a.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/1924aee7e687b6ae446cace133d4676a698763d54c35ce5b1215b891bbbefd5a.png"
     ],
     "edition": "custom"
   },
@@ -377,7 +377,7 @@
       "死亡"
     ],
     "image": [
-      "/scripts/assets/community/d529994f26d007c8387c0b1c91bc619d7af0e01f89655e2c15e5fc8e1416dafa.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/d529994f26d007c8387c0b1c91bc619d7af0e01f89655e2c15e5fc8e1416dafa.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -390,7 +390,7 @@
     "otherNightReminder": "你可以选择一名玩家：他变成邪恶的伊祖米克的子代",
     "otherNight": 7,
     "image": [
-      "/scripts/assets/community/ecb2e2a96e5ce815c3589a6469af850e9469f3500835cbbe8c7669c4caae07ba.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/ecb2e2a96e5ce815c3589a6469af850e9469f3500835cbbe8c7669c4caae07ba.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -406,7 +406,7 @@
       "死亡"
     ],
     "image": [
-      "/scripts/assets/community/c48ae01f4c3fe39382d20421d6024c10f165a441efdefd159ec76cf6629ad1fc.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/c48ae01f4c3fe39382d20421d6024c10f165a441efdefd159ec76cf6629ad1fc.png"
     ],
     "edition": "custom"
   },
@@ -423,7 +423,7 @@
       "已使用"
     ],
     "image": [
-      "/scripts/assets/community/8c4c2af6ecd3cdcf22f4f919b2eb5f3e0366b21925ab43dc293440800ff1dcbf.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/8c4c2af6ecd3cdcf22f4f919b2eb5f3e0366b21925ab43dc293440800ff1dcbf.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -440,7 +440,7 @@
       "已使用"
     ],
     "image": [
-      "/scripts/assets/community/3921ee5fbc2a9c6665327a9c5c0fa38dd2931b879a23f041b91dfcedf43b9f83.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/3921ee5fbc2a9c6665327a9c5c0fa38dd2931b879a23f041b91dfcedf43b9f83.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -456,7 +456,7 @@
       "死亡"
     ],
     "image": [
-      "/scripts/assets/community/ef8fc897d787a3e013d18aa17ae0d9fffada9ba3c19043b080d2cee6f59b80bf.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/ef8fc897d787a3e013d18aa17ae0d9fffada9ba3c19043b080d2cee6f59b80bf.png"
     ],
     "edition": "custom"
   },
@@ -469,7 +469,7 @@
       "以为邪恶"
     ],
     "image": [
-      "/scripts/assets/community/d518044ce42f7e07b7bf5dd1c9184902ff83e37577aa9eb4cbc7a12a9b6ecc3f.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/d518044ce42f7e07b7bf5dd1c9184902ff83e37577aa9eb4cbc7a12a9b6ecc3f.png"
     ],
     "edition": "custom"
   },
@@ -479,7 +479,7 @@
     "team": "fabled",
     "ability": "所有玩家不能提名自己。旅行者不会被当做“是玩家”。如果“阿米娅”，炉芯终曲在场，胜负结果不会被调转。",
     "image": [
-      "/scripts/assets/community/999098e1d6e1f7f27d91ffb434722105a252010914b6c351b736756e37da305f.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/999098e1d6e1f7f27d91ffb434722105a252010914b6c351b736756e37da305f.png"
     ],
     "edition": "custom"
   },
@@ -494,7 +494,7 @@
       "死亡"
     ],
     "image": [
-      "/scripts/assets/community/bcce9a83f5557f05ab7a3a0830513b66004c8a5900ac40f6bb88364109db5815.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/bcce9a83f5557f05ab7a3a0830513b66004c8a5900ac40f6bb88364109db5815.png"
     ],
     "edition": "custom"
   },
@@ -504,7 +504,7 @@
     "team": "traveller",
     "ability": "你可以提名已经被提名过的玩家且此次处决票数计算+2。对你的流放需要至少75%的玩家举手。",
     "image": [
-      "/scripts/assets/community/095ed10948bd2fe6377cc44a178fe81b6d89dd93d19f277f1b5d20cf87c64084.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/095ed10948bd2fe6377cc44a178fe81b6d89dd93d19f277f1b5d20cf87c64084.png"
     ],
     "edition": "custom"
   },
@@ -521,7 +521,7 @@
       "旅行者"
     ],
     "image": [
-      "/scripts/assets/community/2157c9a210b02a4118187acd1ecc4794bc43c9de49711ee53ff94c87b5cd0dba.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/2157c9a210b02a4118187acd1ecc4794bc43c9de49711ee53ff94c87b5cd0dba.png"
     ],
     "edition": "custom"
   },
@@ -538,7 +538,7 @@
       "睡着了"
     ],
     "image": [
-      "/scripts/assets/community/d090cec296176ff390d07c050ec5b09d517a14bb96ae99c24e476c7c1ce6dad9.png"
+      "/scripts/assets/community-da-di-zhi-shang-243e9e29/d090cec296176ff390d07c050ec5b09d517a14bb96ae99c24e476c7c1ce6dad9.png"
     ],
     "edition": "custom"
   }

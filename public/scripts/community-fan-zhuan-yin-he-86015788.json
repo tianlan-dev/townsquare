@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "反转银河",
     "author": "山口二大伯",
-    "logo": "/scripts/assets/community/2e3ab6d9c50a0e7a204527beb1447c5d14b6a62cf148b2e0b1e770c4ca1b5e2c.png",
+    "logo": "/scripts/assets/community-fan-zhuan-yin-he-86015788/2e3ab6d9c50a0e7a204527beb1447c5d14b6a62cf148b2e0b1e770c4ca1b5e2c.png",
     "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/fanzhuanyinhe/almanac.html",
     "tags": [
       "民间创意剧本",
@@ -15,7 +15,7 @@
   },
   {
     "id": "_fanzhuanyinhe",
-    "image": "/scripts/assets/community/041a22931dfd14954ac56c05d636d963ebd66ebdb947fff567b43da0d131a443.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/041a22931dfd14954ac56c05d636d963ebd66ebdb947fff567b43da0d131a443.png",
     "reminders": [
       "疯狂"
     ],
@@ -29,7 +29,7 @@
   },
   {
     "id": "1_fanzhuanyinhe",
-    "image": "/scripts/assets/community/91c815aca70f811a7296a7635780601af9bac52794e2a8e17a72b8af38c071e1.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/91c815aca70f811a7296a7635780601af9bac52794e2a8e17a72b8af38c071e1.png",
     "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_fanzhuanyinhe",
-    "image": "/scripts/assets/community/c31071a7951eb6755cebc389342be3d745daef42be0f739cc33fff6e27c76f3e.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/c31071a7951eb6755cebc389342be3d745daef42be0f739cc33fff6e27c76f3e.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -51,7 +51,7 @@
   },
   {
     "id": "3_fanzhuanyinhe",
-    "image": "/scripts/assets/community/5f78e36fa09286f3d308c9a2cc8805a5d0daea98816b565f848e0d6236945cbf.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/5f78e36fa09286f3d308c9a2cc8805a5d0daea98816b565f848e0d6236945cbf.png",
     "firstNightReminder": "唤醒熊孩子，让其选择一个镇民角色。如果该角色在场，在对应角色标记旁放置“捣蛋”提示标记。",
     "otherNightReminder": "移除上个夜晚放置的“捣蛋”提示标记。唤醒熊孩子，让其选择一个镇民角色。如果该角色在场，在对应角色标记旁放置“捣蛋”提示标记。",
     "reminders": [
@@ -66,7 +66,7 @@
   },
   {
     "id": "4_fanzhuanyinhe",
-    "image": "/scripts/assets/community/0375e992587ff63eebd1de815a573c6d385c2d9de1ce976eaa4e64ee5ffc1513.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/0375e992587ff63eebd1de815a573c6d385c2d9de1ce976eaa4e64ee5ffc1513.png",
     "firstNightReminder": "唤醒阴阳师，并对其展示两个善良角色，两个邪恶角色，共四个角色标记。其中正好只有两个角色在场。",
     "name": "阴阳师",
     "team": "townsfolk",
@@ -76,7 +76,7 @@
   },
   {
     "id": "5_fanzhuanyinhe",
-    "image": "/scripts/assets/community/8eb2efd8442c92dadd741515d0ce7592b049b64c99c1a0083c97d78b2face647.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/8eb2efd8442c92dadd741515d0ce7592b049b64c99c1a0083c97d78b2face647.png",
     "firstNightReminder": "唤醒逆臣，让其选择一名玩家。在该玩家的角色标记旁放置“不共戴天”提示标记。",
     "otherNightReminder": "如果逆臣或标记了“不共戴天”的玩家死于处决，唤醒两者之中的另一名玩家，告诉他变为邪恶阵营。",
     "reminders": [
@@ -91,7 +91,7 @@
   },
   {
     "id": "6_fanzhuanyinhe",
-    "image": "/scripts/assets/community/027de56ea0e67ea8cba8fbc2ade140ee3b360cc9f53f91c63b3c82791411d10d.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/027de56ea0e67ea8cba8fbc2ade140ee3b360cc9f53f91c63b3c82791411d10d.png",
     "otherNightReminder": "如果秉笔人在夜晚死去，唤醒他并指向一名邪恶玩家；如果秉笔在白天死去，唤醒他并指向一名善良玩家。随后让他重新入睡。",
     "name": "秉笔",
     "team": "townsfolk",
@@ -101,7 +101,7 @@
   },
   {
     "id": "7_fanzhuanyinhe",
-    "image": "/scripts/assets/community/163d02ffc3b8fcd7034caa9f6d4761dee92a68fe2bb823656ad4f15ea5b095fa.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/163d02ffc3b8fcd7034caa9f6d4761dee92a68fe2bb823656ad4f15ea5b095fa.png",
     "firstNightReminder": "唤醒引路人，让其选择至多三名玩家。以点头或摇头作为信息给出。",
     "otherNightReminder": "唤醒引路人，让其选择至多三名玩家。以点头或摇头作为信息给出。",
     "name": "引路人",
@@ -113,7 +113,7 @@
   },
   {
     "id": "8_fanzhuanyinhe",
-    "image": "/scripts/assets/community/29dcf4e6cdb124d0bfb807c51965f080e0bcf4658e70c97375a51a6bd9ad2c37.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/29dcf4e6cdb124d0bfb807c51965f080e0bcf4658e70c97375a51a6bd9ad2c37.png",
     "reminders": [
       "醉酒"
     ],
@@ -124,7 +124,7 @@
   },
   {
     "id": "9_fanzhuanyinhe",
-    "image": "/scripts/assets/community/b77ae5cd10983188105f831b8a50ddedb56e576086b3f77fbd25d317d2529546.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/b77ae5cd10983188105f831b8a50ddedb56e576086b3f77fbd25d317d2529546.png",
     "firstNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
     "otherNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
     "reminders": [
@@ -139,7 +139,7 @@
   },
   {
     "id": "10_fanzhuanyinhe",
-    "image": "/scripts/assets/community/6f423019036f18b77f4e9cf4ee2facf87a5cb97dae9ebe6a9f1e332d8ec50ce8.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/6f423019036f18b77f4e9cf4ee2facf87a5cb97dae9ebe6a9f1e332d8ec50ce8.png",
     "firstNightReminder": "唤醒酿酒师，让其选择一个角色并给出该角色对应的信息形式。如果该角色在场，在对应的角色标记旁放置“微醺”提示标记。如有必要，记录下该信息形式作为备忘，但不要将这一信息展示给任何能查看魔典的玩家。",
     "otherNightReminder": "唤醒酿酒师，让其选择一个角色并给出该角色对应的信息形式。如果该角色在场，在对应的角色标记旁放置“微醺”提示标记。如有必要，记录下该信息形式作为备忘，但不要将这一信息展示给任何能查看魔典的玩家。",
     "reminders": [
@@ -155,7 +155,7 @@
   },
   {
     "id": "11_fanzhuanyinhe",
-    "image": "/scripts/assets/community/3a25765672c0d9bf281418481ea75077dadabfb2ecdc9e9cd74bb9736a40ac15.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/3a25765672c0d9bf281418481ea75077dadabfb2ecdc9e9cd74bb9736a40ac15.png",
     "name": "小鸟伏特加",
     "team": "fabled",
     "ability": "酿酒师/蛊雕不会同时在场",
@@ -163,7 +163,7 @@
   },
   {
     "id": "12_fanzhuanyinhe",
-    "image": "/scripts/assets/community/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
     "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -173,7 +173,7 @@
   },
   {
     "id": "13_fanzhuanyinhe",
-    "image": "/scripts/assets/community/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -185,7 +185,7 @@
   },
   {
     "id": "14_fanzhuanyinhe",
-    "image": "/scripts/assets/community/4917a3014a0a17a6e115b08202c482af54235e76343d53b82a4ad6c2a6820718.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/4917a3014a0a17a6e115b08202c482af54235e76343d53b82a4ad6c2a6820718.png",
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "name": "筑梦师",
@@ -197,7 +197,7 @@
   },
   {
     "id": "15_fanzhuanyinhe",
-    "image": "/scripts/assets/community/39adc851baf09a360e6bc318b2119afb8ff9d51f852d8dc06232390e7e775de8.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/39adc851baf09a360e6bc318b2119afb8ff9d51f852d8dc06232390e7e775de8.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -212,7 +212,7 @@
   },
   {
     "id": "16_fanzhuanyinhe",
-    "image": "/scripts/assets/community/c7dd66c2c0265f44bead655918a4b8cdd93fbe87c2b0624a64cdbcbd748d6236.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/c7dd66c2c0265f44bead655918a4b8cdd93fbe87c2b0624a64cdbcbd748d6236.png",
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
     "otherNightReminder": "选择一种与被放置得知的玩家不同的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
     "reminders": [
@@ -228,7 +228,7 @@
   },
   {
     "id": "17_fanzhuanyinhe",
-    "image": "/scripts/assets/community/3418776dc9bf3f654f05f0e09fc20a28f43410055ea78959611237c23756f08a.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/3418776dc9bf3f654f05f0e09fc20a28f43410055ea78959611237c23756f08a.png",
     "reminders": [
       "中毒",
       "死于今日"
@@ -240,7 +240,7 @@
   },
   {
     "id": "18_fanzhuanyinhe",
-    "image": "/scripts/assets/community/7da8dd0525e15d993f20c4b5d1337bad7b3737585944e261e4ab7c9ba098496e.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/7da8dd0525e15d993f20c4b5d1337bad7b3737585944e261e4ab7c9ba098496e.png",
     "name": "狂热者",
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -248,7 +248,7 @@
   },
   {
     "id": "19_fanzhuanyinhe",
-    "image": "/scripts/assets/community/516780925884c45f572d8775c3af14e00d9a4b91942b71befa13439b9662133e.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/516780925884c45f572d8775c3af14e00d9a4b91942b71befa13439b9662133e.png",
     "firstNightReminder": "在首个夜晚，唤醒食人魔。让食人魔指向一名玩家。让食人魔重新入睡。如果食人魔指向了一名邪恶玩家，将食人魔的角色标记倒转放置，代表食人魔现在属于邪恶阵营。",
     "name": "食人魔",
     "team": "outsider",
@@ -258,7 +258,7 @@
   },
   {
     "id": "20_fanzhuanyinhe",
-    "image": "/scripts/assets/community/f314a3cb14fcb2fe8304cc232b1c8b47e68dd2c652278593fd9d196fdce96640.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/f314a3cb14fcb2fe8304cc232b1c8b47e68dd2c652278593fd9d196fdce96640.png",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
     "remindersGlobal": [
       "是恶魔"
@@ -271,7 +271,7 @@
   },
   {
     "id": "21_fanzhuanyinhe",
-    "image": "/scripts/assets/community/69582ee391f70cbcff46da1b2856e7bbb351fb55cf89dedaa1489779175bad6a.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/69582ee391f70cbcff46da1b2856e7bbb351fb55cf89dedaa1489779175bad6a.png",
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "22_fanzhuanyinhe",
-    "image": "/scripts/assets/community/957b7c7e221ac1b6ac3230093c95bde7042c88b95cd9906ce90d66e1843d4024.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/957b7c7e221ac1b6ac3230093c95bde7042c88b95cd9906ce90d66e1843d4024.png",
     "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
     "remindersGlobal": [
       "是提线木偶"
@@ -300,7 +300,7 @@
   },
   {
     "id": "23_fanzhuanyinhe",
-    "image": "/scripts/assets/community/859ee227544576a011d7a25d8532620f6e1b577429c05017747edab4b970d4e0.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/859ee227544576a011d7a25d8532620f6e1b577429c05017747edab4b970d4e0.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -313,7 +313,7 @@
   },
   {
     "id": "24_fanzhuanyinhe",
-    "image": "/scripts/assets/community/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
     "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“限一次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原本的方古玩家死亡，且他选择的玩家不会被标记为死亡。",
     "reminders": [
       "死亡"
@@ -330,7 +330,7 @@
   },
   {
     "id": "25_fanzhuanyinhe",
-    "image": "/scripts/assets/community/52e871d08546fc884a869615e325cc1db3470fa5dd7eedf75fb840b2a1dbc51b.png",
+    "image": "/scripts/assets/community-fan-zhuan-yin-he-86015788/52e871d08546fc884a869615e325cc1db3470fa5dd7eedf75fb840b2a1dbc51b.png",
     "firstNightReminder": "在进行游戏设置时，将角色标记放入盲抽袋前，移除所有的爪牙角色标记，并加入等量的镇民或外来者角色标记作为补充。\n\n在首个夜晚，分别依次唤醒位于堤丰之首两侧的，等同于常规游戏爪牙数量加一的玩家。分别对这些玩家展示一个不同的爪牙角色标记和朝下的大拇指，再让他们重新入睡。再用展示给他们的爪牙角色标记替换魔典中这些玩家的善良角色标记。然后再如常进行爪牙信息和恶魔信息步骤。",
     "otherNightReminder": "在除首个夜晚以外的每个夜晚，唤醒堤丰之首。让他指向任意一名玩家。那名玩家死亡——用“死亡”提示标记标记那名玩家。让堤丰之首重新入睡。",
     "reminders": [

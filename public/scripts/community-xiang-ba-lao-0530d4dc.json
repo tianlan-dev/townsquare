@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "乡巴佬",
     "author": "SE & Lei.",
-    "logo": "/scripts/assets/community/ef59880e994159c38d266e48eb3ee54f8049c029122e418f93f504dd226c3e7e.png",
+    "logo": "/scripts/assets/community-xiang-ba-lao-0530d4dc/ef59880e994159c38d266e48eb3ee54f8049c029122e418f93f504dd226c3e7e.png",
     "tags": [],
     "version": "",
     "issue": 950
@@ -12,7 +12,7 @@
     "id": "yinyangshi_mtyj",
     "name": "阴阳师",
     "image": [
-      "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -28,7 +28,7 @@
     "id": "qintianjian_richardblack",
     "name": "钦天监",
     "image": [
-      "/scripts/assets/community/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -40,7 +40,7 @@
     "id": "zhanbushi_tpi",
     "name": "占卜师",
     "image": [
-      "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。\n会有一名善良玩家始终被你的能力当作恶魔。",
@@ -57,7 +57,7 @@
     "id": "chengzhengonggaoyuan_tpi",
     "name": "城镇公告员",
     "image": [
-      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -74,7 +74,7 @@
     "id": "zashuayiren_tpi",
     "name": "杂耍艺人",
     "image": [
-      "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
@@ -90,7 +90,7 @@
     "id": "xifashi_tpi",
     "name": "戏法师",
     "image": [
-      "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -101,7 +101,7 @@
     "id": "nichen_karlo",
     "name": "逆臣",
     "image": [
-      "/scripts/assets/community/cf11973acc431e78dd0fa84cbb544b4a9da3a4018974edb0a2cbf2e88e9ccc3c.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/cf11973acc431e78dd0fa84cbb544b4a9da3a4018974edb0a2cbf2e88e9ccc3c.png"
     ],
     "team": "outsider",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你会在当晚转变为邪恶；如果你先死于处决，他会在当晚转变为邪恶。",
@@ -118,7 +118,7 @@
     "id": "kexueguairen_tpi",
     "name": "科学怪人",
     "image": [
-      "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png"
     ],
     "team": "minion",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -130,7 +130,7 @@
     "id": "nvwu_tpi",
     "name": "女巫",
     "image": [
-      "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -147,7 +147,7 @@
     "id": "yingshennvyao_tpi",
     "name": "鹰身女妖",
     "image": [
-      "/scripts/assets/community/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -165,7 +165,7 @@
     "id": "fanggu_tpi",
     "name": "方古",
     "image": [
-      "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -182,7 +182,7 @@
     "id": "yagababu_tpi",
     "name": "牙噶巴卜",
     "image": [
-      "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png"
     ],
     "team": "demon",
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
@@ -205,7 +205,7 @@
     "id": "kazhali_tpi",
     "name": "卡扎力",
     "image": [
-      "/scripts/assets/community/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -223,7 +223,7 @@
     "id": "shengjiezhihun_tpi",
     "name": "圣洁之魂",
     "image": [
-      "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png"
     ],
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -250,7 +250,7 @@
     "id": "nvwushen_taiyi",
     "name": "女武神",
     "image": [
-      "/scripts/assets/community/763aba657de4b42cae3cb1768695d40aa7cd41fe747301da7adf0265498fbf8f.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/763aba657de4b42cae3cb1768695d40aa7cd41fe747301da7adf0265498fbf8f.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，死亡延迟到你同意死亡名单之后才会发生，如果你不同意，当晚有且只有你死亡。",
@@ -263,7 +263,7 @@
     "id": "mangnv_lei",
     "name": "盲女",
     "image": [
-      "/scripts/assets/community/38439f9f9597b8d0a9af7a833490274a83018110bdd7d8dd6fb8d1fb7ac67324.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/38439f9f9597b8d0a9af7a833490274a83018110bdd7d8dd6fb8d1fb7ac67324.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择…\n当你死亡时，你会得知自己完整的能力。",
@@ -279,7 +279,7 @@
     "id": "hunmingshaonv_nullt",
     "name": "魂命少女",
     "image": [
-      "/scripts/assets/community/eab082b03759836a99f7f61b113b64ae5a3a2d64ea6c3fe44df8f99304f87694.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/eab082b03759836a99f7f61b113b64ae5a3a2d64ea6c3fe44df8f99304f87694.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：他重新获得自己的能力。",
@@ -296,7 +296,7 @@
     "id": "xiaoshuojia_moyuxuetu",
     "name": "小说家",
     "image": [
-      "/scripts/assets/community/31f296e3c20bcff8e0d34c145e970c80df1899363c9bece02b91aa1c8fde4dfa.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/31f296e3c20bcff8e0d34c145e970c80df1899363c9bece02b91aa1c8fde4dfa.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知另一个答案相同的是非问题。",
@@ -307,7 +307,7 @@
     "id": "maomaotanxiandui_taiyi",
     "name": "猫猫探险队",
     "image": [
-      "/scripts/assets/community/074b2f344c34340be15ad0d914132ddcaafa21b2b598492ff8624d6d3f024409.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/074b2f344c34340be15ad0d914132ddcaafa21b2b598492ff8624d6d3f024409.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天限一次，没有“探险”过的存活玩家可以公开“探险”：在当晚，如果他存活，你会得知一名与他阵营不同的玩家。",
@@ -323,7 +323,7 @@
     "id": "xiujianqishi_lei",
     "name": "锈剑骑士",
     "image": [
-      "/scripts/assets/community/63ddfc3efe4a92e061a057bf3c881eb597661ba9a437a21b0e03529c69b18f87.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/63ddfc3efe4a92e061a057bf3c881eb597661ba9a437a21b0e03529c69b18f87.png"
     ],
     "team": "townsfolk",
     "ability": "如果你死于爪牙能力，距离你最远一名爪牙中毒。\n如果你死于恶魔能力，距离你最近一名爪牙死亡。\n恶魔会知道你离他的（左/右）更近。",
@@ -338,7 +338,7 @@
     "id": "shilaimu_sutongran",
     "name": "史莱姆",
     "image": [
-      "/scripts/assets/community/464ecd36b6e219fbcca8a806635e6c14b9ab6c5c8e22fe9e240e9b645bcc87fb.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/464ecd36b6e219fbcca8a806635e6c14b9ab6c5c8e22fe9e240e9b645bcc87fb.png"
     ],
     "team": "outsider",
     "ability": "你以为你是史莱姆以外的一个外来者，其实你不是。\n当你死亡时，与你邻近的两名善良镇民之一醉酒。",
@@ -352,7 +352,7 @@
     "id": "diannong_wanxiangxingqi",
     "name": "佃农",
     "image": [
-      "/scripts/assets/community/7e1c82f1702abf444bbf8963e9cbb2dbfb89f19da8c8ff6a33cbe4e9715855b2.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/7e1c82f1702abf444bbf8963e9cbb2dbfb89f19da8c8ff6a33cbe4e9715855b2.png"
     ],
     "team": "outsider",
     "ability": "如果你落败，你在下一局游戏还是佃农。",
@@ -363,7 +363,7 @@
     "id": "zuihan_aliangzai",
     "name": "醉汉",
     "image": [
-      "/scripts/assets/community/8c88aeb3d61884fadb7a4133e67be1fbf7b19e0b0b873dfd99087373ad596a07.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/8c88aeb3d61884fadb7a4133e67be1fbf7b19e0b0b873dfd99087373ad596a07.png"
     ],
     "team": "outsider",
     "ability": "你不知道你是醉汉，你以为你是一个其他角色，但其实你不是。存活的恶魔知道你是醉汉以及你的认知，并得知你当晚的行动与获取的信息。",
@@ -377,7 +377,7 @@
     "id": "wuyazui_liuzhongqi",
     "name": "乌鸦嘴",
     "image": [
-      "/scripts/assets/community/d3fc5904bd1e2399e2fac0600b9decfc0c9829d71f5aaf9d6c3b93f95e28b09d.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/d3fc5904bd1e2399e2fac0600b9decfc0c9829d71f5aaf9d6c3b93f95e28b09d.png"
     ],
     "team": "outsider",
     "ability": "可能会有一名善良玩家得知一条不该存在的信息，即使你已死亡。",
@@ -391,7 +391,7 @@
     "id": "mige_serraevelyn",
     "name": "米·戈",
     "image": [
-      "/scripts/assets/community/62df18b7fbba86f43c74dd10f00a48e02cdde44c700157b515174e654798e389.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/62df18b7fbba86f43c74dd10f00a48e02cdde44c700157b515174e654798e389.png"
     ],
     "team": "minion",
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果猜测正确。他中毒直到你下次行动；如果猜测错误且他是说书人认为上一个白天最沉默寡言的玩家：他死亡。",
@@ -409,7 +409,7 @@
     "id": "duxiezhicisaierkaite_jinglingguohongxi",
     "name": "“毒蝎之刺”塞尔凯特",
     "image": [
-      "/scripts/assets/community/95f51e2fc27411903cab5d4a062a601d0e899ce79bb803f4c60a30dd2ab4d337.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/95f51e2fc27411903cab5d4a062a601d0e899ce79bb803f4c60a30dd2ab4d337.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家:他死亡，与他顺时针方向邻近的镇民中毒直到下个黄昏，随后调转你能力的方向。[-1外来者]",
@@ -428,7 +428,7 @@
     "id": "jiebashenshi_lei",
     "name": "结巴绅士",
     "image": [
-      "/scripts/assets/community/4545dac591900658cf0e1e06f71b5c95bd2cd6024ab76a338e2ae7d895108dcd.png"
+      "/scripts/assets/community-xiang-ba-lao-0530d4dc/4545dac591900658cf0e1e06f71b5c95bd2cd6024ab76a338e2ae7d895108dcd.png"
     ],
     "team": "fabled",
     "ability": "会有一副搞笑眼镜。\n当玩家戴着搞笑眼镜的时候，只能用说书人指定的一种语言说话（外语、方言），但投票算作两票。\n如果违反规则，搞笑眼镜会被转移。",

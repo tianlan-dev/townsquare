@@ -12,7 +12,7 @@
   },
   {
     "id": "_mingdongjingcheng",
-    "image": "/scripts/assets/community/8431c8947fe17c82f1fadc9f0924ad6105caec34fdffb70b3b53a78f5e62e589.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/8431c8947fe17c82f1fadc9f0924ad6105caec34fdffb70b3b53a78f5e62e589.png",
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -20,7 +20,7 @@
   },
   {
     "id": "1_mingdongjingcheng",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -35,7 +35,7 @@
   },
   {
     "id": "2_mingdongjingcheng",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -48,7 +48,7 @@
   },
   {
     "id": "3_mingdongjingcheng",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -60,7 +60,7 @@
   },
   {
     "id": "4_mingdongjingcheng",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_mingdongjingcheng",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -88,7 +88,7 @@
   },
   {
     "id": "6_mingdongjingcheng",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "7_mingdongjingcheng",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -119,7 +119,7 @@
   },
   {
     "id": "8_mingdongjingcheng",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "reminders": [
@@ -134,7 +134,7 @@
   },
   {
     "id": "9_mingdongjingcheng",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "otherNightReminder": "：唤醒杂技演员，让他选择一名玩家。如果当晚这名玩家醉酒或中毒，杂技演员死亡。",
     "reminders": [
       "被选择",
@@ -148,7 +148,7 @@
   },
   {
     "id": "10_mingdongjingcheng",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
     "reminders": [
       "在场",
@@ -162,7 +162,7 @@
   },
   {
     "id": "11_mingdongjingcheng",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "otherNightReminder": "在夜晚时，如果秉笔旁放置了“死于今日”提示标记，唤醒秉笔。对他指向一名善良玩家。让秉笔重新入睡。移除“死于今日”提示标记。如果秉笔在夜晚死亡，唤醒秉笔。对他指向一名邪恶玩家。让秉笔重新入睡。",
     "reminders": [
       "死于今日"
@@ -175,7 +175,7 @@
   },
   {
     "id": "12_mingdongjingcheng",
-    "image": "/scripts/assets/community/449d829e758abff17d39ab2610c510e935204bd2a930a4e2eae7a54fd835a234.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/449d829e758abff17d39ab2610c510e935204bd2a930a4e2eae7a54fd835a234.png",
     "otherNightReminder": "唤醒道士，让其选择一名玩家。如果他选中了恶魔，在道士角色标记旁放置“死亡”提示标记，并且在恶魔角色标记旁放置“醉酒”提示标记。",
     "reminders": [
       "醉酒",
@@ -189,7 +189,7 @@
   },
   {
     "id": "13_mingdongjingcheng",
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
     "otherNightReminder": "在提刑官首次提名后的当晚，唤醒提刑官，告知被其提名的玩家的角色。恶魔会被提刑官的能力当作善良角色。",
     "reminders": [
       "提名"
@@ -202,7 +202,7 @@
   },
   {
     "id": "14_mingdongjingcheng",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -215,7 +215,7 @@
   },
   {
     "id": "15_mingdongjingcheng",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -228,7 +228,7 @@
   },
   {
     "id": "16_mingdongjingcheng",
-    "image": "/scripts/assets/community/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
     "remindersGlobal": [
       "是隐士"
     ],
@@ -240,7 +240,7 @@
   },
   {
     "id": "17_mingdongjingcheng",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "otherNightReminder": "如果入殓师白天提名了恶魔且恶魔死于这次处决，唤醒入殓师，告知他变成新的邪恶的恶魔。",
     "reminders": [
       "是恶魔"
@@ -253,7 +253,7 @@
   },
   {
     "id": "18_mingdongjingcheng",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -268,7 +268,7 @@
   },
   {
     "id": "19_mingdongjingcheng",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -281,7 +281,7 @@
   },
   {
     "id": "20_mingdongjingcheng",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -298,7 +298,7 @@
   },
   {
     "id": "21_mingdongjingcheng",
-    "image": "/scripts/assets/community/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
     "firstNightReminder": "唤醒召唤师，对他展示三个不在场的善良角色标记。",
     "otherNightReminder": "如果这是游戏中的第三个夜晚，唤醒召唤师，让他选择一名玩家和一个恶魔角色，那名玩家变成由他选择的邪恶恶魔。",
     "reminders": [
@@ -316,7 +316,7 @@
   },
   {
     "id": "22_mingdongjingcheng",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -329,7 +329,7 @@
   },
   {
     "id": "23_mingdongjingcheng",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -343,7 +343,7 @@
   },
   {
     "id": "24_mingdongjingcheng",
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
     "otherNightReminder": "唤醒混沌，让他攻击一名玩家。如果他杀死了自己邻近的镇民，所有善良玩家中毒。",
     "reminders": [
       "死亡",
@@ -357,7 +357,7 @@
   },
   {
     "id": "25_mingdongjingcheng",
-    "image": "/scripts/assets/community/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
+    "image": "/scripts/assets/community-ming-dong-jing-cheng-f0ed6d36/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
     "otherNightReminder": "唤醒暴君，让他攻击至多两名玩家。但是暴君选择的玩家数量不能与上个夜晚死亡的玩家数量相同。",
     "reminders": [
       "死亡"

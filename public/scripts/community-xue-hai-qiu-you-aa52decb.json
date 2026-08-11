@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "血海泅游",
     "author": "Karas",
-    "logo": "/scripts/assets/community/3bc68e7a02805404164c929eae7d95300eccb68b3cede3ec51c89add8f4d1588.png",
+    "logo": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/3bc68e7a02805404164c929eae7d95300eccb68b3cede3ec51c89add8f4d1588.png",
     "townsfolk": "镇民",
     "townsfolkName": "镇民",
     "state": [
@@ -32,11 +32,11 @@
     "name_eng": "Ravenkeeper",
     "firstNight": 0,
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "edition": "custom",
     "flavor": "",
     "id": "sailorbutton",
@@ -66,7 +66,7 @@
     "name_eng": "Pacifist",
     "firstNight": 0,
     "ability": "被处决的善良玩家可能不会死亡。",
-    "image": "/scripts/assets/community/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/5dea9d98d3b47c9cc7a565c6a9040619595b253931dbd76b7febba9412ad0571.png"
   },
   {
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
@@ -83,7 +83,7 @@
     "name_eng": "Seamstress",
     "firstNight": 42,
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
   },
   {
     "firstNightReminder": "",
@@ -100,7 +100,7 @@
     "name_eng": "Fisherman",
     "firstNight": 0,
     "ability": "每局游戏限一次，在白天时，你可以让说书⼈给你一些能帮助你的阵营获胜的建议。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png"
   },
   {
     "ability": "每个夜晚*，你可以猜测今晚第一个死亡的玩家与你的距离。如果你猜测正确，改为除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
@@ -119,7 +119,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png"
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -135,7 +135,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 35,
-    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png"
   },
   {
     "ability": "每个夜晚，当有邪恶玩家的能力首次对与你邻近的存活玩家产生影响时，改为此次能力不生效，你会得知这一信息。",
@@ -153,7 +153,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 5,
-    "image": "/scripts/assets/community/52b0854d375d9d011528c757f5e7ef5ff560540dd1f0cd26d71c85c01ccef882.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/52b0854d375d9d011528c757f5e7ef5ff560540dd1f0cd26d71c85c01ccef882.png"
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
@@ -173,7 +173,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -189,7 +189,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 43,
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
@@ -207,7 +207,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/05a88bd45cb86a38d048778c45b1ebab645d73be8f9a5abce087b0d54692d3ee.png"
   },
   {
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -227,7 +227,7 @@
     ],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png"
   },
   {
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
@@ -243,7 +243,7 @@
     "remindersGlobal": [],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/7a21298fd0cf505c06aaff3fd3fa9047578733ab51c5eae3d154f2e7cd4248fa.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/7a21298fd0cf505c06aaff3fd3fa9047578733ab51c5eae3d154f2e7cd4248fa.png"
   },
   {
     "firstNightReminder": "",
@@ -261,7 +261,7 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "firstNightReminder": "",
@@ -276,7 +276,7 @@
     "name_eng": "Klutz",
     "firstNight": 0,
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
   },
   {
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -296,7 +296,7 @@
     "remindersGlobal": [],
     "team": "outsider",
     "firstNight": 7,
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png"
   },
   {
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -314,7 +314,7 @@
     "remindersGlobal": [],
     "team": "outsider",
     "firstNight": 0,
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png"
   },
   {
     "firstNightReminder": "",
@@ -332,7 +332,7 @@
     "name_eng": "Assassin",
     "firstNight": 0,
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png"
   },
   {
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
@@ -351,7 +351,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png"
   },
   {
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -369,7 +369,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 0,
-    "image": "/scripts/assets/community/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -387,7 +387,7 @@
     "remindersGlobal": [],
     "team": "minion",
     "firstNight": 27,
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png"
   },
   {
     "firstNightReminder": "",
@@ -405,7 +405,7 @@
     "name_eng": "Po",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png"
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -423,7 +423,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚限一次，如果你以这种方式杀死了一名外来者，当晚你可以再次行动。[+1外来者]",
@@ -441,7 +441,7 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/ed920d0f00cf0113f94bd77f36b2ab686440622dbc2105a0e03c5bfe118fb751.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/ed920d0f00cf0113f94bd77f36b2ab686440622dbc2105a0e03c5bfe118fb751.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。所有的外来者都可能会被当作邪恶阵营、爪牙角色或恶魔角色。",
@@ -459,6 +459,6 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png"
+    "image": "/scripts/assets/community-xue-hai-qiu-you-aa52decb/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png"
   }
 ]

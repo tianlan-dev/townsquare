@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "共生体",
     "author": "蓝铃兰",
-    "logo": "/scripts/assets/community/20a051d8e1ff342cbc40593ac9025ef3736b786e85f272cc469ad77b26e6e436.png",
+    "logo": "/scripts/assets/community-gong-sheng-ti-da652678/20a051d8e1ff342cbc40593ac9025ef3736b786e85f272cc469ad77b26e6e436.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "民间创意剧本",
@@ -15,7 +15,7 @@
   },
   {
     "id": "_hongshengti",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "reminders": [
       "继位",
       "刺杀",
@@ -30,7 +30,7 @@
   },
   {
     "id": "1_hongshengti",
-    "image": "/scripts/assets/community/78a83557ae6c9edadb47d0c3c9fc12df4a24fe3abae5ff915cfa63f2dda81ec7.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/78a83557ae6c9edadb47d0c3c9fc12df4a24fe3abae5ff915cfa63f2dda81ec7.png",
     "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
     "reminders": [
@@ -46,7 +46,7 @@
   },
   {
     "id": "2_hongshengti",
-    "image": "/scripts/assets/community/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
     "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "reminders": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "3_hongshengti",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "被得知",
@@ -76,7 +76,7 @@
   },
   {
     "id": "4_hongshengti",
-    "image": "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
     "firstNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
     "otherNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
     "reminders": [
@@ -92,7 +92,7 @@
   },
   {
     "id": "5_hongshengti",
-    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
     "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
     "reminders": [
       "恶魔未投票",
@@ -106,7 +106,7 @@
   },
   {
     "id": "6_hongshengti",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
     "reminders": [
       "爪牙未提名",
@@ -120,7 +120,7 @@
   },
   {
     "id": "7_hongshengti",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
     "name": "筑梦师",
@@ -132,7 +132,7 @@
   },
   {
     "id": "8_hongshengti",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "firstNightReminder": "唤醒气球驾驶员，指向一名玩家，在其角色标记旁放置“得知”提示标记。",
     "otherNightReminder": "唤醒气球驾驶员，指向一名与放置“得知”角色标记玩家角色类型不同的玩家，在其角色标记旁放置“得知”提示标记。移除上一晚放置的“得知”角色标记。",
     "reminders": [
@@ -148,7 +148,7 @@
   },
   {
     "id": "9_hongshengti",
-    "image": "/scripts/assets/community/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
     "otherNightReminder": "让半兽人选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
     "reminders": [
       "失足",
@@ -162,7 +162,7 @@
   },
   {
     "id": "10_hongshengti",
-    "image": "/scripts/assets/community/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
     "firstNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
     "otherNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
     "reminders": [
@@ -182,14 +182,14 @@
       "中毒"
     ],
     "name": "食人族",
-    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
     "edition": "custom"
   },
   {
     "id": "12_hongshengti",
-    "image": "/scripts/assets/community/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/7ad5bd2323758295285003e937597476638b535076f2294b00e42737636817f0.png",
     "firstNightReminder": "告诉将军你认为的答案。",
     "otherNightReminder": "告诉将军你认为的答案。",
     "name": "将军",
@@ -201,7 +201,7 @@
   },
   {
     "id": "13_hongshengti",
-    "image": "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
     "reminders": [
       "失去能力"
     ],
@@ -212,7 +212,7 @@
   },
   {
     "id": "14_hongshengti",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -224,7 +224,7 @@
   },
   {
     "id": "15_hongshengti",
-    "image": "/scripts/assets/community/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -232,7 +232,7 @@
   },
   {
     "id": "16_hongshengti",
-    "image": "/scripts/assets/community/2679ffc8b446421d634f6ff2d45516eba47101a29ae87ce37a47cf7f54ca14df.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/2679ffc8b446421d634f6ff2d45516eba47101a29ae87ce37a47cf7f54ca14df.png",
     "firstNightReminder": "如果告密者在场，对爪牙展示三个不在场的善良角色标记。 ",
     "name": "告密者",
     "team": "outsider",
@@ -242,7 +242,7 @@
   },
   {
     "id": "17_hongshengti",
-    "image": "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
     "otherNightReminder": "在当晚，一同唤醒所有爪牙和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后展示帽匠角色标记。每名以此被唤醒的玩家可以选择摇头或指向角色列表上与自己当前角色类型相同的一个角色。如果一名玩家在做出自己的选择后会使得自己的角色与一名其他玩家选择的角色相同，对他摇头示意他重新选择。在选择完成后让他重新入睡。移除“今晚茶会”提示标记。根据这些玩家的选择，在魔典上执行相应的角色变化操作。",
     "reminders": [
       "今晚茶会"
@@ -261,7 +261,7 @@
       "失去能力"
     ],
     "name": "刺客",
-    "image": "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png",
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。（刺杀：由你来决定谁会被小怪宝杀死）",
     "otherNight": 8,
@@ -269,7 +269,7 @@
   },
   {
     "id": "19_hongshengti",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "20_hongshengti",
-    "image": "/scripts/assets/community/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
     "firstNightReminder": "向寡妇展示魔典，她想看多久就看多久。在她查看完毕后让她选择一名玩家，标记那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。 ",
     "reminders": [
       "中毒"
@@ -302,7 +302,7 @@
   },
   {
     "id": "21_hongshengti",
-    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "是恶魔"
@@ -318,7 +318,7 @@
   },
   {
     "id": "22_hongshengti",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶",
@@ -333,7 +333,7 @@
   },
   {
     "id": "23_hongshengti",
-    "image": "/scripts/assets/community/4dfa655853d15456870355ba59880da982eb0c0d6ba34efc0a535ab7dd7bf1a3.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/4dfa655853d15456870355ba59880da982eb0c0d6ba34efc0a535ab7dd7bf1a3.png",
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
     "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
     "remindersGlobal": [
@@ -353,7 +353,7 @@
     "name": "气球驾驶员&提线木偶",
     "team": "a jinxed",
     "ability": "如果提线木偶抽到了气球驾驶员，也可能会+1外来者。",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "edition": "custom"
   },
   {
@@ -361,7 +361,7 @@
     "name": "小怪宝&帽匠",
     "team": "a jinxed",
     "ability": "如果恶魔选择了小怪宝，则还需要选择一个爪牙角色，他变成这个爪牙且当晚照看小怪宝。",
-    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "image": "/scripts/assets/community-gong-sheng-ti-da652678/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
     "edition": "custom"
   },
   {

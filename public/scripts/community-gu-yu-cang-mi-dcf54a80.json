@@ -23,7 +23,7 @@
     "flavor": "“你听到那个穿羊绒大衣的家伙对我们小贝尔说什么了吗？他说……‘好’？哎，行吧，和哈利还有那个杂耍艺人那一出相比，这算不了什么。说什么？我可不说，我又不是什么长舌妇。”",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "imageAlt": "seamstress"
   },
   {
@@ -41,7 +41,7 @@
     "edition": "custom",
     "flavor": "“讽刺的确是最不足挂齿的机智。尽管如此，先生，回应你的批评，就是一种机智。”",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "imageAlt": "noble"
   },
   {
@@ -58,7 +58,7 @@
     "flavor": "“我的皮肤有些刺痛。\r\n这有些不太对劲。我能感觉得到。”",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "imageAlt": "empath"
   },
   {
@@ -75,7 +75,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“若你感到寒冷，茶能使你温暖。\r\n若你感到愤怒，茶能使你冷静。\r\n若你感到沮丧，茶能使你振奋。\r\n若你感到激动，茶能使你镇定。”",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "imageAlt": "tealady"
   },
   {
@@ -112,7 +112,7 @@
     "flavor": "“玫瑰花是蓝色哒！草桂花是红色哒！哦豁，俺说反啦！”",
     "firstNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
     "otherNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "imageAlt": "villageidiot"
   },
   {
@@ -128,7 +128,7 @@
     "edition": "custom",
     "flavor": "“这书山卷海中一定隐藏着秘密，我非常确信！这些秘密就隐藏在这一字一句之间等待着我们发掘。小子！再帮我多拿点蜡烛！还有墨水！虽然这些笔记有些晦涩，但有关恶魔的谜语很快就会被揭晓。”",
     "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "imageAlt": "sage"
   },
   {
@@ -193,7 +193,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "“地上有七十二根火柴……今天的太阳落得更早，月亮还是按时升起……一块破布……庄园里的邪恶之物……三个又三个……我们相信的事物和他真正看到的不一样……绿光代表镁……残留物，但是图案不太对……地上有七十二根火柴……”",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "savant"
@@ -212,7 +212,7 @@
     "flavor": "待更新",
     "firstNightReminder": "让引路人选择一至三名玩家，以点头或摇头告知他选择的玩家中是否有玩家在当晚被邪恶玩家的能力选择或影响过。",
     "otherNightReminder": "让引路人选择一至三名玩家，以点头或摇头告知他选择的玩家中是否有玩家在当晚被邪恶玩家的能力选择或影响过。",
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "yinluren"
@@ -231,7 +231,7 @@
     "edition": "custom",
     "flavor": "",
     "otherNightReminder": "唤醒追猎者，让其选择一名玩家，或摇头表示不选择。如果他选择的玩家的邻座玩家中正好只有一名邪恶玩家，标记那名玩家死亡。",
-    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png"
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png"
   },
   {
     "id": "octopus",
@@ -280,7 +280,7 @@
     "setup": true,
     "edition": "custom",
     "flavor": "“我是个只在社交场合里~嗝儿~喝酒的人，亲爱的。\n\n但无可否认，我是一个非常~嗝儿~擅长社交的人。”\n\n（英文维基上的背景描述与角色详解中的不同，此处也一并贴出。见下）\n\n“这完全合乎~嗝儿~逻辑。我知道的是狄亚哈特小姐是个占卜师。狄亚哈特夫人则发誓詹金斯是她的管家。得出这样的推论非常~嗝儿~简单。”",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "drunk"
@@ -300,7 +300,7 @@
     "edition": "custom",
     "flavor": "“天蝎座侧身遥望恋人，此刻即为抉择进行之时。\n\n以白银拂过我的掌心，你的宿命将在此地揭示。\n\n以钢铁穿过我的咽喉，群星在上你将追悔莫及。”",
     "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "moonchild"
@@ -337,7 +337,7 @@
     "setup": true,
     "edition": "custom",
     "flavor": "“你须待到天黑再赶路，切莫让人发现你的肚子里都是稻草。”",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "imageAlt": "ganshiren"
   },
   {
@@ -354,7 +354,7 @@
     "setup": false,
     "edition": "custom",
     "flavor": "",
-    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp"
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp"
   },
   {
     "id": "witchcdcf54a80",
@@ -372,7 +372,7 @@
     "flavor": "“山羊之血，三滴落下。一绺头发，怒意迸发。名字被说出，阴影被放大。左脚踏上荆棘路，莫要回头看它。”",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "witch"
@@ -411,7 +411,7 @@
     "edition": "custom",
     "flavor": "“我给你一朵花，陪陪我好不好……”",
     "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "imageAlt": "po"
   },
   {
@@ -431,7 +431,7 @@
     "flavor": "“美味，美味，美味，美味，美味，美味，美味，美味的脑——馅儿饼！是的。美味的老馅儿饼。我想说的就是这个。”",
     "firstNightReminder": "让痢蛭指向一名玩家。标记那名玩家中毒。",
     "otherNightReminder": "寄生蛭指向一名玩家。那名玩家死亡。",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "imageAlt": "lleech"
   },
   {
@@ -450,7 +450,7 @@
     "flavor": "“Gon(z)a7les6。请当Zn。机制已被FAN转。系统古攵阝章。重新{配}置。”",
     "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。 ",
     "otherNightReminder": "除首个夜晚以外的每个夜晚，唤醒卡扎力。让他指向任意一名玩家。那名玩家死亡——在他角色标记旁放置“死亡”提示标记。让卡扎力重新入睡。",
-    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "image": "/scripts/assets/community-gu-yu-cang-mi-dcf54a80/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
     "isOfficial": true,
     "display": 1,
     "imageAlt": "kazali"

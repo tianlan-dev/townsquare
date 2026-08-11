@@ -48,7 +48,7 @@
   },
   {
     "id": "lianjinshushi",
-    "image": "/scripts/assets/community/4e2fd77d92847c8ca659e00c7201fc64eb6f715b8600b8d246648ccee35ebc13.png",
+    "image": "/scripts/assets/community-xue-se-bu-ye-cheng-zheng-shi-ban-4e63aefc/4e2fd77d92847c8ca659e00c7201fc64eb6f715b8600b8d246648ccee35ebc13.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个不在场的爪牙角色的能力。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "yijiaolinxiu",
-    "image": "/scripts/assets/community/220c0230e87b4e92cacb7eebf20f86409c78d1a948de3232556f64aed61a9fa5.png",
+    "image": "/scripts/assets/community-xue-se-bu-ye-cheng-zheng-shi-ban-4e63aefc/220c0230e87b4e92cacb7eebf20f86409c78d1a948de3232556f64aed61a9fa5.png",
     "edition": "custom",
     "name": "异教领袖",
     "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
@@ -129,7 +129,7 @@
   },
   {
     "id": "yiduanfenzi",
-    "image": "/scripts/assets/community/48ac87d45f23ea70bf864e8a05ad350fd0472c3841ddb78436597431dc7b80a3.png",
+    "image": "/scripts/assets/community-xue-se-bu-ye-cheng-zheng-shi-ban-4e63aefc/48ac87d45f23ea70bf864e8a05ad350fd0472c3841ddb78436597431dc7b80a3.png",
     "edition": "custom",
     "name": "异端分子",
     "ability": "对调传奇角色之外的胜负结果，即使你已死亡。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "lingyanshi",
-    "image": "/scripts/assets/community/aed8cfce5f272d4f881063cb5660845dd503111d47740fe060cd40c51dc40872.png",
+    "image": "/scripts/assets/community-xue-se-bu-ye-cheng-zheng-shi-ban-4e63aefc/aed8cfce5f272d4f881063cb5660845dd503111d47740fe060cd40c51dc40872.png",
     "edition": "custom",
     "name": "灵言师",
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
@@ -322,7 +322,7 @@
     "name_eng": "Apprentice",
     "firstNight": 1,
     "ability": "在你的首个夜晚，如果你是善良的，你会获得一个镇民角色的能力；如果你是邪恶的，你会获得一个爪牙角色的能力。",
-    "image": "/scripts/assets/community/d5dec484a779935dd0e371cb4e653ecc490e95500ced19156e54d286bbe5b681.png"
+    "image": "/scripts/assets/community-xue-se-bu-ye-cheng-zheng-shi-ban-4e63aefc/d5dec484a779935dd0e371cb4e653ecc490e95500ced19156e54d286bbe5b681.png"
   },
   {
     "firstNightReminder": "让流动商贩选择一名存活的玩家，交换他们的位置。然后如果与流动商贩邻近的存活玩家阵营不同，标记流动商贩转变阵营。",

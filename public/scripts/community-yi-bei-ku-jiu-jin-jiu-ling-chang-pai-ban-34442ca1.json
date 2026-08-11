@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "一杯苦酒：禁酒令（厂牌版）",
     "author": "提线政客",
-    "logo": "/scripts/assets/community/f63594e921d4e865d4c051db0a910e7f711706478ff764ab08f8751082c57e08.png",
+    "logo": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/f63594e921d4e865d4c051db0a910e7f711706478ff764ab08f8751082c57e08.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -21,7 +21,7 @@
   },
   {
     "id": "hebusiniyade111",
-    "image": "/scripts/assets/community/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
     "edition": "custom",
     "name": "店小二",
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
@@ -38,7 +38,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "zhenaosheajwiejp214ui90-japtu90q23j5t",
-    "image": "/scripts/assets/community/2e9b9a365652d8b450cec63eeb675c03bc41fb69b61ea7fbb40fe7cbc9d67330.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/2e9b9a365652d8b450cec63eeb675c03bc41fb69b61ea7fbb40fe7cbc9d67330.png",
     "edition": "custom",
     "name": "追猎者",
     "ability": "每个夜晚*，你可以选择一名玩家：如果与他邻近的两名玩家阵营不同，且他不是恶魔，他死亡。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "gongwenbaozaren111",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "xunchashaoihwronaklsndfkasnd",
-    "image": "/scripts/assets/community/b577795cc0744a50734aa4f6207954d8c1b34068bbeeaa8bfa5fa04a926b5861.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/b577795cc0744a50734aa4f6207954d8c1b34068bbeeaa8bfa5fa04a926b5861.png",
     "edition": "custom",
     "name": "游歌者",
     "ability": "每个白天，你可以公开选择任意名存活玩家：当晚其中的镇民玩家会醉酒直到下个黄昏，你会被唤醒得知当晚因你醉酒的人数。",
@@ -102,7 +102,7 @@
   },
   {
     "id": "yinlureanrlfasrfiaojwrn2k31j95u09uasj",
-    "image": "/scripts/assets/community/48df17d164a7de5d1b8a42b64dea86bf142dc92f987e7d6dbac3ec38d2535dd7.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/48df17d164a7de5d1b8a42b64dea86bf142dc92f987e7d6dbac3ec38d2535dd7.png",
     "edition": "custom",
     "name": "巫师学徒",
     "ability": "每个夜晚*，你要选择一名玩家：你会得知除你以外的通过自身能力影响或在夜晚选择过他的角色中有哪些角色类型。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "huaguanjiang",
-    "image": "/scripts/assets/community/10047b945a8cd0d725be5dfee65cb728e1741ee1b6805fc5b4e7eebbe9b56d2f.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/10047b945a8cd0d725be5dfee65cb728e1741ee1b6805fc5b4e7eebbe9b56d2f.png",
     "edition": "custom",
     "name": "盖棺人",
     "ability": "每个夜晚*，你会得知一名邪恶玩家。你醉酒，除非有邪恶玩家死亡。",
@@ -138,7 +138,7 @@
   },
   {
     "id": "liaoyangshi111",
-    "image": "/scripts/assets/community/6b7b5ee74de1d9a5e8aa8c5d58805f3a6715cfb48f40ebee89d215944521650a.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/6b7b5ee74de1d9a5e8aa8c5d58805f3a6715cfb48f40ebee89d215944521650a.png",
     "edition": "custom",
     "name": "疗养师",
     "ability": "一名玩家醉酒。中毒或醉酒的玩家不会死亡，每个夜晚*，你会得知是否有玩家因为你避免了死亡（从上个黎明到你被唤醒时）。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "shiqiedexin111",
-    "image": "/scripts/assets/community/a5ad3efe299976ff960c6c3371ac89c737126b2d990dd5f38fa94034c933f2df.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/a5ad3efe299976ff960c6c3371ac89c737126b2d990dd5f38fa94034c933f2df.png",
     "edition": "custom",
     "name": "马车邮差",
     "ability": "你不会因除自身能力以外的原因而死亡。每个夜晚*，如果没有玩家死亡，你会死亡。",
@@ -171,7 +171,7 @@
   },
   {
     "id": "wohehehehehehehezuidiaoniladao111",
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "edition": "custom",
     "name": "侍臣",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，一个该角色从当晚开始醉酒三天三夜。",
@@ -190,7 +190,7 @@
   },
   {
     "id": "buhaohe111",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -206,7 +206,7 @@
   },
   {
     "id": "chunzaoyaoa",
-    "image": "/scripts/assets/community/b5a241d3bc2be83100340f8000dcef3171b73e0f40169460ae1060599f723c5a.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/b5a241d3bc2be83100340f8000dcef3171b73e0f40169460ae1060599f723c5a.png",
     "edition": "custom",
     "name": "享乐主义者",
     "ability": "与你相邻的存活玩家（不计算旅行者）醉酒。",
@@ -222,7 +222,7 @@
   },
   {
     "id": "babatuosi111",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png",
     "edition": "custom",
     "name": "吟游诗人",
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
@@ -238,7 +238,7 @@
   },
   {
     "id": "d0fc421d-6f44-4eec-99fc-90505973763e1",
-    "image": "/scripts/assets/community/cc8e3ad581a4f8399e54c593bd2aee6b66fe8460832a5a6f3a8dfb244f7829ec.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/cc8e3ad581a4f8399e54c593bd2aee6b66fe8460832a5a6f3a8dfb244f7829ec.png",
     "edition": "custom",
     "name": "史莱姆",
     "ability": "你以为你是一个史莱姆以外的外来者，但其实你不是。当你死亡时，与你邻近的两名善良镇民之一醉酒。",
@@ -255,7 +255,7 @@
   },
   {
     "id": "fengdu_2",
-    "image": "/scripts/assets/community/219ec0b3d6cc8be45dd259a0b3f62876ce59e05078b114cdce8f8af66e4f799f.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/219ec0b3d6cc8be45dd259a0b3f62876ce59e05078b114cdce8f8af66e4f799f.png",
     "edition": "custom",
     "name": "忏悔者",
     "ability": "如果你死亡，当晚恶魔可以永久将能力变为：“每个夜晚*，你要选择两名玩家：他们死亡。”",
@@ -274,7 +274,7 @@
   },
   {
     "id": "22_acup",
-    "image": "/scripts/assets/community/92ee576efb12e0f4013ffaf6693b635eb8def3759974b8c971741952c3fe94df.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/92ee576efb12e0f4013ffaf6693b635eb8def3759974b8c971741952c3fe94df.png",
     "name": "调香师",
     "team": "outsider",
     "ability": "当第一次有邪恶玩家因被邪恶玩家提名而被处决后，提名者邻近的镇民中毒，即使你已经死亡。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "daban1231233shou111",
-    "image": "/scripts/assets/community/728fbd4968ff5ed85d13efc42c8ab8190586d1e9e9192c4de46bd1a4b929b643.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/728fbd4968ff5ed85d13efc42c8ab8190586d1e9e9192c4de46bd1a4b929b643.png",
     "edition": "custom",
     "name": "杂技演员",
     "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
@@ -302,7 +302,7 @@
   },
   {
     "id": "dabanshou111",
-    "image": "/scripts/assets/community/d3892e4c38732a7d48b4ca7e1b7c034ff9b9c2e79aa7dd5f9e6657ba2dbd7a01.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/d3892e4c38732a7d48b4ca7e1b7c034ff9b9c2e79aa7dd5f9e6657ba2dbd7a01.png",
     "edition": "custom",
     "name": "云栖客",
     "ability": "你拥有其他所有外来者的能力。其他对外来者的设置调整不会生效。[无其他外来者在场]",
@@ -318,7 +318,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -351,7 +351,7 @@
   },
   {
     "id": "charoit",
-    "image": "/scripts/assets/community/f43873ffbbf4a172f0d41e83b93dee019ca35ebd589a3ee91b19b53ecbef4762.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/f43873ffbbf4a172f0d41e83b93dee019ca35ebd589a3ee91b19b53ecbef4762.png",
     "edition": "custom",
     "name": "尸妖",
     "ability": "你提名的第一名玩家和你死亡后投票给的第一名玩家中毒，即使你已经死亡。",
@@ -379,11 +379,11 @@
     "name_eng": "Witch",
     "firstNight": 0,
     "ability": "你死亡后，每个夜晚，你会被唤醒并可以选择一名玩家：他死亡；第二名玩家因此能力死亡的夜晚，阻止恶魔因自身能力被唤醒，然后你失去能力。",
-    "image": "/scripts/assets/community/601ecd10f35ff05bf89fe040e6171b8a2a418b78f01d3be90c69bb4e93a5a0f3.png"
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/601ecd10f35ff05bf89fe040e6171b8a2a418b78f01d3be90c69bb4e93a5a0f3.png"
   },
   {
     "id": "zhiwudazhanjiangshi111",
-    "image": "/scripts/assets/community/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/4814fd9aa7535e2f50c9c7805d72d242fc894e12b81fc0e6d4e08cf140f959a5.png",
     "edition": "custom",
     "name": "僵怖",
     "ability": "每个夜晚*，如果今天白天没有人死亡，你会被唤醒并要选择一名玩家：他死亡。当你首次死亡后，你仍存活，但会被当作死亡。",
@@ -400,7 +400,7 @@
   },
   {
     "id": "24_EquinoxFlower",
-    "image": "/scripts/assets/community/f020d42b23582c4fd5330a0d68e9095966271301b7823f17697ba4a96f28484d.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/f020d42b23582c4fd5330a0d68e9095966271301b7823f17697ba4a96f28484d.png",
     "name": "蚀疫魔",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡，如果他死于你的能力，与他顺时针邻近的一名镇民玩家中毒。",
@@ -424,7 +424,7 @@
     "reminders": [
       "赐福"
     ],
-    "image": "/scripts/assets/community/8765ebd7290cbbcdce41c3ee4e913940d15c19d5ebcbb686c855e6b76f74dd29.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/8765ebd7290cbbcdce41c3ee4e913940d15c19d5ebcbb686c855e6b76f74dd29.png",
     "setup": false,
     "edition": "custom"
   },
@@ -433,7 +433,7 @@
     "name": "蛋酒：庆典",
     "team": "fabled",
     "ability": "中毒或醉酒不会影响你和存活邪恶玩家的能力使用，直到下个黎明。邪恶玩家不能主动饮用蛋酒。",
-    "image": "/scripts/assets/community/5ab481b964e33d687d5a6bcba03290f1a9b2f5e1fb255a4a26afbc1edaaf9400.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/5ab481b964e33d687d5a6bcba03290f1a9b2f5e1fb255a4a26afbc1edaaf9400.png",
     "otherNight": 0,
     "reminders": [
       "蛋酒",
@@ -447,7 +447,7 @@
     "name": "公牛子弹：决斗",
     "team": "fabled",
     "ability": "从这个黄昏开始，直到下个黎明，让你中毒或醉酒的玩家会在当晚死亡，如果他是恶魔，则你代替他死亡。",
-    "image": "/scripts/assets/community/25a069456c7a3159c2df0fda915fbdb790109f05a68feadce176c322028bc11f.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/25a069456c7a3159c2df0fda915fbdb790109f05a68feadce176c322028bc11f.png",
     "otherNight": 68,
     "reminders": [
       "决斗",
@@ -462,7 +462,7 @@
     "name": "月光蜜酿：烈！",
     "team": "fabled",
     "ability": "你立刻醉酒。如果你因为其它原因醉酒或中毒，你清醒健康。",
-    "image": "/scripts/assets/community/43777c31ac6fa2ad4f94ddcc15d846e224b62f96df26f08dcd27d6fbced64737.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/43777c31ac6fa2ad4f94ddcc15d846e224b62f96df26f08dcd27d6fbced64737.png",
     "reminders": [
       "私酒"
     ],
@@ -474,7 +474,7 @@
     "name": "苦艾酒：调制",
     "team": "fabled",
     "ability": "你会在当晚得知今天有多少名除你以外的玩家喝到了酒，如果今天没有其它玩家喝到酒：改为你死亡。",
-    "image": "/scripts/assets/community/d2d71109e3e6f8f45f931468cc51a36cb040ab1d40762be5dd166d7485dd99a5.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/d2d71109e3e6f8f45f931468cc51a36cb040ab1d40762be5dd166d7485dd99a5.png",
     "otherNight": 67,
     "reminders": [
       "死亡",
@@ -489,7 +489,7 @@
     "name": "盘尼西林：解脱",
     "team": "fabled",
     "ability": "下个黎明前：你不会死亡或因自身能力唤醒，但如果你醉酒，你会死亡，即使任何原因让你不会死亡。在此之后，你不再能避免死亡。",
-    "image": "/scripts/assets/community/becf24069b4abc6bf8d64570ad577793bbf430fbeea3f1255f44e689612598ff.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/becf24069b4abc6bf8d64570ad577793bbf430fbeea3f1255f44e689612598ff.png",
     "otherNight": 71,
     "reminders": [
       "死亡",
@@ -502,7 +502,7 @@
   },
   {
     "id": "opppppppppp1111",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -519,7 +519,7 @@
   },
   {
     "id": "opppppklppppp1111",
-    "image": "/scripts/assets/community/5b332cc6d78c8428662ff79d872edcd4dbb0d860bc5134bd26435eae53e87641.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/5b332cc6d78c8428662ff79d872edcd4dbb0d860bc5134bd26435eae53e87641.png",
     "edition": "custom",
     "name": "别西卜",
     "ability": "每个夜晚*，你选择两名玩家，如果他们都是或都不是镇民：他们死亡。[+1外来者]",
@@ -535,7 +535,7 @@
   },
   {
     "id": "dacheke111",
-    "image": "/scripts/assets/community/1a3d03339cd9051ca63ba71dadd867faf8c8200c956d2205835bd2c9b932a967.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/1a3d03339cd9051ca63ba71dadd867faf8c8200c956d2205835bd2c9b932a967.png",
     "edition": "custom",
     "name": "搭车客",
     "ability": "每个白天，公开选择一个未选择过的位置落座。与你相邻的存活玩家如果阵营相同，则他们不会死亡；如果他们阵营不同，则他们中毒。",
@@ -553,7 +553,7 @@
   },
   {
     "id": "jidian2111111",
-    "image": "/scripts/assets/community/1cd6ae8a749a8cf135394c457a212a9f7939b893ec55a160c424d78f8751344f.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/1cd6ae8a749a8cf135394c457a212a9f7939b893ec55a160c424d78f8751344f.png",
     "edition": "custom",
     "name": "光明祭典",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：他当晚不会中毒或醉酒。",
@@ -569,7 +569,7 @@
   },
   {
     "id": "yikalu1osi2111111",
-    "image": "/scripts/assets/community/9cc236f9ff860ca74517f8773111958e925de52dd08d5e99d0e728b782f05d42.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/9cc236f9ff860ca74517f8773111958e925de52dd08d5e99d0e728b782f05d42.png",
     "edition": "custom",
     "name": "伊卡洛斯",
     "ability": "如果被提名者收到的票数不足存活玩家的一半，立刻杀死提名者。",
@@ -583,7 +583,7 @@
   },
   {
     "id": "tufuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
+    "image": "/scripts/assets/community-yi-bei-ku-jiu-jin-jiu-ling-chang-pai-ban-34442ca1/69732695a011f59b7de7d6074f72ffed9864c65695d42e8e6a427eeff3f57b46.png",
     "edition": "custom",
     "name": "屠夫",
     "ability": "每个白天，首次处决后，你可以再次发起提名。",

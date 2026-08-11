@@ -4,7 +4,7 @@
     "name": "何方教众",
     "author": "Zets",
     "townsfolkName": "镇民",
-    "logo": "/scripts/assets/community/886ca256d4156c870dcb137316f6a2bde9e91b1b51d45d317d444bfb1f6c2929.png",
+    "logo": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/886ca256d4156c870dcb137316f6a2bde9e91b1b51d45d317d444bfb1f6c2929.png",
     "almanac": "https://www.bloodstar.xyz/p/ronchi/hefangjiaozhong/almanac.html",
     "tags": [
       "旋转木马快速上手剧本"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_hefangjiaozhong",
-    "image": "/scripts/assets/community/f5ec8446f9e076e5889d0f3daf48317c1e015782a3a0990fceaef968826a05ad.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/f5ec8446f9e076e5889d0f3daf48317c1e015782a3a0990fceaef968826a05ad.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "被得知"
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_hefangjiaozhong",
-    "image": "/scripts/assets/community/d1c1be57ab18bc90dbc84b6c80011c043a98aae76a0de1095624cb30508e56f5.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/d1c1be57ab18bc90dbc84b6c80011c043a98aae76a0de1095624cb30508e56f5.png",
     "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
     "reminders": [
       "疯狂",
@@ -40,7 +40,7 @@
   },
   {
     "id": "2_hefangjiaozhong",
-    "image": "/scripts/assets/community/e6c3111b3c98c3a7986cb1c1d69c60d5c7f166a14b0fddeb91805346a4bd6a2f.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/e6c3111b3c98c3a7986cb1c1d69c60d5c7f166a14b0fddeb91805346a4bd6a2f.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -55,7 +55,7 @@
   },
   {
     "id": "3_hefangjiaozhong",
-    "image": "/scripts/assets/community/08f9d8e14d9e4b4daa1ae56e88cfdd2e57808b01c6887c411cb02721cae0f74f.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/08f9d8e14d9e4b4daa1ae56e88cfdd2e57808b01c6887c411cb02721cae0f74f.png",
     "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
     "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
     "reminders": [
@@ -75,7 +75,7 @@
   },
   {
     "id": "4_hefangjiaozhong",
-    "image": "/scripts/assets/community/f275942c7896307e178cd7646a8066738ba233f2f18e2b4845a0b1ac71cdfa58.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/f275942c7896307e178cd7646a8066738ba233f2f18e2b4845a0b1ac71cdfa58.png",
     "firstNightReminder": "唤醒恶魔，并告诉他国王是谁。",
     "otherNightReminder": "如果死亡玩家人数大于存活玩家，唤醒国王并对其展示一个存活的角色标记。",
     "name": "国王",
@@ -87,7 +87,7 @@
   },
   {
     "id": "5_hefangjiaozhong",
-    "image": "/scripts/assets/community/a1e7b6c75884293be056095c56d752e4086687818fe74030dc0ae6bccdae663a.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/a1e7b6c75884293be056095c56d752e4086687818fe74030dc0ae6bccdae663a.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -97,7 +97,7 @@
   },
   {
     "id": "6_hefangjiaozhong",
-    "image": "/scripts/assets/community/dd9f8caa7b29bc2d0e5967246cc9029afef79cf5e457f01b052ecdb9f32505f5.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/dd9f8caa7b29bc2d0e5967246cc9029afef79cf5e457f01b052ecdb9f32505f5.png",
     "firstNightReminder": "如果异教领袖改变了阵营，告诉他。",
     "otherNightReminder": "如果异教领袖改变了阵营，告诉他。",
     "reminders": [
@@ -112,7 +112,7 @@
   },
   {
     "id": "7_hefangjiaozhong",
-    "image": "/scripts/assets/community/ead233943f34e9a54df4e086f611d904c67eb64858a395aa3e34a20aa3293e6c.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/ead233943f34e9a54df4e086f611d904c67eb64858a395aa3e34a20aa3293e6c.png",
     "otherNightReminder": "半兽人指向一名存活玩家：如果那名玩家善良，则立刻死去且今夜不会再有玩家死亡。",
     "reminders": [
       "死亡"
@@ -125,7 +125,7 @@
   },
   {
     "id": "8_hefangjiaozhong",
-    "image": "/scripts/assets/community/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/284c7b445fe13ab8ae34e29d711481c926441f45a4fdd95bba17a1a48a275767.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一条是正确的，一条是错误的。",
@@ -133,7 +133,7 @@
   },
   {
     "id": "9_hefangjiaozhong",
-    "image": "/scripts/assets/community/b682926331942516f9f867a5f77d42240e007ca2448ff2836bb04dc276f899c5.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/b682926331942516f9f867a5f77d42240e007ca2448ff2836bb04dc276f899c5.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -148,7 +148,7 @@
   },
   {
     "id": "10_hefangjiaozhong",
-    "image": "/scripts/assets/community/4cc943c931e14fe38febf125cdc1d20254f097463b8983b97a153799e8182756.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/4cc943c931e14fe38febf125cdc1d20254f097463b8983b97a153799e8182756.png",
     "firstNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
     "otherNightReminder": "巡山人选择不使用能力，或指向一名玩家。如果他指向了落难少女，则为落难少女安排一个新的不在场镇民角色，将其唤醒并告知她新的角色。",
     "reminders": [
@@ -164,7 +164,7 @@
   },
   {
     "id": "11_hefangjiaozhong",
-    "image": "/scripts/assets/community/fe8258f5885c30c8cbcf5e6d104784fc03a7b37bb97cf95d35f02c2e3443bf62.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/fe8258f5885c30c8cbcf5e6d104784fc03a7b37bb97cf95d35f02c2e3443bf62.png",
     "otherNightReminder": "如果国王被恶魔杀死，将唱诗男孩唤醒并告诉他谁是那个杀死国王的恶魔。",
     "setup": true,
     "name": "唱诗男孩",
@@ -175,7 +175,7 @@
   },
   {
     "id": "12_hefangjiaozhong",
-    "image": "/scripts/assets/community/be9879581769e9c3396f208ca026fb0bceefca69e2267181b3cdb7e7c1a811c7.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/be9879581769e9c3396f208ca026fb0bceefca69e2267181b3cdb7e7c1a811c7.png",
     "reminders": [
       "中毒",
       "死于处决"
@@ -187,7 +187,7 @@
   },
   {
     "id": "13_hefangjiaozhong",
-    "image": "/scripts/assets/community/104c670eebb5823e365fdd23339a5a0e4549f1712a3448bb4513f40fa8294a5e.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/104c670eebb5823e365fdd23339a5a0e4549f1712a3448bb4513f40fa8294a5e.png",
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
     "otherNightReminder": "如果被巡山人选中，唤醒并为其展示新角色。",
     "reminders": [
@@ -202,7 +202,7 @@
   },
   {
     "id": "14_hefangjiaozhong",
-    "image": "/scripts/assets/community/aa8bc5d88810b45b05c0b3d49fed318fa4fd184a431899eec0c8d78a424c7bbe.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/aa8bc5d88810b45b05c0b3d49fed318fa4fd184a431899eec0c8d78a424c7bbe.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -210,7 +210,7 @@
   },
   {
     "id": "15_hefangjiaozhong",
-    "image": "/scripts/assets/community/6befe328430c087815852c28e887ab3e09a8a2dff1424879f7563947868a099c.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/6befe328430c087815852c28e887ab3e09a8a2dff1424879f7563947868a099c.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -218,7 +218,7 @@
   },
   {
     "id": "16_hefangjiaozhong",
-    "image": "/scripts/assets/community/82ed806b6211ae55df699f84a2d7e1a283be1941bead1a42a2a13a0ce0952fc7.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/82ed806b6211ae55df699f84a2d7e1a283be1941bead1a42a2a13a0ce0952fc7.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -230,7 +230,7 @@
   },
   {
     "id": "17_hefangjiaozhong",
-    "image": "/scripts/assets/community/1a783cb2282ce47bc82d71f8f34ec40423aa717499214577a651693d5e485e3a.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/1a783cb2282ce47bc82d71f8f34ec40423aa717499214577a651693d5e485e3a.png",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "reminders": [
@@ -246,7 +246,7 @@
   },
   {
     "id": "cerenovusbutton",
-    "image": "/scripts/assets/community/837e861498a0834f9c004ce7ae6962967a775f30eff2b1b09ebe85c5fff094f4.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/837e861498a0834f9c004ce7ae6962967a775f30eff2b1b09ebe85c5fff094f4.png",
     "firstNightReminder": " 让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "reminders": [
@@ -261,7 +261,7 @@
   },
   {
     "id": "19_hefangjiaozhong",
-    "image": "/scripts/assets/community/135cce08c312a0fcc70848505ae00f9ba327984f2654ee4e9cb7f14c9ffeda2d.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/135cce08c312a0fcc70848505ae00f9ba327984f2654ee4e9cb7f14c9ffeda2d.png",
     "firstNightReminder": "恐惧之灵指向一名玩家，放置恐惧标记。宣布恐惧之灵选中或改变了目标。",
     "otherNightReminder": "恐惧之灵指向一名玩家。如果与之前选择的不同，则更换恐惧标记并宣布恐惧之灵选中或改变了目标。",
     "reminders": [
@@ -276,7 +276,7 @@
   },
   {
     "id": "goblinbutton",
-    "image": "/scripts/assets/community/f9a243e9f1de8ccaee927fd4c1fd4b576ac9d326f410a770513304507b482ac9.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/f9a243e9f1de8ccaee927fd4c1fd4b576ac9d326f410a770513304507b482ac9.png",
     "reminders": [
       "已公开声明"
     ],
@@ -287,7 +287,7 @@
   },
   {
     "id": "21_hefangjiaozhong",
-    "image": "/scripts/assets/community/c0de3b397628b8632e1058336bb22dacc00ad8ef39839d858cf6e59941fa9e4b.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/c0de3b397628b8632e1058336bb22dacc00ad8ef39839d858cf6e59941fa9e4b.png",
     "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“首次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原",
     "reminders": [
       "死亡"
@@ -304,7 +304,7 @@
   },
   {
     "id": "22_hefangjiaozhong",
-    "image": "/scripts/assets/community/1cb60506c21af82875ea834727530850bcd2ee7de257b207c50204780dc85005.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/1cb60506c21af82875ea834727530850bcd2ee7de257b207c50204780dc85005.png",
     "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
     "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
     "remindersGlobal": [
@@ -321,7 +321,7 @@
   },
   {
     "id": "23_hefangjiaozhong",
-    "image": "/scripts/assets/community/4b7294df52a44aa45f57cfd0e855a7a1e65d3ce60000d26c0f1e5fc6eb4bf4be.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/4b7294df52a44aa45f57cfd0e855a7a1e65d3ce60000d26c0f1e5fc6eb4bf4be.png",
     "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -335,7 +335,7 @@
   },
   {
     "id": "24_hefangjiaozhong",
-    "image": "/scripts/assets/community/3bfb3ae486f2aee15764d063efc12098185bbfcc9fb6f057ba90ee7236ca1e65.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/3bfb3ae486f2aee15764d063efc12098185bbfcc9fb6f057ba90ee7236ca1e65.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -348,7 +348,7 @@
   },
   {
     "id": "25_hefangjiaozhong",
-    "image": "/scripts/assets/community/3842e2a7499981b204a5d15ceab9eba4efca337a92942fc08460ce40df1e693b.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/3842e2a7499981b204a5d15ceab9eba4efca337a92942fc08460ce40df1e693b.png",
     "firstNightReminder": "如果被暴风捕手选择的角色在场，使用暴风捕手的“不会死亡”提示标记标记那个角色。",
     "reminders": [
       "不会死亡"
@@ -361,7 +361,7 @@
   },
   {
     "ability": "使用灯神的相克规则。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-he-fang-jiao-zhong-6337ba57/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",

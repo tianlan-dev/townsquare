@@ -31,7 +31,7 @@
         "skill": "在7/10/13人游玩时，说书人会在游戏开始前声明，本局游戏是否让“巨眼”加入剧本。"
       }
     ],
-    "logo": "/scripts/assets/community/6ff8002dea413ddd9225b4fb68c63ca1803fc7223c2a2ee8133853c7905ad887.png",
+    "logo": "/scripts/assets/community-hei-an-jue-dou-cd356364/6ff8002dea413ddd9225b4fb68c63ca1803fc7223c2a2ee8133853c7905ad887.png",
     "almanac": "https://www.bloodstar.xyz/p/Tiger/DARK-DUEL/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -41,7 +41,7 @@
   },
   {
     "id": "_darkduel",
-    "image": "/scripts/assets/community/6b772d5e1f8fa9a364042ea827b8c91ea1f6b4885c4dcb5f7f0288b0bed3f24a.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/6b772d5e1f8fa9a364042ea827b8c91ea1f6b4885c4dcb5f7f0288b0bed3f24a.png",
     "firstNightReminder": "1",
     "otherNightReminder": "9",
     "reminders": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "1_darkduel",
-    "image": "/scripts/assets/community/4dbb0a8701d7457c892904f511f68838ce322b690b00e525e3924fa774597e5e.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/4dbb0a8701d7457c892904f511f68838ce322b690b00e525e3924fa774597e5e.png",
     "otherNightReminder": "7",
     "reminders": [
       "中毒",
@@ -76,7 +76,7 @@
   },
   {
     "id": "2_darkduel",
-    "image": "/scripts/assets/community/d6701a5e7fcfd6c171e41c1880898ccb8cf196cacc20846584df8c1326b73630.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/d6701a5e7fcfd6c171e41c1880898ccb8cf196cacc20846584df8c1326b73630.png",
     "firstNightReminder": "4",
     "otherNightReminder": "6",
     "reminders": [
@@ -93,7 +93,7 @@
   },
   {
     "id": "3_darkduel",
-    "image": "/scripts/assets/community/660236ec7f8a7573313efc9813907ed17709ec24b345d5aed56ce6b3840183fd.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/660236ec7f8a7573313efc9813907ed17709ec24b345d5aed56ce6b3840183fd.png",
     "otherNightReminder": "8",
     "reminders": [
       "死亡",
@@ -107,7 +107,7 @@
   },
   {
     "id": "4_darkduel",
-    "image": "/scripts/assets/community/cfbfa182d73bf836bb73a6e976713ec7f6f6f21ea0f5b1049fb971dd80bbe0c3.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/cfbfa182d73bf836bb73a6e976713ec7f6f6f21ea0f5b1049fb971dd80bbe0c3.png",
     "firstNightReminder": "6",
     "otherNightReminder": "4",
     "reminders": [
@@ -123,7 +123,7 @@
   },
   {
     "id": "5_darkduel",
-    "image": "/scripts/assets/community/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
     "otherNightReminder": "10",
     "reminders": [
       "获得恐吓爪",
@@ -138,7 +138,7 @@
   },
   {
     "id": "6_darkduel",
-    "image": "/scripts/assets/community/eafe57077aeb080667650b394feede6141b6ca5a1fb18d531afb72f2738a6b2e.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/eafe57077aeb080667650b394feede6141b6ca5a1fb18d531afb72f2738a6b2e.png",
     "otherNightReminder": "11",
     "reminders": [
       "是恶魔"
@@ -151,7 +151,7 @@
   },
   {
     "id": "7_darkduel",
-    "image": "/scripts/assets/community/36a71263c8290f9afbbd82ab224145cc724be06da756bc5d74dc1ad4142142c6.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/36a71263c8290f9afbbd82ab224145cc724be06da756bc5d74dc1ad4142142c6.png",
     "firstNightReminder": "7",
     "otherNightReminder": "5",
     "reminders": [
@@ -176,7 +176,7 @@
   },
   {
     "id": "8_darkduel",
-    "image": "/scripts/assets/community/2c6da0271a9af46289bf2ab62daa2ae793037a1e2c48141a10b3007736aa62ad.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/2c6da0271a9af46289bf2ab62daa2ae793037a1e2c48141a10b3007736aa62ad.png",
     "reminders": [
       "被更改",
       "失去能力"
@@ -188,7 +188,7 @@
   },
   {
     "id": "9_darkduel",
-    "image": "/scripts/assets/community/ab01626669af612fdd2f900568c92f913aa93851fb7b4df0eabac9124163ccf0.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/ab01626669af612fdd2f900568c92f913aa93851fb7b4df0eabac9124163ccf0.png",
     "otherNightReminder": "13",
     "reminders": [
       "醉酒"
@@ -201,7 +201,7 @@
   },
   {
     "id": "10_darkduel",
-    "image": "/scripts/assets/community/b7a44aca56ceb183fdbd5b992acd05d6c7a69d613008a64e1a21f1027b0f2acd.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/b7a44aca56ceb183fdbd5b992acd05d6c7a69d613008a64e1a21f1027b0f2acd.png",
     "firstNightReminder": "11",
     "otherNightReminder": "16",
     "reminders": [
@@ -216,7 +216,7 @@
   },
   {
     "id": "11_darkduel",
-    "image": "/scripts/assets/community/36e71044ed4e1b9497c5012bea808eb88e321cefed1d5cf5f1d2bd0cdb4a5990.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/36e71044ed4e1b9497c5012bea808eb88e321cefed1d5cf5f1d2bd0cdb4a5990.png",
     "remindersGlobal": [
       "是渊潜"
     ],
@@ -227,7 +227,7 @@
   },
   {
     "id": "12_darkduel",
-    "image": "/scripts/assets/community/e9acbace41ee41924951ef492b600ae3b19ea9b2c97231cd5f8fea082acf5667.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/e9acbace41ee41924951ef492b600ae3b19ea9b2c97231cd5f8fea082acf5667.png",
     "firstNightReminder": "8",
     "reminders": [
       "得知"
@@ -240,7 +240,7 @@
   },
   {
     "id": "13_darkduel",
-    "image": "/scripts/assets/community/72ac09d30f1bf42b6127af96edd88a2e12bf59083352961832b7a8adeffa759f.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/72ac09d30f1bf42b6127af96edd88a2e12bf59083352961832b7a8adeffa759f.png",
     "firstNightReminder": "9",
     "otherNightReminder": "14",
     "reminders": [
@@ -257,7 +257,7 @@
   },
   {
     "id": "14_darkduel",
-    "image": "/scripts/assets/community/2cc23e2bf2939c735fd12177abe9daa89ad0b565a8889b316c97fcfe9af383eb.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/2cc23e2bf2939c735fd12177abe9daa89ad0b565a8889b316c97fcfe9af383eb.png",
     "firstNightReminder": "10",
     "otherNightReminder": "15",
     "reminders": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "15_darkduel",
-    "image": "/scripts/assets/community/ffe9bc84e38c86952ffe8e4e11e9f8e4ec10326fc6bd4691a854c490ee56e7dc.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/ffe9bc84e38c86952ffe8e4e11e9f8e4ec10326fc6bd4691a854c490ee56e7dc.png",
     "firstNightReminder": "2",
     "otherNightReminder": "1",
     "reminders": [
@@ -289,7 +289,7 @@
   },
   {
     "id": "16_darkduel",
-    "image": "/scripts/assets/community/d95e446f2e46fe05ad593a3f2a6d4be3412b81dc94a04acc514a0020b2b29730.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/d95e446f2e46fe05ad593a3f2a6d4be3412b81dc94a04acc514a0020b2b29730.png",
     "firstNightReminder": "12",
     "otherNightReminder": "18",
     "reminders": [
@@ -304,7 +304,7 @@
   },
   {
     "id": "17_darkduel",
-    "image": "/scripts/assets/community/0ecf4a1780a3ff492b2ac41d2b6ebf44f0128d264e295af69384e9348058ed17.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/0ecf4a1780a3ff492b2ac41d2b6ebf44f0128d264e295af69384e9348058ed17.png",
     "firstNightReminder": "5",
     "otherNightReminder": "3",
     "reminders": [
@@ -320,7 +320,7 @@
   },
   {
     "id": "18_darkduel",
-    "image": "/scripts/assets/community/f3e50ec7c5b85e208710f6c5c9c7932634a64a7a4e45a04de719bfb2c5136598.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/f3e50ec7c5b85e208710f6c5c9c7932634a64a7a4e45a04de719bfb2c5136598.png",
     "firstNightReminder": "13",
     "otherNightReminder": "19",
     "name": "码语者",
@@ -332,7 +332,7 @@
   },
   {
     "id": "19_darkduel",
-    "image": "/scripts/assets/community/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
     "otherNightReminder": "12",
     "reminders": [
       "死亡",
@@ -346,7 +346,7 @@
   },
   {
     "id": "20_darkduel",
-    "image": "/scripts/assets/community/fd9dfe058f398af2d56b7ff7960253ebf3c390f201ef573d487bfef4b47040c3.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/fd9dfe058f398af2d56b7ff7960253ebf3c390f201ef573d487bfef4b47040c3.png",
     "firstNightReminder": "14",
     "otherNightReminder": "20",
     "reminders": [
@@ -362,7 +362,7 @@
   },
   {
     "id": "21_darkduel",
-    "image": "/scripts/assets/community/cc17d7bfc5b1a045d2f5642979712d740e7f1448c3a375058202ce90d68a8dc8.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/cc17d7bfc5b1a045d2f5642979712d740e7f1448c3a375058202ce90d68a8dc8.png",
     "firstNightReminder": "3",
     "otherNightReminder": "2",
     "reminders": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "22_darkduel",
-    "image": "/scripts/assets/community/fc549bae99801649dcbabafe2cd543a72fe077627a1d625e9c40d4e69881a2e0.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/fc549bae99801649dcbabafe2cd543a72fe077627a1d625e9c40d4e69881a2e0.png",
     "reminders": [
       "失去能力"
     ],
@@ -389,7 +389,7 @@
   },
   {
     "id": "23_darkduel",
-    "image": "/scripts/assets/community/1c1b1c455af3b31a627d4ae789784a30f42036ebc6c996823bb48be37485602d.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/1c1b1c455af3b31a627d4ae789784a30f42036ebc6c996823bb48be37485602d.png",
     "otherNightReminder": "17",
     "reminders": [
       "死亡",
@@ -404,7 +404,7 @@
   },
   {
     "id": "24_darkduel",
-    "image": "/scripts/assets/community/fee15daf0f58bb90c4e20b4c49688a87085df927e3a31742d65a6a469ae8cf35.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/fee15daf0f58bb90c4e20b4c49688a87085df927e3a31742d65a6a469ae8cf35.png",
     "otherNightReminder": "21",
     "reminders": [
       "失去能力"
@@ -417,7 +417,7 @@
   },
   {
     "id": "531239_meta",
-    "image": "/scripts/assets/community/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
     "name": "双穹&渊潜者",
     "team": "a jinxed",
     "setup": false,
@@ -426,7 +426,7 @@
   },
   {
     "id": "61230_meta",
-    "image": "/scripts/assets/community/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
     "name": "桃源乡&珠泪",
     "team": "a jinxed",
     "setup": false,
@@ -435,7 +435,7 @@
   },
   {
     "id": "wotui",
-    "image": "/scripts/assets/community/23f3bfd7c708c0b243ea6bec0410b7fdbad4e89d38516d0ed81474bde9b01b5c.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/23f3bfd7c708c0b243ea6bec0410b7fdbad4e89d38516d0ed81474bde9b01b5c.png",
     "edition": "custom",
     "name": "卧推爱好者",
     "ability": "提名处决阶段，每一次提名会导致说书人做一组卧推。",
@@ -448,7 +448,7 @@
   },
   {
     "id": "shendun",
-    "image": "/scripts/assets/community/d55fec5004a27dc7f0dfe3cb630a1844dc0a5dfd603cf14e1416e076cbf17f9c.png",
+    "image": "/scripts/assets/community-hei-an-jue-dou-cd356364/d55fec5004a27dc7f0dfe3cb630a1844dc0a5dfd603cf14e1416e076cbf17f9c.png",
     "edition": "custom",
     "name": "深蹲爱好者",
     "ability": "提名处决阶段，每一个投票会导致说书人做一个深蹲。",

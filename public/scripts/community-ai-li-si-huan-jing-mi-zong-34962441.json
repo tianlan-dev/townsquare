@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "爱丽丝幻境迷踪",
     "author": "Tom Routh",
-    "logo": "/scripts/assets/community/be684d519cfb5c2cbd62d1838f560f830e7860333b3d7bf47918847f62b0332f.png",
+    "logo": "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/be684d519cfb5c2cbd62d1838f560f830e7860333b3d7bf47918847f62b0332f.png",
     "firstNight": [
       "dusk",
       "minioninfo",
@@ -44,7 +44,7 @@
   },
   {
     "id": "_113",
-    "image": "/scripts/assets/community/184481eb62d9b37dd409b5af327bb58b4c48a9e1d65cc3bc89be548e5c846bb6.png",
+    "image": "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/184481eb62d9b37dd409b5af327bb58b4c48a9e1d65cc3bc89be548e5c846bb6.png",
     "name": "仙境漫游",
     "team": "fabled",
     "ability": "有[Wandering]的角色会在仙境中“漫游”。这些角色会将他们的“漫游”标记置于魔典中。",
@@ -53,7 +53,7 @@
   {
     "id": "wandering_wonderland",
     "image": [
-      "/scripts/assets/community/4cfc7cc617b0d41c7df708b22b0e2653d041818c478cbe8799b8434459a50fa0.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/4cfc7cc617b0d41c7df708b22b0e2653d041818c478cbe8799b8434459a50fa0.png"
     ],
     "otherNightReminder": "Move all *WANDERING* tokens. :reminder:",
     "firstNight": 1.5,
@@ -67,7 +67,7 @@
   {
     "id": "tweedles_wonderland",
     "image": [
-      "/scripts/assets/community/0471215ba85a3da751b6e5e004f29e833559c16ff31cd1683cc49de13bafac5c.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/0471215ba85a3da751b6e5e004f29e833559c16ff31cd1683cc49de13bafac5c.png"
     ],
     "firstNightReminder": "Point at the other Tweedle.",
     "firstNight": 30000,
@@ -87,7 +87,7 @@
   {
     "id": "cheshirecat_wonderland",
     "image": [
-      "/scripts/assets/community/6f637f3670d9b52ae5bd63fec1143662f453dc707a29315dc8719671cbc2dd11.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/6f637f3670d9b52ae5bd63fec1143662f453dc707a29315dc8719671cbc2dd11.png"
     ],
     "firstNightReminder": "Learns the roll of the player their *WANDERING* token is on. :reminder:",
     "otherNightReminder": "Learns the roll of the player their *WANDERING* token is on. :reminder:",
@@ -112,7 +112,7 @@
   {
     "id": "dormouse_wonderland",
     "image": [
-      "/scripts/assets/community/40f470bb1357403dce855761e80a65688e37514e001198d24279de60dd164213.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/40f470bb1357403dce855761e80a65688e37514e001198d24279de60dd164213.png"
     ],
     "otherNightReminder": "If the Dormouse did not nominate or vote today they choose a player they are drunk. :reminder:",
     "reminders": [
@@ -129,7 +129,7 @@
   {
     "id": "gryphon_wonderland",
     "image": [
-      "/scripts/assets/community/00133dcd2a67b77d55276898d062a7fac4924a50a36ff418c63d4fa4d0194199.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/00133dcd2a67b77d55276898d062a7fac4924a50a36ff418c63d4fa4d0194199.png"
     ],
     "otherNightReminder": "The Gryphon chooses a player. :reminder:",
     "reminders": [
@@ -145,7 +145,7 @@
   {
     "id": "madhatter_wonderland",
     "image": [
-      "/scripts/assets/community/14bb4e120e8781c3ad658f25e69c5608972b9c54f31c5d7bd56991293cc4426a.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/14bb4e120e8781c3ad658f25e69c5608972b9c54f31c5d7bd56991293cc4426a.png"
     ],
     "otherNightReminder": "The Mad Hatter chooses a player. :reminder:",
     "reminders": [
@@ -162,7 +162,7 @@
   {
     "id": "rose_wonderland",
     "image": [
-      "/scripts/assets/community/3c2d3e79bb319671ffcd9f49c652ae9311441f9724cd8f7ed0843045d0adc90c.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/3c2d3e79bb319671ffcd9f49c652ae9311441f9724cd8f7ed0843045d0adc90c.png"
     ],
     "name": "白玫瑰",
     "otherNight": 1200,
@@ -175,7 +175,7 @@
   {
     "id": "whiterabbit_wonderland",
     "image": [
-      "/scripts/assets/community/8909c2b0b0eea9da6f809fece4059a327de9da4430b327f78fc474c212486540.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/8909c2b0b0eea9da6f809fece4059a327de9da4430b327f78fc474c212486540.png"
     ],
     "otherNightReminder": "Ask if they want to use their ability, if the ability is used place the *NO ABILIY* reminder next to them, skip the rest of the night phase. :reminder:",
     "reminders": [
@@ -191,7 +191,7 @@
   {
     "id": "whitequeen_wonderland",
     "image": [
-      "/scripts/assets/community/502787a30501aef1cc214d59e2abf94f44d5112c4c8502df3976e8bc41bc9b3e.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/502787a30501aef1cc214d59e2abf94f44d5112c4c8502df3976e8bc41bc9b3e.png"
     ],
     "otherNightReminder": "Give a finger signal.",
     "reminders": [
@@ -212,7 +212,7 @@
   {
     "id": "dodo_wonderland",
     "image": [
-      "/scripts/assets/community/c80427efe3c91b0ef0b65585a409aa6cddd6acba6b868f941929d3cf8a3598c9.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/c80427efe3c91b0ef0b65585a409aa6cddd6acba6b868f941929d3cf8a3598c9.png"
     ],
     "reminders": [
       "失去能力"
@@ -226,7 +226,7 @@
   {
     "id": "alice_wonderland",
     "image": [
-      "/scripts/assets/community/c3bd6d420c6adf5b30277eaaea4f85fb1c798299f9b7d024d55721912edaa60d.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/c3bd6d420c6adf5b30277eaaea4f85fb1c798299f9b7d024d55721912edaa60d.png"
     ],
     "reminders": [
       "失去能力"
@@ -240,7 +240,7 @@
   {
     "id": "bayard_wonderland",
     "image": [
-      "/scripts/assets/community/8ff3e02b0ebb325227501bd46fcc0f116be1624e8a9f00cd19c22d5cc3eef376.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/8ff3e02b0ebb325227501bd46fcc0f116be1624e8a9f00cd19c22d5cc3eef376.png"
     ],
     "name": "拜亚德",
     "team": "townsfolk",
@@ -251,7 +251,7 @@
   {
     "id": "frogfootman_wonderland",
     "image": [
-      "/scripts/assets/community/7b0e16fd89d9a7730c3c813a9e8fa7dabb71358fc5b2a1f4452359fecd9e3dd2.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/7b0e16fd89d9a7730c3c813a9e8fa7dabb71358fc5b2a1f4452359fecd9e3dd2.png"
     ],
     "otherNightReminder": "If nominated learns the character of the player with the *NOMINATOR* token next to them. :reminder:",
     "reminders": [
@@ -268,7 +268,7 @@
   {
     "id": "kingofhearts_wonderland",
     "image": [
-      "/scripts/assets/community/675b1b813c110f61b248433e0350ae7238973573fa907ebda484fcb18aa6e1bc.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/675b1b813c110f61b248433e0350ae7238973573fa907ebda484fcb18aa6e1bc.png"
     ],
     "reminders": [
       "顺时针漫游",
@@ -283,7 +283,7 @@
   {
     "id": "mockturtle_wonderland",
     "image": [
-      "/scripts/assets/community/fd4aadb50e44d941144f4dae705d4d9cc84be0a0221976028fba7b4406e63ab5.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/fd4aadb50e44d941144f4dae705d4d9cc84be0a0221976028fba7b4406e63ab5.png"
     ],
     "firstNightReminder": "Learns a roll of the player their *WANDERING* token is on. :reminder:",
     "otherNightReminder": "Learns a roll of the player their *WANDERING* token is on. :reminder:",
@@ -315,7 +315,7 @@
   {
     "id": "caterpillar_wonderland",
     "image": [
-      "/scripts/assets/community/db47d154710dafdfef38de23060809f7b6b666936d608c7d70ee002a5a770020.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/db47d154710dafdfef38de23060809f7b6b666936d608c7d70ee002a5a770020.png"
     ],
     "firstNightReminder": "Place the *DRUNK* token on a living neighbour. :reminder:",
     "otherNightReminder": "Place the *DRUNK* token on a living neighbour different from the previous night. :reminder:",
@@ -333,7 +333,7 @@
   {
     "id": "marchhare_wonderland",
     "image": [
-      "/scripts/assets/community/48f37da1b2e7a34196a05f46c621e71a2ecec3e0411b9297bfd26a3a2068ff10.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/48f37da1b2e7a34196a05f46c621e71a2ecec3e0411b9297bfd26a3a2068ff10.png"
     ],
     "reminders": [
       "死于处决"
@@ -347,7 +347,7 @@
   {
     "id": "duchess_wonderland",
     "image": [
-      "/scripts/assets/community/5ca99ceb61d3d1907c901b98a2c6121d2f69d0a586cd6e98c287c13b3173b704.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/5ca99ceb61d3d1907c901b98a2c6121d2f69d0a586cd6e98c287c13b3173b704.png"
     ],
     "otherNightReminder": "Check for alignment. :reminder: :reminder:",
     "reminders": [
@@ -366,7 +366,7 @@
   {
     "id": "cook_wonderland",
     "image": [
-      "/scripts/assets/community/eb37f32edb937ccd4e0bd83c9e5c68a377531ef74e44cb123c98ccbeaa19faa9.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/eb37f32edb937ccd4e0bd83c9e5c68a377531ef74e44cb123c98ccbeaa19faa9.png"
     ],
     "reminders": [
       "Wandering Clock",
@@ -381,7 +381,7 @@
   {
     "id": "bandersnatch_wonderland",
     "image": [
-      "/scripts/assets/community/2e7b579822dc584c137dba9b6afcfc31ba025da8db7ba6a7f4886b8e1dde54bd.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/2e7b579822dc584c137dba9b6afcfc31ba025da8db7ba6a7f4886b8e1dde54bd.png"
     ],
     "firstNightReminder": "Learns the roll where their *KNOWN* token is. :reminder:",
     "reminders": [
@@ -398,7 +398,7 @@
   {
     "id": "jubjubbird_wonderland",
     "image": [
-      "/scripts/assets/community/b4e85090e0628be1e69839c7ea0a138b6de6a01cf5e6d2e49c6507aa9cda1262.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/b4e85090e0628be1e69839c7ea0a138b6de6a01cf5e6d2e49c6507aa9cda1262.png"
     ],
     "setup": true,
     "otherNightReminder": "If they voted today, wake them to select a player and place the *DOES NOT WAKE* reminder next to them. :reminder:",
@@ -416,7 +416,7 @@
   {
     "id": "cardguard_wonderland",
     "image": [
-      "/scripts/assets/community/be71f83d231f45228daa5de70b339354e389cb6371df0d354fb8159c104bfe8f.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/be71f83d231f45228daa5de70b339354e389cb6371df0d354fb8159c104bfe8f.png"
     ],
     "setup": true,
     "reminders": [
@@ -431,7 +431,7 @@
   {
     "id": "time_wonderland",
     "image": [
-      "/scripts/assets/community/44d81babe9d366463a938996366c47445522c5ac87fd9a90f8aabde6bb321050.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/44d81babe9d366463a938996366c47445522c5ac87fd9a90f8aabde6bb321050.png"
     ],
     "otherNightReminder": "Time chooses a player to die. :reminder: :reminder:",
     "reminders": [
@@ -449,7 +449,7 @@
   {
     "id": "queenofhearts_wonderland",
     "image": [
-      "/scripts/assets/community/ed70bf41e010f6ae3ec797e68de78a119b46001a38e5e2f17ec8f0d221e37a68.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/ed70bf41e010f6ae3ec797e68de78a119b46001a38e5e2f17ec8f0d221e37a68.png"
     ],
     "otherNightReminder": "The Queen of Hearts chooses a player to die. :reminder: :reminder: :reminder:",
     "reminders": [
@@ -467,7 +467,7 @@
   {
     "id": "knaveofhearts_wonderland",
     "image": [
-      "/scripts/assets/community/d3b11bf9542c0f4267229c9958358417fc4d30a54e5f1ed7019087f07b39ca0e.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/d3b11bf9542c0f4267229c9958358417fc4d30a54e5f1ed7019087f07b39ca0e.png"
     ],
     "setup": true,
     "otherNightReminder": "The Knave of Hearts chooses a player to die.:reminder: :reminder: :reminder:",
@@ -486,7 +486,7 @@
   {
     "id": "jabberwocky_wonderland",
     "image": [
-      "/scripts/assets/community/4f571dbdedaffe9e1f82ac5d735194e532f8d44d04e9903474727ef2e7302258.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/4f571dbdedaffe9e1f82ac5d735194e532f8d44d04e9903474727ef2e7302258.png"
     ],
     "otherNightReminder": "The Jabberwocky chooses a player to die. :reminder: :reminder: :reminder:",
     "reminders": [
@@ -504,7 +504,7 @@
   {
     "id": "humptydumpty_wonderland",
     "image": [
-      "/scripts/assets/community/8eeacee949fd97e190d3665096efc39fbd1663cfed07f1b243376c62ba72db0c.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/8eeacee949fd97e190d3665096efc39fbd1663cfed07f1b243376c62ba72db0c.png"
     ],
     "reminders": [
       "顺时针漫游",
@@ -519,7 +519,7 @@
   {
     "id": "walrus_wonderland",
     "image": [
-      "/scripts/assets/community/36f5bf7ab85bb57a7862f2fcbd15cad46f7fac00162020fda81fcacc8453fb2f.png"
+      "/scripts/assets/community-ai-li-si-huan-jing-mi-zong-34962441/36f5bf7ab85bb57a7862f2fcbd15cad46f7fac00162020fda81fcacc8453fb2f.png"
     ],
     "reminders": [
       "选择"

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "桃之夭夭",
     "author": "驯鹿",
-    "logo": "/scripts/assets/community/ee710fd4f96acc0d3cc694cc2a6bcebdc14231c203d38110d862bbb21db7a856.png",
+    "logo": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/ee710fd4f96acc0d3cc694cc2a6bcebdc14231c203d38110d862bbb21db7a856.png",
     "townsfolkName": "村民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -21,7 +21,7 @@
   },
   {
     "id": "dianxiaoer_button",
-    "image": "/scripts/assets/community/59123e5936fee174cf438e3008ab71f4c6472752e8f252224d6a459251a80c8a.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/59123e5936fee174cf438e3008ab71f4c6472752e8f252224d6a459251a80c8a.png",
     "edition": "custom",
     "name": "店小二",
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
@@ -40,7 +40,7 @@
   },
   {
     "id": "yinyangshi_button",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "qintianjian_button",
-    "image": "/scripts/assets/community/740c9d1ff70d870ea35bfdf5980c49e98c344a46b47fae8f366be8c84d8e4af1.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/740c9d1ff70d870ea35bfdf5980c49e98c344a46b47fae8f366be8c84d8e4af1.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -72,7 +72,7 @@
   },
   {
     "id": "e79c2f84-a6ac-4878-afa4-94543c36db4d",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "name": "厨师",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -88,7 +88,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他中毒并死亡。",
-    "image": "/scripts/assets/community/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhen_button",
@@ -108,7 +108,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
-    "image": "/scripts/assets/community/da776493de58db09d437973abaab14e38c386c50f696c1c980e24a4b6636e8f9.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/da776493de58db09d437973abaab14e38c386c50f696c1c980e24a4b6636e8f9.png",
     "edition": "custom",
     "flavor": "",
     "id": "geling_button",
@@ -128,7 +128,7 @@
   },
   {
     "id": "tixingguan_button",
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
     "edition": "custom",
     "name": "提刑官",
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
@@ -146,7 +146,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
-    "image": "/scripts/assets/community/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "xuncha_button",
@@ -164,7 +164,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "flavor": "",
     "id": "langzhong_button",
@@ -180,7 +180,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "edition": "custom",
     "flavor": "",
     "id": "fengshuishi_button",
@@ -198,7 +198,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
-    "image": "/scripts/assets/community/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/24423b8ceae7be2ada63cfcd02dfcce6ca8c67a8b7b9c6bb2837c9368b6fe77d.png",
     "edition": "custom",
     "flavor": "",
     "id": "zhifu_button",
@@ -215,7 +215,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_button",
@@ -232,7 +232,7 @@
   },
   {
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
-    "image": "/scripts/assets/community/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banxian_button",
@@ -248,7 +248,7 @@
   },
   {
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "flavor": "",
     "id": "mutant_button",
@@ -265,7 +265,7 @@
   },
   {
     "id": "b0550d17-3fdd-4e96-92f6-add3b9d3b8d7",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "name": "入殓师",
     "ability": "如果你提名了恶魔且他死于这次处决，你会变成那个邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "cbfdf8e7-799e-4296-9a51-f6c3df66f393",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -301,7 +301,7 @@
   },
   {
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "edition": "custom",
     "flavor": "",
     "id": "shaxing_button",
@@ -320,7 +320,7 @@
   },
   {
     "id": "38947a45-bea3-4f5d-b36c-7a38a05d7e41",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -339,7 +339,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widow_button",
@@ -359,7 +359,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
-    "image": "/scripts/assets/community/f1c82ca98dcd33ed32e1859118fb9dede70906aad1ea590b3ca861d1800db142.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/f1c82ca98dcd33ed32e1859118fb9dede70906aad1ea590b3ca861d1800db142.png",
     "edition": "custom",
     "flavor": "",
     "id": "huapi_button",
@@ -379,7 +379,7 @@
   },
   {
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
-    "image": "/scripts/assets/community/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
     "edition": "custom",
     "flavor": "",
     "id": "yangguren_button",
@@ -399,7 +399,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "edition": "custom",
     "flavor": "",
     "id": "qiongqi_button",
@@ -420,7 +420,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "taotie_button",
@@ -439,7 +439,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
-    "image": "/scripts/assets/community/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/4664ec5b24c853cb44d18dc687421c23d1f3e8534494cff9d766a43213cec423.png",
     "edition": "custom",
     "flavor": "",
     "id": "guhuoniao_button",
@@ -457,7 +457,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一至三名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
-    "image": "/scripts/assets/community/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/6465da91eeed06bae0088987d777b09a2803371b103c9954869aeafb2183501b.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianyuzhang_button",
@@ -476,7 +476,7 @@
   },
   {
     "ability": "养蛊人可以在夜晚选择自己是否醉酒，直到他下次选择。",
-    "image": "/scripts/assets/community/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
+    "image": "/scripts/assets/community-tao-zhi-yao-yao-dc1fbe92/487cf08d1d3fd3685e8621750a6dd0a853bfbd8313eb1ad8d1d48f6e03cb663a.png",
     "edition": "custom",
     "flavor": "",
     "id": "20723_8081",

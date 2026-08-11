@@ -62,7 +62,7 @@
   {
     "id": "qintianjian_hdsy",
     "name": "钦天监",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
@@ -110,7 +110,7 @@
   {
     "id": "tixingguan_hdsy",
     "name": "提刑官",
-    "image": "/scripts/assets/community/c4bb19ade84b1bff271c95d189bbebd415882a8a3bbc3a083daef48698912bf9.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/c4bb19ade84b1bff271c95d189bbebd415882a8a3bbc3a083daef48698912bf9.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
@@ -129,7 +129,7 @@
   {
     "id": "zhifu_hdsy",
     "name": "知府",
-    "image": "/scripts/assets/community/b8ca63d19e3997b01e9afcbce89a63febb36ff3eb645aeb06c70e415b3b972c4.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/b8ca63d19e3997b01e9afcbce89a63febb36ff3eb645aeb06c70e415b3b972c4.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
@@ -153,7 +153,7 @@
   {
     "id": "jiubao_hdsy",
     "name": "酒保",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "与你邻近的善良玩家之一醉酒（旅行者除外）即使你被处决。",
@@ -188,7 +188,7 @@
   {
     "id": "guhuoniao_hdsy",
     "name": "姑获鸟",
-    "image": "/scripts/assets/community/079dfd3420907d8870d406765ffb63c13e962d820f05009f6b6a6a83f7556eae.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/079dfd3420907d8870d406765ffb63c13e962d820f05009f6b6a6a83f7556eae.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当爪牙死于处决时，你可能会获得他的能力，但每局游戏仅能获得一次。",
@@ -222,7 +222,7 @@
   {
     "id": "hundun_hdsy",
     "name": "混沌",
-    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有除旅行者以外的善良玩家会中毒直到下个黄昏。",
@@ -285,7 +285,7 @@
   },
   {
     "id": "qigaigaigai111",
-    "image": "/scripts/assets/community/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
     "edition": "custom",
     "name": "乞丐",
     "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "jiaohuazioooooooo111",
-    "image": "/scripts/assets/community/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png",
+    "image": "/scripts/assets/community-nie-pan-chong-sheng-9746a3a9/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png",
     "edition": "custom",
     "name": "叫花子",
     "ability": "每个白天限一次，你可以公开选择一名其他玩家，让他选择一个非恶魔角色：你可能会获得这个角色的能力，直到下个黎明。",

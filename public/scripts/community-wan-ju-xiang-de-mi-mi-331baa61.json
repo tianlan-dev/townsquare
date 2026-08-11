@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "玩具箱的秘密",
     "author": "小烯&乐乐侠",
-    "logo": "/scripts/assets/community/339bd10bf08e8d191bd47b6581f0fd3c83859f31fb8747f043660880b4fc8530.png",
+    "logo": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/339bd10bf08e8d191bd47b6581f0fd3c83859f31fb8747f043660880b4fc8530.png",
     "almanac": "https://www.bloodstar.xyz/p/C2H43g/YS/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_ys",
-    "image": "/scripts/assets/community/d00d52b4fecc08c03a19a7b66d87cf0d2f5aecc6f27897b84ab09cc6f2cc69a8.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/d00d52b4fecc08c03a19a7b66d87cf0d2f5aecc6f27897b84ab09cc6f2cc69a8.png",
     "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -24,7 +24,7 @@
   },
   {
     "id": "1_ys",
-    "image": "/scripts/assets/community/a981b0571d1fc43c3449a1449cfc896307fbefa8cf9b8956d0d76c93a2a8b5ce.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/a981b0571d1fc43c3449a1449cfc896307fbefa8cf9b8956d0d76c93a2a8b5ce.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -39,7 +39,7 @@
   },
   {
     "id": "2_ys",
-    "image": "/scripts/assets/community/18472564bb974058fae657033ba3138e02592170f5a3607d7f515d91d07fadf3.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/18472564bb974058fae657033ba3138e02592170f5a3607d7f515d91d07fadf3.png",
     "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
     "reminders": [
       "得知"
@@ -52,7 +52,7 @@
   },
   {
     "id": "46_ys",
-    "image": "/scripts/assets/community/c8326369eb7c390d37de917937d33b7a1cf8ad738a1cc0484f920f1a56b1ce8a.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/c8326369eb7c390d37de917937d33b7a1cf8ad738a1cc0484f920f1a56b1ce8a.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -64,7 +64,7 @@
   },
   {
     "id": "4_ys",
-    "image": "/scripts/assets/community/c2a666f8f90a7b1fa818a423dfdd9b10037066e01449abe641ea2d5ac18a6a33.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/c2a666f8f90a7b1fa818a423dfdd9b10037066e01449abe641ea2d5ac18a6a33.png",
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "reminders": [
@@ -80,7 +80,7 @@
   },
   {
     "id": "5_ys",
-    "image": "/scripts/assets/community/403b51eca8965a36bab6c37adafb342114eaae4a55104e9dcd2acb7e2a300819.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/403b51eca8965a36bab6c37adafb342114eaae4a55104e9dcd2acb7e2a300819.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -95,7 +95,7 @@
   },
   {
     "id": "6_ys",
-    "image": "/scripts/assets/community/c309c4a7ef1a9055d64451b7b96a0b5b4840fe97d7dd5b7d90379131524d5bb0.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/c309c4a7ef1a9055d64451b7b96a0b5b4840fe97d7dd5b7d90379131524d5bb0.png",
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "name": "侍女",
@@ -107,7 +107,7 @@
   },
   {
     "id": "47_ys",
-    "image": "/scripts/assets/community/671da466896f8d536b7f19c22df120fbdf9d1458e00cd0247f6bd82a3e3d1563.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/671da466896f8d536b7f19c22df120fbdf9d1458e00cd0247f6bd82a3e3d1563.png",
     "otherNightReminder": "唤醒巡查，让其选择两个善良角色，如果这两个角色都在场，在对应玩家角色标记旁放置“不会死亡”标记。",
     "reminders": [
       "不会死亡"
@@ -120,7 +120,7 @@
   },
   {
     "id": "8_ys",
-    "image": "/scripts/assets/community/463f0b22ef6aa893bb7dc2fa4b270da7d7076a3ef7e119d97a0471a881df30bf.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/463f0b22ef6aa893bb7dc2fa4b270da7d7076a3ef7e119d97a0471a881df30bf.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -133,7 +133,7 @@
   },
   {
     "id": "9_ys",
-    "image": "/scripts/assets/community/a6efbe89d6f0ae90ca250af06e9b0e33ed3f03797d20ce7de3fc9dc9726d3629.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/a6efbe89d6f0ae90ca250af06e9b0e33ed3f03797d20ce7de3fc9dc9726d3629.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -143,7 +143,7 @@
   },
   {
     "id": "10_ys",
-    "image": "/scripts/assets/community/157b1928a64c87c7db424b7af29c3ca1e358d8885b5f658a0a173531f37982c5.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/157b1928a64c87c7db424b7af29c3ca1e358d8885b5f658a0a173531f37982c5.png",
     "otherNightReminder": "鸩可以选择一个镇民角色。如果他这么做了，且该角色在场，给该角色的玩家标记醉酒并死亡，随后标记鸩失去能力。",
     "reminders": [
       "失去能力",
@@ -157,7 +157,7 @@
   },
   {
     "id": "11_ys",
-    "image": "/scripts/assets/community/ce3facd4fdade2cd9508fbb0e1f2bcfdeb1e922a696d5c7063af987dcdfe0390.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/ce3facd4fdade2cd9508fbb0e1f2bcfdeb1e922a696d5c7063af987dcdfe0390.png",
     "reminders": [
       "失去能力"
     ],
@@ -168,7 +168,7 @@
   },
   {
     "id": "24_ys",
-    "image": "/scripts/assets/community/7f9dcdb7867e31e1b876c11363a9951a3e73b0860033508053686ac37e9e9bd4.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/7f9dcdb7867e31e1b876c11363a9951a3e73b0860033508053686ac37e9e9bd4.png",
     "otherNightReminder": "如果农民在夜晚死去，则选择另一位善良玩家成为农民。唤醒这名玩家，并告知他成为了农民。",
     "name": "农夫",
     "team": "townsfolk",
@@ -178,7 +178,7 @@
   },
   {
     "id": "12_ys",
-    "image": "/scripts/assets/community/888aa891b8809ba7a3918ebf2eb5b96f0c4a6b5a74ca4228576925127f9b30e8.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/888aa891b8809ba7a3918ebf2eb5b96f0c4a6b5a74ca4228576925127f9b30e8.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -190,7 +190,7 @@
   },
   {
     "id": "13_ys",
-    "image": "/scripts/assets/community/67e8ebbda0edefefe97c0acb3265553e8835f72efd0fba53e6896a6f7d8cb054.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/67e8ebbda0edefefe97c0acb3265553e8835f72efd0fba53e6896a6f7d8cb054.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -198,7 +198,7 @@
   },
   {
     "id": "42_ys",
-    "image": "/scripts/assets/community/c9c725b1b3dde43e9c96e79bce4d03d0c5f5b8bd247a8a6fe5b7f41675c63162.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/c9c725b1b3dde43e9c96e79bce4d03d0c5f5b8bd247a8a6fe5b7f41675c63162.png",
     "firstNightReminder": "111",
     "otherNightReminder": "111",
     "reminders": [
@@ -214,7 +214,7 @@
   },
   {
     "id": "48_ys",
-    "image": "/scripts/assets/community/ead4ddd2aa29cf127c355a5083c7d189a4568f68b87078b1004e212cd947df79.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/ead4ddd2aa29cf127c355a5083c7d189a4568f68b87078b1004e212cd947df79.png",
     "otherNightReminder": "当瘟疫医生死亡时，将一个不在场的爪牙角色标记放置在魔典左侧的正中位置，并用瘟疫医生的“说书人能力”标记标记该爪牙角色。如可能，在夜晚顺序表旁添加相应的夜晚标记用以提示。",
     "reminders": [
       "说书人能力"
@@ -227,7 +227,7 @@
   },
   {
     "id": "19_ys",
-    "image": "/scripts/assets/community/c1aba586b7809979d555b6a8c3ab8702b1d6e6de6ccd1999bdd2296cb9e707ae.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/c1aba586b7809979d555b6a8c3ab8702b1d6e6de6ccd1999bdd2296cb9e707ae.png",
     "remindersGlobal": [
       "是提线木偶"
     ],
@@ -238,7 +238,7 @@
   },
   {
     "id": "17_ys",
-    "image": "/scripts/assets/community/e0c96a380f4f537040679130ae646b0ebca3ba0f54922474468a2edff66694b4.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/e0c96a380f4f537040679130ae646b0ebca3ba0f54922474468a2edff66694b4.png",
     "firstNightReminder": "告诉灵言师他的秘密词语。",
     "otherNightReminder": "唤醒第一个说出灵言师词语的玩家并告知他已经变成邪恶阵营。",
     "reminders": [
@@ -254,7 +254,7 @@
   },
   {
     "id": "34_ys",
-    "image": "/scripts/assets/community/97a7f1f9ec8df54e65a812281fa77d4cd08c9aaa0de8b9fad7b469bd946ef40c.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/97a7f1f9ec8df54e65a812281fa77d4cd08c9aaa0de8b9fad7b469bd946ef40c.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "43_ys",
-    "image": "/scripts/assets/community/ecfcc3e3235e6e77c141f8d0cfb0330127b47e1926018a44cdf4f8d5dc59e3bc.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/ecfcc3e3235e6e77c141f8d0cfb0330127b47e1926018a44cdf4f8d5dc59e3bc.png",
     "otherNightReminder": "捣蛋小鬼可以选择发动能力，如果这样做那么当晚抽取道具的玩家改为捣蛋小鬼。随后标记失去能力。",
     "reminders": [
       "失去能力"
@@ -284,7 +284,7 @@
   },
   {
     "id": "23_ys",
-    "image": "/scripts/assets/community/af70fc4772e268c97460d64dacc1228e36cd2735e49b2b32d8cf4bc5be7ebd5e.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/af70fc4772e268c97460d64dacc1228e36cd2735e49b2b32d8cf4bc5be7ebd5e.png",
     "otherNightReminder": "让饕餮选择任意数量的非旅行者玩家或一名旅行者玩家，如果他们角色类型均不相同，那么标记他们死亡。",
     "reminders": [
       "死亡"
@@ -297,7 +297,7 @@
   },
   {
     "id": "39_ys",
-    "image": "/scripts/assets/community/11f7f3d228a21d383980cdc327622e4118ca4573497d2bfb19fe214f658645e5.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/11f7f3d228a21d383980cdc327622e4118ca4573497d2bfb19fe214f658645e5.png",
     "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -311,7 +311,7 @@
   },
   {
     "id": "21_ys",
-    "image": "/scripts/assets/community/bf4f7ee70e09f8f751a5b196802f933bb5768cfea357a26ba1f9ad7417a9c7d8.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/bf4f7ee70e09f8f751a5b196802f933bb5768cfea357a26ba1f9ad7417a9c7d8.png",
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "死亡"
@@ -324,7 +324,7 @@
   },
   {
     "id": "22_ys",
-    "image": "/scripts/assets/community/06b6b6b295540257f86b0f447f37b11a33a0aa8f4af4913fd4d732efba81e451.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/06b6b6b295540257f86b0f447f37b11a33a0aa8f4af4913fd4d732efba81e451.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -337,7 +337,7 @@
   },
   {
     "id": "41_ys",
-    "image": "/scripts/assets/community/bc9e6cef7a48ddacc18ea591c28b0ba34a40af7084b5a9f1908b5c5f16428b0c.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/bc9e6cef7a48ddacc18ea591c28b0ba34a40af7084b5a9f1908b5c5f16428b0c.png",
     "name": "伊甸的祝福",
     "team": "fabled",
     "ability": "胜方MVP的非旅行者玩家可以在下局游戏开始时从玩具箱抽取一个道具。",
@@ -345,7 +345,7 @@
   },
   {
     "id": "25_ys",
-    "image": "/scripts/assets/community/e0c6d0ef103cfe96e3270028e134aaf8853b205ac246d54d2ec03307e1a48611.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/e0c6d0ef103cfe96e3270028e134aaf8853b205ac246d54d2ec03307e1a48611.png",
     "name": "玩具箱",
     "team": "fabled",
     "ability": "死于处决的玩家可以在夜晚选择一名存活玩家:如果他没有道具且是善良/邪恶的非旅行者玩家，可以立刻从玩具箱中抽取/选择一个道具。",
@@ -353,7 +353,7 @@
   },
   {
     "id": "26_ys",
-    "image": "/scripts/assets/community/4d5c1de30994c9b107eee6eb0dfbe6b9841bcb29283631333e22a4e8c36e6c89.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/4d5c1de30994c9b107eee6eb0dfbe6b9841bcb29283631333e22a4e8c36e6c89.png",
     "otherNightReminder": "拥有六面骰的玩家可以选择发动能力，将他的角色标记替换为相同类型的角色标记，然后标记拥有六面骰的玩家已发动。",
     "reminders": [
       "拥有",
@@ -367,7 +367,7 @@
   },
   {
     "id": "27_ys",
-    "image": "/scripts/assets/community/b8c714d807e6738d57b6f1f1762512f4b1ced55aa6983349af623ef49a6cb7ed.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/b8c714d807e6738d57b6f1f1762512f4b1ced55aa6983349af623ef49a6cb7ed.png",
     "otherNightReminder": "让悬挂着达摩剑的玩家丢一次d6，如果结果≤当前天数，标记拥有达摩剑的玩家死亡。",
     "reminders": [
       "死亡",
@@ -381,7 +381,7 @@
   },
   {
     "id": "28_ys",
-    "image": "/scripts/assets/community/9f4673901e5aca971702086701b38b10381c088bb0fada2ac9d4a71f2e0a3c20.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/9f4673901e5aca971702086701b38b10381c088bb0fada2ac9d4a71f2e0a3c20.png",
     "reminders": [
       "已生效",
       "拥有"
@@ -393,7 +393,7 @@
   },
   {
     "id": "29_ys",
-    "image": "/scripts/assets/community/721a327e6b4ac16823a76212ea5754ae4378dd31b42818d9a4cc1b7ee1587664.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/721a327e6b4ac16823a76212ea5754ae4378dd31b42818d9a4cc1b7ee1587664.png",
     "reminders": [
       "已合成",
       "拥有",
@@ -406,7 +406,7 @@
   },
   {
     "id": "30_ys",
-    "image": "/scripts/assets/community/d34da6e475330b1615a035ce95b5b7cbcb4eff3ebe943c9b802c060481986fda.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/d34da6e475330b1615a035ce95b5b7cbcb4eff3ebe943c9b802c060481986fda.png",
     "otherNightReminder": "让拥有圣经的玩家可以选择一名非旅行者玩家。标记那名玩家保护。如果拥有圣经的玩家是善良的并且选中了恶魔，标记拥有圣经的玩家死亡。随后标记已发动。",
     "reminders": [
       "拥有",
@@ -422,7 +422,7 @@
   },
   {
     "id": "31_ys",
-    "image": "/scripts/assets/community/bb1f0f0377df79d2fb041e92acce65878bb8751c2930f10ebe949bdc47c12e57.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/bb1f0f0377df79d2fb041e92acce65878bb8751c2930f10ebe949bdc47c12e57.png",
     "otherNightReminder": "拥有减位骰的玩家可以选择一名非旅行者玩家，那名玩家的角色标记替换为角色能力表上一个顺位的角色标记，然后标记拥有减位骰的玩家已发动。",
     "reminders": [
       "拥有",
@@ -436,7 +436,7 @@
   },
   {
     "id": "33_ys",
-    "image": "/scripts/assets/community/db512ef63301f6905e98fac2f1725e05e5b59302f67014f7473c0debd029e132.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/db512ef63301f6905e98fac2f1725e05e5b59302f67014f7473c0debd029e132.png",
     "otherNightReminder": "拥有虚空的玩家可以选择一名非旅行者玩家，使那名玩家失去所有道具并标记吸收随后告知拥有虚空的玩家那些道具是什么，然后拥有虚空的玩家可以给拥有吸收的玩家标记死亡，最后标记拥有虚空的玩家已发动。",
     "reminders": [
       "拥有",
@@ -453,7 +453,7 @@
   },
   {
     "id": "40_ys",
-    "image": "/scripts/assets/community/48c35bef9300ad843faf628f95c5ac860d922b847b1c8a2950c9844615e3b63d.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/48c35bef9300ad843faf628f95c5ac860d922b847b1c8a2950c9844615e3b63d.png",
     "reminders": [
       "拥有"
     ],
@@ -470,7 +470,7 @@
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-wan-ju-xiang-de-mi-mi-331baa61/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom"
   },
   {

@@ -13,7 +13,7 @@
   },
   {
     "id": "_spire",
-    "image": "/scripts/assets/community/fd52f4ef732b39f2e3fdd36fdd03fe33b4e96acb0f5afe0a95a8328a0689e7b8.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/fd52f4ef732b39f2e3fdd36fdd03fe33b4e96acb0f5afe0a95a8328a0689e7b8.png",
     "firstNightReminder": "选择位置",
     "otherNightReminder": "移动",
     "reminders": [
@@ -30,7 +30,7 @@
   },
   {
     "id": "1_spire",
-    "image": "/scripts/assets/community/cf36164044fcdba347144849ce32b862b95e640c062a9c2999527424752da9cb.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/cf36164044fcdba347144849ce32b862b95e640c062a9c2999527424752da9cb.png",
     "name": "行动",
     "team": "fabled",
     "ability": "每名未堕落的存活玩家每个楼层限一次，你可以秘密地与说书人进行猜拳（平局则继续），如果你获胜，你可以选择未选择过的一项。1:得知本层有哪些玩家。2:选择一名玩家并得知他的阵营，如果他与你处于不同层，你得知错误信息。3:选择一个角色得知他是否在场，你和该角色之间有人被诅咒，你获得错误信息。",
@@ -38,7 +38,7 @@
   },
   {
     "id": "7_spire",
-    "image": "/scripts/assets/community/555086aafc1dec8c97e6e0a787cb60455f8fd07ae0e91a821e5d1526071b2eee.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/555086aafc1dec8c97e6e0a787cb60455f8fd07ae0e91a821e5d1526071b2eee.png",
     "name": "诅咒",
     "team": "fabled",
     "ability": "游戏初始设置中的外来者将被替换为被诅咒的镇民，每名镇名玩家最多受到一个诅咒。",
@@ -46,7 +46,7 @@
   },
   {
     "id": "3_spire",
-    "image": "/scripts/assets/community/e68353cf029f9e7a01a2c05639261d29dfc30d22b6ebc78b2f19d38c02f895a8.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/e68353cf029f9e7a01a2c05639261d29dfc30d22b6ebc78b2f19d38c02f895a8.png",
     "name": "私货商人",
     "team": "fabled",
     "ability": "邪恶玩家会互认且得知不在场身份。",
@@ -66,7 +66,7 @@
   },
   {
     "id": "4_spire",
-    "image": "/scripts/assets/community/cb70cb2627b1a88434908ee30c6541750c1b877735a6e5dfdf232d29a2252c0f.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/cb70cb2627b1a88434908ee30c6541750c1b877735a6e5dfdf232d29a2252c0f.png",
     "otherNightReminder": "得知",
     "name": "铁甲战士",
     "team": "townsfolk",
@@ -76,7 +76,7 @@
   },
   {
     "id": "5_spire",
-    "image": "/scripts/assets/community/c8a15a65a77f6197eb446e6386b4059f8420ea339519fc5ba2ebc7180c140e9a.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/c8a15a65a77f6197eb446e6386b4059f8420ea339519fc5ba2ebc7180c140e9a.png",
     "otherNightReminder": "得知",
     "name": "静默猎手",
     "team": "townsfolk",
@@ -86,7 +86,7 @@
   },
   {
     "id": "6_spire",
-    "image": "/scripts/assets/community/f00a8795ba0c1bf61dc871c7b8bece908ad55b8faf45b12d91dfc861c1671a02.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/f00a8795ba0c1bf61dc871c7b8bece908ad55b8faf45b12d91dfc861c1671a02.png",
     "otherNightReminder": "选择",
     "reminders": [
       "在启动了",
@@ -100,7 +100,7 @@
   },
   {
     "id": "8_spire",
-    "image": "/scripts/assets/community/b0fe71eac5d31eb7abdb48277c98d3def06d7ef86ef3271c41d3b8078c03abac.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/b0fe71eac5d31eb7abdb48277c98d3def06d7ef86ef3271c41d3b8078c03abac.png",
     "firstNightReminder": "选择一个状态",
     "otherNightReminder": "选择一个形态",
     "reminders": [
@@ -116,7 +116,7 @@
   },
   {
     "id": "9_spire",
-    "image": "/scripts/assets/community/e4227a051970572140ead6bb43f9453bc95e6102997421f0d16baeeb2f0c546a.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/e4227a051970572140ead6bb43f9453bc95e6102997421f0d16baeeb2f0c546a.png",
     "reminders": [
       "失去能力"
     ],
@@ -128,7 +128,7 @@
   },
   {
     "id": "10_spire",
-    "image": "/scripts/assets/community/4538c1a1747e589ddfabda396426f5a3db8c213edd3ccb9b42ae1a776a3da01c.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/4538c1a1747e589ddfabda396426f5a3db8c213edd3ccb9b42ae1a776a3da01c.png",
     "remindersGlobal": [
       "废物"
     ],
@@ -139,7 +139,7 @@
   },
   {
     "id": "11_spire",
-    "image": "/scripts/assets/community/c0cd5094942cc4174749097f81631d570348a537a519850a5b28074c8558f456.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/c0cd5094942cc4174749097f81631d570348a537a519850a5b28074c8558f456.png",
     "remindersGlobal": [
       "认知偏差",
       "中毒"
@@ -151,7 +151,7 @@
   },
   {
     "id": "17_spire",
-    "image": "/scripts/assets/community/01c08b376ebfdcfdb8e3abe43d7f0dd27c65c249e90ca3432c62261dbb1b2b3e.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/01c08b376ebfdcfdb8e3abe43d7f0dd27c65c249e90ca3432c62261dbb1b2b3e.png",
     "remindersGlobal": [
       "NO.4"
     ],
@@ -162,7 +162,7 @@
   },
   {
     "id": "13_spire",
-    "image": "/scripts/assets/community/769db865226558e2a1319284bef8dd9852b750479f1e48a32167fdde8a186483.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/769db865226558e2a1319284bef8dd9852b750479f1e48a32167fdde8a186483.png",
     "firstNightReminder": "选择楼层",
     "otherNightReminder": "查看尖塔",
     "reminders": [
@@ -179,7 +179,7 @@
   },
   {
     "id": "14_spire",
-    "image": "/scripts/assets/community/7b28291cce8d4eac2e359d454d065b3da51107a580cdeca5eda22808927cffa8.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/7b28291cce8d4eac2e359d454d065b3da51107a580cdeca5eda22808927cffa8.png",
     "firstNightReminder": "查看魔典",
     "setup": true,
     "name": "尖塔之矛",
@@ -190,7 +190,7 @@
   },
   {
     "id": "15_spire",
-    "image": "/scripts/assets/community/e07736382d10d8fb76d6a2d15082331099b49a1b6ef1584f9166c58c6ee44479.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/e07736382d10d8fb76d6a2d15082331099b49a1b6ef1584f9166c58c6ee44479.png",
     "otherNightReminder": "选择一个楼层",
     "reminders": [
       "堕落"
@@ -203,7 +203,7 @@
   },
   {
     "id": "16_spire",
-    "image": "/scripts/assets/community/9c539da1a48f28b9a97b2fb45ac80d00b425ef27e22d04bc7f5921876cfda5b2.png",
+    "image": "/scripts/assets/community-jian-ta-de-zu-zhou-81ae5e72/9c539da1a48f28b9a97b2fb45ac80d00b425ef27e22d04bc7f5921876cfda5b2.png",
     "otherNightReminder": "选择",
     "reminders": [
       "商品"

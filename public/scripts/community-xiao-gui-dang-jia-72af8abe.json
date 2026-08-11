@@ -13,7 +13,7 @@
   },
   {
     "id": "_xiaoguidangjia",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_xiaoguidangjia",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -41,7 +41,7 @@
   },
   {
     "id": "2_xiaoguidangjia",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "reminders": [
@@ -56,7 +56,7 @@
   },
   {
     "id": "3_xiaoguidangjia",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "reminders": [
       "恶魔未投票",
@@ -70,7 +70,7 @@
   },
   {
     "id": "4_xiaoguidangjia",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -84,7 +84,7 @@
   },
   {
     "id": "5_xiaoguidangjia",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -92,7 +92,7 @@
   },
   {
     "id": "6_xiaoguidangjia",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -106,7 +106,7 @@
   },
   {
     "id": "7_xiaoguidangjia",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -122,7 +122,7 @@
   },
   {
     "id": "8_xiaoguidangjia",
-    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
     "firstNightReminder": "如果罂粟种植者在场，跳过今晚的爪牙信息和恶魔信息环节。",
     "otherNightReminder": "如果罂粟种植者死于白天，插入执行爪牙信息和恶魔信息（不包含恶魔伪装）流程。如果罂粟种植者死于夜晚，则在当前玩家行动结束后立即执行相关流程。",
     "reminders": [
@@ -145,12 +145,12 @@
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名善良玩家。",
     "firstNight": 4200,
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "edition": "custom"
   },
   {
     "id": "10_xiaoguidangjia",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "firstNightReminder": "唤醒钦天监，对他指向对应方向来告知他最近的邪恶玩家的方向。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -160,7 +160,7 @@
   },
   {
     "id": "11_xiaoguidangjia",
-    "image": "/scripts/assets/community/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
     "firstNightReminder": "唤醒熊孩子，让他选择角色列表上的一个镇民角色，该角色会产生错误信息。",
     "otherNightReminder": "唤醒熊孩子，让他选择角色列表上的一个镇民角色，该角色会产生错误信息。",
     "reminders": [
@@ -175,7 +175,7 @@
   },
   {
     "id": "12_xiaoguidangjia",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "otherNightReminder": "在夜晚时，如果秉笔旁放置了“死于今日”提示标记，唤醒秉笔。对他指向一名善良玩家。让秉笔重新入睡。移除“死于今日”提示标记。如果秉笔在夜晚死亡，唤醒秉笔。对他指向一名邪恶玩家。让秉笔重新入睡。",
     "reminders": [
       "死于今日"
@@ -188,7 +188,7 @@
   },
   {
     "id": "13_xiaoguidangjia",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -200,7 +200,7 @@
   },
   {
     "id": "14_xiaoguidangjia",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -219,7 +219,7 @@
   },
   {
     "id": "15_xiaoguidangjia",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -227,7 +227,7 @@
   },
   {
     "id": "16_xiaoguidangjia",
-    "image": "/scripts/assets/community/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
     "firstNightReminder": "唤醒逆臣，让他选择一名除自己以外的玩家，那名玩家现在与他不共戴天。",
     "otherNightReminder": "如果逆臣或他的目标玩家，这两人之一死于处决，唤醒另一名玩家并通知他阵营变化。",
     "reminders": [
@@ -242,7 +242,7 @@
   },
   {
     "id": "17_xiaoguidangjia",
-    "image": "/scripts/assets/community/5db0e80d43b6b2d2e13b7ad6366ece045de10b34116dbabafa138a2d549a16f4.webp",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/5db0e80d43b6b2d2e13b7ad6366ece045de10b34116dbabafa138a2d549a16f4.webp",
     "name": "浊瘴",
     "team": "minion",
     "ability": "如果有邪恶玩家提名了存活的邪恶玩家，他们交换角色。 如果有善良玩家公开声称驱散浊瘴，你和镇民玩家中毒直到下个黄昏。",
@@ -250,7 +250,7 @@
   },
   {
     "id": "18_xiaoguidangjia",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -267,7 +267,7 @@
   },
   {
     "id": "19_xiaoguidangjia",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "reminders": [
@@ -282,7 +282,7 @@
   },
   {
     "id": "20_xiaoguidangjia",
-    "image": "/scripts/assets/community/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/1f1fe81cc4ae03587101e887b864eefd120afd748694550fffdca23d719a4461.png",
     "firstNightReminder": "唤醒召唤师，对他展示三个不在场的善良角色标记。",
     "otherNightReminder": "如果这是游戏中的第三个夜晚，唤醒召唤师，让他选择一名玩家和一个恶魔角色，那名玩家变成由他选择的邪恶恶魔。",
     "reminders": [
@@ -300,7 +300,7 @@
   },
   {
     "id": "21_xiaoguidangjia",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "firstNightReminder": "唤醒酿酒师，让其选择一个善良角色并给出一个符合该角色信息格式的信息，当晚他通过自身能力获取信息时，改为得知酿酒师给出的信息。",
     "otherNightReminder": "唤醒酿酒师，让其选择一个善良角色并给出一个符合该角色信息格式的信息，当晚他通过自身能力获取信息时，改为得知酿酒师给出的信息。",
     "reminders": [
@@ -315,7 +315,7 @@
   },
   {
     "id": "22_xiaoguidangjia",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -329,7 +329,7 @@
   },
   {
     "id": "23_xiaoguidangjia",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "firstNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。",
     "otherNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。随后，决定今晚谁会因为小怪宝能力死亡。",
     "remindersGlobal": [
@@ -346,7 +346,7 @@
   },
   {
     "id": "24_xiaoguidangjia",
-    "image": "/scripts/assets/community/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
     "otherNightReminder": "唤醒姑获鸟，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -363,12 +363,12 @@
     "name": "斯派德米",
     "team": "fabled",
     "ability": "当有玩家“疯狂”证明错误的角色运作或游戏规则时，说书人可能会公开解释正确的。",
-    "image": "/scripts/assets/community/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
     "edition": "custom"
   },
   {
     "id": "26_xiaoguidangjia",
-    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
@@ -376,7 +376,7 @@
   },
   {
     "id": "27_xiaoguidangjia",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "呐~呐~杂鱼杂鱼~",
     "team": "fabled",
     "ability": "“熊孩子”的能力不会受到中毒/醉酒影响。",
@@ -408,7 +408,7 @@
     "name": "小怪宝&罂粟种植者",
     "team": "a jinxed",
     "ability": "如果罂粟种植者在场，爪牙们不会同时醒来选择照看小怪宝。他们会依次单独被唤醒，直到其中一人选择照看小怪宝。",
-    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "image": "/scripts/assets/community-xiao-gui-dang-jia-72af8abe/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
     "edition": "custom"
   }
 ]

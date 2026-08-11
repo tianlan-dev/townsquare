@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "踏月赴卿约",
     "author": "弦舞",
-    "logo": "/scripts/assets/community/4938ca82e29e3e3b2fd9fc3e5b886380ddfec47e7d0869a30523b035e3bbd5ae.png",
+    "logo": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/4938ca82e29e3e3b2fd9fc3e5b886380ddfec47e7d0869a30523b035e3bbd5ae.png",
     "almanac": "https://klutzbanana.com/scripts/dfkkcqlu0w/%E8%B8%8F%E6%9C%88%E8%B5%B4%E5%8D%BF%E7%BA%A6%20by%20%E5%BC%A6%E8%88%9E",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -30,7 +30,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -47,7 +47,7 @@
   },
   {
     "id": "pegasus_the_malicious_manuscript",
-    "image": "/scripts/assets/community/b17db3f5b67a01088715eec05a1d98e0453e19ca927e54cae05f149584911f85.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/b17db3f5b67a01088715eec05a1d98e0453e19ca927e54cae05f149584911f85.png",
     "firstNightReminder": "The Pegasus learns the player they are protecting.",
     "reminders": [
       "骑乘"
@@ -61,7 +61,7 @@
   },
   {
     "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
-    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
     "edition": "custom",
     "flavor": "",
     "id": "20236_38",
@@ -80,7 +80,7 @@
   },
   {
     "id": "7_EquinoxFlower",
-    "image": "/scripts/assets/community/117db1e2a796d546438b394c900efa8c670aa1467fc7446719b5f2f876dddac5.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/117db1e2a796d546438b394c900efa8c670aa1467fc7446719b5f2f876dddac5.png",
     "name": "牧师",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们均不属于哪种角色类型。",
@@ -95,7 +95,7 @@
   },
   {
     "id": "ainiii11111",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -111,7 +111,7 @@
   {
     "id": "freyjaragnarok09",
     "name": "芙蕾雅",
-    "image": "/scripts/assets/community/c222dcf58bce07c159e7bb095f11a16555f1b21c2863498033c89b3b6ef8031a.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/c222dcf58bce07c159e7bb095f11a16555f1b21c2863498033c89b3b6ef8031a.png",
     "ability": "每个夜晚，你会得知一个不在场的角色。",
     "team": "townsfolk",
     "sch_team": "镇民",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家。如果你选中了爪牙，落难少女会得知你选择的哪名玩家是爪牙。[+落难少女]",
-    "image": "/scripts/assets/community/6330fabb74f4ba5421d1f4a4660a647a0409e47d589609bee37d132abd46ce85.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/6330fabb74f4ba5421d1f4a4660a647a0409e47d589609bee37d132abd46ce85.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_ccb",
@@ -144,7 +144,7 @@
   },
   {
     "id": "statesman_revolution_of_a_lifetime",
-    "image": "/scripts/assets/community/ac505a68d36f33a55a5551937afadf7875e339fc890c51672193448733cbb83e.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/ac505a68d36f33a55a5551937afadf7875e339fc890c51672193448733cbb83e.png",
     "otherNightReminder": "1",
     "reminders": [
       "被提名 ",
@@ -159,7 +159,7 @@
   },
   {
     "id": "xunchashaoihwronaklsndfkasnd",
-    "image": "/scripts/assets/community/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png",
     "edition": "custom",
     "name": "巡察",
     "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
@@ -176,7 +176,7 @@
   },
   {
     "id": "gongzhu123321",
-    "image": "/scripts/assets/community/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
     "edition": "custom",
     "name": "公主",
     "ability": "在你的首个白天，如果你提名并处决了一名玩家，当晚恶魔不会造成死亡。",
@@ -192,7 +192,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/6c019cbe471c9cdbbd786c66d588a7ff2d8e81ab76d5b17a68908674cc52ed5e.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/6c019cbe471c9cdbbd786c66d588a7ff2d8e81ab76d5b17a68908674cc52ed5e.png",
     "edition": "custom",
     "name": "见证人",
     "ability": "每局游戏限一次，在夜晚时*，你可以得知有多少名邪恶玩家在白天时曾拜访过说书人。",
@@ -209,7 +209,7 @@
   },
   {
     "id": "terpsichorean ",
-    "image": "/scripts/assets/community/f3133d2a4e630285ce7f28492f948d496e10698645993d2058aefb1e7be8358e.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/f3133d2a4e630285ce7f28492f948d496e10698645993d2058aefb1e7be8358e.png",
     "otherNightReminder": "在夜晚时，询问月光舞者是否发动能力，如果月光舞者选择发动能力并选择了三名玩家，在其角色标记旁放置“月下舞刃”提示标记，在月光舞者的角色标记旁放置“失去能力”提示标记。如果他们阵营不同，在舞者和阵营唯一的非恶魔玩家角色标记旁放置“死亡”提示标记。",
     "reminders": [
       "月下舞刃",
@@ -236,7 +236,7 @@
       "死亡"
     ],
     "image": [
-      "/scripts/assets/community/f8ac83e4749e8c275b318089cfc62a1389580255507a80fddc0bf55e44b749fc.png"
+      "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/f8ac83e4749e8c275b318089cfc62a1389580255507a80fddc0bf55e44b749fc.png"
     ],
     "edition": "custom"
   },
@@ -252,7 +252,7 @@
       "得知"
     ],
     "image": [
-      "/scripts/assets/community/4d5f4558416de3d1c8c2ef275b28cfc28c6a1c0755c7e8bb3c20e6ca842e6a49.png"
+      "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/4d5f4558416de3d1c8c2ef275b28cfc28c6a1c0755c7e8bb3c20e6ca842e6a49.png"
     ],
     "setup": true,
     "edition": "custom"
@@ -269,7 +269,7 @@
       "舔狗替死"
     ],
     "image": [
-      "/scripts/assets/community/24b456001f7503adeee30bce18375b6a8df9c6286e039e74c99a22a542999701.png"
+      "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/24b456001f7503adeee30bce18375b6a8df9c6286e039e74c99a22a542999701.png"
     ],
     "setup": false,
     "jinxes": [
@@ -282,7 +282,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -299,7 +299,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -315,7 +315,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -332,7 +332,7 @@
   },
   {
     "id": "MistCendrillon",
-    "image": "/scripts/assets/community/ccef83805836ad8abe8e52ae96f421199b2b4b6166a48d3795f50ee22ef46726.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/ccef83805836ad8abe8e52ae96f421199b2b4b6166a48d3795f50ee22ef46726.png",
     "edition": "custom",
     "name": "灰姑娘",
     "ability": "在你的首个夜晚，你会得知5个在场角色。每个夜晚*，你要选择一名玩家并猜测他的角色，如果你首次猜测正确，他死亡。",
@@ -362,13 +362,13 @@
       "双生"
     ],
     "image": [
-      "/scripts/assets/community/257ae418c66fd0bb82d96937b1894bc02ce8e33f62b3e776924985c515127a3c.webp"
+      "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/257ae418c66fd0bb82d96937b1894bc02ce8e33f62b3e776924985c515127a3c.webp"
     ],
     "setup": false
   },
   {
     "id": "bplfdm",
-    "image": "/scripts/assets/community/cddc05906b22c72e368ceef2eae39bc1951e8f94cc417b1a6f8b1667dda27663.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/cddc05906b22c72e368ceef2eae39bc1951e8f94cc417b1a6f8b1667dda27663.png",
     "firstNightReminder": "",
     "remindersGlobal": [
       "翻转对错"
@@ -382,7 +382,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果被你杀死的玩家均与你某个特征不同，他们转变为邪恶并不再能在这局游戏中投票。所有人都知道这个特征是什么。",
-    "image": "/scripts/assets/community/2e29acb593d322ce2f52ce3c07685407ba2ed6bf8b163d652597c331792dc1d4.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/2e29acb593d322ce2f52ce3c07685407ba2ed6bf8b163d652597c331792dc1d4.png",
     "edition": "custom",
     "flavor": "",
     "id": "lilisi",
@@ -402,7 +402,7 @@
   },
   {
     "id": "woliuliuliu111",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -419,7 +419,7 @@
   },
   {
     "id": "271b81b5-da94-4b65-acb8-352f0819de2b",
-    "image": "/scripts/assets/community/60361fd5996785f658bbf240b1fcbb6c36b35e76b6c684318eda41819b722f22.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/60361fd5996785f658bbf240b1fcbb6c36b35e76b6c684318eda41819b722f22.png",
     "edition": "custom",
     "name": "诡美人",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你死于处决，如果你与存活外来者之间没有存活善良玩家（最后一天除外），他会变成邪恶的诡美人，但每局游戏仅能成功转化一次。[+1 外来者]",
@@ -439,7 +439,7 @@
   {
     "id": "needlestick_the_arcanum",
     "name": "针刺蔷薇",
-    "image": "/scripts/assets/community/af0bd9d7b2129d7f78d2d7a6118b4c6ce0d023b43b1efdc076442a99b80d3d49.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/af0bd9d7b2129d7f78d2d7a6118b4c6ce0d023b43b1efdc076442a99b80d3d49.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。始终会有一名玩家中毒且你知道是谁。如果他被善良玩家提名或他提名了善良玩家，改为提名了他或被他提名的那名玩家中毒。",
@@ -460,14 +460,14 @@
     "name": "白马王子の邀约",
     "team": "fabled",
     "ability": "游戏初始设置邪恶玩家的总数最多能比初始设置多一名。每个白天限一次，一名存活玩家可以公开邀请另一名存活玩家一同拜访说书人(与之前不同)，说书人会给他们一个需共同完成的任务：直到当天黄昏，如果两名玩家阵营相同且完成了该任务，当晚他们中的其中一名玩家会获得一条正确信息；如果两名玩家阵营不同且完成了该任务，当晚他们中的善良玩家会获得一条错误信息；如果该任务没有完成，则不会获得任何信息。",
-    "image": "/scripts/assets/community/a60a5221be8f8630a0b3f265e87366ea134580d0c1a2f4edbef7b7348674004f.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/a60a5221be8f8630a0b3f265e87366ea134580d0c1a2f4edbef7b7348674004f.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "id": "112222222299999222222222222222333_meta",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ta-yue-fu-qing-yue-36f67cfd/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "name": "大小姐&骏马使者",
     "team": "a jinxed",
     "setup": false,

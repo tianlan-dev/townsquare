@@ -13,7 +13,7 @@
   },
   {
     "id": "_guebujun",
-    "image": "/scripts/assets/community/8b0e71c06e8ea8ef0ede0ba578fb29938c3f6157e7d7d333fd1d6a9a0216f240.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/8b0e71c06e8ea8ef0ede0ba578fb29938c3f6157e7d7d333fd1d6a9a0216f240.png",
     "reminders": [
       "目标"
     ],
@@ -33,7 +33,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "唤醒阴阳师，并对其展示两个善良角色，两个邪恶角色，共四个角色标记。其中正好只有两个角色在场。",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "imageAlt": "yinyangshi"
   },
@@ -50,7 +50,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "唤醒骑士，然后指向标记了“得知”的两名玩家。",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "imageAlt": "knight"
   },
@@ -65,7 +65,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "imageAlt": "qintianjian"
   },
@@ -83,7 +83,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "如果提刑官在白天进行了整局游戏中他的首次提名，唤醒他并对他展示他提名的玩家的角色标记。",
-    "image": "/scripts/assets/community/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png",
     "edition": "custom",
     "imageAlt": "tixingguan"
   },
@@ -97,7 +97,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "imageAlt": "savant"
   },
@@ -115,7 +115,7 @@
     "setup": true,
     "firstNightReminder": "唤醒气球驾驶员，指向一名玩家，在其角色标记旁放置“得知”提示标记。",
     "otherNightReminder": "唤醒气球驾驶员，指向一名与放置“得知”角色标记玩家角色类型不同的玩家，在其角色标记旁放置“得知”提示标记。移除上一晚放置的“得知”角色标记。",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "imageAlt": "balloonist"
   },
@@ -133,7 +133,7 @@
     "setup": false,
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "imageAlt": "fortuneteller"
   },
@@ -151,7 +151,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "imageAlt": "towncrier"
   },
@@ -168,7 +168,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "如果有玩家今天白天死于处决，唤醒送葬者并对他展示那名玩家的角色标记。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "imageAlt": "undertaker"
   },
@@ -185,7 +185,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "唤醒狸猫，让他指向一名玩家。让狸猫重新入睡。将“太子”标记放在对应玩家角色标记旁。\n如果被狸猫选择的玩家是善良角色，将“太子”提示标记放置到该玩家的角色标记旁。否则不放置“太子”标记。\n当被放置着“太子”提示标记的玩家死于邪恶角色能力时，旧的狸猫变为“太子”的角色，“太子”的角色变为狸猫。在魔典中交换狸猫和“太子”的角色标记。唤醒旧的狸猫并依次向他展示“你是”信息标记、旧的“太子”的角色标记。让他重新入睡。唤醒旧的“太子”并依次向他展示“你是”信息标记、狸猫的角色标记。让狸猫重新入睡。",
-    "image": "/scripts/assets/community/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
     "edition": "custom",
     "imageAlt": "limao"
   },
@@ -204,7 +204,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "唤醒鸩，让其选择一个镇民角色，如果该角色在场，在其角色标记旁放置“死亡”和“醉酒”提示标记",
-    "image": "/scripts/assets/community/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/a54042981ab43e9751bf9921ed37fb130cb83cd1683c74b3f907941c34244eb4.png",
     "edition": "custom",
     "imageAlt": "zhen"
   },
@@ -220,7 +220,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "edition": "custom",
     "imageAlt": "banshee"
   },
@@ -237,7 +237,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "同时唤醒所有除了旅行者以外的善良玩家，让他们互认。如有必要，可以向他们展示“该角色的能力对你生效”信息标记并展示戏子（改）角色标记。然后让他们重新入睡。",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom"
   },
   {
@@ -252,7 +252,7 @@
       "是酒鬼"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "imageAlt": "drunk"
   },
@@ -269,7 +269,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "当瘟疫医生死亡时，将一个不在场的爪牙角色标记放置在魔典左侧的正中位置，并用瘟疫医生的“说书人能力”标记标记该爪牙角色。如可能，在夜晚顺序表旁添加相应的夜晚标记用以提示。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "imageAlt": "plaguedoctor"
   },
@@ -286,7 +286,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "如果心上人死亡，会有一名玩家立刻醉酒。如果你还没有让这件事情发生，那么现在为任意一位玩家放置醉酒标记。",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "imageAlt": "sweetheart"
   },
@@ -302,7 +302,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "imageAlt": "golem"
   },
@@ -323,7 +323,7 @@
     "setup": true,
     "firstNightReminder": "如果初始外来者的数量等于1，则标记大限将至。",
     "otherNightReminder": "如果初始外来者的数量等于当前游戏的夜晚数，则标记大限将至。",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "imageAlt": "xaan"
   },
@@ -342,7 +342,7 @@
     "setup": false,
     "firstNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
     "otherNightReminder": "唤醒鹰身女妖并让他依次指向两名玩家。标记第一名玩家“疯狂”，标记第二名玩家“第二名”。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "imageAlt": "harpy"
   },
@@ -357,7 +357,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。 ",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "imageAlt": "boffin"
   },
@@ -374,7 +374,7 @@
     ],
     "setup": false,
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "imageAlt": "scarletwoman"
   },
@@ -391,7 +391,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "imageAlt": "imp"
   },
@@ -409,7 +409,7 @@
     "setup": true,
     "firstNightReminder": "将位于堤丰之首两侧的对应数量的玩家变成邪恶的爪牙，并分别唤醒他们通知他们的角色和阵营变化。",
     "otherNightReminder": "在除首个夜晚以外的每个夜晚，唤醒堤丰之首。让他指向任意一名玩家。那名玩家死亡——用“死亡”提示标记标记那名玩家。让堤丰之首重新入睡。",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "edition": "custom",
     "imageAlt": "lordoftyphon"
   },
@@ -427,7 +427,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "imageAlt": "nodashii"
   },
@@ -445,7 +445,7 @@
     "remindersGlobal": [],
     "setup": true,
     "otherNightReminder": "每个白天，如果有外来者死亡，将穷奇的“死于今日”提示标记放置到该玩家的角色标记旁。\n除了首个夜晚外的每个夜晚，唤醒穷奇，并让他指向任意一名玩家。让穷奇重新入睡。\n如果穷奇的“死于今日”提示标记未被放置，那么穷奇选择的玩家死亡，在他角色标记旁放置“死亡”提示标记。\n如果穷奇的“死于今日”提示标记已被放置，且穷奇选择的玩家当前处于存活状态，并能够成功被穷奇杀死，那么穷奇选择的玩家进入“活尸”状态。在魔典中该玩家的角色标记上添加帷幕标记，但不要在黎明时宣布该玩家已经死亡，也不要在城镇广场上将该玩家的生命标记翻面。随后，再在任意一名玩家的角色标记旁放置“死亡”提示标记。\n在黎明时，移除“死于今日”提示标记，并宣布当晚放置了穷奇的“死亡”提示标记的玩家死亡。",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "edition": "custom",
     "imageAlt": "qiongqi"
   },
@@ -459,7 +459,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/f7aeffdbb6287ed10caa95f9af9b70ef80d78adcb6b6f83283986505a36cea75.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/f7aeffdbb6287ed10caa95f9af9b70ef80d78adcb6b6f83283986505a36cea75.png",
     "edition": "custom"
   },
   {
@@ -474,7 +474,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/4321873edd122101ed46a2e95931f881bb80a96116070ed752bb781f2cfbce49.png",
+    "image": "/scripts/assets/community-ni-shi-hao-ren-ma-017b9510/4321873edd122101ed46a2e95931f881bb80a96116070ed752bb781f2cfbce49.png",
     "edition": "custom",
     "imageAlt": "fibbin"
   }

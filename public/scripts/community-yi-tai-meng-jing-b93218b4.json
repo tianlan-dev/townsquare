@@ -13,7 +13,7 @@
   },
   {
     "id": "12_yitai",
-    "image": "/scripts/assets/community/f7ed786714f35589c154013752ea72f746838db25fbe0f4b6f8abf8a4ebb6202.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/f7ed786714f35589c154013752ea72f746838db25fbe0f4b6f8abf8a4ebb6202.png",
     "remindersGlobal": [
       "线索"
     ],
@@ -24,7 +24,7 @@
   },
   {
     "id": "_yitai",
-    "image": "/scripts/assets/community/f1cecc22ad404a619493bd0ec0945ace0f381e5405c086df4df3ef963a65507d.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/f1cecc22ad404a619493bd0ec0945ace0f381e5405c086df4df3ef963a65507d.png",
     "reminders": [
       "失去能力"
     ],
@@ -35,7 +35,7 @@
   },
   {
     "id": "17_yitai",
-    "image": "/scripts/assets/community/9b2edd7b19383f448f17ef343c0dcc7cd877c0c0cc5748424f215a649f216ce2.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/9b2edd7b19383f448f17ef343c0dcc7cd877c0c0cc5748424f215a649f216ce2.png",
     "firstNightReminder": "得知外来者或爪牙",
     "otherNightReminder": "若死亡得知外来者或爪牙",
     "reminders": [
@@ -51,7 +51,7 @@
   },
   {
     "id": "18_yitai",
-    "image": "/scripts/assets/community/d4add951750078b65998897d0635727c7a27a3754351d975cbc13aa2fb11275c.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/d4add951750078b65998897d0635727c7a27a3754351d975cbc13aa2fb11275c.png",
     "firstNightReminder": "得知一个在场角色，并在该玩家角色旁放置“得知”标记",
     "otherNightReminder": "若白天她猜对，得知另一个在场角色，并在该玩家角色旁放置“得知”标记",
     "reminders": [
@@ -66,7 +66,7 @@
   },
   {
     "id": "1_yitai",
-    "image": "/scripts/assets/community/e099e493e723bd68ee002ccf3cf71ee1b2128ef53a1750576303add9fe87c1b1.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/e099e493e723bd68ee002ccf3cf71ee1b2128ef53a1750576303add9fe87c1b1.png",
     "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "name": "牧师",
@@ -78,7 +78,7 @@
   },
   {
     "id": "24_yitai",
-    "image": "/scripts/assets/community/94bc22286945f4946ad137e53740987d6b8f5084c9d0e4ff2d95c9ad177bbaf5.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/94bc22286945f4946ad137e53740987d6b8f5084c9d0e4ff2d95c9ad177bbaf5.png",
     "otherNightReminder": "每个夜晚*，你要选择一名不与你邻座的存活玩家：你会得知你与他顺时针方向上之间有多少名邪恶玩家。 如果你选择了邪恶玩家，你会获得错误的信息。",
     "name": "提夫林",
     "team": "townsfolk",
@@ -88,7 +88,7 @@
   },
   {
     "id": "28_yitai",
-    "image": "/scripts/assets/community/8111b08d0bac99a45cbfe60de071131a3b802163408ad9b8f8dae18ca012ab2d.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/8111b08d0bac99a45cbfe60de071131a3b802163408ad9b8f8dae18ca012ab2d.png",
     "otherNightReminder": " ",
     "reminders": [
       "死亡",
@@ -102,7 +102,7 @@
   },
   {
     "id": "19_yitai",
-    "image": "/scripts/assets/community/78b5181b0bb31d089062653e4e0f9e90be682b82da39b9c62cf27b89ed7f4227.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/78b5181b0bb31d089062653e4e0f9e90be682b82da39b9c62cf27b89ed7f4227.png",
     "otherNightReminder": "唤醒并询问公爵是否发动能力",
     "reminders": [
       "死亡",
@@ -119,7 +119,7 @@
   },
   {
     "id": "21_yitai",
-    "image": "/scripts/assets/community/07f4d45495a049f74de01c781b76cbaafccfd0f0bd20b460b20e835173c76d39.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/07f4d45495a049f74de01c781b76cbaafccfd0f0bd20b460b20e835173c76d39.png",
     "otherNightReminder": "如果有玩家因为疗养师的能力避免了死亡（即：他避免了本应发生的死亡，且没有受到其他角色的保护）：在他的旁边放置护理标志，如果有玩家有护理标志，告知疗养师是，否则告知否",
     "reminders": [
       "醉酒",
@@ -133,7 +133,7 @@
   },
   {
     "id": "3_yitai",
-    "image": "/scripts/assets/community/529bb53320ec88ae5a2a16f11fa5cb7cef762022c6a726591bf43e85ba4d648f.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/529bb53320ec88ae5a2a16f11fa5cb7cef762022c6a726591bf43e85ba4d648f.png",
     "otherNightReminder": "如果他在白天公开宣读了，唤醒他并告知他“是”或“否”。",
     "reminders": [
       "真新闻",
@@ -147,7 +147,7 @@
   },
   {
     "id": "2_yitai",
-    "image": "/scripts/assets/community/34ef27f04494a752be6f233f0676aeeccdb823b9007e951dc40dbf4575925dce.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/34ef27f04494a752be6f233f0676aeeccdb823b9007e951dc40dbf4575925dce.png",
     "otherNightReminder": "如果游歌者在白天公开选择了，唤醒并告知他此刻场上因他醉酒的人数。",
     "reminders": [
       "醉酒"
@@ -160,7 +160,7 @@
   },
   {
     "id": "4_yitai",
-    "image": "/scripts/assets/community/2b4e9a4b5f6032864133a03336231ee8235d360495fbb3d56851bae7eaf16782.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/2b4e9a4b5f6032864133a03336231ee8235d360495fbb3d56851bae7eaf16782.png",
     "otherNightReminder": "如果“探险者”存活，告知猫猫探险队一名与“探险者”阵营相同的玩家。",
     "reminders": [
       "探险者"
@@ -173,7 +173,7 @@
   },
   {
     "id": "7_yitai",
-    "image": "/scripts/assets/community/0ad0cb27fb45a49eacfc67622143432232e257bc5d4626c2471dadfa77c7c695.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/0ad0cb27fb45a49eacfc67622143432232e257bc5d4626c2471dadfa77c7c695.png",
     "firstNightReminder": "唤醒一名爪牙，告知他牛仔在场。",
     "otherNightReminder": "如果“发起提名”被放置在场上，唤醒牛仔",
     "reminders": [
@@ -190,7 +190,7 @@
   },
   {
     "id": "6_yitai",
-    "image": "/scripts/assets/community/922b91483b01061f33a0c31f4b60fe972433838459adc162a6916bfd65a5f07f.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/922b91483b01061f33a0c31f4b60fe972433838459adc162a6916bfd65a5f07f.png",
     "otherNightReminder": "如果死亡唤醒他，告知他所有类型的玩家（除旅行者）各一名。如果他被标记了“醉酒”，你可以告知他错误信息。",
     "reminders": [
       "被得知",
@@ -204,7 +204,7 @@
   },
   {
     "id": "8_yitai",
-    "image": "/scripts/assets/community/bbbf0ad6d07277e83c890ccb9444062281a4595f801c9306fdd14d9251493984.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/bbbf0ad6d07277e83c890ccb9444062281a4595f801c9306fdd14d9251493984.png",
     "reminders": [
       "罢黜（醉酒）"
     ],
@@ -221,12 +221,12 @@
     "name": "白骑士",
     "team": "outsider",
     "ability": "如果有玩家“疯狂”地想要存活，那么当天他即将死于处决时可能不会死亡（每局游戏限一次）。",
-    "image": "/scripts/assets/community/e81472759cfc6bbbb155d289e4de1e1a88f8917b7b86ea3979cf3f290809f4db.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/e81472759cfc6bbbb155d289e4de1e1a88f8917b7b86ea3979cf3f290809f4db.png",
     "edition": "custom"
   },
   {
     "id": "9_yitai",
-    "image": "/scripts/assets/community/3adda34f7b9799033c3a0cd63067505061fa5c5a282b969a87153cb89b8b34f1.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/3adda34f7b9799033c3a0cd63067505061fa5c5a282b969a87153cb89b8b34f1.png",
     "reminders": [
       "“他”"
     ],
@@ -237,7 +237,7 @@
   },
   {
     "id": "10_yitai",
-    "image": "/scripts/assets/community/e530fe047d08f1a17c324dde048ce04212dee314ce20cc6ffe29c4792bfd4cbb.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/e530fe047d08f1a17c324dde048ce04212dee314ce20cc6ffe29c4792bfd4cbb.png",
     "otherNightReminder": " ",
     "reminders": [
       "舔狗替死"
@@ -260,12 +260,12 @@
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一个非恶魔角色：他死亡。如果该角色不在场，你要再选择一名玩家：他变成该角色。",
     "otherNight": 6,
-    "image": "/scripts/assets/community/fff6166847c1068c31003a99456aceeeb8c8854f822227f7da95a67d67f42514.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/fff6166847c1068c31003a99456aceeeb8c8854f822227f7da95a67d67f42514.png",
     "edition": "custom"
   },
   {
     "id": "23_yitai",
-    "image": "/scripts/assets/community/d047c2bbd7a96ebc9654d1cfb044e005b627861899bd701d45ecf43116ba83d4.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/d047c2bbd7a96ebc9654d1cfb044e005b627861899bd701d45ecf43116ba83d4.png",
     "otherNightReminder": "如果今天在唤醒亡灵骑士之前有外来者死亡，唤醒亡灵骑士，告知他死亡的外来者玩家是谁，并让他猜测具体角色，如果他猜中至少一名，标记一名玩家死亡，然后去除所有的“离魂抽离”标记。",
     "reminders": [
       "死亡",
@@ -280,7 +280,7 @@
   },
   {
     "id": "20_yitai",
-    "image": "/scripts/assets/community/08cd5c46a0907ce971f9d198831cecf304d5c20a8e92c1f0fe59bdac62e396dd.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/08cd5c46a0907ce971f9d198831cecf304d5c20a8e92c1f0fe59bdac62e396dd.png",
     "firstNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
     "otherNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
     "remindersGlobal": [
@@ -295,7 +295,7 @@
   },
   {
     "id": "26_yitai",
-    "image": "/scripts/assets/community/368b563c98a42b241debd501d6f6e91fde95351aff5d04b7453b8b0adce72566.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/368b563c98a42b241debd501d6f6e91fde95351aff5d04b7453b8b0adce72566.png",
     "firstNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "otherNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "reminders": [
@@ -311,7 +311,7 @@
   },
   {
     "id": "13_yitai",
-    "image": "/scripts/assets/community/f7ed786714f35589c154013752ea72f746838db25fbe0f4b6f8abf8a4ebb6202.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/f7ed786714f35589c154013752ea72f746838db25fbe0f4b6f8abf8a4ebb6202.png",
     "firstNightReminder": " ",
     "otherNightReminder": "唤醒他，他要选择一个除奇美拉以外的恶魔（与前两次选择均不同），他获得该恶魔能力。然后当晚像对待他选择的恶魔一样让他使用能力。",
     "reminders": [
@@ -326,7 +326,7 @@
   },
   {
     "id": "15_yitai",
-    "image": "/scripts/assets/community/84ce858012e3ab3f1731c632f13f08b269b7db925d53a780ee974af955ea2bb5.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/84ce858012e3ab3f1731c632f13f08b269b7db925d53a780ee974af955ea2bb5.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -339,7 +339,7 @@
   },
   {
     "id": "27_yitai",
-    "image": "/scripts/assets/community/b05771caf5ff23901ad158f961f933664bb51e3a1b93f55b7831022ae8ba52ae.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/b05771caf5ff23901ad158f961f933664bb51e3a1b93f55b7831022ae8ba52ae.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -354,7 +354,7 @@
   },
   {
     "id": "11_yitai",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "firstNightReminder": "唤醒痢蛭，让他选择一名玩家以寄生。",
     "otherNightReminder": "唤醒痢蛭，让他攻击一名玩家。",
     "reminders": [
@@ -370,7 +370,7 @@
   },
   {
     "id": "16_yitai",
-    "image": "/scripts/assets/community/0854cc2e333ac0dcc7b43a16c89425cb4845fe9e94ee07d9248804a77eebf119.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/0854cc2e333ac0dcc7b43a16c89425cb4845fe9e94ee07d9248804a77eebf119.png",
     "otherNightReminder": "唤醒，让他选择一名玩家，为该玩家标记死亡。如果场上存在多名奇美拉，由你来决定谁先行动。",
     "reminders": [
       "死亡",
@@ -384,7 +384,7 @@
   },
   {
     "id": "14_yitai",
-    "image": "/scripts/assets/community/68c8cf5147e9c04f8d613074dac33ef451cd5b757dd59a21d3b89910708e32d0.png",
+    "image": "/scripts/assets/community-yi-tai-meng-jing-b93218b4/68c8cf5147e9c04f8d613074dac33ef451cd5b757dd59a21d3b89910708e32d0.png",
     "otherNightReminder": "唤醒大巫妖",
     "reminders": [
       "死亡",

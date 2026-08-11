@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "魔形帽影",
     "author": "AV",
-    "logo": "/scripts/assets/community/f935feb9e7aeacb79655a6818bfda446b9c9618a363ae005647c76f67ec0dbf6.png",
+    "logo": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/f935feb9e7aeacb79655a6818bfda446b9c9618a363ae005647c76f67ec0dbf6.png",
     "status": [
       {
         "name": "禁帽礼仪",
@@ -18,7 +18,7 @@
   },
   {
     "id": "qiezeizeizei111",
-    "image": "/scripts/assets/community/90e73c912953b7d60b1312e99a377b3c66b7d3aa7fbe2f489e93420f6bc2d6c3.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/90e73c912953b7d60b1312e99a377b3c66b7d3aa7fbe2f489e93420f6bc2d6c3.png",
     "edition": "custom",
     "name": "窃贼",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天他的投票会被算作负数。",
@@ -34,7 +34,7 @@
   },
   {
     "id": "tizuiyangyangyang111",
-    "image": "/scripts/assets/community/e94f94afed7a8765ca06aa1c65e766912da5081802daf0c263688b8b102b4db1.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/e94f94afed7a8765ca06aa1c65e766912da5081802daf0c263688b8b102b4db1.png",
     "edition": "custom",
     "name": "替罪羊",
     "ability": "如果你的阵营的一名玩家被处决，你可能会代替他被处决。",
@@ -48,7 +48,7 @@
   },
   {
     "id": "guanyuanyuanyuanyuan111",
-    "image": "/scripts/assets/community/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/43cc353bd853b2e4488ece42e064c3a61f2abda980e8041667755bbebae9c46a.png",
     "edition": "custom",
     "name": "官员",
     "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，他的投票算作三票。",
@@ -64,7 +64,7 @@
   },
   {
     "id": "qigaigaigai111",
-    "image": "/scripts/assets/community/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
     "edition": "custom",
     "name": "乞丐",
     "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",
@@ -78,7 +78,7 @@
   },
   {
     "id": "qiangshoushoushou111",
-    "image": "/scripts/assets/community/143153e5db12778cabab1b27765a8554dd5acb935109e3ac276895b3a12b9768.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/143153e5db12778cabab1b27765a8554dd5acb935109e3ac276895b3a12b9768.png",
     "edition": "custom",
     "name": "枪手",
     "ability": "每个白天，当首次投票被统计后，你可以选择一名刚投过票的玩家：他死亡。",
@@ -92,7 +92,7 @@
   },
   {
     "id": "xiyifufuchuyinweilaidefufu111",
-    "image": "/scripts/assets/community/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
     "edition": "custom",
     "name": "洗衣妇",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。",
@@ -110,7 +110,7 @@
   },
   {
     "id": "daerduotutu111",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "name": "图书管理员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -128,7 +128,7 @@
   },
   {
     "id": "jingcaisanxuanyi111",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "name": "贵族",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "qingtianjianbei111",
-    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
     "edition": "custom",
     "name": "修行者",
     "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -177,7 +177,7 @@
   },
   {
     "id": "paibusini111",
-    "image": "/scripts/assets/community/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/47d0c6e53408d33f4ec972d99d8d5a83c39b2ed2437f6edc84efbabb0bcd3ed3.png",
     "edition": "custom",
     "name": "传教士",
     "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -194,7 +194,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -212,7 +212,7 @@
   },
   {
     "id": "wanizufen111",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
     "edition": "custom",
     "name": "送葬者",
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
@@ -229,7 +229,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -246,7 +246,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -261,7 +261,7 @@
   },
   {
     "id": "banimamabianmeile111",
-    "image": "/scripts/assets/community/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/418581ba33b790490020ced1de913abe4160c4b28402ae8373f5498b57e825cf.png",
     "edition": "custom",
     "name": "工程师",
     "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
@@ -278,7 +278,7 @@
   },
   {
     "id": "shanliangdeniaoer111",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "sb111",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "name": "士兵",
     "ability": "恶魔的负面能力对你无效。",
@@ -308,7 +308,7 @@
   },
   {
     "id": "yinshishihsihsihsihsihsissssssss",
-    "image": "/scripts/assets/community/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/cd5b3548f3915810b80790e12270f4b3778527f7e16c25291f06d59057908f71.png",
     "edition": "custom",
     "name": "隐士",
     "ability": "你拥有所有外来者能力。[-0~1外来者]",
@@ -325,7 +325,7 @@
   },
   {
     "id": "daibi111",
-    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
     "edition": "custom",
     "name": "呆瓜",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -340,7 +340,7 @@
   },
   {
     "id": "fengmaoziyuailisi111",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
     "edition": "custom",
     "name": "帽匠",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -357,7 +357,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -374,7 +374,7 @@
   },
   {
     "id": "touduzheeeeeeee111",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -391,7 +391,7 @@
   },
   {
     "id": "jiandieeeeeee111",
-    "image": "/scripts/assets/community/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/ce83c675c17e6d107dd0ef1672906aceb00f060ee99decbde3154b3a8b637cc0.png",
     "edition": "custom",
     "name": "间谍",
     "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
@@ -406,7 +406,7 @@
   },
   {
     "id": "gebulinaaaaaaa111111",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "name": "哥布林",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -423,7 +423,7 @@
   },
   {
     "id": "hongchunnvlangaaaaaaaa111",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -438,7 +438,7 @@
   },
   {
     "id": "xiaoemo1111111eee111eee111",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -455,7 +455,7 @@
   },
   {
     "id": "oeeroeeerooooeeeeee1111111",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -472,7 +472,7 @@
   },
   {
     "id": "fangguuuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "edition": "custom",
     "name": "方古",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -489,7 +489,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -507,7 +507,7 @@
   },
   {
     "id": "71_meta",
-    "image": "/scripts/assets/community/277a8f974b2808f5b6ddcc4faf1ff3fef712ee47c64d7c10e2b55c0b3e17e541.png",
+    "image": "/scripts/assets/community-mo-xing-mao-ying-9398fadd/277a8f974b2808f5b6ddcc4faf1ff3fef712ee47c64d7c10e2b55c0b3e17e541.png",
     "name": "方古&红唇女郎",
     "team": "a jinxed",
     "setup": false,

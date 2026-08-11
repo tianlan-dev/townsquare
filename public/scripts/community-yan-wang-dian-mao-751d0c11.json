@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "logo": "/scripts/assets/community/cd80192e1e3240921b8a09d020228f64bbce1765066bb3d6eb7e549d3205ca39.png",
+    "logo": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/cd80192e1e3240921b8a09d020228f64bbce1765066bb3d6eb7e549d3205ca39.png",
     "name": "阎王点卯",
     "townsfolkName": "镇民",
     "author": "钟楼剧本博物馆",
@@ -28,7 +28,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "flavor": "",
     "id": "bounty_hunter_button",
@@ -48,7 +48,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_button",
@@ -68,7 +68,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_button",
@@ -87,7 +87,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名除你及旅行者以外的玩家：如果恶魔在今晚杀死了他，你和他交换角色，然后你醉酒。",
-    "image": "/scripts/assets/community/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/e943b1df653fe641bcb7fdedb73ec81fe5fffd91bf26d63a259c1fb53b8b1fad.png",
     "edition": "custom",
     "flavor": "",
     "id": "limao_button",
@@ -107,7 +107,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的两个善良角色：如果他们都存活，他们当晚不会死亡。",
-    "image": "/scripts/assets/community/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/d22f06276d11b7e53af81470a6747c90782ef628bcaefaefdb826fd26594e4a2.png",
     "edition": "custom",
     "flavor": "",
     "id": "xuncha_button",
@@ -126,7 +126,7 @@
   },
   {
     "ability": "如果已死亡玩家中没有邪恶玩家，你只会死于处决。",
-    "image": "/scripts/assets/community/8fb54591c09c3990015f5049e2218af5fd6d07b3cd8a18b59b5a6f08997ac26e.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/8fb54591c09c3990015f5049e2218af5fd6d07b3cd8a18b59b5a6f08997ac26e.png",
     "edition": "custom",
     "flavor": "",
     "id": "yongjiang_button",
@@ -142,7 +142,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_button",
@@ -159,7 +159,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，恶魔的能力变成“每个夜晚*，可能会有一名玩家死亡。”",
-    "image": "/scripts/assets/community/8f961165092788230efb23b398342c6cd9eddd0d0dde4359ccbdcd1d968f1cc4.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/8f961165092788230efb23b398342c6cd9eddd0d0dde4359ccbdcd1d968f1cc4.png",
     "edition": "custom",
     "flavor": "",
     "id": "ranfangfangzhu_button",
@@ -178,7 +178,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，你与一名存活爪牙玩家交换角色。",
-    "image": "/scripts/assets/community/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
     "edition": "custom",
     "flavor": "",
     "id": "yanshi_button",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "edition": "custom",
     "flavor": "",
     "id": "farmer_button",
@@ -212,7 +212,7 @@
   },
   {
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "edition": "custom",
     "flavor": "",
     "id": "ravenkeeper_button",
@@ -229,7 +229,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom",
     "flavor": "",
     "id": "sage_button",
@@ -246,7 +246,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
-    "image": "/scripts/assets/community/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/6802eb6853800410a32e24a68dd4f856e6a2fc1e756dafe609f7f647c4f5577a.png",
     "edition": "custom",
     "flavor": "",
     "id": "banshee_button",
@@ -263,7 +263,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_button",
@@ -282,7 +282,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
-    "image": "/scripts/assets/community/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "nichen_button",
@@ -301,7 +301,7 @@
   },
   {
     "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "flavor": "",
     "id": "plague_doctor_button",
@@ -320,7 +320,7 @@
   },
   {
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "edition": "custom",
     "flavor": "",
     "id": "shaxing_button",
@@ -339,7 +339,7 @@
   },
   {
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
-    "image": "/scripts/assets/community/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
     "edition": "custom",
     "flavor": "",
     "id": "yangguren_button",
@@ -359,7 +359,7 @@
   },
   {
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "flavor": "",
     "id": "gudiao_button",
@@ -378,7 +378,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_button",
@@ -398,7 +398,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们可能会死亡。",
-    "image": "/scripts/assets/community/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/a00533127fd569bd713bf63649d39e7fdcba6a0f73324b415ea97261215c46aa.png",
     "edition": "custom",
     "flavor": "",
     "id": "harpy_button",
@@ -418,7 +418,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "edition": "custom",
     "flavor": "",
     "id": "widow_button",
@@ -439,7 +439,7 @@
   },
   {
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
-    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
     "edition": "custom",
     "flavor": "",
     "id": "yanluo_button",
@@ -459,7 +459,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "flavor": "",
     "id": "ojo_button",
@@ -478,7 +478,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-yan-wang-dian-mao-751d0c11/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "flavor": "",
     "id": "vortox_button",

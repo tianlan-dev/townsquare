@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "菜市场",
     "author": "蓝铃兰",
-    "logo": "/scripts/assets/community/1e1290a7f040abed55f8c4d3d8bc653ff27a6a4383c6a84352ef2daf34be43f2.webp",
+    "logo": "/scripts/assets/community-cai-shi-chang-b879cd10/1e1290a7f040abed55f8c4d3d8bc653ff27a6a4383c6a84352ef2daf34be43f2.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -27,7 +27,7 @@
   },
   {
     "id": "shengjiezhihun",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -39,7 +39,7 @@
   },
   {
     "id": "468d93bc-1da4-4141-83b9-09eecc8177df",
-    "image": "/scripts/assets/community/9af0a86688106f0de93c4fdf5f2055c1ca740ddac9a11e6044f25b0b07f0ead9.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/9af0a86688106f0de93c4fdf5f2055c1ca740ddac9a11e6044f25b0b07f0ead9.png",
     "edition": "custom",
     "name": "地狱藏书员",
     "ability": "当说书人宣布安静时，仍在说话的玩家可能会遭遇一些不好的事情。",
@@ -55,7 +55,7 @@
   },
   {
     "id": "geming",
-    "image": "/scripts/assets/community/31938dffe2c6fe76b44b431661fe656fdfc78530852909e717ea82e1fa176087.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/31938dffe2c6fe76b44b431661fe656fdfc78530852909e717ea82e1fa176087.png",
     "reminders": [
       "革命"
     ],
@@ -69,7 +69,7 @@
   },
   {
     "id": "29_mengyi",
-    "image": "/scripts/assets/community/de5ddadf577e6fefe87f4e6f021b1ae57a7a91df1834a11a6f91a169ff332bf0.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/de5ddadf577e6fefe87f4e6f021b1ae57a7a91df1834a11a6f91a169ff332bf0.png",
     "name": "摆渡人",
     "team": "fabled",
     "ability": "在游戏的最后一天，所有已死亡玩家会重新获得投票标记。",
@@ -77,7 +77,7 @@
   },
   {
     "id": "24_xixixi",
-    "image": "/scripts/assets/community/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/3b2432d1b8ab89629eb88efbcad5592769a7c7986080f3b3322f13f2fb64bb62.png",
     "name": "哨兵",
     "team": "fabled",
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
@@ -85,7 +85,7 @@
   },
   {
     "id": "sgjfseraedr",
-    "image": "/scripts/assets/community/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/48e8e252cf588566fec18ea10b369b2a06442353ef9bd4833c106b5256bd8cb2.png",
     "edition": "custom",
     "name": "公爵夫人",
     "ability": "每个白天，三名玩家可以一起拜访你。当晚*，他们会得知他们之中有几个是邪恶的，但其中一人的信息是错的。",
@@ -96,7 +96,7 @@
   },
   {
     "id": "qilincb879cd10",
-    "image": "/scripts/assets/community/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
     "edition": "custom",
     "name": "麒麟",
     "ability": "在游戏的最后一天，最幸运的玩家身上会发生一些好的事情。",
@@ -107,7 +107,7 @@
   },
   {
     "id": "22_xixixi",
-    "image": "/scripts/assets/community/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/8d3f4ef7f204fe112199d29a11eb1b7a1a4676146975083fdc3bae238b88c1d4.png",
     "name": "园丁",
     "team": "fabled",
     "ability": "由说书人来为一名或更多玩家派发角色。",
@@ -115,7 +115,7 @@
   },
   {
     "id": "-1s-1s-1s",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -129,7 +129,7 @@
   },
   {
     "id": "meishayongdeshabi111",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -146,7 +146,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -162,7 +162,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -184,7 +184,7 @@
   },
   {
     "id": "village_idiot22",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "name": "村夫",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -206,7 +206,7 @@
   },
   {
     "id": "qqqqqqqqqqasfasfhfhhrteqarq35q35qaa",
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
     "edition": "custom",
     "name": "掮客",
     "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "xitele111",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "edition": "custom",
     "name": "艺术家",
     "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
@@ -257,7 +257,7 @@
   },
   {
     "id": "diaoshangyizhengtiandeyu111",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -273,7 +273,7 @@
   },
   {
     "id": "chaojibianbianbian111",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "name": "变脸师",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -287,7 +287,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
@@ -302,7 +302,7 @@
   },
   {
     "id": "hahaxiaochou111",
-    "image": "/scripts/assets/community/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/21ed882aff43fd4675a921f5d697449003edb877fc657a070d862206cc2de76b.png",
     "edition": "custom",
     "name": "弄臣",
     "ability": "当你首次将要死亡时，你不会死亡。",
@@ -318,7 +318,7 @@
   },
   {
     "id": "buhaohe111",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -334,7 +334,7 @@
   },
   {
     "id": "bushiwo111",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "name": "落难少女",
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
@@ -350,7 +350,7 @@
   },
   {
     "id": "kangtuiyige111",
-    "image": "/scripts/assets/community/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/1711e0d6caf23503a7a33e14bc01add37a28b7a0b63163ecabcf1a73ba25613b.png",
     "edition": "custom",
     "name": "逆臣",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你会在当晚转变为邪恶；如果你先死于处决，他会在当晚转变为邪恶。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -383,7 +383,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "jiushigelvshi111",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "name": "魔鬼代言人",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -413,7 +413,7 @@
   },
   {
     "id": "huasapidpaiwopippippipp123i123p12ip3p1i23p21",
-    "image": "/scripts/assets/community/ea281454926b91468651b8d468d2555e278d344b5597ba1045bced884f648918.webp",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/ea281454926b91468651b8d468d2555e278d344b5597ba1045bced884f648918.webp",
     "edition": "custom",
     "name": "画皮",
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
@@ -430,7 +430,7 @@
   },
   {
     "id": "yingyingying111",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "edition": "custom",
     "name": "鹰身女妖",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -447,7 +447,7 @@
   },
   {
     "id": "gebulinaaaaaaa111111",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
     "edition": "custom",
     "name": "哥布林",
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
@@ -463,7 +463,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -479,7 +479,7 @@
   },
   {
     "id": "wangguuuuuuuu111111",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "edition": "custom",
     "name": "亡骨魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -497,7 +497,7 @@
   },
   {
     "id": "guhuoniaoiasod0pap2u490rjqawpf9ru389",
-    "image": "/scripts/assets/community/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
     "edition": "custom",
     "name": "姑获鸟",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
@@ -514,7 +514,7 @@
   },
   {
     "id": "xiaoshabi111111",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "edition": "custom",
     "name": "小怪宝",
     "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
@@ -532,7 +532,7 @@
   },
   {
     "ability": "使用灯神的相克规则，所有玩家都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -548,7 +548,7 @@
   },
   {
     "id": "16_meta",
-    "image": "/scripts/assets/community/d015349220687129a32505ceb2f86bce03b8ea4616544a26d677b1d3f4335944.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/d015349220687129a32505ceb2f86bce03b8ea4616544a26d677b1d3f4335944.png",
     "name": "洗脑师&哥布林",
     "team": "a jinxed",
     "setup": false,
@@ -560,7 +560,7 @@
     "name": "传奇批发",
     "team": "fabled",
     "ability": "该剧本在游戏开始时，同时加入8个传奇角色：地狱藏书员、摆渡人、园丁、圣洁之魂、哨兵、公爵夫人、麒麟、革命者",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-cai-shi-chang-b879cd10/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

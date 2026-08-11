@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "name": "夜夜笙歌",
-    "logo": "/scripts/assets/community/8300b22a437c64300ffc28b741020cc3aea7727b5188d93a5df9114b98bc10fb.png",
+    "logo": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/8300b22a437c64300ffc28b741020cc3aea7727b5188d93a5df9114b98bc10fb.png",
     "author": "JC",
     "description": "夜夜笙歌",
     "townsfolkName": "镇民",
@@ -24,7 +24,7 @@
   },
   {
     "id": "-1s-1s-1s",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -39,7 +39,7 @@
   },
   {
     "id": "ainiii11111",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "mofasaozhou111",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -86,7 +86,7 @@
   },
   {
     "id": "yigechunshabidexiaoxuesheng111",
-    "image": "/scripts/assets/community/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/4fe2ec63be479262eddc0b1be42c53b7c896c8eab8f5601149bbd28a41a19740.png",
     "edition": "custom",
     "name": "熊孩子",
     "ability": "每个夜晚，你要选择一个镇民角色：他们的能力会产生错误信息，直到下个黄昏。",
@@ -103,7 +103,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "tiandanwuzaoxiaoxinhuozhu111",
-    "image": "/scripts/assets/community/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/52c09a7e24d89a63cd64e2dd2e1dcbe7108ec954876a620e0041c431f8c76495.png",
     "edition": "custom",
     "name": "打更人",
     "ability": "每个夜晚*，你要猜测今晚首个死亡的玩家与你的距离。如果你猜测正确，则除你以外的所有玩家今晚不会死亡，但你可能会死亡。",
@@ -139,7 +139,7 @@
   },
   {
     "id": "wolaishouhunidemama111",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "name": "守夜人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -156,7 +156,7 @@
   },
   {
     "id": "yiquganchangduan111",
-    "image": "/scripts/assets/community/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
     "edition": "custom",
     "name": "歌伶",
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "chaojibianbianbian111",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "name": "变脸师",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -189,7 +189,7 @@
   },
   {
     "id": "bingbibibibibibibibiibibibibibibibibiiiiihbbibibib",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "name": "秉笔",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -207,7 +207,7 @@
   },
   {
     "id": "yanshisadsadasdasdad",
-    "image": "/scripts/assets/community/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/f3f01bf9ffc15d50362c9fa36a8796677e8921eb90fdb6432a938569243d285d.png",
     "edition": "custom",
     "name": "偃师",
     "ability": "如果你在夜晚死亡，你与一名存活爪牙玩家交换角色。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "yiqunshabi111",
-    "image": "/scripts/assets/community/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/f32963135f8a5fdee60f51c8c46a1fc74e0cdbe29943bd555765e18780fcfee0.png",
     "edition": "custom",
     "name": "戏子",
     "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]",
@@ -241,7 +241,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -259,7 +259,7 @@
   },
   {
     "id": "zhadiaole111",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -274,7 +274,7 @@
   },
   {
     "id": "moluotuofujiweijiu11111",
-    "image": "/scripts/assets/community/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
     "edition": "custom",
     "name": "狂热者",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -289,7 +289,7 @@
   },
   {
     "id": "suaibi1111",
-    "image": "/scripts/assets/community/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/0eab43a249f2ae39e8c2709edcee65d69e837e240469c911e395f0ee6dfdb010.png",
     "edition": "custom",
     "name": "煞星",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -324,7 +324,7 @@
   },
   {
     "id": "xixi111111111111",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -341,7 +341,7 @@
   },
   {
     "id": "huuuuuuuuuuuuu111",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "name": "狐媚娘",
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
@@ -357,7 +357,7 @@
   },
   {
     "id": "zniangiajisudaiohwiodhisoahdioashdk2h143on211",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "name": "酿酒师",
     "ability": "每个夜晚，你要选择一个镇民角色：当他下一次通过自身能力获取信息时，改为得知你给出的信息。",
@@ -374,7 +374,7 @@
   },
   {
     "id": "xiaoweibaxiliuxiliu111",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "name": "普卡",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -392,7 +392,7 @@
   },
   {
     "id": "yiqunshabiemo222",
-    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
@@ -410,7 +410,7 @@
   },
   {
     "id": "taotieeeeeeeeeeee",
-    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
     "edition": "custom",
     "name": "饕餮",
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -427,7 +427,7 @@
   },
   {
     "id": "baojunuiuaowjoedijapwu4e90e2aj4rpia",
-    "image": "/scripts/assets/community/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
     "edition": "custom",
     "name": "暴君",
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
@@ -444,7 +444,7 @@
   },
   {
     "id": "1225_meta",
-    "image": "/scripts/assets/community/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
+    "image": "/scripts/assets/community-ye-ye-sheng-ge-be88e948/bf0fc198cb1e1cdad486f46d94d6d4db5995f1bd0ef3706006bf9c07a95dbd4e.png",
     "name": "戏子&军团/普卡",
     "team": "a jinxed",
     "setup": false,

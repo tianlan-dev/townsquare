@@ -17,7 +17,7 @@
     ],
     "name": "歌剧魅影（鸭镇图标）",
     "author": "泽度哥摧毁停车场",
-    "logo": "/scripts/assets/community/0e136965e3a91d968f8cb362ff7003771830c2326823d2b610297761f7eb9ce0.png",
+    "logo": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/0e136965e3a91d968f8cb362ff7003771830c2326823d2b610297761f7eb9ce0.png",
     "almanac": "https://www.bloodstar.xyz/p/westwind/BBB/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -27,7 +27,7 @@
   },
   {
     "id": "4_bbb",
-    "image": "/scripts/assets/community/799a2f8a34465bc2073b6e3a0ee67460ee3233739e8b9ff7670731eb5979787f.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/799a2f8a34465bc2073b6e3a0ee67460ee3233739e8b9ff7670731eb5979787f.png",
     "firstNightReminder": "匹诺曹得知2条相悖的信息,其中仅有1条是正确的。",
     "otherNightReminder": "匹诺曹指向一名玩家，标记那名玩家为“木偶的守护”",
     "remindersGlobal": [
@@ -42,7 +42,7 @@
   },
   {
     "id": "5_bbb",
-    "image": "/scripts/assets/community/5d1e876e3b64ea4b12809760d4ecb2efb8a21d9fddd5369a578fed601abbe67a.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/5d1e876e3b64ea4b12809760d4ecb2efb8a21d9fddd5369a578fed601abbe67a.png",
     "firstNightReminder": "告知梅林第一条信息。",
     "otherNightReminder": "告知梅林第二条信息。",
     "name": "梅林",
@@ -54,7 +54,7 @@
   },
   {
     "id": "8_bbb",
-    "image": "/scripts/assets/community/9bcb51df4b3e3b91feb264ddb870b4d634f1327b2cfa6bb458f8e56eefb75743.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/9bcb51df4b3e3b91feb264ddb870b4d634f1327b2cfa6bb458f8e56eefb75743.png",
     "firstNightReminder": "帕米娜选择一个数字。告知帕米娜他们中是否有邪恶玩家。",
     "otherNightReminder": "帕米娜选择一个数字。告知帕米娜他们中是否有邪恶玩家。",
     "name": "帕米娜",
@@ -66,7 +66,7 @@
   },
   {
     "id": "7_bbb",
-    "image": "/scripts/assets/community/3eea39109cfdb8970e459f877e6fd9128712b00146f0c82cda85ba337501d199.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/3eea39109cfdb8970e459f877e6fd9128712b00146f0c82cda85ba337501d199.png",
     "otherNightReminder": "没有固定行动顺序，别忘了结算蝴蝶夫人信息。",
     "name": "蝴蝶夫人",
     "team": "townsfolk",
@@ -76,7 +76,7 @@
   },
   {
     "id": "9_bbb",
-    "image": "/scripts/assets/community/0866e570e5412ba447581c5eed8713297aead67814b779115565d26b8bca36a7.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/0866e570e5412ba447581c5eed8713297aead67814b779115565d26b8bca36a7.png",
     "remindersGlobal": [
       "绅士礼仪"
     ],
@@ -87,7 +87,7 @@
   },
   {
     "id": "6_bbb",
-    "image": "/scripts/assets/community/717237b86a5c3c8899c12c451a01ae18d86ad59ec02290a22fc14df1d9036689.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/717237b86a5c3c8899c12c451a01ae18d86ad59ec02290a22fc14df1d9036689.png",
     "reminders": [
       "银玫瑰"
     ],
@@ -98,7 +98,7 @@
   },
   {
     "id": "10_bbb",
-    "image": "/scripts/assets/community/0af5c04d86be8e6cd279adce33e1d1afa66e6ef933bae35abf9c591e93fddf0a.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/0af5c04d86be8e6cd279adce33e1d1afa66e6ef933bae35abf9c591e93fddf0a.png",
     "firstNightReminder": "告知化妆师两个具有假面技能的在场镇民角色。",
     "reminders": [
       "化妆"
@@ -111,7 +111,7 @@
   },
   {
     "id": "12_bbb",
-    "image": "/scripts/assets/community/54ce746c947b660b76a20b6c2499936216be6a0592151ad92bd4e79c1747e08b.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/54ce746c947b660b76a20b6c2499936216be6a0592151ad92bd4e79c1747e08b.png",
     "otherNightReminder": "报幕员指向一名玩家，报幕员得知没有剧幕，或剧幕未公布，或剧幕已公布。",
     "name": "报幕员",
     "team": "townsfolk",
@@ -121,7 +121,7 @@
   },
   {
     "id": "14_bbb",
-    "image": "/scripts/assets/community/429fd6665e8963932a4a4352926dd35bfb00f595973cb912e35dde6c2993916c.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/429fd6665e8963932a4a4352926dd35bfb00f595973cb912e35dde6c2993916c.png",
     "firstNightReminder": "灯光师得知有多少名邪恶玩家与外来者相邻。",
     "name": "灯光师",
     "team": "townsfolk",
@@ -131,7 +131,7 @@
   },
   {
     "id": "31_bbb",
-    "image": "/scripts/assets/community/9ab917ec33cd8927a6135cfe886e080dd0f4cfadda812b567016b6327cc42559.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/9ab917ec33cd8927a6135cfe886e080dd0f4cfadda812b567016b6327cc42559.png",
     "firstNightReminder": "告知售票员1个没有假面的镇民角色、1个外来者角色和1个爪牙角色，其中有2个在场。",
     "name": "售票员",
     "team": "townsfolk",
@@ -141,7 +141,7 @@
   },
   {
     "id": "13_bbb",
-    "image": "/scripts/assets/community/466a1f8736d5f7be4b5bfd4af32da5d0a0b4591afe59123d2f36b6cadcbf6419.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/466a1f8736d5f7be4b5bfd4af32da5d0a0b4591afe59123d2f36b6cadcbf6419.png",
     "otherNightReminder": "韦斯莱兄弟得知一条消息",
     "name": "韦斯莱兄弟",
     "team": "townsfolk",
@@ -151,7 +151,7 @@
   },
   {
     "id": "15_bbb",
-    "image": "/scripts/assets/community/d740ddedbd6173080a9035a90ddde3ecaf7b96b02735797ed5f2efc2a02963ca.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/d740ddedbd6173080a9035a90ddde3ecaf7b96b02735797ed5f2efc2a02963ca.png",
     "name": "剧作家",
     "team": "townsfolk",
     "ability": "①当你在夜间死亡时，你可以写一段话，并委托说书人私下交给你指定的玩家。②整局游戏限一次，你可以公开猜测所有邪恶玩家及其当前角色，如果你猜测正确，善良阵营获胜。",
@@ -159,7 +159,7 @@
   },
   {
     "id": "b_bbb",
-    "image": "/scripts/assets/community/b61e22166727cb88ed94e2b7fbfe349e45bf4da1526fd591896cc4a120ec647a.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/b61e22166727cb88ed94e2b7fbfe349e45bf4da1526fd591896cc4a120ec647a.png",
     "otherNightReminder": "B角指向一名玩家，并且具有他的能力，或者中毒，直到下个黄昏。(可以复制首夜型能力并获得信息) ",
     "reminders": [
       "中毒"
@@ -172,7 +172,7 @@
   },
   {
     "id": "11_bbb",
-    "image": "/scripts/assets/community/f8ca7811421c4670364bc94b4478274201e22e849b83cf3cc8f632a0989c6891.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/f8ca7811421c4670364bc94b4478274201e22e849b83cf3cc8f632a0989c6891.png",
     "remindersGlobal": [
       "小王子"
     ],
@@ -184,7 +184,7 @@
   },
   {
     "id": "16_bbb",
-    "image": "/scripts/assets/community/a4d377c72bfcf50eb5375eefc5db828d62870448d580f04d08ec9fef7adb2746.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/a4d377c72bfcf50eb5375eefc5db828d62870448d580f04d08ec9fef7adb2746.png",
     "otherNightReminder": "如果堂吉诃德死于白天或者今夜，恶魔可以指定任意一个剧幕，必定在下一个白天被宣布。",
     "reminders": [
       "虚假剧幕"
@@ -197,7 +197,7 @@
   },
   {
     "id": "17_bbb",
-    "image": "/scripts/assets/community/08e0552a7685d7796def1fc7a98b19c37294b26832c95fbd37f1a88aef0737c3.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/08e0552a7685d7796def1fc7a98b19c37294b26832c95fbd37f1a88aef0737c3.png",
     "reminders": [
       "灵魂形态",
       "魂之迷雾"
@@ -209,7 +209,7 @@
   },
   {
     "id": "19_bbb",
-    "image": "/scripts/assets/community/24f642304f36dc6ccbbcb146aaa6b19620833b0244a3433e66ad0e7388459085.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/24f642304f36dc6ccbbcb146aaa6b19620833b0244a3433e66ad0e7388459085.png",
     "reminders": [
       "失去能力"
     ],
@@ -220,7 +220,7 @@
   },
   {
     "id": "18_bbb",
-    "image": "/scripts/assets/community/1dac2aa0d120cb05632aaf4e410a39a5261041b0a9e10f51b06c7c3439e6646f.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/1dac2aa0d120cb05632aaf4e410a39a5261041b0a9e10f51b06c7c3439e6646f.png",
     "remindersGlobal": [
       "愚者"
     ],
@@ -232,7 +232,7 @@
   },
   {
     "id": "20_bbb",
-    "image": "/scripts/assets/community/af02703c0b7f6034f2a84b05e8bcc7879c232ecc14ddcf6031d8961f37d7086e.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/af02703c0b7f6034f2a84b05e8bcc7879c232ecc14ddcf6031d8961f37d7086e.png",
     "firstNightReminder": "镜中人选择一个剧幕或不使用能力。",
     "otherNightReminder": "镜中人选择一个剧幕或不使用能力。",
     "reminders": [
@@ -248,7 +248,7 @@
   },
   {
     "id": "21_bbb",
-    "image": "/scripts/assets/community/6de18b61d5ea4c789412e76218a2dbb149d76a07da4af3c2d6d951acdde0f848.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/6de18b61d5ea4c789412e76218a2dbb149d76a07da4af3c2d6d951acdde0f848.png",
     "firstNightReminder": "倒吊人选择一名玩家。在那名玩家的身份旁放置倒吊标记。",
     "remindersGlobal": [
       "倒吊"
@@ -261,7 +261,7 @@
   },
   {
     "id": "22_bbb",
-    "image": "/scripts/assets/community/e925c05ad7fcb1580f106fab2498171b637f87bc1fa69dbf31f3cff6c8fca5d1.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/e925c05ad7fcb1580f106fab2498171b637f87bc1fa69dbf31f3cff6c8fca5d1.png",
     "firstNightReminder": "告知教皇三个在场的具有假面的角色。",
     "otherNightReminder": "教皇不使用技能，或指向一名玩家并猜测角色。如果猜测正确，那名玩家成为没有技能的教皇，老教皇死亡",
     "reminders": [
@@ -279,7 +279,7 @@
   },
   {
     "id": "23_bbb",
-    "image": "/scripts/assets/community/ac7607652cebcc98f45c8eca3e31d2abebdc872977b411c5fe267b8fd3eeda94.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/ac7607652cebcc98f45c8eca3e31d2abebdc872977b411c5fe267b8fd3eeda94.png",
     "firstNightReminder": "恋人指向2名玩家，为该玩家添加相恋标记；或者摇头表示放弃。分别唤醒那2名玩家并展示“恋人”能力对你生效。",
     "otherNightReminder": "恋人指向2名玩家，为该玩家添加相恋标记；或者摇头表示放弃。分别唤醒那2名玩家并展示“恋人”能力对你生效。",
     "remindersGlobal": [
@@ -296,7 +296,7 @@
   },
   {
     "id": "25_bbb",
-    "image": "/scripts/assets/community/5326c29aeaa56185991bfac0ddc25dd167670ddde7d183633369e32136c274c3.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/5326c29aeaa56185991bfac0ddc25dd167670ddde7d183633369e32136c274c3.png",
     "otherNightReminder": "咒魂标记1名玩家并杀害1名玩家；或选择2名玩家将他们标记。或咒魂杀害所有被标记的玩家并移除所有标记，或者使全体镇民中毒到下个黄昏。",
     "reminders": [
       "诅咒之印",
@@ -311,7 +311,7 @@
   },
   {
     "id": "24_bbb",
-    "image": "/scripts/assets/community/12addae9e8231d7706dc6d8d388c7462fc81b792e5dcb5f0df737e9c8f19001d.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/12addae9e8231d7706dc6d8d388c7462fc81b792e5dcb5f0df737e9c8f19001d.png",
     "firstNightReminder": "女帝选择“新生”或放弃。",
     "otherNightReminder": "女帝选择“新生”或放弃。女帝指向一名玩家，那名玩家死亡。如果是爪牙被处决的当晚女帝可以额外选择一名玩家。",
     "reminders": [
@@ -331,7 +331,7 @@
   },
   {
     "id": "131_bbb",
-    "image": "/scripts/assets/community/d64e8b3206ab617d61d922ffce56a30da10aff672c681710e640807d20065370.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/d64e8b3206ab617d61d922ffce56a30da10aff672c681710e640807d20065370.png",
     "otherNightReminder": "死神13标记1~2名玩家，并且移动1个标记或放弃。",
     "reminders": [
       "死神之印",
@@ -348,7 +348,7 @@
   },
   {
     "id": "26_bbb",
-    "image": "/scripts/assets/community/8c26aedb830ef438a8f3a2104745005f1b4c2650f018d9e90f858b0c3908cf91.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/8c26aedb830ef438a8f3a2104745005f1b4c2650f018d9e90f858b0c3908cf91.png",
     "firstNightReminder": "本影标记1名玩家。",
     "otherNightReminder": "本影标记1名玩家。",
     "reminders": [
@@ -364,7 +364,7 @@
   },
   {
     "id": "_bbb",
-    "image": "/scripts/assets/community/84a7ffc3483ad8f68d92698ece2c3f64791696bf08045df7bce229c0912ab866.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/84a7ffc3483ad8f68d92698ece2c3f64791696bf08045df7bce229c0912ab866.png",
     "name": "假面",
     "team": "fabled",
     "ability": "（不是传奇角色）假面：当你存活时，如果你试图向其他玩家说明或暗示你的真实角色，你可能会被说书人处决。（假面是角色能力，只有前6个镇民牌具有。其他人无需遵守。说书人不会因假面而进行对邪恶阵营不利的处决。剧幕宣布前不能处决）",
@@ -372,7 +372,7 @@
   },
   {
     "id": "1_bbb",
-    "image": "/scripts/assets/community/85f041f1bec851da40237ca437d39e1bb6c35a123874355622307f6c7907e989.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/85f041f1bec851da40237ca437d39e1bb6c35a123874355622307f6c7907e989.png",
     "remindersGlobal": [
       "今日剧幕"
     ],
@@ -383,7 +383,7 @@
   },
   {
     "id": "2_bbb",
-    "image": "/scripts/assets/community/84a20afe32b51bee97bbb25905a76bf4ea666ec40617477ee45be52936550ae5.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/84a20afe32b51bee97bbb25905a76bf4ea666ec40617477ee45be52936550ae5.png",
     "name": "作者",
     "team": "fabled",
     "ability": "B站泽度哥摧毁停车场。版本号3.0，难度为难5专家级。有问题和建议欢迎来B站找我。板子谢绝魔改。",
@@ -391,7 +391,7 @@
   },
   {
     "id": "30_bbb",
-    "image": "/scripts/assets/community/c56e1fefbad095959d699cad124c65c7b29d7907dc3d33064c3ae2fac129a7d0.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/c56e1fefbad095959d699cad124c65c7b29d7907dc3d33064c3ae2fac129a7d0.png",
     "name": "首席歌手",
     "team": "traveler",
     "ability": "在夜晚，你可以给大家唱首歌。如果你唱歌了，下一个白天你不能被流放，说书人可能会告诉你一条对你阵营有益的建议。",
@@ -399,7 +399,7 @@
   },
   {
     "id": "3_bbb",
-    "image": "/scripts/assets/community/6cf4424438e0be21862375560633608a89f16d838215847ba067e5c9b80de3ae.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/6cf4424438e0be21862375560633608a89f16d838215847ba067e5c9b80de3ae.png",
     "name": "“钟楼怪人”",
     "team": "traveler",
     "ability": "如果一名玩家被投票处决，你可以发动能力，将处决改为你被流放，然后你得知该玩家的角色，说书人立即宣布特殊剧幕“善良的卡西莫多救下了爱斯梅拉达”。",
@@ -407,7 +407,7 @@
   },
   {
     "id": "27_bbb",
-    "image": "/scripts/assets/community/0f29b1f3698ee22270a2235a4533ae0337733024a8af5754d843113b3eb4e2a9.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/0f29b1f3698ee22270a2235a4533ae0337733024a8af5754d843113b3eb4e2a9.png",
     "name": "雷欧提斯",
     "team": "traveler",
     "ability": "整局限一次：白天，你可以公开选择一名玩家。如果你们阵营相同，你得知一个在场的角色。如果你们阵营不同，你被流放，说书人立即宣布特殊剧幕“奄奄一息的雷欧提斯当众揭穿了阴谋”。",
@@ -415,7 +415,7 @@
   },
   {
     "id": "29_bbb",
-    "image": "/scripts/assets/community/dfd6e336a39fac59e4de4365d8b3484034c4ec35186a83eec61d3af3c88e92ab.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/dfd6e336a39fac59e4de4365d8b3484034c4ec35186a83eec61d3af3c88e92ab.png",
     "otherNightReminder": "唤醒赞助人，如果赞助人选择在夜间猜测目标的角色：正确则目标死亡，错误则赞助人被放逐（黎明公布）",
     "name": "赞助人",
     "team": "traveler",
@@ -425,7 +425,7 @@
   },
   {
     "id": "28_bbb",
-    "image": "/scripts/assets/community/20ad7849f63c49ec834148888b29b0313d626d4f92f6e5a72300d260870b95a4.png",
+    "image": "/scripts/assets/community-ge-ju-mei-ying-ya-zhen-tu-biao-92d7ade3/20ad7849f63c49ec834148888b29b0313d626d4f92f6e5a72300d260870b95a4.png",
     "remindersGlobal": [
       "1眼DJ鉴定为假"
     ],

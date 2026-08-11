@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "情有独钟",
     "author": "Lei.",
-    "logo": "/scripts/assets/community/fa4158037ca6fb74f2a9fa18ba97ece14dc9ad9abc14648ea35ef64766fa7ba2.png",
+    "logo": "/scripts/assets/community-qing-you-du-zhong-954d320e/fa4158037ca6fb74f2a9fa18ba97ece14dc9ad9abc14648ea35ef64766fa7ba2.png",
     "A jinxed": "相克",
     "status": [
       {
@@ -22,14 +22,14 @@
     "name": "莉莉丝的情书",
     "team": "fabled",
     "ability": "即使“莉莉丝”“镜中魔”重新入场，其“投票限制”与“中毒”的提示标记仍然继承；如果巡山人/剑客/落难少女的能力产生了互动，会发生一些对他们阵营有利的事情。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
-    "image": "/scripts/assets/community/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/8eb282d07276a3b6b11d14284628d4b904f6fb6e126bf18708c17078775c6363.png",
     "edition": "custom",
     "flavor": "",
     "id": "knight_c",
@@ -47,7 +47,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "flavor": "",
     "id": "pixie_c",
@@ -66,7 +66,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -84,7 +84,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_c",
@@ -100,7 +100,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "edition": "custom",
     "flavor": "",
     "id": "high_priestess_c",
@@ -116,7 +116,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_c",
@@ -140,7 +140,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家。如果你选中了爪牙，落难少女会得知你选择的哪名玩家是爪牙。[+落难少女]",
-    "image": "/scripts/assets/community/af175e30765dcc91f46f1e15ca89286156d792928ff914249b4ec37a56c22537.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/af175e30765dcc91f46f1e15ca89286156d792928ff914249b4ec37a56c22537.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_ccb",
@@ -158,7 +158,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "edition": "custom",
     "flavor": "",
     "id": "innkeeper_c",
@@ -177,7 +177,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
-    "image": "/scripts/assets/community/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png",
     "edition": "custom",
     "flavor": "",
     "id": "jinyiwei_c",
@@ -195,7 +195,7 @@
   },
   {
     "ability": "在你的首个白天，如果你提名并处决了一名玩家，当晚恶魔不会造成死亡。",
-    "image": "/scripts/assets/community/a360a3aea8fb8f698c5feab8e3a9ea69e5a51b8d806df6c63855be08732764fd.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/a360a3aea8fb8f698c5feab8e3a9ea69e5a51b8d806df6c63855be08732764fd.png",
     "edition": "custom",
     "flavor": "",
     "id": "princess_c",
@@ -213,7 +213,7 @@
   },
   {
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "edition": "custom",
     "flavor": "",
     "id": "gossip_c",
@@ -231,7 +231,7 @@
   },
   {
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "edition": "custom",
     "flavor": "",
     "id": "chongfei_c",
@@ -249,7 +249,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "edition": "custom",
     "flavor": "",
     "id": "huntsman_c",
@@ -267,7 +267,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -295,7 +295,7 @@
   },
   {
     "ability": "你以为你是一个镇民并且拥有这个镇民的能力。提名你的善良玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/c4d52f4045bdf9174d0e04ddcfaad6789a0e425422483e453c9b3745a3d2ae0e.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/c4d52f4045bdf9174d0e04ddcfaad6789a0e425422483e453c9b3745a3d2ae0e.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_ccb",
@@ -314,7 +314,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_c",
@@ -332,7 +332,7 @@
   },
   {
     "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "damsel_c",
@@ -350,7 +350,7 @@
   },
   {
     "ability": "每个夜晚，你可以选择一名玩家：下个提名阶段，说书人会首先提名该玩家并问他一个是非问题，如果他答错那么他可能会被处决。",
-    "image": "/scripts/assets/community/31724438c9e4b174919df82f237e7b83a570ca45957d23a8139216150e876320.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/31724438c9e4b174919df82f237e7b83a570ca45957d23a8139216150e876320.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_ccb",
@@ -367,7 +367,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以设计一个有答案的是非问题并选择一名玩家向他提问：如果他的答案与之相符，他转变为邪恶阵营，否则他死亡。",
-    "image": "/scripts/assets/community/84e647a2d94b60032be09892309c625242c5b373409804673540bfd2bff375a0.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/84e647a2d94b60032be09892309c625242c5b373409804673540bfd2bff375a0.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_cccb",
@@ -387,7 +387,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarletwomanc954d320e",
@@ -408,7 +408,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -427,7 +427,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果被你杀死的玩家与你的性别不同，他们转变为邪恶阵营且不能投票，即使你失去能力。",
-    "image": "/scripts/assets/community/7ef3606ae11c0c3e3d7b5351158aee0cb91efdc58736ed0e16f2be158342c6ce.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/7ef3606ae11c0c3e3d7b5351158aee0cb91efdc58736ed0e16f2be158342c6ce.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_ccb",
@@ -447,7 +447,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。或选择两名玩家：如果他们角色相同则一同死亡。[场上存在一对及以上的相同善良镇民角色，每对中的一个中毒，-1外来者]",
-    "image": "/scripts/assets/community/e98a96d0fec8442b7e2a19b436074b2a234e3d7761573bcd991b80420ad60fbb.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/e98a96d0fec8442b7e2a19b436074b2a234e3d7761573bcd991b80420ad60fbb.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_cccb",
@@ -467,7 +467,7 @@
   },
   {
     "ability": "首个夜晚，所有爪牙要秘密决定一名善良玩家作为“人质先生”：他转变为邪恶阵营并且“是恶魔”。每个夜晚*，人质先生要选择一名玩家：他死亡。[+1镇民]",
-    "image": "/scripts/assets/community/0fa6173e330d4994d89a19c810a3448196470781b2bca2c5ac98c8cc5975b15a.png",
+    "image": "/scripts/assets/community-qing-you-du-zhong-954d320e/0fa6173e330d4994d89a19c810a3448196470781b2bca2c5ac98c8cc5975b15a.png",
     "edition": "custom",
     "flavor": "",
     "id": "lil_monsta_ccb",

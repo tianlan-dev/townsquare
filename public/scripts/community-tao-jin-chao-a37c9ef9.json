@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "淘金潮",
     "author": "卷饼",
-    "logo": "/scripts/assets/community/10755a414d8fc09e855fab7a4cc0485401e93af9d147de31867f64e387de7fb1.png",
+    "logo": "/scripts/assets/community-tao-jin-chao-a37c9ef9/10755a414d8fc09e855fab7a4cc0485401e93af9d147de31867f64e387de7fb1.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -32,7 +32,7 @@
   },
   {
     "id": "NightwatchmanButton",
-    "image": "/scripts/assets/community/c406fbb17d4d538e630b669d671b6a0ec884323f0d69ebc6821971de2f6e3008.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/c406fbb17d4d538e630b669d671b6a0ec884323f0d69ebc6821971de2f6e3008.png",
     "edition": "custom",
     "name": "守夜人",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -48,7 +48,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "chonggggggggggfeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiwww",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "edition": "custom",
     "name": "宠妃",
     "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则，即使你已死亡。随后，你会秘密得知说书人为此做了什么。",
@@ -81,7 +81,7 @@
   },
   {
     "id": "xinde_xinjide111",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "edition": "custom",
     "name": "炼金术士",
     "ability": "你拥有一个爪牙角色的能力，即使你已死亡。当你使用能力时，说书人可能会要求你更换选择。",
@@ -97,7 +97,7 @@
   },
   {
     "id": "snakebite",
-    "image": "/scripts/assets/community/b93d0e4cb13853f43a18cd8e9153084151e4fa423508b07cda3fc72934583002.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/b93d0e4cb13853f43a18cd8e9153084151e4fa423508b07cda3fc72934583002.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -116,7 +116,7 @@
   },
   {
     "id": "shiguanuwhaouhsoifhais",
-    "image": "/scripts/assets/community/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
     "edition": "custom",
     "name": "史官",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
@@ -134,7 +134,7 @@
   },
   {
     "id": "54_che",
-    "image": "/scripts/assets/community/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
     "otherNightReminder": "唤醒",
     "reminders": [
       "失去能力",
@@ -149,7 +149,7 @@
   },
   {
     "id": "jianghu_renzhe",
-    "image": "/scripts/assets/community/8732030a1320187ff647aedca548213ae44e01a69e64c5200b2acffb469b52e8.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/8732030a1320187ff647aedca548213ae44e01a69e64c5200b2acffb469b52e8.png",
     "edition": "custom",
     "name": "忍者",
     "ability": "每个夜晚*，你可以选择一名未以此法选择过的玩家：如果他是镇民，你获得他的能力，直到下个黄昏。否则你中毒。",
@@ -168,7 +168,7 @@
   },
   {
     "id": "jianghu_huahuoshi",
-    "image": "/scripts/assets/community/d871e0d7d3067c1d81027220570364d60c1c443eb546b0a499badf73531243d5.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/d871e0d7d3067c1d81027220570364d60c1c443eb546b0a499badf73531243d5.png",
     "edition": "custom",
     "name": "花火师",
     "ability": "每个夜晚*，你可以选择一名除你以外的玩家：如果他是善良的，今晚任何玩家使用自身能力选择你们之一作为目标时，改为选中另一名玩家。",
@@ -185,7 +185,7 @@
   },
   {
     "id": "jianghu_beimianwushi",
-    "image": "/scripts/assets/community/c3584dda16f27baca8b1eef745b8e3b5736fdaab2d76bc359996ad060385a0ba.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/c3584dda16f27baca8b1eef745b8e3b5736fdaab2d76bc359996ad060385a0ba.png",
     "edition": "custom",
     "name": "北面武士",
     "ability": "每个夜晚*，你要选择一名除你以外的玩家：如果他是镇民，他不会在今晚死亡，如果你死亡，他也死亡。",
@@ -202,7 +202,7 @@
   },
   {
     "id": "10_city_of_illusio",
-    "image": "/scripts/assets/community/95195139b57a9d8f22716dee56cc5906cccee58149667f0bf5590b9e79f18c3a.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/95195139b57a9d8f22716dee56cc5906cccee58149667f0bf5590b9e79f18c3a.png",
     "reminders": [
       "已选择",
       "标记"
@@ -249,7 +249,7 @@
   },
   {
     "id": "shamoluotuo111",
-    "image": "/scripts/assets/community/b72438c76fa0b18dbcc7dec510b54405eeaf3be0e1496233d33866eb4573e57f.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/b72438c76fa0b18dbcc7dec510b54405eeaf3be0e1496233d33866eb4573e57f.png",
     "edition": "custom",
     "name": "使节♦",
     "ability": "每个夜晚限一次，一名玩家在使用自身能力选择邪恶玩家时会改为选中你。",
@@ -266,7 +266,7 @@
   },
   {
     "id": "zabusini111",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "name": "魔像",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "BanxianButton",
-    "image": "/scripts/assets/community/7eca8d9631e41e74ab2a763f309c4a6d9af774ace2b6c8af710a7dea1f4e9fac.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/7eca8d9631e41e74ab2a763f309c4a6d9af774ace2b6c8af710a7dea1f4e9fac.png",
     "edition": "custom",
     "name": "半仙♦",
     "ability": "任何在夜晚使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
@@ -294,7 +294,7 @@
   },
   {
     "id": "youke",
-    "image": "/scripts/assets/community/7d434201c81bfa0026de47c54e87be782ac48fc9c962c7f1570033e463d1cf21.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/7d434201c81bfa0026de47c54e87be782ac48fc9c962c7f1570033e463d1cf21.png",
     "edition": "custom",
     "name": "天外来客♦",
     "ability": "每个夜晚，一名玩家的信息会变得毫无意义，即使你已死亡。",
@@ -309,7 +309,7 @@
   },
   {
     "id": "chukouchengzhang",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "name": "灵言师",
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
@@ -326,7 +326,7 @@
   },
   {
     "id": "tousioahsdoasidhas",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "name": "限",
     "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
@@ -347,7 +347,7 @@
   },
   {
     "id": "weishenmebushilianjinshushi111",
-    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
     "edition": "custom",
     "name": "科学怪人",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -362,7 +362,7 @@
   },
   {
     "id": "29_baobao",
-    "image": "/scripts/assets/community/12a080369fad8a310ee9f68f555c6eded2f27c5a94cdc8769e2aa8b4613ff691.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/12a080369fad8a310ee9f68f555c6eded2f27c5a94cdc8769e2aa8b4613ff691.png",
     "remindersGlobal": [
       "初始玩偶",
       "新玩偶"
@@ -376,7 +376,7 @@
   },
   {
     "id": "haliluya111",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "name": "哈迪寂亚",
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
@@ -397,7 +397,7 @@
   },
   {
     "id": "BoomdandyButton",
-    "image": "/scripts/assets/community/cdf645d0c47042883227883f1da9b8f38c4264b5316b5d40b67f69b1fe8636bc.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/cdf645d0c47042883227883f1da9b8f38c4264b5316b5d40b67f69b1fe8636bc.png",
     "edition": "custom",
     "name": "炸弹人",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。一分钟之后，被最多玩家手指指着的玩家死亡。",
@@ -412,7 +412,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名存活的善良玩家：他会被唤醒并要选择除他以外的一名存活玩家，他们死亡。如果你以这种方式死亡，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/f3042734ee1cd378c435f72970fb97c66c99dcc2b415c2a8c8df8b496c5793bf.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/f3042734ee1cd378c435f72970fb97c66c99dcc2b415c2a8c8df8b496c5793bf.png",
     "edition": "custom",
     "flavor": "",
     "id": "ezihua",
@@ -447,7 +447,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -464,7 +464,7 @@
   },
   {
     "id": "shengjiezhihun",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "name": "圣洁之魂",
     "setup": false,
@@ -485,7 +485,7 @@
     "name_eng": "Boot-legger",
     "id": "sihuoshangren",
     "ability": "在剧本设置中四名镇民成为外来者，四名外来者成为镇民。部分角色的能力描述会添加或减少\"即使你已死亡\"。",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "edition": "custom"
   },
   {
@@ -499,12 +499,12 @@
     "name_eng": "Boot-legger",
     "id": "sihuoshangren2",
     "ability": "一名玩家获得一个不在场的能力直到他死亡，且被当做该能力所属的角色。选择了该玩家的善良玩家会从他这里获取这个能力。建议使用角色名后带有\"♦\"的能力。",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "edition": "custom"
   },
   {
     "id": "112222222222435325645742222222222222333_meta",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "name": "炼金术士&科学怪人",
     "team": "a jinxed",
     "setup": false,
@@ -513,7 +513,7 @@
   },
   {
     "id": "86254951491419416542654265416405459_meta",
-    "image": "/scripts/assets/community/b93d0e4cb13853f43a18cd8e9153084151e4fa423508b07cda3fc72934583002.png",
+    "image": "/scripts/assets/community-tao-jin-chao-a37c9ef9/b93d0e4cb13853f43a18cd8e9153084151e4fa423508b07cda3fc72934583002.png",
     "name": "毒蛇&科学怪人",
     "team": "a jinxed",
     "setup": false,

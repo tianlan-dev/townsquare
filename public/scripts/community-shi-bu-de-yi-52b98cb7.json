@@ -11,7 +11,7 @@
   },
   {
     "id": "noble_h302_involuntarychoice",
-    "image": "/scripts/assets/community/cbec0fae8d221f8551f2072334c6a61daf3dbddc2217936e6d1d30ad22b9c6ea.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/cbec0fae8d221f8551f2072334c6a61daf3dbddc2217936e6d1d30ad22b9c6ea.png",
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
     "reminders": [
       "得知"
@@ -24,7 +24,7 @@
   },
   {
     "id": "yinyangshi_h302_involuntarychoice",
-    "image": "/scripts/assets/community/4bda6e923210ffbb7629b1d2334beef78f205b6d8b172c8e3de589d6ae78065e.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/4bda6e923210ffbb7629b1d2334beef78f205b6d8b172c8e3de589d6ae78065e.png",
     "firstNightReminder": "Show the Yinyangshi the 4 character tokens.",
     "reminders": [
       "得知"
@@ -37,7 +37,7 @@
   },
   {
     "id": "shugenja_h302_involuntarychoice",
-    "image": "/scripts/assets/community/3e713a0523d45f5ca48ac8ea666614e24304c51586fb7b04d3a40f7d986bd101.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/3e713a0523d45f5ca48ac8ea666614e24304c51586fb7b04d3a40f7d986bd101.png",
     "firstNightReminder": "Point horizontally in the direction of the closest evil player to the Shugenja. Point to either direction of your choice if the evil players on both sides are equidistant.",
     "name": "修行者",
     "team": "townsfolk",
@@ -47,7 +47,7 @@
   },
   {
     "id": "herbdoctor_h302_involuntarychoice",
-    "image": "/scripts/assets/community/ed23c229360580022cdc2299d7f304ee6346ee5a76f9c08e569554b9dca679fe.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/ed23c229360580022cdc2299d7f304ee6346ee5a76f9c08e569554b9dca679fe.png",
     "firstNightReminder": "The Herb Doctor points to any player. Write a word referring to that player’s ability on a piece of paper or a phone or other device and show it to the Herb Doctor.",
     "otherNightReminder": "The Herb Doctor points to any player. Write a word referring to that player’s ability on a piece of paper or a phone or other device and show it to the Herb Doctor.",
     "name": "郎中",
@@ -59,7 +59,7 @@
   },
   {
     "id": "balloonist_h302_involuntarychoice",
-    "image": "/scripts/assets/community/7e7b66f81385051bc6a33dae6e73ae149934121c1e6a481bf63868dbea125fe0.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/7e7b66f81385051bc6a33dae6e73ae149934121c1e6a481bf63868dbea125fe0.png",
     "firstNightReminder": "Point to a player. Place the Balloonist's Seen reminder next to that character.",
     "otherNightReminder": "Choose a player with a character type that is different to the player that has a Seen reminder. Point to that player. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
@@ -75,7 +75,7 @@
   },
   {
     "id": "dreamer_h302_involuntarychoice",
-    "image": "/scripts/assets/community/15512e5f0624dc67a0ea8e7b424f6be2bc0026b017f64e7367c659e36c34ddd7.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/15512e5f0624dc67a0ea8e7b424f6be2bc0026b017f64e7367c659e36c34ddd7.png",
     "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "name": "筑梦师",
@@ -87,7 +87,7 @@
   },
   {
     "id": "snakecharmer_h302_involuntarychoice",
-    "image": "/scripts/assets/community/9818a2c524c733a857f8df3545dd3213e3fe364fbffecc39e7f1d99550e0dc3e.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/9818a2c524c733a857f8df3545dd3213e3fe364fbffecc39e7f1d99550e0dc3e.png",
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
@@ -102,7 +102,7 @@
   },
   {
     "id": "wigsnatcher_h302_involuntarychoice",
-    "image": "/scripts/assets/community/07cb0aac550d09c35d08fa859063414339031f606f48984cf119e6df4538233a.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/07cb0aac550d09c35d08fa859063414339031f606f48984cf119e6df4538233a.png",
     "otherNightReminder": "The Wig Snatcher chooses a player.",
     "reminders": [
       "改造"
@@ -115,7 +115,7 @@
   },
   {
     "id": "innkeeper_h302_involuntarychoice",
-    "image": "/scripts/assets/community/316d2a0480b14538561911718273e0fd3f4a574e4a7d94d1d14f8bd8e57d3f83.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/316d2a0480b14538561911718273e0fd3f4a574e4a7d94d1d14f8bd8e57d3f83.png",
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
       "保护",
@@ -129,7 +129,7 @@
   },
   {
     "id": "firewatcher_h302_involuntarychoice",
-    "image": "/scripts/assets/community/776fe68d0a533678bea938a1c5cde6c9c3ada372bf3527cff339574056db534c.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/776fe68d0a533678bea938a1c5cde6c9c3ada372bf3527cff339574056db534c.png",
     "otherNightReminder": "The Firewatcher holds up a number of fingers (0, 1, 2 etc.). Place the PROTECTED reminders by the two players that many steps away on both sides. If either would die tonight, they survive, and the Firewatcher might die instead, but nobody else.",
     "reminders": [
       "保护",
@@ -143,7 +143,7 @@
   },
   {
     "id": "courier_h302_involuntarychoice",
-    "image": "/scripts/assets/community/99cbda4ef5162b07c181bee695d60bfbfa764b617d1aa3f1e50082304b99cd97.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/99cbda4ef5162b07c181bee695d60bfbfa764b617d1aa3f1e50082304b99cd97.png",
     "reminders": [
       "Complete",
       "1",
@@ -157,7 +157,7 @@
   },
   {
     "id": "savant_h302_involuntarychoice",
-    "image": "/scripts/assets/community/b32a3508c4f25a4c4feb1d09eab8bfe8c57abb5efc11e4ade7bc97dcac3f9313.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/b32a3508c4f25a4c4feb1d09eab8bfe8c57abb5efc11e4ade7bc97dcac3f9313.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -165,7 +165,7 @@
   },
   {
     "id": "steeplejack_h302_involuntarychoice",
-    "image": "/scripts/assets/community/024255fd0e347bbd881dc3094c5e180960bba9398aed51578c5c80bb96d4671d.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/024255fd0e347bbd881dc3094c5e180960bba9398aed51578c5c80bb96d4671d.png",
     "otherNightReminder": "If the Steeplejack died tonight: the Steeplejack points to two characters with \"You start knowing\" in their ability's text: show the Steeplejack information those characters could learn.",
     "name": "高空工人",
     "team": "townsfolk",
@@ -175,7 +175,7 @@
   },
   {
     "id": "moonflower_h302_involuntarychoice",
-    "image": "/scripts/assets/community/6ed723399c45bf460f2d1c658be0ee891a525507d519ca600706e873a0196cd8.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/6ed723399c45bf460f2d1c658be0ee891a525507d519ca600706e873a0196cd8.png",
     "reminders": [
       "枯萎"
     ],
@@ -186,7 +186,7 @@
   },
   {
     "id": "penitent_h302_involuntarychoice",
-    "image": "/scripts/assets/community/8bb3c49a06b2a5d7008748c3ac53d092aa44f57046c2e8059c2d6520e1c65e99.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/8bb3c49a06b2a5d7008748c3ac53d092aa44f57046c2e8059c2d6520e1c65e99.png",
     "otherNightReminder": "If the Pentient died today or tonight, wake the Demon. Show them the \"This character affected you\" token, and then the Penitent token. They shake their head or nod. If they nod, place the \"Doubled End\" reminder: they kill two players every night from now on.",
     "reminders": [
       "Judgement Tonight"
@@ -203,7 +203,7 @@
   },
   {
     "id": "recluse_h302_involuntarychoice",
-    "image": "/scripts/assets/community/e766b3998117a2fb94684854c755f24eba922dfd715ad322b6f0b07d14f77426.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/e766b3998117a2fb94684854c755f24eba922dfd715ad322b6f0b07d14f77426.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。 ",
@@ -211,7 +211,7 @@
   },
   {
     "id": "occultist_h302_involuntarychoice",
-    "image": "/scripts/assets/community/1798254bafd79264ac541cf92cd5c58089a7469ef3b733c2f9398588ffc6dce8.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/1798254bafd79264ac541cf92cd5c58089a7469ef3b733c2f9398588ffc6dce8.png",
     "reminders": [
       "失去兴趣",
       "告知"
@@ -223,7 +223,7 @@
   },
   {
     "id": "crawler_h302_involuntarychoice",
-    "image": "/scripts/assets/community/17b612083da1c740cc22d2bd15314080f5e4f21b5e18c933b5a89b428383e873.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/17b612083da1c740cc22d2bd15314080f5e4f21b5e18c933b5a89b428383e873.png",
     "firstNightReminder": "The Crawler learns a player.",
     "otherNightReminder": "If the Crawler's target has died, the Crawler learns another player. Then if a player is marked **EXECUTED**, show the target the Crawler's character token. ",
     "reminders": [
@@ -239,7 +239,7 @@
   },
   {
     "id": "hulijing_h302_involuntarychoice",
-    "image": "/scripts/assets/community/56cbf99e5fee87c4cff65c37ec7ad508e7f44a72967779f498d72398f3f42bd8.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/56cbf99e5fee87c4cff65c37ec7ad508e7f44a72967779f498d72398f3f42bd8.png",
     "firstNightReminder": "Show the Huli Jing 5 out-of-play characters: note which ones using a notes app. Then, the Huli Jing chooses one of them: mark that as their \"Current Form\". Until dusk, run the Huli Jing as though they were that character, and you may have them register as though they were that character & alignment.",
     "otherNightReminder": "The Huli Jing chooses one of the 5 characters they were shown at the start of the game: mark that as their \"Current Form\". Until dusk, run the Huli Jing as though they were that character, and you may have them register as though they were that character & alignment.",
     "reminders": [
@@ -255,7 +255,7 @@
   },
   {
     "id": "esper_h302_involuntarychoice",
-    "image": "/scripts/assets/community/edc2c8d24fe172b4cd7b6cdc7f51f3266876771b03a58080d3adf6a001ba4dc8.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/edc2c8d24fe172b4cd7b6cdc7f51f3266876771b03a58080d3adf6a001ba4dc8.png",
     "firstNightReminder": "Show the Esper the Grimoire. They select a character, a reminder, and a player by placing their Character, Reminder, and Player reminders by them. Wake the Demon; show them the marked character, reminder token, and point to the marked player.",
     "otherNightReminder": "Show the Esper the Grimoire. They select a character, a reminder, and a player by placing their Character, Reminder, and Player reminders by them. Wake the Demon; show them the marked character, reminder token, and point to the marked player.",
     "reminders": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "bugkeeper_h302_involuntarychoice",
-    "image": "/scripts/assets/community/1b67fc0327ce03ddb5b6d2eff3d5daee0d7dc737f959885539c1f938631f16f2.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/1b67fc0327ce03ddb5b6d2eff3d5daee0d7dc737f959885539c1f938631f16f2.png",
     "otherNightReminder": "Any player who nominated the alive Bug Keeper dies.",
     "reminders": [
       "Nominated",
@@ -287,7 +287,7 @@
   },
   {
     "id": "pukka_h302_involuntarychoice",
-    "image": "/scripts/assets/community/d26bc27aff628b1be9760e8e0f909d460481a5cb110fbfd5370436861530d0b4.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/d26bc27aff628b1be9760e8e0f909d460481a5cb110fbfd5370436861530d0b4.png",
     "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies. ",
     "reminders": [
@@ -303,7 +303,7 @@
   },
   {
     "id": "cawthane_h302_involuntarychoice",
-    "image": "/scripts/assets/community/beb02cb46050321a02476c8c967a303364a6bdad9b9a1a23becb3ca0c1029262.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/beb02cb46050321a02476c8c967a303364a6bdad9b9a1a23becb3ca0c1029262.png",
     "firstNightReminder": "During the Minion info step, inform the Minions the Cawthane is in play. They point to players: move the \"Coronation\" reminder besides the player who got the most votes.  Replace their token with the Cawthane's, and inform them they are now the evil Cawthane.",
     "otherNightReminder": "The Cawthane points to a player. That player dies.",
     "reminders": [
@@ -320,7 +320,7 @@
   },
   {
     "id": "fanggu_h302_involuntarychoice",
-    "image": "/scripts/assets/community/39f8d36d27a671b2b177770bd9baad090b768a19a1741966d2ccc69bdef7dcdd.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/39f8d36d27a671b2b177770bd9baad090b768a19a1741966d2ccc69bdef7dcdd.png",
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
       "死亡",
@@ -335,7 +335,7 @@
   },
   {
     "id": "hundun_h302_involuntarychoice",
-    "image": "/scripts/assets/community/5cb764c08a89638e5fca4b24919c1349468363a78c6eb9537f39ce5872b3d01f.png",
+    "image": "/scripts/assets/community-shi-bu-de-yi-52b98cb7/5cb764c08a89638e5fca4b24919c1349468363a78c6eb9537f39ce5872b3d01f.png",
     "otherNightReminder": "The Hun Dun points to a player. That player dies.",
     "reminders": [
       "死亡",

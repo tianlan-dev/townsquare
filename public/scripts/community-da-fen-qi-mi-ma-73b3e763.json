@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "达芬奇密码",
     "author": "太一",
-    "logo": "/scripts/assets/community/3ea4e57e364879db0083c708bcb6f7619be0c894570a539affab58ccb20143cd.png",
+    "logo": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/3ea4e57e364879db0083c708bcb6f7619be0c894570a539affab58ccb20143cd.png",
     "almanac": "https://www.bloodstar.xyz/p/humlet/Dafenqi/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "7_dafenqi",
-    "image": "/scripts/assets/community/07235e88a213de1c8641c45b8ab0b50b70e7cda344c9479cdd787c1715d3f564.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/07235e88a213de1c8641c45b8ab0b50b70e7cda344c9479cdd787c1715d3f564.png",
     "firstNightReminder": "得知外来者或爪牙",
     "otherNightReminder": "若死亡得知外来者或爪牙",
     "setup": true,
@@ -28,7 +28,7 @@
   },
   {
     "id": "8_dafenqi",
-    "image": "/scripts/assets/community/380543e1d2bf3f35a756e2033ee690304c082a93c58585064019982566cbe874.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/380543e1d2bf3f35a756e2033ee690304c082a93c58585064019982566cbe874.png",
     "firstNightReminder": "得知一个在场角色，并在该玩家角色旁放置“得知”标记",
     "otherNightReminder": "若白天她猜对，得知另一个在场角色，并在该玩家角色旁放置“得知”标记",
     "reminders": [
@@ -45,7 +45,7 @@
   },
   {
     "id": "_dafenqi",
-    "image": "/scripts/assets/community/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "25_dafenqi",
-    "image": "/scripts/assets/community/d8b758840b74347de3bb506c3d70b2cc18f60d378e3c687131aa68ffa1f78936.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/d8b758840b74347de3bb506c3d70b2cc18f60d378e3c687131aa68ffa1f78936.png",
     "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。如果修行者两侧最近的邪恶玩家与他的距离相等，由你来决定告诉他什么样的信息，并用手指指向对应的一侧。让修行者重新入睡。",
     "name": "修行者",
     "team": "townsfolk",
@@ -72,7 +72,7 @@
   },
   {
     "id": "10_dafenqi",
-    "image": "/scripts/assets/community/acd7b5278623e4e81e535310019e53a423355d47400275c1db9698b7858cf5c5.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/acd7b5278623e4e81e535310019e53a423355d47400275c1db9698b7858cf5c5.png",
     "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
     "name": "侍女",
@@ -85,7 +85,7 @@
   },
   {
     "id": "53_dafenqi",
-    "image": "/scripts/assets/community/6735294a112ec6455feaff47851b73dda7d948dede807d53c505f65e555f9437.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/6735294a112ec6455feaff47851b73dda7d948dede807d53c505f65e555f9437.png",
     "reminders": [
       "错误信息"
     ],
@@ -99,7 +99,7 @@
   },
   {
     "id": "9_dafenqi",
-    "image": "/scripts/assets/community/093166233c2c3b5c20b458e4bc11a1899182656152301c28a6b7cf74bb0ef417.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/093166233c2c3b5c20b458e4bc11a1899182656152301c28a6b7cf74bb0ef417.png",
     "otherNightReminder": "如果游歌者在白天公开选择了，唤醒并告知他此刻场上因他醉酒的人数。",
     "reminders": [
       "醉酒"
@@ -114,7 +114,7 @@
   },
   {
     "id": "50_dafenqi",
-    "image": "/scripts/assets/community/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -128,7 +128,7 @@
   },
   {
     "id": "19_dafenqi",
-    "image": "/scripts/assets/community/3a71494dfc260e1ee3a2ac089c813f5bd5d593a2b9ac02c56e76de0d994106a2.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/3a71494dfc260e1ee3a2ac089c813f5bd5d593a2b9ac02c56e76de0d994106a2.png",
     "otherNightReminder": "让驱魔人选择一名玩家，不能是上一夜他选择过的玩家。让驱魔人重新入睡。如果驱魔人选中了恶魔：唤醒恶魔。展示“该角色的能力对你生效”信息标记和驱魔人角色标记。指向驱魔人玩家。",
     "reminders": [
       "被选择"
@@ -142,7 +142,7 @@
   },
   {
     "id": "12_dafenqi",
-    "image": "/scripts/assets/community/85ac9099c206805586e5a234b7f5baa3b3a97df7ffa9bb1db88cffcc6738a93e.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/85ac9099c206805586e5a234b7f5baa3b3a97df7ffa9bb1db88cffcc6738a93e.png",
     "otherNightReminder": "唤醒并询问公爵是否发动能力",
     "reminders": [
       "死亡",
@@ -161,7 +161,7 @@
   },
   {
     "id": "56_dafenqi",
-    "image": "/scripts/assets/community/62aae27af91ea36030df4fa47e850804381b03ce74b804a14e5d9c400e38340c.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/62aae27af91ea36030df4fa47e850804381b03ce74b804a14e5d9c400e38340c.png",
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -176,7 +176,7 @@
   },
   {
     "id": "54_dafenqi",
-    "image": "/scripts/assets/community/840ae62de04a7a3873c7972387302211f264eb1964ee413a0b6a31727c264d36.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/840ae62de04a7a3873c7972387302211f264eb1964ee413a0b6a31727c264d36.png",
     "otherNightReminder": "如果需要，唤醒他",
     "reminders": [
       "？"
@@ -194,7 +194,7 @@
   },
   {
     "id": "51_dafenqi",
-    "image": "/scripts/assets/community/4604cde4ff798159e8baeb5868005b365ec743f23cfe6e5f2af488d0715eb01c.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/4604cde4ff798159e8baeb5868005b365ec743f23cfe6e5f2af488d0715eb01c.png",
     "otherNightReminder": "如果死亡唤醒他，并告知他所有类型的玩家（除旅行者）各一名。",
     "reminders": [
       "醉酒"
@@ -209,7 +209,7 @@
   },
   {
     "id": "17_dafenqi",
-    "image": "/scripts/assets/community/24b456001f7503adeee30bce18375b6a8df9c6286e039e74c99a22a542999701.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/24b456001f7503adeee30bce18375b6a8df9c6286e039e74c99a22a542999701.png",
     "reminders": [
       "舔狗替死"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "id": "21_dafenqi",
-    "image": "/scripts/assets/community/07880acbfc073e9391adb10b68d491482cb354aeb7002fd88835b4e7080e3147.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/07880acbfc073e9391adb10b68d491482cb354aeb7002fd88835b4e7080e3147.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -235,7 +235,7 @@
   },
   {
     "id": "27_dafenqi",
-    "image": "/scripts/assets/community/41713504a044e92279f0947a2dbf949b05004b45372f9ee9af295b3b8b70c1b8.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/41713504a044e92279f0947a2dbf949b05004b45372f9ee9af295b3b8b70c1b8.png",
     "firstNightReminder": "唤醒所有爪牙，并告知他们场中有落难少女。",
     "reminders": [
       "已被猜测"
@@ -249,7 +249,7 @@
   },
   {
     "id": "6_dafenqi",
-    "image": "/scripts/assets/community/3a67acbcaeed5cc1a923e53c58a831b2d801882ec868eeeed83e20aa66ad7247.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/3a67acbcaeed5cc1a923e53c58a831b2d801882ec868eeeed83e20aa66ad7247.png",
     "otherNightReminder": "在当晚，一同唤醒所有爪牙和恶魔。对他们展示“该角色的能力对你生效”信息标记，然后展示帽匠角色标记。每名以此被唤醒的玩家可以选择摇头或指向角色列表上与自己当前角色类型相同的一个角色。如果一名玩家在做出自己的选择后会使得自己的角色与一名其他玩家选择的角色相同，对他摇头示意他重新选择。在选择完成后让他重新入睡。移除“今晚茶会”提示标记。根据这些玩家的选择，在魔典上执行相应的角色变化操作。",
     "reminders": [
       "今晚茶会"
@@ -263,7 +263,7 @@
   },
   {
     "id": "2_dafenqi",
-    "image": "/scripts/assets/community/baf0db840a0e0de67a37f711d03fa71b7592aa3ed80143ee286d0d81ef072b7f.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/baf0db840a0e0de67a37f711d03fa71b7592aa3ed80143ee286d0d81ef072b7f.png",
     "firstNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
     "otherNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
     "remindersGlobal": [
@@ -280,7 +280,7 @@
   },
   {
     "id": "18_dafenqi",
-    "image": "/scripts/assets/community/2204d390084b263a254e2f4006fdc9e374681222326dceb04ca5937e5f92df99.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/2204d390084b263a254e2f4006fdc9e374681222326dceb04ca5937e5f92df99.png",
     "reminders": [
       "中毒",
       "胜负反转",
@@ -295,7 +295,7 @@
   },
   {
     "id": "49_dafenqi",
-    "image": "/scripts/assets/community/ff58eb487786e8d6836a28c4d56b5dbea290e32b332328c957ed69a2f9ec76f7.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/ff58eb487786e8d6836a28c4d56b5dbea290e32b332328c957ed69a2f9ec76f7.png",
     "name": "主谋",
     "team": "minion",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -304,7 +304,7 @@
   },
   {
     "id": "3_dafenqi",
-    "image": "/scripts/assets/community/be897edf126014cf1f3361339dcd0ef9655374755c8428e6d0005519f44c526b.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/be897edf126014cf1f3361339dcd0ef9655374755c8428e6d0005519f44c526b.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -322,7 +322,7 @@
   },
   {
     "id": "5_dafenqi",
-    "image": "/scripts/assets/community/240f10e2c2e90e97f44ad9b49d4cff952214ce7ccd3feeddddef0e4ae85c6965.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/240f10e2c2e90e97f44ad9b49d4cff952214ce7ccd3feeddddef0e4ae85c6965.png",
     "otherNightReminder": "唤醒地狱犬选择一名玩家，如果是邪恶的爪牙，杀死他并保留他的能力，再让地狱犬选择一名玩家。",
     "remindersGlobal": [
       "死亡",
@@ -338,7 +338,7 @@
   },
   {
     "id": "4_dafenqi",
-    "image": "/scripts/assets/community/a2c62f3ab38f59e210bca1033a2a24a44cbdea0f0bb80b6927c705e17313d1c8.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/a2c62f3ab38f59e210bca1033a2a24a44cbdea0f0bb80b6927c705e17313d1c8.png",
     "otherNightReminder": "让涡流选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -352,7 +352,7 @@
   },
   {
     "id": "35_dafenqi",
-    "image": "/scripts/assets/community/b2a3bee25e6adf74e24ae4553d4ee4ccd0e71e28b1fc060128bfdab97c11b4f3.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/b2a3bee25e6adf74e24ae4553d4ee4ccd0e71e28b1fc060128bfdab97c11b4f3.png",
     "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -367,7 +367,7 @@
   },
   {
     "id": "55_dafenqi",
-    "image": "/scripts/assets/community/c2ec5b46b9d721029adbfcc55be08add83a1ae86f55a09d2b12dcee32c639bc8.png",
+    "image": "/scripts/assets/community-da-fen-qi-mi-ma-73b3e763/c2ec5b46b9d721029adbfcc55be08add83a1ae86f55a09d2b12dcee32c639bc8.png",
     "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
     "reminders": [
       "死亡",

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "誓约·巴别塔正式版",
     "author": "泽度哥",
-    "logo": "/scripts/assets/community/f0a959ae3df1b3e3ff66477b6a53fd76d08adca44f7176aca950483ccc8fe277.png",
+    "logo": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/f0a959ae3df1b3e3ff66477b6a53fd76d08adca44f7176aca950483ccc8fe277.png",
     "state": [
       {
         "stateName": "巴别塔审判",
@@ -45,7 +45,7 @@
   },
   {
     "id": "_babieta",
-    "image": "/scripts/assets/community/195767258ec68271b77416012994b1c31f2f636d9e94ec11ff4e2e0899d4e858.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/195767258ec68271b77416012994b1c31f2f636d9e94ec11ff4e2e0899d4e858.png",
     "name": "誓约巴别塔",
     "team": "fabled",
     "ability": "审判玩法见状态栏“巴别塔审判”  游戏第五日结束时，或善良阵营（怪人除外）被投票处决时，邪恶阵营获胜。",
@@ -53,7 +53,7 @@
   },
   {
     "id": "1_babieta",
-    "image": "/scripts/assets/community/e70f7d7706dd4ed0e467a2faba48ce70fcacd8da5516753daa78ecd94937a72d.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/e70f7d7706dd4ed0e467a2faba48ce70fcacd8da5516753daa78ecd94937a72d.png",
     "name": "勇士",
     "team": "townsfolk",
     "firstNight": 19,
@@ -63,7 +63,7 @@
   },
   {
     "id": "2_babieta",
-    "image": "/scripts/assets/community/ba8205e99d527b684c625f0e0d840098ce57c909000812e77736e627c8aa17f3.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/ba8205e99d527b684c625f0e0d840098ce57c909000812e77736e627c8aa17f3.png",
     "otherNightReminder": "如果诗人成为审判官， 当晚你得知被审判者的角色类型。",
     "reminders": [
       "得知"
@@ -76,7 +76,7 @@
   },
   {
     "id": "3_babieta",
-    "image": "/scripts/assets/community/f676ae3625089383f8502a57437a74265be707080d8df309c96fc0468f0b0af2.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/f676ae3625089383f8502a57437a74265be707080d8df309c96fc0468f0b0af2.png",
     "otherNightReminder": "如果术士今天被审判并且存活下来，当晚他变为一个不在场的镇民角色。",
     "name": "术士",
     "team": "townsfolk",
@@ -86,7 +86,7 @@
   },
   {
     "id": "4_babieta",
-    "image": "/scripts/assets/community/9eb688b14f7ce7611c48dc2521ccaf1941c10f837d480784272db578b79ffaaa.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/9eb688b14f7ce7611c48dc2521ccaf1941c10f837d480784272db578b79ffaaa.png",
     "otherNightReminder": "如果隐士使用能力，告知他上一次审判结果是否可靠。之后不再唤醒隐士。",
     "name": "隐士",
     "team": "townsfolk",
@@ -99,7 +99,7 @@
   },
   {
     "id": "5_babieta",
-    "image": "/scripts/assets/community/09c1e3a879ca65cf0686133f55ac3e6e57911c29fd719ab33094c6460a34948e.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/09c1e3a879ca65cf0686133f55ac3e6e57911c29fd719ab33094c6460a34948e.png",
     "firstNightReminder": "如果研究员选择一个角色，告知他该角色是否在场。之后不再唤醒研究员。",
     "otherNightReminder": "如果研究员选择一个角色，告知他该角色是否在场。之后不再唤醒研究员。",
     "reminders": [
@@ -114,7 +114,7 @@
   },
   {
     "id": "12_babieta",
-    "image": "/scripts/assets/community/c05da4bb80f374689010101fb77acec777dce2b3d46caee1195ecbffdb664f14.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/c05da4bb80f374689010101fb77acec777dce2b3d46caee1195ecbffdb664f14.png",
     "firstNightReminder": "猎人可以选择一个其他角色，并指定锁定或逃脱。放置该标记到该角色旁。此后不要再唤醒猎人。",
     "otherNightReminder": "猎人可以选择一个其他角色，并指定锁定或逃脱。放置该标记到该角色旁。此后不要再唤醒猎人。",
     "reminders": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "6_babieta",
-    "image": "/scripts/assets/community/c3e96d0d38c407520595218292e553fdde03a6b698d6620c44cff3a594a2c568.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/c3e96d0d38c407520595218292e553fdde03a6b698d6620c44cff3a594a2c568.png",
     "name": "信徒",
     "team": "outsider",
     "remindersGlobal": [
@@ -144,7 +144,7 @@
   },
   {
     "id": "7_babieta",
-    "image": "/scripts/assets/community/2488d86c1401a27b188025ea19d748b2c19d492e0df7bd707261dc6f72a4cf3d.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/2488d86c1401a27b188025ea19d748b2c19d492e0df7bd707261dc6f72a4cf3d.png",
     "otherNightReminder": "如果怪人完成了两项任务，当晚他独自获胜。",
     "name": "怪人",
     "team": "outsider",
@@ -160,7 +160,7 @@
   },
   {
     "id": "8_babieta",
-    "image": "/scripts/assets/community/f1915d1cbdb25522c34541811740e0883215b9f8cc6adb388d3c293b4b043977.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/f1915d1cbdb25522c34541811740e0883215b9f8cc6adb388d3c293b4b043977.png",
     "name": "火神",
     "team": "minion",
     "reminders": [
@@ -176,7 +176,7 @@
   },
   {
     "id": "9_babieta",
-    "image": "/scripts/assets/community/30e8bf802710dad7b0048ec7ea58f91e76a3c970bd55c889ff2cc75b55231d93.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/30e8bf802710dad7b0048ec7ea58f91e76a3c970bd55c889ff2cc75b55231d93.png",
     "firstNightReminder": "如果逆转使用能力，则放置逆转、失去能力标记到他角色旁。",
     "otherNightReminder": "如果逆转使用能力，则放置逆转、失去能力标记到他角色旁。",
     "reminders": [
@@ -194,7 +194,7 @@
   },
   {
     "id": "10_babieta",
-    "image": "/scripts/assets/community/901ba7e4ebc47f75b3cb4f637ed7efa9e2091b1d4cd82fcc2e7c649571671b4f.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/901ba7e4ebc47f75b3cb4f637ed7efa9e2091b1d4cd82fcc2e7c649571671b4f.png",
     "firstNightReminder": "荒芜获得2层逃脱。荒芜要选择一个角色，如果该角色在场，荒芜得知他是谁。",
     "name": "荒芜",
     "team": "demon",
@@ -207,7 +207,7 @@
   },
   {
     "id": "11_babieta",
-    "image": "/scripts/assets/community/41c2b04c8b538aed66c316993a3ff0a2328bb4df6e701f5d910748ad1604eb9f.png",
+    "image": "/scripts/assets/community-shi-yue-ba-bie-ta-zheng-shi-ban-0fa561c0/41c2b04c8b538aed66c316993a3ff0a2328bb4df6e701f5d910748ad1604eb9f.png",
     "firstNightReminder": "战争查看魔典，然后选择一名玩家，他获得逃脱，如果他是善良的，他中毒。",
     "reminders": [
       "中毒"

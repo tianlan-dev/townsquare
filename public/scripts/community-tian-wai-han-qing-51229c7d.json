@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "天外寒情",
     "author": "Ben Burns",
-    "logo": "/scripts/assets/community/9c0a56a5a5af2280afda01b25d17a5c887ee609a44d4bd926fa3ab980147125a.png",
+    "logo": "/scripts/assets/community-tian-wai-han-qing-51229c7d/9c0a56a5a5af2280afda01b25d17a5c887ee609a44d4bd926fa3ab980147125a.png",
     "hideTitle": true,
     "firstNight": [
       "dusk",
@@ -52,7 +52,7 @@
   {
     "id": "kochanski",
     "image": [
-      "/scripts/assets/community/fe9ad9e1587bfc0e17f6c31b28fef45cec0c86b9f299f9aa8b8a7219c046434e.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/fe9ad9e1587bfc0e17f6c31b28fef45cec0c86b9f299f9aa8b8a7219c046434e.png"
     ],
     "firstNightReminder": "Wake Kochanski and show them two character tokens. Put them back to sleep.",
     "name": "科克汉斯基",
@@ -64,7 +64,7 @@
   {
     "id": "confidence",
     "image": [
-      "/scripts/assets/community/1f715ef9d9207df04a7d327ed6b40e09716fe6fb33150a7a7b696f13179cfb58.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/1f715ef9d9207df04a7d327ed6b40e09716fe6fb33150a7a7b696f13179cfb58.png"
     ],
     "firstNightReminder": "Ask the player to select clockwise or anti-clockwise, place the 'confident' token next to them. :reminder:",
     "otherNightReminder": "Ask the player to select clockwise or anti-clockwise, place the 'confident' token next to them. :reminder:",
@@ -81,7 +81,7 @@
   {
     "id": "vendingmachine",
     "image": [
-      "/scripts/assets/community/10f6e946b83a37c92f944180c225258d531d0b5ba37757e99e04ddc2519f250f.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/10f6e946b83a37c92f944180c225258d531d0b5ba37757e99e04ddc2519f250f.png"
     ],
     "firstNightReminder": "Wake the player and have them point to an evil character on the script. Point to two players and then put them back to sleep",
     "otherNightReminder": "Wake the player and have them point to an evil character on the script. Point to two players and then put them back to sleep",
@@ -95,7 +95,7 @@
   {
     "id": "kryten",
     "image": [
-      "/scripts/assets/community/00eb27fd0ec5cfa3ec699d96ce12e01e00eb330b58c0420a1a0d99afedbeca21.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/00eb27fd0ec5cfa3ec699d96ce12e01e00eb330b58c0420a1a0d99afedbeca21.png"
     ],
     "firstNightReminder": "Wake the player and show them clockwise, anti-clockwise, or zero.",
     "otherNightReminder": "Wake the player and show them clockwise, anti-clockwise, or zero.",
@@ -109,7 +109,7 @@
   {
     "id": "jimbexleyspeed",
     "image": [
-      "/scripts/assets/community/a721d7b944a514d0a5e58f36c0943bf688f642c1720e5d6f1a9778b2123dcc91.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/a721d7b944a514d0a5e58f36c0943bf688f642c1720e5d6f1a9778b2123dcc91.png"
     ],
     "otherNightReminder": "Wake up Jim Bexley Speed and have them select two players. If either of them selected another player tonight, point to one of the players. Otherwise, shake your head and put Jim Bexley Speed back to sleep.",
     "name": "吉姆·贝克斯利·斯皮德",
@@ -121,7 +121,7 @@
   {
     "id": "cat",
     "image": [
-      "/scripts/assets/community/31c8007e60472dc98ef5733e65811ae1d7716379b2cd3e19bd7b04e21da84c9f.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/31c8007e60472dc98ef5733e65811ae1d7716379b2cd3e19bd7b04e21da84c9f.png"
     ],
     "otherNightReminder": "Wake up Cat and direct them to select one of their living neighbours. Place the 'Safe' token next to their token and place the 'Drunk' token next to Cat's other living neighbour (if good). :reminder: :reminder:",
     "reminders": [
@@ -137,7 +137,7 @@
   {
     "id": "talkietoaster",
     "image": [
-      "/scripts/assets/community/99ecec93c529864d48d366ea541db35bbd35a2ad888d1c10bc767707f0487b4a.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/99ecec93c529864d48d366ea541db35bbd35a2ad888d1c10bc767707f0487b4a.png"
     ],
     "otherNightReminder": "Wake up Talkie Toaster and show them a number. :reminder:",
     "reminders": [
@@ -161,7 +161,7 @@
   {
     "id": "holly",
     "image": [
-      "/scripts/assets/community/6f9b05084ebabb869e11519515bbdadd5e4939e68801cb38e711dc741be6e93d.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/6f9b05084ebabb869e11519515bbdadd5e4939e68801cb38e711dc741be6e93d.png"
     ],
     "reminders": [
       "醉酒"
@@ -174,7 +174,7 @@
   {
     "id": "lister",
     "image": [
-      "/scripts/assets/community/4dd6548d0e5ca1671b0bc3b282a96eafd9852769d3147778416bedee2432c3ad.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/4dd6548d0e5ca1671b0bc3b282a96eafd9852769d3147778416bedee2432c3ad.png"
     ],
     "otherNightReminder": "Wake Lister and have them select three players. Show them a number, either one, two, or three.",
     "name": "李斯特",
@@ -186,7 +186,7 @@
   {
     "id": "skutter",
     "image": [
-      "/scripts/assets/community/874194e556022c509bf08ba3e418ca32649af05a3b8cb197165d7ed3ff97e365.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/874194e556022c509bf08ba3e418ca32649af05a3b8cb197165d7ed3ff97e365.png"
     ],
     "otherNightReminder": "Wake all living Skutters and have them select a player. Show them a number of characters equal to the number of living Skutters and then put them back to sleep.",
     "setup": true,
@@ -208,7 +208,7 @@
   {
     "id": "acerimmer",
     "image": [
-      "/scripts/assets/community/c3b16dced047f5e2aa8f484add5667b4b9e56244436b7376a1525971afe2ae2d.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/c3b16dced047f5e2aa8f484add5667b4b9e56244436b7376a1525971afe2ae2d.png"
     ],
     "otherNightReminder": "If Ace Rimmer died tonight, wake them and have them select a dead player. Place the 'What a Guy' reminder token next to them. Remove the death shroud from their token and announce their resurrection in the morning.",
     "reminders": [
@@ -223,7 +223,7 @@
   {
     "id": "suitcase",
     "image": [
-      "/scripts/assets/community/87025d4aa9faf7052c10ee6296d12ab32a7731add61ceb9ac3cf99ebfcafc6a6.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/87025d4aa9faf7052c10ee6296d12ab32a7731add61ceb9ac3cf99ebfcafc6a6.png"
     ],
     "setup": true,
     "otherNightReminder": "If the 'Owner Found' reminder token is next to the Suitcase's character token, wake the Suitcase and point to a player, then put them back to sleep. :reminder:",
@@ -239,7 +239,7 @@
   {
     "id": "jesus",
     "image": [
-      "/scripts/assets/community/cfc457300cb400e5a4a4ffc6fd7d116826c675e4ae030640d7411c7e58ff7782.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/cfc457300cb400e5a4a4ffc6fd7d116826c675e4ae030640d7411c7e58ff7782.png"
     ],
     "otherNightReminder": "If Jesus died tonight, wake the player and have them select a character. If the character is in play, point to the relevant player. If not, replace the 'Jesus' token with this character and place the 'Resurrected' reminder token next to them. :reminder:",
     "reminders": [
@@ -254,7 +254,7 @@
   {
     "id": "sparehead3",
     "image": [
-      "/scripts/assets/community/192b1ad59641e717b106d9c4573632b0b21a913bae5598b64d191d3ab10db19f.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/192b1ad59641e717b106d9c4573632b0b21a913bae5598b64d191d3ab10db19f.png"
     ],
     "firstNightReminder": "Select a good player and place the 'Droid Rot' token next to them in the grimoire. :reminder:",
     "reminders": [
@@ -269,7 +269,7 @@
   {
     "id": "duanedibley",
     "image": [
-      "/scripts/assets/community/98c49715af7ebc7c262ae7127674587b0bd999724a468ad2ad57f03b474c167e.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/98c49715af7ebc7c262ae7127674587b0bd999724a468ad2ad57f03b474c167e.png"
     ],
     "setup": true,
     "name": "杜安·迪布利",
@@ -286,7 +286,7 @@
   {
     "id": "rimmer",
     "image": [
-      "/scripts/assets/community/c4fd7ae9519d94fb0952fbebb25742041d9af3d18925e2fa2bf3b101057a547e.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/c4fd7ae9519d94fb0952fbebb25742041d9af3d18925e2fa2bf3b101057a547e.png"
     ],
     "otherNightReminder": "If the 'Mad' reminder token is next to Rimmer and Rimmer was executed today, you may select an alive good character token and place the 'Becomes Rimmer' token next to them. Wake that player and show them the 'You Are' reminder token and the Rimmer character token. Replace their character token with the Rimmer token.:reminder:",
     "reminders": [
@@ -302,7 +302,7 @@
   {
     "id": "captainhollister",
     "image": [
-      "/scripts/assets/community/589fc42e661da8204a3c8765b443f91947383f95a1c8aae0b78794f5921c1178.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/589fc42e661da8204a3c8765b443f91947383f95a1c8aae0b78794f5921c1178.png"
     ],
     "otherNightReminder": "If a player has the 'Turns Evil' reminder token next to them. Select one of their good, living neighbours. Wake that player and show them the 'You Are' card, before giving them a thumbs-down. :reminder:",
     "reminders": [
@@ -317,7 +317,7 @@
   {
     "id": "despairsquid",
     "image": [
-      "/scripts/assets/community/1de848ab520156c1f6da481a9279ae8e5a08281d5e642482a693b333bdfb7ff5.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/1de848ab520156c1f6da481a9279ae8e5a08281d5e642482a693b333bdfb7ff5.png"
     ],
     "firstNightReminder": "Wake the Despair Squid and have them select a player. Place the 'Poisoned' token next to each of their good-aligned neighbours. :reminder: :reminder:",
     "otherNightReminder": "Wake the Despair Squid and have them select a player. Place the 'Poisoned' token next to each of their good-aligned neighbours. :reminder: :reminder:",
@@ -336,7 +336,7 @@
   {
     "id": "queeg500",
     "image": [
-      "/scripts/assets/community/56ff36cf0eb31a6947eb063552a039c4de96ae6be0e8cd987e18d2057a690d22.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/56ff36cf0eb31a6947eb063552a039c4de96ae6be0e8cd987e18d2057a690d22.png"
     ],
     "otherNightReminder": "Wake the player and wait for them to either nod or shake their head. If they nod, have them select an evil player. Show them the 'You Are' card and the token of their new character. Put them to sleep, wake the player they selected and show them the 'You are card' and the Queeg 500 token. Swap the two tokens around in your grimoire.",
     "name": "奎格500",
@@ -348,7 +348,7 @@
   {
     "id": "unspeakableone",
     "image": [
-      "/scripts/assets/community/969dbab1751b7fe06956cb384034a84805e25932f224ac987eac8ac72f96f67f.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/969dbab1751b7fe06956cb384034a84805e25932f224ac987eac8ac72f96f67f.png"
     ],
     "otherNightReminder": "If the player was nominated today, wake them up and have them select a player to die. :reminder:",
     "reminders": [
@@ -364,7 +364,7 @@
   {
     "id": "mrflibble",
     "image": [
-      "/scripts/assets/community/a4631a381ca7639ca188ac6d33ce57d0c80b455bac683f427af6527c959ab526.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/a4631a381ca7639ca188ac6d33ce57d0c80b455bac683f427af6527c959ab526.png"
     ],
     "setup": true,
     "otherNightReminder": "If a player has the 'Turns Evil' reminder token next to them. Select one of their good, living neighbours. Wake that player and show them the 'You Are' card, before giving them a thumbs-down.:reminder:",
@@ -381,7 +381,7 @@
   {
     "id": "inquisitor",
     "image": [
-      "/scripts/assets/community/1220a97c2b092bf3370e433d6e3f88d6bc131715dd8e1cacfbd4d81ddd692caa.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/1220a97c2b092bf3370e433d6e3f88d6bc131715dd8e1cacfbd4d81ddd692caa.png"
     ],
     "firstNightReminder": "Wake up the Inquisitor and have them select a player. Put the 'Chosen' token next to that player and then show the Inquisitor that player's character token. :reminder:",
     "otherNightReminder": "Wake up the Inquisitor and point to the 'chosen' player. If the Inquisitor then nods, kill that player. Otherwise, allow them to select a different player to die and place the 'Once' token next to the Inquisitor and do not repeat this step again. Have the Inquisitor select a new player and put the 'Chosen' token next to that player and then show the Inquisitor that player's character token. :reminder:",
@@ -400,7 +400,7 @@
   {
     "id": "vindaloobeast",
     "image": [
-      "/scripts/assets/community/6a301a7a10f0fef97f858c7e3311f8d3d693eb42428398b1ce40760dd7bf2ce0.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/6a301a7a10f0fef97f858c7e3311f8d3d693eb42428398b1ce40760dd7bf2ce0.png"
     ],
     "otherNightReminder": "Wake the Vindaloo Beast and have them select a two player. Place the 'Dead' reminder token next to one of them.",
     "reminders": [
@@ -417,7 +417,7 @@
   {
     "id": "emohawk",
     "image": [
-      "/scripts/assets/community/226017b30654025885db308e85c1dae33e262e240644e564cfcd58cc6e89dbee.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/226017b30654025885db308e85c1dae33e262e240644e564cfcd58cc6e89dbee.png"
     ],
     "otherNightReminder": "The Emohawk chooses a player to die.:reminder:",
     "reminders": [
@@ -434,7 +434,7 @@
   {
     "id": "paranoia",
     "image": [
-      "/scripts/assets/community/e23e2d1282f8b8337ac235f5039517d795d39d6420aaf63c950c629a7653114a.png"
+      "/scripts/assets/community-tian-wai-han-qing-51229c7d/e23e2d1282f8b8337ac235f5039517d795d39d6420aaf63c950c629a7653114a.png"
     ],
     "otherNightReminder": "Wake Paranoia and have them select a player. Place the 'dead' token next to that player. :reminder:",
     "reminders": [

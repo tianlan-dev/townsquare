@@ -15,12 +15,12 @@
     "name": "首席律师",
     "team": "fabled",
     "ability": "每个被提名者要选择一名玩家：在投票前，只有他可以发言，并且他要“疯狂”地证明被提名者是善良的，否则他可能死亡。",
-    "image": "/scripts/assets/community/174f18b1e1b4c21feefcff653d3eb8b14be6f18fc42299acfd55598da941cda0.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/174f18b1e1b4c21feefcff653d3eb8b14be6f18fc42299acfd55598da941cda0.png",
     "edition": "custom"
   },
   {
     "id": "1_obstrvctionofjustice",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -28,7 +28,7 @@
   },
   {
     "id": "2_obstrvctionofjustice",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "reminders": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "3_obstrvctionofjustice",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -57,7 +57,7 @@
   },
   {
     "id": "4_obstrvctionofjustice",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -65,7 +65,7 @@
   },
   {
     "id": "5_obstrvctionofjustice",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "firstNightReminder": "决定失忆者的能力，并根据具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "otherNightReminder": "根据失忆者的具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "reminders": [
@@ -80,7 +80,7 @@
   },
   {
     "id": "6_obstrvctionofjustice",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -96,7 +96,7 @@
   },
   {
     "id": "7_obstrvctionofjustice",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "reminders": [
       "失去能力"
     ],
@@ -107,7 +107,7 @@
   },
   {
     "id": "8_obstrvctionofjustice",
-    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
     "firstNightReminder": "唤醒炼金术士，对他展示他获得的能力所对应的爪牙角色标记。",
     "remindersGlobal": [
       "是炼金术士"
@@ -121,7 +121,7 @@
   },
   {
     "id": "9_obstrvctionofjustice",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "firstNightReminder": "如果国王在场，对恶魔展示国王角色标记并指向国王玩家。",
     "otherNightReminder": "如果满足国王的唤醒条件，唤醒国王，对他展示一个存活的角色标记。",
     "name": "国王",
@@ -133,7 +133,7 @@
   },
   {
     "id": "10_obstrvctionofjustice",
-    "image": "/scripts/assets/community/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/e5af784444863cbe6aac958ea915226a05d95f55db4414f4041fba3f76bd7ed6.png",
     "otherNightReminder": "如果恶魔杀死了国王，唤醒唱诗男孩，对他指向恶魔。",
     "setup": true,
     "name": "唱诗男孩",
@@ -144,7 +144,7 @@
   },
   {
     "id": "11_obstrvctionofjustice",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
     "reminders": [
       "得知"
@@ -157,7 +157,7 @@
   },
   {
     "id": "12_obstrvctionofjustice",
-    "image": "/scripts/assets/community/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/54ffdc1f94ef6b2501dde6ba6c9fd4054fb65ac78b6425a7b3a8d6de7d535c8f.png",
     "firstNightReminder": "唤醒女祭司，对她指向一名玩家。",
     "otherNightReminder": "唤醒女祭司，对她指向一名玩家。",
     "name": "女祭司",
@@ -169,7 +169,7 @@
   },
   {
     "id": "13_obstrvctionofjustice",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "reminders": [
@@ -185,7 +185,7 @@
   },
   {
     "id": "14_obstrvctionofjustice",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -193,7 +193,7 @@
   },
   {
     "id": "15_obstrvctionofjustice",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "otherNightReminder": "如果心上人死亡，一名玩家醉酒。",
     "reminders": [
       "醉酒"
@@ -206,7 +206,7 @@
   },
   {
     "id": "16_obstrvctionofjustice",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -218,7 +218,7 @@
   },
   {
     "id": "17_obstrvctionofjustice",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "otherNightReminder": "如果瘟疫医生死亡，说书人获得一项爪牙能力。",
     "reminders": [
       "说书人能力"
@@ -231,7 +231,7 @@
   },
   {
     "id": "18_obstrvctionofjustice",
-    "image": "/scripts/assets/community/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
     "firstNightReminder": "让妖猫选择一名玩家，给被选中的玩家放置喵标记，告知被选中的玩家发言只能是“喵喵喵”直至下个黄昏。",
     "otherNightReminder": "让妖猫选择一名玩家，给被选中的玩家放置喵标记，告知被选中的玩家发言只能是“喵喵喵”直至下个黄昏。",
     "reminders": [
@@ -246,7 +246,7 @@
   },
   {
     "id": "19_obstrvctionofjustice",
-    "image": "/scripts/assets/community/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/e3b0fd58763a268602356eabdc28c40ccb25aea8e821c7e8697b83b50dde9afb.png",
     "firstNightReminder": "分别独自唤醒镜像双子和对立双子，告知他们由于镜像双子能力而得知的信息。",
     "reminders": [
       "对立双子"
@@ -259,7 +259,7 @@
   },
   {
     "id": "20_obstrvctionofjustice",
-    "image": "/scripts/assets/community/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/8df29f98d4f8b5ecfb133ebbe14a88e55fbd5117415b6df8171ff9e7875bd592.png",
     "firstNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。",
     "otherNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。如果他摇头，移除街头风琴手的醉酒标记。",
     "reminders": [
@@ -274,7 +274,7 @@
   },
   {
     "id": "21_obstrvctionofjustice",
-    "image": "/scripts/assets/community/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/37aada485ae4caea263ef8885fba477af60523fe180906ffee3d7aa1350014b1.png",
     "firstNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "otherNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "reminders": [
@@ -290,7 +290,7 @@
   },
   {
     "id": "22_obstrvctionofjustice",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -305,7 +305,7 @@
   },
   {
     "id": "23_obstrvctionofjustice",
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -321,7 +321,7 @@
   },
   {
     "id": "24_obstrvctionofjustice",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -335,7 +335,7 @@
   },
   {
     "id": "25_obstrvctionofjustice",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-xun-si-wang-fa-b0387972/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。",
     "otherNightReminder": "唤醒卡扎力，让他攻击一名玩家。",
     "reminders": [

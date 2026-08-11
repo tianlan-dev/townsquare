@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "醉卧花闻月满楼",
     "author": "酒心鳕鱼堡",
-    "logo": "/scripts/assets/community/537149a9aa394a0d9ff238adb6b225cdcf184823049e73736156b887ac0f18b9.png",
+    "logo": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/537149a9aa394a0d9ff238adb6b225cdcf184823049e73736156b887ac0f18b9.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -20,7 +20,7 @@
   },
   {
     "id": "eyunxiaojie111",
-    "image": "/scripts/assets/community/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/5260c1eba7cc90e0bca59b65c650fe58b230aa77eb2b0e052397cf1ac67e22fc.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -37,7 +37,7 @@
   },
   {
     "id": "yinyangshiqidong111",
-    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "mangshengnifaxianlehuadian111",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "edition": "custom",
     "name": "调查员",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -72,7 +72,7 @@
   },
   {
     "id": "ainiii11111",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -87,7 +87,7 @@
   },
   {
     "id": "rangwokangkang111",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -102,7 +102,7 @@
   },
   {
     "id": "woshidingzhenbuhuishuxue111",
-    "image": "/scripts/assets/community/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/b8c9263901d2706da8382a00c8acc3063909c2dc33206a430b4231e11abca0d5.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -119,7 +119,7 @@
   },
   {
     "id": "47_jishi",
-    "image": "/scripts/assets/community/082bd1f041ad084a30cc63786d792f84a2993c1b2cabeb76ffa1617808db1647.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/082bd1f041ad084a30cc63786d792f84a2993c1b2cabeb76ffa1617808db1647.png",
     "firstNightReminder": "确定好本局游戏每个花色对应什么角色类型。然后唤醒王牌，让他选择一名玩家，告知他该玩家对应的花色。",
     "otherNightReminder": "唤醒王牌，让他选择一名玩家，告知他该玩家对应的花色。",
     "reminders": [
@@ -138,7 +138,7 @@
   },
   {
     "id": "weishenmesenglvjiaomoke111",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -155,7 +155,7 @@
   },
   {
     "id": "wojiushitukuai111",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -172,7 +172,7 @@
   },
   {
     "id": "xiongdinihaoxiang111",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "edition": "custom",
     "name": "卖花女孩",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -190,7 +190,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -207,7 +207,7 @@
   },
   {
     "ability": "每个白天，你可以拜访说书人以得知一条错误信息。",
-    "image": "/scripts/assets/community/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
     "edition": "custom",
     "flavor": "",
     "id": "Astrologer",
@@ -225,7 +225,7 @@
   },
   {
     "id": "wofuhuolawoshijiangbu111",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "edition": "custom",
     "name": "报丧女妖",
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "zhegeshimonk111",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -256,7 +256,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -274,7 +274,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -291,7 +291,7 @@
   },
   {
     "id": "shuiganshawo111",
-    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
     "edition": "custom",
     "name": "圣徒",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "29_jishi",
-    "image": "/scripts/assets/community/5e9b7206e9dad7f99df41efefe3dd3c3e301fd402a506048f82c9d1fc96c16e9.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/5e9b7206e9dad7f99df41efefe3dd3c3e301fd402a506048f82c9d1fc96c16e9.png",
     "firstNightReminder": "唤醒斯芬克斯，让他选择一个角色。",
     "otherNightReminder": "唤醒斯芬克斯，让他选择一个角色。",
     "reminders": [
@@ -322,7 +322,7 @@
   },
   {
     "id": "baonijuhua111",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -340,7 +340,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -358,7 +358,7 @@
   },
   {
     "id": "zniangiajisudaiohwiodhisoahdioashdk2h143on211",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "name": "酿酒师",
     "ability": "每个夜晚，你要选择一个镇民角色：当他下一次通过自身能力获取信息时，改为得知你给出的信息。",
@@ -375,7 +375,7 @@
   },
   {
     "id": "meiyoudashi11111",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -393,7 +393,7 @@
   },
   {
     "id": "taotieeeeeeeeeeee",
-    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png",
     "edition": "custom",
     "name": "饕餮",
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -410,7 +410,7 @@
   },
   {
     "id": "woliuliuliu111",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "edition": "custom",
     "name": "涡流",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
@@ -427,7 +427,7 @@
   },
   {
     "id": "kakakakkakakakakakakakaakakak111",
-    "image": "/scripts/assets/community/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/6eb744e2eb3d93c9ebdac258a01e16e88dd15d0b1160595dbd9ff38a2b0bb517.png",
     "edition": "custom",
     "name": "卡扎力",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -444,7 +444,7 @@
   },
   {
     "id": "qilincba305076",
-    "image": "/scripts/assets/community/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/2c561902cd512a1c93666aea13fbc735242a2c0813029c80c26e24ca8f428b0d.png",
     "edition": "custom",
     "name": "麒麟",
     "ability": "在游戏的最后一天，最幸运的玩家身上会发生一些好的事情。",
@@ -455,7 +455,7 @@
   },
   {
     "id": "wangshnegjiguzhe",
-    "image": "/scripts/assets/community/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/21392e1126ec902f5903363e048123f2850c2d50bc34d2dcd2a2a7c23acadd8f.png",
     "edition": "custom",
     "name": "往生者",
     "ability": "你没有阵营且不入村。每个白天，你可以向说书人询问n个是非问题（n由说书人决定）。如果你还原初始或当前魔典，你获胜。如果你对你的信息疯狂，你落败。",
@@ -472,7 +472,7 @@
   },
   {
     "id": "104_meta",
-    "image": "/scripts/assets/community/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/c2678b352c2bc77822fba87cd908bf8b71a5f0de967a51a7018195ca35961f68.png",
     "name": "卡扎力&赏金猎人",
     "team": "a jinxed",
     "setup": false,
@@ -481,7 +481,7 @@
   },
   {
     "id": "112_meta",
-    "image": "/scripts/assets/community/6ec3050afcf7e4e05b8f039efb10975ce4d6ee5c198c4960f2b8c65320a5babc.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/6ec3050afcf7e4e05b8f039efb10975ce4d6ee5c198c4960f2b8c65320a5babc.png",
     "name": "涡流&报丧女妖",
     "team": "a jinxed",
     "setup": false,
@@ -490,7 +490,7 @@
   },
   {
     "id": "101_meta",
-    "image": "/scripts/assets/community/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
+    "image": "/scripts/assets/community-zui-wo-hua-wen-yue-man-lou-ba305076/5b140f14ecd6940e8fc53773be20ee0eaa4c2aecb6305281289262cd845282f1.png",
     "name": "占星师&涡流",
     "team": "a jinxed",
     "setup": false,

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "圆桌骑士团",
     "author": "太一",
-    "logo": "/scripts/assets/community/b0b339c552ade8f1bd04048639883a06799a79eb8c0c852c2d53797844ba7c17.png",
+    "logo": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/b0b339c552ade8f1bd04048639883a06799a79eb8c0c852c2d53797844ba7c17.png",
     "almanac": "https://www.bloodstar.xyz/p/humlet/che/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "25_che",
-    "image": "/scripts/assets/community/699537e998ef074ed296d38977218e92b2672731133d184f631e8610530c9322.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/699537e998ef074ed296d38977218e92b2672731133d184f631e8610530c9322.png",
     "reminders": [
       "失去能力"
     ],
@@ -26,7 +26,7 @@
   },
   {
     "id": "26_che",
-    "image": "/scripts/assets/community/d14979f28851bef2b9a125bd4657b9ff5fab8f2e3914d9c60d2b047ea2b30ec7.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/d14979f28851bef2b9a125bd4657b9ff5fab8f2e3914d9c60d2b047ea2b30ec7.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -40,7 +40,7 @@
   },
   {
     "id": "2_che",
-    "image": "/scripts/assets/community/84836d6bbce8af6f562d3eeb27cf9533a55168ec002b4ce18c837ac1c24d5c06.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/84836d6bbce8af6f562d3eeb27cf9533a55168ec002b4ce18c837ac1c24d5c06.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -56,7 +56,7 @@
   },
   {
     "id": "28_che",
-    "image": "/scripts/assets/community/3eb1ffd69157272dc22d05e792de69516f9cf92e6e095e920c382ad293aab238.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/3eb1ffd69157272dc22d05e792de69516f9cf92e6e095e920c382ad293aab238.png",
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "reminders": [
@@ -72,7 +72,7 @@
   },
   {
     "id": "30_che",
-    "image": "/scripts/assets/community/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
     "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "name": "牧师",
@@ -86,7 +86,7 @@
   },
   {
     "id": "5_che",
-    "image": "/scripts/assets/community/6735294a112ec6455feaff47851b73dda7d948dede807d53c505f65e555f9437.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/6735294a112ec6455feaff47851b73dda7d948dede807d53c505f65e555f9437.png",
     "reminders": [
       "错误信息"
     ],
@@ -100,7 +100,7 @@
   },
   {
     "id": "46_che",
-    "image": "/scripts/assets/community/185612a4feb74dbccf74ff7fb1c6f618f27ec88729d9e4c764f599b22aedfd89.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/185612a4feb74dbccf74ff7fb1c6f618f27ec88729d9e4c764f599b22aedfd89.png",
     "otherNightReminder": "如果白天有玩家被处决，唤醒湖中仙女，告知他是或否。",
     "reminders": [
       "被处决"
@@ -115,7 +115,7 @@
   },
   {
     "id": "47_che",
-    "image": "/scripts/assets/community/123ffb573f32450b374d20f4974bb91923a2b8c659caa0a1b9e31ab163afcb7c.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/123ffb573f32450b374d20f4974bb91923a2b8c659caa0a1b9e31ab163afcb7c.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -129,7 +129,7 @@
   },
   {
     "id": "31_che",
-    "image": "/scripts/assets/community/c3fe99d2dae18a51a25f9dec46c8560e549b152d78db05fffd4f14f0c2219111.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/c3fe99d2dae18a51a25f9dec46c8560e549b152d78db05fffd4f14f0c2219111.png",
     "reminders": [
       "不会死亡"
     ],
@@ -141,7 +141,7 @@
   },
   {
     "id": "32_che",
-    "image": "/scripts/assets/community/2deb5d1ea415c6d7bca6353ac1e2f8d4ae722c2ec344d3449bb0f2186a25463c.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/2deb5d1ea415c6d7bca6353ac1e2f8d4ae722c2ec344d3449bb0f2186a25463c.png",
     "otherNightReminder": "无人死于处决，唤醒月光骑士并让他选择一名玩家。",
     "reminders": [
       "死亡"
@@ -156,7 +156,7 @@
   },
   {
     "id": "54_che",
-    "image": "/scripts/assets/community/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
     "otherNightReminder": "唤醒",
     "reminders": [
       "失去能力",
@@ -172,7 +172,7 @@
   },
   {
     "id": "34_che",
-    "image": "/scripts/assets/community/fdbdb373d3c71fdd6b799b058244c0333ee37eacfd284dd8fcaabb0fbf14716e.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/fdbdb373d3c71fdd6b799b058244c0333ee37eacfd284dd8fcaabb0fbf14716e.png",
     "reminders": [
       "失去能力"
     ],
@@ -184,7 +184,7 @@
   },
   {
     "id": "12_che",
-    "image": "/scripts/assets/community/4604cde4ff798159e8baeb5868005b365ec743f23cfe6e5f2af488d0715eb01c.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/4604cde4ff798159e8baeb5868005b365ec743f23cfe6e5f2af488d0715eb01c.png",
     "otherNightReminder": "如果死亡唤醒他，并告知他所有类型的玩家（除旅行者）各一名。",
     "reminders": [
       "醉酒"
@@ -199,7 +199,7 @@
   },
   {
     "id": "64_che",
-    "image": "/scripts/assets/community/88b04dca02813c4e231194ab53000fd17b6965a8708a1d285862c1bedb7d977a.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/88b04dca02813c4e231194ab53000fd17b6965a8708a1d285862c1bedb7d977a.png",
     "firstNightReminder": "唤醒囚犯并向他出示一个不在场的角色标记。诚然，并不推荐向其出示恶魔标记。",
     "otherNightReminder": "如果“释放”标记被放置在场上，且他没有被告知过自己的角色转变，告知他现在的阵营与角色。",
     "reminders": [
@@ -219,7 +219,7 @@
   },
   {
     "id": "55_che",
-    "image": "/scripts/assets/community/46427c3793aeb1c960c9ea07103f901df314900907b2d6f423e7a43613fd58b7.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/46427c3793aeb1c960c9ea07103f901df314900907b2d6f423e7a43613fd58b7.png",
     "reminders": [
       "失去能力"
     ],
@@ -232,7 +232,7 @@
   },
   {
     "id": "13_che",
-    "image": "/scripts/assets/community/a670734acc587dda8d66b59a0bff098ddf2de372e7a95dc0c402bf7a07197d4e.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/a670734acc587dda8d66b59a0bff098ddf2de372e7a95dc0c402bf7a07197d4e.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -245,7 +245,7 @@
   },
   {
     "id": "59_che",
-    "image": "/scripts/assets/community/7589aab07c63266b4812468186144f88114bb0eee3612ed249f006739276ebf0.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/7589aab07c63266b4812468186144f88114bb0eee3612ed249f006739276ebf0.png",
     "otherNightReminder": "当你宣布月之子玩家死亡时，月之子需要选择任意一名存活玩家。如果所选玩家是善良的，将“死亡”提示标记放置到该玩家的角色标记旁。当晚，标有月之子的“死亡”提示标记的玩家死亡。",
     "reminders": [
       "被选择"
@@ -259,7 +259,7 @@
   },
   {
     "id": "50_che",
-    "image": "/scripts/assets/community/2b0b469b77dd1f02afc8280ad380020905ae0abab2dfd4ff42fcfd8b61f88d2e.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/2b0b469b77dd1f02afc8280ad380020905ae0abab2dfd4ff42fcfd8b61f88d2e.png",
     "otherNightReminder": "如果今天在唤醒亡灵骑士之前有外来者死亡，唤醒亡灵骑士，告知他死亡的外来者玩家是谁，并让他猜测具体角色，如果他猜中至少一名，标记一名玩家死亡，然后去除所有的“离魂抽离”标记。",
     "reminders": [
       "死亡",
@@ -276,7 +276,7 @@
   },
   {
     "id": "39_che",
-    "image": "/scripts/assets/community/0e195e54713fa5d182ee7c0ba6d948b9208f36a17401a465447cff0a57bbe0d6.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/0e195e54713fa5d182ee7c0ba6d948b9208f36a17401a465447cff0a57bbe0d6.png",
     "firstNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "otherNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "reminders": [
@@ -294,7 +294,7 @@
   },
   {
     "id": "41_che",
-    "image": "/scripts/assets/community/a8f95a5e006b05ddb2488fc8662da6e93f04f8a33918f90f932a617c2cd9b931.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/a8f95a5e006b05ddb2488fc8662da6e93f04f8a33918f90f932a617c2cd9b931.png",
     "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
     "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
     "reminders": [
@@ -310,7 +310,7 @@
   },
   {
     "id": "56_che",
-    "image": "/scripts/assets/community/c8aaa012c5d38382c2cb64916d02d494e902e5e7c755783bfd3881b256dac5c2.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/c8aaa012c5d38382c2cb64916d02d494e902e5e7c755783bfd3881b256dac5c2.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -319,7 +319,7 @@
   },
   {
     "id": "51_che",
-    "image": "/scripts/assets/community/2a496908b9cf39e1b305c39be390f89f9b48332b7081f3e0d6b7b40ede0ce9e6.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/2a496908b9cf39e1b305c39be390f89f9b48332b7081f3e0d6b7b40ede0ce9e6.png",
     "otherNightReminder": "让亚瑟王选择一名玩家。标记那名玩家死亡。如果他是爪牙且可以被亚瑟王杀死，为他放置“王车易位”标记然后为亚瑟王和爪牙交换角色且会有2名玩家代替他死亡。",
     "reminders": [
       "死亡",
@@ -335,7 +335,7 @@
   },
   {
     "id": "15_che",
-    "image": "/scripts/assets/community/240f10e2c2e90e97f44ad9b49d4cff952214ce7ccd3feeddddef0e4ae85c6965.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/240f10e2c2e90e97f44ad9b49d4cff952214ce7ccd3feeddddef0e4ae85c6965.png",
     "otherNightReminder": "唤醒刻耳柏洛斯选择一名玩家，如果是邪恶的爪牙，杀死他并保留他的能力，再让刻耳柏洛斯选择一名玩家。",
     "reminders": [
       "死亡",
@@ -351,7 +351,7 @@
   },
   {
     "id": "3_che",
-    "image": "/scripts/assets/community/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
     "otherNightReminder": "唤醒塞壬选择一名玩家，为该玩家标记死亡，然后让塞壬选择是否谢幕，如果他点头，为他放置“谢幕”标记。",
     "reminders": [
       "死亡",
@@ -367,7 +367,7 @@
   },
   {
     "id": "42_che",
-    "image": "/scripts/assets/community/b4c178025ab0e27b61c867a7d62014fd86d9b8649dd8f93d2d472c1f9965ed79.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/b4c178025ab0e27b61c867a7d62014fd86d9b8649dd8f93d2d472c1f9965ed79.png",
     "otherNightReminder": "让恶堕选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -384,7 +384,7 @@
   },
   {
     "id": "35_che",
-    "image": "/scripts/assets/community/807857618352aa04e01a0f2ff6346574d1e86dedecc0f31ce7cfc3df0cc640c8.png",
+    "image": "/scripts/assets/community-yuan-zhuo-qi-shi-tuan-f7c7e7f3/807857618352aa04e01a0f2ff6346574d1e86dedecc0f31ce7cfc3df0cc640c8.png",
     "reminders": [
       "发起决斗",
       "被决斗"

@@ -20,7 +20,7 @@
   },
   {
     "id": "gonggao",
-    "image": "/scripts/assets/community/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -38,7 +38,7 @@
   },
   {
     "id": "zumunainai",
-    "image": "/scripts/assets/community/ec8f1ca8f5b9ce832a00ac06e499a4e7fba4a9323d9a5a1ec4ec6e211ceacaca.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/ec8f1ca8f5b9ce832a00ac06e499a4e7fba4a9323d9a5a1ec4ec6e211ceacaca.png",
     "edition": "custom",
     "name": "祖母",
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "fangzhu",
-    "image": "/scripts/assets/community/e10fbd707cbaa197fe1b5d2d2600f5430596f8e572e0c84c4e851617896fe01e.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/e10fbd707cbaa197fe1b5d2d2600f5430596f8e572e0c84c4e851617896fe01e.png",
     "edition": "custom",
     "name": "染坊坊主",
     "ability": "如果你在夜晚死亡，恶魔的能力变成“每个夜晚*，可能会有一名玩家死亡。”",
@@ -73,7 +73,7 @@
   },
   {
     "id": "shiguanc5cd099b8",
-    "image": "/scripts/assets/community/e10d98031b1e1b57245d68a4a6696682e95cf63a6297cac17a06fca635fe7941.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/e10d98031b1e1b57245d68a4a6696682e95cf63a6297cac17a06fca635fe7941.png",
     "edition": "custom",
     "name": "史官",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
@@ -87,7 +87,7 @@
   },
   {
     "id": "boxuezhe",
-    "image": "/scripts/assets/community/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -102,7 +102,7 @@
   },
   {
     "id": "shengyuzhe",
-    "image": "/scripts/assets/community/c710587798fb179d81cf4a67615e6914731b9f902538e6438e1f06ff3ce19576.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/c710587798fb179d81cf4a67615e6914731b9f902538e6438e1f06ff3ce19576.png",
     "edition": "custom",
     "name": "神谕者",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -117,7 +117,7 @@
   },
   {
     "id": "yinyangshii",
-    "image": "/scripts/assets/community/036c47b3da968c4bf41e0ab3ced45c4595c3ff50d454f6a5e67114dcadafa347.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/036c47b3da968c4bf41e0ab3ced45c4595c3ff50d454f6a5e67114dcadafa347.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -129,7 +129,7 @@
   },
   {
     "id": "chaoniuibizhanbu",
-    "image": "/scripts/assets/community/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -145,7 +145,7 @@
   },
   {
     "id": "niubidegongqin",
-    "image": "/scripts/assets/community/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -160,7 +160,7 @@
   },
   {
     "id": "caifengnv",
-    "image": "/scripts/assets/community/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/1fa0754dc8a07b5b9cb79df770bd740c3f8ed5ffd1f03f445c3706d391ade423.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -177,7 +177,7 @@
   },
   {
     "id": "shuxuejia",
-    "image": "/scripts/assets/community/b53de9bc3d4a43e9fd8edf092469589538a204f48c8ba4bbc36a043dc6a045e8.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/b53de9bc3d4a43e9fd8edf092469589538a204f48c8ba4bbc36a043dc6a045e8.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -194,7 +194,7 @@
   },
   {
     "id": "niubideshangjin",
-    "image": "/scripts/assets/community/69766c9356ecb61d1d22b1ed9cd42fecc062f24c8b212a13aa09f4de4d300dde.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/69766c9356ecb61d1d22b1ed9cd42fecc062f24c8b212a13aa09f4de4d300dde.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -212,7 +212,7 @@
   },
   {
     "id": "chaojibianbianbian111",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "edition": "custom",
     "name": "变脸师",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -230,7 +230,7 @@
   },
   {
     "id": "chousha111",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "name": "月之子",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
@@ -247,7 +247,7 @@
   },
   {
     "id": "mokee",
-    "image": "/scripts/assets/community/30129de2ccdeca5d5859386a81656b70ffe4f149798c8d9e5033b149def8506d.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/30129de2ccdeca5d5859386a81656b70ffe4f149798c8d9e5033b149def8506d.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -262,7 +262,7 @@
   },
   {
     "id": "shaxingg",
-    "image": "/scripts/assets/community/139700f0cc98b3a30a3fa7fdc128764b8ebccf4fddc9a8b07c151ebda785b47c.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/139700f0cc98b3a30a3fa7fdc128764b8ebccf4fddc9a8b07c151ebda785b47c.png",
     "edition": "custom",
     "name": "煞星",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -277,7 +277,7 @@
   },
   {
     "id": "xinshangren",
-    "image": "/scripts/assets/community/9980559efe2826cff2590931143456d8916fa2e9b8ea65ca7b2fbf1736312ca4.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/9980559efe2826cff2590931143456d8916fa2e9b8ea65ca7b2fbf1736312ca4.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -294,7 +294,7 @@
   },
   {
     "id": "jixinxiuyy",
-    "image": "/scripts/assets/community/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/3a5c0a68a43840dc1f0c5808881880d171649c842274380730d49e35a0905d9f.png",
     "edition": "custom",
     "name": "畸形秀演员",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -309,7 +309,7 @@
   },
   {
     "id": "tousioahsdoa22sidhas",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "edition": "custom",
     "name": "限",
     "ability": "在等同初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[任意数量外来者]",
@@ -330,7 +330,7 @@
   },
   {
     "id": "ciekee",
-    "image": "/scripts/assets/community/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -348,7 +348,7 @@
   },
   {
     "id": "godfathergodfathergodfathergodfathergodfather",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -366,7 +366,7 @@
   },
   {
     "id": "xinaoshii",
-    "image": "/scripts/assets/community/d015349220687129a32505ceb2f86bce03b8ea4616544a26d677b1d3f4335944.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/d015349220687129a32505ceb2f86bce03b8ea4616544a26d677b1d3f4335944.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -383,7 +383,7 @@
   },
   {
     "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp",
     "edition": "custom",
     "flavor": "",
     "id": "Amaniti",
@@ -401,7 +401,7 @@
   },
   {
     "id": "guhuoniaoc5cd099b8",
-    "image": "/scripts/assets/community/461f858cd91db8d6b203e56e92a3a8666d5fcf1eae52e3d433958b0e6df6807b.png",
+    "image": "/scripts/assets/community-kong-shan-niao-yu-5cd099b8/461f858cd91db8d6b203e56e92a3a8666d5fcf1eae52e3d433958b0e6df6807b.png",
     "edition": "custom",
     "name": "姑获鸟",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",

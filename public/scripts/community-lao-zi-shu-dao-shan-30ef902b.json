@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "劳资蜀道山",
     "author": "墨兰花开",
-    "logo": "/scripts/assets/community/60767e6ccd1b6ecddc341d1444522d940cc8e77d67f8f89f9528b4e607fa42ae.png",
+    "logo": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/60767e6ccd1b6ecddc341d1444522d940cc8e77d67f8f89f9528b4e607fa42ae.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "城市赛专属剧本"
@@ -13,7 +13,7 @@
   },
   {
     "id": "_laozishudaoshan",
-    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -23,7 +23,7 @@
   },
   {
     "id": "1_laozishudaoshan",
-    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -35,7 +35,7 @@
   },
   {
     "id": "2_laozishudaoshan",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -50,7 +50,7 @@
   },
   {
     "id": "3_laozishudaoshan",
-    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "reminders": [
       "保护"
@@ -63,7 +63,7 @@
   },
   {
     "id": "4_laozishudaoshan",
-    "image": "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
     "otherNightReminder": "如果守鸦人死于夜晚，唤醒守鸦人，让他选择一名玩家。对他展示这名玩家的角色标记。",
     "name": "守鸦人",
     "team": "townsfolk",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_laozishudaoshan",
-    "image": "/scripts/assets/community/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -81,7 +81,7 @@
   },
   {
     "id": "6_laozishudaoshan",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -93,7 +93,7 @@
   },
   {
     "id": "7_laozishudaoshan",
-    "image": "/scripts/assets/community/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png",
     "reminders": [
       "全员醉酒"
     ],
@@ -104,7 +104,7 @@
   },
   {
     "id": "8_laozishudaoshan",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -118,7 +118,7 @@
   },
   {
     "id": "9_laozishudaoshan",
-    "image": "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -128,7 +128,7 @@
   },
   {
     "id": "10_laozishudaoshan",
-    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -143,7 +143,7 @@
   },
   {
     "id": "11_laozishudaoshan",
-    "image": "/scripts/assets/community/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/a5997daca96c2efcc813ca177760191fe771610127c0e7793eba416df04f6ee6.png",
     "firstNightReminder": "唤醒骑士，对他指向两名非恶魔玩家。",
     "reminders": [
       "得知"
@@ -156,7 +156,7 @@
   },
   {
     "id": "12_laozishudaoshan",
-    "image": "/scripts/assets/community/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png",
     "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
     "reminders": [
       "得知"
@@ -169,7 +169,7 @@
   },
   {
     "id": "13_laozishudaoshan",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -181,7 +181,7 @@
   },
   {
     "id": "14_laozishudaoshan",
-    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -189,7 +189,7 @@
   },
   {
     "id": "15_laozishudaoshan",
-    "image": "/scripts/assets/community/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -201,7 +201,7 @@
   },
   {
     "id": "16_laozishudaoshan",
-    "image": "/scripts/assets/community/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/b273052ced9a4e2b51a0edd866454f1b514dcad87694974c7723e2fd164d8647.png",
     "name": "狂热者",
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -209,7 +209,7 @@
   },
   {
     "id": "17_laozishudaoshan",
-    "image": "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png",
     "firstNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "otherNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "reminders": [
@@ -224,7 +224,7 @@
   },
   {
     "id": "18_laozishudaoshan",
-    "image": "/scripts/assets/community/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
     "firstNightReminder": "唤醒寡妇，让她查看魔典。在她查看完毕后让她选择一名玩家，那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。",
     "reminders": [
       "中毒"
@@ -240,7 +240,7 @@
   },
   {
     "id": "19_laozishudaoshan",
-    "image": "/scripts/assets/community/8c800aee66381582079783359639f9653dc2925b4425e33bcf0634dba43eca01.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/8c800aee66381582079783359639f9653dc2925b4425e33bcf0634dba43eca01.png",
     "reminders": [
       "已宣称"
     ],
@@ -251,7 +251,7 @@
   },
   {
     "id": "20_laozishudaoshan",
-    "image": "/scripts/assets/community/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/30d3faa5bd7c7aa56328c26cdd244ed65e0c5aa2c80136e39a498d752e0c80a5.png",
     "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "reminders": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "21_laozishudaoshan",
-    "image": "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png",
     "firstNightReminder": "唤醒普卡，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒普卡，让他选择一名玩家，该玩家中毒。上一个被普卡中毒的玩家死亡。",
     "reminders": [
@@ -287,7 +287,7 @@
   },
   {
     "id": "22_laozishudaoshan",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -302,7 +302,7 @@
   },
   {
     "id": "23_laozishudaoshan",
-    "image": "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
     "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
     "reminders": [
       "死亡"
@@ -315,7 +315,7 @@
   },
   {
     "id": "24_laozishudaoshan",
-    "image": "/scripts/assets/community/4dfa655853d15456870355ba59880da982eb0c0d6ba34efc0a535ab7dd7bf1a3.png",
+    "image": "/scripts/assets/community-lao-zi-shu-dao-shan-30ef902b/4dfa655853d15456870355ba59880da982eb0c0d6ba34efc0a535ab7dd7bf1a3.png",
     "firstNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。",
     "otherNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。随后，决定今晚谁会因为小怪宝能力死亡。",
     "remindersGlobal": [

@@ -11,7 +11,7 @@
   },
   {
     "id": "_recovery",
-    "image": "/scripts/assets/community/0f46710c356c292f27c98e84f236304617a9a74295710cddac5cf18ed4a3fc42.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/0f46710c356c292f27c98e84f236304617a9a74295710cddac5cf18ed4a3fc42.png",
     "name": "世界",
     "team": "townsfolk",
     "ability": "如果你在夜晚死亡，所有玩家会得知你是世界。此后的每个白天，由你决定会受到源质影响的玩家。",
@@ -19,7 +19,7 @@
   },
   {
     "id": "1_recovery",
-    "image": "/scripts/assets/community/57693141da3c5bfe43072bfd31359e3e39dad33cb33465898f309950b9eae571.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/57693141da3c5bfe43072bfd31359e3e39dad33cb33465898f309950b9eae571.png",
     "name": "药剂师",
     "team": "townsfolk",
     "ability": "每局游戏限一次，如果说书人同意，你可以公开改变一条游戏规则。",
@@ -27,7 +27,7 @@
   },
   {
     "id": "2_recovery",
-    "image": "/scripts/assets/community/83e0efdf763047ea9d46599379caa8d445353f57ffcd0ced7a9301213508a884.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/83e0efdf763047ea9d46599379caa8d445353f57ffcd0ced7a9301213508a884.png",
     "name": "猎手",
     "team": "townsfolk",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
@@ -35,7 +35,7 @@
   },
   {
     "id": "3_recovery",
-    "image": "/scripts/assets/community/be59a9722d10ac72cbec88853b25cc883734bd696004e97a9348e53f7984c102.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/be59a9722d10ac72cbec88853b25cc883734bd696004e97a9348e53f7984c102.png",
     "firstNightReminder": " ",
     "setup": true,
     "name": "炼金术师",
@@ -46,7 +46,7 @@
   },
   {
     "id": "4_recovery",
-    "image": "/scripts/assets/community/3db4e0bf46e04bd5b96aa6e86dbda5ab1c05d8aa091fee689515cc8e2cc5996e.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/3db4e0bf46e04bd5b96aa6e86dbda5ab1c05d8aa091fee689515cc8e2cc5996e.png",
     "name": "渔夫",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -54,7 +54,7 @@
   },
   {
     "id": "5_recovery",
-    "image": "/scripts/assets/community/423ea419504ce89783df99b9efd04b283479476d8c59f56cd1512e5e0d23fee5.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/423ea419504ce89783df99b9efd04b283479476d8c59f56cd1512e5e0d23fee5.png",
     "otherNightReminder": " ",
     "setup": true,
     "name": "手相师",
@@ -65,7 +65,7 @@
   },
   {
     "id": "6_recovery",
-    "image": "/scripts/assets/community/35e11fe365ffb0fd47044d91424fbad46dbbac557ef2850c9e7dc32fe3a39e03.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/35e11fe365ffb0fd47044d91424fbad46dbbac557ef2850c9e7dc32fe3a39e03.png",
     "otherNightReminder": " ",
     "reminders": [
       "阴影被照亮"
@@ -85,12 +85,12 @@
     "name": "变脸师",
     "team": "townsfolk",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
-    "image": "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
     "edition": "custom"
   },
   {
     "id": "8_recovery",
-    "image": "/scripts/assets/community/504ea3ed2585b26d640fa75d46928863df5d9a76e95f9b2a8a4ef216a223bea7.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/504ea3ed2585b26d640fa75d46928863df5d9a76e95f9b2a8a4ef216a223bea7.png",
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "setup": true,
@@ -103,7 +103,7 @@
   },
   {
     "id": "9_recovery",
-    "image": "/scripts/assets/community/a983460bcb83e6258fde35b4508c49d06cf740a1d26e46fb0f12ed941ccb6367.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/a983460bcb83e6258fde35b4508c49d06cf740a1d26e46fb0f12ed941ccb6367.png",
     "name": "通灵师",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下拜访说书人并给出一个关键词。你会得知一条与之相关的信息。如果与你邻近的存活玩家中有邪恶的，你会获得错误的信息。",
@@ -111,7 +111,7 @@
   },
   {
     "id": "10_recovery",
-    "image": "/scripts/assets/community/52caa3253b3bf58c9ab2c746755a8230d98eeb5de6173a3bd5248521fc552d27.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/52caa3253b3bf58c9ab2c746755a8230d98eeb5de6173a3bd5248521fc552d27.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -119,7 +119,7 @@
   },
   {
     "id": "11_recovery",
-    "image": "/scripts/assets/community/bcc9d3cb5fcf73d5da5bc2ef7b235426d3c9a401c7288747749cc8137225af82.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/bcc9d3cb5fcf73d5da5bc2ef7b235426d3c9a401c7288747749cc8137225af82.png",
     "firstNightReminder": " ",
     "reminders": [
       "被治安官得知"
@@ -133,7 +133,7 @@
   },
   {
     "id": "12_recovery",
-    "image": "/scripts/assets/community/5b0097c92f18e5f0ed3d72eb48458fd97c583da7b1c984e215dbc47e4717a1a8.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/5b0097c92f18e5f0ed3d72eb48458fd97c583da7b1c984e215dbc47e4717a1a8.png",
     "name": "占星师",
     "team": "townsfolk",
     "ability": "每个白天，你要拜访说书人得知一条错误信息。每局游戏限一次，你得知正确信息。",
@@ -141,7 +141,7 @@
   },
   {
     "id": "13_recovery",
-    "image": "/scripts/assets/community/788f68e87790ac46cd4e8f3030cb9e77bf64aa6ab9dccc30132807df5d59b2a8.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/788f68e87790ac46cd4e8f3030cb9e77bf64aa6ab9dccc30132807df5d59b2a8.png",
     "otherNightReminder": " ",
     "remindersGlobal": [
       "是隐修者"
@@ -155,7 +155,7 @@
   },
   {
     "id": "14_recovery",
-    "image": "/scripts/assets/community/8432a8b335e3b0c9d4a5b915bac9142f46fdc8d7b566533395da434dcabb9a4c.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/8432a8b335e3b0c9d4a5b915bac9142f46fdc8d7b566533395da434dcabb9a4c.png",
     "otherNightReminder": " ",
     "reminders": [
       "变成恶魔"
@@ -169,7 +169,7 @@
   },
   {
     "id": "15_recovery",
-    "image": "/scripts/assets/community/1c3d8b18ff35de8bae6d5a2a8db511711ce054e15db27428c4f83f155559897d.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/1c3d8b18ff35de8bae6d5a2a8db511711ce054e15db27428c4f83f155559897d.png",
     "name": "暴徒",
     "team": "outsider",
     "ability": "每次提名中，在你之后与你投票不同的一名玩家可能死亡。",
@@ -177,7 +177,7 @@
   },
   {
     "id": "16_recovery",
-    "image": "/scripts/assets/community/9aa9674e469bf21e5ce13cea8fd501151cf2ccbf94fcf04fb483b31e89ef9b8c.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/9aa9674e469bf21e5ce13cea8fd501151cf2ccbf94fcf04fb483b31e89ef9b8c.png",
     "otherNightReminder": " ",
     "remindersGlobal": [
       "是疯子"
@@ -191,7 +191,7 @@
   },
   {
     "id": "17_recovery",
-    "image": "/scripts/assets/community/2d37fe2877fa98b7c700033c171f96592ce00be05f156a3924c0e96ebaf62566.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/2d37fe2877fa98b7c700033c171f96592ce00be05f156a3924c0e96ebaf62566.png",
     "name": "狂热者",
     "team": "outsider",
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
@@ -199,7 +199,7 @@
   },
   {
     "id": "18_recovery",
-    "image": "/scripts/assets/community/c1bf5ba58520d87b3d51a1a7102c3faa357b2c4054bed3cf57c86b283f50b680.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/c1bf5ba58520d87b3d51a1a7102c3faa357b2c4054bed3cf57c86b283f50b680.png",
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "reminders": [
@@ -215,7 +215,7 @@
   },
   {
     "id": "19_recovery",
-    "image": "/scripts/assets/community/53268bdac854cccb4abd71b6b5ef5f46277621a2d71ee00ef459766199f60fb5.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/53268bdac854cccb4abd71b6b5ef5f46277621a2d71ee00ef459766199f60fb5.png",
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "reminders": [
@@ -231,7 +231,7 @@
   },
   {
     "id": "20_recovery",
-    "image": "/scripts/assets/community/060074e0be9bd30d64d8589c616bb1874ab661577ae4997a81ab6414417d1472.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/060074e0be9bd30d64d8589c616bb1874ab661577ae4997a81ab6414417d1472.png",
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "reminders": [
@@ -247,7 +247,7 @@
   },
   {
     "id": "21_recovery",
-    "image": "/scripts/assets/community/55f3adfba6b9ea487cacdb7ee143bcdba9cc0af11e39fdb4050d4e6336332982.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/55f3adfba6b9ea487cacdb7ee143bcdba9cc0af11e39fdb4050d4e6336332982.png",
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "reminders": [
@@ -263,7 +263,7 @@
   },
   {
     "id": "22_recovery",
-    "image": "/scripts/assets/community/bf613e07d0ddf195319a479ed3ea9e6f85d493887abf3a4527e16b64dd2a70c9.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/bf613e07d0ddf195319a479ed3ea9e6f85d493887abf3a4527e16b64dd2a70c9.png",
     "reminders": [
       "被偷走能力"
     ],
@@ -274,7 +274,7 @@
   },
   {
     "id": "23_recovery",
-    "image": "/scripts/assets/community/b3edd49c2585a8cd8dd85501ae0e8fd9f49a7f34b22931ef2376dc7f6ff94a3f.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/b3edd49c2585a8cd8dd85501ae0e8fd9f49a7f34b22931ef2376dc7f6ff94a3f.png",
     "otherNightReminder": " ",
     "remindersGlobal": [
       "是原初"
@@ -288,7 +288,7 @@
   },
   {
     "id": "24_recovery",
-    "image": "/scripts/assets/community/4e0d6ee8ca59f7bd408097b81f1f0c8828c6b587cc21aff72f29560dae6e9e19.png",
+    "image": "/scripts/assets/community-yuan-chu-su-xing-4b3905fb/4e0d6ee8ca59f7bd408097b81f1f0c8828c6b587cc21aff72f29560dae6e9e19.png",
     "name": "序列之上的污染",
     "team": "fabled",
     "ability": "每个黎明，说书人会公布一个源质，最疯狂地证明自己是一个该源质中的角色的玩家，会在当晚获得那个角色的能力，直到下个黄昏。",

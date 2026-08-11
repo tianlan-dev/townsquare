@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "梦返忘川",
     "author": "JC",
-    "logo": "/scripts/assets/community/058a8e5339ecf6b22e135d665a34da279800150d312996bffa28c95b07498d7f.png",
+    "logo": "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/058a8e5339ecf6b22e135d665a34da279800150d312996bffa28c95b07498d7f.png",
     "tags": [],
     "version": "",
     "issue": 953
@@ -12,7 +12,7 @@
     "id": "yiwangzhimen_tpi",
     "name": "遗忘之门",
     "image": [
-      "/scripts/assets/community/df4b2afd1e1b50d9f5bf27bbff9f2e9dadee2547ca53da80934984f8782c9d81.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/df4b2afd1e1b50d9f5bf27bbff9f2e9dadee2547ca53da80934984f8782c9d81.png"
     ],
     "team": "fabled",
     "ability": "玩家不知道自己的角色和阵营。当他们死亡时才会得知这些信息。",
@@ -25,7 +25,7 @@
     "id": "zhongbiaojiang_tpi",
     "name": "钟表匠",
     "image": [
-      "/scripts/assets/community/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -39,7 +39,7 @@
     "id": "shangjinlieren_tpi",
     "name": "赏金猎人",
     "image": [
-      "/scripts/assets/community/ffc582ee3bb3b4e8982cf6ad00127e38b61303e4ee20e7e32d762ddffe960fb9.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/ffc582ee3bb3b4e8982cf6ad00127e38b61303e4ee20e7e32d762ddffe960fb9.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。\n每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -57,7 +57,7 @@
     "id": "shuxuejia_tpi",
     "name": "数学家",
     "image": [
-      "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -75,7 +75,7 @@
     "id": "chuanjiaoshi_tpi",
     "name": "传教士",
     "image": [
-      "/scripts/assets/community/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名玩家：如果你选中了爪牙，他会得知被传教士选中。\n所有被你选中的爪牙失去能力。",
@@ -93,7 +93,7 @@
     "id": "qiqiujiashiyuan_tpi",
     "name": "气球驾驶员",
     "image": [
-      "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -111,7 +111,7 @@
     "id": "cunfu_tpi",
     "name": "村夫",
     "image": [
-      "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
@@ -129,7 +129,7 @@
     "id": "nvjisi_tpi",
     "name": "女祭司",
     "image": [
-      "/scripts/assets/community/d44865e78c3e4713ec0932f24f3e7313d446aafb31db85ec73a67c9abef552a6.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/d44865e78c3e4713ec0932f24f3e7313d446aafb31db85ec73a67c9abef552a6.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知一名说书人认为你最应该与其交流的玩家。",
@@ -144,7 +144,7 @@
     "id": "banshouren_tpi",
     "name": "半兽人",
     "image": [
-      "/scripts/assets/community/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。\n会有一名善良玩家始终被当作邪恶阵营。",
@@ -162,7 +162,7 @@
     "id": "shouyeren_tpi",
     "name": "守夜人",
     "image": [
-      "/scripts/assets/community/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -180,7 +180,7 @@
     "id": "zhenjiezhe_tpi",
     "name": "贞洁者",
     "image": [
-      "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png"
     ],
     "team": "townsfolk",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
@@ -196,7 +196,7 @@
     "id": "chayishi_tpi",
     "name": "茶艺师",
     "image": [
-      "/scripts/assets/community/7e99d717682dd1e63607d4411147f55e515aad7a7adafdab770369183777ab31.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/7e99d717682dd1e63607d4411147f55e515aad7a7adafdab770369183777ab31.png"
     ],
     "team": "townsfolk",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -212,7 +212,7 @@
     "id": "xianzhe_tpi",
     "name": "贤者",
     "image": [
-      "/scripts/assets/community/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png"
     ],
     "team": "townsfolk",
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
@@ -226,7 +226,7 @@
     "id": "shirenzu_tpi",
     "name": "食人族",
     "image": [
-      "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
     ],
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -243,7 +243,7 @@
     "id": "moke_tpi",
     "name": "陌客",
     "image": [
-      "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
     ],
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -256,7 +256,7 @@
     "id": "xiubujiang_tpi",
     "name": "修补匠",
     "image": [
-      "/scripts/assets/community/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png"
     ],
     "team": "outsider",
     "ability": "你随时可能死亡。",
@@ -273,7 +273,7 @@
     "id": "zhengke_tpi",
     "name": "政客",
     "image": [
-      "/scripts/assets/community/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png"
     ],
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -286,7 +286,7 @@
     "id": "xinshangren_tpi",
     "name": "心上人",
     "image": [
-      "/scripts/assets/community/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
     ],
     "team": "outsider",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -303,7 +303,7 @@
     "id": "moguidaiyanren_tpi",
     "name": "魔鬼代言人",
     "image": [
-      "/scripts/assets/community/dc8736ae6a984ac4074b8c4b35a6a0342ca73a9336e4dba37f7b7ede3e8e1306.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/dc8736ae6a984ac4074b8c4b35a6a0342ca73a9336e4dba37f7b7ede3e8e1306.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
@@ -321,7 +321,7 @@
     "id": "cike_tpi",
     "name": "刺客",
     "image": [
-      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
     ],
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -339,7 +339,7 @@
     "id": "jietoufengqinshou_tpi",
     "name": "街头风琴手",
     "image": [
-      "/scripts/assets/community/62213595118d8da445949f98f6c1b8afcac4d020676079835379776f2cb48825.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/62213595118d8da445949f98f6c1b8afcac4d020676079835379776f2cb48825.png"
     ],
     "team": "minion",
     "ability": "所有玩家在投票时闭眼，且票数会秘密统计。\n每个夜晚，你要选择自己是否醉酒直到下个黄昏。",
@@ -358,7 +358,7 @@
     "id": "yingshennvyao_tpi",
     "name": "鹰身女妖",
     "image": [
-      "/scripts/assets/community/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
@@ -377,7 +377,7 @@
     "id": "wanggumo_tpi",
     "name": "亡骨魔",
     "image": [
-      "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -396,7 +396,7 @@
     "id": "puka_tpi",
     "name": "普卡",
     "image": [
-      "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
     ],
     "team": "demon",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。\n上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -415,7 +415,7 @@
     "id": "lizhi_tpi",
     "name": "痢蛭",
     "image": [
-      "/scripts/assets/community/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
@@ -434,7 +434,7 @@
     "id": "nuodashi_tpi",
     "name": "诺-达鲺",
     "image": [
-      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
@@ -452,7 +452,7 @@
     "id": "dengshen_tpi_1",
     "name": "贤者&陌客",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-meng-fan-wang-chuan-a70d84bb/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "陌客可能会被贤者当作杀死他的恶魔。",

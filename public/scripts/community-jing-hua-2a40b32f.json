@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "“净化”",
     "author": "斯派德米",
-    "logo": "/scripts/assets/community/fb09979ff92d0e97d7b429d0c301f8033c1ab73c0e4915a8556134f34733b8e7.png",
+    "logo": "/scripts/assets/community-jing-hua-2a40b32f/fb09979ff92d0e97d7b429d0c301f8033c1ab73c0e4915a8556134f34733b8e7.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_jinghua",
-    "image": "/scripts/assets/community/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/599a9a6cc249633b785486099133526eebff533842d1b87410f2d93106410dc2.png",
     "firstNightReminder": "唤醒洗衣妇，对她指向两名玩家，并展示一个镇民角色标记。这两名玩家其中之一是这个镇民。",
     "reminders": [
       "镇民",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_jinghua",
-    "image": "/scripts/assets/community/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png",
     "firstNightReminder": "唤醒图书管理员，对他指向两名玩家，并展示一个外来者角色标记。这两名玩家其中之一是这个外来者。",
     "reminders": [
       "外来者",
@@ -42,7 +42,7 @@
   },
   {
     "id": "2_jinghua",
-    "image": "/scripts/assets/community/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png",
     "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
     "reminders": [
       "爪牙",
@@ -56,7 +56,7 @@
   },
   {
     "id": "3_jinghua",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -71,7 +71,7 @@
   },
   {
     "id": "4_jinghua",
-    "image": "/scripts/assets/community/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png",
     "otherNightReminder": "如果今天白天有玩家死于处决，唤醒送葬者，对他展示那名玩家的角色标记。",
     "reminders": [
       "死于今日"
@@ -84,7 +84,7 @@
   },
   {
     "id": "5_jinghua",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -97,7 +97,7 @@
   },
   {
     "id": "6_jinghua",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -112,7 +112,7 @@
   },
   {
     "id": "7_jinghua",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -126,7 +126,7 @@
   },
   {
     "id": "8_jinghua",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -144,7 +144,7 @@
   },
   {
     "id": "9_jinghua",
-    "image": "/scripts/assets/community/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
     "otherNightReminder": "如果贤者被恶魔杀死，唤醒贤者，对他指向两名玩家。其中之一是杀死贤者的恶魔。",
     "name": "贤者",
     "team": "townsfolk",
@@ -154,7 +154,7 @@
   },
   {
     "id": "10_jinghua",
-    "image": "/scripts/assets/community/564fe1557f5a2e4b614f805bd9b6ff1c2500ca0ec44f12f7ad55647f0ce1e057.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/564fe1557f5a2e4b614f805bd9b6ff1c2500ca0ec44f12f7ad55647f0ce1e057.png",
     "firstNightReminder": "如果魔术师在场，则需要对爪牙信息环节和恶魔信息环节的相关内容进行调整。",
     "name": "魔术师",
     "team": "townsfolk",
@@ -164,7 +164,7 @@
   },
   {
     "id": "11_jinghua",
-    "image": "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
     "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "reminders": [
@@ -180,7 +180,7 @@
   },
   {
     "id": "12_jinghua",
-    "image": "/scripts/assets/community/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -192,7 +192,7 @@
   },
   {
     "id": "13_jinghua",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -204,7 +204,7 @@
   },
   {
     "id": "14_jinghua",
-    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -212,7 +212,7 @@
   },
   {
     "id": "15_jinghua",
-    "image": "/scripts/assets/community/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png",
     "otherNightReminder": "在夜晚的任意时机，你都可以决定杀死修补匠。这里只是一个提示以免遗忘修补匠。",
     "reminders": [
       "死亡"
@@ -225,7 +225,7 @@
   },
   {
     "id": "16_jinghua",
-    "image": "/scripts/assets/community/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -244,7 +244,7 @@
   },
   {
     "id": "17_jinghua",
-    "image": "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
     "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
     "reminders": [
       "今晚茶会"
@@ -257,7 +257,7 @@
   },
   {
     "id": "18_jinghua",
-    "image": "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
     "remindersGlobal": [
       "是隐士"
     ],
@@ -269,7 +269,7 @@
   },
   {
     "id": "19_jinghua",
-    "image": "/scripts/assets/community/464ecd36b6e219fbcca8a806635e6c14b9ab6c5c8e22fe9e240e9b645bcc87fb.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/464ecd36b6e219fbcca8a806635e6c14b9ab6c5c8e22fe9e240e9b645bcc87fb.png",
     "remindersGlobal": [
       "是史莱姆",
       "醉酒"
@@ -282,7 +282,7 @@
   },
   {
     "id": "20_jinghua",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -299,7 +299,7 @@
   },
   {
     "id": "21_jinghua",
-    "image": "/scripts/assets/community/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
     "firstNightReminder": "分别独自唤醒镜像双子和对立双子，告知他们由于镜像双子能力而得知的信息。",
     "reminders": [
       "对立双子"
@@ -312,7 +312,7 @@
   },
   {
     "id": "22_jinghua",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -326,7 +326,7 @@
   },
   {
     "id": "23_jinghua",
-    "image": "/scripts/assets/community/3c21eadb0bec4983e9a5de922e3fb4fe8c6417cbcd2275da3a90e3621a2c9978.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/3c21eadb0bec4983e9a5de922e3fb4fe8c6417cbcd2275da3a90e3621a2c9978.png",
     "firstNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
     "otherNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
     "reminders": [
@@ -341,7 +341,7 @@
   },
   {
     "id": "24_jinghua",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -356,7 +356,7 @@
   },
   {
     "id": "25_jinghua",
-    "image": "/scripts/assets/community/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
     "name": "斯派德米",
     "team": "fabled",
     "ability": "当有玩家“疯狂”证明错误的角色运作或游戏规则时，说书人可能会公开解释正确的。",
@@ -364,7 +364,7 @@
   },
   {
     "id": "26_jinghua",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "第四界的侵袭",
     "team": "fabled",
     "ability": "本剧本的可选规则存在一定变动。（请根据剧本图勾选）",
@@ -375,7 +375,7 @@
     "name": "贤者&陌客",
     "team": "a jinxed",
     "ability": "陌客可能会被贤者当作杀死他的恶魔。",
-    "image": "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
+    "image": "/scripts/assets/community-jing-hua-2a40b32f/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
     "edition": "custom"
   },
   {

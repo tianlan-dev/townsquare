@@ -14,7 +14,7 @@
   },
   {
     "id": "_elysuim",
-    "image": "/scripts/assets/community/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
     "firstNightReminder": "在首个夜晚里，唤醒洗衣妇，并指向标记有“镇民”和“错误”的玩家。将标记有“镇民”的玩家标记展示给洗衣妇。让洗衣妇重新入睡",
     "remindersGlobal": [
       "镇民",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_elysuim",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -38,7 +38,7 @@
   },
   {
     "id": "2_elysuim",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "firstNightReminder": "唤醒祖母，对她指向一名善良玩家，并展示该玩家的角色标记。",
     "otherNightReminder": "如果恶魔杀死了孙子，祖母死亡。",
     "remindersGlobal": [
@@ -54,7 +54,7 @@
   },
   {
     "id": "3_elysuim",
-    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png",
     "firstNightReminder": "唤醒钟表匠，对他用手势比划数字来告知他恶魔与爪牙之间的最近距离。",
     "name": "钟表匠",
     "team": "townsfolk",
@@ -64,7 +64,7 @@
   },
   {
     "id": "4_elysuim",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "firstNightReminder": "唤醒骑士，对他指向两名非恶魔玩家。",
     "remindersGlobal": [
       "得知"
@@ -77,7 +77,7 @@
   },
   {
     "id": "5_elysuim",
-    "image": "/scripts/assets/community/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/02dafb1f4acab67dcfa6bacf7d2493e28fffaada8e65efb0c4cca3fbfb1b7c3f.png",
     "firstNightReminder": "如果国王在场，对恶魔展示国王角色标记并指向国王玩家。",
     "otherNightReminder": "如果满足国王的唤醒条件，唤醒国王，对他展示一个存活的角色标记。",
     "name": "国王",
@@ -89,7 +89,7 @@
   },
   {
     "id": "6_elysuim",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "remindersGlobal": [
@@ -104,7 +104,7 @@
   },
   {
     "id": "7_elysuim",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "remindersGlobal": [
@@ -119,7 +119,7 @@
   },
   {
     "id": "8_elysuim",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员得知过的玩家属于不同的角色类型。",
     "remindersGlobal": [
@@ -135,7 +135,7 @@
   },
   {
     "id": "9_elysuim",
-    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "remindersGlobal": [
       "恶魔未投票",
@@ -149,7 +149,7 @@
   },
   {
     "id": "10_elysuim",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -159,7 +159,7 @@
   },
   {
     "id": "11_elysuim",
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "firstNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "otherNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
     "name": "将军",
@@ -171,7 +171,7 @@
   },
   {
     "id": "12_elysuim",
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "remindersGlobal": [
       "死亡"
@@ -184,7 +184,7 @@
   },
   {
     "id": "13_elysuim",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "remindersGlobal": [
       "死亡"
@@ -197,7 +197,7 @@
   },
   {
     "id": "14_elysuim",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "otherNightReminder": "唤醒杂技演员，让他选择一名玩家。如果当晚这名玩家醉酒或中毒，杂技演员死亡。",
     "remindersGlobal": [
       "被选择",
@@ -211,7 +211,7 @@
   },
   {
     "id": "15_elysuim",
-    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
     "remindersGlobal": [
       "失去能力"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "id": "16_elysuim",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "remindersGlobal": [
@@ -237,7 +237,7 @@
   },
   {
     "id": "17_elysuim",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "otherNightReminder": "唤醒驱魔人，让他选择一名与上一晚不同的玩家。如果他选中了恶魔，则在驱魔人入睡后通知该恶魔谁是驱魔人。",
     "remindersGlobal": [
       "别选择"
@@ -250,7 +250,7 @@
   },
   {
     "id": "18_elysuim",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
     "remindersGlobal": [
       "保护"
@@ -263,7 +263,7 @@
   },
   {
     "id": "19_elysuim",
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
     "remindersGlobal": [
       "不会死亡",
@@ -277,7 +277,7 @@
   },
   {
     "id": "20_elysuim",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "remindersGlobal": [
       "失去能力"
     ],
@@ -288,7 +288,7 @@
   },
   {
     "id": "21_elysuim",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "otherNightReminder": "如果恶魔杀死了报丧女妖，宣布“报丧女妖觉醒了”，并使用“具有能力”标记报丧女妖。",
     "remindersGlobal": [
       "具有能力"
@@ -301,7 +301,7 @@
   },
   {
     "id": "22_elysuim",
-    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
     "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
     "name": "农夫",
     "team": "townsfolk",
@@ -311,7 +311,7 @@
   },
   {
     "id": "23_elysuim",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "remindersGlobal": [
@@ -327,7 +327,7 @@
   },
   {
     "id": "24_elysuim",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "remindersGlobal": [
       "饱餐",
       "醉酒"
@@ -339,7 +339,7 @@
   },
   {
     "id": "25_elysuim",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "name": "士兵",
     "team": "townsfolk",
     "ability": "恶魔的负面能力对你无效。",
@@ -347,7 +347,7 @@
   },
   {
     "id": "26_elysuim",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -359,7 +359,7 @@
   },
   {
     "id": "27_elysuim",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "remindersGlobal": [
       "今晚理发"
@@ -372,7 +372,7 @@
   },
   {
     "id": "28_elysuim",
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "remindersGlobal": [
       "醉酒",
       "已猜测"
@@ -384,7 +384,7 @@
   },
   {
     "id": "29_elysuim",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "firstNightReminder": "如果告密者在场，对爪牙展示三个不在场的善良角色标记。",
     "name": "告密者",
     "team": "outsider",
@@ -394,7 +394,7 @@
   },
   {
     "id": "30_elysuim",
-    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
     "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
     "remindersGlobal": [
       "今晚茶会"
@@ -407,7 +407,7 @@
   },
   {
     "id": "31_elysuim",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "otherNightReminder": "如果瘟疫医生死亡，说书人获得一项爪牙能力。",
     "remindersGlobal": [
       "说书人能力"
@@ -420,7 +420,7 @@
   },
   {
     "id": "32_elysuim",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "remindersGlobal": [
@@ -435,7 +435,7 @@
   },
   {
     "id": "33_elysuim",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "otherNightReminder": "唤醒刺客。刺客要么摇头表示不使用能力，要么指向任意一名玩家。",
     "remindersGlobal": [
       "死亡",
@@ -449,7 +449,7 @@
   },
   {
     "id": "34_elysuim",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png",
     "name": "主谋",
     "team": "minion",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -457,7 +457,7 @@
   },
   {
     "id": "35_elysuim",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -467,7 +467,7 @@
   },
   {
     "id": "36_elysuim",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "firstNightReminder": "唤醒灵言师，对他展示他的关键词。",
     "otherNightReminder": "如果首次有善良玩家说出了灵言师的关键词，唤醒该玩家并通知他阵营变化。",
     "remindersGlobal": [
@@ -483,7 +483,7 @@
   },
   {
     "id": "37_elysuim",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "firstNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
     "otherNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
     "remindersGlobal": [
@@ -498,7 +498,7 @@
   },
   {
     "id": "38_elysuim",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "remindersGlobal": [
       "攻击三次",
@@ -512,7 +512,7 @@
   },
   {
     "id": "39_elysuim",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "remindersGlobal": [
       "死亡",
@@ -527,7 +527,7 @@
   },
   {
     "id": "40_elysuim",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "remindersGlobal": [
       "死亡",
@@ -541,7 +541,7 @@
   },
   {
     "id": "41_elysuim",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
     "remindersGlobal": [
       "死亡"
@@ -554,7 +554,7 @@
   },
   {
     "id": "42_elysuim",
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "firstNightReminder": "在首个夜晚，唤醒痢蛭。让痢蛭指向任意一名玩家。被他选择的玩家中毒——将“中毒”提示标记放置在被选择的玩家角色标记旁。让痢蛭重新入睡。",
     "otherNightReminder": "除首个夜晚以外的每个夜晚，唤醒痢蛭。让痢蛭指向任意一名玩家。被选择的玩家死亡——在那名玩家的角色标记旁放置痢蛭的“死亡”提示标记并放置帷幕标记。让痢蛭重新入睡。",
     "remindersGlobal": [
@@ -571,7 +571,7 @@
   },
   {
     "id": "43_elysuim",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "remindersGlobal": [
       "死亡"
@@ -643,7 +643,7 @@
   },
   {
     "id": "45_elysuim",
-    "image": "/scripts/assets/community/c2d95ec2e74fc84bdf58aed4945db7218443b2e430b9a55bf0ea8aca6eece336.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/c2d95ec2e74fc84bdf58aed4945db7218443b2e430b9a55bf0ea8aca6eece336.png",
     "name": "破碎的圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。但即使在有一名善良玩家变成邪恶时，方古仍然可以将一名善良外来者变为邪恶的方古。",
@@ -651,7 +651,7 @@
   },
   {
     "id": "47_elysuim",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "otherNightReminder": "如果贤者被恶魔杀死，唤醒贤者，对他指向两名玩家。其中之一是杀死贤者的恶魔。",
     "name": "贤者",
     "team": "townsfolk",
@@ -661,7 +661,7 @@
   },
   {
     "id": "48_elysuim",
-    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "image": "/scripts/assets/community-chang-meng-bi-an-0c6ccfd4/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",

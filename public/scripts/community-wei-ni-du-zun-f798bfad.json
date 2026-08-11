@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "唯你独尊",
     "author": "苏通染",
-    "logo": "/scripts/assets/community/85798c67a3f61cf1f6d9c78f0ecc270da7071fcc4c40a37c2166650ebfd1da5b.png",
+    "logo": "/scripts/assets/community-wei-ni-du-zun-f798bfad/85798c67a3f61cf1f6d9c78f0ecc270da7071fcc4c40a37c2166650ebfd1da5b.png",
     "description": "江湖路远不见月黑风高，学海无涯我只求悟出此道。",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
@@ -21,7 +21,7 @@
   },
   {
     "id": "1c6bf8ab-5955-4f5d-bc74-91a085b0bfae",
-    "image": "/scripts/assets/community/342b0d1efae5cdffaddbbf1aaad41ab728bdc805a8425e4c630b5fe2f1204c63.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/342b0d1efae5cdffaddbbf1aaad41ab728bdc805a8425e4c630b5fe2f1204c63.png",
     "edition": "custom",
     "name": "方士",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择查看魔典的部分内容。死亡的玩家数量越多，你能看到的内容也就越多。",
@@ -37,7 +37,7 @@
   },
   {
     "id": "c288d091-0724-44f4-898d-27b3a9171df7",
-    "image": "/scripts/assets/community/ff77f3a64cd342b4b6205dbdc3320eceedafa132d2e962b55daee58a7be18464.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/ff77f3a64cd342b4b6205dbdc3320eceedafa132d2e962b55daee58a7be18464.png",
     "edition": "custom",
     "name": "刀客",
     "ability": "在你的首个夜晚，得知一名在场的爪牙角色。每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是你得知的角色，他死亡。",
@@ -56,7 +56,7 @@
   },
   {
     "id": "1fc3a84c-9291-445f-84e9-459f2dcd42b5",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -72,7 +72,7 @@
   },
   {
     "id": "99d39231-118d-447b-972d-c97a4e1cb67d",
-    "image": "/scripts/assets/community/d41e97fe1234c4e36e3b20356308104423526de540fcd534145b421975f2aba2.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/d41e97fe1234c4e36e3b20356308104423526de540fcd534145b421975f2aba2.png",
     "edition": "custom",
     "name": "悟道者",
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择了你或对你产生了影响，在该效果生效前你会变成一个不在场的镇民角色。",
@@ -90,7 +90,7 @@
   },
   {
     "id": "71463235-6de3-4970-8147-ecdbe7c038e4",
-    "image": "/scripts/assets/community/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/45b30609190208813df23edc17f8a6048b25228cb84b31de1804c8e6903a385a.png",
     "edition": "custom",
     "name": "半仙",
     "ability": "任何使用自身能力选择你的其他玩家，会改为选中另一名邪恶玩家作为替代。",
@@ -106,7 +106,7 @@
   },
   {
     "id": "dba8c0c8-3042-4170-86d1-9d23cd8ab68b",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -124,7 +124,7 @@
   },
   {
     "id": "d2ac0cd7-7a9b-4ee6-8e19-602f8dc82d84",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "edition": "custom",
     "name": "舞蛇人",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -142,7 +142,7 @@
   },
   {
     "id": "69a56f9f-a9b7-4ec9-865e-44073d5fd57d",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -158,7 +158,7 @@
   },
   {
     "id": "f656d31f-a7f8-46fa-8054-2715c76e7ca0",
-    "image": "/scripts/assets/community/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/bd924de5c30caa34526ff0fdb4b129af0ee3668f6699ccfe9990450cf2395638.png",
     "edition": "custom",
     "name": "无神论者",
     "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
@@ -174,7 +174,7 @@
   },
   {
     "id": "de534b29-56b9-4116-892c-26ac769a7532",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "edition": "custom",
     "name": "小精灵",
     "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
@@ -193,7 +193,7 @@
   },
   {
     "id": "268c6472-52de-454f-9987-66ca82662350",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "name": "半兽人",
     "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
@@ -210,7 +210,7 @@
   },
   {
     "id": "36f63cb7-9107-4adf-82d4-113a81585ace",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，拜访说书人并获取两条信息，其中一条是正确的，一条是错误的。",
@@ -225,7 +225,7 @@
   },
   {
     "id": "2a2d9c19-b532-4ed3-94c7-d96a27577c7d",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "name": "哲学家",
     "ability": "整局游戏限一次，夜晚，选择一个善良身份，获取他的技能，如果有玩家为该身份，他醉酒。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "d3b9dab7-8ae1-4856-83a6-d5693d89e21e",
-    "image": "/scripts/assets/community/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
     "edition": "custom",
     "name": "逆臣",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
@@ -261,7 +261,7 @@
   },
   {
     "id": "97a241e7-929e-40ed-abd2-061bf2016805",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -279,7 +279,7 @@
   },
   {
     "id": "595724a0-c656-43c9-8bf1-1346e3cc331d",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "name": "疯子",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -298,7 +298,7 @@
   },
   {
     "id": "b0f668cb-9d85-4649-b683-63b5a9e697d4",
-    "image": "/scripts/assets/community/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -313,7 +313,7 @@
   },
   {
     "id": "c8a51c27-9fad-4d77-8648-2804d95d7a7a",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "name": "蛊雕",
     "ability": "每个夜晚，选择左或右：你朝这个方向飞行至下一名存活的善良玩家。在你停留位置的玩家中毒且被当作邪恶阵营和爪牙角色，你会知道他原本的角色。",
@@ -331,7 +331,7 @@
   },
   {
     "id": "191f1f21-b2d9-4730-85fe-ff8504fa47da",
-    "image": "/scripts/assets/community/9da75cb38d5cd8f8f946c14f495393017e73ce0b0073a14777f83d6c27a5aeeb.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/9da75cb38d5cd8f8f946c14f495393017e73ce0b0073a14777f83d6c27a5aeeb.png",
     "edition": "custom",
     "name": "采莲君",
     "ability": "每局游戏限一次，在夜晚时*，你可以设计一个答案为是/否的问题并告知说书人答案，然后你选择一名玩家让说书人向他提问，若他的回答与之相符，他加入邪恶阵营；反之他死亡。",
@@ -346,7 +346,7 @@
   },
   {
     "id": "3518dba4-5a6a-460a-bf36-f1ece6fb275a",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在首次死亡时被当作仍然存活。[-1 外来者]",
@@ -364,7 +364,7 @@
   },
   {
     "id": "12ec375a-c952-4173-a78e-12bb886cac4e",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "name": "洗脑师",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -382,7 +382,7 @@
   },
   {
     "id": "b0c358ae-086f-4d93-895a-0dc215bb7887",
-    "image": "/scripts/assets/community/e1dd40261ca87167c1ee708d8b5b7eeac31b8bdff0bb47c71263fc6519c87b55.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/e1dd40261ca87167c1ee708d8b5b7eeac31b8bdff0bb47c71263fc6519c87b55.png",
     "edition": "custom",
     "name": "镜中魔",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。或选择两名玩家：如果他们角色相同则一同死亡。[场上存在一对及以上的相同善良镇民角色，每对中的一个中毒，-1外来者]",
@@ -398,7 +398,7 @@
   },
   {
     "id": "1082f459-dd93-453d-8ed9-2db7b1fa51ad",
-    "image": "/scripts/assets/community/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png",
     "edition": "custom",
     "name": "典狱长",
     "ability": "每个夜晚，你要选择一至三名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
@@ -417,7 +417,7 @@
   },
   {
     "id": "51761769-9aac-414d-a20e-c992d81b9abc",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -436,7 +436,7 @@
   },
   {
     "id": "46e1831b-4f3c-485c-8f6f-2076919d3200",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "name": "饕餮",
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -447,7 +447,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-wei-ni-du-zun-f798bfad/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_106",

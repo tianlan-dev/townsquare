@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "山海奇闻录",
     "author": "牲当为人杰",
-    "logo": "/scripts/assets/community/2ccd6021cbf5efe8d0638e79b42b4ee4997880816f7d6a3589a4792afe05c99a.png",
+    "logo": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/2ccd6021cbf5efe8d0638e79b42b4ee4997880816f7d6a3589a4792afe05c99a.png",
     "almanac": "有问题联系SE谢谢喵",
     "tags": [],
     "version": "",
@@ -11,7 +11,7 @@
   },
   {
     "id": "_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/bb53abb31b2b01bda2f6e34b1481c21e3702c00b9cc0e00c3151e8e4026e5534.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/bb53abb31b2b01bda2f6e34b1481c21e3702c00b9cc0e00c3151e8e4026e5534.png",
     "firstNightReminder": "你的首个夜晚，你得知所有邪恶玩家最近距离中有多少名善良玩家。",
     "name": "爱美丽雯",
     "team": "townsfolk",
@@ -21,7 +21,7 @@
   },
   {
     "id": "1_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/6b8f8c74a59c61b52501571a0923d41e413d1a06afb8b7db4401a46bb62bf8fa.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/6b8f8c74a59c61b52501571a0923d41e413d1a06afb8b7db4401a46bb62bf8fa.png",
     "firstNightReminder": "你的首个夜晚，你得知恶魔伪装身份的种类分别有几个。然后得知两个角色，其中之一是恶魔的伪装身份。",
     "name": "懵逼小铁",
     "team": "townsfolk",
@@ -31,7 +31,7 @@
   },
   {
     "id": "2_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/8be519aee43730c62f2e18b7ffd876cf2b183e2687d79d61c0b35c25c52c4e77.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/8be519aee43730c62f2e18b7ffd876cf2b183e2687d79d61c0b35c25c52c4e77.png",
     "firstNightReminder": "你的首个夜晚，你得知三名玩家。",
     "reminders": [
       "得知"
@@ -44,7 +44,7 @@
   },
   {
     "id": "3_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/b9e6902d64a2314783c5149c17d43f7e13040ac3a9d487dddb2a77145c331d9d.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/b9e6902d64a2314783c5149c17d43f7e13040ac3a9d487dddb2a77145c331d9d.png",
     "firstNightReminder": "每个夜晚，你要选择一名玩家，你得知他与你之间的玩家有多少种类。",
     "otherNightReminder": "每个夜晚，你要选择一名玩家，你得知他与你之间的玩家有多少种类。",
     "name": "女主刘老师",
@@ -56,7 +56,7 @@
   },
   {
     "id": "4_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/c1966c4122c0c9fa7414cf58bac1e3b6250e1259d631634c412d5b2b495a2727.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/c1966c4122c0c9fa7414cf58bac1e3b6250e1259d631634c412d5b2b495a2727.png",
     "otherNightReminder": "每个夜晚*，你得知白天被处决死亡的玩家邻近两名玩家是否为同一阵营。",
     "reminders": [
       "死于处决"
@@ -69,7 +69,7 @@
   },
   {
     "id": "5_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/24a5a5822c56f7e2cfe14c3f017b327d13f18128d3ce1230cfd2d97cf9289faa.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/24a5a5822c56f7e2cfe14c3f017b327d13f18128d3ce1230cfd2d97cf9289faa.png",
     "otherNightReminder": "每个夜晚*，你要选择两名玩家，他们当晚不受爪牙能力影响。",
     "reminders": [
       "爪牙免疫"
@@ -82,7 +82,7 @@
   },
   {
     "id": "6_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/bbd909e6165c053ca092af0b5925c352ed9157df32165a013f330e0bb897e833.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/bbd909e6165c053ca092af0b5925c352ed9157df32165a013f330e0bb897e833.png",
     "otherNightReminder": "每个夜晚*，你要选择两名存活玩家（与上晚不同），当晚恶魔只能在你们之中进行选择。如果你被恶魔杀死，你得知今晚选择的玩家是否有邪恶玩家。",
     "reminders": [
       "选择"
@@ -95,7 +95,7 @@
   },
   {
     "id": "7_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/08226192cd874241406170570418f3e35856ae8486f7342071c6d6d3ac97569b.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/08226192cd874241406170570418f3e35856ae8486f7342071c6d6d3ac97569b.png",
     "otherNightReminder": "每局游戏限用一次，在夜晚时*，你可以选择一名玩家：如果他是善良的玩家，你死亡，如果他是邪恶玩家，他死亡并得知你角色。",
     "reminders": [
       "失去能力",
@@ -110,7 +110,7 @@
   },
   {
     "id": "8_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/d67f41767cfc59cbccc3fd6f54533d1a90c139c85b44fd883daea2d6cf5efef3.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/d67f41767cfc59cbccc3fd6f54533d1a90c139c85b44fd883daea2d6cf5efef3.png",
     "otherNightReminder": "如果白天你被善良阵营提名，你得知一个在场角色。如果你没有被提名或者被邪恶玩家提名，你得知一个不在场角色。",
     "reminders": [
       "提名"
@@ -123,7 +123,7 @@
   },
   {
     "id": "9_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/fb28815711bbd25d89e3de9b6e421e3a56c5a88886d078e8bf6950746caf14b0.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/fb28815711bbd25d89e3de9b6e421e3a56c5a88886d078e8bf6950746caf14b0.png",
     "reminders": [
       "醉酒"
     ],
@@ -134,7 +134,7 @@
   },
   {
     "id": "10_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/323769e6385473575068ff3b916ad2b8b5034629cf7e642c4588e0428732b3e2.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/323769e6385473575068ff3b916ad2b8b5034629cf7e642c4588e0428732b3e2.png",
     "otherNightReminder": "如果白天你“疯狂”的证明自己是某个善良角色，你当晚得知他是否在场，如果你死亡，你“疯狂”的角色也可能死亡。",
     "reminders": [
       "疯狂",
@@ -148,7 +148,7 @@
   },
   {
     "id": "11_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/a1453f2fa0fd1cc61f224b680617da58bbb138b0da29e07dabd671534875b9f0.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/a1453f2fa0fd1cc61f224b680617da58bbb138b0da29e07dabd671534875b9f0.png",
     "otherNightReminder": "每局游戏限一次。如果外来者在夜晚死亡，你防止他死亡并被唤醒得知此事。",
     "reminders": [
       "失去能力",
@@ -162,7 +162,7 @@
   },
   {
     "id": "12_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/af4ff52c4e77b4be1e29af81db218884857caf52008adc2b5855e516df09d023.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/af4ff52c4e77b4be1e29af81db218884857caf52008adc2b5855e516df09d023.png",
     "otherNightReminder": "如果你被恶魔杀死，会有三名玩家同时被唤醒：其中有且只有一名邪恶玩家。如果你中毒或醉酒，你能力会错误的发动。",
     "name": "首倒小南音",
     "team": "townsfolk",
@@ -172,7 +172,7 @@
   },
   {
     "id": "13_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/b653d764a0baf85fc575e4425fc5bf6b1e9417350a0eaa9674fbfee906b8da96.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/b653d764a0baf85fc575e4425fc5bf6b1e9417350a0eaa9674fbfee906b8da96.png",
     "firstNightReminder": "首个夜晚，你与兔弟分别得知一名不同爪牙。",
     "otherNightReminder": "如果你得知的爪牙死亡，你加入邪恶阵营，并且兔弟得知此事然后他失去能力",
     "reminders": [
@@ -190,7 +190,7 @@
   },
   {
     "id": "14_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/32c7965fd52d8f0fec2169346bc96aaf5958af1715910a915cb4fc1d60b5357a.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/32c7965fd52d8f0fec2169346bc96aaf5958af1715910a915cb4fc1d60b5357a.png",
     "firstNightReminder": "首个夜晚，你与兔姐分别得知一名不同爪牙。",
     "otherNightReminder": "如果你得知的爪牙死亡，你加入邪恶阵营，并且兔姐得知此事然后他失去能力",
     "reminders": [
@@ -208,7 +208,7 @@
   },
   {
     "id": "15_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/44ff53a566fde6e40cd05af1074966cc11588649eb9c74af8fd75547ca76b864.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/44ff53a566fde6e40cd05af1074966cc11588649eb9c74af8fd75547ca76b864.png",
     "reminders": [
       "第一天",
       "第二天",
@@ -222,7 +222,7 @@
   },
   {
     "id": "16_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/d899dabec6cd3bb2c3bc1888dcef03a196b2d9f1fc3d617bee4da45278695611.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/d899dabec6cd3bb2c3bc1888dcef03a196b2d9f1fc3d617bee4da45278695611.png",
     "otherNightReminder": "你会加入因你提名而被处决的玩家的阵营，如果你未提名处决过玩家，你无法获胜。",
     "reminders": [
       "是善良",
@@ -237,7 +237,7 @@
   },
   {
     "id": "17_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/a60941020d1195410dd90d19fab5e03d94de4cfcf9073f4ab38f053cdefa4133.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/a60941020d1195410dd90d19fab5e03d94de4cfcf9073f4ab38f053cdefa4133.png",
     "otherNightReminder": "你以为你是个不在场的镇民角色，其实你不是。当你死亡时，你得知自己是谁，然后邻近两名善良玩家醉酒。",
     "remindersGlobal": [
       "是乱搞一二",
@@ -251,7 +251,7 @@
   },
   {
     "id": "18_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/fd437b1428e6ac98c79655c47d54a1e8e9a1065d5b867f595c61d794f826f86b.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/fd437b1428e6ac98c79655c47d54a1e8e9a1065d5b867f595c61d794f826f86b.png",
     "firstNightReminder": "每个夜晚，你要选择一名为选择过的存活玩家，如果他是恶魔，你加入邪恶阵营。如果游戏结束时他存活，你的阵营落败。他因处决而死亡时，你“是恶魔”并每晚选择一名玩家：他死亡。",
     "otherNightReminder": "每个夜晚，你要选择一名为选择过的存活玩家，如果他是恶魔，你加入邪恶阵营。如果游戏结束时他存活，你的阵营落败。他因处决而死亡时，你“是恶魔”并每晚选择一名玩家：他死亡。",
     "reminders": [
@@ -269,7 +269,7 @@
   },
   {
     "id": "19_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/4f8857d13e5f3fbb50f3c89d2d35876cb343bf0f39ad4fa40ed4fdf4edfbf4c8.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/4f8857d13e5f3fbb50f3c89d2d35876cb343bf0f39ad4fa40ed4fdf4edfbf4c8.png",
     "otherNightReminder": "当场上只存活你一个外来者时，你加入邪恶阵营。",
     "reminders": [
       "邪恶"
@@ -283,7 +283,7 @@
   },
   {
     "id": "bcbc_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/51ba17ffcf7f7e098214acdc1c4b94af6c7d6814616ece42c447185e0bf74be2.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/51ba17ffcf7f7e098214acdc1c4b94af6c7d6814616ece42c447185e0bf74be2.png",
     "otherNightReminder": "每个夜晚*，你选择一名未选择过的镇民角色，一名玩家变为该角色并加入邪恶阵营，黎明时恢复原有阵营。",
     "reminders": [
       "暂入邪恶"
@@ -296,7 +296,7 @@
   },
   {
     "id": "suki_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/e35cc9e196de461255b3c05c265bef49837c113eb5d23f7b6a381af7a74e3bc2.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/e35cc9e196de461255b3c05c265bef49837c113eb5d23f7b6a381af7a74e3bc2.png",
     "firstNightReminder": "每个夜晚，你选择一名非初始邪恶阵营玩家，他中毒至第二天黄昏。如果他被处决，所有善良玩家中毒至下一个黄昏。",
     "otherNightReminder": "每个夜晚，你选择一名非初始邪恶阵营玩家，他中毒至第二天黄昏。如果他被处决，所有善良玩家中毒至下一个黄昏。",
     "reminders": [
@@ -312,7 +312,7 @@
   },
   {
     "id": "sherry_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/ce10bd646226b9a3179e1f8fa6b056553ef27bd99080b418e23e1990824c3e56.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/ce10bd646226b9a3179e1f8fa6b056553ef27bd99080b418e23e1990824c3e56.png",
     "firstNightReminder": "每个夜晚，你选择一名玩家，他提名或者提名他的角色中毒至下一个黄昏，如果他们互相提名，他们永久中毒。",
     "otherNightReminder": "每个夜晚，你选择一名玩家，他提名或者提名他的角色中毒至下一个黄昏，如果他们互相提名，他们永久中毒。",
     "reminders": [
@@ -328,7 +328,7 @@
   },
   {
     "id": "emo_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/2e55abbcaf8325693f11769a616696a99ad0a41a53cb70d6021fbf909fc41431.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/2e55abbcaf8325693f11769a616696a99ad0a41a53cb70d6021fbf909fc41431.png",
     "otherNightReminder": "如果白天你没有提名或者投票，当晚你要选择一名玩家：他死亡。",
     "reminders": [
       "死亡"
@@ -341,7 +341,7 @@
   },
   {
     "id": "20_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/6b2d3092c38974d1aeb4d2e851012125e614a8af6c7ee149a575049864fbca9c.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/6b2d3092c38974d1aeb4d2e851012125e614a8af6c7ee149a575049864fbca9c.png",
     "otherNightReminder": "每个夜晚*，你们共同选择一名非兄弟帮玩家，他要选择一名存活玩家，那名玩家死亡。如果游戏在夜晚即将结束时，邪恶阵营获胜。",
     "reminders": [
       "兄弟帮帮凶",
@@ -356,7 +356,7 @@
   },
   {
     "id": "21_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/e7126a037f407a0f6099a1bff8c561cf45821eb2fc217e165e11c531fa036eda.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/e7126a037f407a0f6099a1bff8c561cf45821eb2fc217e165e11c531fa036eda.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡；或者选择两名玩家：如果他们里面没有外来者，他们死亡。",
     "reminders": [
       "死亡"
@@ -370,7 +370,7 @@
   },
   {
     "id": "22_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/934f3c70cc447aaa5a210b8603890eafce85a1630052ed1d124b58568ad56af0.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/934f3c70cc447aaa5a210b8603890eafce85a1630052ed1d124b58568ad56af0.png",
     "firstNightReminder": "首个夜晚，你要查看魔典并选择所有玩家的死亡顺序。每个夜晚*，一名存活玩家按顺序死亡。第4个白天结束后，邪恶阵营获胜。",
     "otherNightReminder": "首个夜晚，你要查看魔典并选择所有玩家的死亡顺序。每个夜晚*，一名存活玩家按顺序死亡。第4个白天结束后，邪恶阵营获胜。",
     "reminders": [
@@ -387,7 +387,7 @@
   },
   {
     "id": "23_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/fbbbac499a1da2ad0aae9ac9139572c5ce75847325959fb87d1e0a05ad1cfb8a.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/fbbbac499a1da2ad0aae9ac9139572c5ce75847325959fb87d1e0a05ad1cfb8a.png",
     "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。",
     "reminders": [
       "死亡",
@@ -403,7 +403,7 @@
   },
   {
     "id": "24_shanhaiqiwenlu",
-    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "image": "/scripts/assets/community-shan-hai-qi-wen-lu-c1e4e7cb/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
     "name": "破碎的圣洁之魂",
     "team": "fabled",
     "ability": "第四个白天开始，如果场上邪恶玩家比初始配置多一名以上，除恶魔外的邪恶阵营玩家的投票不会被结算。",

@@ -2,7 +2,7 @@
   {
     "author": "Pakchoi",
     "name": "来煎人寿",
-    "logo": "/scripts/assets/community/ee94bf4301dcc0da2793e10f3e37822d882d0fd865148d58e931829e6c892154.png",
+    "logo": "/scripts/assets/community-lai-jian-ren-shou-b0074814/ee94bf4301dcc0da2793e10f3e37822d882d0fd865148d58e931829e6c892154.png",
     "id": "_meta",
     "townsfolkName": "镇民",
     "tags": [
@@ -12,7 +12,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "edition": "custom",
     "flavor": "",
     "id": "village_idiot_button",
@@ -31,7 +31,7 @@
   },
   {
     "ability": "每个夜晚，你会得知一个在场角色。",
-    "image": "/scripts/assets/community/c21726a018da6b33d349c6acb7b9262176db4f903a1a4b90f1d03218e279cc6e.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/c21726a018da6b33d349c6acb7b9262176db4f903a1a4b90f1d03218e279cc6e.png",
     "edition": "custom",
     "flavor": "",
     "id": "Stableboy",
@@ -61,11 +61,11 @@
     ],
     "team": "townsfolk",
     "firstNight": 0,
-    "image": "/scripts/assets/community/8278f18073a0ce763fc52b15e531f0c83039a2b489c10a878d9493f611eff764.png"
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/8278f18073a0ce763fc52b15e531f0c83039a2b489c10a878d9493f611eff764.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果与他邻近的玩家中有且只有一名是邪恶的，且他不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png",
     "edition": "custom",
     "flavor": "",
     "id": "Hunter",
@@ -101,7 +101,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你要选择一个除自己以外的角色：邪恶玩家的负面能力对他无效。",
-    "image": "/scripts/assets/community/e49907d3e63e6ea81c108f8d3d858f00230ed497b2613c28cdf30e4983910495.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/e49907d3e63e6ea81c108f8d3d858f00230ed497b2613c28cdf30e4983910495.png",
     "edition": "custom",
     "flavor": "",
     "id": "safeguard",
@@ -120,7 +120,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以得知今天有哪些除你以外的角色被邪恶玩家的能力选择或影响了。（从上个黎明到你被唤醒时）",
-    "image": "/scripts/assets/community/f9ac5c614884cb603920341b9658145006c1ace3230fca507fe2582b4254086a.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/f9ac5c614884cb603920341b9658145006c1ace3230fca507fe2582b4254086a.png",
     "edition": "custom",
     "flavor": "",
     "id": "goldsmith_button",
@@ -139,7 +139,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
-    "image": "/scripts/assets/community/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/2ffa360a16a6364588851caded062f31a86ff5079e82c31dac345363d2be8444.png",
     "edition": "custom",
     "flavor": "",
     "id": "professor_button",
@@ -158,7 +158,7 @@
     "GstoneID": "professor"
   },
   {
-    "image": "/scripts/assets/community/1358fba96a2ffcbcef12e26ea79c32cfececdcf0f339b087fb388a66dc155be9.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/1358fba96a2ffcbcef12e26ea79c32cfececdcf0f339b087fb388a66dc155be9.png",
     "name": "清道夫",
     "team": "townsfolk",
     "ability": "如果与你邻座的玩家均已死亡，会有好事发生。",
@@ -176,7 +176,7 @@
   },
   {
     "ability": "你可以与任意一名其他玩家缔结约定。在新约定达成之前，如果有玩家违约，当晚你和他之一会死亡。",
-    "image": "/scripts/assets/community/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/76b8ccee23f14ec17497bcd2f77d4fa03b2924b359a1deec08c10aabe4fd8172.png",
     "edition": "custom",
     "id": "merchant",
     "firstNightReminder": "",
@@ -210,7 +210,7 @@
   },
   {
     "ability": "每个白天，你可以拜访说书人并选择一个话题，说书人会告诉你一个与他有关的事实。如果你的相邻存活玩家阵营不同，你得知错误信息。",
-    "image": "/scripts/assets/community/4ac9464ea7340e97f47223bb7e227075fe311a69de2849b9aed63c6a1b86a263.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/4ac9464ea7340e97f47223bb7e227075fe311a69de2849b9aed63c6a1b86a263.png",
     "edition": "custom",
     "flavor": "",
     "id": "Coachman",
@@ -227,7 +227,7 @@
   },
   {
     "id": "xixifafashishishishishishishi",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "name": "戏法师",
     "ability": "每个白天限一次，你可以公开猜测谁是爪牙，谁是恶魔。如果你猜对，善良阵营获胜。",
@@ -242,7 +242,7 @@
   },
   {
     "id": "confidential",
-    "image": "/scripts/assets/community/8b7cdce373c6e3a00cafebeed48faf62bdcdcfa06b5ef612db27b2a7ceadd866.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/8b7cdce373c6e3a00cafebeed48faf62bdcdcfa06b5ef612db27b2a7ceadd866.png",
     "reminders": [
       "机密"
     ],
@@ -254,7 +254,7 @@
   },
   {
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
-    "image": "/scripts/assets/community/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/d34445c63ca477e2ce6ff2819e663129b399199f3a7adc98a811df238833388b.png",
     "edition": "custom",
     "flavor": "",
     "id": "shusheng_button",
@@ -275,7 +275,7 @@
   },
   {
     "ability": "每次提名中，在你之后与你投票不同的一名玩家可能死亡。",
-    "image": "/scripts/assets/community/e77f02f35dc7f3a9f01c8822ccae56338909ff77b8c6b080a9ba9336241cf9e7.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/e77f02f35dc7f3a9f01c8822ccae56338909ff77b8c6b080a9ba9336241cf9e7.png",
     "edition": "custom",
     "flavor": "",
     "id": "Bully",
@@ -293,7 +293,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_button",
@@ -325,7 +325,7 @@
     "team": "minion",
     "firstNight": 0,
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡，在此之前，与他阵营相同的另一名玩家复活。恶魔死亡不会导致游戏结束。",
-    "image": "/scripts/assets/community/d632656ee7826ceb4a494a3a2812395738f40590acc527f5755a68ceab977b3a.png"
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/d632656ee7826ceb4a494a3a2812395738f40590acc527f5755a68ceab977b3a.png"
   },
   {
     "firstNightReminder": "",
@@ -341,11 +341,11 @@
     "team": "minion",
     "firstNight": 4901,
     "ability": "每个夜晚，你要选择两名玩家：其中的非恶魔玩家会被当作与他原本阵营相反的阵营，直到下个黄昏。",
-    "image": "/scripts/assets/community/673044321dc46daf244ba377d5e0bb499d4421e4485ec900272ec4eacbb91bad.png"
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/673044321dc46daf244ba377d5e0bb499d4421e4485ec900272ec4eacbb91bad.png"
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniang_button",
@@ -374,7 +374,7 @@
     "remindersGlobal": [
       "死！"
     ],
-    "image": "/scripts/assets/community/bacfd57f10ef826bf3c50fa2f550694df4acdf8eec5220ecdea889d82f469bba.png"
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/bacfd57f10ef826bf3c50fa2f550694df4acdf8eec5220ecdea889d82f469bba.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡，随后你可以选择一名玩家：如果他上个白天被邪恶玩家提名过，他死亡。",
@@ -393,11 +393,11 @@
     "remindersGlobal": [],
     "team": "demon",
     "firstNight": 0,
-    "image": "/scripts/assets/community/44b35508d6871e747f3069fb5673282af2b97e4fc2208d1dc56865b323e7d764.png"
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/44b35508d6871e747f3069fb5673282af2b97e4fc2208d1dc56865b323e7d764.png"
   },
   {
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "flavor": "",
     "id": "ojo_button",
@@ -416,7 +416,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
-    "image": "/scripts/assets/community/c638520259968bd5f3b102fbdac60c1809e460ebfee6bd47917a29c363f6a248.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/c638520259968bd5f3b102fbdac60c1809e460ebfee6bd47917a29c363f6a248.png",
     "edition": "custom",
     "flavor": "",
     "id": "baojun_button",
@@ -434,7 +434,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你的上个夜晚选择过的且当前死亡的玩家可能会被你反刍。",
-    "image": "/scripts/assets/community/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/3a2ff21b61a94a3e91df5b4e6b3737b7c7eaa383648b08ade8087f8d420a8d0c.png",
     "edition": "custom",
     "flavor": "",
     "id": "shabaloth_button",
@@ -454,7 +454,7 @@
   },
   {
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom",
     "flavor": "",
     "id": "spirit_of_ivory_button",
@@ -473,7 +473,7 @@
   },
   {
     "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
-    "image": "/scripts/assets/community/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png",
     "edition": "custom",
     "flavor": "",
     "id": "sentinel_button",
@@ -490,7 +490,7 @@
   },
   {
     "ability": "旅行者会被非旅行者角色当作不在游戏中，但恶魔仍然可以选择杀死旅行者。",
-    "image": "/scripts/assets/community/677c562a5a07129ac7d2bc729758f4b48f1e8c4e433c02ce831e564393984570.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/677c562a5a07129ac7d2bc729758f4b48f1e8c4e433c02ce831e564393984570.png",
     "edition": "custom",
     "flavor": "",
     "id": "recitalist",
@@ -504,7 +504,7 @@
   },
   {
     "id": "patches",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-lai-jian-ren-shou-b0074814/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "name": "教授 & 追猎者",
     "team": "a jinxed",
     "setup": false,

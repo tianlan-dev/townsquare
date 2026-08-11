@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "法革风暴",
     "author": "Hadrian Caesar",
-    "logo": "/scripts/assets/community/a03b69eecea92735c7ea96bec43efa5114f731ce4228205fd1f82e93f6970d0b.png",
+    "logo": "/scripts/assets/community-fa-ge-feng-bao-a2661707/a03b69eecea92735c7ea96bec43efa5114f731ce4228205fd1f82e93f6970d0b.png",
     "almanac": "https://www.bloodstar.xyz/p/Hadrian_Caesar/The_French_Revolution_2024_RV/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/19b1f90269071ddb86a9675df8d4b9f9a11a484e644736f69bf8c1355d974e80.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/19b1f90269071ddb86a9675df8d4b9f9a11a484e644736f69bf8c1355d974e80.png",
     "otherNightReminder": "让他选择两名玩家，告知其中一名玩家的角色；如果得到的信息为邪恶角色，放置“革命恐怖！”标记。",
     "reminders": [
       "革命恐怖！"
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/845c2ecb7cbcd6c2cd5c1e3560577a5c677fd170edac8541d595eadd04fb892b.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/845c2ecb7cbcd6c2cd5c1e3560577a5c677fd170edac8541d595eadd04fb892b.png",
     "firstNightReminder": "指向两名玩家，其中一名为罗伯斯庇尔。",
     "otherNightReminder": "如果圣鞠斯特死亡，让他选择一名玩家，告知他那名玩家的阵营。",
     "reminders": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "2_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/7beb7e49cbf4dde095cb992469dd34180f90689c4f573043bfb993c267bf65bc.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/7beb7e49cbf4dde095cb992469dd34180f90689c4f573043bfb993c267bf65bc.png",
     "firstNightReminder": "指向三名玩家，其中有教宗或塔列朗。",
     "otherNightReminder": "询问他选择是否发动技能，如果发动技能，让他选择一名玩家，放置“帝国审判”标记。",
     "reminders": [
@@ -59,7 +59,7 @@
   },
   {
     "id": "3_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/871469554544043a671de131193d579a901c559d9f2287cb73f9a32e8245f315.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/871469554544043a671de131193d579a901c559d9f2287cb73f9a32e8245f315.png",
     "firstNightReminder": "让他选择两名玩家，告知他们之外的一个角色类型，为其中一名玩家放置“辩护无罪”标记。",
     "otherNightReminder": "让他选择两名玩家，告知他们之外的一个角色类型，为其中一名玩家放置“辩护无罪”标记。",
     "reminders": [
@@ -74,7 +74,7 @@
   },
   {
     "id": "4_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/5a8ba8527b4e5e80c2992394f8b0be6068a32dc844fab8a8d465db02a8e00fca.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/5a8ba8527b4e5e80c2992394f8b0be6068a32dc844fab8a8d465db02a8e00fca.png",
     "firstNightReminder": "让他选择一名玩家，如果该玩家是外来者或爪牙，放置“反动罪”标记。",
     "otherNightReminder": "让他选择一名玩家，如果该玩家是外来者或爪牙，放置“反动罪”标记。",
     "reminders": [
@@ -90,7 +90,7 @@
   },
   {
     "id": "5_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/60ee8ddf5dab3c571b33017c736a41aa64328169c0296a376db44c796b442855.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/60ee8ddf5dab3c571b33017c736a41aa64328169c0296a376db44c796b442855.png",
     "otherNightReminder": "如果马拉死亡，告知他正确答复的数量。",
     "reminders": [
       "马拉之死"
@@ -103,7 +103,7 @@
   },
   {
     "id": "6_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/0ce07e386571485ca526de87b5b0b56741e290847eba72a6b7ab4e38c9689aa1.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/0ce07e386571485ca526de87b5b0b56741e290847eba72a6b7ab4e38c9689aa1.png",
     "firstNightReminder": "让他选择两名玩家，放置“民众监督”标记。",
     "otherNightReminder": "让他选择两名玩家，放置“民众监督”标记。如前夜技能目标之一被处决则告知前夜选择的其中一名玩家的角色。",
     "reminders": [
@@ -120,7 +120,7 @@
   },
   {
     "id": "7_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/0a1447ad59c31d2b869c86a771b46dac21c791e91d75b6d48cf18e0de8e7edae.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/0a1447ad59c31d2b869c86a771b46dac21c791e91d75b6d48cf18e0de8e7edae.png",
     "firstNightReminder": "让她选择两个角色。如其中有在场角色，放置“在场”标记。",
     "otherNightReminder": "让她选择两个角色。如其中有在场角色，放置“在场”标记。如果进步妇女死亡，告知她所有猜测过的角色当下的在场玩家数量并得知其中一个不在场角色或得知都在场。",
     "reminders": [
@@ -136,7 +136,7 @@
   },
   {
     "id": "8_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/c5d960712325594fab7f337a8bfbd59d9bcbae17280f92b9d5d8b4016c3df3fa.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/c5d960712325594fab7f337a8bfbd59d9bcbae17280f92b9d5d8b4016c3df3fa.png",
     "reminders": [
       "失去能力"
     ],
@@ -147,7 +147,7 @@
   },
   {
     "id": "9_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/b9c0b2f21a6a70ce34e38c928ec4dc54540cb6a4a7ba0246759df66cbe92d9f0.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/b9c0b2f21a6a70ce34e38c928ec4dc54540cb6a4a7ba0246759df66cbe92d9f0.png",
     "reminders": [
       "专政审判"
     ],
@@ -158,7 +158,7 @@
   },
   {
     "id": "10_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/adbba3fdd9aae103fc3944e35b25ab3bc4aa61488560f395f5facd7649684879.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/adbba3fdd9aae103fc3944e35b25ab3bc4aa61488560f395f5facd7649684879.png",
     "otherNightReminder": "让他选择一名玩家，为那名玩家放置“打破牢狱”标记，如果革命恐怖即将发生，为他放置“紧急审判”标记。",
     "reminders": [
       "打破牢狱",
@@ -172,7 +172,7 @@
   },
   {
     "id": "11_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/24b09412f68d553c9ee40420b2cdd8e64468580f74df1dbe26672229c411f9cd.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/24b09412f68d553c9ee40420b2cdd8e64468580f74df1dbe26672229c411f9cd.png",
     "firstNightReminder": "让他选择是否发动技能，如果发动技能则让他选择三名玩家，告知其中是否有爪牙。",
     "otherNightReminder": "让他选择是否发动技能，如果发动技能则让他选择三名玩家，告知其中是否有爪牙。如果忿激派死亡，告知他发动技能时选择的其中一名玩家当下的角色。",
     "reminders": [
@@ -187,7 +187,7 @@
   },
   {
     "id": "12_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/3055650cf0b58824b7db9b735dae76888757aca17bf254b1251bccda3a0f67a4.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/3055650cf0b58824b7db9b735dae76888757aca17bf254b1251bccda3a0f67a4.png",
     "reminders": [
       "好事",
       "胜利之歌！"
@@ -199,7 +199,7 @@
   },
   {
     "id": "14_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/456376f70ba076dc63047940ff0674cc6497d8fbbbc4a4d854e6907cb25cee00.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/456376f70ba076dc63047940ff0674cc6497d8fbbbc4a4d854e6907cb25cee00.png",
     "otherNightReminder": "如果菲利普平等白天被提名，选择是否让菲利普平等死亡，如果死亡，放置“革命恐怖”标记。",
     "reminders": [
       "被提名",
@@ -213,7 +213,7 @@
   },
   {
     "id": "13_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/0aa8d39b1f10aa010cba00e8b4340c5d4475e01f94ebc2ab7816d8709f7c702e.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/0aa8d39b1f10aa010cba00e8b4340c5d4475e01f94ebc2ab7816d8709f7c702e.png",
     "firstNightReminder": "如果教宗改变了阵营，告诉他。唤醒恶魔，告知教宗在场。",
     "otherNightReminder": "如果教宗改变了阵营，告诉他。",
     "setup": true,
@@ -226,7 +226,7 @@
   },
   {
     "id": "15_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/a6cbfe37ed346c2bc1535a34b6c0e962ba31dcdd72a7565d5171adea5d88c15f.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/a6cbfe37ed346c2bc1535a34b6c0e962ba31dcdd72a7565d5171adea5d88c15f.png",
     "firstNightReminder": "唤醒恶魔，告知谁是西班牙国王。",
     "name": "西班牙国王",
     "team": "outsider",
@@ -236,7 +236,7 @@
   },
   {
     "id": "16_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/55034ec3414b46073b0f988fabb6021609c7c4a61c0f782cd2bdb9234cbe3b8a.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/55034ec3414b46073b0f988fabb6021609c7c4a61c0f782cd2bdb9234cbe3b8a.png",
     "firstNightReminder": "唤醒一名反法同盟，告知谁是旺代农民。",
     "reminders": [
       "是旺代农民"
@@ -250,7 +250,7 @@
   },
   {
     "id": "17_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/365eb540e3656b602dda9303ea18932d1abb814e23aeb8e0046d4afe8662b806.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/365eb540e3656b602dda9303ea18932d1abb814e23aeb8e0046d4afe8662b806.png",
     "reminders": [
       "革命恐怖！"
     ],
@@ -261,7 +261,7 @@
   },
   {
     "id": "18_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/05837c6472ddb2c6cb9183c7a4758a4bb87722858e141fa9b699a3890edfc75f.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/05837c6472ddb2c6cb9183c7a4758a4bb87722858e141fa9b699a3890edfc75f.png",
     "firstNightReminder": "让他选择一名玩家，放置“斡旋”标记。",
     "otherNightReminder": "让他选择一名玩家，放置“斡旋”标记。",
     "reminders": [
@@ -278,7 +278,7 @@
   },
   {
     "id": "19_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/4e21be440cb653f0acdebc7c6887d1c12c8a7f629d38f3252ab09ae0d47b19da.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/4e21be440cb653f0acdebc7c6887d1c12c8a7f629d38f3252ab09ae0d47b19da.png",
     "firstNightReminder": "让他选择一名玩家。放置“暗通款曲”标记。",
     "otherNightReminder": "当革命恐怖即将发生时，唤醒玛丽王后并选择是否让革命恐怖发生。",
     "reminders": [
@@ -293,7 +293,7 @@
   },
   {
     "id": "20_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/c666433d3c49ade14ad3ea928769abf3cdf2eab8a467688623fc911cf26d995f.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/c666433d3c49ade14ad3ea928769abf3cdf2eab8a467688623fc911cf26d995f.png",
     "otherNightReminder": "让他选择一名玩家。",
     "reminders": [
       "金钱腐蚀",
@@ -307,7 +307,7 @@
   },
   {
     "id": "21_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/17b110c6003cd875412ae0543103d7cfdbc06f68e66ebca47a9c3e1ccf5c5ff9.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/17b110c6003cd875412ae0543103d7cfdbc06f68e66ebca47a9c3e1ccf5c5ff9.png",
     "firstNightReminder": "放置“王位尚稳”标记。",
     "otherNightReminder": "让他选择一名其他玩家，将他杀害。",
     "reminders": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "22_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/6498c3ac2e5243290198cc2b98c968ac5476b19d3ad800829e70956dd3a9da59.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/6498c3ac2e5243290198cc2b98c968ac5476b19d3ad800829e70956dd3a9da59.png",
     "otherNightReminder": "让他选择一名玩家，将他杀害。当保王党首次选择爪牙时，放置“革命恐怖”标记。",
     "reminders": [
       "死亡",
@@ -340,7 +340,7 @@
   },
   {
     "id": "23_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/10ae5f17ba5ad7489095e21497604a8d5f61f0b2d91702fba4a87f7990f4cc00.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/10ae5f17ba5ad7489095e21497604a8d5f61f0b2d91702fba4a87f7990f4cc00.png",
     "otherNightReminder": "让他选择两名玩家，其中一名被杀害并中毒，另一名可能中毒。",
     "reminders": [
       "毒亡",
@@ -356,7 +356,7 @@
   },
   {
     "id": "24_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/be54245f42a55b9c29afdf9053b9fc0a45def11f8af8a5a5e37f45b714018790.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/be54245f42a55b9c29afdf9053b9fc0a45def11f8af8a5a5e37f45b714018790.png",
     "otherNightReminder": "分别唤醒反法同盟，让他们各选择一名玩家，将其中一名杀害。当反法同盟首次选择外来者时，放置“镇民中毒”与“革命恐怖！”标记。",
     "reminders": [
       "死亡",
@@ -372,7 +372,7 @@
   },
   {
     "id": "25_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/10dab95574476c2d30e6bf8a893d03bc2173b901daad9982f4a29df91afea206.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/10dab95574476c2d30e6bf8a893d03bc2173b901daad9982f4a29df91afea206.png",
     "reminders": [
       "减少审判",
       "追加审判"
@@ -384,7 +384,7 @@
   },
   {
     "id": "26_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/03b41125788e7d15336d64249745f0e5ba04046c1b8ad3476a5f853a123fe76e.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/03b41125788e7d15336d64249745f0e5ba04046c1b8ad3476a5f853a123fe76e.png",
     "name": "拉法耶特",
     "team": "traveler",
     "ability": "在提名开始前，你可以公开选择一名存活的玩家作为之后的首次提名。每局游戏限一次，你可以选择一名待定处决的玩家，他立刻被处决。",
@@ -392,7 +392,7 @@
   },
   {
     "id": "27_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/aeb610c912f6ffd0ef93e2f398952f087690fdf4490f73fb7b62b227026b8619.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/aeb610c912f6ffd0ef93e2f398952f087690fdf4490f73fb7b62b227026b8619.png",
     "reminders": [
       "资助"
     ],
@@ -403,7 +403,7 @@
   },
   {
     "id": "28_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/290c2b64d543fd8223b791917743222af344196975fd6ff8b1fc2218bf5890bf.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/290c2b64d543fd8223b791917743222af344196975fd6ff8b1fc2218bf5890bf.png",
     "reminders": [
       "一轮审判",
       "二轮审判",
@@ -416,7 +416,7 @@
   },
   {
     "id": "29_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/82365d87f681633ca447ea8ff70b942367b25453a95964da289c8e8baf6803c7.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/82365d87f681633ca447ea8ff70b942367b25453a95964da289c8e8baf6803c7.png",
     "name": "作者留言",
     "team": "fabled",
     "ability": "让革命与恐怖燃尽那些虚伪的面纱罢！此主体内容均为本人（哈德良凯撒）原创，未经本人授权，严禁私自商用此剧本及篡改内容。若需商用、制作视频及其他衍生物，以及咨询演绎及规则性问题请联系作者微信：Hadrian_Caesar",
@@ -424,7 +424,7 @@
   },
   {
     "id": "30_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/79587f74a55337f3802b148a43a2d629b05e72aa8ea89f6eeb1cdaa37b95b6e9.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/79587f74a55337f3802b148a43a2d629b05e72aa8ea89f6eeb1cdaa37b95b6e9.png",
     "name": "帝皇加冕！",
     "team": "fabled",
     "ability": "如果小于等于四人存活（旅行者不计算在内）时拿破仑或教宗之一仍存活，则拿破仑与教宗共同获得胜利。如果督政府或塔列朗之一仍存活，拿破仑与教宗无法用这个能力获胜。“永远别以为敌人比你愚蠢！”——拿破仑",
@@ -432,7 +432,7 @@
   },
   {
     "id": "31_the_french_revolution_2024_rv",
-    "image": "/scripts/assets/community/28988cf7d4496e640970336408a45e2b88e6a5c2974d122df1328c04503e59ec.png",
+    "image": "/scripts/assets/community-fa-ge-feng-bao-a2661707/28988cf7d4496e640970336408a45e2b88e6a5c2974d122df1328c04503e59ec.png",
     "name": "狡诈天才！",
     "team": "fabled",
     "ability": "如果塔列朗和拿破仑均存活，善良阵营无法获胜。如果小于等于四人存活（旅行者不计算在内）时拿破仑和塔列朗均存活，则塔列朗获得胜利。“人之所以拥有语言，就是为了掩盖他的思想。”——塔列朗",

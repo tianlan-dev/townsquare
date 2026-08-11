@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "杯弓蛇影",
     "author": "Aaron",
-    "logo": "/scripts/assets/community/4f9b9aff26409073d5b432f1e3a4d779ed86958c7cd86a7967cbefd6b0be72df.png",
+    "logo": "/scripts/assets/community-bei-gong-she-ying-780855e2/4f9b9aff26409073d5b432f1e3a4d779ed86958c7cd86a7967cbefd6b0be72df.png",
     "townsfolk": "镇民",
     "townsfolkName": "镇民",
     "state": [
@@ -33,11 +33,11 @@
     "name_eng": "Chef",
     "firstNight": 35,
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
   },
   {
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/365060498f52e538d4567ab8bb8b7ff9579807403b4218d0677091cdf46c06fe.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianxiaoerbutton",
@@ -68,7 +68,7 @@
     "name_eng": "Dreamer",
     "firstNight": 41,
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png"
   },
   {
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
@@ -86,11 +86,11 @@
     "name_eng": "Snake Charmer",
     "firstNight": 20,
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png"
   },
   {
     "ability": "每个夜晚，你会得知一个在场角色。每局游戏限一次，你得知的信息改为恶魔的伪装之一。",
-    "image": "/scripts/assets/community/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png",
     "edition": "custom",
     "flavor": "",
     "id": "wushirenbutton",
@@ -122,11 +122,11 @@
     "name_eng": "Undertaker",
     "firstNight": 0,
     "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
-    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png"
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
-    "image": "/scripts/assets/community/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png",
     "edition": "custom",
     "flavor": "",
     "id": "jinyiweibutton",
@@ -156,7 +156,7 @@
     "name_eng": "Savant",
     "firstNight": 0,
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png"
   },
   {
     "firstNightReminder": "",
@@ -174,7 +174,7 @@
     "name_eng": "Minstrel",
     "firstNight": 0,
     "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
-    "image": "/scripts/assets/community/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/22b7944ad0e7233669d9c31aa4cac84f0e35f84d13ef240bb49d64fa38902533.png"
   },
   {
     "firstNightReminder": "",
@@ -192,11 +192,11 @@
     "team": "townsfolk",
     "firstNight": 0,
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
-    "image": "/scripts/assets/community/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/b26b24c1a122fe05f96e094abc5ef3224d05fcd55a4bd9519a0588180f5b8b54.png"
   },
   {
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，在该效果生效前你会变成一个不在场的镇民角色。",
-    "image": "/scripts/assets/community/d8ca209d3a65ad94cd471bc3a1622a7a6e952881cc37afcafdf2fefa4b3d9127.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/d8ca209d3a65ad94cd471bc3a1622a7a6e952881cc37afcafdf2fefa4b3d9127.png",
     "edition": "custom",
     "flavor": "",
     "id": "wudaozhebutton",
@@ -214,7 +214,7 @@
   },
   {
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
-    "image": "/scripts/assets/community/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/b2301a8692c0042c242d08019335938d55862d9e2574832ba9ec3ed11a854c2b.png",
     "edition": "custom",
     "flavor": "",
     "id": "lingrenbutton",
@@ -234,7 +234,7 @@
   },
   {
     "ability": "所有戏子互相认识。不论在场的戏子数量多少或存活与否，胜负结果会被对调。[所有善良玩家都是戏子]",
-    "image": "/scripts/assets/community/1036cb9f8348126acd4d64d37c63924dfda87322754f93aa3c174bbd04472b98.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/1036cb9f8348126acd4d64d37c63924dfda87322754f93aa3c174bbd04472b98.png",
     "edition": "custom",
     "flavor": "",
     "id": "xizibutton",
@@ -265,11 +265,11 @@
     "name_eng": "Drunk",
     "firstNight": 0,
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png"
   },
   {
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "flavor": "",
     "id": "jiubaobutton",
@@ -299,7 +299,7 @@
     "team": "outsider",
     "firstNight": 0,
     "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/6adc3f0065dd48a4f8af2cb6511d79e7e4fb5535f3dbf9963ee6e879dc12f420.png"
   },
   {
     "firstNightReminder": "",
@@ -317,11 +317,11 @@
     "team": "outsider",
     "firstNight": 0,
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png"
   },
   {
     "ability": "每个夜晚，你要选择一个善良角色并给出相应的信息形式：该角色通过自身能力获取信息时，改为得知你给出的信息，直到下个黄昏。[-1外来者]",
-    "image": "/scripts/assets/community/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/a05a9e15ba994d6980d8b9c94c22dfce9e1c6cc258ff3c0c2b3991fc986ccfdb.png",
     "edition": "custom",
     "flavor": "",
     "id": "niangjiushibutton",
@@ -339,7 +339,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。在白天时（最后一天除外）有邪恶玩家首次说出该关键词会使得当前白天阶段立即结束。",
-    "image": "/scripts/assets/community/3eef6f6afd867308f9a802d089a5fed5a032bec3289dcb45bf01a4d3115f2cc3.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/3eef6f6afd867308f9a802d089a5fed5a032bec3289dcb45bf01a4d3115f2cc3.png",
     "edition": "custom",
     "flavor": "",
     "id": "panguanbutton",
@@ -371,7 +371,7 @@
     "team": "minion",
     "firstNight": 0,
     "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
-    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
   },
   {
     "firstNightReminder": "",
@@ -387,7 +387,7 @@
     "name_eng": "Mastermind",
     "firstNight": 0,
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
-    "image": "/scripts/assets/community/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/119475c1a6c6d8e94f8f8d4a08eb787a64ef1043ca8b69b70d71dc0af075294a.png"
   },
   {
     "firstNightReminder": "",
@@ -407,7 +407,7 @@
     "name_eng": "Fang Gu",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。首个会被这种能力杀死的外来者改为变成一个邪恶的方古且你代替他死亡。[+1外来者]",
-    "image": "/scripts/assets/community/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/933426e54160a460c9dce7c878551346595a3de29fcb6e96e84e7cc7505301f0.png"
   },
   {
     "firstNightReminder": "",
@@ -425,11 +425,11 @@
     "team": "demon",
     "firstNight": 0,
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。所有的外来者都可能会被当作邪恶阵营、爪牙角色或恶魔角色。",
-    "image": "/scripts/assets/community/3fe93bb5379d875b9798ddda6522603067322e72dc6372d760bc6861eedd3928.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/3fe93bb5379d875b9798ddda6522603067322e72dc6372d760bc6861eedd3928.png"
   },
   {
     "ability": "每个夜晚*，你要选择任意数量的玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
-    "image": "/scripts/assets/community/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/8e4624bbd02e7a04393553c4b58cc27a8b3054b3043fe7908b6dc2bd50deab00.png",
     "edition": "custom",
     "flavor": "",
     "id": "taotiebutton",
@@ -447,7 +447,7 @@
   },
   {
     "ability": "每个夜晚，你要选择1至3名玩家。如果明天白天其中之一被处决，其余玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
-    "image": "/scripts/assets/community/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/e8642aab7807ee279287ca90c338d8ec51f681964c490ff946b420d55c7e3f05.png",
     "edition": "custom",
     "flavor": "",
     "id": "dianyuzhangbutton",
@@ -479,7 +479,7 @@
     "name_eng": "jiaohuazi",
     "firstNight": 0,
     "ability": "每个白天限一次，你可以公开选择一名其他玩家，让他选择一个非恶魔角色：你可能会获得这个角色的能力，直到下个黎明。",
-    "image": "/scripts/assets/community/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png",
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png",
     "edition": "custom"
   },
   {
@@ -494,6 +494,6 @@
     "setup": false,
     "ability": "这个剧本的部分角色能力来自过去。",
     "edition": "custom",
-    "image": "/scripts/assets/community/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
+    "image": "/scripts/assets/community-bei-gong-she-ying-780855e2/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
   }
 ]

@@ -14,7 +14,7 @@
   },
   {
     "id": "_baofayumiewang",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
     "reminders": [
       "爪牙",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_baofayumiewang",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -40,7 +40,7 @@
   },
   {
     "id": "2_baofayumiewang",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "reminders": [
       "失去能力"
     ],
@@ -51,7 +51,7 @@
   },
   {
     "id": "3_baofayumiewang",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -63,7 +63,7 @@
   },
   {
     "id": "4_baofayumiewang",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -77,7 +77,7 @@
   },
   {
     "id": "5_baofayumiewang",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -95,7 +95,7 @@
   },
   {
     "id": "6_baofayumiewang",
-    "image": "/scripts/assets/community/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/b7c86513d5c836d1f2356fb0c326fe526d371d35e1f755fc47f02c6365bd0560.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -109,7 +109,7 @@
   },
   {
     "id": "7_baofayumiewang",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
     "reminders": [
       "失足",
@@ -123,7 +123,7 @@
   },
   {
     "id": "8_baofayumiewang",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "reminders": [
@@ -138,7 +138,7 @@
   },
   {
     "id": "9_baofayumiewang",
-    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
     "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "reminders": [
@@ -154,7 +154,7 @@
   },
   {
     "id": "10_baofayumiewang",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -166,7 +166,7 @@
   },
   {
     "id": "11_baofayumiewang",
-    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
     "firstNightReminder": "唤醒钦天监，对他指向对应方向来告知他最近的邪恶玩家的方向。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -176,7 +176,7 @@
   },
   {
     "id": "12_baofayumiewang",
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "remindersGlobal": [
       "是变脸师"
     ],
@@ -187,7 +187,7 @@
   },
   {
     "id": "13_baofayumiewang",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -206,7 +206,7 @@
   },
   {
     "id": "14_baofayumiewang",
-    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
     "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
     "reminders": [
       "已被猜测"
@@ -219,7 +219,7 @@
   },
   {
     "id": "15_baofayumiewang",
-    "image": "/scripts/assets/community/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/408be61a6b1bd8e46085e45ae3b464bd5b33a06efa097b832145e086c87123f1.png",
     "name": "政客",
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -227,7 +227,7 @@
   },
   {
     "id": "16_baofayumiewang",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "reminders": [
       "醉酒"
     ],
@@ -238,7 +238,7 @@
   },
   {
     "id": "17_baofayumiewang",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
     "reminders": [
       "是恶魔"
@@ -251,7 +251,7 @@
   },
   {
     "id": "18_baofayumiewang",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -265,7 +265,7 @@
   },
   {
     "id": "19_baofayumiewang",
-    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -273,7 +273,7 @@
   },
   {
     "id": "20_baofayumiewang",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "reminders": [
@@ -293,7 +293,7 @@
   },
   {
     "id": "21_baofayumiewang",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "firstNightReminder": "唤醒普卡，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒普卡，让他选择一名玩家，该玩家中毒。上一个被普卡中毒的玩家死亡。",
     "reminders": [
@@ -309,7 +309,7 @@
   },
   {
     "id": "22_baofayumiewang",
-    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
     "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
     "reminders": [
       "死亡"
@@ -322,7 +322,7 @@
   },
   {
     "id": "23_baofayumiewang",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "setup": true,
     "name": "暴乱",
     "team": "demon",
@@ -331,7 +331,7 @@
   },
   {
     "id": "24_baofayumiewang",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
     "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
     "reminders": [
@@ -346,7 +346,7 @@
   },
   {
     "id": "25_baofayumiewang",
-    "image": "/scripts/assets/community/5c1c2cfa1bac66a799095288177c7aa92822412af15e0c022bb12e87428c0ea1.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/5c1c2cfa1bac66a799095288177c7aa92822412af15e0c022bb12e87428c0ea1.png",
     "name": "小提琴手",
     "team": "fabled",
     "ability": "每局游戏限一次，恶魔可以秘密选择一名对立阵营的玩家，所有玩家要表决：这两名玩家中谁的阵营获胜。（平局邪恶阵营获胜）",
@@ -357,12 +357,12 @@
     "name": "斯派德米",
     "team": "fabled",
     "ability": "当有玩家“疯狂”证明错误的角色运作或游戏规则时，说书人可能会公开解释正确的。",
-    "image": "/scripts/assets/community/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/5fd7a39de5ee4aa1bf0e1c47e38bf7775ca122906a2bb9edd2c867a273dc5cfb.png",
     "edition": "custom"
   },
   {
     "id": "27_baofayumiewang",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-bao-fa-yu-mie-wang-6310d47b/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "name": "沉默中的交响乐",
     "team": "fabled",
     "ability": "在游戏的第四个黄昏，说书人会将“传奇角色小提琴手”加入游戏并发动能力。",

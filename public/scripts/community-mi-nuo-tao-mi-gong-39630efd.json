@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "弥诺陶迷宫",
     "author": "Urban Minotaur",
-    "logo": "/scripts/assets/community/da42a9f6282a9cf4c9786350e357a09f170a505382f2b0612ee7a45efcf02cbf.png",
+    "logo": "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/da42a9f6282a9cf4c9786350e357a09f170a505382f2b0612ee7a45efcf02cbf.png",
     "tags": [],
     "version": "",
     "issue": 924
@@ -12,7 +12,7 @@
     "id": "zhongbiaojiang_tpi",
     "name": "钟表匠",
     "image": [
-      "/scripts/assets/community/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -26,7 +26,7 @@
     "id": "diaochayuan_tpi",
     "name": "调查员",
     "image": [
-      "/scripts/assets/community/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/5482e7542fc7fadbe2f825d62167a95349b4b56abc834b273a32609ba1cc2888.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -44,7 +44,7 @@
     "id": "zhanbushi_tpi",
     "name": "占卜师",
     "image": [
-      "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。\n会有一名善良玩家始终被你的能力当作恶魔。",
@@ -62,7 +62,7 @@
     "id": "shuxuejia_tpi",
     "name": "数学家",
     "image": [
-      "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -80,7 +80,7 @@
     "id": "chengzhengonggaoyuan_tpi",
     "name": "城镇公告员",
     "image": [
-      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -98,7 +98,7 @@
     "id": "senglv_tpi",
     "name": "僧侣",
     "image": [
-      "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -115,7 +115,7 @@
     "id": "boxuezhe_tpi",
     "name": "博学者",
     "image": [
-      "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -128,7 +128,7 @@
     "id": "jieshou_tpi",
     "name": "猎手",
     "image": [
-      "/scripts/assets/community/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
@@ -144,7 +144,7 @@
     "id": "yufu_tpi",
     "name": "渔夫",
     "image": [
-      "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -160,7 +160,7 @@
     "id": "nvcaifeng_tpi",
     "name": "女裁缝",
     "image": [
-      "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -178,7 +178,7 @@
     "id": "jiaoshou_tpi",
     "name": "教授",
     "image": [
-      "/scripts/assets/community/b66ce66706bf0ccc4a09626b31ab69f68b70be9646a6491c3a5818fe6b4d1d20.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/b66ce66706bf0ccc4a09626b31ab69f68b70be9646a6491c3a5818fe6b4d1d20.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
@@ -196,7 +196,7 @@
     "id": "shirenzu_tpi",
     "name": "食人族",
     "image": [
-      "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
     ],
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -213,7 +213,7 @@
     "id": "shouyaren_tpi",
     "name": "守鸦人",
     "image": [
-      "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png"
     ],
     "team": "townsfolk",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -227,7 +227,7 @@
     "id": "moke_tpi",
     "name": "陌客",
     "image": [
-      "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
     ],
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -240,7 +240,7 @@
     "id": "daigua_tpi",
     "name": "呆瓜",
     "image": [
-      "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png"
     ],
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -253,7 +253,7 @@
     "id": "jixingxiuyanyuan_tpi",
     "name": "畸形秀演员",
     "image": [
-      "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
     ],
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -266,7 +266,7 @@
     "id": "zhengke_tpi",
     "name": "政客",
     "image": [
-      "/scripts/assets/community/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/49fb8aa4471ad8ad31b59199edef5a100db277868cc3b26353a42f29c0ae2ad8.png"
     ],
     "team": "outsider",
     "ability": "如果你是对你的阵营落败负最大责任的人，你转变阵营并获胜，即使你已死亡。",
@@ -279,7 +279,7 @@
     "id": "jiaofu_tpi",
     "name": "教父",
     "image": [
-      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -298,7 +298,7 @@
     "id": "nvwu_tpi",
     "name": "女巫",
     "image": [
-      "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -316,7 +316,7 @@
     "id": "xinaoshi_tpi",
     "name": "洗脑师",
     "image": [
-      "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png"
     ],
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
@@ -334,7 +334,7 @@
     "id": "hongchunnvlang_tpi",
     "name": "红唇女郎",
     "image": [
-      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
     ],
     "team": "minion",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -351,7 +351,7 @@
     "id": "dengshen_tpi",
     "name": "红唇女郎&方古",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。",
@@ -362,7 +362,7 @@
     "id": "dengshen_linshi",
     "name": "数学家&诡诈杰克",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "数学家会得知玩家是否因奇遇角色而产生了错误信息。",
@@ -373,7 +373,7 @@
     "id": "xiaoemo_tpi",
     "name": "小恶魔",
     "image": [
-      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -390,7 +390,7 @@
     "id": "shabaluosi_tpi",
     "name": "沙巴洛斯",
     "image": [
-      "/scripts/assets/community/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择两名玩家：他们死亡。\n你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。",
@@ -408,7 +408,7 @@
     "id": "po_tpi",
     "name": "珀",
     "image": [
-      "/scripts/assets/community/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。\n如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -426,7 +426,7 @@
     "id": "fanggu_tpi",
     "name": "方古",
     "image": [
-      "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
@@ -444,7 +444,7 @@
     "id": "guizhajieke_tpi",
     "name": "诡诈杰克",
     "image": [
-      "/scripts/assets/community/1f1c82870616b903a5a09097eb1c42eaea7515eb1dc05c8bf43b957336d33177.png"
+      "/scripts/assets/community-mi-nuo-tao-mi-gong-39630efd/1f1c82870616b903a5a09097eb1c42eaea7515eb1dc05c8bf43b957336d33177.png"
     ],
     "team": "fabled",
     "ability": "场上有两位说书人：一人说真话，一人说假话。每局游戏限一次，他们可能会在黄昏互换。",

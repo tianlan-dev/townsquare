@@ -12,7 +12,7 @@
   },
   {
     "id": "_juedou",
-    "image": "/scripts/assets/community/91f6b274214194b113b0646d279e61fcfcaa6f2deb2227405a8442ef0ad0fdc6.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/91f6b274214194b113b0646d279e61fcfcaa6f2deb2227405a8442ef0ad0fdc6.png",
     "reminders": [
       "失去能力"
     ],
@@ -23,7 +23,7 @@
   },
   {
     "id": "1_juedou",
-    "image": "/scripts/assets/community/5f8e1acb8aadcdd9556e448a0fd46ae6d2dc91ffb1ee6722034f067d8d348b27.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/5f8e1acb8aadcdd9556e448a0fd46ae6d2dc91ffb1ee6722034f067d8d348b27.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_juedou",
-    "image": "/scripts/assets/community/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -61,12 +61,12 @@
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
     "firstNight": 15,
     "otherNight": 17,
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "edition": "custom"
   },
   {
     "id": "4_juedou",
-    "image": "/scripts/assets/community/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
     "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
     "name": "牧师",
@@ -78,7 +78,7 @@
   },
   {
     "id": "6_juedou",
-    "image": "/scripts/assets/community/7ba340d5096612435f581e25357e42957bded37032d418e8b8c1895972b8bbd3.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/7ba340d5096612435f581e25357e42957bded37032d418e8b8c1895972b8bbd3.png",
     "reminders": [
       "错误信息"
     ],
@@ -90,7 +90,7 @@
   },
   {
     "id": "5_juedou",
-    "image": "/scripts/assets/community/e6ae78612cd641a1c723f19ed2b84bc0e7bbd1f0bf296dea263c50f22195f953.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/e6ae78612cd641a1c723f19ed2b84bc0e7bbd1f0bf296dea263c50f22195f953.png",
     "otherNightReminder": "如果白天有玩家死于处决或有玩家被处决但没有死亡，唤醒骑士扈从，告知他是或否。",
     "reminders": [
       "得知"
@@ -103,7 +103,7 @@
   },
   {
     "id": "7_juedou",
-    "image": "/scripts/assets/community/b5af4c32eb7db4083cbf4f9590bc86a37bf095e03907d7eea19a0232855f775c.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/b5af4c32eb7db4083cbf4f9590bc86a37bf095e03907d7eea19a0232855f775c.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -116,7 +116,7 @@
   },
   {
     "id": "8_juedou",
-    "image": "/scripts/assets/community/b5cf82527253900a0b9f0bc548702d563431440cd61aa12e67b48a11596023f7.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/b5cf82527253900a0b9f0bc548702d563431440cd61aa12e67b48a11596023f7.png",
     "reminders": [
       "不会死亡"
     ],
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_juedou",
-    "image": "/scripts/assets/community/c12d39bde37387a07f78d8563726989484210f7da5a0b2cb04fdf03972019b80.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/c12d39bde37387a07f78d8563726989484210f7da5a0b2cb04fdf03972019b80.png",
     "otherNightReminder": "无人死于处决，唤醒月光骑士并让他选择一名玩家。",
     "reminders": [
       "死亡"
@@ -140,7 +140,7 @@
   },
   {
     "id": "10_juedou",
-    "image": "/scripts/assets/community/9da98932e4e06672675e6f2f0a9f24573e28ee148f73b09abe8bea3f30644081.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/9da98932e4e06672675e6f2f0a9f24573e28ee148f73b09abe8bea3f30644081.png",
     "otherNightReminder": "唤醒",
     "reminders": [
       "失去能力",
@@ -154,7 +154,7 @@
   },
   {
     "id": "11_juedou",
-    "image": "/scripts/assets/community/0fc5befcfd6084f4ede6388a7e084e50b45c77c2d4aac9ef26d7fc93455deb13.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/0fc5befcfd6084f4ede6388a7e084e50b45c77c2d4aac9ef26d7fc93455deb13.png",
     "reminders": [
       "失去能力"
     ],
@@ -165,7 +165,7 @@
   },
   {
     "id": "12_juedou",
-    "image": "/scripts/assets/community/75d6f1934e028c8eecf62fe95db962b45fc3aac6a70ea2546f2148e9bf45ea90.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/75d6f1934e028c8eecf62fe95db962b45fc3aac6a70ea2546f2148e9bf45ea90.png",
     "otherNightReminder": "如果死亡唤醒他，并告知他所有类型的玩家（除旅行者）各一名。",
     "reminders": [
       "被得知",
@@ -179,7 +179,7 @@
   },
   {
     "id": "13_juedou",
-    "image": "/scripts/assets/community/e81472759cfc6bbbb155d289e4de1e1a88f8917b7b86ea3979cf3f290809f4db.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/e81472759cfc6bbbb155d289e4de1e1a88f8917b7b86ea3979cf3f290809f4db.png",
     "reminders": [
       "失去能力"
     ],
@@ -190,7 +190,7 @@
   },
   {
     "id": "31_juedou",
-    "image": "/scripts/assets/community/9b7062585612e10ad4658c4cbc9c0e5ee5c24ab7b84204f398622cdfbd2c31b7.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/9b7062585612e10ad4658c4cbc9c0e5ee5c24ab7b84204f398622cdfbd2c31b7.png",
     "otherNightReminder": "如果今天有恶魔遗子死亡，且场上还有一名存活的恶魔遗子，唤醒他告知他他变成了一个不在场的恶魔，然后由你来决定今晚谁死亡。",
     "reminders": [
       "蜕变",
@@ -204,7 +204,7 @@
   },
   {
     "id": "15_juedou",
-    "image": "/scripts/assets/community/07880acbfc073e9391adb10b68d491482cb354aeb7002fd88835b4e7080e3147.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/07880acbfc073e9391adb10b68d491482cb354aeb7002fd88835b4e7080e3147.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -216,7 +216,7 @@
   },
   {
     "id": "16_juedou",
-    "image": "/scripts/assets/community/618690a26a41d0d0fc4d760d52cdee31df01bf72751bf4892c7eda075b2e9b37.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/618690a26a41d0d0fc4d760d52cdee31df01bf72751bf4892c7eda075b2e9b37.png",
     "otherNightReminder": "当你宣布月之子玩家死亡时，月之子需要选择任意一名存活玩家。如果所选玩家是善良的，将“死亡”提示标记放置到该玩家的角色标记旁。当晚，标有月之子的“死亡”提示标记的玩家死亡。",
     "reminders": [
       "被选择"
@@ -229,7 +229,7 @@
   },
   {
     "id": "17_juedou",
-    "image": "/scripts/assets/community/5a242e3107db7dfd1da5c99c034bbb66bd6f72f33a4cbfb4b916f078a72aecdd.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/5a242e3107db7dfd1da5c99c034bbb66bd6f72f33a4cbfb4b916f078a72aecdd.png",
     "otherNightReminder": "如果今天在唤醒亡灵骑士之前有外来者死亡，唤醒亡灵骑士，告知他死亡的外来者玩家是谁，并让他猜测具体角色，如果他猜中至少一名，标记一名玩家死亡，然后去除所有的“离魂抽离”标记。",
     "reminders": [
       "死亡",
@@ -244,7 +244,7 @@
   },
   {
     "id": "18_juedou",
-    "image": "/scripts/assets/community/7313a1ff8b0358bf173c3bf5a0730733518fb6a967a59a0939e1aef92b9d422c.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/7313a1ff8b0358bf173c3bf5a0730733518fb6a967a59a0939e1aef92b9d422c.png",
     "firstNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "otherNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
     "reminders": [
@@ -260,7 +260,7 @@
   },
   {
     "id": "19_juedou",
-    "image": "/scripts/assets/community/3e89a9de0e0ce97a93b33d70ec182edfaad4e80a71cab95e70172e76d6f047fc.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/3e89a9de0e0ce97a93b33d70ec182edfaad4e80a71cab95e70172e76d6f047fc.png",
     "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
     "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
     "reminders": [
@@ -275,7 +275,7 @@
   },
   {
     "id": "20_juedou",
-    "image": "/scripts/assets/community/060c0319d2d9edbc5fe99fe52395c8cd0e778860648dbca8e676b469665eeae0.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/060c0319d2d9edbc5fe99fe52395c8cd0e778860648dbca8e676b469665eeae0.png",
     "name": "精神病患者",
     "team": "minion",
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
@@ -283,7 +283,7 @@
   },
   {
     "id": "21_juedou",
-    "image": "/scripts/assets/community/b8004fcaab63703c3ac72461b71a82db3e2dae0684abc5b0008616244d4ff6da.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/b8004fcaab63703c3ac72461b71a82db3e2dae0684abc5b0008616244d4ff6da.png",
     "otherNightReminder": "让亚瑟王选择一名玩家。标记那名玩家死亡。如果他是爪牙且可以被亚瑟王杀死，为他放置“王车易位”标记然后为亚瑟王和爪牙交换角色且会有2名玩家代替他死亡。",
     "reminders": [
       "死亡",
@@ -297,7 +297,7 @@
   },
   {
     "id": "22_juedou",
-    "image": "/scripts/assets/community/d64b328884e536c318dbb900f5940ae9fae01d812c49b719e6882ba1a700a028.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/d64b328884e536c318dbb900f5940ae9fae01d812c49b719e6882ba1a700a028.png",
     "otherNightReminder": "唤醒刻耳柏洛斯选择一名玩家，如果是邪恶的爪牙，杀死他并保留他的能力，再让刻耳柏洛斯选择一名玩家。",
     "reminders": [
       "死亡",
@@ -320,12 +320,12 @@
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡，且你要选择是否永久失去你的下一条能力。镇民玩家的能力都会产生错误信息。",
     "otherNight": 11,
-    "image": "/scripts/assets/community/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
     "edition": "custom"
   },
   {
     "id": "24_juedou",
-    "image": "/scripts/assets/community/484d8731a1871a3374fe43384b35b53a41e390abb1b1ac4d28715216413a1ff3.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/484d8731a1871a3374fe43384b35b53a41e390abb1b1ac4d28715216413a1ff3.png",
     "otherNightReminder": "让恶堕选择一名玩家。标记那名玩家死亡。",
     "reminders": [
       "死亡",
@@ -340,7 +340,7 @@
   },
   {
     "id": "26_juedou",
-    "image": "/scripts/assets/community/807857618352aa04e01a0f2ff6346574d1e86dedecc0f31ce7cfc3df0cc640c8.png",
+    "image": "/scripts/assets/community-qi-shi-dui-jue-770769dd/807857618352aa04e01a0f2ff6346574d1e86dedecc0f31ce7cfc3df0cc640c8.png",
     "reminders": [
       "发起决斗",
       "被决斗"

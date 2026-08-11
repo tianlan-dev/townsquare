@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "烟雨赋",
     "author": "苏通染",
-    "logo": "/scripts/assets/community/3c64985a3a490ede9f6a21c6c137efe225a5aed98912a4d8984ca8b4617e89c4.png",
+    "logo": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/3c64985a3a490ede9f6a21c6c137efe225a5aed98912a4d8984ca8b4617e89c4.png",
     "description": "无",
     "townsfolkName": "村民",
     "outsidersName": "外来者",
@@ -20,7 +20,7 @@
   },
   {
     "id": "42c129fb-08f2-454e-8e9b-51e01f99d7cb",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "edition": "custom",
     "name": "厨师",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "51f32341-cd04-4a28-9f27-5971de09c95c",
-    "image": "/scripts/assets/community/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/3bf6bf9f4e6a65bae066db217db942142d568a3a417f931e7347308202e31c34.png",
     "edition": "custom",
     "name": "洗衣妇",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个镇民角色：这两名玩家之一是该角色。",
@@ -55,7 +55,7 @@
   },
   {
     "id": "c05179e8-b98c-4026-bcde-3e297aa99ec1",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "edition": "custom",
     "name": "茶艺师",
     "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
@@ -73,7 +73,7 @@
   },
   {
     "id": "312fc6c1-b1d4-49f7-abff-e92df12c7fbf",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "name": "侍女",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -89,7 +89,7 @@
   },
   {
     "id": "17fc287f-554d-4eb1-b086-8379985a7650",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -105,7 +105,7 @@
   },
   {
     "id": "8901c18b-75b8-42db-8056-4d87a3903e87",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "name": "筑梦师",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "adc971e3-f783-4754-9186-a99aa4132ff2",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "265671c0-8bee-4d6c-a3e9-0d17677e2162",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -156,7 +156,7 @@
   },
   {
     "id": "3762d716-10c8-4dbd-8216-0137f7363c20",
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "edition": "custom",
     "name": "悟道者",
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "4cda7cb4-47f2-486f-a5bd-697b4c55a892",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "name": "秉笔",
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
@@ -190,7 +190,7 @@
   },
   {
     "id": "e07d8e14-a7e8-4378-9786-f1668f3ebf73",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "name": "刀客",
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
@@ -209,7 +209,7 @@
   },
   {
     "id": "195f123d-c60e-48bd-ad15-481f4790b8b0",
-    "image": "/scripts/assets/community/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/8f25ed9cb00b64050e15387307621f4da632bd81bdd5cf20d4b5c44f3bc9da05.png",
     "edition": "custom",
     "name": "知府",
     "ability": "每个夜晚*，你会得知今天是否有非镇民玩家死亡。",
@@ -225,7 +225,7 @@
   },
   {
     "id": "45f4d5b7-5df1-4ee9-80b9-23967e0caee0",
-    "image": "/scripts/assets/community/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/1eabc0f9e63d28b229bc15cfd811ea3c724c5d4d3e544ec901f9045be7ea9d41.png",
     "edition": "custom",
     "name": "驿使",
     "ability": "每个白天，你可以公开声明一个角色。在当晚，你会得知该角色是否在场。如果你因此得知了否，你失去此能力。",
@@ -244,7 +244,7 @@
   },
   {
     "id": "65a3351d-daf5-4c5d-8be9-3d5e91d1f3e7",
-    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -260,7 +260,7 @@
   },
   {
     "id": "0926cc06-8b66-4aa7-a69f-5aef8e631c80",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "name": "魔像",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
@@ -278,7 +278,7 @@
   },
   {
     "id": "2c77c649-ebaa-496d-a65e-378bf68c2f2a",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -296,7 +296,7 @@
   },
   {
     "id": "8f3155ba-c4fb-466a-94b5-ddf3b3a4c8b5",
-    "image": "/scripts/assets/community/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/85b38091c6079f63b89582c1493e0093c5522721e21d8f30c1d0d8c18c1bba10.png",
     "edition": "custom",
     "name": "瘟疫医生",
     "ability": "如果你死亡，说书人获得一个不在场的爪牙能力。",
@@ -314,7 +314,7 @@
   },
   {
     "id": "e098bbbd-8d60-4b29-849d-46294ed11627",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "name": "红唇女郎",
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
@@ -332,7 +332,7 @@
   },
   {
     "id": "f39ac8f9-b8bd-4f44-8d33-68b09755a1ea",
-    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
     "edition": "custom",
     "name": "蛊雕",
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
@@ -350,7 +350,7 @@
   },
   {
     "id": "dd6726dd-48a7-413a-b78a-100d43ef4f9b",
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "edition": "custom",
     "name": "赶尸人",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -368,7 +368,7 @@
   },
   {
     "id": "f8fad1a2-c342-4767-8bc9-666e9a466aef",
-    "image": "/scripts/assets/community/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/7bc95eab2d4e720ff7d4c430fd10bf3292d4186abb39d9e498ede5921ff716f6.png",
     "edition": "custom",
     "name": "画皮",
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
@@ -387,7 +387,7 @@
   },
   {
     "id": "64495eb9-cbb5-4f55-8ee8-988eca8962fc",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -405,7 +405,7 @@
   },
   {
     "id": "17405145-e6f0-4754-859a-cd9ca101aaef",
-    "image": "/scripts/assets/community/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/5af8d30269fd440130c9f3ff0e2e405579b3d18ee5cba08c2391dfdcf65131ce.png",
     "edition": "custom",
     "name": "穷奇",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
@@ -424,7 +424,7 @@
   },
   {
     "id": "55a0cb1e-8de5-43fc-8f6a-e76b5d9bdaab",
-    "image": "/scripts/assets/community/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/ce3f9a2c1efd934e4bd469192de49b4145bc5838cb76669349490a326cd8fe62.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -442,7 +442,7 @@
   },
   {
     "id": "4b084c4f-40c4-4af9-816a-696f37b5919d",
-    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
     "edition": "custom",
     "name": "阎罗",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
@@ -460,7 +460,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。如果瘟疫医生死亡且说书人会因此获得赶尸人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。如果瘟疫医生死亡且说书人会因此获得蛊雕的能力，飞行标记会从瘟疫医生的位置开始移动。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-yan-yu-fu-5fbfe0e3/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",

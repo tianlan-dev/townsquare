@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "圣光降临",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/f3b5bc61d1b100b1cc4ef5149405f071ae0deecc67a5c5b4fa316566e208dadf.png",
+    "logo": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/f3b5bc61d1b100b1cc4ef5149405f071ae0deecc67a5c5b4fa316566e208dadf.png",
     "almanac": "https://www.bloodstar.xyz/p/Jungle/The_Radiance_Descends/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "_the_radiance_descends",
-    "image": "/scripts/assets/community/a35976d8c66c63479a3795301a214d021b8b93bc37f4a62d9eb291b4ee1811f6.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/a35976d8c66c63479a3795301a214d021b8b93bc37f4a62d9eb291b4ee1811f6.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -26,7 +26,7 @@
   },
   {
     "id": "1_the_radiance_descends",
-    "image": "/scripts/assets/community/000e1c9d461c8c70f8092933dc6b8ee823034ec65b79b954d97e7d0898d54752.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/000e1c9d461c8c70f8092933dc6b8ee823034ec65b79b954d97e7d0898d54752.png",
     "firstNightReminder": "唤醒店小二，对他指向标记有店小二的“熟客”和“醉酒”提示标记的这两名玩家。",
     "reminders": [
       "熟客",
@@ -40,7 +40,7 @@
   },
   {
     "id": "2_the_radiance_descends",
-    "image": "/scripts/assets/community/7b23af540a209dac7aec9bdff87b1451310d30704e6755715c5e1e05e03a55b8.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/7b23af540a209dac7aec9bdff87b1451310d30704e6755715c5e1e05e03a55b8.png",
     "otherNightReminder": "如果有玩家今天白天死于处决，唤醒送葬者并对他展示那名玩家的角色标记。",
     "reminders": [
       "死于今日"
@@ -53,7 +53,7 @@
   },
   {
     "id": "3_the_radiance_descends",
-    "image": "/scripts/assets/community/8c9401d42306a5636e0e0e9fb6599e2ba7d55aa110b2579ac1a969a244069920.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/8c9401d42306a5636e0e0e9fb6599e2ba7d55aa110b2579ac1a969a244069920.png",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
@@ -68,7 +68,7 @@
   },
   {
     "id": "4_the_radiance_descends",
-    "image": "/scripts/assets/community/95f8c8aaf56e1fb2320d179c0097c45e2e92c240d133c42211a4008da203608b.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/95f8c8aaf56e1fb2320d179c0097c45e2e92c240d133c42211a4008da203608b.png",
     "firstNightReminder": "唤醒恶魔，并告诉他国王是谁。",
     "otherNightReminder": "如果死亡玩家人数大于或等于存活玩家，唤醒国王并对其展示一个存活的角色标记。",
     "name": "国王",
@@ -80,7 +80,7 @@
   },
   {
     "id": "5_the_radiance_descends",
-    "image": "/scripts/assets/community/6d995f23858a6f27444dd25bbfbc43d8359a803e3083a4be897be30b48d58077.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/6d995f23858a6f27444dd25bbfbc43d8359a803e3083a4be897be30b48d58077.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -88,7 +88,7 @@
   },
   {
     "id": "6_the_radiance_descends",
-    "image": "/scripts/assets/community/7187ceb7c9240af9c98f585fb64f867bd8efee356d6fa50315f8b7e0ab4a89e5.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/7187ceb7c9240af9c98f585fb64f867bd8efee356d6fa50315f8b7e0ab4a89e5.png",
     "otherNightReminder": "教授可以选择一名死亡玩家。如果他这么做了，标记教授失去能力，然后如果那名玩家是镇民，标记那名玩家被复活。之后的夜晚无需再唤醒教授。",
     "reminders": [
       "复活",
@@ -102,7 +102,7 @@
   },
   {
     "id": "7_the_radiance_descends",
-    "image": "/scripts/assets/community/1b486110c68e1501e21181ff84494cd733b7de54f25bd0155a74bc18760f2213.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/1b486110c68e1501e21181ff84494cd733b7de54f25bd0155a74bc18760f2213.png",
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "reminders": [
@@ -120,7 +120,7 @@
   },
   {
     "id": "8_the_radiance_descends",
-    "image": "/scripts/assets/community/9764a2e95f5ac313f18e82a6e3cfeb713bb76c9ed943cada5a4bd6e49cc3088d.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/9764a2e95f5ac313f18e82a6e3cfeb713bb76c9ed943cada5a4bd6e49cc3088d.png",
     "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
     "reminders": [
@@ -135,7 +135,7 @@
   },
   {
     "id": "9_the_radiance_descends",
-    "image": "/scripts/assets/community/a0dcecd95388d2a608789e20742046eca266510fa83ebcdb7205cefdb4199a3c.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/a0dcecd95388d2a608789e20742046eca266510fa83ebcdb7205cefdb4199a3c.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -147,7 +147,7 @@
   },
   {
     "id": "10_the_radiance_descends",
-    "image": "/scripts/assets/community/6d21d0b8f43386095459632b54dcf1fa2e370ad49a9c9d11690b10eac5e43a2d.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/6d21d0b8f43386095459632b54dcf1fa2e370ad49a9c9d11690b10eac5e43a2d.png",
     "firstNightReminder": "不要让恶魔和爪牙相认。",
     "otherNightReminder": "如果罂粟种植者死亡，安排恶魔和爪牙相认环节。",
     "reminders": [
@@ -162,7 +162,7 @@
   },
   {
     "id": "11_the_radiance_descends",
-    "image": "/scripts/assets/community/725df3a2663bca290dc6572bc241bde5daa48b6f824c042d020589df12500128.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/725df3a2663bca290dc6572bc241bde5daa48b6f824c042d020589df12500128.png",
     "reminders": [
       "中毒",
       "死于今日"
@@ -174,7 +174,7 @@
   },
   {
     "id": "12_the_radiance_descends",
-    "image": "/scripts/assets/community/5fa1264aacf3da3669b9cddf4aa8099bf662ddf3bed36c83704b13fe861d87dd.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/5fa1264aacf3da3669b9cddf4aa8099bf662ddf3bed36c83704b13fe861d87dd.png",
     "otherNightReminder": "如果国王被恶魔杀死，将唱诗男孩唤醒并告诉他谁是那个杀死国王的恶魔。",
     "setup": true,
     "name": "唱诗男孩",
@@ -185,7 +185,7 @@
   },
   {
     "id": "13_the_radiance_descends",
-    "image": "/scripts/assets/community/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/6083dd83961ef3d895b1596f260deefc825e8bb41a299a7abba2a23db6c266a3.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -197,7 +197,7 @@
   },
   {
     "id": "14_the_radiance_descends",
-    "image": "/scripts/assets/community/c012513849b9b469e793d676eaf5a6c5a5572908951af2e5cf93fe5559908e50.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/c012513849b9b469e793d676eaf5a6c5a5572908951af2e5cf93fe5559908e50.png",
     "name": "陌客",
     "team": "outsider",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -205,7 +205,7 @@
   },
   {
     "id": "15_the_radiance_descends",
-    "image": "/scripts/assets/community/682c194e96d20422b175ae7794e1bcfcc38bd92d60b7eab44dbd2a15fa681b62.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/682c194e96d20422b175ae7794e1bcfcc38bd92d60b7eab44dbd2a15fa681b62.png",
     "reminders": [
       "无法提名"
     ],
@@ -216,7 +216,7 @@
   },
   {
     "id": "16_the_radiance_descends",
-    "image": "/scripts/assets/community/7c81aeabae2e0f866cacc0f4d17efbc12e2829cc2ba7bdc439326fe07bc26dce.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/7c81aeabae2e0f866cacc0f4d17efbc12e2829cc2ba7bdc439326fe07bc26dce.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "17_the_radiance_descends",
-    "image": "/scripts/assets/community/81f2a754a9647a3dcac169aab800df0a913f9cfca3b2037bbf8d71415671a1ca.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/81f2a754a9647a3dcac169aab800df0a913f9cfca3b2037bbf8d71415671a1ca.png",
     "otherNightReminder": "当瘟疫医生死亡时，将一个不在场的爪牙角色标记放置在魔典左侧的正中位置，并用瘟疫医生的“说书人能力”标记标记该爪牙角色。如可能，在夜晚顺序表旁添加相应的夜晚标记用以提示。",
     "reminders": [
       "说书人能力"
@@ -237,7 +237,7 @@
   },
   {
     "id": "18_the_radiance_descends",
-    "image": "/scripts/assets/community/49016163c33aadf361c19f9821b50d296d1f407463b531be89d0aa77010d50c2.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/49016163c33aadf361c19f9821b50d296d1f407463b531be89d0aa77010d50c2.png",
     "firstNightReminder": "告诉灵言师他的秘密词语。",
     "otherNightReminder": "唤醒第一个说出灵言师词语的玩家并告知他已经变成邪恶阵营。",
     "reminders": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "19_the_radiance_descends",
-    "image": "/scripts/assets/community/c5977601c71ec333f4c680f4591a5e516fbf3eee559240eb03ccce0eef47f027.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/c5977601c71ec333f4c680f4591a5e516fbf3eee559240eb03ccce0eef47f027.png",
     "otherNightReminder": "让麻脸巫婆选择一名玩家和一个角色。如果她选择的角色不在场：让麻脸巫婆重新入睡。唤醒她的目标玩家。对该玩家展示“你是”信息标记和他的新角色标记。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -263,7 +263,7 @@
   },
   {
     "id": "20_the_radiance_descends",
-    "image": "/scripts/assets/community/390630a10b0dd95280736d54019c73f81841f1df7f98f449ac5afc05a2bf4950.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/390630a10b0dd95280736d54019c73f81841f1df7f98f449ac5afc05a2bf4950.png",
     "firstNightReminder": "恐惧之灵指向一名玩家，放置恐惧标记。宣布恐惧之灵选中或改变了目标。",
     "otherNightReminder": "恐惧之灵指向一名玩家。如果与之前选择的不同，则更换恐惧标记并宣布恐惧之灵选中或改变了目标。",
     "reminders": [
@@ -278,7 +278,7 @@
   },
   {
     "id": "21_the_radiance_descends",
-    "image": "/scripts/assets/community/060c0319d2d9edbc5fe99fe52395c8cd0e778860648dbca8e676b469665eeae0.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/060c0319d2d9edbc5fe99fe52395c8cd0e778860648dbca8e676b469665eeae0.png",
     "reminders": [
       "疯狂",
       "无法提名"
@@ -290,7 +290,7 @@
   },
   {
     "id": "22_the_radiance_descends",
-    "image": "/scripts/assets/community/b19f88d1656095c2b9566b358bdc1744f78a4123ee3388344f518e4548daf238.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/b19f88d1656095c2b9566b358bdc1744f78a4123ee3388344f518e4548daf238.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -299,7 +299,7 @@
   },
   {
     "id": "23_the_radiance_descends",
-    "image": "/scripts/assets/community/10f8a02c15e11aaa2e464e2d7ccb363bcdafdcde2dca0995edf81a8a9859d9e9.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/10f8a02c15e11aaa2e464e2d7ccb363bcdafdcde2dca0995edf81a8a9859d9e9.png",
     "firstNightReminder": "在为首个夜晚做准备时，用纸条或手机便签或其他便捷的设备写下一段短语。\n在首个夜晚，唤醒牙噶巴卜，对他展示这段短语，然后让他重新入睡。\n",
     "otherNightReminder": "每当牙噶巴卜在白天公开说出这段短语时，将一枚“死亡”提示标记放入魔典左侧的中央位置，用以提示你需要在今晚放置这个标记。\n每个夜晚，你需要选择是否将放入魔典中央的“死亡”提示标记放置在一名玩家的角色标记旁。如果你这么做，那么同时为放置了提示标记的角色标记上再放置帷幕标记。这些玩家死亡。",
     "reminders": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "24_the_radiance_descends",
-    "image": "/scripts/assets/community/eba3224026fb2cadf76e3848d7ab4deaef4ce8b6c7b78cbdd60ce4e666c75443.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/eba3224026fb2cadf76e3848d7ab4deaef4ce8b6c7b78cbdd60ce4e666c75443.png",
     "otherNightReminder": "哈迪寂亚选择三名玩家。对所有人宣告第一位玩家，然后唤醒他并让他秘密选择活着还是死去。依次对第二第三位玩家如此做。如果三名玩家都选择活着，他们都死去。",
     "reminders": [
       "1",
@@ -331,7 +331,7 @@
   },
   {
     "id": "25_the_radiance_descends",
-    "image": "/scripts/assets/community/ae628e20666a9bc520f6f5b75f108d3ca1c90731c1dd1792caafa4af84ce3d64.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/ae628e20666a9bc520f6f5b75f108d3ca1c90731c1dd1792caafa4af84ce3d64.png",
     "otherNightReminder": "上一夜被沙巴洛斯选择且当前已死亡的玩家之一可能被反刍，如果被反刍，标记那名玩家被复活。让沙巴洛斯选择两名玩家。标记这两名玩家死亡。",
     "reminders": [
       "死亡",
@@ -345,7 +345,7 @@
   },
   {
     "id": "27_the_radiance_descends",
-    "image": "/scripts/assets/community/407fab923948fd01bf6e2428b7753ada8b62903cb7ebb865622f521b264a6823.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/407fab923948fd01bf6e2428b7753ada8b62903cb7ebb865622f521b264a6823.png",
     "otherNightReminder": "流莺选择一名玩家，将其唤醒，那名玩家选择同意或拒绝。如果同意，将他的角色标记展示给流莺看。然后说书人可以决定两名玩家是否会一起死去。",
     "reminders": [
       "死亡"
@@ -358,7 +358,7 @@
   },
   {
     "id": "26_the_radiance_descends",
-    "image": "/scripts/assets/community/f0123eb1d8589b137c46e5595d03d33d4da226f93048a12519e99cbcf71b63e4.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/f0123eb1d8589b137c46e5595d03d33d4da226f93048a12519e99cbcf71b63e4.png",
     "name": "枪手",
     "team": "traveler",
     "ability": "每个白天，当首次投票被统计后，你可以选择一名刚投过票的玩家：他死亡。",
@@ -366,7 +366,7 @@
   },
   {
     "id": "28_the_radiance_descends",
-    "image": "/scripts/assets/community/99950d5711fc74b442492b3a3a071d758e37769bfd9c95021cc6dd89f1198f2e.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/99950d5711fc74b442492b3a3a071d758e37769bfd9c95021cc6dd89f1198f2e.png",
     "name": "屠夫",
     "team": "traveler",
     "ability": "每个白天，首次处决后，你可以再次发起提名。",
@@ -374,7 +374,7 @@
   },
   {
     "id": "29_the_radiance_descends",
-    "image": "/scripts/assets/community/51dcc060320ebdc7ef92e6046b42b163f6c78a45ccc0d546e139e98f24943509.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/51dcc060320ebdc7ef92e6046b42b163f6c78a45ccc0d546e139e98f24943509.png",
     "name": "黑帮",
     "team": "traveler",
     "ability": "每个白天限一次，你可以杀死与你邻近的两名存活的玩家中的一名，但需要另一边那个存活的玩家同意。",
@@ -382,7 +382,7 @@
   },
   {
     "id": "31_the_radiance_descends",
-    "image": "/scripts/assets/community/3a93f34b5cd45019a39ee2d160b8c0abf219c029b72f70b87e291bb8be1d7d96.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/3a93f34b5cd45019a39ee2d160b8c0abf219c029b72f70b87e291bb8be1d7d96.png",
     "firstNightReminder": "将“同伴”提示标记放置到一个与侏儒相同阵营玩家的角色标记旁来表示侏儒的“同伴”。宣布这名玩家和侏儒的阵营相同。",
     "reminders": [
       "同伴"
@@ -424,7 +424,7 @@
   },
   {
     "id": "30_the_radiance_descends",
-    "image": "/scripts/assets/community/c05fdefb67a798272596ddec496e6f3e6e59032502e0e6c3310abdefa92156e3.png",
+    "image": "/scripts/assets/community-sheng-guang-jiang-lin-d18edb26/c05fdefb67a798272596ddec496e6f3e6e59032502e0e6c3310abdefa92156e3.png",
     "otherNightReminder": "如果白天拜访你的玩家的阵营是劣势的，告诉所有玩家他获得了哪个旅行者的能力。",
     "reminders": [
       "访客",

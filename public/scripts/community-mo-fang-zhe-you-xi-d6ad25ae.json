@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "模仿者游戏",
     "author": "李泓權",
-    "logo": "/scripts/assets/community/b273ea28254423cd4620612a4a4bf8f4b993d7b4ceeb0b001ae5f6f5213203fd.webp",
+    "logo": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/b273ea28254423cd4620612a4a4bf8f4b993d7b4ceeb0b001ae5f6f5213203fd.webp",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -28,7 +28,7 @@
   },
   {
     "id": "mofangzheyouxi_1",
-    "image": "/scripts/assets/community/954a6403b01cbb28738a0b8f59edb1d454cdb1bbb57283fe3f84e588d664e2c8.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/954a6403b01cbb28738a0b8f59edb1d454cdb1bbb57283fe3f84e588d664e2c8.webp",
     "edition": "custom",
     "name": "修士",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你与他会得知对方的角色。",
@@ -44,7 +44,7 @@
   },
   {
     "id": "mofangzheyouxi_2",
-    "image": "/scripts/assets/community/e37ae04cc847d5a53ca619f9925d9ff8c6eb0b9554f644485edd482e56807378.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/e37ae04cc847d5a53ca619f9925d9ff8c6eb0b9554f644485edd482e56807378.png",
     "edition": "custom",
     "name": "学徒",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色。在该角色死亡的当晚你可以选择一名玩家：他死亡，然后你重获能力。",
@@ -62,7 +62,7 @@
   },
   {
     "id": "mofangzheyouxi_3",
-    "image": "/scripts/assets/community/37639925830dcef3e31bfe8a70c2110af4668fca64e8d71cb509d6284d507356.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/37639925830dcef3e31bfe8a70c2110af4668fca64e8d71cb509d6284d507356.webp",
     "edition": "custom",
     "name": "猎人",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡。",
@@ -79,7 +79,7 @@
   },
   {
     "id": "mofangzheyouxi_4",
-    "image": "/scripts/assets/community/78f7ee438d81b571f1f8654ecac79e4bd350c5f0e93f510aec3e9ccdd8ebabb7.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/78f7ee438d81b571f1f8654ecac79e4bd350c5f0e93f510aec3e9ccdd8ebabb7.webp",
     "edition": "custom",
     "name": "巡林员",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：当晚下个选择他的玩家死亡，然后你会得知那名玩家是谁。",
@@ -97,7 +97,7 @@
   },
   {
     "id": "mofangzheyouxi_5",
-    "image": "/scripts/assets/community/a9333257e980ab986180480b088c6755fd0e58bf05fdda561f13e69c8b0472ca.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/a9333257e980ab986180480b088c6755fd0e58bf05fdda561f13e69c8b0472ca.png",
     "edition": "custom",
     "name": "掮客",
     "ability": "每局游戏限一次，在夜晚时*，你可以得知今晚即将死亡的玩家并选择其中一名：你会得知是哪名玩家导致他即将死亡，随后他在今晚不会死亡。",
@@ -114,7 +114,7 @@
   },
   {
     "id": "mofangzheyouxi_6",
-    "image": "/scripts/assets/community/9b9adcbc28aa56839d17d2aaa7c9b02d8dfa7b302d74d5066e06b12f7c9f2f6f.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/9b9adcbc28aa56839d17d2aaa7c9b02d8dfa7b302d74d5066e06b12f7c9f2f6f.webp",
     "edition": "custom",
     "name": "银行家",
     "ability": "每个夜晚，你可以选择除你以外的一名玩家：如果他是镇民，明天白天他的投票会被算作两票。",
@@ -130,7 +130,7 @@
   },
   {
     "id": "mofangzheyouxi_7",
-    "image": "/scripts/assets/community/7492699bd4bd1d840a47adaa556a325ad2539e94a417c2f29f090ebb9f4117b7.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/7492699bd4bd1d840a47adaa556a325ad2539e94a417c2f29f090ebb9f4117b7.webp",
     "edition": "custom",
     "name": "拳击手",
     "ability": "每个夜晚，你可以发动能力：当晚令你死亡的玩家会一同死亡。当你第二次发动能力时，你会在下个黎明时死亡。",
@@ -148,7 +148,7 @@
   },
   {
     "id": "mofangzheyouxi_8",
-    "image": "/scripts/assets/community/b9839816f13eed796d0e850666781b35b3722a3b8794dbf68804fb22d82d4b8c.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/b9839816f13eed796d0e850666781b35b3722a3b8794dbf68804fb22d82d4b8c.webp",
     "edition": "custom",
     "name": "灵媒",
     "ability": "每个夜晚*，你要选择一名玩家：如果他在今晚造成了死亡，你会得知他的角色。",
@@ -162,7 +162,7 @@
   },
   {
     "id": "mofangzheyouxi_9",
-    "image": "/scripts/assets/community/4f0033771ee81b05306eeb89b0e688a50afebbf57bd7ddfa8a49d1dac1b3fa6f.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/4f0033771ee81b05306eeb89b0e688a50afebbf57bd7ddfa8a49d1dac1b3fa6f.webp",
     "edition": "custom",
     "name": "侦探",
     "ability": "每个夜晚*，你可以选择一名玩家：下个夜晚你得知他的阵营。",
@@ -178,7 +178,7 @@
   },
   {
     "id": "mofangzheyouxi_10",
-    "image": "/scripts/assets/community/f29313fd98e995150a7fecf9aed8234a4ea26030707a45fa6e3a36e9100a6588.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/f29313fd98e995150a7fecf9aed8234a4ea26030707a45fa6e3a36e9100a6588.png",
     "edition": "custom",
     "name": "药剂师",
     "ability": "每个夜晚*，你可以选择一名玩家：他今晚不会死亡。当你下次选择他时：他死亡。",
@@ -196,7 +196,7 @@
   },
   {
     "id": "mofangzheyouxi_11",
-    "image": "/scripts/assets/community/df5766e71a85e08c7e87fc092e14276feb07f48e5a6f35591a17348211ff6e6c.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/df5766e71a85e08c7e87fc092e14276feb07f48e5a6f35591a17348211ff6e6c.webp",
     "edition": "custom",
     "name": "治安官",
     "ability": "每局游戏限一次，你可以在黄昏时公开选择一名玩家：如果他是外来者或邪恶玩家，他死亡，否则你死亡。",
@@ -212,7 +212,7 @@
   },
   {
     "id": "mofangzheyouxi_12",
-    "image": "/scripts/assets/community/c7d933fdf4f328fd1fcf3227087771f4e52409cf3cc909c6ff66f0d4e2ae630c.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/c7d933fdf4f328fd1fcf3227087771f4e52409cf3cc909c6ff66f0d4e2ae630c.webp",
     "edition": "custom",
     "name": "密探",
     "ability": "恶魔只获得一个伪装身份且邪恶方不再互相认识，而改为各自得知其他邪恶玩家和你。",
@@ -226,7 +226,7 @@
   },
   {
     "id": "mofangzheyouxi_13",
-    "image": "/scripts/assets/community/575ef0ee96b5c65d0a7a561f0df02301a8bafd2323b36f9ccd02e1abd22071bd.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/575ef0ee96b5c65d0a7a561f0df02301a8bafd2323b36f9ccd02e1abd22071bd.webp",
     "edition": "custom",
     "name": "演说家",
     "ability": "当你死亡时，所有镇民会在当晚分别得知演说家死亡。",
@@ -242,7 +242,7 @@
   },
   {
     "id": "mofangzheyouxi_14",
-    "image": "/scripts/assets/community/5130c6b03fec7dcf5ae87a70fd58fd0b38e032e22380699a5a57876b3e4a702a.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/5130c6b03fec7dcf5ae87a70fd58fd0b38e032e22380699a5a57876b3e4a702a.webp",
     "edition": "custom",
     "name": "哨兵",
     "ability": "当你首次在夜晚即将死亡时，你不会死亡，直到下个黄昏。在下个提名阶段开始时，说书人会发起一次由你提名导致你即将死亡的玩家的提名，然后你死亡。",
@@ -259,7 +259,7 @@
   },
   {
     "id": "mfzyx_1",
-    "image": "/scripts/assets/community/6d21318af3cbe6ef8ba24469344ae8e04f211d573112f4a87081498ebada5a76.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/6d21318af3cbe6ef8ba24469344ae8e04f211d573112f4a87081498ebada5a76.webp",
     "edition": "custom",
     "name": "送货员",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。若你杀死的玩家数不小于存活玩家数，你独自获胜。当你死亡时，所有被你杀死的玩家复活。",
@@ -276,7 +276,7 @@
   },
   {
     "id": "mfzyx_2",
-    "image": "/scripts/assets/community/879c5ce3a5f46d265433bd4b40fe1eaf2df495c4760a301fd3b4ad5afe2f46e3.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/879c5ce3a5f46d265433bd4b40fe1eaf2df495c4760a301fd3b4ad5afe2f46e3.png",
     "edition": "custom",
     "name": "棋手",
     "ability": "每个夜晚，你可以猜测一名玩家的角色然后得知是否正确。若场上存活玩家的角色都已被你猜对，你独自获胜，否则你必定落败，即使你已死亡。你不会在夜晚死亡。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "mfzyx_3",
-    "image": "/scripts/assets/community/7437a3f8e87f1c38b93520ab82c8fc2d4aeefb44c4ddbca72ef913afff58660b.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/7437a3f8e87f1c38b93520ab82c8fc2d4aeefb44c4ddbca72ef913afff58660b.webp",
     "edition": "custom",
     "name": "清洁工",
     "ability": "每个夜晚，你要选择一名玩家：如果他在下个黄昏前即将死亡，他被当作仍然存活。若本局游戏因你能力被当作存活的玩家大于或等于当前场上存活玩家数量的一半，你独自获胜，即使你醉酒或中毒。",
@@ -310,7 +310,7 @@
   },
   {
     "id": "mfzyx_4",
-    "image": "/scripts/assets/community/b577907567b0eb9af34e98ffab59fb1862bb374799b1ec45eb610c5f0b0215e9.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/b577907567b0eb9af34e98ffab59fb1862bb374799b1ec45eb610c5f0b0215e9.webp",
     "edition": "custom",
     "name": "愚人",
     "ability": "每个夜晚，你要选择两名玩家，他们视为为你投票（不计入票数）。当你被处决时，若场上所有玩家均为你投票，你独自获胜。",
@@ -326,7 +326,7 @@
   },
   {
     "id": "mfzyx_5",
-    "image": "/scripts/assets/community/d07bab20711793015de4c33e24a8e61d47b046ca2ec67658e966c16a2347058a.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/d07bab20711793015de4c33e24a8e61d47b046ca2ec67658e966c16a2347058a.png",
     "edition": "custom",
     "name": "千面人",
     "ability": "每局游戏限一次，在夜晚时，你会得知与你临近存活善良玩家的角色，然后你要选择其中之一：你变成该角色且被当作是爪牙。",
@@ -343,7 +343,7 @@
   },
   {
     "id": "mfzyx_6",
-    "image": "/scripts/assets/community/9be6df0c7aa78a213d36913bcde3ffca96504441d616ff26116cf474e0b453a0.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/9be6df0c7aa78a213d36913bcde3ffca96504441d616ff26116cf474e0b453a0.webp",
     "edition": "custom",
     "name": "阴谋家",
     "ability": "每局游戏限两次，在夜晚时*，你可以猜测一名玩家的身份：若正确，则他死亡，否则你死亡。",
@@ -362,7 +362,7 @@
   },
   {
     "id": "mfzyx_7",
-    "image": "/scripts/assets/community/2ece39344fb95901c0c0fd5b112ded66bd7bab17dfe0201ce58742d71c0fea21.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/2ece39344fb95901c0c0fd5b112ded66bd7bab17dfe0201ce58742d71c0fea21.png",
     "edition": "custom",
     "name": "怪盗",
     "ability": "每个夜晚，你要选择两名玩家：任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家，直到下个黄昏。",
@@ -378,7 +378,7 @@
   },
   {
     "id": "mfzyx_8",
-    "image": "/scripts/assets/community/29381c7e45248dfb48b47f868e68cf975851450fc34768c28c9869d6b6e9a634.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/29381c7e45248dfb48b47f868e68cf975851450fc34768c28c9869d6b6e9a634.webp",
     "edition": "custom",
     "name": "处刑人",
     "ability": "每个夜晚*，你可以选择一名玩家，他死亡，然后一名与你阵营相同的玩家（除你之外）死亡。",
@@ -394,7 +394,7 @@
   },
   {
     "id": "mfzyx_9",
-    "image": "/scripts/assets/community/8ae1dcb86bac57fd1956026e29de8d215c5d09ffeb73a303f68df86bf2ff10a8.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/8ae1dcb86bac57fd1956026e29de8d215c5d09ffeb73a303f68df86bf2ff10a8.webp",
     "edition": "custom",
     "name": "烟火师",
     "ability": "每个夜晚*，你可以选择一名玩家：他获得一个烟火，拥有烟火的玩家在被提名时会死亡。拥有烟火的玩家会在拥有烟火的下一晚得知并可以传递烟火，若一名玩家拥有超过一个烟火，他和他一名邻近的玩家立即死亡。",
@@ -412,7 +412,7 @@
   },
   {
     "id": "mfzyx_10",
-    "image": "/scripts/assets/community/3f64e6cf93d9e4f3c4e5e86af71464993bb1266b500b06996ee8039196e7b302.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/3f64e6cf93d9e4f3c4e5e86af71464993bb1266b500b06996ee8039196e7b302.webp",
     "edition": "custom",
     "name": "连环杀手",
     "ability": "每个夜晚*，你要选择一或两名玩家：他们死亡。如果你在上个夜晚选择了两名玩家，今晚你无法因自身能力被唤醒。",
@@ -429,7 +429,7 @@
   },
   {
     "id": "mfzyx_11",
-    "image": "/scripts/assets/community/d22f2af372aae707464ce5ad5d2ef3f0e80a0aaf17f664b00bf465b95e077e37.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/d22f2af372aae707464ce5ad5d2ef3f0e80a0aaf17f664b00bf465b95e077e37.webp",
     "edition": "custom",
     "name": "地下医生",
     "ability": "每个夜晚*，你要选择一名玩家：他中毒并不计入邪恶胜利条件。外来者会得知你每天选择了谁。",
@@ -445,7 +445,7 @@
   },
   {
     "id": "mfzyx_12",
-    "image": "/scripts/assets/community/9062c9e6a001f4772a7375d67859cb82e181d373bc241b9c9262a67829df895d.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/9062c9e6a001f4772a7375d67859cb82e181d373bc241b9c9262a67829df895d.webp",
     "edition": "custom",
     "name": "催眠师",
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的角色，然后他中毒并会在下一晚死亡。被你杀死的玩家会在其死亡的下一晚得知三名玩家：你是其中之一。",
@@ -462,7 +462,7 @@
   },
   {
     "id": "yinhangjiayuren_meta",
-    "image": "/scripts/assets/community/b577907567b0eb9af34e98ffab59fb1862bb374799b1ec45eb610c5f0b0215e9.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/b577907567b0eb9af34e98ffab59fb1862bb374799b1ec45eb610c5f0b0215e9.webp",
     "name": "银行家&愚人",
     "team": "a jinxed",
     "setup": false,
@@ -471,7 +471,7 @@
   },
   {
     "id": "dixiayishengqingjiegong_meta",
-    "image": "/scripts/assets/community/d22f2af372aae707464ce5ad5d2ef3f0e80a0aaf17f664b00bf465b95e077e37.webp",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/d22f2af372aae707464ce5ad5d2ef3f0e80a0aaf17f664b00bf465b95e077e37.webp",
     "name": "地下医生&清洁工",
     "team": "a jinxed",
     "setup": false,
@@ -483,7 +483,7 @@
     "name": "第三方势力",
     "team": "fabled",
     "ability": "·说书人改为公开统计投票的玩家是哪几名，而不是公开唱票。·善良阵营获胜条件改为：爪牙和恶魔玩家均死亡。·恶魔不会失去能力，即使他醉酒、中毒或死亡。·在初始设置时，可能会额外增加一名外来者。如果存活的外来者玩家“疯狂”地证明自己是外来者，之后一名镇民玩家可能中毒或随时死亡。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-mo-fang-zhe-you-xi-d6ad25ae/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"

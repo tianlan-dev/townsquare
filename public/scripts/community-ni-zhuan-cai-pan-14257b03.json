@@ -35,12 +35,12 @@
     "team": "townsfolk",
     "ability": "每个夜晚*，你可以选择一名玩家：如果与他邻近的玩家之中有且仅有一名是邪恶的，他死亡。",
     "otherNight": 8,
-    "image": "/scripts/assets/community/a37638b938763e0da453532ff69dcaa1de0adedbfdb575ebce65fa30e066e70e.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/a37638b938763e0da453532ff69dcaa1de0adedbfdb575ebce65fa30e066e70e.png",
     "edition": "custom"
   },
   {
     "id": "2_nizhuancaipan",
-    "image": "/scripts/assets/community/ebe08e4c364b4412a3253964600c871ad7485228c031216b2d3c47b058c9633b.webp",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/ebe08e4c364b4412a3253964600c871ad7485228c031216b2d3c47b058c9633b.webp",
     "name": "车夫",
     "team": "townsfolk",
     "ability": "每个白天，你可以拜访说书人并选择一个话题以得知一个与其有关的事实。如果与你邻近的两名玩家阵营不同，你会得知错误信息。",
@@ -48,7 +48,7 @@
   },
   {
     "id": "3_nizhuancaipan",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -58,7 +58,7 @@
   },
   {
     "id": "4_nizhuancaipan",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -70,7 +70,7 @@
   },
   {
     "id": "5_nizhuancaipan",
-    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
     "reminders": [
       "不会死亡"
     ],
@@ -81,7 +81,7 @@
   },
   {
     "id": "6_nizhuancaipan",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -93,7 +93,7 @@
   },
   {
     "id": "7_nizhuancaipan",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -108,7 +108,7 @@
   },
   {
     "id": "8_nizhuancaipan",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -121,7 +121,7 @@
   },
   {
     "id": "9_nizhuancaipan",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "reminders": [
       "饱餐",
       "中毒"
@@ -133,7 +133,7 @@
   },
   {
     "id": "10_nizhuancaipan",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "reminders": [
@@ -149,7 +149,7 @@
   },
   {
     "id": "11_nizhuancaipan",
-    "image": "/scripts/assets/community/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/cbe38dafca230f5393a7e828186d9747aaddd75280ed6c367ea9c916eec37d65.png",
     "firstNightReminder": "唤醒风水师，告知他“得知”标记旁的玩家角色类型，并将标记顺时针移动一名玩家。",
     "otherNightReminder": "唤醒风水师，告知他“得知”标记旁的玩家角色类型，并将标记顺时针移动一名玩家。",
     "reminders": [
@@ -164,7 +164,7 @@
   },
   {
     "id": "12_nizhuancaipan",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "firstNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "otherNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "name": "引路人",
@@ -176,7 +176,7 @@
   },
   {
     "id": "13_nizhuancaipan",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -188,7 +188,7 @@
   },
   {
     "id": "14_nizhuancaipan",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
@@ -201,7 +201,7 @@
   },
   {
     "id": "15_nizhuancaipan",
-    "image": "/scripts/assets/community/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/55d375fb6b9d9ef60e066184d0c955f4f9064f2fb3aef58162d5d1b4d2180944.png",
     "firstNightReminder": "如果告密者在场，对爪牙展示三个不在场的善良角色标记。",
     "name": "告密者",
     "team": "outsider",
@@ -211,7 +211,7 @@
   },
   {
     "id": "16_nizhuancaipan",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "reminders": [
       "无法提名"
     ],
@@ -228,12 +228,12 @@
     "name": "致幻师",
     "team": "minion",
     "ability": "与你邻近的玩家会被善良玩家的能力当作错误的阵营和角色。",
-    "image": "/scripts/assets/community/770f8bd41b20f16e06f6bbef4c0974a17a6143dbb0ff0155912c445b3a96013d.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/770f8bd41b20f16e06f6bbef4c0974a17a6143dbb0ff0155912c445b3a96013d.png",
     "edition": "custom"
   },
   {
     "id": "18_nizhuancaipan",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -247,7 +247,7 @@
   },
   {
     "id": "19_nizhuancaipan",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -257,7 +257,7 @@
   },
   {
     "id": "20_nizhuancaipan",
-    "image": "/scripts/assets/community/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/18d29cf3d6370cd9141155032b356988aa4450b9e664e98971a8a153d99eb4d2.png",
     "reminders": [
       "活尸"
     ],
@@ -269,7 +269,7 @@
   },
   {
     "id": "21_nizhuancaipan",
-    "image": "/scripts/assets/community/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/dd064dc99ecc9b8a0c03e15b4b5d1f1de60fd132a5a4c646bc19a1d47521da62.png",
     "firstNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。",
     "otherNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。随后，决定今晚谁会因为小怪宝能力死亡。",
     "remindersGlobal": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "22_nizhuancaipan",
-    "image": "/scripts/assets/community/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/1a9515c19f9aa6ab70aecc7fbf4775f34cdf3ca73816825554f0a2320011fe39.png",
     "firstNightReminder": "将位于堤丰之首两侧的对应数量的玩家变成邪恶的爪牙，并分别唤醒他们通知他们的角色和阵营变化。",
     "otherNightReminder": "唤醒堤丰之首，让他攻击一名玩家。",
     "reminders": [
@@ -302,7 +302,7 @@
   },
   {
     "id": "23_nizhuancaipan",
-    "image": "/scripts/assets/community/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/ac7cdbe6d0bdc1d86a1dd3204daa258be5904f08e0920f5279b3f081d5388d04.png",
     "otherNightReminder": "唤醒姑获鸟，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -316,7 +316,7 @@
   },
   {
     "id": "24_nizhuancaipan",
-    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
     "firstNightReminder": "唤醒阎罗，让他查看魔典。让阎罗选择一名玩家，将“三更将死”标记放置该玩家角色标记旁。之后再让阎罗选择一名玩家，将“即将死亡”标记放置该玩家角色标记旁。",
     "otherNightReminder": "唤醒阎罗，让他选择一名玩家，将“即将死亡”标记放置该玩家角色标记旁，并将上一个夜晚的“即将死亡”标记替换为“死亡”标记。如果这是游戏的第三个夜晚，将“三更将死”标记的玩家判死，即使因为任何原因让他不会死亡。",
     "reminders": [
@@ -333,7 +333,7 @@
   },
   {
     "id": "25_nizhuancaipan",
-    "image": "/scripts/assets/community/8041dd68638dccb06507b37b91915a0811aa2ec22133c4a20c2950273979750a.png",
+    "image": "/scripts/assets/community-ni-zhuan-cai-pan-14257b03/8041dd68638dccb06507b37b91915a0811aa2ec22133c4a20c2950273979750a.png",
     "reminders": [
       "是厨师",
       "是贵族",

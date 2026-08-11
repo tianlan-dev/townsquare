@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "三拜九叩",
     "author": "痴愚",
-    "logo": "/scripts/assets/community/cde22e7c7984c9e60a470d9eaed15d9105248702e782aec8b0aca407f704505e.png",
+    "logo": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/cde22e7c7984c9e60a470d9eaed15d9105248702e782aec8b0aca407f704505e.png",
     "almanac": "https://www.bloodstar.xyz/p/chiyu/SBJK8/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -32,7 +32,7 @@
     "name": "舞龙（尾）",
     "team": "townsfolk",
     "ability": "你不知道你是舞龙（尾），你以为你是其他镇民角色，如果你和舞龙（头）之间的其他玩家都已死亡，这些玩家变成舞龙（身）并复活，在此之前你只会死于处决。[+舞龙（头）]",
-    "image": "/scripts/assets/community/79e9f9ba3551e6e7bcefa0c8d4a585da509f875da3deb343db3721ce80a4c0b3.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/79e9f9ba3551e6e7bcefa0c8d4a585da509f875da3deb343db3721ce80a4c0b3.png",
     "edition": "custom"
   },
   {
@@ -40,7 +40,7 @@
     "name": "神婆",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下拜访说书人以得知一条信息，并在下次拜访说书人时回答一个关于上条信息的问题，如果回答正确，你当天获得正确信息。",
-    "image": "/scripts/assets/community/1949e88e9ee7c1af5b7907c1037906b8dd8bd7184d4b7cf861dd1882a788249d.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/1949e88e9ee7c1af5b7907c1037906b8dd8bd7184d4b7cf861dd1882a788249d.png",
     "edition": "custom"
   },
   {
@@ -53,7 +53,7 @@
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以私下向说书人做出一个预言，之后该预言首次成真的当晚说书人会唤醒你。",
     "otherNight": 10,
-    "image": "/scripts/assets/community/6a8c4c7a0356ee8862a8062984eebe14bf3546ab6e9b2f6eec9a7c8b6c74e162.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/6a8c4c7a0356ee8862a8062984eebe14bf3546ab6e9b2f6eec9a7c8b6c74e162.png",
     "edition": "custom"
   },
   {
@@ -66,7 +66,7 @@
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知二名玩家和一个数字：该数字为你和他们的角色类型数量。",
     "firstNight": 17,
-    "image": "/scripts/assets/community/4061781af4dfc03141378a9e1789daef0321908d2ff503bfc1c5d6f631af074b.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/4061781af4dfc03141378a9e1789daef0321908d2ff503bfc1c5d6f631af074b.png",
     "edition": "custom"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "id": "6_sbjk8",
-    "image": "/scripts/assets/community/cf4326a8c72db24e924d557bf1921db71c53bef42c57989e7b5684e89a33c2aa.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/cf4326a8c72db24e924d557bf1921db71c53bef42c57989e7b5684e89a33c2aa.png",
     "firstNightReminder": "说书人需要先确定乩童和恶魔谁先发动能力，然后告知乩童恶魔的种类，如果乩童可以发动能力，让乩童发动能力。",
     "otherNightReminder": "如果乩童可以发动能力，让乩童发动能力。",
     "reminders": [
@@ -97,7 +97,7 @@
   },
   {
     "id": "7_sbjk8",
-    "image": "/scripts/assets/community/cb0c90e279fb79f85c932a5d2df7c2a32e4b4c40614514bf7472491100644434.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/cb0c90e279fb79f85c932a5d2df7c2a32e4b4c40614514bf7472491100644434.png",
     "remindersGlobal": [
       "是心猿"
     ],
@@ -108,7 +108,7 @@
   },
   {
     "id": "8_sbjk8",
-    "image": "/scripts/assets/community/c93b20e09ece38b4141999e70faa8ce30277b972ceb4a730dd113d5a75cef648.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/c93b20e09ece38b4141999e70faa8ce30277b972ceb4a730dd113d5a75cef648.png",
     "remindersGlobal": [
       "是金蝉子"
     ],
@@ -126,7 +126,7 @@
     "name": "贞洁者",
     "team": "townsfolk",
     "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
-    "image": "/scripts/assets/community/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/5acd320c76ad3bc73c5c7893c7c2fc2826c7e42ee42d528cc23ce0e4adc8be61.png",
     "edition": "custom"
   },
   {
@@ -153,7 +153,7 @@
     "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
     "firstNight": 18,
     "otherNight": 12,
-    "image": "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png",
     "edition": "custom"
   },
   {
@@ -164,7 +164,7 @@
     "name": "渔夫",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些建议以帮助你的阵营获胜。",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom"
   },
   {
@@ -175,7 +175,7 @@
     "name": "猎手",
     "team": "townsfolk",
     "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
-    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
     "edition": "custom"
   },
   {
@@ -195,7 +195,7 @@
   },
   {
     "id": "15_sbjk8",
-    "image": "/scripts/assets/community/6b1770a55305afe7875c47c4f6d9cc5f5373dffe3506a7f511c5dc67f57d16d3.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/6b1770a55305afe7875c47c4f6d9cc5f5373dffe3506a7f511c5dc67f57d16d3.png",
     "name": "福星",
     "team": "outsider",
     "ability": "游戏结束时，你获胜，但每个落败阵营的玩家都可以猜测一次谁是福星，首个猜对的玩家会和你交换角色，即使你已死亡。",
@@ -209,7 +209,7 @@
     "name": "魔像",
     "team": "outsider",
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom"
   },
   {
@@ -222,7 +222,7 @@
     "team": "outsider",
     "ability": "如果你提名了恶魔且他死于这次处决，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
     "otherNight": 9,
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom"
   },
   {
@@ -230,12 +230,12 @@
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "当你对“我是外来者”疯狂时，你可能会被处决。",
-    "image": "/scripts/assets/community/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/df924da149465bb4695abc063b81512e88e6d1bd8098b361039b7cb6c37ab15d.png",
     "edition": "custom"
   },
   {
     "id": "19_sbjk8",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
     "reminders": [
       "死亡",
@@ -249,7 +249,7 @@
   },
   {
     "id": "20_sbjk8",
-    "image": "/scripts/assets/community/24f7616fc2e2d553eec8c325e46d429f54f32587b00f2933deea0622a716c59f.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/24f7616fc2e2d553eec8c325e46d429f54f32587b00f2933deea0622a716c59f.png",
     "firstNightReminder": "让伥变成一个不在场的善良角色。",
     "otherNightReminder": "让伥变成一个不在场的善良角色。",
     "remindersGlobal": [
@@ -264,7 +264,7 @@
   },
   {
     "id": "21_sbjk8",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
     "reminders": [
       "是恶魔"
@@ -288,12 +288,12 @@
     "ability": "在你的首个夜晚，你要选择一名存活玩家：他死亡但会被当作存活。当他下一次死亡时，他重生，随后你重获能力。",
     "firstNight": 15,
     "otherNight": 7,
-    "image": "/scripts/assets/community/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/4cbdc3cee6e45829d52307e5c851b9e0983ae87573a5c30e92c557e688edadf4.png",
     "edition": "custom"
   },
   {
     "id": "23_sbjk8",
-    "image": "/scripts/assets/community/1908e43cd82f204c9ef2c44355e0e3fa824f8614c3eb1e187ce026a3adb2ef08.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/1908e43cd82f204c9ef2c44355e0e3fa824f8614c3eb1e187ce026a3adb2ef08.png",
     "firstNightReminder": "让灵感大王选择一个玩家。",
     "otherNightReminder": "让灵感大王选择一个玩家。如果每有一名被灵感大王选择的玩家存活，当晚他就可以额外选择一名玩家，额外选择的玩家死亡。",
     "reminders": [
@@ -315,7 +315,7 @@
     "name": "黄皮子",
     "team": "traveler",
     "ability": "每个白天，你可以选择一名其他玩家讨封，问道“老乡，你看我像个啥”。你可能会由于讨封而变成黄大仙。",
-    "image": "/scripts/assets/community/5c768f396e7d0b12da879fdfd78ccf854bbb5964098a94d0a3edaa591a505e2c.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/5c768f396e7d0b12da879fdfd78ccf854bbb5964098a94d0a3edaa591a505e2c.png",
     "edition": "custom"
   },
   {
@@ -326,7 +326,7 @@
     "name": "黄大仙",
     "team": "traveler",
     "ability": "你获得讨封成功时所述的能力。[不可选择，只能由黄皮子变成]",
-    "image": "/scripts/assets/community/398cfb57ea609c31686d9ae76a13585113ea38cc27f15e5dd6c57355f6669868.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/398cfb57ea609c31686d9ae76a13585113ea38cc27f15e5dd6c57355f6669868.png",
     "edition": "custom"
   },
   {
@@ -341,7 +341,7 @@
     "ability": "每个夜晚，你会得知一名与你同阵营的玩家（会有一次错误）。你不知道你的阵营。",
     "firstNight": 20,
     "otherNight": 14,
-    "image": "/scripts/assets/community/17638faaf6f380152af0d4ec65afa01e3851279ace00b81141c75ecc788808b0.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/17638faaf6f380152af0d4ec65afa01e3851279ace00b81141c75ecc788808b0.png",
     "edition": "custom"
   },
   {
@@ -349,7 +349,7 @@
     "name": "舞龙（身）",
     "team": "traveler",
     "ability": "你无法被流放。每个白天，舞龙（头）可以向一名非旅行者玩家发起流放，此次流放仅舞龙能参与且半数以上舞龙同意即可流放成功。[只能因舞龙（尾）能力出场]",
-    "image": "/scripts/assets/community/9f5f069f90611a5123a53527f7680c9c0b7f0f4b4ec4324084a4f6855c4334c2.png",
+    "image": "/scripts/assets/community-san-bai-jiu-kou-35cf8638/9f5f069f90611a5123a53527f7680c9c0b7f0f4b4ec4324084a4f6855c4334c2.png",
     "edition": "custom"
   }
 ]

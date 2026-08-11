@@ -27,7 +27,7 @@
   },
   {
     "id": "wulongtou_button",
-    "image": "/scripts/assets/community/6ea8a82b5d30bd8f81ad7f5abc126095c2e5294bccfa874202464732b89e257e.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/6ea8a82b5d30bd8f81ad7f5abc126095c2e5294bccfa874202464732b89e257e.png",
     "edition": "custom",
     "name": "舞龙头",
     "ability": "每个夜晚，你会得知你和舞龙尾最近距离间存活的善良玩家数量（不含旅行者）。[离你最远的一名镇民是舞龙尾]",
@@ -43,7 +43,7 @@
   },
   {
     "id": "wulongwei_button",
-    "image": "/scripts/assets/community/fe1758dcb18cfedd21d1ebe86887e47ddcf1c8baf4af2e8e3b9090b76bc155e5.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/fe1758dcb18cfedd21d1ebe86887e47ddcf1c8baf4af2e8e3b9090b76bc155e5.png",
     "edition": "custom",
     "name": "舞龙尾",
     "ability": "你不知道你是舞龙尾，你以为你是其他镇民角色。如果你和舞龙头之间的其他玩家都已死亡，这些玩家变成舞龙身并复活，在此之前你只会死于处决。[+舞龙头]",
@@ -61,7 +61,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom",
     "flavor": "",
     "id": "grandmother_c",
@@ -80,7 +80,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "edition": "custom",
     "flavor": "",
     "id": "librarian_c",
@@ -99,7 +99,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
-    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
     "edition": "custom",
     "flavor": "",
     "id": "qintianjian_c",
@@ -132,7 +132,7 @@
   },
   {
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "edition": "custom",
     "flavor": "",
     "id": "empath_c",
@@ -148,7 +148,7 @@
   },
   {
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "flavor": "",
     "id": "fortune_teller_c",
@@ -166,7 +166,7 @@
   },
   {
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "flavor": "",
     "id": "cannibal_c",
@@ -185,7 +185,7 @@
   },
   {
     "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom",
     "flavor": "",
     "id": "sage_c",
@@ -201,7 +201,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -219,7 +219,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
-    "image": "/scripts/assets/community/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/6ced83e171e5962c894a7e8a936b903cf5738d7ce949a9f4d5d078dd96816c9b.png",
     "edition": "custom",
     "flavor": "",
     "id": "acrobat_c",
@@ -238,7 +238,7 @@
   },
   {
     "ability": "恶魔的负面能力对你无效。",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "flavor": "",
     "id": "soldier_c",
@@ -254,7 +254,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -280,7 +280,7 @@
   },
   {
     "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
-    "image": "/scripts/assets/community/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/aae48b7b43648ebedfe0a43a6784ee2a07241f04ccba3e2fcfc456c60aecd116.png",
     "edition": "custom",
     "flavor": "",
     "id": "magician_c",
@@ -304,7 +304,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。 ",
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "edition": "custom",
     "flavor": "",
     "id": "lycanthrope_c",
@@ -323,7 +323,7 @@
   },
   {
     "ability": "你拥有所有外来者能力。[-0~1外来者]",
-    "image": "/scripts/assets/community/dd0c713aaaa16d1a613b5a475cc06b00bd39c0b9c26f8dcec6cfe9dbc2c3c273.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/dd0c713aaaa16d1a613b5a475cc06b00bd39c0b9c26f8dcec6cfe9dbc2c3c273.png",
     "edition": "custom",
     "flavor": "",
     "id": "hermit_c",
@@ -347,7 +347,7 @@
   },
   {
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "flavor": "",
     "id": "drunk_c",
@@ -387,11 +387,11 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
   },
   {
     "id": "maxituan_12",
-    "image": "/scripts/assets/community/4830604af1efe8f934d892471870b5f710d47f9ba6dd324c8f5d57c14bff06e0.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/4830604af1efe8f934d892471870b5f710d47f9ba6dd324c8f5d57c14bff06e0.png",
     "edition": "custom",
     "name": "作秀狂",
     "ability": "在说书人宣布你死亡时没有鼓掌的玩家可能会一起死亡。",
@@ -408,7 +408,7 @@
   },
   {
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "edition": "custom",
     "flavor": "",
     "id": "lunatic_c",
@@ -429,7 +429,7 @@
   },
   {
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "edition": "custom",
     "flavor": "",
     "id": "rulianshi_c",
@@ -447,7 +447,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "edition": "custom",
     "flavor": "",
     "id": "poisoner_c",
@@ -465,7 +465,7 @@
   },
   {
     "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
-    "image": "/scripts/assets/community/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/63b87a853d231e73d12f28f476e9f314fe216252d3e39946a9350cff5dfa2c2e.png",
     "edition": "custom",
     "flavor": "",
     "id": "psychopath_c",
@@ -481,7 +481,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "flavor": "",
     "id": "godfather_c",
@@ -500,7 +500,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_c",
@@ -520,7 +520,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -539,7 +539,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "edition": "custom",
     "flavor": "",
     "id": "pit-hag_c",
@@ -555,7 +555,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
-    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png",
     "edition": "custom",
     "flavor": "",
     "id": "imp_c",
@@ -573,7 +573,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "edition": "custom",
     "flavor": "",
     "id": "pukka_c",
@@ -592,7 +592,7 @@
   },
   {
     "ability": "在第三个白天，所有爪牙会变成暴乱，当天被提名的玩家会立即死亡且必须再次提名一名存活的玩家。",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "edition": "custom",
     "flavor": "",
     "id": "riot_c",
@@ -608,7 +608,7 @@
   },
   {
     "ability": "每个夜晚*，你可以选择三名玩家（所有玩家都会得知你选了谁）：他们分别秘密决定自己的生死，然后如果他们都存活则都死亡。",
-    "image": "/scripts/assets/community/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/f106684cee32662b2646c9312e2827bb514b2513534adc41ebfb26fc15039416.png",
     "edition": "custom",
     "flavor": "",
     "id": "al-hadikhia_c",
@@ -630,7 +630,7 @@
   },
   {
     "id": "1cc4cf40-6bcd-44be-86b2-809a41b9279e",
-    "image": "/scripts/assets/community/ef8a8638f4d4a0ffbf6aa557d47f82081fdf2bb8ac45a8599c268fea2f72e9a5.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/ef8a8638f4d4a0ffbf6aa557d47f82081fdf2bb8ac45a8599c268fea2f72e9a5.png",
     "edition": "custom",
     "name": "舞龙身",
     "ability": "你无法被流放。每个白天舞龙头可以向一名非旅行者玩家发起流放，此次流放仅舞龙能参与且半数以上舞龙同意即可流放成功。[不可选择]",
@@ -645,7 +645,7 @@
   },
   {
     "id": "KuTouTuo",
-    "image": "/scripts/assets/community/107d60da839cbf5744f9bba128be57df2b9c9e9d99824306901882cde583ed46.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/107d60da839cbf5744f9bba128be57df2b9c9e9d99824306901882cde583ed46.png",
     "name": "苦头陀",
     "team": "traveler",
     "ability": "每个黎明，你要选择一名玩家：他只能通过手势或者外语进行发言，但是你必须帮他翻译。",
@@ -654,7 +654,7 @@
   },
   {
     "id": "56a3cf30-8cd9-4640-b8a7-a0be86acc7ea",
-    "image": "/scripts/assets/community/384766203c3cd56692a62e752b2319080df33d66395b42ac13eb04dbed76fe8b.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/384766203c3cd56692a62e752b2319080df33d66395b42ac13eb04dbed76fe8b.png",
     "edition": "custom",
     "name": "稻草人",
     "ability": "你不能被流放。在白天时，如果即将死亡的玩家找你猜拳且你输了，你代替他死亡。当你连续胜利三次时，你独自获胜。",
@@ -667,7 +667,7 @@
   },
   {
     "ability": "当你加入游戏时，所有玩家会得知一名与你阵营相同的玩家。每当他被提名时，你可以杀死提名者。",
-    "image": "/scripts/assets/community/56767178981723f163119596ff840c2165ad06b7bd33bc78382bf76fc97caa61.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/56767178981723f163119596ff840c2165ad06b7bd33bc78382bf76fc97caa61.png",
     "edition": "custom",
     "flavor": "",
     "id": "gnome_c",
@@ -688,7 +688,7 @@
     "name": "祖母&暴乱",
     "team": "A jinxed",
     "ability": "如果暴乱在场，孙子在白天死亡，祖母会一同死亡。",
-    "image": "/scripts/assets/community/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/c7b39ed8e6f6f32e456c65d5499f6435819f294a623be402c433a7089b0b775c.png",
     "edition": "custom"
   },
   {
@@ -696,7 +696,7 @@
     "name": "贤者&暴乱",
     "team": "A jinxed",
     "ability": "每个夜晚*，暴乱要选择一名存活的善良玩家（与之前的每个夜晚不同）：如果贤者被选择，他的能力生效但不会死亡。",
-    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
     "edition": "custom"
   },
   {
@@ -704,7 +704,7 @@
     "name": "士兵&暴乱",
     "team": "A jinxed",
     "ability": "如果暴乱在场，士兵免疫所有邪恶阵营的负面效果。",
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom"
   },
   {
@@ -712,7 +712,7 @@
     "name": "红唇女郎&哈迪寂亚",
     "team": "A jinxed",
     "ability": "如果出现两名存活的哈迪寂亚，则红唇女郎变成的哈迪寂亚会变回红唇女郎。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom"
   },
   {
@@ -720,7 +720,7 @@
     "name": "别拿走我的蜡烛!",
     "team": "fabled",
     "ability": "游戏开始前，说书人要决定哲学家能否选择阴影善良角色。\n\n阴影角色[魔术师，半兽人，刺客，麻脸巫婆，暴风捕手]不会在游戏开始时加入。\n\n游戏开始前，说书人会公开宣布本局游戏的寿星是谁，寿星不会是恶魔。\n\n夜晚时，寿星可以吹灭于与自己(认知)阵营颜色相同的蜡烛(每局游戏限3次),白天说书人会公布第几根蜡烛被吹灭。",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "edition": "custom"
   },
   {
@@ -728,7 +728,7 @@
     "name": "迟来的暴风捕手",
     "team": "fabled",
     "ability": "秘密登场！如果寿星指定的角色在场，他只能死于处决，但所有邪恶玩家会在夜晚得知他是哪一名玩家。\n\n[迟来的暴风捕手]会在小于等于五名玩家存活时离场。",
-    "image": "/scripts/assets/community/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/9d608491ed3a7f852afeefc44e409beccbf79bf8ac9f9402e89afadc111d923d.png",
     "edition": "custom"
   },
   {
@@ -736,7 +736,7 @@
     "name": "圣洁之魂",
     "team": "fabled",
     "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名（旅行者不计算在内）。",
-    "image": "/scripts/assets/community/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
+    "image": "/scripts/assets/community-shou-xing-suo-le-suan-ab2eb5a3/19e3e8668cfb73ef4e06cf3dfde2cf838b328018bb6fcf8a515afadabe3b935b.png",
     "edition": "custom"
   }
 ]

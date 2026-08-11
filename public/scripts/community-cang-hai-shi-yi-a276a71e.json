@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "沧海拾遗",
     "author": "昊.Saber",
-    "logo": "/scripts/assets/community/8607cdf9cf10ad58ccef8f6e203088028679249621075a420ce72006486359ea.png",
+    "logo": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/8607cdf9cf10ad58ccef8f6e203088028679249621075a420ce72006486359ea.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_canghaishiyi",
-    "image": "/scripts/assets/community/db110bcea9151e353851707599a58fb190aa24ad487b252bdad42297d8dbcd33.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/db110bcea9151e353851707599a58fb190aa24ad487b252bdad42297d8dbcd33.png",
     "otherNightReminder": "如果需要，唤醒他。此行动顺序为提示性，不代表祈愿妖精必须在此时行动，具体以说书人给出的能力为准。ps：一般信息型能力在所有击杀型能力后面。",
     "reminders": [
       "？"
@@ -30,7 +30,7 @@
   },
   {
     "id": "1_canghaishiyi",
-    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
     "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -40,7 +40,7 @@
   },
   {
     "id": "2_canghaishiyi",
-    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
     "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
     "name": "共情者",
@@ -52,7 +52,7 @@
   },
   {
     "id": "3_canghaishiyi",
-    "image": "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -67,7 +67,7 @@
   },
   {
     "id": "4_canghaishiyi",
-    "image": "/scripts/assets/community/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png",
     "reminders": [
       "失去能力"
     ],
@@ -78,7 +78,7 @@
   },
   {
     "id": "5_canghaishiyi",
-    "image": "/scripts/assets/community/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -86,7 +86,7 @@
   },
   {
     "id": "6_canghaishiyi",
-    "image": "/scripts/assets/community/81652425b43f520c73c7fb190eadf398d6e59f7d93dc91e59db56f462e41835f.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/81652425b43f520c73c7fb190eadf398d6e59f7d93dc91e59db56f462e41835f.png",
     "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
     "reminders": [
       "不会死亡",
@@ -100,7 +100,7 @@
   },
   {
     "id": "7_canghaishiyi",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -113,7 +113,7 @@
   },
   {
     "id": "8_canghaishiyi",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -128,7 +128,7 @@
   },
   {
     "id": "9_canghaishiyi",
-    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
     "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
     "reminders": [
       "被得知"
@@ -141,7 +141,7 @@
   },
   {
     "id": "10_canghaishiyi",
-    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
     "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
     "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
     "reminders": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "11_canghaishiyi",
-    "image": "/scripts/assets/community/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png",
     "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
     "name": "农夫",
     "team": "townsfolk",
@@ -167,7 +167,7 @@
   },
   {
     "id": "12_canghaishiyi",
-    "image": "/scripts/assets/community/9cf18123d029cca27a4c13eb919c2457ac868268a53f9c88674ed23c62b44bdd.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/9cf18123d029cca27a4c13eb919c2457ac868268a53f9c88674ed23c62b44bdd.png",
     "otherNightReminder": "如果恶魔杀死了报丧女妖，宣布“报丧女妖觉醒了”，并使用“具有能力”标记报丧女妖。",
     "reminders": [
       "具有能力"
@@ -180,7 +180,7 @@
   },
   {
     "id": "13_canghaishiyi",
-    "image": "/scripts/assets/community/8dfb8bce4fca1930211510af7ba8fe89d469eefea4872cd310cccd0fdb0f0035.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/8dfb8bce4fca1930211510af7ba8fe89d469eefea4872cd310cccd0fdb0f0035.png",
     "otherNightReminder": "如果场上存在2名恶魔遗子，再其中一名死亡后，立即将另一名存活的恶魔遗子的标记更换为一个不在场恶魔。",
     "reminders": [
       "死亡",
@@ -195,7 +195,7 @@
   },
   {
     "id": "14_canghaishiyi",
-    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
     "remindersGlobal": [
       "是酒鬼"
     ],
@@ -207,7 +207,7 @@
   },
   {
     "id": "15_canghaishiyi",
-    "image": "/scripts/assets/community/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
     "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
     "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
     "reminders": [
@@ -226,7 +226,7 @@
   },
   {
     "id": "16_canghaishiyi",
-    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -234,7 +234,7 @@
   },
   {
     "id": "17_canghaishiyi",
-    "image": "/scripts/assets/community/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png",
     "firstNightReminder": "唤醒间谍，让他查看魔典。",
     "otherNightReminder": "唤醒间谍，让他查看魔典。",
     "name": "间谍",
@@ -246,7 +246,7 @@
   },
   {
     "id": "18_canghaishiyi",
-    "image": "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
     "setup": true,
     "name": "男爵",
     "team": "minion",
@@ -255,7 +255,7 @@
   },
   {
     "id": "19_canghaishiyi",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -272,7 +272,7 @@
   },
   {
     "id": "20_canghaishiyi",
-    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
     "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
     "remindersGlobal": [
       "是提线木偶"
@@ -286,7 +286,7 @@
   },
   {
     "id": "21_canghaishiyi",
-    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
     "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
     "reminders": [
       "死亡"
@@ -299,7 +299,7 @@
   },
   {
     "id": "22_canghaishiyi",
-    "image": "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -315,7 +315,7 @@
   },
   {
     "id": "23_canghaishiyi",
-    "image": "/scripts/assets/community/32ef152ba2352a5fe2d4a18b32eefe7e8c7d730dde5297075bb7252077700b0a.png",
+    "image": "/scripts/assets/community-cang-hai-shi-yi-a276a71e/32ef152ba2352a5fe2d4a18b32eefe7e8c7d730dde5297075bb7252077700b0a.png",
     "otherNightReminder": "唤醒所有白骨军团。他们投票选择一名玩家。那名玩家死亡。",
     "reminders": [
       "袭杀"

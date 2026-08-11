@@ -4,7 +4,7 @@
     "name": "炼狱",
     "author": "Svendetta",
     "description": "Players VS Storyteller",
-    "logo": "/scripts/assets/community/b1aa71ba130f890b56e54093849e79c4e7ba39e174420b74f02c938defedebca.png",
+    "logo": "/scripts/assets/community-lian-yu-9c03dcdd/b1aa71ba130f890b56e54093849e79c4e7ba39e174420b74f02c938defedebca.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -63,7 +63,7 @@
   },
   {
     "id": "Agnostic",
-    "image": "/scripts/assets/community/ebb36f1fffb672a0dfd788fd704dd7a88539b43d8eb573777b0b524a53bbfeda.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/ebb36f1fffb672a0dfd788fd704dd7a88539b43d8eb573777b0b524a53bbfeda.png",
     "edition": "custom",
     "name": "不可知论·Agnostic",
     "ability": "所有玩家都是善良的。游戏在只有两名玩家存活时结束。在游戏结束时，如果存活玩家拥有的罪小于解离的罪，善良阵营落败。爪牙和恶魔互相不认识。",
@@ -79,7 +79,7 @@
   },
   {
     "id": "Departed",
-    "image": "/scripts/assets/community/3b30934d4331ff20ad3e53749adb380c33c9fa04ccf1f1c8786e9c0c5a67bc1d.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/3b30934d4331ff20ad3e53749adb380c33c9fa04ccf1f1c8786e9c0c5a67bc1d.png",
     "edition": "custom",
     "name": "解离·Departed",
     "ability": "当一名玩家死亡时，他拥有的罪会解离。一些角色的能力能够影响已经解离的罪。",
@@ -95,7 +95,7 @@
   },
   {
     "id": "Sin",
-    "image": "/scripts/assets/community/188cc6bf9d24bba97927e42ef2972c33e9328d849c94ea4b4497e29ec311ae03.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/188cc6bf9d24bba97927e42ef2972c33e9328d849c94ea4b4497e29ec311ae03.png",
     "edition": "custom",
     "name": "罪·Sin",
     "ability": "每个夜晚*，拥有最少罪的玩家死亡，相同则爪牙和恶魔优先。游戏开始时，说书人会为所有玩家分配共计2X点罪[X=游戏人数]。“额外的罪”=2。每名玩家罪的数量至少为0。",
@@ -144,7 +144,7 @@
   },
   {
     "id": "Contemplation",
-    "image": "/scripts/assets/community/3ab0b2a040f4740fcc4a894db94fa7cfc67f481e6c1088752dc0dcd0bbf749dd.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/3ab0b2a040f4740fcc4a894db94fa7cfc67f481e6c1088752dc0dcd0bbf749dd.png",
     "edition": "custom",
     "name": "冥想·Contemplation",
     "ability": "在你的首个夜晚，你会得知一个外来者角色和一个爪牙角色：其中至少有一个角色在场。",
@@ -170,7 +170,7 @@
   },
   {
     "id": "Penance",
-    "image": "/scripts/assets/community/b1818c9520333f5e0497b33ef2b99ed6e4c719c72bc96a6d2398324d1ce878fa.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/b1818c9520333f5e0497b33ef2b99ed6e4c719c72bc96a6d2398324d1ce878fa.png",
     "edition": "custom",
     "name": "苦行·Penance",
     "ability": "在你的首个夜晚，你会得知三名玩家：他们中的一名玩家拥有的罪最多，另一名玩家拥有的罪最少。",
@@ -190,7 +190,7 @@
   },
   {
     "id": "Communion",
-    "image": "/scripts/assets/community/b66029404a3a84f50fbe01982c97ab95ac9967262e3f14e94ec6fb05dd321197.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/b66029404a3a84f50fbe01982c97ab95ac9967262e3f14e94ec6fb05dd321197.png",
     "edition": "custom",
     "name": "圣餐·Communion",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们拥有的罪之和。",
@@ -206,7 +206,7 @@
   },
   {
     "id": "Ritual",
-    "image": "/scripts/assets/community/0a8c3e3939fdc63b962ec2044642e3a131edc5fa93dd4071d77cb8b387bb5964.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/0a8c3e3939fdc63b962ec2044642e3a131edc5fa93dd4071d77cb8b387bb5964.png",
     "edition": "custom",
     "name": "仪式·Ritual",
     "ability": "每个夜晚，你可以选择获得2点罪。若如此做，与你邻近的两名存活玩家各失去1点罪。",
@@ -222,7 +222,7 @@
   },
   {
     "id": "Faith",
-    "image": "/scripts/assets/community/7ab4ae23aa7a452a0cf23b00815cef55b635e738dff5094fd005b2c14dcdd3b9.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/7ab4ae23aa7a452a0cf23b00815cef55b635e738dff5094fd005b2c14dcdd3b9.png",
     "edition": "custom",
     "name": "信仰·Faith",
     "ability": "每个夜晚*，你要选择一个角色类型：你得知一个与该类型相关的数字，但你不知道其含义。每局游戏限一次，你可以拜访说书人并选择一个你获得过的数字：你得知其含义，然后你失去能力。",
@@ -240,7 +240,7 @@
   },
   {
     "id": "Devotion",
-    "image": "/scripts/assets/community/85835e039c42ef32bf082ae6299622caa166ffebc58fc368697c1a2981fe8ee7.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/85835e039c42ef32bf082ae6299622caa166ffebc58fc368697c1a2981fe8ee7.png",
     "edition": "custom",
     "name": "奉献·Devotion",
     "ability": "每个夜晚*，你得知两个数字：其中一个是存活玩家的罪之和，另一个是已解离的罪之和。你不知道数字的对应关系。",
@@ -256,7 +256,7 @@
   },
   {
     "id": "Prayer",
-    "image": "/scripts/assets/community/4d070bc5219191e49c7dfed6e00c32fcf6ee6754aa31245a91f51ac5b0610f56.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/4d070bc5219191e49c7dfed6e00c32fcf6ee6754aa31245a91f51ac5b0610f56.png",
     "edition": "custom",
     "name": "祷告·Prayer",
     "ability": "每个夜晚*，你要选择两名存活玩家：他们中罪更少的失去1点罪，罪更多的获得1点罪。如果他们的罪相等，则改为无事发生。",
@@ -272,7 +272,7 @@
   },
   {
     "id": "Repentance",
-    "image": "/scripts/assets/community/41caaf92eb8b0df1cd86a5870ba447d82873a5804c9946e3d0938e1d6ec3508d.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/41caaf92eb8b0df1cd86a5870ba447d82873a5804c9946e3d0938e1d6ec3508d.png",
     "edition": "custom",
     "name": "忏悔·Repentance",
     "ability": "每个夜晚*，你要选择一名除你以外的玩家：他会得知一些当晚发生的与他有关的事。",
@@ -290,7 +290,7 @@
   },
   {
     "id": "Supplication",
-    "image": "/scripts/assets/community/5c73e891e5051ae9197dd2e27cebe5242368cffe980b5cbf73a0fa905e947768.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/5c73e891e5051ae9197dd2e27cebe5242368cffe980b5cbf73a0fa905e947768.png",
     "edition": "custom",
     "name": "祈求·Supplication",
     "ability": "每个夜晚*，如果你存活，一名存活玩家失去1点罪；如果你死亡，一名死亡玩家失去1点罪。",
@@ -306,7 +306,7 @@
   },
   {
     "id": "Confession",
-    "image": "/scripts/assets/community/428f7a9100ab7f3231f3d4ffedd86d987780d61fa0cd6a78f84535a6c6e6c25c.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/428f7a9100ab7f3231f3d4ffedd86d987780d61fa0cd6a78f84535a6c6e6c25c.png",
     "edition": "custom",
     "name": "告解·Confession",
     "ability": "每个白天，你可以拜访说书人猜测你拥有的罪的数量。如果你猜对，你会得知此事，然后你失去1点罪。",
@@ -322,7 +322,7 @@
   },
   {
     "id": "Mercy",
-    "image": "/scripts/assets/community/b769ab419d9a4ea2e988a50f3de9260968c496603391f3f51be60c35301d5437.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/b769ab419d9a4ea2e988a50f3de9260968c496603391f3f51be60c35301d5437.png",
     "edition": "custom",
     "name": "宽恕·Mercy",
     "ability": "每局游戏限一次，在白天时，你可以公开选择一名存活玩家：他失去所有罪，你获得等量罪。",
@@ -340,7 +340,7 @@
   },
   {
     "id": "Charity",
-    "image": "/scripts/assets/community/2b331e9d39a86e3ab1673442902d00a794b6bcdbc83da708b042294c73d715e0.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/2b331e9d39a86e3ab1673442902d00a794b6bcdbc83da708b042294c73d715e0.png",
     "edition": "custom",
     "name": "施舍·Charity",
     "ability": "每局游戏限一次，在白天时，你可以拜访说书人并提出一个问题。随后，你与说书人通过“三门游戏”来决定你能否获得正确答案。",
@@ -359,7 +359,7 @@
   },
   {
     "id": "Grace",
-    "image": "/scripts/assets/community/cdf5eb8ef994e18c69388d3d098c0068abed40bb312c7ac9e1bfcd24c64bad92.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/cdf5eb8ef994e18c69388d3d098c0068abed40bb312c7ac9e1bfcd24c64bad92.png",
     "edition": "custom",
     "name": "恩赐·Grace",
     "ability": "如果只有三名玩家存活且白天没有发生处决，当晚，你要选择两名玩家（无论他们存活或死亡）：交换他们拥有的罪值。",
@@ -377,7 +377,7 @@
   },
   {
     "id": "Volition",
-    "image": "/scripts/assets/community/9122abcc6069daba49e7bf452d7d2d5420875cbaa2b887a000fb3ebcf743b775.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/9122abcc6069daba49e7bf452d7d2d5420875cbaa2b887a000fb3ebcf743b775.png",
     "edition": "custom",
     "name": "意志·Volition",
     "ability": "如果你即将在夜晚死亡，会有一名玩家代替你死亡，然后你会被唤醒并选择一项：1.知识，你得知谁是恶魔；2.力量，你变成一个不在场的恶魔并获得“额外的罪”。",
@@ -398,7 +398,7 @@
   },
   {
     "id": "Philosophy",
-    "image": "/scripts/assets/community/bf7546e6a7f67ee26f0f7509c9ce4392bc577a79a39475aa59b515bd5523c62b.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/bf7546e6a7f67ee26f0f7509c9ce4392bc577a79a39475aa59b515bd5523c62b.png",
     "edition": "custom",
     "name": "哲学·Philosophy",
     "ability": "一名玩家会被当作与他所拥有的罪值相差1的镇民，即使你已死亡。每局游戏限一次，你可以猜测谁是那个玩家，如果猜测正确，你会得知一条有用的建议；如果猜测错误，你会得知错误的“有用的建议”。",
@@ -417,7 +417,7 @@
   },
   {
     "id": "Logic",
-    "image": "/scripts/assets/community/30ce5891ccfee120b54ed016e25706962b7898a76c5986530474a43a10de5fd0.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/30ce5891ccfee120b54ed016e25706962b7898a76c5986530474a43a10de5fd0.png",
     "edition": "custom",
     "name": "逻辑·Logic",
     "ability": "镇民角色的能力始终会产生错误信息。如果你被处决，在你死亡前，你获得“额外的罪”。",
@@ -435,7 +435,7 @@
   },
   {
     "id": "Ethics",
-    "image": "/scripts/assets/community/07fca060f1f44ef3d7ec8334bcfe36f9fd3d78b37871dd56ac6e3f2ec945dcc0.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/07fca060f1f44ef3d7ec8334bcfe36f9fd3d78b37871dd56ac6e3f2ec945dcc0.png",
     "edition": "custom",
     "name": "伦理·Ethics",
     "ability": "每个夜晚*，你要选择3名存活玩家进入“电车难题”：你会得知其中一名玩家，你要选择让你得知的玩家死亡，或让你选择但未得知的玩家死亡。",
@@ -455,7 +455,7 @@
   },
   {
     "id": "Simulation",
-    "image": "/scripts/assets/community/5962d3d1bff92caece49b7b13b0f144b0fd16c1dfd5a4742fc5d0ff34ef4e387.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/5962d3d1bff92caece49b7b13b0f144b0fd16c1dfd5a4742fc5d0ff34ef4e387.png",
     "edition": "custom",
     "name": "模仿·Simulation",
     "ability": "你以为你是一个不在场的恶魔，但其实你不是。每局游戏限一次，你认知的恶魔能力会生效，除非你在此之前死亡。",
@@ -474,7 +474,7 @@
   },
   {
     "id": "Tendency",
-    "image": "/scripts/assets/community/a4d75b618b18f40b4ec576f4a8a646084f15f7ba7c1f4a2f8bab1e4ebe278935.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/a4d75b618b18f40b4ec576f4a8a646084f15f7ba7c1f4a2f8bab1e4ebe278935.png",
     "edition": "custom",
     "name": "盲从·Tendency",
     "ability": "每个白天提名阶段开始时，所有玩家都会得知你和一名罪值不为最多的其他玩家：你们视为已经拥有达到处决所需的最低票数且均即将被处决，你们今天获得的票数会在此基础上累计。",
@@ -498,7 +498,7 @@
   },
   {
     "id": "Temptation",
-    "image": "/scripts/assets/community/fa5920b28a3d1706f9ed5373fcd40c510f5d6ea075bb6e53fe7ee7279ea76249.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/fa5920b28a3d1706f9ed5373fcd40c510f5d6ea075bb6e53fe7ee7279ea76249.png",
     "edition": "custom",
     "name": "诱惑·Temptation",
     "ability": "你不知道你是诱惑，你以为你是一个不在场且能够使用自身能力进行选择的善良角色。被你选择的玩家获得1点罪，除非你选择了你自己。",
@@ -516,7 +516,7 @@
   },
   {
     "id": "Trappings",
-    "image": "/scripts/assets/community/994b28ef53dd5b9b86328bffcfa2c0f849f30d580bc248341dbe15f1fc06825b.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/994b28ef53dd5b9b86328bffcfa2c0f849f30d580bc248341dbe15f1fc06825b.png",
     "edition": "custom",
     "name": "困境·Trappings",
     "ability": "每个夜晚，你要选择一名玩家（与上个夜晚不同）：他的能力无法使用且不会生效，直到下个黄昏。游戏开始时，你获得额外的罪。",
@@ -535,7 +535,7 @@
   },
   {
     "id": "Torment",
-    "image": "/scripts/assets/community/49a17a8328fcfe5af58e2114b97fc7f7561457cf5001f759db4d73a1be13d18b.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/49a17a8328fcfe5af58e2114b97fc7f7561457cf5001f759db4d73a1be13d18b.png",
     "edition": "custom",
     "name": "折磨·Torment",
     "ability": "游戏开始时，会有“额外的罪”在场。如果你没有疯狂证明你自己“是镇民”，拥有最多罪的存活玩家可能被处决。",
@@ -551,7 +551,7 @@
   },
   {
     "id": "Salvation",
-    "image": "/scripts/assets/community/67d9792170c0d0bb7b1dc80fd9e1d29d8fb7e59bcf7d357a3ff0cdb98d8116ae.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/67d9792170c0d0bb7b1dc80fd9e1d29d8fb7e59bcf7d357a3ff0cdb98d8116ae.png",
     "edition": "custom",
     "name": "救赎·Salvation",
     "ability": "如果你提名了一名玩家且他因此被处决，他失去所有罪，然后你获得等量罪。[+1爪牙]",
@@ -569,7 +569,7 @@
   },
   {
     "id": "Limbo",
-    "image": "/scripts/assets/community/3c524f3e91f3b3d852f39885de7764812e584f36b4336d6b415a2a4bd3763838.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/3c524f3e91f3b3d852f39885de7764812e584f36b4336d6b415a2a4bd3763838.png",
     "edition": "custom",
     "name": "边狱·Limbo",
     "ability": "如果上个白天和这个白天都没有处决发生，你和所有存活的外来者获胜，其他所有玩家落败。[+1外来者]",
@@ -588,7 +588,7 @@
   },
   {
     "id": "Damnation",
-    "image": "/scripts/assets/community/d39dda7a5039bf075d96dda65fc055963bb910d139813f669417a83ca146f4b1.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/d39dda7a5039bf075d96dda65fc055963bb910d139813f669417a83ca146f4b1.png",
     "edition": "custom",
     "name": "天谴·Damnation",
     "ability": "你始终与说书人胜负一致，即使你已死亡。每个夜晚，你可以选择一个你未选择过的角色：你可以正常使用该角色的能力一次，直到下个黄昏。",
@@ -606,7 +606,7 @@
   },
   {
     "id": "_meta_Tendency",
-    "image": "/scripts/assets/community/a4d75b618b18f40b4ec576f4a8a646084f15f7ba7c1f4a2f8bab1e4ebe278935.png",
+    "image": "/scripts/assets/community-lian-yu-9c03dcdd/a4d75b618b18f40b4ec576f4a8a646084f15f7ba7c1f4a2f8bab1e4ebe278935.png",
     "name": "盲从·运作",
     "ability": "如果受盲从能力影响的两名玩家之一没有获得更高票数，盲从可以导致受到他的能力影响的两名玩家同时被处决；如果这两名玩家之一被提名且获得更高票数(而另一个未被提名)，优先处决该玩家；如果有第三名或更多玩家得到了相等的票数，不会因此导致他(们)和受到盲从能力影响的玩家同时被处决。",
     "team": "a jinxed",

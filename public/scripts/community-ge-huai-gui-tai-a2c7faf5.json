@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "各怀鬼胎",
     "author": "纸船",
-    "logo": "/scripts/assets/community/b1a31d501e38323b0787210997076ab15e81eaa0e7020579ca2b77ad37204c54.png",
+    "logo": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/b1a31d501e38323b0787210997076ab15e81eaa0e7020579ca2b77ad37204c54.png",
     "townsfolkName": "镇民",
     "tags": [
       "民间创意剧本",
@@ -23,10 +23,10 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "name": "图书管理员",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -45,7 +45,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "name": "阴阳师",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -61,7 +61,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "name": "厨师",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -77,7 +77,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
     "name": "将军",
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
@@ -93,7 +93,7 @@
     "otherNight": 16
   },
   {
-    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
     "name": "共情者",
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -109,7 +109,7 @@
     "otherNight": 12
   },
   {
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "name": "舞蛇人",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -127,7 +127,7 @@
     "otherNight": 4
   },
   {
-    "image": "/scripts/assets/community/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/9e04cbcabc79692d473173716283b8d7dccb01cc5052b4560ddaf30d2682182b.png",
     "name": "水手",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
@@ -145,7 +145,7 @@
     "otherNight": 2
   },
   {
-    "image": "/scripts/assets/community/a3b8df35af6d34ea40ea28578c7293a253b6c30a7dd4bdbd4d4eb2594fdc21f8.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/a3b8df35af6d34ea40ea28578c7293a253b6c30a7dd4bdbd4d4eb2594fdc21f8.png",
     "name": "和尚",
     "team": "townsfolk",
     "ability": "每个夜晚，当有邪恶玩家的能力首次选择或影响与你邻近的存活玩家时，改为此次能力不生效，你会得知这一信息。",
@@ -163,7 +163,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
     "name": "引路人",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择两名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -179,7 +179,7 @@
     "otherNight": 15
   },
   {
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "name": "神谕者",
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
@@ -195,7 +195,7 @@
     "otherNight": 13
   },
   {
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "name": "女裁缝",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -213,7 +213,7 @@
     "otherNight": 14
   },
   {
-    "image": "/scripts/assets/community/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/49bf8c1eb280d7e0221b53b4b516fd1747d2594bbffb7d4ecc5ce7a2e55ae374.png",
     "name": "变脸师",
     "team": "townsfolk",
     "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你会在当晚获得那个角色的能力，直到下个黄昏。",
@@ -231,7 +231,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/7933b7d382c186b704b493a5f96924bcfec94e1f6b42facbd7ecb74c3a6cd2ee.png",
     "name": "悟道者",
     "team": "townsfolk",
     "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，你会立即变成一个不在场的镇民角色。",
@@ -249,7 +249,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "name": "莽夫",
     "team": "outsider",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -267,7 +267,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/4f0bbf9b4081c01f19c0a40b69167028f8d263d210b7adca45877b899d8d7678.png",
     "name": "疯子",
     "team": "outsider",
     "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
@@ -286,7 +286,7 @@
     "otherNight": 7
   },
   {
-    "image": "/scripts/assets/community/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/103f88685008795e7b4ba250d368e571b6476e1eae9c923d56fa77b98b12a946.png",
     "name": "入殓师",
     "team": "outsider",
     "ability": "如果你提名并处决了恶魔，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
@@ -304,7 +304,7 @@
     "otherNight": 5
   },
   {
-    "image": "/scripts/assets/community/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/2f228d8997e6ddc62d77b4009bcfcc85dd227a900b6cecc11a03ff6e3f4243aa.png",
     "name": "逆臣",
     "team": "outsider",
     "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
@@ -322,7 +322,7 @@
     "otherNight": 6
   },
   {
-    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
     "name": "赶尸人",
     "team": "minion",
     "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
@@ -340,7 +340,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/d376cc4b5949831a87694f944cb991d057f8fbf1119d4b980d99b6874ac23120.png",
     "name": "男爵",
     "team": "minion",
     "ability": "会有额外的外来者在场。[+2 外来者]",
@@ -356,7 +356,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
     "name": "麻脸巫婆",
     "team": "minion",
     "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
@@ -372,7 +372,7 @@
     "otherNight": 3
   },
   {
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "name": "提线木偶",
     "team": "minion",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -390,7 +390,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png",
     "name": "普卡",
     "team": "demon",
     "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
@@ -409,7 +409,7 @@
     "otherNight": 8
   },
   {
-    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png",
     "name": "亡骨魔",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -429,7 +429,7 @@
     "otherNight": 10
   },
   {
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "name": "诺-达鲺",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -448,7 +448,7 @@
     "otherNight": 9
   },
   {
-    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "image": "/scripts/assets/community-ge-huai-gui-tai-a2c7faf5/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
     "name": "痢蛭",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有他死亡时你才会一同死亡。",

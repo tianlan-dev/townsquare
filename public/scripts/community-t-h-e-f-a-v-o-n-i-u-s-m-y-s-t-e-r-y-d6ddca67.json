@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "The Favonius Mystery",
     "author": "R6lover_jerry",
-    "logo": "/scripts/assets/community/1fdfaabe5c433849f57767084e32b5edf44121b0f19af7f73f420527122db945.png",
+    "logo": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/1fdfaabe5c433849f57767084e32b5edf44121b0f19af7f73f420527122db945.png",
     "almanac": "https://www.bloodstar.xyz/p/Jerry0906/The_favonius_Mystery_DE/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -22,7 +22,7 @@
   },
   {
     "id": "_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/d2ab10ff4c54c861ef8e0807b0c9dad0b54ea86b433c29980aea15104a2977a1.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/d2ab10ff4c54c861ef8e0807b0c9dad0b54ea86b433c29980aea15104a2977a1.png",
     "firstNightReminder": "唤醒米卡。对他用手势比划数字来表示与你最远的外来者与你之间有多少种身分类型。 （1,2,3等）。让米卡重新入睡。",
     "setup": true,
     "name": "米卡",
@@ -33,7 +33,7 @@
   },
   {
     "id": "3_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/b233aef2e03afc2477d85904062e520ac35c53427c7bc3c9395d3a32785f392b.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/b233aef2e03afc2477d85904062e520ac35c53427c7bc3c9395d3a32785f392b.png",
     "firstNightReminder": "叫醒温迪。让温迪指向一名玩家。將「微風」标记放在所选玩家的角色旁边。然后让温迪入睡。",
     "otherNightReminder": "叫醒温迪。让温迪指向一名玩家。將「微風」标记放在所选玩家的角色旁边，然後告訴他上一晚被他選擇的玩家被多少類型的角色能力選擇(0,1,2,3,4)。将温迪的「微風」标记放在他选择的玩家角色的旁边。然后让温迪入睡。",
     "remindersGlobal": [
@@ -48,7 +48,7 @@
   },
   {
     "id": "4_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/43580c7155d31aed796402d8596a14febe6fe32695ba90ec9aabbeaa00b23661.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/43580c7155d31aed796402d8596a14febe6fe32695ba90ec9aabbeaa00b23661.png",
     "firstNightReminder": "唤醒纳西妲，讓纳西妲指向一名玩家。如果她选择的玩家是外来者，请将「失去能力」标记放在所选玩家的角色旁边，并告知他是否是外来者，让纳西妲重新入睡。",
     "otherNightReminder": "唤醒纳西妲，讓纳西妲指向一名玩家。如果她选择的玩家是外来者，请将「失去能力」标记放在所选玩家的角色旁边，并告知他是否是外来者，让纳西妲重新入睡。",
     "remindersGlobal": [
@@ -64,7 +64,7 @@
   },
   {
     "id": "5_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/424db21b2c83f93480fcacb224f99fe0d626c181988ebfebdffc30f0abdb9526.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/424db21b2c83f93480fcacb224f99fe0d626c181988ebfebdffc30f0abdb9526.png",
     "otherNightReminder": "叫醒钟离。让他指向任何一名玩家。 （如果选择了昨天的目标，提醒他更改目标）。将钟离的「保护」标记放在他选择的玩家角色的标记旁边，然后让钟离重新入睡。",
     "remindersGlobal": [
       "保護"
@@ -77,7 +77,7 @@
   },
   {
     "id": "8_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/5d57448a8d338433466ac472caa79b8e2b6f11a43d570e93010e8bd0d6df1a57.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/5d57448a8d338433466ac472caa79b8e2b6f11a43d570e93010e8bd0d6df1a57.png",
     "firstNightReminder": "每个夜晚，唤醒莫娜。让他指向除自己和旅行者外的任意一位玩家。向莫娜展示他的真实角色和任意一个角色标记。让莫娜重新入睡。",
     "otherNightReminder": "每个夜晚，唤醒莫娜。让他指向除自己和旅行者外的任意一位玩家。向莫娜展示他的真实角色和任意一个角色标记。让莫娜重新入睡。",
     "name": "莫娜",
@@ -89,7 +89,7 @@
   },
   {
     "id": "9_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/46d0df83c54824fc1c729fd81595815a4c9e188658a0267b1cef228413e77399.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/46d0df83c54824fc1c729fd81595815a4c9e188658a0267b1cef228413e77399.png",
     "firstNightReminder": "在一名善良玩家的角色標記旁邊放置「仇」標記。",
     "otherNightReminder": "唤醒优菈，让他指向任意一位除了優菈以外在今天白天發起提名的玩家。告诉优菈那名發起提名的玩家和被他提名的玩家是否為相同陣營，然后让优菈入睡。",
     "reminders": [
@@ -104,7 +104,7 @@
   },
   {
     "id": "20_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/ec21c49ebfe6817fad00e8f393382c757d10af87d615b72dffa2a28f35f41ee5.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/ec21c49ebfe6817fad00e8f393382c757d10af87d615b72dffa2a28f35f41ee5.png",
     "otherNightReminder": "每个夜晚，唤醒八重神子。让他指向任意一位在今天白天被提名的玩家。向八重神子展示他的角色類別。然后让八重神子入睡。",
     "remindersGlobal": [
       "殺生櫻"
@@ -117,7 +117,7 @@
   },
   {
     "id": "10_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/3074e2c6122b47ca3919882d8f581bb72a55972c02bab05e9370cc2235992ab6.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/3074e2c6122b47ca3919882d8f581bb72a55972c02bab05e9370cc2235992ab6.png",
     "otherNightReminder": "如果上个白天有玩家死于处决，唤醒胡桃，告知他該玩家與最近的邪恶玩家的距离是否為奇數；如果死于处决的玩家是尘世执政，告诉他該玩家與最近的邪恶玩家的具體距离，让胡桃重新入睡。",
     "name": "胡桃",
     "team": "townsfolk",
@@ -127,7 +127,7 @@
   },
   {
     "id": "11_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/a71bc13b01ae155cc9865526660baf8224d91058dcd1a6cf702da3573256edf2.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/a71bc13b01ae155cc9865526660baf8224d91058dcd1a6cf702da3573256edf2.png",
     "otherNightReminder": "叫醒迪卢克。让他決定是否指向任何一名他以外的玩家並選擇一名角色。(與之前的選擇不同）。如果他選擇的角色與該玩家的角色一致且他不是[執行官]，在他角色标记旁放置「死亡」提示标记，並告知惡魔迪卢克在場。",
     "reminders": [
       "死亡"
@@ -140,7 +140,7 @@
   },
   {
     "id": "22_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/b2af655af93a2de3f03ea110ac764cc81f5f9ec717e67ba611af49f5de1f620b.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/b2af655af93a2de3f03ea110ac764cc81f5f9ec717e67ba611af49f5de1f620b.png",
     "otherNightReminder": "唤醒鹿野院平藏，让他指向除他以外的一名玩家，将鹿野院平藏的「得知」标记放在他选择的玩家角色的标记旁边。让鹿野院平藏入睡。如果被鹿野院平藏选择的玩家或與他鄰近的玩家死於惡魔的能力，唤醒鹿野院平藏並告訴他那些死亡玩家和鄰近的存活玩家之中是否有執行官，让鹿野院平藏重新入睡。如果鹿野院平藏使用了能力，请在他的角色旁边放置一个「失去能力」标记且之後無須為了發動能力而喚醒他。",
     "reminders": [
       "得知",
@@ -154,7 +154,7 @@
   },
   {
     "id": "7_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/56739f5c7eee00cc4420ae9138e63b5554130522b446fd33fdacdab13aee2586.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/56739f5c7eee00cc4420ae9138e63b5554130522b446fd33fdacdab13aee2586.png",
     "otherNightReminder": "如果琴在白天使用了能力，喚醒她，然後告訴她今天白天發起提名的玩家有多少角色類型。然后让琴入睡。请在他的角色旁边放置一个「失去能力」标记。",
     "reminders": [
       "失去能力"
@@ -167,7 +167,7 @@
   },
   {
     "id": "2_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/2f043d591465818eab7a9f83456294a98a97571ed05a070356848fea322222ee.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/2f043d591465818eab7a9f83456294a98a97571ed05a070356848fea322222ee.png",
     "otherNightReminder": "如果雷电将军在白天使用了能力，请在他的角色旁边放置一个「失去能力」标记。",
     "reminders": [
       "失去能力",
@@ -181,7 +181,7 @@
   },
   {
     "id": "12_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/3f077f47f76a23afb2cceffab78e8438b7b9c014a3bafd934d3c464869559238.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/3f077f47f76a23afb2cceffab78e8438b7b9c014a3bafd934d3c464869559238.png",
     "firstNightReminder": "在恶魔、爪牙互认时告诉惡魔流浪者在场。",
     "reminders": [
       "已猜測"
@@ -194,7 +194,7 @@
   },
   {
     "id": "13_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/6a39af4d0f91e45d7c5582d14ea8fd0b8585bb68740e62cd62e165628e94cb8d.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/6a39af4d0f91e45d7c5582d14ea8fd0b8585bb68740e62cd62e165628e94cb8d.png",
     "otherNightReminder": "如果七七死亡，把七七的「活尸」标记放在第一個被惡魔提名的玩家的角色标记旁边。",
     "reminders": [
       "活尸"
@@ -207,7 +207,7 @@
   },
   {
     "id": "14_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/f2937069b1748d6564dc4c09f181aa1fcd4b532bc6761cf7ca63c8b053111556.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/f2937069b1748d6564dc4c09f181aa1fcd4b532bc6761cf7ca63c8b053111556.png",
     "firstNightReminder": "叫醒北斗，告诉她一名不在场的爪牙。然后让北斗重新入睡。",
     "otherNightReminder": "如果你死亡，让恶魔获得该爪牙的能力并告诉他这件事情。",
     "reminders": [
@@ -222,7 +222,7 @@
   },
   {
     "id": "15_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/250837bea7c5337080d925f4a4621dcc26539485907b4e2773699a518204bfc5.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/250837bea7c5337080d925f4a4621dcc26539485907b4e2773699a518204bfc5.png",
     "otherNightReminder": "如果大于等于五名存活玩家邪恶阵营落败，说书人应告知大家游戏结束，並告知玩家本局遊戲芙宁娜在場，请邪惡玩家猜测谁是芙宁娜，可以根据局势给邪惡玩家1-3分钟时间讨论。",
     "name": "芙宁娜",
     "team": "outsider",
@@ -232,7 +232,7 @@
   },
   {
     "id": "16_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/3ea6519cf997a9b8000ae48e0b427fc48af5dd0dcbff6ad43e31037481609b88.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/3ea6519cf997a9b8000ae48e0b427fc48af5dd0dcbff6ad43e31037481609b88.png",
     "otherNightReminder": "如果恶魔第一次死於處決，且在恶魔死前有大于等于五名的存活玩家：说书人要选择一名有「提名邪恶」标记的善良镇民，在魔典中用闲置的恶魔标记替换他的角色标记并放置「是恶魔」标记，也意味着那名玩家的角色从原本的角色变成了该恶魔。然后在渊上之物的角色标记旁放置「限一次」标记。",
     "reminders": [
       "限一次",
@@ -248,7 +248,7 @@
   },
   {
     "id": "17_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/ad61ceb2661d93900ac3947cf2d5dcd4079cba73ea9c2b37fa40d491a0480854.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/ad61ceb2661d93900ac3947cf2d5dcd4079cba73ea9c2b37fa40d491a0480854.png",
     "firstNightReminder": "在一名非尘世执政玩家的角色标记旁放置「中毒」标记。如果带有「中毒」标记的玩家发起对善良玩家的提名或被善良玩家提名时，请将「中毒」标记移动到被提名的玩家角色标记旁边。",
     "otherNightReminder": "如果带有「中毒」标记的玩家发起对善良玩家的提名或被善良玩家提名时，请将「中毒」标记移动到被提名的玩家角色标记旁边。",
     "reminders": [
@@ -276,7 +276,7 @@
   },
   {
     "id": "19_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/4661d263e3c61638aed655c254fa9863c80b10f0475d5e822f44b054bc6aa120.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/4661d263e3c61638aed655c254fa9863c80b10f0475d5e822f44b054bc6aa120.png",
     "otherNightReminder": "唤醒藏镜仕女，让他指向任何存活的玩家。（如果选择了昨天的目标，提醒他更改目标）。将藏镜仕女的「折射」标记放在他选择玩家的角色牌旁边，然后让藏镜仕女重新入睡。",
     "reminders": [
       "折射",
@@ -290,7 +290,7 @@
   },
   {
     "id": "29_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/d0aa96f91243e72338afe62a330ec79fb6b0509bf67073b7c5a8639b2b7c51e8.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/d0aa96f91243e72338afe62a330ec79fb6b0509bf67073b7c5a8639b2b7c51e8.png",
     "otherNightReminder": "唤醒冰之女皇。如果所有爪牙死亡，告知此事並讓冰之女皇每個夜晚行動兩次。否則，让冰之女皇指向一名玩家，将该玩家杀死。该玩家死亡，在他角色标记旁放置「死亡」提示标记。",
     "reminders": [
       "行動兩次",
@@ -304,7 +304,7 @@
   },
   {
     "id": "21_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/f9e7a0cccd0391fb3034b7a3278f847fb9e837ce167f933e422aebe979b90093.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/f9e7a0cccd0391fb3034b7a3278f847fb9e837ce167f933e422aebe979b90093.png",
     "otherNightReminder": "唤醒博士。让博士指向一名玩家，将该玩家杀死。该玩家死亡，在他角色标记旁放置「死亡」提示标记。然後，說書人要在與該死亡玩家鄰近的其中一名存活玩家的角色標記旁放置「中毒」標記",
     "reminders": [
       "死亡",
@@ -318,7 +318,7 @@
   },
   {
     "id": "6_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/ba2d0487be65c372f859e851e52be329cbd1ac2895ae8ca762711ea939690edd.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/ba2d0487be65c372f859e851e52be329cbd1ac2895ae8ca762711ea939690edd.png",
     "otherNightReminder": "唤醒散兵。让散兵指向一名玩家并杀死该玩家。玩家死亡，一个「死亡」标记被放置在他们的角色令牌旁边。如果没有尘世执政活着，邪恶获胜。让散兵重新入睡。如果散兵首次殺死了塵世執政，讓一名善良玩家得知散兵在場。",
     "reminders": [
       "死亡"
@@ -332,7 +332,7 @@
   },
   {
     "id": "30_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/fcea24007430bb8f79350c4b01fdb5ef6f83efddceb5d663855f802b121adc05.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/fcea24007430bb8f79350c4b01fdb5ef6f83efddceb5d663855f802b121adc05.png",
     "otherNightReminder": "唤醒女士。让女士依次指向两名玩家，杀死你指向的第一个玩家，并在他的角色标记旁边放置一个“死亡”标记。在第二个玩家的角色标记旁边放置一个“选择”提醒标记，並告訴他女士在場。让女士重新入睡。",
     "reminders": [
       "被选择",
@@ -347,7 +347,7 @@
   },
   {
     "id": "24_the_favonius_mystery_de",
-    "image": "/scripts/assets/community/b2dfb02e41e885a8e6a28a62e1187961f14010c65b8952f05d55932d29d8a118.png",
+    "image": "/scripts/assets/community-t-h-e-f-a-v-o-n-i-u-s-m-y-s-t-e-r-y-d6ddca67/b2dfb02e41e885a8e6a28a62e1187961f14010c65b8952f05d55932d29d8a118.png",
     "name": "執行官",
     "team": "fabled",
     "ability": "女士、散兵、博士是執行官。",

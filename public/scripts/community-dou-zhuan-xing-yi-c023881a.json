@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "斗转星移",
     "author": "小虫",
-    "logo": "/scripts/assets/community/d7327c1757b6b550582207f2ba87a3d4f3a21db520cdedcf26505ba21d458b58.png",
+    "logo": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/d7327c1757b6b550582207f2ba87a3d4f3a21db520cdedcf26505ba21d458b58.png",
     "a jinxedName": "相克",
     "a jinxed": "相克",
     "tags": [
@@ -15,7 +15,7 @@
   },
   {
     "id": "qintianjiann",
-    "image": "/scripts/assets/community/4ada1b72d9a5ad4d065f8270334e271bdc245c1029d33efabec683fa5cf3b1c1.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/4ada1b72d9a5ad4d065f8270334e271bdc245c1029d33efabec683fa5cf3b1c1.png",
     "edition": "custom",
     "name": "钦天监",
     "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
@@ -27,7 +27,7 @@
   },
   {
     "id": "yinyangshii",
-    "image": "/scripts/assets/community/036c47b3da968c4bf41e0ab3ced45c4595c3ff50d454f6a5e67114dcadafa347.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/036c47b3da968c4bf41e0ab3ced45c4595c3ff50d454f6a5e67114dcadafa347.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色，其中有且只有两个角色在场。",
@@ -39,7 +39,7 @@
   },
   {
     "id": "fenshuishii",
-    "image": "/scripts/assets/community/4bacd21687ce4adcbb0289a2c1b4daf58e855878b7c0232c27704db561547854.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/4bacd21687ce4adcbb0289a2c1b4daf58e855878b7c0232c27704db561547854.png",
     "edition": "custom",
     "name": "风水师",
     "ability": "在你的首个夜晚，你会得知一名玩家的角色类型。每个夜晚*，你会从他的顺时针方向得知下一名非旅行者玩家的角色类型。",
@@ -55,7 +55,7 @@
   },
   {
     "id": "xiubiaojiang",
-    "image": "/scripts/assets/community/f8315353335d8c4800f9d7757f9d461582eeb3f2530432592b47ef762208bdce.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/f8315353335d8c4800f9d7757f9d461582eeb3f2530432592b47ef762208bdce.png",
     "edition": "custom",
     "name": "钟表匠",
     "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
@@ -70,7 +70,7 @@
   },
   {
     "id": "gelinggg",
-    "image": "/scripts/assets/community/8a4e096a992c1ded3d7fe7b3145ff6b668c6a40ba5bf98f932722fd7c8bde522.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/8a4e096a992c1ded3d7fe7b3145ff6b668c6a40ba5bf98f932722fd7c8bde522.png",
     "edition": "custom",
     "name": "歌伶",
     "ability": "每局游戏限一次，在白天时，你可以提议所有玩家观看你的演出，并从同意参加的玩家中选择你的观众。如果恶魔成为了观众，你会在当晚死亡。",
@@ -87,7 +87,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/2c3022d74971124ce152693cd8194dd1a5965f9c1242780b261239307df37245.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/2c3022d74971124ce152693cd8194dd1a5965f9c1242780b261239307df37245.png",
     "edition": "custom",
     "id": "bingbicc023881a",
     "firstNightReminder": "",
@@ -106,7 +106,7 @@
   },
   {
     "id": "boxuezhe",
-    "image": "/scripts/assets/community/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -121,7 +121,7 @@
   },
   {
     "id": "niubidegongqin",
-    "image": "/scripts/assets/community/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/af749eead7b66a61afd6bdf1b4b803c73796616c84efb17885e110c0477803c9.png",
     "edition": "custom",
     "name": "共情者",
     "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -136,7 +136,7 @@
   },
   {
     "id": "shiguancc023881a",
-    "image": "/scripts/assets/community/e10d98031b1e1b57245d68a4a6696682e95cf63a6297cac17a06fca635fe7941.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/e10d98031b1e1b57245d68a4a6696682e95cf63a6297cac17a06fca635fe7941.png",
     "edition": "custom",
     "name": "史官",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
@@ -153,7 +153,7 @@
   },
   {
     "id": "chichier",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -168,7 +168,7 @@
   },
   {
     "id": "yinlurenn",
-    "image": "/scripts/assets/community/d5e842c596bf1207287f942c391ecadbc8f16eb8218b711b8f00d56d45b15e3b.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/d5e842c596bf1207287f942c391ecadbc8f16eb8218b711b8f00d56d45b15e3b.png",
     "edition": "custom",
     "name": "引路人",
     "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
@@ -181,7 +181,7 @@
   },
   {
     "id": "shuxuejia",
-    "image": "/scripts/assets/community/b53de9bc3d4a43e9fd8edf092469589538a204f48c8ba4bbc36a043dc6a045e8.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/b53de9bc3d4a43e9fd8edf092469589538a204f48c8ba4bbc36a043dc6a045e8.png",
     "edition": "custom",
     "name": "数学家",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -198,7 +198,7 @@
   },
   {
     "id": "gonggao",
-    "image": "/scripts/assets/community/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -216,7 +216,7 @@
   },
   {
     "id": "shaxingg",
-    "image": "/scripts/assets/community/139700f0cc98b3a30a3fa7fdc128764b8ebccf4fddc9a8b07c151ebda785b47c.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/139700f0cc98b3a30a3fa7fdc128764b8ebccf4fddc9a8b07c151ebda785b47c.png",
     "edition": "custom",
     "name": "煞星",
     "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
@@ -231,7 +231,7 @@
   },
   {
     "id": "mokee",
-    "image": "/scripts/assets/community/30129de2ccdeca5d5859386a81656b70ffe4f149798c8d9e5033b149def8506d.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/30129de2ccdeca5d5859386a81656b70ffe4f149798c8d9e5033b149def8506d.png",
     "edition": "custom",
     "name": "陌客",
     "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
@@ -246,7 +246,7 @@
   },
   {
     "id": "zajiyanyuan",
-    "image": "/scripts/assets/community/728fbd4968ff5ed85d13efc42c8ab8190586d1e9e9192c4de46bd1a4b929b643.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/728fbd4968ff5ed85d13efc42c8ab8190586d1e9e9192c4de46bd1a4b929b643.png",
     "edition": "custom",
     "name": "杂技演员",
     "ability": "每个夜晚*，如果与你邻近的存活善良玩家之一醉酒或中毒，你死亡。",
@@ -261,7 +261,7 @@
   },
   {
     "id": "jiubaoo",
-    "image": "/scripts/assets/community/400c06a0693c489661b539cb5cf852cf8bec8c4b17e0923c0409d4db7f559c9f.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/400c06a0693c489661b539cb5cf852cf8bec8c4b17e0923c0409d4db7f559c9f.png",
     "edition": "custom",
     "name": "酒保",
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
@@ -275,7 +275,7 @@
   },
   {
     "id": "ciekee",
-    "image": "/scripts/assets/community/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "gudiaoo",
-    "image": "/scripts/assets/community/961c857dae830c7df873f94cb66ac9557cdeb706fca43dc00d71064bd758cdcb.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/961c857dae830c7df873f94cb66ac9557cdeb706fca43dc00d71064bd758cdcb.png",
     "edition": "custom",
     "name": "蛊雕",
     "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
@@ -309,7 +309,7 @@
   },
   {
     "id": "jinxiangshuangzi",
-    "image": "/scripts/assets/community/dfc8b4f21f4a9eb5a9faa9b830d73e22e1d7883fecf243e2ed2c0f7569cc6e04.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/dfc8b4f21f4a9eb5a9faa9b830d73e22e1d7883fecf243e2ed2c0f7569cc6e04.png",
     "edition": "custom",
     "name": "镜像双子",
     "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
@@ -326,7 +326,7 @@
   },
   {
     "id": "jiaofuu",
-    "image": "/scripts/assets/community/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -344,7 +344,7 @@
   },
   {
     "id": "nuodashi",
-    "image": "/scripts/assets/community/db964b848a1c4d40de7cb2d64ff192c5c6e03d1caca3d9be614d23663eaf8bf0.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/db964b848a1c4d40de7cb2d64ff192c5c6e03d1caca3d9be614d23663eaf8bf0.png",
     "edition": "custom",
     "name": "诺-达鲺",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -362,7 +362,7 @@
   },
   {
     "id": "guhuoniaocc023881a",
-    "image": "/scripts/assets/community/461f858cd91db8d6b203e56e92a3a8666d5fcf1eae52e3d433958b0e6df6807b.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/461f858cd91db8d6b203e56e92a3a8666d5fcf1eae52e3d433958b0e6df6807b.png",
     "edition": "custom",
     "name": "姑获鸟",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
@@ -381,7 +381,7 @@
   },
   {
     "id": "yaoshideshen",
-    "image": "/scripts/assets/community/3f3d4c27e604dedc04cead9cf0bf09b515f24ebcd7b830b65b92d0be253c5e46.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/3f3d4c27e604dedc04cead9cf0bf09b515f24ebcd7b830b65b92d0be253c5e46.png",
     "edition": "custom",
     "name": "亡骨魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
@@ -400,7 +400,7 @@
   },
   {
     "id": "xiaoemoo",
-    "image": "/scripts/assets/community/b965228773f94b4cd776ffd71ba11912b5ad5546530f936622086ec2593db54b.png",
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/b965228773f94b4cd776ffd71ba11912b5ad5546530f936622086ec2593db54b.png",
     "edition": "custom",
     "name": "小恶魔",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
@@ -427,7 +427,7 @@
     "setup": false,
     "ability": "这个剧本的部分角色能力来自过去。",
     "edition": "custom",
-    "image": "/scripts/assets/community/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/f9660d35deb6b2118a2630e7277aba1b49aa61d8fbc649f8d5c29a7c6d77ffc5.png"
   },
   {
     "firstNightReminder": "",
@@ -441,7 +441,7 @@
     "setup": false,
     "ability": "使用灯神的相克规则。所有玩家都会知道其内容。",
     "edition": "custom",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
+    "image": "/scripts/assets/community-dou-zhuan-xing-yi-c023881a/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png"
   },
   {
     "id": "0_meta",

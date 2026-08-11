@@ -16,7 +16,7 @@
   },
   {
     "id": "shangjinlieren",
-    "image": "/scripts/assets/community/69766c9356ecb61d1d22b1ed9cd42fecc062f24c8b212a13aa09f4de4d300dde.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/69766c9356ecb61d1d22b1ed9cd42fecc062f24c8b212a13aa09f4de4d300dde.png",
     "edition": "custom",
     "name": "赏金猎人",
     "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
@@ -34,7 +34,7 @@
   },
   {
     "id": "senglv",
-    "image": "/scripts/assets/community/90ee61d0fb21c257cf08ea8f6b63116a1e19da9f616f3a836d6e21f6beb9aba8.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/90ee61d0fb21c257cf08ea8f6b63116a1e19da9f616f3a836d6e21f6beb9aba8.png",
     "edition": "custom",
     "name": "僧侣",
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
@@ -51,7 +51,7 @@
   },
   {
     "id": "yingyangshi",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "name": "阴阳师",
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
@@ -63,7 +63,7 @@
   },
   {
     "id": "zaoyaozhe",
-    "image": "/scripts/assets/community/620901de5ee513f8201ce7ac484acdad9ebd4127ca82ab5d9639c4fd96651de6.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/620901de5ee513f8201ce7ac484acdad9ebd4127ca82ab5d9639c4fd96651de6.png",
     "edition": "custom",
     "name": "造谣者",
     "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
@@ -80,7 +80,7 @@
   },
   {
     "id": "langzhongc1a5a4431",
-    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
     "edition": "custom",
     "name": "郎中",
     "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
@@ -94,7 +94,7 @@
   },
   {
     "id": "boxuezhe",
-    "image": "/scripts/assets/community/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/e0a9eb8afed025d4f1791ce92be7e702970f7252ac0c74b28efe6fb1225d06c2.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -109,7 +109,7 @@
   },
   {
     "id": "zhanbu",
-    "image": "/scripts/assets/community/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/4bfdb390d62e5f9f72e1a1e36da08cfb938b42fd1f651a92004b426719d2e948.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -125,7 +125,7 @@
   },
   {
     "id": "shouya",
-    "image": "/scripts/assets/community/a2f949537dde7afc1e0602b9efcd1084b165e125ee9efaecd60b607975062c01.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/a2f949537dde7afc1e0602b9efcd1084b165e125ee9efaecd60b607975062c01.png",
     "edition": "custom",
     "name": "守鸦人",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -140,7 +140,7 @@
   },
   {
     "id": "qumo",
-    "image": "/scripts/assets/community/c78442f288d029f0bad08e51cdddd0a51b4db2203246ced27988a033e2d5418e.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/c78442f288d029f0bad08e51cdddd0a51b4db2203246ced27988a033e2d5418e.png",
     "edition": "custom",
     "name": "驱魔人",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -157,7 +157,7 @@
   },
   {
     "id": "yufu",
-    "image": "/scripts/assets/community/1bd424e57fe57e777a95ac3873fb13761a7d2563cfc0aeb17195e755c537cdeb.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/1bd424e57fe57e777a95ac3873fb13761a7d2563cfc0aeb17195e755c537cdeb.png",
     "edition": "custom",
     "name": "渔夫",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -174,7 +174,7 @@
   },
   {
     "id": "dutu",
-    "image": "/scripts/assets/community/7b06ee6ed7eba066b2b4f585ec5702d2368c95ee6a514d9bd4c33d23efb977a3.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/7b06ee6ed7eba066b2b4f585ec5702d2368c95ee6a514d9bd4c33d23efb977a3.png",
     "edition": "custom",
     "name": "赌徒",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -191,7 +191,7 @@
   },
   {
     "id": "chichi",
-    "image": "/scripts/assets/community/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/75ef2d6b7e5b6f32122aae3faf3a5bc0d8972640d00516b8d719762a74784cb7.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -206,7 +206,7 @@
   },
   {
     "id": "gonggao",
-    "image": "/scripts/assets/community/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/6a16f108a9c164f60a749558378ed70b476b1ce157879da4c421475a74124e12.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "shushengc1a5a4431",
-    "image": "/scripts/assets/community/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/11f90cc58f392aa61962b10b4d8b5c80a6e251e5658a85c0f5d68889b5012077.png",
     "edition": "custom",
     "name": "书生",
     "ability": "恶魔知道你在场。每局游戏限一次，恶魔可以拜访说书人并猜测谁是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
@@ -243,7 +243,7 @@
   },
   {
     "id": "wanju",
-    "image": "/scripts/assets/community/b714b1e479220ae9d6c46410a7a3e4eff16810d9bf4e320520328f194091e5e7.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/b714b1e479220ae9d6c46410a7a3e4eff16810d9bf4e320520328f194091e5e7.png",
     "edition": "custom",
     "name": "修补匠",
     "ability": "你随时可能死亡。",
@@ -260,7 +260,7 @@
   },
   {
     "id": "jiugui",
-    "image": "/scripts/assets/community/ee3e84103e72a9ee927d5df782490b27f1d674cd077ef20082a24dd92103cc7a.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/ee3e84103e72a9ee927d5df782490b27f1d674cd077ef20082a24dd92103cc7a.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -278,7 +278,7 @@
   },
   {
     "id": "lifashi",
-    "image": "/scripts/assets/community/1d226fc7b846efc6fb108e9c1ce5c4beebe3884f9c1434acbc401cf1f2116c8b.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/1d226fc7b846efc6fb108e9c1ce5c4beebe3884f9c1434acbc401cf1f2116c8b.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -295,7 +295,7 @@
   },
   {
     "id": "touduzhe",
-    "image": "/scripts/assets/community/1b81c754e2789201e018dd6f02969178ff10ce444f2f2cdc19ecb69c307d8835.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/1b81c754e2789201e018dd6f02969178ff10ce444f2f2cdc19ecb69c307d8835.png",
     "edition": "custom",
     "name": "投毒者",
     "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
@@ -312,7 +312,7 @@
   },
   {
     "id": "yanggurenc1a5a4431",
-    "image": "/scripts/assets/community/0bd12351e50a873785b385c55cba1b3d79b5355019329fbe89f1067a14dd9137.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/0bd12351e50a873785b385c55cba1b3d79b5355019329fbe89f1067a14dd9137.png",
     "edition": "custom",
     "name": "养蛊人",
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
@@ -329,7 +329,7 @@
   },
   {
     "id": "cike",
-    "image": "/scripts/assets/community/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
     "edition": "custom",
     "name": "刺客",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -347,7 +347,7 @@
   },
   {
     "id": "jiaofu",
-    "image": "/scripts/assets/community/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -365,7 +365,7 @@
   },
   {
     "id": "aohe",
-    "image": "/scripts/assets/community/221e73e5218bf83344a1e5a29640e42bc9f3555da48ae587dfc25ef0c4ebd708.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/221e73e5218bf83344a1e5a29640e42bc9f3555da48ae587dfc25ef0c4ebd708.png",
     "edition": "custom",
     "name": "奥赫",
     "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
@@ -380,7 +380,7 @@
   },
   {
     "id": "poo",
-    "image": "/scripts/assets/community/4d9f963ef3a2ab13ad478b02f2cc2185b5cef1ea69bfe399a0e2bdc8a3ac8fbb.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/4d9f963ef3a2ab13ad478b02f2cc2185b5cef1ea69bfe399a0e2bdc8a3ac8fbb.png",
     "edition": "custom",
     "name": "珀",
     "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
@@ -398,7 +398,7 @@
   },
   {
     "id": "xintaotie",
-    "image": "/scripts/assets/community/d340d237ed0c12a99b1b546824777fb80ef56fa849cb286bd857fe73ad854881.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/d340d237ed0c12a99b1b546824777fb80ef56fa849cb286bd857fe73ad854881.png",
     "edition": "custom",
     "name": "饕餮",
     "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
@@ -414,7 +414,7 @@
   },
   {
     "id": "juntuan",
-    "image": "/scripts/assets/community/019ebed6982a3e33d567a9a65744fc44523f1fb69324e301de07751cd2a5603e.png",
+    "image": "/scripts/assets/community-bai-zhuan-qian-hui-1a5a4431/019ebed6982a3e33d567a9a65744fc44523f1fb69324e301de07751cd2a5603e.png",
     "edition": "custom",
     "name": "军团",
     "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[半数以上玩家为军团]",

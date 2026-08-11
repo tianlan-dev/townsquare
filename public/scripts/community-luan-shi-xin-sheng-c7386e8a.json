@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "乱世新生",
     "author": "Besjbo",
-    "logo": "/scripts/assets/community/71bd7739898112e97f6909994b4052476c8a083a5360c32c252701520914d8fc.png",
+    "logo": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/71bd7739898112e97f6909994b4052476c8a083a5360c32c252701520914d8fc.png",
     "tags": [
       "全原创角色剧本",
       "海外"
@@ -12,7 +12,7 @@
   },
   {
     "id": "wiretap",
-    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
     "edition": "custom",
     "firstNight": 40,
     "firstNightReminder": "指向两名玩家。",
@@ -31,7 +31,7 @@
   },
   {
     "id": "domestic",
-    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -46,7 +46,7 @@
   },
   {
     "id": "foreign",
-    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -61,7 +61,7 @@
   },
   {
     "id": "double agent",
-    "image": "/scripts/assets/community/6cf3a87216f0440da3e1115eb32f7c755fdc14ebcaa8dc78277ae1ba164c4f29.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/6cf3a87216f0440da3e1115eb32f7c755fdc14ebcaa8dc78277ae1ba164c4f29.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -78,7 +78,7 @@
   },
   {
     "id": "sleeper",
-    "image": "/scripts/assets/community/707de0cdb1f51dd1dfcb56a13cbcca2429c4da322f58fb0c15667791822066ba.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/707de0cdb1f51dd1dfcb56a13cbcca2429c4da322f58fb0c15667791822066ba.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -97,7 +97,7 @@
   },
   {
     "id": "Jurist",
-    "image": "/scripts/assets/community/543cb0645cabf17795149df77b288a3c6f68a1129c1e75a6c383276bafbf3b1d.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/543cb0645cabf17795149df77b288a3c6f68a1129c1e75a6c383276bafbf3b1d.png",
     "edition": "custom",
     "firstNight": 50,
     "firstNightReminder": "法官指向一名玩家。若该角色已死亡或邪恶阵营，则展示其角色标记；若该角色存活且属于善良阵营，则展示另一种标记。",
@@ -112,7 +112,7 @@
   },
   {
     "id": "freelancer",
-    "image": "/scripts/assets/community/cb00ede5ce0d4612aa5f2b1547d52db829b18726185d7290719224fc4d35c32f.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/cb00ede5ce0d4612aa5f2b1547d52db829b18726185d7290719224fc4d35c32f.png",
     "edition": "custom",
     "firstNight": 60,
     "firstNightReminder": "自由职业者指向一名善良角色。指向该玩家（若该角色不在场则可随意指向）。每局游戏仅能提供一次错误信息。",
@@ -129,7 +129,7 @@
   },
   {
     "id": "blacklister",
-    "image": "/scripts/assets/community/2f12ff88625c783f0ee46dfaca45590e51b60aac5f6043cfea2ebbe7b3bf03b9.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/2f12ff88625c783f0ee46dfaca45590e51b60aac5f6043cfea2ebbe7b3bf03b9.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -144,7 +144,7 @@
   },
   {
     "id": "black ops",
-    "image": "/scripts/assets/community/c05703629a2c2c88bb9ec63cc8bd2a5c65700ead04fe1b334712aabb4e83fbc9.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/c05703629a2c2c88bb9ec63cc8bd2a5c65700ead04fe1b334712aabb4e83fbc9.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -161,7 +161,7 @@
   },
   {
     "id": "populist",
-    "image": "/scripts/assets/community/a64c9c3bee71aeca514420e3fb4d40ae961ba4a32d73b11124567660d9de213b.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/a64c9c3bee71aeca514420e3fb4d40ae961ba4a32d73b11124567660d9de213b.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -178,7 +178,7 @@
   },
   {
     "id": "eavesdropper",
-    "image": "/scripts/assets/community/58f755f0faaaf166e89bd8335373316539e5aeedd9e47d9fbfc1d595a602c1e8.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/58f755f0faaaf166e89bd8335373316539e5aeedd9e47d9fbfc1d595a602c1e8.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -193,7 +193,7 @@
   },
   {
     "id": "diplomat",
-    "image": "/scripts/assets/community/8efe588347b566e3a09dfa55e1480bf43752f82a8d67f2d903e183e39f1cb26d.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/8efe588347b566e3a09dfa55e1480bf43752f82a8d67f2d903e183e39f1cb26d.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -211,7 +211,7 @@
   },
   {
     "id": "truther",
-    "image": "/scripts/assets/community/c6ac2903eddddd3e57de1780de7a7df935c240ee3d76dcbd64593caa0769460f.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/c6ac2903eddddd3e57de1780de7a7df935c240ee3d76dcbd64593caa0769460f.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -226,7 +226,7 @@
   },
   {
     "id": "symbologist",
-    "image": "/scripts/assets/community/ebb519f47a4a8703f1f658a01e8718a1be62979fed03ba6dd0a256735dd2201b.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/ebb519f47a4a8703f1f658a01e8718a1be62979fed03ba6dd0a256735dd2201b.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -241,7 +241,7 @@
   },
   {
     "id": "Ambassador",
-    "image": "/scripts/assets/community/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -258,7 +258,7 @@
   },
   {
     "id": "libertine",
-    "image": "/scripts/assets/community/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -277,7 +277,7 @@
   },
   {
     "id": "activist",
-    "image": "/scripts/assets/community/52c5512637c3069f17a160b0e00145c8b6e7cc0043008a31c7f1df3310d401e2.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/52c5512637c3069f17a160b0e00145c8b6e7cc0043008a31c7f1df3310d401e2.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -295,7 +295,7 @@
   },
   {
     "id": "M.A.D. Man",
-    "image": "/scripts/assets/community/c8c552916447975236857673ba1033d59df68b154a02d1293531b6b388ba2367.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/c8c552916447975236857673ba1033d59df68b154a02d1293531b6b388ba2367.png",
     "edition": "custom",
     "firstNight": 80,
     "firstNightReminder": "贪生狂人指向一名玩家。 移动核武器标志到那名玩家。",
@@ -312,7 +312,7 @@
   },
   {
     "id": "sympathizer",
-    "image": "/scripts/assets/community/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
     "edition": "custom",
     "firstNight": 30,
     "firstNightReminder": "唤醒恶魔.指向叛逃者, 并向其展示叛逃者标记.",
@@ -329,7 +329,7 @@
   },
   {
     "id": "drunkbutnottb",
-    "image": "/scripts/assets/community/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -344,7 +344,7 @@
   },
   {
     "id": "defector",
-    "image": "/scripts/assets/community/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -359,7 +359,7 @@
   },
   {
     "id": "agitprop",
-    "image": "/scripts/assets/community/028de83fa1b8ab1ff1301ab60399e2f88e41a0501e88ad3bd202f313605a9e9e.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/028de83fa1b8ab1ff1301ab60399e2f88e41a0501e88ad3bd202f313605a9e9e.png",
     "edition": "custom",
     "firstNight": 10,
     "firstNightReminder": "宣传部部长指向一名玩家并选择一条宣言。唤醒该玩家，向其展示疯狂标记，并展示该宣言。",
@@ -376,7 +376,7 @@
   },
   {
     "id": "brainwasher",
-    "image": "/scripts/assets/community/188f89cdd382fabbfd6eb4e8c83d7080cfee7e12a3cf0d4a5660e264c0dbf831.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/188f89cdd382fabbfd6eb4e8c83d7080cfee7e12a3cf0d4a5660e264c0dbf831.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -393,7 +393,7 @@
   },
   {
     "id": "templar",
-    "image": "/scripts/assets/community/cab1fac90ed6dbfc3eca0791969065f1b5dbfa73b8c5f2029219beb0676bfc6e.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/cab1fac90ed6dbfc3eca0791969065f1b5dbfa73b8c5f2029219beb0676bfc6e.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -408,7 +408,7 @@
   },
   {
     "id": "chairman",
-    "image": "/scripts/assets/community/bdac815a898e54ecdee1a4c4ad9218f5022fa818bb108967073b3ae8535ec182.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/bdac815a898e54ecdee1a4c4ad9218f5022fa818bb108967073b3ae8535ec182.png",
     "edition": "custom",
     "firstNight": 9,
     "firstNightReminder": "指向外来者玩家。",
@@ -425,7 +425,7 @@
   },
   {
     "id": "comintern",
-    "image": "/scripts/assets/community/6f455826f8c9f9cec8953a8eba10e3c06e44472393e29f77d07d563a933155db.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/6f455826f8c9f9cec8953a8eba10e3c06e44472393e29f77d07d563a933155db.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -442,7 +442,7 @@
   },
   {
     "id": "draconis",
-    "image": "/scripts/assets/community/62f89cfd5f3f384289c3d3ca352f84d71089f7bd5881f91c87791948cd69a95c.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/62f89cfd5f3f384289c3d3ca352f84d71089f7bd5881f91c87791948cd69a95c.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -459,7 +459,7 @@
   },
   {
     "id": "seclorum",
-    "image": "/scripts/assets/community/43188ef6d8d89cf35132527597a93e638e0c6b5dc1fe1880131e325446a39151.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/43188ef6d8d89cf35132527597a93e638e0c6b5dc1fe1880131e325446a39151.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -477,7 +477,7 @@
   },
   {
     "id": "kabal",
-    "image": "/scripts/assets/community/0554b6c41dc09f09001444d7712d420ed776711521fda9e6457ff8c3f0d1ee8a.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/0554b6c41dc09f09001444d7712d420ed776711521fda9e6457ff8c3f0d1ee8a.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -494,7 +494,7 @@
   },
   {
     "id": "AmbassadorTraveler",
-    "image": "/scripts/assets/community/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -511,7 +511,7 @@
   },
   {
     "id": "president",
-    "image": "/scripts/assets/community/73f65b0cc7e998d6b74ae4e73048c8e38a31805ee65caa9bbb050b445d1e475b.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/73f65b0cc7e998d6b74ae4e73048c8e38a31805ee65caa9bbb050b445d1e475b.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -528,7 +528,7 @@
   },
   {
     "id": "celebrity",
-    "image": "/scripts/assets/community/5c5072ec83919e1056bd7775942628de8b5a89d33589bcfee6ba07d9f7e5a994.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/5c5072ec83919e1056bd7775942628de8b5a89d33589bcfee6ba07d9f7e5a994.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -546,7 +546,7 @@
   },
   {
     "id": "interpol",
-    "image": "/scripts/assets/community/813423e09e60b047f70164b848cdccfdc8e380fa1ce0d256a3468225fed3d77d.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/813423e09e60b047f70164b848cdccfdc8e380fa1ce0d256a3468225fed3d77d.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -563,7 +563,7 @@
   },
   {
     "id": "united nations",
-    "image": "/scripts/assets/community/d9264e40c5f8afd21d06a4cae5ce1eb2404ce4728bacb83fc2d89ba1f2710df1.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/d9264e40c5f8afd21d06a4cae5ce1eb2404ce4728bacb83fc2d89ba1f2710df1.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -580,7 +580,7 @@
   },
   {
     "id": "spymaster",
-    "image": "/scripts/assets/community/146d9d27a3437a1f1b4b50c28b73b1ab139abaf4f9780d39e333a847b5f7efbe.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/146d9d27a3437a1f1b4b50c28b73b1ab139abaf4f9780d39e333a847b5f7efbe.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -595,7 +595,7 @@
   },
   {
     "id": "the bomb",
-    "image": "/scripts/assets/community/0b725d61e58290a8e0a1a7adff929b8da000ddadf81951f7f9c59ba08ebf35f9.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/0b725d61e58290a8e0a1a7adff929b8da000ddadf81951f7f9c59ba08ebf35f9.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -610,7 +610,7 @@
   },
   {
     "id": "fibbinfabled",
-    "image": "/scripts/assets/community/9f2cb97ec67dd8609c61827dbc086874f4bc509759b9b7ec7a0e84f53904180b.png",
+    "image": "/scripts/assets/community-luan-shi-xin-sheng-c7386e8a/9f2cb97ec67dd8609c61827dbc086874f4bc509759b9b7ec7a0e84f53904180b.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",

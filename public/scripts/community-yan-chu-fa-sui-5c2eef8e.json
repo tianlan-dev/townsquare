@@ -22,7 +22,7 @@
   },
   {
     "id": "ef42503a-d4aa-46cd-9c61-1560",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "“修正”",
     "ability": "游戏的前三个白天，说书人会在提名阶段开始前公布一条错误信息，其中之一可能在当晚成真。",
@@ -32,7 +32,7 @@
   },
   {
     "id": "ef42503a-d4aa-46cd-9c61-6c6ce8e42450",
-    "image": "/scripts/assets/community/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/ea3e51bab378bbdc78cf597fe3ce5d81ad90b0e5d863a73b771a39bc0003cd98.png",
     "edition": "custom",
     "name": "“共鸣”",
     "ability": "过于沉默或强制他人沉默的玩家可能会发生不好的事情。",
@@ -56,7 +56,7 @@
   },
   {
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
-    "image": "/scripts/assets/community/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/aad509a5b5313fe39af5c49d2d0137266f4d4d47f79405b08fd8399cfa7d859c.png",
     "edition": "custom",
     "flavor": "",
     "id": "daoke_button",
@@ -109,7 +109,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_button",
@@ -128,7 +128,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "flavor": "",
     "id": "town_crier_button",
@@ -148,7 +148,7 @@
   },
   {
     "ability": "每个白天，一名邪恶玩家和一名善良玩家要分别“疯狂”地证明某个事情，否则他们可能死亡。",
-    "image": "/scripts/assets/community/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/a8840a115c06619deb25db599da76df4ebf8adbc658c0165427bb4bd1edc008d.png",
     "edition": "custom",
     "flavor": "",
     "id": "Thespian",
@@ -166,7 +166,7 @@
   },
   {
     "id": "13_bbb",
-    "image": "/scripts/assets/community/466a1f8736d5f7be4b5bfd4af32da5d0a0b4591afe59123d2f36b6cadcbf6419.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/466a1f8736d5f7be4b5bfd4af32da5d0a0b4591afe59123d2f36b6cadcbf6419.png",
     "otherNightReminder": "韦斯莱兄弟得知一条消息",
     "name": "韦斯莱兄弟",
     "team": "townsfolk",
@@ -177,7 +177,7 @@
   },
   {
     "id": "24_baobao",
-    "image": "/scripts/assets/community/992344ac094e517b7a99a5ee80e53accbcc8251b3440a4490e25c6bc432ea4de.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/992344ac094e517b7a99a5ee80e53accbcc8251b3440a4490e25c6bc432ea4de.png",
     "otherNightReminder": "得知正确与否",
     "reminders": [
       "真新闻",
@@ -193,7 +193,7 @@
   },
   {
     "id": "9_EquinoxFlower",
-    "image": "/scripts/assets/community/ecce617d105a0a3bf31763b90f11ce7ae96ab81f92a424d4b35192971ac29aa8.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/ecce617d105a0a3bf31763b90f11ce7ae96ab81f92a424d4b35192971ac29aa8.png",
     "name": "植物学家",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你会得知与他邻近的两名存活的玩家中邪恶玩家的数量。",
@@ -210,7 +210,7 @@
   },
   {
     "id": "20_city_of_illusio",
-    "image": "/scripts/assets/community/3d86904589ed5befaf765f97ace4fefc893f389ff2cbf25304e284a7b72d4231.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/3d86904589ed5befaf765f97ace4fefc893f389ff2cbf25304e284a7b72d4231.png",
     "reminders": [
       "失去能力"
     ],
@@ -227,7 +227,7 @@
   },
   {
     "ability": "如果已死亡玩家中没有邪恶玩家，你只会死于处决。",
-    "image": "/scripts/assets/community/8fb54591c09c3990015f5049e2218af5fd6d07b3cd8a18b59b5a6f08997ac26e.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/8fb54591c09c3990015f5049e2218af5fd6d07b3cd8a18b59b5a6f08997ac26e.png",
     "edition": "custom",
     "flavor": "",
     "id": "laobing_button",
@@ -242,7 +242,7 @@
   },
   {
     "id": "4fd5eca9-b393-4ebd-83ec-dbc54976c2f5",
-    "image": "/scripts/assets/community/14d74533fe00bbc8606b304c5d11325759bb9eed87bfab43c21bb942ef0e2c42.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/14d74533fe00bbc8606b304c5d11325759bb9eed87bfab43c21bb942ef0e2c42.png",
     "edition": "custom",
     "name": "阴阳先生",
     "ability": "你以为你是一个外来者，但其实你不是。如果有邪恶阵营玩家被处决，你变为一个不在场的镇民。",
@@ -257,7 +257,7 @@
   },
   {
     "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "edition": "custom",
     "flavor": "",
     "id": "golem_button",
@@ -276,7 +276,7 @@
   },
   {
     "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
-    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
     "edition": "custom",
     "flavor": "",
     "id": "jiubao_button",
@@ -307,11 +307,11 @@
       "是云栖客"
     ],
     "setup": true,
-    "image": "/scripts/assets/community/d3892e4c38732a7d48b4ca7e1b7c034ff9b9c2e79aa7dd5f9e6657ba2dbd7a01.png"
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/d3892e4c38732a7d48b4ca7e1b7c034ff9b9c2e79aa7dd5f9e6657ba2dbd7a01.png"
   },
   {
     "id": "560b6d16-83e9-4513-b8cf-6b78d8c247c3",
-    "image": "/scripts/assets/community/86da8925bdbae2c5c9253ac31fad1701a6aa1c2cb84f6054f096af225ba165fe.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/86da8925bdbae2c5c9253ac31fad1701a6aa1c2cb84f6054f096af225ba165fe.png",
     "edition": "custom",
     "name": "皮影",
     "ability": "说书人可以欺骗你，邪恶玩家可能会得知关于你的信息，即使你已死亡。",
@@ -327,7 +327,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
-    "image": "/scripts/assets/community/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/949a04bb221f8755800b06a3d43ac68ccc5fc6e30ea6b3f69cba7dc3a7b33f64.png",
     "edition": "custom",
     "flavor": "",
     "id": "mezepheles_button",
@@ -347,7 +347,7 @@
   },
   {
     "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
-    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
     "edition": "custom",
     "flavor": "",
     "id": "scarlet_woman_button",
@@ -366,7 +366,7 @@
   },
   {
     "id": "1ba1ac5d-bb69-41f9-a05d-52eae97fd7c9",
-    "image": "/scripts/assets/community/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/1568361fcb1023bc0611a21e9645932bf46ba99c52604cedd37abb88088f4f83.png",
     "edition": "custom",
     "name": "妖猫",
     "ability": "每个夜晚，你要选择一名存活玩家（可选说书人1次）：他中毒（恶魔除外）且发言只能是“喵喵喵”直至下个黄昏，不然可能被处决。",
@@ -383,7 +383,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "flavor": "",
     "id": "witch_button",
@@ -402,7 +402,7 @@
   },
   {
     "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
-    "image": "/scripts/assets/community/10827b5c76762e4030b6a4b74a985b55ea988e40ac47bb7c132d48bfb688a8ce.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/10827b5c76762e4030b6a4b74a985b55ea988e40ac47bb7c132d48bfb688a8ce.png",
     "edition": "custom",
     "flavor": "",
     "id": "wushi",
@@ -421,7 +421,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
-    "image": "/scripts/assets/community/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/6d79728e11dd0aaaef39cd4b664aba674ede88fc28bde9b22f142c5c3a406f88.png",
     "edition": "custom",
     "flavor": "",
     "id": "yaggababble_button",
@@ -440,7 +440,7 @@
   },
   {
     "id": "5566_meta",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "name": "魔像&皮影",
     "team": "a jinxed",
     "setup": false,
@@ -449,7 +449,7 @@
   },
   {
     "id": "55668128_meta",
-    "image": "/scripts/assets/community/3d86904589ed5befaf765f97ace4fefc893f389ff2cbf25304e284a7b72d4231.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/3d86904589ed5befaf765f97ace4fefc893f389ff2cbf25304e284a7b72d4231.png",
     "name": "懂王&刀客",
     "team": "a jinxed",
     "setup": false,
@@ -458,7 +458,7 @@
   },
   {
     "id": "27_city_of_ear",
-    "image": "/scripts/assets/community/83f00a299416dc1c7cc71aeae24bd1d78529bbe993ee48ac53c4ef63d1af8009.png",
+    "image": "/scripts/assets/community-yan-chu-fa-sui-5c2eef8e/83f00a299416dc1c7cc71aeae24bd1d78529bbe993ee48ac53c4ef63d1af8009.png",
     "reminders": [
       "监听"
     ],

@@ -4,7 +4,7 @@
     "name": "德尔塔探险队",
     "description": "",
     "author": "Essler",
-    "logo": "/scripts/assets/community/24375af872fa1a704adc1c609011b96e718d1d2e106d746e0d9d07fd9dbce8d8.png",
+    "logo": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/24375af872fa1a704adc1c609011b96e718d1d2e106d746e0d9d07fd9dbce8d8.png",
     "almanac": "https://www.bloodstar.xyz/p/Essler/The_Delta_Expedition/almanac.html",
     "state": [],
     "tags": [
@@ -15,7 +15,7 @@
   },
   {
     "id": "remnant_the_delta_expedition",
-    "image": "/scripts/assets/community/3f2bf3c5e36174a2380dd1c4cbfe2741cfaebb05aaa2bd125691226ea9d6d228.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/3f2bf3c5e36174a2380dd1c4cbfe2741cfaebb05aaa2bd125691226ea9d6d228.png",
     "firstNightReminder": "你得知哪个邪恶角色在场。",
     "name": "幸存者",
     "team": "townsfolk",
@@ -26,7 +26,7 @@
   },
   {
     "id": "squadleader_the_delta_expedition",
-    "image": "/scripts/assets/community/8bfbbabffd3b5f9992ea1cb2357af35df900d1ca200b1109cfa92fb5e0a83006.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/8bfbbabffd3b5f9992ea1cb2357af35df900d1ca200b1109cfa92fb5e0a83006.png",
     "firstNightReminder": "你得知三个角色：其中两个角色是与你邻近的玩家的角色，另一个角色不在场。",
     "name": "小队长",
     "team": "townsfolk",
@@ -48,12 +48,12 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": true,
-    "image": "/scripts/assets/community/f5843470dcdae3d3184f21cd5889f790312f3d4134f44f572f81f670bd5205b5.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/f5843470dcdae3d3184f21cd5889f790312f3d4134f44f572f81f670bd5205b5.png",
     "edition": "custom"
   },
   {
     "id": "xenobiologist_the_delta_expedition",
-    "image": "/scripts/assets/community/3443fa820cfe556a3038dec4712e97da21d16026a6ea001183ef6080d84a7d0b.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/3443fa820cfe556a3038dec4712e97da21d16026a6ea001183ef6080d84a7d0b.png",
     "firstNightReminder": "选择一名玩家。你会得知他和与他邻近的两名玩家中邪恶玩家的数量。",
     "otherNightReminder": "选择一名玩家。你会得知他和与他邻近的两名玩家中邪恶玩家的数量。",
     "name": "异星生物学家",
@@ -66,7 +66,7 @@
   },
   {
     "id": "radiooperator_the_delta_expedition",
-    "image": "/scripts/assets/community/ac21891504b87dc64a97ed4bb8dfbf52b7c324571499be4ff4ec2ea7b07ffc00.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/ac21891504b87dc64a97ed4bb8dfbf52b7c324571499be4ff4ec2ea7b07ffc00.png",
     "firstNightReminder": "选择两名玩家：你会得知恶魔是否在他们和他们之间较近一侧的玩家中。如果这两名玩家中有且仅有一名是邪恶的，你中毒直到下个黄昏。",
     "otherNightReminder": "选择两名玩家：你会得知恶魔是否在他们和他们之间较近一侧的玩家中。如果这两名玩家中有且仅有一名是邪恶的，你中毒直到下个黄昏。",
     "reminders": [
@@ -82,7 +82,7 @@
   },
   {
     "id": "admiral_the_delta_expedition",
-    "image": "/scripts/assets/community/240225af827891ff086d926c6e35c508720dc18d84c5ccb1d0ccdb4a0b060de9.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/240225af827891ff086d926c6e35c508720dc18d84c5ccb1d0ccdb4a0b060de9.png",
     "firstNightReminder": "选择两名玩家：你会得知他们是否都是镇民。",
     "otherNightReminder": "选择两名玩家：你会得知他们是否都是镇民。",
     "name": "星海上将",
@@ -95,7 +95,7 @@
   },
   {
     "id": "vaccinist_the_delta_expedition",
-    "image": "/scripts/assets/community/5819b718beb8cd0a5e247e8e839860645306fa059c7d7eea9f89e4dba87eac4c.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/5819b718beb8cd0a5e247e8e839860645306fa059c7d7eea9f89e4dba87eac4c.png",
     "firstNightReminder": "选择一名玩家 & 猜测他的角色: 如果你猜对了，从现在起爪牙的负面能力对他无效。",
     "otherNightReminder": "选择一名玩家 & 猜测他的角色: 如果你猜对了，从现在起爪牙的负面能力对他无效。",
     "reminders": [
@@ -111,7 +111,7 @@
   },
   {
     "id": "manager_the_delta_expedition",
-    "image": "/scripts/assets/community/d5dd2f628f5e6432be7152f2fc3d53b096e1f12945f4c1bf3777861305d3046a.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/d5dd2f628f5e6432be7152f2fc3d53b096e1f12945f4c1bf3777861305d3046a.png",
     "firstNightReminder": "选择一名玩家：当晚他可以行动两次，然后他可能死亡。",
     "otherNightReminder": "选择一名玩家：当晚他可以行动两次，然后他可能死亡。",
     "reminders": [
@@ -141,7 +141,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/9faac1c06d21dcbc38d6ec0fcda9f311d443e99e2798cf1e486b895fa162bfe0.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/9faac1c06d21dcbc38d6ec0fcda9f311d443e99e2798cf1e486b895fa162bfe0.png",
     "edition": "custom"
   },
   {
@@ -157,7 +157,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/3884dd69734265d027a8870b89a94767224b0c5da193b60fa072e257e58affaa.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/3884dd69734265d027a8870b89a94767224b0c5da193b60fa072e257e58affaa.png",
     "edition": "custom"
   },
   {
@@ -173,7 +173,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/fcfa9328512945958cfb65aa0d9338354986148516b3b1ae8152319ab0e916be.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/fcfa9328512945958cfb65aa0d9338354986148516b3b1ae8152319ab0e916be.png",
     "edition": "custom"
   },
   {
@@ -191,7 +191,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/0d80b2fd4c6cc6f3cf753df2aeace261304b7c914b926aab371de9eb6b4bd9c9.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/0d80b2fd4c6cc6f3cf753df2aeace261304b7c914b926aab371de9eb6b4bd9c9.png",
     "edition": "custom"
   },
   {
@@ -209,7 +209,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/be7e3acebf0e3d8ef57691e4945962f8b0823f0d9118013b259d7c037099c2f9.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/be7e3acebf0e3d8ef57691e4945962f8b0823f0d9118013b259d7c037099c2f9.png",
     "edition": "custom"
   },
   {
@@ -227,7 +227,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/9855c982ca016ef6e8d2f04aba4433b2f8b32de726d042528a4ab939abd62487.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/9855c982ca016ef6e8d2f04aba4433b2f8b32de726d042528a4ab939abd62487.png",
     "edition": "custom"
   },
   {
@@ -243,7 +243,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/f9bdcaec4ee402da147a7c671b2b54c016b85a8bd825f0fbcc4de622e765e93f.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/f9bdcaec4ee402da147a7c671b2b54c016b85a8bd825f0fbcc4de622e765e93f.png",
     "edition": "custom"
   },
   {
@@ -261,7 +261,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/1485e54c6ce0643416285f147ee4ddf040ba7387a149cdecd5c486d9898dd43c.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/1485e54c6ce0643416285f147ee4ddf040ba7387a149cdecd5c486d9898dd43c.png",
     "edition": "custom"
   },
   {
@@ -277,7 +277,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/214cb0564bc372d958352f244b7918558217690b557f881d2e48aa9304e562ee.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/214cb0564bc372d958352f244b7918558217690b557f881d2e48aa9304e562ee.png",
     "edition": "custom"
   },
   {
@@ -296,7 +296,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/436216edd9ef9c521b37c03095b9b08fd83abc38ed2a152655388b7c41f046b0.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/436216edd9ef9c521b37c03095b9b08fd83abc38ed2a152655388b7c41f046b0.png",
     "edition": "custom"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/f2b59cbc8bd913907388aa26da270e6a2505b2d1f9b6fe784d5b9e4e3d66e736.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/f2b59cbc8bd913907388aa26da270e6a2505b2d1f9b6fe784d5b9e4e3d66e736.png",
     "edition": "custom"
   },
   {
@@ -333,7 +333,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/8af619d31689f3ef96461f679acc23c0e34d7b8d719cabb840dab9bdfcb68814.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/8af619d31689f3ef96461f679acc23c0e34d7b8d719cabb840dab9bdfcb68814.png",
     "edition": "custom"
   },
   {
@@ -353,7 +353,7 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "image": "/scripts/assets/community/0426d41c5434aeb4a24b45c85d92d9f8e37bba1b286208e50a72d4d1a1499420.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/0426d41c5434aeb4a24b45c85d92d9f8e37bba1b286208e50a72d4d1a1499420.png",
     "edition": "custom"
   },
   {
@@ -371,7 +371,7 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "image": "/scripts/assets/community/99f69cf4dcb9eb898ec1933f60518e8124726b873ad7683d58c25097d01d6a95.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/99f69cf4dcb9eb898ec1933f60518e8124726b873ad7683d58c25097d01d6a95.png",
     "edition": "custom"
   },
   {
@@ -389,7 +389,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/9d4ac0633dfb1d57bca2422e25909ccfa9c58a58b3cc5a94e31c49c0e50a0116.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/9d4ac0633dfb1d57bca2422e25909ccfa9c58a58b3cc5a94e31c49c0e50a0116.png",
     "edition": "custom"
   },
   {
@@ -407,7 +407,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/5577f8c5e6f6bad4452e93a7d49a3b451d6e6642fe398ea2028d1e907f72c2cc.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/5577f8c5e6f6bad4452e93a7d49a3b451d6e6642fe398ea2028d1e907f72c2cc.png",
     "edition": "custom"
   },
   {
@@ -425,7 +425,7 @@
     ],
     "remindersGlobal": [],
     "setup": true,
-    "image": "/scripts/assets/community/f610dce57ce56b65eff8d95e99ac25defd9b22d095e1837fec4119c6804400c8.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/f610dce57ce56b65eff8d95e99ac25defd9b22d095e1837fec4119c6804400c8.png",
     "edition": "custom"
   },
   {
@@ -444,7 +444,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/3578ea4e552c9c3ad73010dc720601f18268c46754b1b19fe57d05dd85a91c3c.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/3578ea4e552c9c3ad73010dc720601f18268c46754b1b19fe57d05dd85a91c3c.png",
     "edition": "custom"
   },
   {
@@ -462,7 +462,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/0de341f72931808ab1fb21ef73b5a72ab6daf8f3277fdc384732469864a5cbfe.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/0de341f72931808ab1fb21ef73b5a72ab6daf8f3277fdc384732469864a5cbfe.png",
     "edition": "custom"
   },
   {
@@ -480,7 +480,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/68eade774b84893ec0939f5736afb9df1c1fbe2a41fbadd2ca689b9743f92b54.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/68eade774b84893ec0939f5736afb9df1c1fbe2a41fbadd2ca689b9743f92b54.png",
     "edition": "custom"
   },
   {
@@ -498,7 +498,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/5f660d7dd48f8ed4a8d04f2e1b8e9cb4ab2d11c69181a640d81a417492fa2da3.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/5f660d7dd48f8ed4a8d04f2e1b8e9cb4ab2d11c69181a640d81a417492fa2da3.png",
     "edition": "custom"
   },
   {
@@ -516,12 +516,12 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/bc5cf1fcf9dc8b8c3d783eff9207a82101985a78879d28dd55d03d63cbaad6ea.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/bc5cf1fcf9dc8b8c3d783eff9207a82101985a78879d28dd55d03d63cbaad6ea.png",
     "edition": "custom"
   },
   {
     "id": "0_meta",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-de-er-ta-tan-xian-dui-09066747/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "name": "技术员&未知生命体",
     "team": "a jinxed",
     "setup": false,

@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "罪案疑云",
     "author": "黑猫",
-    "logo": "/scripts/assets/community/b99af12b08cf0c36773a3db8c4c6bba304808092bfaefde66e18c33c33ac7fae.png",
+    "logo": "/scripts/assets/community-zui-an-yi-yun-aab3e458/b99af12b08cf0c36773a3db8c4c6bba304808092bfaefde66e18c33c33ac7fae.png",
     "almanac": "https://www.bloodstar.xyz/p/blackcat/diy/almanac.html",
     "firstNight": [
       "dusk",
@@ -62,7 +62,7 @@
     "remindersGlobal": [],
     "setup": false,
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "imageAlt": "noble"
   },
@@ -85,7 +85,7 @@
     ],
     "setup": false,
     "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "imageAlt": "monk"
   },
@@ -101,7 +101,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "edition": "custom",
     "imageAlt": "fisherman"
   },
@@ -123,7 +123,7 @@
       }
     ],
     "setup": false,
-    "image": "/scripts/assets/community/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/71c34aa64e6ca132fa2233d0ff610852eeb27a995d27e2d206b16d616bd9cfd4.png",
     "edition": "custom",
     "imageAlt": "soldier"
   },
@@ -139,7 +139,7 @@
       "逆序"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/0d83153ae65a62fb04dda0e7c30ffbb7a9e9fe4667dad56f269cfd3c83b7dd63.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/0d83153ae65a62fb04dda0e7c30ffbb7a9e9fe4667dad56f269cfd3c83b7dd63.png",
     "edition": "custom"
   },
   {
@@ -153,7 +153,7 @@
       "得知牛仔"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/8458cd0cd3b69d31a30b089c6e09940e44280177e5035b68bb7cc2d08c5fb6da.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/8458cd0cd3b69d31a30b089c6e09940e44280177e5035b68bb7cc2d08c5fb6da.png",
     "edition": "custom"
   },
   {
@@ -168,7 +168,7 @@
       "今日探险"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/992f44fc1e02111aa7a3f2d742ce97c184fd060e25dcc347f32e6b711999fb25.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/992f44fc1e02111aa7a3f2d742ce97c184fd060e25dcc347f32e6b711999fb25.png",
     "edition": "custom"
   },
   {
@@ -182,7 +182,7 @@
       "已有人赴死"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/01866a8a8f90387731e4737d2bd2a2fb3b14f1e146155f5b1c821e97a7710ef7.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/01866a8a8f90387731e4737d2bd2a2fb3b14f1e146155f5b1c821e97a7710ef7.png",
     "edition": "custom"
   },
   {
@@ -196,7 +196,7 @@
       "是石像鬼"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/a609bd4eb9bdf4c50cc5bc28c0f77d36ffaaf448c0c15dc1cc9d84beb1f69b5a.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/a609bd4eb9bdf4c50cc5bc28c0f77d36ffaaf448c0c15dc1cc9d84beb1f69b5a.png",
     "edition": "custom"
   },
   {
@@ -210,7 +210,7 @@
       "是羽师"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/38f3ee041558e17f99eda8054abb63ad4b1403b8dd2302d4cada62ef9ca56d68.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/38f3ee041558e17f99eda8054abb63ad4b1403b8dd2302d4cada62ef9ca56d68.png",
     "edition": "custom"
   },
   {
@@ -226,7 +226,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
     "edition": "custom",
     "imageAlt": "puzzlemaster"
   },
@@ -242,7 +242,7 @@
       "中毒"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/12e2168ab1f260250a9615102be196b5a1c0d7fe18d144a0d7ed06761355dd4d.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/12e2168ab1f260250a9615102be196b5a1c0d7fe18d144a0d7ed06761355dd4d.png",
     "edition": "custom"
   },
   {
@@ -256,7 +256,7 @@
       "是复制品"
     ],
     "setup": false,
-    "image": "/scripts/assets/community/e03c6d1eb8285bffb5d79c000b930ecfa1194a6a1a600d22eceea4179493887e.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/e03c6d1eb8285bffb5d79c000b930ecfa1194a6a1a600d22eceea4179493887e.png",
     "edition": "custom"
   },
   {
@@ -273,7 +273,7 @@
     "setup": false,
     "firstNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
     "otherNightReminder": "让洗脑师选择一名玩家和一个善良角色。标记那名玩家疯狂。让洗脑师重新入睡。唤醒洗脑师的目标。对这名玩家展示“该角色的能力对你生效”信息标记，洗脑师角色标记，该玩家需要疯狂证明的角色标记。",
-    "image": "/scripts/assets/community/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/e346702b2f727fb427d45a2254e75e0690cd7f5c9ef8adfcbace042415a4b2d7.png",
     "edition": "custom",
     "imageAlt": "cerenovus"
   },
@@ -291,7 +291,7 @@
     "remindersGlobal": [],
     "setup": false,
     "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
-    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
     "edition": "custom",
     "imageAlt": "po"
   },
@@ -305,7 +305,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "edition": "custom",
     "imageAlt": "riot"
   },
@@ -320,7 +320,7 @@
       "美美入红"
     ],
     "setup": true,
-    "image": "/scripts/assets/community/1d91542350f7b85e4f39273b07675a534744507bbff27158b4da0cd6b574e08c.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/1d91542350f7b85e4f39273b07675a534744507bbff27158b4da0cd6b574e08c.png",
     "edition": "custom"
   },
   {
@@ -334,7 +334,7 @@
       "善良黑手"
     ],
     "setup": true,
-    "image": "/scripts/assets/community/4a402a25ea8e6bf88e71509a51087d5227b3e6069593cc300348e4bc6b8b40e5.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/4a402a25ea8e6bf88e71509a51087d5227b3e6069593cc300348e4bc6b8b40e5.png",
     "edition": "custom"
   },
   {
@@ -351,7 +351,7 @@
     "setup": false,
     "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
     "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "imageAlt": "fortuneteller"
   },
@@ -365,7 +365,7 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "edition": "custom",
     "imageAlt": "alsaahir"
   },
@@ -384,7 +384,7 @@
     "setup": true,
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "imageAlt": "godfather"
   },
@@ -404,7 +404,7 @@
     "flavor": "“这位老爷……虽然我的烟斗是金色的，虽然我只要一首曲子就能驯服最狂野的灯神，但我只是一个卑贱的舞蛇人罢了，哎……听天由命吧。俗话说，人心不足蛇吞象。但不是我，这位老爷……真的不是我。”",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对原恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良，并标记这名玩家中毒。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对原恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良，并标记这名玩家中毒。",
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "imageAlt": "snakecharmer"
   },
   {
@@ -420,7 +420,7 @@
     "edition": "custom",
     "flavor": "“唯有受选者才能凝视面纱之外的光景。亡者躁动不安……他们的每一根僵硬的手指都指向了刺骨的北地。”",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "imageAlt": "oracle"
   },
   {
@@ -439,7 +439,7 @@
     "flavor": "“你听到那个穿羊绒大衣的家伙对我们小贝尔说什么了吗？他说……‘好’？哎，行吧，和哈利还有那个杂耍艺人那一出相比，这算不了什么。说什么？我可不说，我又不是什么长舌妇。”",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "imageAlt": "seamstress"
   },
   {
@@ -454,6 +454,6 @@
     "jinxes": [],
     "setup": false,
     "edition": "custom",
-    "image": "/scripts/assets/community/a37638b938763e0da453532ff69dcaa1de0adedbfdb575ebce65fa30e066e70e.png"
+    "image": "/scripts/assets/community-zui-an-yi-yun-aab3e458/a37638b938763e0da453532ff69dcaa1de0adedbfdb575ebce65fa30e066e70e.png"
   }
 ]

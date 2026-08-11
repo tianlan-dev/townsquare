@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "梦殒春宵教皇版",
     "author": "TPI",
-    "logo": "/scripts/assets/community/165c5d32d639ee14da32131e97d360d59438bc1d0d004f9e388452d618d74ffd.png",
+    "logo": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/165c5d32d639ee14da32131e97d360d59438bc1d0d004f9e388452d618d74ffd.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_mycxjhb",
-    "image": "/scripts/assets/community/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/e1a830309f50232f9fd53701fa66899859576211b3a70a3980e1cda55c108ba8.png",
     "name": "教皇",
     "team": "fabled",
     "ability": "会有重复的善良角色在场。他们也可能是恶魔的伪装。",
@@ -22,7 +22,7 @@
   },
   {
     "id": "1_mycxjhb",
-    "image": "/scripts/assets/community/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/ac92c880e812e0a23c653d37a78a88c8624759d8cdeace53d1df9851d17f1ffc.png",
     "firstNightReminder": "唤醒钟表匠，对他用手势比划数字来告知他恶魔与爪牙之间的最近距离。",
     "name": "钟表匠",
     "team": "townsfolk",
@@ -32,7 +32,7 @@
   },
   {
     "id": "2_mycxjhb",
-    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师",
@@ -44,7 +44,7 @@
   },
   {
     "id": "3_mycxjhb",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -59,7 +59,7 @@
   },
   {
     "id": "4_mycxjhb",
-    "image": "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
     "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
     "reminders": [
@@ -74,7 +74,7 @@
   },
   {
     "id": "5_mycxjhb",
-    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
     "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
     "reminders": [
       "恶魔未投票",
@@ -88,7 +88,7 @@
   },
   {
     "id": "6_mycxjhb",
-    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
     "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
     "reminders": [
       "爪牙未提名",
@@ -102,7 +102,7 @@
   },
   {
     "id": "7_mycxjhb",
-    "image": "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -112,7 +112,7 @@
   },
   {
     "id": "8_mycxjhb",
-    "image": "/scripts/assets/community/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/cd8e09006021c5f6b4ecf902f9f630dffb19660fd30969c1c1b10657fb53c8aa.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -120,7 +120,7 @@
   },
   {
     "id": "9_mycxjhb",
-    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -135,7 +135,7 @@
   },
   {
     "id": "10_mycxjhb",
-    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
     "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
     "reminders": [
@@ -153,7 +153,7 @@
   },
   {
     "id": "11_mycxjhb",
-    "image": "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
     "reminders": [
       "失去能力"
     ],
@@ -164,7 +164,7 @@
   },
   {
     "id": "12_mycxjhb",
-    "image": "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
     "otherNightReminder": "如果杂耍艺人在今天白天使用了能力，唤醒杂耍艺人，对他用手势比划数字来告知他白天猜测正确的次数。",
     "reminders": [
       "猜测正确"
@@ -177,7 +177,7 @@
   },
   {
     "id": "13_mycxjhb",
-    "image": "/scripts/assets/community/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/b8a0190515e6a9b18e19022705ec0e37c5335463db35040090c7b818e56e08eb.png",
     "otherNightReminder": "如果贤者被恶魔杀死，唤醒贤者，对他指向两名玩家。其中之一是杀死贤者的恶魔。",
     "name": "贤者",
     "team": "townsfolk",
@@ -187,7 +187,7 @@
   },
   {
     "id": "14_mycxjhb",
-    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -195,7 +195,7 @@
   },
   {
     "id": "15_mycxjhb",
-    "image": "/scripts/assets/community/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png",
     "otherNightReminder": "如果心上人死亡，一名玩家醉酒。",
     "reminders": [
       "醉酒"
@@ -208,7 +208,7 @@
   },
   {
     "id": "16_mycxjhb",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -221,7 +221,7 @@
   },
   {
     "id": "17_mycxjhb",
-    "image": "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -229,7 +229,7 @@
   },
   {
     "id": "18_mycxjhb",
-    "image": "/scripts/assets/community/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/4eccee47a5229f53dc960fdf532d2de0122a310f668dec96e8f3c1dfbb722a41.png",
     "firstNightReminder": "分别独自唤醒镜像双子和对立双子，告知他们由于镜像双子能力而得知的信息。",
     "reminders": [
       "对立双子"
@@ -242,7 +242,7 @@
   },
   {
     "id": "19_mycxjhb",
-    "image": "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png",
     "firstNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "otherNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
     "reminders": [
@@ -257,7 +257,7 @@
   },
   {
     "id": "20_mycxjhb",
-    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
     "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
     "reminders": [
@@ -272,7 +272,7 @@
   },
   {
     "id": "21_mycxjhb",
-    "image": "/scripts/assets/community/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
     "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -282,7 +282,7 @@
   },
   {
     "id": "22_mycxjhb",
-    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
     "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
     "reminders": [
       "死亡",
@@ -297,7 +297,7 @@
   },
   {
     "id": "23_mycxjhb",
-    "image": "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png",
     "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -313,7 +313,7 @@
   },
   {
     "id": "24_mycxjhb",
-    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
     "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
     "reminders": [
       "死亡",
@@ -327,7 +327,7 @@
   },
   {
     "id": "25_mycxjhb",
-    "image": "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
+    "image": "/scripts/assets/community-meng-yun-chun-xiao-jiao-huang-ban-e2bc0cbb/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
     "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
     "reminders": [
       "死亡"

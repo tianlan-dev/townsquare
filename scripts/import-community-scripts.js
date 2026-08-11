@@ -126,6 +126,10 @@ function scriptSlug(name) {
   return slug || "script";
 }
 
+function scriptOutputFilename(name) {
+  return `community-${scriptSlug(name)}-${sha256(name).slice(0, 8)}.json`;
+}
+
 function isRemoteUrl(value) {
   return typeof value === "string" && /^https?:\/\//i.test(value.trim());
 }
@@ -360,6 +364,190 @@ function localizeAssets(value, assetMap, failures, keyPath = []) {
   return value;
 }
 
+function resolvePublicAssetPath(publicDirectory, publicPath) {
+  if (
+    typeof publicPath !== "string" ||
+    !publicPath.startsWith("/scripts/assets/")
+  ) {
+    return "";
+  }
+  const resolved = path.resolve(publicDirectory, `.${publicPath}`);
+  const assetRoot = path.resolve(publicDirectory, "scripts", "assets");
+  if (
+    resolved === assetRoot ||
+    !resolved.startsWith(`${assetRoot}${path.sep}`)
+  ) {
+    return "";
+  }
+  return resolved;
+}
+
+function assertOrdinaryFile(filePath, description) {
+  const stats = fs.lstatSync(filePath);
+  if (!stats.isFile() || stats.isSymbolicLink()) {
+    throw new Error(`${description}不是普通文件：${filePath}`);
+  }
+}
+
+function organizeScriptAssets(
+  scriptsDirectory,
+  publicDirectory,
+  assetMap,
+  assetOwners,
+  unresolvedAssets,
+) {
+  const assetRoot = path.join(scriptsDirectory, "assets");
+  if (fs.existsSync(assetRoot)) {
+    const stats = fs.lstatSync(assetRoot);
+    if (!stats.isDirectory() || stats.isSymbolicLink()) {
+      throw new Error(`剧本资源目录不是普通目录：${assetRoot}`);
+    }
+  } else {
+    fs.mkdirSync(assetRoot, { recursive: true });
+  }
+
+  const canonicalPaths = new Map();
+  const finalPaths = new Set();
+  const scriptDirectories = new Set();
+  const scriptFiles = fs
+    .readdirSync(scriptsDirectory)
+    .filter((filename) => filename.endsWith(".json"))
+    .sort();
+
+  function copyAsset(publicPath, scriptDirectoryName) {
+    const source = resolvePublicAssetPath(publicDirectory, publicPath);
+    if (!source || !fs.existsSync(source)) {
+      throw new Error(`剧本引用的本地资源不存在：${publicPath}`);
+    }
+    assertOrdinaryFile(source, "剧本资源");
+
+    const destinationDirectory = path.join(assetRoot, scriptDirectoryName);
+    if (fs.existsSync(destinationDirectory)) {
+      const stats = fs.lstatSync(destinationDirectory);
+      if (!stats.isDirectory() || stats.isSymbolicLink()) {
+        throw new Error(`剧本资源目标不是普通目录：${destinationDirectory}`);
+      }
+    } else {
+      fs.mkdirSync(destinationDirectory);
+    }
+
+    let filename = path.basename(source);
+    let destination = path.join(destinationDirectory, filename);
+    if (source !== destination && fs.existsSync(destination)) {
+      assertOrdinaryFile(destination, "剧本资源目标");
+      const sourceHash = sha256(fs.readFileSync(source));
+      const destinationHash = sha256(fs.readFileSync(destination));
+      if (sourceHash !== destinationHash) {
+        const extension = path.extname(filename);
+        filename = `${path.basename(filename, extension)}-${sourceHash.slice(
+          0,
+          8,
+        )}${extension}`;
+        destination = path.join(destinationDirectory, filename);
+      }
+    }
+    if (source !== destination && !fs.existsSync(destination)) {
+      fs.copyFileSync(source, destination);
+    }
+
+    const relocated = `/scripts/assets/${scriptDirectoryName}/${filename}`;
+    if (!canonicalPaths.has(publicPath)) {
+      canonicalPaths.set(publicPath, relocated);
+    }
+    finalPaths.add(relocated);
+    return relocated;
+  }
+
+  function relocate(value, scriptDirectoryName, keyPath = []) {
+    if (Array.isArray(value)) {
+      return value
+        .map((item, index) =>
+          relocate(item, scriptDirectoryName, keyPath.concat(String(index))),
+        )
+        .filter((item) => item !== undefined);
+    }
+    if (value && typeof value === "object") {
+      const relocated = {};
+      Object.entries(value).forEach(([key, item]) => {
+        const converted = relocate(
+          item,
+          scriptDirectoryName,
+          keyPath.concat(key),
+        );
+        if (converted !== undefined) relocated[key] = converted;
+      });
+      return relocated;
+    }
+    if (typeof value === "string" && isAssetPath(keyPath)) {
+      if (value.startsWith("/scripts/assets/")) {
+        return copyAsset(value, scriptDirectoryName);
+      }
+      if (isRemoteUrl(value)) {
+        const localized = assetMap[value.trim()];
+        if (localized) return copyAsset(localized, scriptDirectoryName);
+        unresolvedAssets.add(value.trim());
+        return undefined;
+      }
+    }
+    return value;
+  }
+
+  scriptFiles.forEach((filename) => {
+    const scriptPath = path.join(scriptsDirectory, filename);
+    assertOrdinaryFile(scriptPath, "剧本 JSON");
+    const scriptDirectoryName = path.basename(filename, ".json");
+    scriptDirectories.add(scriptDirectoryName);
+    const script = parseJsonPreservingLargeIntegers(
+      fs.readFileSync(scriptPath, "utf8"),
+    );
+    const relocated = relocate(script, scriptDirectoryName);
+    fs.writeFileSync(
+      scriptPath,
+      stringifyJsonPreservingLargeIntegers(relocated),
+    );
+  });
+
+  Object.entries(assetMap).forEach(([url, publicPath]) => {
+    const owner = assetOwners.get(url);
+    const relocated =
+      canonicalPaths.get(publicPath) ||
+      (owner ? copyAsset(publicPath, owner) : "");
+    if (!relocated) {
+      throw new Error(`资源映射没有对应的剧本资源：${url}`);
+    }
+    assetMap[url] = relocated;
+  });
+
+  fs.readdirSync(assetRoot, { withFileTypes: true }).forEach((entry) => {
+    const directory = path.join(assetRoot, entry.name);
+    if (!entry.isDirectory() || entry.isSymbolicLink()) {
+      throw new Error(`剧本 assets 下包含非普通目录：${directory}`);
+    }
+    fs.readdirSync(directory, { withFileTypes: true }).forEach((file) => {
+      const target = path.join(directory, file.name);
+      if (!file.isFile() || file.isSymbolicLink()) {
+        throw new Error(`剧本资源目录包含非普通文件：${target}`);
+      }
+      const publicPath = `/scripts/assets/${entry.name}/${file.name}`;
+      if (!finalPaths.has(publicPath)) fs.unlinkSync(target);
+    });
+    if (!fs.readdirSync(directory).length) fs.rmdirSync(directory);
+  });
+
+  scriptDirectories.forEach((directoryName) => {
+    const directory = path.join(assetRoot, directoryName);
+    if (!fs.existsSync(directory)) fs.mkdirSync(directory);
+    if (!fs.readdirSync(directory).length) {
+      fs.writeFileSync(path.join(directory, ".gitkeep"), "");
+    }
+  });
+
+  return {
+    directories: scriptDirectories.size,
+    files: finalPaths.size,
+  };
+}
+
 function roleImageFallbackKey(role) {
   if (!role || typeof role !== "object") return "";
   if (!role.name || !role.team || !role.ability) return "";
@@ -511,7 +699,8 @@ async function fetchAsset(url) {
 }
 
 async function downloadAssets(urls, options) {
-  const { assetDirectory, assetMapPath, concurrency } = options;
+  const { assetDirectory, assetMapPath, concurrency, publicDirectory } =
+    options;
   fs.mkdirSync(assetDirectory, { recursive: true });
   let assetMap = {};
   if (fs.existsSync(assetMapPath)) {
@@ -519,9 +708,12 @@ async function downloadAssets(urls, options) {
   }
 
   Object.entries(assetMap).forEach(([url, publicPath]) => {
-    const filename = path.basename(publicPath);
-    if (!fs.existsSync(path.join(assetDirectory, filename)))
+    const assetPath = resolvePublicAssetPath(publicDirectory, publicPath);
+    if (!assetPath || !fs.existsSync(assetPath)) {
       delete assetMap[url];
+      return;
+    }
+    assertOrdinaryFile(assetPath, "资源映射目标");
   });
 
   const pending = Array.from(urls).filter((url) => !assetMap[url]);
@@ -600,8 +792,9 @@ async function main() {
   }
 
   const repoRoot = path.resolve(__dirname, "..");
+  const publicDirectory = path.join(repoRoot, "public");
   const sourceDirectory = path.resolve(sourceArgument);
-  const scriptsDirectory = path.join(repoRoot, "public", "scripts");
+  const scriptsDirectory = path.join(publicDirectory, "scripts");
   const assetDirectory = path.join(scriptsDirectory, "assets", "community");
   const assetMapPath = path.join(
     repoRoot,
@@ -612,6 +805,18 @@ async function main() {
     repoRoot,
     "scripts",
     "community-import-report.json",
+  );
+  let previousReport = null;
+  if (fs.existsSync(reportPath)) {
+    previousReport = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+  }
+  const previouslyManagedFiles = new Set(
+    (previousReport && Array.isArray(previousReport.scripts)
+      ? previousReport.scripts
+      : []
+    )
+      .map(({ output }) => output)
+      .filter((filename) => COMMUNITY_FILE_PATTERN.test(filename)),
   );
 
   const sourceStats = fs.statSync(sourceDirectory);
@@ -629,11 +834,14 @@ async function main() {
     ).forEach(({ id }) => officialIds.add(cleanId(id)));
   });
 
+  const records = [];
+  const assetUrls = new Set();
+  const assetOwners = new Map();
   const existingNames = new Set();
   fs.readdirSync(scriptsDirectory)
     .filter(
       (filename) =>
-        filename.endsWith(".json") && !COMMUNITY_FILE_PATTERN.test(filename),
+        filename.endsWith(".json") && !previouslyManagedFiles.has(filename),
     )
     .forEach((filename) => {
       const script = parseJsonPreservingLargeIntegers(
@@ -641,14 +849,19 @@ async function main() {
       );
       const meta = script.find((item) => item && item.id === "_meta");
       if (meta && meta.name) existingNames.add(meta.name);
+      const scriptAssetUrls = new Set();
+      collectAssetUrls(script, scriptAssetUrls);
+      const assetOwner = path.basename(filename, ".json");
+      scriptAssetUrls.forEach((url) => {
+        assetUrls.add(url);
+        if (!assetOwners.has(url)) assetOwners.set(url, assetOwner);
+      });
     });
 
   const sourceFiles = fs
     .readdirSync(sourceDirectory)
     .filter((filename) => filename.endsWith(".json"))
     .sort((left, right) => left.localeCompare(right, "zh-CN"));
-  const records = [];
-  const assetUrls = new Set();
   sourceFiles.forEach((filename) => {
     const sourcePath = path.join(sourceDirectory, filename);
     const stats = fs.lstatSync(sourcePath);
@@ -664,7 +877,13 @@ async function main() {
     if (existingNames.has(meta.name)) {
       throw new Error(`${filename} 与现有内置剧本“${meta.name}”重名`);
     }
-    collectAssetUrls(script, assetUrls);
+    const scriptAssetUrls = new Set();
+    collectAssetUrls(script, scriptAssetUrls);
+    const assetOwner = path.basename(scriptOutputFilename(meta.name), ".json");
+    scriptAssetUrls.forEach((url) => {
+      assetUrls.add(url);
+      if (!assetOwners.has(url)) assetOwners.set(url, assetOwner);
+    });
     records.push({ filename, script, meta });
   });
 
@@ -675,6 +894,7 @@ async function main() {
       assetDirectory,
       assetMapPath,
       concurrency,
+      publicDirectory,
     });
     assetMap = result.assetMap;
     downloadFailures = result.failed;
@@ -683,8 +903,7 @@ async function main() {
       throw new Error("--reuse-assets 需要已有的 community-asset-map.json");
     }
     assetMap = JSON.parse(fs.readFileSync(assetMapPath, "utf8"));
-    if (fs.existsSync(reportPath)) {
-      const previousReport = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+    if (previousReport) {
       downloadFailures = previousReport.downloadFailures || [];
     }
   }
@@ -716,9 +935,7 @@ async function main() {
       (item) => item && typeof item === "object" && item.id === "_meta",
     );
     const scriptHash = sha256(meta.name).slice(0, 8);
-    const outputFilename = `community-${scriptSlug(
-      meta.name,
-    )}-${scriptHash}.json`;
+    const outputFilename = scriptOutputFilename(meta.name);
     const warnings = [];
     let fallbackImages = 0;
     if (localizeAssetsEnabled) {
@@ -762,13 +979,11 @@ async function main() {
 
   const pruned = [];
   if (prune) {
-    fs.readdirSync(scriptsDirectory)
-      .filter(
-        (filename) =>
-          COMMUNITY_FILE_PATTERN.test(filename) && !expectedFiles.has(filename),
-      )
+    Array.from(previouslyManagedFiles)
+      .filter((filename) => !expectedFiles.has(filename))
       .forEach((filename) => {
         const target = path.join(scriptsDirectory, filename);
+        if (!fs.existsSync(target)) return;
         const stats = fs.lstatSync(target);
         if (!stats.isFile() || stats.isSymbolicLink()) {
           throw new Error(`拒绝清理非普通文件：${target}`);
@@ -778,6 +993,18 @@ async function main() {
       });
   }
 
+  Object.keys(assetMap).forEach((url) => {
+    if (!assetUrls.has(url)) delete assetMap[url];
+  });
+  const organizedAssets = organizeScriptAssets(
+    scriptsDirectory,
+    publicDirectory,
+    assetMap,
+    assetOwners,
+    unresolvedAssets,
+  );
+  fs.writeFileSync(assetMapPath, `${JSON.stringify(assetMap, null, 2)}\n`);
+
   const report = {
     generatedAt: new Date().toISOString(),
     sourceDirectory: path.basename(sourceDirectory),
@@ -786,6 +1013,8 @@ async function main() {
     referencedAssets: assetUrls.size,
     localizedAssets: Object.keys(assetMap).filter((url) => assetUrls.has(url))
       .length,
+    assetDirectories: organizedAssets.directories,
+    assetFiles: organizedAssets.files,
     unresolvedAssets: Array.from(unresolvedAssets).sort(),
     downloadFailures: Array.from(
       new Map(

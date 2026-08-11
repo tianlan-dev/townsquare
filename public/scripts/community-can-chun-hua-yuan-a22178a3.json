@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "残春花园",
     "author": "烨子",
-    "logo": "/scripts/assets/community/6db5bbf534292ca0869b2a67a04ecb973d0fabee02920f10cce4a889929831b1.png",
+    "logo": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/6db5bbf534292ca0869b2a67a04ecb973d0fabee02920f10cce4a889929831b1.png",
     "almanac": "https://www.bloodstar.xyz/p/Yez/nature/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -13,7 +13,7 @@
   },
   {
     "id": "2_nature",
-    "image": "/scripts/assets/community/be217aedcade62f3cf471a7124cada761b790aebf74a7aa3cafde94576b6160f.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/be217aedcade62f3cf471a7124cada761b790aebf74a7aa3cafde94576b6160f.png",
     "firstNightReminder": "唤醒玫瑰，为玫瑰用手势比划与他邻近的玩家的腐蚀情况的总和（0~6）。",
     "otherNightReminder": "唤醒玫瑰，为玫瑰用手势比划与他邻近的玩家的腐蚀情况的总和（0~6）。",
     "reminders": [
@@ -29,7 +29,7 @@
   },
   {
     "id": "3_nature",
-    "image": "/scripts/assets/community/30af662846499080c5de82277b4e16e5d6ffb8e66976926c8b65bc971cb33058.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/30af662846499080c5de82277b4e16e5d6ffb8e66976926c8b65bc971cb33058.png",
     "firstNightReminder": "唤醒藤蔓，让他指向一名玩家，在该玩家角色标记旁放置“已选择”提示标记，然后在藤蔓的角色标记旁放置“+1”提示标记。",
     "otherNightReminder": "唤醒藤蔓，让他指向一名玩家，在该玩家角色标记旁放置“已选择”提示标记。如果此次选择的玩家在选择前没有放置“已选择”提示标记，再为藤蔓或者该玩家角色标记旁放置“+1”提示标记。",
     "reminders": [
@@ -46,7 +46,7 @@
   },
   {
     "id": "4_nature",
-    "image": "/scripts/assets/community/f00a0be7d7fe4722b19f96053ed63b7ce57557f0c8cf66d792328d64bd57665e.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/f00a0be7d7fe4722b19f96053ed63b7ce57557f0c8cf66d792328d64bd57665e.png",
     "otherNightReminder": "唤醒杂草。杂草要么摇头表示不使用能力，要么指向一名已死亡的玩家。如果该玩家是镇民，将该玩家的角色标记替换成杂草，且在角色标记旁放置“复活”提示标记。如果该玩家不是镇民，在杂草的角色标记旁放置“+2”提示标记。",
     "reminders": [
       "复活",
@@ -61,7 +61,7 @@
   },
   {
     "id": "5_nature",
-    "image": "/scripts/assets/community/60087ccb972297e41abf07fd6cb13273dbc1d5e62339a8dbed4fc8a27edf9d79.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/60087ccb972297e41abf07fd6cb13273dbc1d5e62339a8dbed4fc8a27edf9d79.png",
     "reminders": [
       "+1",
       "最高票数"
@@ -74,7 +74,7 @@
   },
   {
     "id": "6_nature",
-    "image": "/scripts/assets/community/b5aac76d3d5f237f55a85cf648b05cd041cff39e478a4804eccf8b0f80efc0c5.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/b5aac76d3d5f237f55a85cf648b05cd041cff39e478a4804eccf8b0f80efc0c5.png",
     "firstNightReminder": "唤醒苔藓，根据他的腐蚀程度指向一名玩家。",
     "otherNightReminder": "唤醒苔藓，根据他的腐蚀程度指向一名玩家。",
     "name": "苔藓",
@@ -86,7 +86,7 @@
   },
   {
     "id": "7_nature",
-    "image": "/scripts/assets/community/9a1518b19f8d5f997a7af5f6e2e42af166e503d1025aa2c40b7bc7fbcaff11f5.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/9a1518b19f8d5f997a7af5f6e2e42af166e503d1025aa2c40b7bc7fbcaff11f5.png",
     "firstNightReminder": "唤醒向日葵，让他指向一名玩家，在该玩家的角色标记旁放置“保护”提示标记，并为向日葵用手势比划“保护”玩家的腐蚀情况（0、1、2或3）。",
     "otherNightReminder": "唤醒向日葵，让他指向一名玩家，在该玩家的角色标记旁放置“保护”提示标记，并为向日葵用手势比划“保护”玩家的腐蚀情况（0、1、2或3）。",
     "reminders": [
@@ -101,7 +101,7 @@
   },
   {
     "id": "17_nature",
-    "image": "/scripts/assets/community/4f74a7fc7ea7dd7fbbda5695f8def10f1d09e2bfc69f1d50534d81dc532c70b4.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/4f74a7fc7ea7dd7fbbda5695f8def10f1d09e2bfc69f1d50534d81dc532c70b4.png",
     "firstNightReminder": "唤醒蒲公英，根据“今天因恶魔的能力影响了多少名玩家”向他展示一个数字。",
     "otherNightReminder": "唤醒蒲公英，根据“今天因恶魔的能力影响了多少名玩家”向他展示一个数字。",
     "name": "蒲公英",
@@ -113,7 +113,7 @@
   },
   {
     "id": "20_nature",
-    "image": "/scripts/assets/community/e1edfb0384e0e0697584c5abbbbdd171875123043fff91a1568d4940719d52a2.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/e1edfb0384e0e0697584c5abbbbdd171875123043fff91a1568d4940719d52a2.png",
     "firstNightReminder": "唤醒水草，为他展示一名“已得知”玩家的角色标记并指向该玩家，如果该玩家不是爪牙，则改为展示一个不在场爪牙的角色标记。共执行四次。",
     "otherNightReminder": "如果有一名“已得知”的玩家死亡，在水草的角色标记旁放置“+1”提示标记。",
     "reminders": [
@@ -129,7 +129,7 @@
   },
   {
     "id": "21_nature",
-    "image": "/scripts/assets/community/4973f1fee9e08080290acd7e0b5d06651634638d88bea113bc0dc17db29d018d.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/4973f1fee9e08080290acd7e0b5d06651634638d88bea113bc0dc17db29d018d.png",
     "reminders": [
       "+2"
     ],
@@ -140,7 +140,7 @@
   },
   {
     "id": "23_nature",
-    "image": "/scripts/assets/community/377f27c091ab99ab2f725aeaf0e3529cc766df2d06cc06008363397a290ffe98.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/377f27c091ab99ab2f725aeaf0e3529cc766df2d06cc06008363397a290ffe98.png",
     "firstNightReminder": "在荷花的角色标记旁放置“第一天”提示标记。",
     "otherNightReminder": "将荷花的标记替换到下一天。如果替换到“第四天”提示标记，在一名邪恶恶魔的角色标记旁放置“善良”角色标记。如果荷花在今天死亡，在荷花的角色标记旁放置“止于今晚”的标记，如果此时已有“止于今晚”的标记时，移除此标记。",
     "reminders": [
@@ -161,7 +161,7 @@
   },
   {
     "id": "25_nature",
-    "image": "/scripts/assets/community/5fb5bf2de69f3699d2e229ebbbf3cc04e2c21288726977c52bb0eafd58379113.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/5fb5bf2de69f3699d2e229ebbbf3cc04e2c21288726977c52bb0eafd58379113.png",
     "name": "紫荆花",
     "team": "townsfolk",
     "ability": "每个白天限一次，在提名开始前，你可以公开猜测所有玩家的腐蚀总和，如果你猜对，善良阵营获胜。",
@@ -169,7 +169,7 @@
   },
   {
     "id": "26_nature",
-    "image": "/scripts/assets/community/4a087fa30ec20abee699a1fd86ddc9498b1f47c003792e76b4273860f5465bdb.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/4a087fa30ec20abee699a1fd86ddc9498b1f47c003792e76b4273860f5465bdb.png",
     "otherNightReminder": "白天提名棉花的角色标记旁边放置“提名者”标记，如果他是镇民则放置“-1”标记，否则在棉花角色标记旁放置“+2”标记。唤醒棉花，展示“提名者”标记的对应角色类型。",
     "reminders": [
       "-1",
@@ -184,7 +184,7 @@
   },
   {
     "id": "29_nature",
-    "image": "/scripts/assets/community/091d24dec25678c0778d548df5f985854267974d179931823e8d0cbf4d0e4c36.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/091d24dec25678c0778d548df5f985854267974d179931823e8d0cbf4d0e4c36.png",
     "firstNightReminder": "唤醒金鱼草，让他指向角色列表中的一名恶魔角色。如果该恶魔角色标记不在场，在他的角色标记旁放置“金鱼草”并替换他的角色标记为该恶魔的角色标记。如果该恶魔角色标记在场，在那名恶魔角色标记旁放置“枯萎”标记。",
     "otherNightReminder": "唤醒金鱼草，让他指向角色列表中的一名恶魔角色。如果该恶魔角色标记不在场，在他的角色标记旁放置“金鱼草”并替换他的角色标记为该恶魔的角色标记。如果该恶魔角色标记在场，在那名恶魔角色标记旁放置“枯萎”标记。",
     "reminders": [
@@ -200,7 +200,7 @@
   },
   {
     "id": "27_nature",
-    "image": "/scripts/assets/community/fb062fe282ab8c6aad5efeacf4ffed53ba4598ab8151e6268cf22a0bd5b58b3c.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/fb062fe282ab8c6aad5efeacf4ffed53ba4598ab8151e6268cf22a0bd5b58b3c.png",
     "setup": true,
     "name": "四叶草",
     "team": "townsfolk",
@@ -209,7 +209,7 @@
   },
   {
     "id": "8_nature",
-    "image": "/scripts/assets/community/d1fef376b909fe8a22cfd2913e65ffcc9d1a32d2b1182209e8df13088a777f8f.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/d1fef376b909fe8a22cfd2913e65ffcc9d1a32d2b1182209e8df13088a777f8f.png",
     "firstNightReminder": "如果岩石有腐蚀提示标记，将腐蚀提示标记移除，在与岩石邻近的存活的玩家的角色标记旁放置“+1”提示标记。",
     "otherNightReminder": "如果岩石有腐蚀提示标记，将腐蚀提示标记移除，在与岩石邻近的存活的玩家的角色标记旁放置“+1”提示标记。",
     "reminders": [
@@ -224,7 +224,7 @@
   },
   {
     "id": "9_nature",
-    "image": "/scripts/assets/community/d51f6b221f41711191fa0af2c0b7f5064e6e7dbfd20a0b3e41f03e5d01f726bd.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/d51f6b221f41711191fa0af2c0b7f5064e6e7dbfd20a0b3e41f03e5d01f726bd.png",
     "otherNightReminder": "在“是蘑菇”玩家的角色标记旁放置“+1”提示标记。",
     "remindersGlobal": [
       "是蘑菇",
@@ -239,7 +239,7 @@
   },
   {
     "id": "15_nature",
-    "image": "/scripts/assets/community/fe94110f331ebec423c4a66051916a435ddbdfd1a5cb0fa05bcab82711c12447.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/fe94110f331ebec423c4a66051916a435ddbdfd1a5cb0fa05bcab82711c12447.png",
     "firstNightReminder": "在恶土的角色标记旁放置“+2”和\"第一天\"提示标记。唤醒恶土，向他展示角色列表中的一名不在场爪牙角色。",
     "otherNightReminder": "将恶土的标记替换到下一天，如果恶土的角色标记替换掉“第三天”标记后，则在恶土的角色标记旁放置“是恶土”标记，将恶土的角色标记替换为一个不在场的爪牙提示标记，然后唤醒他，给他展示该爪牙角色标记。",
     "reminders": [
@@ -258,7 +258,7 @@
   },
   {
     "id": "16_nature",
-    "image": "/scripts/assets/community/c849a5b65194fcf6b550a797cd6203a612dbea9e007eb3df748c5f568cdb02f1.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/c849a5b65194fcf6b550a797cd6203a612dbea9e007eb3df748c5f568cdb02f1.png",
     "firstNightReminder": "在一名镇民的角色标记旁放置“益虫”提示标记和“+1”提示标记，然后唤醒该玩家，为他展示“他的能力对你生效”信息标记和益虫角色标记。",
     "otherNightReminder": "将不同于上一个有“益虫”提示标记放置的玩家的腐蚀标记移除，在一名玩家的角色标记旁放置“益虫”提示标记和“+1”提示标记，然后唤醒该玩家，为他展示“他的能力对你生效”信息标记和益虫角色标记。",
     "remindersGlobal": [
@@ -275,7 +275,7 @@
   },
   {
     "id": "11_nature",
-    "image": "/scripts/assets/community/873c776594d768a00c284b9de677c0f8b199ffa0fa8d6ff72ef6a98cf5984383.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/873c776594d768a00c284b9de677c0f8b199ffa0fa8d6ff72ef6a98cf5984383.png",
     "firstNightReminder": "唤醒害虫，让他指向一名玩家，在他的角色标记旁放置“+1”提示标记，如果他与害虫邻近，“+1”标记替换成“+2”标记。",
     "otherNightReminder": "唤醒害虫，让他指向一名玩家，在他的角色标记旁放置“+1”提示标记，如果他与害虫邻近，“+1”标记替换成“+2”标记。",
     "reminders": [
@@ -291,7 +291,7 @@
   },
   {
     "id": "12_nature",
-    "image": "/scripts/assets/community/90b55515e691342364c171c63593e24fbb9e7bbd2c0a880917e71daeefb7f9ab.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/90b55515e691342364c171c63593e24fbb9e7bbd2c0a880917e71daeefb7f9ab.png",
     "firstNightReminder": "唤醒浮游生物，用手指依次对他展示所有玩家的腐蚀（0、1、2、3...）并让他指向一名玩家，在该玩家的角色标记旁放置“+2”和“生长”提示标记。",
     "otherNightReminder": "将场上的“生长”标记替换成“-1”提示标记，唤醒浮游生物，用手指依次对他展示所有玩家的腐蚀（0、1、2、3...）并让他指向一名玩家，在该玩家的角色标记旁放置“+2”和“生长”提示标记。",
     "reminders": [
@@ -308,7 +308,7 @@
   },
   {
     "id": "19_nature",
-    "image": "/scripts/assets/community/dac69c09f6a0202d60e18657b90b70967efbf89b5c52f5b400897bb17566bc60.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/dac69c09f6a0202d60e18657b90b70967efbf89b5c52f5b400897bb17566bc60.png",
     "firstNightReminder": "在腐植的角色标记旁放置“+1”提示标记。",
     "otherNightReminder": "在腐植的角色标记旁放置“+1”提示标记。如果腐植的腐蚀程度大于2，唤醒腐植，让他选择一个不在场的恶魔角色和一名玩家，让他重新入睡。随后用该恶魔角色标记替换腐植角色标记，用腐植角色标记替换该玩家的角色标记，唤醒该玩家，为他展示“他的能力对你生效”信息标记和腐植角色标记，用大拇指向下表示他转变为邪恶阵营。",
     "reminders": [
@@ -324,7 +324,7 @@
   },
   {
     "id": "24_nature",
-    "image": "/scripts/assets/community/a461025103394cf185496e07238b1a1f0115c64c112b5e9836c871d0586f64f4.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/a461025103394cf185496e07238b1a1f0115c64c112b5e9836c871d0586f64f4.png",
     "firstNightReminder": "将所有外来者的“腐蚀”标记移动至毒菌旁边。如果毒菌有“腐蚀3”标记时又添加了“腐蚀”标记，随后唤醒毒菌并让其指向一名玩家，并给那名玩家放置“+3”标记；移除毒菌所有“腐蚀”标记。",
     "otherNightReminder": "将所有外来者的“腐蚀”标记移动至毒菌旁边。如果毒菌有“腐蚀3”标记时又添加了“腐蚀”标记，随后唤醒毒菌并让其指向一名玩家，并给那名玩家放置“+3”标记；移除毒菌所有“腐蚀”标记。如果毒菌死亡，将毒菌所有的“腐蚀”标记放置在任意数量的玩家旁。",
     "reminders": [
@@ -341,7 +341,7 @@
   },
   {
     "id": "1_nature",
-    "image": "/scripts/assets/community/46c2f3a9bba2235d229d316c9954a85852822d896e74e27d53d30545ac0c8001.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/46c2f3a9bba2235d229d316c9954a85852822d896e74e27d53d30545ac0c8001.png",
     "otherNightReminder": "唤醒朽木，让他指向一名存活玩家，如果他的腐蚀标记总和没超过3，随后，在该玩家角色标记旁放置“枯萎”提示标记；如果他的腐蚀标记总和超过3，他死亡。",
     "reminders": [
       "枯萎",
@@ -356,7 +356,7 @@
   },
   {
     "id": "10_nature",
-    "image": "/scripts/assets/community/90989d38d30d3521995e387e721c2a4d0ad8a10769a44719954b483586e71483.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/90989d38d30d3521995e387e721c2a4d0ad8a10769a44719954b483586e71483.png",
     "otherNightReminder": "唤醒腐化荆棘，让他指向一名玩家，共计两次，标记腐蚀为0的玩家死亡；随后，在该玩家的角色标记旁放置“-1”提示标记。",
     "reminders": [
       "-1",
@@ -371,7 +371,7 @@
   },
   {
     "id": "22_nature",
-    "image": "/scripts/assets/community/3698e0eb210586e06e053bef996a51b07291fa32a09b73e7747170a1ca8beecd.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/3698e0eb210586e06e053bef996a51b07291fa32a09b73e7747170a1ca8beecd.png",
     "reminders": [
       "+2"
     ],
@@ -383,7 +383,7 @@
   },
   {
     "id": "18_nature",
-    "image": "/scripts/assets/community/f438f0deb3d679e8af9b2aff70dab93bc37c86699ff40314adf993d10e443a24.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/f438f0deb3d679e8af9b2aff70dab93bc37c86699ff40314adf993d10e443a24.png",
     "firstNightReminder": "在所有恶魔角色旁边放置“枯萎”标记",
     "otherNightReminder": "由说书人决定，让哪一名玩家死亡。",
     "reminders": [
@@ -400,7 +400,7 @@
   },
   {
     "id": "_nature",
-    "image": "/scripts/assets/community/3a2d303911d8af65b996dd563a83556817d587078b6064c88bb13e9b30e78b26.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/3a2d303911d8af65b996dd563a83556817d587078b6064c88bb13e9b30e78b26.png",
     "firstNightReminder": "检查所有玩家的腐蚀标记替换成对应的腐蚀程度。如果有人的腐蚀程度大于3，将他的角色标记替换成一个不在场的恶魔角色标记，唤醒该玩家，为他展示“你是”信息标记和该恶魔角色标记，并放置邪恶标记。如果没有可以替换的恶魔角色标记，标记该玩家死亡。说书人整理腐蚀标记。",
     "otherNightReminder": "检查所有玩家的腐蚀标记替换成对应的腐蚀程度。如果有人的腐蚀程度大于3，将他的角色标记替换成一个不在场的恶魔角色标记，唤醒该玩家，为他展示“你是”信息标记和该恶魔角色标记，并放置邪恶标记。如果没有可以替换的恶魔角色标记，标记该玩家死亡。说书人整理腐蚀标记。",
     "reminders": [
@@ -415,7 +415,7 @@
   },
   {
     "id": "13_nature",
-    "image": "/scripts/assets/community/78f7e1ca574f85573a2a643771d2ff214a582b279f75276ef0ba9c2e04cc0b02.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/78f7e1ca574f85573a2a643771d2ff214a582b279f75276ef0ba9c2e04cc0b02.png",
     "firstNightReminder": "在魔典中央放置“第一天”提示标记。",
     "otherNightReminder": "将护林员的标记替换到下一天。如果替换到“第六天”提示标记，且没有恶魔在场，向所有玩家公开声明说书人获胜。如果恶魔在场，移除天数标记。",
     "reminders": [
@@ -442,7 +442,7 @@
   },
   {
     "id": "33_nature",
-    "image": "/scripts/assets/community/bbb2003022c8c2ea110164a4bec750de0e8ff33088c3397fc10ace5d02eaa071.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/bbb2003022c8c2ea110164a4bec750de0e8ff33088c3397fc10ace5d02eaa071.png",
     "name": "曙光",
     "team": "fabled",
     "ability": "如果黑玫瑰不在场，下次因腐蚀变成恶魔的玩家一定是黑玫瑰且不因腐蚀而改变他的阵营。",
@@ -450,7 +450,7 @@
   },
   {
     "id": "38_nature",
-    "image": "/scripts/assets/community/88770d12705f5c911ead6bf53959ea0609bd6e3aea362102181fae1b36c918f5.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/88770d12705f5c911ead6bf53959ea0609bd6e3aea362102181fae1b36c918f5.png",
     "name": "风滚草",
     "team": "traveller",
     "ability": "每个白天限一次，你可以公开声称“花园里面有什么”，与你顺时针方向的所有玩家需要依次公开选择一个当天未曾被选择过的角色（非旅行者、非传奇角色），如果所有玩家选择的角色均在场，你的阵营获胜。",
@@ -458,7 +458,7 @@
   },
   {
     "id": "30_nature",
-    "image": "/scripts/assets/community/16ccd75faf9f55ab637230fa9d211d10526e922603544ce0c0522422b3cf39a2.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/16ccd75faf9f55ab637230fa9d211d10526e922603544ce0c0522422b3cf39a2.png",
     "reminders": [
       "枯萎"
     ],
@@ -469,7 +469,7 @@
   },
   {
     "id": "31_nature",
-    "image": "/scripts/assets/community/20a2613db43c8708155a2305f9a04163ba8bd4884d504ff1384cc24d98191bca.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/20a2613db43c8708155a2305f9a04163ba8bd4884d504ff1384cc24d98191bca.png",
     "reminders": [
       "0票",
       "1票",
@@ -483,7 +483,7 @@
   },
   {
     "id": "35_nature",
-    "image": "/scripts/assets/community/d97345e8f996c606890feb9e61c316e3fab32a0571df4d75d254678fc3f15477.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/d97345e8f996c606890feb9e61c316e3fab32a0571df4d75d254678fc3f15477.png",
     "reminders": [
       "Ⅰ"
     ],
@@ -497,7 +497,7 @@
   },
   {
     "id": "36_nature",
-    "image": "/scripts/assets/community/ef0818c9d97a87a9b376ae849927a70b8bf154a2d82ae4d305cbc9c7fe6a882c.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/ef0818c9d97a87a9b376ae849927a70b8bf154a2d82ae4d305cbc9c7fe6a882c.png",
     "reminders": [
       "Ⅱ"
     ],
@@ -511,7 +511,7 @@
   },
   {
     "id": "37_nature",
-    "image": "/scripts/assets/community/db6dbc698a695cfaca4a8acaadc0381f93c4cf2ba973beb4165f47833bc5b0c3.png",
+    "image": "/scripts/assets/community-can-chun-hua-yuan-a22178a3/db6dbc698a695cfaca4a8acaadc0381f93c4cf2ba973beb4165f47833bc5b0c3.png",
     "reminders": [
       "Ⅲ"
     ],

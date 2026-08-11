@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "圣诞夜惊魂",
     "author": "钟楼剧本博物馆",
-    "logo": "/scripts/assets/community/4fe7cb67ce1a6b6f2ab3b03a7d4406f4a257ab3d69de0ee63509b076b26b17ea.png",
+    "logo": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/4fe7cb67ce1a6b6f2ab3b03a7d4406f4a257ab3d69de0ee63509b076b26b17ea.png",
     "townsfolkName": "镇民",
     "state": [
       {
@@ -46,7 +46,7 @@
   },
   {
     "ability": "使用灯神的相克规则。所有人都会知道其内容。",
-    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
     "edition": "custom",
     "flavor": "",
     "id": "20003_107",
@@ -61,7 +61,7 @@
     "firstNight": 0
   },
   {
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "name": "贵族",
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -79,7 +79,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
     "name": "舞蛇人",
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
@@ -97,7 +97,7 @@
     "otherNight": 5
   },
   {
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "name": "气球驾驶员",
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
@@ -119,7 +119,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "edition": "custom",
     "flavor": "",
     "id": "dreamerButton",
@@ -134,7 +134,7 @@
     "firstNight": 16.5
   },
   {
-    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
     "name": "旅店老板",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
@@ -153,7 +153,7 @@
     "otherNight": 3
   },
   {
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "name": "赌徒",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
@@ -170,7 +170,7 @@
     "otherNight": 8
   },
   {
-    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
     "name": "半兽人",
     "team": "townsfolk",
     "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
@@ -189,7 +189,7 @@
     "otherNight": 9
   },
   {
-    "image": "/scripts/assets/community/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/ced7ea838ca8dc81a678dec88cda7ff97bfc30c5eb5ceca6e909b1d80acd7167.png",
     "name": "神秘学家",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人并得知一条正确信息，如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1 或 -0 外来者]",
@@ -207,7 +207,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/24046f35d8d26e20ff8dda636f0245ad01bd3942ab59af23be1fc4d5d5586b58.png",
     "name": "造谣者",
     "team": "townsfolk",
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
@@ -225,7 +225,7 @@
     "otherNight": 13
   },
   {
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "name": "守夜人",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
@@ -243,7 +243,7 @@
     "otherNight": 17
   },
   {
-    "image": "/scripts/assets/community/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/9829c991bb752dbab9e4f0c7f48b90adfaa57c8589cc03dcc2211d712abac417.png",
     "name": "侍臣",
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
@@ -264,7 +264,7 @@
     "otherNight": 4
   },
   {
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "name": "食人族",
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -283,7 +283,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
@@ -299,7 +299,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/ecfcc222edd757ba67d4097c621b095fc955eb52599d2f9d0d9dba3956e9e7a3.png",
     "name": "修补匠",
     "team": "outsider",
     "ability": "你随时可能死亡。",
@@ -317,7 +317,7 @@
     "otherNight": 14
   },
   {
-    "image": "/scripts/assets/community/92409b8b02263d30a7a2736eded456f85734d1aeba8d3202269ada8591acde3c.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/92409b8b02263d30a7a2736eded456f85734d1aeba8d3202269ada8591acde3c.png",
     "name": "帽匠",
     "team": "outsider",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -335,7 +335,7 @@
     "otherNight": 2
   },
   {
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "name": "酒鬼",
     "team": "outsider",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -353,7 +353,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
     "name": "莽夫",
     "team": "outsider",
     "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
@@ -371,7 +371,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/df43de1a686438ed13e7a2156f4ffda74d27ac09b5b4f2fe6c1979f0fdce488a.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/df43de1a686438ed13e7a2156f4ffda74d27ac09b5b4f2fe6c1979f0fdce488a.png",
     "name": "伪证天才",
     "team": "minion",
     "ability": "每个夜晚，你要选择一个角色：有玩家可能被欺骗得知该角色的能力触发了。",
@@ -387,7 +387,7 @@
     "otherNight": 1
   },
   {
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "name": "刺客",
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -406,7 +406,7 @@
     "otherNight": 12
   },
   {
-    "image": "/scripts/assets/community/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/6e68a4e49764036bea65d387940b660e099bf55bc267693e93c010268ac1a3d7.png",
     "name": "寡妇",
     "team": "minion",
     "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
@@ -426,7 +426,7 @@
     "otherNight": 0
   },
   {
-    "image": "/scripts/assets/community/d68b13a7967aa6ff9ad49959d6ac4b96dec4eadd336e5f191d018d2b10b5b2b6.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/d68b13a7967aa6ff9ad49959d6ac4b96dec4eadd336e5f191d018d2b10b5b2b6.png",
     "name": "怪盗",
     "team": "minion",
     "ability": "每个夜晚，你可以选择一个角色：如果该角色不在场，你获得该角色的能力直到下次选择。如果因此获得了恶魔的能力，所有恶魔玩家不会因其自身能力而被唤醒。当你获得能力时，所有玩家都会得知。",
@@ -442,7 +442,7 @@
     "otherNight": 1
   },
   {
-    "image": "/scripts/assets/community/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/a89441125d02b0307a5da5cab3609653c42c061edb9bd24e89a389bb8c32d2d5.png",
     "name": "恐惧之灵",
     "team": "minion",
     "ability": "每个夜晚，你要选择一名玩家：如果你提名他且他被处决，他的阵营落败。当你首次选择或更换目标时，所有玩家都会得知你选择了新的玩家。",
@@ -460,7 +460,7 @@
     "otherNight": 6
   },
   {
-    "image": "/scripts/assets/community/7a3318c9b66780ffe8200b387a794c2ca944466abcea93c05479ab38642dfc0d.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/7a3318c9b66780ffe8200b387a794c2ca944466abcea93c05479ab38642dfc0d.png",
     "name": "人质先生",
     "team": "demon",
     "ability": "首个夜晚，所有爪牙秘密决定一名善良玩家作为“人质先生”：他转变为邪恶阵营，并且“是恶魔”。每个夜晚*，人质先生要选择一名玩家：他死亡。[+1 镇民]",
@@ -478,7 +478,7 @@
     "otherNight": 11
   },
   {
-    "image": "/scripts/assets/community/989caa1e1ea5b9f5c9e081a3991976fc4253ffcca4ff7a15d5191ce4e965477e.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/989caa1e1ea5b9f5c9e081a3991976fc4253ffcca4ff7a15d5191ce4e965477e.png",
     "name": "卡扎力",
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -496,7 +496,7 @@
     "otherNight": 10
   },
   {
-    "image": "/scripts/assets/community/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
+    "image": "/scripts/assets/community-sheng-dan-ye-jing-hun-21fa93d5/8f380931e36792718b1c7406e105ef480514756307ab3ff2bfeac16c1830e7d8.png",
     "name": "利维坦",
     "team": "demon",
     "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",

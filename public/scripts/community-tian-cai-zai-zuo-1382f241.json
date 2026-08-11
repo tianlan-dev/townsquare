@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "天才在左",
     "author": "清清Jungle",
-    "logo": "/scripts/assets/community/c4b278c2ddaef9cbb3892a0b2df2bd9eb04200b8d41eaa199ee5fb6e821902c7.png",
+    "logo": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/c4b278c2ddaef9cbb3892a0b2df2bd9eb04200b8d41eaa199ee5fb6e821902c7.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_tiancaizaizuo",
-    "image": "/scripts/assets/community/c4cc958bad48b4d0c83d2c8def119e1de26aeb04a3cfb9327caccca88b7e473a.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/c4cc958bad48b4d0c83d2c8def119e1de26aeb04a3cfb9327caccca88b7e473a.png",
     "reminders": [
       "疯狂"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_tiancaizaizuo",
-    "image": "/scripts/assets/community/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/6450f6d0b677c7ca949b6fcf7286430d443b6edebd3ad4822a6f83782e338f36.png",
     "name": "印度教教徒",
     "team": "fabled",
     "ability": "最先死亡的四名玩家会立刻以相同阵营的旅行者转世重生。如果恶魔死亡变成了旅行者，一名爪牙玩家变成这个恶魔。",
@@ -33,7 +33,7 @@
   },
   {
     "id": "2_tiancaizaizuo",
-    "image": "/scripts/assets/community/8d5d9af19eabd0f84cc23c7fcc42e26ccc02b571d770c65cede9452c8d29de9f.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/8d5d9af19eabd0f84cc23c7fcc42e26ccc02b571d770c65cede9452c8d29de9f.png",
     "reminders": [
       "目标"
     ],
@@ -44,7 +44,7 @@
   },
   {
     "id": "3_tiancaizaizuo",
-    "image": "/scripts/assets/community/03379718decab327a1da90c57d887ee8d6c1a922594d55101aa14df247a6dc92.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/03379718decab327a1da90c57d887ee8d6c1a922594d55101aa14df247a6dc92.png",
     "name": "替罪羊",
     "team": "traveller",
     "ability": "如果你的阵营的一名玩家被处决，你可能会代替他被处决。",
@@ -52,7 +52,7 @@
   },
   {
     "id": "4_tiancaizaizuo",
-    "image": "/scripts/assets/community/5c1623c312b49ef70355caf857b0b9889e9abbc3030c1785d489119d654dc814.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/5c1623c312b49ef70355caf857b0b9889e9abbc3030c1785d489119d654dc814.png",
     "reminders": [
       "失去能力"
     ],
@@ -63,7 +63,7 @@
   },
   {
     "id": "5_tiancaizaizuo",
-    "image": "/scripts/assets/community/3a80eddbccd15bb40594793c43f9d3d327a952fd77ee6e2973145e08af35156a.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/3a80eddbccd15bb40594793c43f9d3d327a952fd77ee6e2973145e08af35156a.png",
     "otherNightReminder": "每个夜晚，唤醒集骨者。集骨者要么摇头表示不使用能力，或者是指向任何一名已死亡的玩家。让集骨者重新入睡。",
     "reminders": [
       "重获能力",
@@ -77,7 +77,7 @@
   },
   {
     "id": "6_tiancaizaizuo",
-    "image": "/scripts/assets/community/7a5d2a010913746c68bcaa7cb472fc4aec66703c18f25c3b39547d3b1378907d.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/7a5d2a010913746c68bcaa7cb472fc4aec66703c18f25c3b39547d3b1378907d.png",
     "otherNightReminder": "唤醒流莺。让流莺指向任意一名玩家。让流莺重新入睡。唤醒被选中的玩家，对该玩家展示“该角色的能力对你生效”提示标记和流莺角色标记。该玩家需要通过点头表示是，摇头表示否。然后让该玩家重新入睡。",
     "reminders": [
       "死亡"
@@ -90,7 +90,7 @@
   },
   {
     "id": "7_tiancaizaizuo",
-    "image": "/scripts/assets/community/b8b2df742e58ffe3a903146f5b4ad11bd1a224f642db5d8909a42c6bf471c441.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/b8b2df742e58ffe3a903146f5b4ad11bd1a224f642db5d8909a42c6bf471c441.png",
     "name": "黑帮",
     "team": "traveller",
     "ability": "每个白天限一次，你可以杀死与你邻近的两名存活的玩家中的一名，但需要另一边那个存活的玩家同意。",
@@ -98,7 +98,7 @@
   },
   {
     "id": "8_tiancaizaizuo",
-    "image": "/scripts/assets/community/efacd6cfe94e49830ebe73d65298af8d6b4adf3ed470ef3d59498e77299e4dcd.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/efacd6cfe94e49830ebe73d65298af8d6b4adf3ed470ef3d59498e77299e4dcd.png",
     "firstNightReminder": "唤醒水手，让他选择一名玩家。决定他俩其中谁因为水手能力醉酒。",
     "otherNightReminder": "唤醒水手，让他选择一名玩家。决定他俩其中谁因为水手能力醉酒。",
     "reminders": [
@@ -113,7 +113,7 @@
   },
   {
     "id": "9_tiancaizaizuo",
-    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女",
@@ -125,7 +125,7 @@
   },
   {
     "id": "10_tiancaizaizuo",
-    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
     "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
     "reminders": [
       "死亡"
@@ -138,7 +138,7 @@
   },
   {
     "id": "11_tiancaizaizuo",
-    "image": "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png",
     "otherNightReminder": "如果造谣者今天白天的声明正确，一名玩家死亡。",
     "reminders": [
       "死亡"
@@ -151,7 +151,7 @@
   },
   {
     "id": "12_tiancaizaizuo",
-    "image": "/scripts/assets/community/b66ce66706bf0ccc4a09626b31ab69f68b70be9646a6491c3a5818fe6b4d1d20.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/b66ce66706bf0ccc4a09626b31ab69f68b70be9646a6491c3a5818fe6b4d1d20.png",
     "otherNightReminder": "如果教授未曾使用能力且在城镇广场上有玩家死亡，唤醒教授，他可以摇头不使用能力，或选择一名已死亡的玩家。如果该玩家是镇民，该玩家被起死回生。",
     "reminders": [
       "复活",
@@ -165,7 +165,7 @@
   },
   {
     "id": "13_tiancaizaizuo",
-    "image": "/scripts/assets/community/7e99d717682dd1e63607d4411147f55e515aad7a7adafdab770369183777ab31.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/7e99d717682dd1e63607d4411147f55e515aad7a7adafdab770369183777ab31.png",
     "reminders": [
       "不会死亡"
     ],
@@ -176,7 +176,7 @@
   },
   {
     "id": "14_tiancaizaizuo",
-    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
     "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
     "reminders": [
       "疯狂",
@@ -190,7 +190,7 @@
   },
   {
     "id": "15_tiancaizaizuo",
-    "image": "/scripts/assets/community/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png",
     "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
     "reminders": [
       "失足",
@@ -204,7 +204,7 @@
   },
   {
     "id": "16_tiancaizaizuo",
-    "image": "/scripts/assets/community/30f3aa83fefec1b6fb5ae14f34dcc4d02d45226cf58474b3ddc03ca4d0983528.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/30f3aa83fefec1b6fb5ae14f34dcc4d02d45226cf58474b3ddc03ca4d0983528.png",
     "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
     "reminders": [
@@ -220,7 +220,7 @@
   },
   {
     "id": "17_tiancaizaizuo",
-    "image": "/scripts/assets/community/b67b7ff88182c34361e5f0c8f68684f6ed2641148154bf75f5c9aa98229e283d.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/b67b7ff88182c34361e5f0c8f68684f6ed2641148154bf75f5c9aa98229e283d.png",
     "reminders": [
       "不会死亡"
     ],
@@ -231,7 +231,7 @@
   },
   {
     "id": "18_tiancaizaizuo",
-    "image": "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png",
     "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
     "reminders": [
       "在场",
@@ -245,7 +245,7 @@
   },
   {
     "id": "19_tiancaizaizuo",
-    "image": "/scripts/assets/community/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/7eade0e1704b0f072fe91093c10683b152bf652d05d5404ec1946dbbd57cedf3.png",
     "firstNightReminder": "唤醒钦天监，对他指向对应方向来告知他最近的邪恶玩家的方向。",
     "name": "钦天监",
     "team": "townsfolk",
@@ -255,7 +255,7 @@
   },
   {
     "id": "20_tiancaizaizuo",
-    "image": "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
     "remindersGlobal": [
       "是变脸师"
     ],
@@ -266,7 +266,7 @@
   },
   {
     "id": "21_tiancaizaizuo",
-    "image": "/scripts/assets/community/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png",
     "name": "圣徒",
     "team": "outsider",
     "ability": "如果你死于处决，你的阵营落败。",
@@ -274,7 +274,7 @@
   },
   {
     "id": "22_tiancaizaizuo",
-    "image": "/scripts/assets/community/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
     "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
     "reminders": [
       "已被猜测"
@@ -287,7 +287,7 @@
   },
   {
     "id": "23_tiancaizaizuo",
-    "image": "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
     "remindersGlobal": [
       "是隐士"
     ],
@@ -299,7 +299,7 @@
   },
   {
     "id": "24_tiancaizaizuo",
-    "image": "/scripts/assets/community/cf11973acc431e78dd0fa84cbb544b4a9da3a4018974edb0a2cbf2e88e9ccc3c.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/cf11973acc431e78dd0fa84cbb544b4a9da3a4018974edb0a2cbf2e88e9ccc3c.png",
     "firstNightReminder": "唤醒逆臣，让他选择一名除自己以外的玩家，那名玩家现在与他不共戴天。",
     "otherNightReminder": "如果逆臣或他的目标玩家，这两人之一死于处决，唤醒另一名玩家并通知他阵营变化。",
     "reminders": [
@@ -314,7 +314,7 @@
   },
   {
     "id": "25_tiancaizaizuo",
-    "image": "/scripts/assets/community/dc8736ae6a984ac4074b8c4b35a6a0342ca73a9336e4dba37f7b7ede3e8e1306.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/dc8736ae6a984ac4074b8c4b35a6a0342ca73a9336e4dba37f7b7ede3e8e1306.png",
     "firstNightReminder": "唤醒魔鬼代言人，让他选择一名玩家，那名玩家处决不死。",
     "otherNightReminder": "唤醒魔鬼代言人，让他选择一名与上一晚不同的玩家，那名玩家处决不死。",
     "reminders": [
@@ -329,7 +329,7 @@
   },
   {
     "id": "26_tiancaizaizuo",
-    "image": "/scripts/assets/community/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/5c7cea252bc0bc0058ecd698dbd29332e1faed736275ebb054a154ca052f60a6.png",
     "firstNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "otherNightReminder": "唤醒鹰身女妖，让她选择两名玩家，第一名玩家明天需要“疯狂”证明第二名玩家邪恶。在鹰身女妖入睡后通知第一名玩家被鹰身女妖选中。",
     "reminders": [
@@ -345,7 +345,7 @@
   },
   {
     "id": "27_tiancaizaizuo",
-    "image": "/scripts/assets/community/eb2ffa5179c899f8c05d0893b6b448c8be64143cfe9835f54d116654525c059d.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/eb2ffa5179c899f8c05d0893b6b448c8be64143cfe9835f54d116654525c059d.png",
     "firstNightReminder": "唤醒召唤师，对他展示三个不在场的善良角色标记。",
     "otherNightReminder": "如果这是游戏中的第三个夜晚，唤醒召唤师，让他选择一名玩家和一个恶魔角色，那名玩家变成由他选择的邪恶恶魔。",
     "reminders": [
@@ -363,7 +363,7 @@
   },
   {
     "id": "28_tiancaizaizuo",
-    "image": "/scripts/assets/community/86e7c55d17408e723e8220221b658b4533a01e473cdc15775c0e39c5c04a6634.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/86e7c55d17408e723e8220221b658b4533a01e473cdc15775c0e39c5c04a6634.png",
     "otherNightReminder": "今天白天提名了存活的养蛊人的玩家死亡。",
     "reminders": [
       "蛊"
@@ -376,7 +376,7 @@
   },
   {
     "id": "29_tiancaizaizuo",
-    "image": "/scripts/assets/community/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/9bffaa8f83faeac6f6f79aba377b97e4cfc508d50501f66bc53fe397efd2f957.png",
     "otherNightReminder": "决定上一夜被沙巴洛斯选择的玩家是否被反刍。然后唤醒沙巴洛斯，让他攻击两名玩家。",
     "reminders": [
       "死亡",
@@ -390,7 +390,7 @@
   },
   {
     "id": "30_tiancaizaizuo",
-    "image": "/scripts/assets/community/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/769f3b078d0205c6ce7c028fac74b0785767e370befaac4f1a3c6eaefbd735fd.png",
     "otherNightReminder": "唤醒珀，他可以攻击一名玩家或不进行攻击，如果他上一次选择了不进行攻击，则此次必须攻击三名玩家。",
     "reminders": [
       "攻击三次",
@@ -404,7 +404,7 @@
   },
   {
     "id": "31_tiancaizaizuo",
-    "image": "/scripts/assets/community/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
+    "image": "/scripts/assets/community-tian-cai-zai-zuo-1382f241/9878779bd228207a6057d250077aaa70e886d4cb298c9f9b78a259767d362f4f.png",
     "otherNightReminder": "唤醒奥赫，让他选择角色列表上的一个角色。该角色对应的玩家死亡，如果该角色不在场，替奥赫决定今晚谁会因为奥赫能力死亡。",
     "reminders": [
       "死亡"

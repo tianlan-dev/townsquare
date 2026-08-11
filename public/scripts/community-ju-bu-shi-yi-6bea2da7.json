@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "局部失忆",
     "author": "Rocky",
-    "logo": "/scripts/assets/community/ea8b4c4f211a3aaa0107d779abcc60e8e3fe052fdf0116302d69a3c31ae6656d.png",
+    "logo": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/ea8b4c4f211a3aaa0107d779abcc60e8e3fe052fdf0116302d69a3c31ae6656d.png",
     "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/jubushiyi/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_jubushiyi",
-    "image": "/scripts/assets/community/accb3a591f94ad90fed035c149ff4d961fee13e3b76910885b899d206de836e4.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/accb3a591f94ad90fed035c149ff4d961fee13e3b76910885b899d206de836e4.png",
     "otherNightReminder": "唤醒玩家，让他选择一个顽疾和一个角色，如果正确获得内个玩家能力，如果时邪恶能力他死亡。",
     "reminders": [
       "获得能力",
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_jubushiyi",
-    "image": "/scripts/assets/community/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/694703f8ce2b4b3c9112e23a23b795155759d4f2cdacd95347a9f3ad7f764b9e.png",
     "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
     "name": "厨师",
     "team": "townsfolk",
@@ -38,7 +38,7 @@
   },
   {
     "id": "2_jubushiyi",
-    "image": "/scripts/assets/community/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/22291369cb6bec9f659dc8f6945611f42e574e58c845a1e9b064d372b9d2e9a3.png",
     "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
     "name": "共情者",
@@ -50,7 +50,7 @@
   },
   {
     "id": "3_jubushiyi",
-    "image": "/scripts/assets/community/1b7d79f030dd5d129db020244109fe31dcacf8f4d71f0dca740a877d7e270c06.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/1b7d79f030dd5d129db020244109fe31dcacf8f4d71f0dca740a877d7e270c06.png",
     "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
     "otherNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
     "reminders": [
@@ -65,7 +65,7 @@
   },
   {
     "id": "4_jubushiyi",
-    "image": "/scripts/assets/community/d96abb8e8d9d81ce65097200834430544502ee7bdb84fb3a187a0adba6fb50bc.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/d96abb8e8d9d81ce65097200834430544502ee7bdb84fb3a187a0adba6fb50bc.png",
     "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
     "reminders": [
       "死亡"
@@ -78,7 +78,7 @@
   },
   {
     "id": "5_jubushiyi",
-    "image": "/scripts/assets/community/0758f78a77190883698fa070679f522aa92e1be0fa70de045c4c3bd9f289970e.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/0758f78a77190883698fa070679f522aa92e1be0fa70de045c4c3bd9f289970e.png",
     "firstNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "otherNightReminder": "让舞蛇人选择一名玩家。如果舞蛇人选中了恶魔：展示“你是”信息标记和恶魔角色标记。用拇指向下代表他阵营变为邪恶。在魔典中交换舞蛇人和恶魔的角色标记。让原来的舞蛇人重新入睡。唤醒原来的恶魔。对老恶魔展示“你是”信息标记和舞蛇人角色标记，并用拇指向上代表他阵营变为善良。",
     "reminders": [
@@ -93,7 +93,7 @@
   },
   {
     "id": "6_jubushiyi",
-    "image": "/scripts/assets/community/562337a186cced3ff6c5277b354da776c0b5e67c79af7258c7bbbdf36ad95ef7.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/562337a186cced3ff6c5277b354da776c0b5e67c79af7258c7bbbdf36ad95ef7.png",
     "firstNightReminder": "给他展示数字手势来告诉他在首个夜晚里有多少玩家的角色能力受他人影响而未正常生效。",
     "otherNightReminder": "给他展示数字手势来告诉他从上个黎明到数学家醒来前有多少玩家的角色能力受他人影响而未正常生效。",
     "reminders": [
@@ -108,7 +108,7 @@
   },
   {
     "id": "7_jubushiyi",
-    "image": "/scripts/assets/community/de14ffae18b92eef052bc6e18d88611ec50db3fdec0036fd75be52b18c27db3b.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/de14ffae18b92eef052bc6e18d88611ec50db3fdec0036fd75be52b18c27db3b.png",
     "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
     "name": "神谕者",
     "team": "townsfolk",
@@ -118,7 +118,7 @@
   },
   {
     "id": "8_jubushiyi",
-    "image": "/scripts/assets/community/474f0b1531fabfd64e832a015fa28a0001b3314064acac4061a1bec3a39f014c.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/474f0b1531fabfd64e832a015fa28a0001b3314064acac4061a1bec3a39f014c.png",
     "otherNightReminder": "半兽人指向一名存活玩家：如果那名玩家善良，则立刻死去且今夜不会再有玩家死亡。",
     "reminders": [
       "死亡"
@@ -131,7 +131,7 @@
   },
   {
     "id": "9_jubushiyi",
-    "image": "/scripts/assets/community/59993ad2a342c2606a6cd3f2fb0c09346a7a8232e24aea49f3ba7b09077181ad.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/59993ad2a342c2606a6cd3f2fb0c09346a7a8232e24aea49f3ba7b09077181ad.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -144,7 +144,7 @@
   },
   {
     "id": "10_jubushiyi",
-    "image": "/scripts/assets/community/89f4b5b11aaef27f5032af4fe24d7433caee477d8dceef7a2171c83bb0102753.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/89f4b5b11aaef27f5032af4fe24d7433caee477d8dceef7a2171c83bb0102753.png",
     "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
     "remindersGlobal": [
       "是炼金术士"
@@ -157,7 +157,7 @@
   },
   {
     "id": "11_jubushiyi",
-    "image": "/scripts/assets/community/3418776dc9bf3f654f05f0e09fc20a28f43410055ea78959611237c23756f08a.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/3418776dc9bf3f654f05f0e09fc20a28f43410055ea78959611237c23756f08a.png",
     "reminders": [
       "中毒",
       "死于今日"
@@ -169,7 +169,7 @@
   },
   {
     "id": "12_jubushiyi",
-    "image": "/scripts/assets/community/c31071a7951eb6755cebc389342be3d745daef42be0f739cc33fff6e27c76f3e.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/c31071a7951eb6755cebc389342be3d745daef42be0f739cc33fff6e27c76f3e.png",
     "remindersGlobal": [
       "是悟道者"
     ],
@@ -181,7 +181,7 @@
   },
   {
     "id": "13_jubushiyi",
-    "image": "/scripts/assets/community/55b9391de418f9f3458d9f8e2f29ca6ea72bc804ab58b2e05f04eb9ebcdc034a.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/55b9391de418f9f3458d9f8e2f29ca6ea72bc804ab58b2e05f04eb9ebcdc034a.png",
     "otherNightReminder": "如果你在夜晚死亡，你会得知在场的恶魔角色。 如果存活玩家中仅存在一名善良玩家或邪恶玩家，你会得知此事，即使你已死亡。",
     "name": "萨满",
     "team": "townsfolk",
@@ -191,7 +191,7 @@
   },
   {
     "id": "14_jubushiyi",
-    "image": "/scripts/assets/community/988276bad326b07aaf72b632e70e3d9c32ca68455d2047daf455c2e77bede06c.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/988276bad326b07aaf72b632e70e3d9c32ca68455d2047daf455c2e77bede06c.png",
     "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
     "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
     "remindersGlobal": [
@@ -207,7 +207,7 @@
   },
   {
     "id": "15_jubushiyi",
-    "image": "/scripts/assets/community/aaf3d9e1d1c9de24bd87075dcc8432fbaf84028a8ec0cb22392d097df10e9ec5.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/aaf3d9e1d1c9de24bd87075dcc8432fbaf84028a8ec0cb22392d097df10e9ec5.png",
     "reminders": [
       "醉酒",
       "已猜测"
@@ -219,7 +219,7 @@
   },
   {
     "id": "16_jubushiyi",
-    "image": "/scripts/assets/community/516780925884c45f572d8775c3af14e00d9a4b91942b71befa13439b9662133e.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/516780925884c45f572d8775c3af14e00d9a4b91942b71befa13439b9662133e.png",
     "firstNightReminder": "在首个夜晚，唤醒食人魔。让食人魔指向一名玩家。让食人魔重新入睡。如果食人魔指向了一名邪恶玩家，将食人魔的角色标记倒转放置，代表食人魔现在属于邪恶阵营。",
     "name": "食人魔",
     "team": "outsider",
@@ -229,7 +229,7 @@
   },
   {
     "id": "17_jubushiyi",
-    "image": "/scripts/assets/community/75482563e5dae610f0176b1fc6e8aa5227629a6550e2583c847cd1dbda757140.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/75482563e5dae610f0176b1fc6e8aa5227629a6550e2583c847cd1dbda757140.png",
     "firstNightReminder": "唤醒恶魔，并对他展示“该角色的能力对你触发”提示标记与书生角色标记。",
     "otherNightReminder": "如果白天恶魔成功猜中了书生是谁，唤醒那个恶魔，让其选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -246,7 +246,7 @@
   },
   {
     "id": "18_jubushiyi",
-    "image": "/scripts/assets/community/6ca2a81153f1e9f97322b2fef58d6684865a0c4f507411c82063f42e51bfe0f8.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/6ca2a81153f1e9f97322b2fef58d6684865a0c4f507411c82063f42e51bfe0f8.png",
     "firstNightReminder": "唤醒书童，让其选择一名玩家，在其选择的玩家标记旁放置“选择”。",
     "reminders": [
       "选择",
@@ -260,7 +260,7 @@
   },
   {
     "id": "19_jubushiyi",
-    "image": "/scripts/assets/community/2a7116c597e1852ee1824ad725b63a01c54c0b1162b83678e4b8db8096024e51.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/2a7116c597e1852ee1824ad725b63a01c54c0b1162b83678e4b8db8096024e51.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -277,7 +277,7 @@
   },
   {
     "id": "20_jubushiyi",
-    "image": "/scripts/assets/community/efc9a985e597a19471d7d6971e9701ead1a5a3a654b5dc299ed52f0c98e0e0f8.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/efc9a985e597a19471d7d6971e9701ead1a5a3a654b5dc299ed52f0c98e0e0f8.png",
     "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
     "reminders": [
       "死亡",
@@ -291,7 +291,7 @@
   },
   {
     "id": "21_jubushiyi",
-    "image": "/scripts/assets/community/2c4e354de1a69c14464b0d913edcec2cdab888c05537faf6508f6255c3e8fc36.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/2c4e354de1a69c14464b0d913edcec2cdab888c05537faf6508f6255c3e8fc36.png",
     "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
     "reminders": [
@@ -306,7 +306,7 @@
   },
   {
     "id": "22_jubushiyi",
-    "image": "/scripts/assets/community/c9d4f0952f766f6dfbe9bd65389c9dc5f852d1d45fe5e38227b513c5a7fa9a56.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/c9d4f0952f766f6dfbe9bd65389c9dc5f852d1d45fe5e38227b513c5a7fa9a56.png",
     "otherNightReminder": "让麻脸巫婆选择一名玩家和一个角色。如果她选择的角色不在场：让麻脸巫婆重新入睡。唤醒她的目标玩家。对该玩家展示“你是”信息标记和他的新角色标记。",
     "name": "麻脸巫婆",
     "team": "minion",
@@ -316,7 +316,7 @@
   },
   {
     "id": "23_jubushiyi",
-    "image": "/scripts/assets/community/372378f7798260faa8f8417d863a3ac2788786b720286aad3560c689935ebf5d.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/372378f7798260faa8f8417d863a3ac2788786b720286aad3560c689935ebf5d.png",
     "reminders": [
       "已公开声明"
     ],
@@ -327,7 +327,7 @@
   },
   {
     "id": "24_jubushiyi",
-    "image": "/scripts/assets/community/2b070de781b18eaf08f1b4048f84841c76c13e6f1f813bb5f3048a51b4e67ae3.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/2b070de781b18eaf08f1b4048f84841c76c13e6f1f813bb5f3048a51b4e67ae3.png",
     "firstNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
     "otherNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
     "reminders": [
@@ -346,7 +346,7 @@
   },
   {
     "id": "25_jubushiyi",
-    "image": "/scripts/assets/community/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/95d4e8d674fddfb90991d3fa6b3e731f13e446bb1da48fe1e69ebc4861d9e5d5.png",
     "otherNightReminder": "让方古选择一名玩家。标记那名玩家死亡。如果他选择了外来者，且“限一次”标记未放置在魔典中：用备用的方古角色标记替换那名外来者的角色标记。让方古重新入睡。唤醒方古的目标玩家。对该玩家展示“你是”信息标记和方古角色标记，并用拇指向下代表他阵营变为邪恶。将“首次”标记放置在魔典中。标记原本的方古玩家死亡，且他选择的玩家不会被标记为死亡。",
     "reminders": [
       "死亡"
@@ -363,7 +363,7 @@
   },
   {
     "id": "26_jubushiyi",
-    "image": "/scripts/assets/community/e18ae10b1120801a3ad262911736a630e0a54d133ceca162b0a1bef1defffb13.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/e18ae10b1120801a3ad262911736a630e0a54d133ceca162b0a1bef1defffb13.png",
     "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
     "reminders": [
       "死亡",
@@ -379,7 +379,7 @@
   },
   {
     "id": "27_jubushiyi",
-    "image": "/scripts/assets/community/2effef79568c17bb58ae963d00e1541d55799ef473a3b003aa0d16f671626b2c.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/2effef79568c17bb58ae963d00e1541d55799ef473a3b003aa0d16f671626b2c.png",
     "firstNightReminder": "寄生蛭指向一名玩家。放置寄生标记，那名玩家中毒。",
     "otherNightReminder": "寄生蛭指向一名玩家。那名玩家死亡。",
     "reminders": [
@@ -395,7 +395,7 @@
   },
   {
     "id": "28_jubushiyi",
-    "image": "/scripts/assets/community/d715d92b1bcb19c2bd265cd688efc00d9dd78e091b48966b34211b8bc8342cc8.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/d715d92b1bcb19c2bd265cd688efc00d9dd78e091b48966b34211b8bc8342cc8.png",
     "otherNightReminder": "唤醒，让他选择一名玩家，为该玩家标记死亡。如果场上存在多名奇美拉，由你来决定谁先行动。",
     "reminders": [
       "死亡",
@@ -409,7 +409,7 @@
   },
   {
     "id": "29_jubushiyi",
-    "image": "/scripts/assets/community/62dc0785ee4355020b19f0c6978d4bf8ed972944f766170cb004338ebfd46e9a.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/62dc0785ee4355020b19f0c6978d4bf8ed972944f766170cb004338ebfd46e9a.png",
     "reminders": [
       "死亡",
       "茶客"
@@ -422,7 +422,7 @@
   },
   {
     "id": "30_jubushiyi",
-    "image": "/scripts/assets/community/95d584d74ddb20d93dff2e3ac0b079381b0701182c9d78c1707f87e714eeb3e1.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/95d584d74ddb20d93dff2e3ac0b079381b0701182c9d78c1707f87e714eeb3e1.png",
     "name": "遗忘之门",
     "team": "fabled",
     "ability": "玩家不知道自己的角色和阵营。当他们死亡时才会得知这些信息。",
@@ -500,7 +500,7 @@
   },
   {
     "id": "41_jubushiyi",
-    "image": "/scripts/assets/community/43fce173facd8a6eee8b8174c234d9a50aecfff0d0c4c9f8185d92e91c1478f9.png",
+    "image": "/scripts/assets/community-ju-bu-shi-yi-6bea2da7/43fce173facd8a6eee8b8174c234d9a50aecfff0d0c4c9f8185d92e91c1478f9.png",
     "name": "一无所知",
     "team": "fabled",
     "ability": "[在游戏的开始之前，需要决定教父还是限加入游戏，他们只会有一个在场。]",

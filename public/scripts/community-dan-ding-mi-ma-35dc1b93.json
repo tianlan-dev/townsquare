@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "但丁密码",
     "author": "没有赞助杯·太一",
-    "logo": "/scripts/assets/community/bf79db10b7bebd9466883f3d4857e164731b8686158ac779dfe8886647efa9c2.png",
+    "logo": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/bf79db10b7bebd9466883f3d4857e164731b8686158ac779dfe8886647efa9c2.png",
     "almanac": "https://www.bloodstar.xyz/p/humlet/JI-SHI/almanac.html",
     "tags": [
       "部分原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "35_jishi",
-    "image": "/scripts/assets/community/91f6b274214194b113b0646d279e61fcfcaa6f2deb2227405a8442ef0ad0fdc6.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/91f6b274214194b113b0646d279e61fcfcaa6f2deb2227405a8442ef0ad0fdc6.png",
     "reminders": [
       "失去能力"
     ],
@@ -26,7 +26,7 @@
   },
   {
     "id": "56_jishi",
-    "image": "/scripts/assets/community/5f8e1acb8aadcdd9556e448a0fd46ae6d2dc91ffb1ee6722034f067d8d348b27.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/5f8e1acb8aadcdd9556e448a0fd46ae6d2dc91ffb1ee6722034f067d8d348b27.png",
     "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
     "reminders": [
       "得知"
@@ -39,7 +39,7 @@
   },
   {
     "id": "57_jishi",
-    "image": "/scripts/assets/community/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/f8e8cee859bce32d56836717c44df9fff3bec65fe32180120a6ee1cddd968877.png",
     "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
     "reminders": [
@@ -54,7 +54,7 @@
   },
   {
     "id": "36_jishi",
-    "image": "/scripts/assets/community/076d63de5259509f7ce60b7422e3380356da98121ce0992e3af54459e3b18348.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/076d63de5259509f7ce60b7422e3380356da98121ce0992e3af54459e3b18348.png",
     "otherNightReminder": "得知正确与否",
     "reminders": [
       "真新闻",
@@ -69,7 +69,7 @@
   },
   {
     "id": "47_jishi",
-    "image": "/scripts/assets/community/082bd1f041ad084a30cc63786d792f84a2993c1b2cabeb76ffa1617808db1647.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/082bd1f041ad084a30cc63786d792f84a2993c1b2cabeb76ffa1617808db1647.png",
     "firstNightReminder": "确定好本局游戏每个花色对应什么角色类型。然后唤醒王牌，让他选择一名玩家，告知他该玩家对应的花色。",
     "otherNightReminder": "唤醒王牌，让他选择一名玩家，告知他该玩家对应的花色。",
     "reminders": [
@@ -88,7 +88,7 @@
   },
   {
     "id": "40_jishi",
-    "image": "/scripts/assets/community/c01e4cfef97f1d755d81d567a396a97617c724ba4fb6214cbeed3ef8bca8f0bf.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/c01e4cfef97f1d755d81d567a396a97617c724ba4fb6214cbeed3ef8bca8f0bf.png",
     "otherNightReminder": "如果游歌者在白天公开选择了，唤醒并告知他此刻场上因他醉酒的人数。",
     "reminders": [
       "醉酒"
@@ -102,7 +102,7 @@
   },
   {
     "id": "55_jishi",
-    "image": "/scripts/assets/community/ded2c10120fa81421bd064e74bba395537aafdbcc1af9b5ebbda33efbc5e35f1.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/ded2c10120fa81421bd064e74bba395537aafdbcc1af9b5ebbda33efbc5e35f1.png",
     "otherNightReminder": "唤醒鸦语者，让他选择2名玩家。如果他选中了当晚死亡的玩家，告知他这两名玩家中是否有邪恶玩家。",
     "name": "鸦语者",
     "team": "townsfolk",
@@ -113,7 +113,7 @@
   },
   {
     "id": "19_jishi",
-    "image": "/scripts/assets/community/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/f9516cf5de417b73d6d567ac7c6528ba945a1fa6b074bdb03b55d99b787db766.png",
     "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
     "reminders": [
       "死亡"
@@ -126,7 +126,7 @@
   },
   {
     "id": "20_jishi",
-    "image": "/scripts/assets/community/3a71494dfc260e1ee3a2ac089c813f5bd5d593a2b9ac02c56e76de0d994106a2.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/3a71494dfc260e1ee3a2ac089c813f5bd5d593a2b9ac02c56e76de0d994106a2.png",
     "otherNightReminder": "让驱魔人选择一名玩家，不能是上一夜他选择过的玩家。让驱魔人重新入睡。如果驱魔人选中了恶魔：唤醒恶魔。展示“该角色的能力对你生效”信息标记和驱魔人角色标记。指向驱魔人玩家。",
     "reminders": [
       "被选择"
@@ -139,7 +139,7 @@
   },
   {
     "id": "61_jishi",
-    "image": "/scripts/assets/community/4880dc6cfe8fb0ae38168d13ca41d288bffa28fcbeb0638712fa95c44ba323e0.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/4880dc6cfe8fb0ae38168d13ca41d288bffa28fcbeb0638712fa95c44ba323e0.png",
     "otherNightReminder": "如果游侠旁边放置了“复仇”，唤醒他让他选择，如果他选择了一名爪牙，为该爪牙标记“死亡”。",
     "reminders": [
       "复仇",
@@ -154,7 +154,7 @@
   },
   {
     "id": "22_jishi",
-    "image": "/scripts/assets/community/62aae27af91ea36030df4fa47e850804381b03ce74b804a14e5d9c400e38340c.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/62aae27af91ea36030df4fa47e850804381b03ce74b804a14e5d9c400e38340c.png",
     "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
     "reminders": [
       "不会死亡",
@@ -168,7 +168,7 @@
   },
   {
     "id": "10_jishi",
-    "image": "/scripts/assets/community/30a7c01af3ac8f2dcc299c343dfd768c5d90b924ea35054674b28c55a21d2231.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/30a7c01af3ac8f2dcc299c343dfd768c5d90b924ea35054674b28c55a21d2231.png",
     "reminders": [
       "对调胜负"
     ],
@@ -180,7 +180,7 @@
   },
   {
     "id": "59_jishi",
-    "image": "/scripts/assets/community/1b486110c68e1501e21181ff84494cd733b7de54f25bd0155a74bc18760f2213.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/1b486110c68e1501e21181ff84494cd733b7de54f25bd0155a74bc18760f2213.png",
     "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
     "reminders": [
@@ -198,7 +198,7 @@
   },
   {
     "id": "8_jishi",
-    "image": "/scripts/assets/community/688ce8887207e8549ff692d4d41e3d07cb390bfc0ee084dc747058e20a585efc.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/688ce8887207e8549ff692d4d41e3d07cb390bfc0ee084dc747058e20a585efc.png",
     "reminders": [
       "露富"
     ],
@@ -210,7 +210,7 @@
   },
   {
     "id": "18_jishi",
-    "image": "/scripts/assets/community/226f3d99634a00030834cc10d1a71b8cd8ef0ba7b4fe948f6382f2573ffa65c3.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/226f3d99634a00030834cc10d1a71b8cd8ef0ba7b4fe948f6382f2573ffa65c3.png",
     "reminders": [
       "保留能力"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "id": "25_jishi",
-    "image": "/scripts/assets/community/94cc964f01cef05b8101c799c2fabf2379b9c1619db8210fb4337f4ed7d1b349.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/94cc964f01cef05b8101c799c2fabf2379b9c1619db8210fb4337f4ed7d1b349.png",
     "reminders": [
       "替死"
     ],
@@ -245,7 +245,7 @@
   },
   {
     "id": "44_jishi",
-    "image": "/scripts/assets/community/3be5c08d691bf7469ddd9b1db92729f80574269f549f1c1d0939470f3d96e874.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/3be5c08d691bf7469ddd9b1db92729f80574269f549f1c1d0939470f3d96e874.png",
     "otherNightReminder": "唤醒他，他要摇头或是选择一个非恶魔角色，为该角色标记死亡。如果他选择的角色不在场，让他再次选择一名玩家，该玩家变成那个角色。",
     "reminders": [
       "失去能力",
@@ -261,7 +261,7 @@
   },
   {
     "id": "53_jishi",
-    "image": "/scripts/assets/community/8fd256ee5f1a691a253ea1230c3b60c6b0599912670b81dbd43278f31647516c.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/8fd256ee5f1a691a253ea1230c3b60c6b0599912670b81dbd43278f31647516c.png",
     "remindersGlobal": [
       "初始玩偶",
       "新玩偶"
@@ -286,12 +286,12 @@
     "flavor": "凡人的视野总被谎言蒙蔽，而我的凝视能穿透一切伪装。当命运的诘问降临时，唯有洞察真理者方能幸存。",
     "firstNight": 12000,
     "otherNight": 11,
-    "image": "/scripts/assets/community/b266f4c3f741d5bc7b573fd2b9c8c80ee57df8abeda1b30869122cc7369e3640.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/b266f4c3f741d5bc7b573fd2b9c8c80ee57df8abeda1b30869122cc7369e3640.png",
     "edition": "custom"
   },
   {
     "id": "52_jishi",
-    "image": "/scripts/assets/community/be897edf126014cf1f3361339dcd0ef9655374755c8428e6d0005519f44c526b.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/be897edf126014cf1f3361339dcd0ef9655374755c8428e6d0005519f44c526b.png",
     "firstNightReminder": "对他展示所有在场的外来者标记。",
     "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
     "reminders": [
@@ -308,7 +308,7 @@
   },
   {
     "id": "30_jishi",
-    "image": "/scripts/assets/community/ff58eb487786e8d6836a28c4d56b5dbea290e32b332328c957ed69a2f9ec76f7.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/ff58eb487786e8d6836a28c4d56b5dbea290e32b332328c957ed69a2f9ec76f7.png",
     "name": "主谋",
     "team": "minion",
     "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
@@ -316,7 +316,7 @@
   },
   {
     "id": "_jishi",
-    "image": "/scripts/assets/community/6a394eb1dcec7fc6c914ef5f5403681855bd7ee7a8a967eb166e13f91bc017ca.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/6a394eb1dcec7fc6c914ef5f5403681855bd7ee7a8a967eb166e13f91bc017ca.png",
     "otherNightReminder": "1",
     "reminders": [
       "死亡",
@@ -331,7 +331,7 @@
   },
   {
     "id": "31_jishi",
-    "image": "/scripts/assets/community/d64b328884e536c318dbb900f5940ae9fae01d812c49b719e6882ba1a700a028.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/d64b328884e536c318dbb900f5940ae9fae01d812c49b719e6882ba1a700a028.png",
     "otherNightReminder": "唤醒刻耳柏洛斯，让他选择一名玩家，如果他选择了爪牙，再次让他选择，直到他选择了一名非爪牙玩家。",
     "reminders": [
       "死亡",
@@ -346,7 +346,7 @@
   },
   {
     "id": "41_jishi",
-    "image": "/scripts/assets/community/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
+    "image": "/scripts/assets/community-dan-ding-mi-ma-35dc1b93/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
     "otherNightReminder": "唤醒塞壬选择一名玩家，为该玩家标记死亡，然后让塞壬选择是否谢幕，如果他点头，为他放置“谢幕”标记。",
     "reminders": [
       "死亡",

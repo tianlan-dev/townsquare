@@ -13,7 +13,7 @@
   },
   {
     "id": "_antutaoshan",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
     "reminders": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "1_antutaoshan",
-    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
     "name": "镇长↥",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -36,7 +36,7 @@
   },
   {
     "id": "2_antutaoshan",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
     "name": "侍女↧",
@@ -48,7 +48,7 @@
   },
   {
     "id": "3_antutaoshan",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
     "name": "筑梦师↧",
@@ -60,7 +60,7 @@
   },
   {
     "id": "4_antutaoshan",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
     "name": "神谕者↥",
     "team": "townsfolk",
@@ -70,7 +70,7 @@
   },
   {
     "id": "5_antutaoshan",
-    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
     "firstNightReminder": "唤醒骑士，对他指向两名非恶魔玩家。",
     "reminders": [
       "得知"
@@ -83,7 +83,7 @@
   },
   {
     "id": "6_antutaoshan",
-    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
     "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
     "reminders": [
       "得知"
@@ -96,7 +96,7 @@
   },
   {
     "id": "7_antutaoshan",
-    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
     "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
     "reminders": [
@@ -112,7 +112,7 @@
   },
   {
     "id": "8_antutaoshan",
-    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
     "name": "戏法师↥",
     "team": "townsfolk",
     "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
@@ -120,7 +120,7 @@
   },
   {
     "id": "9_antutaoshan",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "reminders": [
       "失去能力"
     ],
@@ -131,7 +131,7 @@
   },
   {
     "id": "10_antutaoshan",
-    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
     "firstNightReminder": "唤醒掮客，让他选择两名存活玩家。如果这两个玩家阵营相同，在他俩的角色标记旁放置“交换目标”提示标记。",
     "otherNightReminder": "唤醒掮客，让他选择两名存活玩家。如果这两个玩家阵营相同，在他俩的角色标记旁放置“交换目标”提示标记。",
     "reminders": [
@@ -146,7 +146,7 @@
   },
   {
     "id": "11_antutaoshan",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "firstNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "otherNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
     "name": "引路人↧",
@@ -183,7 +183,7 @@
   },
   {
     "id": "14_antutaoshan",
-    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
     "firstNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
     "otherNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
     "reminders": [
@@ -198,7 +198,7 @@
   },
   {
     "id": "15_antutaoshan",
-    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
     "reminders": [
       "无法提名"
     ],
@@ -253,7 +253,7 @@
   },
   {
     "id": "20_antutaoshan",
-    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -268,7 +268,7 @@
   },
   {
     "id": "21_antutaoshan",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -285,7 +285,7 @@
   },
   {
     "id": "22_antutaoshan",
-    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
     "name": "炸弹人",
     "team": "minion",
     "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
@@ -293,7 +293,7 @@
   },
   {
     "id": "23_antutaoshan",
-    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
     "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
     "reminders": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "24_antutaoshan",
-    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
     "setup": true,
     "name": "暴乱",
     "team": "demon",
@@ -335,7 +335,7 @@
   },
   {
     "id": "26_antutaoshan",
-    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
     "reminders": [
       "晋升",
       "邪恶",
@@ -351,7 +351,7 @@
     "name": "引路人&侍女",
     "team": "a jinxed",
     "ability": "侍女会得知引路人是否醒来，即使她是在引路人之前醒来。",
-    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
     "edition": "custom"
   },
   {
@@ -359,7 +359,7 @@
     "name": "暴乱&镇长",
     "team": "a jinxed",
     "ability": "镇长可以停止提名。如果他这样做了，并且场上只有一名暴乱存活，善良阵营获胜；否则，邪恶阵营获胜。",
-    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "image": "/scripts/assets/community-an-tu-tao-shan-e5fb8231/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
     "edition": "custom"
   }
 ]

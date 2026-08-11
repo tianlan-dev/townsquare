@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "末日清剿",
     "author": "BakedIce",
-    "logo": "/scripts/assets/community/0223d442cdf66ec2431aecca3f72637d4a0658e0d5a6bd4417c0f52c7b7ba51e.png",
+    "logo": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/0223d442cdf66ec2431aecca3f72637d4a0658e0d5a6bd4417c0f52c7b7ba51e.png",
     "almanac": "https://www.bloodstar.xyz/p/BakedIce/The_Last_Cull__/almanac.html",
     "tags": [
       "全原创角色剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "paperboy1_the_last_cull__",
-    "image": "/scripts/assets/community/6082a5eee89f5ce539316f9d03b35a2d90955e6050524b55a00436ba146700e3.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/6082a5eee89f5ce539316f9d03b35a2d90955e6050524b55a00436ba146700e3.png",
     "firstNightReminder": "Show the Paperboy the character token of 3 characters, none of which are in play.",
     "name": "送报童",
     "team": "townsfolk",
@@ -26,7 +26,7 @@
   },
   {
     "id": "violinist1_the_last_cull__",
-    "image": "/scripts/assets/community/453bf7d67423fadb0e5e08b7e691d40ae4923d0c77a2156b19a20ca531a77404.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/453bf7d67423fadb0e5e08b7e691d40ae4923d0c77a2156b19a20ca531a77404.png",
     "firstNightReminder": "Show the Violinist the character token of the player marked \"Known\". Count which direction between this character and the Violinist has the least steps. Then count how many evil players are between the Violinist and that character in this direction. Show fingers (1, 2 etc.) equaling the number of evil players you counted.",
     "reminders": [
       "得知"
@@ -41,7 +41,7 @@
   },
   {
     "id": "trapper_the_last_cull__",
-    "image": "/scripts/assets/community/33ab86f189505cf1a1b79b855dd93f85c5fcbacefb6a445ca5538711a223072a.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/33ab86f189505cf1a1b79b855dd93f85c5fcbacefb6a445ca5538711a223072a.png",
     "firstNightReminder": "Wake the Trapper. Show them the character token of the Minion marked \"Known\". Put the Beastmaster to sleep.",
     "otherNightReminder": "If the Trapper has the Night 3 reminder token, wake the Trapper. Think about what character the Minion marked \"Known\" has been mad that they are. Show the Trapper the character token of this character, and then put them to sleep.",
     "reminders": [
@@ -60,7 +60,7 @@
   },
   {
     "id": "foreman_the_last_cull__",
-    "image": "/scripts/assets/community/079165fd05f074786b374423e7b7b373b81860bb998450c361ff4300120e1dc5.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/079165fd05f074786b374423e7b7b373b81860bb998450c361ff4300120e1dc5.png",
     "firstNightReminder": "The Foreman points to three players who all neighbor each other. If one, and only one, is evil then nod your head yes. If this is not the case, shake your head no.",
     "otherNightReminder": "The Foreman points to three players who all neighbor each other. If one, and only one, is evil then nod your head yes. If this is not the case, shake your head no.",
     "name": "工头",
@@ -74,7 +74,7 @@
   },
   {
     "id": "conspiracist_the_last_cull__",
-    "image": "/scripts/assets/community/2eef6bfd4bacb66d837cd00cf9bcaf980de70f4049c4d66ec2effcdf08fb79ed.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/2eef6bfd4bacb66d837cd00cf9bcaf980de70f4049c4d66ec2effcdf08fb79ed.png",
     "firstNightReminder": "Point to an evil player or an Outsider. Recall that if they have the \"false info\" reminder token, that you must show them a player which is neither (most of the time, this is a Townsfolk).",
     "otherNightReminder": "Point to an evil player or an Outsider. Recall that if they have the \"false info\" reminder token, that you must show them a player which is neither (most of the time, this is a Townsfolk).",
     "reminders": [
@@ -90,7 +90,7 @@
   },
   {
     "id": "conductor_the_last_cull__",
-    "image": "/scripts/assets/community/7743cd3b98c538eacceb06b0fd133893bf9ab020d9157ab1e88357188776eeb1.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/7743cd3b98c538eacceb06b0fd133893bf9ab020d9157ab1e88357188776eeb1.png",
     "firstNightReminder": "Each night, wake the Conductor. They choose up to 2 players -- Mark chosen evil players with the \"Alerted\" reminder. For each Townsfolk or Outsider player chosen, which isn't the Conductor (or a player already chosen), move the \"Train\" reminder one step clockwise. Put the Conductor to sleep. Wake all players with the \"Alerted\" reminder (separately). Show them the \"This player is\" info token and show them the Conductor character token, and point to the Conductor. Remove the \"Alerted\" reminder and put them to sleep.",
     "otherNightReminder": "Each night, wake the Conductor. They choose up to 2 players -- Mark chosen evil players with the \"Alerted\" reminder. For each Townsfolk or Outsider player chosen, which isn't the Conductor (or a player already chosen), move the \"Train\" reminder one step clockwise. Put the Conductor to sleep. Wake all players with the \"Alerted\" reminder (separately). Show them the \"This player is\" info token and show them the Conductor character token, and point to the Conductor. Remove the \"Alerted\" reminder and put them to sleep.",
     "reminders": [
@@ -109,7 +109,7 @@
   },
   {
     "id": "carpenter_the_last_cull__",
-    "image": "/scripts/assets/community/5700820047bb4d0b992b992f5fe39fab506c4447955c7d832f21f262585991f5.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/5700820047bb4d0b992b992f5fe39fab506c4447955c7d832f21f262585991f5.png",
     "otherNightReminder": "Check to see if either of the Demon's alive neighbors have since died. If this is the case, nod to the Carpenter yes, and if not, shake your head to the Carpenter no.",
     "reminders": [
       "被出卖"
@@ -123,7 +123,7 @@
   },
   {
     "id": "iconoclast_the_last_cull__",
-    "image": "/scripts/assets/community/149ba957e4acd85c04af11c2b9f2d21898482720415a9ace8a3059cb376d040c.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/149ba957e4acd85c04af11c2b9f2d21898482720415a9ace8a3059cb376d040c.png",
     "otherNightReminder": "Show the Iconoclast a character token of a player with the \"Voted\" reminder.",
     "reminders": [
       "投票",
@@ -144,7 +144,7 @@
   },
   {
     "id": "savant_the_last_cull__",
-    "image": "/scripts/assets/community/946ba4140d28d786a390424ad34d3983096003fc9110a591146faed1a83daa9f.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/946ba4140d28d786a390424ad34d3983096003fc9110a591146faed1a83daa9f.png",
     "name": "博学者",
     "team": "townsfolk",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -154,7 +154,7 @@
   },
   {
     "id": "nightwatchman_the_last_cull__",
-    "image": "/scripts/assets/community/99ae0de7e1d2e3494898a70d36f5ebb1e5a50066031a27fd83a13f80fd5f76f9.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/99ae0de7e1d2e3494898a70d36f5ebb1e5a50066031a27fd83a13f80fd5f76f9.png",
     "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
@@ -171,7 +171,7 @@
   },
   {
     "id": "candlemaker_the_last_cull__",
-    "image": "/scripts/assets/community/e388b11e29ed97d1bd71f7840d9d779f2669cfb08c038c4cef3e4be6dd75346c.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/e388b11e29ed97d1bd71f7840d9d779f2669cfb08c038c4cef3e4be6dd75346c.png",
     "reminders": [
       "恩惠",
       "失去能力"
@@ -184,7 +184,7 @@
   },
   {
     "id": "ragpicker_the_last_cull__",
-    "image": "/scripts/assets/community/67709ba935e261a5e7e5425701664e7dfe591e2f1792ae0e75ec7042d0813e0d.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/67709ba935e261a5e7e5425701664e7dfe591e2f1792ae0e75ec7042d0813e0d.png",
     "firstNightReminder": "The Ragpicker may point to a character. Point to the player with that character token. If there are none, point to any player.",
     "otherNightReminder": "The Ragpicker may point to a character. Point to the player with that character token. If there are none, point to any player.",
     "reminders": [
@@ -200,7 +200,7 @@
   },
   {
     "id": "medium_the_last_cull__",
-    "image": "/scripts/assets/community/ebb6b73b56b8fca8804cea0403fea47c9fa01425c1aabee2d35cd33fdfcbe2a1.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/ebb6b73b56b8fca8804cea0403fea47c9fa01425c1aabee2d35cd33fdfcbe2a1.png",
     "otherNightReminder": "The Medium will either nod or shake their head. If they nod, point to every dead player that is evil. If there are no dead evil players, shake your head \"no\" instead. Put the Medium to sleep. If they nod, the Medium loses their ability — mark them with the \"No Ability\" reminder and remove their night token from the night sheet. (The Medium won’t wake again.) ",
     "reminders": [
       "失去能力"
@@ -214,7 +214,7 @@
   },
   {
     "id": "captain_the_last_cull__",
-    "image": "/scripts/assets/community/3f3efeb70c8c865a519d86109c9b16853f6abe90d01a2456038be151795941e7.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/3f3efeb70c8c865a519d86109c9b16853f6abe90d01a2456038be151795941e7.png",
     "name": "陆军上尉",
     "team": "outsider",
     "ability": "每个白天，在提名阶段开始前，一名存活玩家可以公开选择另一名存活玩家：他死亡。如果善良玩家这么做，他的阵营落败。",
@@ -224,7 +224,7 @@
   },
   {
     "id": "shade_the_last_cull__",
-    "image": "/scripts/assets/community/b4c20f9441790423f9cf24a0cfa1e3e5a566e478bbdf36c2829eb111d74b9e47.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/b4c20f9441790423f9cf24a0cfa1e3e5a566e478bbdf36c2829eb111d74b9e47.png",
     "otherNightReminder": "Wake the player marked \"Dead\". Show them the \"This character selected you\" info token, and then the Shade character token. Put them to sleep. They die, but do not announce this tomorrow morning. ",
     "reminders": [
       "死亡",
@@ -239,7 +239,7 @@
   },
   {
     "id": "shepherd_the_last_cull__",
-    "image": "/scripts/assets/community/0d3ec610d4f92fc9ad0d347356ecd8f4570881f0239406caf1b30d6fabf39b4b.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/0d3ec610d4f92fc9ad0d347356ecd8f4570881f0239406caf1b30d6fabf39b4b.png",
     "name": "牧羊人",
     "team": "outsider",
     "ability": "如果只有三名玩家存活（旅行者除外），你的阵营会在黄昏时落败。",
@@ -249,7 +249,7 @@
   },
   {
     "id": "cultist_the_last_cull__",
-    "image": "/scripts/assets/community/39fc7f07f2d89e2010bc56ec7b2c476661a9239c7139c168f5ec36686f4f341d.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/39fc7f07f2d89e2010bc56ec7b2c476661a9239c7139c168f5ec36686f4f341d.png",
     "otherNightReminder": "If the Cultist has the \"Apocalypse\" reminder, mark 3 players with the \"Survives\" reminder. That night, every player who doesn't have the \"Survives\" reminder dies. If only 3 players live, remove the Cultist's \"Apocalypse\" reminder token. Remember that the Cultist keeps this ability even after dying.",
     "reminders": [
       "启示录",
@@ -266,7 +266,7 @@
   },
   {
     "id": "gentleman1_the_last_cull__",
-    "image": "/scripts/assets/community/2e7dd9a5bdb08d031ecc0b5fe0fb59e8789f1277a5b565851c628c96ae655375.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/2e7dd9a5bdb08d031ecc0b5fe0fb59e8789f1277a5b565851c628c96ae655375.png",
     "firstNightReminder": "Point to the player marked 'Admirer'.",
     "reminders": [
       "Admirer",
@@ -282,7 +282,7 @@
   },
   {
     "id": "shankaar_the_last_cull__",
-    "image": "/scripts/assets/community/4dadafd7fb937dbb644918bdba8ced66428390cbe5847142a9a37d2ce3203652.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/4dadafd7fb937dbb644918bdba8ced66428390cbe5847142a9a37d2ce3203652.png",
     "firstNightReminder": "Wake all evil players. Show them the 'This character chose you' info token and then the Shankaar character token. Give them a silent countdown of '3, 2, 1…'. They can then secretly communicate for 1 minute. When the minute ends, put all evil players to sleep.",
     "otherNightReminder": "Wake all evil players. Show them the 'This character chose you' info token and then the Shankaar character token. Give them a silent countdown of '3, 2, 1…'. They can then secretly communicate for 1 minute. When the minute ends, put all evil players to sleep.",
     "setup": true,
@@ -297,7 +297,7 @@
   },
   {
     "id": "shankaar2_the_last_cull__",
-    "image": "/scripts/assets/community/bbe124948c44fb3f0696893df3216cc2a662b618ab2c63912ffb205d009a34f7.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/bbe124948c44fb3f0696893df3216cc2a662b618ab2c63912ffb205d009a34f7.png",
     "firstNightReminder": "Wake all evil players. Show them the 'This character chose you' info token and then the Shankaar character token. Give them a silent countdown of '3, 2, 1…'. They can then secretly communicate for 1 minute. When the minute ends, put all evil players to sleep.",
     "otherNightReminder": "Wake all evil players. Show them the 'This character chose you' info token and then the Shankaar character token. Give them a silent countdown of '3, 2, 1…'. They can then secretly communicate for 1 minute. When the minute ends, put all evil players to sleep.",
     "setup": true,
@@ -312,7 +312,7 @@
   },
   {
     "id": "cryomancer_the_last_cull__",
-    "image": "/scripts/assets/community/36270192d78826660c228427c9ae156fed5bb65e61ce237fdacb32982ab86353.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/36270192d78826660c228427c9ae156fed5bb65e61ce237fdacb32982ab86353.png",
     "firstNightReminder": "The Cryomancer either shakes their head or points to a character on their sheet. If the chosen character is in play, they are poisoned -- Mark them with one of the \"Poisoned\" reminder tokens. Put the Cryomancer to sleep. If the player marked \"Frozen\" is alive, wake them. Show them the \"This character selected you\" info token, and then the Cryomancer character token. Then, show them the character token of the character the Cryomancer pointed to. Put them to sleep. Put them to sleep. If the Cryomancer didn't choose a character tonight, don't wake the player marked \"Frozen\".",
     "otherNightReminder": "The Cryomancer either shakes their head or points to a character on their sheet. If the chosen character is in play, they are poisoned -- Mark them with one of the \"Poisoned\" reminder tokens. Put the Cryomancer to sleep. If the player marked \"Frozen\" is alive, wake them. Show them the \"This character selected you\" info token, and then the Cryomancer character token. Then, show them the character token of the character the Cryomancer pointed to. Put them to sleep. Put them to sleep. If the Cryomancer didn't choose a character tonight, don't wake the player marked \"Frozen\".",
     "reminders": [
@@ -334,7 +334,7 @@
   },
   {
     "id": "alphera_the_last_cull__",
-    "image": "/scripts/assets/community/8189791acab82a3186792de0dfec69382c4e9b7b77dc8fe6f2497f4c071634a9.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/8189791acab82a3186792de0dfec69382c4e9b7b77dc8fe6f2497f4c071634a9.png",
     "reminders": [
       "错误"
     ],
@@ -346,7 +346,7 @@
   },
   {
     "id": "zabbyani_the_last_cull__",
-    "image": "/scripts/assets/community/57aaa7255a41e3419c03b72b3ddc53d274500a1dec5e557c08c503026b0c904a.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/57aaa7255a41e3419c03b72b3ddc53d274500a1dec5e557c08c503026b0c904a.png",
     "otherNightReminder": "The Zabb-Yani chooses a player, that player dies -- Mark them with the \"dead\" reminder token. Think about what information this player has gained from abilities or game rules (such as Minion Info) this game. You may take one set of their information, and make whatever changes are needed to make that set of information false (were it to be learned tonight). You may use the Zabb-Yani's \"?\" reminder to aid you in this process.",
     "reminders": [
       "死亡",
@@ -362,7 +362,7 @@
   },
   {
     "id": "ratking_the_last_cull__",
-    "image": "/scripts/assets/community/a0b660c54672d7e88faae89bfeb7fcbea392ce10dc2acc4fdf84cb02e51c49b0.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/a0b660c54672d7e88faae89bfeb7fcbea392ce10dc2acc4fdf84cb02e51c49b0.png",
     "otherNightReminder": "The Rat King chooses a player, that player dies -- Mark them with the \"dead\" reminder token. If this is the first player who's died due to the Rat King ability, their Townsfolk neighbors are poisoned -- Mark them with the \"poisoned\" reminder tokens.",
     "reminders": [
       "死亡",
@@ -378,7 +378,7 @@
   },
   {
     "id": "grimmreaper_the_last_cull__",
-    "image": "/scripts/assets/community/e6dd8851058c016900f7506d4945b8fcc7e261724ab3300e38a497e7d5cd8658.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/e6dd8851058c016900f7506d4945b8fcc7e261724ab3300e38a497e7d5cd8658.png",
     "firstNightReminder": "During the first night, before they receive their Demon info, show the Grimm Reaper the character token of the player marked \"Known\". If there are less than 7 players, put the Grimm Reaper to sleep. If there are 7 or more players, provide the Grimm Reaper the rest of their Demon info, and then put them to sleep. After putting the Grimm Reaper to sleep, wake the player marked \"Known\" player, and show them the \"This character selected you\" info token and then the Grimm Reaper token. Put this player to sleep.",
     "otherNightReminder": "The Grimm Reaper points at any player. The chosen player dies—mark them with the \"Dead\" reminder token. Put the Grimm Reaper to sleep",
     "reminders": [
@@ -397,7 +397,7 @@
   },
   {
     "id": "creepsye_the_last_cull__",
-    "image": "/scripts/assets/community/c74bca11ae70f2296aca9c851686dc9258750ad21d66193011ed66acc7090714.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/c74bca11ae70f2296aca9c851686dc9258750ad21d66193011ed66acc7090714.png",
     "otherNightReminder": "Choose a player who dies--mark them with the \"Dead\" reminder token. Remember that the Creepsye does not choose this player.",
     "reminders": [
       "死亡"
@@ -413,7 +413,7 @@
   },
   {
     "id": "coalcrusher_the_last_cull__",
-    "image": "/scripts/assets/community/c38855646752c6286ce70bce51b3896283782724681d73777f650f9507738d74.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/c38855646752c6286ce70bce51b3896283782724681d73777f650f9507738d74.png",
     "firstNightReminder": "remove the \"Empowered\" reminder token. The Coalcrusher chooses a player who isn't themself -- Mark this player with the \"Empowered\" reminder token.",
     "otherNightReminder": "remove the \"Empowered\" reminder token. The Coalcrusher chooses a player who isn't themself -- Mark this player with the \"Empowered\" reminder token.",
     "reminders": [
@@ -431,7 +431,7 @@
   },
   {
     "id": "loomweaver_the_last_cull__",
-    "image": "/scripts/assets/community/8a394f46254e4279b5135faa5c7739edd47b1030b0535c1d1a03b6b8af5ce092.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/8a394f46254e4279b5135faa5c7739edd47b1030b0535c1d1a03b6b8af5ce092.png",
     "firstNightReminder": "Each night, wake the Loom weaver. They will either shake their head, or point to 2 players. If they point to 2 players, mark the Loom Weaver with the \"Once\" reminder token. If they already have this reminder token, mark them with the \"No Ability\" reminder token. If those 2 players are of the same alignments, swap their character tokens and mark both with the \"Swapped\" reminder tokens. Put the Loom Weaver to sleep. If the Loom Weaver has the \"No ability\" reminder token, remove their night token from the night sheet.",
     "otherNightReminder": "Each night, wake the Loom weaver. They will either shake their head, or point to 2 players. If they point to 2 players, mark the Loom Weaver with the \"Once\" reminder token. If they already have this reminder token, mark them with the \"No Ability\" reminder token. If those 2 players are of the same alignments, swap their character tokens and mark both with the \"Swapped\" reminder tokens. Put the Loom Weaver to sleep. If the Loom Weaver has the \"No ability\" reminder token, remove their night token from the night sheet.",
     "reminders": [
@@ -451,7 +451,7 @@
   },
   {
     "id": "lumberman_the_last_cull__",
-    "image": "/scripts/assets/community/cdfa4a3a37bc13dfda403cf94da4738d58c09666b23bfd938ed4efedb4e27e26.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/cdfa4a3a37bc13dfda403cf94da4738d58c09666b23bfd938ed4efedb4e27e26.png",
     "reminders": [
       "票数不计",
       "失去能力"
@@ -465,7 +465,7 @@
   },
   {
     "id": "horsehearer_the_last_cull__",
-    "image": "/scripts/assets/community/ab160951dc018416cb601809a033f483df2e669f670fa16cf460be74d2b728a0.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/ab160951dc018416cb601809a033f483df2e669f670fa16cf460be74d2b728a0.png",
     "firstNightReminder": "Wake the Horse Hearer. They point at a player -- Mark them with the \"Drunk\" reminder token, they are drunk. Put the Horse Hearer to sleep. Wake the chosen player. Show them the \"This character selected you\" info token, and then the Horse Hearer character token. They will either nod or shake their head. If they shake their head, they are no longer drunk -- remove the \"Drunk\" reminder token. Put them to sleep. Wake the Horse Hearer. Show them what the chosen player did (so if they shook their head, you then shake yours). Put the Horse Hearer to sleep.",
     "otherNightReminder": "Wake the Horse Hearer. They point at a player -- Mark them with the \"Drunk\" reminder token, they are drunk. Put the Horse Hearer to sleep. Wake the chosen player. Show them the \"This character selected you\" info token, and then the Horse Hearer character token. They will either nod or shake their head. If they shake their head, they are no longer drunk -- remove the \"Drunk\" reminder token. Put them to sleep. Wake the Horse Hearer. Show them what the chosen player did (so if they shook their head, you then shake yours). Put the Horse Hearer to sleep.",
     "reminders": [
@@ -482,7 +482,7 @@
   },
   {
     "id": "facestealer_the_last_cull__",
-    "image": "/scripts/assets/community/e2573a07d9c1a53c0a291f979773978e46fc50b9a98b57314c6efd048e3e721c.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/e2573a07d9c1a53c0a291f979773978e46fc50b9a98b57314c6efd048e3e721c.png",
     "reminders": [
       "疯狂"
     ],
@@ -495,7 +495,7 @@
   },
   {
     "id": "photographer_the_last_cull__",
-    "image": "/scripts/assets/community/9ced799e4330ea0cd75c1a21ab629debcc3e1ce24c93b02e0afb7552dd02fb6e.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/9ced799e4330ea0cd75c1a21ab629debcc3e1ce24c93b02e0afb7552dd02fb6e.png",
     "otherNightReminder": "Show the player you choose the \"This character selected you\" Info Token and the Photographer Character Token. They then point to a player that they trust -- Mark them with the \"Trusted\" reminder token.",
     "reminders": [
       "信任"
@@ -510,7 +510,7 @@
   },
   {
     "id": "scavenger_the_last_cull__",
-    "image": "/scripts/assets/community/e8b34e19a5c5360d1b32c016f784ca61c9d44ee96846d94230abddf1135e14f4.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/e8b34e19a5c5360d1b32c016f784ca61c9d44ee96846d94230abddf1135e14f4.png",
     "name": "清道夫",
     "team": "fabled",
     "ability": "游戏的最后一天持续时间会更长。",
@@ -520,7 +520,7 @@
   },
   {
     "id": "attendee_the_last_cull__",
-    "image": "/scripts/assets/community/e3e9ccb40bec3a028dab387d9ef075e89956a980cb2a859f0d92122ae9163961.png",
+    "image": "/scripts/assets/community-mo-ri-qing-jiao-51ce9586/e3e9ccb40bec3a028dab387d9ef075e89956a980cb2a859f0d92122ae9163961.png",
     "name": "出席者",
     "team": "fabled",
     "ability": "玩家们必须举手并被说书人点名后才能进行公开行动。",

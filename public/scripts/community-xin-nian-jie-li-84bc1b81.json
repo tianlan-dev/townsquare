@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "信念解离+",
     "author": "Cake&David",
-    "logo": "/scripts/assets/community/dda03f5fa87e85f88f9d43347b23c7e76b094c39435a85caa614310548d0eb10.png",
+    "logo": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/dda03f5fa87e85f88f9d43347b23c7e76b094c39435a85caa614310548d0eb10.png",
     "tags": [
       "全原创角色剧本",
       "海外"
@@ -12,7 +12,7 @@
   },
   {
     "id": "copycat",
-    "image": "/scripts/assets/community/7981c06125d045994375e461c6345e18442b4ede6c0573f1fbc2396836a1673b.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/7981c06125d045994375e461c6345e18442b4ede6c0573f1fbc2396836a1673b.png",
     "firstNight": 10,
     "firstNightReminder": "唤醒模仿者，让他指向一名玩家。如果那名玩家属于善良阵营，向模仿者展示“你是”提示卡，并展示那名玩家的角色标记。将模仿者的角色标记替换为那名玩家的角色标记，并为他放置是模仿者标记。否则：向模仿者展示“你是”提示卡，并展示任意角色标记，并为他放置是醉酒标记。",
     "otherNight": 0,
@@ -27,7 +27,7 @@
   },
   {
     "id": "headnurse",
-    "image": "/scripts/assets/community/860cc03e381e7456c164cb4b31b012e8f56e287122dafa2d4e9fcc41376fd6cb.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/860cc03e381e7456c164cb4b31b012e8f56e287122dafa2d4e9fcc41376fd6cb.png",
     "firstNight": 0,
     "otherNight": 9,
     "otherNightReminder": "移除巡视标记。唤醒护士长并让他指向一名玩家，为他放置巡视标记，让护士长入睡。在合适的时候唤醒护士长，向他指出那名玩家选择的目标，并展示那名玩家得到的信息。如果护士长选中了恶魔，唤醒恶魔，向他展示“你是”提示卡，并展示他的恶魔角色标记。",
@@ -41,7 +41,7 @@
   },
   {
     "id": "psychologist",
-    "image": "/scripts/assets/community/88d6dd506db9337998ddd3e9f653c0a32ddf9e94d495342858b13f39300c7e54.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/88d6dd506db9337998ddd3e9f653c0a32ddf9e94d495342858b13f39300c7e54.png",
     "firstNight": 0,
     "otherNight": 10,
     "otherNightReminder": "唤醒心理医生并让他指向一名玩家，让心理医生入睡。唤醒那名玩家，向他展示“这名角色选择了你”并展示心理医生角色标记。如果他摇头拒绝，让他入睡。如果他点头同意，如果他是恶魔，向他点头代表“是”，否则摇头代表“否”。唤醒心理医生，给出相同的信息。",
@@ -53,7 +53,7 @@
   },
   {
     "id": "conspiracy",
-    "image": "/scripts/assets/community/b3d54a4d5535aaf6ae26b507e4307d8f1843b2ab752e06332b9f2aa28415da0a.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/b3d54a4d5535aaf6ae26b507e4307d8f1843b2ab752e06332b9f2aa28415da0a.png",
     "firstNight": 14,
     "firstNightReminder": "唤醒阴谋论者，让他指出与初始邪恶玩家数量相等的玩家。如果他指出所有邪恶玩家，善良阵营获胜。",
     "otherNight": 12,
@@ -68,7 +68,7 @@
   },
   {
     "id": "vividdreamer",
-    "image": "/scripts/assets/community/c71dbba8bd84003ccf8483688d2e86a3e202842dd9f51a84e813df383b2ad9e5.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/c71dbba8bd84003ccf8483688d2e86a3e202842dd9f51a84e813df383b2ad9e5.png",
     "firstNight": 13,
     "firstNightReminder": "唤醒白日梦想家，说书人选择一个信息选项。让白日梦想家指向两名玩家，按照信息选项，点头代表“是”，摇头代表“否”。为白日梦想家放置该信息选项的标记。",
     "otherNight": 11,
@@ -86,7 +86,7 @@
   },
   {
     "id": "pillhorder",
-    "image": "/scripts/assets/community/d98dff568fcc95c5b793dd5b2de129614efcb7fce65fa84f30c3ed35aa56fb7e.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/d98dff568fcc95c5b793dd5b2de129614efcb7fce65fa84f30c3ed35aa56fb7e.png",
     "firstNight": 11,
     "firstNightReminder": "唤醒药师，让他指向两名玩家。为其中一名玩家放置保护标记，为另一名玩家放置醉酒标记。",
     "otherNight": 2,
@@ -102,7 +102,7 @@
   },
   {
     "id": "securityguard",
-    "image": "/scripts/assets/community/8711904a40cc0ea16b0d39d08ad66df5c4d04c755ebf6c3ea8521a639ea7f50a.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/8711904a40cc0ea16b0d39d08ad66df5c4d04c755ebf6c3ea8521a639ea7f50a.png",
     "firstNight": 12,
     "firstNightReminder": "唤醒安保人员，让他指向两名玩家。如果他们之中有爪牙，为他放置不被唤醒标记。",
     "otherNight": 3,
@@ -118,7 +118,7 @@
   },
   {
     "id": "clairvoyant",
-    "image": "/scripts/assets/community/91e1216ba3dccdfac85860fcc295af863a98ded42dd7c5c73239ca8ed44266ed.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/91e1216ba3dccdfac85860fcc295af863a98ded42dd7c5c73239ca8ed44266ed.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 8,
@@ -134,7 +134,7 @@
   },
   {
     "id": "liar",
-    "image": "/scripts/assets/community/d1b64c52390fc051f70ad9903204cd5f2b43918cace1b9791099caa2de85ffa5.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/d1b64c52390fc051f70ad9903204cd5f2b43918cace1b9791099caa2de85ffa5.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 5,
@@ -150,7 +150,7 @@
   },
   {
     "id": "doomsdaypreacher",
-    "image": "/scripts/assets/community/abe41c27901c0a145a1fd70a0bf858b0897b2e52badc4dcf3e27da441b52f9c3.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/abe41c27901c0a145a1fd70a0bf858b0897b2e52badc4dcf3e27da441b52f9c3.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 13,
@@ -165,7 +165,7 @@
   },
   {
     "id": "scaredycat",
-    "image": "/scripts/assets/community/d6f82f723ee6bf0a7b75e3a4c4f368a3252b0514c9722601bf99fcfc1da5a02a.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/d6f82f723ee6bf0a7b75e3a4c4f368a3252b0514c9722601bf99fcfc1da5a02a.png",
     "firstNight": 0,
     "otherNight": 7,
     "otherNightReminder": "移除所有标记。唤醒胆小鬼，让他指出二至四名玩家。如果选中恶魔，为胆小鬼放置不会死亡标记。",
@@ -180,7 +180,7 @@
   },
   {
     "id": "corpseobsessed",
-    "image": "/scripts/assets/community/0c91c193891201ed0b1e1d278cf203a0db19be2fd6d3059936e03b2b4953c1f9.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/0c91c193891201ed0b1e1d278cf203a0db19be2fd6d3059936e03b2b4953c1f9.png",
     "firstNight": 16,
     "firstNightReminder": "唤醒冰恋者，让他指向两名玩家。为他们放置迷恋标记。",
     "otherNight": 15,
@@ -196,7 +196,7 @@
   },
   {
     "id": "interrogator",
-    "image": "/scripts/assets/community/07a3e0aee08771b92dffe339105e4aeef90b9abfa30915fb23d85439a307bdff.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/07a3e0aee08771b92dffe339105e4aeef90b9abfa30915fb23d85439a307bdff.png",
     "firstNight": 15,
     "firstNightReminder": "为一名玩家放置干扰项标记。唤醒审讯官，让他指向两名玩家。如果他们之中有邪恶玩家，点头代表“是”，否则，摇头表示“否”。",
     "otherNight": 14,
@@ -213,7 +213,7 @@
   },
   {
     "id": "anarchist",
-    "image": "/scripts/assets/community/c8da6454ae8130ff966cc95503a0ef40126afb5494ef8fcbfb8185c127676779.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/c8da6454ae8130ff966cc95503a0ef40126afb5494ef8fcbfb8185c127676779.png",
     "firstNight": 9,
     "firstNightReminder": "唤醒无政府主义者，让他指向两名存活玩家。为他们放置被选择标记。他们之中任何一名玩家被其他玩家使用自身能力选择时，可能会改为选中另一名玩家。",
     "otherNight": 1,
@@ -229,7 +229,7 @@
   },
   {
     "id": "nihilist",
-    "image": "/scripts/assets/community/76dbac0f971f0e3d2b55b07122728a47c26167068b3f9597523c507c475e7ef5.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/76dbac0f971f0e3d2b55b07122728a47c26167068b3f9597523c507c475e7ef5.png",
     "firstNight": 0,
     "otherNight": 6,
     "otherNightReminder": "唤醒虚无主义者，让他指向两名存活玩家。为他们放置被选择标记。他们之中任何一名玩家在今晚死亡时，可能会改为虚无主义者死亡。",
@@ -244,7 +244,7 @@
   },
   {
     "id": "rambler",
-    "image": "/scripts/assets/community/7f2f3915092981536cdfdef49514478e6cf55e67de18dd7299ef5c0e6e3cd621.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/7f2f3915092981536cdfdef49514478e6cf55e67de18dd7299ef5c0e6e3cd621.png",
     "firstNight": 19,
     "firstNightReminder": "说书人选择一名没有已疯狂标记的玩家。告诉他今天白天要“疯狂”地证明自己是漫步者。为他放置疯狂标记。",
     "otherNight": 22,
@@ -260,7 +260,7 @@
   },
   {
     "id": "joker",
-    "image": "/scripts/assets/community/0895d2710e608f2549c8df333fa02060ec43a11973257f5bd23d819a8643a872.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/0895d2710e608f2549c8df333fa02060ec43a11973257f5bd23d819a8643a872.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -271,7 +271,7 @@
   },
   {
     "id": "gaslighter",
-    "image": "/scripts/assets/community/455f2be3adfce4ad2ab19e80d44176a1d06a5eccc2e40d099da0f57792d91761.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/455f2be3adfce4ad2ab19e80d44176a1d06a5eccc2e40d099da0f57792d91761.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
@@ -287,7 +287,7 @@
   },
   {
     "id": "shoulderangel",
-    "image": "/scripts/assets/community/def36faf49495c9fc074b5ef4fc922a1dc11eb355782ca4279caa94a64456d0d.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/def36faf49495c9fc074b5ef4fc922a1dc11eb355782ca4279caa94a64456d0d.png",
     "firstNight": 0,
     "otherNight": 4,
     "otherNightReminder": "移除罪孽标记。唤醒断罪天使，让他指向一名与上个夜晚不同的玩家，为那名玩家放置罪孽标记。",
@@ -301,7 +301,7 @@
   },
   {
     "id": "shoulderdevil",
-    "image": "/scripts/assets/community/22949735ae0b851232294323751b1fb4f41e1a23f4c50dcaa4b1f26107347096.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/22949735ae0b851232294323751b1fb4f41e1a23f4c50dcaa4b1f26107347096.png",
     "firstNight": 18,
     "firstNightReminder": "唤醒一名善良玩家，展示“该角色在场”提示卡，并展示代行邪魔的角色标记。为他放置被知晓标记。",
     "otherNight": 16,
@@ -318,7 +318,7 @@
   },
   {
     "id": "schemer",
-    "image": "/scripts/assets/community/b96566bb68780ddd5026774767a0dcbeb10c0d5b51a7e2d888b2a171d820ed5e.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/b96566bb68780ddd5026774767a0dcbeb10c0d5b51a7e2d888b2a171d820ed5e.png",
     "firstNight": 17,
     "firstNightReminder": "唤醒幕后黑手，给他指出恶魔当晚选择的玩家。如果他点头，为他放置化身为魔标记，将他的角色标记替换为那个善良角色标记，并为他放置恶魔提示标记（可以与当前恶魔不同）。向他展示“你是”提示卡，并展示一个善良角色。。移除当前恶魔的恶魔提示标记。如果幕后黑手变为二重身，他会得知一个在场的善良角色，并且他与那个在场善良角色的玩家都变为二重身。",
     "otherNight": 21,
@@ -334,7 +334,7 @@
   },
   {
     "id": "psycho",
-    "image": "/scripts/assets/community/72501d217dac2c1a84517053a4436400ddaaca3d162bbbe21c5e1b03ed6298ef.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/72501d217dac2c1a84517053a4436400ddaaca3d162bbbe21c5e1b03ed6298ef.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
@@ -352,7 +352,7 @@
   },
   {
     "id": "maniac",
-    "image": "/scripts/assets/community/e915bb173412e383d1d9395776f0cb1602059424bd89871a3a036359f00a0962.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/e915bb173412e383d1d9395776f0cb1602059424bd89871a3a036359f00a0962.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 18,
@@ -370,7 +370,7 @@
   },
   {
     "id": "sociopath",
-    "image": "/scripts/assets/community/c1570e4e308b984f7aedb0cc69cf29f811495ac40ff1cdacca2fd4f6ebc00db7.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/c1570e4e308b984f7aedb0cc69cf29f811495ac40ff1cdacca2fd4f6ebc00db7.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
@@ -388,7 +388,7 @@
   },
   {
     "id": "doppelganger",
-    "image": "/scripts/assets/community/f535b36e8735eb6396cfab0b677fe193f4e94d36dc4c360dcc400bdaba77061a.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/f535b36e8735eb6396cfab0b677fe193f4e94d36dc4c360dcc400bdaba77061a.png",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 20,
@@ -405,7 +405,7 @@
   },
   {
     "id": "Misremember",
-    "image": "/scripts/assets/community/b4ea241fa590198382c9bf3a7e497e6e466bb44280d7bab3d36b4a24d99d7d43.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/b4ea241fa590198382c9bf3a7e497e6e466bb44280d7bab3d36b4a24d99d7d43.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -416,7 +416,7 @@
   },
   {
     "id": "twistedminds",
-    "image": "/scripts/assets/community/c121362192f73b7a955d2c0ba143df39cf7467fa331358f40ab27000fdaab69c.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/c121362192f73b7a955d2c0ba143df39cf7467fa331358f40ab27000fdaab69c.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -427,7 +427,7 @@
   },
   {
     "id": "Blood thirst",
-    "image": "/scripts/assets/community/3dffdda024b122fedd97477a90c95e64f47a645c0b6d41765e88f28dbd9fcdb5.png",
+    "image": "/scripts/assets/community-xin-nian-jie-li-84bc1b81/3dffdda024b122fedd97477a90c95e64f47a645c0b6d41765e88f28dbd9fcdb5.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],

@@ -46,7 +46,7 @@
     "name_eng": "QiaoFu_Duck",
     "ability": "每个夜晚，你会得知一个角色，并且会得知该角色是否在场。",
     "flavor": "",
-    "image": "/scripts/assets/community/55b97a909ed370b1d1bd20be127d15eb4661ffc60bba058a7303e0a95b4f7ab0.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/55b97a909ed370b1d1bd20be127d15eb4661ffc60bba058a7303e0a95b4f7ab0.png",
     "setup": false
   },
   {
@@ -63,7 +63,7 @@
     "team": "townsfolk",
     "name_eng": "XiMoRen_Duck",
     "ability": "每个夜晚，你要选择除你以外的两名玩家（要与之前的选择都不同）：你会得知被你选择过的存活玩家中，邪恶玩家的数量与善良玩家的数量是否相等。",
-    "image": "/scripts/assets/community/5127fe0cbaa6b0a3ca54b82c2dcf7bbb4256036df73ae5895c5ea660ebe82968.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/5127fe0cbaa6b0a3ca54b82c2dcf7bbb4256036df73ae5895c5ea660ebe82968.png",
     "flavor": "",
     "setup": false
   },
@@ -82,7 +82,7 @@
     "team": "townsfolk",
     "name_eng": "QianPan_Duck",
     "ability": "每个夜晚，你可以选择一名存活玩家：他开始得知正确信息。如果与他邻近的玩家中有外来者，你在下个白天不能发起提名且你会得知此信息。",
-    "image": "/scripts/assets/community/7ea40e043abfa19436aaf9e8e72dba67198e555844adf31e5546cf2a1a5be9e4.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/7ea40e043abfa19436aaf9e8e72dba67198e555844adf31e5546cf2a1a5be9e4.png",
     "flavor": "",
     "setup": false
   },
@@ -100,7 +100,7 @@
     "team": "townsfolk",
     "name_eng": "QiShi_Duck",
     "ability": "每个夜晚*，你可以选择除棋士外的一个角色：如果该角色在场，你会得知与该角色玩家最远的存活玩家中是否有邪恶玩家；否则你死亡。",
-    "image": "/scripts/assets/community/33ccdf0c573c8792ea7080da7bdfb6908325b1dc73f0a6aeb6414f43c8bf845d.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/33ccdf0c573c8792ea7080da7bdfb6908325b1dc73f0a6aeb6414f43c8bf845d.png",
     "flavor": "",
     "setup": false
   },
@@ -116,7 +116,7 @@
     "team": "townsfolk",
     "name_eng": "ShuoShuMenTu_Duck",
     "ability": "每个白天，你可以拜访说书人以得知一个故事片段：它反映了场上发生过的事。但你不能向其他人透露原内容。",
-    "image": "/scripts/assets/community/db915cd2a2158d2dbbfb1ba3ccba87c5768c3172eb921561fa4dc2e1ef65f12d.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/db915cd2a2158d2dbbfb1ba3ccba87c5768c3172eb921561fa4dc2e1ef65f12d.png",
     "flavor": "",
     "setup": false
   },
@@ -134,7 +134,7 @@
     "team": "townsfolk",
     "name_eng": "ShiPo_Duck",
     "ability": "每局游戏限一次，在夜晚时，你可以选择最多五个角色：你会得知与你选择的在场邪恶角色相比，选择中的在场善良角色情况（更多/更少/相等）。",
-    "image": "/scripts/assets/community/6203f8b411cbbfcc6c22f21f55200dc4616b7c5385ba3d5581fd64ba228c3e7d.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/6203f8b411cbbfcc6c22f21f55200dc4616b7c5385ba3d5581fd64ba228c3e7d.png",
     "flavor": "",
     "setup": false
   },
@@ -153,7 +153,7 @@
     "team": "townsfolk",
     "name_eng": "LiFu_Duck",
     "ability": "每个白天，你可以询问一名玩家：如果他同意且你们阵营相同，你变成他的角色，他变成嫠妇；如果他同意且他是邪恶的，你们交换阵营，但每局游戏仅能成功转化一次，且他不知道角色或阵营的变化。",
-    "image": "/scripts/assets/community/e6c5e841ea6ace1c014730ebb946db5ca41e3695288e80d89fb85cc7730bd59f.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/e6c5e841ea6ace1c014730ebb946db5ca41e3695288e80d89fb85cc7730bd59f.png",
     "flavor": "",
     "setup": false
   },
@@ -171,7 +171,7 @@
     "team": "townsfolk",
     "name_eng": "ZhuMaWuCai_Duck",
     "ability": "你以为你是一个镇民角色，但其实你不是。如果在今天白天你被青梅无忌提名过，你会在当晚被唤醒且得知此信息，然后你获得你以为的角色能力。[+青梅无忌]",
-    "image": "/scripts/assets/community/8e7e6fe478aa0d83ac4e5076434709a46fa05c3b43c620c58697d42e58e6e422.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/8e7e6fe478aa0d83ac4e5076434709a46fa05c3b43c620c58697d42e58e6e422.png",
     "flavor": "",
     "setup": true
   },
@@ -189,7 +189,7 @@
     "team": "townsfolk",
     "name_eng": "QingMeiWuJi_Duck",
     "ability": "当你发起提名时，如果被你提名的玩家是镇民且不是竹马无猜，他会在黄昏时变成竹马无猜。",
-    "image": "/scripts/assets/community/adc613bbd19ea721f50c271b6062b0c6a1ef317c3cc72654c88fbd59d41f2070.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/adc613bbd19ea721f50c271b6062b0c6a1ef317c3cc72654c88fbd59d41f2070.png",
     "flavor": "",
     "setup": false
   },
@@ -208,7 +208,7 @@
     "team": "townsfolk",
     "name_eng": "uangJuanXia_Duck",
     "ability": "当你死亡时，与你对立阵营的玩家（不包括旅行者）开始醉酒直到他参与的提名结束。在夜晚时，如果有玩家因你的能力而醉酒，可能会有一名玩家死亡，即使你已死亡。",
-    "image": "/scripts/assets/community/d231f76e785307d48cccf153a6e7a19eb3d5417753b09f94d63389fe3e0e5abc.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/d231f76e785307d48cccf153a6e7a19eb3d5417753b09f94d63389fe3e0e5abc.png",
     "flavor": "",
     "setup": false
   },
@@ -227,7 +227,7 @@
     "team": "townsfolk",
     "name_eng": "XuZhiGong_Duck",
     "ability": "你不会变成其他角色。当你死亡时，一名与你阵营相同的玩家会得知你是虚枝公，且如果他存活，他获得你所有的能力。",
-    "image": "/scripts/assets/community/8bb9c31982f88c9b89288f9609195ce6fd8ad0bb6ee9bf5a16a9f3042020fd59.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/8bb9c31982f88c9b89288f9609195ce6fd8ad0bb6ee9bf5a16a9f3042020fd59.png",
     "flavor": "",
     "setup": false
   },
@@ -246,7 +246,7 @@
     "team": "townsfolk",
     "name_eng": "QianDao_Duck",
     "ability": "当邪恶玩家的能力在夜晚选择你时（首个夜晚除外），你死亡，然后你得知在场的恶魔角色。[恶魔获得并得知初始爪牙配置数加一的爪牙能力，无爪牙在场]",
-    "image": "/scripts/assets/community/7d8bf3f4711b9489fd2ae76629ba796f1cd2bf8723b3c40a5f78307e8ef9eca1.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/7d8bf3f4711b9489fd2ae76629ba796f1cd2bf8723b3c40a5f78307e8ef9eca1.png",
     "flavor": "",
     "setup": true
   },
@@ -267,7 +267,7 @@
     "team": "townsfolk",
     "name_eng": "TaoHuaXian_Duck",
     "ability": "在你累计参与两次，五次，九次提名的当晚，由你二选一：1）你在下个白天可以拜访说书人以得知一条正确信息；2）你得知并获得一个善良角色的能力。",
-    "image": "/scripts/assets/community/af5e3c66d0470f7ce4eef1cd1d27845601b5ba82b7f55515361a8f1c71e126ca.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/af5e3c66d0470f7ce4eef1cd1d27845601b5ba82b7f55515361a8f1c71e126ca.png",
     "flavor": "",
     "setup": false
   },
@@ -286,7 +286,7 @@
     "team": "outsider",
     "name_eng": "HuanMeng_Duck",
     "ability": "你以为你是一个其他角色，但其实你不是。如果在白天外来者都参与过提名，当晚，邪恶玩家和外来者都会得知此信息，即使你醉酒，中毒或已死亡。［所有外来者都是欢梦]",
-    "image": "/scripts/assets/community/6eaccf2acb6347cf13dd1170131874865e164939cd7d64e76015a55bdf13d28b.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/6eaccf2acb6347cf13dd1170131874865e164939cd7d64e76015a55bdf13d28b.png",
     "flavor": "",
     "setup": true
   },
@@ -306,7 +306,7 @@
     "team": "outsider",
     "name_eng": "FengYan_Duck",
     "ability": "每个白天，你可以拜访说书人以得知一名善良玩家。在你没有得知信息的当晚，恶魔会被唤醒并得知一名玩家和他的角色，即使你已死亡。当你死亡时，你得知过的玩家都会死亡。",
-    "image": "/scripts/assets/community/247952ab7e014499b1b12e70845336c55eee747b51d2ea8c151808897274cf85.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/247952ab7e014499b1b12e70845336c55eee747b51d2ea8c151808897274cf85.png",
     "flavor": "",
     "setup": false
   },
@@ -324,7 +324,7 @@
     "team": "outsider",
     "name_eng": "FuShengKe",
     "ability": "在没有善良玩家提名你的当晚，会有两名存活善良玩家变为浮生客，即使你已死亡。如果所有存活善良玩家都是浮生客（旅行者不计算在内），善良阵营落败。",
-    "image": "/scripts/assets/community/09135f14fdcbee597968b997f32b731535f26ba79222659e7fc34e949e077c06.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/09135f14fdcbee597968b997f32b731535f26ba79222659e7fc34e949e077c06.png",
     "flavor": "",
     "setup": false
   },
@@ -340,7 +340,7 @@
     "team": "outsider",
     "name_eng": "LangDangZi",
     "ability": "你可能会被当作邪恶阵营，即使你已死亡。当你在陈述一件游戏内客观正确的事时，你可能被处决。",
-    "image": "/scripts/assets/community/9af52dc965f6841c330bc2c4b5d6659dbfc6df876d111764b976d988ada8a247.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/9af52dc965f6841c330bc2c4b5d6659dbfc6df876d111764b976d988ada8a247.png",
     "flavor": "",
     "setup": false
   },
@@ -361,7 +361,7 @@
     "team": "outsider",
     "name_eng": "LiShiJing",
     "ability": "每个白天你可以提名两次。如果你是外来者，你会获得错误信息且当你参与提名时，参与提名的所有镇民开始醉酒到下一个黎明。每个白天，你可以拜访说书人以得知一条与你提名过的玩家有关的信息。[你可能作为镇民加入游戏，并且一直是镇民]",
-    "image": "/scripts/assets/community/a57d49c286bc117cf5bf7ab925d4d48672b4d67bb6bf8fd8b2b5d2d73b1801d4.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/a57d49c286bc117cf5bf7ab925d4d48672b4d67bb6bf8fd8b2b5d2d73b1801d4.png",
     "flavor": "",
     "setup": false
   },
@@ -379,7 +379,7 @@
     "team": "minion",
     "name_eng": "JuiZhongGu",
     "ability": "每个夜晚，你可以选择一个邪恶角色：如果该角色在场，与该角色玩家邻近的两名善良玩家开始中毒直到你下次选择。",
-    "image": "/scripts/assets/community/3ff935705ff4c4cc595f98511de5a79e5f2c45bb5d905d5555cc42b640b50e5b.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/3ff935705ff4c4cc595f98511de5a79e5f2c45bb5d905d5555cc42b640b50e5b.png",
     "flavor": "",
     "setup": false
   },
@@ -397,7 +397,7 @@
     "team": "minion",
     "name_eng": "YvXuiLing",
     "ability": "每个夜晚，你可以选择一个善良角色或爪牙角色（要与之前的选择都不同）：你获得该角色的能力直到下个黄昏。",
-    "image": "/scripts/assets/community/5dd2120d9433761292704f4facd4f1050ec01a5d00837b3c99979a1fdd0dcaf0.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/5dd2120d9433761292704f4facd4f1050ec01a5d00837b3c99979a1fdd0dcaf0.png",
     "flavor": "",
     "setup": false
   },
@@ -416,7 +416,7 @@
     "team": "minion",
     "name_eng": "SuoLiWeng",
     "ability": "你初始与邪恶阵营互相不认识。在一名爪牙或恶魔首次提名你的当晚，他会得知此信息且当晚他的能力可以生效两次。[+1外来者]",
-    "image": "/scripts/assets/community/5ea76e40cbdd40e0c4eb07f3a66b2b3373ff5f3da2d9c2bd3e8eccdd152c18ef.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/5ea76e40cbdd40e0c4eb07f3a66b2b3373ff5f3da2d9c2bd3e8eccdd152c18ef.png",
     "flavor": "Duck",
     "setup": true
   },
@@ -435,7 +435,7 @@
     "team": "minion",
     "name_eng": "PoJieSeng",
     "ability": "你与恶魔不计入邪恶阵营获胜所需的条件。当你死于处决时，提名过你的镇民开始不计入邪恶阵营获胜所需的条件。",
-    "image": "/scripts/assets/community/a25a5877c65fd0c73efd94bf01661c4faacc9b3fcac4274b50ac206f8941d601.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/a25a5877c65fd0c73efd94bf01661c4faacc9b3fcac4274b50ac206f8941d601.png",
     "flavor": "",
     "setup": false
   },
@@ -455,7 +455,7 @@
     "team": "demon",
     "name_eng": "ChunQiuBi",
     "ability": "每个夜晚*，可能会有一名玩家死亡。欢梦以为的角色能力可能会正常生效，你得知他们以为的角色。每个夜晚，你可以选择至多两名参与过至少四次提名的玩家：他们死亡。[半数以上的善良玩家为欢梦]",
-    "image": "/scripts/assets/community/a33f61c79d2022a00ef10b2017c1cf87156bbea73a8bb61160379fc748c6ff0b.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/a33f61c79d2022a00ef10b2017c1cf87156bbea73a8bb61160379fc748c6ff0b.png",
     "flavor": "",
     "setup": true
   },
@@ -475,7 +475,7 @@
     "team": "demon",
     "name_eng": "ShiMo",
     "ability": "每个夜晚*，你要选择两名玩家并分别猜测该玩家的角色：如果猜测正确，他死亡，然后你得知猜测结果。如果你两次的猜测结果相同，可能会有一名玩家死亡。",
-    "image": "/scripts/assets/community/2c1c4f159b8f5f87bacbdf60ba4670489c7673497120869b5d2565ee83a15356.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/2c1c4f159b8f5f87bacbdf60ba4670489c7673497120869b5d2565ee83a15356.png",
     "flavor": "",
     "setup": false
   },
@@ -496,7 +496,7 @@
     "team": "demon",
     "name_eng": "YiZhenHuangLiang",
     "ability": "每个夜晚，你可以选择两名玩家。当你选择了一名你选择过的玩家时，他死亡，如果你以这种方式自杀，你要选择一名你在白天提名过的玩家，他变为邪恶的一枕黄粱，但每局游戏仅能成功转化一次。",
-    "image": "/scripts/assets/community/9b6a959edb59342bf3ce6ecbbe2955f3e18c553766eadbcbd5f08f9052858a8a.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/9b6a959edb59342bf3ce6ecbbe2955f3e18c553766eadbcbd5f08f9052858a8a.png",
     "flavor": "",
     "setup": false
   },
@@ -515,7 +515,7 @@
     "team": "traveler",
     "name_eng": "DanQingShou",
     "ability": "每局游戏限一次，在白天时，你可以公开声明，然后拜访说书人并选择一个角色，你可以修改该角色能力的一个词条（在合理范围内），该角色能力以修改后的能力生效，直到下个黎明。说书人会在下个黎明公开声明此词条。",
-    "image": "/scripts/assets/community/42ce60852e599d06941bfa7e4a8a86e504c13bfcf1b673ad5d15efbc507edfea.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/42ce60852e599d06941bfa7e4a8a86e504c13bfcf1b673ad5d15efbc507edfea.png",
     "flavor": "",
     "setup": false
   },
@@ -537,7 +537,7 @@
     "team": "traveler",
     "name_eng": "WuLinJun",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择除旅行者以外的三名玩家（所有玩家都会得知你选了谁）：你与他们分别秘密对对方的生死进行投票，如果死亡投票票数最多的玩家只有一位，他死亡，如果存活投票票数最多的玩家只有一位，他存活。",
-    "image": "/scripts/assets/community/3f6280623988ea0ae1762c27a0957e209814665145598af412679ce54fa4d9b3.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/3f6280623988ea0ae1762c27a0957e209814665145598af412679ce54fa4d9b3.png",
     "flavor": "",
     "setup": false
   },
@@ -555,7 +555,7 @@
     "team": "traveler",
     "name_eng": "ShuiZhongLu",
     "ability": "每个白天，你可以公开选择一名玩家：当天他不能参与提名，在当晚，你会得知他是否为外来者。",
-    "image": "/scripts/assets/community/515f0246233ef68b220bc247ca21cd08fbb5fbc435cd2b237b084c98261321fc.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/515f0246233ef68b220bc247ca21cd08fbb5fbc435cd2b237b084c98261321fc.png",
     "flavor": "",
     "setup": false
   },
@@ -571,7 +571,7 @@
     "team": "traveler",
     "name_eng": "Yan",
     "ability": "你可以同时提名两名玩家。如果这项提名的投票成功，他们都即将被处决。",
-    "image": "/scripts/assets/community/ca7c5dfb27742894aa73ce93678c2e450bc0960579917c7fec0a62b0c2eb87b3.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/ca7c5dfb27742894aa73ce93678c2e450bc0960579917c7fec0a62b0c2eb87b3.png",
     "flavor": "",
     "setup": false
   },
@@ -587,7 +587,7 @@
     "team": "traveler",
     "name_eng": "FengShen",
     "ability": "你没有初始信息。在你得知你的阵营时，你会得知一名与你同一阵营的玩家。如果你是善良的，你可能会被当作外来者；如果你是邪恶的，你可能会被当作恶魔。当你被流放时，你转变为对立阵营。",
-    "image": "/scripts/assets/community/69fb028d0b6099d5cfddb86073a273ed10df186cb1f40460ddbe86658fa7be95.png",
+    "image": "/scripts/assets/community-gu-dao-jiu-wen-08b86846/69fb028d0b6099d5cfddb86073a273ed10df186cb1f40460ddbe86658fa7be95.png",
     "flavor": "",
     "setup": false
   }

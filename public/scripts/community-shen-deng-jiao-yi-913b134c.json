@@ -3,7 +3,7 @@
     "id": "_meta",
     "author": "phillyCHEEEEEZ",
     "name": "神灯交易",
-    "logo": "/scripts/assets/community/5ba9b1f9b747fcf99b3e0f14d6ccb3ae498dff794ca787afc26654717695687e.png",
+    "logo": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/5ba9b1f9b747fcf99b3e0f14d6ccb3ae498dff794ca787afc26654717695687e.png",
     "firstNight": [
       "dusk",
       "minioninfo",
@@ -48,7 +48,7 @@
   {
     "id": "daerduotutu111",
     "name": "图书管理员",
-    "image": "/scripts/assets/community/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/bcf907e4783f276d4727fdf2143b164ae4f7da26d1afb71af083d4ba2b721663.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
@@ -63,7 +63,7 @@
   {
     "id": "mangshengnifaxianlehuadian111",
     "name": "调查员",
-    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
@@ -78,7 +78,7 @@
   {
     "id": "wocaishichushen111",
     "name": "厨师",
-    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
@@ -90,7 +90,7 @@
   {
     "id": "mofashuijingqiu111",
     "name": "占卜师",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -105,7 +105,7 @@
   {
     "id": "rangwokangkang111",
     "name": "筑梦师",
-    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
@@ -124,7 +124,7 @@
   {
     "id": "gongwenbaozaren111",
     "name": "驱魔人",
-    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
@@ -144,7 +144,7 @@
   {
     "id": "diaoshangyizhengtiandeyu111",
     "name": "渔夫",
-    "image": "/scripts/assets/community/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/29e006f88fc621e06e98f806e00fad5308365f4043e4b0c6187eb94f32bc70a9.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -157,7 +157,7 @@
   {
     "id": "shanliangdeniaoer111",
     "name": "守鸦人",
-    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png",
     "team": "townsfolk",
     "edition": "custom",
     "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
@@ -172,7 +172,7 @@
   {
     "id": "woheduolema111",
     "name": "酒鬼",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "team": "outsider",
     "edition": "custom",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -196,7 +196,7 @@
   {
     "id": "noita111",
     "name": "女巫",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -211,7 +211,7 @@
   {
     "id": "baonijuhua111",
     "name": "刺客",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "team": "minion",
     "edition": "custom",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -232,7 +232,7 @@
   {
     "id": "meiyoudashi11111",
     "name": "诺-达鲺",
-    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
     "team": "demon",
     "edition": "custom",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
@@ -256,7 +256,7 @@
   {
     "id": "35addde2-e27a-4de2-9a9e-df0e78364717",
     "name": "私货商人",
-    "image": "/scripts/assets/community/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
+    "image": "/scripts/assets/community-shen-deng-jiao-yi-913b134c/fc4533a6f8b97e4cc8f12c99b04b63ce55bfa73ebbffa18a70274d5996015106.png",
     "team": "fabled",
     "edition": "custom",
     "ability": "这个剧本包含有自制角色或自制规则。",

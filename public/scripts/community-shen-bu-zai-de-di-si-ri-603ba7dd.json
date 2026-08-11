@@ -3,25 +3,25 @@
     "id": "_meta",
     "name": "神不在的第四日",
     "author": "木头",
-    "logo": "/scripts/assets/community/f6197c24f5d96a266e75a5cb12af2704ce52e6b4cdca799b2205b1639efb731f.png",
+    "logo": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/f6197c24f5d96a266e75a5cb12af2704ce52e6b4cdca799b2205b1639efb731f.png",
     "status": [
       {
-        "image": "/scripts/assets/community/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
+        "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
         "name": "神迹1.殉道",
         "skill": "神迹降临之后首个在夜晚和首个在白天死亡的玩家会存活下来。"
       },
       {
-        "image": "/scripts/assets/community/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
+        "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
         "name": "神迹2.飞升",
         "skill": "镇民的能力产出的信息都是错误的。始终会有一名善良玩家会得知此事。"
       },
       {
-        "image": "/scripts/assets/community/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
+        "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
         "name": "神迹3.先知",
         "skill": "每个黎明前，会有一名死亡的善良玩家要选择一名玩家并得知他的阵营。"
       },
       {
-        "image": "/scripts/assets/community/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
+        "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
         "name": "神迹4.诅咒",
         "skill": "一名存活的邪恶玩家受到诅咒，诅咒会转移到提名他的玩家或被他提名的玩家身上，并且携带诅咒的玩家会得知此事。神隐匿后，受诅咒的玩家死亡。"
       }
@@ -36,7 +36,7 @@
   },
   {
     "ability": "每个夜晚，神会降临并显现一个与之前不同的神迹，效果会一直持续直到第三个白天结束后，随后神隐匿。恶魔会知道即将降临的神迹是什么。每局游戏限一次，恶魔可以阻止当晚神迹的降临，当天不会有任何神迹降临。",
-    "image": "/scripts/assets/community/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1f647f8c8f758afbe467d7314284494662ca16c94123409003ee0eb5956b8ece.png",
     "edition": "custom",
     "id": "god",
     "firstNightReminder": "唤醒恶魔并告知今晚即将临近什么神迹。每局限一次，如果恶魔摇头则取消",
@@ -57,7 +57,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
-    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
     "edition": "custom",
     "flavor": "",
     "id": "noble_c",
@@ -75,7 +75,7 @@
   },
   {
     "id": "tiaoyinshi",
-    "image": "/scripts/assets/community/09a792737818004be29a92795880d948764d53c13c4edb935247badb8a9049b8.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/09a792737818004be29a92795880d948764d53c13c4edb935247badb8a9049b8.png",
     "firstNightReminder": "在首个夜晚，唤醒调音师。对他展示准备的外来者角色标记和爪牙角色标记。",
     "name": "调音师",
     "team": "townsfolk",
@@ -99,7 +99,7 @@
   },
   {
     "id": "renleixuejia",
-    "image": "/scripts/assets/community/e2891a824c57c375e9fe29cfb93b271aeeeae72f0e8fd7c711d3ec7b0cc13992.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/e2891a824c57c375e9fe29cfb93b271aeeeae72f0e8fd7c711d3ec7b0cc13992.png",
     "otherNightReminder": "",
     "setup": false,
     "name": "人类学家",
@@ -128,7 +128,7 @@
     "name": "祭司",
     "team": "townsfolk",
     "ability": "每局游戏限一次，你可以在白天私下拜访说书人并决定明晚将会降临的神迹，如果神迹无法降临，当晚你会死亡。。",
-    "image": "/scripts/assets/community/0a186297c0c31749b488af62044b0c1cfc802e468bd0e852ffcabbda38186dfd.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/0a186297c0c31749b488af62044b0c1cfc802e468bd0e852ffcabbda38186dfd.png",
     "firstNight": 0,
     "otherNight": 1,
     "reminders": [
@@ -142,7 +142,7 @@
   },
   {
     "id": "zhuijidelaoda111",
-    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
     "edition": "custom",
     "name": "气球驾驶员",
     "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
@@ -159,7 +159,7 @@
   },
   {
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
-    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
     "edition": "custom",
     "flavor": "",
     "id": "chambermaid_c",
@@ -182,7 +182,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
-    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png",
     "edition": "custom",
     "flavor": "",
     "id": "monk_c",
@@ -200,7 +200,7 @@
   },
   {
     "id": "lingluowawa111",
-    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
     "edition": "custom",
     "name": "女裁缝",
     "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
@@ -217,7 +217,7 @@
   },
   {
     "id": "mofashuijingqiu111",
-    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
     "edition": "custom",
     "name": "占卜师",
     "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
@@ -234,7 +234,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
-    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
     "edition": "custom",
     "flavor": "",
     "id": "gambler_c",
@@ -252,7 +252,7 @@
   },
   {
     "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
-    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
     "edition": "custom",
     "flavor": "",
     "id": "oracle_c",
@@ -268,7 +268,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
-    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
     "edition": "custom",
     "flavor": "",
     "id": "nightwatchman_c",
@@ -286,7 +286,7 @@
   },
   {
     "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
-    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
     "edition": "custom",
     "flavor": "",
     "id": "bingbi_c",
@@ -304,7 +304,7 @@
   },
   {
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
-    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
     "edition": "custom",
     "flavor": "",
     "id": "moonchild_c",
@@ -322,7 +322,7 @@
   },
   {
     "id": "biezaizhelifadian111",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "name": "理发师",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -342,7 +342,7 @@
     "name": "伊比利斯",
     "team": "outsider",
     "ability": "你以为你是一个在场的镇民角色，但其实你不是。如果你死于处决，与你认知相同的玩家会中毒。",
-    "image": "/scripts/assets/community/9c93db75bd8589f2a699b197cfc443b503b6fb5cab7450db027551a5e4822b4a.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/9c93db75bd8589f2a699b197cfc443b503b6fb5cab7450db027551a5e4822b4a.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -366,7 +366,7 @@
     "name": "提婆达多",
     "team": "outsider",
     "ability": "每个夜晚，你会得知一条戒律的内容。违反上一条戒律的善良玩家可能会在当晚死亡，即使你已死亡。",
-    "image": "/scripts/assets/community/f9b734ea3ffe2369a8094d656d673ea62a09be4fc562e4b4604165d21536c260.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/f9b734ea3ffe2369a8094d656d673ea62a09be4fc562e4b4604165d21536c260.png",
     "firstNight": 200,
     "otherNight": 4900,
     "reminders": [
@@ -386,7 +386,7 @@
   },
   {
     "id": "zheyeshigejiugui111",
-    "image": "/scripts/assets/community/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/e52f26c9cfc3aba0163cc8ff27884f5962b386b3eb31574ef52bf5b2378237a2.png",
     "edition": "custom",
     "name": "提线木偶",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -402,7 +402,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
-    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
     "edition": "custom",
     "flavor": "",
     "id": "assassin_c",
@@ -421,7 +421,7 @@
   },
   {
     "id": "meimo",
-    "image": "/scripts/assets/community/b56e984dbdc7c66c0550f9cdb4b4e18c12dadab3030d9e0913819c950bb28839.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/b56e984dbdc7c66c0550f9cdb4b4e18c12dadab3030d9e0913819c950bb28839.png",
     "firstNightReminder": "唤醒魅魔并让他选择一名玩家，标记那名玩家被魅惑",
     "otherNightReminder": "唤醒魅魔并让他选择一名玩家，标记那名玩家被魅惑",
     "reminders": [
@@ -445,7 +445,7 @@
   },
   {
     "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
-    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png",
     "edition": "custom",
     "flavor": "",
     "id": "devils_advocate_c",
@@ -463,7 +463,7 @@
   },
   {
     "id": "noita111",
-    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
     "edition": "custom",
     "name": "女巫",
     "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
@@ -480,7 +480,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡，与他邻近的两名玩家会被当做错误的阵营和角色直到下个黄昏。",
-    "image": "/scripts/assets/community/02a7840664e330668471d8df6f29c03ce1029b36aacf33aca8e36dcbb604ed59.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/02a7840664e330668471d8df6f29c03ce1029b36aacf33aca8e36dcbb604ed59.png",
     "edition": "custom",
     "flavor": "",
     "id": "beierjia",
@@ -499,7 +499,7 @@
   },
   {
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果所有爪牙都死亡，在当晚你要选择一个恶魔角色：你变成那个恶魔，并且每晚行动两次。",
-    "image": "/scripts/assets/community/9d0384e609560235d43ce7b1b76a663ae56f08656220fec98132b2e772d7a73d.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/9d0384e609560235d43ce7b1b76a663ae56f08656220fec98132b2e772d7a73d.png",
     "edition": "custom",
     "flavor": "",
     "id": "xixifusi",
@@ -525,7 +525,7 @@
   },
   {
     "id": "luxifa",
-    "image": "/scripts/assets/community/a99df4662acdf74643788726ed9fedb20a15a05ead2f6736e0cb1be2eba2040a.png",
+    "image": "/scripts/assets/community-shen-bu-zai-de-di-si-ri-603ba7dd/a99df4662acdf74643788726ed9fedb20a15a05ead2f6736e0cb1be2eba2040a.png",
     "otherNightReminder": "唤醒路西法，并让他攻击一名玩家。之后如果路西法选择了第二名玩家，标记那名玩家是信徒",
     "reminders": [
       "信徒",

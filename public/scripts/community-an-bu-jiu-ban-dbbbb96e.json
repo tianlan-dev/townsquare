@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "按部就班",
     "author": "妖怪",
-    "logo": "/scripts/assets/community/8b6563304b97c0bb574557337b94134c472cd2c8bf378b893cb9225222207195.png",
+    "logo": "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/8b6563304b97c0bb574557337b94134c472cd2c8bf378b893cb9225222207195.png",
     "tags": [],
     "version": "",
     "issue": 928
@@ -12,7 +12,7 @@
     "id": "guizu_tpi",
     "name": "贵族",
     "image": [
-      "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
@@ -29,7 +29,7 @@
     "id": "daoke_sutongran",
     "name": "刀客",
     "image": [
-      "/scripts/assets/community/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png"
     ],
     "team": "townsfolk",
     "ability": "在你的首个夜晚，你得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
@@ -46,7 +46,7 @@
     "id": "shinv_tpi",
     "name": "侍女",
     "image": [
-      "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
@@ -61,7 +61,7 @@
     "id": "shuxuejia_tpi",
     "name": "数学家",
     "image": [
-      "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
@@ -79,7 +79,7 @@
     "id": "chengzhengonggaoyuan_tpi",
     "name": "城镇公告员",
     "image": [
-      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -97,7 +97,7 @@
     "id": "maihuanvhai_tpi",
     "name": "卖花女孩",
     "image": [
-      "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
@@ -115,7 +115,7 @@
     "id": "shiguan_dingdang",
     "name": "史官",
     "image": [
-      "/scripts/assets/community/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png"
     ],
     "team": "townsfolk",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
@@ -131,7 +131,7 @@
     "id": "zhexuejia_tpi",
     "name": "哲学家",
     "image": [
-      "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。\n如果这个角色在场，他醉酒。",
@@ -150,7 +150,7 @@
     "id": "zaoyaozhe_tpi",
     "name": "造谣者",
     "image": [
-      "/scripts/assets/community/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/052afed8723f79c8309a969efcd096824bc89f07132dfc912f1a61888a306b5f.png"
     ],
     "team": "townsfolk",
     "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
@@ -167,7 +167,7 @@
     "id": "yufu_tpi",
     "name": "渔夫",
     "image": [
-      "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png"
     ],
     "team": "townsfolk",
     "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
@@ -183,7 +183,7 @@
     "id": "tixingguan_feiyuzu",
     "name": "提刑官",
     "image": [
-      "/scripts/assets/community/5c198699cb10bbd025d8aa454d8008a884a115e9528d18974c50ab89b21ca3a7.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/5c198699cb10bbd025d8aa454d8008a884a115e9528d18974c50ab89b21ca3a7.png"
     ],
     "team": "townsfolk",
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
@@ -199,7 +199,7 @@
     "id": "ranfangfangzhu_ukpkmkk",
     "name": "染坊坊主",
     "image": [
-      "/scripts/assets/community/13a387533712671c1499db70aa31b5ac74064f951d9ffb16458faad6d32316f1.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/13a387533712671c1499db70aa31b5ac74064f951d9ffb16458faad6d32316f1.png"
     ],
     "team": "townsfolk",
     "ability": "如果你在夜晚死亡，恶魔的能力变成“每个夜晚*，可能会有一名玩家死亡。”",
@@ -215,7 +215,7 @@
     "id": "shirenzu_tpi",
     "name": "食人族",
     "image": [
-      "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png"
     ],
     "team": "townsfolk",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -232,7 +232,7 @@
     "id": "jiugui_tpi",
     "name": "酒鬼",
     "image": [
-      "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
     ],
     "team": "outsider",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -246,7 +246,7 @@
     "id": "lifashi_tpi",
     "name": "理发师",
     "image": [
-      "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png"
     ],
     "team": "outsider",
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
@@ -263,7 +263,7 @@
     "id": "xinshangren_tpi",
     "name": "心上人",
     "image": [
-      "/scripts/assets/community/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/8c0cdaf2d68d61baa5861338a1bf498559191b0d249e3b0b2aba3fd9a9d72f27.png"
     ],
     "team": "outsider",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -280,7 +280,7 @@
     "id": "maojiang_tpi",
     "name": "帽匠",
     "image": [
-      "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png"
     ],
     "team": "outsider",
     "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
@@ -297,7 +297,7 @@
     "id": "cike_tpi",
     "name": "刺客",
     "image": [
-      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
     ],
     "team": "minion",
     "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
@@ -315,7 +315,7 @@
     "id": "kexueguairen_tpi",
     "name": "科学怪人",
     "image": [
-      "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png"
     ],
     "team": "minion",
     "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
@@ -329,7 +329,7 @@
     "id": "jiaofu_tpi",
     "name": "教父",
     "image": [
-      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
     ],
     "team": "minion",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -348,7 +348,7 @@
     "id": "tixianmuou_tpi",
     "name": "提线木偶",
     "image": [
-      "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png"
     ],
     "team": "minion",
     "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
@@ -365,7 +365,7 @@
     "id": "woliu_tpi",
     "name": "涡流",
     "image": [
-      "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n镇民玩家的能力都会产生错误信息。\n如果白天没人被处决，邪恶阵营获胜。",
@@ -382,7 +382,7 @@
     "id": "nuodashi_tpi",
     "name": "诺-达鲺",
     "image": [
-      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
@@ -400,7 +400,7 @@
     "id": "kazhali_tpi",
     "name": "卡扎力",
     "image": [
-      "/scripts/assets/community/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
@@ -418,7 +418,7 @@
     "id": "jianning_penquan",
     "name": "奸佞",
     "image": [
-      "/scripts/assets/community/080fedb043434261e1ca29fe770361e4965a8f05807d1f63a5175390fde6e61f.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/080fedb043434261e1ca29fe770361e4965a8f05807d1f63a5175390fde6e61f.png"
     ],
     "team": "demon",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你今天白天没有投票，今晚你可以行动两次。",
@@ -435,7 +435,7 @@
     "id": "dengshen1_tpi",
     "name": "侍女&数学家",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "侍女会得知数学家是否醒来，即使她是在数学家之前醒来。",
@@ -446,7 +446,7 @@
     "id": "dengshen2_tpi",
     "name": "科学怪人&酒鬼",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "如果恶魔拥有酒鬼的能力，该外由科学怪人选择一名玩家：如果他是镇民，他醉酒。",
@@ -457,7 +457,7 @@
     "id": "dengshen3_tpi",
     "name": "提线木偶&卡扎力",
     "image": [
-      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+      "/scripts/assets/community-an-bu-jiu-ban-dbbbb96e/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
     ],
     "team": "a jinxed",
     "ability": "如果卡扎力选择创造体现木偶，他只能选择将自己的邻座玩家变成提线木偶。",

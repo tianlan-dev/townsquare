@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "诡异人偶",
     "author": "Ben & Jams",
-    "logo": "/scripts/assets/community/b764d31d9d0acde3f0bf140fe4bb82c090836cf8936c09522b3ffe83be063c23.png",
+    "logo": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/b764d31d9d0acde3f0bf140fe4bb82c090836cf8936c09522b3ffe83be063c23.png",
     "almanac": "有问题联系SE谢谢喵~",
     "tags": [
       "快速上手与角色主题竞赛剧本",
@@ -14,7 +14,7 @@
   },
   {
     "id": "_guiyirenou",
-    "image": "/scripts/assets/community/c4cc958bad48b4d0c83d2c8def119e1de26aeb04a3cfb9327caccca88b7e473a.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/c4cc958bad48b4d0c83d2c8def119e1de26aeb04a3cfb9327caccca88b7e473a.png",
     "reminders": [
       "疯狂"
     ],
@@ -25,7 +25,7 @@
   },
   {
     "id": "1_guiyirenou",
-    "image": "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png",
     "otherNightReminder": "如果守鸦人死于夜晚，唤醒守鸦人，让他选择一名玩家。对他展示这名玩家的角色标记。",
     "name": "守鸦人",
     "team": "townsfolk",
@@ -35,7 +35,7 @@
   },
   {
     "id": "2_guiyirenou",
-    "image": "/scripts/assets/community/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/e2eb9da6593bc9c50ed7727bbf036d832b52cfe196f2fff916481462fe7a9ef8.png",
     "name": "镇长",
     "team": "townsfolk",
     "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
@@ -43,7 +43,7 @@
   },
   {
     "id": "3_guiyirenou",
-    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
     "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
     "reminders": [
@@ -58,7 +58,7 @@
   },
   {
     "id": "4_guiyirenou",
-    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
     "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
     "reminders": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "5_guiyirenou",
-    "image": "/scripts/assets/community/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/2b92028f74bc51560b30ecc87dcaf6468a6298aec1e6e97b295a6d0186810ae9.png",
     "reminders": [
       "失去能力"
     ],
@@ -84,7 +84,7 @@
   },
   {
     "id": "6_guiyirenou",
-    "image": "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png",
     "otherNightReminder": "如果杂耍艺人在今天白天使用了能力，唤醒杂耍艺人，对他用手势比划数字来告知他白天猜测正确的次数。",
     "reminders": [
       "猜测正确"
@@ -97,7 +97,7 @@
   },
   {
     "id": "7_guiyirenou",
-    "image": "/scripts/assets/community/5f30da6cd18436735a6082e38b623f3f8e75eb96ac6f1a236359028399df7a28.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/5f30da6cd18436735a6082e38b623f3f8e75eb96ac6f1a236359028399df7a28.png",
     "firstNightReminder": "决定失忆者的能力，并根据具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "otherNightReminder": "根据失忆者的具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
     "reminders": [
@@ -112,7 +112,7 @@
   },
   {
     "id": "8_guiyirenou",
-    "image": "/scripts/assets/community/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/9df6ddcfb52d604f9c7e1a85af353c28aaf164a635927466a516ffdcd4b9ab4c.png",
     "firstNightReminder": "唤醒传教士，让他选择一名玩家。如果他选中了爪牙，该爪牙失去能力。在传教士入睡后通知该爪牙被传教士选中。",
     "otherNightReminder": "唤醒传教士，让他选择一名玩家。如果他选中了爪牙，该爪牙失去能力。在传教士入睡后通知该爪牙被传教士选中。",
     "reminders": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "9_guiyirenou",
-    "image": "/scripts/assets/community/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png",
     "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
     "reminders": [
@@ -142,7 +142,7 @@
   },
   {
     "id": "10_guiyirenou",
-    "image": "/scripts/assets/community/04525176451615bbe8960eb1caf5b33fc0e62053287fc9c20cdc51bbc7b17e69.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/04525176451615bbe8960eb1caf5b33fc0e62053287fc9c20cdc51bbc7b17e69.png",
     "firstNightReminder": "如果国王在场，对恶魔展示国王角色标记并指向国王玩家。",
     "otherNightReminder": "如果满足国王的唤醒条件，唤醒国王，对他展示一个存活的角色标记。",
     "name": "国王",
@@ -154,7 +154,7 @@
   },
   {
     "id": "11_guiyirenou",
-    "image": "/scripts/assets/community/fcb02fb19539486e6bd62e57572d382a3007f1348876faab20095889a87ae8b3.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/fcb02fb19539486e6bd62e57572d382a3007f1348876faab20095889a87ae8b3.png",
     "otherNightReminder": "如果恶魔杀死了国王，唤醒唱诗男孩，对他指向恶魔。",
     "setup": true,
     "name": "唱诗男孩",
@@ -165,7 +165,7 @@
   },
   {
     "id": "12_guiyirenou",
-    "image": "/scripts/assets/community/f35454f25c86c6d81b2ce9220272693282be1fa83bd2d95b4836fb3b94487939.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/f35454f25c86c6d81b2ce9220272693282be1fa83bd2d95b4836fb3b94487939.png",
     "firstNightReminder": "如果罂粟种植者在场，跳过今晚的爪牙信息和恶魔信息环节。",
     "otherNightReminder": "如果罂粟种植者死于白天，插入执行爪牙信息和恶魔信息（不包含恶魔伪装）流程。如果罂粟种植者死于夜晚，则在当前玩家行动结束后立即执行相关流程。",
     "reminders": [
@@ -180,7 +180,7 @@
   },
   {
     "id": "13_guiyirenou",
-    "image": "/scripts/assets/community/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png",
     "otherNightReminder": "：唤醒杂技演员，让他选择一名玩家。如果当晚这名玩家醉酒或中毒，杂技演员死亡。",
     "reminders": [
       "被选择",
@@ -194,7 +194,7 @@
   },
   {
     "id": "14_guiyirenou",
-    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
     "name": "畸形秀演员",
     "team": "outsider",
     "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
@@ -202,7 +202,7 @@
   },
   {
     "id": "15_guiyirenou",
-    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
     "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
     "reminders": [
       "今晚理发"
@@ -215,7 +215,7 @@
   },
   {
     "id": "16_guiyirenou",
-    "image": "/scripts/assets/community/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/3d2969ced872a8e676f373e2ad8ef129b91ad4cde91d59a78107688fd27447d8.png",
     "name": "呆瓜",
     "team": "outsider",
     "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
@@ -223,7 +223,7 @@
   },
   {
     "id": "17_guiyirenou",
-    "image": "/scripts/assets/community/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/cd16b232374303dc496cc360457bb5bc17974b573b442ce3a4ce29984256d3b3.png",
     "otherNightReminder": "如果瘟疫医生死亡，说书人获得一项爪牙能力。",
     "reminders": [
       "说书人能力"
@@ -236,7 +236,7 @@
   },
   {
     "id": "18_guiyirenou",
-    "image": "/scripts/assets/community/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/a59c3c33ce5bc37661ff9a5d348a0fc0003f10688cca6103ae4e6047684a83db.png",
     "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
     "reminders": [
@@ -251,7 +251,7 @@
   },
   {
     "id": "19_guiyirenou",
-    "image": "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png",
     "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
     "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
     "reminders": [
@@ -268,7 +268,7 @@
   },
   {
     "id": "20_guiyirenou",
-    "image": "/scripts/assets/community/1448e2224cb14405ada684dabff39e15cecac0f3464a6d106e7a7c75bdcec786.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/1448e2224cb14405ada684dabff39e15cecac0f3464a6d106e7a7c75bdcec786.png",
     "firstNightReminder": "唤醒灵言师，对他展示他的关键词。",
     "otherNightReminder": "如果首次有善良玩家说出了灵言师的关键词，唤醒该玩家并通知他阵营变化。",
     "reminders": [
@@ -284,7 +284,7 @@
   },
   {
     "id": "21_guiyirenou",
-    "image": "/scripts/assets/community/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/9927bfbbed46a7eb05ba6f8da08bad1d29a5a94fd0610f8028abaeaba72d8f8c.png",
     "firstNightReminder": "11",
     "otherNightReminder": "11",
     "reminders": [
@@ -302,7 +302,7 @@
   },
   {
     "id": "22_guiyirenou",
-    "image": "/scripts/assets/community/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png",
+    "image": "/scripts/assets/community-gui-yi-ren-ou-3181b1c3/260bafc547407bea207cdc95dbb3665b6a4139c37b8733d5406585cca8d4039d.png",
     "firstNightReminder": "唤醒痢蛭，让他选择一名玩家以寄生。",
     "otherNightReminder": "唤醒痢蛭，让他攻击一名玩家。",
     "reminders": [

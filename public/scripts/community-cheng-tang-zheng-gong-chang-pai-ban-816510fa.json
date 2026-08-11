@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "呈堂证供（厂牌版）",
     "author": "KNitrate",
-    "logo": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "logo": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "townsfolkName": "镇民",
     "outsidersName": "外来者",
     "minionsName": "爪牙",
@@ -33,7 +33,7 @@
   },
   {
     "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
-    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
     "edition": "custom",
     "flavor": "",
     "id": "yinyangshi_c",
@@ -52,7 +52,7 @@
   },
   {
     "id": "hebusiniyade111",
-    "image": "/scripts/assets/community/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/a76a01d5183d31c4b0cae90504f3a39eedb7162e2b7de3db6408f69e99902e5b.png",
     "edition": "custom",
     "name": "店小二",
     "ability": "在你的首个夜晚，你会得知两名善良玩家。他们之中会有一人醉酒，即使你已死亡。",
@@ -69,7 +69,7 @@
   },
   {
     "id": "chonggggggggggfeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiwww",
-    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
     "edition": "custom",
     "name": "纵横家",
     "ability": "每个夜晚，你得知当晚有几名邪恶玩家因其自身能力选择或影响了其他角色。",
@@ -86,7 +86,7 @@
   },
   {
     "id": "qiaozhong111",
-    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
     "edition": "custom",
     "name": "城镇公告员",
     "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
@@ -104,7 +104,7 @@
   },
   {
     "id": "daoshishishishishishishshishiss",
-    "image": "/scripts/assets/community/449d829e758abff17d39ab2610c510e935204bd2a930a4e2eae7a54fd835a234.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/449d829e758abff17d39ab2610c510e935204bd2a930a4e2eae7a54fd835a234.png",
     "edition": "custom",
     "name": "道士",
     "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
@@ -122,7 +122,7 @@
   },
   {
     "id": "xunchashaoihwronaklsndfkasnd",
-    "image": "/scripts/assets/community/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/d93176c0750033fb7f44de1b05516e938d5dd4be6982af830eb15ff1e4bc3037.png",
     "edition": "custom",
     "name": "巡察",
     "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
@@ -139,7 +139,7 @@
   },
   {
     "id": "shiguanuwhaouhsoifhais",
-    "image": "/scripts/assets/community/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/7a35c799527db67988f920dfa64a02e671baa927eb54b1cf8cc1a076e346e214.png",
     "edition": "custom",
     "name": "史官",
     "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
@@ -156,7 +156,7 @@
   },
   {
     "id": "shiyizhezhezhezhe",
-    "image": "/scripts/assets/community/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/358c7141e22549ac1ec9ae64cd9d7439379cf9429228688ebacc97d5acb4ed56.png",
     "edition": "custom",
     "name": "御史",
     "ability": "每个夜晚*，如果今天白天有存活玩家被处决，你要选择一名除你以外的参与该处决投票的玩家：你得知他是否与被处决者角色类型相同。[+1外来者]",
@@ -172,7 +172,7 @@
   },
   {
     "id": "huojin111",
-    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
     "edition": "custom",
     "name": "博学者",
     "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
@@ -186,7 +186,7 @@
   },
   {
     "id": "tixingguanuahosnrowan34613",
-    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
     "edition": "custom",
     "name": "提刑官",
     "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
@@ -204,7 +204,7 @@
   },
   {
     "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
-    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
     "edition": "custom",
     "flavor": "",
     "id": "philosopher_c",
@@ -224,7 +224,7 @@
   },
   {
     "id": "chichichichichichichi111",
-    "image": "/scripts/assets/community/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/9bcfccecca5737048a6d91b9cea91136e7e1a05dfecf3a917215cfbda15a2119.png",
     "edition": "custom",
     "name": "食人族",
     "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
@@ -241,7 +241,7 @@
   },
   {
     "id": "wofuhuolawoshijiangbu111",
-    "image": "/scripts/assets/community/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/c44654f59f2ecc066a790e0e3b23f7a56d2cea2ff2b7610f0208ea477cc12b2c.png",
     "edition": "custom",
     "name": "报丧女妖",
     "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
@@ -256,7 +256,7 @@
   },
   {
     "id": "woheduolema111",
-    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
     "edition": "custom",
     "name": "酒鬼",
     "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
@@ -273,7 +273,7 @@
   },
   {
     "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
-    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
     "edition": "custom",
     "flavor": "",
     "id": "barber_c",
@@ -291,7 +291,7 @@
   },
   {
     "id": "wuwusidehaocan111",
-    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
     "edition": "custom",
     "name": "心上人",
     "ability": "当你死亡时，会有一名玩家开始醉酒。",
@@ -307,7 +307,7 @@
   },
   {
     "ability": "如果有大于等于五名玩家存活，你必须在所有提名中投票。",
-    "image": "/scripts/assets/community/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/0bf6f56ce8995249345fb19590aa73dd0fa1dbb8f4669aa8df85a6f078c5c41f.png",
     "edition": "custom",
     "flavor": "",
     "id": "zealot_c",
@@ -323,7 +323,7 @@
   },
   {
     "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
-    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
     "edition": "custom",
     "flavor": "",
     "id": "humeiniang_c",
@@ -341,7 +341,7 @@
   },
   {
     "id": "zhijiagedaziji111",
-    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
     "edition": "custom",
     "name": "教父",
     "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
@@ -371,11 +371,11 @@
       "审判",
       "已发动"
     ],
-    "image": "/scripts/assets/community/d48ac166a54c56cad4d30c764676b9046d2eaa573129009328df5ba2d6a173a0.png"
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/d48ac166a54c56cad4d30c764676b9046d2eaa573129009328df5ba2d6a173a0.png"
   },
   {
     "id": "yangaaaaaaaaaaaa111",
-    "image": "/scripts/assets/community/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/aa33048d299b48111212f7b5e2abafcb4ff49bcbdc1d57cec5e49f262a000de6.png",
     "edition": "custom",
     "name": "养蛊人",
     "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
@@ -389,7 +389,7 @@
   },
   {
     "id": "sheeeeeeeee",
-    "image": "/scripts/assets/community/4a0a99f31ca41d8d7e714b14f83dc55914b0fd80c86e3ab878dba0aa7b760940.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/4a0a99f31ca41d8d7e714b14f83dc55914b0fd80c86e3ab878dba0aa7b760940.png",
     "edition": "custom",
     "name": "铜蛇帮",
     "ability": "如果你提名了一名玩家，他和与他邻座的玩家中的善良玩家中毒，直到你下次提名。",
@@ -405,7 +405,7 @@
   },
   {
     "id": "dianyuzhangaowhorahwpru903qu5rpiqhnrf",
-    "image": "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
     "edition": "custom",
     "name": "典狱长",
     "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
@@ -424,7 +424,7 @@
   },
   {
     "id": "baojunuiuaowjoedijapwu4e90e2aj4rpia",
-    "image": "/scripts/assets/community/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/a7b13dbf9e1daf3e14bcd552398bf699cfbe561ede966f32b33fb2097122eea2.png",
     "edition": "custom",
     "name": "暴君",
     "ability": "每个夜晚*，你可以选择至多两名玩家：他们死亡。你选择的玩家数量不能与上个夜晚死亡的玩家数量相同（超过二人时算作二人）。",
@@ -440,7 +440,7 @@
   },
   {
     "id": "jianiningasihdohwqr9-1q23rhnfipo1q23",
-    "image": "/scripts/assets/community/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/37c34220c546317a9b76fa3d121804423f7d9c52d7482df4cc8e26525d441d0c.png",
     "edition": "custom",
     "name": "奸佞",
     "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果爪牙死亡，其要在当晚选择一名玩家：他死亡。[-1外来者]",
@@ -460,7 +460,7 @@
     "name": "平反",
     "team": "fabled",
     "ability": "每局游戏限一次，所有玩家可以表决是否让上个白天因投票死于处决的玩家复活（超过半数为通过）",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -470,7 +470,7 @@
     "name": "代罪",
     "team": "fabled",
     "ability": "每局游戏限一次，一名善良玩家可以代替今天被处决的玩家被处决（御史与代罪的互动：若有人代罪，御史依旧选择投票给原被处决者的玩家）",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
@@ -480,14 +480,14 @@
     "name": "峻刑",
     "team": "fabled",
     "ability": "被复活的玩家可能会失去能力直到下个黎明（他会得知此事）",
-    "image": "/scripts/assets/community/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/18d6dda1d4cc5ffaad0f219b274ebfac189c19f02b26f3fedaf70cf474568996.png",
     "setup": false,
     "reminders": [],
     "edition": "custom"
   },
   {
     "id": "1111342352345_meta",
-    "image": "/scripts/assets/community/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
+    "image": "/scripts/assets/community-cheng-tang-zheng-gong-chang-pai-ban-816510fa/b0fee180199a15bc08298b1d4e0cc5ef1c56a6005bddee1724093038e077d914.png",
     "name": "狂热者&食人族",
     "team": "a jinxed",
     "setup": false,

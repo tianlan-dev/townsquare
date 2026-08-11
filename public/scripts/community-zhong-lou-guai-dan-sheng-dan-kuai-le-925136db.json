@@ -3,9 +3,9 @@
     "id": "_meta",
     "name": "钟楼怪诞(圣诞快乐)",
     "author": "Nashable",
-    "logo": "/scripts/assets/community/cdcebaf5ee454c3ce74826abaca4c16a22a722129140f77ba4390a1587ea528e.png",
+    "logo": "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/cdcebaf5ee454c3ce74826abaca4c16a22a722129140f77ba4390a1587ea528e.png",
     "almanac": "https://chillclocktower.com/merry/",
-    "background": "/scripts/assets/community/304a324b5437034111a058d6752190007395487649710ef290f34b6f64422f2a.jpg",
+    "background": "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/304a324b5437034111a058d6752190007395487649710ef290f34b6f64422f2a.jpg",
     "firstNight": [
       "dusk",
       "minioninfo",
@@ -59,7 +59,7 @@
   {
     "id": "mrsclaus_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/ebdde495bbe3b5518b195861521fc434e330ac05deb3ca2f79166bd4fef1a136.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/ebdde495bbe3b5518b195861521fc434e330ac05deb3ca2f79166bd4fef1a136.png"
     ],
     "firstNightReminder": "Wake Mrs. Claus, point to the closest player(s) yet to wake due to their ability, excluding travelers.",
     "reminders": [
@@ -76,7 +76,7 @@
   {
     "id": "frosty_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/755afd97bc3957007af9f5a13dcb584acd5e5c4829bc94aaa00c644e33f6089a.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/755afd97bc3957007af9f5a13dcb584acd5e5c4829bc94aaa00c644e33f6089a.png"
     ],
     "firstNightReminder": "If Frosty died tonight, wake them and show them the token of the first evil character that selected them",
     "otherNightReminder": "If Frosty died tonight, wake them and show them the token of the first evil character that selected them",
@@ -96,7 +96,7 @@
   {
     "id": "santaclaus_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/7e3d4a5581ecf499ab30a80721a538be9dac0e77e8ef5b97d0bd0585a6b881d2.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/7e3d4a5581ecf499ab30a80721a538be9dac0e77e8ef5b97d0bd0585a6b881d2.png"
     ],
     "firstNightReminder": "Choose a player, Yes to signal Nice, No to signal Naughty",
     "otherNightReminder": "Choose a player, Yes to signal Nice, No to signal Naughty",
@@ -115,7 +115,7 @@
   {
     "id": "holidayelf_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/2ff2acf6d3be743f94b893689128a250904d2dbf1818a95a689ea3ff7d8c3ba4.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/2ff2acf6d3be743f94b893689128a250904d2dbf1818a95a689ea3ff7d8c3ba4.png"
     ],
     "firstNightReminder": "选择一名玩家他收到一个礼物. 在那名玩家上标注礼物标记",
     "otherNightReminder": "选择一名玩家他收到一个礼物. 或选择你自己(限一次)以打开所有礼物.",
@@ -143,7 +143,7 @@
   {
     "id": "rudolph_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/0675c7480ed4219de83f9d99e913d1d86586953d3894b14ac8a94615f03fc8c0.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/0675c7480ed4219de83f9d99e913d1d86586953d3894b14ac8a94615f03fc8c0.png"
     ],
     "otherNightReminder": "鲁道夫选择等同于爪牙初始设置数量的玩家(最多3名)，标记驯鹿，告诉鲁道夫里面有多少名爪牙然后使其入睡. Any minions chosen, wake and show them YOU WERE CHOSEN BY and the Rudolph token. Point to Rudolph.",
     "reminders": [
@@ -162,7 +162,7 @@
   {
     "id": "ghostpresent_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/f3cc1653380631ed251ef3f473cb80c86b70a7d97f967420cae5439dd90c8ded.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/f3cc1653380631ed251ef3f473cb80c86b70a7d97f967420cae5439dd90c8ded.png"
     ],
     "otherNightReminder": "Wake and choose a player. Storyteller shows/reads you the contents of reminder tokens for the chosen player.",
     "reminders": [
@@ -186,7 +186,7 @@
   {
     "id": "ghostfuture_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/50f35882e469da49025cd4ec9097dfad4726356a3d1a7bd7712cb2d2493a19d9.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/50f35882e469da49025cd4ec9097dfad4726356a3d1a7bd7712cb2d2493a19d9.png"
     ],
     "otherNightReminder": "Choose two players and a Rock, Paper, Scissors shape.",
     "reminders": [
@@ -207,7 +207,7 @@
   {
     "id": "sugarplumfairy_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/28fe072c3697460b72ef147b30665016e9823b39bc618bedefa858d2d9adeba4.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/28fe072c3697460b72ef147b30665016e9823b39bc618bedefa858d2d9adeba4.png"
     ],
     "reminders": [
       "对 1",
@@ -231,7 +231,7 @@
   {
     "id": "wassailer_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/db1b4a11a82fb644b8ef92dba02ef719294b77e5c8c9a4e3694872b03cb0536d.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/db1b4a11a82fb644b8ef92dba02ef719294b77e5c8c9a4e3694872b03cb0536d.png"
     ],
     "reminders": [
       "问候!",
@@ -255,7 +255,7 @@
   {
     "id": "christmasangel_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/e1b5ca417472f973a67c98c566c9db16ecf2de04cd2d882e1648571a66dcd5d7.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/e1b5ca417472f973a67c98c566c9db16ecf2de04cd2d882e1648571a66dcd5d7.png"
     ],
     "firstNightReminder": "Once per game, at night, choose an alive player (not yourself).",
     "otherNightReminder": "Once per game, at night, choose an alive player (not yourself).",
@@ -280,7 +280,7 @@
   {
     "id": "ghostpast_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/d4b5c7aee4fcd1a0df373711e587b3d05b9116b6d10e641a48e9730c86e42274.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/d4b5c7aee4fcd1a0df373711e587b3d05b9116b6d10e641a48e9730c86e42274.png"
     ],
     "otherNightReminder": "Wake and check if Ghost Past wants to use their ability. If Scrooge is dead, tell them who that is now.",
     "reminders": [
@@ -298,7 +298,7 @@
   {
     "id": "gingerbreadman_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/5112abe869fd7e0ba171a25928434cf7a9fcb2cf867b0149db665258374ebb39.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/5112abe869fd7e0ba171a25928434cf7a9fcb2cf867b0149db665258374ebb39.png"
     ],
     "firstNightReminder": "每局游戏限一次，夜晚时，若被邪恶玩家选中，将其唤醒并要求其选择一名存活玩家（可选择自己）。",
     "otherNightReminder": "每局游戏限一次，夜晚时，若被邪恶玩家选中，将其唤醒并要求其选择一名存活玩家（可选择自己）。",
@@ -317,7 +317,7 @@
   {
     "id": "thenutcracker_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/4f43ead859573a30406e8593bf5d9212d175f3f6e1a27d4fca881d2f0a0dded1.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/4f43ead859573a30406e8593bf5d9212d175f3f6e1a27d4fca881d2f0a0dded1.png"
     ],
     "reminders": [
       "红绯鱼",
@@ -332,7 +332,7 @@
   {
     "id": "brokentoy_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/c8953d3cfef49e2061d187fd0b348cabdb329feac7b99c96d3e8a012a20d70b7.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/c8953d3cfef49e2061d187fd0b348cabdb329feac7b99c96d3e8a012a20d70b7.png"
     ],
     "remindersGlobal": [
       "是破碎玩家"
@@ -358,7 +358,7 @@
   {
     "id": "johnmcclane_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/1d67ab4714168afeb3de0d3b0bcb0966194d0a76a5561c3be2fa10b3cf5dfe95.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/1d67ab4714168afeb3de0d3b0bcb0966194d0a76a5561c3be2fa10b3cf5dfe95.png"
     ],
     "otherNightReminder": "Wake the player marked Welcome to the Party and inform them they are now the John McClane. Replace their character with John McClane",
     "reminders": [
@@ -375,7 +375,7 @@
   {
     "id": "scrooge_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/22015677a0cb029c6c0f90b663311ecb5b586634c3cad2afc1e91fdc24f5ce29.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/22015677a0cb029c6c0f90b663311ecb5b586634c3cad2afc1e91fdc24f5ce29.png"
     ],
     "firstNightReminder": "Wake and inform a good player they are now evil at the start of the night. Wake Scrooge and tell them their Visitors now.",
     "otherNightReminder": "Check if Scrooge turns 1 evil player good.",
@@ -400,7 +400,7 @@
   {
     "id": "secretsanta_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/3eef34d7c266848b91f6355ffee24a76cb16bf74ee693d9c7e466c3a055c3df0.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/3eef34d7c266848b91f6355ffee24a76cb16bf74ee693d9c7e466c3a055c3df0.png"
     ],
     "reminders": [
       "已猜测",
@@ -425,7 +425,7 @@
   {
     "id": "hollywreath_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/ea5629081f57b5f2ea42f594896240ab1cecc9ff96f20c8ad24fa0d8af388d3a.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/ea5629081f57b5f2ea42f594896240ab1cecc9ff96f20c8ad24fa0d8af388d3a.png"
     ],
     "otherNightReminder": "If it is possible to kill the player marked with the About to Die reminder token, do so and replace with the Dead reminder token.",
     "reminders": [
@@ -451,7 +451,7 @@
   {
     "id": "miser_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/6c00fb4648e3def416598e5ab40103366a2a65bcd1682a74c3a384b22ee83afa.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/6c00fb4648e3def416598e5ab40103366a2a65bcd1682a74c3a384b22ee83afa.png"
     ],
     "firstNightReminder": "Wake Miser, thumbs up for Heat, thumbs down for Snow. Add the chosen reminder token to the grimoire",
     "otherNightReminder": "Remove the Heat/Snow reminder token and replace with the other, unless they have the executed version already on the grimoire.",
@@ -472,7 +472,7 @@
   {
     "id": "jackfrost_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/d3e2242d1a2b6292bd3652c98441c9c43bea85978612002098b56b5751756658.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/d3e2242d1a2b6292bd3652c98441c9c43bea85978612002098b56b5751756658.png"
     ],
     "firstNightReminder": "Choose an alive good player.",
     "otherNightReminder": "Choose an alive good player.",
@@ -494,7 +494,7 @@
   {
     "id": "mistletoe_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/093dab7931481d74f409fd1158013873d76b7b9c95400e47bdce64f95ddb54a2.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/093dab7931481d74f409fd1158013873d76b7b9c95400e47bdce64f95ddb54a2.png"
     ],
     "otherNightReminder": "Choose two alive players. They swap characters.",
     "reminders": [
@@ -514,7 +514,7 @@
   {
     "id": "krampus_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/f0dd300b6fec198fd6061d2ec031ac0d8cbf4255bc8df67b2900ac6efda4d0da.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/f0dd300b6fec198fd6061d2ec031ac0d8cbf4255bc8df67b2900ac6efda4d0da.png"
     ],
     "firstNightReminder": "Choose a player and an approved word",
     "otherNightReminder": "Choose a player and an approved word",
@@ -532,7 +532,7 @@
   {
     "id": "belsnickel_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/c9d1bbe30a42bbba6013bac702675bc1468e0e46dc5c8ec83258193846e9e715.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/c9d1bbe30a42bbba6013bac702675bc1468e0e46dc5c8ec83258193846e9e715.png"
     ],
     "firstNightReminder": "向贝尔森克展示魔典.选择一名玩家为顽皮的或尊敬的",
     "otherNightReminder": "选择一名玩家为顽皮的或尊敬的",
@@ -576,7 +576,7 @@
   {
     "id": "grinch_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/6ee3e6741a12105c2c1f6261a7148b091c9ff4ce3970b6b4c91c4ba0d5126eb6.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/6ee3e6741a12105c2c1f6261a7148b091c9ff4ce3970b6b4c91c4ba0d5126eb6.png"
     ],
     "firstNightReminder": "Choose a player",
     "otherNightReminder": "Kill the chosen player from the previous night. Choose a new player",
@@ -596,7 +596,7 @@
   {
     "id": "yeti_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/ce9179a2d7ac604cfd54aa11f5c708267d9bc700951f18afa0205bedcdc6df03.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/ce9179a2d7ac604cfd54aa11f5c708267d9bc700951f18afa0205bedcdc6df03.png"
     ],
     "otherNightReminder": "Choose a player to die. If they nominated the previous day both of their townsfolk neighbors are poisoned tonight and tomorrow day.",
     "reminders": [
@@ -624,7 +624,7 @@
   {
     "id": "frostbite_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/2d9da61e394c2e36f5ece0fd8472ddd12aab43010c226c85007f550e3a6753c5.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/2d9da61e394c2e36f5ece0fd8472ddd12aab43010c226c85007f550e3a6753c5.png"
     ],
     "otherNightReminder": "Choose two players to die. At dawn hold a vote to save 1 player. If Frostbite dies to their own ability, a Minion becomes Frostbite and they become an out of play Minion",
     "reminders": [
@@ -648,7 +648,7 @@
   {
     "id": "carolsinger_averymerryclocktower",
     "image": [
-      "/scripts/assets/community/a546f3650409437d72aaa062743a58858cea47c3d95921db6bf849db7a590d88.png"
+      "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/a546f3650409437d72aaa062743a58858cea47c3d95921db6bf849db7a590d88.png"
     ],
     "reminders": [
       "唱",
@@ -670,7 +670,7 @@
   },
   {
     "id": "jaccuse_averymerryclocktower",
-    "image": "/scripts/assets/community/232bd962a8c341a1015d3e764fdf07ce1704a269cf4bc0c0985ae5410564c48d.png",
+    "image": "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/232bd962a8c341a1015d3e764fdf07ce1704a269cf4bc0c0985ae5410564c48d.png",
     "remindersGlobal": [
       "Callback"
     ],
@@ -681,7 +681,7 @@
   },
   {
     "id": "yippeekiyay_averymerryclocktower",
-    "image": "/scripts/assets/community/9ed1228d30a650f1c2c369b3d8a336760f0764466c7cdbba2178698e53fb9aa9.png",
+    "image": "/scripts/assets/community-zhong-lou-guai-dan-sheng-dan-kuai-le-925136db/9ed1228d30a650f1c2c369b3d8a336760f0764466c7cdbba2178698e53fb9aa9.png",
     "name": "万岁！",
     "team": "fabled",
     "ability": "如果约翰 麦克莱恩存活且他疯狂地证明《虎胆龙威》不是圣诞电影，他可能立即被处决。",
