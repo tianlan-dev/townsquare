@@ -1,0 +1,478 @@
+[
+  {
+    "id": "_meta",
+    "name": "除暴安良",
+    "author": "惊鸿",
+    "state": [
+      {
+        "stateName": "疯狂",
+        "stateDescription": "当你陷入“疯狂”时，意味着你需要向其他玩家有诚意且努力的证明某件事情，如不这么做就会受到惩罚。"
+      }
+    ],
+    "tags": [
+      "华灯初上剧本创作大赛"
+    ],
+    "version": ""
+  },
+  {
+    "id": "shangjinlieren",
+    "image": "/scripts/assets/community/69766c9356ecb61d1d22b1ed9cd42fecc062f24c8b212a13aa09f4de4d300dde.png",
+    "edition": "custom",
+    "name": "赏金猎人",
+    "ability": "在你的首个夜晚，你会得知一名邪恶玩家。每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 45,
+    "otherNight": 65,
+    "firstNightReminder": "指向一名邪恶玩家。随后唤醒那名因赏金猎人而转变为邪恶的镇民，并告知他变成了邪恶阵营。",
+    "otherNightReminder": "如果赏金猎人知晓的邪恶玩家死亡，指向另一名邪恶玩家。",
+    "reminders": [
+      "邪恶",
+      "被得知"
+    ],
+    "setup": true
+  },
+  {
+    "id": "huahua",
+    "image": "/scripts/assets/community/95191e1edac6e457d6f532cc5f648dd18c9f4dec7ff5ddc3a1b86785fe0bc311.png",
+    "edition": "custom",
+    "name": "卖花女孩",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 58,
+    "firstNightReminder": "",
+    "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
+    "reminders": [
+      "恶魔未投票",
+      "恶魔已投票"
+    ],
+    "setup": false
+  },
+  {
+    "id": "xiaojingling",
+    "image": "/scripts/assets/community/61a9e4536e5d7b440ef0d82a0cc1cdb2631ee41f785e41394d81c04d9a019a01.png",
+    "edition": "custom",
+    "name": "小精灵",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 29,
+    "otherNight": 0,
+    "firstNightReminder": "对小精灵展示一个在场的镇民角色。",
+    "otherNightReminder": "",
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "zaoyaozhe",
+    "image": "/scripts/assets/community/620901de5ee513f8201ce7ac484acdad9ebd4127ca82ab5d9639c4fd96651de6.png",
+    "edition": "custom",
+    "name": "造谣者",
+    "ability": "每个白天，你可以公开发表一个声明。在当晚，如果该声明是正确的，会有一名玩家死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 47,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false
+  },
+  {
+    "id": "shuishou",
+    "image": "/scripts/assets/community/934f00caa1ba955346bf4bed84268ccd8fec4459ec4d1c62c1b5d61e0f7221ba.png",
+    "edition": "custom",
+    "name": "水手",
+    "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 10,
+    "otherNight": 4,
+    "firstNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
+    "otherNightReminder": "让水手选择一名存活玩家。标记那名玩家或水手醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false
+  },
+  {
+    "id": "shengnv",
+    "image": "/scripts/assets/community/af771fdf931c73759cbc526e63a48fc918735d5a668e00891f7777b289af5e78.png",
+    "edition": "custom",
+    "name": "贞洁者",
+    "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "langzhongc5cc29100",
+    "image": "/scripts/assets/community/c0ec80814c012df960fde47ceb11036c6405d70ee4daaf47748790c94ad1535f.png",
+    "edition": "custom",
+    "name": "郎中",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 35,
+    "otherNight": 61,
+    "firstNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+    "otherNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+    "imageAlt": "langzhong"
+  },
+  {
+    "id": "gongchengshi",
+    "image": "/scripts/assets/community/48cfc7a7bf990db13203ae7bef93cddad481b642e131edc8159f203ea2d392e9.png",
+    "edition": "custom",
+    "name": "工程师",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 13,
+    "otherNight": 6,
+    "firstNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+    "otherNightReminder": "工程师选择不使用能力，或在剧本列表中选择恶魔或爪牙角色。如果他选择爪牙角色，则需要选择对应数量的爪牙。然后将这些玩家依次唤醒，并告知他们变成了什么角色。",
+    "reminders": [
+      "失去能力"
+    ]
+  },
+  {
+    "id": "chuanjiaoshi",
+    "image": "/scripts/assets/community/a3cbe0affd78f562f2ee72d6d62a15ee275b7e7f9e451e4b0527665bbd8a1be2.png",
+    "edition": "custom",
+    "name": "传教士",
+    "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 14,
+    "otherNight": 7,
+    "firstNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
+    "otherNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
+    "reminders": [
+      "布道"
+    ]
+  },
+  {
+    "id": "shichen",
+    "image": "/scripts/assets/community/2ee0d134571a146534b0e1e6d95fec62f93558c94881142c37afbf156eeb85a1.png",
+    "edition": "custom",
+    "name": "侍臣",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，一个该角色从当晚开始醉酒三天三夜。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 19,
+    "otherNight": 10,
+    "firstNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
+    "otherNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
+    "reminders": [
+      "醉酒1",
+      "醉酒2",
+      "醉酒3",
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "jinyiweic5cc29100",
+    "image": "/scripts/assets/community/3a8766d33fd1f02bd4f6a8e5558e421528c6fa0ea468746cada16e9e24d4e94e.png",
+    "edition": "custom",
+    "name": "锦衣卫",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他在下个黄昏前死亡，你代替他死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 14,
+    "otherNightReminder": "移除上个夜晚放置的“保护”标记。唤醒锦衣卫，让其选择一名玩家。在该玩家角色标记旁放置“保护”提示标记。",
+    "reminders": [
+      "保护"
+    ],
+    "imageAlt": "jinyiwei"
+  },
+  {
+    "id": "yingsu",
+    "image": "/scripts/assets/community/3944bc53a88c1b2a76abcc51d43006c9668ae924acea869e02ff7cb0790711e5.png",
+    "edition": "custom",
+    "name": "罂粟种植者",
+    "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 4,
+    "otherNight": 3,
+    "firstNightReminder": "不要让恶魔和爪牙相认。",
+    "otherNightReminder": "如果罂粟种植者死亡，安排恶魔和爪牙相认环节。",
+    "reminders": [
+      "邪恶角色互认"
+    ],
+    "setup": false
+  },
+  {
+    "id": "fengzi",
+    "image": "/scripts/assets/community/a8fd7111310e74aa816e147b87f4fdd6844bd3a86c4cb15a1bfdc1a35bb2703f.png",
+    "edition": "custom",
+    "name": "疯子",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 7,
+    "otherNight": 21,
+    "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
+    "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
+    "reminders": [
+      "被选择1",
+      "被选择2",
+      "被选择3"
+    ],
+    "remindersGlobal": [
+      "是疯子"
+    ],
+    "setup": true
+  },
+  {
+    "id": "shaxinga",
+    "image": "/scripts/assets/community/332b7062cfdaf45ef3499c83bedafe22f76807d4c35a35a8d09f9f2ac1573371.png",
+    "edition": "custom",
+    "name": "煞星",
+    "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 39,
+    "otherNightReminder": "如果煞星死亡，将与其邻近的存活善良玩家之一标记为死亡。",
+    "reminders": [
+      "死亡"
+    ]
+  },
+  {
+    "id": "moxiang",
+    "image": "/scripts/assets/community/bf6087637632a3424052d11d5bdd24a89fce7e61c9a45bbee7723082f236a914.png",
+    "edition": "custom",
+    "name": "魔像",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "无法提名"
+    ],
+    "setup": false
+  },
+  {
+    "id": "wenyi",
+    "image": "/scripts/assets/community/f6531c1344a6c2efc0abc7320d25a91728d5fb14db1fbee8b0fa65df1ec8b0cd.png",
+    "edition": "custom",
+    "name": "瘟疫医生",
+    "ability": "当你死亡时，说书人会获得一个不在场爪牙的能力。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "0",
+    "otherNightReminder": "0",
+    "reminders": [
+      "能力影响"
+    ],
+    "setup": false
+  },
+  {
+    "id": "zhadanren",
+    "image": "/scripts/assets/community/cdf645d0c47042883227883f1da9b8f38c4264b5316b5d40b67f69b1fe8636bc.png",
+    "edition": "custom",
+    "name": "炸弹人",
+    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。一分钟之后，被最多玩家手指指着的玩家死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "jiaofu",
+    "image": "/scripts/assets/community/bceea0e853c003346645abb01c659b63fc42130abcfa5df49ce8bfcd594b8411.png",
+    "edition": "custom",
+    "name": "教父",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 21,
+    "otherNight": 38,
+    "firstNightReminder": "对他展示所有在场的外来者标记。",
+    "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true
+  },
+  {
+    "id": "cike",
+    "image": "/scripts/assets/community/f4755bd551210cb96cb63b5298d369a0154e469ada901223171912ceef82b41b.png",
+    "edition": "custom",
+    "name": "刺客",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 37,
+    "firstNightReminder": "",
+    "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "futou",
+    "image": "/scripts/assets/community/97bddbf0897074044408bebd6651095af7c867646a4f56b566e75f57218601bb.png",
+    "edition": "custom",
+    "name": "精神病患者",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "yanggurenc5cc29100",
+    "image": "/scripts/assets/community/0bd12351e50a873785b385c55cba1b3d79b5355019329fbe89f1067a14dd9137.png",
+    "edition": "custom",
+    "name": "养蛊人",
+    "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 38,
+    "otherNightReminder": "如果有玩家被放置了“提名”标记，标记该玩家死亡。",
+    "reminders": [
+      "提名",
+      "死亡"
+    ],
+    "imageAlt": "yangguren"
+  },
+  {
+    "id": "aohe",
+    "image": "/scripts/assets/community/221e73e5218bf83344a1e5a29640e42bc9f3555da48ae587dfc25ef0c4ebd708.png",
+    "edition": "custom",
+    "name": "奥赫",
+    "ability": "每个夜晚*，你要选择一个角色：他死亡。如果该角色不在场，则由说书人来决定谁会被你杀死。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 31,
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false
+  },
+  {
+    "id": "baobao",
+    "image": "/scripts/assets/community/d94df85eff5e2d40edd71277c5ae153a569557717ceff581e39a3225cd05b01f.png",
+    "edition": "custom",
+    "name": "小怪宝",
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，会有一名玩家死亡。[+1爪牙]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 16,
+    "otherNight": 36,
+    "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+    "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看小怪宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+    "reminders": [],
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "setup": true
+  },
+  {
+    "id": "xinhundun",
+    "image": "/scripts/assets/community/fd7cea50116292c089a1c7727ec07604066792a9e17f842fcdbfe3b2ad55d509.png",
+    "edition": "custom",
+    "name": "混沌",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有善良玩家会中毒直到下个黄昏。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 32,
+    "firstNightReminder": "嘻嘻",
+    "otherNightReminder": "嘻嘻。",
+    "reminders": [
+      "死亡",
+      "全员中毒"
+    ]
+  },
+  {
+    "id": "0_meta",
+    "image": "/scripts/assets/community/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
+    "name": "和尚 & 半兽人",
+    "team": "a jinxed",
+    "sch_team": "相克",
+    "setup": false,
+    "ability": "如果半兽人选择了锦衣卫保护的善良玩家，那么当晚只会有锦衣卫死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "1_meta",
+    "image": "/scripts/assets/community/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
+    "name": "养蛊人 & 瘟疫医生",
+    "team": "a jinxed",
+    "sch_team": "相克",
+    "setup": false,
+    "ability": "如果瘟疫医生死亡且说书人会因此获得养蛊人的能力，改为一名存活的爪牙玩家获得此能力，且他会得知此事。",
+    "edition": "custom"
+  },
+  {
+    "id": "2_meta",
+    "image": "/scripts/assets/community/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
+    "name": "炸弹人 & 瘟疫医生",
+    "team": "a jinxed",
+    "sch_team": "相克",
+    "setup": false,
+    "ability": "如果瘟疫医生死于处决且说书人会因此获得炸弹人的能力，那么炸弹人的能力会立刻被触发。",
+    "edition": "custom"
+  },
+  {
+    "id": "3_meta",
+    "image": "/scripts/assets/community/4d217358e07d3113a071bfac18fb451724e17cf184da68db1f7bf8649175eb85.png",
+    "name": "罂粟种植者 & 小怪宝",
+    "team": "a jinxed",
+    "sch_team": "相克",
+    "setup": false,
+    "ability": "如果罂粟种植者在场，爪牙们不会同时醒来选择照看小怪宝。他们会依次单独被唤醒，知道其中一人选择照看小怪宝。",
+    "edition": "custom"
+  },
+  {
+    "ability": "B站 是苏璃嘛",
+    "edition": "custom",
+    "id": "Json Write By",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "Json 制作 By",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "team": "fabled"
+  }
+]

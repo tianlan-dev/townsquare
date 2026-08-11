@@ -1,0 +1,217 @@
+[
+  {
+    "id": "_meta",
+    "name": "尖塔的诅咒",
+    "author": "小烯C2H43g",
+    "almanac": "https://www.bloodstar.xyz/p/C2H43g/spire/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "汀西维尔"
+    ],
+    "version": "",
+    "issue": 900
+  },
+  {
+    "id": "_spire",
+    "image": "/scripts/assets/community/fd52f4ef732b39f2e3fdd36fdd03fe33b4e96acb0f5afe0a95a8328a0689e7b8.png",
+    "firstNightReminder": "选择位置",
+    "otherNightReminder": "移动",
+    "reminders": [
+      "上层",
+      "中层",
+      "下层"
+    ],
+    "name": "尖塔",
+    "team": "fabled",
+    "ability": "游戏开始时，所有玩家要秘密选择尖塔的上/中/下层作为初始位置，每个夜晚*，存活玩家可以进行一次移动。",
+    "firstNight": 12000,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "1_spire",
+    "image": "/scripts/assets/community/cf36164044fcdba347144849ce32b862b95e640c062a9c2999527424752da9cb.png",
+    "name": "行动",
+    "team": "fabled",
+    "ability": "每名未堕落的存活玩家每个楼层限一次，你可以秘密地与说书人进行猜拳（平局则继续），如果你获胜，你可以选择未选择过的一项。1:得知本层有哪些玩家。2:选择一名玩家并得知他的阵营，如果他与你处于不同层，你得知错误信息。3:选择一个角色得知他是否在场，你和该角色之间有人被诅咒，你获得错误信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "7_spire",
+    "image": "/scripts/assets/community/555086aafc1dec8c97e6e0a787cb60455f8fd07ae0e91a821e5d1526071b2eee.png",
+    "name": "诅咒",
+    "team": "fabled",
+    "ability": "游戏初始设置中的外来者将被替换为被诅咒的镇民，每名镇名玩家最多受到一个诅咒。",
+    "edition": "custom"
+  },
+  {
+    "id": "3_spire",
+    "image": "/scripts/assets/community/e68353cf029f9e7a01a2c05639261d29dfc30d22b6ebc78b2f19d38c02f895a8.png",
+    "name": "私货商人",
+    "team": "fabled",
+    "ability": "邪恶玩家会互认且得知不在场身份。",
+    "edition": "custom"
+  },
+  {
+    "id": "2_spire",
+    "otherNightReminder": "选择一个角色。",
+    "reminders": [
+      "祝福"
+    ],
+    "name": "涅奥",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你选择一个其他角色（与上一个夜晚不同），邪恶角色能力对他无效直到下个黄昏。你的能力对已堕落的玩家不会生效。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "4_spire",
+    "image": "/scripts/assets/community/cb70cb2627b1a88434908ee30c6541750c1b877735a6e5dfdf232d29a2252c0f.png",
+    "otherNightReminder": "得知",
+    "name": "铁甲战士",
+    "team": "townsfolk",
+    "ability": "你不会被诅咒。如果你堕落，当晚你得知所有玩家所在的楼层。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "5_spire",
+    "image": "/scripts/assets/community/c8a15a65a77f6197eb446e6386b4059f8420ea339519fc5ba2ebc7180c140e9a.png",
+    "otherNightReminder": "得知",
+    "name": "静默猎手",
+    "team": "townsfolk",
+    "ability": "如果你没有堕落，每个夜晚*，你会得知当晚你处于的楼层是否存在邪恶玩家。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "6_spire",
+    "image": "/scripts/assets/community/f00a8795ba0c1bf61dc871c7b8bece908ad55b8faf45b12d91dfc861c1671a02.png",
+    "otherNightReminder": "选择",
+    "reminders": [
+      "在启动了",
+      "失去能力"
+    ],
+    "name": "故障机器人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，如果你没有堕落且上个白天没有行动，在夜晚时*，你可以得知哪些邪恶角色在场以及他们当晚所在的位置。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "8_spire",
+    "image": "/scripts/assets/community/b0fe71eac5d31eb7abdb48277c98d3def06d7ef86ef3271c41d3b8078c03abac.png",
+    "firstNightReminder": "选择一个状态",
+    "otherNightReminder": "选择一个形态",
+    "reminders": [
+      "冷静",
+      "愤怒"
+    ],
+    "name": "观者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个形态  1.平静：你在行动中的平手视为获胜。  2.愤怒：你在每层都有一次额外行动的机会，但你的平手会被视为失败。",
+    "firstNight": 14000,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "9_spire",
+    "image": "/scripts/assets/community/e4227a051970572140ead6bb43f9453bc95e6102997421f0d16baeeb2f0c546a.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": true,
+    "name": "亡命之人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以公开选择一名玩家，如果他是爪牙或者他被诅咒，他立刻被处决。［+0～1诅咒］",
+    "edition": "custom"
+  },
+  {
+    "id": "10_spire",
+    "image": "/scripts/assets/community/4538c1a1747e589ddfabda396426f5a3db8c213edd3ccb9b42ae1a776a3da01c.png",
+    "remindersGlobal": [
+      "废物"
+    ],
+    "name": "凡庸（诅咒）",
+    "team": "outsider",
+    "ability": "你始终位于你的初始位置，但你会以为自己进行了移动且可以正常的进行\"行动\"。",
+    "edition": "custom"
+  },
+  {
+    "id": "11_spire",
+    "image": "/scripts/assets/community/c0cd5094942cc4174749097f81631d570348a537a519850a5b28074c8558f456.png",
+    "remindersGlobal": [
+      "认知偏差",
+      "中毒"
+    ],
+    "name": "疑虑（诅咒）",
+    "team": "outsider",
+    "ability": "你不会得知你堕落，你堕落后会中毒且通过行动获取的信息的正误由说书人决定。",
+    "edition": "custom"
+  },
+  {
+    "id": "17_spire",
+    "image": "/scripts/assets/community/01c08b376ebfdcfdb8e3abe43d7f0dd27c65c249e90ca3432c62261dbb1b2b3e.png",
+    "remindersGlobal": [
+      "NO.4"
+    ],
+    "name": "傲慢（诅咒）",
+    "team": "outsider",
+    "ability": "你获得的所有信息正误反转。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_spire",
+    "image": "/scripts/assets/community/769db865226558e2a1319284bef8dd9852b750479f1e48a32167fdde8a186483.png",
+    "firstNightReminder": "选择楼层",
+    "otherNightReminder": "查看尖塔",
+    "reminders": [
+      "上层反转",
+      "中层反转",
+      "下层反转"
+    ],
+    "name": "尖塔之盾",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你要选择一个楼层，该层善良玩家获得的所有信息正误反转。每个夜晚，你会得知所有玩家的位置。",
+    "firstNight": 13000,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "14_spire",
+    "image": "/scripts/assets/community/7b28291cce8d4eac2e359d454d065b3da51107a580cdeca5eda22808927cffa8.png",
+    "firstNightReminder": "查看魔典",
+    "setup": true,
+    "name": "尖塔之矛",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你得知诅咒的数量，然后查看魔典并决定哪些诅咒在哪些镇民身上。［+1诅咒］",
+    "firstNight": 11000,
+    "edition": "custom"
+  },
+  {
+    "id": "15_spire",
+    "image": "/scripts/assets/community/e07736382d10d8fb76d6a2d15082331099b49a1b6ef1584f9166c58c6ee44479.png",
+    "otherNightReminder": "选择一个楼层",
+    "reminders": [
+      "堕落"
+    ],
+    "name": "腐化之心",
+    "team": "demon",
+    "ability": "每个夜晚*，你选择一个楼层，当晚位于该层的存活善良玩家会堕落且得知此事，如果所有存活善良玩家均堕落或第四个白天结束时，邪恶阵营获胜。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "16_spire",
+    "image": "/scripts/assets/community/9c539da1a48f28b9a97b2fb45ac80d00b425ef27e22d04bc7f5921876cfda5b2.png",
+    "otherNightReminder": "选择",
+    "reminders": [
+      "商品"
+    ],
+    "name": "尖塔商人",
+    "team": "traveler",
+    "ability": "你没有阵营且不会进入尖塔以及参与行动。每个白天，你可以跟说书人共同制定一个道具并公开其效果。每个玩家可以私下告诉你他的购买代价，当晚你可以选择其中一名玩家获得道具。",
+    "otherNight": 2,
+    "edition": "custom"
+  }
+]

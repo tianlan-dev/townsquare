@@ -1,0 +1,393 @@
+[
+  {
+    "id": "_meta",
+    "name": "鸦木高中",
+    "author": "Pooley & Aegis (Art by Dela/Almanac by Lady Mist)",
+    "logo": "/scripts/assets/community/73bf0a71039e1f7dafd5f0cb5e2cd645cd662881a34ffcd263d26c40c9006fb3.png",
+    "almanac": "https://www.bloodstar.xyz/p/worryhours/rhigh/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": ""
+  },
+  {
+    "id": "_rhigh",
+    "image": "/scripts/assets/community/1f99c1c1edca96e4297587645f03a69f099ba76fe4160cc75228302d5195c02f.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "得知"
+    ],
+    "name": "万人迷",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家和一个角色：这三名玩家之一是该角色。 殊荣：你会得知另外两名玩家之一的角色。",
+    "firstNight": 21,
+    "otherNight": 22,
+    "edition": "custom"
+  },
+  {
+    "id": "1_rhigh",
+    "image": "/scripts/assets/community/178da9f13f910c11f7c43b2113c2f5f3569cc9a93e5b42f7133e3eb056cca2f7.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "得知",
+      "获胜"
+    ],
+    "name": "天才",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名隐藏目的(*)的善良玩家。 殊荣：游戏结束时，你与通过角色能力“目的”取胜的玩家一同获胜，即使你已死亡。",
+    "firstNight": 16,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "2_rhigh",
+    "image": "/scripts/assets/community/0ea2cca1346bf0d6c93b369f7b2c7d6747df48ef4d428f668ec15d331290f70c.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "name": "清洁工",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知两个角色：这两个角色之一在场。",
+    "firstNight": 20,
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "3_rhigh",
+    "image": "/scripts/assets/community/b295e3b91a4eeaae35c6830d522581da6d3d118a7497f3041155c8b70126d2e4.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "免疫"
+    ],
+    "name": "机车狂",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：当晚爪牙的负面能力对他无效。 殊荣：你的能力生效两次。",
+    "firstNight": 11,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "4_rhigh",
+    "image": "/scripts/assets/community/ce5854c3cbca9b9d62260c8f89247326463d18668aa327c0adffbdb3a7fc43c1.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "错误信息"
+    ],
+    "name": "厌学生",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知两个善良角色，其中之一是他的角色。如果他是邪恶的，此后你得知错误信息。",
+    "firstNight": 14,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "5_rhigh",
+    "image": "/scripts/assets/community/2313ee65f1eb268b5be7964bca6ca89843eec53895a1fe23a9169585a8c4c259.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "父母"
+    ],
+    "name": "时空客*",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名玩家始终为你的父母，如果你当晚选中了你的父母，你得知错误信息。 目的：如果你选择了你的父母“是皇室”，你与他一同获胜。",
+    "firstNight": 15,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "6_rhigh",
+    "image": "/scripts/assets/community/5033a3fc89387467b0883015987bfc3d3ba7929a55a75bd0b49dfa440e915ce7.png",
+    "otherNightReminder": " ",
+    "name": "校报记者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一个数字：你会得知在今天白天时是否有至少该数量的邪恶玩家发起过提名。 殊荣：你会转而得知在今天白天时有多少名邪恶玩家发起过提名。",
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "7_rhigh",
+    "image": "/scripts/assets/community/55f99b34ed174bc56a4472e519b84819e9b65b8864ecace486067e71f83b06cd.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "被提名",
+      "失去能力"
+    ],
+    "setup": true,
+    "name": "运动员",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，如果你上个白天发起过提名，你会得知距离最近的存活邪恶玩家位于你提名过的玩家的(顺时针/逆时针)方向。外来者被你的能力当作邪恶阵营。(邻座玩家距离为1) 殊荣：外来者被你的能力当作善良阵营。[+1外来者]",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "8_rhigh",
+    "image": "/scripts/assets/community/18ff917eab092320a8eccefa8c93c1ac88360ed63862ea8469f9c05396849c7b.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "哥特族",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以举行降神会：你会得知死亡玩家的角色。 殊荣：当晚，你会得知今天白天死于处决的玩家的角色。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "9_rhigh",
+    "image": "/scripts/assets/community/e6f694002725f0bec5dc4aebb046a78a8c4263aa0e87324a4162c1f81d7595d4.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "交换生",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择与你邻近的两名存活的玩家之一：你会得知该玩家和另一名与其邻近的存活玩家是否为同一阵营。 殊荣：你重新获得能力。",
+    "firstNight": 19,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "10_rhigh",
+    "image": "/scripts/assets/community/2b0a42c5cfac0a3ff4aa88947c06ac20fc61ac951d3034d7bc8274de3baecd2a.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "存活"
+    ],
+    "name": "书虫",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你要选择等同于你存活夜晚数量的角色：你会得知哪些角色在场。 殊荣：你要选择一个角色：你会得知他是否在场。",
+    "firstNight": 18,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "11_rhigh",
+    "image": "/scripts/assets/community/868d37a7d0f7e5155775e0d2947d6bc3a24e595ec36684b5c141db1c2a8eddce.png",
+    "otherNightReminder": " ",
+    "name": "挚友*",
+    "team": "townsfolk",
+    "ability": "如果与你邻近的玩家之一是善良的并且在夜晚即将死亡，你代替他死亡。 目的：如果只有三名存活的玩家，并且初始与你邻近的玩家是其中之二，你们获胜，即使你已死亡。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "12_rhigh",
+    "image": "/scripts/assets/community/683a6e59e268d9c29a19c249b310dcd1b961e00d98466587355da5a229377d2e.png",
+    "reminders": [
+      "社交",
+      "殊荣"
+    ],
+    "name": "社交达人*",
+    "team": "townsfolk",
+    "ability": "被你提名的善良玩家（与之前不同），当晚触发其“殊荣”效果。 目的：当天结束时，你提名的玩家与提名你的玩家是除你以外其他所有存活玩家时，你获得胜利。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_rhigh",
+    "image": "/scripts/assets/community/4c0d8ce025ed23a7cfb009cfe05e909bf449aae4fc9ce9caf81881b5d181ccec.png",
+    "firstNightReminder": "如果有多个玩家是浪漫主义者的对坐，选择其一并告知浪漫主义者。",
+    "otherNightReminder": " ",
+    "reminders": [
+      "恋人"
+    ],
+    "name": "浪漫主义者*",
+    "team": "outsider",
+    "ability": "魔典中与你对坐的玩家是你的恋人。 殊荣：如果你的恋人即将死亡，可能会有一名其他玩家代替他死亡。 目的：如果你邻近的存活玩家是你的恋人，你们获胜。",
+    "firstNight": 17,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "14_rhigh",
+    "image": "/scripts/assets/community/fe057e01082d4f7770fc3f282a2880680a7946d17a032d4bcf067dca8f71efee.png",
+    "name": "纪律委员*",
+    "team": "outsider",
+    "ability": "每个白天，你可以向说书人出示你标记的魔典。 目的：你还原了正确的魔典。",
+    "edition": "custom"
+  },
+  {
+    "id": "15_rhigh",
+    "image": "/scripts/assets/community/fde79aca03e4f42dad440c2d8df4de1a92dbe010e8cf5ff6a03e75fac18b0891.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "贵公子",
+    "team": "outsider",
+    "ability": "一名玩家醉酒，即使你已死亡。 殊荣：这名玩家恢复清醒。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "16_rhigh",
+    "image": "/scripts/assets/community/5b9c69e09315c46d7a0ddc4f1295c38155547f70a2c9994659a303dc6236d587.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "叛逆者",
+    "team": "outsider",
+    "ability": "你与获胜的玩家一同获胜。 殊荣：在游戏剩余时间你失去能力。",
+    "edition": "custom"
+  },
+  {
+    "id": "17_rhigh",
+    "image": "/scripts/assets/community/31269471c899514f7c46b0b64cdeb115c6973debb63e349487f455b5dad2875d.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "疯狂"
+    ],
+    "name": "传谣者",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家并给出一个合理的声明。被选择的善良玩家明天白天和夜晚需要“疯狂”地证明这个声明是正确的，否则他可能被处决。",
+    "firstNight": 13,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "18_rhigh",
+    "image": "/scripts/assets/community/d11eae9096bb9a74d6c7368da86624dced7dd17f4adf9fdbd3360b388171109c.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "中毒且邪恶"
+    ],
+    "name": "大嘴巴",
+    "team": "minion",
+    "ability": "每个夜晚*，如果你上个白天发起过提名，你可以选择一名被你提名的玩家：他中毒并会被当作邪恶阵营直到下个黄昏。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "19_rhigh",
+    "image": "/scripts/assets/community/0adea749bfb1fb60e059af2968bd35dff0c051c3bf41b40e16269980416fc9ee.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": true,
+    "name": "橄榄球队长",
+    "team": "minion",
+    "ability": "当一名外来者选择了一名善良玩家“是皇室”，他们中毒直到下个黄昏。[+1外来者]",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "20_rhigh",
+    "image": "/scripts/assets/community/5ca501633626faf3bf905d87abd13730600dea53a5c4384d44c195f96819fc22.png",
+    "reminders": [
+      "邪恶",
+      "被处决"
+    ],
+    "name": "啦啦队长",
+    "team": "minion",
+    "ability": "第一名选择了你“是皇室”的玩家转变为邪恶阵营。 殊荣：如果大于等于四名玩家存活时，你与被处决的玩家交换角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "21_rhigh",
+    "image": "/scripts/assets/community/8ca4e20dc9e7670d376f331027e139e297da4132b745c863c8213ab1935536fd.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "死亡",
+      "被选择"
+    ],
+    "name": "女王蜂*",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你被善良玩家选择了两次“是皇室”，邪恶阵营获胜。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "22_rhigh",
+    "image": "/scripts/assets/community/88d109a7f04204c85583f6d8c4b1c9596dadfac795b1563aa5202b4bf96f0302.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "场地工",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡并猜测他的角色。如果你猜测正确，你可以再次行动。你第二次选择的玩家中毒直到下个黄昏。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "23_rhigh",
+    "image": "/scripts/assets/community/bef130978ab0b2bd1662e3f8a8e2b0b4245b8a37a20a3183d506aad5f246e2f4.png",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "霸凌者*",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你会得知时空客的父母是哪一名玩家。如果只有三名存活的玩家，并且你与时空客的父母是其中之二，邪恶阵营获胜。时空客知道霸凌者在场。[+时空客*]",
+    "firstNight": 12,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "24_rhigh",
+    "image": "/scripts/assets/community/da45797c46a52b67cef6649650b64e3e7ddf147ddac0c7183379e2ebbb2e89d4.png",
+    "otherNightReminder": " ",
+    "reminders": [
+      "死亡",
+      "因我中毒"
+    ],
+    "setup": true,
+    "name": "魔鬼教师*",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果所有存活的善良玩家都因你的能力中毒过，邪恶阵营获胜。邪恶玩家获得能力：殊荣：当晚与你邻近的存活善良玩家中毒。[-1外来者]",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "25_rhigh",
+    "image": "/scripts/assets/community/aee8c8107b9bd1af40a78e6355b293cfc268d66d5b0355665853e88b2d6dda6b.png",
+    "remindersGlobal": [
+      "是皇室"
+    ],
+    "name": "舞会王室",
+    "team": "fabled",
+    "ability": "每个白天被处决的玩家可以选择一名存活的玩家（与上个白天不同）。这名玩家“是皇室”并且邪恶玩家的负面能力对他无效直到下个黎明。当玩家“是皇室”并且能力带有“殊荣”关键词将触发其描述效果。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_rhigh",
+    "image": "/scripts/assets/community/ec1a0497da65246164a766a05b5eb0c630a8c12faf06d10c5806b1527f0c9e9b.png",
+    "remindersGlobal": [
+      "获胜"
+    ],
+    "name": "过度进取",
+    "team": "fabled",
+    "ability": "本局游戏中至少有一名隐藏目的(*)的善良玩家在场。能力带有“目的”关键词的玩家（无论其所属阵营）若达成所列条件，将直接获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_rhigh",
+    "image": "/scripts/assets/community/cef1077aedaf67b308f7918f3d06882e1541187e226a00fbb91c3854d2b4eb92.png",
+    "name": "戏精",
+    "team": "traveller",
+    "ability": "每局游戏限一次，在被处决的玩家选择了一名玩家“是皇室”后，你可以驳回该选择并选择一名不同的玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "28_rhigh",
+    "image": "/scripts/assets/community/0ccb127314e320fb8718482d6b97e78b7c50cbb0e7372848470e4c0dd0fd280f.png",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "毕业生*",
+    "team": "traveller",
+    "ability": "目的：你恰好以满足流放条件的票数流放，你获胜。 你获胜后游戏继续进行，与你阵营相同的一名玩家可能会死亡。",
+    "edition": "custom"
+  }
+]

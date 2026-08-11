@@ -1,0 +1,501 @@
+[
+  {
+    "id": "_meta",
+    "logo": "/scripts/assets/community/0009d6aaa75e8e96c2a79c0f5ebfbb6b29ef2d53232bff5332f2fdac2039c5f0.png",
+    "name": "原初混沌",
+    "townsfolkName": "镇民",
+    "author": "星火乐",
+    "state": [
+      {
+        "stateName": "醉酒与中毒",
+        "stateDescription": "醉酒或中毒的玩家会失去能力，但会认为自己仍具有能力，说书人会做出这些玩家仍然具有能力的行为。如果醉酒或中毒玩家的角色能力会给他提供信息，说书人可能会给出错误信息。醉酒或中毒的玩家不会得知自己醉酒或中毒。"
+      }
+    ],
+    "tags": [
+      "万象星启体验剧本"
+    ],
+    "version": ""
+  },
+  {
+    "id": "lujiaotu",
+    "image": "/scripts/assets/community/8e7718ea1967dbe9841c1deb48a83a1929a42a1f053204f60072a52178151126.png",
+    "edition": "custom",
+    "name": "幻形妖",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，你会与被你杀死的非爪牙玩家交换角色和阵营。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 2100,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "幻形"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "image": "/scripts/assets/community/08d55a2a7b12e145da98d7dfd8b60cfe0090a67a422c7890e94eb518bdc032f8.webp",
+    "name": "放贷人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，选择一名除你以外的存活玩家：你转变为他的阵营。",
+    "id": "moneylender",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "邪恶"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 11751,
+    "otherNight": 14401
+  },
+  {
+    "name": "猎巫人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一名玩家：你会得知他的阵营。如果他明天白天没有被处决，当晚他转变为邪恶阵营。你不会转变为邪恶阵营。",
+    "id": "witchhunter",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "邪恶",
+      "选择"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 10101,
+    "otherNight": 12801
+  },
+  {
+    "name": "天才",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个善良角色：你获得他的能力，直到你下次选择。你每隔一晚醉酒一天。",
+    "id": "genius",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "天才能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 201,
+    "otherNight": 301,
+    "image": "/scripts/assets/community/b9b18b5fff08818e92b0abc818b90121fb75fbbd8dbe33033d117aa12c2b8708.png"
+  },
+  {
+    "name": "马车夫",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人并选择一个话题，说书人会告诉你一个与他有关的事实。如果你的相邻存活玩家阵营不同，你得知错误信息。 ",
+    "id": "coachman",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "错误信息"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "name": "讲师",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人并得知一名玩家做错的事。",
+    "id": "lecturer",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "错事"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": "/scripts/assets/community/0a77c8b9ca7372eb062d50dba59038800e95972d057cd34dfe56e65ec8621d31.png"
+  },
+  {
+    "name": "药剂师",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，如果说书人同意，你可以公开改变一条游戏规则。",
+    "id": "apothecary",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": "/scripts/assets/community/ccd97b3f2dfebff203f7f07f18a7cf8d5225643a597d1634aeb63304c3b94c70.webp"
+  },
+  {
+    "name": "流氓",
+    "team": "townsfolk",
+    "ability": "你存活时可以选择打破规则。如果说书人发现了，会有坏事发生，即使你已失去能力。",
+    "id": "rogue",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "name": "内奸",
+    "team": "townsfolk",
+    "ability": "你也是爪牙，且被当作邪恶阵营。每局游戏限一次，恶魔可以公开猜测你是内奸，如果猜对，你的阵营落败，即使你已失去能力。",
+    "id": "mole",
+    "edition": "custom",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "setup": false,
+    "reminders": [
+      "已被猜测"
+    ],
+    "remindersGlobal": [],
+    "firstNight": 1101,
+    "otherNight": 0
+  },
+  {
+    "id": "ainiii111111",
+    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "edition": "custom",
+    "name": "共情者",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 7900,
+    "otherNight": 11000,
+    "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "jiushigebaichi1111",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "edition": "custom",
+    "name": "村夫",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 10100,
+    "otherNight": 12800,
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": true
+  },
+  {
+    "id": "wuxingshangjiang1111",
+    "image": "/scripts/assets/community/9a2c02517f5c89485d7930ba3123aeea272f3e0feaf69722a739ad7ea63f2cdf.png",
+    "edition": "custom",
+    "name": "将军",
+    "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 12300,
+    "otherNight": 14700,
+    "firstNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
+    "otherNightReminder": "唤醒将军，对他用手势比划当前的优势阵营。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "xixifafashishishishishishishi1",
+    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "edition": "custom",
+    "name": "戏法师",
+    "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "xinjide11111",
+    "image": "/scripts/assets/community/9e443004d3e3739b47d97823cfbf0b5b3e88d95291d25b13641377951a402c75.png",
+    "edition": "custom",
+    "name": "炼金术士",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 600,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒炼金术士，对他展示他获得的能力所对应的爪牙角色标记。",
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "setup": true
+  },
+  {
+    "id": "hermitcdcf2690d",
+    "edition": "custom",
+    "name": "隐士",
+    "ability": "你拥有其他所有外来者的能力。其他对外来者的设置调整不会生效。[无其他外来者在场]",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "imageAlt": "hermit"
+  },
+  {
+    "id": "charlatan",
+    "edition": "custom",
+    "name": "骗子",
+    "ability": "你会在夜晚转变为首个被处决的玩家的阵营。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 3202,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "同伙"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "casanova",
+    "edition": "custom",
+    "name": "花花公子",
+    "ability": "每个夜晚，你要选择一名除你以外的存活玩家：如果明天你和他中有人被处决，另一人也会被处决。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 11752,
+    "otherNight": 14402,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "一同处决"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/b3e69bcaddaaa8f10650f591f036b838e1f5f6d4421b3be9fd49b157e75dc48e.png"
+  },
+  {
+    "id": "prisoner",
+    "edition": "custom",
+    "name": "囚犯",
+    "ability": "你知道一个不在场角色。如果超过半数玩家同意释放你，你会在当晚变成这个角色和对应的阵营。在你被释放前你不能投票。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 9203,
+    "otherNight": 3400,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/ad50a81ed1252fc40553920c390973792a612170992733edc38448123d634fbe.png"
+  },
+  {
+    "id": "sicilia",
+    "image": "/scripts/assets/community/a69f376368081ca963847f0eb606f353e8ca197744545da2de36b4271468075e.png",
+    "edition": "custom",
+    "name": "西西里人",
+    "ability": "提名阶段开始时，你可以公开选择一名除你以外的存活玩家：如果他今天白天没有被处决，他的阵营获胜。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "公开选择"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "wizardcdcf2690d",
+    "image": "/scripts/assets/community/5a7f7294741a36af3e7c24aac8ce6e70965cd465b9a56da56d37dd64d36840a5.webp",
+    "edition": "custom",
+    "name": "巫师",
+    "ability": "每局游戏限一次，在白天时，你可以拜访说书人进行许愿：如果愿望兑现，会付出相应代价或留下线索。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力",
+      "代价",
+      "线索"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "imageAlt": "wizard"
+  },
+  {
+    "ability": "在你的首个夜晚，你要选择一名玩家：他会知道狐媚娘在场。如果你死于处决，当晚他转变为邪恶阵营。",
+    "image": "/scripts/assets/community/e46ab57694560a5115e8abf23c1f817481f560d996b9f4b6d78249f8d9881fcc.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "humeiniang_button1",
+    "firstNightReminder": "唤醒狐媚娘，让她选择一名玩家。标记那名玩家“被魅惑”。随后唤醒那名玩家，对他展示“该角色的能力对你触发”和狐媚娘角色标记。",
+    "otherNightReminder": "如果今日狐媚娘死于处决，且被魅惑的玩家为善良阵营，唤醒被魅惑的玩家，对他展示“你是”和朝下的大拇指。",
+    "name": "狐媚娘",
+    "otherNight": 3300,
+    "setup": false,
+    "reminders": [
+      "被魅惑"
+    ],
+    "remindersGlobal": [],
+    "team": "minion",
+    "firstNight": 6200
+  },
+  {
+    "id": "gebulinaaaaaaa1111111",
+    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png",
+    "edition": "custom",
+    "name": "哥布林",
+    "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "已宣称"
+    ],
+    "setup": false
+  },
+  {
+    "id": "zeitghast",
+    "image": "/scripts/assets/community/47960631c8c0be73aaca2d68f0fd6eafcf5a4bfa71e3f8a21b6c15cc3235018d.png",
+    "edition": "custom",
+    "name": "泽德拉斯",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。你的夜晚行动顺序位于夜晚最末尾。[+1爪牙]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 20000,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true
+  },
+  {
+    "id": "fanzazz",
+    "image": "/scripts/assets/community/d43e6efdebabaa128567dbd4f8bd61af0839d387c5be4f085b07e7b0aa7edeb5.png",
+    "edition": "custom",
+    "name": "范扎兹",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡且你转变为他的阵营。如果你死亡，你的阵营落败。如果只有两名玩家存活，你的阵营获胜。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 8433,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "善良"
+    ],
+    "setup": false
+  },
+  {
+    "id": "hwisp",
+    "image": "/scripts/assets/community/7f31221e96cc5a335e69dbc9f39a665b8e0dfab2d8c3342f56914cb95b1b9224.webp",
+    "edition": "custom",
+    "name": "惠斯普",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果有镇民玩家提名了你，你死亡。如果在同一天里有超过两名善良玩家发起提名，邪恶阵营获胜。 ",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 8434,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "提名"
+    ],
+    "setup": false
+  },
+  {
+    "id": "dolomite",
+    "image": "/scripts/assets/community/0ac43f53b92cbf1f642ade55fe761da1d43ca4104362910267f11b0e44346e5d.webp",
+    "edition": "custom",
+    "name": "多罗迈特",
+    "ability": "每个夜晚，你要选择一名玩家：他转变为邪恶阵营。每局游戏限一次，你在进行选择时失效。第五个白天结束后，邪恶阵营获胜。[无爪牙在场] ",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 5200,
+    "otherNight": 3201,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "限一次",
+      "邪恶"
+    ],
+    "setup": true
+  },
+  {
+    "id": "shabineijian1",
+    "name": "内奸&多罗迈特",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "互为克星的角色在同一时间只能有一名角色在场。",
+    "edition": "custom"
+  },
+  {
+    "id": "shabineijian2",
+    "name": "内奸&戏法师",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "戏法师不需要猜测谁是内奸。",
+    "edition": "custom"
+  },
+  {
+    "id": "xixixixixixixixixixixixili",
+    "image": "/scripts/assets/community/a69f376368081ca963847f0eb606f353e8ca197744545da2de36b4271468075e.png",
+    "name": "西西里人&哥布林",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果西西里人选择了哥布林，哥布林即使进行了公开声称也不会发动他的能力。",
+    "edition": "custom"
+  },
+  {
+    "ability": "由于该剧本大多数为官方未发布卫星角色，所有角色能力以剧本描述为准。",
+    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "20003_107",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "灯神",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "team": "fabled",
+    "firstNight": 0
+  }
+]

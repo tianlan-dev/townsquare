@@ -1,0 +1,398 @@
+[
+  {
+    "id": "_meta",
+    "name": "圆桌骑士团",
+    "author": "太一",
+    "logo": "/scripts/assets/community/b0b339c552ade8f1bd04048639883a06799a79eb8c0c852c2d53797844ba7c17.png",
+    "almanac": "https://www.bloodstar.xyz/p/humlet/che/almanac.html",
+    "tags": [
+      "部分原创角色剧本",
+      "不含私货"
+    ],
+    "version": "3.0"
+  },
+  {
+    "id": "25_che",
+    "image": "/scripts/assets/community/699537e998ef074ed296d38977218e92b2672731133d184f631e8610530c9322.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "真心人",
+    "team": "townsfolk",
+    "ability": "在你的首个白天，你可以邀请说书人见证你与一名玩家互通角色，说书人会秘密告诉你是否有人说谎。",
+    "attribution": "太一",
+    "flavor": "若你真诚以待，这便是我们浪漫故事的开篇。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_che",
+    "image": "/scripts/assets/community/d14979f28851bef2b9a125bd4657b9ff5fab8f2e3914d9c60d2b047ea2b30ec7.png",
+    "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "attribution": "官方角色",
+    "firstNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "2_che",
+    "image": "/scripts/assets/community/84836d6bbce8af6f562d3eeb27cf9533a55168ec002b4ce18c837ac1c24d5c06.png",
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "女裁缝",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "attribution": "官方角色",
+    "firstNight": 15,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "28_che",
+    "image": "/scripts/assets/community/3eb1ffd69157272dc22d05e792de69516f9cf92e6e095e920c382ad293aab238.png",
+    "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+    "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "占卜师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "attribution": "官方角色",
+    "firstNight": 16,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "30_che",
+    "image": "/scripts/assets/community/7bb22439870fd68e0b40b824ff2f6da297b4353570ee3f8c667ced07191c6ff6.png",
+    "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
+    "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
+    "name": "牧师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你和旅行者以外的两名玩家:你会得知他们皆不属于哪种角色类型。",
+    "attribution": "橙子",
+    "flavor": "事无分巨细，只要你对他有信心，神必垂听、应允你的祷告。",
+    "firstNight": 17,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "5_che",
+    "image": "/scripts/assets/community/6735294a112ec6455feaff47851b73dda7d948dede807d53c505f65e555f9437.png",
+    "reminders": [
+      "错误信息"
+    ],
+    "setup": true,
+    "name": "神秘学家",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人并得知一条正确信息。如果因你的能力导致减少了一名外来者，你获得的信息会是错误的。[-1或-0外来者]",
+    "attribution": "玉露",
+    "flavor": "答案在星辰间，只需要我们前行。         创意来源：玉露玉某 ",
+    "edition": "custom"
+  },
+  {
+    "id": "46_che",
+    "image": "/scripts/assets/community/185612a4feb74dbccf74ff7fb1c6f618f27ec88729d9e4c764f599b22aedfd89.png",
+    "otherNightReminder": "如果白天有玩家被处决，唤醒湖中仙女，告知他是或否。",
+    "reminders": [
+      "被处决"
+    ],
+    "name": "湖中仙女",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果当天有玩家被处决，你会得知他是否为镇民，如果他依然存活，你改为得知与他邻近的两名玩家是否皆为镇民。",
+    "attribution": "太一",
+    "flavor": "湖水是我的镜，倒映人心；月光是我的眼，窥见真实。我自粼波中来，为迷茫的灵魂指引方向。若你心怀坦诚，我便赠你以清澈的启示；若你藏匿阴影，湖水将映出你无法隐瞒的涟漪。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "47_che",
+    "image": "/scripts/assets/community/123ffb573f32450b374d20f4974bb91923a2b8c659caa0a1b9e31ab163afcb7c.png",
+    "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "造谣者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
+    "attribution": "官方角色",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "31_che",
+    "image": "/scripts/assets/community/c3fe99d2dae18a51a25f9dec46c8560e549b152d78db05fffd4f14f0c2219111.png",
+    "reminders": [
+      "不会死亡"
+    ],
+    "name": "茶艺师",
+    "team": "townsfolk",
+    "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
+    "attribution": "官方角色",
+    "edition": "custom"
+  },
+  {
+    "id": "32_che",
+    "image": "/scripts/assets/community/2deb5d1ea415c6d7bca6353ac1e2f8d4ae722c2ec344d3449bb0f2186a25463c.png",
+    "otherNightReminder": "无人死于处决，唤醒月光骑士并让他选择一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "月光骑士",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果今天无人死于处决，你会被唤醒并要选择一名玩家：如果他是爪牙，他死亡。",
+    "attribution": "太一",
+    "flavor": "在没有血腥味的静谧晚上，小鹿跳过溪涧，月光透过纱窗，而我的枪尖穿过罪恶的胸膛。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "54_che",
+    "image": "/scripts/assets/community/f9dfb3859ac7506df47e7b4bd3dc9d22b8bd626f91368a413f2b112fd9cc1167.png",
+    "otherNightReminder": "唤醒",
+    "reminders": [
+      "失去能力",
+      "格挡"
+    ],
+    "name": "浪人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果当晚他被恶魔杀死，改为一名邪恶玩家代替他死亡，然后你重获能力。",
+    "attribution": "太一",
+    "flavor": "孩子，不要害怕，闭上眼睛，用心感受杀意的流动。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "34_che",
+    "image": "/scripts/assets/community/fdbdb373d3c71fdd6b799b058244c0333ee37eacfd284dd8fcaabb0fbf14716e.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "弄臣",
+    "team": "townsfolk",
+    "ability": "当你首次将要死亡时，你不会死亡。",
+    "attribution": "官方角色",
+    "edition": "custom"
+  },
+  {
+    "id": "12_che",
+    "image": "/scripts/assets/community/4604cde4ff798159e8baeb5868005b365ec743f23cfe6e5f2af488d0715eb01c.png",
+    "otherNightReminder": "如果死亡唤醒他，并告知他所有类型的玩家（除旅行者）各一名。",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "空中飞人",
+    "team": "townsfolk",
+    "ability": "你死亡的当晚会被唤醒并得知所有角色类型的玩家各一名。你死于善良玩家发起的提名处决或能力时你醉酒。",
+    "attribution": "太一",
+    "flavor": "哈哈哈哈！你们闻到了吗？硫磺味的风在撕扯我的伞！听啊！胫骨断裂的节奏比死亡金属更带劲！等会被我的脑浆溅到衣服的观众当中，最难堪的那个就是恶魔！",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "64_che",
+    "image": "/scripts/assets/community/88b04dca02813c4e231194ab53000fd17b6965a8708a1d285862c1bedb7d977a.png",
+    "firstNightReminder": "唤醒囚犯并向他出示一个不在场的角色标记。诚然，并不推荐向其出示恶魔标记。",
+    "otherNightReminder": "如果“释放”标记被放置在场上，且他没有被告知过自己的角色转变，告知他现在的阵营与角色。",
+    "reminders": [
+      "得知",
+      "释放"
+    ],
+    "remindersGlobal": [
+      "是囚犯"
+    ],
+    "name": "囚犯",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知一个不在场角色。如果超过半数玩家同意释放你，你会变成这个角色和对应的阵营。你不能投票。",
+    "flavor": "喂，放我出去，我与上任典狱长结有私怨，他公报私仇把我关押在这里。对就这样，解开镣铐，你人真好。哈哈哈哈哈，让我想想该怎么感谢你，用我这把消防斧送你去天堂怎么样？",
+    "firstNight": 13,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "55_che",
+    "image": "/scripts/assets/community/46427c3793aeb1c960c9ea07103f901df314900907b2d6f423e7a43613fd58b7.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "白骑士",
+    "team": "outsider",
+    "ability": "如果有玩家“疯狂”地想要存活，那么当天他即将死于处决时可能不会死亡（每局游戏限一次）。",
+    "attribution": "太一",
+    "flavor": "我陷落在泥泞贫瘠的土壤里，腥咸的泪水与疼痛的呻吟绵延不绝，它们在脆弱的傲慢和敏感的裹挟之下慢慢窒息。但只要你愿意呼唤我的名字，就算彻底撕毁我腐烂的皮囊，就算拼尽我尚存的一丝气力，我也要来拯救你。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_che",
+    "image": "/scripts/assets/community/a670734acc587dda8d66b59a0bff098ddf2de372e7a95dc0c402bf7a07197d4e.png",
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "name": "解谜大师",
+    "team": "outsider",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "attribution": "官方角色",
+    "edition": "custom"
+  },
+  {
+    "id": "59_che",
+    "image": "/scripts/assets/community/7589aab07c63266b4812468186144f88114bb0eee3612ed249f006739276ebf0.png",
+    "otherNightReminder": "当你宣布月之子玩家死亡时，月之子需要选择任意一名存活玩家。如果所选玩家是善良的，将“死亡”提示标记放置到该玩家的角色标记旁。当晚，标有月之子的“死亡”提示标记的玩家死亡。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "月之子",
+    "team": "outsider",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "attribution": "官方角色",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "50_che",
+    "image": "/scripts/assets/community/2b0b469b77dd1f02afc8280ad380020905ae0abab2dfd4ff42fcfd8b61f88d2e.png",
+    "otherNightReminder": "如果今天在唤醒亡灵骑士之前有外来者死亡，唤醒亡灵骑士，告知他死亡的外来者玩家是谁，并让他猜测具体角色，如果他猜中至少一名，标记一名玩家死亡，然后去除所有的“离魂抽离”标记。",
+    "reminders": [
+      "死亡",
+      "灵魂抽离"
+    ],
+    "setup": true,
+    "name": "亡灵骑士",
+    "team": "minion",
+    "ability": "每个夜晚*，你会得知当天死亡的外来者是谁，且你要猜测他的角色，如果你猜对，会有一名玩家死亡。[+1外来者]",
+    "attribution": "太一",
+    "flavor": "生不过是一场骗局，亡灵。我会念出你的名字，削去你的留恋，然后带你一起品尝这生灵消亡的美妙滋味。",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "39_che",
+    "image": "/scripts/assets/community/0e195e54713fa5d182ee7c0ba6d948b9208f36a17401a465447cff0a57bbe0d6.png",
+    "firstNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
+    "otherNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
+    "reminders": [
+      "中毒",
+      "得知"
+    ],
+    "name": "麻醉师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒直到你更换选择目标，当你更换选择目标时，如果他还存活他会得知麻醉师在场。",
+    "attribution": "太一",
+    "flavor": "亲爱的，你喜欢利多卡因还是乙醚？噢...我什么都没带，要不今天用这个榔头凑合一下？我保证不会弄疼你。",
+    "firstNight": 11,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "41_che",
+    "image": "/scripts/assets/community/a8f95a5e006b05ddb2488fc8662da6e93f04f8a33918f90f932a617c2cd9b931.png",
+    "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
+    "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
+    "reminders": [
+      "处决不死"
+    ],
+    "name": "魔鬼代言人",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "attribution": "官方角色",
+    "firstNight": 12,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "56_che",
+    "image": "/scripts/assets/community/c8aaa012c5d38382c2cb64916d02d494e902e5e7c755783bfd3881b256dac5c2.png",
+    "name": "精神病患者",
+    "team": "minion",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "attribution": "官方角色",
+    "edition": "custom"
+  },
+  {
+    "id": "51_che",
+    "image": "/scripts/assets/community/2a496908b9cf39e1b305c39be390f89f9b48332b7081f3e0d6b7b40ede0ce9e6.png",
+    "otherNightReminder": "让亚瑟王选择一名玩家。标记那名玩家死亡。如果他是爪牙且可以被亚瑟王杀死，为他放置“王车易位”标记然后为亚瑟王和爪牙交换角色且会有2名玩家代替他死亡。",
+    "reminders": [
+      "死亡",
+      "王车易位"
+    ],
+    "name": "亚瑟王",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。被该能力杀死的爪牙改为与你交换角色且会有2名玩家代替他死亡，但每局游戏仅能成功转化一次。",
+    "attribution": "太一",
+    "flavor": "背叛让我堕入这无尽的黑暗，我终会从我忠诚的追随者中降临，然后亲手刺穿每一名背叛者的心脏。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "15_che",
+    "image": "/scripts/assets/community/240f10e2c2e90e97f44ad9b49d4cff952214ce7ccd3feeddddef0e4ae85c6965.png",
+    "otherNightReminder": "唤醒刻耳柏洛斯选择一名玩家，如果是邪恶的爪牙，杀死他并保留他的能力，再让刻耳柏洛斯选择一名玩家。",
+    "reminders": [
+      "死亡",
+      "保留能力"
+    ],
+    "name": "刻耳柏洛斯",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你杀死了邪恶的爪牙，他保留能力，你可以再次行动。",
+    "attribution": "太一",
+    "flavor": "啃食你的肉体，超度你的灵魂，然后与我一起徘徊在这地狱之门。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "3_che",
+    "image": "/scripts/assets/community/d35a2afacc8f3a1413aac37d0c1d24aeae8810681c0e8247f5a55f23c346821e.png",
+    "otherNightReminder": "唤醒塞壬选择一名玩家，为该玩家标记死亡，然后让塞壬选择是否谢幕，如果他点头，为他放置“谢幕”标记。",
+    "reminders": [
+      "死亡",
+      "谢幕"
+    ],
+    "name": "塞壬",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，且你要选择是否永久失去你的下一条能力。镇民玩家的能力都会产生错误信息。",
+    "attribution": "太一",
+    "flavor": "嘘…听，这温柔的潮汐是我的呢喃。当我的歌声响起，你们追逐的真相，不过是我布景中的幻光。若我谢幕退场，你们是骤然惊醒？还是跌入更深的虚妄？",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "42_che",
+    "image": "/scripts/assets/community/b4c178025ab0e27b61c867a7d62014fd86d9b8649dd8f93d2d472c1f9965ed79.png",
+    "otherNightReminder": "让恶堕选择一名玩家。标记那名玩家死亡。",
+    "reminders": [
+      "死亡",
+      "胜负反转"
+    ],
+    "setup": true,
+    "name": "恶堕",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，即使因为任何原因让他不会死亡。死亡的外来者胜负条件反转，即使你已死亡。[固定2名外来者]",
+    "attribution": "太一",
+    "flavor": "拥抱黑暗吧，异乡人，我会将你的死亡与怮哭化作铠甲，将你受过的排挤与恶意化作刀刃，然后你要随我一起，向他们复仇。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "35_che",
+    "image": "/scripts/assets/community/807857618352aa04e01a0f2ff6346574d1e86dedecc0f31ce7cfc3df0cc640c8.png",
+    "reminders": [
+      "发起决斗",
+      "被决斗"
+    ],
+    "name": "决斗（可选）",
+    "team": "fabled",
+    "ability": "即将被处决者可以向说书人申请与提名者展开“决斗”。如果说书人同意，提名者与被处决者要轮流公开宣称一个邪恶角色，宣称不在场角色的玩家可能被立即处决。",
+    "flavor": "当绞索低垂，骑士可向沉默的裁决者祈求一场最终决斗。",
+    "edition": "custom"
+  }
+]

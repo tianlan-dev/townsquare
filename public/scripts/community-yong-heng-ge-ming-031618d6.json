@@ -1,0 +1,443 @@
+[
+  {
+    "id": "_meta",
+    "name": "永恒革命",
+    "author": "Pip",
+    "almanac": "https://www.bloodstar.xyz/p/Pip/Revolution_of_a_Lifetime/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": "",
+    "issue": 838
+  },
+  {
+    "id": "visionary_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/d99ba70cbbf1c54cfa9f9c543028c170e4b1b94bf5413a08773aad402c62818c.png",
+    "firstNightReminder": "1",
+    "name": "先见者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知每个角色类型中的各一个角色，其中有两个角色在场。",
+    "flavor": "I know everything and I see everything. It’s not always right but I do know it.",
+    "firstNight": 3035,
+    "edition": "custom"
+  },
+  {
+    "id": "romantic_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/511c1595bd9e6731af3af2c2ec9cccfae978ee82702605b98bbe9b81a6e51a28.png",
+    "firstNightReminder": "2",
+    "otherNightReminder": "3",
+    "reminders": [
+      "浪漫化"
+    ],
+    "name": "浪漫主义者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名玩家：当他首次即将死亡时，他不会死亡，随后你会得知另一名与之前不同的玩家。",
+    "flavor": "C'est la vie...",
+    "firstNight": 3042,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "playwright_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/4302bec728048e059dd84cf26d8e3e3b6f32f9b9183e215471127cd0a7ffae7a.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "选择"
+    ],
+    "name": "剧作家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家。当你死亡时，你会得知你选择过的玩家中有多少名邪恶玩家。",
+    "flavor": "A production of a lifetime. The drama! The ambiance... The messaging. All, perfect. ",
+    "firstNight": 3036,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "artisan_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/d0f7529dce4a040f2cce3ea45c65e3edfc36e076cc2b60bf4db7c5e5995b7cf8.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "工匠",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知存活镇民的数量。",
+    "flavor": "A beautiful little chair for you. Nice, practical, the perfect chair   ",
+    "firstNight": 3037,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "statesman_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/ac505a68d36f33a55a5551937afadf7875e339fc890c51672193448733cbb83e.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "被提名 ",
+      "未被提名"
+    ],
+    "name": "政治家",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有邪恶玩家被提名。",
+    "flavor": "Stamp. Stamp. Stamp",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "avantgardist_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/e9842e67bb8eb2dced573c97d354942580a1c8067645c5d376b5abb78a5bab90.png",
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "name": "先锋派",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人给出一个与之前不同的预测。直到下个黎明，如果你的预测实现，你会得到一条正确信息，否则你会得到一条错误信息。",
+    "flavor": "A new frontier of art, how incredible... However, we must progress the artform even further",
+    "edition": "custom"
+  },
+  {
+    "id": "journeyman_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/932fdd1975d423ea544c16707b71c97e458937bee65d7949c12b00859b0727cd.png",
+    "name": "熟手",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人并选择两名玩家：你会得知一条与之前不同的关于这两名玩家之一的正确信息。",
+    "flavor": "For years I have travelled and have learned the trade. Which trade you ask? Any trade that people will teach me",
+    "edition": "custom"
+  },
+  {
+    "id": "pressofficer_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/fca2692cc5de891c7043b5330d2db7e45a8177110700c7a393ffb15ce46f1cbe.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "新闻发言人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活玩家：你得知如果他被处决会为你的阵营带来多大的优势。",
+    "flavor": "Extra! Extra read all about it! ",
+    "firstNight": 3038,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "executioner_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/96b8f9a0a1248f44ecc1840e65de0cc12e6182b222538bc87629ad360eab1b6f.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "得知"
+    ],
+    "name": "行刑者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你得知一名外来者玩家，，如果他被处决，你得知一名邪恶玩家。[如果游戏初始设置无外来者，+1外来者]",
+    "flavor": "Oops, you're dead now... anyway, who's next?",
+    "firstNight": 3040,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "arquebusier_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/d90ea33980d7704276d2276e9af67010ee3ac171b45cbad2a961e1aed6211a8f.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "火铳手",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒并你要选择一名玩家：如果他是邪恶的，他死亡。",
+    "flavor": "Pow, Pow!",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "mason_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/4d907fc076b4898b8abbb01fc4725393d8961dfc8e533e227ba613942c358993.png",
+    "reminders": [
+      "活尸"
+    ],
+    "name": "石匠",
+    "team": "townsfolk",
+    "ability": "你在白天不会死亡。如果除你以外有大于四名玩家存活，当你死亡时，你会被当作存活。",
+    "flavor": "Good ol' brick. Nice and reliable. Nothing's better than a good ol' brick",
+    "edition": "custom"
+  },
+  {
+    "id": "communard_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/891b8cb934f6229729bed0f9debf1b21d8f6c784e122b0bc7400fb05ed3876b6.png",
+    "reminders": [
+      "得知"
+    ],
+    "name": "公社成员",
+    "team": "townsfolk",
+    "ability": "如果一名玩家被推选为首席执行官，当晚，你要选择一名玩家：你会得知他是否在当天白天和夜晚获得过错误信息。",
+    "otherNightReminder": "1",
+    "otherNight": 20,
+    "flavor": "Viva la Commune!",
+    "edition": "custom"
+  },
+  {
+    "id": "cordelier_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/f17f4a1e90ad45220ad2a5a3d229f88a5424d3e496064b6f4125be8f9b0eff0b.png",
+    "otherNightReminder": "1",
+    "name": "激进派党员",
+    "team": "townsfolk",
+    "ability": "如果你被推选为首席执行官，你会被唤醒并选择一名玩家：你会得知以他的顺时针方向到你之间的玩家中有多少名存活邪恶玩家。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "campfollower_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/fab598600680904d86bf504aec97430717d0fd1adf4f51dc4dc51446064faeaa.png",
+    "name": "随营人员",
+    "team": "outsider",
+    "ability": "如果你被处决，在夜晚时，恶魔可以再选择一名玩家：他死亡。",
+    "flavor": "What? The war is ending? I just got here!",
+    "edition": "custom"
+  },
+  {
+    "id": "messenger_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/97f4cd9fd702926a4f72ba3a9b5a9ff64fcc2206177bb43ee1f23a9610dee5c2.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "查看魔典"
+    ],
+    "name": "信使",
+    "team": "outsider",
+    "ability": "如果你被处决，当晚恶魔可以查看魔典。",
+    "flavor": "All the plans of the revolution, safe in my little bag... Where did the plans go-",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "radical_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/f37c2eb6b0074af4e4db16b10a146b8e256d16867cdaec3ed41aad211d8bc263.png",
+    "reminders": [
+      "入红"
+    ],
+    "name": "激进派",
+    "team": "outsider",
+    "ability": "如果你被推选为首席执行官，你立刻转变为邪恶。",
+    "flavor": "We are the revolution",
+    "edition": "custom"
+  },
+  {
+    "id": "ruralite_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/93d40c3907623ef15f39959824759bff542974642232847abadbf3a423059d4b.png",
+    "firstNightReminder": "1",
+    "reminders": [
+      "得知"
+    ],
+    "name": "乡村主义者",
+    "team": "outsider",
+    "ability": " 在你的首个夜晚，你会得知一名玩家。如果你没有“疯狂”证明他是邪恶的或“疯狂”证明自己是乡村主义者，你可能被处决。",
+    "flavor": "Those damn city dweller, hate the lot of them. They're evil I tell you.",
+    "firstNight": 3039,
+    "edition": "custom"
+  },
+  {
+    "id": "propagandist_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/7c89380265e611dd840da2a6319065109f6bace6a5f3a9bb4638cacca548e9ba.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "被鼓动",
+      "死亡"
+    ],
+    "name": "宣传员",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他可能会被当做任意角色，角色类型和阵营直到下个黄昏(限一次)。首个被你选择两次的玩家死亡。",
+    "flavor": "For the revolution, for my country, for my leader in battle. All must believe in the righteous cause ",
+    "firstNight": 3034,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "burgher_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/a53ad4fc70b67987ecd50abada59f301b04cadb705c768262ebd6b7572d384cd.png",
+    "reminders": [
+      "改信息"
+    ],
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "中产市民",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的角色，当晚当他通过自身能力获取信息时，改为得知你给出的信息。",
+    "flavor": "You won't sell? Even for this beautiful, golden coin? ",
+    "firstNight": 3032,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "ecclesiastic_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/a4e603d64006416040dc02ecdfb9f3a6acdc944f3e81ba0fb58ba54579dbc4a4.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": true,
+    "name": "圣职人员",
+    "team": "minion",
+    "ability": "在你的第二个夜晚，你要选择一名玩家：他中毒。如果有外来者死亡，你要选择一名玩家：他中毒。[+1外来者]",
+    "flavor": "Blasphemy against the Holy Spirit!",
+    "firstNight": 3033,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "garrison_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/83e3713e1308dfbd134fc5362a085afb94ff19ced9dbbbb7f4770e575e5ee762.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "卫戍部队",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：你和他交换角色，然后他失去能力。",
+    "flavor": "Left, right, left right. Stand ready",
+    "firstNight": 3031,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "ancienrgime_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/7ac990d4c6bc07606484d8ab7d39d47e4270ae9a62368f9ce3ae6573a373c69b.png",
+    "otherNightReminder": "2",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "波旁王朝统治",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当且仅当所有外来者死亡时，你才会死亡。[+1外来者]",
+    "flavor": "We are eternal. We know best. Why can't the poors understand that?",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "potentate_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/37e781ff6e9ab256d8a4922c592bba1828705553ddfa1256b04a59b0d17944cc.png",
+    "otherNightReminder": "2",
+    "reminders": [
+      "死亡",
+      "权当立"
+    ],
+    "name": "当权者",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果一名邪恶玩家被推选为首席执行官，当晚，你可以选择三名玩家：他们死亡。",
+    "flavor": "I alone safeguard the republic... It all rests on my shoulders ",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "jacobin_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/d419f2207c40224e9b2cfd5b0e5cef5b14cb2ebbe50a96281fc7b9492f114d9e.png",
+    "otherNightReminder": "2",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "雅各宾派",
+    "team": "demon",
+    "ability": "每个夜晚*，所有雅各宾派要共同选择一名玩家：他死亡。你可能会在夜晚死亡。[所有爪牙都是雅各宾派]",
+    "flavor": "Live free or die. The revolution shall never be stopped, for we are in control",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "coalition_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/d894393ee41e5bc641aa76e5a2ff37af36cf14ca6216706c85f840f889c0869f.png",
+    "otherNightReminder": "2",
+    "reminders": [
+      "死亡",
+      "得知"
+    ],
+    "name": "联合体",
+    "team": "demon",
+    "setup": true,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果死亡的玩家数量超过存活玩家数量，邪恶阵营获胜。[-1爪牙]",
+    "special": [
+      {
+        "name": "pointing",
+        "type": "ability",
+        "time": "day"
+      }
+    ],
+    "flavor": "Together we are strong; united to end this bloodshed.",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "twoworldshero_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/5502942834c6994e585ab240a8761217e977e88de63bf6bf309ed12e48c59059.png",
+    "reminders": [
+      "Okay！"
+    ],
+    "name": "拉法耶特侯爵",
+    "team": "traveler",
+    "ability": "每个夜晚，你可以向一名玩家提供帮助：如果对方接受，会发生一件好事或一件坏事：你和他都知道发生的是好事还是坏事。",
+    "edition": "custom"
+  },
+  {
+    "id": "feuillant_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/cdc1fa0df20e0ca33d0960830cf618159f948e8c97cb162e308baba68a9496aa.png",
+    "name": "斐扬派",
+    "team": "traveler",
+    "reminders": [
+      "获得能力"
+    ],
+    "ability": "每个夜晚*，你会获得被推选为首席执行官的玩家的能力。",
+    "edition": "custom"
+  },
+  {
+    "id": "revtribunal_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/920e6625fb853a095284657149d6162a207e9b264dc851679974c4379aa4afba.png",
+    "name": "革命法庭",
+    "team": "traveler",
+    "ability": "每局游戏限一次，在白天时，你可以独自任命第二名首席执行官或杀死现任的首席执行官。",
+    "edition": "custom"
+  },
+  {
+    "id": "bastillian_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/03842bfa3bc22b7832cce7ebf3aae98c3c8c7bbc6b9fdd53e07dd6d18141ba88.png",
+    "name": "巴士底狱",
+    "team": "traveler",
+    "reminders": [
+      "疯狂",
+      "处决"
+    ],
+    "ability": "每个夜晚，你会得知一件需要“疯狂”证明其将会发生的事。如果这件事已发生了，下个夜晚，你可以选择一名玩家：他要“疯狂”证明由你选择的事将会发生，否则他会被处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "Cultist of Reason_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/3701b30075c220a3903179c31794373bf80b601505396e24aacf6b05cfb38a4a.png",
+    "name": "理性崇拜者",
+    "team": "traveler",
+    "reminders": [
+      "理性崇拜"
+    ],
+    "ability": "所有玩家都可以公开加入'理性崇拜'。每个夜晚，你可以选择'理性崇拜'中的一名成员：他醉酒或行动两次，直到下个黄昏。",
+    "edition": "custom"
+  },
+  {
+    "id": "firstconsul_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/27cddd08649619231575e94bdd75b0a5ec3ebc1b5d6f84004772e66b8664eb38.png",
+    "reminders": [
+      "被推选"
+    ],
+    "name": "首席执行官",
+    "team": "fabled",
+    "ability": "每个白天限一次，说书人会宣布“选举开始”，经过1分钟讨论后进行选举，一名与上个白天不同且选举获得票数最多的玩家会被推选为首席执行官：他的投票会记作两票，且在首次被处决后可以再次提名。",
+    "special": [
+      {
+        "name": "pointing",
+        "type": "ability",
+        "time": "day"
+      }
+    ],
+    "flavor": "Liberty, Fraternity, Equality",
+    "edition": "custom"
+  }
+]

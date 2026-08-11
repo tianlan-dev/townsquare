@@ -1,0 +1,385 @@
+[
+  {
+    "id": "_meta",
+    "name": "恶魔学院（厂牌版）",
+    "author": "小熊",
+    "logo": "/scripts/assets/community/83087db79ec8caab8ffcf4599d0c1aa32f693a61d007346e621ec16b07ec2fc1.png",
+    "almanac": "https://www.bloodstar.xyz/p/smallbear/jinhulun/almanac.html",
+    "tags": [
+      "BWG·剧本大乱斗"
+    ],
+    "version": "2.0"
+  },
+  {
+    "id": "_jinhulun",
+    "image": "/scripts/assets/community/9688d347b1b3b1705158f32ccfb4bb99889e33897e32c227d96e452f32b1772b.png",
+    "firstNightReminder": "在你的首个夜晚，你会得知哪些邪恶角色在场。",
+    "name": "学者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知哪些邪恶角色在场。",
+    "firstNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "1_jinhulun",
+    "image": "/scripts/assets/community/53bf9a3554806adca2001eb56c7209e4b7e99e55bb09008cd6d67d677bf14349.png",
+    "firstNightReminder": "在你的首个夜晚，你会得知一名善良玩家。",
+    "otherNightReminder": "如果他在夜晚死亡，当晚你要选择一个善良角色：如果他不在场，你变成该角色。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "七色鹿",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家。 如果他在夜晚死亡，当晚你要选择一个善良角色：如果他不在场，你变成该角色。",
+    "firstNight": 15,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "3_jinhulun",
+    "image": "/scripts/assets/community/1f23abb467f8ba516bcd1dd60bad1f68d7c15b4f244ab5266cbb38bb1f8d8150.png",
+    "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
+    "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
+    "name": "筑梦师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 17,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "11_jinhulun",
+    "image": "/scripts/assets/community/79f998760e2c6d5ed0975454c7b488562a3ec8087b2c028a51c4fa6399c53bae.png",
+    "name": "收容专家",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人一个有关恶魔能力的是非问题。",
+    "edition": "custom"
+  },
+  {
+    "id": "20_jinhulun",
+    "image": "/scripts/assets/community/2c0f81282b3ba6097852cbc0cef117c0212c4f678049db9eca8e8ef765961387.png",
+    "name": "博学者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "edition": "custom"
+  },
+  {
+    "id": "5_jinhulun",
+    "image": "/scripts/assets/community/e163fefa2b17133df6e2796562abeb5305724404c8bf867afdd7182471451eb9.png",
+    "otherNightReminder": "如果在白天以及夜晚，只有镇民玩家死亡，对司民摇头表示“否”，否则点头表示“是”。",
+    "reminders": [
+      "客死他乡"
+    ],
+    "name": "知府",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "22_jinhulun",
+    "image": "/scripts/assets/community/a07eeeeaca5875c60966279d56628cda6c0170cef5ed8155b3da38f72e9ae8a7.png",
+    "firstNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的至多四名玩家：你会得知他们有几种角色类型。",
+    "otherNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的至多四名玩家：你会得知他们有几种角色类型。",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": true,
+    "name": "龙庭侍卫",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的至多四名玩家：你会得知他们有几种角色类型。[+1外来者]",
+    "firstNight": 18,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "2_jinhulun",
+    "image": "/scripts/assets/community/372b9852fca75dd69a114a2379441d7ad28bdbde6f3aa48f93a6b36dda197803.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "艺术家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
+    "edition": "custom"
+  },
+  {
+    "id": "19_jinhulun",
+    "image": "/scripts/assets/community/de44cfee7308eab2c8ec074d393c5332d64365f18257bd3e6077c040c7dd89b6.png",
+    "name": "名誉监事",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在白天时，你可以公开猜测哪些玩家是邪恶阵营。 如果你全部猜对，善良阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_jinhulun",
+    "image": "/scripts/assets/community/8cb674fad6a83b248e8a0e74db50413515c51b1c4b1e65b623bf220ff7d26775.png",
+    "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
+    "reminders": [
+      "保护"
+    ],
+    "name": "僧侣",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "7_jinhulun",
+    "image": "/scripts/assets/community/56d0feace69798afe8948481b1f304b3da0ea58dad07addc2049d3dbd0fb5e68.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "贞洁者",
+    "team": "townsfolk",
+    "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "24_jinhulun",
+    "image": "/scripts/assets/community/0dce1080adb40ec351c5282acf0d4301bea983208c518a1efccfb15cd856c10f.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "罗姆人",
+    "team": "townsfolk",
+    "ability": "首个被你提名或提名你的爪牙玩家会变成罗姆人。",
+    "edition": "custom"
+  },
+  {
+    "id": "6_jinhulun",
+    "image": "/scripts/assets/community/b52da43575a01228588493a52dac2adfa931c66372fed998f291fb0c2da61b2d.png",
+    "otherNightReminder": "当你首次被恶魔杀死时，你仍存活但会被当作死亡，且会获得一个不在场的镇民能力。 ",
+    "remindersGlobal": [
+      "是巴隆"
+    ],
+    "name": "巴隆-撒麦迪",
+    "team": "townsfolk",
+    "ability": "当你首次被恶魔杀死时，你仍存活但会被当作死亡，且会获得一个不在场的镇民能力。如果只有三名玩家存活，你死亡。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "21_jinhulun",
+    "image": "/scripts/assets/community/c94881213f454ed707171d830597c4abc3869dee9fbce15f20e933544691b4e2.png",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "酒保",
+    "team": "outsider",
+    "ability": "与你邻近的善良玩家之一醉酒，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "12_jinhulun",
+    "image": "/scripts/assets/community/ec1f7de425caa0880816a7f999671363066de011232975edc05b17cb628e8267.png",
+    "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "月之子",
+    "team": "outsider",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "26_jinhulun",
+    "image": "/scripts/assets/community/2fe0f300739b79d99fb4e9be777e35cb14b31fa10fdac245bd41ac5aa2b687fb.png",
+    "firstNightReminder": "如果告密者在场，对爪牙展示三个不在场的善良角色标记。 ",
+    "name": "告密者",
+    "team": "outsider",
+    "ability": "爪牙会在其首个夜晚得知三个伪装。",
+    "firstNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "9_jinhulun",
+    "image": "/scripts/assets/community/14d74533fe00bbc8606b304c5d11325759bb9eed87bfab43c21bb942ef0e2c42.png",
+    "firstNightReminder": "在你的首个夜晚，你得知一段短语。",
+    "name": "大嘴巴",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你得知一段短语。每个黄昏，如果没有其他存活的善良玩家说出这个短语或一名存活的爪牙公开猜测出了该短语（即使你已经死亡），你的阵营落败。",
+    "firstNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "10_jinhulun",
+    "image": "/scripts/assets/community/e56cf13339a45c9efbc020c02e8b167f419b85d1c6acecd23070aa963bd80459.png",
+    "firstNightReminder": "在你的首个夜晚，你要选择一个善良角色：你会被善良玩家的能力当作是善良的该角色。 如果该角色在场，他中毒且会被善良角色的能力当作是邪恶的小迷雾，你会得知他是谁。[-1外来者]",
+    "remindersGlobal": [
+      "是小迷雾",
+      "迷雾"
+    ],
+    "setup": true,
+    "name": "小迷雾",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你要选择一个善良角色：你会被善良玩家的能力当作是善良的该角色。 如果该角色在场，他中毒且会被善良角色的能力当作是邪恶的小迷雾，你会得知他是谁。[-1外来者]",
+    "firstNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "15_jinhulun",
+    "image": "/scripts/assets/community/7f0212609b7c76c8a114a5995efac4677e152afc6a067740061cb56751692f2d.png",
+    "reminders": [
+      "得知"
+    ],
+    "setup": true,
+    "name": "学院长",
+    "team": "minion",
+    "ability": "首个白天，拜访说书人并告知一项新的可以获得进修点的任务，一名善良玩家可能会得知一些线索。",
+    "flavor": "你想提前毕业？好吧，明面上我不能这么做，但我可以给你发布个新的任务。",
+    "edition": "custom"
+  },
+  {
+    "id": "14_jinhulun",
+    "image": "/scripts/assets/community/aee5cbd7ab9ec055b156b6374e9488429c93be75b86a63a6b4277847ad714d03.png",
+    "firstNightReminder": "每局游戏限一次，在夜晚时，你决定下个黎明播报什么学院的格言或不播报。",
+    "otherNightReminder": "每局游戏限一次，在夜晚时，你决定下个黎明播报什么学院的格言或不播报。",
+    "reminders": [
+      "鬼谋",
+      "暴虐",
+      "千变",
+      "黑冕",
+      "不报"
+    ],
+    "name": "渗透者",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时，你决定下个黎明播报什么学院的格言或不播报。",
+    "flavor": "其实我是双面间谍，但愿他们还没发现",
+    "firstNight": 13,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "17_jinhulun",
+    "image": "/scripts/assets/community/95f3874839417cd05d65090e33854fc3a27e8230b20868af753ae39f9e305bcf.png",
+    "otherNightReminder": "每局游戏限一次，在夜晚时*，你可以选择一名玩家:他死亡。 如果你以此方式杀死了恶魔，你与他交换角色。",
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "name": "死神",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家:他死亡。 如果你以此方式杀死了恶魔，你与他交换角色。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "16_jinhulun",
+    "image": "/scripts/assets/community/64066cf958720e36ab2f02e3625422e505b690c8a9a70cf51e5bb97898a28bcb.png",
+    "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "小恶魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "25_jinhulun",
+    "image": "/scripts/assets/community/5dab2f6885ed96bed7af622de59081f10579f60cd11a6c5eaaf0822409db4c0d.png",
+    "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "中毒"
+    ],
+    "setup": true,
+    "name": "亡骨魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "18_jinhulun",
+    "image": "/scripts/assets/community/b80aef4ba929573e4fe4cdc6f4f560a0f1ec69f6e9f6052faa2efff8ed15c4e1.png",
+    "name": "恶魔学院",
+    "team": "fabled",
+    "ability": "每个夜晚，恶魔可以消耗一个进修点来将一个未选择过的学院中的一个能力变为自己能力的一部分(可以叠加和传递)。下个黎明时，所有玩家会得知恶魔选择的学院的格言。",
+    "edition": "custom"
+  },
+  {
+    "id": "23_jinhulun",
+    "image": "/scripts/assets/community/c810e08c40f347afa78fe86658ec93b232e63c68f30fa5479d82fed13aaee91c.png",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "name": "小恶魔自习室",
+    "team": "fabled",
+    "ability": "小恶魔在场时，完成以下任务会获得进修点，每个任务每局游戏限完成一次。①成为恶魔。②一名曾经的爪牙成为恶魔。③一名外来者被处决。④大于等于一半玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "28_jinhulun",
+    "image": "/scripts/assets/community/97d03a5029884a27d15794eb3118db1b619b1446ab0df9cb2ac9852a67ddd216.png",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "name": "亡骨魔补习班",
+    "team": "fabled",
+    "ability": "亡骨魔在场时，完成以下任务会获得进修点，每个任务每局游戏限完成一次。①成为恶魔。②一名爪牙死亡并保留能力。③疯狂自己是一名外来者。④有三种非恶魔非旅行者的角色类型玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_jinhulun",
+    "image": "/scripts/assets/community/7591e9bfadb9ce446c59d168b684c83e427e5f15de1a53fa5aeb9f27b593d534.png",
+    "reminders": [
+      "错误信息",
+      "中毒",
+      "诺",
+      "涡"
+    ],
+    "name": "诡谋参议院",
+    "team": "fabled",
+    "ability": "毒药两滴，可葬王朝；黑白颠倒，亦覆乾坤。①诺达鲺:与你邻近的两名镇民中毒。②涡流:镇民玩家的能力会产生错误的信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "29_jinhulun",
+    "image": "/scripts/assets/community/5981dfff1eb8d6781d7123dd815c7022bfd3674efd342650e6208930202ee111.png",
+    "reminders": [
+      "被提名",
+      "攻击三次",
+      "珀",
+      "烛"
+    ],
+    "name": "暴虐斗技场",
+    "team": "fabled",
+    "ability": "力量即真理，鲜血铸王座。①珀:恶魔可以在夜晚轮次中不做任何选择，如果这么做，下个夜晚可以选择三次。 ②烛阴:如果恶魔杀死了一名爪牙或外来者，那么可以再选择一个镇民角色，如果他在场：他死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "8_jinhulun",
+    "image": "/scripts/assets/community/6ffc4e6ef7fd2b723031244583d4b44bfce5a03fdb347a37cb75292baa0d1ee0.png",
+    "reminders": [
+      "死于处决",
+      "姑",
+      "熬"
+    ],
+    "name": "千变穹顶阁",
+    "team": "fabled",
+    "ability": "形无常驻，念即疆域。①姑获鸟:恶魔拥有上个死于处决的爪牙的能力。②熬药巫婆:每局游戏限一次，在夜晚*时，选择一名玩家和一个非恶魔角色:如果该角色不在场，他变为那个角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "4_jinhulun",
+    "image": "/scripts/assets/community/990f01324142de37f88337336b88c080f115b4bfadd168dc363aeaefdb9d267c.png",
+    "reminders": [
+      "即将结束"
+    ],
+    "name": "黑冕拜谒堂",
+    "team": "fabled",
+    "ability": "乌金噬星芒， 骸骨塑冕章。仅完成四个任务后可以选择。毕业快乐:下黄昏结束时，邪恶阵营获胜。",
+    "edition": "custom"
+  }
+]

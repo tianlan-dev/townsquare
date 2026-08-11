@@ -1,0 +1,370 @@
+[
+  {
+    "id": "_meta",
+    "name": "江山易改",
+    "author": "深咖啡ing",
+    "logo": "/scripts/assets/community/6e6752842335aa21fc6fd24029f84911bb783a0270c80047149c36816fdde742.png",
+    "almanac": "有问题联系SE谢谢喵",
+    "tags": [],
+    "version": "",
+    "issue": 929
+  },
+  {
+    "id": "_jiangshanyigai",
+    "image": "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png",
+    "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "赌徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "1_jiangshanyigai",
+    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "name": "筑梦师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 18000,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "2_jiangshanyigai",
+    "image": "/scripts/assets/community/97d37a379f9735df3274aa0771be561a7d5f6799cb7a1e828863dbb2b2dcb4c1.png",
+    "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
+    "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "舞蛇人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
+    "firstNight": 15000,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "3_jiangshanyigai",
+    "image": "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png",
+    "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是哲学家"
+    ],
+    "name": "哲学家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "firstNight": 12,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "4_jiangshanyigai",
+    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "name": "小精灵",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "firstNight": 17000,
+    "edition": "custom"
+  },
+  {
+    "id": "5_jiangshanyigai",
+    "image": "/scripts/assets/community/ce34f040f925bb9e36d9bd7ba7715cd71177e7449b8f6d094cafc32be38ea6a1.png",
+    "firstNightReminder": "唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
+    "otherNightReminder": "如果工程师未曾使用能力，唤醒工程师，他可以摇头不使用能力，或选择角色列表上的恶魔或爪牙角色，来执行同角色类型的这些玩家的角色变化。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "工程师",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。",
+    "firstNight": 14000,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "6_jiangshanyigai",
+    "image": "/scripts/assets/community/96737a5601beb6fd9412472f464f290b4446cb0f6b6b046b277fd086528efe83.png",
+    "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
+    "name": "农夫",
+    "team": "townsfolk",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "7_jiangshanyigai",
+    "image": "/scripts/assets/community/684b358d41dff04ba3bfb04c7386300fb96357f0ec9b46ccbde595c5ecca28a5.png",
+    "reminders": [
+      "饱餐",
+      "中毒"
+    ],
+    "name": "食人族",
+    "team": "townsfolk",
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "8_jiangshanyigai",
+    "image": "/scripts/assets/community/479318c865cf7aaed250062d85099a11910ed10dca4e4c233da01c872cae5daf.png",
+    "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
+    "reminders": [
+      "在场",
+      "不在场"
+    ],
+    "name": "阴阳师",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
+    "firstNight": 19000,
+    "edition": "custom"
+  },
+  {
+    "id": "9_jiangshanyigai",
+    "image": "/scripts/assets/community/f8bd50cf4fd5264bc088e0a626d09ea939c459b11b6ce3dcb3e1595e567a2db8.png",
+    "firstNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
+    "otherNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
+    "name": "郎中",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
+    "firstNight": 20000,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "10_jiangshanyigai",
+    "image": "/scripts/assets/community/55807e53d59374af8fbae2956f32414dfb878d77b079a0ef9657570ce964b628.png",
+    "remindersGlobal": [
+      "是变脸师"
+    ],
+    "name": "变脸师",
+    "team": "townsfolk",
+    "ability": "每个白天，如果你“疯狂”地证明自己是一个善良角色（与之前不同），你可能会在当晚获得那个角色的能力，直到下个黄昏。",
+    "edition": "custom"
+  },
+  {
+    "id": "11_jiangshanyigai",
+    "image": "/scripts/assets/community/aa44af515c5a6839e731a165c00ca1db53e3e8e29f474b78bbb96d5812383f9e.png",
+    "remindersGlobal": [
+      "是悟道者"
+    ],
+    "setup": true,
+    "name": "悟道者",
+    "team": "townsfolk",
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择或影响了你，在该效果生效前你会变成一个不在场的镇民角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "12_jiangshanyigai",
+    "image": "/scripts/assets/community/3354b0c77161fcfdd5b35b82b4d323a64ca077636a358f1ee19b76261ff58d1c.png",
+    "otherNightReminder": "唤醒狸猫，让他选择一名玩家，将“太子”标记放在对应玩家角色标记旁。如果当晚邪恶角色杀死了“太子”，交换狸猫与“太子”的角色，并依次唤醒告知。",
+    "reminders": [
+      "太子"
+    ],
+    "name": "狸猫",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他是善良角色且当晚被邪恶角色杀死，你和他交换角色。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "13_jiangshanyigai",
+    "image": "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png",
+    "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
+    "reminders": [
+      "今晚理发"
+    ],
+    "name": "理发师",
+    "team": "outsider",
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "14_jiangshanyigai",
+    "image": "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png",
+    "reminders": [
+      "无法提名"
+    ],
+    "name": "魔像",
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "15_jiangshanyigai",
+    "image": "/scripts/assets/community/878cc97e5cc744983d452a6c11e0e0a23f1f28ebdee4772a8ca0484dc270427c.png",
+    "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
+    "reminders": [
+      "今晚茶会"
+    ],
+    "name": "帽匠",
+    "team": "outsider",
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "16_jiangshanyigai",
+    "image": "/scripts/assets/community/42ff98c49143ceae7edbb4fad605dbe856d72ea3a581437f662ed5627474c4ff.png",
+    "otherNightReminder": "如果入殓师白天提名了恶魔且恶魔死于这次处决，唤醒入殓师，告知他变成新的邪恶的恶魔。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "入殓师",
+    "team": "outsider",
+    "ability": "如果你提名了恶魔且他死于这次处决，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时（旅行者除外），你失去能力。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "17_jiangshanyigai",
+    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "红唇女郎",
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "18_jiangshanyigai",
+    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
+    "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
+    "reminders": [
+      "疯狂"
+    ],
+    "name": "洗脑师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "firstNight": 16000,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "19_jiangshanyigai",
+    "image": "/scripts/assets/community/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
+    "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
+    "name": "麻脸巫婆",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "20_jiangshanyigai",
+    "image": "/scripts/assets/community/dcb88aca5ce6e786cdd06d355fe2a4b67964264ca82d95af6ff34d8c7fdb9d1f.png",
+    "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
+    "setup": true,
+    "name": "科学怪人",
+    "team": "minion",
+    "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
+    "firstNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "21_jiangshanyigai",
+    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "小恶魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "22_jiangshanyigai",
+    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "setup": true,
+    "name": "方古",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "23_jiangshanyigai",
+    "image": "/scripts/assets/community/617ff34d7f73db1ea6a58f833147cb3fbcc721ec54f088984808bcf3dbc8279e.png",
+    "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。",
+    "otherNightReminder": "唤醒卡扎力，让他攻击一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "卡扎力",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
+    "firstNight": 13,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "24_jiangshanyigai",
+    "image": "/scripts/assets/community/9146dc30bf61583e97d004f5e75e9b5b47878078f195dc59c4e7dfa6084ac185.png",
+    "otherNightReminder": "唤醒姑获鸟，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "获得能力"
+    ],
+    "name": "姑获鸟",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。你可能会拥有上一个死于处决的爪牙的能力。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "25_jiangshanyigai",
+    "image": "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png",
+    "name": "圣洁之魂",
+    "team": "fabled",
+    "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_jiangshanyigai",
+    "name": "入殓师&红唇女郎",
+    "team": "a jinxed",
+    "ability": "入殓师提名并处决了恶魔时，红唇女郎不会触发能力。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_jiangshanyigai",
+    "name": "红唇女郎&方古",
+    "team": "a jinxed",
+    "ability": "如果方古成功转化了外来者并因此死去，红唇女郎不会变成方古。",
+    "image": "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png",
+    "edition": "custom"
+  },
+  {
+    "id": "28_jiangshanyigai",
+    "name": "科学怪人&狸猫",
+    "team": "a jinxed",
+    "ability": "如果因科学怪人获得狸猫的恶魔与“太子”交换角色，改为“太子”变成狸猫且恶魔获得“太子”原本角色的能力。",
+    "edition": "custom"
+  }
+]

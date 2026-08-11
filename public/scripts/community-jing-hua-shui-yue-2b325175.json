@@ -1,0 +1,464 @@
+[
+  {
+    "id": "_meta",
+    "name": "镜花水月",
+    "author": "弗洛伊德动物园",
+    "logo": "/scripts/assets/community/ad47ebc5e0fcc77b97e26c3be5276f54cbe23647a262f1935b458f6e2ee36402.png",
+    "almanac": "有问题联系SE谢谢喵~",
+    "tags": [],
+    "version": "",
+    "issue": 925
+  },
+  {
+    "id": "_jinghuashuiyue",
+    "image": "/scripts/assets/community/9b5375d33f204fc3deba0a95a3ee058c05512bb630a3fa7b1abaa04621df6147.png",
+    "otherNightReminder": "如果今天白天有玩家死于处决，唤醒送葬者，对他展示那名玩家的角色标记。",
+    "reminders": [
+      "死于今日"
+    ],
+    "name": "送葬者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "1_jinghuashuiyue",
+    "image": "/scripts/assets/community/78a83557ae6c9edadb47d0c3c9fc12df4a24fe3abae5ff915cfa63f2dda81ec7.png",
+    "firstNightReminder": "唤醒祖母，对她指向一名善良玩家，并展示该玩家的角色标记。",
+    "otherNightReminder": "如果恶魔杀死了孙子，祖母死亡。",
+    "reminders": [
+      "孙子",
+      "死亡"
+    ],
+    "name": "祖母",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+    "firstNight": 17000,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "2_jinghuashuiyue",
+    "image": "/scripts/assets/community/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png",
+    "reminders": [
+      "全员醉酒"
+    ],
+    "name": "吟游诗人",
+    "team": "townsfolk",
+    "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
+    "edition": "custom"
+  },
+  {
+    "id": "3_jinghuashuiyue",
+    "image": "/scripts/assets/community/4f8a63cc893a87c0b52aa6697909f62e70ad72a157bf6e60b2fb32f068f59e91.png",
+    "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "name": "筑梦师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 19000,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "4_jinghuashuiyue",
+    "image": "/scripts/assets/community/3cc8bf6753df0a254628da5aed35185eb834f31da146184f1f62c29290daf7cd.png",
+    "firstNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
+    "otherNightReminder": "唤醒数学家，用手势比划数字来告诉他今天有多少玩家的能力未正常生效。",
+    "reminders": [
+      "未正常生效"
+    ],
+    "name": "数学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）",
+    "firstNight": 22000,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "5_jinghuashuiyue",
+    "image": "/scripts/assets/community/a00aa3e745e23598c0752e17ca4ddfb5e8ffcef925184551166d6c28100f3167.png",
+    "otherNightReminder": "唤醒卖花女孩，以点头或摇头告知她今天白天是否有恶魔参与投票。",
+    "reminders": [
+      "恶魔未投票",
+      "恶魔已投票"
+    ],
+    "name": "卖花女孩",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "6_jinghuashuiyue",
+    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
+    "name": "神谕者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "7_jinghuashuiyue",
+    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "reminders": [
+      "被得知"
+    ],
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNight": 16000,
+    "edition": "custom"
+  },
+  {
+    "id": "8_jinghuashuiyue",
+    "image": "/scripts/assets/community/598fb313dc0bedadabb8bd70ed3a38f7fa4e788ef5a498fde5703ac316a6ca2a.png",
+    "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "守夜人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
+    "firstNight": 21000,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "9_jinghuashuiyue",
+    "image": "/scripts/assets/community/a6cd1e92f9a9558066a399808500da56bed9f4f346fa35830af94f405b636ede.png",
+    "setup": true,
+    "name": "无神论者",
+    "team": "townsfolk",
+    "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
+    "edition": "custom"
+  },
+  {
+    "id": "10_jinghuashuiyue",
+    "image": "/scripts/assets/community/d5a54085c62981a2bac292ef3cdb91f48abf57adc9727d1d8936ec45d3c84f04.png",
+    "otherNightReminder": "在夜晚时，如果秉笔旁放置了“死于今日”提示标记，唤醒秉笔。对他指向一名善良玩家。让秉笔重新入睡。移除“死于今日”提示标记。如果秉笔在夜晚死亡，唤醒秉笔。对他指向一名邪恶玩家。让秉笔重新入睡。",
+    "reminders": [
+      "死于今日"
+    ],
+    "name": "秉笔",
+    "team": "townsfolk",
+    "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "11_jinghuashuiyue",
+    "image": "/scripts/assets/community/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png",
+    "firstNightReminder": "在首个夜晚，唤醒刀客，对他展示标记了“得知”的爪牙角色标记。",
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "name": "刀客",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
+    "firstNight": 18000,
+    "edition": "custom"
+  },
+  {
+    "id": "12_jinghuashuiyue",
+    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "reminders": [
+      "得知镇民",
+      "得知外来者",
+      "得知爪牙",
+      "得知恶魔",
+      "得知旅行者"
+    ],
+    "setup": true,
+    "name": "气球驾驶员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名不同角色类型的玩家，直到场上所有的角色类型你都得知过一次。[+1 外来者]",
+    "firstNight": 20000,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "13_jinghuashuiyue",
+    "image": "/scripts/assets/community/ef33aed5918a4bde3c3125f4c9ab9f60869ff16993720999532b080a9addcc63.png",
+    "otherNightReminder": "每个夜晚*，你可以选择一名玩家：他醉酒且能力必定产生错误信息。如果你选中了恶魔，他会得知你是塑心，且你从下个夜晚开始时醉酒。",
+    "reminders": [
+      "醉酒",
+      "得知"
+    ],
+    "name": "塑心",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名玩家：他醉酒且能力必定产生错误信息。如果你选中了恶魔，他会得知你是塑心，且你从下个夜晚开始时醉酒。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "14_jinghuashuiyue",
+    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "name": "酒鬼",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "edition": "custom"
+  },
+  {
+    "id": "15_jinghuashuiyue",
+    "image": "/scripts/assets/community/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
+    "firstNightReminder": "唤醒疯子并向他提供恶魔信息。如可能，则让疯子进行相应的恶魔行动。随后在恶魔信息环节对恶魔提供疯子的相关信息。",
+    "otherNightReminder": "如果疯子以为的恶魔会在当晚行动，唤醒疯子，并让他以恶魔的方式行动。",
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [
+      "是疯子"
+    ],
+    "setup": true,
+    "name": "疯子",
+    "team": "outsider",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "firstNight": 2200,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "16_jinghuashuiyue",
+    "image": "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png",
+    "remindersGlobal": [
+      "是隐士"
+    ],
+    "setup": true,
+    "name": "隐士",
+    "team": "outsider",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "edition": "custom"
+  },
+  {
+    "id": "17_jinghuashuiyue",
+    "reminders": [
+      "“他”"
+    ],
+    "name": "堂吉诃德",
+    "team": "outsider",
+    "ability": "一名玩家会被镇民的能力当作恶魔，即使你已死亡。你可以私下询问说书人以得知“他”是谁，随后“他”会改为另一名玩家。",
+    "image": "/scripts/assets/community/3adda34f7b9799033c3a0cd63067505061fa5c5a282b969a87153cb89b8b34f1.png",
+    "edition": "custom"
+  },
+  {
+    "id": "18_jinghuashuiyue",
+    "image": "/scripts/assets/community/c96e9b92d5fd211e7e77c9a2e897428a2e20e06e74e63f62354930d3358ecc96.png",
+    "firstNightReminder": "唤醒卧佛，给他两把椅子分别放置在他左手边和右手边相邻的位置上，他可以随时躺在椅子上。",
+    "reminders": [
+      "头",
+      "脚"
+    ],
+    "setup": true,
+    "name": "卧佛",
+    "team": "outsider",
+    "ability": "你占据3个座位，即使你失去能力。[+2相邻空座位，+0-1外来者]",
+    "firstNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "19_jinghuashuiyue",
+    "image": "/scripts/assets/community/8a768cd46728a18700e3a2ae650c8546d2263712c18942e5c4fbd7f55fed6d42.png",
+    "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
+    "name": "麻脸巫婆",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "20_jinghuashuiyue",
+    "image": "/scripts/assets/community/bd459a2845125740d1a3b1090b2e64d09f6710e48e5c9f431ebd520d92e9f79a.png",
+    "firstNightReminder": "唤醒寡妇，让她查看魔典。在她查看完毕后让她选择一名玩家，那名玩家中毒。随后如果寡妇未醉酒中毒，唤醒一名善良玩家，对他展示寡妇角色标记。",
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [
+      "得知"
+    ],
+    "name": "寡妇",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
+    "firstNight": 15000,
+    "edition": "custom"
+  },
+  {
+    "id": "21_jinghuashuiyue",
+    "image": "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png",
+    "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
+    "remindersGlobal": [
+      "是提线木偶"
+    ],
+    "setup": true,
+    "name": "提线木偶",
+    "team": "minion",
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "firstNight": 13000,
+    "edition": "custom"
+  },
+  {
+    "id": "22_jinghuashuiyue",
+    "image": "/scripts/assets/community/c98116dea6c18f61ec0a78570106b9d6baa21279ec792a79fe70710bd6a6523a.png",
+    "reminders": [
+      "活尸"
+    ],
+    "setup": true,
+    "name": "赶尸人",
+    "team": "minion",
+    "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
+    "edition": "custom"
+  },
+  {
+    "id": "23_jinghuashuiyue",
+    "image": "/scripts/assets/community/6562346b50eb94112b83a04c6628d1c4f7d8cfc4e59e4b75d24b00e31fb6d835.png",
+    "firstNightReminder": "唤醒伪证天才，让他选择一个角色，根据角色合理地欺骗善良玩家。",
+    "otherNightReminder": "唤醒伪证天才，让他选择一个角色，根据角色合理地欺骗善良玩家。",
+    "name": "伪证天才",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一个角色：有玩家可能被欺骗得知该角色的能力触发了。",
+    "firstNight": 14000,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "24_jinghuashuiyue",
+    "image": "/scripts/assets/community/a339b876877753483e03b0a60c96c6f9f895c8a87a6ee8dcac446b97e1116e01.png",
+    "otherNightReminder": "唤醒方古，让他攻击一名玩家。如果该玩家是外来者并成功转化，则方古死亡，在他入睡后通知那名外来者角色变化。",
+    "reminders": [
+      "死亡",
+      "限一次"
+    ],
+    "setup": true,
+    "name": "方古",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "25_jinghuashuiyue",
+    "image": "/scripts/assets/community/b0a232b3c46af07f977d1cdebff7823011f60b85267ccb78bf516f0f4f0060a4.png",
+    "otherNightReminder": "唤醒塞壬选择一名玩家，为该玩家标记死亡，然后让塞壬选择是否谢幕，如果他点头，为他放置“谢幕”标记。",
+    "reminders": [
+      "死亡",
+      "谢幕"
+    ],
+    "name": "塞壬",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，且你要选择是否永久失去你的下一条能力。镇民玩家的能力都会产生错误信息。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "26_jinghuashuiyue",
+    "image": "/scripts/assets/community/0f70636a65408345cd0fbc1751d2aafd58213ecfeb1fde3beaefd84a63dd1489.png",
+    "firstNightReminder": "如果利维坦在场，告知所有人利维坦在场，现在是第一个白天。",
+    "otherNightReminder": "如果利维坦在场，告知所有人利维坦在场，现在是第几个白天。（如果玩家一致同意，则无需在已经知晓利维坦在场的前提下在其他夜晚执行此项操作。）",
+    "reminders": [
+      "第一天",
+      "第二天",
+      "第三天",
+      "第四天",
+      "第五天",
+      "善良被处决"
+    ],
+    "name": "利维坦",
+    "team": "demon",
+    "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
+    "firstNight": 23000,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "27_jinghuashuiyue",
+    "image": "/scripts/assets/community/4ec5cde5724c09ba24c15c1bca56bbe30c257ef8e8774e757d5388777d5a0164.png",
+    "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。当你首次以这种方式杀死一名存活爪牙，他死亡但仍被当作存活且保留能力，随后会有一名其他玩家死亡。",
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "限一次"
+    ],
+    "name": "死芒",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你首次以这种方式杀死一名存活爪牙，他死亡但仍被当作存活且保留能力，随后会有一名其他玩家死亡。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "28_jinghuashuiyue",
+    "image": "/scripts/assets/community/b46b351f13d35c2f62088c6283853941b49c8927917660be869710741f007af2.png",
+    "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡，但仍被当作存活。场上已经死亡但被当作存活的玩家被其他角色的能力选中时，他可能不再被当作存活。",
+    "reminders": [
+      "死亡",
+      "活死人"
+    ],
+    "setup": true,
+    "name": "往生",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，但仍被当作存活。场上已经死亡但被当作存活的玩家被其他角色的能力选中时，他可能不再被当作存活。[-1外来者]",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "29_jinghuashuiyue",
+    "image": "/scripts/assets/community/849b41ad72ab35dc01adec6be5997ceeb9aec1dac7c812ad25ddfc248bb295ed.png",
+    "name": "病房监控",
+    "team": "fabled",
+    "ability": "疯子的选择以及所有得知的信息可能会被爪牙和恶魔玩家得知。",
+    "edition": "custom"
+  },
+  {
+    "id": "30_jinghuashuiyue",
+    "image": "/scripts/assets/community/33118b189215ff00ba66213120e1f10d31943b2a1cba1f6b8de94cfd697ceb27.png",
+    "name": "古董收藏家",
+    "team": "fabled",
+    "ability": "剧本中部分角色的能力来源于过去。",
+    "edition": "custom"
+  },
+  {
+    "id": "31_jinghuashuiyue",
+    "name": "气球驾驶员&提线木偶",
+    "team": "a jinxed",
+    "ability": "如果提线木偶抽到了气球驾驶员，也会+1外来者。",
+    "edition": "custom"
+  },
+  {
+    "id": "32_jinghuashuiyue",
+    "name": "守夜人&伪证天才",
+    "team": "a jinxed",
+    "ability": "如果伪证天才选择了守夜人，它可以选择被欺骗得知守夜人技能发动的目标。",
+    "edition": "custom"
+  },
+  {
+    "id": "33_jinghuashuiyue",
+    "name": "卧佛&伪证天才",
+    "team": "a jinxed",
+    "ability": "如果伪证天才选择了卧佛，说书人可以在一位他指定的玩家两侧添加空座位。",
+    "edition": "custom"
+  },
+  {
+    "id": "34_jinghuashuiyue",
+    "name": "麻脸巫婆&利维坦",
+    "team": "a jinxed",
+    "ability": "在第五个白天结束后，麻脸巫婆不再能创造利维坦。",
+    "edition": "custom"
+  },
+  {
+    "id": "35_jinghuashuiyue",
+    "name": "方古&伪证天才",
+    "team": "a jinxed",
+    "ability": "如果伪证天才选择了方古，可能会有一名外来者得知自己变成邪恶的方古，在当晚他将被当作疯子唤醒。",
+    "edition": "custom"
+  }
+]

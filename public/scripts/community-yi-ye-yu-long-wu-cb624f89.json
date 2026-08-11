@@ -1,0 +1,480 @@
+[
+  {
+    "id": "_meta",
+    "name": "一夜鱼龙舞",
+    "author": "驯鹿&痴愚",
+    "logo": "/scripts/assets/community/8abb36358f4c5fa5320ecbb9bb8e679a3946b9bc7febd70b89cb29fbe9fe2c5c.png",
+    "description": "凤箫声动,玉壶光转,一夜鱼龙舞。",
+    "townsfolkName": "镇民",
+    "outsidersName": "外来者",
+    "minionsName": "爪牙",
+    "demonsName": "恶魔",
+    "townsfolk": "镇民",
+    "outsider": "外来者",
+    "minion": "爪牙",
+    "demon": "恶魔",
+    "tags": [
+      "节日&活动主题剧本"
+    ],
+    "version": ""
+  },
+  {
+    "id": "sibu_button",
+    "edition": "custom",
+    "name": "司簿",
+    "ability": "在你的首个夜晚，你要选择一名玩家，你会得知该玩家及其相邻玩家的角色种类数量。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3070,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "廪赐"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "qintianjian_button",
+    "image": "/scripts/assets/community/740c9d1ff70d870ea35bfdf5980c49e98c344a46b47fae8f366be8c84d8e4af1.png",
+    "edition": "custom",
+    "name": "钦天监",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息作为替代。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3060,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "yinyangshi_button",
+    "image": "/scripts/assets/community/122ac90709fccbc08d1f500cc1103cd1b8637fa5f488b201f1d99d5cc7ff9de0.png",
+    "edition": "custom",
+    "name": "阴阳师",
+    "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3050,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒阴阳师，并对其展示两个善良角色，两个邪恶角色，共四个角色标记。其中正好只有两个角色在场。",
+    "reminders": [
+      "在场"
+    ]
+  },
+  {
+    "id": "wushiren_button",
+    "image": "/scripts/assets/community/477c24ce3df991653cf32bf3d67eefcffcddcd42ed9730af02cf9d5645f04fd9.png",
+    "edition": "custom",
+    "name": "舞狮人",
+    "ability": "每个夜晚，你会得知一个在场角色。每局游戏限一次，你得知的信息改为恶魔的伪装之一。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3090,
+    "otherNight": 150,
+    "firstNightReminder": "唤醒舞狮人，对他展示一个角色标记。如果展示了恶魔的伪装，在舞狮人角色标记旁放置“限一次”角色标记。如果舞狮人有“限一次”角色标记，则无法对他展示恶魔的伪装作为正确信息。",
+    "otherNightReminder": "唤醒舞狮人，对他展示一个角色标记。如果展示了恶魔的伪装，在舞狮人角色标记旁放置“限一次”角色标记。如果舞狮人有“限一次”角色标记，则无法对他展示恶魔的伪装作为正确信息。",
+    "reminders": [
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "yinluren_button",
+    "firstNightReminder": "唤醒引路人，让其选择至多三名玩家。以点头或摇头作为信息给出。",
+    "otherNightReminder": "唤醒引路人，让其选择至多三名玩家。以点头或摇头作为信息给出。",
+    "name": "引路人",
+    "otherNight": 200,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "team": "townsfolk",
+    "firstNight": 3100
+  },
+  {
+    "id": "daoshi_button",
+    "image": "/scripts/assets/community/449d829e758abff17d39ab2610c510e935204bd2a930a4e2eae7a54fd835a234.png",
+    "edition": "custom",
+    "name": "道士",
+    "ability": "每个夜晚*，你要选择一名玩家：如果你选中了恶魔，你死亡，然后他醉酒直到下个黎明。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 70,
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒道士，让其选择一名玩家。如果他选中了恶魔，在他的角色标记旁放置“死亡”提示标记。",
+    "reminders": [
+      "死亡",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "zhifu_button",
+    "image": "/scripts/assets/community/12eb93c62d49f709d4cad0ffff8a63d03138f643620a1fb5b61edd7f1bb27769.png",
+    "edition": "custom",
+    "name": "知府",
+    "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者的玩家死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 170,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果在白天以及夜晚，只有镇民玩家死亡，对知府摇头表示“否”，否则点头表示“是”。",
+    "reminders": [
+      "是",
+      "否"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "xiangke_button",
+    "image": "/scripts/assets/community/1f21b937ee49ec7d0d8f634e6ce8787dc1d78d16c7889eca8b38db4d75cfb08f.png",
+    "edition": "custom",
+    "name": "香客",
+    "ability": "每个夜晚*，你要点一根香：你会得知香能否被点燃。如果当天你曾与恶魔一起投票，香无法被点燃。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 160,
+    "reminders": [
+      "点燃",
+      "无法点燃"
+    ]
+  },
+  {
+    "id": "yushi",
+    "edition": "custom",
+    "name": "御史",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知该玩家与其邻座的存活玩家之一是否为同一阵营。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 180,
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒御史。让他选择一名玩家，对其点头或摇头示意。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "tixingguan_button",
+    "image": "/scripts/assets/community/e7095cf16c53f00d38c924af2c966971b80e9a06ff1b800d982cf4db6dc1a5e6.png",
+    "edition": "custom",
+    "name": "提刑官",
+    "ability": "在你首次提名玩家后，你会在当晚得知他的角色。外来者会被你的能力当作爪牙或恶魔角色。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 190,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果提刑官在白天进行了整局游戏中他的首次提名，唤醒他并对他展示他提名的玩家的角色标记。",
+    "reminders": [
+      "被首次提名"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "wulongtou_button",
+    "image": "/scripts/assets/community/6ea8a82b5d30bd8f81ad7f5abc126095c2e5294bccfa874202464732b89e257e.png",
+    "edition": "custom",
+    "name": "舞龙头",
+    "ability": "每个夜晚，你会得知你和舞龙尾最近距离间存活的善良玩家数量（不含旅行者）。[离你最远的一名镇民是舞龙尾]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3080,
+    "otherNight": 140,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "wulongwei_button",
+    "image": "/scripts/assets/community/fe1758dcb18cfedd21d1ebe86887e47ddcf1c8baf4af2e8e3b9090b76bc155e5.png",
+    "edition": "custom",
+    "name": "舞龙尾",
+    "ability": "你不知道你是舞龙尾，你以为你是其他镇民角色。如果你和舞龙头之间的其他玩家都已死亡，这些玩家变成舞龙身并复活，在此之前你只会死于处决。[+舞龙头]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "舞龙尾"
+    ],
+    "setup": true
+  },
+  {
+    "id": "chongfei_button",
+    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "edition": "custom",
+    "name": "宠妃",
+    "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "xianzhe_button",
+    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "edition": "custom",
+    "name": "贤者",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 135,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "58bb8901-3c24-4ec8-83fd-7209a9916cd2",
+    "image": "/scripts/assets/community/18fc0468c108269fe1bca860117f188a99ec2cc93e15255b9244c67649f02cff.png",
+    "edition": "custom",
+    "name": "鱼灯",
+    "ability": "如果你死亡，在当晚恶魔可以选择一名其他邪恶玩家和一个不在场的爪牙角色：他获得该角色的能力。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 20,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "cc52d4f6-0693-46bb-89f5-bc33eab7428a",
+    "image": "/scripts/assets/community/487ad0db66061951a760587016c3f347a7f0aa24c1bccebfb38c16584274b113.png",
+    "edition": "custom",
+    "name": "天子",
+    "ability": "如果你死于处决，参与处决且与你阵营相同的玩家当晚可能会死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 10,
+    "reminders": [
+      "陪葬"
+    ]
+  },
+  {
+    "id": "9e0c7f67-4287-4c15-84be-941c11b39dda",
+    "edition": "custom",
+    "name": "红颜",
+    "ability": "如果你死亡，邪恶玩家会得知一个关键词。首个说出该关键词的邪恶玩家会驳回当前所有提名并立即结束白天阶段（最后一天除外）。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 130,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "祸水"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "33eed904-7447-4d4c-8520-5c6088ae9ba3",
+    "image": "/scripts/assets/community/07b67bc05e1b32bdc88b38e67fb111ce27715793fa89daa628be3cbf6a8a66ed.png",
+    "edition": "custom",
+    "name": "心上人",
+    "ability": "当你死亡时，会有一名玩家开始醉酒。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 120,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果心上人死亡，会有一名玩家立刻醉酒。如果你还没有让这件事情发生，那么现在为任意一位玩家放置醉酒标记。",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "7c1f73f7-10d5-49ff-8c60-3828e2f3cbe9",
+    "image": "/scripts/assets/community/6888d0fccb15a0207de4796ad88379dce80ceaf6ea60ac5274ca7f06ecfa1780.png",
+    "edition": "custom",
+    "name": "朱厌",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择当晚所有镇民玩家的能力都会产生错误信息。[+1 外来者]",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 3030,
+    "otherNight": 50,
+    "reminders": [
+      "失去能力",
+      "天下大乱"
+    ],
+    "setup": true
+  },
+  {
+    "id": "e9cba105-bc4f-499d-8e22-18536906ab96",
+    "image": "/scripts/assets/community/68d080f78ab8dff34e6cd266c844bfcbc3d2a011eecf0eeae0d02bf7496ae1f2.png",
+    "edition": "custom",
+    "name": "蛊雕",
+    "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 3020,
+    "otherNight": 40,
+    "firstNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
+    "otherNightReminder": "唤醒蛊雕，让其选择一个方向。将他的“中毒”标记移动至那个方向上的下一个存活玩家的角色标记旁。随后对他指向那名玩家，并展示“他是”提示标记和该玩家的角色标记。",
+    "reminders": [
+      "中毒"
+    ]
+  },
+  {
+    "id": "huodou",
+    "image": "/scripts/assets/community/e8084dc75899ff2b36e038318411fdaaf8cfaa1b159fb71d61f974e83385976e.png",
+    "edition": "custom",
+    "name": "祸斗",
+    "ability": "如果首个邪恶玩家死亡，与他邻近的善良玩家之一会被当作邪恶阵营，当晚你可以选择两名存活玩家交换角色，即使你已死亡。[-1 外来者]",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 0,
+    "otherNight": 30,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "大祸临头",
+      "福祸相依"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "danshutiequan",
+    "edition": "custom",
+    "name": "契灵",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：如果第一名玩家存活，第二名玩家就不会死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 3040,
+    "otherNight": 60,
+    "firstNightReminder": "唤醒契灵，让其选择两名玩家，第一名玩家放置“契约”提示标记，第二名玩家放置“不会死亡”提示标记。",
+    "otherNightReminder": "唤醒契灵，让其选择两名玩家，第一名玩家放置“契约”提示标记，第二名玩家放置“不会死亡”提示标记。",
+    "reminders": [
+      "不会死亡",
+      "契约",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "271b81b5-da94-4b65-acb8-352f0819de2b",
+    "image": "/scripts/assets/community/60361fd5996785f658bbf240b1fcbb6c36b35e76b6c684318eda41819b722f22.png",
+    "edition": "custom",
+    "name": "诡美人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你死于处决，如果你与存活外来者之间没有存活善良玩家（最后一天除外），他会变成邪恶的诡美人，但每局游戏仅能成功转化一次。[+1 外来者]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 90,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "仰慕者",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "03115851-5c00-4e94-b86c-82da838d8035",
+    "image": "/scripts/assets/community/2aa10fcda0f54c9f08ad3e939a50dcd85ef17228f1396eca64cc655e97582e9f.png",
+    "edition": "custom",
+    "name": "长安红茶",
+    "ability": "首个夜晚，你要选择等同初始爪牙数量的玩家加入邪恶阵营。每个夜晚*，会有一名玩家死亡，只有说书人被处决，邪恶阵营落败，即使你已死亡。[无爪牙角色在场]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 3010,
+    "otherNight": 80,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "茶客"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "73513897-429a-43ce-9f0e-c69ccb82cc53",
+    "image": "/scripts/assets/community/dcc56b39094fc4df9c9fd7dc258bbaeb104025c3c1a680c86f784c83e1c61d6c.png",
+    "edition": "custom",
+    "name": "冤",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。如果你在被提名后公开声明我冤呐（最后一天除外），在你死于处决后私下选择一名给你投票的玩家，他会变成邪恶的冤，但每局游戏仅能成功转化一次。[-1外来者]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 100,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "冤呐"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "7bc9637d-ddd9-4a84-83a7-2d01d354b85e",
+    "image": "/scripts/assets/community/7cd6e3812762347a7d365377b3ccecac85d449894f8736d97b49ac8a448aa53a.png",
+    "edition": "custom",
+    "name": "凤",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 当你死于处决（最后一天除外），存活的凰会变成邪恶的凤。［离你最远的一名镇民玩家同时是凰］",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 110,
+    "reminders": [
+      "死亡",
+      "凰"
+    ]
+  },
+  {
+    "id": "1cc4cf40-6bcd-44be-86b2-809a41b9279e",
+    "image": "/scripts/assets/community/ef8a8638f4d4a0ffbf6aa557d47f82081fdf2bb8ac45a8599c268fea2f72e9a5.png",
+    "edition": "custom",
+    "name": "舞龙身",
+    "ability": "你无法被流放。每个白天舞龙头可以向一名非旅行者玩家发起流放，此次流放仅舞龙能参与且半数以上舞龙同意即可流放成功。[不可选择]",
+    "team": "traveler",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false
+  }
+]

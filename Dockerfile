@@ -19,10 +19,9 @@ COPY package*.json ./
 RUN npm ci --omit=dev
 
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/public ./public
 COPY --from=builder /app/server ./server
 
-RUN chmod -R a+r /app/public /app/dist
+RUN chmod -R a+r /app/dist
 RUN mkdir -p /app/local-data && chown -R node:node /app/local-data
 USER node
 CMD ["npm", "run", "start"]

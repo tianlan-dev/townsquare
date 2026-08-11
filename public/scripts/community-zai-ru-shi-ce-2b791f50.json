@@ -1,0 +1,425 @@
+[
+  {
+    "id": "_meta",
+    "name": "载入史册",
+    "author": "久久久 & 小烯C2H43g",
+    "logo": "/scripts/assets/community/97305cc5e107bc72d17c5efc825edd846b8622bfb97dbf693de7ff8cb50f848f.png",
+    "tags": [],
+    "version": "",
+    "issue": 931
+  },
+  {
+    "id": "chushi_tpi",
+    "name": "厨师",
+    "image": [
+      "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
+    ],
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
+    "firstNight": 7800,
+    "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "guizu_tpi",
+    "name": "贵族",
+    "image": [
+      "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
+    ],
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNight": 8900,
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shiwuguan_tpi",
+    "name": "事务官",
+    "image": [
+      "/scripts/assets/community/7a0a694a163de940f1b6fc010a7653a1c837abf6e1708c83fbe377f784f7bb73.png"
+    ],
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家。",
+    "firstNight": 8700,
+    "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "gongqingzhe_tpi",
+    "name": "共情者",
+    "image": [
+      "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "firstNight": 7900,
+    "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "otherNight": 11000,
+    "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhanbushi_tpi",
+    "name": "占卜师",
+    "image": [
+      "/scripts/assets/community/97275917cda6c3689a65e781adf9ddc24a5227c28871ba81c108fefaf752747c.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。\n会有一名善良玩家始终被你的能力当作恶魔。",
+    "firstNight": 8000,
+    "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "otherNight": 11100,
+    "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "reminders": [
+      "干扰项"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shinv_tpi",
+    "name": "侍女",
+    "image": [
+      "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "firstNight": 12400,
+    "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "otherNight": 14800,
+    "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "dutu_tpi",
+    "name": "赌徒",
+    "image": [
+      "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "firstNight": 0,
+    "otherNight": 2000,
+    "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "xuncha_liuzhongqi",
+    "name": "巡察",
+    "image": [
+      "/scripts/assets/community/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
+    "otherNight": 4475,
+    "otherNightReminder": "唤醒巡查，让他选择两个善良角色（镇民或外来者）（和上个夜晚不同），如果他们都在场并存活（华白注：应该是需要在场的），他们两个今晚不会死亡。",
+    "reminders": [
+      "不会死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shiguan_dingdang",
+    "name": "史官",
+    "image": [
+      "/scripts/assets/community/fcb08df5017e7db6add64d5e0a99dc5cbd9e9e2a1d5a88bc72cf4f65fba03559.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果今天白天有玩家死于处决，你会得知存活镇民的数量。",
+    "otherNight": 13200,
+    "otherNightReminder": "如果今天白天有玩家死于处决，唤醒史官，告知其在场存活镇民数量。",
+    "reminders": [
+      "死于今日"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhen_yewuying",
+    "name": "鸩",
+    "image": [
+      "/scripts/assets/community/b9315491a507e3c3f14480f9e860f34fe2964e236c366faf5e1d1a40d61d4a7c.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一个镇民角色：如果他在场，他中毒并死亡。",
+    "otherNight": 8900,
+    "otherNightReminder": "唤醒鸩，如果鸩使用能力，让鸩选择一个镇民角色：如果这个镇民角色在场，这个镇民角色先中毒，再死亡。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jieshou_tpi",
+    "name": "猎手",
+    "image": [
+      "/scripts/assets/community/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zashuayiren_tpi",
+    "name": "杂耍艺人",
+    "image": [
+      "/scripts/assets/community/b23dfc81aa093a1a45a28fd5c4a663f73ff267b4b1334b3211a0641afa04e43c.png"
+    ],
+    "team": "townsfolk",
+    "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
+    "firstNight": 0,
+    "otherNight": 12000,
+    "otherNightReminder": "如果杂耍艺人在今天白天使用了能力，唤醒杂耍艺人，对他用手势比划数字来告知他白天猜测正确的次数。",
+    "reminders": [
+      "猜测正确"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shouyaren_tpi",
+    "name": "守鸦人",
+    "image": [
+      "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png"
+    ],
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "firstNight": 0,
+    "otherNight": 9800,
+    "otherNightReminder": "如果守鸦人死于夜晚，唤醒守鸦人，让他选择一名玩家。对他展示这名玩家的角色标记。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shengtu_tpi",
+    "name": "圣徒",
+    "image": [
+      "/scripts/assets/community/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png"
+    ],
+    "team": "outsider",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "mangfu_tpi",
+    "name": "莽夫",
+    "image": [
+      "/scripts/assets/community/f163f1b68304f90f6ecd678e72bd274cb54a323b34e3fd1a95ee8f23d2d516a0.png"
+    ],
+    "team": "outsider",
+    "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shusheng_mtyj",
+    "name": "书生",
+    "image": [
+      "/scripts/assets/community/7ff7cbdf884e6102837415de6d56eeed3b1ea050724d911d17c06c468d2098ae.png"
+    ],
+    "team": "outsider",
+    "ability": "恶魔知道书生在场。每局游戏限一次，恶魔可以拜访说书人并猜测你是书生。如果恶魔猜测正确，即使你已死亡，当晚该恶魔可以选择一名玩家：他死亡。",
+    "firstNight": 3300,
+    "firstNightReminder": "如果书生在场，对恶魔展示书生角色标记。",
+    "otherNight": 8500,
+    "otherNightReminder": "如果恶魔猜中了书生，让恶魔选择一名玩家，该玩家死亡。",
+    "reminders": [
+      "已猜测",
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiugui_tpi",
+    "name": "酒鬼",
+    "image": [
+      "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
+    ],
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "cike_tpi",
+    "name": "刺客",
+    "image": [
+      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+    ],
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "firstNight": 0,
+    "otherNight": 8600,
+    "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "hongchunnvlang_tpi",
+    "name": "红唇女郎",
+    "image": [
+      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+    ],
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "firstNight": 0,
+    "otherNight": 3700,
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "nvwu_tpi",
+    "name": "女巫",
+    "image": [
+      "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
+    ],
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "firstNight": 5700,
+    "firstNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
+    "otherNight": 2700,
+    "otherNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
+    "reminders": [
+      "被诅咒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiaofu_tpi",
+    "name": "教父",
+    "image": [
+      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+    ],
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNight": 5400,
+    "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
+    "otherNight": 8700,
+    "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "woliu_tpi",
+    "name": "涡流",
+    "image": [
+      "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n镇民玩家的能力都会产生错误信息。\n如果白天没人被处决，邪恶阵营获胜。",
+    "firstNight": 0,
+    "otherNight": 5600,
+    "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "puka_tpi",
+    "name": "普卡",
+    "image": [
+      "/scripts/assets/community/5832efd7dfce7d864985b72ec7443d2b30834e4924184a3490ae49955725577c.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。\n上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "firstNight": 6600,
+    "firstNightReminder": "唤醒普卡，让他选择一名玩家，那名玩家中毒。",
+    "otherNight": 5100,
+    "otherNightReminder": "唤醒普卡，让他选择一名玩家，该玩家中毒。上一个被普卡中毒的玩家死亡。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "xiaoemo_tpi",
+    "name": "小恶魔",
+    "image": [
+      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "firstNight": 0,
+    "otherNight": 4900,
+    "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "nuodashi_tpi",
+    "name": "诺-达鲺",
+    "image": [
+      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
+    "firstNight": 0,
+    "otherNight": 5500,
+    "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "name": "极乐之都",
+    "author": "海雾",
+    "id": "_meta",
+    "bootlegger": [
+      ""
+    ],
+    "logo": "/scripts/assets/community/d44e1d07646292f0e4f2eb50cc849f35299a4f6d9a8431fbc685757f5ed19a9e.png",
+    "tags": [],
+    "version": "1.1"
+  },
+  {
+    "id": "yueshou_haiwu",
+    "name": "△乐手",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你得知场上爪牙间的最近距离，你被你的能力当作爪牙。",
+    "firstNightReminder": "展示数字手势以告知其场上爪牙间的最近距离。",
+    "firstNight": 3007,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/ac6b4f4961ee9e6a6389fb1a8e5b1b8be5f1ad4626120b3a709a636a4428b821.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "danganguanliyuan_haiwu",
+    "name": "档案管理员□",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你得知三个类别各不同的角色，其中至少有一个不在场。",
+    "firstNightReminder": "展示三个不同类别的角色标记，这些角色不能都在场。",
+    "firstNight": 3008,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/6c4ce834b11ba953ad8ac720ad92bb262493165509c783691be47a1d7aaf465e.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "saicheshou_haiwu",
+    "name": "△赛车手",
+    "team": "townsfolk",
+    "ability": "如果你曾被善良玩家激烈交锋过，当天的提名阶段开始时你会被处决。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "狂飙"
+    ],
+    "image": [
+      "/scripts/assets/community/2de693432d5dafbbef0020076830a9a7598170961911617e04e98238c9f36631.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiequyigong_haiwu",
+    "name": "△街区义工",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家，你会得知一名角色名称字数和他不同的玩家。",
+    "firstNightReminder": "让街区义工选择一名玩家，并指向一名角色名称字数和被选择玩家不同的玩家。",
+    "firstNight": 3009,
+    "otherNightReminder": "让街区义工选择一名玩家，并指向一名角色名称字数和被选择玩家不同的玩家。",
+    "otherNight": 14,
+    "image": [
+      "/scripts/assets/community/22ff82141c83aba5b2b07c68034c666edc60fc166e64ab5b5c4864b4884c6464.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "fayi_haiwu",
+    "name": "法医□",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你得知昨天与被处决玩家邻近的存活玩家中是否有与其阵营不同的玩家。",
+    "firstNight": 0,
+    "otherNightReminder": "如果昨天有玩家死于处决，唤醒法医并用拇指收拾告知其是或者否。",
+    "otherNight": 15,
+    "reminders": [
+      "被处决"
+    ],
+    "image": [
+      "/scripts/assets/community/b78aa8e466e1643dd7a1eea4c4a806fc121c199c30269e161f0d79c40d50e5c4.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "diaozhuanggong_haiwu",
+    "name": "△吊装工",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知两个角色类型，场上存在一对邻座的对应玩家，每名玩家仅会被你得知一次。",
+    "firstNightReminder": "选择两名未被得知过的邻座玩家，将他们的角色类别告知吊装工。",
+    "firstNight": 3010,
+    "otherNightReminder": "选择两名未被得知过的邻座玩家，将他们的角色类别告知吊装工。",
+    "otherNight": 16,
+    "reminders": [
+      "已得知"
+    ],
+    "image": [
+      "/scripts/assets/community/39b2e59cc3848eb3971c8fc567d70c2657502f5d32aeaef4da3dd08dfa36b994.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jingdu_haiwu",
+    "name": "警督□",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你得知与你距离最近的存活邪恶玩家是否是恶魔。",
+    "firstNight": 0,
+    "otherNightReminder": "警督可以点头表示使用能力，告知其是或者否。",
+    "otherNight": 17,
+    "reminders": [
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/553ec3cc0d856fbad457fa1ce65f4f662ca78d6bfcd149fed68f4b124e9cb9ea.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "tuixiaoyuan_haiwu",
+    "name": "△推销员",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以选择两名玩家，你会得知其中较少阵营的人数。每过一个白天，你可以多选择一名玩家。",
+    "firstNightReminder": "推销员可以选择符合能力数量的玩家，展示数字手势以告知其其中较少阵营的人数。",
+    "firstNight": 3012,
+    "otherNightReminder": "推销员可以选择符合能力数量的玩家，展示数字手势以告知其其中较少阵营的人数。",
+    "otherNight": 18,
+    "reminders": [
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/2680e0891b4f90562ce0386f08ddfb6a4e69b698d702ca0865c1ce87d92a00bb.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "sirenanbao_haiwu",
+    "name": "私人安保□",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家，如果当晚恶魔选择了你们之一，改为从你们之中做出对善良阵营更有利的选择。如果你选择了恶魔，你醉酒。",
+    "firstNight": 0,
+    "otherNightReminder": "让私人安保选择一名玩家，如果恶魔选择了私人安保或被他选择的玩家，视为恶魔选择他们其中被恶魔选择后对善良阵营影响较小的玩家。",
+    "otherNight": 3,
+    "reminders": [
+      "保护"
+    ],
+    "image": [
+      "/scripts/assets/community/350550b51d3807f1aaa1ae2b94428d9e08c141443be8bd73b889b67f6390f4d1.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "mishu_haiwu",
+    "name": "秘书□",
+    "team": "townsfolk",
+    "ability": "始终会有一名存活善良玩家得知你，如果恶魔杀死了他，你死亡。",
+    "firstNightReminder": "唤醒一名善良玩家，告知其秘书是谁。",
+    "firstNight": 3011,
+    "otherNightReminder": "如果雇主已经死亡，则需要唤醒一名善良玩家，告知其秘书是谁。如果恶魔杀死了雇主，秘书死亡。",
+    "otherNight": 11,
+    "reminders": [
+      "雇主",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/a10bc474f8f380238217420447cffdf1e9d3186b90f454518eea237ad5328b29.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "pisapeisongyuan_haiwu",
+    "name": "△披萨配送员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家。每局游戏限一次，你可以改为令所有你选择过的善良玩家得知你在场。",
+    "firstNight": 3013,
+    "firstNightReminder": "让披萨配送员选择一名玩家，如果那名玩家是善良的，在他的角色标记旁边放置“外卖”标记。",
+    "otherNight": 19,
+    "otherNightReminder": "让披萨配送员选择一名玩家，如果那名玩家是善良的，在他的角色标记旁边放置“外卖”标记，或者依次唤醒所有有“披萨”标记的玩家，告知他们披萨配送员在场。",
+    "reminders": [
+      "外卖",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/5f6be7566129d6e885c1456389df18eaed0fbef709f9f048c52c754c0cf34541.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "fenshiren_haiwu",
+    "name": "焚尸人□",
+    "team": "townsfolk",
+    "ability": "游戏的最后一晚，一名善良玩家得知一名存活的非恶魔玩家，即使你已死亡。",
+    "firstNight": 0,
+    "otherNightReminder": "如果游戏必定在下个白天结束，唤醒一名善良玩家，告知其被焚尸人影响并指向一名存活的非恶魔玩家。",
+    "otherNight": 13,
+    "image": [
+      "/scripts/assets/community/02ca17802ca75098a8d59a361ee1bac909aec7a297b99f25f9de252b80911085.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shetuanlingxiu_haiwu",
+    "name": "社团领袖□",
+    "team": "townsfolk",
+    "ability": "你首次对邪恶玩家激烈交锋的当晚邪恶玩家无法杀死其他镇民。",
+    "firstNight": 0,
+    "otherNightReminder": "如果社团领袖首次对邪恶玩家激烈交锋，将“不会死亡”标记放在魔典中，当晚所有其他镇民不会因邪恶玩家的能力死亡。",
+    "otherNight": 4,
+    "reminders": [
+      "无法死亡",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/4c75de2df64ea588b874c29bb0082142f6698c809fb9607149995001b277d760.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shourongsuozhang_haiwu",
+    "name": "△收容所长",
+    "team": "townsfolk",
+    "ability": "外来者的能力会尽可能改为影响你。[+1外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/1530af98859c8c308a4a6faf3a02911244053c1a05293fe51fd9c5d2fc993b19.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "songgun_haiwu",
+    "name": "讼棍",
+    "team": "outsider",
+    "ability": "邪恶玩家死亡时会有一名镇民醉酒至下个黄昏，即使你已死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "醉酒"
+    ],
+    "image": [
+      "/scripts/assets/community/04c817ea4e83a5f0df4d268a794704d1d2953f4772e1348be0d5c3dfa243cc50.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "siqiangfan_haiwu",
+    "name": "私枪贩",
+    "team": "outsider",
+    "ability": "一名镇民玩家担当私枪贩。如果你对一名玩家激烈交锋且他当晚存活，他会担当私枪贩，否则当晚可能会有一名和你产生交流的玩家死亡。[+1镇民]",
+    "firstNightReminder": "将“私枪贩”标记放在一名镇民玩家的角色标记旁，唤醒他告诉他担当私枪贩。",
+    "firstNight": 3006,
+    "otherNightReminder": "将“私枪贩”标记放在一名镇民玩家的角色标记旁，唤醒他告诉他担当私枪贩。",
+    "otherNight": 12,
+    "remindersGlobal": [
+      "私枪贩",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/5224477bfab8ba1de1b007c3aaeef9e341412648400a07991808a761768b68ef.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "dixiayishi_haiwu",
+    "name": "地下医师",
+    "team": "outsider",
+    "ability": "如果你死亡，邪恶阵营获胜条件增加一名存活玩家，死于处决时额外增加一名。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "额外手术"
+    ],
+    "image": [
+      "/scripts/assets/community/6d7be413cac36e0496a8c56f13118101fc8003e3ca5ca616362fab27f3963158.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "meitiren_haiwu",
+    "name": "媒体人",
+    "team": "outsider",
+    "ability": "如果你被镇民玩家激烈交锋，当晚你会死亡且此后镇民玩家可能会得知虚假信息。",
+    "firstNight": 0,
+    "otherNightReminder": "如果媒体人被镇民玩家激烈交锋，令媒体人死亡，且在之后可以随时让善良玩家获得虚假信息。",
+    "otherNight": 10,
+    "reminders": [
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/14782810396460e25f78844e34ad7a4cd212a9069437a07aca9e642c993998a7.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "huashiren_haiwu",
+    "name": "话事人",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你要选择三名玩家，他们分别得知一名被选择的其他玩家且其中存活最久的玩家只能与邪恶阵营一同获胜，即使你已死亡。",
+    "firstNightReminder": "让话事人选择三名玩家，依次唤醒他们并告诉他们被话事人选中和一位被选择的其他玩家。",
+    "firstNight": 3003,
+    "otherNight": 0,
+    "reminders": [
+      "通知",
+      "勒索"
+    ],
+    "image": [
+      "/scripts/assets/community/ad17c6fb17c6c69d63eb70cfe838c339be2de6e11f1f6d4d3421211ba63b807d.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "buandingfenzi_haiwu",
+    "name": "不安定分子",
+    "team": "minion",
+    "ability": "你得知因你而加入游戏的角色且该玩家中毒。每局游戏限一次，在夜晚时*，你可以令他死亡。[+1或-1外来者]",
+    "firstNightReminder": "展示因不安定分子能力加入游戏的外来者或镇民角色标记。",
+    "firstNight": 3004,
+    "otherNightReminder": "如果不安定分子没有发动过能力，他可以杀死他得知的玩家。",
+    "otherNight": 9,
+    "reminders": [
+      "中毒",
+      "死亡",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/9568add32c83f977c6a03361adff4390aecfcd05902f51ee109932558c1fcf76.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "baishoutao_haiwu",
+    "name": "白手套",
+    "team": "minion",
+    "ability": "你和恶魔被镇民的能力当做对方的角色，在夜晚时你可以令自己失去能力。",
+    "firstNightReminder": "白手套可以让自己失去能力。",
+    "firstNight": 3001,
+    "otherNightReminder": "白手套可以让自己失去能力。",
+    "otherNight": 1,
+    "reminders": [
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/60dabde210b511691fbcaa60226b6a0a7e6a55c4cd5f3fe874f59af30b40a330.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "dushichuanshuo_haiwu",
+    "name": "都市传说",
+    "team": "minion",
+    "ability": "你和一名善良玩家得知一件尚未发生的事，如果你们之一死亡，恶魔可以让这件事成真。",
+    "firstNightReminder": "依次唤醒都市传说和一名善良玩家告诉他们一件未发生的事。",
+    "firstNight": 3002,
+    "otherNightReminder": "如果当天都市传说或得知都市传说的玩家死亡，唤醒恶魔告知都市传说的内容并决定是否执行。",
+    "otherNight": 2,
+    "reminders": [
+      "传闻"
+    ],
+    "image": [
+      "/scripts/assets/community/fd6d4e4351b510d53a3d613bd9d5f9b0f281ef50df79fc3bdd168e3056a573af.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhongzuicaiyiting_haiwu",
+    "name": "重罪裁议庭",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果一个镇民位于剧本列表上存活镇民较少的一侧：他的能力产生错误信息。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒重罪裁议庭，让他攻击一名玩家。",
+    "otherNight": 5,
+    "reminders": [
+      "错误",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/389bf034897c71e99edfe7192dbeb1444c0d656f81304af4e1d81df134837900.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "youlingdang_haiwu",
+    "name": "幽灵党",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡，即使你已经死亡。如果场上存活人数大于四人时你死于处决，你当晚选择的玩家醉酒且“是邪恶的恶魔”，另一名邪恶玩家代替他死亡。",
+    "firstNight": 0,
+    "otherNightReminder": "让幽灵党（即使他已经死亡）选择一名玩家，标记那名玩家死亡。如果今天白天幽灵党死于处决，则用“是恶魔”标记他今晚选择的玩家，同时在晚上由说书人决定杀死另一名邪恶玩家代替之。",
+    "otherNight": 6,
+    "reminders": [
+      "是恶魔",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/9e4c2f03f5a4a488a8ed1cde05030cca44810dda6feb73a70003286efba22565.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jinghaiguangbo_haiwu",
+    "name": "惊骇广播",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。每局游戏限一次，一名镇民得知一条虚假信息，如果他被处决，当晚所有镇民中毒。",
+    "firstNightReminder": "如果惊骇广播尚未使镇民得信息，可以让一名镇民得知一条不该存在的信息。",
+    "firstNight": 3005,
+    "otherNightReminder": "让惊骇广播杀死一名玩家，如果当天因惊骇广播得知信息的镇民被处决，则将“全员中毒”标记放置在魔典中央。如果惊骇广播尚未使镇民得信息，可以让一名镇民得知一条不该存在的信息。",
+    "otherNight": 7,
+    "reminders": [
+      "限一次",
+      "死亡",
+      "全员中毒"
+    ],
+    "image": [
+      "/scripts/assets/community/837c91e3858ca9ccf470e634c2d1afcdf7bbe7ead2039767205b3669b050b695.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "sishen_haiwu",
+    "name": "“死神”",
+    "team": "demon",
+    "ability": "在你的首个夜晚，你要选择一个角色，一名镇民玩家会被当成邪恶阵营和该角色。每个夜晚*，你要选择一个角色，任意名该角色玩家死亡。",
+    "firstNightReminder": "唤醒“死神”，让他选择角色列表上的一个角色。一名镇民玩家会被当成邪恶阵营和该角色。",
+    "firstNight": 3002.1,
+    "otherNightReminder": "唤醒“死神”，让他选择角色列表上的一个角色。任意名该角色对应的玩家死亡",
+    "otherNight": 8,
+    "reminders": [
+      "百变",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/8bd8fa45f5c460da48b642b9339395381a6fc301bf8b958f57403cff413e765e.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "sihuoshangren_tpi",
+    "name": "激烈交锋",
+    "team": "fabled",
+    "ability": "指一名玩家在白天高度专注地对另一名玩家进行单一交流的行为。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  }
+]

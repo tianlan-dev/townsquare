@@ -1,0 +1,393 @@
+[
+  {
+    "id": "_meta",
+    "name": "精选细挑",
+    "author": "蓝",
+    "logo": "/scripts/assets/community/b0dec901d01c74b8c41b01aa455fc1d4f503ada3675c6fa3265b45ba3137b6cd.png",
+    "almanac": "https://www.bloodstar.xyz/p/bluebell/jtxx/almanac.html",
+    "tags": [
+      "BWG·剧本大乱斗"
+    ],
+    "version": ""
+  },
+  {
+    "id": "1_jtxx",
+    "image": "/scripts/assets/community/3f4bccbac94375c88c91ad2d0d0c665180eda7fd83b27a4152f5071fe2607430.png",
+    "reminders": [
+      "未正常生效",
+      "做题"
+    ],
+    "remindersGlobal": [
+      "未正常生效",
+      "做题"
+    ],
+    "name": "小镇做题家",
+    "team": "fabled",
+    "ability": "每个白天，所有玩家表决一名玩家（与之前不同），他可以拜访你以得知昨天夜晚有多少名玩家的能力因其他玩家的能力未正常生效（结果论）。",
+    "edition": "custom"
+  },
+  {
+    "id": "2_jtxx",
+    "image": "/scripts/assets/community/e2c85014304a6baba1eb7c10073385e7063fdb5f4da2941289e7fa4a018ec365.png",
+    "reminders": [
+      "偏题",
+      "离题"
+    ],
+    "remindersGlobal": [
+      "偏题",
+      "离题"
+    ],
+    "name": "小题大做",
+    "team": "fabled",
+    "ability": "本局游戏中有小镇做题家，每个白天必须有玩家通过小镇做题家拜访说书人（此过程称为获取小镇做题家）。 如果邪恶的或已死亡的玩家获取小镇做题家累计超过两次，邪恶阵营在当晚获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "3_jtxx",
+    "image": "/scripts/assets/community/0d211a68834e5f5883b15e4cb4dba33a5a583cd7a47b3e8bd76093c20a042855.png",
+    "firstNightReminder": "1",
+    "name": "司簿",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择一名玩家：你会得知该玩家以及与他邻近的玩家之中有几种角色类型。",
+    "firstNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "_jtxx",
+    "image": "/scripts/assets/community/1a5bae8f66c7f59db1e15e73b92f4c9efe840a7718eed40524b660b88d686d90.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "点指兵兵",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择任意名玩家：你下一晚只能选择数量刚好等同于他们中与邪恶玩家邻座的数量的玩家。",
+    "firstNight": 24,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "4_jtxx",
+    "image": "/scripts/assets/community/6f18578bfa38bd4bfa771e0c9d77d04a30fae00fe62acec0d6db27608c7ba34b.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "档案管理员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一名角色类型与他相同的玩家（或得知无）。 会有一名善良玩家被你的能力当作恶魔（干扰项）。",
+    "firstNight": 20,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "5_jtxx",
+    "image": "/scripts/assets/community/a114327475cdd27f7ca197f0d4e307a6887254dd9d86a1151cc4683d7f347b3e.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "天机",
+      "天机"
+    ],
+    "name": "天机阁",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名除你以外的邻座玩家：你会得知相较于上一个夜晚，你是否选择了更多的邪恶玩家。",
+    "firstNight": 21,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "6_jtxx",
+    "image": "/scripts/assets/community/d619a33a1c5a170abb131f3d7752f1d5a5e3c34efbfcf23c034fcd32fedd812b.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "成佛"
+    ],
+    "name": "铸佛师",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：任何在今晚使用自身能力选择他的其他玩家，会改为选中你作为替代。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "7_jtxx",
+    "image": "/scripts/assets/community/2b2e83a8f8a612e4d660223198facbb5f68dda64adcc3650aebea0d4eb737225.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "筑梦师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 19,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "8_jtxx",
+    "image": "/scripts/assets/community/f2f511b043ba86f699d30078e5cdc4cc5d7be418a222e0b582500668a0c3a56d.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "宿敌"
+    ],
+    "name": "占卜师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。 会有一名善良玩家始终被你的能力当作恶魔。",
+    "firstNight": 18,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "9_jtxx",
+    "image": "/scripts/assets/community/db281e58164b0319207430544acaeda92510dd006d2017b885a90561ec7aa9f2.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "骁勇者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择至多3名玩家和至多3个爪牙角色：你会得知他们邻近的玩家中是否有这些角色。",
+    "firstNight": 23,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "10_jtxx",
+    "image": "/scripts/assets/community/dccbf17b406d00dafc373369c7be30f65f7356c2d94f9303263e90834425a33d.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "痴愚",
+      "痴愚"
+    ],
+    "name": "谛听",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择其他两名非旅行者玩家：你会得知他们角色名的字数之和相较于上一晚更少/相同/更多。",
+    "firstNight": 22,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "11_jtxx",
+    "image": "/scripts/assets/community/ecebf8fe38ef780f69bb0b04f9ca3def539db2ea99177b0012ad25c12bc920ec.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "引路人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "firstNight": 27,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "12_jtxx",
+    "image": "/scripts/assets/community/06b42f8496847a6b7c721caba785dd1028afb0a2ff6b2ddf1cf3a96ee570ee73.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "怪物专家",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择一个邪恶角色写入图鉴。 每个夜晚*，你要选择任意名玩家：如果他们中没有图鉴上的角色，你要选择新的邪恶角色写入图鉴。",
+    "firstNight": 25,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "13_jtxx",
+    "image": "/scripts/assets/community/a50c50582b3048817b55984faebca11cc1f6505f0da8e2c37db3ec144e4dd394.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "雪花",
+      "醉酒"
+    ],
+    "name": "大雪怪",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一名玩家：他可能会醉酒直到下个黄昏，你会得知你选中过的玩家中镇民的数量是否大于非镇民的数量。",
+    "firstNight": 16,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "14_jtxx",
+    "image": "/scripts/assets/community/91c198a582b3c0ad373e06293d34a25fef330b51241c2d09a23522ff59bf2f66.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "船长",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的一名玩家：你得知他通过自身能力选择过的目标中有哪些角色类型。",
+    "firstNight": 26,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "15_jtxx",
+    "image": "/scripts/assets/community/f08fb802c062ed011227c2a9c24ad3ac7c7a0edf70e2f332e707179160ebf97c.png",
+    "name": "陌客",
+    "team": "outsider",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_jtxx",
+    "image": "/scripts/assets/community/93007b18f60c50009e5eed32e14f58eb6dcdb4f6fdd7bc2d73838281c1a9be84.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "邪恶",
+      "不共戴天"
+    ],
+    "name": "逆臣",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你会在当晚转变为邪恶；如果你先死于处决，他会在当晚转变为邪恶。",
+    "firstNight": 14,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "17_jtxx",
+    "image": "/scripts/assets/community/656b8eea0fa3552db94eec6e8a6be16e3592f08481fc6316b0d9280354bbb669.png",
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "name": "解谜大师",
+    "team": "outsider",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "18_jtxx",
+    "image": "/scripts/assets/community/6f7b40bbc11f50616227907334e25c0f5a9355dfba0bfaf7bf5dc19dc7d575f9.png",
+    "name": "暴民",
+    "team": "outsider",
+    "ability": "与你邻近的存活的玩家使用其自身能力选择玩家时，可能会改为选择你成为其中一个目标。",
+    "edition": "custom"
+  },
+  {
+    "id": "19_jtxx",
+    "image": "/scripts/assets/community/68d18ca78cb1589dcb77e7d6340230090531fb0e043a7fc3b370a30b8337287c.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "无题",
+    "team": "minion",
+    "ability": "获取过小镇做题家的玩家可能会被善良玩家当作邪恶的无题。 每局游戏限一次，在夜晚时，你可以选择查看魔典，然后决定小镇做题家的下一次信息。",
+    "firstNight": 28,
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "20_jtxx",
+    "image": "/scripts/assets/community/677244d516d02025303c95e49f3f8fde6831fd7c4c6b516582d86fe001931746.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": true,
+    "name": "限",
+    "team": "minion",
+    "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
+    "firstNight": 15,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "21_jtxx",
+    "image": "/scripts/assets/community/231b70ea5a18f22b6792586c541317dbfc1205f60c38f0930fe14b00466d4804.png",
+    "firstNightReminder": "1",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "毒舞者",
+    "team": "minion",
+    "ability": "会有一名存活的玩家中毒。你会得知他的角色。 如果该玩家被镇民选择，改为那个镇民中毒。",
+    "firstNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "22_jtxx",
+    "image": "/scripts/assets/community/4e0cd034710d80ae0850495677d596f5968f1b44ff915bd30f026989678de28b.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力",
+      "化尸",
+      "获得能力"
+    ],
+    "name": "化尸道人",
+    "team": "minion",
+    "ability": "你知道所有死亡玩家的角色。 每局游戏限一次，在夜晚时*，你可以选择一名玩家和一个死亡的非恶魔角色：他获得该角色的能力。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "23_jtxx",
+    "image": "/scripts/assets/community/64493c7ff8e6fb90a06f0b6fc5ec2cc7fa758d438996999d33a62467ca51a1f7.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "指指点点",
+      "死亡"
+    ],
+    "name": "指点江山",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家：他在下个夜晚死亡。每名善良玩家首次使用自身能力选择邪恶玩家时会改为选中你上一个选择的玩家。",
+    "firstNight": 11,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "24_jtxx",
+    "image": "/scripts/assets/community/d9496e843393024d20be6e1b4e2fa23d3cdc725c11625b21b174d6c83c831aed.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "空间大盗",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 所有镇民能力在夜晚选择的目标改为该玩家顺时针方向上的下一名玩家。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "25_jtxx",
+    "image": "/scripts/assets/community/33b215ca55eb4e8d3928766192f073c9a883a29b131d8cb6bf63f1aaf13d53f8.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "食梦貘",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 使用自身能力选择你的玩家，可能会改为选中他自己。[-1外来者]",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "26_jtxx",
+    "image": "/scripts/assets/community/6f9f7517fcbdebb91199f6f049b6af4bfb3dcc563c26213f5d7d0025b2b6df87.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "中毒",
+      "死亡",
+      "死于今日"
+    ],
+    "setup": true,
+    "name": "天龙教",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 在你的首个夜晚，你会得知所有的外来者玩家，然后选择其中一名玩家：他顺时针方向上最近的镇民中毒。 当他死于处决时，你重获能力。[至少有两个外来者在场]",
+    "firstNight": 12,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "27_jtxx",
+    "image": "/scripts/assets/community/88fd21320a762c2dde6b9eb7d5bcebdd4f7a94e8cc21bd24e165a2c8bdd0a9cb.png",
+    "name": "化尸道人&陌客",
+    "team": "jinxes",
+    "ability": "陌客可以被化尸道人当作其他角色。但只有化尸道人在使用他的能力时因此受到干扰的当晚，才会被小镇做题家检测。",
+    "edition": "custom"
+  }
+]

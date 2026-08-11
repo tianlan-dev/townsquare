@@ -1,0 +1,444 @@
+[
+  {
+    "id": "_meta",
+    "name": "以儆效尤",
+    "author": "幽露萨幕",
+    "townsfolkName": "镇民",
+    "outsidersName": "外来者",
+    "minionsName": "爪牙",
+    "demonsName": "恶魔",
+    "townsfolk": "镇民",
+    "outsider": "外来者",
+    "minion": "爪牙",
+    "demon": "恶魔",
+    "a jinxedName": "相克",
+    "a jinxed": "相克",
+    "logo": "/scripts/assets/community/99c8cb0db3b2c33e05d4741df280dfdc15a89d48175b9a80fd7a6be0017f0588.png",
+    "almanac": "https://www.bloodstar.xyz/p/ZhaoMarsh/A_Bad_Example/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "国内"
+    ],
+    "version": ""
+  },
+  {
+    "id": "2_a_bad_example",
+    "image": "/scripts/assets/community/2d18ce01b02a9976f4d2100857f4db4f7cd388816a7f5f33334bacf5bfcc1282.png",
+    "firstNightReminder": "给邪恶方初始的信息包括邪恶玩家和千王。",
+    "otherNightReminder": "",
+    "name": "千王",
+    "team": "townsfolk",
+    "ability": "恶魔与爪牙互相不认识。在首个夜晚，邪恶角色会得知若干名玩家：他们分别是其他的邪恶玩家和你。如果你死亡，邪恶玩家会在当晚得知谁是恶魔。",
+    "flavor": "你是个大人物，不会赖账吧。",
+    "firstNight": 12,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "25_a_bad_example",
+    "image": "/scripts/assets/community/8c34eecfb9bcf02a1626bb18ffdbbc5996d837d75bf85aebd200e846e5324c05.png",
+    "firstNightReminder": "展示2个不在场的邪恶角色标记。",
+    "reminders": [
+      "在场1",
+      "在场2"
+    ],
+    "name": "服务员",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名不在场的邪恶角色。",
+    "flavor": "欢迎~光~临~",
+    "firstNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "17_a_bad_example",
+    "image": "/scripts/assets/community/e3a4057c3ad4aed46616bf6dddcfe0076e4bba55ad8f5c5fb94c2c5960efc129.png",
+    "reminders": [
+      "第一夜",
+      "第二夜"
+    ],
+    "name": "副露怪",
+    "team": "townsfolk",
+    "ability": "如果你死于处决后的两个夜晚内。恶魔没有使用自身能力选择你，你的阵营在能够获胜的黎明时获胜。即使你已死亡。",
+    "flavor": "诶？我怎么碰了九万？",
+    "edition": "custom"
+  },
+  {
+    "id": "13_a_bad_example",
+    "image": "/scripts/assets/community/bfd1db7a41cb45ff78168fe6f88d86b224e532ec6398b27fac5248b316ed633f.png",
+    "firstNightReminder": "唤醒主播，为他指向一名除旅行者外的玩家。",
+    "otherNightReminder": "如果主播的目标玩家被处决，告知主播获得了什么能力并让他发动。",
+    "reminders": [
+      "目标",
+      "无人知晓",
+      "部分知晓",
+      "完全疯狂"
+    ],
+    "name": "主播",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名除旅行者外的玩家：如果他死于处决，你获得一个能力并得知能力是什么。你越为“疯狂”地证明你是主播，这个能力越弱。",
+    "flavor": "谢谢榜一大哥的礼物捏~",
+    "firstNight": 15,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "27_a_bad_example",
+    "image": "/scripts/assets/community/ded4679ada9238ec0a8bb192c198d178f7a6900d3e2d5ab2dbfd1e8fefbb6541.png",
+    "firstNightReminder": "让赛事解说选择一名玩家，告知该玩家和与该玩家阵营对立的某个玩家之间的距离。",
+    "otherNightReminder": "让赛事解说选择一名玩家，告知该玩家和与该玩家阵营对立的某个玩家之间的距离。",
+    "name": "赛事解说",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名除你以外的玩家：你会得知他和一名与他对立阵营的玩家之间最近的距离。",
+    "flavor": "好的朋友们，现在局面来到了对家立直，庄家默听的关键时刻，选手的神仙避铳能不能再次上演？",
+    "firstNight": 17,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "15_a_bad_example",
+    "image": "/scripts/assets/community/86a0182580cfe98224652d494703c5fbb999726c4fc9bb02c5c52abf00811e41.png",
+    "otherNightReminder": "如果酒店安保白天提名，告诉他提名的玩家是否为镇民。",
+    "reminders": [
+      "提名镇民",
+      "提名非镇民"
+    ],
+    "name": "酒店安保",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你得知你提名的玩家是否为镇民。",
+    "flavor": "我在这儿干了很多年了，选手水平真的是一届不如一届。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "34_a_bad_example",
+    "image": "/scripts/assets/community/c2539a26b938d84a949e3ad0fffd9fa7a66f4921ec3598d84c2ceb9a03e04808.png",
+    "otherNightReminder": "如果有玩家今天未提名，出示一个不重复的未提名玩家的角色标记。",
+    "reminders": [
+      "已默听"
+    ],
+    "name": "默听侠",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知一个除你之外今天白天未发起提名及流放玩家的角色（与之前不同）。",
+    "flavor": "七对子立直？你们到底会不会玩？",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "36_a_bad_example",
+    "image": "/scripts/assets/community/5a5a505375206f6b829faf8db4ffc75efa1c78319ff684a77b3d3b5f67ddd2dc.png",
+    "otherNightReminder": "如果一名玩家死于处决：出示该玩家的角色标记。",
+    "name": "机修工",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天白天首个死于处决的玩家的角色。",
+    "flavor": "等下，桌背面备的螺母是几个的来着？",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "39_a_bad_example",
+    "image": "/scripts/assets/community/4e4a112bfac7a7a9bfd2317ddd013e34975f0628c846c642e4ead2a48e071ae9.png",
+    "otherNightReminder": "告诉业余黑客今天白天投票的玩家有几名是邪恶的。",
+    "reminders": [
+      "邪恶投票"
+    ],
+    "name": "业余黑客",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你得知今天白天在提名和流放时举手的玩家有几个现在是邪恶的。",
+    "flavor": "等一下，我先在后台装个\"小程序\"，这样立直率就能上去了。",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "16_a_bad_example",
+    "image": "/scripts/assets/community/c2e7b8ad139df7b0006156e79fbb7a40ae8e8914e836a29e029bb06944df5917.png",
+    "otherNightReminder": "告诉游戏策划当天除他以外白天提名处决及流放的玩家有几种角色类型。",
+    "name": "游戏策划",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，得知除你以外今天发起提名及流放的玩家有多少种角色类型。",
+    "flavor": "不知道主策为什么还要搞一个麻将游戏，线下他不香嘛？",
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "40_a_bad_example",
+    "image": "/scripts/assets/community/35ee0620280f3ff5d021fc723a850aa818ccb6f8b607c41e29ee21d2231407a9.png",
+    "otherNightReminder": "如果氪金大佬首次被不属于同一阵营的玩家提名且未被处决，改变恶魔的选择目标。",
+    "reminders": [
+      "失去能力",
+      "必须被恶魔杀害"
+    ],
+    "name": "氪金大佬",
+    "team": "townsfolk",
+    "ability": "当你首次被提名时，如果提名你的玩家与你不属于同一阵营且你没有被处决，则恶魔当晚的选择会改为你。",
+    "flavor": "没有什么是一个六四八不能解决的，如果有，那就氪两个。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "43_a_bad_example",
+    "image": "/scripts/assets/community/5f51343c4b81742b54ea6f21245304d8867dcb6b2411fc7468661dba4023e51c.png",
+    "otherNightReminder": "如果恶魔杀死了宝牌战士，唤醒宝牌战士，告诉他一个爪牙玩家和他的角色。",
+    "name": "宝牌战士",
+    "team": "townsfolk",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知一名爪牙玩家及他的角色。",
+    "flavor": "立直，宝牌5，里宝牌3。倍满！",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "46_a_bad_example",
+    "image": "/scripts/assets/community/d4a5e1711582198060f6b44c99c36c318214289035504c2f79613bab5593c971.png",
+    "otherNightReminder": "如果二择圣手提名了非自己的玩家，告知二择圣手该玩家和该玩家下一个角色类型的某个玩家之间的距离。",
+    "name": "二择圣手",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知被你提名的除你以外的玩家和他下一个角色类型（不含旅行者）对应的的某个玩家之间最近的距离。（没有该类型则顺延检测下一个类型的玩家）",
+    "flavor": "我二择从未失败哦~",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "3_a_bad_example",
+    "image": "/scripts/assets/community/b5bf6d499854f828e8601c5a263854d099cdd4af0fa98c0e3a873b5f904c2add.png",
+    "otherNightReminder": "如果振听被善良玩家得知或疯狂，向恶魔展示振听雀士两个邻近的镇民角色。",
+    "reminders": [
+      "被得知"
+    ],
+    "name": "振听雀士",
+    "team": "outsider",
+    "ability": "如果你“疯狂”地证明你是外来者，或其他善良玩家得知你是振听雀士，恶魔会得知与你邻近的两个镇民的角色，即使你已死亡。 ",
+    "flavor": "振立！！",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "48_a_bad_example",
+    "image": "/scripts/assets/community/99bb856f386e1a8af84c3b13148c282fc5892fe18778be69a243d06d61e186e0.png",
+    "otherNightReminder": "如果死于夜晚，一名玩家醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "避铳凤凰",
+    "team": "outsider",
+    "ability": "使用自身能力选择你和提名你的镇民会醉酒直到下个黎明。当你死亡时，会有一名玩家开始醉酒。",
+    "flavor": "既然没有安张了，那就决定是……！",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "42_a_bad_example",
+    "image": "/scripts/assets/community/67f9e761e724a65cc715b55fd64e50a759c1333975a1296aa0c105fb115d347d.png",
+    "name": "上届冠军",
+    "team": "outsider",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "flavor": "我不谋求二连冠。",
+    "edition": "custom"
+  },
+  {
+    "id": "23_a_bad_example",
+    "image": "/scripts/assets/community/3ad66b900f850168183eb4332b0fc2d80416e15d8df81ec6f94dbb5a1e918c7d.png",
+    "name": "社恐雀圣",
+    "team": "outsider",
+    "ability": "你死亡以后下一天被处决的玩家如果和你同阵营，那该阵营落败。即使你已死亡。",
+    "flavor": "不……不不……不……不，我……我我不是……这个意思……",
+    "edition": "custom"
+  },
+  {
+    "id": "9_a_bad_example",
+    "image": "/scripts/assets/community/0f798805710af20db79e09b3f2eb81fa2b137880504707c760769c206396b621.png",
+    "firstNightReminder": "向食尸鬼展示两个镇民角色，其中一个在游戏中，另一个不在。唤醒在的那个镇民展示“这个角色选择了你”和食尸鬼标记。",
+    "reminders": [
+      "目标"
+    ],
+    "name": "食尸鬼",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知两个镇民角色，其中有且只有一个在场，那个镇民知道你在场。每局游戏限一次，你可以在黄昏时公开猜测该镇民是谁。如果猜对，该镇民的阵营落败。",
+    "flavor": "如果你是龙，也好……吃。",
+    "firstNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "11_a_bad_example",
+    "image": "/scripts/assets/community/3e947638ed760d4cf02f69f7aabe9fb7f378b78a141f8be8cc6493191da49708.png",
+    "otherNightReminder": "游魂可以指向一名提名或被提名的玩家，该玩家中毒。",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "游魂",
+    "team": "minion",
+    "ability": "每个夜晚*，你可以选择一名今天发起提名或流放、被提名的玩家：他中毒直到黄昏。",
+    "flavor": "我这侥幸活命的巡礼者，居然能看见那般神秘的火焰，若不是成为您的随从，这件事根本不可能实现。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "29_a_bad_example",
+    "image": "/scripts/assets/community/f0d04a2340b942c03db0f7e0c1b20ab0684917a12c6480411264edd5c892d2c3.png",
+    "otherNightReminder": "如果深渊巨口死于处决，向他展示魔典。",
+    "name": "深渊巨口",
+    "team": "minion",
+    "ability": "如果你死于处决，你可以在黎明前查看魔典，且在黄昏时你可以选择成为夜晚的说书人，之后你可以任意地投票且对你的提名无效。",
+    "flavor": "这个说书人还蛮好吃的，鸡肉味儿，嘎嘣脆~",
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "47_a_bad_example",
+    "image": "/scripts/assets/community/e5c75e95da95a0a540b1c3346291567a4d86f2b82822988342053397678f6418.png",
+    "firstNightReminder": "告诉该玩家他是噩兆双子和他的镇民身份，告诉另外一个镇民他是噩兆双子。",
+    "remindersGlobal": [
+      "噩兆",
+      "双胞胎",
+      "已错认"
+    ],
+    "setup": true,
+    "name": "噩兆双子",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你和其他除旅行者外的邪恶玩家会得知一个不在场的镇民角色，你拥有该角色能力。你与其他邪恶玩家互相不认识。会有一名镇民认为他是噩兆双子，且每局游戏可能被当做邪恶的噩兆双子一次。",
+    "flavor": "一群不知服从的叛徒，你们都是一丘之貉。",
+    "firstNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "50_a_bad_example",
+    "image": "/scripts/assets/community/e583369d6fe6cfebfc644f495253769529180f43d5ea655600ef12096a9fdc72.png",
+    "otherNightReminder": "梦之土蜘蛛选择一名玩家，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "梦之土蜘蛛",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。 当你首次死亡后，你仍存活，但会被当作死亡。",
+    "flavor": "我……将毁灭一切。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "7_a_bad_example",
+    "image": "/scripts/assets/community/a1c605c7cbc8fce87bad8203b7a170e63a60d07d9dc3d4e410b7abf90b67eee4.png",
+    "firstNightReminder": "唤醒一个爪牙，展示一个不在场的爪牙标记。",
+    "otherNightReminder": "海德拉选择一名玩家，他死亡。",
+    "reminders": [
+      "死亡",
+      "额外能力"
+    ],
+    "name": "海德拉",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。游戏开始时，一个爪牙拥有一个不在场的爪牙能力且可能被当做该爪牙，直到他死亡。",
+    "flavor": "天上又现出异象来。有一条大红龙，七头十角，七头上戴着七个冠冕……",
+    "firstNight": 13,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "6_a_bad_example",
+    "image": "/scripts/assets/community/c659fd0b970f477838fdf54a997a32f990e82bc2a6c6df7c98f1582bc3e9b60a.png",
+    "otherNightReminder": "黑山羊幼仔选择一名玩家，他死亡。如果今天有非镇民玩家提名黑山羊幼仔，更新标记。",
+    "reminders": [
+      "死亡",
+      "非镇民提名第一次",
+      "非镇民提名第二次"
+    ],
+    "setup": true,
+    "name": "黑山羊幼仔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。当第二次有非镇民玩家提名你时，你的阵营在黄昏时胜利。[+1或2外来者]",
+    "flavor": "路上有一个黑色的东西。不是树，是一个又大又黑的东西，就那么蹲坐在那儿，好像在等待什么，绳子似的胳膊蠕动着，伸展着……它是我梦见的那个黑色的东西——那个在树林里出现的，黑色的、有好多绳子的、粘粘乎乎的、像树似的东西。它爬了上来，用它的蹄子和嘴和像蛇似的胳膊，在地上蠕动着爬了上来。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "8_a_bad_example",
+    "image": "/scripts/assets/community/6af0b2ee8460954ab3ef9f23dcd2bbc904d79aa92d1180017acdb19710168bff.png",
+    "otherNightReminder": "如果转化发动，绝望梦魇选择一名投票的存活玩家，如果该玩家是善良的镇民，告知该玩家成为邪恶的绝望梦魇，然后他选择一名玩家。绝望梦魇选择一名玩家，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "name": "绝望梦魇",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡。每局游戏限一次：如果你死于处决后大于三名玩家存活（不含旅行者），你要选择一名在本次处决中投票的存活玩家：如果他是善良镇民则成为邪恶的绝望梦魇。[-1爪牙]",
+    "flavor": "将罹病者的葡萄献给我，我就能引导你走向彼岸灯火。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "_a_bad_example",
+    "image": "/scripts/assets/community/9608170c147eea2503a957329b6e13b5ced27a55451276464ecf061634af2e25.png",
+    "reminders": [
+      "断电"
+    ],
+    "name": "电工",
+    "team": "traveler",
+    "ability": "你主持提名环节，可以自由控制提名发言时长和驳回提名请求。每个白天的提名环节，你可以选择一名玩家，该玩家无法发言、发起提名或流放。",
+    "flavor": "别说话，再说话把你家电断了。",
+    "edition": "custom"
+  },
+  {
+    "id": "21_a_bad_example",
+    "image": "/scripts/assets/community/34aa842444b213698ad0cdbd150717d1716f3eae419450010a6187300c343634.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "法官",
+    "team": "traveler",
+    "ability": "每局游戏限一次，如果其他玩家发起了提名，你可以在投票结束后选择让本次提名直接执行处决或让投票无效。",
+    "flavor": "我认为被告人涉嫌谋杀罪、诈骗罪、放火罪、盗窃罪、招摇撞骗罪、非法行医罪、诽谤罪、弑君罪以及乱丢垃圾罪等罪行。",
+    "edition": "custom"
+  },
+  {
+    "id": "22_a_bad_example",
+    "image": "/scripts/assets/community/4fe53a07ae03a8b96a16c50a1e1d1b2158745175a13f4ceb9159e3aa3f668ff5.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "裁判员",
+    "team": "traveler",
+    "ability": "每局游戏限一次：每天首次处决后，你可以让得票数第二高的玩家（不含并列）也被处决。",
+    "flavor": "我宣誓：服从裁判长指挥，严格遵守裁判员纪律和立直麻将比赛规则，尊重参赛选手，严肃认真，秉公办事，圆满完成各项工作。",
+    "edition": "custom"
+  },
+  {
+    "id": "32_a_bad_example",
+    "image": "/scripts/assets/community/7ecda713988e9951c81675f0225578ea421ac6f84b2a15b55c006d27b42b7aa3.png",
+    "name": "圣母",
+    "team": "traveler",
+    "ability": "当你被流放后，当天白天立即结束。",
+    "flavor": "今天，不会再出现牺牲者了。",
+    "edition": "custom"
+  },
+  {
+    "id": "38_a_bad_example",
+    "image": "/scripts/assets/community/b409f6d08678084766e4a40d24a18148c88fdb64638bd06d45213c781cb78f93.png",
+    "reminders": [
+      "目标"
+    ],
+    "name": "雇佣兵",
+    "team": "traveler",
+    "ability": "你可以在提名开始前公开选择一名存活的非旅行者玩家：在黄昏时，他被处决，同时你死亡。如果对方因此死亡，你得知该玩家的阵营。",
+    "flavor": "没想到在这里也能见血，真是晦气。",
+    "edition": "custom"
+  },
+  {
+    "id": "51_a_bad_example",
+    "image": "/scripts/assets/community/f23d099293088de98d0aef2c134f0725327670ee6a2db52d2614488bec469348.png",
+    "name": "灯神",
+    "team": "fabled",
+    "ability": "V1.64 海德拉对噩兆双子生效时，两名双子均是邪恶双子。",
+    "flavor": "نحن لسنا هنا.\n\nانت لست حقيقي.\n\nكل شيء هو وهم.\n\nأسئلتك هي جبل نار في يوم صافٍ.",
+    "edition": "custom"
+  },
+  {
+    "id": "11111444111111_meta",
+    "image": "/scripts/assets/community/f23d099293088de98d0aef2c134f0725327670ee6a2db52d2614488bec469348.png",
+    "name": "海德拉与噩兆双子",
+    "team": "a jinxed",
+    "remindersGlobal": [
+      "镇民",
+      "外来者",
+      "噩兆"
+    ],
+    "setup": false,
+    "ability": "海德拉对噩兆双子生效时，两名双子均是邪恶双子。",
+    "edition": "custom"
+  }
+]

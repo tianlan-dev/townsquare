@@ -1,0 +1,343 @@
+[
+  {
+    "id": "_meta",
+    "name": "赌命大赛",
+    "logo": "/scripts/assets/community/022fdcaed436246cda73d9965fc7e86c88bd4c2d1420bf9e099d722a271be370.png",
+    "author": "Navean",
+    "description": "赌命大赛",
+    "townsfolkName": "镇民",
+    "outsidersName": "外来者",
+    "minionsName": "爪牙",
+    "demonsName": "恶魔",
+    "townsfolk": "镇民",
+    "outsider": "外来者",
+    "minion": "爪牙",
+    "demon": "恶魔",
+    "a jinxedName": "相克",
+    "a jinxed": "相克",
+    "tags": [
+      "角色主题竞赛剧本"
+    ],
+    "version": ""
+  },
+  {
+    "id": "jingcaisanxuanyi111",
+    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "edition": "custom",
+    "name": "贵族",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 49,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "otherNightReminder": "",
+    "reminders": [
+      "被得知"
+    ],
+    "setup": false
+  },
+  {
+    "id": "qingtianjianbei111",
+    "image": "/scripts/assets/community/f8afac9588346899aac346374d85aa6c6f5ef5170ee89a1cab1253de832fa057.png",
+    "edition": "custom",
+    "name": "修行者",
+    "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 61,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒修行者，对他指向对应方向来告知他最近的邪恶玩家的方向。",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "mofasaozhou111",
+    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "edition": "custom",
+    "name": "侍女",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 64,
+    "otherNight": 100,
+    "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "wocaishiemo1223322323232323",
+    "image": "/scripts/assets/community/2a417d06a5a8540c28d0b74c7d38c7fd09c9bc8527cfd4f139a1de64e11d946b.png",
+    "edition": "custom",
+    "name": "舞蛇人",
+    "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 21,
+    "otherNight": 13,
+    "firstNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
+    "otherNightReminder": "唤醒舞蛇人，让他选择一名存活玩家。如果选中恶魔则执行角色和阵营的交换，并在舞蛇人入睡后通知旧恶魔角色变化。",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": false
+  },
+  {
+    "id": "jiushigebaichi111",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "edition": "custom",
+    "name": "村夫",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 54,
+    "otherNight": 92,
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": true
+  },
+  {
+    "id": "wobuzhidaoxieshale111",
+    "image": "/scripts/assets/community/385516f815b901812cea44ac66874b7c623f970be58e3e12bfb2300bf389730f.png",
+    "edition": "custom",
+    "name": "异教领袖",
+    "ability": "每个夜晚，你会转变为与你邻近的一名存活的玩家的阵营。每个白天，你可以提议所有玩家加入你的教派，如果所有善良玩家同意加入，你的阵营获胜。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 57,
+    "otherNight": 96,
+    "firstNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
+    "otherNightReminder": "如果异教领袖的阵营发生了变化，将他唤醒并通知他最新阵营。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "lingluowawa111",
+    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "edition": "custom",
+    "name": "女裁缝",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 46,
+    "otherNight": 88,
+    "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
+    "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "makesi111",
+    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png",
+    "edition": "custom",
+    "name": "哲学家",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3,
+    "otherNight": 2,
+    "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是哲学家"
+    ],
+    "setup": false
+  },
+  {
+    "id": "haogaodeshan111",
+    "image": "/scripts/assets/community/ad9e5e8195cbdcc6c903fd115aacb04701bffc13e702df6b28480d99381f6bee.png",
+    "edition": "custom",
+    "name": "巡山人",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 34,
+    "otherNight": 77,
+    "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
+    "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": true
+  },
+  {
+    "id": "xitele111",
+    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "edition": "custom",
+    "name": "艺术家",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "biubiubiu111",
+    "image": "/scripts/assets/community/14db956d00a7d36ad136e5c4412fe08d46cac9b916aa483f90f3e214eec2bee6.png",
+    "edition": "custom",
+    "name": "猎手",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "zhongdayande111",
+    "image": "/scripts/assets/community/81b1e08a39e22531e9499dfa9833541118e051185584637ba03c4f1af24f2984.png",
+    "edition": "custom",
+    "name": "罂粟种植者",
+    "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3.4,
+    "otherNight": 4,
+    "firstNightReminder": "如果罂粟种植者在场，跳过今晚的爪牙信息和恶魔信息环节。",
+    "otherNightReminder": "如果罂粟种植者死于白天，插入执行爪牙信息和恶魔信息（不包含恶魔伪装）流程。如果罂粟种植者死于夜晚，则在当前玩家行动结束后立即执行相关流程。",
+    "reminders": [
+      "唤醒邪恶"
+    ],
+    "setup": false
+  },
+  {
+    "id": "wangzherongyao111",
+    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "edition": "custom",
+    "name": "农夫",
+    "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 0,
+    "otherNight": 74,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "shuiganshawo111",
+    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png",
+    "edition": "custom",
+    "name": "圣徒",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "zhegeshimonk111",
+    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "edition": "custom",
+    "name": "陌客",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "daibi111",
+    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png",
+    "edition": "custom",
+    "name": "呆瓜",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "bushiwo111",
+    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "edition": "custom",
+    "name": "落难少女",
+    "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 5.1,
+    "otherNight": 0,
+    "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
+    "otherNightReminder": "0",
+    "reminders": [
+      "已被猜测"
+    ],
+    "setup": false
+  },
+  {
+    "id": "zuixihuandeyiji111",
+    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "edition": "custom",
+    "name": "暴乱",
+    "ability": "被提名的玩家死亡，但他可以立刻再次发起提名（第三天白天他必须这么做）。在第三个白天结束时，邪恶阵营获胜。[所有爪牙都是暴乱]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true
+  },
+  {
+    "id": "97_meta",
+    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "name": "暴乱&落难少女",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "暴乱被落难少女当作爪牙。",
+    "edition": "custom"
+  },
+  {
+    "id": "75_meta",
+    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "name": "暴乱&圣徒",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果善良玩家提名并杀死了圣徒，圣徒的阵营落败。",
+    "edition": "custom"
+  },
+  {
+    "id": "79_meta",
+    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "name": "暴乱&农夫",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果暴乱提名并杀死了农夫，当晚会有一名存活的善良玩家变成农夫。",
+    "edition": "custom"
+  }
+]

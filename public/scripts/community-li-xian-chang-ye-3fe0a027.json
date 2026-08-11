@@ -1,0 +1,359 @@
+[
+  {
+    "id": "_meta",
+    "name": "礼献长夜",
+    "author": "鬼",
+    "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/lixianchangye/almanac.html",
+    "tags": [
+      "万象星启体验剧本"
+    ],
+    "version": "",
+    "issue": 833
+  },
+  {
+    "id": "_lixianchangye",
+    "reminders": [
+      "已邀请"
+    ],
+    "name": "小说家",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
+    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "edition": "custom"
+  },
+  {
+    "id": "1_lixianchangye",
+    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png",
+    "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
+    "name": "厨师",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
+    "firstNight": 3400,
+    "edition": "custom"
+  },
+  {
+    "id": "2_lixianchangye",
+    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "占卜师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "firstNight": 3500,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "3_lixianchangye",
+    "image": "/scripts/assets/community/fb03f34ec14f85ab82900c208d8ea051bedb63ce2f0097679ecc03a70c983673.png",
+    "otherNightReminder": "如果今天白天有玩家死于处决，唤醒送葬者，对他展示那名玩家的角色标记。",
+    "reminders": [
+      "死于今日"
+    ],
+    "name": "送葬者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知今天白天死于处决的玩家的角色。",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "4_lixianchangye",
+    "image": "/scripts/assets/community/db86a5174e3b47dfeb12aa0e0fdb22ff07272e69404e4dbd82400180a3fec286.png",
+    "otherNightReminder": "唤醒驱魔人，让他选择一名与上一晚不同的玩家。如果他选中了恶魔，则在驱魔人入睡后通知该恶魔谁是驱魔人。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "驱魔人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你的角色，但他当晚不会因其自身能力而被唤醒。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "5_lixianchangye",
+    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "6_lixianchangye",
+    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "赌徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "7_lixianchangye",
+    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "守夜人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
+    "firstNight": 3800,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "8_lixianchangye",
+    "image": "/scripts/assets/community/90e1007574150f4a9b6fcb0e1e38050d8d1ef65b4acfdba93512609d463a8232.png",
+    "otherNightReminder": "如果农夫死于夜晚，唤醒一名存活的善良玩家告知他角色变化。",
+    "name": "农夫",
+    "team": "townsfolk",
+    "ability": "当你在夜晚死亡时，一名存活的善良玩家会变成农夫。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "9_lixianchangye",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": true,
+    "name": "村夫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 3700,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "10_lixianchangye",
+    "image": "/scripts/assets/community/ca277ebb5284117c620222ae709c918d191453529a07ca5bcd2b5693409bd805.png",
+    "firstNightReminder": "唤醒阴阳师，对他展示两个善良角色和两个邪恶角色。",
+    "reminders": [
+      "在场",
+      "不在场"
+    ],
+    "name": "阴阳师",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两个善良角色和两个邪恶角色。其中有且只有两个角色在场。",
+    "firstNight": 3600,
+    "edition": "custom"
+  },
+  {
+    "id": "11_lixianchangye",
+    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png",
+    "firstNightReminder": "唤醒钦天监，对他指向对应方向来告知他最近的邪恶玩家的方向。",
+    "name": "钦天监",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
+    "firstNight": 3900,
+    "edition": "custom"
+  },
+  {
+    "id": "12_lixianchangye",
+    "image": "/scripts/assets/community/1fc82711cf7b1fef5dcacbc8ec10057a437cbbfef108ae5c9d16edae24808372.png",
+    "otherNightReminder": "在夜晚时，如果秉笔旁放置了“死于今日”提示标记，唤醒秉笔。对他指向一名善良玩家。让秉笔重新入睡。移除“死于今日”提示标记。如果秉笔在夜晚死亡，唤醒秉笔。对他指向一名邪恶玩家。让秉笔重新入睡。",
+    "reminders": [
+      "死于今日"
+    ],
+    "name": "秉笔",
+    "team": "townsfolk",
+    "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "13_lixianchangye",
+    "image": "/scripts/assets/community/3a663d971771eec547b6ba0e8d73fe6e1480963b94b60dbc699a61d793190de6.png",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "逍遥谷",
+    "team": "outsider",
+    "ability": "距离你最远或者最近的一名善良玩家醉酒，如果你提名并处决了这名玩家，改为一名邪恶玩家醉酒，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "14_lixianchangye",
+    "image": "/scripts/assets/community/89eb6e6479135758adc29b86d05b3b144c2073996338b81947e04f81d753ed7b.png",
+    "name": "陌客",
+    "team": "outsider",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "15_lixianchangye",
+    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png",
+    "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
+    "reminders": [
+      "今晚理发"
+    ],
+    "name": "理发师",
+    "team": "outsider",
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "16_lixianchangye",
+    "image": "/scripts/assets/community/8cae75ab5e09c15b0a2bc52477c6aa26f6fcca6de6d05f27de74269fa0ea4180.png",
+    "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
+    "reminders": [
+      "今晚茶会"
+    ],
+    "name": "帽匠",
+    "team": "outsider",
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "17_lixianchangye",
+    "firstNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
+    "otherNightReminder": "选择一名玩家。标记那名玩家中毒。如果麻醉师选择了一名新的玩家，且原玩家还存活，告知原玩家麻醉师在场。",
+    "reminders": [
+      "中毒",
+      "得知"
+    ],
+    "name": "麻醉师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他中毒直到你更换选择目标，当你更换选择目标时，如果他还存活他会得知麻醉师在场。",
+    "firstNight": 3100,
+    "otherNight": 3,
+    "image": "/scripts/assets/community/7313a1ff8b0358bf173c3bf5a0730733518fb6a967a59a0939e1aef92b9d422c.png",
+    "edition": "custom"
+  },
+  {
+    "id": "18_lixianchangye",
+    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "红唇女郎",
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "19_lixianchangye",
+    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
+    "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "教父",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNight": 3200,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "20_lixianchangye",
+    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "name": "刺客",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "21_lixianchangye",
+    "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。 首个提名你的镇民会在当晚变成邪恶的献礼，然后你死亡。",
+    "reminders": [
+      "死亡",
+      "献礼"
+    ],
+    "name": "献礼",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 首个提名你的镇民会在当晚变成邪恶的献礼，然后你死亡。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "22_lixianchangye",
+    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "otherNightReminder": "唤醒混沌，让他攻击一名玩家。如果他杀死了自己邻近的镇民，所有善良玩家中毒。",
+    "reminders": [
+      "死亡",
+      "善良中毒"
+    ],
+    "name": "混沌",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除旅行者外的所有善良玩家会中毒直到下个黄昏。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "23_lixianchangye",
+    "image": "/scripts/assets/community/a8945472cc801230b1bdcf78c3cfb05c92f679dfa4cfbf921b01d02ec928c35b.png",
+    "firstNightReminder": "唤醒典狱长，让他选择至多三名玩家。",
+    "otherNightReminder": "唤醒典狱长，让他选择至多三名玩家。如果上个夜晚选择的玩家之中有人死于处决，上个夜晚选择的其余玩家均死亡，否则其中之一死亡。",
+    "reminders": [
+      "囚禁",
+      "死亡"
+    ],
+    "name": "典狱长",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择至多三名玩家：如果明天白天他们之一死于处决，上次被你选择的其他玩家会在当晚死亡。否则，当晚他们之中会有一名玩家死亡。",
+    "firstNight": 3300,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "24_lixianchangye",
+    "image": "/scripts/assets/community/4ce498e7ebfb09bd8b9ead2f205ecb09f854677a0c7fb6f9718e2314923f77e9.png",
+    "firstNightReminder": "唤醒阎罗，让他查看魔典。让阎罗选择一名玩家，将“三更将死”标记放置该玩家角色标记旁。之后再让阎罗选择一名玩家，将“即将死亡”标记放置该玩家角色标记旁。",
+    "otherNightReminder": "唤醒阎罗，让他选择一名玩家，将“即将死亡”标记放置该玩家角色标记旁，并将上一个夜晚的“即将死亡”标记替换为“死亡”标记。如果这是游戏的第三个夜晚，将“三更将死”标记的玩家判死，即使因为任何原因让他不会死亡。",
+    "reminders": [
+      "三更将死",
+      "即将死亡",
+      "死亡"
+    ],
+    "name": "阎罗",
+    "team": "demon",
+    "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他在第三个夜晚死亡，即使因为任何原因让他不会死亡。每个夜晚，你要选择一名玩家：上个夜晚被你选择的玩家死亡。",
+    "firstNight": 4000,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "25_lixianchangye",
+    "name": "帽匠可选规则",
+    "team": "a jinxed",
+    "ability": "如果帽匠死亡，允许恶魔变成爪牙，且（仅）一名爪牙变成恶魔，这可能会在邪恶阵营内制造一些混乱，因为他们可能会尝试在夜晚用手势交流由谁来成为恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_lixianchangye",
+    "name": "红唇女郎&献礼",
+    "team": "a jinxed",
+    "ability": "如果献礼成功转化了镇民并因此死亡，红唇女郎不会变成献礼。",
+    "edition": "custom"
+  }
+]

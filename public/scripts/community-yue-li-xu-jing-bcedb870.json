@@ -1,0 +1,425 @@
+[
+  {
+    "id": "_meta",
+    "name": "跃离虚境",
+    "author": "蓝铃兰&小烯",
+    "logo": "/scripts/assets/community/1973266295fc2f413014451784fd004af0db87f4748155835df3a9616aeaf85f.png",
+    "state": [
+      {
+        "stateName": "跃离",
+        "stateDescription": "跃离会抵消一次死亡。两层跃离会互相抵消。跃离不会因来源消失而移除。旅行者和死亡的玩家不会跃离。"
+      }
+    ],
+    "status": [
+      {
+        "name": "跃离",
+        "skill": "跃离会抵消一次死亡。两层跃离会互相抵消。跃离不会因来源消失而移除。旅行者和死亡的玩家不会跃离。"
+      }
+    ],
+    "tags": [
+      "全原创角色剧本",
+      "国内"
+    ],
+    "version": "1.2.3"
+  },
+  {
+    "id": "1_111",
+    "image": "/scripts/assets/community/7f6ec2366dade3b5598b1c087ac409934d3a7d336982af0a1d1de3ef9c721ed4.png",
+    "reminders": [
+      "跃离"
+    ],
+    "remindersGlobal": [
+      "跃离"
+    ],
+    "name": "跃离",
+    "team": "fabled",
+    "ability": "跃离会抵消一次死亡。两层跃离会互相抵消。跃离不会因来源消失而移除。旅行者和死亡的玩家不会跃离。",
+    "edition": "custom"
+  },
+  {
+    "id": "_111",
+    "image": "/scripts/assets/community/4059ff9869e7ed084f0c5befec4e37b0628ce11223bf34e9fe3825911a65d450.png",
+    "firstNightReminder": "1",
+    "reminders": [
+      "妙手"
+    ],
+    "name": "妙手空空",
+    "team": "townsfolk",
+    "ability": "首个夜晚，你要选择一名玩家并得知一名玩家：他们有且只有一人与邪恶玩家邻座，另一人会跃离。",
+    "firstNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "2_111",
+    "image": "/scripts/assets/community/c025b695d3ae4d71d1244b9a547d6dbf05de90ed37f2bc2f219a1637befd2a87.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "眼镜",
+      "死亡"
+    ],
+    "name": "眼镜匠",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两个在场角色。在你得知的角色死亡的当晚，你也会死亡。",
+    "firstNight": 18,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "5_111",
+    "image": "/scripts/assets/community/5f9fdb4b18e34a09ac0c00197b7a6921292f93b5f80d85c72066a311c410cf01.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "智者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知场上已跃离玩家的数量是奇数还是偶数。你不会被爪牙的能力影响。",
+    "firstNight": 26,
+    "otherNight": 22,
+    "edition": "custom"
+  },
+  {
+    "id": "10_111",
+    "image": "/scripts/assets/community/600229e17d4c5eba7cf4483333b5167e13af5c66562b3581c3145c60872cb670.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "管理员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择任意数量的玩家：如果他们之中没有你选择过的角色，你要选择一个你未选过的邪恶角色。",
+    "firstNight": 22,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "12_111",
+    "image": "/scripts/assets/community/16d12660f4c380971c8b2261fe5c6e19cd97d7032d034e6113856b01c74a85ef.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "晶角兽",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两个其他角色：如果他们都存活，其中一人死亡。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "13_111",
+    "image": "/scripts/assets/community/ffb73a69a5464b7044bc38e050834885037c9586496a51e75df662a1a4af6c8e.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "世外高人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名存活玩家：你根据他们跃离状态的（相同/相反）得知他们谁离恶魔（更近/更远）。",
+    "firstNight": 23,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "3_111",
+    "image": "/scripts/assets/community/43623e75483eac23e8071632cbc2b3189e30f301f8eec87e2cc8086d96af1b88.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "制图师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名存活玩家：其中距离爪牙更远的一名玩家会跃离。",
+    "firstNight": 16,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "4_111",
+    "image": "/scripts/assets/community/0befb7ad146c897087f1c39529faa5a6945c15c0a9339440ced03ae2cf6e8a6e.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "name": "守护者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名存活玩家和一个角色：如果他是该角色，你跃离，否则他跃离。",
+    "firstNight": 15,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "7_111",
+    "image": "/scripts/assets/community/a47493530535b52a77c34b28e917373c081fe47fd6316b4e2cc58f094b6fb205.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "秘密交易"
+    ],
+    "name": "神秘商人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一名玩家：你得知他的跃离状态，然后他的跃离状态可能会改变。",
+    "firstNight": 20,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "8_111",
+    "image": "/scripts/assets/community/e75018df3e221e56bc79544bc39fa3bb708b185b6ac01d610597045644745d93.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "粉刷"
+    ],
+    "name": "粉刷匠",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开发表一个声明。当你首次发表正确的声明时，当晚与你邻近的两名存活镇民会跃离。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "6_111",
+    "image": "/scripts/assets/community/176fe622e2d8fb85ed4b68870ab49afd3537e41cadf2664bebdab2b5eee85a38.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "影响跃离"
+    ],
+    "name": "发明家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知当晚有多少名玩家的能力改变或抵消了善良玩家的跃离状态。",
+    "firstNight": 24,
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "9_111",
+    "image": "/scripts/assets/community/46f4b470b1f188de91a7407f882ae32f13ff8f5583672cdbab83c2e3e5e61e12.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "被追踪",
+      "死亡"
+    ],
+    "name": "追踪者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是邪恶的，上个被你选择的存活善良玩家死亡。",
+    "firstNight": 25,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "11_111",
+    "image": "/scripts/assets/community/7f24ba6a93db04896fd541ef604480e938c49ef0f5a3b2456880bb1ca3e53586.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡",
+      "镇民",
+      "外来者",
+      "爪牙",
+      "恶魔"
+    ],
+    "name": "巨人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名玩家和一个未选过的角色类型：如果他是该角色类型，他死亡，否则你死亡。",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "16_111",
+    "image": "/scripts/assets/community/92cdfc574030496b18eda9845d0377f800848d2333e60d756bf8bba56c1c72a2.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "醉酒",
+      "傀儡"
+    ],
+    "name": "傀儡",
+    "team": "outsider",
+    "ability": "你会代替一名镇民跃离。你死亡时他会跃离并醉酒。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "14_111",
+    "image": "/scripts/assets/community/a75ec81ac14c1c94b5cabfb7fe5eef8572481478013db39371c4e83790d387cb.png",
+    "firstNightReminder": "1",
+    "remindersGlobal": [
+      "是精灵"
+    ],
+    "setup": true,
+    "name": "精灵",
+    "team": "outsider",
+    "ability": "你以为你是一个镇民角色，但其实你不是。在你的首个夜晚，你会跃离。",
+    "firstNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "15_111",
+    "image": "/scripts/assets/community/0ebc98aba11051d2ab892fdb0b0af9c4a4f99ae35dbf21e854afd033b90990ac.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "善良",
+      "邪恶",
+      "引发闪烁"
+    ],
+    "name": "闪烁",
+    "team": "outsider",
+    "ability": "当一名使用其自身能力选择了你的玩家死亡时，你会转变阵营。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "edition": "custom"
+  },
+  {
+    "id": "17_111",
+    "image": "/scripts/assets/community/0ba5604283a9ee1b3296176e26e5d0d7f82705b1f88966ab550c6b368282ab1e.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "凶兆",
+    "team": "outsider",
+    "ability": "当你首次在夜晚死亡时，改为与恶魔邻近的两名存活镇民死亡。",
+    "otherNight": 0,
+    "edition": "custom"
+  },
+  {
+    "id": "18_111",
+    "image": "/scripts/assets/community/5d5e377eaa0cd93ae5a4e4b2f0d98b0cadfe05f7b40877128ae43a355726fce4.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "看穿",
+      "死亡",
+      "失去能力"
+    ],
+    "name": "透视",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你查看魔典并选择一名玩家：他的死亡无法被跃离抵消。每局游戏限一次，在夜晚时*，你可以选择让他死亡。",
+    "firstNight": 27,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "19_111",
+    "image": "/scripts/assets/community/d94f24b50d6222618d597e66772f9d6b10a72a2ae96befab86ec71cf935407c9.png",
+    "firstNightReminder": "1",
+    "reminders": [
+      "跃离中毒",
+      "未跃离中毒"
+    ],
+    "setup": true,
+    "name": "恐惧",
+    "team": "minion",
+    "ability": "在等同于初始外来者数量的夜晚，跃离或未跃离的存活玩家中更多的那一方中毒直到下个黄昏。[外来者数量任意]",
+    "firstNight": 16.6,
+    "otherNight": 1,
+    "edition": "custom"
+  },
+  {
+    "id": "20_111",
+    "image": "/scripts/assets/community/6a575121312b3c0244adf2ce781d9a23cd38b00164979f5672c923d995f9f8d0.png",
+    "reminders": [
+      "假死"
+    ],
+    "setup": true,
+    "name": "回溯",
+    "team": "minion",
+    "ability": "如果你将死于处决，改为你存活但被当作死亡，并与恶魔交换角色。[离你最远的半数玩家（向下取整）跃离]",
+    "edition": "custom"
+  },
+  {
+    "id": "21_111",
+    "image": "/scripts/assets/community/4803acbe497b95b3f24332b81f190d9241c9d0a12109874937764bf3bc85c891.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "失去能力",
+      "虫害"
+    ],
+    "name": "害虫",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他跃离且被当作邪恶的害虫。",
+    "firstNight": 14,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "22_111",
+    "image": "/scripts/assets/community/1977d60636c181636553888f9985e084306aae74e1b0902b4f4e442a5e8a5abf.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "不朽",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，所有邪恶玩家跃离。",
+    "firstNight": 12,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "23_111",
+    "image": "/scripts/assets/community/49724ca7ac8549d2cda09eab703a8a01f9ce33603e32981e3ba27fe2082549ab.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "天灾",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择两名存活玩家：如果他们的跃离状态相同，他们死亡，否则对调他们的跃离状态。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "24_111",
+    "image": "/scripts/assets/community/e85da8815ddad147c94b098e9ad0f18820c147a94b833362e7629cc884ae94b7.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "死亡",
+      "行动两次"
+    ],
+    "name": "魔王",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每当有爪牙死亡时，下一晚你行动两次。",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "25_111",
+    "image": "/scripts/assets/community/d0ef0877a78fc75c98a2af047ce41686f20b3b00ee80591c10c9a2e87bfc6c20.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "其心可诛",
+      "死亡"
+    ],
+    "name": "诛心",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一个角色：他跃离，上个夜晚被你选择的角色死亡两次。",
+    "firstNight": 13,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "26_111",
+    "image": "/scripts/assets/community/8564c83d11c4c6c7c09f3b0a7afea1cce49fe7578168d843a80fa295e094a62a.png",
+    "name": "私货商人",
+    "team": "fabled",
+    "ability": "所有需要选择存活玩家的能力如果选择了当夜死亡的玩家，需要重新更换选择目标。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_111",
+    "image": "/scripts/assets/community/51e0bd7ca62c1d99f423a9029ad75af21b63cb07928665a08357beeee7e3eeb2.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "情报"
+    ],
+    "name": "情报员",
+    "team": "traveler",
+    "ability": "在你的首个夜晚，你要选择一名玩家：所有玩家都知道你选择了谁，且可以随时与他私聊，即使你中毒或醉酒。",
+    "firstNight": 28,
+    "otherNight": 23,
+    "edition": "custom"
+  },
+  {
+    "id": "28_111",
+    "image": "/scripts/assets/community/ed6eb23e112156dca65da6c6879aceb731fa2c1407e5071dc91f37c9ede8566e.png",
+    "name": "跃迁者",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开选择两名其他存活玩家：他们猜拳，胜利的玩家立即跃离。",
+    "edition": "custom"
+  }
+]

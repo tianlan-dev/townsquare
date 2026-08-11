@@ -1,0 +1,470 @@
+[
+  {
+    "name": "虚空博弈",
+    "author": "卷饼",
+    "id": "_meta",
+    "a jinxed": "相克",
+    "logo": "/scripts/assets/community/ba4f238b447ec7e431245672318986ee3c91044cc5e50a575ff1021759b0ed8c.png",
+    "tags": [],
+    "version": "",
+    "issue": 935
+  },
+  {
+    "id": "1_xukongboyi",
+    "name": "图书管理员",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
+    "firstNightReminder": "唤醒图书管理员，对他指向两名玩家，并展示一个外来者角色标记。这两名玩家其中之一是这个外来者。",
+    "firstNight": 3800,
+    "otherNight": 0,
+    "reminders": [
+      "外来者",
+      "错误"
+    ],
+    "image": [
+      "/scripts/assets/community/439cf37e4d975b7dfd93e406e6c6a60f33299e9ae1bc44de1f7391dbf22c05d8.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "2_xukongboyi",
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "firstNight": 3900,
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "image": [
+      "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "3_xukongboyi",
+    "name": "小精灵",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
+    "firstNight": 3700,
+    "otherNight": 0,
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "image": [
+      "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "4_xukongboyi",
+    "name": "刀客",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的爪牙角色。每局游戏限一次，你可以在白天公开选择一名玩家：如果他是你得知的角色，他死亡。",
+    "firstNightReminder": "唤醒刀客，对他展示标记了“得知”的爪牙角色标记。",
+    "firstNight": 4000,
+    "otherNight": 0,
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/fb49c3926755632a9a2fb785222e31f38485aa7476c8f260938533bd1219ccb7.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "5_xukongboyi",
+    "name": "方士",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择一个数字。在该数字对应的那一个夜晚，你会得知对应数量的在场角色。",
+    "firstNightReminder": "唤醒方士，让他选择一个数字。如果他选择了当晚对应的数字，向他展示对应数量在场的角色标记。",
+    "firstNight": 4100,
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "image": [
+      "/scripts/assets/community/fbf24c16a412866c56ec8e6e60fde4f6b4793cea63b07a2b7929adf324c41bab.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "6_xukongboyi",
+    "name": "国王",
+    "team": "townsfolk",
+    "ability": "每个夜晚，如果死亡的玩家数量大于或等于存活的玩家数量，你会得知一个存活的角色。恶魔知道你是国王。",
+    "firstNightReminder": "如果国王在场，对恶魔展示国王角色标记并指向国王玩家。",
+    "firstNight": 3200,
+    "otherNightReminder": "如果满足国王的唤醒条件，唤醒国王，对他展示一个存活的角色标记。",
+    "otherNight": 7,
+    "image": [
+      "/scripts/assets/community/04525176451615bbe8960eb1caf5b33fc0e62053287fc9c20cdc51bbc7b17e69.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "7_xukongboyi",
+    "name": "城镇公告员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
+    "otherNight": 6,
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "image": [
+      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "8_xukongboyi",
+    "name": "侍臣",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
+    "firstNightReminder": "唤醒侍臣，他可以摇头不使用能力，或选择角色列表上的一个任意角色，该角色对应的玩家之一醉酒。",
+    "firstNight": 3500,
+    "otherNightReminder": "如果侍臣未曾使用能力，唤醒侍臣，他可以摇头不使用能力，或选择角色列表上的一个任意角色，该角色对应的玩家之一醉酒。",
+    "otherNight": 2,
+    "reminders": [
+      "醉酒1",
+      "醉酒2",
+      "醉酒3",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/50c0d497bcddc54faee5f9e97ec73fa27008777ff5b56936e3a9b23a6a42c364.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "9_xukongboyi",
+    "name": "哲学家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "firstNightReminder": "唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "firstNight": 1,
+    "otherNightReminder": "如果哲学家未曾使用能力，唤醒哲学家，他可以摇头不使用能力，或选择获得角色列表上的一个善良角色的能力。",
+    "otherNight": 1,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是哲学家"
+    ],
+    "image": [
+      "/scripts/assets/community/b0f3a24d155e1da025bd992e9439d3ab2c3724fb39d8b34b343d7aa1900059fd.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "10_xukongboyi",
+    "name": "戏法师",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "11_xukongboyi",
+    "name": "猎手",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以在白天时公开选择一名玩家：如果他是恶魔，他死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/7eebf10da5d6313b83ce343a4d6b0f38988ce4487b300e410af78bffafa68996.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "12_xukongboyi",
+    "name": "炼金术士",
+    "team": "townsfolk",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
+    "firstNightReminder": "唤醒炼金术士，对他展示他获得的能力所对应的爪牙角色标记。",
+    "firstNight": 2,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "image": [
+      "/scripts/assets/community/3654df9dd6b049e9ccd24b992184b85a88df107bb365ce500ac7d6898df8c822.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "13_xukongboyi",
+    "name": "魔术师",
+    "team": "townsfolk",
+    "ability": "恶魔会以为你是爪牙。爪牙会以为你是恶魔。",
+    "firstNightReminder": "如果魔术师在场，则需要对爪牙信息环节和恶魔信息环节的相关内容进行调整。",
+    "firstNight": 3,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/564fe1557f5a2e4b614f805bd9b6ff1c2500ca0ec44f12f7ad55647f0ce1e057.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "14_xukongboyi",
+    "name": "圣徒",
+    "team": "outsider",
+    "ability": "如果你死于处决，你的阵营落败。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/3f0b359b721ac95678a21a4324e049e0879fa05bd3aaed3fb76ef2cb4eb1f345.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "15_xukongboyi",
+    "name": "魔像",
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "无法提名"
+    ],
+    "image": [
+      "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "16_xukongboyi",
+    "name": "解谜大师",
+    "team": "outsider",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "image": [
+      "/scripts/assets/community/0c8da69c6d1781d68e254a7dc013a3e734a3177cd6fe3f3d7ca78d9008ffcd3c.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "17_xukongboyi",
+    "name": "异端分子",
+    "team": "outsider",
+    "ability": "对调胜负结果，即使你已死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/1bf65459fe8a8852b29aa4cf8e19b9660541e5030bfc66de0a458944ea990a33.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "18_xukongboyi",
+    "name": "女巫",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "firstNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
+    "firstNight": 3600,
+    "otherNightReminder": "唤醒女巫，让她选择一名玩家，那名玩家被诅咒。",
+    "otherNight": 4,
+    "reminders": [
+      "被诅咒"
+    ],
+    "image": [
+      "/scripts/assets/community/7fd5c27e01f50b1959b9a6029c75ac8b1f60ec770351579f04a0fca66a0a596b.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "19_xukongboyi",
+    "name": "哥布林",
+    "team": "minion",
+    "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "已宣称"
+    ],
+    "image": [
+      "/scripts/assets/community/8c800aee66381582079783359639f9653dc2925b4425e33bcf0634dba43eca01.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "20_xukongboyi",
+    "name": "街头风琴手",
+    "team": "minion",
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒直到下个黄昏。",
+    "firstNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。",
+    "firstNight": 3400,
+    "otherNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。如果他摇头，移除街头风琴手的醉酒标记。",
+    "otherNight": 3,
+    "reminders": [
+      "即将被处决",
+      "醉酒"
+    ],
+    "image": [
+      "/scripts/assets/community/62213595118d8da445949f98f6c1b8afcac4d020676079835379776f2cb48825.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "21_xukongboyi",
+    "name": "提线木偶",
+    "team": "minion",
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
+    "firstNight": 3100,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是提线木偶"
+    ],
+    "image": [
+      "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "22_xukongboyi",
+    "name": "维齐尔",
+    "team": "minion",
+    "ability": "所有玩家都知道你是维齐尔。你在白天时不会死亡。如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
+    "firstNightReminder": "如果维齐尔在场，告知所有人谁是维齐尔。",
+    "firstNight": 4200,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/2a8f07d2020ef31ac9ae7e5de0c1c3b36972699b09542a0b6108ad2acb3b6799.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "23_xukongboyi",
+    "name": "小怪宝",
+    "team": "demon",
+    "ability": "每个夜晚，所有爪牙要秘密决定由哪名玩家来照看小怪宝并且“是恶魔”。每个夜晚*，可能会有一名玩家死亡。[+1爪牙]",
+    "firstNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。",
+    "firstNight": 3300,
+    "otherNightReminder": "唤醒所有爪牙选择由谁照看小怪宝。随后，决定今晚谁会因为小怪宝能力死亡。",
+    "otherNight": 5,
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/4dfa655853d15456870355ba59880da982eb0c0d6ba34efc0a535ab7dd7bf1a3.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "24_xukongboyi",
+    "name": "哨兵",
+    "team": "fabled",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/be25291e73310c198a83d7234040bbb25c9f2fc90703046b1995599b4ed0351e.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "25_xukongboyi",
+    "name": "戏法师&维齐尔",
+    "team": "a jinxed",
+    "ability": "如果维齐尔在场，戏法师在进行猜测时还需要猜测恶魔的具体角色。",
+    "image": [
+      "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "26_xukongboyi",
+    "name": "炼金术士&街头风琴手",
+    "team": "a jinxed",
+    "ability": "如果炼金术士获得街头风琴手的能力，街头风琴手必定在场。且如果炼金术士和街头风琴手都清醒，改为他们都醉酒。",
+    "image": [
+      "/scripts/assets/community/3654df9dd6b049e9ccd24b992184b85a88df107bb365ce500ac7d6898df8c822.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "27_xukongboyi",
+    "name": "魔术师&小怪宝",
+    "team": "a jinxed",
+    "ability": "每个夜晚，由魔术师来选择一个爪牙角色：如果他和小怪宝均存活，由他来照看小怪宝。",
+    "image": [
+      "/scripts/assets/community/564fe1557f5a2e4b614f805bd9b6ff1c2500ca0ec44f12f7ad55647f0ce1e057.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "28_xukongboyi",
+    "name": "提线木偶&小怪宝",
+    "team": "a jinxed",
+    "ability": "提线木偶会与一名爪牙玩家邻座，而不是恶魔。提线木偶不会被唤醒来决定是否照看小怪宝，也不会在照看小怪宝时得知自己是提线木偶。",
+    "image": [
+      "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "29_xukongboyi",
+    "name": "维齐尔&侍臣",
+    "team": "a jinxed",
+    "ability": "如果维齐尔失去能力，他会得知这一信息。如果侍臣在剧本列表中，且维齐尔在具有能力时被处决，他的阵营获胜。",
+    "image": [
+      "/scripts/assets/community/2a8f07d2020ef31ac9ae7e5de0c1c3b36972699b09542a0b6108ad2acb3b6799.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "30_xukongboyi",
+    "name": "维齐尔&小怪宝",
+    "team": "a jinxed",
+    "ability": "照看小怪宝的维齐尔能够死于处决。",
+    "image": [
+      "/scripts/assets/community/2a8f07d2020ef31ac9ae7e5de0c1c3b36972699b09542a0b6108ad2acb3b6799.png"
+    ],
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "id": "_meta",
+    "name": "审判日",
+    "author": "小烯",
+    "logo": "/scripts/assets/community/b4ed8b2c22578c9ea219503a758a4aa7df610ecbe2bdda352b1872a60dfe8f5a.png",
+    "almanac": "https://www.bloodstar.xyz/p/C2H43g/chargement-day/almanac.html",
+    "tags": [
+      "SUI染钟楼投稿&火乐杯剧本"
+    ],
+    "version": "8"
+  },
+  {
+    "id": "_chargementday",
+    "image": "/scripts/assets/community/0e8f2817eb6854643d2712dc7a53baea8c80a60dd7a318c05b8ad7d53645d9bd.png",
+    "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
+    "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
+    "reminders": [
+      "孙子",
+      "死亡"
+    ],
+    "name": "祖母",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+    "firstNight": 17,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "1_chargementday",
+    "image": "/scripts/assets/community/1bcffae6a8de66f9a792e4154e1fbea1c0c157c2406c88ecc119be773a70a524.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "1",
+    "reminders": [
+      "得知"
+    ],
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNight": 18,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "2_chargementday",
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "女裁缝",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "firstNight": 19,
+    "otherNight": 17,
+    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "edition": "custom"
+  },
+  {
+    "id": "3_chargementday",
+    "image": "/scripts/assets/community/dd16f6dfc8614b4a0f841db85d9a21ded7c299d2672c7375cc6c3d17c75ddaed.png",
+    "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+    "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [
+      "是哲学家"
+    ],
+    "name": "哲学家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "firstNight": 11,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "4_chargementday",
+    "image": "/scripts/assets/community/63aef34cc02a338c9c01efdfe4c0537f088e76a92a81ae3af7c7a3801899e023.png",
+    "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "赌徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "5_chargementday",
+    "image": "/scripts/assets/community/9b5e0f927d8b35686d646f23c169dff15f86c9b7bb037894011096c53fab5c44.png",
+    "otherNightReminder": "如果白天的声明为真，会有一名玩家死亡，并由说书人来选择一名玩家，标记该玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "造谣者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "6_chargementday",
+    "image": "/scripts/assets/community/d1abb94fa754eb0f281deac5cabb10ad8f3e94ba9ecad4d09273277c13496f38.png",
+    "firstNightReminder": "选择",
+    "otherNightReminder": "111",
+    "reminders": [
+      "选择"
+    ],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "name": "村夫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 20,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "8_chargementday",
+    "image": "/scripts/assets/community/d8b1cc5be6e6f1f25ea94459a20d58c14610fbf80704e23986141bbfd5c58a25.png",
+    "reminders": [
+      "？"
+    ],
+    "name": "失忆者",
+    "team": "townsfolk",
+    "ability": "你不知道你的能力是什么。每个白天你可以找说书人猜测一次，你会得知你的猜测有多准确。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_chargementday",
+    "image": "/scripts/assets/community/fd60a7cee54eeb0fad69c4069c91a5e6eac4a0ce19df8a60c942369f85610ab6.png",
+    "otherNightReminder": "让驱魔人选择一名玩家，不能是上一夜他选择过的玩家。让驱魔人重新入睡。如果驱魔人选中了恶魔：唤醒恶魔。展示“该角色的能力对你生效”信息标记和驱魔人角色标记。指向驱魔人玩家。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "驱魔人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "11_chargementday",
+    "image": "/scripts/assets/community/4e0fd743636de28b2f2a6f014d2ec1cd53860814d2d4b0825bed86f45be5d6f7.png",
+    "name": "博学者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下拜访说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "edition": "custom"
+  },
+  {
+    "id": "33_chargementday",
+    "image": "/scripts/assets/community/3cd9c73b8f7efdfce8e8c384a91e0421181fa3a8c5895b1786b17d005c922af6.png",
+    "firstNightReminder": "展示给炼金术士一个不在场的角色标记。",
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "name": "炼金术士",
+    "team": "townsfolk",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。（如果说书人这样做，你可以通过跳车来威胁ta不让你换）",
+    "firstNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "38_chargementday",
+    "image": "/scripts/assets/community/0e3a368741e3b9c22bc34697aafdf02224d88164e97d3bf746e4c1b33dfb82d7.png",
+    "name": "镇长",
+    "team": "townsfolk",
+    "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "12_chargementday",
+    "image": "/scripts/assets/community/120497541ab31cccc3188f574bd3b753066752a4249af37a7842c539e3e83c86.png",
+    "reminders": [
+      "中毒",
+      "死于处决"
+    ],
+    "name": "食人族",
+    "team": "townsfolk",
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家被处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_chargementday",
+    "image": "/scripts/assets/community/79113f2568d97408d161066e54d2d7e160f1a756cdcaab9080f2645ac31cd132.png",
+    "name": "呆瓜",
+    "team": "outsider",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
+    "edition": "custom"
+  },
+  {
+    "id": "28_chargementday",
+    "image": "/scripts/assets/community/ac2531a4260baf627b48883eb67f630ea3532e2af46bcd5f2ccbcebd88e26c69.png",
+    "otherNightReminder": "修补匠可能会死亡。如果说书人选择让修补匠死亡，放置死亡标记。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "修补匠",
+    "team": "outsider",
+    "ability": "你随时可能死亡。",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "34_chargementday",
+    "image": "/scripts/assets/community/2d6763d8c74e577a525ef21457b564e423f1ab116e247f5bf4e9be1bdc50a171.png",
+    "reminders": [
+      "已猜测"
+    ],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "name": "解密大师",
+    "team": "outsider",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_chargementday",
+    "firstNightReminder": "如果有七名或更多玩家，唤醒疯子：展示“他们是你的爪牙”信息标记。指向任意对应数量的玩家。展示“这些角色不在场”信息标记。展示三个善良角色。让疯子重新入睡。唤醒恶魔。展示“你是”信息标记和恶魔角色标记。展示“这名玩家是”信息标记和疯子角色标记，然后指向疯子玩家。",
+    "otherNightReminder": "做任何需要做的事情来模拟一位恶魔的行动。让疯子重新入睡。唤醒恶魔。对恶魔展示疯子角色标记，并指向疯子玩家，随后是疯子的攻击目标。",
+    "remindersGlobal": [
+      "是疯子",
+      "被选择"
+    ],
+    "setup": true,
+    "name": "疯子",
+    "team": "outsider",
+    "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。",
+    "firstNight": 14,
+    "otherNight": 6,
+    "image": "/scripts/assets/community/437b5c21cb47343edd1d30e26899745a6b875b5105152d3a4e6364e9280454b3.png",
+    "edition": "custom"
+  },
+  {
+    "id": "17_chargementday",
+    "image": "/scripts/assets/community/2606e18bf2dbb031d4fded346fa33800f617ab47524e99f8851ea114029afc0c.png",
+    "firstNightReminder": "对他展示所有在场的外来者标记。",
+    "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "教父",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNight": 16,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "32_chargementday",
+    "image": "/scripts/assets/community/259178cb552a82efd7861c60eabbd19db22691b8393b29336a2f279dee9bfb04.png",
+    "name": "巫师",
+    "team": "minion",
+    "ability": "每局游戏限一次，你可以向说书人许下一个愿望，如果实现，你可能会因此付出一些代价\\留下一些线索",
+    "edition": "custom"
+  },
+  {
+    "id": "19_chargementday",
+    "image": "/scripts/assets/community/e0c96a380f4f537040679130ae646b0ebca3ba0f54922474468a2edff66694b4.png",
+    "firstNightReminder": "告诉灵言师他的秘密词语。",
+    "otherNightReminder": "唤醒第一个说出灵言师词语的玩家并告知他已经变成邪恶阵营。",
+    "reminders": [
+      "邪恶",
+      "失去能力"
+    ],
+    "name": "灵言师",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知一个关键词。首个说出该关键词的善良玩家会在当晚转变为邪恶阵营。",
+    "firstNight": 15,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "20_chargementday",
+    "image": "/scripts/assets/community/8905237e7e5a1f3b289644175c66a07178bd87029b4875d12743efc17a9e4d3c.png",
+    "otherNightReminder": "刺客可以选择一名玩家。如果他这么做了，标记那名玩家死亡，且刺客失去能力，之后的夜晚无需再唤醒刺客。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "name": "刺客",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "35_chargementday",
+    "image": "/scripts/assets/community/6fe315c968b44a683f5e5107e09009fb33e1c180db6926364cb25e9d56cc68ee.png",
+    "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "小恶魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "22_chargementday",
+    "image": "/scripts/assets/community/7bc294cda3d7d2db861248a3808a90c5ac1942deac310e2baca7171a8e8fbf76.png",
+    "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
+    "reminders": [
+      "死亡",
+      "放弃选择"
+    ],
+    "name": "珀",
+    "team": "demon",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "23_chargementday",
+    "image": "/scripts/assets/community/10aca5ad551b680e56df164f97fe9be520f985b21be6951438848fced34853bc.png",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "暴乱",
+    "team": "demon",
+    "ability": "在第三个白天，所有爪牙会变成暴乱，当天被提名的玩家会立即死亡且必须再次提名一名存活的玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "24_chargementday",
+    "image": "/scripts/assets/community/29ac703981f5560c060ec7ea6f0d07d9e67a23b5270368bfa7b5faf83ede9d83.png",
+    "firstNightReminder": "互认",
+    "otherNightReminder": "阿巴阿巴",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "军团",
+    "team": "demon",
+    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被视为爪牙。[半数以上玩家为军团]",
+    "firstNight": 13,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "31_chargementday",
+    "name": "哄疯子小助手",
+    "team": "fabled",
+    "ability": "如果爪牙与恶魔处于正常互认状态，爪牙会得知疯子是谁以及他视角里面的爪牙是谁",
+    "edition": "custom"
+  },
+  {
+    "id": "40_chargementday",
+    "image": "/scripts/assets/community/a260523042128fc19897ac3ab3a9ec3702a702bead2cbfd99eea5fb477847008.png",
+    "name": "私货商人",
+    "team": "fabled",
+    "ability": "建议巫师的线索形式为始终有一名善良玩家得知较为具体的线索，以提高军团的不在场威慑力",
+    "edition": "custom"
+  },
+  {
+    "id": "36_chargementday",
+    "name": "驱魔人与暴乱",
+    "team": "jinxes",
+    "ability": "如果驱魔人通过自身能力选择了暴乱，第三个白天爪牙不会变成暴乱",
+    "edition": "custom"
+  },
+  {
+    "id": "37_chargementday",
+    "name": "驱魔人与军团",
+    "team": "jinxes",
+    "ability": "驱魔人可能会得知自己通过自身能力选择了军团",
+    "edition": "custom"
+  },
+  {
+    "id": "39_chargementday",
+    "name": "暴乱与镇长",
+    "team": "jinxes",
+    "ability": "镇长可以停止提名。如果他这样做了，并且场上只有一名暴乱存活，善良阵营获胜；否则，邪恶阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "41_chargementday",
+    "image": "/scripts/assets/community/c3be0eae32b2c444c49816440ceea6e5f981a23f683282651230d6aed64ad137.png",
+    "otherNightReminder": "选择",
+    "reminders": [
+      "重获能力，中毒"
+    ],
+    "name": "亡灵使者",
+    "team": "traveller",
+    "ability": "每局游戏限一次，在夜晚时*，你可以令所有死亡的玩家重获能力直到下个黄昏，如果你这样做，可能会有一名因此重获能力的玩家醉酒直到下个黄昏（如果你是邪恶的，改为你选择一名因此重获能力的玩家）",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "42_chargementday",
+    "image": "/scripts/assets/community/4b2c9365b3b8e1091c45e57a7fa225c492bdf618218ec9f0a7479f8bdb95c624.png",
+    "reminders": [
+      "公开选择"
+    ],
+    "name": "漫画家",
+    "team": "traveller",
+    "ability": "当你加入游戏时，你需要公开选择一名其他的存活玩家，你始终与他保持相同阵营，当他死亡时，你继承他的能力",
+    "edition": "custom"
+  },
+  {
+    "id": "43_chargementday",
+    "image": "/scripts/assets/community/8000497b8e4b73f8ebe8fac7fa4c9b659452df1e7c1fc3327c658d0880bbb012.png",
+    "name": "往生者",
+    "team": "traveller",
+    "ability": "你没有阵营。每个白天限一次，你可以拜访说书人以获得一条信息。 如果在游戏结束前你成功复原了魔典，你转变为获胜的阵营:如果你\"疯狂\"地证实说书人给予的信息，你无法获胜",
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,385 @@
+[
+  {
+    "id": "_meta",
+    "name": "如临大敌",
+    "author": "叮当&蓝铃兰",
+    "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/rulindadi/almanac.html",
+    "tags": [
+      "特别的玩法"
+    ],
+    "version": "",
+    "issue": 826
+  },
+  {
+    "id": "laizhebushan",
+    "name": "来者不善",
+    "team": "fabled",
+    "ability": "游戏默认使用局外人规则，加入游戏的局外人会替换一名外来者。在游戏类型的判定上，局外人被当作善良阵营，外来者类型。不会出现重复的局外人角色，通常情况下初始局外人最多只会有1个在场。局外人无法被改变成其他角色，其他角色也无法变成局外人或者获得局外人的能力。如果某个阵营的玩家因自身能力导致游戏结束，另外两个阵营共同获胜/落败。",
+    "edition": "custom"
+  },
+  {
+    "id": "laizhebushan_2",
+    "name": "可选死亡任务",
+    "team": "fabled",
+    "reminders": [
+      "随之获胜"
+    ],
+    "ability": "如果第三方阵营玩家都死亡，说书人可以给每个第三方阵营玩家单独发布一条任务，完成任务后的玩家随获胜阵营一同获胜。1）所有听到笛声的玩家死亡。2）将投票标记投给恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "_rulindadi",
+    "image": "/scripts/assets/community/b12f409e5078c0b70d68770280b3785217cd544b867f1a1e730c163094e234c6.png",
+    "firstNightReminder": "唤醒调查员，对他指向两名玩家，并展示一个爪牙角色标记。这两名玩家其中之一是这个爪牙。",
+    "reminders": [
+      "爪牙",
+      "错误"
+    ],
+    "name": "调查员",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+    "firstNight": 3200,
+    "edition": "custom"
+  },
+  {
+    "id": "1_rulindadi",
+    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "占卜师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "firstNight": 3300,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "2_rulindadi",
+    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "name": "侍女",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "firstNight": 3900,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "3_rulindadi",
+    "image": "/scripts/assets/community/00a976247483d6d308de9d3b2135e8396d3ce8e13eed2307f0195f22bfc5ef74.png",
+    "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "4_rulindadi",
+    "image": "/scripts/assets/community/fbfc8715ba9862fa9e9e43e707a6980c3ab260b4671cecd0ea2364d77222885a.png",
+    "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "赌徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "5_rulindadi",
+    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png",
+    "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "name": "城镇公告员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "6_rulindadi",
+    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "name": "博学者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "edition": "custom"
+  },
+  {
+    "id": "7_rulindadi",
+    "image": "/scripts/assets/community/9483f0ad68e4c283949c0025eb094385a040f22cbcc22c48db16095caf5cb427.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "艺术家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。",
+    "edition": "custom"
+  },
+  {
+    "id": "8_rulindadi",
+    "image": "/scripts/assets/community/6866bc96145c189d1c1beb112f7263a805375c1d70619033180413a1bf7f5bb3.png",
+    "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
+    "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
+    "reminders": [
+      "得知"
+    ],
+    "setup": true,
+    "name": "气球驾驶员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "firstNight": 3500,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "9_rulindadi",
+    "image": "/scripts/assets/community/da2aef6622b2d71597f8b30b922c6db435adbfa69bfe1c9b75b6e3050eba556b.png",
+    "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
+    "reminders": [
+      "失足",
+      "死亡"
+    ],
+    "name": "半兽人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。会有一名善良玩家始终被当作邪恶阵营。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "10_rulindadi",
+    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png",
+    "firstNightReminder": "唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "otherNightReminder": "如果守夜人未曾使用能力，唤醒守夜人，他可以摇头不使用能力，或选择一名玩家。如果守夜人选择了玩家，则在守夜人入睡后通知那名玩家谁是守夜人。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "守夜人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
+    "firstNight": 3800,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "11_rulindadi",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": true,
+    "name": "村夫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 3700,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "12_rulindadi",
+    "image": "/scripts/assets/community/883d5207fb765b675e686b8d3471d4d6ddd47e303442e61fd1ca469e678eed58.png",
+    "firstNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
+    "otherNightReminder": "唤醒郎中，让他指向除他以外的一名玩家。对郎中展示一个与该玩家能力相关的词语。",
+    "name": "郎中",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：你会得知一个与他能力相关的词语。",
+    "firstNight": 3600,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "13_rulindadi",
+    "otherNightReminder": "每个夜晚，你要选择两名玩家：他们会听到笛声。",
+    "reminders": [
+      "听笛"
+    ],
+    "name": "吹笛者",
+    "team": "outsider",
+    "ability": "每个夜晚*，你要选择两名玩家：他们会听到笛声。 如果除你以外存活的玩家都听到了笛声，你独自获胜。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "14_rulindadi",
+    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "firstNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
+    "otherNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
+    "reminders": [
+      "主人"
+    ],
+    "name": "管家",
+    "team": "outsider",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
+    "firstNight": 3400,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "15_rulindadi",
+    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "name": "酒鬼",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_rulindadi",
+    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "莽夫",
+    "team": "outsider",
+    "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
+    "edition": "custom"
+  },
+  {
+    "id": "17_rulindadi",
+    "image": "/scripts/assets/community/b72438c76fa0b18dbcc7dec510b54405eeaf3be0e1496233d33866eb4573e57f.png",
+    "reminders": [
+      "已触发"
+    ],
+    "name": "使节",
+    "team": "outsider",
+    "ability": "每个夜晚限一次，一名玩家在使用自身能力选择邪恶玩家时会改为选中你，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "18_rulindadi",
+    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
+    "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "教父",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNight": 3100,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "19_rulindadi",
+    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png",
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "红唇女郎",
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "20_rulindadi",
+    "image": "/scripts/assets/community/51a1b0ccbbd590a0538e5ef5cb3b861777252a615788bc06952c2d5128fa3e42.png",
+    "otherNightReminder": "唤醒麻脸巫婆，让她选择一名玩家和角色列表上的一个角色。如果该角色不在场，则在麻脸巫婆入睡后通知该玩家角色变化。根据实际情况，可以将相关通知合并，例如玩家变成了恶魔，则在恶魔行动时一并唤醒，通知角色变化并让他执行相应行动。",
+    "name": "麻脸巫婆",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "21_rulindadi",
+    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "name": "炸弹人",
+    "team": "minion",
+    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "22_rulindadi",
+    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png",
+    "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "诺-达鲺",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "23_rulindadi",
+    "image": "/scripts/assets/community/902e9b964cd71921812581f98c568135fef151d2623b43be945cf0dc457f47ba.png",
+    "otherNightReminder": "决定今晚谁会因为军团能力死亡。",
+    "reminders": [
+      "即将被处决",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "军团",
+    "team": "demon",
+    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "24_rulindadi",
+    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "otherNightReminder": "唤醒混沌，让他攻击一名玩家。如果他杀死了自己邻近的镇民，所有善良玩家中毒。",
+    "reminders": [
+      "死亡",
+      "善良中毒"
+    ],
+    "name": "混沌",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，除旅行者外的所有善良玩家会中毒直到下个黄昏。",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "25_rulindadi",
+    "image": "/scripts/assets/community/8431c8947fe17c82f1fadc9f0924ad6105caec34fdffb70b3b53a78f5e62e589.png",
+    "name": "圣洁之魂",
+    "team": "fabled",
+    "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_rulindadi",
+    "name": "莽夫&麻脸巫婆",
+    "team": "jinxes",
+    "ability": "被麻脸巫婆创造的邪恶莽夫无法因为自身能力转变为善良阵营。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_rulindadi",
+    "name": "麻脸巫婆&村夫",
+    "team": "jinxes",
+    "ability": "如果村夫在场数量不足3人，麻脸巫婆可以创造新的村夫。如果她这么做，村夫的醉酒效果可能会更换目标。",
+    "edition": "custom"
+  },
+  {
+    "id": "28_rulindadi",
+    "name": "军团&吹笛者",
+    "team": "jinxes",
+    "ability": "如果军团在场，每个夜晚至少会有一名听到笛声的玩家死亡。",
+    "edition": "custom"
+  }
+]

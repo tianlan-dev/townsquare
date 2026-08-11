@@ -28,15 +28,33 @@
       </li>
     </ul>
     <div v-else-if="activeEditionTab === 'custom'" class="script-browser">
-      <input
-        class="script-search"
-        type="search"
-        :value="scriptSearch"
-        placeholder="搜索剧本名称或拼音"
-        aria-label="搜索自定义剧本"
-        @input="updateScriptSearch($event.target.value)"
-        @keyup.stop=""
-      />
+      <div class="script-filter-controls">
+        <input
+          class="script-search"
+          type="search"
+          :value="scriptSearch"
+          placeholder="搜索剧本名称、拼音、作者或期号"
+          aria-label="搜索自定义剧本名称、拼音、作者或期号"
+          @input="updateScriptSearch($event.target.value)"
+          @keyup.stop=""
+        />
+        <select
+          class="script-tag-filter"
+          :value="scriptTag"
+          aria-label="按标签筛选自定义剧本"
+          @change="updateScriptTag($event.target.value)"
+          @keyup.stop=""
+        >
+          <option value="">所有标签</option>
+          <option
+            v-for="tag in availableScriptTags"
+            :key="tag.value"
+            :value="tag.value"
+          >
+            {{ tag.label }}
+          </option>
+        </select>
+      </div>
       <div class="script-alphabet" aria-label="按剧本名称首字母跳转">
         <button
           v-for="letter in scriptAlphabet"
@@ -162,6 +180,15 @@ function getScriptNameData(script) {
         .join(""),
   ).replace(/[^a-z]/g, "");
   const initialMatch = pinyinName.match(/[a-z]/);
+  const scriptTags = (Array.isArray(script.tags) ? script.tags : [])
+    .map((tag) => {
+      const label = String(tag || "").trim();
+      return { label, value: normalizeScriptText(label) };
+    })
+    .filter((tag) => tag.value);
+  const metadataText = normalizeScriptText(
+    [script.author, script.version, script.issue].filter(Boolean).join(" "),
+  );
 
   return {
     normalizedName,
@@ -169,6 +196,8 @@ function getScriptNameData(script) {
     pinyinName,
     compactPinyin,
     initials,
+    scriptTags,
+    metadataText,
     initial:
       /^[A-Z]$/i.test(script.initial) && script.initial
         ? script.initial.toUpperCase()
@@ -204,6 +233,7 @@ export default {
       scripts: [],
       scriptAlphabet: SCRIPT_ALPHABET,
       scriptSearch: "",
+      scriptTag: "",
       scriptPage: 1,
       activeScriptInitial: "",
     };
@@ -219,6 +249,12 @@ export default {
       return this.scripts
         .map((script) => Object.assign({}, script, getScriptNameData(script)))
         .sort((a, b) => {
+          if (!a.initial && b.initial) return 1;
+          if (a.initial && !b.initial) return -1;
+          const initialComparison = a.initial.localeCompare(b.initial, "en", {
+            sensitivity: "base",
+          });
+          if (initialComparison) return initialComparison;
           if (!a.sortKey && b.sortKey) return 1;
           if (a.sortKey && !b.sortKey) return -1;
           return (
@@ -229,17 +265,39 @@ export default {
           );
         });
     },
+    availableScriptTags() {
+      const tags = new Map();
+      this.scriptCatalog.forEach((script) => {
+        script.scriptTags.forEach((tag) => {
+          if (!tags.has(tag.value)) tags.set(tag.value, tag.label);
+        });
+      });
+      return Array.from(tags, ([value, label]) => ({ value, label })).sort(
+        (a, b) =>
+          a.label.localeCompare(b.label, "zh-CN", {
+            sensitivity: "base",
+            numeric: true,
+          }),
+      );
+    },
+    tagFilteredScripts() {
+      if (!this.scriptTag) return this.scriptCatalog;
+      return this.scriptCatalog.filter((script) =>
+        script.scriptTags.some((tag) => tag.value === this.scriptTag),
+      );
+    },
     filteredScripts() {
       const query = normalizeScriptText(this.scriptSearch);
-      if (!query) return this.scriptCatalog;
+      if (!query) return this.tagFilteredScripts;
       const compactQuery = query.replace(/\s+/g, "");
-      return this.scriptCatalog.filter(
+      return this.tagFilteredScripts.filter(
         (script) =>
           script.normalizedName.includes(query) ||
           script.compactName.includes(compactQuery) ||
           script.pinyinName.includes(query) ||
           script.compactPinyin.includes(compactQuery) ||
-          script.initials.includes(compactQuery),
+          script.initials.includes(compactQuery) ||
+          script.metadataText.includes(query),
       );
     },
     visibleScripts() {
@@ -255,7 +313,7 @@ export default {
     },
     availableScriptInitials() {
       return new Set(
-        this.scriptCatalog.map((script) => script.initial).filter(Boolean),
+        this.tagFilteredScripts.map((script) => script.initial).filter(Boolean),
       );
     },
     scriptPageItems() {
@@ -315,6 +373,11 @@ export default {
       this.scriptPage = 1;
       this.activeScriptInitial = "";
     },
+    updateScriptTag(value) {
+      this.scriptTag = value;
+      this.scriptPage = 1;
+      this.activeScriptInitial = "";
+    },
     setScriptPage(page) {
       this.scriptPage = Math.min(
         this.totalScriptPages,
@@ -323,11 +386,11 @@ export default {
       this.activeScriptInitial = "";
     },
     jumpToScriptInitial(letter) {
-      const scriptIndex = this.scriptCatalog.findIndex(
+      const scriptIndex = this.tagFilteredScripts.findIndex(
         (script) => script.initial === letter,
       );
       if (scriptIndex < 0) return;
-      const targetScript = this.scriptCatalog[scriptIndex];
+      const targetScript = this.tagFilteredScripts[scriptIndex];
       this.scriptSearch = "";
       this.scriptPage = Math.floor(scriptIndex / SCRIPT_PAGE_SIZE) + 1;
       this.activeScriptInitial = letter;
@@ -730,11 +793,34 @@ export default {
   text-align: center;
 }
 
+.script-filter-controls {
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  width: min(760px, calc(100% - 20px));
+  margin: 0 auto 10px;
+}
+
 .script-search {
   box-sizing: border-box;
-  display: block;
-  width: min(520px, calc(100% - 20px));
-  margin: 0 auto 10px;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 8px 12px;
+  border: 2px solid #8a7864;
+  background: #111;
+  color: inherit;
+  font: inherit;
+
+  &:focus {
+    border-color: red;
+    outline: none;
+  }
+}
+
+.script-tag-filter {
+  box-sizing: border-box;
+  flex: 0 1 220px;
+  min-width: 160px;
   padding: 8px 12px;
   border: 2px solid #8a7864;
   background: #111;
@@ -871,6 +957,16 @@ ul.editions .edition {
 }
 
 @media (max-width: 520px) {
+  .script-filter-controls {
+    flex-wrap: wrap;
+  }
+
+  .script-search,
+  .script-tag-filter {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
   .script-alphabet {
     grid-template-columns: repeat(9, 30px);
   }

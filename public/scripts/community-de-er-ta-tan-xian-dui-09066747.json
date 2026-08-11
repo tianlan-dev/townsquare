@@ -1,0 +1,531 @@
+[
+  {
+    "id": "_meta",
+    "name": "德尔塔探险队",
+    "description": "",
+    "author": "Essler",
+    "logo": "/scripts/assets/community/24375af872fa1a704adc1c609011b96e718d1d2e106d746e0d9d07fd9dbce8d8.png",
+    "almanac": "https://www.bloodstar.xyz/p/Essler/The_Delta_Expedition/almanac.html",
+    "state": [],
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": ""
+  },
+  {
+    "id": "remnant_the_delta_expedition",
+    "image": "/scripts/assets/community/3f2bf3c5e36174a2380dd1c4cbfe2741cfaebb05aaa2bd125691226ea9d6d228.png",
+    "firstNightReminder": "你得知哪个邪恶角色在场。",
+    "name": "幸存者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你得知有哪些邪恶角色在场。你可能会被当作邪恶阵营、爪牙角色或恶魔角色。",
+    "flavor": "It's about time someone showed up! You have no idea what we're dealing with here.",
+    "firstNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "squadleader_the_delta_expedition",
+    "image": "/scripts/assets/community/8bfbbabffd3b5f9992ea1cb2357af35df900d1ca200b1109cfa92fb5e0a83006.png",
+    "firstNightReminder": "你得知三个角色：其中两个角色是与你邻近的玩家的角色，另一个角色不在场。",
+    "name": "小队长",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你得知三个角色：其中两个角色是与你邻近的玩家的角色，另一个角色不在场。",
+    "flavor": "Your profiles were very impressive. I look forward to working with you.",
+    "firstNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "lodger_the_delta_expedition",
+    "name": "寄宿者",
+    "ability": "在你的首个夜晚，你得知一个不在场的外来者角色。[-1外来者]",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "18",
+    "otherNight": "",
+    "firstNightReminder": "你得知一个不在场的外来者角色。",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "image": "/scripts/assets/community/f5843470dcdae3d3184f21cd5889f790312f3d4134f44f572f81f670bd5205b5.png",
+    "edition": "custom"
+  },
+  {
+    "id": "xenobiologist_the_delta_expedition",
+    "image": "/scripts/assets/community/3443fa820cfe556a3038dec4712e97da21d16026a6ea001183ef6080d84a7d0b.png",
+    "firstNightReminder": "选择一名玩家。你会得知他和与他邻近的两名玩家中邪恶玩家的数量。",
+    "otherNightReminder": "选择一名玩家。你会得知他和与他邻近的两名玩家中邪恶玩家的数量。",
+    "name": "异星生物学家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他和与他邻近的两名玩家中邪恶玩家的数量。",
+    "flavor": "I'm detecting signs of alien activity over here. They're close.",
+    "firstNight": 21,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "radiooperator_the_delta_expedition",
+    "image": "/scripts/assets/community/ac21891504b87dc64a97ed4bb8dfbf52b7c324571499be4ff4ec2ea7b07ffc00.png",
+    "firstNightReminder": "选择两名玩家：你会得知恶魔是否在他们和他们之间较近一侧的玩家中。如果这两名玩家中有且仅有一名是邪恶的，你中毒直到下个黄昏。",
+    "otherNightReminder": "选择两名玩家：你会得知恶魔是否在他们和他们之间较近一侧的玩家中。如果这两名玩家中有且仅有一名是邪恶的，你中毒直到下个黄昏。",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "无线电操作员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知恶魔是否在他们和他们之间较近一侧的玩家中。如果这两名玩家中有且仅有一名是邪恶的，你中毒直到下个黄昏。",
+    "flavor": "These readings don't make any sense. I'm getting some kind of interference. Buy me some time while I figure it out.",
+    "firstNight": 20,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "admiral_the_delta_expedition",
+    "image": "/scripts/assets/community/240225af827891ff086d926c6e35c508720dc18d84c5ccb1d0ccdb4a0b060de9.png",
+    "firstNightReminder": "选择两名玩家：你会得知他们是否都是镇民。",
+    "otherNightReminder": "选择两名玩家：你会得知他们是否都是镇民。",
+    "name": "星海上将",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们是否都是镇民。",
+    "flavor": "A good leader knows their crew. I happen to be quite good.",
+    "firstNight": 22,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "vaccinist_the_delta_expedition",
+    "image": "/scripts/assets/community/5819b718beb8cd0a5e247e8e839860645306fa059c7d7eea9f89e4dba87eac4c.png",
+    "firstNightReminder": "选择一名玩家 & 猜测他的角色: 如果你猜对了，从现在起爪牙的负面能力对他无效。",
+    "otherNightReminder": "选择一名玩家 & 猜测他的角色: 如果你猜对了，从现在起爪牙的负面能力对他无效。",
+    "reminders": [
+      "负面无效"
+    ],
+    "name": "疫苗专家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家并猜测他的角色：如果你猜对了，从现在起爪牙的负面能力对他无效。",
+    "flavor": "Please fill out the form accurately. Certain medical conditions may make some versions of the vaccine inert.",
+    "firstNight": 16,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "manager_the_delta_expedition",
+    "image": "/scripts/assets/community/d5dd2f628f5e6432be7152f2fc3d53b096e1f12945f4c1bf3777861305d3046a.png",
+    "firstNightReminder": "选择一名玩家：当晚他可以行动两次，然后他可能死亡。",
+    "otherNightReminder": "选择一名玩家：当晚他可以行动两次，然后他可能死亡。",
+    "reminders": [
+      "行动两次",
+      "死亡"
+    ],
+    "name": "经理",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：当晚他的能力可以生效两次，然后他可能死亡。",
+    "flavor": "You haven't been meeting your quota. If you need more time to work, it will have to come from your sleep schedule.",
+    "firstNight": 12,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "mechanist_the_delta_expedition",
+    "name": "机械师",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果他处于死亡状态，他可以选择失去投票标记以重新获得能力直到下个黄昏。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "",
+    "otherNight": "6",
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒机械师询问他是否进行选择，若进行选择，选择一名玩家：如果他处于死亡状态，他可以选择失去投票标记以重新获得能力直到下个黄昏。",
+    "reminders": [
+      "机械化"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/9faac1c06d21dcbc38d6ec0fcda9f311d443e99e2798cf1e486b895fa162bfe0.png",
+    "edition": "custom"
+  },
+  {
+    "id": "pundit_the_delta_expedition",
+    "name": "权威专家",
+    "ability": "每个白天，你可以私下拜访说书人并提交一个声明。随后，你会得知一件正确性与你的声明相同的事。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/3884dd69734265d027a8870b89a94767224b0c5da193b60fa072e257e58affaa.png",
+    "edition": "custom"
+  },
+  {
+    "id": "fieldresearcher_the_delta_expedition",
+    "name": "实地研究员",
+    "ability": "如果邪恶玩家选择了你，你会得知此事并得知选择你的角色，即使你已死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/fcfa9328512945958cfb65aa0d9338354986148516b3b1ae8152319ab0e916be.png",
+    "edition": "custom"
+  },
+  {
+    "id": "marine_the_delta_expedition",
+    "name": "星海陆战队员",
+    "ability": "如果恶魔攻击了你，一名邪恶玩家也会死亡。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/0d80b2fd4c6cc6f3cf753df2aeace261304b7c914b926aab371de9eb6b4bd9c9.png",
+    "edition": "custom"
+  },
+  {
+    "id": "executive_the_delta_expedition",
+    "name": "执行官",
+    "ability": "当你首次提名爪牙或外来者时，被你提名的玩家会立即被处决。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/be7e3acebf0e3d8ef57691e4945962f8b0823f0d9118013b259d7c037099c2f9.png",
+    "edition": "custom"
+  },
+  {
+    "id": "expendable_the_delta_expedition",
+    "name": "消耗品",
+    "ability": "与你邻近的邪恶玩家会得知消耗品在场。如果邪恶玩家选择了你，你可能会死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": "13",
+    "otherNight": "",
+    "firstNightReminder": "与你邻近的邪恶玩家会得知你在场。",
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/9855c982ca016ef6e8d2f04aba4433b2f8b32de726d042528a4ab939abd62487.png",
+    "edition": "custom"
+  },
+  {
+    "id": "glitch_the_delta_expedition",
+    "name": "系统漏洞",
+    "ability": "与你邻近的存活玩家可能会被当作善良阵营或外来者。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/f9bdcaec4ee402da147a7c671b2b54c016b85a8bd825f0fbcc4de622e765e93f.png",
+    "edition": "custom"
+  },
+  {
+    "id": "technician_the_delta_expedition",
+    "name": "技术员",
+    "ability": "当你死亡时，当晚恶魔玩家可以选择让自己变成由自己选择的恶魔角色，或让爪牙变成由恶魔玩家选择的爪牙角色。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "当晚换帽"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/1485e54c6ce0643416285f147ee4ddf040ba7387a149cdecd5c486d9898dd43c.png",
+    "edition": "custom"
+  },
+  {
+    "id": "nebulox_the_delta_expedition",
+    "name": "星云",
+    "ability": "当你存活时，镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜，即使你已死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/214cb0564bc372d958352f244b7918558217690b557f881d2e48aa9304e562ee.png",
+    "edition": "custom"
+  },
+  {
+    "id": "fuzzle_the_delta_expedition",
+    "name": "绒毛寄生体",
+    "ability": "每个夜晚，你要选择一名存活玩家：他获得你的能力。拥有该能力的镇民玩家被再次选择时，会中毒直到下个黄昏。(获得该能力的玩家当晚不能使用该能力。如果场上存在多个具有该能力的玩家，在绒毛寄生体的行动顺序时，会从绒毛寄生体开始按照顺时针的方向依次被唤醒并做出选择。）",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": "14",
+    "otherNight": "4",
+    "firstNightReminder": "Choose a living player. They gain this ability. Townsfolk chosen a second time are poisoned until dusk instead.",
+    "otherNightReminder": "选择一名存活玩家：他获得你的能力。拥有该能力的镇民玩家被再次选择时，会中毒直到下个黄昏。",
+    "reminders": [
+      "寄生",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/436216edd9ef9c521b37c03095b9b08fd83abc38ed2a152655388b7c41f046b0.png",
+    "edition": "custom"
+  },
+  {
+    "id": "obtruder_the_delta_expedition",
+    "name": "入侵者",
+    "ability": "每个白天，你可以拜访说书人以得知两件错误的事，随后你可以选择让其中一件事变为正确的。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "弄假成真"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/f2b59cbc8bd913907388aa26da270e6a2505b2d1f9b6fe784d5b9e4e3d66e736.png",
+    "edition": "custom"
+  },
+  {
+    "id": "maddoctor_the_delta_expedition",
+    "name": "癫狂博士",
+    "ability": "每个夜晚，你要选择一名玩家：他明天白天需要“疯狂”地证明自己是恶魔，否则他可能会变成恶魔，或者中毒，或者变成中毒的恶魔。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": "15",
+    "otherNight": "8",
+    "firstNightReminder": "选择一名玩家：他明天白天需要“疯狂”地证明自己是恶魔，否则他可能会变成恶魔或中毒，亦或变成中毒的恶魔。",
+    "otherNightReminder": "选择一名玩家：他明天白天需要“疯狂”地证明自己是恶魔，否则他可能会变成恶魔或中毒，亦或变成中毒的恶魔。",
+    "reminders": [
+      "疯狂",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/8af619d31689f3ef96461f679acc23c0e34d7b8d719cabb840dab9bdfcb68814.png",
+    "edition": "custom"
+  },
+  {
+    "id": "skulllatcher_the_delta_expedition",
+    "name": "猎头者",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：如果他是存活的外来者，他死亡，然后你会被当作恶魔。[+1外来者]",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": "",
+    "otherNight": "13",
+    "firstNightReminder": "",
+    "otherNightReminder": "每局游戏限一次，选择一名玩家：如果他是存活的外来者，他死亡，然后你会被当作恶魔。[+1外来者]",
+    "reminders": [
+      "死亡",
+      "被当作恶魔",
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "image": "/scripts/assets/community/0426d41c5434aeb4a24b45c85d92d9f8e37bba1b286208e50a72d4d1a1499420.png",
+    "edition": "custom"
+  },
+  {
+    "id": "six_the_delta_expedition",
+    "name": "样本#006",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡，然后如果与他邻近的存活玩家中有外来者，他们会一同死亡。[+1外来者]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": "",
+    "otherNight": "10",
+    "firstNightReminder": "",
+    "otherNightReminder": "选择一名玩家：他和与他邻近的玩家中的外来者玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "image": "/scripts/assets/community/99f69cf4dcb9eb898ec1933f60518e8124726b873ad7683d58c25097d01d6a95.png",
+    "edition": "custom"
+  },
+  {
+    "id": "manstalker_the_delta_expedition",
+    "name": "追踪者",
+    "ability": "你不会死于处决。每个夜晚*，你要选择一名善良玩家:他死亡，然后他要选择一名玩家:被选择的玩家也会死亡。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": "",
+    "otherNight": "9",
+    "firstNightReminder": "",
+    "otherNightReminder": "选择一名善良玩家：他死亡，然后他要选择一名玩家:被选择的玩家也会死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/9d4ac0633dfb1d57bca2422e25909ccfa9c58a58b3cc5a94e31c49c0e50a0116.png",
+    "edition": "custom"
+  },
+  {
+    "id": "collective_the_delta_expedition",
+    "name": "集群者",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。爪牙可能会被当作集群者。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": "",
+    "otherNight": "11",
+    "firstNightReminder": "",
+    "otherNightReminder": "选择一名玩家：他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/5577f8c5e6f6bad4452e93a7d49a3b451d6e6642fe398ea2028d1e907f72c2cc.png",
+    "edition": "custom"
+  },
+  {
+    "id": "theentity_the_delta_expedition",
+    "name": "未知存在体",
+    "ability": "每个夜晚*，你要选择一名玩家：他会变成邪恶的未知存在体，然后你死亡。[无爪牙在场]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": "",
+    "otherNight": "12",
+    "firstNightReminder": "",
+    "otherNightReminder": "选择一名玩家：他变成邪恶的未知存在体，然后你死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "image": "/scripts/assets/community/f610dce57ce56b65eff8d95e99ac25defd9b22d095e1837fec4119c6804400c8.png",
+    "edition": "custom"
+  },
+  {
+    "id": "centipede_the_delta_expedition",
+    "name": "巨型蜈蚣",
+    "ability": "你和与你邻近的玩家会被当作存活，直到你们都死亡。[你会与一名与你阵营相同的玩家邻座]",
+    "team": "traveller",
+    "sch_team": "旅行者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "真正死亡",
+      "活尸"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/3578ea4e552c9c3ad73010dc720601f18268c46754b1b19fe57d05dd85a91c3c.png",
+    "edition": "custom"
+  },
+  {
+    "id": "voidbeast_the_delta_expedition",
+    "name": "虚空兽",
+    "ability": "与你邻近的两名对立阵营玩家之一醉酒。",
+    "team": "traveller",
+    "sch_team": "旅行者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/0de341f72931808ab1fb21ef73b5a72ab6daf8f3277fdc384732469864a5cbfe.png",
+    "edition": "custom"
+  },
+  {
+    "id": "parasite_the_delta_expedition",
+    "name": "寄生虫",
+    "ability": "每个夜晚，你要选择一名玩家：当他需要进行选择时，改为由你代替他选择。",
+    "team": "traveller",
+    "sch_team": "旅行者",
+    "firstNight": "11",
+    "otherNight": "3",
+    "firstNightReminder": "选择一名玩家：当他需要进行选择时，改为由你代替他选择。",
+    "otherNightReminder": "选择一名玩家：当他需要进行选择时，改为由你代替他选择。",
+    "reminders": [
+      "主宰"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/68eade774b84893ec0939f5736afb9df1c1fbe2a41fbadd2ca689b9743f92b54.png",
+    "edition": "custom"
+  },
+  {
+    "id": "fleshstitcher_the_delta_expedition",
+    "name": "血肉缝合者",
+    "ability": "你拥有与你邻近的两名已死亡的相同阵营玩家的能力。",
+    "team": "traveller",
+    "sch_team": "旅行者",
+    "firstNight": "",
+    "otherNight": "",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "获得能力"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/5f660d7dd48f8ed4a8d04f2e1b8e9cb4ab2d11c69181a640d81a417492fa2da3.png",
+    "edition": "custom"
+  },
+  {
+    "id": "doomherald_the_delta_expedition",
+    "name": "厄运宣告者",
+    "ability": "每个夜晚*，当天白天一名玩家曾“疯狂”证明过的事可能会成真。",
+    "team": "traveller",
+    "sch_team": "旅行者",
+    "firstNight": "",
+    "otherNight": "2",
+    "firstNightReminder": "",
+    "otherNightReminder": "当天白天一名玩家曾“疯狂”证明过的事可能会成真。",
+    "reminders": [
+      "疯狂成真"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "image": "/scripts/assets/community/bc5cf1fcf9dc8b8c3d783eff9207a82101985a78879d28dd55d03d63cbaad6ea.png",
+    "edition": "custom"
+  },
+  {
+    "id": "0_meta",
+    "image": "/scripts/assets/community/980dd5c0024860d40e1c666def929b7692df1ab2e977b73bbb7d997c11651881.png",
+    "name": "技术员&未知生命体",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果恶魔选择变成未知生命体，存活的爪牙会变成善良的镇民角色，死亡的爪牙会变成邪恶的未知生命体。",
+    "edition": "custom"
+  }
+]

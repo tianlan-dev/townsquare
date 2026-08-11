@@ -1,0 +1,626 @@
+[
+  {
+    "id": "_meta",
+    "name": "乱世新生",
+    "author": "Besjbo",
+    "logo": "/scripts/assets/community/71bd7739898112e97f6909994b4052476c8a083a5360c32c252701520914d8fc.png",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": "2.999"
+  },
+  {
+    "id": "wiretap",
+    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "edition": "custom",
+    "firstNight": 40,
+    "firstNightReminder": "指向两名玩家。",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "得知",
+      "敌国",
+      "本国"
+    ],
+    "setup": false,
+    "name": "窃听者",
+    "team": "townsfolk",
+    "ability": "你是以下两个角色之一"
+  },
+  {
+    "id": "domestic",
+    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "本国-窃听者",
+    "team": "token",
+    "ability": "在你的首个夜晚，你会得知两名相同阵营的玩家。如果他们都死亡，在当晚你会被唤醒并得知他们的角色。"
+  },
+  {
+    "id": "foreign",
+    "image": "/scripts/assets/community/561a89b6e78a6174581376596b9b6c35691c715c85247369e3c1d6d46c5415c5.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "敌国-窃听者",
+    "team": "token",
+    "ability": "在你的首个夜晚，你会得知两名不同阵营的玩家。如果你死亡，在当晚你会被唤醒并得知他们之中的邪恶角色。"
+  },
+  {
+    "id": "double agent",
+    "image": "/scripts/assets/community/6cf3a87216f0440da3e1115eb32f7c755fdc14ebcaa8dc78277ae1ba164c4f29.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "代替"
+    ],
+    "setup": false,
+    "name": "双面间谍",
+    "team": "townsfolk",
+    "ability": "你代替一名爪牙被恶魔得知，且被代替的爪牙不会得知爪牙信息。"
+  },
+  {
+    "id": "sleeper",
+    "image": "/scripts/assets/community/707de0cdb1f51dd1dfcb56a13cbcca2429c4da322f58fb0c15667791822066ba.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 85,
+    "otherNightReminder": "If the Sleeper was mad about their token, wake them and show them the character token of the in-play Demon.",
+    "reminders": [],
+    "remindersGlobal": [
+      "是潜伏者",
+      "复制",
+      "疯狂"
+    ],
+    "setup": false,
+    "name": "潜伏者",
+    "team": "townsfolk",
+    "ability": "你不知道你是潜伏者。你以为你是一个在场的爪牙角色。你和该爪牙都不会得知爪牙信息。如果你“疯狂”地证明自己是你认知的角色，在当晚你会被唤醒并得知在场的恶魔角色。"
+  },
+  {
+    "id": "Jurist",
+    "image": "/scripts/assets/community/543cb0645cabf17795149df77b288a3c6f68a1129c1e75a6c383276bafbf3b1d.png",
+    "edition": "custom",
+    "firstNight": 50,
+    "firstNightReminder": "法官指向一名玩家。若该角色已死亡或邪恶阵营，则展示其角色标记；若该角色存活且属于善良阵营，则展示另一种标记。",
+    "otherNight": 90,
+    "otherNightReminder": "法官指向一名玩家。若该角色已死亡或邪恶阵营，则展示其角色标记；若该角色存活且属于善良阵营，则展示另一种标记。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "法官",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名非旅行者玩家：你会得知他的角色。如果你选择了一名存活的善良玩家，你会得知错误信息。"
+  },
+  {
+    "id": "freelancer",
+    "image": "/scripts/assets/community/cb00ede5ce0d4612aa5f2b1547d52db829b18726185d7290719224fc4d35c32f.png",
+    "edition": "custom",
+    "firstNight": 60,
+    "firstNightReminder": "自由职业者指向一名善良角色。指向该玩家（若该角色不在场则可随意指向）。每局游戏仅能提供一次错误信息。",
+    "otherNight": 100,
+    "otherNightReminder": "自由职业者指向一名善良角色。指向该玩家（若该角色不在场则可随意指向）。每局游戏仅能提供一次错误信息。",
+    "reminders": [
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "自由工作者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一个善良角色：你会得知他是谁。如果该角色不在场，你会得知任意信息。每局游戏限一次，你会得知错误信息。"
+  },
+  {
+    "id": "blacklister",
+    "image": "/scripts/assets/community/2f12ff88625c783f0ee46dfaca45590e51b60aac5f6043cfea2ebbe7b3bf03b9.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 110,
+    "otherNightReminder": "秘密警察指向一名邪恶角色。展示该邪恶角色今日私语对象的角色标记。若该角色不在场，则展示任意标记。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "秘密警察",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一个邪恶角色：你会得知一个今天白天与该角色私聊过的角色。如果该角色不在场，你会得知任意一个角色。"
+  },
+  {
+    "id": "black ops",
+    "image": "/scripts/assets/community/c05703629a2c2c88bb9ec63cc8bd2a5c65700ead04fe1b334712aabb4e83fbc9.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 120,
+    "otherNightReminder": "点头表示秘密军事行动组今日是否与恶魔私聊，摇头则表示否。",
+    "reminders": [
+      "恶魔耳语"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "秘密军事行动组",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知你今天白天是否与恶魔私聊过。"
+  },
+  {
+    "id": "populist",
+    "image": "/scripts/assets/community/a64c9c3bee71aeca514420e3fb4d40ae961ba4a32d73b11124567660d9de213b.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 130,
+    "otherNightReminder": "展示一位玩家的角色令牌，该玩家疯狂证明自己是民众。",
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "民众",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知一个今天白天“疯狂”地证明自己是“民众”的玩家的角色。"
+  },
+  {
+    "id": "eavesdropper",
+    "image": "/scripts/assets/community/58f755f0faaaf166e89bd8335373316539e5aeedd9e47d9fbfc1d595a602c1e8.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "监听员",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人以得知有关你今天白天所有私聊过的玩家的信息，顺序不分先后。"
+  },
+  {
+    "id": "diplomat",
+    "image": "/scripts/assets/community/8efe588347b566e3a09dfa55e1480bf43752f82a8d67f2d903e183e39f1cb26d.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "促成协议",
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "外交官",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人并促成除你以外的两名玩家（与上一天不同）的协议，违背协议的非旅行者玩家会醉酒直到下个黎明。"
+  },
+  {
+    "id": "truther",
+    "image": "/scripts/assets/community/c6ac2903eddddd3e57de1780de7a7df935c240ee3d76dcbd64593caa0769460f.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "怀疑论者",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒并可以猜测所有玩家的角色，你会得知猜测正确的数量。"
+  },
+  {
+    "id": "symbologist",
+    "image": "/scripts/assets/community/ebb519f47a4a8703f1f658a01e8718a1be62979fed03ba6dd0a256735dd2201b.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "符号学家",
+    "team": "townsfolk",
+    "ability": "你拥有三个镇民角色的能力，但其中一个镇民角色的能力失效，你不会得知获得了哪些角色的能力。你也会被当作能力正常生效的镇民角色。"
+  },
+  {
+    "id": "Ambassador",
+    "image": "/scripts/assets/community/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 75,
+    "otherNightReminder": "若公参尚未使用能力，则会发出肯定或否定的信号。若为肯定，则成为旅行者。",
+    "reminders": [
+      "撤销"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "公参",
+    "team": "townsfolk",
+    "ability": "所有角色的能力对你无效。如果恶魔在夜晚选择不发动能力，你失去能力。每局游戏限一次，在夜晚时*，你可能会变成一个旅行者角色。"
+  },
+  {
+    "id": "libertine",
+    "image": "/scripts/assets/community/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 10,
+    "otherNightReminder": "移动醉酒标记到一名与持有者今天白天私聊过的玩家.",
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒",
+      "私聊",
+      "是无忧鬼"
+    ],
+    "setup": true,
+    "name": "无忧鬼",
+    "team": "outsider",
+    "ability": "你不知道你是无忧鬼。你以为你是一个镇民角色，但其实你不是，你拥有该镇民角色的能力，直到你死亡。每个夜晚*，醉酒标记会移动到一名与持有者今天白天私聊过的玩家，即使你已死亡。[初始时你持有醉酒标记。]"
+  },
+  {
+    "id": "activist",
+    "image": "/scripts/assets/community/52c5512637c3069f17a160b0e00145c8b6e7cc0043008a31c7f1df3310d401e2.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 80,
+    "otherNightReminder": "每个夜晚*，如果今天白天没有存活的玩家“疯狂”地证明自己是示威者，可能会有一名玩家死亡，即使你已死亡。",
+    "reminders": [
+      "疯狂",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "示威者",
+    "team": "outsider",
+    "ability": "每个夜晚*，如果今天白天没有存活的玩家“疯狂”地证明自己是示威者，可能会有一名玩家死亡，即使你已死亡。"
+  },
+  {
+    "id": "M.A.D. Man",
+    "image": "/scripts/assets/community/c8c552916447975236857673ba1033d59df68b154a02d1293531b6b388ba2367.png",
+    "edition": "custom",
+    "firstNight": 80,
+    "firstNightReminder": "贪生狂人指向一名玩家。 移动核武器标志到那名玩家。",
+    "otherNight": 140,
+    "otherNightReminder": "贪生狂人指向一名玩家。移动核武器标志到那名玩家。",
+    "reminders": [
+      "核武器"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "贪生狂人",
+    "team": "outsider",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名存活的玩家：如果明天白天你或他之一被处决，你必须和他一起使用核武器。"
+  },
+  {
+    "id": "sympathizer",
+    "image": "/scripts/assets/community/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
+    "edition": "custom",
+    "firstNight": 30,
+    "firstNightReminder": "唤醒恶魔.指向叛逃者, 并向其展示叛逃者标记.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Defector"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "忠心者",
+    "team": "outsider",
+    "ability": "会有一名镇民转变为邪恶阵营，但他以为他是善良阵营。你拥有他的能力，但你不知道他是谁以及你获得了哪个角色的能力。恶魔知道他是谁。[会有一名镇民变成邪恶且拥有叛逃者标记]"
+  },
+  {
+    "id": "drunkbutnottb",
+    "image": "/scripts/assets/community/bef7f30132dff621f19ca5a0e1ce63530886600732f60f011d8e19d9ff5d2998.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "无忧鬼-醉酒",
+    "team": "token",
+    "ability": "你不知道你是无忧鬼。你以为你是一个镇民角色，但其实你不是。"
+  },
+  {
+    "id": "defector",
+    "image": "/scripts/assets/community/425b3ba03d1b1320079a5d7fd0f7075d2beb67fc72a04034c79930a55aba2861.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "叛逃者",
+    "team": "token",
+    "ability": "你以为你是善良阵营玩家且拥有其能力, 但你是邪恶的。"
+  },
+  {
+    "id": "agitprop",
+    "image": "/scripts/assets/community/028de83fa1b8ab1ff1301ab60399e2f88e41a0501e88ad3bd202f313605a9e9e.png",
+    "edition": "custom",
+    "firstNight": 10,
+    "firstNightReminder": "宣传部部长指向一名玩家并选择一条宣言。唤醒该玩家，向其展示疯狂标记，并展示该宣言。",
+    "otherNight": 30,
+    "otherNightReminder": "宣传部部长指向一名玩家并选择一条宣言。唤醒该玩家，向其展示疯狂标记，并展示该宣言。",
+    "reminders": [
+      "疯狂"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "宣传部部长",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家和一个声明：他明天白天和夜晚需要“疯狂”地证明该声明是正确，不然他可能被处决。"
+  },
+  {
+    "id": "brainwasher",
+    "image": "/scripts/assets/community/188f89cdd382fabbfd6eb4e8c83d7080cfee7e12a3cf0d4a5660e264c0dbf831.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "心灵控制"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "思想改造家",
+    "team": "minion",
+    "ability": "在初始设置阶段，镇民可能会收到错误的角色标记。他们会以自己真正的角色发动能力。"
+  },
+  {
+    "id": "templar",
+    "image": "/scripts/assets/community/cab1fac90ed6dbfc3eca0791969065f1b5dbfa73b8c5f2029219beb0676bfc6e.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "圣殿武士",
+    "team": "minion",
+    "ability": "如果一名邪恶玩家提名并处决了一名在今天白天没有进行私聊的善良玩家，邪恶阵营获胜。如果白天没人死亡，邪恶阵营获胜。"
+  },
+  {
+    "id": "chairman",
+    "image": "/scripts/assets/community/bdac815a898e54ecdee1a4c4ad9218f5022fa818bb108967073b3ae8535ec182.png",
+    "edition": "custom",
+    "firstNight": 9,
+    "firstNightReminder": "指向外来者玩家。",
+    "otherNight": 20,
+    "otherNightReminder": "若主席尚未动用能力，则示意同意或不同意。若同意，唤醒所有爪牙；若他们认同善良外来者，则与恶魔互换身份与阵营。唤醒两位玩家告知其新身份与阵营。",
+    "reminders": [
+      "会议结束"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "主席",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知哪些玩家是外来者。每局游戏限一次，在夜晚时*，你可以唤醒所有爪牙并决定一名善良的外来者和恶魔交换角色和阵营。[-1或+1外来者]"
+  },
+  {
+    "id": "comintern",
+    "image": "/scripts/assets/community/6f455826f8c9f9cec8953a8eba10e3c06e44472393e29f77d07d563a933155db.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 40,
+    "otherNightReminder": "会有玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "赤色联盟",
+    "team": "demon",
+    "ability": "在你的首个夜晚，你会得知一名赤色联盟和一名善良玩家。赤色联盟互相不认识。每个夜晚*，你可能死亡。当且仅当没有除旅行者以外的善良玩家存活时，邪恶阵营获胜。你也会被当作是爪牙。[多数玩家为赤色联盟]"
+  },
+  {
+    "id": "draconis",
+    "image": "/scripts/assets/community/62f89cfd5f3f384289c3d3ca352f84d71089f7bd5881f91c87791948cd69a95c.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "德拉科尼指向一个角色. 如果这个角色在场，他死亡且一名邪恶玩家获得这个角色的能力；如果这个角色不在场，会有一名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "德拉科尼",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一个角色：如果这个角色在场，他死亡且一名邪恶玩家获得这个角色的能力；如果这个角色不在场，会有一名玩家死亡。"
+  },
+  {
+    "id": "seclorum",
+    "image": "/scripts/assets/community/43188ef6d8d89cf35132527597a93e638e0c6b5dc1fe1880131e325446a39151.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 60,
+    "otherNightReminder": "回答一个关于今天白天所有与新世界秩序私聊过的玩家的问题",
+    "reminders": [
+      "私聊",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "新世界秩序",
+    "team": "demon",
+    "ability": "每个夜晚*，你可以询问说书人一个关于今天白天所有与你私聊过的玩家的问题并获得答案。然后你要选择一名玩家：他死亡。"
+  },
+  {
+    "id": "kabal",
+    "image": "/scripts/assets/community/0554b6c41dc09f09001444d7712d420ed776711521fda9e6457ff8c3f0d1ee8a.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 70,
+    "otherNightReminder": "卡巴拉指向一名玩家并选择10个字, 然后选择另一名玩家杀死. 唤醒第一名选择的玩家并展示卡巴拉发送的10个字。",
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "name": "卡巴拉",
+    "team": "demon",
+    "ability": "每个夜晚*，你要向任意一个玩家发送10个字，然后选择一名玩家：他死亡。如果一名外来者是对善良阵营落败负最大责任的人且他没有参与使用核武器，他转变阵营并获胜。[+1外来者]"
+  },
+  {
+    "id": "AmbassadorTraveler",
+    "image": "/scripts/assets/community/c0724cc0be9af88e1bb16a36583a7dfc97123e6a21d108892cce09306c599d72.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "撤销"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "公参-旅行者",
+    "team": "traveler",
+    "ability": "所有角色的能力对你无效。如果恶魔在夜晚选择不发动能力，你失去能力。每局游戏限一次，在夜晚时*，你可能会变成一个旅行者角色。"
+  },
+  {
+    "id": "president",
+    "image": "/scripts/assets/community/73f65b0cc7e998d6b74ae4e73048c8e38a31805ee65caa9bbb050b445d1e475b.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "被弹劾"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "总统",
+    "team": "traveler",
+    "ability": "每个白天，你可以公开作出一项承诺。如果有玩家举报你违背了诺言，你在那个白天不能投票。如果没有玩家举报，你转变阵营。[无初始信息]"
+  },
+  {
+    "id": "celebrity",
+    "image": "/scripts/assets/community/5c5072ec83919e1056bd7775942628de8b5a89d33589bcfee6ba07d9f7e5a994.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "如果有玩家对你今天白天发表的言论“疯狂”，其中一名玩家的能力可以生效两次，直至下个黄昏。",
+    "reminders": [
+      "疯狂",
+      "行动两次"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "名流",
+    "team": "traveler",
+    "ability": "每个白天，如果有玩家对你今天白天发表的言论“疯狂”，其中一名玩家的能力可以生效两次，直至下个黄昏。"
+  },
+  {
+    "id": "interpol",
+    "image": "/scripts/assets/community/813423e09e60b047f70164b848cdccfdc8e380fa1ce0d256a3468225fed3d77d.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "说谎者"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "国际刑警",
+    "team": "traveler",
+    "ability": "每个白天，你可以对任意私聊中的两名玩家发起审问。如果其中一名玩家在今天白天被处决，你得知今天你审问过的玩家中是否有人在说谎。"
+  },
+  {
+    "id": "united nations",
+    "image": "/scripts/assets/community/d9264e40c5f8afd21d06a4cae5ce1eb2404ce4728bacb83fc2d89ba1f2710df1.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "批准"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "联合国",
+    "team": "traveler",
+    "ability": "每个白天，如果所有存活玩家表决对你予以认可，你主持当天的提名处决，且你可以作出除你以外的打破提名投票规则的事。"
+  },
+  {
+    "id": "spymaster",
+    "image": "/scripts/assets/community/146d9d27a3437a1f1b4b50c28b73b1ab139abaf4f9780d39e333a847b5f7efbe.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 2,
+    "otherNightReminder": "间谍首脑可以选择其中一个私信你的玩家：他变成其他角色。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "间谍首脑",
+    "team": "traveler",
+    "ability": "每个夜晚*，所有玩家可以私信你。然后，你可以选择其中一个私信你的玩家：他变成其他角色。"
+  },
+  {
+    "id": "the bomb",
+    "image": "/scripts/assets/community/0b725d61e58290a8e0a1a7adff929b8da000ddadf81951f7f9c59ba08ebf35f9.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "核云边缘",
+    "team": "fabled",
+    "ability": "如果两名玩家同意使用核武器，且其中至少有一名玩家是善良的，邪恶阵营获胜。但如果使用核武器时场上邪恶玩家数量大于或等于善良玩家数量，对调胜负结果。"
+  },
+  {
+    "id": "fibbinfabled",
+    "image": "/scripts/assets/community/9f2cb97ec67dd8609c61827dbc086874f4bc509759b9b7ec7a0e84f53904180b.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "联邦国际黑袋局F.I.B.B.I.N.",
+    "team": "fabled",
+    "ability": "每局游戏限一次，恶魔会得到一个恩惠。赤色联盟：说书人可以使用一次爪牙能力。德拉科尼：你拥有一个在场的镇民角色的能力。新世界秩序：一名在今天白天与你私聊过的玩家得知错误信息。卡巴拉：你会得知哪名外来者玩家对邪恶阵营帮助最大。"
+  }
+]

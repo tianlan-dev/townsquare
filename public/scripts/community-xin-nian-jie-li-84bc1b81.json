@@ -1,0 +1,439 @@
+[
+  {
+    "id": "_meta",
+    "name": "信念解离+",
+    "author": "Cake&David",
+    "logo": "/scripts/assets/community/dda03f5fa87e85f88f9d43347b23c7e76b094c39435a85caa614310548d0eb10.png",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": ""
+  },
+  {
+    "id": "copycat",
+    "image": "/scripts/assets/community/7981c06125d045994375e461c6345e18442b4ede6c0573f1fbc2396836a1673b.png",
+    "firstNight": 10,
+    "firstNightReminder": "唤醒模仿者，让他指向一名玩家。如果那名玩家属于善良阵营，向模仿者展示“你是”提示卡，并展示那名玩家的角色标记。将模仿者的角色标记替换为那名玩家的角色标记，并为他放置是模仿者标记。否则：向模仿者展示“你是”提示卡，并展示任意角色标记，并为他放置是醉酒标记。",
+    "otherNight": 0,
+    "reminders": [
+      "是模仿者",
+      "醉酒"
+    ],
+    "name": "模仿者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你要选择一名玩家：如果他是善良玩家，你变为他的角色。如果他是邪恶玩家，你醉酒。",
+    "edition": "custom"
+  },
+  {
+    "id": "headnurse",
+    "image": "/scripts/assets/community/860cc03e381e7456c164cb4b31b012e8f56e287122dafa2d4e9fcc41376fd6cb.png",
+    "firstNight": 0,
+    "otherNight": 9,
+    "otherNightReminder": "移除巡视标记。唤醒护士长并让他指向一名玩家，为他放置巡视标记，让护士长入睡。在合适的时候唤醒护士长，向他指出那名玩家选择的目标，并展示那名玩家得到的信息。如果护士长选中了恶魔，唤醒恶魔，向他展示“你是”提示卡，并展示他的恶魔角色标记。",
+    "reminders": [
+      "巡视"
+    ],
+    "name": "护士长",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：你会得知他选择了谁，以及他得知了什么。如果你选中了恶魔，他会得知自己的恶魔角色。你不可能是恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "psychologist",
+    "image": "/scripts/assets/community/88d6dd506db9337998ddd3e9f653c0a32ddf9e94d495342858b13f39300c7e54.png",
+    "firstNight": 0,
+    "otherNight": 10,
+    "otherNightReminder": "唤醒心理医生并让他指向一名玩家，让心理医生入睡。唤醒那名玩家，向他展示“这名角色选择了你”并展示心理医生角色标记。如果他摇头拒绝，让他入睡。如果他点头同意，如果他是恶魔，向他点头代表“是”，否则摇头代表“否”。唤醒心理医生，给出相同的信息。",
+    "reminders": [],
+    "name": "心理医生",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果他同意，你们都会得知他是否是恶魔。你不可能是恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "conspiracy",
+    "image": "/scripts/assets/community/b3d54a4d5535aaf6ae26b507e4307d8f1843b2ab752e06332b9f2aa28415da0a.png",
+    "firstNight": 14,
+    "firstNightReminder": "唤醒阴谋论者，让他指出与初始邪恶玩家数量相等的玩家。如果他指出所有邪恶玩家，善良阵营获胜。",
+    "otherNight": 12,
+    "otherNightReminder": "移除被选择标记。唤醒阴谋论者，让他指出与初始邪恶玩家数量相等的玩家。如果他指出所有邪恶玩家，善良阵营获胜。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "阴谋论者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择与初始邪恶玩家数量相等的玩家：如果你选择的玩家都是邪恶的，善良阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "vividdreamer",
+    "image": "/scripts/assets/community/c71dbba8bd84003ccf8483688d2e86a3e202842dd9f51a84e813df383b2ad9e5.png",
+    "firstNight": 13,
+    "firstNightReminder": "唤醒白日梦想家，说书人选择一个信息选项。让白日梦想家指向两名玩家，按照信息选项，点头代表“是”，摇头代表“否”。为白日梦想家放置该信息选项的标记。",
+    "otherNight": 11,
+    "otherNightReminder": "移除被选择标记。唤醒白日梦想家，说书人选择一个信息选项。让白日梦想家指向两名玩家，按照信息选项，点头代表“是”，摇头代表“否”。为白日梦想家放置该信息选项的标记。如果今晚是偶数夜晚，向白日梦想家展示他的两个信息选项标记，但不要告诉他哪个选项对应哪个信息，同时移除所有信息选项标记。",
+    "reminders": [
+      "被选择",
+      "是否同一阵营",
+      "是否与恶魔邻近",
+      "是否有恶魔"
+    ],
+    "name": "白日梦想家",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家。你会得知他们：1)是否同一阵营，或2)是否与恶魔邻近，或3)是否有恶魔。你只会得知是或否。你会在每个偶数夜晚得知自己的信息对应以上哪两项。",
+    "edition": "custom"
+  },
+  {
+    "id": "pillhorder",
+    "image": "/scripts/assets/community/d98dff568fcc95c5b793dd5b2de129614efcb7fce65fa84f30c3ed35aa56fb7e.png",
+    "firstNight": 11,
+    "firstNightReminder": "唤醒药师，让他指向两名玩家。为其中一名玩家放置保护标记，为另一名玩家放置醉酒标记。",
+    "otherNight": 2,
+    "otherNightReminder": "移除所有标记。唤醒药师，让他指向两名玩家。为其中一名玩家放置保护标记，为另一名玩家放置醉酒标记。",
+    "reminders": [
+      "保护",
+      "醉酒"
+    ],
+    "name": "药师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：一名玩家健康清醒且恶魔的负面能力对他无效，另一名玩家醉酒，直至下个黄昏。",
+    "edition": "custom"
+  },
+  {
+    "id": "securityguard",
+    "image": "/scripts/assets/community/8711904a40cc0ea16b0d39d08ad66df5c4d04c755ebf6c3ea8521a639ea7f50a.png",
+    "firstNight": 12,
+    "firstNightReminder": "唤醒安保人员，让他指向两名玩家。如果他们之中有爪牙，为他放置不被唤醒标记。",
+    "otherNight": 3,
+    "otherNightReminder": "移除所有标记。唤醒安保人员，让他指向两名玩家。如果他们之中有爪牙，为他放置不被唤醒标记。",
+    "reminders": [
+      "被选择",
+      "不被唤醒"
+    ],
+    "name": "安保人员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：如果你选中了爪牙，他当晚不会因其自身能力而被唤醒。",
+    "edition": "custom"
+  },
+  {
+    "id": "clairvoyant",
+    "image": "/scripts/assets/community/91e1216ba3dccdfac85860fcc295af863a98ded42dd7c5c73239ca8ed44266ed.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 8,
+    "otherNightReminder": "移除被选择标记。唤醒灵视者，让他指向两名玩家。为他们放置回归本质标记。",
+    "reminders": [
+      "被选择",
+      "回归本质"
+    ],
+    "name": "灵视者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们被当作正确的阵营和角色类型，即使因为任何原因无法被当作正确的阵营和角色类型。",
+    "edition": "custom"
+  },
+  {
+    "id": "liar",
+    "image": "/scripts/assets/community/d1b64c52390fc051f70ad9903204cd5f2b43918cace1b9791099caa2de85ffa5.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 5,
+    "otherNightReminder": "移除被选择标记。唤醒说谎者，让他指向两名玩家。如果选中恶魔，为恶魔放置表面中毒标记。",
+    "reminders": [
+      "被选择",
+      "表面中毒"
+    ],
+    "name": "惯性说谎者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：如果你选中了恶魔，恶魔自以为的角色能力按中毒处理。",
+    "edition": "custom"
+  },
+  {
+    "id": "doomsdaypreacher",
+    "image": "/scripts/assets/community/abe41c27901c0a145a1fd70a0bf858b0897b2e52badc4dcf3e27da441b52f9c3.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "移除所有标记。唤醒末日传道士，让他指向两名玩家。告诉末日传道士，他们今晚选择玩家的总次数。",
+    "reminders": [
+      "被选择"
+    ],
+    "name": "末日传道士",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：你会得知他们今晚选择玩家的总次数。",
+    "edition": "custom"
+  },
+  {
+    "id": "scaredycat",
+    "image": "/scripts/assets/community/d6f82f723ee6bf0a7b75e3a4c4f368a3252b0514c9722601bf99fcfc1da5a02a.png",
+    "firstNight": 0,
+    "otherNight": 7,
+    "otherNightReminder": "移除所有标记。唤醒胆小鬼，让他指出二至四名玩家。如果选中恶魔，为胆小鬼放置不会死亡标记。",
+    "reminders": [
+      "被选择",
+      "不会死亡"
+    ],
+    "name": "胆小鬼",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择二至四名玩家：如果你选中了恶魔，你今晚不会被恶魔杀死。",
+    "edition": "custom"
+  },
+  {
+    "id": "corpseobsessed",
+    "image": "/scripts/assets/community/0c91c193891201ed0b1e1d278cf203a0db19be2fd6d3059936e03b2b4953c1f9.png",
+    "firstNight": 16,
+    "firstNightReminder": "唤醒冰恋者，让他指向两名玩家。为他们放置迷恋标记。",
+    "otherNight": 15,
+    "otherNightReminder": "唤醒冰恋者，如果有死亡玩家带有得知标记，向冰恋者展示他的角色标记。移除所有标记。然后让冰恋者指向两名玩家。为他们放置迷恋标记。",
+    "reminders": [
+      "迷恋",
+      "得知"
+    ],
+    "name": "冰恋者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：如果他们之中有人在下个黄昏前死亡，你会在当晚得知他的角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "interrogator",
+    "image": "/scripts/assets/community/07a3e0aee08771b92dffe339105e4aeef90b9abfa30915fb23d85439a307bdff.png",
+    "firstNight": 15,
+    "firstNightReminder": "为一名玩家放置干扰项标记。唤醒审讯官，让他指向两名玩家。如果他们之中有邪恶玩家，点头代表“是”，否则，摇头表示“否”。",
+    "otherNight": 14,
+    "otherNightReminder": "移除被选择标记。唤醒审讯官，让他指向两名玩家。如果他们之中有邪恶玩家，点头代表“是”，否则，摇头表示“否”。",
+    "reminders": [
+      "被选择",
+      "干扰项"
+    ],
+    "remindersGlobal": [],
+    "name": "审讯官",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有邪恶玩家。会有一名玩家始终被你的能力当作邪恶玩家。你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "anarchist",
+    "image": "/scripts/assets/community/c8da6454ae8130ff966cc95503a0ef40126afb5494ef8fcbfb8185c127676779.png",
+    "firstNight": 9,
+    "firstNightReminder": "唤醒无政府主义者，让他指向两名存活玩家。为他们放置被选择标记。他们之中任何一名玩家被其他玩家使用自身能力选择时，可能会改为选中另一名玩家。",
+    "otherNight": 1,
+    "otherNightReminder": "唤醒无政府主义者，让他指向两名存活玩家。为他们放置被选择标记。他们之中任何一名玩家被其他玩家使用自身能力选择时，可能会改为选中另一名玩家。",
+    "reminders": [
+      "被选择"
+    ],
+    "remindersGlobal": [],
+    "name": "无政府主义者",
+    "team": "outsider",
+    "ability": "每个夜晚，你要选择两名存活的玩家：今晚任何玩家使用自身能力选择他们之一作为目标时，可能会改为选中另一名玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "nihilist",
+    "image": "/scripts/assets/community/76dbac0f971f0e3d2b55b07122728a47c26167068b3f9597523c507c475e7ef5.png",
+    "firstNight": 0,
+    "otherNight": 6,
+    "otherNightReminder": "唤醒虚无主义者，让他指向两名存活玩家。为他们放置被选择标记。他们之中任何一名玩家在今晚死亡时，可能会改为虚无主义者死亡。",
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "name": "虚无主义者",
+    "team": "outsider",
+    "ability": "每个夜晚*，你要选择两名存活的玩家：如果今晚他们之中有人死亡，你可能会代替死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "rambler",
+    "image": "/scripts/assets/community/7f2f3915092981536cdfdef49514478e6cf55e67de18dd7299ef5c0e6e3cd621.png",
+    "firstNight": 19,
+    "firstNightReminder": "说书人选择一名没有已疯狂标记的玩家。告诉他今天白天要“疯狂”地证明自己是漫步者。为他放置疯狂标记。",
+    "otherNight": 22,
+    "otherNightReminder": "移除疯狂标记，并为那名玩家放置已疯狂标记。说书人选择一名没有已疯狂标记的玩家。告诉他今天白天要“疯狂”地证明自己是漫步者。为他放置疯狂标记。",
+    "reminders": [
+      "疯狂",
+      "已疯狂"
+    ],
+    "name": "漫步者",
+    "team": "outsider",
+    "ability": "每个白天，会有一名与之前不同的玩家“疯狂”地证明自己是漫步者，否则他可能会被处决。如果你“疯狂”地证明自己是漫步者，你可能会被处决。你不可能是恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "joker",
+    "image": "/scripts/assets/community/0895d2710e608f2549c8df333fa02060ec43a11973257f5bd23d819a8643a872.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "丑角",
+    "team": "outsider",
+    "ability": "如果你是恶魔，在夜晚时你会造成的死亡会指向任意玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "gaslighter",
+    "image": "/scripts/assets/community/455f2be3adfce4ad2ab19e80d44176a1d06a5eccc2e40d099da0f57792d91761.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "remindersGlobal": [
+      "是镇民"
+    ],
+    "setup": true,
+    "name": "煤气灯人",
+    "team": "minion",
+    "ability": "会有一名镇民自以为是煤气灯人，且无法使用他自己的能力，即使你已死亡。如果你被处决，他重获他的能力。其他爪牙不会得知你，你不会得知其他爪牙。",
+    "edition": "custom"
+  },
+  {
+    "id": "shoulderangel",
+    "image": "/scripts/assets/community/def36faf49495c9fc074b5ef4fc922a1dc11eb355782ca4279caa94a64456d0d.png",
+    "firstNight": 0,
+    "otherNight": 4,
+    "otherNightReminder": "移除罪孽标记。唤醒断罪天使，让他指向一名与上个夜晚不同的玩家，为那名玩家放置罪孽标记。",
+    "reminders": [
+      "罪孽"
+    ],
+    "name": "断罪天使",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）。他在当晚会被当作邪恶阵营和恶魔角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "shoulderdevil",
+    "image": "/scripts/assets/community/22949735ae0b851232294323751b1fb4f41e1a23f4c50dcaa4b1f26107347096.png",
+    "firstNight": 18,
+    "firstNightReminder": "唤醒一名善良玩家，展示“该角色在场”提示卡，并展示代行邪魔的角色标记。为他放置被知晓标记。",
+    "otherNight": 16,
+    "otherNightReminder": "移除被选择标记。唤醒代行邪魔，让他指向一名玩家。为那名玩家放置被选择标记。那名玩家选择的玩家之一会死亡。",
+    "reminders": [
+      "被知晓",
+      "被选择",
+      "死亡"
+    ],
+    "name": "代行邪魔",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家：他今晚选择的玩家之一会死亡。始终会有一名善良玩家知道你在场。恶魔无法制造死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "schemer",
+    "image": "/scripts/assets/community/b96566bb68780ddd5026774767a0dcbeb10c0d5b51a7e2d888b2a171d820ed5e.png",
+    "firstNight": 17,
+    "firstNightReminder": "唤醒幕后黑手，给他指出恶魔当晚选择的玩家。如果他点头，为他放置化身为魔标记，将他的角色标记替换为那个善良角色标记，并为他放置恶魔提示标记（可以与当前恶魔不同）。向他展示“你是”提示卡，并展示一个善良角色。。移除当前恶魔的恶魔提示标记。如果幕后黑手变为二重身，他会得知一个在场的善良角色，并且他与那个在场善良角色的玩家都变为二重身。",
+    "otherNight": 21,
+    "otherNightReminder": "唤醒幕后黑手，给他指出恶魔当晚选择的玩家。如果他点头，为他放置化身为魔标记，将他的角色标记替换为那个善良角色标记，并为他放置恶魔提示标记（可以与当前恶魔不同）。向他展示“你是”提示卡，并展示一个善良角色。移除当前恶魔的恶魔提示标记。如果幕后黑手变为二重身，他会得知一个在场的善良角色，并且他与那个在场善良角色的玩家都变为二重身。",
+    "reminders": [
+      "化身为魔"
+    ],
+    "remindersGlobal": [],
+    "name": "幕后黑手",
+    "team": "minion",
+    "ability": "每个夜晚，你可以选择变为恶魔。如果你变为恶魔，当前的恶魔玩家会变为他自以为的善良角色。你会得知恶魔每晚选择的玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "psycho",
+    "image": "/scripts/assets/community/72501d217dac2c1a84517053a4436400ddaaca3d162bbbe21c5e1b03ed6298ef.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 17,
+    "otherNightReminder": "如果精神分裂杀死了爪牙，为他放置保留能力标记。唤醒爪牙并指向精神分裂，并展示“是恶魔”提示卡。",
+    "remindersGlobal": [
+      "死亡",
+      "保留能力",
+      "是精神分裂"
+    ],
+    "setup": true,
+    "name": "精神分裂",
+    "team": "demon",
+    "ability": "[只能是镇民]被你杀死的爪牙保留能力，且得知你是谁。",
+    "edition": "custom"
+  },
+  {
+    "id": "maniac",
+    "image": "/scripts/assets/community/e915bb173412e383d1d9395776f0cb1602059424bd89871a3a036359f00a0962.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 18,
+    "otherNightReminder": "如果躁狂症首次选择并杀死镇民，为他放置中毒标记。与那个镇民邻近的一名玩家死亡。",
+    "remindersGlobal": [
+      "死亡",
+      "中毒",
+      "是躁狂症"
+    ],
+    "setup": true,
+    "name": "躁狂症",
+    "team": "demon",
+    "ability": "[只能是镇民]你首次杀死的镇民会中毒，改为与他邻近的一名玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "sociopath",
+    "image": "/scripts/assets/community/c1570e4e308b984f7aedb0cc69cf29f811495ac40ff1cdacca2fd4f6ebc00db7.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 19,
+    "otherNightReminder": "如果反社会人格首次选择并杀死外来者，与那个外来者邻近的一名玩家死亡。",
+    "remindersGlobal": [
+      "死亡",
+      "已选外来者",
+      "是反社会人格"
+    ],
+    "setup": true,
+    "name": "反社会人格",
+    "team": "demon",
+    "ability": "[只能是外来者]你首次杀死外来者时，改为与他邻近的一名玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "doppelganger",
+    "image": "/scripts/assets/community/f535b36e8735eb6396cfab0b677fe193f4e94d36dc4c360dcc400bdaba77061a.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 20,
+    "otherNightReminder": "",
+    "remindersGlobal": [
+      "死亡",
+      "是二重身"
+    ],
+    "setup": true,
+    "name": "二重身",
+    "team": "demon",
+    "ability": "[镇民或外来者]会有两名玩家是二重身且拥有相同角色能力。你们不能杀死彼此。每晚你们有且仅有一人能够造成死亡。[-1爪牙]",
+    "edition": "custom"
+  },
+  {
+    "id": "Misremember",
+    "image": "/scripts/assets/community/b4ea241fa590198382c9bf3a7e497e6e466bb44280d7bab3d36b4a24d99d7d43.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "认知错位",
+    "team": "fabled",
+    "ability": "恶魔自以为是一个善良角色，并能够正常使用该角色能力，但其实他不是。",
+    "edition": "custom"
+  },
+  {
+    "id": "twistedminds",
+    "image": "/scripts/assets/community/c121362192f73b7a955d2c0ba143df39cf7467fa331358f40ab27000fdaab69c.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "精神扭曲",
+    "team": "fabled",
+    "ability": "爪牙代替恶魔得知不在场角色。恶魔不会获得初始信息。爪牙可能会得知错误的恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "Blood thirst",
+    "image": "/scripts/assets/community/3dffdda024b122fedd97477a90c95e64f47a645c0b6d41765e88f28dbd9fcdb5.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "嗜血",
+    "team": "fabled",
+    "ability": "每个夜晚*，恶魔使用自身能力选择的玩家之一会死亡。",
+    "edition": "custom"
+  }
+]

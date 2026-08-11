@@ -1,0 +1,402 @@
+[
+  {
+    "id": "_meta",
+    "name": "鸦木万圣小镇",
+    "author": "SeaBound",
+    "logo": "/scripts/assets/community/5114b0ece55947e1f255f7b332a9fa9e745db943bcccfa602913dd41c2139379.png",
+    "almanac": "https://www.bloodstar.xyz/p/SeaBound/Halloween/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": "",
+    "issue": 774
+  },
+  {
+    "id": "scared_halloween",
+    "image": "/scripts/assets/community/df3582dd35bb7ae65c1a9ec89d74f8b70a79bd1d577192bb85755b9742b297eb.png",
+    "otherNightReminder": "A scared player dies, then if no one was executed yesterday, another player might die.",
+    "reminders": [
+      "恐慌",
+      "死亡",
+      "处决"
+    ],
+    "name": "恐慌",
+    "team": "fabled",
+    "ability": "每个夜晚*，会有一名恐慌的玩家死亡，随后，如果上个白天没有玩家被处决，可能会有另一名玩家死亡。恐慌的玩家在被提名时可能死亡。当存活玩家小于等于3名时，恐慌的玩家不会因被提名而死亡。",
+    "attribution": "Icon by Good Ware",
+    "flavor": "It’s Halloween. I guess everyone’s entitled to one good scare.",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "giftedchild_halloween",
+    "image": "/scripts/assets/community/9dd29fb8c32979b53c5a434b83a59bcbfb8fcab4f53b9ec02b484b654e600393.png",
+    "firstNightReminder": "天才儿童会得知哪些玩家是恐慌的(或者得知没有玩家是恐慌的)",
+    "name": "天才儿童",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知哪些玩家是恐慌的(或者你得知没有玩家是恐慌的)。",
+    "attribution": "Icon by Freepik",
+    "flavor": "I see dead people.",
+    "firstNight": 3900,
+    "edition": "custom"
+  },
+  {
+    "id": "psychnurse_halloween",
+    "image": "/scripts/assets/community/813fab122065b6150e0c02290027e8a71b6d507f1a24ccfff7a845c38d15a45f.png",
+    "firstNightReminder": "心理护士选择两名玩家得知他们之中有多少名玩家是现在是恐慌的",
+    "otherNightReminder": "心理护士选择两名玩家得知他们之中有多少名玩家是现在是恐慌的.",
+    "name": "心理护士",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活玩家，你会得知他们之中有多少名玩家是恐慌的。",
+    "attribution": "Icon by Witdhawaty",
+    "flavor": "Shock therapy should help.",
+    "firstNight": 4000,
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "trickrtreater_halloween",
+    "image": "/scripts/assets/community/b220754ec4772d992a4c08885145b8420a0fb53d5dbb7571aa62e4a0e0b9c388.png",
+    "firstNightReminder": "恶作剧者选择一名玩家，如果他是邪恶的，恶作剧者会醉酒。",
+    "otherNightReminder": "恶作剧者选择一名玩家，如果他是邪恶的，恶作剧者会醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "恶作剧者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是邪恶的，你醉酒直到下个黄昏。如果你未恐慌，你不会死亡。你可能不会死于处决。",
+    "attribution": "Icon by Freepik",
+    "flavor": "Trick or Treat.",
+    "firstNight": 3200,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "therapist1_halloween",
+    "image": "/scripts/assets/community/25f6d1a5beb1e65e8f770f0a34e61166f9f672d88e515c26a9e4ff2389880037.png",
+    "otherNightReminder": "康复师选择一名玩家：他解除恐慌状态。",
+    "name": "康复师",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名与上个夜晚不同的玩家：他解除恐慌状态。",
+    "attribution": "Icon by Freepik",
+    "flavor": "When did this all start?",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "caretaker_halloween",
+    "image": "/scripts/assets/community/da657f35404cbd2374633097be98c53ca82c4a090882bf650fae8e3fe78c8c02.png",
+    "otherNightReminder": "看护者得知有多少名存活善良玩家是恐慌的。",
+    "name": "看护者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名存活善良玩家是恐慌的。",
+    "attribution": "Icon by Tempo_doloe",
+    "flavor": "He knows us better than we do ourselves.",
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "scarecrow_halloween",
+    "image": "/scripts/assets/community/e96b95bf4291d7fa4a54ef735e493ccf746a30955f3c1ab999ed648268045e8f.png",
+    "otherNightReminder": "如果稻草人不是恐慌的，一名存活的恐慌玩家解除恐慌状态。",
+    "name": "稻草人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果你不是恐慌的，一名存活的恐慌玩家解除恐慌状态。",
+    "attribution": "Icon by Icongeek26",
+    "flavor": "I haven't got a brain and soon neither will you.",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "camper_halloween",
+    "image": "/scripts/assets/community/0fbb1c56f9a01eac0bafd1815cfee7ef81c533535fe2182e13f7f50379725ef6.png",
+    "otherNightReminder": "如果露营者是恐慌的，露营者会得知一个在场角色。否则，露营者会得知一个不在场角色。",
+    "name": "露营者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，如果你是恐慌的，你会得知一个在场角色。否则，你会得知一个不在场角色。",
+    "attribution": "Icon by Good Ware",
+    "flavor": "We should go skinny dipping in the lake!",
+    "otherNight": 22,
+    "edition": "custom"
+  },
+  {
+    "id": "jock_halloween",
+    "image": "/scripts/assets/community/f2845a5317889f1d01082fcc75c644e57bf97d6fbf112c03e2e99f015bb266ad.png",
+    "otherNightReminder": "如果体育生在白天提名过一名玩家, 他会得知那名玩家是否是邪恶的。",
+    "reminders": [
+      "提名"
+    ],
+    "name": "体育生",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知你最近提名过的玩家是否是邪恶的。如果你是恐慌的，他可能会被你当作是邪恶的。",
+    "attribution": "Icon by Victoruler",
+    "flavor": "They can't differentiate fantasy from reality!",
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "sacrifice_halloween",
+    "image": "/scripts/assets/community/1ba5bec8e378e0268fdc68b01676991c6cf461011521a21ad04b0a1c56733cea.png",
+    "otherNightReminder": "如果祭品选择使用他的能力, 他死亡且所有玩家解除恐慌状态。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "祭品",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择杀死自己，随后所有玩家解除恐慌状态。",
+    "attribution": "Icon by Iconic Panda",
+    "flavor": "Run! I'll hold them off!",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "overseer_halloween",
+    "image": "/scripts/assets/community/30dc78f59332b5eea269858701b4ade2704d0877dd2a15241128232afb722216.png",
+    "otherNightReminder": "如果监视者在白天选择使用他的能力, 他会得知你选择的玩家中有多少名玩家是邪恶的。",
+    "reminders": [
+      "选择",
+      "失去能力"
+    ],
+    "name": "监视者",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以公开选择至多3名玩家，如果其中超过1名玩家是邪恶的，你转变为恐慌状态。当晚，你会得知你选择的玩家中有多少名玩家是邪恶的。",
+    "attribution": "Icon by Icongeek26",
+    "flavor": "No jumping from the ledge!",
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "officer_halloween",
+    "image": "/scripts/assets/community/c60cbddee05a12f19086fa2d6d9c601b716f320e5a0ee8cce6ea5ed66a1bf6d1.png",
+    "reminders": [
+      "不会恐慌"
+    ],
+    "name": "警官",
+    "team": "townsfolk",
+    "ability": "与你邻座的两名存活善良玩家不会恐慌。",
+    "attribution": "Icon by Freepik",
+    "flavor": "Follow me, I'll keep you safe.",
+    "edition": "custom"
+  },
+  {
+    "id": "finalgirl_halloween",
+    "image": "/scripts/assets/community/8494399123a78aca2fde2869f363417896f17e53de5a3e7dd43d23a5385ee75b.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "幸存少女",
+    "team": "townsfolk",
+    "ability": "如果你是唯一且存活的善良玩家，你的阵营获胜。你不会恐慌。如果只有一名邪恶玩家存活，你失去你的能力。",
+    "attribution": "Icon by Freepik",
+    "flavor": "This is for my friends!",
+    "edition": "custom"
+  },
+  {
+    "id": "boomstick_halloween",
+    "image": "/scripts/assets/community/6ce47921ad72d6afa85bc4efcb0c5e57cc81623f36ae48e6fd4d0f3918438450.png",
+    "reminders": [
+      "提名"
+    ],
+    "name": "霰弹枪手",
+    "team": "townsfolk",
+    "ability": "如果你提名了一名存活爪牙玩家，与被提名的存活爪牙玩家邻近的善良玩家解除恐慌状态，但如果你提名了一名善良玩家，他转变为恐慌状态。如果你首次提名的存活玩家不是恶魔，他死亡。丧尸会被你当作是爪牙。",
+    "attribution": "Icon by Futuer",
+    "flavor": "Good, bad, I'm the guy with a gun.",
+    "edition": "custom"
+  },
+  {
+    "id": "naysayer1_halloween",
+    "image": "/scripts/assets/community/541c2093cbb9e3564cd6209a958d873bd6a6bce88b3a5079d46f0916825429e2.png",
+    "firstNightReminder": "反对者得知一个恶魔角色。",
+    "name": "反对者",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知一个恶魔角色。如果你“疯狂”地证明你是反对者或除你得知的恶魔角色以外恶魔在场，你可能会被处决。",
+    "attribution": "Icon by Freepik",
+    "flavor": "What?! That doesn't make any sense! You're crazy.",
+    "firstNight": 4100,
+    "edition": "custom"
+  },
+  {
+    "id": "abomination_halloween",
+    "image": "/scripts/assets/community/77e0254dae7e796c42d215c268bcec7fbbdc74d3d239fcdf97baf69aff7a4888.png",
+    "firstNightReminder": "如果至少有一名与憎恶邻近的存活玩家是善良的，其中一名玩家会转变为恐慌状态。",
+    "otherNightReminder": "如果至少有一名与憎恶邻近的存活玩家是善良的，其中一名玩家会转变为恐慌状态。",
+    "reminders": [
+      "获得能力"
+    ],
+    "name": "憎恶",
+    "team": "outsider",
+    "ability": "每个夜晚，如果至少有一名与你邻近的存活玩家是善良的，其中一名玩家会转变为恐慌状态。如果你在白天死亡，你不会失去你的能力。",
+    "attribution": "Icon by Freepik",
+    "flavor": "It's alive! It's alive!",
+    "firstNight": 3600,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "coward_halloween",
+    "image": "/scripts/assets/community/46d2030a9e097dffe6a8fd4ad4c40e81dd8063474efc0c81224b3dda3104e3d6.png",
+    "firstNightReminder": "如果胆小鬼转变为恐慌状态，他转变为邪恶。如果胆小鬼解除恐慌状态，他再次转变为善良。",
+    "otherNightReminder": "如果胆小鬼转变为恐慌状态，他转变为邪恶。如果胆小鬼解除恐慌状态，他再次转变为善良。",
+    "name": "胆小鬼",
+    "team": "outsider",
+    "ability": "当你转变为恐慌状态的时候，你转变为邪恶。",
+    "attribution": "Icon by Freepik",
+    "flavor": "I'm scared to close my eyes, I'm scared to open them!",
+    "firstNight": 3800,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "boyfriend_halloween",
+    "image": "/scripts/assets/community/15d81f679a98e11845211bc66379a29879bb5f3e9dd568d5896aee7fd7d18ac4.png",
+    "firstNightReminder": "如果男友首次转变为恐慌状态的时候，一名与男友邻近的存活镇民醉酒。",
+    "otherNightReminder": "如果男友首次转变为恐慌状态的时候，一名与男友邻近的存活镇民醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "男友",
+    "team": "outsider",
+    "ability": "当你首次转变为恐慌状态的时候，一名与你邻近的存活镇民醉酒。如果你在白天死亡且幸存少女在场，她死亡。",
+    "attribution": "Icon by Freepik",
+    "flavor": "Don't leave me, I'm scared alone!",
+    "firstNight": 3700,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "fanatic_halloween",
+    "image": "/scripts/assets/community/4a1e9d4bdabd7fdb2d9f24ff5cf4a2f60cef4a5a59c5414ccec04856e5e19367.png",
+    "otherNightReminder": "狂热分子可以选择使用他的能力，且狂热分子要选择一名玩家，他转变为恐慌状态。",
+    "reminders": [
+      "使用能力"
+    ],
+    "name": "狂热分子",
+    "team": "minion",
+    "ability": "每个夜晚*，你要选择一名玩家：他转变为恐慌状态。每局游戏限一次，你可以选择一名玩家：他转变为恐慌状态，即使因为任何原因让他不能转变为恐慌状态。",
+    "attribution": "Icon by Freepik",
+    "flavor": "The greater good!",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "exboyfriend_halloween",
+    "image": "/scripts/assets/community/efca3b3db7f7596d553ebea4f73a317e31b616478fbfc513d065354806de3d17.png",
+    "otherNightReminder": "如果幸存少女死亡，前男友要选择一名玩家：他转变为恐慌状态。",
+    "reminders": [
+      "已猜测"
+    ],
+    "setup": true,
+    "name": "前男友",
+    "team": "minion",
+    "ability": "每个夜晚*，如果幸存少女死亡，你要选择一名玩家：他转变为恐慌状态。每局游戏限一次，你可以公开选择一名存活玩家：如果你选中了幸存少女，你的阵营获胜。[+1幸存少女]",
+    "attribution": "Icon by Freepik",
+    "flavor": "You're going to regret leaving me!",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "fratboy_halloween",
+    "image": "/scripts/assets/community/86e1d86ab15b62570922ca8607747fff1ac65594566e963dd8548ede2697e425.png",
+    "otherNightReminder": "如果兄弟会成员选择使用他的能力，所有未恐慌的镇民中毒直到下个黄昏。",
+    "reminders": [
+      "中毒",
+      "使用能力"
+    ],
+    "name": "兄弟会成员",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择让所有未恐慌的镇民中毒直到下个黄昏。",
+    "attribution": "Icon by Freepik",
+    "flavor": "Chug, Chug, Chug!",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "babysitter_halloween",
+    "image": "/scripts/assets/community/364046905e98b11badeb8915ed0ea6297fd633349de1907176da69077422dd2b.png",
+    "firstNightReminder": "辣手保姆选择一名玩家。那名玩家中毒但不会死亡。",
+    "otherNightReminder": "辣手保姆可以选择一名玩家。那名玩家中毒但不会死亡。之前选择的玩家恢复健康但会死亡。",
+    "reminders": [
+      "保护",
+      "使用能力"
+    ],
+    "name": "辣手保姆",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你要选择一名善良玩家：他中毒但不会死亡。每局游戏限一次，在夜晚时，你可以选择一名与之前不同的善良玩家：他中毒但不会死亡，但你之前选择的玩家恢复健康但会死亡。如果小于等于五名玩家存活，你失去此能力。",
+    "attribution": "Icon by Freepik",
+    "flavor": "No TV after eight!",
+    "firstNight": 3100,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "dreamstalker_halloween",
+    "image": "/scripts/assets/community/cfc0a38a5bf5b33b71747eba12d0574476649ff05a9d8a109969b25f5f765b23.png",
+    "firstNightReminder": "告诉噩梦凶灵哪些存活玩家是恐慌的, 随后让他选择两名玩家, 他们转变为恐慌状态。",
+    "otherNightReminder": "告诉噩梦凶灵哪些存活玩家是恐慌的, 随后让他选择两名玩家, 他们转变为恐慌状态。",
+    "name": "噩梦凶灵",
+    "team": "demon",
+    "ability": "每个夜晚，你会得知哪些存活玩家是恐慌的，随后你要选择两名玩家：他们转变为恐慌状态。恐慌的善良玩家在被善良玩家提名时会死亡。",
+    "attribution": "Icon by Eucalyp",
+    "flavor": "Don't fall asleep!",
+    "firstNight": 3300,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "bloodymary_halloween",
+    "image": "/scripts/assets/community/c2d29eeb871f79c9ee990b35d8bf4a22ab656c1810635b27ac4111e1aec7347e.png",
+    "firstNightReminder": "Bloody Mary chooses a player, they become scared.",
+    "otherNightReminder": "血腥玛丽 要选择一名玩家：他转变为恐慌状态。随后，如果你上个白天没有被提名或一名善良玩家说过“血腥玛丽”，她要额外选择一名玩家：他死亡。",
+    "reminders": [
+      "被提名",
+      "Call",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "血腥玛丽",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家：他转变为恐慌状态。随后，如果你上个白天没有被提名或一名善良玩家说过“血腥玛丽”，你要额外选择一名玩家：他死亡，但其他玩家当晚不会因处于恐慌状态而死亡。[+1外来者]",
+    "attribution": "Icon by surang",
+    "flavor": "Bloody Mary, Bloody Mary, Bloody Mary.",
+    "firstNight": 3400,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "mask_halloween",
+    "image": "/scripts/assets/community/a7a81b96b5c14ccb8afb924a9934a5cbeced72a249d924c33a4185d295b45d0f.png",
+    "firstNightReminder": "The Mask chooses 2 players, both become scared. Then, a scared player might become calm.",
+    "otherNightReminder": "变相怪杰要选择两名玩家：他们转变为恐慌状态，随后一名恐慌的玩家可能解除恐慌状态。当变相怪杰首次被处决时，一名爪牙会在当晚死亡，但其他玩家当晚不会因处于恐慌状态而死亡。",
+    "reminders": [
+      "限一次",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "变相怪杰",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择两名玩家：他们转变为恐慌状态，随后一名恐慌的玩家可能解除恐慌状态。只有所有爪牙都死亡时，你才会死亡。当你首次被处决时，一名爪牙会在当晚死亡，但其他玩家当晚不会因处于恐慌状态而死亡。[-1外来者]",
+    "attribution": "Icon by Freepik",
+    "flavor": "Kill for Mother.",
+    "firstNight": 3500,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "zombie_halloween",
+    "image": "/scripts/assets/community/a91d43e377731d3740c184772fc9ce98e10c0eea4cf69d57ad44a999d29f97a9.png",
+    "otherNightReminder": "丧尸单独被唤醒选择一名玩家, 如果超过半数的丧尸选择了相同的一名玩家且多数玩家是善良玩家，他会变成邪恶的丧尸。否则，所有被选择的玩家转变为恐慌状态。",
+    "reminders": [
+      "咬"
+    ],
+    "setup": true,
+    "name": "丧尸",
+    "team": "demon",
+    "ability": "你不知道你的队友是谁，每个丧尸会得到两个伪装。每个夜晚*，所有丧尸会被单独唤醒并且要选择一名玩家：如果超过半数的丧尸选择了相同的一名玩家且多数玩家是善良玩家，他会变成邪恶的丧尸，否则，所有被选择的玩家转变为恐慌状态。[所有爪牙都是丧尸]",
+    "attribution": "Icon by DinosoftLabs",
+    "flavor": "When there's no more room in hell, the dead will walk the earth.",
+    "otherNight": 10,
+    "edition": "custom"
+  }
+]

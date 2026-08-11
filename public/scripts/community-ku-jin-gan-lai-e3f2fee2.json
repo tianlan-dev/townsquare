@@ -1,0 +1,316 @@
+[
+  {
+    "id": "_meta",
+    "name": "苦尽甘来",
+    "author": "Moll",
+    "logo": "/scripts/assets/community/4f5c070906670ac0c1fda669f64bd953c585135faf9c8e4f9e67956dea0af1ce.png",
+    "almanac": "有问题联系SE谢谢喵~",
+    "tags": [
+      "角色主题竞赛剧本"
+    ],
+    "version": "2",
+    "issue": 701
+  },
+  {
+    "id": "_kujinganlai",
+    "image": "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png",
+    "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
+    "name": "厨师",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
+    "firstNight": 3500,
+    "edition": "custom"
+  },
+  {
+    "id": "1_kujinganlai",
+    "image": "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png",
+    "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "name": "共情者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "firstNight": 3600,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "2_kujinganlai",
+    "image": "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png",
+    "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
+    "reminders": [
+      "保护"
+    ],
+    "name": "僧侣",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "3_kujinganlai",
+    "image": "/scripts/assets/community/3ee511768813cf5985376d222a596ee57b52d83e8a0e0109d7d3c1b799837396.png",
+    "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "name": "侍女",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "firstNight": 4200,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "4_kujinganlai",
+    "image": "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png",
+    "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "name": "城镇公告员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "5_kujinganlai",
+    "image": "/scripts/assets/community/af2b52a6072a5e287af6133b4e6585be87059195a564fb5d0b9d98465676cecc.png",
+    "firstNightReminder": "唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
+    "otherNightReminder": "如果女裁缝未曾使用能力，唤醒女裁缝，她可以摇头不使用能力，或选择除自己以外的两名玩家。以点头或摇头告知她选择的玩家是否为同一阵营。",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "女裁缝",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "firstNight": 3700,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "6_kujinganlai",
+    "image": "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png",
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "reminders": [
+      "被得知"
+    ],
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNight": 3800,
+    "edition": "custom"
+  },
+  {
+    "id": "7_kujinganlai",
+    "image": "/scripts/assets/community/f3ce00fd5efac7ffaedb2af5f51bb2fce077e25b9e062dec009a071c68a24517.png",
+    "firstNightReminder": "唤醒小精灵，对他展示一个在场镇民角色标记。",
+    "reminders": [
+      "疯狂",
+      "获得能力"
+    ],
+    "name": "小精灵",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个在场的镇民角色。如果你“疯狂”地证明你是该角色，当他死亡时你获得该角色的能力。",
+    "firstNight": 3200,
+    "edition": "custom"
+  },
+  {
+    "id": "8_kujinganlai",
+    "image": "/scripts/assets/community/835d1c603fcbeb93d4819aa4f29b9a5a0d21ec497681f17bf85aeb18474c495d.png",
+    "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
+    "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与之前气球驾驶员上一个夜晚得知过的玩家属于不同的角色类型。",
+    "reminders": [
+      "得知"
+    ],
+    "setup": true,
+    "name": "气球驾驶员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "firstNight": 3900,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "9_kujinganlai",
+    "image": "/scripts/assets/community/f04fece02b264a7126cba56e7d58dcd68e66697108659376cbdb135daa449cd0.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "渔夫",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。",
+    "edition": "custom"
+  },
+  {
+    "id": "10_kujinganlai",
+    "image": "/scripts/assets/community/30f3aa83fefec1b6fb5ae14f34dcc4d02d45226cf58474b3ddc03ca4d0983528.png",
+    "firstNightReminder": "唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
+    "otherNightReminder": "如果巡山人未曾使用能力，唤醒巡山人，他可以摇头不使用能力，或选择一名玩家。如果巡山人选中了落难少女，则在巡山人入睡后通知落难少女角色变化。",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": true,
+    "name": "巡山人",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的镇民角色。[+落难少女]",
+    "firstNight": 3300,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "11_kujinganlai",
+    "image": "/scripts/assets/community/910cbbef1e02b3f23b60917ebca51e0e0499d6072d8d1de930ec229ae0e0d643.png",
+    "firstNightReminder": "唤醒修行者，对他指向对应方向来告知他最近的邪恶玩家的方向。",
+    "name": "修行者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。如果两侧的邪恶玩家与你距离相等，你得知的信息由说书人决定。",
+    "firstNight": 4000,
+    "edition": "custom"
+  },
+  {
+    "id": "12_kujinganlai",
+    "image": "/scripts/assets/community/99f258e895c289adbc6d7f8e23277f576fca52ca80823adc95d9f88bc08d66c3.png",
+    "name": "戏法师",
+    "team": "townsfolk",
+    "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_kujinganlai",
+    "image": "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png",
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "name": "酒鬼",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "edition": "custom"
+  },
+  {
+    "id": "14_kujinganlai",
+    "image": "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png",
+    "name": "陌客",
+    "team": "outsider",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "15_kujinganlai",
+    "image": "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png",
+    "name": "畸形秀演员",
+    "team": "outsider",
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_kujinganlai",
+    "image": "/scripts/assets/community/2fdfc841dadab3c1d5bffca547a924c4a61a5441cb92bdc1209987ded9507c23.png",
+    "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
+    "reminders": [
+      "已被猜测"
+    ],
+    "name": "落难少女",
+    "team": "outsider",
+    "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+    "firstNight": 3400,
+    "edition": "custom"
+  },
+  {
+    "id": "17_kujinganlai",
+    "image": "/scripts/assets/community/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png",
+    "firstNightReminder": "唤醒间谍，让他查看魔典。",
+    "otherNightReminder": "唤醒间谍，让他查看魔典。",
+    "name": "间谍",
+    "team": "minion",
+    "ability": "每个夜晚，你能查看魔典。你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
+    "firstNight": 4100,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "18_kujinganlai",
+    "image": "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png",
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "红唇女郎",
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "19_kujinganlai",
+    "image": "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png",
+    "setup": true,
+    "name": "男爵",
+    "team": "minion",
+    "ability": "会有额外的外来者在场。[+2 外来者]",
+    "edition": "custom"
+  },
+  {
+    "id": "20_kujinganlai",
+    "image": "/scripts/assets/community/e9c98176c09a4bde4e0bdeaaf8b2481c27292a00e7e48d0b6c9171621ed0f18f.png",
+    "firstNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
+    "otherNightReminder": "唤醒洗脑师，让他选择一名玩家和角色列表上的一个善良角色，那名玩家明天需要“疯狂”证明自己是那个角色。在洗脑师入睡后通知那名玩家被洗脑。",
+    "reminders": [
+      "疯狂"
+    ],
+    "name": "洗脑师",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要“疯狂”地证明自己是这个角色，不然他可能被处决。",
+    "firstNight": 3100,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "21_kujinganlai",
+    "image": "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png",
+    "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "小恶魔",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "22_kujinganlai",
+    "image": "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png",
+    "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "诺-达鲺",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "23_kujinganlai",
+    "image": "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png",
+    "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "涡流",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "24_kujinganlai",
+    "name": "间谍&落难少女",
+    "team": "a jinxed",
+    "ability": "如果间谍正在场或曾经在场，落难少女中毒。",
+    "image": "/scripts/assets/community/6beb272a2352120650ffc467b982b5e7aec7a939cb6a1588be8aea47a30c9fa8.png",
+    "edition": "custom"
+  }
+]

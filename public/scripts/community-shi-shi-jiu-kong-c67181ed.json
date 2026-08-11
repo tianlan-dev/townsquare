@@ -1,0 +1,146 @@
+[
+  {
+    "id": "_meta",
+    "author": "Team Badger",
+    "logo": "/scripts/assets/community/41f24585cb04d05ac20df3a5cffeb5917bc0bcc30e11de21a44a157852f60ada.png",
+    "name": "十室九空",
+    "almanac": "https://www.bloodstar.xyz/p/SerraEvelyn/AbandonedHouses/almanac.html",
+    "firstNight": [
+      "dusk",
+      "highpriestess",
+      "empath",
+      "minioninfo",
+      "demoninfo",
+      "savant",
+      "exorcist",
+      "amnesiac",
+      "minstrel",
+      "juggler",
+      "chef",
+      "pixie",
+      "fisherman",
+      "towncrier",
+      "soldier",
+      "oracle",
+      "sweetheart",
+      "recluse",
+      "hermit",
+      "poisoner",
+      "wraith",
+      "fearmonger",
+      "godfather",
+      "yaggababble",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "minstrel",
+      "fisherman",
+      "exorcist",
+      "towncrier",
+      "empath",
+      "oracle",
+      "soldier",
+      "amnesiac",
+      "juggler",
+      "savant",
+      "highpriestess",
+      "chef",
+      "pixie",
+      "sweetheart",
+      "recluse",
+      "hermit",
+      "poisoner",
+      "wraith",
+      "fearmonger",
+      "godfather",
+      "yaggababble",
+      "dawn"
+    ],
+    "tags": [
+      "旋转木马快速上手剧本"
+    ],
+    "version": "",
+    "issue": 780
+  },
+  {
+    "id": "chef"
+  },
+  {
+    "id": "pixie"
+  },
+  {
+    "id": "empath"
+  },
+  {
+    "id": "highpriestess"
+  },
+  {
+    "id": "towncrier"
+  },
+  {
+    "id": "oracle"
+  },
+  {
+    "id": "exorcist"
+  },
+  {
+    "id": "savant"
+  },
+  {
+    "id": "fisherman"
+  },
+  {
+    "id": "juggler"
+  },
+  {
+    "id": "soldier"
+  },
+  {
+    "id": "amnesiac"
+  },
+  {
+    "id": "minstrel"
+  },
+  {
+    "id": "hermit"
+  },
+  {
+    "id": "recluse"
+  },
+  {
+    "id": "sweetheart"
+  },
+  {
+    "id": "_abandonedhouses",
+    "name": "大象",
+    "image": "/scripts/assets/community/efeb4b5176826022486eb80b9c2d1198d7f44541af0665a5bfc8c9aea1a73d62.png",
+    "team": "outsider",
+    "ability": "在提名阶段，你要手持一个笨重的大物件。 今天白天每有一名善良玩家“疯狂”地证明你是大象，就可能有一名善良玩家醉酒直到下个黄昏。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "疯狂",
+      "醉酒"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "godfather"
+  },
+  {
+    "id": "poisoner"
+  },
+  {
+    "id": "fearmonger"
+  },
+  {
+    "id": "wraith"
+  },
+  {
+    "id": "yaggababble"
+  },
+  {
+    "id": "bootlegger"
+  }
+]

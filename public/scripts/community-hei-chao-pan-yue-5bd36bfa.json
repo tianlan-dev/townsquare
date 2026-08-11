@@ -1,0 +1,595 @@
+[
+  {
+    "id": "_meta",
+    "name": "黑潮叛约",
+    "author": "Gordon Fitzgerald",
+    "background": "/scripts/assets/community/dc86e281ec41e0efc9fb54f384d24d675141135a85624f9746cb000ddce82220.jpg",
+    "logo": "/scripts/assets/community/b4854216c0b69da3defd2d21c4ea22255cacb7c509300021ca8ce21607f8ad7a.png",
+    "isOfficial": false,
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": ""
+  },
+  {
+    "id": "oldseadog",
+    "image": [
+      "/scripts/assets/community/26746aea87af44dc71c62599ef37b6aeb2e3b7eb7632d91a0b3acde16f4bdfbb.png"
+    ],
+    "name": "老海员",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 25,
+    "firstNightReminder": "Show 5 character tokens, exactly 2 of which are in-play.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你会得知五个角色：其中三个不在场，两个在场。"
+  },
+  {
+    "id": "navigator",
+    "image": [
+      "/scripts/assets/community/aec44620f3c6e1fa5a63482e054022973d36c6202010ebd95c9aff13b554ee8f.png"
+    ],
+    "name": "领航员RI",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 26,
+    "firstNightReminder": "Point to 1 Townsfolk, 1 Outsider, and 1 Minion. (Order is arbitrary.)",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "得知",
+      "得知",
+      "得知"
+    ],
+    "setup": true,
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有一名镇民、一名外来者和一名爪牙。[-1或+1外来者]"
+  },
+  {
+    "id": "boatswain",
+    "image": [
+      "/scripts/assets/community/a5fcd837cb06dd5117736a9bd0b00b55d9b25ae0c8c1fd567f73f2b8c58b065e.png"
+    ],
+    "name": "水手长I",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 27,
+    "firstNightReminder": "Give a finger signal.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你会得知最多有多少名善良玩家连坐。"
+  },
+  {
+    "id": "deckhand",
+    "image": [
+      "/scripts/assets/community/04486eb7d3d90fba801d065ab0a87853fb41e257c083133fef457b9929ae424b.png"
+    ],
+    "name": "甲板水手",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 28,
+    "firstNightReminder": "Show an in-play character token. :reminder:",
+    "otherNight": 12,
+    "otherNightReminder": "If the previously known character was executed and died today, show an in-play character token of a differing alignment. :reminder:",
+    "reminders": [
+      "得知",
+      "死于处决"
+    ],
+    "setup": false,
+    "ability": "在你的首个夜晚，你会得知一个在场角色。如果你得知的角色死于处决，当晚你会得知一个与之前不同阵营的在场角色。"
+  },
+  {
+    "id": "captain",
+    "image": [
+      "/scripts/assets/community/5df60845f0ac24678e29f0fcd2a466df71ca13267b1acb77a1d50b078982cdf4.png"
+    ],
+    "name": "船长IC",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 4,
+    "otherNightReminder": "The Captain chooses 2 players. Mark the 1st as 'Protected' and the 2nd as 'Marked'. :reminder: :reminder:",
+    "reminders": [
+      "保护",
+      "标记",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：如果第一名玩家在今晚死亡，第二名玩家代替他死亡。如果恶魔因为你的能力将要死亡，当晚的死亡由说书人决定。"
+  },
+  {
+    "id": "buccaneer",
+    "image": [
+      "/scripts/assets/community/bdabdf05e09fa12e5c5bd73d3ada68f2f056cccf78726120c32491fbf7365ab9.png"
+    ],
+    "name": "西印度海盗RC",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 5,
+    "otherNightReminder": "The Buccaneer chooses 2 players: if they are different alignments, the Buccaneer dies. :reminder:",
+    "reminders": [
+      "重启",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚*，你要选择除你以外的两名玩家：如果他们阵营不同，你死亡。"
+  },
+  {
+    "id": "landlubber",
+    "image": [
+      "/scripts/assets/community/099e51fabf8c0f99d7ef630df9554526d183d72151ae4fe75f6af21d0bd03988.png"
+    ],
+    "name": "旱鸭子R",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "If the Landlubber is due, they die. :reminder:",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚*，如果你在今天白天时提名了一名爪牙，你死亡。"
+  },
+  {
+    "id": "wench",
+    "image": [
+      "/scripts/assets/community/943105c086ab5acc3c4815a5ace5706dd14c201ae822a4dc12ced8c6e883e7d3.png"
+    ],
+    "name": "酒馆女C",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "每个白天，你可以私下拜访说书人以得知一条关于与你邻近的一名存活的玩家的正确信息。"
+  },
+  {
+    "id": "privateer",
+    "image": [
+      "/scripts/assets/community/6517ad1b41c6ed52a15637f4b29a757acb1b38a7a4cff5bfed3c279e554927e9.png"
+    ],
+    "name": "合法海盗RI",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 14,
+    "otherNightReminder": "If the previous task was completed, show an in-play character token.",
+    "reminders": [
+      "任务完成"
+    ],
+    "setup": false,
+    "ability": "每个白天，你可以私下拜访说书人以得知一个任务。每个夜晚*，如果你完成了上一个得知的任务，你会得知一个在场的角色。"
+  },
+  {
+    "id": "firstmate",
+    "image": [
+      "/scripts/assets/community/be824bfb308d7d53ac3530a4bd09ae7e6447a478a90f16489e647b4908ee94bf.png"
+    ],
+    "name": "大副RI",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 29,
+    "firstNightReminder": "The First Mate might choose a letter. Give a finger signal. :reminder:",
+    "otherNight": 15,
+    "otherNightReminder": "The First Mate might choose a letter. Give a finger signal. :reminder:",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择R, I 或C：你会得知有多少名玩家的角色的英文名称包含该字母。"
+  },
+  {
+    "id": "powdermonkey",
+    "image": [
+      "/scripts/assets/community/dbcd721d209c1afdd1bdb6b4f1e1fc10c984dbbd54263c0b0b4e22fc49a2795b.png"
+    ],
+    "name": "火药猴R",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 11,
+    "otherNightReminder": "If the Powder Monkey is due to kill a Minion, they both die. :reminder: :reminder:",
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "在你的首个白天，你可以公开选择两名玩家：如果这两名玩家其中之一是爪牙，你和他会在当晚死亡。"
+  },
+  {
+    "id": "corsair",
+    "image": [
+      "/scripts/assets/community/5d87401fe3f0d2e0c3e8eb03e7adeabc2995fc63f7775ee362541a3ffdd889ec.png"
+    ],
+    "name": "巴巴里海盗",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "If the Corsair died tonight, the Corsair chooses a player & a character. If the player is not the Demon: Put the Corsair to sleep. Wake the target. Show the *YOU ARE* token & their new character token.",
+    "reminders": [],
+    "setup": false,
+    "ability": "如果你在夜晚死亡，你要选择一名玩家和一个镇民角色：如果该玩家不是恶魔，他会变成你选择的镇民角色。"
+  },
+  {
+    "id": "hermitcrab",
+    "image": [
+      "/scripts/assets/community/615b118421282ae03f22680d9858bb3f7c89738a874bff31c63ac95c00e5e1b0.png"
+    ],
+    "name": "寄居蟹RIC",
+    "edition": "custom",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "提名"
+    ],
+    "setup": true,
+    "ability": "如果只有三名玩家存活且你没有发起过提名，你的阵营获胜。[+1外来者]"
+  },
+  {
+    "id": "barnacle",
+    "image": [
+      "/scripts/assets/community/36f670bccb69af161dd3684dd57c8f030b16905613a79e2ff2c51c9903d9f7f8.png"
+    ],
+    "name": "藤壶RC",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 30,
+    "firstNightReminder": "The Barnacle chooses a player. :reminder:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "镶嵌"
+    ],
+    "setup": false,
+    "ability": "在你的首个夜晚，你要选择一名玩家：只有他投票时你才能投票，只有他获胜时你才会获胜，即使你已死亡。"
+  },
+  {
+    "id": "grogblossom",
+    "image": [
+      "/scripts/assets/community/b381d5886002110b5dc1bc46df05552f34c49ae9d019236c8830c4e9d8289bb4.png"
+    ],
+    "name": "酒糟鼻R",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒糟鼻"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "ability": "你不知道你是酒槽鼻。你以为你是一个镇民角色，但其实你不是。你会被当作邪恶阵营、爪牙角色或外来者角色。"
+  },
+  {
+    "id": "mermaid",
+    "image": [
+      "/scripts/assets/community/e790bc9551637ec8ae653abe26161b35f9aff3119e02263441aeb6890f1d5de3.png"
+    ],
+    "name": "美人鱼RI",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": false,
+    "ability": "提名你的玩家（除了你和恶魔）会中毒直到你下次被提名，即使你已死亡。"
+  },
+  {
+    "id": "stowaway",
+    "image": [
+      "/scripts/assets/community/56caa8682d18747890722016ac70eeb0bb0f728f668fff8f8aae2616eba5ee41.png"
+    ],
+    "name": "偷渡客",
+    "edition": "custom",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 2,
+    "otherNightReminder": "If the Stowaway has died, show the Grimoire to a Minion for as long as needed.",
+    "reminders": [
+      "查看魔典"
+    ],
+    "setup": false,
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night",
+        "global": "minion"
+      }
+    ],
+    "ability": "如果你“疯狂”地证明你是一个在场的镇民角色，你不会在夜晚死亡。当你死亡时，每个夜晚，一名爪牙玩家能查看魔典。"
+  },
+  {
+    "id": "mysticpriestess",
+    "image": [
+      "/scripts/assets/community/ffc2688557ce25bfeea6a2c12baa7786654a0bb6e7cbcea3c07ca7d7f64a8727.png"
+    ],
+    "name": "神秘祭司RI",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力",
+      "交换",
+      "交换"
+    ],
+    "setup": false,
+    "ability": "如果一名邪恶玩家提名了恶魔：你和被提名的恶魔交换角色，然后他中毒直到下个黎明。如果只有四名或更少存活玩家，你失去此能力。"
+  },
+  {
+    "id": "undeadpirate",
+    "image": [
+      "/scripts/assets/community/56c9c572d124104b2145313cfbb00b4ac49d5d7e0b503fb371ed125d67f5a0bf.png"
+    ],
+    "name": "亡灵海盗RI",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 6,
+    "otherNightReminder": "如果你死于处决，当晚你可以选择与你邻近的一名存活玩家：他死亡。",
+    "reminders": [
+      "失去能力",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "After you are executed & die, tonight you may choose a living good neighbour: they die."
+  },
+  {
+    "id": "seaspirit",
+    "image": [
+      "/scripts/assets/community/d52702b62735d6a78cfb47f36d2bf1776d039794061cc5dc3e086208172db6f9.png"
+    ],
+    "name": "海灵RI",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 21,
+    "firstNightReminder": "The Sea Spirit chooses a player. :reminder: Put the Sea Spirit to sleep. Wake 1 good player. Show the Sea Spirit character token. :reminder:",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "挚爱",
+      "知道"
+    ],
+    "setup": false,
+    "ability": "在你的首个夜晚，你要选择一名善良玩家：他中毒。如果只有三名玩家存活且他是其中之一，邪恶阵营获胜，即使你已死亡。始终会有一名善良玩家知道海灵在场。"
+  },
+  {
+    "id": "flesheater",
+    "image": [
+      "/scripts/assets/community/37103f7815c66578ed01dfffa6806609b3e9b56b0505051a2aa8920959c5a8da.png"
+    ],
+    "name": "食尸者R",
+    "edition": "custom",
+    "team": "minion",
+    "firstNight": 22,
+    "firstNightReminder": "The Flesh-Eater chooses a player. :reminder:",
+    "otherNight": 3,
+    "otherNightReminder": "The Flesh-Eater chooses a player. :reminder: A previously chosen player that survived due to the Flesh-Eater's ability, dies. :reminder:",
+    "reminders": [
+      "饥肠辘辘",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚，你要选择一名玩家：如果他是镇民，他的能力会产生错误信息，直到下个黄昏。如果当晚他即将死亡，改为他在明晚死亡。"
+  },
+  {
+    "id": "kraken",
+    "image": [
+      "/scripts/assets/community/f145972effba751f810ec2608c256471e3de2b2b40960936ddfc589e7f97680f.png"
+    ],
+    "name": "克拉肯R",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 7,
+    "otherNightReminder": "The Kraken chooses a player. :reminder: If that player is an Outsider (once only): Kill a neighboring living good player. :reminder:",
+    "reminders": [
+      "死亡",
+      "死亡"
+    ],
+    "setup": true,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你首次杀死外来者时，与他邻近的存活的善良玩家之一会死亡。[-1或+1外来者]"
+  },
+  {
+    "id": "calypso",
+    "image": [
+      "/scripts/assets/community/619205a93bddf816bfa33208194792fce33f52693bfe4a1f005c9c4612ddb74e.png"
+    ],
+    "name": "卡吕普索C",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 23,
+    "firstNightReminder": "The Calypso chooses 3 players. :reminder: :reminder: :reminder:",
+    "otherNight": 8,
+    "otherNightReminder": "The 1st player previously chosen dies. :reminder: If that player was executed today, all previously chosen players die. :reminder: :reminder: The Calypso chooses 3 players. :reminder: :reminder: :reminder:",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "死亡",
+      "死亡",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚，你要选择三名玩家：上个夜晚被你选择的首位玩家会死亡。如果该玩家今天白天死于处决，上个夜晚被你选择的另外两名玩家会在当晚死亡。"
+  },
+  {
+    "id": "rusalka",
+    "image": [
+      "/scripts/assets/community/aeebc3ab0035f30d2d7f4a42431e74ceca47f8a1032068cae16bdc4b0d763a76.png"
+    ],
+    "name": "鲁萨尔卡R",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 24,
+    "firstNightReminder": "Show the Rusalka a hint about their ability. Prompt the Rusalka to choose, or show any information needed based on the ability. Put the Rusalka to sleep. Wake 1 good player. Show the Rusalka character token. :reminder:",
+    "otherNight": 9,
+    "otherNightReminder": "Show the Rusalka a hint about their ability. Prompt the Rusalka to choose, or show any information needed based on the ability. :reminder:",
+    "reminders": [
+      "疯狂",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "你不知道你的能力是什么，每个夜晚，你会得知关于你能力的提示。一名善良玩家知道你的能力是什么，如果他“疯狂”地证明鲁萨尔卡在场，你会得知你的能力。"
+  },
+  {
+    "id": "umibozu",
+    "image": [
+      "/scripts/assets/community/789e4e8a98e544220de1879bcfeff19528b2b5136fc5642d917b49c5fb340e3d.png"
+    ],
+    "name": "海坊主I",
+    "edition": "custom",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 10,
+    "otherNightReminder": "The Umibōzu chooses a player. :reminder:",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果另一名恶魔选择了不同的玩家，该能力失效。你可能会被当作爪牙角色。[-1爪牙, +1海坊主]"
+  },
+  {
+    "id": "bilgerat",
+    "image": [
+      "/scripts/assets/community/7195fc25c7e723be9af1eafa101ab5d5908ef3ae97964ab17d29eebcb19770bd.png"
+    ],
+    "name": "舱底鼠RI",
+    "edition": "custom",
+    "team": "traveler",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "The Bilge Rat might choose a player. :reminder:",
+    "reminders": [
+      "3票",
+      "失去能力"
+    ],
+    "setup": false,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名死亡的玩家：他的投票标记算作三票"
+  },
+  {
+    "id": "scruveyscalawag",
+    "image": [
+      "/scripts/assets/community/6148e19d326f0405032501ddaaaa5b897bc02e271d0a42487dae989c3657d176.png"
+    ],
+    "name": "无赖汉RC",
+    "edition": "custom",
+    "team": "traveler",
+    "firstNight": 2,
+    "firstNightReminder": "The Scurvy Scalawag chooses a player. Wake that player to roll a d6 and add a reminder token for for their vote value. If a 6, they die. :reminder:",
+    "otherNight": 2,
+    "otherNightReminder": "The Scurvy Scalawag chooses a player. Wake that player to roll a d6 and add a reminder token for for their vote value. If a 6, they die. :reminder:",
+    "reminders": [
+      "2票",
+      "3票",
+      "4票",
+      "5票",
+      "死亡"
+    ],
+    "setup": false,
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：他获得一枚1d6投票骰。明天白天，他的投票算作自身加上等同于骰子点数的票数。如果掷出6点，他被处决。"
+  },
+  {
+    "id": "commodore",
+    "image": [
+      "/scripts/assets/community/b5208aa652d87fdf75a0e644c3c5184c6568231eb6a6fe8b5d8da5cdbdddde9e.png"
+    ],
+    "name": "海军准将RC",
+    "edition": "custom",
+    "team": "traveler",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "死亡",
+      "失去能力 "
+    ],
+    "setup": false,
+    "ability": "每局游戏限一次，你可以公开选择一名当天发言疑似海盗的玩家。如果你们阵营不同，他死亡。"
+  },
+  {
+    "id": "cursedmutineer",
+    "image": [
+      "/scripts/assets/community/7010a7db7db975175c06ceb4336fc85f1e2493cde1d3c26c84e46fe82fc90a0b.png"
+    ],
+    "name": "叛船咒徒RIC",
+    "edition": "custom",
+    "team": "traveler",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "如果有死亡的玩家在场，只有你和死亡的玩家可以提名。"
+  },
+  {
+    "id": "castaway",
+    "image": [
+      "/scripts/assets/community/ceb354de056781f52976d98465c9bde25233cca7556fd7d37a1a1642384a21c1.png"
+    ],
+    "name": "荒岛生还者C",
+    "edition": "custom",
+    "team": "traveler",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "获得能力"
+    ],
+    "setup": false,
+    "ability": "如果你使用了投票标记，你会在当晚获得一个在场的角色能力，即使你已死亡。你不能对自己发起流放。"
+  }
+]

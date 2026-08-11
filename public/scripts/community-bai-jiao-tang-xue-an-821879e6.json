@@ -1,0 +1,531 @@
+[
+  {
+    "name": "白教堂血案",
+    "author": "根",
+    "id": "_meta",
+    "logo": "/scripts/assets/community/7fb5e985d23f224172819e7a1c6eab562bc66f71078a1f692f07e50dfca0a5bf.png",
+    "tags": [],
+    "version": "",
+    "issue": 940
+  },
+  {
+    "id": "chushi_tpi",
+    "name": "厨师",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
+    "firstNightReminder": "唤醒厨师，对他用手势比划数字来告知他邻座邪恶玩家有几对。",
+    "firstNight": 7800,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/42df354c30104bfe831bbf6840652caadd2989ad3a44962587ceb062408b9dd0.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "guizu_tpi",
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "firstNight": 8900,
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "image": [
+      "/scripts/assets/community/92b43ad793118d075bbf4f8087ec55aaf24631c31c51d8b8cc941aee541107c1.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shangjinlieren_tpi",
+    "name": "赏金猎人",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名邪恶玩家。\n每当你得知的玩家死亡，你会在当晚得知另一名邪恶玩家。[会有一名镇民转变为邪恶阵营]",
+    "firstNightReminder": "（在进入首个夜晚时立即通知赏金猎人转变的那个镇民他的阵营发生了变化）唤醒赏金猎人，对他指向一名邪恶玩家。",
+    "firstNight": 10600,
+    "otherNightReminder": "如果赏金猎人之前得知的玩家死亡，唤醒赏金猎人，对他指向一名新的邪恶玩家。",
+    "otherNight": 13300,
+    "reminders": [
+      "得知"
+    ],
+    "image": [
+      "/scripts/assets/community/ffc582ee3bb3b4e8982cf6ad00127e38b61303e4ee20e7e32d762ddffe960fb9.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "gongqingzhe_tpi",
+    "name": "共情者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "firstNight": 7900,
+    "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "otherNight": 11000,
+    "image": [
+      "/scripts/assets/community/44c8fa8cd0e8ed6a117a5e52dbebc132bd35f25bb0d4ec91fe38f068bcb3356d.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "cunfu_tpi",
+    "name": "村夫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "firstNight": 10100,
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNight": 12800,
+    "reminders": [
+      "醉酒"
+    ],
+    "image": [
+      "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "qumoren_tpi",
+    "name": "驱魔人",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒驱魔人，让他选择一名与上一晚不同的玩家。如果他选中了恶魔，则在驱魔人入睡后通知该恶魔谁是驱魔人。",
+    "otherNight": 4300,
+    "reminders": [
+      "被选择"
+    ],
+    "image": [
+      "/scripts/assets/community/1a970d121ce78315572abc0b98b11f50f7ce98650287d1506efcd01cdc3b154e.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "lvdianlaoban_tpi",
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒旅店老板，让他选择两名玩家。这两名玩家今晚不死，同时需要决定他俩其中谁因为旅店老板能力醉酒。",
+    "otherNight": 1800,
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "image": [
+      "/scripts/assets/community/81652425b43f520c73c7fb190eadf398d6e59f7d93dc91e59db56f462e41835f.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "chengzhengonggaoyuan_tpi",
+    "name": "城镇公告员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒城镇公告员，以点头或摇头告知他今天白天是否有爪牙发起提名。",
+    "otherNight": 11700,
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "image": [
+      "/scripts/assets/community/5d1f1efbfd9e0493617fc02385da602b7f43a798426fd0163386471a0eb6ebd8.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shenyuzhe_tpi",
+    "name": "神谕者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
+    "otherNight": 11800,
+    "image": [
+      "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiugui_tpi",
+    "name": "酒鬼",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "image": [
+      "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "xiubujiang_tpi",
+    "name": "修补匠",
+    "team": "outsider",
+    "ability": "你随时可能死亡。",
+    "firstNight": 0,
+    "otherNightReminder": "在夜晚的任意时机，你都可以决定杀死修补匠。这里只是一个提示以免遗忘修补匠。",
+    "otherNight": 9200,
+    "reminders": [
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/46fe91c7194f26e0724f71bae74b542ca3bb72cb0920c15c4afb7737cc005141.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "moxiang_tpi",
+    "name": "魔像",
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "无法提名"
+    ],
+    "image": [
+      "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yinshi_tpi",
+    "name": "隐士",
+    "team": "outsider",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "1",
+      "2",
+      "3",
+      "是隐士"
+    ],
+    "image": [
+      "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png"
+    ],
+    "setup": true,
+    "jinxes": [
+      {
+        "id": "moxiangtpi",
+        "reason": "隐士提名不限次数，提名时可能会触发魔像能力，每局游戏限一次。"
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "cike_tpi",
+    "name": "刺客",
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "firstNight": 0,
+    "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
+    "otherNight": 8600,
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiaofu_tpi",
+    "name": "教父",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。\n如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
+    "firstNight": 5400,
+    "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
+    "otherNight": 8700,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/2080295fd35802f33bb13af7537ced674023307ff3a3f525f7d899de89edca0f.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "difengzhishou_tpi",
+    "name": "堤丰之首",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[邪恶角色全部邻座，你靠近正中，+1爪牙，-或+任意数量外来者]",
+    "firstNightReminder": "将位于堤丰之首两侧的对应数量的玩家变成邪恶的爪牙，并分别唤醒他们通知他们的角色和阵营变化。",
+    "firstNight": 140,
+    "otherNightReminder": "唤醒堤丰之首，让他攻击一名玩家。",
+    "otherNight": 5700,
+    "reminders": [
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/7f2fa2c67f3f75a28eefb2592028c9c873c8bd26450f2e6e4b05d5a42f5feca2.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "yagababu_tpi",
+    "name": "牙噶巴卜",
+    "team": "demon",
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
+    "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
+    "firstNight": 6610,
+    "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
+    "otherNight": 7400,
+    "reminders": [
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yanggurenc821879e6",
+    "name": "养蛊人",
+    "team": "minion",
+    "ability": "在你存活时提名你的玩家会在当晚死亡，即使你已死亡。",
+    "image": [
+      "/scripts/assets/community/86e7c55d17408e723e8220221b658b4533a01e473cdc15775c0e39c5c04a6634.png"
+    ],
+    "firstNight": 0,
+    "otherNight": 8800,
+    "otherNightReminder": "今天白天提名了存活的养蛊人的玩家死亡。",
+    "reminders": [
+      "蛊"
+    ],
+    "setup": false,
+    "edition": "custom",
+    "imageAlt": "yangguren"
+  },
+  {
+    "id": "xunjing_gen",
+    "name": "巡警",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活玩家，你会获得其中一名玩家的证据。\n如果白天有善良玩家因为你的证据而死亡，你会在当晚死亡。",
+    "firstNightReminder": "唤醒巡警，让他选择两名存活玩家，向他展示其中一名玩家的证据。",
+    "firstNight": 15000,
+    "otherNightReminder": "如果上个白天有玩家因为巡警的证据而死亡，巡警死亡。否则唤醒巡警，让他选择两名存活玩家，向他展示其中一名玩家的证据。",
+    "otherNight": 19111,
+    "reminders": [
+      "持证"
+    ],
+    "image": [
+      "/scripts/assets/community/a0aac19c8335f735014d83710f55679a4dc072e4ecde741e683404c41b81fb08.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "mingzhentan_gen",
+    "name": "名侦探",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，说书人会询问你一个有关恶魔的是非问题，若你答对，你获得恶魔玩家的证据，如果你答错，你获得非恶魔玩家的证据。如果没有玩家在白天死亡，当晚你不会被唤醒。",
+    "firstNight": 0,
+    "otherNightReminder": "如果白天有人死亡，唤醒名侦探，询问名侦探一个有关恶魔的问题，根据回答对错给予证据。",
+    "otherNight": 19110,
+    "reminders": [
+      "持证"
+    ],
+    "image": [
+      "/scripts/assets/community/60d4ebba3a3f4ea2a0f6d976f7d5422ad3d89a48323ab8b199f0e2218ed4aec0.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "fayi_gen",
+    "name": "法医",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家，如果他在当晚死亡，你会获得杀死他的玩家的证据。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒法医，让他选择一名玩家，如果他在当晚死亡，再次唤醒法医，给予他让其死亡的玩家的证据。",
+    "otherNight": 5000,
+    "reminders": [
+      "检查",
+      "持证"
+    ],
+    "image": [
+      "/scripts/assets/community/e4d26258474c52ce8c2c6b56391c2c218577b84fb499f511c18e28cb56d5db96.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhushou_gen",
+    "name": "助手",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名除你之外的存活玩家，你和他各获得一个与他不同阵营存活玩家的证据。",
+    "firstNightReminder": "唤醒助手，询问他是否要发动他的能力，如果他发动让他选择一名除了助手以外的存活玩家，助手和被选择的玩家各自获得与被选择的玩家阵营不同的玩家的证据。",
+    "firstNight": 15100,
+    "otherNightReminder": "如果助手仍然具有能力，唤醒助手，询问他是否要发动他的能力，如果他发动让他选择一名除了助手以外的存活玩家，助手和被选择的玩家各自获得与被选择的玩家阵营不同的玩家的证据。",
+    "otherNight": 19100,
+    "reminders": [
+      "失去能力",
+      "被选择",
+      "持证",
+      "被选择持证"
+    ],
+    "image": [
+      "/scripts/assets/community/b4c0d33c1d5edd4ba94fe76c08133f777f7d3a5cd096f2e6fc8b34de306561a6.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "changfu_gen",
+    "name": "娼妇",
+    "team": "townsfolk",
+    "ability": "如果你在白天死亡，你会在当晚得知上个白天提名你的玩家的阵营。\n如果你在夜晚死亡，你会得知你邻近存活玩家的阵营。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒娼妇，如果他在白天死亡，告知他提名他的玩家的阵营，如果他在夜晚死亡，告知他邻近存活玩家的阵营。",
+    "otherNight": 19000,
+    "image": [
+      "/scripts/assets/community/84406e642e76a22ac6b1538c21e05fa3811eed7b475be360a4244e4657b6e47a.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "ludeng_gen",
+    "name": "路灯",
+    "team": "outsider",
+    "ability": "与你邻近的存活玩家会被镇民玩家的能力视为善良的。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/c4d6ac71f2d80f49438cdf92aad8c7e8801d0f56ea2dc0ee6743c5ad7bd33399.png"
+    ],
+    "setup": false,
+    "jinxes": [
+      {
+        "id": "zhushougen",
+        "reason": "若场上没有能被获得证据的邪恶玩家，改为获得拥有路灯能力的玩家。"
+      },
+      {
+        "id": "guizutpi",
+        "reason": "若场上没有能被贵族得知的邪恶玩家，他们将得知拥有路灯能力的玩家。"
+      },
+      {
+        "id": "shangjinlierentpi",
+        "reason": "若场上没有能被赏金猎人得知的邪恶玩家，他们将得知拥有路灯能力的玩家。"
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "fanzuidashi_gen",
+    "name": "犯罪大师",
+    "team": "minion",
+    "ability": "每个夜晚，获得一名存活的善良玩家（与之前不同）的证据，恶魔在提名时你持有的证据也会失效。当存活的善良玩家不多于邪恶玩家时，你持有的证据失效。",
+    "firstNightReminder": "唤醒犯罪大师，给予他一个证据。",
+    "firstNight": 6611,
+    "otherNightReminder": "唤醒犯罪大师，给予他一个证据。",
+    "otherNight": 8830,
+    "reminders": [
+      "持证",
+      "失去能力"
+    ],
+    "image": [
+      "/scripts/assets/community/efa735cea577521747ff70cc8358e840c42966fbf862d3fd639e99eb90cab566.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "mache_gen",
+    "name": "马车",
+    "team": "minion",
+    "ability": "与你邻近的存活镇民之一中毒，即使你已死亡。\n当你提名其他邪恶玩家时，你与他交换角色，他死亡。",
+    "image": [
+      "/scripts/assets/community/8e17a52c421a180b573bad4aa3361e854f3805cbc629bfa9192ea2ad541b9368.png"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "jinxes": [
+      {
+        "id": "fanzuidashigen",
+        "reason": "当你与犯罪大师交换角色时，你获得他之前持有的全部证据。"
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "kaitangshou_gen",
+    "name": "开膛手",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家，他死亡，你可以额外选择一名玩家，若你这么做，会有一名存活的善良玩家获得你的证据。",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒开膛手，让他选择一名或者两名玩家，他们死亡，如果他选择了两名玩家，使一名存活的善良玩家获得开膛手的证据。",
+    "otherNight": 8820,
+    "reminders": [
+      "死亡",
+      "被持证"
+    ],
+    "image": [
+      "/scripts/assets/community/f620ab4dc48e64eae65a24dde24da41555234b07c7e7baac8dfe4840ce6e2a74.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shishigui_gen",
+    "name": "食尸鬼",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n当邻座的死亡玩家几对的数量达到游戏玩家数的一半时（向上取整）的当天夜晚，你的阵营获胜。\n场上会有一名善良玩家不会在夜晚死亡。[-1外来者]",
+    "firstNight": 0,
+    "otherNightReminder": "唤醒食尸鬼，让他杀死一名玩家。",
+    "otherNight": 8810,
+    "reminders": [
+      "死亡",
+      "对"
+    ],
+    "image": [
+      "/scripts/assets/community/f921e5b1252954ef533e5309a067b4191e3abc29bdbef0aedc7629dabcabe00d.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "sihuoshangren_tpi",
+    "name": "证据",
+    "team": "fabled",
+    "ability": "证据是指向某名玩家的信息。[如外貌，性别，阵营，类型，能力相关词语等，可以有多名玩家复活，但指向玩家仅有一位]\n若持有证据的玩家对该证据指向的那位玩家发起提名，被提名玩家立即死亡，尽在获取后的下一个白天有效。\n多个玩家同时提名时，由说书人决定提名顺序。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "image": [
+      "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png"
+    ],
+    "setup": false,
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "_meta",
+    "name": "谁是飞鼠",
+    "logo": "/scripts/assets/community/ee0ee812facc2633b37b376fa5d78449f56f4f05b7205274637be9ec5aa34b7d.png",
+    "author": "作者：OvO飞鼠 美术设计：正义兔子",
+    "tags": [
+      "全原创角色剧本",
+      "汀西维尔"
+    ],
+    "version": "1.1"
+  },
+  {
+    "id": "xiaoba01",
+    "image": "/scripts/assets/community/4dd020c154970c48e8ac66491f0ee1e18fef74b99bd905f546ff19e123169e82.png",
+    "name": "小八",
+    "team": "townsfolk",
+    "firstNight": 40000,
+    "otherNight": 0,
+    "reminders": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你要选择一个角色类型，然后得知一个相关的信息。如果你两侧的邻座玩家阵营不同，则会获得错误信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "shisa11",
+    "image": "/scripts/assets/community/174d76f1c6eab5cedcf2eba29e8d968aa3c3daac8ec8e22aa7f06773436da285.png",
+    "name": "狮萨",
+    "team": "townsfolk",
+    "firstNight": 50000,
+    "otherNight": 0,
+    "reminders": [],
+    "setup": false,
+    "ability": "在你的首个夜晚，你可以选择任意数量的玩家:你会得知他们当中有几种角色类型。如果你同时选择了爪牙和恶魔，你得到错误信息。",
+    "edition": "custom"
+  },
+  {
+    "id": "jiyi01",
+    "image": "/scripts/assets/community/7e0a1fd316212aa904d167b269eedb8d3ae6cfaaf994b538bafe8b518dfc4eba.png",
+    "name": "吉伊",
+    "team": "townsfolk",
+    "firstNight": 30000,
+    "otherNight": 30000,
+    "reminders": [
+      "正确",
+      "错误"
+    ],
+    "setup": false,
+    "ability": "每个夜晚，你要选择两名玩家:你会得知她们中是否存在邪恶阵营。你得知信息的正误每晚交替，但你不知道首个夜晚信息的正误",
+    "edition": "custom"
+  },
+  {
+    "id": "wusaqi01",
+    "image": "/scripts/assets/community/33d7c601b096ec1262d2ece54d36411d93927d1fd2e7512ce675bc5927859753.png",
+    "name": "乌萨奇",
+    "team": "townsfolk",
+    "firstNight": 60000,
+    "otherNight": 20000,
+    "reminders": [
+      "乌萨奇选中"
+    ],
+    "setup": false,
+    "ability": "每个夜晚，你要选择两个角色。在你死亡当晚，你会得知选择过的角色有多少个在场",
+    "edition": "custom"
+  },
+  {
+    "id": "hait11a",
+    "image": "/scripts/assets/community/94ce48a9c7242bd1a743b71ca204b9614d0c69f35b2ef8d8d1f889b8ee97a8df.png",
+    "name": "海獭",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "海獭提名过"
+    ],
+    "setup": false,
+    "ability": "如果场上存活的邪恶玩家都被你提名过，且你提名过的善良玩家不超过一名，你的阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "lizimantou11",
+    "image": "/scripts/assets/community/0c42e9179ce7a23db7895f59b1927b5e28891a2ed96a49608c7ee0455e2bccb7.png",
+    "name": "栗子馒头",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "ability": "每局游戏限一次，你可以在白天公开声称自己是栗子馒头，当晚恶魔不会造成死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "dabaoba111o",
+    "image": "/scripts/assets/community/ecfd6c838395385b73c8d3864f122448070dd26f38f8c06268e7d6df870e557a.png",
+    "name": "大宝宝",
+    "team": "outsider",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是大宝宝"
+    ],
+    "setup": false,
+    "ability": "你以为自己是一个镇民角色。首个夜晚，你会得知自己是飞鼠，即使你不是。",
+    "edition": "custom"
+  },
+  {
+    "id": "xiaobaob11ao",
+    "image": "/scripts/assets/community/0316365ead542da0a2bf1aacf54c6b620674deb1d27959e3db1c92cd3f8bad95.png",
+    "name": "小宝宝",
+    "team": "outsider",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "是小宝宝"
+    ],
+    "setup": false,
+    "ability": "游戏开始前，说书⼈要公开宣布本局游戏中⼩宝宝的能⼒是什么，即使⼩宝宝不在场。",
+    "edition": "custom"
+  },
+  {
+    "ability": "在你的首个夜晚，恶魔会得知自己是飞鼠。你会得知两个在场的善良角色",
+    "image": "/scripts/assets/community/07ebb273b3cbbd8d9bce68cd2b45241307ea1229ba08d71394c5c20a333716d3.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "guben11",
+    "name": "古本",
+    "otherNight": 0,
+    "firstNight": 20000,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "team": "minion"
+  },
+  {
+    "ability": "在你的首个夜晚，你会得知两名玩家：他们当中存在恶魔。你会得知两个在场的善良角色。",
+    "image": "/scripts/assets/community/509d8a6d8209ab5081cf7ec6ffda725a85c7fd3778d35c98e3855c152913743b.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "linzhongwupo11",
+    "name": "林中巫婆",
+    "otherNight": 0,
+    "firstNight": 10000,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "team": "minion"
+  },
+  {
+    "ability": "你以为你是一个善良角色，但其实你不是。每个夜晚*，可能会有一名玩家死亡。",
+    "image": "/scripts/assets/community/97efab904e12cd1c1ead3d3e5d61ec6b3a5868abb6a8e532f129d5d688fe822b.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "Aman11iti",
+    "name": "飞鼠",
+    "otherNight": 10000,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [
+      "死亡",
+      "是飞鼠"
+    ],
+    "team": "demon",
+    "firstNight": 0
+  }
+]

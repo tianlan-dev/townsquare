@@ -1,0 +1,462 @@
+[
+  {
+    "id": "_meta",
+    "name": "黑暗决斗",
+    "author": "Tiger Boy 小王",
+    "state": [
+      {
+        "stateName": "名为不可的法令",
+        "stateDescription": "被颁布法令的玩家会得知法令的内容，他首次违反或暴露了他处于法令状态，他被处决。"
+      },
+      {
+        "stateName": "法令",
+        "stateDescription": "1.再次选择某名玩家，该玩家不可与他私聊&窃窃私语。2.再次选择某名玩家，该玩家不可与他以外的玩家私聊&窃窃私语。3.再次选择某名玩家，该玩家不可声称他是邪恶。4.再次选择某名玩家，该玩家不可声称他是善良。5.该玩家不可声称自己的真实能力。6.该玩家不可不声称自己的真实能力。7.该玩家不可声称自己是外来者。8.该玩家不可声称自己是镇民。9.该玩家不可在存活人数小于等于5时投票。10.该玩家不可在存活人数大于等于5时投票。"
+      },
+      {
+        "stateName": "幻惑之眼",
+        "stateDescription": "在7/10/13人游玩时，说书人会在游戏开始前声明，本局游戏是否让“巨眼”加入剧本。"
+      }
+    ],
+    "status": [
+      {
+        "name": "名为不可的法令",
+        "skill": "被颁布法令的玩家会得知法令的内容，他首次违反或暴露了他处于法令状态，他被处决。"
+      },
+      {
+        "name": "法令",
+        "skill": "1.再次选择某名玩家，该玩家不可与他私聊&窃窃私语。2.再次选择某名玩家，该玩家不可与他以外的玩家私聊&窃窃私语。3.再次选择某名玩家，该玩家不可声称他是邪恶。4.再次选择某名玩家，该玩家不可声称他是善良。5.该玩家不可声称自己的真实能力。6.该玩家不可不声称自己的真实能力。7.该玩家不可声称自己是外来者。8.该玩家不可声称自己是镇民。9.该玩家不可在存活人数小于等于5时投票。10.该玩家不可在存活人数大于等于5时投票。"
+      },
+      {
+        "name": "幻惑之眼",
+        "skill": "在7/10/13人游玩时，说书人会在游戏开始前声明，本局游戏是否让“巨眼”加入剧本。"
+      }
+    ],
+    "logo": "/scripts/assets/community/6ff8002dea413ddd9225b4fb68c63ca1803fc7223c2a2ee8133853c7905ad887.png",
+    "almanac": "https://www.bloodstar.xyz/p/Tiger/DARK-DUEL/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "国内"
+    ],
+    "version": ""
+  },
+  {
+    "id": "_darkduel",
+    "image": "/scripts/assets/community/6b772d5e1f8fa9a364042ea827b8c91ea1f6b4885c4dcb5f7f0288b0bed3f24a.png",
+    "firstNightReminder": "1",
+    "otherNightReminder": "9",
+    "reminders": [
+      "第一晚得知",
+      "第三晚得知",
+      "死亡"
+    ],
+    "remindersGlobal": [
+      "邪恶镇民"
+    ],
+    "name": "巨眼",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 在你的首个夜晚，你会得知其中一名邪恶的镇民。 在你的第三个夜晚，另外一名邪恶的镇民会得知你。 【+2邪恶镇民，-1爪牙，-1恶魔的伪装身份】",
+    "firstNight": 11,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "1_darkduel",
+    "image": "/scripts/assets/community/4dbb0a8701d7457c892904f511f68838ce322b690b00e525e3924fa774597e5e.png",
+    "otherNightReminder": "7",
+    "reminders": [
+      "中毒",
+      "死亡",
+      "失去能力"
+    ],
+    "name": "捕食植物",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 那之后，你要选择一名玩家：直到下一个黄昏，他中毒。 每局游戏限一次，你可以将来自你的中毒改为死亡。",
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "2_darkduel",
+    "image": "/scripts/assets/community/d6701a5e7fcfd6c171e41c1880898ccb8cf196cacc20846584df8c1326b73630.png",
+    "firstNightReminder": "4",
+    "otherNightReminder": "6",
+    "reminders": [
+      "命定之死",
+      "得知邪恶",
+      "死亡"
+    ],
+    "name": "神碑",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 在你的首个夜晚，你能查看魔典并选择一名玩家： 他随时可能死亡，即使任何原因他不会死亡。第三个夜晚，一名善良玩家会得知一名邪恶玩家。",
+    "firstNight": 14,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "3_darkduel",
+    "image": "/scripts/assets/community/660236ec7f8a7573313efc9813907ed17709ec24b345d5aed56ce6b3840183fd.png",
+    "otherNightReminder": "8",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "name": "三叉龙",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 每局游戏限制一次，如果你杀死了一名存活的爪牙或外来者，你可以选择两名玩家，他们死亡，即使任何原因他们不会死亡。 【+1外来者】",
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "4_darkduel",
+    "image": "/scripts/assets/community/cfbfa182d73bf836bb73a6e976713ec7f6f6f21ea0f5b1049fb971dd80bbe0c3.png",
+    "firstNightReminder": "6",
+    "otherNightReminder": "4",
+    "reminders": [
+      "中毒",
+      "失去能力"
+    ],
+    "name": "恐吓爪",
+    "team": "minion",
+    "ability": "每局游戏限一次，每个夜晚，你可以选择至多五个角色：他们之中在场的角色中毒直至下个黄昏。",
+    "firstNight": 16,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "5_darkduel",
+    "image": "/scripts/assets/community/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
+    "otherNightReminder": "10",
+    "reminders": [
+      "获得恐吓爪",
+      "获得刹帝利",
+      "获得珠泪"
+    ],
+    "name": "桃源乡",
+    "team": "minion",
+    "ability": "当你死亡时，恶魔获得一个不在场的爪牙能力。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "6_darkduel",
+    "image": "/scripts/assets/community/eafe57077aeb080667650b394feede6141b6ca5a1fb18d531afb72f2738a6b2e.png",
+    "otherNightReminder": "11",
+    "reminders": [
+      "是恶魔"
+    ],
+    "name": "珠泪",
+    "team": "minion",
+    "ability": "如果小于等于八名玩家存活时 (旅行者不计算在内)恶魔杀死了自己，你选择并成为一个不在场的恶魔。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "7_darkduel",
+    "image": "/scripts/assets/community/36a71263c8290f9afbbd82ab224145cc724be06da756bc5d74dc1ad4142142c6.png",
+    "firstNightReminder": "7",
+    "otherNightReminder": "5",
+    "reminders": [
+      "法令1",
+      "法令2",
+      "法令3",
+      "法令4",
+      "法令5",
+      "法令6",
+      "法令7",
+      "法令8",
+      "法令9",
+      "法令10",
+      "被处决"
+    ],
+    "name": "刹帝利",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名存活的玩家，本局游戏为他颁布一条名为不可的法令，不可重复选择同一名玩家和法令。",
+    "firstNight": 17,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "8_darkduel",
+    "image": "/scripts/assets/community/2c6da0271a9af46289bf2ab62daa2ae793037a1e2c48141a10b3007736aa62ad.png",
+    "reminders": [
+      "被更改",
+      "失去能力"
+    ],
+    "name": "冥神",
+    "team": "outsider",
+    "ability": "每局游戏限一次，与你邻近的善良玩家能力生效时，说书人可以让他们的能力对象更改为你。即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "9_darkduel",
+    "image": "/scripts/assets/community/ab01626669af612fdd2f900568c92f913aa93851fb7b4df0eabac9124163ccf0.png",
+    "otherNightReminder": "13",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "酸液石人",
+    "team": "outsider",
+    "ability": "当你死亡时，与你邻近的两名善良玩家醉酒。",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "10_darkduel",
+    "image": "/scripts/assets/community/b7a44aca56ceb183fdbd5b992acd05d6c7a69d613008a64e1a21f1027b0f2acd.png",
+    "firstNightReminder": "11",
+    "otherNightReminder": "16",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "双子※璃拉",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知【姬丝】，如果你在夜晚死亡，存活的【姬丝】与另一名玩家一起死亡。【+1姬丝】",
+    "firstNight": 21,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "11_darkduel",
+    "image": "/scripts/assets/community/36e71044ed4e1b9497c5012bea808eb88e321cefed1d5cf5f1d2bd0cdb4a5990.png",
+    "remindersGlobal": [
+      "是渊潜"
+    ],
+    "name": "渊潜者",
+    "team": "outsider",
+    "ability": "你不知道你是渊潜者。你以为你是一个善良角色，但其实你不是。你会被当作邪恶阵营、爪牙角色或恶魔角色。",
+    "edition": "custom"
+  },
+  {
+    "id": "12_darkduel",
+    "image": "/scripts/assets/community/e9acbace41ee41924951ef492b600ae3b19ea9b2c97231cd5f8fea082acf5667.png",
+    "firstNightReminder": "8",
+    "reminders": [
+      "得知"
+    ],
+    "name": "黑魔导",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知场上半数的玩家（向上取整）：他们当中存在恶魔。",
+    "firstNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "13_darkduel",
+    "image": "/scripts/assets/community/72ac09d30f1bf42b6127af96edd88a2e12bf59083352961832b7a8adeffa759f.png",
+    "firstNightReminder": "9",
+    "otherNightReminder": "14",
+    "reminders": [
+      "是镇民",
+      "是外来",
+      "错误"
+    ],
+    "name": "异色眼",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名玩家：他们当中存在镇民。在你的第二个夜晚，你会得知两名玩家：他们当中是否存在外来者。【+0~1外来者】",
+    "firstNight": 19,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "14_darkduel",
+    "image": "/scripts/assets/community/2cc23e2bf2939c735fd12177abe9daa89ad0b565a8889b316c97fcfe9af383eb.png",
+    "firstNightReminder": "10",
+    "otherNightReminder": "15",
+    "reminders": [
+      "获得能力",
+      "得知"
+    ],
+    "name": "双子※姬丝",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知【璃拉】，如果你在夜晚死亡，存活的【璃拉】会被唤醒，并选择三名玩家:他会得知他们其中的两个角色。【+1璃拉】",
+    "firstNight": 20,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "15_darkduel",
+    "image": "/scripts/assets/community/ffe9bc84e38c86952ffe8e4e11e9f8e4ec10326fc6bd4691a854c490ee56e7dc.png",
+    "firstNightReminder": "2",
+    "otherNightReminder": "1",
+    "reminders": [
+      "是英雄",
+      "醉酒"
+    ],
+    "name": "英雄",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个善良角色：你获得该角色的能力。 如果这个角色在场，你醉酒直到下一个黄昏。",
+    "firstNight": 12,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "16_darkduel",
+    "image": "/scripts/assets/community/d95e446f2e46fe05ad593a3f2a6d4be3412b81dc94a04acc514a0020b2b29730.png",
+    "firstNightReminder": "12",
+    "otherNightReminder": "18",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "星尘",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知三个善良角色，其中至少一个是恶魔的伪装身份。 会有一个在场的善良角色始终因你的能力被视为恶魔的伪装身份。",
+    "firstNight": 22,
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "17_darkduel",
+    "image": "/scripts/assets/community/0ecf4a1780a3ff492b2ac41d2b6ebf44f0128d264e295af69384e9348058ed17.png",
+    "firstNightReminder": "5",
+    "otherNightReminder": "3",
+    "reminders": [
+      "保护",
+      "失去能力"
+    ],
+    "name": "霍普",
+    "team": "townsfolk",
+    "ability": "每局游戏限两次，每个夜晚，你可以选择一名除你以外的玩家：当他首次死亡时，他不会死亡。",
+    "firstNight": 15,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "18_darkduel",
+    "image": "/scripts/assets/community/f3e50ec7c5b85e208710f6c5c9c7932634a64a7a4e45a04de719bfb2c5136598.png",
+    "firstNightReminder": "13",
+    "otherNightReminder": "19",
+    "name": "码语者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的三名玩家：你会得知他们是否为同一阵营。",
+    "firstNight": 23,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "19_darkduel",
+    "image": "/scripts/assets/community/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
+    "otherNightReminder": "12",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "name": "双穹",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家:如果他与你阵营不同且不是恶魔，你要与他进行秘密的猜拳决斗，失败的玩家死亡。外来者的负面能力对你无效。",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "20_darkduel",
+    "image": "/scripts/assets/community/fd9dfe058f398af2d56b7ff7960253ebf3c390f201ef573d487bfef4b47040c3.png",
+    "firstNightReminder": "14",
+    "otherNightReminder": "20",
+    "reminders": [
+      "转生",
+      "失去能力"
+    ],
+    "name": "延寿",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，每个夜晚，你可以选择除你以外的一名玩家：如果你们阵营相同，他死亡并复活，随后他立刻重新使用一次能力。",
+    "firstNight": 24,
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "21_darkduel",
+    "image": "/scripts/assets/community/cc17d7bfc5b1a045d2f5642979712d740e7f1448c3a375058202ce90d68a8dc8.png",
+    "firstNightReminder": "3",
+    "otherNightReminder": "2",
+    "reminders": [
+      "被选择",
+      "失去能力"
+    ],
+    "name": "驱魔姐妹",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，每个夜晚，你可以选择一个邪恶角色：如果他在场，他醉酒。如果你选中了恶魔，每晚的死亡由说书人决定。",
+    "firstNight": 13,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "22_darkduel",
+    "image": "/scripts/assets/community/fc549bae99801649dcbabafe2cd543a72fe077627a1d625e9c40d4e69881a2e0.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "阿不思",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，你可以在白天私下拜访说书人以得知两条关于上个夜晚死亡来源的信息：一个是正确的，一个是错误的。",
+    "edition": "custom"
+  },
+  {
+    "id": "23_darkduel",
+    "image": "/scripts/assets/community/1c1b1c455af3b31a627d4ae789784a30f42036ebc6c996823bb48be37485602d.png",
+    "otherNightReminder": "17",
+    "reminders": [
+      "死亡",
+      "失去能力",
+      "死亡"
+    ],
+    "name": "黄金国",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，当你首次即将在夜晚死亡时，你会被唤醒并可以选择一名玩家：如果他不是恶魔，你存活，他死亡。",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "24_darkduel",
+    "image": "/scripts/assets/community/fee15daf0f58bb90c4e20b4c49688a87085df927e3a31742d65a6a469ae8cf35.png",
+    "otherNightReminder": "21",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "魔都",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知除你以外累计有多少【每局游戏限一次】的能力已经使用。",
+    "otherNight": 22,
+    "edition": "custom"
+  },
+  {
+    "id": "531239_meta",
+    "image": "/scripts/assets/community/e74539b896016ed7cfece8d7dcc64f4d298e3a719c45ffb61db23631e1e8a03e.png",
+    "name": "双穹&渊潜者",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果双穹选择了渊潜者，说书人与双穹进行秘密的猜拳。",
+    "edition": "custom"
+  },
+  {
+    "id": "61230_meta",
+    "image": "/scripts/assets/community/fa13b3e9250a3e4135ee7761793bd6491b6985961b8b06081164659140839ed1.png",
+    "name": "桃源乡&珠泪",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "如果恶魔获得珠泪的能力，他可以选择自杀但不会死亡，并变成一个不在场的恶魔。",
+    "edition": "custom"
+  },
+  {
+    "id": "wotui",
+    "image": "/scripts/assets/community/23f3bfd7c708c0b243ea6bec0410b7fdbad4e89d38516d0ed81474bde9b01b5c.png",
+    "edition": "custom",
+    "name": "卧推爱好者",
+    "ability": "提名处决阶段，每一次提名会导致说书人做一组卧推。",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "一组卧推"
+    ]
+  },
+  {
+    "id": "shendun",
+    "image": "/scripts/assets/community/d55fec5004a27dc7f0dfe3cb630a1844dc0a5dfd603cf14e1416e076cbf17f9c.png",
+    "edition": "custom",
+    "name": "深蹲爱好者",
+    "ability": "提名处决阶段，每一个投票会导致说书人做一个深蹲。",
+    "team": "fabled",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "一个深蹲"
+    ]
+  }
+]

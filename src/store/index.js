@@ -182,6 +182,7 @@ const customRole = {
   setup: false,
   team: "townsfolk",
   isCustom: true,
+  imageAlt: "",
 };
 
 export default new Vuex.Store({
@@ -487,7 +488,9 @@ export default new Vuex.Store({
         // default empty icons and placeholders, clean up firstNight / otherNight
         .map((role) => {
           if (rolesJSONbyId.get(role.id)) return role;
-          role.imageAlt = // map team to generic icon
+          role.imageAlt =
+            role.imageAlt ||
+            // map team to generic icon
             {
               townsfolk: "good",
               outsider: "outsider",
@@ -495,7 +498,8 @@ export default new Vuex.Store({
               demon: "evil",
               fabled: /^bootlegger\d+$/.test(role.id) ? "bootlegger" : "fabled", // 直接使用私货商人图标
               loric: /^bootlegger\d+$/.test(role.id) ? "bootlegger" : "loric",
-            }[role.team] || "custom";
+            }[role.team] ||
+            "custom";
           role.firstNight = Math.abs(role.firstNight);
           role.otherNight = Math.abs(role.otherNight);
           return role;

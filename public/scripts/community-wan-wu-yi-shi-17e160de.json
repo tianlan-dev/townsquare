@@ -1,0 +1,437 @@
+[
+  {
+    "id": "_meta",
+    "name": "万无异失",
+    "townsfolkName": "镇民",
+    "author": "异万世界官方",
+    "tags": [
+      "城市赛专属剧本"
+    ],
+    "version": ""
+  },
+  {
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
+    "edition": "custom",
+    "flavor": "",
+    "id": "qintianjianbutton",
+    "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
+    "otherNightReminder": "",
+    "name": "钦天监",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "remindersGlobal": [],
+    "team": "townsfolk",
+    "firstNight": 49,
+    "image": "/scripts/assets/community/e17ca37a9fc73cc4fad4fc29a3c40f3e9e2a460422579075618587d1a86941c7.png"
+  },
+  {
+    "firstNightReminder": "给他展示数字手势来告诉他恶魔与爪牙之间最近的距离。",
+    "otherNightReminder": "",
+    "name": "钟表匠",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "clockmakerbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Clockmaker",
+    "firstNight": 40,
+    "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
+    "image": "/scripts/assets/community/ee80c0d73ab0af9f2c559bc8735f60625faaeada294b5d0daf382ae7173a4f31.png"
+  },
+  {
+    "firstNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+    "otherNightReminder": "让占卜师选择两名玩家。如果其中有恶魔或“干扰项”，点头示意，否则摇头。",
+    "name": "占卜师",
+    "otherNight": 54,
+    "setup": false,
+    "reminders": [
+      "干扰项"
+    ],
+    "id": "fortune_tellerbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Fortune Teller",
+    "firstNight": 37,
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png"
+  },
+  {
+    "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+    "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+    "name": "侍女",
+    "otherNight": 70,
+    "setup": false,
+    "reminders": [],
+    "id": "chambermaidbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Chambermaid",
+    "firstNight": 50,
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "对她点头或摇头来示意今天白天是否有恶魔投过票。",
+    "name": "卖花女孩",
+    "otherNight": 58,
+    "setup": false,
+    "reminders": [
+      "恶魔未投票",
+      "恶魔已投票"
+    ],
+    "id": "flowergirlbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Flowergirl",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
+    "image": "/scripts/assets/community/092fd02662d242fa3754b5e700c1d9c2e081ba440fd5e986b15447f28fd23ef5.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
+    "name": "城镇公告员",
+    "otherNight": 59,
+    "setup": false,
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "id": "town_crierbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Town Crier",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "image": "/scripts/assets/community/0f70873ea59ff295b447e2a58fb75817a6b700c9c0b75c494517f405486a69c5.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
+    "name": "神谕者",
+    "otherNight": 60,
+    "setup": false,
+    "reminders": [],
+    "id": "oraclebutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Oracle",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
+    "name": "僧侣",
+    "otherNight": 13,
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "id": "monkbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Monk",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+  },
+  {
+    "firstNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+    "otherNightReminder": "哲学家可以选择一个角色。如果选择的角色不在场，将哲学家的角色标题替换成对应角色，并标记“是哲学家”，否则标记该角色对应的玩家醉酒。从现在开始，你需要以哲学家获得能力的那种角色的行动方式来唤醒哲学家。",
+    "name": "哲学家",
+    "otherNight": 2,
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "id": "philosopherbutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "是哲学家"
+    ],
+    "team": "townsfolk",
+    "name_eng": "Philosopher",
+    "firstNight": 2,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+    "image": "/scripts/assets/community/15695cc8b4f408df289f557afe1c20da9b2ee99a66220f195c7a3e64224d90e1.png"
+  },
+  {
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "name": "女裁缝",
+    "otherNight": 61,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "seamstressbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Seamstress",
+    "firstNight": 42,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "给他展示数字手势来告诉他他当天白天猜测正确的次数。",
+    "name": "杂耍艺人",
+    "otherNight": 62,
+    "setup": false,
+    "reminders": [
+      "猜测正确"
+    ],
+    "id": "jugglerbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Juggler",
+    "firstNight": 0,
+    "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
+    "image": "/scripts/assets/community/f20d73e4f841d81b78045c728e1885d950721a4061669827705e23dfaa7d29c1.png"
+  },
+  {
+    "firstNightReminder": "守夜人可以指向一名玩家。如果他这么做，则唤醒那名玩家，告知其被守夜人选中，且告知他守夜人是谁。",
+    "otherNightReminder": "守夜人可以指向一名玩家。如果他这么做，则唤醒那名玩家，告知其被守夜人选中，且告知他守夜人是谁。",
+    "name": "守夜人",
+    "otherNight": 66,
+    "setup": false,
+    "reminders": [
+      "失去能力"
+    ],
+    "id": "nightwatchmanbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Nightwatchman",
+    "firstNight": 46,
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一名玩家：他会得知你是守夜人。",
+    "image": "/scripts/assets/community/f87859539c310a67c482bba9bffd83edbd279690e827aebfa6efb42efc794a71.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
+    "name": "守鸦人",
+    "otherNight": 42,
+    "setup": false,
+    "reminders": [],
+    "id": "ravenkeeperbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Ravenkeeper",
+    "firstNight": 0,
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
+    "name": "月之子",
+    "otherNight": 49,
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "id": "moonchildbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Moonchild",
+    "firstNight": 0,
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "解谜大师",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "id": "puzzlemasterbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Puzzlemaster",
+    "firstNight": 0,
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果理发师今天死亡了，唤醒恶魔并展示“该角色的效果对你生效”信息标记和理发师角色标记。如果恶魔选择了两名玩家，将这两名玩家分别独自唤醒。对他们展示“你是”信息标记和他们的新角色标记。",
+    "name": "理发师",
+    "otherNight": 40,
+    "setup": false,
+    "reminders": [
+      "今晚理发"
+    ],
+    "id": "barberbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Barber",
+    "firstNight": 0,
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "image": "/scripts/assets/community/70de30e166408925e632b96c74267772c5663d692e137415c74ad7943f351337.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "呆瓜",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "klutzbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Klutz",
+    "firstNight": 0,
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。",
+    "image": "/scripts/assets/community/6008b1762812a9bdbdb42fa322ce22eb7e0994a18ff26e3aea6d3101395b4996.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "哥布林",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "已公开声明"
+    ],
+    "id": "goblinbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Goblin",
+    "firstNight": 0,
+    "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。",
+    "image": "/scripts/assets/community/16156b65cefe14f4f0335beae44d2faad315bd22e74c121d2a1424b681e8e392.png"
+  },
+  {
+    "firstNightReminder": "对他展示所有在场的外来者标记。",
+    "otherNightReminder": "如果有外来者在今天白天死亡，让教父选择一名玩家。标记那名玩家死亡。",
+    "name": "教父",
+    "otherNight": 38,
+    "setup": true,
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "id": "godfatherbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Godfather",
+    "firstNight": 21,
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果红唇女郎今天变成了小恶魔，对她展示“你是”信息标记，和小恶魔角色标记。",
+    "name": "红唇女郎",
+    "otherNight": 20,
+    "setup": false,
+    "reminders": [],
+    "id": "scarlet_womanbutton",
+    "edition": "custom",
+    "remindersGlobal": [
+      "是恶魔"
+    ],
+    "team": "minion",
+    "name_eng": "Scarlet Woman",
+    "firstNight": 0,
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "image": "/scripts/assets/community/c214ef6bc829aee4352554f285178648e55469a20b780cf5c904241717ee1489.png"
+  },
+  {
+    "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "name": "投毒者",
+    "otherNight": 8,
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "id": "poisonerbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Poisoner",
+    "firstNight": 17,
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+  },
+  {
+    "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
+    "edition": "custom",
+    "flavor": "",
+    "id": "taotiebutton",
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒饕餮，让其选择任意数量的玩家。如果这些玩家的角色类型均不相同，标记这些玩家死亡。",
+    "name": "饕餮",
+    "otherNight": 28,
+    "setup": true,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "team": "demon",
+    "firstNight": 0,
+    "image": "/scripts/assets/community/6a34b85e869e32c8e114dbebcf04cc5dab800eca3ab4f4cabdba8d939c928e0a.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让小恶魔选择一名玩家。标记那名玩家死亡。如果小恶魔选择了自己：用一个备用的小恶魔标记替换一个存活的爪牙角色标记。让原来的小恶魔重新入睡。唤醒新的小恶魔。对他展示“你是”信息标记，和小恶魔角色标记。",
+    "name": "小恶魔",
+    "otherNight": 24,
+    "setup": false,
+    "reminders": [
+      "死亡"
+    ],
+    "id": "impbutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "Imp",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "image": "/scripts/assets/community/421dac4eccd8c9e059d52c93da544c5aae6baae8e07d988307de367e3075198f.png"
+  },
+  {
+    "firstNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让普卡选择一名玩家。标记那名玩家中毒。上一个因普卡中毒的玩家死亡，随后恢复健康。",
+    "name": "普卡",
+    "otherNight": 26,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "id": "pukkabutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "Pukka",
+    "firstNight": 28,
+    "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。",
+    "image": "/scripts/assets/community/80125855e417fc61a3350eb1b22329a401869d4f20b0ea50a825133779393cda.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让诺-达鲺选择一名玩家。标记那名玩家死亡。",
+    "name": "诺-达鲺",
+    "otherNight": 30,
+    "setup": false,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "id": "no_dashiibutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "No Dashii",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+    "image": "/scripts/assets/community/b7f472c673483bcc172de96a85a7e5e7f158272d44e398e16a51d5cd52126270.png"
+  }
+]

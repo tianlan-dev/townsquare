@@ -1,0 +1,365 @@
+[
+  {
+    "id": "_meta",
+    "name": "安土桃山",
+    "author": "卡慕萝米",
+    "almanac": "有问题联系SE谢谢喵~",
+    "tags": [
+      "部分原创角色剧本",
+      "包含私货"
+    ],
+    "version": "",
+    "issue": 763
+  },
+  {
+    "id": "_antutaoshan",
+    "image": "/scripts/assets/community/d086f1be5d2501f3474de654acdbc06437c3b39c9bc293ee541c4a91517cf544.png",
+    "firstNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "otherNightReminder": "唤醒占卜师，让他选择两名玩家。以点头或摇头告知他是否选中了恶魔。",
+    "reminders": [
+      "干扰项"
+    ],
+    "name": "占卜师↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。",
+    "firstNight": 3700,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "1_antutaoshan",
+    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png",
+    "name": "镇长↥",
+    "team": "townsfolk",
+    "ability": "如果只有三名玩家存活且白天没有人被处决，你的阵营获胜。如果你在夜晚死亡，可能会有一名其他玩家代替你死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "2_antutaoshan",
+    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png",
+    "firstNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "otherNightReminder": "唤醒侍女，让她选择两名除自己以外的存活玩家。用手势比划数字来告知她这些玩家中因自己能力而唤醒的玩家数量。",
+    "name": "侍女↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "firstNight": 4400,
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "3_antutaoshan",
+    "image": "/scripts/assets/community/fd4b137588321bd7c791ef0bc47e110d00100228f26435f34d07311a457ee666.png",
+    "firstNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "otherNightReminder": "唤醒筑梦师，让他选择一名除自己以外的非旅行者玩家。对他展示一善一恶两个角色标记。",
+    "name": "筑梦师↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 4000,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "4_antutaoshan",
+    "image": "/scripts/assets/community/4564c139c7903ce4a91db425f3e7faeb08cb59ab0a2530f7108b8704836280c9.png",
+    "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
+    "name": "神谕者↥",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "5_antutaoshan",
+    "image": "/scripts/assets/community/8f27bc6a2a628ebb2b8b7a5b608d3af1fa5c4e431fe531e91c74d14f9082a02f.png",
+    "firstNightReminder": "唤醒骑士，对他指向两名非恶魔玩家。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "骑士↥",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名非恶魔玩家。",
+    "firstNight": 4200,
+    "edition": "custom"
+  },
+  {
+    "id": "6_antutaoshan",
+    "image": "/scripts/assets/community/79708fb6bee43f9432c11479d18781978c073606cb9e64479913ecf30e479d55.png",
+    "firstNightReminder": "唤醒事务官，对他指向一名善良玩家。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "事务官↥",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家。",
+    "firstNight": 4100,
+    "edition": "custom"
+  },
+  {
+    "id": "7_antutaoshan",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": true,
+    "name": "村夫↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 4300,
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "8_antutaoshan",
+    "image": "/scripts/assets/community/947a5b66299a20a5d1751ca7b8aee6dbbb3a9eae983d8981a9065bbc486ea240.png",
+    "name": "戏法师↥",
+    "team": "townsfolk",
+    "ability": "'每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "9_antutaoshan",
+    "image": "/scripts/assets/community/559cfca1556126725378937919eec4ccf503c706384cb5eedf0e0e31f767087a.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "宠妃↥",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，说书人会在关于你的事情上打破规则。随后，你会秘密得知说书人为此做了什么。",
+    "edition": "custom"
+  },
+  {
+    "id": "10_antutaoshan",
+    "image": "/scripts/assets/community/abe46f9f89b4950a92a683dfb16f17c3381d75cddcd097649a3358f22cc87789.png",
+    "firstNightReminder": "唤醒掮客，让他选择两名存活玩家。如果这两个玩家阵营相同，在他俩的角色标记旁放置“交换目标”提示标记。",
+    "otherNightReminder": "唤醒掮客，让他选择两名存活玩家。如果这两个玩家阵营相同，在他俩的角色标记旁放置“交换目标”提示标记。",
+    "reminders": [
+      "交换目标"
+    ],
+    "name": "掮客↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名存活玩家：如果他们阵营相同，今晚任何玩家使用自身能力选择他们之一作为目标时，改为选中另一名玩家。",
+    "firstNight": 3200,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "11_antutaoshan",
+    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "firstNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "otherNightReminder": "唤醒引路人，让他选择至多三名玩家，告诉引路人今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "name": "引路人↧",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "firstNight": 4500,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "12_antutaoshan",
+    "otherNightReminder": "恶魔死亡时，你变成那个邪恶的恶魔，随后，可能会有一名邪恶玩家因此死亡。",
+    "name": "寄子↧",
+    "team": "townsfolk",
+    "ability": "恶魔死亡时，你变成那个邪恶的恶魔，随后，可能会有一名邪恶玩家因此死亡。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "13_antutaoshan",
+    "firstNightReminder": "每个夜晚，你可以选择一个善良角色：你获得该角色的能力，直到你下次选择。 你每个奇数或偶数夜晚醉酒。",
+    "otherNightReminder": "每个夜晚，你可以选择一个善良角色：你获得该角色的能力，直到你下次选择。 你每个奇数或偶数夜晚醉酒。",
+    "reminders": [
+      "奇数醉酒",
+      "偶数醉酒",
+      "醉酒"
+    ],
+    "name": "天才↥",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个善良角色：你获得该角色的能力，直到你下次选择。 你每个奇数或偶数夜晚醉酒。",
+    "firstNight": 11,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "14_antutaoshan",
+    "image": "/scripts/assets/community/1435c9388e5b4ba752a265611f72ef2bfe62cca02ece9640c7521727ef592928.png",
+    "firstNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
+    "otherNightReminder": "唤醒管家，让他选择一名除自己以外的玩家，那名玩家成为他的主人。",
+    "reminders": [
+      "主人"
+    ],
+    "name": "管家↓",
+    "team": "outsider",
+    "ability": "每个夜晚，你要选择除你以外的一名玩家：明天白天，只有他投票时你才能投票。",
+    "firstNight": 3900,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "15_antutaoshan",
+    "image": "/scripts/assets/community/d893b0182389efb7926d9a472325bb40d2c1d1b7340cd243819efc6d726b6678.png",
+    "reminders": [
+      "无法提名"
+    ],
+    "name": "魔像↥",
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_antutaoshan",
+    "setup": true,
+    "name": "石像鬼↧",
+    "team": "outsider",
+    "ability": "你以为你是一个在场的镇民角色，但其实你不是。 如果该镇民死亡，你转变为对立阵营。",
+    "edition": "custom"
+  },
+  {
+    "id": "17_antutaoshan",
+    "firstNightReminder": "每个夜晚，你要选择除你以外的一名存活玩家（与之前不同）：如果你选择过邪恶玩家，你随时可能死亡。 如果你死于处决，你选择过的一名玩家随时可能死亡，即使你已死亡。",
+    "otherNightReminder": "每个夜晚，你要选择除你以外的一名存活玩家（与之前不同）：如果你选择过邪恶玩家，你随时可能死亡。 如果你死于处决，你选择过的一名玩家随时可能死亡，即使你已死亡。",
+    "name": "花语师↧",
+    "team": "outsider",
+    "ability": "每个夜晚，你要选择除你以外的一名存活玩家（与之前不同）：如果你选择过邪恶玩家，你随时可能死亡。 如果你死于处决，你选择过的一名玩家随时可能死亡，即使你已死亡。",
+    "firstNight": 3800,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "18_antutaoshan",
+    "reminders": [
+      "替死"
+    ],
+    "name": "大小姐↥",
+    "team": "outsider",
+    "ability": "你首次即将死亡时，可能会有两名存活玩家代替你死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "19_antutaoshan",
+    "firstNightReminder": "说书人可能会打破一次规则，你会得知他做了什么。 每局游戏限一次，在夜晚时，恶魔可以猜测你是天机老者。如果正确，当晚一名善良玩家死亡。",
+    "otherNightReminder": "说书人可能会打破一次规则，你会得知他做了什么。 每局游戏限一次，在夜晚时，恶魔可以猜测你是天机老者。如果正确，当晚一名善良玩家死亡。",
+    "reminders": [
+      "死亡",
+      "打破规则"
+    ],
+    "name": "天机老者↥",
+    "team": "outsider",
+    "ability": "说书人可能会打破一次规则，你会得知他做了什么。 每局游戏限一次，在夜晚时，恶魔可以猜测你是天机老者。如果正确，当晚一名善良玩家死亡。",
+    "firstNight": 3600,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "20_antutaoshan",
+    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png",
+    "firstNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
+    "otherNightReminder": "唤醒投毒者，让他选择一名玩家，那名玩家中毒。",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "投毒者",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "firstNight": 3400,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "21_antutaoshan",
+    "image": "/scripts/assets/community/d88e2ee04a6fda4fe44180024fd5b4527d90453862250aa5618461122b29eba6.png",
+    "firstNightReminder": "唤醒教父，对他展示外来者角色标记，告诉他有哪些外来者在场。",
+    "otherNightReminder": "如果今天白天有外来者死亡，唤醒教父，让他攻击一名玩家。",
+    "reminders": [
+      "死于今日",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "教父",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]",
+    "firstNight": 3500,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "22_antutaoshan",
+    "image": "/scripts/assets/community/ffe3c4744f6724e5cfda173fe7e8c5ccc47743376ff0e4c3fb040335616e2b9b.png",
+    "name": "炸弹人",
+    "team": "minion",
+    "ability": "如果你被处决，除三名玩家以外的其他所有玩家均会死亡。倒数十声后，被最多玩家手指指着的玩家死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "23_antutaoshan",
+    "image": "/scripts/assets/community/61751dc256e8e6a9713e612879837a4faaa702504b00cb3df7e35d86c697003c.png",
+    "firstNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
+    "otherNightReminder": "如果夜晚天数等于初始外来者数量，所有镇民玩家中毒到下个黄昏。",
+    "reminders": [
+      "第一晚",
+      "第二晚",
+      "第三晚",
+      "第四晚",
+      "大限将至"
+    ],
+    "setup": true,
+    "name": "限",
+    "team": "minion",
+    "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
+    "firstNight": 3300,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "24_antutaoshan",
+    "image": "/scripts/assets/community/d0ebc56efdd7516bf7f8aa907581b3fd4e65e110389052f48b84021873ce52b7.png",
+    "setup": true,
+    "name": "暴乱",
+    "team": "demon",
+    "ability": "在第三个白天，所有爪牙会变成暴乱，当天被提名的玩家会立即死亡且必须再次提名一名存活的玩家。",
+    "edition": "custom"
+  },
+  {
+    "id": "25_antutaoshan",
+    "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。 每局游戏限一次，在晚上时*，在你发起攻击之前，你可以选择一名玩家和一个非恶魔角色，他变成该角色。",
+    "remindersGlobal": [
+      "死亡",
+      "勿负我"
+    ],
+    "name": "天下人",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。 每局游戏限一次，在晚上时*，在你发起攻击之前，你可以选择一名玩家和一个非恶魔角色，他变成该角色。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "26_antutaoshan",
+    "image": "/scripts/assets/community/14cd48c80a7b80f62a6ca230c1ae6fd0ae534334baace78f723711fc9b224e15.png",
+    "reminders": [
+      "晋升",
+      "邪恶",
+      "醉酒"
+    ],
+    "name": "下克上",
+    "team": "fabled",
+    "ability": "[多数善良玩家为家臣] [家臣]以自身能力在夜晚选择的玩家，如果在下一个白天被处决：当晚该[家臣]要选择变成一个同类型（镇民/外来者）的[大名]。第三个夜晚结束时，存活的[大名]之一转变为邪恶。相同角色在场，只有一人不会醉酒。",
+    "edition": "custom"
+  },
+  {
+    "id": "27_antutaoshan",
+    "name": "引路人&侍女",
+    "team": "a jinxed",
+    "ability": "侍女会得知引路人是否醒来，即使她是在引路人之前醒来。",
+    "image": "/scripts/assets/community/101ba23046310afb281b44fb8ab3f5f1fc6a6481587724d6206886004ce1d268.png",
+    "edition": "custom"
+  },
+  {
+    "id": "28_antutaoshan",
+    "name": "暴乱&镇长",
+    "team": "a jinxed",
+    "ability": "镇长可以停止提名。如果他这样做了，并且场上只有一名暴乱存活，善良阵营获胜；否则，邪恶阵营获胜。",
+    "image": "/scripts/assets/community/105b50545978c135c825e890c141ff01a0ba59cd65ab11f55e6747bfcec8aeea.png",
+    "edition": "custom"
+  }
+]

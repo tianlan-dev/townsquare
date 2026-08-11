@@ -1,0 +1,185 @@
+[
+  {
+    "id": "_meta",
+    "name": "穷境求生",
+    "author": "清清Jungle",
+    "logo": "/scripts/assets/community/1b80fb9bedcc87326642f7190f275c46c2b51285509aaea7a7284e5fe37502ee.png",
+    "almanac": "https://www.bloodstar.xyz/p/Jungle/QiongQi/almanac.html",
+    "tags": [
+      "汀西维尔剧本"
+    ],
+    "version": "1.0"
+  },
+  {
+    "id": "qiongqice085e5ac",
+    "image": "/scripts/assets/community/b94bd5ceb3952bdb4b5c289aec52b7ab3f5c3f1145c7b924a66af9e1c2b36806.png",
+    "firstNightReminder": "对将军展示：用拇指向上代表善良优势、向下代表邪恶优势、两边代表双方均势。",
+    "otherNightReminder": "对将军展示：用拇指向上代表善良优势、向下代表邪恶优势、两边代表双方均势。",
+    "name": "将军",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知说书人认为哪个阵营当前更有优势（善良/邪恶/均势）。",
+    "firstNight": 13,
+    "otherNight": 9,
+    "edition": "custom",
+    "imageAlt": "qiongqi"
+  },
+  {
+    "id": "1_qiongqi",
+    "image": "/scripts/assets/community/738f644d4d355d28071251535c90e5544e9b4c561a0b01e1b595cd91a4ee2ad8.png",
+    "otherNightReminder": "让赌徒选择一名玩家和一个角色。如果赌徒猜错了，标记赌徒死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "赌徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测他的角色：如果你猜错了，你会死亡。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "2_qiongqi",
+    "image": "/scripts/assets/community/251d51694591bd59fa4044ddec0dd4ccd91879da35eff7f3fffcb7effeb52da2.png",
+    "firstNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+    "otherNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+    "name": "郎中",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
+    "firstNight": 14,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "3_qiongqi",
+    "image": "/scripts/assets/community/bd303152f7d90a261f35ea295916c88dc6ab609e441c6247f78b975539766157.png",
+    "firstNightReminder": "（清清自编）如果和尚临近的存活玩家被邪恶玩家的能力选择或影响了，唤醒和尚并告知能力被触发。",
+    "otherNightReminder": "（清清自编）如果和尚临近的存活玩家被邪恶玩家的能力选择或影响了，唤醒和尚并告知能力被触发。",
+    "reminders": [
+      "保护"
+    ],
+    "name": "和尚",
+    "team": "townsfolk",
+    "ability": "每个夜晚，当有邪恶玩家的能力首次选择或影响与你邻近的存活玩家时，改为此次能力不生效并持续至下个黎明，且你会得知你的能力被触发。",
+    "firstNight": 15,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "4_qiongqi",
+    "image": "/scripts/assets/community/86f1a989110dc6a2f883a330ec22e0b93eb8f99338a1dedabd1961ecd32bd5f9.png",
+    "otherNightReminder": "如果白天有邪恶玩家的能力对悟道者造成影响，告知悟道者变成一个不在场的镇民。",
+    "remindersGlobal": [
+      "是悟道者"
+    ],
+    "setup": true,
+    "name": "悟道者",
+    "team": "townsfolk",
+    "ability": "你以为你是一个外来者，但你实际上不是。如果有邪恶玩家的能力选择了你或对你产生了影响，在该效果生效前你会变成一个不在场的镇民角色。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "5_qiongqi",
+    "image": "/scripts/assets/community/62559dce61ab100b338022136924d7f664ece09de172fd0e94c4f5baebf21aa8.png",
+    "reminders": [
+      "中毒",
+      "死于处决"
+    ],
+    "name": "食人族",
+    "team": "townsfolk",
+    "ability": "你拥有上个死于处决的玩家的能力。如果该玩家属于邪恶阵营，你中毒直到下个善良玩家死于处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "6_qiongqi",
+    "image": "/scripts/assets/community/6802b5427f1e7aa8ba5d5df255414c925103a081438e1e4a15f71053b621491c.png",
+    "setup": true,
+    "name": "无神论者",
+    "team": "townsfolk",
+    "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你已死亡。[无邪恶角色在场]",
+    "edition": "custom"
+  },
+  {
+    "id": "7_qiongqi",
+    "image": "/scripts/assets/community/f5b0513e4aeb5d44e7f9ac09c1dfc993075faa955ae22889842ded0b5f505932.png",
+    "firstNightReminder": "唤醒逆臣，让其选择一名玩家。在该玩家的角色标记旁放置“不共戴天”提示标记。",
+    "otherNightReminder": "如果逆臣或标记了“不共戴天\"的玩家死于处决，唤醒两者之中的另一名玩家，告诉他变为邪恶阵营。",
+    "reminders": [
+      "不共戴天"
+    ],
+    "name": "逆臣",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果他先死于处决，你转变为邪恶；如果你先死于处决，他转变为邪恶。",
+    "firstNight": 12,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "8_qiongqi",
+    "image": "/scripts/assets/community/eb5f443679e85731ef5c00ce8e2317f683171175c3f58a4cbddb99da2fb27e93.png",
+    "otherNightReminder": "如果白天入殓师提名了恶魔且让恶魔死于处决，唤醒他，并对他展示“你是\"提示标记和恶魔角色标记。",
+    "name": "入殓师",
+    "team": "outsider",
+    "ability": "如果你提名并使恶魔死于处决，你会变成邪恶的恶魔。当剩余存活玩家小于等于四人时(旅行者除外)，你失去能力。",
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "9_qiongqi",
+    "image": "/scripts/assets/community/64b71bbb5be454a73e8f4e2f7de9cfcf48cad1485c335ffcde3ddd944f4577b1.png",
+    "name": "异端分子",
+    "team": "outsider",
+    "ability": "所有本来获胜的玩家，改为落败；所有本来落败的玩家，改为获胜，即使你已死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "10_qiongqi",
+    "image": "/scripts/assets/community/3e41153982743e1e274ee488b1ca7c9b8f23734b57c5287bb044a71c1b6bbc00.png",
+    "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
+    "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
+    "reminders": [
+      "处决不死"
+    ],
+    "name": "魔鬼代言人",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "firstNight": 11,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "11_qiongqi",
+    "image": "/scripts/assets/community/154204164398111573a455fb55ecfb9d0231a301d4a8505333a37d1f35d2b186.png",
+    "reminders": [
+      "以为存活"
+    ],
+    "setup": true,
+    "name": "赶尸人",
+    "team": "minion",
+    "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
+    "edition": "custom"
+  },
+  {
+    "id": "12_qiongqi",
+    "image": "/scripts/assets/community/c89de4041a8344110b887f5419fb375a62d311b24d5fb3692e1467832a344b9b.png",
+    "otherNightReminder": "（清清自编）让穷奇选择一名玩家。如果白天没有外来者死亡，标记该玩家死亡。如果白天有外来者死亡，标记该玩家“视为存活”。说书人选择一名玩家，那名玩家死亡。",
+    "reminders": [
+      "死亡",
+      "死于今日",
+      "视为存活"
+    ],
+    "setup": true,
+    "name": "穷奇",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果今天白天有外来者死亡，当晚改为你要选择一名玩家：他死亡，但被当作仍然存活，随后会有一名其他玩家死亡。[+1外来者]",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "13_qiongqi",
+    "image": "/scripts/assets/community/20a6f619a0d241b318f5a869710f0da9d509d6d0a9f526daf087c3654955b42d.png",
+    "name": "哨兵",
+    "team": "fabled",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "_meta",
+    "author": "素履行人",
+    "name": "涅槃重生",
+    "firstNight": [
+      "dusk",
+      "lordoftyphon",
+      "apprentice",
+      "barista",
+      "bureaucrat",
+      "thief",
+      "minioninfo",
+      "demoninfo",
+      "widow",
+      "organgrinder",
+      "witch",
+      "harpy",
+      "fortuneteller",
+      "dreamer",
+      "seamstress",
+      "noble",
+      "villageidiot",
+      "nightwatchman",
+      "qintianjianhdsy",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "barista",
+      "bureaucrat",
+      "thief",
+      "harlot",
+      "cacklejack",
+      "organgrinder",
+      "witch",
+      "harpy",
+      "nodashii",
+      "lordoftyphon",
+      "hundunhdsy",
+      "guhuoniaohdsy",
+      "fortuneteller",
+      "undertaker",
+      "tixingguanhdsy",
+      "dreamer",
+      "towncrier",
+      "seamstress",
+      "juggler",
+      "villageidiot",
+      "nightwatchman",
+      "zhifuhdsy",
+      "dawn"
+    ],
+    "bootlegger": [
+      "采用印度教教徒的可选规则：如果恶魔死亡变成了旅行者，一名爪牙玩家变成这个恶魔。",
+      "游戏的前三天不能流放旅行者。"
+    ],
+    "tags": [],
+    "version": "",
+    "issue": 948
+  },
+  {
+    "id": "qintianjian_hdsy",
+    "name": "钦天监",
+    "image": "/scripts/assets/community/b2bcb0f867c2624b20d9ad91567202d79614cfc58e6cefead5e8f874ad901142.png",
+    "team": "townsfolk",
+    "edition": "custom",
+    "ability": "在你的首个夜晚，你会得知离你最近的邪恶玩家位于你的哪一侧（左/右/相同）。如果与你邻近的玩家中有邪恶阵营，你会得知错误信息。",
+    "firstNight": 12100,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒钦天监，对其用拇指指向其左侧或右侧示意。如果两侧邪恶玩家与他距离相同，拇指朝下示意。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "name": "card",
+        "type": "signal",
+        "value": "左"
+      },
+      {
+        "name": "card",
+        "type": "signal",
+        "value": "相同"
+      },
+      {
+        "name": "card",
+        "type": "signal",
+        "value": "右"
+      }
+    ]
+  },
+  {
+    "id": "noble"
+  },
+  {
+    "id": "seamstress"
+  },
+  {
+    "id": "towncrier"
+  },
+  {
+    "id": "fortuneteller"
+  },
+  {
+    "id": "dreamer"
+  },
+  {
+    "id": "villageidiot"
+  },
+  {
+    "id": "tixingguan_hdsy",
+    "name": "提刑官",
+    "image": "/scripts/assets/community/c4bb19ade84b1bff271c95d189bbebd415882a8a3bbc3a083daef48698912bf9.png",
+    "team": "townsfolk",
+    "edition": "custom",
+    "ability": "在你首次提名玩家后，你会在当晚得知他的角色。恶魔会被你的能力当作善良角色。",
+    "firstNight": 0,
+    "otherNight": 11400,
+    "otherNightReminder": "如果提刑官在白天进行了整局游戏中他的首次提名，唤醒他并对他展示他提名的玩家的角色标记。",
+    "reminders": [
+      "提名",
+      "失去能力"
+    ],
+    "remindersGlobal": []
+  },
+  {
+    "id": "undertaker"
+  },
+  {
+    "id": "zhifu_hdsy",
+    "name": "知府",
+    "image": "/scripts/assets/community/b8ca63d19e3997b01e9afcbce89a63febb36ff3eb645aeb06c70e415b3b972c4.png",
+    "team": "townsfolk",
+    "edition": "custom",
+    "ability": "每个夜晚*，你会得知今天是否有非镇民且非旅行者玩家死亡。",
+    "firstNight": 0,
+    "otherNight": 12220,
+    "otherNightReminder": "如果在白天以及夜晚，只有镇民玩家死亡，对司民摇头表示“否”，否则点头表示“是”。",
+    "reminders": [
+      "客死他乡"
+    ],
+    "remindersGlobal": []
+  },
+  {
+    "id": "fisherman"
+  },
+  {
+    "id": "nightwatchman"
+  },
+  {
+    "id": "juggler"
+  },
+  {
+    "id": "jiubao_hdsy",
+    "name": "酒保",
+    "image": "/scripts/assets/community/310d8919e67957ef224805a0327816a319556e051a3b52d8fad8e01ac41166d2.png",
+    "team": "outsider",
+    "edition": "custom",
+    "ability": "与你邻近的善良玩家之一醉酒（旅行者除外）即使你被处决。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": []
+  },
+  {
+    "id": "zealot"
+  },
+  {
+    "id": "hermit"
+  },
+  {
+    "id": "recluse"
+  },
+  {
+    "id": "organgrinder"
+  },
+  {
+    "id": "widow"
+  },
+  {
+    "id": "harpy"
+  },
+  {
+    "id": "witch"
+  },
+  {
+    "id": "guhuoniao_hdsy",
+    "name": "姑获鸟",
+    "image": "/scripts/assets/community/079dfd3420907d8870d406765ffb63c13e962d820f05009f6b6a6a83f7556eae.png",
+    "team": "demon",
+    "edition": "custom",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当爪牙死于处决时，你可能会获得他的能力，但每局游戏仅能获得一次。",
+    "firstNight": 0,
+    "otherNight": 47.5,
+    "otherNightReminder": "唤醒姑获鸟，让其选择一名玩家，在玩家角色标记旁放置“死亡”提示标记。",
+    "reminders": [
+      "死亡",
+      "获得能力",
+      "限一次"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [
+      {
+        "id": "summoner",
+        "reason": "如果召唤师成功召唤了姑获鸟，召唤师会变成一个不在场的爪牙，姑获鸟本局游戏中无法获得爪牙能力。"
+      },
+      {
+        "id": "eviltwin",
+        "reason": "如果姑获鸟获得了镜像双子的能力，新对立双子会知道“姑获鸟在场”，但不会知道姑获鸟是谁。"
+      },
+      {
+        "id": "widow",
+        "reason": "如果姑获鸟获得了寡妇的能力，可以不会有新的玩家得知寡妇在场。"
+      }
+    ]
+  },
+  {
+    "id": "nodashii"
+  },
+  {
+    "id": "hundun_hdsy",
+    "name": "混沌",
+    "image": "/scripts/assets/community/9d7dc08674e377da254a9f04c77bb64af9a9a0333812a0f314839ac672f23f17.png",
+    "team": "demon",
+    "edition": "custom",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式杀死了一名与你邻近的镇民玩家，所有除旅行者以外的善良玩家会中毒直到下个黄昏。",
+    "firstNight": 0,
+    "otherNight": 41.3,
+    "otherNightReminder": "唤醒混沌。让混沌指向一名玩家。该玩家死亡，在他角色标记旁放置“死亡”提示标记（除非该玩家受到其他原因影响导致不会死亡）。让混沌重新入睡。\n如果混沌成功杀死了与自己邻近的一名镇民玩家，在魔典中央放置混沌的“善良中毒”提示标记。从现在起，所有玩家只要是善良阵营，就会处于中毒状态。在下一个黄昏开始时，移除混沌的“善良中毒”提示标记。",
+    "reminders": [
+      "死亡",
+      "善良中毒"
+    ],
+    "remindersGlobal": []
+  },
+  {
+    "id": "lordoftyphon"
+  },
+  {
+    "id": "thief"
+  },
+  {
+    "id": "bureaucrat"
+  },
+  {
+    "id": "barista"
+  },
+  {
+    "id": "harlot"
+  },
+  {
+    "id": "butcher"
+  },
+  {
+    "id": "cacklejack"
+  },
+  {
+    "id": "gunslinger"
+  },
+  {
+    "id": "gangster"
+  },
+  {
+    "id": "judge"
+  },
+  {
+    "id": "apprentice"
+  },
+  {
+    "id": "scapegoat"
+  },
+  {
+    "id": "gnome"
+  },
+  {
+    "id": "bootlegger"
+  },
+  {
+    "id": "hindu"
+  },
+  {
+    "id": "sentinel"
+  },
+  {
+    "id": "qigaigaigai111",
+    "image": "/scripts/assets/community/c2c94cb3e918e39c56f3fef96c97223acb693576d024e2fc00903d891ceeaab1.png",
+    "edition": "custom",
+    "name": "乞丐",
+    "ability": "你只能使用投票标记才能投票。死亡的玩家可以将他的投票标记给你，如果他这么做，你会得知他的阵营。你不会中毒和醉酒。",
+    "team": "traveler",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "jiaohuazioooooooo111",
+    "image": "/scripts/assets/community/89159a83317e9bcaff7e744462873b8fb46b0f07550d5929ac881b31c37b990d.png",
+    "edition": "custom",
+    "name": "叫花子",
+    "ability": "每个白天限一次，你可以公开选择一名其他玩家，让他选择一个非恶魔角色：你可能会获得这个角色的能力，直到下个黎明。",
+    "team": "traveler",
+    "firstNight": 0,
+    "otherNight": 1,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果你决定不让叫花子获得这个角色的能力，无事发生。如果你决定让叫花子获得这个角色的能力，那么让他行动。如果该角色已在场，你可以自由决定是先唤醒原角色对应的玩家还是先唤醒叫花子玩家来进行行动。",
+    "reminders": [
+      "乞讨",
+      "是叫花子"
+    ],
+    "setup": false
+  }
+]

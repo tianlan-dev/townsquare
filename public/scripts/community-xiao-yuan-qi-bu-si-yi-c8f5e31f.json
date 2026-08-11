@@ -1,0 +1,377 @@
+[
+  {
+    "id": "_meta",
+    "name": "校园七不思议",
+    "author": "风厌",
+    "almanac": "https://www.bloodstar.xyz/p/Guiltier/seve/almanac.html",
+    "tags": [
+      "BWG·剧本大乱斗"
+    ],
+    "version": ""
+  },
+  {
+    "id": "2_seve",
+    "image": "/scripts/assets/community/f9f746ce727cf3499334528124ef88c7f5edcff7eead49f276c6ddff7ff55753.png",
+    "firstNightReminder": "指向她的孙子玩家，并展示该玩家的角色标记。",
+    "otherNightReminder": "如果孙子被恶魔杀死，祖母也会一同死亡。标记祖母死亡。",
+    "reminders": [
+      "孙子",
+      "死亡"
+    ],
+    "name": "祖母",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。",
+    "firstNight": 21,
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "1_seve",
+    "image": "/scripts/assets/community/62b537c80a69f1194946907f2b46ae0df6112bb9fb09dc6d1728409fad40750e.png",
+    "firstNightReminder": "展示那个外来者角色标记。指向被你标记“外来者”和“错误”的两名玩家。",
+    "reminders": [
+      "外来者",
+      "错误"
+    ],
+    "name": "图书管理员",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知两名玩家和一个外来者角色：这两名玩家之一是该角色（或者你会得知没有外来者在场）。",
+    "firstNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "7_seve",
+    "image": "/scripts/assets/community/b9b18b5fff08818e92b0abc818b90121fb75fbbd8dbe33033d117aa12c2b8708.png",
+    "firstNightReminder": "天才可以选择一个角色。如果选择的角色不在场，将天才的角色标题替换成对应角色，并标记“是天才”，否则标记该角色对应的玩家醉酒。从现在开始，你需要额外在天才获得能力的那种角色行动时唤醒天才。",
+    "otherNightReminder": "天才可以选择一个角色。如果选择的角色不在场，将天才的角色标题替换成对应角色，并标记“是天才”，否则标记该角色对应的玩家醉酒。从现在开始，你需要额外在天才获得能力的那种角色行动时唤醒天才。",
+    "reminders": [
+      "是天才",
+      "醉酒"
+    ],
+    "name": "天才",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个善良角色：你获得他的能力，直到你下次选择。你每隔一晚醉酒一天。",
+    "firstNight": 12,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "3_seve",
+    "image": "/scripts/assets/community/42328918e61aff226f6649bd6d374c6365155fed12f3d8ed0490eb46547ae4d5.png",
+    "firstNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
+    "otherNightReminder": "让筑梦师指向一名玩家。对他展示善良和邪恶的角色标记各一个，其中一个是属于该玩家的角色。",
+    "name": "筑梦师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+    "firstNight": 22,
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "4_seve",
+    "image": "/scripts/assets/community/ba0f06f3d1b97e334b04227b50cec6f3c411de8c0793087db536e8df95ab32a8.png",
+    "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "name": "共情者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "firstNight": 20,
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "6_seve",
+    "image": "/scripts/assets/community/3a1055b74fea1a756db939d01847d64b9c424c01a2036ab4450bec924c4c7740.png",
+    "firstNightReminder": "唤醒气球驾驶员，对他指向一名玩家。",
+    "otherNightReminder": "唤醒气球驾驶员，对他指向一名玩家，这名玩家与上个夜晚气球驾驶员得知过的玩家属于不同的角色类型。",
+    "reminders": [
+      "得知"
+    ],
+    "name": "气球驾驶员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
+    "firstNight": 23,
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "5_seve",
+    "image": "/scripts/assets/community/88c1faa946dc26175e35aa25f66d0d6140f08bf3009f2dbe3fd5981eed63fe2d.png",
+    "otherNightReminder": "给他展示数字手势来告诉他当前已死亡的玩家中有多少玩家是邪恶的。",
+    "name": "神谕者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "8_seve",
+    "image": "/scripts/assets/community/a8a68b5aa70a91547b15365cccd9dd96a644fdd5b3825076c5e5ec0b737f3983.png",
+    "otherNightReminder": "让旅店老板选择两名玩家。标记这两名玩家不会死亡，并标记其中一人醉酒。",
+    "reminders": [
+      "不会死亡",
+      "醉酒"
+    ],
+    "name": "旅店老板",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "9_seve",
+    "image": "/scripts/assets/community/96951c5dbbc3f2be108abc8a51f9fa14fc1c746af333087ac58df6c094d00023.png",
+    "otherNightReminder": "对他点头或摇头示意今天白天是否有爪牙发起过提名。",
+    "reminders": [
+      "爪牙未提名",
+      "爪牙已提名"
+    ],
+    "name": "城镇公告员",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "10_seve",
+    "image": "/scripts/assets/community/9b58f01628c4cfc9882ddcafca515f6273f35dd43dde2223db1e10e2f71edbef.png",
+    "name": "博学者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "edition": "custom"
+  },
+  {
+    "id": "11_seve",
+    "image": "/scripts/assets/community/58a088422fbcef1e1123c777a6fb7928ddaac86f67515b7961f15b05e5a269f6.png",
+    "name": "戏法师",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
+    "edition": "custom"
+  },
+  {
+    "id": "13_seve",
+    "image": "/scripts/assets/community/3de6a4d10ccb08a7acb86db1bcf6a1ffb4c49a933d6fc8d2d35fa797a9a15b98.png",
+    "firstNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
+    "otherNightReminder": "侍臣可以选择一个角色。如果他这么做了，标记侍臣失去能力，标记被选择的角色所对应的玩家醉酒。之后的夜晚无需再唤醒侍臣。",
+    "reminders": [
+      "醉酒1",
+      "醉酒2",
+      "醉酒3",
+      "失去能力"
+    ],
+    "name": "侍臣",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
+    "firstNight": 16,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "12_seve",
+    "image": "/scripts/assets/community/cfae57e81d0dd8541907767720002b0950c9bc98f4126906401708ef75d1f2e2.png",
+    "firstNightReminder": "向炼金术士展示他拥有能力的爪牙标记",
+    "remindersGlobal": [
+      "是炼金术士"
+    ],
+    "name": "炼金术士",
+    "team": "townsfolk",
+    "ability": "你拥有一个爪牙角色的能力。当你使用能力时，说书人可能会要求你更换选择。",
+    "firstNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "14_seve",
+    "image": "/scripts/assets/community/d42106553ef45e2e1878eef60e3b1b14c2c5f6f0be851b3d29011a19e8fe45fc.png",
+    "reminders": [
+      "1",
+      "2",
+      "3"
+    ],
+    "name": "隐士",
+    "team": "outsider",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "edition": "custom"
+  },
+  {
+    "id": "15_seve",
+    "image": "/scripts/assets/community/82f59ec4772b9e70ec462bafae5c95c54a914a1a9f45c2c7c77a89b04cdf66aa.png",
+    "reminders": [
+      "无法提名"
+    ],
+    "name": "魔像",
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "16_seve",
+    "image": "/scripts/assets/community/6ee0237d52bb1f6220b35c4dc109451ec570cc51554d7a400d8a07ce0872a799.png",
+    "otherNightReminder": "如果帽匠死于白天，（建议分别）唤醒恶魔和爪牙并让他们选择是否改变角色。如果帽匠死于夜晚，则在当前玩家行动结束后立即开始茶会。",
+    "reminders": [
+      "今晚茶会"
+    ],
+    "name": "帽匠",
+    "team": "outsider",
+    "ability": "如果你死亡，当晚爪牙和恶魔玩家可以选择变成新的爪牙和恶魔角色。",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "17_seve",
+    "image": "/scripts/assets/community/1023afbede134784bccbe5d028dd60ab9c44104fa7cb10e7b84fe3ca4122b308.png",
+    "name": "畸形秀演员",
+    "team": "outsider",
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "edition": "custom"
+  },
+  {
+    "id": "19_seve",
+    "image": "/scripts/assets/community/13289fdc49797cd54bae3b6c4011bebab8e403483c5a8834bea7ac55a177f71c.png",
+    "firstNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
+    "otherNightReminder": "在等同初始外来者数量的夜晚，所有镇民中毒。",
+    "reminders": [
+      "第一晚",
+      "第二晚",
+      "第三晚",
+      "大限将至"
+    ],
+    "name": "限",
+    "team": "minion",
+    "ability": "在等同于初始外来者数量的夜晚，所有镇民玩家中毒直到下个黄昏。[外来者数量任意]",
+    "firstNight": 15,
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "20_seve",
+    "image": "/scripts/assets/community/ff4edb0031d82f97518a97269eb30be2fb17574133eced1c7f84a6ec4101f772.png",
+    "firstNightReminder": "如果有必要，让巫师的能力生效。",
+    "otherNightReminder": "如果有必要，让巫师的能力生效。",
+    "reminders": [
+      "？"
+    ],
+    "name": "巫师",
+    "team": "minion",
+    "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
+    "firstNight": 17,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "18_seve",
+    "image": "/scripts/assets/community/f81f7f83c63663e0ecd783c962737dec9aa2be970b47017076d23cd6ff8c9295.png",
+    "otherNightReminder": "如果雕刻家在今天白天被善良玩家提名，雕刻家死亡并醉酒，提名者转变为雕刻家。",
+    "reminders": [
+      "提名者",
+      "醉酒"
+    ],
+    "name": "雕刻家",
+    "team": "minion",
+    "ability": "你以为你是一个善良角色。每个夜晚*，首个使用其自身能力选择了你或在当天白天提名你的善良玩家会转变为雕刻家，随后你死亡并醉酒。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "21_seve",
+    "image": "/scripts/assets/community/54344b29b099a34cdfcdf7e94cea64eaa64d2849c91035746802300105ba60cb.png",
+    "firstNightReminder": "（分别或同时）唤醒科学怪人和恶魔，通知他们恶魔因为科学怪人而获得的善良角色的能力。",
+    "name": "科学怪人",
+    "team": "minion",
+    "ability": "恶魔拥有一个不在场的善良角色的能力，即使他醉酒或中毒。你和他都知道他获得了什么能力。",
+    "firstNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "23_seve",
+    "image": "/scripts/assets/community/88628d80b885335a05004d6f455798d2e25f3c326a6c2a2d03957f92ab04e4e1.png",
+    "firstNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。",
+    "otherNightReminder": "让街头风琴手选择自己是否醉酒。如果他点头，标记街头风琴手醉酒。如果他摇头，移除街头风琴手的醉酒标记。",
+    "reminders": [
+      "即将被处决",
+      "醉酒"
+    ],
+    "name": "街头风琴手",
+    "team": "minion",
+    "ability": "所有玩家在投票时闭眼，且票数会秘密统计。每个夜晚，你要选择自己是否醉酒直到下个黄昏。",
+    "firstNight": 18,
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "22_seve",
+    "image": "/scripts/assets/community/30fa0943d103bde467df146809482c66ba726e4aaf94ee4d6f32b19dd6a1ed5f.png",
+    "name": "精神病患者",
+    "team": "minion",
+    "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "24_seve",
+    "image": "/scripts/assets/community/f81f7f83c63663e0ecd783c962737dec9aa2be970b47017076d23cd6ff8c9295.png",
+    "otherNightReminder": "如果磁感实验员在今天白天死于处决，且场上有玩家因磁感实验员的能力中毒，那名玩家死亡。",
+    "reminders": [
+      "中毒"
+    ],
+    "name": "磁感实验员",
+    "team": "minion",
+    "ability": "距离你最近的两名存活善良玩家之一死亡时，另一人中毒。你死于处决时，因你的能力中毒的玩家会在当晚死亡。",
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "25_seve",
+    "image": "/scripts/assets/community/cec0a4a0d80c8bfaf78a6c9cf2e8bfd83d2abf0122af34ee0bfd434876c17e98.png",
+    "firstNightReminder": "唤醒议，让他指向一名玩家。那名玩家转变为邪恶的爪牙。",
+    "otherNightReminder": "唤醒议，让他指向一名玩家。那名玩家转变为邪恶的爪牙。当邪恶玩家数量比初始设置多一名时，此能力对善良玩家无效。随后，决定今晚谁会因为议能力死亡。",
+    "reminders": [
+      "死亡",
+      "善良无效"
+    ],
+    "name": "议",
+    "team": "demon",
+    "ability": "每个夜晚，你要选择一名玩家，他会转变为邪恶的爪牙，当邪恶玩家数量比初始设置多一名时，此能力对善良玩家无效。每个夜晚*，可能会有一名玩家死亡。",
+    "firstNight": 14,
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "27_seve",
+    "image": "/scripts/assets/community/aaa66100c16ee97157145262825c5e524604704e8077e77ae1ed1a545eb51225.png",
+    "name": "议&祖母",
+    "team": "jinxes",
+    "ability": "如果孙子被议转变为邪恶的爪牙，祖母会立即死亡。",
+    "edition": "custom"
+  },
+  {
+    "id": "28_seve",
+    "image": "/scripts/assets/community/aaa66100c16ee97157145262825c5e524604704e8077e77ae1ed1a545eb51225.png",
+    "name": "议&旅店老板",
+    "team": "jinxes",
+    "ability": "如果议在场，旅店老板保护的玩家免疫所有邪恶阵营的负面效果。",
+    "edition": "custom"
+  },
+  {
+    "id": "29_seve",
+    "image": "/scripts/assets/community/aaa66100c16ee97157145262825c5e524604704e8077e77ae1ed1a545eb51225.png",
+    "name": "炼金术士&科学怪人",
+    "team": "jinxes",
+    "ability": "如果炼金术士拥有科学怪人的能力，炼金术士不会得知恶魔因此获得了哪个角色的能力。",
+    "edition": "custom"
+  },
+  {
+    "id": "_seve",
+    "image": "/scripts/assets/community/342dcced81292aee72bdacff5de45d5335cf5dddeb339440fbcc78d48e220223.png",
+    "name": "不可思议",
+    "team": "fabled",
+    "ability": "初始无爪牙在场。所有玩家都知道议是谁，且议不会醉酒、中毒、死亡。死亡的邪恶玩家数量等于初始配置时，善良阵营获胜。议可以对说书人进行建议，如果被采纳，可能会留下线索。",
+    "edition": "custom"
+  },
+  {
+    "id": "26_seve",
+    "image": "/scripts/assets/community/434a681db366fbafcc4f291436aa079d55b405dfdd0e2d56ca7d3f41b7e818f2.png",
+    "name": "摆渡人",
+    "team": "fabled",
+    "ability": "在游戏的最后一天，所有已死亡玩家会重新获得投票标记。",
+    "edition": "custom"
+  }
+]

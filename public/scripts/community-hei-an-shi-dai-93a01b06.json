@@ -1,0 +1,406 @@
+[
+  {
+    "id": "_meta",
+    "name": "黑暗时代",
+    "author": "小烯C2H43g",
+    "logo": "/scripts/assets/community/38c8ab938ff7c8647d7a3231b460d52127b3bc2d49c9705d1a98a78761666470.png",
+    "almanac": "https://www.bloodstar.xyz/p/C2H43g/DarkAge/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "国内"
+    ],
+    "version": "9"
+  },
+  {
+    "id": "_darkage",
+    "image": "/scripts/assets/community/ce136512af79de8a05cca55353cb1395032700a3179a5ad583a30fe41f09f7cf.png",
+    "firstNightReminder": "选择一个角色",
+    "otherNightReminder": "选择一个角色",
+    "reminders": [
+      "守护",
+      "失去能力"
+    ],
+    "name": "护卫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你可以选择一个其他角色，当首次被你选择过的角色死亡时，他免受本次死亡，然后你得知此事并不再因为护卫的能力被唤醒",
+    "firstNight": 14,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "1_darkage",
+    "image": "/scripts/assets/community/5075ca0df4849dbb7d6fa3e4bca12bdbb06a274b51bc27390e5e3fc8cab2ac15.png",
+    "firstNightReminder": "选择一个角色",
+    "otherNightReminder": "选择一个角色",
+    "reminders": [
+      "得知",
+      "失去能力"
+    ],
+    "name": "精灵",
+    "team": "townsfolk",
+    "ability": "整局游戏限一次，在夜晚时，你可以选择一个角色，该角色会得知精灵在场",
+    "firstNight": 15,
+    "otherNight": 20,
+    "edition": "custom"
+  },
+  {
+    "id": "2_darkage",
+    "image": "/scripts/assets/community/a8f8f8e52aea69752e69b27a98465e8549836114ca95e9a646ba8f79ccb28561.png",
+    "reminders": [
+      "不会死亡"
+    ],
+    "name": "巨像",
+    "team": "townsfolk",
+    "ability": "如果与你临近的存活玩家都是善良的，你不会死亡",
+    "edition": "custom"
+  },
+  {
+    "id": "3_darkage",
+    "image": "/scripts/assets/community/0d27b577f060830040505786c41fea926344eb526d0641c50aeb481b1e1f1aba.png",
+    "otherNightReminder": "选择一名玩家和一个角色类型",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "狂战士",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名玩家和一个未选择过的角色类型，如果他是该角色类型，他死亡。否则你死亡。",
+    "otherNight": 10,
+    "edition": "custom"
+  },
+  {
+    "id": "4_darkage",
+    "image": "/scripts/assets/community/7c1231e997575919dc3aad485418ac3de749fbbfb312bafec7e50b0259f896e1.png",
+    "otherNightReminder": "选择两名玩家",
+    "reminders": [
+      "守护",
+      "免受死亡"
+    ],
+    "name": "大守护者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你选择两名其他玩家，在当晚，当首次有被你选择的玩家死亡时，他免受本次死亡，然后你得知一条关于死亡能力来源的信息",
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "5_darkage",
+    "image": "/scripts/assets/community/2f589287f79c8dc32d79f83a18ca8fdfe7bf4fa315d5c62e16854299e6082af3.png",
+    "otherNightReminder": "得知一个外来者角色",
+    "reminders": [
+      "免受死亡"
+    ],
+    "name": "游女",
+    "team": "townsfolk",
+    "ability": "当首次有外来者死亡时，他不会死亡，然后你会在当晚得知因为你能力免受死亡的外来者角色",
+    "otherNight": 19,
+    "edition": "custom"
+  },
+  {
+    "id": "6_darkage",
+    "image": "/scripts/assets/community/57b1fdc8a1f28d3c20ff004985c8dbc66ba436d87faa84df6caf11d28dac1876.png",
+    "firstNightReminder": "选择一名玩家",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "船长",
+    "team": "townsfolk",
+    "ability": "整局游戏限一次，在夜晚时，你可以选择一名其他玩家，你得知他通过自身能力选中过的目标中有哪些类型的角色",
+    "firstNight": 16,
+    "otherNight": 23,
+    "edition": "custom"
+  },
+  {
+    "id": "7_darkage",
+    "image": "/scripts/assets/community/321451b172c32b43ecc2f9cc9760c39a1fcea8be3ffbf758aef34041e9ec1a5f.png",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "醉酒"
+    ],
+    "name": "骷髅骑士",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你选择一名存活玩家，当你首次选中初始邪恶阵营玩家时，所有初始邪恶玩家醉酒直到下个黄昏",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "8_darkage",
+    "image": "/scripts/assets/community/f4cdab997ddbbf2f7e4591740f358ace99351c0deb77d84a93827a41844c0122.png",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "保留能力",
+      "获得能力"
+    ],
+    "name": "小魔女",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名存活玩家，他在死亡后仍然会保留能力。即使你已失去能力。如果你选择了自己，则改为你获得一名死亡的镇民的能力。",
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "9_darkage",
+    "image": "/scripts/assets/community/5e8d6b024b03aae3a64ab289fee933ccc2317aa0eae5fb26a3706436a85095d3.png",
+    "otherNightReminder": "选择一个角色",
+    "reminders": [
+      "不被唤醒"
+    ],
+    "name": "人鱼女孩",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你选择可以选择一个未选择过的角色，该角色当晚不会因为自身能力被唤醒",
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "10_darkage",
+    "image": "/scripts/assets/community/db820cebe47296fcbdaa5f8866de704d64bd7d074f1345feec4cab9ce7fbeb19.png",
+    "otherNightReminder": "死亡",
+    "reminders": [
+      "回答错误",
+      "死亡"
+    ],
+    "name": "投弹手",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以拜访说书人回答一个问题，如果你回答错误，你会在当晚死亡",
+    "otherNight": 15,
+    "edition": "custom"
+  },
+  {
+    "id": "11_darkage",
+    "image": "/scripts/assets/community/51402ba0e08f31f69bcc2fb26c7d62a0887f93d246253b1b87e19420049a8840.png",
+    "otherNightReminder": "选择一名玩家",
+    "name": "巫师学徒",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你选择一名玩家，你会得知除你以外的通过自身能力选择或影响过他的角色中有哪些角色类型",
+    "otherNight": 22,
+    "edition": "custom"
+  },
+  {
+    "id": "12_darkage",
+    "image": "/scripts/assets/community/73d17450f8e3e3e3dd3916bb30929727d9f51df7899ff6d733e24b509c7bbfd8.png",
+    "otherNightReminder": "询问说书人一个关键词",
+    "reminders": [
+      "错误"
+    ],
+    "name": "工匠",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以向说书人询问一个关键词，你会得知一条与之相关的信息，如果当天有邪恶阵营的玩家死亡，那条信息会是错误的",
+    "otherNight": 21,
+    "edition": "custom"
+  },
+  {
+    "id": "13_darkage",
+    "image": "/scripts/assets/community/78cf96633cfa79a428a1f0b674699ee9d4f29633427f6a6390d7a9158bb623eb.png",
+    "reminders": [
+      "假死"
+    ],
+    "name": "呆子",
+    "team": "outsider",
+    "ability": "如果你死亡，恶魔首次在夜晚死亡时，仍然会存活但被视为死亡",
+    "edition": "custom"
+  },
+  {
+    "id": "14_darkage",
+    "image": "/scripts/assets/community/34fcd6cec21e28f69e1a3e32f813108151b9b0b7542573ffb5988e53a0c83e8e.png",
+    "reminders": [
+      "选择",
+      "邪恶"
+    ],
+    "name": "邪教徒",
+    "team": "outsider",
+    "ability": "如果恶魔杀死了你，你加入邪恶阵营并与恶魔互认，然后你可以决定是否与恶魔交换角色和并让他代替你死亡",
+    "edition": "custom"
+  },
+  {
+    "id": "15_darkage",
+    "image": "/scripts/assets/community/5f33c33fe49eefc690417785e05fc7159abc55f59275d4693337df5b2851235b.png",
+    "otherNightReminder": "死亡",
+    "remindersGlobal": [
+      "心魔附身",
+      "死亡"
+    ],
+    "name": "心魔",
+    "team": "outsider",
+    "ability": "游戏开始时，一名镇民玩家被心魔附身，被心魔附身的玩家会被视为邪恶阵营以及外来者角色且可能在第三个夜晚死亡【+1镇民】",
+    "otherNight": 18,
+    "edition": "custom"
+  },
+  {
+    "id": "16_darkage",
+    "image": "/scripts/assets/community/7532764e4a0376ba0c343526721a4aef734e3275eb5b8fa004c37908a6542b8d.png",
+    "otherNightReminder": "杀死昏君",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "昏君",
+    "team": "outsider",
+    "ability": "如果你提名并处决了一名善良玩家，你会在当晚死亡",
+    "otherNight": 17,
+    "edition": "custom"
+  },
+  {
+    "id": "17_darkage",
+    "image": "/scripts/assets/community/1a72e471df3906ceaf80ef92ba6a23cf4ca5290722049bb84f6293b3a1ba9ec2.png",
+    "firstNightReminder": "得知所有在场镇民角色",
+    "otherNightReminder": "杀死自己",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "name": "夜魔",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你得知所有在场镇民角色。在夜晚时*，你可以杀死自己，当你死亡时，你可以选择任意数量的在场镇民角色，他们中毒直到下个黄昏",
+    "firstNight": 12,
+    "otherNight": 9,
+    "edition": "custom"
+  },
+  {
+    "id": "18_darkage",
+    "image": "/scripts/assets/community/fa5dd1fa45e3a64fc2b26cd07283fda22d2a17edce86ec0de001cf9262613461.png",
+    "firstNightReminder": "看外来",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "处决不死",
+      "外来死绝",
+      "中毒",
+      "死亡"
+    ],
+    "setup": true,
+    "name": "邪教教主",
+    "team": "minion",
+    "ability": "在你的首个夜晚，你会得知所有外来者玩家，如果有外来者死亡，当晚你会被唤醒并选择一名玩家，他在下个白天不会死于处决。在所有外来者均已死亡的下个夜晚，你可以选择让所有在当晚因为邪恶角色能力死亡的镇民改为中毒，并在下个夜晚解毒并死亡，当晚你可以选择一名玩家，他死亡。【+1/-1外来者】",
+    "firstNight": 11,
+    "otherNight": 11,
+    "edition": "custom"
+  },
+  {
+    "id": "19_darkage",
+    "image": "/scripts/assets/community/af28e33a63e004990074b47e9bde68a4d08155fe49a4e7ebdca2b6a1e1ccfa98.png",
+    "firstNightReminder": "选择一名玩家和一个镇民角色",
+    "otherNightReminder": "选择一名玩家和一个镇民角色",
+    "remindersGlobal": [
+      "获得能力"
+    ],
+    "name": "仙将",
+    "team": "minion",
+    "ability": " 每个夜晚，你选择一名玩家和一个未选择过的镇民角色，如果该角色不在场，该玩家获得该角色能力直到下个黄昏",
+    "firstNight": 13,
+    "otherNight": 2,
+    "edition": "custom"
+  },
+  {
+    "id": "20_darkage",
+    "image": "/scripts/assets/community/da86e6811ed72bc5dbd745e103027879f7d86c8b09dc9aebf882206f871e9dc2.png",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "选择",
+      "死亡"
+    ],
+    "name": "月光骑士",
+    "team": "minion",
+    "ability": "每个夜晚*，你可以选择一名玩家（与上个夜晚不同），当晚首个通过自身能力选择他的善良玩家会立刻死亡",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "21_darkage",
+    "image": "/scripts/assets/community/a8c43a88cdce38918a255b0a0c01cf47d83862fa1c689a10fa9060c9bd61e402.png",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "死亡"
+    ],
+    "name": "不死者",
+    "team": "demon",
+    "ability": "每个夜晚*，你选择一名玩家，他死亡。你不会死亡，只有你的所有爪牙处于死亡状态时，你才会立刻死亡，即是你已中毒或醉酒。",
+    "otherNight": 12,
+    "edition": "custom"
+  },
+  {
+    "id": "22_darkage",
+    "image": "/scripts/assets/community/275e5efac8a297510fc0cf28fb63f0a9c0e123ff8f133ef048d55c201e2f78d0.png",
+    "otherNightReminder": "选择两名玩家",
+    "reminders": [
+      "死亡",
+      "不被唤醒"
+    ],
+    "name": "恐帝",
+    "team": "demon",
+    "ability": "每个夜晚*，你选择两名玩家，他们死亡，如果当晚有因为镇民能力造成的死亡，当晚被你不会因为自身能力被唤醒",
+    "otherNight": 16,
+    "edition": "custom"
+  },
+  {
+    "id": "23_darkage",
+    "image": "/scripts/assets/community/623dc1e849f0467c8ffdf909d18b6116fff1b9db80b46d15c13d541897ff062a.png",
+    "otherNightReminder": "选择一名玩家",
+    "reminders": [
+      "死亡",
+      "暗杀"
+    ],
+    "name": "暗杀一族",
+    "team": "demon",
+    "ability": "每个夜晚*，你选择一名玩家，他死亡。如果白天无人死亡，当晚你可以额外选择一名玩家，他必定死亡",
+    "otherNight": 14,
+    "edition": "custom"
+  },
+  {
+    "id": "24_darkage",
+    "image": "/scripts/assets/community/c95a0095c215116dcdfb01142c454349a725d37dea2a604601c41267026214ad.png",
+    "otherNightReminder": "选择一名玩家，然后决定是否献祭爪牙",
+    "reminders": [
+      "死亡",
+      "献祭",
+      "保留能力",
+      "得知线索"
+    ],
+    "name": "神之手",
+    "team": "demon",
+    "ability": "每个夜晚*，你选择一名玩家，他死亡，整局游戏限一次 ，你可以额外杀死一名爪牙，然后向说书人提出一条打破规则的建议，但会有一名善良玩家得知一条与之相关的线索。被你杀死的爪牙会保留能力",
+    "otherNight": 13,
+    "edition": "custom"
+  },
+  {
+    "id": "25_darkage",
+    "image": "/scripts/assets/community/f7a6c1c8d50453cc47d8e0a920e2723d30df3af67887e4925f2f0e99adb0d7e1.png",
+    "reminders": [
+      "公开选择"
+    ],
+    "name": "漫画家",
+    "team": "traveller",
+    "ability": "当你加入游戏时，你需要公开选择一名其他的存活玩家，你始终与他保持相同阵营，当他死亡时，你继承他的能力",
+    "edition": "custom"
+  },
+  {
+    "id": "26_darkage",
+    "image": "/scripts/assets/community/c02afe303ac9de9f9b2b53ef9f77e3fda0f529abacece81dbc4c39c1834200c5.png",
+    "name": "行刑官",
+    "team": "traveller",
+    "ability": "每个白天，你可以与说书人猜拳，当你首次猜拳获胜时，你可以与说书人协商制定一个不影响游戏局势的规则",
+    "edition": "custom"
+  },
+  {
+    "id": "27_darkage",
+    "image": "/scripts/assets/community/8948b0b994fea8b990c6fa217ce76920b02e28bd9ec44d52df704b66a156128f.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "完美世界之蛋",
+    "team": "traveller",
+    "ability": "当你加入游戏时，说书人会公开声明一个其他剧本，整局游戏限一次，你可以公开选择一个名非旅行者玩家，如果他同意，他变成一个该剧本中相同角色类型的角色",
+    "edition": "custom"
+  },
+  {
+    "id": "29_darkage",
+    "image": "/scripts/assets/community/2b4d19c6df0872ef798e03cbfa6806c253980747f82b2ecb06487ba70c753d68.png",
+    "name": "独奏家",
+    "team": "fabled",
+    "ability": " 旅行者会被非旅行者角色的能力当作不在游戏中，但恶魔仍然可以选择杀死旅行者。",
+    "edition": "custom"
+  },
+  {
+    "id": "30_darkage",
+    "image": "/scripts/assets/community/388bad0c5163c3f8bbed6c207869aa0401ede848a60bb2c4b4a524c79274ce55.png",
+    "name": "备注",
+    "team": "fabled",
+    "ability": "守护的触发的先后顺序：大守护者，游女，护卫",
+    "edition": "custom"
+  }
+]

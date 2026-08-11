@@ -55,6 +55,10 @@
             <span>作者：</span>
             <strong>{{ editionAuthor }}</strong>
           </div>
+          <div v-if="editionTags.length" class="info-tooltip-tags">
+            <span>标签：</span>
+            <strong>{{ editionTags.join("、") }}</strong>
+          </div>
           <div>
             <span>房间号：</span>
             <strong>{{ roomLabel }}</strong>
@@ -200,6 +204,16 @@ export default {
       return typeof this.edition.author === "string"
         ? this.edition.author.trim()
         : "";
+    },
+    editionTags() {
+      if (!Array.isArray(this.edition.tags)) return [];
+      return Array.from(
+        new Set(
+          this.edition.tags
+            .map((tag) => String(tag || "").trim())
+            .filter(Boolean),
+        ),
+      );
     },
     formattedTime() {
       const minutes = Math.floor(this.session.timer / 60);
@@ -401,6 +415,18 @@ export default {
     text-overflow: ellipsis;
     font-weight: bold;
     white-space: nowrap;
+  }
+
+  .info-tooltip-tags {
+    align-items: flex-start;
+    white-space: normal;
+
+    strong {
+      overflow: visible;
+      overflow-wrap: anywhere;
+      text-overflow: clip;
+      white-space: normal;
+    }
   }
 }
 

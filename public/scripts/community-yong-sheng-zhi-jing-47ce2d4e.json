@@ -1,0 +1,204 @@
+[
+  {
+    "logo": "/scripts/assets/community/dc257967eacf64d66a85460caa36e85ffeb3fdc358f4ac6d9219c97275a4b2f3.png",
+    "description": "",
+    "author": "汀",
+    "id": "_meta",
+    "name": "永生之境",
+    "townsfolkName": "镇民",
+    "tags": [
+      "汀西维尔剧本"
+    ],
+    "version": ""
+  },
+  {
+    "firstNightReminder": "给他展示数字手势来告诉他场上邻座邪恶玩家有多少对。",
+    "otherNightReminder": "",
+    "name": "厨师",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "chefbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Chef",
+    "firstNight": 35,
+    "ability": "在你的首个夜晚，你会得知场上邻座的邪恶玩家有多少对。",
+    "image": "/scripts/assets/community/0711a8f048e86c7452529c4bd7fda95a9e6fb68c70a9ec79477178d93ffc5e28.png"
+  },
+  {
+    "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "name": "共情者",
+    "otherNight": 53,
+    "setup": false,
+    "reminders": [],
+    "id": "empathbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Empath",
+    "firstNight": 36,
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让僧侣选择除自己外的一名玩家。标记那名玩家被保护。",
+    "name": "僧侣",
+    "otherNight": 13,
+    "setup": false,
+    "reminders": [
+      "保护"
+    ],
+    "id": "monkbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Monk",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "image": "/scripts/assets/community/af3026847b801308883e2b25337065b1f690e9a7b0042fd5a5ef33a19e7e6295.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "如果守鸦人今晚死亡，唤醒他并让他选择一名玩家。对他展示那名玩家的角色标记。",
+    "name": "守鸦人",
+    "otherNight": 42,
+    "setup": false,
+    "reminders": [],
+    "id": "ravenkeeperbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Ravenkeeper",
+    "firstNight": 0,
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "image": "/scripts/assets/community/dc6a9124f4c837fd5426287eaf2975469369d4023393fccefcfc13fa7cac93f0.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "镇长",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "mayorbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Mayor",
+    "firstNight": 0,
+    "ability": "如果只有三名玩家存活且白天没有⼈被处决，你的阵营获胜。如果你在夜晚即将死亡，可能会有一名其他玩家代替你死亡。",
+    "image": "/scripts/assets/community/d39dd880177a0ad6519d1dbde3790a327760685a4b77e1a7c85a462028ff6013.png"
+  },
+  {
+    "firstNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+    "otherNightReminder": "让侍女选择除自己外的两名存活玩家。给她展示数字手势来告诉她这些玩家中有几人因自身能力被唤醒。",
+    "name": "侍女",
+    "otherNight": 70,
+    "setup": false,
+    "reminders": [],
+    "id": "chambermaidbutton",
+    "edition": "custom",
+    "team": "townsfolk",
+    "name_eng": "Chambermaid",
+    "firstNight": 50,
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+    "image": "/scripts/assets/community/e3e89f7a695b8b43134dae0853375b189d088009e1da88d642a881c743b3588f.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "圣徒",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [],
+    "id": "saintbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Saint",
+    "firstNight": 0,
+    "ability": "如果你死于处决，你的阵营落败。",
+    "image": "/scripts/assets/community/ce39a70491e90cae917d0943a37570e79870ec8346f1946211e3c73c2f6b61d3.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "莽夫",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "醉酒"
+    ],
+    "id": "goonbutton",
+    "edition": "custom",
+    "team": "outsider",
+    "name_eng": "Goon",
+    "firstNight": 0,
+    "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
+    "image": "/scripts/assets/community/8f7dea0d64b84a34c190bad4559dcb6b861d64b8c43354cba3256c189823f2a9.png"
+  },
+  {
+    "firstNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "让投毒者选择一名玩家。标记那名玩家中毒。",
+    "name": "投毒者",
+    "otherNight": 8,
+    "setup": false,
+    "reminders": [
+      "中毒"
+    ],
+    "id": "poisonerbutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Poisoner",
+    "firstNight": 17,
+    "ability": "每个夜晚，你要选择一名玩家：他在当晚和明天白天中毒。",
+    "image": "/scripts/assets/community/cc378ff424e056db6976ada47dad2b881ab3a8baad9f79406d79941a2b8e18f7.png"
+  },
+  {
+    "firstNightReminder": "让魔鬼代言人选择一名存活玩家。标记那名玩家处决不死。",
+    "otherNightReminder": "让魔鬼代言人选择一名存活玩家，不能是上一夜他选择过的玩家。标记那名玩家处决不死。",
+    "name": "魔鬼代言人",
+    "otherNight": 14,
+    "setup": false,
+    "reminders": [
+      "处决不死"
+    ],
+    "id": "devils_advocatebutton",
+    "edition": "custom",
+    "team": "minion",
+    "name_eng": "Devil's Advocate",
+    "firstNight": 22,
+    "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。",
+    "image": "/scripts/assets/community/dfc04081b4cdd1b381fea74644c7deb94c5def18f45263e0cc30401aa0859f0a.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "让亡骨魔选择一名玩家。标记那名玩家死亡。如果该玩家是爪牙，标记该玩家保留能力，并标记与该玩家邻近的镇民玩家之一中毒。",
+    "name": "亡骨魔",
+    "otherNight": 32,
+    "setup": true,
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "中毒"
+    ],
+    "id": "vigormortisbutton",
+    "edition": "custom",
+    "team": "demon",
+    "name_eng": "Vigormortis",
+    "firstNight": 0,
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+    "image": "/scripts/assets/community/b4eed1afb8027c16b8c5c32cc9790bd9ce0c10ea5d55be30cc39d73e734e8100.png"
+  },
+  {
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "哨兵",
+    "setup": true,
+    "reminders": [],
+    "team": "fabled",
+    "name_eng": "Sentinel",
+    "id": "sentinelbutton",
+    "ability": "在初始设置时，可能会额外增加或减少一个外来者。",
+    "edition": "custom",
+    "image": "/scripts/assets/community/d9627a791f6e4c951a6f0fb8e0d554e0b76f6a471cd51664d48110bb8547b3cf.png"
+  }
+]

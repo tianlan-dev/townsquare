@@ -177,9 +177,14 @@ function scriptNameData(name) {
   };
 }
 
+const SCRIPT_CATALOG_CACHE_MS = 30000;
+let scriptCatalogCache = { expiresAt: 0, value: [] };
+
 function listScripts() {
+  const now = Date.now();
+  if (scriptCatalogCache.expiresAt > now) return scriptCatalogCache.value;
   if (!fs.existsSync(scriptsDir)) return [];
-  return fs
+  const scripts = fs
     .readdirSync(scriptsDir)
     .filter((file) => file.endsWith(".json"))
     .sort()
@@ -198,6 +203,9 @@ function listScripts() {
           url,
           logo: scriptAssetUrl(meta.logo, url),
           version: meta.version || "",
+          author: meta.author || "",
+          tags: Array.isArray(meta.tags) ? meta.tags : [],
+          issue: meta.issue || "",
           ...scriptNameData(name),
         };
       } catch (e) {
@@ -205,6 +213,11 @@ function listScripts() {
       }
     })
     .filter(Boolean);
+  scriptCatalogCache = {
+    expiresAt: now + SCRIPT_CATALOG_CACHE_MS,
+    value: scripts,
+  };
+  return scripts;
 }
 
 function setStaticCacheHeaders(res, filePath) {

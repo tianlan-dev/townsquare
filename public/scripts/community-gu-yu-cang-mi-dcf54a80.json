@@ -1,0 +1,474 @@
+[
+  {
+    "id": "_meta",
+    "name": "孤屿藏谜",
+    "author": "深圳谜屿推理社",
+    "tags": [],
+    "version": "5.2",
+    "issue": 954
+  },
+  {
+    "id": "seamstresscdcf54a80",
+    "name": "女裁缝",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+    "firstNight": 8600,
+    "otherNight": 11900,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“你听到那个穿羊绒大衣的家伙对我们小贝尔说什么了吗？他说……‘好’？哎，行吧，和哈利还有那个杂耍艺人那一出相比，这算不了什么。说什么？我可不说，我又不是什么长舌妇。”",
+    "firstNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "otherNightReminder": "女裁缝可以选择除自己以外的两名玩家。如果她这么做了，对她点头或摇头示意这两名玩家是否为同一阵营，随后标记女裁缝失去能力。之后的夜晚无需再唤醒女裁缝。",
+    "image": "/scripts/assets/community/71571a1ed9459ee0ec7cfce2a82400d4e4ab45c8a9a31d3b147c265d4387f6f1.png",
+    "imageAlt": "seamstress"
+  },
+  {
+    "id": "noblecdcf54a80",
+    "name": "贵族",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "firstNight": 8900,
+    "otherNight": 0,
+    "reminders": [
+      "得知"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“讽刺的确是最不足挂齿的机智。尽管如此，先生，回应你的批评，就是一种机智。”",
+    "firstNightReminder": "以任意顺序指向三名玩家，其中一名邪恶。",
+    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "imageAlt": "noble"
+  },
+  {
+    "id": "empathcdcf54a80",
+    "name": "共情者",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "firstNight": 7900,
+    "otherNight": 11000,
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“我的皮肤有些刺痛。\r\n这有些不太对劲。我能感觉得到。”",
+    "firstNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "otherNightReminder": "给他展示数字手势来告诉他与他邻近的存活玩家有几人是邪恶的。",
+    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "imageAlt": "empath"
+  },
+  {
+    "id": "tealadycdcf54a80",
+    "name": "茶艺师",
+    "team": "townsfolk",
+    "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“若你感到寒冷，茶能使你温暖。\r\n若你感到愤怒，茶能使你冷静。\r\n若你感到沮丧，茶能使你振奋。\r\n若你感到激动，茶能使你镇定。”",
+    "image": "/scripts/assets/community/3c2a4926828d179ef8286cb6c8e9103b7e2c323c47ad4d5f2255bfe3f68dddea.png",
+    "imageAlt": "tealady"
+  },
+  {
+    "id": "oceanologist",
+    "name": "海洋学家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时，你要选择除你及旅行者以外的一名玩家：你会得知他的角色、一个其他在场角色、一个不在场角色。",
+    "firstNight": 8750,
+    "otherNight": 11900,
+    "reminders": [
+      "失去能力"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "这片海洋里可能有的物种是鲶形目、海鲢目，这我知道，但为什么会有刺鱼目？",
+    "firstNightReminder": "海洋学家可以选择除自己及旅行者以外的一名玩家。如果他这么做了，告诉他符合技能的三个角色，随后标记海洋学家失去能力。之后的夜晚无需再唤醒海洋学家。",
+    "otherNightReminder": "海洋学家可以选择除自己及旅行者以外的一名玩家。如果他这么做了，告诉他符合技能的三个角色，随后标记海洋学家失去能力。之后的夜晚无需再唤醒海洋学家。"
+  },
+  {
+    "id": "villageidiotcdcf54a80",
+    "name": "村夫",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 9200,
+    "otherNight": 12800,
+    "reminders": [
+      "醉酒"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "edition": "custom",
+    "flavor": "“玫瑰花是蓝色哒！草桂花是红色哒！哦豁，俺说反啦！”",
+    "firstNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
+    "otherNightReminder": "唤醒任意一名村夫。让村夫指向一名玩家，对他给出拇指向上或向下的手势代表那名玩家的阵营。重复这个操作，直到所有村夫玩家都进行了夜晚行动。",
+    "image": "/scripts/assets/community/0983c64bfde15f636e27cafd4c21a49847b40f7983bc09e1159c0947c02bbda4.png",
+    "imageAlt": "villageidiot"
+  },
+  {
+    "id": "sagecdcf54a80",
+    "name": "贤者",
+    "team": "townsfolk",
+    "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+    "firstNight": 0,
+    "otherNight": 9900,
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“这书山卷海中一定隐藏着秘密，我非常确信！这些秘密就隐藏在这一字一句之间等待着我们发掘。小子！再帮我多拿点蜡烛！还有墨水！虽然这些笔记有些晦涩，但有关恶魔的谜语很快就会被揭晓。”",
+    "otherNightReminder": "如果恶魔杀死了贤者，唤醒贤者并指向两名玩家，其中一名玩家是杀死他的恶魔。",
+    "image": "/scripts/assets/community/67df9552e41f78e75c7245fdb610faf26860b93d21b95fa10ab3cc99631697bd.png",
+    "imageAlt": "sage"
+  },
+  {
+    "id": "fishmonger",
+    "name": "鱼屠",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名玩家：你会得知他们的角色是否都在剧本的同一侧（左侧/右侧）。[+0~1外来者]",
+    "firstNight": 9500,
+    "otherNight": 13800,
+    "reminders": [],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": true,
+    "edition": "custom",
+    "flavor": "这左边的鱼和右边的鱼怎么拼不齐呢？",
+    "firstNightReminder": "让鱼屠选择除自己外的两名存活玩家。对她点头或摇头示意这两名玩家是否在剧本的同一侧。",
+    "otherNightReminder": "让鱼屠选择除自己外的两名存活玩家。对她点头或摇头示意这两名玩家是否在剧本的同一侧。"
+  },
+  {
+    "id": "shipwright",
+    "name": "修船匠",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会获得今天白天和晚上死亡玩家的角色名中的两个拼音字母，你可以用字母拼成你新的角色。当你使用时说书人可能会要求你重新组合。",
+    "firstNight": 0,
+    "otherNight": 10450,
+    "reminders": [
+      "材料"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "捡到一枚钉子、一块木板、半匹帆布。挺好……",
+    "otherNightReminder": "唤醒修船匠，以任意方式展示字母"
+  },
+  {
+    "id": "navigator",
+    "name": "领航员",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家，他被爪牙能力选择或影响时，都会改为你作为代替，直到下个黄昏。  ",
+    "firstNight": 4525,
+    "otherNight": 695,
+    "reminders": [
+      "照亮"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "当暗夜的低语指向他人，我即是那道未出鞘的盾。",
+    "otherNightReminder": "让领航员选择除一名玩家。标记那名玩家被照亮。"
+  },
+  {
+    "id": "savantcdcf54a80",
+    "name": "博学者",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“地上有七十二根火柴……今天的太阳落得更早，月亮还是按时升起……一块破布……庄园里的邪恶之物……三个又三个……我们相信的事物和他真正看到的不一样……绿光代表镁……残留物，但是图案不太对……地上有七十二根火柴……”",
+    "image": "/scripts/assets/community/a695e94df60a13bb399670f7bb03031b3eb91a1ef3bfd1581fdd1418a5ac0180.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "savant"
+  },
+  {
+    "id": "yinlurencdcf54a80",
+    "name": "引路人",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择至多三名玩家：你会得知今晚是否有邪恶玩家的能力选择或影响了他们之中的玩家。",
+    "firstNight": 12450,
+    "otherNight": 14850,
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "待更新",
+    "firstNightReminder": "让引路人选择一至三名玩家，以点头或摇头告知他选择的玩家中是否有玩家在当晚被邪恶玩家的能力选择或影响过。",
+    "otherNightReminder": "让引路人选择一至三名玩家，以点头或摇头告知他选择的玩家中是否有玩家在当晚被邪恶玩家的能力选择或影响过。",
+    "image": "/scripts/assets/community/61180e1862bdf20f339ceb2c58446b6525cd48ef9514fb4aa99ac3d0993275bf.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "yinluren"
+  },
+  {
+    "id": "hunter",
+    "name": "追猎者",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你可以选择一名玩家：如果他不是恶魔，且与他邻近的玩家中有且只有一名是邪恶的，他死亡。",
+    "firstNight": 0,
+    "otherNight": 8898,
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "",
+    "otherNightReminder": "唤醒追猎者，让其选择一名玩家，或摇头表示不选择。如果他选择的玩家的邻座玩家中正好只有一名邪恶玩家，标记那名玩家死亡。",
+    "image": "/scripts/assets/community/2320e53473b336b6ffe32ea604dee8eb33c466bf9760f3927b1f2fe6b3285251.png"
+  },
+  {
+    "id": "octopus",
+    "name": "章鱼",
+    "team": "outsider",
+    "ability": "你只能投票给你邻近的存活玩家。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "我讨厌我的邻居。"
+  },
+  {
+    "id": "bob",
+    "name": "海绵",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你要选择除你以外的两名存活玩家：当你笑了，他们之一会在当晚死亡。如果他们之中最后存活的玩家因为你的能力死亡，你的阵营落败。",
+    "firstNight": 10950,
+    "otherNight": 9600,
+    "reminders": [
+      "死亡",
+      "笑点"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "你当我是谁？从远古的海渊中醒来，我将自己的命运缝进他人的结局。",
+    "firstNightReminder": "让海绵选择除自己外的两名存活玩家，标记那名玩家是笑点。",
+    "otherNightReminder": "如果是“笑点“的玩家因为海绵死亡，唤醒海绵。"
+  },
+  {
+    "id": "drunkcdcf54a80",
+    "name": "酒鬼",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "edition": "custom",
+    "flavor": "“我是个只在社交场合里~嗝儿~喝酒的人，亲爱的。\n\n但无可否认，我是一个非常~嗝儿~擅长社交的人。”\n\n（英文维基上的背景描述与角色详解中的不同，此处也一并贴出。见下）\n\n“这完全合乎~嗝儿~逻辑。我知道的是狄亚哈特小姐是个占卜师。狄亚哈特夫人则发誓詹金斯是她的管家。得出这样的推论非常~嗝儿~简单。”",
+    "image": "/scripts/assets/community/d7df920be28262ff7e94b3ff46d718639a2de05a2883f2bedd831a995963b56c.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "drunk"
+  },
+  {
+    "id": "moonchildcdcf54a80",
+    "name": "月之子",
+    "team": "outsider",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "firstNight": 0,
+    "otherNight": 9300,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“天蝎座侧身遥望恋人，此刻即为抉择进行之时。\n\n以白银拂过我的掌心，你的宿命将在此地揭示。\n\n以钢铁穿过我的咽喉，群星在上你将追悔莫及。”",
+    "otherNightReminder": "如果月之子在白天触发了死亡能力并选择了一名善良玩家，该玩家死亡。标记那名玩家死亡。",
+    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "moonchild"
+  },
+  {
+    "id": "newcharacter1775531112013",
+    "name": "巧克力",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择两名存活的玩家，任何以他们之一作为目标的能力选择、影响或判定（包括处决和死亡），都会改为另一人代替，直到下个黄昏。如果等于小于四人时，你失去能力。",
+    "firstNight": 4962,
+    "otherNight": 1795,
+    "reminders": [
+      "交换"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "我让两个灵魂的命运紧密相连。",
+    "firstNightReminder": "让僧侣选择两名玩家。标记那两名玩家被交换。",
+    "otherNightReminder": "让僧侣选择与上个夜晚不同的两名玩家。标记那两名玩家被交换。"
+  },
+  {
+    "id": "ganshirencdcf54a80",
+    "name": "赶尸人",
+    "team": "minion",
+    "ability": "与你邻近的两名镇民玩家会在其首次死亡时被当作仍然存活。[-1外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "以为存活"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "edition": "custom",
+    "flavor": "“你须待到天黑再赶路，切莫让人发现你的肚子里都是稻草。”",
+    "image": "/scripts/assets/community/17dfeacb9a532a1bb1d36bf8763f07894276a27c98a1869cb9778cbe3173f9ca.png",
+    "imageAlt": "ganshiren"
+  },
+  {
+    "id": "Amaniti",
+    "name": "致幻师",
+    "team": "minion",
+    "ability": "与你邻近的玩家（旅行者除外）会被善良玩家的能力当作错误的阵营和角色。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "致幻"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "",
+    "image": "/scripts/assets/community/8e5a36723452b21b1af8791b09c56ae6918b4f882c7914666efdc3a519faac9a.webp"
+  },
+  {
+    "id": "witchcdcf54a80",
+    "name": "女巫",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+    "firstNight": 5700,
+    "otherNight": 2700,
+    "reminders": [
+      "被诅咒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“山羊之血，三滴落下。一绺头发，怒意迸发。名字被说出，阴影被放大。左脚踏上荆棘路，莫要回头看它。”",
+    "firstNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
+    "otherNightReminder": "让女巫选择一名玩家。标记那名玩家被诅咒。",
+    "image": "/scripts/assets/community/a98053635e1cf3b5f33802e8f5db8aa3169eb19028c4b66f04b08459aac8d25a.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "witch"
+  },
+  {
+    "id": "constrictor",
+    "name": "蛇漭",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一个角色，如果该角色在场，他被暂时移出魔典，且需要离席，直到下个黄昏。",
+    "firstNight": 4743,
+    "otherNight": 1245,
+    "reminders": [
+      "离席"
+    ],
+    "remindersGlobal": [],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "缠绕！缠绕！缠绕缠绕缠绕！",
+    "firstNightReminder": "让蛇漭选择一名玩家。标记那名玩家离席。",
+    "otherNightReminder": "让蛇漭选择一名玩家。标记那名玩家离席。"
+  },
+  {
+    "id": "pocdcf54a80",
+    "name": "珀",
+    "team": "demon",
+    "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。",
+    "firstNight": 0,
+    "otherNight": 5300,
+    "reminders": [
+      "死亡",
+      "攻击三次"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“我给你一朵花，陪陪我好不好……”",
+    "otherNightReminder": "珀可以选择一名玩家；或如果上一次他被唤醒时未做选择，让他选择三名玩家。标记这些玩家死亡。",
+    "image": "/scripts/assets/community/be395f229fd70e691ff0450a12a8b15ac66db2444bb01b4d775ceb583b1bb393.png",
+    "imageAlt": "po"
+  },
+  {
+    "id": "lleechcdcf54a80",
+    "name": "痢蛭",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家:他死亡。在你的首个夜晚，你要选择一名存活的玩家：他中毒，只有当他处于死亡状态时你才会立即死亡。",
+    "firstNight": 4500,
+    "otherNight": 7200,
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "“美味，美味，美味，美味，美味，美味，美味，美味的脑——馅儿饼！是的。美味的老馅儿饼。我想说的就是这个。”",
+    "firstNightReminder": "让痢蛭指向一名玩家。标记那名玩家中毒。",
+    "otherNightReminder": "寄生蛭指向一名玩家。那名玩家死亡。",
+    "image": "/scripts/assets/community/c0d750ea89ec908bb52e63e7cca64d9c055781ee1d95578c4541dc1fd6e8c4d7.png",
+    "imageAlt": "lleech"
+  },
+  {
+    "id": "kazalicdcf54a80",
+    "name": "卡扎力",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。[由你决定谁是什么爪牙，-或+任意数量外来者]",
+    "firstNight": 1000,
+    "otherNight": 7750,
+    "reminders": [
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true,
+    "edition": "custom",
+    "flavor": "“Gon(z)a7les6。请当Zn。机制已被FAN转。系统古攵阝章。重新{配}置。”",
+    "firstNightReminder": "唤醒卡扎力，让他选择玩家变成邪恶爪牙。 ",
+    "otherNightReminder": "除首个夜晚以外的每个夜晚，唤醒卡扎力。让他指向任意一名玩家。那名玩家死亡——在他角色标记旁放置“死亡”提示标记。让卡扎力重新入睡。",
+    "image": "/scripts/assets/community/9507d291b3c4db0bc3d2d890fe92abd79ce7fb8c2f2e62e72621d3488b535554.png",
+    "isOfficial": true,
+    "display": 1,
+    "imageAlt": "kazali"
+  },
+  {
+    "id": "newcharacter1776409983675",
+    "name": "桃花源",
+    "team": "fabled",
+    "ability": "最尊重别人的玩家身上会发生一些好的事情。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+      "幸运"
+    ],
+    "jinxes": [],
+    "setup": false,
+    "edition": "custom",
+    "flavor": "相传在故事尽头有一座桃花源，唯有以礼待人者，才能在那里遇见幸运。"
+  }
+]

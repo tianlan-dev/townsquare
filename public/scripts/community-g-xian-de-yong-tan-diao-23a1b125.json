@@ -1,0 +1,433 @@
+[
+  {
+    "id": "_meta",
+    "name": "G弦的咏叹调",
+    "author": "Oversplat & Lumious",
+    "logo": "/scripts/assets/community/40c43c052e3b93481052c7a166bd80b9f2c9fdcfccf00f51ff460ff64181f062.png",
+    "almanac": "https://www.bloodstar.xyz/p/LumiousGaming/OrchestralSuite/almanac.html",
+    "tags": [
+      "全原创角色剧本",
+      "海外"
+    ],
+    "version": "1.2.3"
+  },
+  {
+    "id": "clarinettist_orchestralsuite",
+    "image": "/scripts/assets/community/896f3c225c13ddbcb523c45eea3a8f32cd54ac837330c0cf6d2680fb6b55c437.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "得知",
+      "不能行动"
+    ],
+    "name": "单簧管手",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一个存活的邪恶角色。当他死亡时，你会得知另一个存活的邪恶角色。如果你在夜晚死亡，他不能行动直到后天黄昏。",
+    "firstNight": 57,
+    "otherNight": 65,
+    "edition": "custom"
+  },
+  {
+    "id": "drummer_orchestralsuite",
+    "image": "/scripts/assets/community/2cc4e63b4569cd30f11ddec7007c6483f8bf3b412f647e90e5c90cd0c9b959c3.png",
+    "firstNightReminder": "向鼓手展示三个角色，其中有且只有两个角色在场。",
+    "name": "鼓手",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知三个角色，其中有且只有两个角色在场。",
+    "firstNight": 56,
+    "edition": "custom"
+  },
+  {
+    "id": "jingcaisanxuanyi111",
+    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "edition": "custom",
+    "name": "贵族",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 55,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "otherNightReminder": "",
+    "reminders": [
+      "被得知"
+    ],
+    "setup": false
+  },
+  {
+    "id": "organist_orchestralsuite",
+    "image": "/scripts/assets/community/4ded9115896589fa7a7e1509f5dd2f1d5a04cdea5dc2a9fdc770506dc2791563.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "name": "管风琴师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名与之前不同的玩家：你会得知一个不在场的邪恶角色，如果他是邪恶的，你会得知错误信息直到下个黄昏。",
+    "firstNight": 58,
+    "otherNight": 68,
+    "edition": "custom"
+  },
+  {
+    "id": "xylophonist_orchestralsuite",
+    "image": "/scripts/assets/community/904fa3c26330e654a4b71f6497c7c7b9e201843bbcd735be7f4a7e5c7f33faa0.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "name": "木琴手",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们总共进行了多少次行动。（从上个黎明到你被唤醒时）",
+    "firstNight": 59,
+    "otherNight": 77,
+    "jinxes": [
+      {
+        "id": "trombonistorchestralsuite",
+        "reason": "The Xylophonist learns how many times the Trombonist acts tonight even though the Xylophonist wakes first."
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "trombonist_orchestralsuite",
+    "image": "/scripts/assets/community/e815670f009174eaaa16500c36c18a5443955e5d08a1d4318e2e0a101047e3d9.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "name": "长号手",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你会得知有多少名玩家行动次数异常。（从上个黎明到你被唤醒时）",
+    "firstNight": 60,
+    "otherNight": 69,
+    "edition": "custom"
+  },
+  {
+    "id": "violinist_orchestralsuite",
+    "image": "/scripts/assets/community/c99281140c0009c9cbcaf52ff2d4dd7adca7e97414ae9fe2125f4bd756269d2b.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "额外行动一次"
+    ],
+    "name": "小提琴手",
+    "team": "townsfolk",
+    "ability": "每个白天，你可以私下回答说书人一个是非问题：如果你答对，一名与你阵营相同的玩家额外行动一次直到下个黄昏。",
+    "otherNight": 3,
+    "edition": "custom"
+  },
+  {
+    "id": "bassoonist_orchestralsuite",
+    "image": "/scripts/assets/community/1965122f2eac315e601f957a5003f8f6abb0b3c35011661d6e32de0a5f50d4b5.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "额外行动一次",
+      "不能行动",
+      "使用一次",
+      "失去能力"
+    ],
+    "name": "巴松手",
+    "team": "townsfolk",
+    "ability": "每局游戏限两次，在夜晚时，你可以选择一名玩家和一项能力：1）他不能行动；2）他额外行动一次。直到下个黄昏。",
+    "firstNight": 20,
+    "otherNight": 4,
+    "edition": "custom"
+  },
+  {
+    "id": "pianist_orchestralsuite",
+    "image": "/scripts/assets/community/c6e2b920f42cfb188b13d3b8ab07252b261e6acc1bf3f2fc82e1947dbb9e7d97.png",
+    "reminders": [
+      "失去能力"
+    ],
+    "name": "钢琴家",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在白天时，你可以私下拜访说书人并选择三名玩家：你会得知其中两名玩家都具有的相同特征。",
+    "edition": "custom"
+  },
+  {
+    "id": "harpist_orchestralsuite",
+    "image": "/scripts/assets/community/2a0e5bb05e93397b9a7448c2214148d4825b73f1d5902b9bd56a38300f5bc2f7.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "不能行动"
+    ],
+    "name": "竖琴师",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，下次任意邪恶玩家将要行动时，他不能行动。",
+    "otherNight": 5,
+    "edition": "custom"
+  },
+  {
+    "id": "saxophonist_orchestralsuite",
+    "image": "/scripts/assets/community/1d4abab087dc4aebe27441a1fdf7417b5ec92a2734ad1e51a2d19a9f7a2e12ea.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "不能行动"
+    ],
+    "name": "萨克斯手",
+    "team": "townsfolk",
+    "ability": "如果恶魔“疯狂”地证明你是邪恶的，当晚他可能不能行动并得知此事。",
+    "otherNight": 43,
+    "edition": "custom"
+  },
+  {
+    "id": "tubist_orchestralsuite",
+    "image": "/scripts/assets/community/c23ed842c0d0382abcee0a7ca61ac9fbf70e76fe24c3a5161b940cd6894d8b0b.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "保护"
+    ],
+    "name": "大号手",
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡并且大于等于四名玩家存活，一名善良玩家会得知此事并且恶魔的负面能力对他无效。",
+    "otherNight": 64,
+    "edition": "custom"
+  },
+  {
+    "id": "trumpeter_orchestralsuite",
+    "image": "/scripts/assets/community/a6491a8468c606950008ef61ffa7c4aec98c71993dcc961706f6ded8ef5b8ebd.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "Drunk"
+    ],
+    "remindersGlobal": [
+      "声明",
+      "醉酒",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明",
+      "声明"
+    ],
+    "name": "小号手",
+    "team": "townsfolk",
+    "ability": "如果你公开声明自己是小号手，当晚你会得知多少名在白天曾这样做的其他玩家是邪恶的。如果你将得知没有邪恶玩家，改为当晚你醉酒。",
+    "otherNight": 67,
+    "edition": "custom"
+  },
+  {
+    "id": "rest_orchestralsuite",
+    "image": "/scripts/assets/community/81b47a061c1995a469924e11371fe6c713ca20defe7e1b4c4eb4d85da7057606.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "得知",
+      "不能行动"
+    ],
+    "name": "休止",
+    "team": "outsider",
+    "ability": "在你的首个夜晚，你会得知一名玩家：当你死亡时，如果他是善良的，他不再能行动；如果他是邪恶的，他会得知你是谁。",
+    "firstNight": 55,
+    "otherNight": 63,
+    "edition": "custom"
+  },
+  {
+    "id": "wudidejiemidashi111",
+    "image": "/scripts/assets/community/2f8fccb1231060852b07351a95370dc984e47e6534192d35528edf813b896b05.png",
+    "edition": "custom",
+    "name": "解谜大师",
+    "ability": "一名玩家醉酒，即使你已死亡。每局游戏限一次，你可以猜测谁是那个醉酒的玩家，如果猜对了，你会得知谁是恶魔，但如果猜错了，你会得知错误的“谁是恶魔”信息。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "醉酒",
+      "已猜测"
+    ],
+    "setup": false
+  },
+  {
+    "id": "crescendo_orchestralsuite",
+    "image": "/scripts/assets/community/55a8936c221c1d6131742e332b7f7210039eb4c833c0f71aa1bdaa306fb25a07.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "错误1次",
+      "终曲",
+      "拥有能力阿2"
+    ],
+    "name": "渐强",
+    "team": "outsider",
+    "ability": "每个白天，你要拜访说书人并得知一个需要当晚回答的问题。如果你答错两次，你会得知此事并且邪恶阵营会在下个黄昏结束时获胜，即使你被处决。",
+    "otherNight": 66,
+    "edition": "custom"
+  },
+  {
+    "id": "repeat_orchestralsuite",
+    "image": "/scripts/assets/community/7ef11100963b4c0926c3fa9201ef90a5a3dcda7e532894dc66e9e5f1ca79958b.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "额外行动一次"
+    ],
+    "name": "反复",
+    "team": "outsider",
+    "ability": "如果你死亡，当晚恶魔可以额外行动一次直到下个黄昏。",
+    "otherNight": 62,
+    "edition": "custom"
+  },
+  {
+    "id": "percussion_orchestralsuite",
+    "image": "/scripts/assets/community/e4a48ea22a61e445df5e25e725514a185533257168e0b1cb4508549175056f05.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "中毒",
+      "额外行动一次"
+    ],
+    "name": "打击乐团",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：他的其中一次行动中毒并且他可能额外行动一次，直到下个黄昏。",
+    "firstNight": 22,
+    "otherNight": 7,
+    "edition": "custom"
+  },
+  {
+    "id": "woodwind_orchestralsuite",
+    "image": "/scripts/assets/community/1278ae07ef541d5ec8e89b3ffbc93929aace4a8a0f3d12b034066236fde1e423.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "额外行动一次",
+      "选择",
+      "死亡"
+    ],
+    "name": "管乐团",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家：如果他是善良的，他额外行动一次直到下个黄昏。被你选择两次的玩家死亡。",
+    "firstNight": 23,
+    "otherNight": 6,
+    "edition": "custom"
+  },
+  {
+    "id": "brass_orchestralsuite",
+    "image": "/scripts/assets/community/203901464995819d0478fa1dfc137145247cbb4dab4a902ca99567b75d8bc10a.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "疯狂",
+      "不能行动",
+      "额外行动一次"
+    ],
+    "name": "铜管团",
+    "team": "minion",
+    "ability": "每个夜晚，你要选择一名玩家和一个数字：他明天白天和夜晚需要“疯狂”地证明自己能进行(你所选择的数字)次行动，否则当晚，由说书人二选一：1）一名玩家不能行动；2）一名玩家额外行动一次，直到下个黄昏。",
+    "firstNight": 21,
+    "otherNight": 8,
+    "edition": "custom"
+  },
+  {
+    "id": "string_orchestralsuite",
+    "image": "/scripts/assets/community/79b8eba4f98a3f9aa82218862d6cbde439a747f45954e4b90a26bdcb25917748.png",
+    "firstNightReminder": "Text",
+    "remindersGlobal": [
+      "得知"
+    ],
+    "setup": true,
+    "name": "弦乐团",
+    "team": "minion",
+    "ability": "如果你的阵营即将落败，你可以公开进行一次谁是外来者的猜测。如果你猜对，你的阵营获胜。一名外来者知道你在场。[-1或+1外来者]",
+    "firstNight": 24,
+    "edition": "custom"
+  },
+  {
+    "id": "composer_orchestralsuite",
+    "image": "/scripts/assets/community/56dc9fbb63b4013588c855e7b6e54b6075482a1a7d57418b32cedb1854545326.png",
+    "firstNightReminder": "Text",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "死亡",
+      "变更",
+      "得知"
+    ],
+    "name": "作曲家",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你会得知一名玩家和他被变更后的能力。一名善良玩家知道关于他变更后的能力的提示。",
+    "attribution": "Credit for the icon goes to Eddy.",
+    "firstNight": 19,
+    "otherNight": 46,
+    "edition": "custom"
+  },
+  {
+    "id": "conductor_orchestralsuite",
+    "image": "/scripts/assets/community/567f0b72b5e6963f0e50a46284f2e38cb231a42135a6fb0c26f2060bb10a063a.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "死亡",
+      "死亡行动",
+      "死亡行动",
+      "死亡行动"
+    ],
+    "name": "指挥家",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。每个夜晚，每名爪牙在死亡时可以选择行动一次，每个夜晚，爪牙最多能行动一次。",
+    "otherNight": 44,
+    "edition": "custom"
+  },
+  {
+    "id": "Ensemble_orchestralchorus",
+    "image": "/scripts/assets/community/d71362fa35cdc333a9e2f96955e6404ee05d933e903c1ff2d6f0b860fb5eaebb.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "死亡",
+      "秘密短语",
+      "额外行动一次"
+    ],
+    "name": "合奏团",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。在你的首个夜晚，你会得知一段秘密短语。每当一名存活的邪恶玩家说出这段短语，一名邪恶玩家可能在当晚再次行动。",
+    "firstNight": 15,
+    "otherNight": 85,
+    "edition": "custom"
+  },
+  {
+    "id": "orchestrator_orchestralchorus",
+    "image": "/scripts/assets/community/5290dc74ed676e472d7ac74ce4a3a683055cf1368a4ffa404f6cefafc181cba8.png",
+    "otherNightReminder": "Text",
+    "reminders": [
+      "死亡",
+      "不能行动"
+    ],
+    "name": "配器师",
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择两名玩家：第一名玩家死亡，第二名玩家可能不能行动直到下个黄昏。",
+    "otherNight": 45,
+    "edition": "custom"
+  },
+  {
+    "id": "encore_orchestralsuite",
+    "otherNightReminder": "Text",
+    "name": "安可",
+    "image": "/scripts/assets/community/0a05eef6280767a84ca872135afa736a868c8e078779e5727f64e917242b9ec5.png",
+    "team": "traveler",
+    "ability": "每局游戏限一次，在夜晚时*，你要选择除你以外的一名玩家：如果安可存活，他获得安可的能力。最后一名获得安可能力的存活玩家所在阵营获胜。",
+    "otherNight": 81,
+    "edition": "custom"
+  },
+  {
+    "id": "musician_orchestralsuite",
+    "firstNightReminder": "Text",
+    "reminders": [
+      "?",
+      "?",
+      "?"
+    ],
+    "remindersGlobal": [
+      "是乐手"
+    ],
+    "name": "乐手",
+    "image": "/scripts/assets/community/b47bf8f693b63e396c744c6ea7f635eb6f6504bcd1ee4810693449440c9ec44b.png",
+    "team": "traveler",
+    "ability": "在你的首个夜晚，你获得一个镇民能力或者一个爪牙能力。该能力可能行动任意次。",
+    "attribution": "Credit for the Ability goes to Palsonny.",
+    "firstNight": 16,
+    "edition": "custom"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "_meta",
+    "name": "千人千面",
+    "author": "伊特",
+    "logo": "/scripts/assets/community/7af389d4b3b0da03999a2e17e5fd12fc08846991304072ed67c7a3905d09b95e.png",
+    "tags": [],
+    "version": "",
+    "issue": 952
+  },
+  {
+    "id": "cunfu_tpi",
+    "name": "村夫",
+    "image": [
+      "/scripts/assets/community/1ced3b994e26c0711c5a77e6711985d936265523790eed9ec07dc7456c926607.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择一名玩家：你会得知他的阵营。[+0~2村夫，复数村夫中有一人醉酒]",
+    "firstNight": 10100,
+    "firstNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "otherNight": 12800,
+    "otherNightReminder": "唤醒村夫，让他指向一名玩家，用手势告诉他那名玩家的阵营。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "moke_tpi",
+    "name": "陌客",
+    "image": [
+      "/scripts/assets/community/cc6057198c8a3c58c3946047e0750120913e09bff4e70b66e6bcb30873dafbbf.png"
+    ],
+    "team": "outsider",
+    "ability": "你可能会被当作邪恶阵营、爪牙角色或恶魔角色，即使你已死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiugui_tpi",
+    "name": "酒鬼",
+    "image": [
+      "/scripts/assets/community/adf9345af39d47af335afcdb2834b953acb87b0e0fd2088ef97ff213cafe10ef.png"
+    ],
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "remindersGlobal": [
+      "是酒鬼"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "nanjue_tpi",
+    "name": "男爵",
+    "image": [
+      "/scripts/assets/community/d17b1323faccf3fb32f55d83fa6918c24a8c283ae5f566663bd85aa7739dfb25.png"
+    ],
+    "team": "minion",
+    "ability": "会有额外的外来者在场。[+2 外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "mangfu_tpi",
+    "name": "莽夫",
+    "image": [
+      "/scripts/assets/community/f163f1b68304f90f6ecd678e72bd274cb54a323b34e3fd1a95ee8f23d2d516a0.png"
+    ],
+    "team": "outsider",
+    "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yinshi_tpi",
+    "name": "隐士",
+    "image": [
+      "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png"
+    ],
+    "team": "outsider",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "1",
+      "2",
+      "3",
+      "是隐士"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "jiandie_tpi",
+    "name": "间谍",
+    "image": [
+      "/scripts/assets/community/20274aac8d0b807186fd17db554cee15603345436b9d9e5caed830ec02d4776c.png"
+    ],
+    "team": "minion",
+    "ability": "每个夜晚，你能查看魔典。\n你可能会被当作善良阵营、镇民角色或外来者角色，即使你已死亡。",
+    "firstNight": 11700,
+    "firstNightReminder": "唤醒间谍，让他查看魔典。",
+    "otherNight": 14400,
+    "otherNightReminder": "唤醒间谍，让他查看魔典。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "tixianmuou_tpi",
+    "name": "提线木偶",
+    "image": [
+      "/scripts/assets/community/3f8880afd0d206570c6d9efe8e22d493aad6cd58af32b264ce4cc18acc62f191.png"
+    ],
+    "team": "minion",
+    "ability": "你以为你是一个善良角色，但其实你不是。恶魔会知道你是提线木偶。[提线木偶会与恶魔邻座]",
+    "firstNight": 3200,
+    "firstNightReminder": "如果提线木偶在场，对恶魔展示提线木偶角色标记并指向提线木偶玩家。",
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是提线木偶"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "gudiao_nulinuli_1",
+    "name": "蛊雕",
+    "image": [
+      "/scripts/assets/community/3c21eadb0bec4983e9a5de922e3fb4fe8c6417cbcd2275da3a90e3621a2c9978.png"
+    ],
+    "team": "minion",
+    "ability": "每个夜晚，你要选择左或右：你得知该方向上的下一名存活善良玩家的角色，他中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "firstNight": 4800,
+    "firstNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "otherNight": 1500,
+    "otherNightReminder": "唤醒蛊雕，让他选择左或者右，他得知该方向上的下一名存活善良玩家的角色，这个善良玩家中毒且其他善良玩家以为他是邪恶的蛊雕，直到下个黄昏。",
+    "reminders": [
+      "蛊毒",
+      "改变方向"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "juntuan_tpi",
+    "name": "军团",
+    "image": [
+      "/scripts/assets/community/29d91eca632740f9fc2f33591089d8a8f7b2a3254631bee7dde3ff1f36b96700.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，可能有一名玩家死亡。如果一项提名只有邪恶玩家投票，投票无效。你也会被当作是爪牙。[多数玩家为军团]",
+    "firstNight": 0,
+    "otherNight": 6000,
+    "otherNightReminder": "决定今晚谁会因为军团能力死亡。",
+    "reminders": [
+      "即将被处决",
+      "死亡"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "yagababu_tpi",
+    "name": "牙噶巴卜",
+    "image": [
+      "/scripts/assets/community/96e8b2d47f909f0d3af28b45740ff61e43eb90453ef087fdfdae58255f7c98ca.png"
+    ],
+    "team": "demon",
+    "ability": "在你的首个夜晚，你会得知一段秘密短语。每次你在白天公开说出这段短语，当天便可能会有一名玩家在这之后死亡。",
+    "firstNight": 6610,
+    "firstNightReminder": "唤醒牙噶巴卜，对他展示他的秘密短语。",
+    "otherNight": 7400,
+    "otherNightReminder": "根据已放置的提示标记数量，选择最多等同于该数量的玩家死亡。该夜晚行动只是一个提示，死亡的造成时机可以是白天，也可以是夜晚的任何时候。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "jinxes": [
+      {
+        "id": "chuanjiaoshi_tpi",
+        "reason": "如果驱魔人选中了牙噶巴卜，那么牙噶巴卜的能力在当晚无法造成死亡。"
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "shengjiezhihun_tpi",
+    "name": "圣洁之魂",
+    "image": [
+      "/scripts/assets/community/7a7d1fa8f4e4c6038c94dda8b700d2baf0a84a8fd5cf414e3b5739ad251e945a.png"
+    ],
+    "team": "fabled",
+    "ability": "游戏过程中邪恶玩家的总数最多能比初始设置多一名。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "禁止邪恶"
+    ],
+    "setup": false,
+    "edition": "custom"
+  }
+]

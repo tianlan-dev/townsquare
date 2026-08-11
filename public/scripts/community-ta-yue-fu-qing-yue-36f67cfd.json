@@ -1,0 +1,477 @@
+[
+  {
+    "id": "_meta",
+    "name": "踏月赴卿约",
+    "author": "弦舞",
+    "logo": "/scripts/assets/community/4938ca82e29e3e3b2fd9fc3e5b886380ddfec47e7d0869a30523b035e3bbd5ae.png",
+    "almanac": "https://klutzbanana.com/scripts/dfkkcqlu0w/%E8%B8%8F%E6%9C%88%E8%B5%B4%E5%8D%BF%E7%BA%A6%20by%20%E5%BC%A6%E8%88%9E",
+    "townsfolkName": "镇民",
+    "outsidersName": "外来者",
+    "minionsName": "爪牙",
+    "demonsName": "恶魔",
+    "townsfolk": "镇民",
+    "outsider": "外来者",
+    "minion": "爪牙",
+    "demon": "恶魔",
+    "a jinxedName": "相克",
+    "a jinxed": "相克",
+    "status": [
+      {
+        "name": "白马王子の邀约",
+        "skill": "游戏初始设置邪恶玩家的总数最多能比初始设置多一名。每个白天限一次，一名存活玩家可以公开邀请另一名存活玩家一同拜访说书人(与之前不同)，说书人会给他们一个需共同完成的任务：直到当天黄昏，如果两名玩家阵营相同且完成了该任务，当晚他们中的其中一名玩家会获得一条正确信息；如果两名玩家阵营不同且完成了该任务，当晚他们中的善良玩家会获得一条错误信息；如果该任务没有完成，则不会获得任何信息。"
+      }
+    ],
+    "tags": [
+      "部分原创角色剧本",
+      "不含私货"
+    ],
+    "version": "",
+    "issue": 921
+  },
+  {
+    "id": "jingcaisanxuanyi111",
+    "image": "/scripts/assets/community/5beb322da43c6498a1863f2e87e03d2c368a17eeaf1d8c6521ff0e9fb77af223.png",
+    "edition": "custom",
+    "name": "贵族",
+    "ability": "在你的首个夜晚，你会得知三名玩家：其中有且只有一名玩家是邪恶的。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3049,
+    "otherNight": 0,
+    "firstNightReminder": "唤醒贵族，对他指向三名玩家。这三名玩家中有且仅有一名是邪恶玩家。",
+    "otherNightReminder": "",
+    "reminders": [
+      "被得知"
+    ],
+    "setup": false
+  },
+  {
+    "id": "pegasus_the_malicious_manuscript",
+    "image": "/scripts/assets/community/b17db3f5b67a01088715eec05a1d98e0453e19ca927e54cae05f149584911f85.png",
+    "firstNightReminder": "The Pegasus learns the player they are protecting.",
+    "reminders": [
+      "骑乘"
+    ],
+    "name": "骏马使者",
+    "team": "townsfolk",
+    "ability": "在你的首个夜晚，你会得知一名善良玩家。如果你存活，他不会受到邪恶玩家负面能力影响，当你死亡时，他死亡。",
+    "firstNight": 3012,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "ability": "每个白天，你可以邀请一名玩家（与之前不同）与你分别私下询问说书人：他可以问一个是非问题，随后你会得知一个答案相同的是非问题。",
+    "image": "/scripts/assets/community/7f5cfb808583c353cda599600332d6caba5182f2dea08306fc225494489e7154.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "20236_38",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "小说家",
+    "name_id": "fictionist",
+    "otherNight": 0,
+    "setup": false,
+    "reminders": [
+      "已邀请"
+    ],
+    "remindersGlobal": [],
+    "team": "townsfolk",
+    "firstNight": 0
+  },
+  {
+    "id": "7_EquinoxFlower",
+    "image": "/scripts/assets/community/117db1e2a796d546438b394c900efa8c670aa1467fc7446719b5f2f876dddac5.png",
+    "name": "牧师",
+    "team": "townsfolk",
+    "ability": "每个夜晚，你要选择两名玩家：你会得知他们均不属于哪种角色类型。",
+    "sch_team": "村民",
+    "firstNight": 3036,
+    "otherNight": 61,
+    "firstNightReminder": "让他选择两名玩家，告诉他一种与这两名玩家都不同的角色类型。",
+    "otherNightReminder": "让他选择两名玩家，告诉他一种与这两名玩家都不同的角色类型。",
+    "reminders": [],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "ainiii11111",
+    "image": "/scripts/assets/community/097687c18c9c11fdbe54144e8ffc6a4c28ab6896e943442158ff8a29c1e1a0b9.png",
+    "edition": "custom",
+    "name": "共情者",
+    "ability": "每个夜晚，你会得知与你邻近的两名存活的玩家中邪恶玩家的数量。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3039,
+    "otherNight": 65,
+    "firstNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "otherNightReminder": "唤醒共情者，对他用手势比划数字来告知他与他邻近的存活玩家中有几人是邪恶玩家。",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "freyjaragnarok09",
+    "name": "芙蕾雅",
+    "image": "/scripts/assets/community/c222dcf58bce07c159e7bb095f11a16555f1b21c2863498033c89b3b6ef8031a.png",
+    "ability": "每个夜晚，你会得知一个不在场的角色。",
+    "team": "townsfolk",
+    "sch_team": "镇民",
+    "firstNight": 3050,
+    "otherNight": 78,
+    "firstNightReminder": "向芙蕾雅展示一个不在场的角色。",
+    "otherNightReminder": "向芙蕾雅展示一个不在场的角色。",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "ability": "每个夜晚，你要选择一名玩家。如果你选中了爪牙，落难少女会得知你选择的哪名玩家是爪牙。[+落难少女]",
+    "image": "/scripts/assets/community/6330fabb74f4ba5421d1f4a4660a647a0409e47d589609bee37d132abd46ce85.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "village_idiot_ccb",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "name": "剑客",
+    "otherNight": 56,
+    "setup": true,
+    "reminders": [
+      "选中爪牙"
+    ],
+    "remindersGlobal": [],
+    "team": "townsfolk",
+    "firstNight": 3035
+  },
+  {
+    "id": "statesman_revolution_of_a_lifetime",
+    "image": "/scripts/assets/community/ac505a68d36f33a55a5551937afadf7875e339fc890c51672193448733cbb83e.png",
+    "otherNightReminder": "1",
+    "reminders": [
+      "被提名 ",
+      "未被提名"
+    ],
+    "name": "政治家",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知在今天白天时是否有邪恶玩家被提名。",
+    "flavor": "Stamp. Stamp. Stamp",
+    "otherNight": 77,
+    "edition": "custom"
+  },
+  {
+    "id": "xunchashaoihwronaklsndfkasnd",
+    "image": "/scripts/assets/community/da46f71d5b7d947e036682a0afdf3229eaa37808bb78af9189343fe377e43c66.png",
+    "edition": "custom",
+    "name": "巡察",
+    "ability": "每个夜晚*，你要选择两个善良角色（与上个夜晚不同）：如果他们都存活，他们当晚不会死亡。",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 10.2,
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒巡查，让他选择两个善良角色（镇民或外来者）（和上个夜晚不同），如果他们都在场并存活（华白注：应该是需要在场的），他们两个今晚不会死亡。",
+    "reminders": [
+      "不会死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "gongzhu123321",
+    "image": "/scripts/assets/community/ce37d6c3d2993d1747f436aa24841cdc89a695323832675b8da5b60ff9629586.png",
+    "edition": "custom",
+    "name": "公主",
+    "ability": "在你的首个白天，如果你提名并处决了一名玩家，当晚恶魔不会造成死亡。",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 24,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "不会死亡"
+    ],
+    "setup": false
+  },
+  {
+    "id": "diaoshangyizhengtiandeyu111",
+    "image": "/scripts/assets/community/6c019cbe471c9cdbbd786c66d588a7ff2d8e81ab76d5b17a68908674cc52ed5e.png",
+    "edition": "custom",
+    "name": "见证人",
+    "ability": "每局游戏限一次，在夜晚时*，你可以得知有多少名邪恶玩家在白天时曾拜访过说书人。",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 82,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "attribution": "弦舞",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "terpsichorean ",
+    "image": "/scripts/assets/community/f3133d2a4e630285ce7f28492f948d496e10698645993d2058aefb1e7be8358e.png",
+    "otherNightReminder": "在夜晚时，询问月光舞者是否发动能力，如果月光舞者选择发动能力并选择了三名玩家，在其角色标记旁放置“月下舞刃”提示标记，在月光舞者的角色标记旁放置“失去能力”提示标记。如果他们阵营不同，在舞者和阵营唯一的非恶魔玩家角色标记旁放置“死亡”提示标记。",
+    "reminders": [
+      "月下舞刃",
+      "失去能力",
+      "死亡"
+    ],
+    "name": "月光舞者",
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择除你以外的三名存活玩家，如果他们阵营不同：阵营唯一的非恶魔玩家和你死亡，并且不会有其他玩家死亡。",
+    "attribution": "弦舞",
+    "otherNight": 13.5,
+    "edition": "custom"
+  },
+  {
+    "id": "78_fry79",
+    "name": "殉教少女",
+    "team": "townsfolk",
+    "ability": "如果爪牙死于处决，当晚你会死亡，随后所有邪恶角色醉酒直到明天黄昏。",
+    "flavor": "我颈间的橄榄枝是阿波罗的枷锁，也是海雾中微弱的光。当我用匕首割破喉咙，谎言将随血雾溃散。请记住，我的死亡不是终点，而是你们直视真相的黎明。",
+    "otherNightReminder": "如果当天一名爪牙死于处决，且当晚殉教少女能够因为自身能力死亡，将“殉教”与“死亡”提示标记放置在殉教少女旁，代表所有邪恶角色醉酒直到明天黄昏。",
+    "otherNight": 12,
+    "reminders": [
+      "殉教",
+      "死亡"
+    ],
+    "image": [
+      "/scripts/assets/community/f8ac83e4749e8c275b318089cfc62a1389580255507a80fddc0bf55e44b749fc.png"
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "yumaoaoao",
+    "name": "梦游者",
+    "team": "outsider",
+    "ability": "你以为你是一个镇民角色，但在相同情况下，你的能力却与其有所不同。有一名善良玩家知道你在场。",
+    "firstNight": 2001,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "是梦游者",
+      "得知"
+    ],
+    "image": [
+      "/scripts/assets/community/4d5f4558416de3d1c8c2ef275b28cfc28c6a1c0755c7e8bb3c20e6ca842e6a49.png"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "17_dafenqi",
+    "name": "大小姐",
+    "team": "outsider",
+    "ability": "你首次即将死亡时，可能会有两名存活玩家代替你死亡。",
+    "flavor": "你！你！你！和你！",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "舔狗替死"
+    ],
+    "image": [
+      "/scripts/assets/community/24b456001f7503adeee30bce18375b6a8df9c6286e039e74c99a22a542999701.png"
+    ],
+    "setup": false,
+    "jinxes": [
+      {
+        "id": "pegasusthemaliciousmanuscript",
+        "reason": "当恶魔攻击大小姐时，大小姐的替死能力可能会导致骏马使者保护的玩家死亡，且骏马使者不会死亡。"
+      }
+    ],
+    "edition": "custom"
+  },
+  {
+    "id": "chousha111",
+    "image": "/scripts/assets/community/140d186ef929a3d5229909d19e2b2afc1997cfdbdfd2462f1865b13424d7d285.png",
+    "edition": "custom",
+    "name": "月之子",
+    "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+    "team": "outsider",
+    "sch_team": "外来者",
+    "firstNight": 0,
+    "otherNight": 54,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果月之子在今天白天的时候使用自己的能力选择了一名善良玩家，那名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false
+  },
+  {
+    "id": "bushiwo111",
+    "image": "/scripts/assets/community/da3c8fef26832aedea6972f55e90a023f5d715933814bb7eb465b150379578a0.png",
+    "edition": "custom",
+    "name": "落难少女",
+    "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+    "team": "outsider",
+    "firstNight": 2005.1,
+    "otherNight": 0,
+    "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
+    "otherNightReminder": "0",
+    "reminders": [
+      "已被猜测"
+    ],
+    "setup": false
+  },
+  {
+    "id": "baonijuhua111",
+    "image": "/scripts/assets/community/ca390fba623d9cb0e0dc2bdfe7fdd23201ddb97894f9f239c2513ef04ae920c7.png",
+    "edition": "custom",
+    "name": "刺客",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "team": "minion",
+    "firstNight": 0,
+    "otherNight": 42,
+    "firstNightReminder": "",
+    "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "MistCendrillon",
+    "image": "/scripts/assets/community/ccef83805836ad8abe8e52ae96f421199b2b4b6166a48d3795f50ee22ef46726.png",
+    "edition": "custom",
+    "name": "灰姑娘",
+    "ability": "在你的首个夜晚，你会得知5个在场角色。每个夜晚*，你要选择一名玩家并猜测他的角色，如果你首次猜测正确，他死亡。",
+    "team": "minion",
+    "sch_team": "爪牙",
+    "firstNight": 3022,
+    "otherNight": 43,
+    "firstNightReminder": "唤醒灰姑娘，告诉她5个在场角色。",
+    "otherNightReminder": "唤醒灰姑娘，让她选择一名玩家并猜测他的角色，如果灰姑娘首次猜测正确他的角色，他死亡。",
+    "reminders": [
+      "得知",
+      "死亡",
+      "失去能力"
+    ],
+    "setup": false
+  },
+  {
+    "id": "20084_6104",
+    "name": "两生花",
+    "team": "minion",
+    "edition": "custom",
+    "ability": "在你的首个夜晚，一名善良玩家加入邪恶阵营，你们互相知道对方是谁。\n他中毒，即使你已死亡。",
+    "firstNightReminder": "向场上一名善良玩家附近添加“双生”标记，唤醒目标玩家和两生花玩家，并向他们展示“双生花”身份牌，告知目标玩家变为邪恶。",
+    "firstNight": 3001,
+    "otherNight": 0,
+    "reminders": [
+      "双生"
+    ],
+    "image": [
+      "/scripts/assets/community/257ae418c66fd0bb82d96937b1894bc02ce8e33f62b3e776924985c515127a3c.webp"
+    ],
+    "setup": false
+  },
+  {
+    "id": "bplfdm",
+    "image": "/scripts/assets/community/cddc05906b22c72e368ceef2eae39bc1951e8f94cc417b1a6f8b1667dda27663.png",
+    "firstNightReminder": "",
+    "remindersGlobal": [
+      "翻转对错"
+    ],
+    "setup": false,
+    "name": "巴甫洛夫的马",
+    "team": "minion",
+    "ability": "每有一名邪恶玩家死亡，镇民产生的信息对错翻转一次。",
+    "firstNight": 0,
+    "edition": "custom"
+  },
+  {
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果被你杀死的玩家均与你某个特征不同，他们转变为邪恶并不再能在这局游戏中投票。所有人都知道这个特征是什么。",
+    "image": "/scripts/assets/community/2e29acb593d322ce2f52ce3c07685407ba2ed6bf8b163d652597c331792dc1d4.png",
+    "edition": "custom",
+    "flavor": "",
+    "id": "lilisi",
+    "firstNightReminder": "宣布莉莉丝的特征，即使莉莉丝不在场。",
+    "otherNightReminder": "唤醒莉莉丝，让他选择一名玩家。如果选择了特征不同的玩家，他转变为邪恶。",
+    "name": "莉莉丝",
+    "otherNight": 35,
+    "firstNight": 1,
+    "setup": false,
+    "reminders": [
+      "特征不同",
+      "死亡",
+      "不能投票"
+    ],
+    "remindersGlobal": [],
+    "team": "demon"
+  },
+  {
+    "id": "woliuliuliu111",
+    "image": "/scripts/assets/community/e3d39be66568c6de033c1b36c7314c72d6b226dc40e2c94fe5dd4aa0153afb29.png",
+    "edition": "custom",
+    "name": "涡流",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 38,
+    "firstNightReminder": "",
+    "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false
+  },
+  {
+    "id": "271b81b5-da94-4b65-acb8-352f0819de2b",
+    "image": "/scripts/assets/community/60361fd5996785f658bbf240b1fcbb6c36b35e76b6c684318eda41819b722f22.png",
+    "edition": "custom",
+    "name": "诡美人",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。当你死于处决，如果你与存活外来者之间没有存活善良玩家（最后一天除外），他会变成邪恶的诡美人，但每局游戏仅能成功转化一次。[+1 外来者]",
+    "team": "demon",
+    "sch_team": "恶魔",
+    "firstNight": 0,
+    "otherNight": 40,
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "仰慕者",
+      "死亡"
+    ],
+    "remindersGlobal": [],
+    "setup": true
+  },
+  {
+    "id": "needlestick_the_arcanum",
+    "name": "针刺蔷薇",
+    "image": "/scripts/assets/community/af0bd9d7b2129d7f78d2d7a6118b4c6ce0d023b43b1efdc076442a99b80d3d49.png",
+    "team": "demon",
+    "edition": "custom",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。始终会有一名玩家中毒且你知道是谁。如果他被善良玩家提名或他提名了善良玩家，改为提名了他或被他提名的那名玩家中毒。",
+    "flavor": "Let he who hath virtue tend to the roses, lest thorns grow in the garden of sin.",
+    "firstNight": 3023.11,
+    "firstNightReminder": "Wake the Needlestick. Point to the player marked with the Poisoned reminder token.",
+    "otherNight": 39.11,
+    "otherNightReminder": "Wake the Needlestick. If the Poisoned reminder token moved, point to the player marked with the Poisoned reminder token. Then, the Needlestick chooses a player. Mark them with a Dead reminder.",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "remindersGlobal": [],
+    "setup": false
+  },
+  {
+    "id": "qedj3r8b",
+    "name": "白马王子の邀约",
+    "team": "fabled",
+    "ability": "游戏初始设置邪恶玩家的总数最多能比初始设置多一名。每个白天限一次，一名存活玩家可以公开邀请另一名存活玩家一同拜访说书人(与之前不同)，说书人会给他们一个需共同完成的任务：直到当天黄昏，如果两名玩家阵营相同且完成了该任务，当晚他们中的其中一名玩家会获得一条正确信息；如果两名玩家阵营不同且完成了该任务，当晚他们中的善良玩家会获得一条错误信息；如果该任务没有完成，则不会获得任何信息。",
+    "image": "/scripts/assets/community/a60a5221be8f8630a0b3f265e87366ea134580d0c1a2f4edbef7b7348674004f.png",
+    "setup": false,
+    "reminders": [],
+    "edition": "custom"
+  },
+  {
+    "id": "112222222299999222222222222222333_meta",
+    "image": "/scripts/assets/community/b65e3655d9d77d36bd930498c955f510c20bc04229b43bac241738a2a5580d69.png",
+    "name": "大小姐&骏马使者",
+    "team": "a jinxed",
+    "setup": false,
+    "ability": "当恶魔攻击大小姐时，大小姐的替死能力可能会导致骏马使者保护的玩家死亡，且骏马使者不会死亡。",
+    "edition": "custom"
+  }
+]

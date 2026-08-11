@@ -1,0 +1,456 @@
+[
+  {
+    "id": "_meta",
+    "name": "从死亡开始",
+    "author": "小巷",
+    "logo": "/scripts/assets/community/a957cef7bb2cd4a608e3d864e9fd882e93fefefd34d7d61781f1b7b179e39edf.png",
+    "tags": [],
+    "version": "",
+    "issue": 930
+  },
+  {
+    "id": "senglv_tpi",
+    "name": "僧侣",
+    "image": [
+      "/scripts/assets/community/8ada5aa24615f5b872e8e30ad9f262bd47cab52d130d6395c6dfef2c50814c18.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择除你以外的一名玩家：当晚恶魔的负面能力对他无效。",
+    "firstNight": 0,
+    "otherNight": 2200,
+    "otherNightReminder": "唤醒僧侣，让他选择除自己以外的一名玩家，那名玩家今晚免受恶魔负面效果影响。",
+    "reminders": [
+      "保护"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "dutu_tpi",
+    "name": "赌徒",
+    "image": [
+      "/scripts/assets/community/5536d3890daebaf714a08f04bc52729145f4633dc2ef21da90534d7517e445cd.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+    "firstNight": 0,
+    "otherNight": 2000,
+    "otherNightReminder": "唤醒赌徒，让他进行猜测。如果猜测错误，他死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shenyuzhe_tpi",
+    "name": "神谕者",
+    "image": [
+      "/scripts/assets/community/1511433a05316487b1506bf003dd2ab58893c450ec883869788d421856f8a2ee.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+    "firstNight": 0,
+    "otherNight": 11800,
+    "otherNightReminder": "唤醒神谕者，对他用手势比划数字来告知他当前死亡玩家中邪恶玩家的数量。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "banshouren_tpi",
+    "name": "半兽人",
+    "image": [
+      "/scripts/assets/community/349dc2441d586f4d615a5bda501dcbbde185fe1b6b91c783224ff70d51fe02ef.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名存活玩家：如果他是善良的，他死亡，并且当晚恶魔不会造成死亡。\n会有一名善良玩家始终被当作邪恶阵营。",
+    "firstNight": 0,
+    "otherNight": 4400,
+    "otherNightReminder": "唤醒半兽人，让他选择一名玩家。如果该玩家是善良玩家，该玩家死亡，且当晚恶魔不会造成死亡。",
+    "reminders": [
+      "失足",
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zajiyanyuan_tpi",
+    "name": "杂技演员",
+    "image": [
+      "/scripts/assets/community/edf15c2e89b9dd530c5dd8f43cbd23fee8d4988409909a1fc263cfc5030971d6.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
+    "firstNight": 0,
+    "otherNight": 2050,
+    "otherNightReminder": "唤醒杂技演员，让他选择一名玩家。如果当晚这名玩家醉酒或中毒，杂技演员死亡。",
+    "reminders": [
+      "被选择",
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jiaoshou_tpi",
+    "name": "教授",
+    "image": [
+      "/scripts/assets/community/b66ce66706bf0ccc4a09626b31ab69f68b70be9646a6491c3a5818fe6b4d1d20.png"
+    ],
+    "team": "townsfolk",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
+    "firstNight": 0,
+    "otherNight": 10500,
+    "otherNightReminder": "如果教授未曾使用能力且在城镇广场上有玩家死亡，唤醒教授，他可以摇头不使用能力，或选择一名已死亡的玩家。如果该玩家是镇民，该玩家被起死回生。",
+    "reminders": [
+      "复活",
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhenjiezhe_tpi",
+    "name": "贞洁者",
+    "image": [
+      "/scripts/assets/community/e066b338dafcfefc630b5a4b4f60a1f80401f3c1dd79a34914e1220b91b3792b.png"
+    ],
+    "team": "townsfolk",
+    "ability": "当你首次被提名时，如果提名你的玩家是镇民，他立刻被处决。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yinyoushiren_tpi",
+    "name": "吟游诗人",
+    "image": [
+      "/scripts/assets/community/63cd05151df991524226cb74e34e50f85dca51b8e9ec4acdc34a411182ea09d9.png"
+    ],
+    "team": "townsfolk",
+    "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "全员醉酒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "hepingzhuyizhe_tpi",
+    "name": "和平主义者",
+    "image": [
+      "/scripts/assets/community/805e5088fa06953dc2cb82e9e14501efcd8eaa77c2088a2b9111e07d15bbb477.png"
+    ],
+    "team": "townsfolk",
+    "ability": "被处决的善良玩家可能不会死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "nongchen_tpi",
+    "name": "弄臣",
+    "image": [
+      "/scripts/assets/community/eea1ef42b95ed930a43cafe06e43254b8870bd939157dcf7f0bc5f27ffb6a0a8.png"
+    ],
+    "team": "townsfolk",
+    "ability": "当你首次将要死亡时，你不会死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yingsuzhongzhizhe_tpi",
+    "name": "罂粟种植者",
+    "image": [
+      "/scripts/assets/community/f35454f25c86c6d81b2ce9220272693282be1fa83bd2d95b4836fb3b94487939.png"
+    ],
+    "team": "townsfolk",
+    "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。",
+    "firstNight": 700,
+    "firstNightReminder": "如果罂粟种植者在场，跳过今晚的爪牙信息和恶魔信息环节。",
+    "otherNight": 900,
+    "otherNightReminder": "如果罂粟种植者死于白天，插入执行爪牙信息和恶魔信息（不包含恶魔伪装）流程。如果罂粟种植者死于夜晚，则在当前玩家行动结束后立即执行相关流程。",
+    "reminders": [
+      "唤醒邪恶"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "shouyaren_tpi",
+    "name": "守鸦人",
+    "image": [
+      "/scripts/assets/community/f266688c51d6f67499d91df3cf10f7dfe9dc7e940580f24522da1c32cafca6d5.png"
+    ],
+    "team": "townsfolk",
+    "ability": "如果你在夜晚死亡，你会被唤醒，然后你要选择一名玩家：你会得知他的角色。",
+    "firstNight": 0,
+    "otherNight": 9800,
+    "otherNightReminder": "如果守鸦人死于夜晚，唤醒守鸦人，让他选择一名玩家。对他展示这名玩家的角色标记。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "baosangnvyao_tpi",
+    "name": "报丧女妖",
+    "image": [
+      "/scripts/assets/community/9cf18123d029cca27a4c13eb919c2457ac868268a53f9c88674ed23c62b44bdd.png"
+    ],
+    "team": "townsfolk",
+    "ability": "如果恶魔杀死了你，所有玩家都会得知此事。从现在开始，你每天可以发起两次提名，每次投票时可以投两票。",
+    "firstNight": 0,
+    "otherNight": 10400,
+    "otherNightReminder": "如果恶魔杀死了报丧女妖，宣布“报丧女妖觉醒了”，并使用“具有能力”标记报丧女妖。",
+    "reminders": [
+      "具有能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "lifashi_tpi",
+    "name": "理发师",
+    "image": [
+      "/scripts/assets/community/5e1b28ffdd699aa122a3d36b2ae8a3efc2bb85d8a9d0b43479cfe66b999be710.png"
+    ],
+    "team": "outsider",
+    "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+    "firstNight": 0,
+    "otherNight": 9600,
+    "otherNightReminder": "如果理发师死于白天，唤醒恶魔让他决定是否使用理发师的能力。如果理发师死于夜晚，（如果让除攻击理发师以外的恶魔进行选择则需要等当前恶魔入睡后）让一名恶魔决定是否使用理发师的能力。",
+    "reminders": [
+      "今晚理发"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "jixingxiuyanyuan_tpi",
+    "name": "畸形秀演员",
+    "image": [
+      "/scripts/assets/community/dab0a30a98153b038b6cbc141f76781eee525716bc53f7d4348f7af1e2fd4e5e.png"
+    ],
+    "team": "outsider",
+    "ability": "如果你“疯狂”地证明自己是外来者，你可能被处决。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "moxiang_tpi",
+    "name": "魔像",
+    "image": [
+      "/scripts/assets/community/773cbc5d0462ca083920c58e062882921784185767ab0b4b1262b28b521cfec0.png"
+    ],
+    "team": "outsider",
+    "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "无法提名"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yinshi_tpi",
+    "name": "隐士",
+    "image": [
+      "/scripts/assets/community/1de369f8482f29a435ca69bf06dfe7867f77a14ee8592671a05362847e5e6dc6.png"
+    ],
+    "team": "outsider",
+    "ability": "你拥有所有外来者能力。[-0~1外来者]",
+    "firstNight": 0,
+    "otherNight": 0,
+    "remindersGlobal": [
+      "1",
+      "2",
+      "3",
+      "是隐士"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "hongchunnvlang_tpi",
+    "name": "红唇女郎",
+    "image": [
+      "/scripts/assets/community/5f19eab1c385aa54ba868e3056e6faadc268007cc81fa34ae56625644c6d323d.png"
+    ],
+    "team": "minion",
+    "ability": "如果大于等于五名玩家存活时（旅行者不计算在内）恶魔死亡，你变成那个恶魔。",
+    "firstNight": 0,
+    "otherNight": 3700,
+    "otherNightReminder": "如果红唇女郎的能力曾被触发，唤醒她并告知她变成了哪个恶魔角色。",
+    "reminders": [
+      "是恶魔"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "cike_tpi",
+    "name": "刺客",
+    "image": [
+      "/scripts/assets/community/1b46fb09aef0086e420fbbde961e39f9c6052fab58f1564fc174c865ef3f4875.png"
+    ],
+    "team": "minion",
+    "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。",
+    "firstNight": 0,
+    "otherNight": 8600,
+    "otherNightReminder": "如果刺客未曾使用能力，唤醒刺客，他可以摇头不使用能力，或选择攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "失去能力"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "weiqier_tpi",
+    "name": "维齐尔",
+    "image": [
+      "/scripts/assets/community/2a8f07d2020ef31ac9ae7e5de0c1c3b36972699b09542a0b6108ad2acb3b6799.png"
+    ],
+    "team": "minion",
+    "ability": "所有玩家都知道你是维齐尔。\n你在白天时不会死亡。\n如果一次提名中有善良玩家投票，你可以让被提名者立即被处决。",
+    "firstNight": 12900,
+    "firstNightReminder": "如果维齐尔在场，告知所有人谁是维齐尔。",
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "zhumou_tpi",
+    "name": "主谋",
+    "image": [
+      "/scripts/assets/community/7c91e666829c1e84011c31b03a1c394f5f80ec33dd8b255aebfc55c2c23d7a4e.png"
+    ],
+    "team": "minion",
+    "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "xiaoemo_tpi",
+    "name": "小恶魔",
+    "image": [
+      "/scripts/assets/community/f396c979eb2dfb969b043f707907dd2e1b2bc4f2d75356a577778c29b1040866.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你以这种方式自杀，一名爪牙会变成小恶魔。",
+    "firstNight": 0,
+    "otherNight": 4900,
+    "otherNightReminder": "唤醒小恶魔，让他攻击一名玩家。如果他成功自杀，则在他入睡后通知一名爪牙角色变化。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "wanggumo_tpi",
+    "name": "亡骨魔",
+    "image": [
+      "/scripts/assets/community/cc2c9c775d49dd0b0d1e55c7ddad05ca1c8b5e085296f7212fc0c620b9e5bf14.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]",
+    "firstNight": 0,
+    "otherNight": 6100,
+    "otherNightReminder": "唤醒亡骨魔，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "保留能力",
+      "中毒"
+    ],
+    "setup": true,
+    "edition": "custom"
+  },
+  {
+    "id": "woliu_tpi",
+    "name": "涡流",
+    "image": [
+      "/scripts/assets/community/506a5cf6ef8e85391c3f76ce4f24892410cd01c2e2864d95a36f072087e7255f.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n镇民玩家的能力都会产生错误信息。\n如果白天没人被处决，邪恶阵营获胜。",
+    "firstNight": 0,
+    "otherNight": 5600,
+    "otherNightReminder": "唤醒涡流，让他攻击一名玩家。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "nuodashi_tpi",
+    "name": "诺-达鲺",
+    "image": [
+      "/scripts/assets/community/ec4254b4d6683b9639a9f909ffc56ee8deb2ff7cb1840c94f75808efb904c2b2.png"
+    ],
+    "team": "demon",
+    "ability": "每个夜晚*，你要选择一名玩家：他死亡。\n与你邻近的两名镇民中毒。",
+    "firstNight": 0,
+    "otherNight": 5500,
+    "otherNightReminder": "唤醒诺-达鲺，让他攻击一名玩家。",
+    "reminders": [
+      "死亡",
+      "中毒"
+    ],
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "yiwangzhimen_tpi",
+    "name": "遗忘之门",
+    "image": [
+      "/scripts/assets/community/df4b2afd1e1b50d9f5bf27bbff9f2e9dadee2547ca53da80934984f8782c9d81.png"
+    ],
+    "team": "fabled",
+    "ability": "玩家不知道自己的角色和阵营。当他们死亡时才会得知这些信息。",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "dengshen1_tpi",
+    "name": "报丧女妖&涡流",
+    "image": [
+      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+    ],
+    "team": "a jinxed",
+    "ability": "如果恶魔杀死报丧女妖时涡流在场，玩家仍然会得知正确信息。",
+    "setup": false,
+    "edition": "custom"
+  },
+  {
+    "id": "dengshen2_tpi",
+    "name": "亡骨魔&主谋",
+    "image": [
+      "/scripts/assets/community/ebb6f9a928bcadb6529c758a044d7fad590e517a64e6982813689ee5e5d22749.png"
+    ],
+    "team": "a jinxed",
+    "ability": "如果亡骨莫死亡，被亡骨魔杀死的主谋依然保留能力。",
+    "setup": false,
+    "edition": "custom"
+  }
+]
