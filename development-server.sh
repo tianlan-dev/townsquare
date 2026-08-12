@@ -75,7 +75,9 @@ start_server() {
       echo "Development server is not running on port $app_port"
     fi
     if [[ "$needs_build" == "true" ]]; then
-      npm run build
+      # The local server serves /scripts directly from public/scripts, so avoid
+      # copying the multi-gigabyte script library into dist on every start.
+      TOWNSQUARE_EXTERNAL_SCRIPTS=1 npm run build
     fi
     exec npm run start
   ' bash "$SCRIPT_DIR" "$action" "$APP_PORT" "$NEEDS_BUILD" >"$log_file" 2>&1 &

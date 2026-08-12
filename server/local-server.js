@@ -177,12 +177,10 @@ function scriptNameData(name) {
   };
 }
 
-const SCRIPT_CATALOG_CACHE_MS = 30000;
-let scriptCatalogCache = { expiresAt: 0, value: [] };
+let scriptCatalogCache = null;
 
 function listScripts() {
-  const now = Date.now();
-  if (scriptCatalogCache.expiresAt > now) return scriptCatalogCache.value;
+  if (scriptCatalogCache) return scriptCatalogCache;
   if (!fs.existsSync(scriptsDir)) return [];
   const scripts = fs
     .readdirSync(scriptsDir)
@@ -213,11 +211,8 @@ function listScripts() {
       }
     })
     .filter(Boolean);
-  scriptCatalogCache = {
-    expiresAt: now + SCRIPT_CATALOG_CACHE_MS,
-    value: scripts,
-  };
-  return scripts;
+  scriptCatalogCache = scripts;
+  return scriptCatalogCache;
 }
 
 function setStaticCacheHeaders(res, filePath) {
