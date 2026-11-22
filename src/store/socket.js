@@ -1974,6 +1974,7 @@ class LiveSession {
     if (this._isSpectator) return;
     // const property = "id";
     const players = this._store.state.players.players;
+    if (!Number.isInteger(index) || index >= players.length) return;
     if (index >= 0 && players[index].id && players[index].id !== value) return;
     // remove previous seat
     const oldIndex = players.findIndex(({ id }) => id === value);

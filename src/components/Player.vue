@@ -593,7 +593,8 @@ export default {
     avatarSrc(image) {
       const value = String(image || DEFAULT_PLAYER_AVATARS.female);
       if (value.startsWith("data:") || value.startsWith("blob:")) return value;
-      if (value.startsWith("/")) return value;
+      // 只接受本站路径，// 或 /\ 开头会被浏览器当成外站地址。
+      if (/^\/(?![/\\])/.test(value)) return value;
       if (/^https?:/i.test(value) && this.shouldUseImageUrl(value)) {
         return value;
       }

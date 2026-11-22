@@ -35,6 +35,11 @@ EOF
 ./production-docker.sh
 ```
 
+镜像基于 `node:22-bookworm-slim`（两阶段构建）。容器以 `node` 用户运行，使用只读根文件系统、
+`--tmpfs /tmp`、`--cap-drop ALL`、`--security-opt no-new-privileges:true`，并限制
+`--memory 512m`、`--cpus 1`、`--pids-limit 128`；端口只绑定 `127.0.0.1`，唯一可写的挂载是
+`local-data/`。
+
 ### Local Development
 
 先创建本地 development 环境文件。这个文件会被 Git 忽略：
@@ -55,6 +60,35 @@ development 启动脚本会读取 `.env.development.local`，停止占用同一�
 本地服务端提供页面、静态资源、头像上传、房间 WebSocket 和大厅 WebSocket。
 
 玩家上传的头像会保存到本机 `local-data/avatars`，该目录不会提交到仓库。`public/avatars` 只用于内置默认头像。
+
+### 服务端安全限制
+
+以下默认值都可以用同名环境变量覆盖（写在 `.env.production.local` 中）：
+
+| 环境变量 | 默认值 | 作用 |
+| --- | --- | --- |
+| `WS_MAX_PAYLOAD_BYTES` | 512 KB | 房间 WebSocket 单条消息上限，超限直接断开 |
+| `LOBBY_MAX_PAYLOAD_BYTES` | 16 KB | 大厅 WebSocket 单条消息上限，超限直接断开 |
+| `INVALID_MESSAGE_LIMIT` | 5 | 单个连接发送无法解析的消息达到该次数即断开 |
+| `MAX_AVATAR_BYTES` | 256 KB | 单个头像文件上限 |
+| `MAX_AVATAR_DIR_BYTES` | 200 MB | `local-data/avatars` 总配额，超出后拒绝新上传 |
+| `LOG_MAX_BYTES` | 5 MB | 访问日志单文件上限，超过后轮转 |
+| `LOG_KEEP_FILES` | 3 | 访问日志保留的旧文件数（`.1` 到 `.3`） |
+
+其他行为：
+
+- 每条消息先计入限流再解析 JSON；连续 3 次被限流的连接会被断开。
+- 头像必须是 webp、png 或 jpeg，服务端按文件头校验真实格式；每个玩家只保留一个头像文件。
+  说书人只能删除自己房间内玩家的头像。
+- 服务端会清洗玩家消息：代词最多 40 个字符，投票只接受布尔值或 0–99 的票数，
+  `joinCheck`、`passwordCheck`、`usingRole` 只转发白名单字段，座位号限制在 0–30。
+- 头像地址只接受本站资源：头像文件名（可带 `?v=`）、`/avatars/...`、
+  `/scripts/assets/<剧本>/<sha256>.<ext>` 和较短的位图 data URL；外部网址和 `//` 开头的地址会被清空。
+- 房间是否需要密码只在建房时确定，密码用定长比较校验。
+- 访问日志写在 `local-data/logs/`，按大小轮转。
+- HTTP 响应带 `X-Content-Type-Options: nosniff`、`X-Frame-Options: SAMEORIGIN`、
+  `Content-Security-Policy: frame-ancestors 'self'` 和 `Referrer-Policy: strict-origin-when-cross-origin`，
+  不再返回 `X-Powered-By`。
 
 ## Package scripts
 

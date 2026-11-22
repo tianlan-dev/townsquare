@@ -15,6 +15,9 @@ const avatarDir = path.join(dataDir, "avatars");
 const logsDir = path.join(dataDir, "logs");
 const playerAccessLogPath = path.join(logsDir, "player-access.log");
 const roomAccessLogPath = path.join(logsDir, "room-access.log");
+// 访问日志按大小轮转：超过 LOG_MAX_BYTES 时改名为 .1、.2……，最多保留 LOG_KEEP_FILES 份旧文件。
+const LOG_MAX_BYTES = envPositiveInteger("LOG_MAX_BYTES", 5 * 1024 * 1024);
+const LOG_KEEP_FILES = envPositiveInteger("LOG_KEEP_FILES", 3);
 if (!process.env.PORT) {
   throw new Error("PORT environment variable is required.");
 }
@@ -72,6 +75,16 @@ clearAvatarDirectory();
 scheduleAvatarCleanup();
 
 const app = express();
+app.disable("x-powered-by");
+// 应用不使用查询参数，关闭 qs 解析，减少攻击面。
+app.set("query parser", false);
+app.use((req, res, next) => {
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("X-Frame-Options", "SAMEORIGIN");
+  res.setHeader("Content-Security-Policy", "frame-ancestors 'self'");
+  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  next();
+});
 const staticRoot = fs.existsSync(path.join(distDir, "index.html"))
   ? distDir
   : publicDir;
@@ -263,11 +276,21 @@ const HOUR_MS = 60 * MINUTE_MS;
 const RATE_LIMITED_REASON = "rateLimited";
 const WS_MAX_PAYLOAD_BYTES = envPositiveInteger(
   "WS_MAX_PAYLOAD_BYTES",
-  8 * 1024 * 1024,
+  512 * 1024,
 );
-const MAX_AVATAR_BYTES = envPositiveInteger(
-  "MAX_AVATAR_BYTES",
-  5 * 1024 * 1024,
+const LOBBY_MAX_PAYLOAD_BYTES = envPositiveInteger(
+  "LOBBY_MAX_PAYLOAD_BYTES",
+  16 * 1024,
+);
+const INVALID_MESSAGE_LIMIT = envPositiveInteger("INVALID_MESSAGE_LIMIT", 5);
+const RATE_LIMIT_STRIKE_LIMIT = 3;
+const MAX_SEAT_INDEX = 30;
+const MAX_PRONOUNS_CHARS = 40;
+const MAX_PASSWORD_CHARS = 128;
+const MAX_AVATAR_BYTES = envPositiveInteger("MAX_AVATAR_BYTES", 256 * 1024);
+const MAX_AVATAR_DIR_BYTES = envPositiveInteger(
+  "MAX_AVATAR_DIR_BYTES",
+  200 * 1024 * 1024,
 );
 const MAX_AVATAR_BASE64_CHARS = Math.ceil(MAX_AVATAR_BYTES / 3) * 4;
 const MAX_AVATAR_DATA_URL_CHARS = envPositiveInteger(
@@ -344,6 +367,11 @@ const wss = new WebSocket.Server({
   noServer: true,
   maxPayload: WS_MAX_PAYLOAD_BYTES,
 });
+// 大厅连接无需登录，单独用更小的消息上限，超限由 ws 直接断开。
+const lobbyWss = new WebSocket.Server({
+  noServer: true,
+  maxPayload: LOBBY_MAX_PAYLOAD_BYTES,
+});
 const players = new Map();
 const rooms = new Map();
 const lobbies = new Set();
@@ -375,7 +403,9 @@ function displayName(name) {
 }
 
 function displayGender(gender) {
-  return String(gender || "").trim().substr(0, 40);
+  return String(gender || "")
+    .trim()
+    .substr(0, 40);
 }
 
 function safePlayerId(playerId) {
@@ -506,7 +536,9 @@ function removeActiveConnection(ip) {
 
 function rejectUpgrade(socket, statusCode, message, retryAfterMs = 0) {
   const retryHeader =
-    retryAfterMs > 0 ? `Retry-After: ${Math.ceil(retryAfterMs / 1000)}\r\n` : "";
+    retryAfterMs > 0
+      ? `Retry-After: ${Math.ceil(retryAfterMs / 1000)}\r\n`
+      : "";
   try {
     socket.write(
       `HTTP/1.1 ${statusCode} ${message}\r\n` +
@@ -526,8 +558,39 @@ function handleSocketError(err) {
   if (err) console.error("WebSocket error:", err);
 }
 
+const logSizes = new Map();
+
+function rotateLogIfNeeded(filePath, incomingBytes) {
+  let size = logSizes.get(filePath);
+  if (size === undefined) {
+    try {
+      size = fs.statSync(filePath).size;
+    } catch (e) {
+      size = 0;
+    }
+  }
+  if (size > 0 && size + incomingBytes > LOG_MAX_BYTES) {
+    try {
+      fs.rmSync(`${filePath}.${LOG_KEEP_FILES}`, { force: true });
+      for (let index = LOG_KEEP_FILES - 1; index >= 1; index--) {
+        const source = `${filePath}.${index}`;
+        if (fs.existsSync(source)) {
+          fs.renameSync(source, `${filePath}.${index + 1}`);
+        }
+      }
+      fs.renameSync(filePath, `${filePath}.1`);
+    } catch (e) {
+      console.error(`Failed to rotate ${path.basename(filePath)}:`, e);
+    }
+    size = 0;
+  }
+  logSizes.set(filePath, size + incomingBytes);
+}
+
 function appendJsonLine(filePath, record) {
-  fs.appendFile(filePath, `${JSON.stringify(record)}\n`, (err) => {
+  const line = `${JSON.stringify(record)}\n`;
+  rotateLogIfNeeded(filePath, Buffer.byteLength(line));
+  fs.appendFile(filePath, line, (err) => {
     if (err) console.error(`Failed to write ${path.basename(filePath)}:`, err);
   });
 }
@@ -674,8 +737,8 @@ function createRoomRecord(roomCode, storyteller, params = {}) {
     storytellerId: storyteller.playerId,
     hostName: storyteller.name || "说书人",
     hostAvatar: "",
-    hasPassword: !!params.password,
-    password: String(params.password || ""),
+    hasPassword: !!safePassword(params.password),
+    password: safePassword(params.password),
     host: null,
     clients: new Map(),
     members: new Map([[storyteller.playerId, storyteller.name || "说书人"]]),
@@ -700,8 +763,7 @@ function isRoomExpired(room) {
   if (!room) return true;
   const storyteller = players.get(room.storytellerId);
   return (
-    !storyteller ||
-    now() - storyteller.lastHeartbeat > PLAYER_HEARTBEAT_TTL_MS
+    !storyteller || now() - storyteller.lastHeartbeat > PLAYER_HEARTBEAT_TTL_MS
   );
 }
 
@@ -816,7 +878,93 @@ function safeSeatIndex(value, { allowVacate = false } = {}) {
   const seat = Number(value);
   if (!Number.isInteger(seat)) return null;
   if (seat === -1 && allowVacate) return seat;
-  return seat >= 0 ? seat : null;
+  return seat >= 0 && seat <= MAX_SEAT_INDEX ? seat : null;
+}
+
+function safePronouns(value) {
+  return typeof value === "string" ? value.substr(0, MAX_PRONOUNS_CHARS) : "";
+}
+
+// 投票值是票数权重（0 表示不投，部分角色可多票），也兼容旧客户端的布尔值。
+function safeVoteValue(value) {
+  if (typeof value === "boolean") return value;
+  if (Number.isInteger(value) && value >= 0 && value <= 99) return value;
+  return 0;
+}
+
+function safePassword(value) {
+  return typeof value === "string" ? value.substr(0, MAX_PASSWORD_CHARS) : "";
+}
+
+function safeFeedback(value) {
+  if (typeof value === "boolean" || typeof value === "number") return value;
+  if (typeof value === "string" && value.length <= 64) return value;
+  return false;
+}
+
+// 头像只接受本站资源：上传或内置头像文件名（可带 ?v=）、/avatars/ 路径、
+// 剧本资源 /scripts/assets/<剧本>/<sha256>.<ext>，以及小于 2048 字符的位图 data URL。
+// 绝对地址只保留路径部分，外部网址和 // 开头的地址一律丢弃。
+const AVATAR_FILE_PATTERN = /^[A-Za-z0-9_-]{1,80}\.(?:webp|png|jpe?g)$/;
+const AVATAR_VERSION_PATTERN = /^\?v=\d{1,16}$/;
+const LOCAL_AVATAR_PATH_PATTERNS = [
+  /^\/avatars\/[A-Za-z0-9_-]{1,80}\.(?:webp|png|jpe?g)$/,
+  /^\/scripts\/assets\/[A-Za-z0-9._-]{1,160}\/[a-f0-9]{64}\.(?:webp|png|jpe?g|gif|avif)$/,
+];
+const AVATAR_DATA_URL_PATTERN =
+  /^data:image\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/;
+
+function safeAvatarValue(value) {
+  if (typeof value !== "string" || !value || value.length > 2048) return "";
+  if (AVATAR_DATA_URL_PATTERN.test(value)) return value;
+  const queryIndex = value.indexOf("?");
+  const bareName = queryIndex >= 0 ? value.slice(0, queryIndex) : value;
+  const bareQuery = queryIndex >= 0 ? value.slice(queryIndex) : "";
+  if (
+    AVATAR_FILE_PATTERN.test(bareName) &&
+    (!bareQuery || AVATAR_VERSION_PATTERN.test(bareQuery))
+  ) {
+    return value;
+  }
+  let parsed;
+  try {
+    parsed = new URL(value, "http://townsquare.local");
+  } catch (e) {
+    return "";
+  }
+  if (!["http:", "https:"].includes(parsed.protocol)) return "";
+  if (
+    !LOCAL_AVATAR_PATH_PATTERNS.some((pattern) => pattern.test(parsed.pathname))
+  ) {
+    return "";
+  }
+  const search = AVATAR_VERSION_PATTERN.test(parsed.search)
+    ? parsed.search
+    : "";
+  return `${parsed.pathname}${search}`;
+}
+
+function sanitizeHostPayload(command, params) {
+  if (!params || typeof params !== "object") return params;
+  if (command === "gs") {
+    if (Array.isArray(params.gamestate)) {
+      params.gamestate.forEach((playerState) => {
+        if (
+          playerState &&
+          typeof playerState === "object" &&
+          "image" in playerState
+        ) {
+          playerState.image = safeAvatarValue(playerState.image);
+        }
+      });
+    }
+    if ("storytellerAvatar" in params) {
+      params.storytellerAvatar = safeAvatarValue(params.storytellerAvatar);
+    }
+  } else if (command === "player" && params.property === "image") {
+    params.value = safeAvatarValue(params.value);
+  }
+  return params;
 }
 
 function roomPlayer(room, playerId) {
@@ -833,7 +981,11 @@ function clearSeat(room, seat) {
   if (!room || !Number.isInteger(seat) || seat < 0) return;
   room.members.forEach((playerName, playerId) => {
     const player = players.get(playerId);
-    if (player && player.currentRoomId === room.channel && player.seat === seat) {
+    if (
+      player &&
+      player.currentRoomId === room.channel &&
+      player.seat === seat
+    ) {
       player.seat = null;
     }
   });
@@ -857,7 +1009,9 @@ function setPlayerSeat(room, playerId, seat) {
 function syncSeatsFromGamestate(room, params) {
   const gamestate = params && params.gamestate;
   if (!Array.isArray(gamestate)) return;
-  room.members.forEach((playerName, playerId) => clearPlayerSeat(room, playerId));
+  room.members.forEach((playerName, playerId) =>
+    clearPlayerSeat(room, playerId),
+  );
   gamestate.forEach((playerState, index) => {
     const playerId = playerState && playerState.id;
     if (playerId) setPlayerSeat(room, playerId, index);
@@ -948,7 +1102,10 @@ function playerSeat(room, socket) {
 
 function normalizePlayerRoomPayload(room, sender, command, params) {
   if (command === "ping") {
-    const latency = Array.isArray(params) ? params[1] : undefined;
+    const latency =
+      Array.isArray(params) && Number.isFinite(params[1])
+        ? params[1]
+        : undefined;
     return [sender.playerId, latency];
   }
 
@@ -957,8 +1114,8 @@ function normalizePlayerRoomPayload(room, sender, command, params) {
   const requestedSeat = safeSeatIndex(params[0]);
   if (requestedSeat !== seat) return INVALID_PAYLOAD;
 
-  if (command === "pronouns") return [seat, params[1]];
-  if (command === "vote") return [seat, params[1], false];
+  if (command === "pronouns") return [seat, safePronouns(params[1])];
+  if (command === "vote") return [seat, safeVoteValue(params[1]), false];
   return INVALID_PAYLOAD;
 }
 
@@ -974,25 +1131,34 @@ function normalizePlayerDirectPayload(room, sender, command, params) {
       return sender.playerId;
     case "joinCheck":
     case "passwordCheck": {
-      const cleanParams =
+      const password =
         params && typeof params === "object" && !Array.isArray(params)
-          ? { ...params }
-          : {};
-      cleanParams.playerId = sender.playerId;
-      return cleanParams;
+          ? safePassword(params.password)
+          : "";
+      return { playerId: sender.playerId, password };
     }
     case "claim": {
       if (!Array.isArray(params)) return INVALID_PAYLOAD;
       const seat = safeSeatIndex(params[0], { allowVacate: true });
       if (seat === null) return INVALID_PAYLOAD;
-      const image = typeof params[3] === "string" ? params[3].substr(0, 2048) : "";
+      const image = safeAvatarValue(params[3]);
       return [seat, sender.playerId, player.name || "玩家", image];
     }
     case "usingRole": {
       if (!params || typeof params !== "object" || Array.isArray(params)) {
         return INVALID_PAYLOAD;
       }
-      return { ...params, playerId: sender.playerId };
+      if (
+        typeof params.role !== "string" ||
+        !/^[A-Za-z0-9_-]{1,40}$/.test(params.role)
+      ) {
+        return INVALID_PAYLOAD;
+      }
+      return {
+        role: params.role,
+        value: params.value === true,
+        playerId: sender.playerId,
+      };
     }
     case "vote": {
       if (!Array.isArray(params)) return INVALID_PAYLOAD;
@@ -1000,7 +1166,7 @@ function normalizePlayerDirectPayload(room, sender, command, params) {
       if (seat === null || safeSeatIndex(params[0]) !== seat) {
         return INVALID_PAYLOAD;
       }
-      return [seat, params[1], false];
+      return [seat, safeVoteValue(params[1]), false];
     }
     case "voteReady":
     case "voteReadyDismissed": {
@@ -1139,10 +1305,7 @@ function updateHostRoomInfo(room, params = {}) {
   if (!room || typeof params !== "object" || params === null) return;
   if (params.name !== undefined) room.hostName = displayName(params.name);
   if (params.storytellerAvatar !== undefined) {
-    room.hostAvatar =
-      typeof params.storytellerAvatar === "string"
-        ? params.storytellerAvatar.substr(0, 2048)
-        : "";
+    room.hostAvatar = safeAvatarValue(params.storytellerAvatar);
   }
   const playerCount = Number(params.playerCount);
   if (Number.isInteger(playerCount) && playerCount >= 0) {
@@ -1151,7 +1314,7 @@ function updateHostRoomInfo(room, params = {}) {
   if (params.isStorytelling !== undefined) {
     room.isStorytelling = !!params.isStorytelling;
   }
-  room.hasPassword = !!params.hasPassword;
+  // hasPassword 只在建房时由服务器根据密码设置，不再信任说书人心跳上报的值。
 }
 
 function sendLobbyRooms(socket, refreshHosts = false) {
@@ -1283,13 +1446,65 @@ function cleanupExpiredPlayers() {
   pruneRateLimitBuckets(timestamp);
 }
 
+const PNG_SIGNATURE = Buffer.from([
+  0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a,
+]);
+
+function detectImageType(buffer) {
+  if (
+    buffer.length >= 12 &&
+    buffer.toString("ascii", 0, 4) === "RIFF" &&
+    buffer.toString("ascii", 8, 12) === "WEBP"
+  ) {
+    return "webp";
+  }
+  if (buffer.length >= 8 && buffer.subarray(0, 8).equals(PNG_SIGNATURE)) {
+    return "png";
+  }
+  if (
+    buffer.length >= 3 &&
+    buffer[0] === 0xff &&
+    buffer[1] === 0xd8 &&
+    buffer[2] === 0xff
+  ) {
+    return "jpeg";
+  }
+  return "";
+}
+
+function playerAvatarFilenames(safeId) {
+  return ["webp", "png", "jpg", "jpeg"].map((ext) => `${safeId}.${ext}`);
+}
+
+function avatarDirectoryBytes(excludedNames = []) {
+  const excluded = new Set(excludedNames);
+  let total = 0;
+  try {
+    fs.readdirSync(avatarDir).forEach((file) => {
+      if (excluded.has(file)) return;
+      try {
+        const stats = fs.statSync(path.join(avatarDir, file));
+        if (stats.isFile()) total += stats.size;
+      } catch (e) {
+        // File vanished between readdir and stat; ignore it.
+      }
+    });
+  } catch (e) {
+    return Infinity;
+  }
+  return total;
+}
+
 function handleUpload(socket, params) {
   const avatarDelete = params && params.deleteAvatar;
   if (Array.isArray(avatarDelete)) {
-    if (!socket.isHost && safePlayerId(avatarDelete[0]) !== socket.playerId) {
-      return;
+    const targetId = safePlayerId(avatarDelete[0]);
+    if (!targetId) return;
+    if (targetId !== socket.playerId) {
+      // 说书人只能删除自己房间内玩家的头像。
+      if (!socket.isHost || !roomPlayer(socket.room, targetId)) return;
     }
-    clearPlayerAvatar(avatarDelete[0]);
+    clearPlayerAvatar(targetId);
     return;
   }
 
@@ -1301,7 +1516,9 @@ function handleUpload(socket, params) {
   if (safeId !== socket.playerId) return;
   if (dataUrl.length > MAX_AVATAR_DATA_URL_CHARS) return;
 
-  const match = dataUrl.match(/^data:image\/(webp|png|jpeg);base64,(.+)$/);
+  const match = dataUrl.match(
+    /^data:image\/(webp|png|jpeg);base64,([A-Za-z0-9+/]+={0,2})$/,
+  );
   if (!match) return;
   if (match[2].length > MAX_AVATAR_BASE64_CHARS) return;
 
@@ -1325,10 +1542,20 @@ function handleUpload(socket, params) {
   }
 
   const buffer = Buffer.from(match[2], "base64");
-  if (buffer.length > MAX_AVATAR_BYTES) return;
+  if (!buffer.length || buffer.length > MAX_AVATAR_BYTES) return;
+  // 按文件头校验真实格式，必须与声明的 MIME 一致。
+  if (detectImageType(buffer) !== match[1]) return;
+
+  const ownFiles = playerAvatarFilenames(safeId);
+  if (avatarDirectoryBytes(ownFiles) + buffer.length > MAX_AVATAR_DIR_BYTES) {
+    console.warn("Avatar directory quota exceeded; upload rejected.");
+    return;
+  }
 
   const ext = match[1] === "jpeg" ? "jpg" : match[1];
   const filename = `${safeId}.${ext}`;
+  // 先删除该玩家其他扩展名的旧头像，每人只保留一份文件。
+  clearPlayerAvatar(safeId);
   fs.writeFileSync(path.join(avatarDir, filename), buffer);
   send(socket, "avatarReceived", `${filename}?v=${Date.now()}`);
 }
@@ -1342,6 +1569,7 @@ function routeDirect(room, sender, messages, feedback = false) {
     if (!isAllowedDirectCommand(sender, target, command)) return;
     let params = payload[1];
     if (sender.isHost) {
+      params = sanitizeHostPayload(command, params);
       syncSeatsFromHostCommand(room, command, params);
     } else {
       params = normalizePlayerDirectPayload(room, sender, command, params);
@@ -1411,18 +1639,32 @@ function isSocketRoomMember(socket) {
   );
 }
 
+function registerInvalidMessage(socket) {
+  socket.invalidMessages = (socket.invalidMessages || 0) + 1;
+  if (socket.invalidMessages >= INVALID_MESSAGE_LIMIT) {
+    socket.close(1008, "Invalid messages");
+  }
+}
+
+function parseSocketMessage(socket, raw) {
+  let message;
+  try {
+    message = JSON.parse(raw);
+  } catch (e) {
+    registerInvalidMessage(socket);
+    return null;
+  }
+  if (!Array.isArray(message) || typeof message[0] !== "string") {
+    registerInvalidMessage(socket);
+    return null;
+  }
+  return message;
+}
+
 function handleSessionMessage(socket, raw) {
   const room = socket.room;
-  let command;
-  let params;
-  let feedback;
 
-  try {
-    [command, params, feedback] = JSON.parse(raw);
-  } catch (e) {
-    return;
-  }
-
+  // 先计数限流再解析 JSON，被限流或格式错误的消息都会计入，屡犯直接断开。
   const messageRate = consumeRateLimits([
     rateLimitRule(
       "sessionMessageSocket",
@@ -1440,10 +1682,18 @@ function handleSessionMessage(socket, raw) {
   if (!messageRate.ok) {
     socket.rateLimitStrikes = (socket.rateLimitStrikes || 0) + 1;
     sendSocketRateLimited(socket, messageRate);
-    if (socket.rateLimitStrikes >= 3) socket.close(1013, "Rate limited");
+    if (socket.rateLimitStrikes >= RATE_LIMIT_STRIKE_LIMIT) {
+      socket.close(1013, "Rate limited");
+    }
     return;
   }
   socket.rateLimitStrikes = 0;
+
+  const message = parseSocketMessage(socket, raw);
+  if (!message) return;
+  const command = message[0];
+  let params = message[1];
+  const feedback = safeFeedback(message[2]);
 
   if (command === "sessionAuth") {
     handleSessionAuth(socket, params);
@@ -1524,6 +1774,7 @@ function handleSessionMessage(socket, raw) {
       }
       if (!isAllowedRoomCommand(socket, command)) break;
       if (socket.isHost) {
+        params = sanitizeHostPayload(command, params);
         syncSeatsFromHostCommand(room, command, params);
       } else {
         params = normalizePlayerRoomPayload(room, socket, command, params);
@@ -1814,7 +2065,10 @@ function handleJoinRoom(socket, params = {}) {
       return;
     }
   }
-  if (room.hasPassword && room.password !== String(params.password || "")) {
+  if (
+    room.hasPassword &&
+    !timingSafeEqualString(room.password, safePassword(params.password))
+  ) {
     consumeRateLimits([passwordFailureRule]);
     sendLobbyResult(socket, "joinRoomResult", requestId, {
       ok: false,
@@ -1894,14 +2148,8 @@ function attachLobby(socket) {
   lobbies.add(socket);
   sendLobbyRooms(socket);
   socket.on("message", (data) => {
-    let command;
-    let params;
-    try {
-      [command, params] = JSON.parse(data.toString());
-    } catch (e) {
-      return;
-    }
-    const requestId = params && params.requestId;
+    const raw = data.toString();
+    // 先计数限流再解析；消息已被 lobbyWss 限制在 LOBBY_MAX_PAYLOAD_BYTES 以内。
     const messageRate = consumeRateLimits([
       rateLimitRule(
         "lobbyMessageSocket",
@@ -1916,10 +2164,20 @@ function attachLobby(socket) {
         MINUTE_MS,
       ),
     ]);
+    const message = parseSocketMessage(socket, raw);
+    if (!message) return;
+    const command = message[0];
+    const params = message[1];
+    const requestId = params && params.requestId;
     if (!messageRate.ok) {
+      socket.rateLimitStrikes = (socket.rateLimitStrikes || 0) + 1;
       sendLobbyRateLimited(socket, command, requestId, messageRate);
+      if (socket.rateLimitStrikes >= RATE_LIMIT_STRIKE_LIMIT) {
+        socket.close(1013, "Rate limited");
+      }
       return;
     }
+    socket.rateLimitStrikes = 0;
     if (command === "refreshRoomsLive") {
       const refreshRate = consumeRateLimits([
         rateLimitRule(
@@ -1986,7 +2244,8 @@ server.on("upgrade", (req, socket, head) => {
     return;
   }
 
-  wss.handleUpgrade(req, socket, head, (ws) => {
+  const targetWss = pathname.startsWith("/ws/") ? wss : lobbyWss;
+  targetWss.handleUpgrade(req, socket, head, (ws) => {
     ws.clientIp = clientIp;
     ws.on("error", handleSocketError);
     addActiveConnection(clientIp);
