@@ -86,6 +86,9 @@ start_container() {
       --tmpfs /tmp \
       --cap-drop ALL \
       --security-opt no-new-privileges:true \
+      --memory 512m \
+      --cpus 1 \
+      --pids-limit 128 \
       --env-file "$ENV_FILE" \
       -p "127.0.0.1:$APP_PORT:$APP_PORT" \
       -v "$SCRIPT_DIR/local-data:/app/local-data" \

@@ -22,7 +22,7 @@
     "scss"
   ],
   "dependencies": {
-    "express": "^4.22.2",
+    "express": "^4.22.3",
     "pinyin-pro": "^3.28.2",
     "ws": "^8.21.0"
   },
